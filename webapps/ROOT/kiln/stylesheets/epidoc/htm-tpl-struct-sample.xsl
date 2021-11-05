@@ -464,7 +464,7 @@
   </xsl:template>
   
   <!-- external links -->
-  <xsl:template match="t:*[starts-with(@ref, 'http')]|t:ref[starts-with(@target, 'http')]|t:ref[starts-with(@corresp, 'http')]">
+  <xsl:template match="t:*[starts-with(@ref, 'http')]|t:ref[starts-with(@target, 'http')]|t:ref[starts-with(@corresp, 'http')]" mode="sample-links">
     <xsl:choose>
       <xsl:when test="starts-with(@ref, 'http')">
         <a>

@@ -15,83 +15,13 @@
   </teiHeader>
   <text>
     <body>
-      <div xml:id="places">
-        <head>Places</head>
-        <div type="headings">
-          <list>
-            <item>Name</item> <!--  (standardized) -->
-            <item>Item entry</item>
-            <!--<item>Name (attested form)</item>-->
-            <!--<item>Keys</item>-->
-            <!--<item>Date</item>-->
-            <item>Documents (in chronological order)</item>
-          </list>
-        </div>
-        <!--<div type="notes">
-          <p></p>
-        </div>-->
-      </div>
       
-      <div xml:id="estates">
-        <head>Estates</head>
+      <div xml:id="divine">
+        <head>Divinities</head>
         <div type="headings">
           <list>
-            <item>Name</item> <!--  (standardized) -->
-            <item>Item entry</item>
-            <!--<item>Name (attested form)</item>-->
-            <!--<item>Keys</item>-->
-            <!--<item>Date</item>-->
-            <item>Documents (in chronological order)</item>
-          </list>
-        </div>
-        <!--<div type="notes">
-          <p></p>
-        </div> -->
-      </div>
-      
-      <div xml:id="people">
-        <head>People</head>
-        <div type="headings">
-          <list>
-            <item>Name</item> <!--  (standardized) -->
-            <item>Item entry</item>
-            <!--<item>Name (attested form)</item>-->
-            <!--<item>Keys</item>-->
-            <!--<item>Date</item>-->
-            <item>Documents (in chronological order)</item>
-          </list>
-        </div>
-        <!--<div type="notes">
-          <p></p>
-        </div>-->
-      </div>
-      
-      <div xml:id="juridical_persons">
-        <head>Juridical persons</head>
-        <div type="headings">
-          <list>
-            <item>Name</item> <!--  (standardized) -->
-            <item>Item entry</item>
-            <!--<item>Name (attested form)</item>-->
-            <!--<item>Keys</item>-->
-            <!--<item>Date</item>-->
-            <item>Documents (in chronological order)</item>
-          </list>
-        </div>
-        <!--<div type="notes">
-          <p></p>
-        </div>-->
-      </div>
-      
-      <div xml:id="keywords">
-        <head>Keywords</head>
-        <div type="headings">
-          <list>
-            <item>Key</item>
-            <!--<item>Attested form</item>-->
-            <!--<item>Date</item>-->
-            <item>Thesaurus entry</item>
-            <item>Documents (in chronological order)</item>
+            <item>Name</item>
+            <item>Documents</item>
           </list>
         </div>
         <!--<div type="notes">

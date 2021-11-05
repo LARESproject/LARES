@@ -28,15 +28,13 @@
     </field>
   </xsl:template>
   
-  <xsl:template match="tei:rs[@key]" mode="facet_mentioned_institutions">
-    <field name="mentioned_institutions">
-      <xsl:value-of select="@key"/>
-    </field>
-  </xsl:template>
-  
   <xsl:template match="tei:persName[@type='divine']" mode="facet_mentioned_divinities">
     <field name="mentioned_divinities">
-      <xsl:value-of select="@key"/>
+      <xsl:choose>
+        <xsl:when test="@ref"><xsl:value-of select="@ref"/></xsl:when>
+        <xsl:when test="@key"><xsl:value-of select="@key"/></xsl:when>
+        <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
+      </xsl:choose>
     </field>
   </xsl:template>
   
@@ -58,7 +56,6 @@
   
   <xsl:template name="extra_fields">
     <xsl:call-template name="field_inscription_type"/>
-    <xsl:call-template name="field_mentioned_institutions"/>
     <xsl:call-template name="field_mentioned_divinities"/>
     <xsl:call-template name="field_person_name"/>
     <xsl:call-template name="field_complete_edition"/>
@@ -66,10 +63,6 @@
   
   <xsl:template name="field_inscription_type">
     <xsl:apply-templates mode="facet_inscription_type" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:summary/@corresp"/>
-  </xsl:template>
-  
-  <xsl:template name="field_mentioned_institutions">
-    <xsl:apply-templates mode="facet_mentioned_institutions" select="//tei:text/tei:body/tei:div[@type='edition']"/>
   </xsl:template>
   
    <xsl:template name="field_mentioned_divinities">

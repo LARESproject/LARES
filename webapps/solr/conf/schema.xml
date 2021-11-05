@@ -154,8 +154,6 @@
    <field name="mentioned_divinities" stored="true" indexed="true"
      multiValued="true" required="false" type="string" />
    <field name="person_name" stored="true" indexed="true"
-     multiValued="true" required="false" type="string" />   
-   <field name="mentioned_institutions" stored="true" indexed="true"
      multiValued="true" required="false" type="string" />
    <field indexed="true" multiValued="true" name="inscription_type"
      required="false" stored="true" type="string" />

@@ -204,12 +204,15 @@
     </field>
   </xsl:template>
 
-  <xsl:template match="tei:placeName[@ref] | tei:geogName[@ref]" mode="facet_mentioned_places">
+  <xsl:template match="tei:placeName | tei:geogName" mode="facet_mentioned_places">
     <field name="mentioned_places">
-      <xsl:value-of select="@ref" />
+      <xsl:choose>
+        <xsl:when test="@ref"><xsl:value-of select="@ref"/></xsl:when>
+        <xsl:when test="@key"><xsl:value-of select="@key"/></xsl:when>
+        <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
+      </xsl:choose>
     </field>
   </xsl:template>
-
   <xsl:template match="text()" mode="facet_mentioned_places" />
 
   <xsl:template name="field_document_id">
