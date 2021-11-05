@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>θυηπολέω</title>
+            </titleStmt>
+            <editionStmt>
+                <edition><ref target="http://sitename.unibo.it">LARES Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>LARES</publisher>
+                <idno type="filename">doc4</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">Lexicon entry</rs>
+                        </summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-10-12" who="kbielawski">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>θυηπολέω thyepoleo θυηπολέω, v.: poet. spełniać ofiarę. Etymologia i
+                        morfologia Czasownik złożony z rzeczownikowego tematu thue-, „ofiara”, i
+                        czasownikowego tematu pole-, „chodzić”. Rzeczownikowy temat thue- jest
+                        derywatem od czasownika θύω i stanowi podstawę rzeczownika θύος, εος, n.
+                        „ofiara” (Hom. Il. 6.270, Od. 15.261; Hes. Op. 338; A. Ag. 1409, Eu. 835).
+                        Czasownik πολέω „poruszać się, przebywać gdzieś” to deverbativum z ie.
+                        tematu *kwel-, „obracać” (Beekes 2010: 1168-1169 s.v. πέλομαι, 1462-1463
+                        s.v. τέλομαι). W złożeniach semantyka pole- ciąży ku „starać się o coś, dbać
+                        o coś, zajmować się czymś”, por. πυρπολέω, „dbać o ogień”, αἰπόλος „pasterz
+                        kóz”. Poświadczenia Czasownik θ. występuje głównie w poezji pisanej metrum
+                        jambicznym (A. Ag. 262; E. Tr. 330, El. 665, 1134, Heracl. 401, S. fr. 47.9
+                        Nauck = Strabo 10.3.14), do której predestynuje go jego budowa iloczasowa
+                        (zauważa to również Casabona, 1966: 121), i jest synonimem θύω. W prozie
+                        klasycznej θ. pojawia się wyłącznie w Państwie Platona (R. 364e), gdzie mowa
+                        jest o wędrownych specjalistach rytualnych, którzy składają ofiary
+                        (θυηπολοῦσιν) podług pism Muzajosa i Orfeusza. Można przypuszczać, że Platon
+                        zaczerpnął to wyrażenie z żargonu samych orfeotelestów, oni natomiast
+                        znaleźli je w tekstach poetyckich, na które się powoływali. Czasownik θ.
+                        odnajdujemy również w tekście wyroczni delfickiej, wygłoszonej jambem i
+                        przekazanej przez Pauzaniasza (4.9.4), oraz na dwóch inskrypcjach. Pierwszą
+                        jest IG XI,4 1299 z III wieku p.n.e., zawierająca opowieść o sprowadzeniu
+                        kultu Sarapisa na Delos (zob. Moyer 2008). Opowieść przekazana jest
+                        częściowo prozą a częściowo heksametrem, a interesujący nas czasownik
+                        odnajdujemy w części metrycznej. Druga inskrypcja to IosPE I² 175 z II w.
+                        n.e. z Olbii, skierowana do Apollona i zlecona przez strategów, którzy
+                        sfinansowali wykończenie świątyni boga. Inskrypcja kończy się dystychem
+                        elegijnym, w którym odnajdujemy czasownik θ. Można więc przypuszczać, że
+                        czasownik θ., podobnie jak pokrewne → θυηπόλος, należał do rejestru
+                        poetyckiego i nie miał charakteru technicznego. W prozie poklasycznej
+                        czasownikiem θ. posługuje się Dionizjusz z Halikarnasu (2.67) w odniesieniu
+                        do obowiązków kultowych rzymskich Westalek. Jest to z pewnością świadomy
+                        zabieg autora, który konsekwentnie określa Westalki mianem θυηπόλοι (2.64,
+                        2.65, 3.67). Wystąpienia A. Ag. 262; E. Tr. 330, El. 665, 1134, Heracl. 401;
+                        S. fr. 47.9 Nauck = Strabo 10.3.14; S. fr. 126; Pl. R. 364e; D.H. 2.67;
+                        Paus. 4.9.4. Bibliografia Beekes, Robert (2010). Etymological Dictionary of
+                        Greek. Leiden-Boston. Casabona, J. (1966). Recherches sur le vocabulaire des
+                        sacrifices en grec, des origines à la fin de l'époque classique.
+                        Aix-en-Provence. Moyer, Ian S. (2008). Notes on Re-Reading the Delian
+                        Aretalogy of Sarapis (“IG” XI.4 1299). Zeitschrift für Papyrologie und
+                        Epigraphik 166: 101-107. Napisał: Przemysław Biernat Data zamieszczenia:
+                        07.03.2016 Data ostatniej aktualizacji: - Praca nad artykułem została
+                        sfinansowana ze środków Narodowego Centrum Nauki przyznanych na podstawie
+                        decyzji numer DEC-2013/09/B/HS2/01208.</ab>
+                </div>
+            </div>
+            <div type="bibliography">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -21,6 +21,6 @@
   <facet.sort>index</facet.sort>
   <!-- The number of rows returned by Solr at once (that is the number
        displayed per page of results). -->
-  <rows default="true">20</rows>
+  <rows default="true">10000</rows>
   <start default="true">0</start>
 </query>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ath. 5.7</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>LARES</authority>
+                <idno type="filename">text1</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative
+                        Commons Attributions-NonCommercial 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="commentary">
+                <div>
+                    <div>
+                        <head>Text</head>
+                        <p>καὶ πρὸ τοῦ θοινᾶσθαι δὲ ἃ δεῖ ποιεῖν ἡμᾶς διδάσκει πάλιν Ὅμηρος, ἀπαρχὰς τῶν βρωμάτων νέμειν τοῖς θεοῖς. οἱ γοῦν περὶ τὸν Ὀδυσσέα καίπερ ὄντες ἐν τῷ τοῦ Κύκλωπος σπηλαίῳ:
+                            
+                            ἔνθα δὲ πῦρ κείαντες ἐθύσαμεν ἠδὲ καὶ αὐτοὶ
+                            τυρῶν αἰνύμενοι φάγομεν.
+                            
+                            Od. 9.231
+                            
+                            καὶ ὁ Ἀχιλλεὺς καίπερ ἐπειγομένων τῶν πρέσβεων ὡς ἐν μέσαις νυξὶν ἡκόντων ὅμως:
+                            
+                            θεοῖσι δὲ θῦσαι ἀνώγει
+                            Πάτροκλον ὃν ἑταῖρον: ὃ δ᾽ ἐν πυρὶ βάλλε θυηλάς.
+                            
+                            Il. 9.219
+                            
+                            καὶ σπονδοποιεῖταί γε τοὺς δαιτυμόνας ῾ib. 175':'
+                            
+                            κοῦροι μὲν κρητῆρας ἐπεστέψαντο ποτοῖο,
+                            νώμησαν δ᾽ ἄρα πᾶσιν ἐπαρξάμενοι δεπάεσσιν.
+                            αὐτὰρ ἐπεὶ σπεῖσάν τ᾽.
+                            
+                            ἅπερ καὶ Πλάτων φυλάσσει κατὰ τὸ συμπόσιον. μετὰ γὰρ τὸ δειπνῆσαι σπονδάς τέ φησιν ῾p. 176a' 'ποιῆσαι καὶ τὸν θεὸν παιωνίσαντας τοῖς νομιζομένοις γέρασι ... παραπλησίως δὲ καὶ Ξενοφῶν. παρὰ δ᾽ Ἐπικούρῳ οὐ σπονδή, οὐκ ἀπαρχὴ θεοῖς, ἀλλ᾽ ὥσπερ Σιμωνίδης ἔφη περὶ τῆς ἀκόσμου γυναικός ῾fr. 7, 56','
+                            
+                            ἄθυστα δ᾽ ἱρὰ πολλάκις κατεσθίει ....</p>
+                    </div>
+                    
+                    <div>
+                        <head>Translation</head>
+                        <p>If you do this as I bid you,
+                            You will ask us all to a supper,
+                            Not to such as that in Thrace,
+                            Given by Iphicrates—
+                            Though, indeed, they say that
+                            Was a very noble feast.
+                            [p. 215] For that all along the market
+                            Purple carpets there were spread
+                            To the northern corner;
+                            And a countless host of men
+                            With dirty hands and hair uncomb'd
+                            Supped on butter. There were too,
+                            Brazen goblets, large as cisterns,
+                            Holding plenty for a dozen
+                            Of the hardest drinkers known.
+                            Cotys, too, himself was there,
+                            Girt around, and bearing kindly
+                            Rich soup in a gold tureen;
+                            Tasting all the brimming cups,
+                            So as to be the first to yield
+                            Of all the guests t' intoxication.
+                            There was Antigenides
+                            Delighting all with his soft flute,
+                            Argas sung, and from Acharnæ
+                            Cephisodotus struck the lyre,
+                            Celebrating Lacedæmon
+                            And the wide land of the Heraclidæ,
+                            And at other times they sung
+                            Of the seven-gated Thebes,
+                            Changing thus their strain and theme.
+                            Large was the dowry which 'tis said
+                            Fell to the lucky bridegroom's share:
+                            First, two herds of chestnut horses,
+                            And a herd of horned goats,
+                            A golden shield, a wide-neck'd bowl,
+                            A jar of snow, a pot of millet,
+                            A deep pit full of leeks and onions,
+                            And a hecatomb of polypi.
+                            This they say that Cotys did,
+                            King of Thrace, in heartfelt joy
+                            At Iphicrates's wedding.
+                            But a finer feast by far
+                            Shall be in our master's houses;
+                            For there's nothing good or fine
+                            Which our house does stand in need of.
+                            There is scent of Syrian myrrh,
+                            There is incense, there is spice;
+                            There are delicate cakes and loaves,
+                            Cakes of meal and polypi,
+                            Tripe, and fat, and sausages,
+                            Soup, and beet, and figs, and pease,
+                            Garlic, various kinds of tunnies,
+                            Ptisan, pulse, and toast and muffins,
+                            Beans, and various kinds of vetches,
+                            Honey, cheese, and cheesecakes too,
+                            Wheat, and nuts, and barley-groats,
+                            Boasted crabs, and mullets boil'd,
+                            [p. 216] Roasted cuttle-fish, boiled turbot,
+                            Frogs, and perch, and mussels too,
+                            Sharks, and roach, and gudgeons too,
+                            Fish from doves and cuckoos named,
+                            Plaice, and flounders, shrimps, and rays.
+                            Then, besides these dainty fish
+                            There is many another dish,—
+                            Honeycombs and juicy grapes,
+                            Figs and cheesecakes, apples, pears,
+                            Cornels, and the red pomegranate,
+                            Poppies, creeping thyme, and parsley,
+                            Peaches, olives, plums and raisins,
+                            Leeks and onions, cabbages,
+                            Strong smelling assafœtida,
+                            Fennel, eggs, and lentils cool,
+                            And well-roasted grasshoppers,
+                            Cardamums and sesame,
+                            Ceryces, salt, and limpets firm,
+                            The pinna, and the oyster bright,
+                            The periwinkle, and the whelk;
+                            And besides this a crowd of birds,
+                            Doves and ducks, and geese and sparrows,
+                            Thrushes, larks, and jays, and swans,
+                            The pelican, the crane and stork,
+                            Wagtails and cousels, tits and finches;
+                            And to wash all these dainties down
+                            There's wine, both native and imported,
+                            White and red, and sweet and acid,
+                            Still or effervescent.</p>
+                    </div>
+                    
+                    <div>
+                        <head>Commentary</head>
+                        <p>...</p>
+                    </div>
+                </div>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

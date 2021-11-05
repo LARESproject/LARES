@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Team</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>LARES</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative
+                        Commons Attributions-NonCommercial 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="commentary" xml:id="team_members">
+                <div>
+                    <head>Alma Mater Studiorum Università di Bologna</head>
+                    <p><emph>Giuseppina Paola Viscardi</emph></p>
+                </div>
+
+                <div>
+                    <head>Uniwersytet Jagielloński w Krakowie</head>
+                    <p><emph>Krzysztof Bielawski</emph></p>
+                </div>
+                
+                <div>
+                    <head>Università di ...</head>
+                    <p><emph>...</emph></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

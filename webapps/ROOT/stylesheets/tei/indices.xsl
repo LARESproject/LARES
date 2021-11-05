@@ -3,12 +3,14 @@
                 xmlns:kiln="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
                 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
                 xmlns:tei="http://www.tei-c.org/ns/1.0"
-                xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+                xmlns:xi="http://www.w3.org/2001/XInclude"
+                xmlns:fn="http://www.w3.org/2005/xpath-functions"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-  <!-- XSLT to convert index metadata and index Solr results into
-       HTML. This is the common functionality for both TEI and EpiDoc
-       indices. It should be imported by the specific XSLT for the
-       document type (eg, indices-epidoc.xsl). -->
+  <!-- XSLT to convert index metadata and index Solr results into HTML. This is the common functionality
+    for both TEI and EpiDoc indices. It should be imported by the specific XSLT for the document type
+    (eg, indices-epidoc.xsl). -->
 
   <xsl:import href="to-html.xsl" />
 

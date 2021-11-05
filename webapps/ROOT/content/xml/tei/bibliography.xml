@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bibliography</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoding according to the TEI P4 Guidelines</p>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Barret, W.S., ed., comm. (1964): Euripides. Hippolytus. Oxford.</p>
+            <p>Berthiaume, G. (1982): Les rôles du
+                mágeiros: Etude sur la boucherie, la cuisine et le sacrifice dans la Grèce
+                ancienne. Leiden. </p>
+            <p>Halleran, M.R., comm. (1995): Euripides. Hippolytus.
+                Warminster. </p>
+            <p>Parker, R (2010): Eating unsacrificed meat. [w]: P. Carlier, Ch.
+                Lerouge-Cohen, Paysage et religion en Grèce antique. Mélanges offerts á
+                Madeleine Jost. Pari: 137-145. </p>
+            <p>Willetts, R.F. (1962): Cretan Cults and
+                Festivals. London.</p>
+        </body>
+    </text>
+</TEI>

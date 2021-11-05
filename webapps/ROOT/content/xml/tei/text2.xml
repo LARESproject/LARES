@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lys. 30.20.1</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>LARES</authority>
+                <idno type="filename">text2</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative
+                        Commons Attributions-NonCommercial 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="commentary">
+                <div>
+                    <div>
+                        <head>Text</head>
+                        <p>αὐτίκα πέρυσιν ἱερὰ ἄθυτα τριῶν ταλάντων γεγένηται τῶν ἐν ταῖς κύρβεσι γεγραμμένων. καὶ οὐχ οἷόν τε εἰπεῖν ὡς οὐχ ἱκανὰ ἦν ἃ1 προσῆλθε τῇ πόλει: εἰ γὰρ οὗτος μὴ πλείω ἀνέγραψεν ἓξ ταλάντοις, εἴς τε τὰς θυσίας τὰς πατρίους ἂν ἐξήρκεσε καὶ τρία τάλαντα ἂν περιεγένετο τῇ πόλει. περὶ δὲ τῶν εἰρημένων καὶ μάρτυρας ὑμῖν παρέξομαι. “Μάρτυρες”.</p>
+                    </div>
+                    
+                    <div>
+                        <head>Translation</head>
+                        <p>For example, last year some sacrifices, costing three talents, were in abeyance, though they were among those inscribed on the tablets. And it cannot be said that the revenues of the State were insufficient; for if this man had not entered sacrifices to an excess amounting to six talents, there would have been enough for our ancestral offerings, and moreover the State would have had a surplus of three talents. In support of these statements I will add the evidence of witnesses.“Witnesses”.</p>
+                    </div>
+                    
+                    <div>
+                        <head>Commentary</head>
+                        <p>...</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -15,7 +15,7 @@
       <kiln:block name="head">
         <head>
           <meta name="viewport" content="width=device-width" />
-          <title><kiln:block name="title">EFES admin: </kiln:block></title>
+          <title><kiln:block name="title">Admin: </kiln:block></title>
           <kiln:block name="js">
             <script src="{$kiln:assets-path}/foundation/js/vendor/custom.modernizr.js">&#160;</script>
             <script src="{$kiln:assets-path}/scripts/admin.js">&#160;</script>
@@ -37,7 +37,7 @@
             <nav class="top-bar">
               <ul class="title-area">
                 <li class="name">
-                  <h1><a href="{kiln:url-for-match('local-admin-home-page', (), 0)}">EFES Admin</a></h1>
+                  <h1><a href="{kiln:url-for-match('local-admin-home-page', (), 0)}">Admin</a></h1>
                 </li>
                 <li class="toggle-topbar menu-icon">
                   <a href="#"><span>Menu</span></a>

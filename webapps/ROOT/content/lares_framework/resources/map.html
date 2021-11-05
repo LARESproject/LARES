@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Map</title>
+        <link href="../../../assets/foundation/css/normalize.css" rel="stylesheet" type="text/css" />
+        <link href="../../../assets/foundation/css/foundation.min.css" rel="stylesheet" type="text/css" />
+        <link href="../../../assets/styles/base.css" rel="stylesheet" type="text/css" />
+        <link href="../../../assets/styles/site.css" rel="stylesheet" type="text/css" />
+        <link href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="../../../assets/styles/Control.Geocoder.css" />
+        <link rel="stylesheet" href="../../../assets/styles/leaflet.fullscreen.css" />
+        <link rel="stylesheet" href="../../../assets/styles/leaflet.draw.css"/>
+        
+        <script src="../../../assets/foundation/js/vendor/custom.modernizr.js"></script>
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"       integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+        <script src="../../../assets/scripts/leaflet-providers.js"></script>
+        <script src="../../../assets/foundation/js/vendor/jquery.js"></script>
+        <script src="../../../assets/scripts/leaflet.draw.js"></script>
+        
+    </head>
+    <body>
+        <div class="row">
+            <div id="mapid" class="map" style="height:400px; width:100%; padding:0; margin:0">
+                <script>
+        var dare = L.tileLayer('https://dh.gu.se/tiles/imperium/{z}/{x}/{y}.png', {
+        minZoom: 4,
+        maxZoom: 11,
+        attribution: 'Map data <a href="https://imperium.ahlfeldt.se/">Digital Atlas of the Roman Empire</a> CC BY 4.0'
+        });
+        var terrain = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Esri',
+        maxZoom: 13
+        });
+        var watercolor = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}', {
+        attribution: '<a href="http://stamen.com">Stamen Design</a> <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+        subdomains: 'abcd',
+        minZoom: 1,
+        maxZoom: 16,
+        ext: 'jpg'
+        });
+        var osm = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: 'Map data: <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        });
+        
+        var mymap = L.map('mapid', {
+        //drawControl: true,
+        center: [44, 10.335], zoom: 6.5, zoomControl: true, fullscreenControl: true, 
+        layers: [osm, terrain, watercolor]
+        });
+        
+        var baseMaps = {
+        "DARE": dare,
+        "Terrain": terrain, 
+        "Watercolor": watercolor,
+        "Open Street Map": osm
+        }; 
+        
+        
+        drawnItems = L.featureGroup().addTo(mymap);
+        var overlayMaps = {
+        "Drawings": drawnItems
+        };
+        L.control.layers(baseMaps, overlayMaps).addTo(mymap);	
+        
+        L.control.scale().addTo(mymap);
+        L.Control.geocoder().addTo(mymap);
+        
+        
+       
+       var popup = L.popup();
+        function onMapClick(e) {
+		popup
+			.setLatLng(e.latlng)
+			.setContent(e.latlng.toString().replace('LatLng(', '').replace(')', ''))
+			.openOn(mymap);
+	}
+	mymap.on('click', onMapClick);
+      
+    mymap.addControl(new L.Control.Draw({
+        edit: {
+            featureGroup: drawnItems,
+            poly: {
+                allowIntersection: false
+            }
+        },
+        draw: {
+            polyline: true,
+            circle: false,
+            circlemarker: false,
+            rectangle: false,
+            marker: false,
+            polygon: {
+                allowIntersection: false,
+                showArea: true
+            }
+        }
+    }));
+
+    mymap.on(L.Draw.Event.CREATED, function (event) {
+        var layer = event.layer;
+        drawnItems.addLayer(layer);
+    });
+    
+     var _round = function(num, len) {
+            return Math.round(num*(Math.pow(10, len)))/(Math.pow(10, len));
+        };
+        var strLatLng = function(latlng) {
+            return "("+_round(latlng.lat, 6)+", "+_round(latlng.lng, 6)+")";
+        };
+        
+        
+        var getPopupContent = function(layer) {
+            if (layer instanceof L.Marker) {
+                var coord = strLatLng(layer.getLatLng());
+                return coord.replaceAll('(', '').replaceAll(')', '');
+            } 
+            else if (layer instanceof L.Polyline) {
+                var latlngs = layer._defaultShape ? layer._defaultShape() : layer.getLatLngs();
+                var all_coord = ""+latlngs;
+                return all_coord.replaceAll('),LatLng(', '; ').replaceAll('LatLng(', '').replaceAll(')', '');
+            } 
+            else if (layer instanceof L.Polygon) {
+                var latlngs = layer._defaultShape ? layer._defaultShape() : layer.getLatLngs();
+                var all_coord = ""+latlngs;
+                return all_coord.replaceAll('),LatLng(', '; ').replaceAll('LatLng(', '').replaceAll(')', '');
+            } 
+            return null;
+        };
+        
+        mymap.on(L.Draw.Event.CREATED, function(event) {
+            var layer = event.layer;
+            var content = getPopupContent(layer);
+            if (content !== null) {
+                layer.bindPopup(content);
+            }
+            drawnItems.addLayer(layer);
+        });
+
+        mymap.on(L.Draw.Event.EDITED, function(event) {
+            var layers = event.layers,
+                content = null;
+            layers.eachLayer(function(layer) {
+                content = getPopupContent(layer);
+                if (content !== null) {
+                    layer.setPopupContent(content);
+                }
+            });
+        });
+
+
+        
+      </script>
+            </div>
+            
+        </div>
+    </body>
+</html>

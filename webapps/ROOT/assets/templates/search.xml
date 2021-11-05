@@ -8,6 +8,7 @@
   <xsl:param name="query-string" />
   <xsl:param name="rdf-facet-lookup-fields" />
   <xsl:param name="search-lemma" />
+  <xsl:param name="search-complete_edition" />
 
   <!-- Imports stylesheet to convert Solr results into HTML. -->
   <xsl:import href="cocoon://_internal/template/xsl/stylesheets/solr/results-to-html.xsl" />
@@ -46,14 +47,14 @@
                 <xsl:value-of select="$q_value" />
               </xsl:attribute>
             </input>
-            <xsl:if test="$search-lemma">
+            <xsl:if test="$search-complete_edition">
               <label>
-                <input name="df" type="checkbox" value="lemmatised_text">
-                  <xsl:if test="$df_value = 'lemmatised_text'">
+                <input name="df" type="checkbox" value="complete_edition">
+                  <xsl:if test="$df_value = 'complete_edition'">
                     <xsl:attribute name="checked">checked</xsl:attribute>
                   </xsl:if>
                 </input>
-                <xsl:text> Search lemmatised text</xsl:text>
+                <xsl:text> Search also in the metadata</xsl:text>
               </label>
             </xsl:if>
             

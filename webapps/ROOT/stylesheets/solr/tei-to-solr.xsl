@@ -46,6 +46,12 @@
     </field>
   </xsl:template>
   
+  <xsl:template match="tei:TEI" mode="facet_complete_edition">
+    <field name="complete_edition"> 
+      <xsl:apply-templates select="." />
+    </field>
+  </xsl:template>
+  
   <!-- This template is called by the Kiln tei-to-solr.xsl as part of
        the main doc for the indexed file. Put any code to generate
        additional Solr field data (such as new facets) here. -->
@@ -55,6 +61,7 @@
     <xsl:call-template name="field_mentioned_institutions"/>
     <xsl:call-template name="field_mentioned_divinities"/>
     <xsl:call-template name="field_person_name"/>
+    <xsl:call-template name="field_complete_edition"/>
   </xsl:template>
   
   <xsl:template name="field_inscription_type">
@@ -71,6 +78,10 @@
   
   <xsl:template name="field_person_name">
     <xsl:apply-templates mode="facet_person_name" select="//tei:text/tei:body/tei:div[@type='edition']" />
+  </xsl:template>
+  
+  <xsl:template name="field_complete_edition">
+    <xsl:apply-templates mode="facet_complete_edition" select="/tei:TEI" />
   </xsl:template>
 
 </xsl:stylesheet>

@@ -122,10 +122,11 @@
              setting does not influence what gets indexed, only the
              search UI. -->
         <search-lemma>1</search-lemma>
+        <search-complete_edition>1</search-complete_edition>
         <!-- Epidoc-related variables. Supported values are documented
              in webapps/ROOT/kiln/stylesheets/epidoc/README.txt. -->
         <epidoc-edition-type>interpretive</epidoc-edition-type>
-        <epidoc-edn-structure>sample</epidoc-edn-structure>
+        <epidoc-edn-structure>lares</epidoc-edn-structure>
         <epidoc-external-app-style>iospe</epidoc-external-app-style>
         <epidoc-image-loc>/images/</epidoc-image-loc>
         <epidoc-internal-app-style>none</epidoc-internal-app-style>

@@ -130,9 +130,9 @@
   </xsl:template>
 
   <xsl:template match="tei:emph">
-    <strong>
+    <b>
       <xsl:apply-templates />
-    </strong>
+    </b>
   </xsl:template>
 
   <xsl:template match="tei:foreign">

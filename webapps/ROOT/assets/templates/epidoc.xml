@@ -42,7 +42,7 @@
         <div class="large-12 columns">
           <p>
             <br/>
-            <a href="{kiln:url-for-match('local-epidoc-display-xml', ($language, $filename), 0)}">Full EpiDoc XML</a>
+            <a href="{kiln:url-for-match('local-epidoc-display-xml', ($language, $filename), 0)}">EpiDoc XML file</a>
           </p>
         </div>
       </div>

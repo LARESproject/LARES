@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>ἀνάπηρος</title>
+            </titleStmt>
+            <editionStmt>
+                <edition><ref target="http://sitename.unibo.it">LARES Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>LARES</publisher>
+                <idno type="filename">doc2</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">Lexicon entry</rs>
+                        </summary>
+                    </msContents> 
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-10-12" who="kbielawski">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab> ἀνάπηρος anaperos ἀνάπηρος, adj.: okaleczony Morfologia Złożenie
+                        przedrostka ana- (w funkcji intensyfikującej) i przymiotnika perós “kaleki”
+                        (wyraz bez etymologii, zob. Beekes 2010: 1188-1189). Wystąpienia Jako
+                        określenie zwierząt ofiarnych przymiotnik ten występuje we fragmencie
+                        komedii Hermipposa Kerkopowie (ca. 417 p.n.e., zob. → Comicorum Atticorum
+                        fragmenta) i w → Alkibiadesie Drugim Pseudo-Platona (149a). Poza nielicznymi
+                        przypadkami, kiedy przepisy kultowe wymagały od ofiarnika złożenia w ofierze
+                        zwierzęcia pod jakimś względem ułomnego, regułą było, że zabijane zwierzęta
+                        były wolne od wad fizycznych. Autor Alkibiadesa Drugiego przypisuje
+                        natomiast Lacedemończykom zwyczaj składania w ofierze zwierząt kalekich
+                        także wtedy, kiedy takich przepisów nie było. Trudno powiedzieć, ile w tym
+                        prawdy, a ile stereotypowego przedstawienia Spartan (por. Broulé, Touzé,
+                        2008: 122; Ekroth 2014: 332). Bibliografia Beekes, Robert (2010).
+                        Etymological Dictionary of Greek. Leiden-Boston. Broulé, P., Touzé, R.
+                        (2008). Le hiereion : phusis et psuchè d’un medium. w: P. Broulé, V. Mehl
+                        (eds.), Le sacrifice antique. Vestiges, procédures et stratégies: 111-138.
+                        Rennes. Ekroth, G. (2014). Animal Sacrifice in Antiquity. The Oxford
+                        Handbook of Animals in Classical Thought and Life: 324-354. Oxford. Napisał:
+                        Przemysław Biernat Data zamieszczenia: 06.09.2016 Data ostatniej
+                        aktualizacji: 27.02.2017 Praca nad artykułem została sfinansowana ze środków
+                        Narodowego Centrum Nauki przyznanych na podstawie decyzji numer
+                        DEC-2013/09/B/HS2/01208. </ab>
+                </div>
+            </div>
+            <div type="bibliography">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

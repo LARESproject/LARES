@@ -9,10 +9,10 @@
         <tr>
           <!-- Let us assume that all texts have a filename, ID, and
                title. -->
-          <th>Filename</th>
           <th>ID</th>
+          <!--<th>ID</th>-->
           <th>Title</th>
-          <xsl:if test="result/doc/arr[@name='author']/str">
+          <!--<xsl:if test="result/doc/arr[@name='author']/str">
             <th>Author</th>
           </xsl:if>
           <xsl:if test="result/doc/arr[@name='editor']/str">
@@ -20,11 +20,26 @@
           </xsl:if>
           <xsl:if test="result/doc/str[@name='publication_date']">
             <th>Publication Date</th>
-          </xsl:if>
+          </xsl:if>-->
         </tr>
       </thead>
       <tbody>
-        <xsl:apply-templates mode="text-index" select="result" />
+        <xsl:apply-templates mode="text-index" select="result/doc" >
+          <xsl:sort>
+            <xsl:variable name="id">
+              <xsl:choose>
+                <xsl:when test="starts-with(str[@name='document_id'], 'doc')"><xsl:value-of select="substring-after(replace(str[@name='document_id'], ' ', ''), 'doc')"/></xsl:when>
+                <xsl:when test="starts-with(str[@name='document_id'], 'text')"><xsl:value-of select="substring-after(replace(str[@name='document_id'], ' ', ''), 'text')"/></xsl:when>
+                <xsl:when test="starts-with(str[@name='document_id'], 'lexicon')"><xsl:value-of select="substring-after(replace(str[@name='document_id'], ' ', ''), 'lexicon')"/></xsl:when>
+              </xsl:choose>
+            </xsl:variable>
+            <xsl:choose>
+            <xsl:when test="string-length($id) = 1"><xsl:value-of select="concat('000',$id)"/></xsl:when>
+            <xsl:when test="string-length($id) = 2"><xsl:value-of select="concat('00',$id)"/></xsl:when>
+            <xsl:when test="string-length($id) = 3"><xsl:value-of select="concat('0',$id)"/></xsl:when>
+            <xsl:otherwise><xsl:value-of select="$id"/></xsl:otherwise>
+          </xsl:choose></xsl:sort>
+        </xsl:apply-templates>
       </tbody>
     </table>
   </xsl:template>
@@ -39,11 +54,11 @@
   <xsl:template match="result/doc" mode="text-index">
     <tr>
       <xsl:apply-templates mode="text-index" select="str[@name='file_path']" />
-      <xsl:apply-templates mode="text-index" select="str[@name='document_id']" />
+      <!--<xsl:apply-templates mode="text-index" select="str[@name='document_id']" />-->
       <xsl:apply-templates mode="text-index" select="arr[@name='document_title']" />
-      <xsl:apply-templates mode="text-index" select="arr[@name='author']" />
+      <!--<xsl:apply-templates mode="text-index" select="arr[@name='author']" />
       <xsl:apply-templates mode="text-index" select="arr[@name='editor']" />
-      <xsl:apply-templates mode="text-index" select="str[@name='publication_date']" />
+      <xsl:apply-templates mode="text-index" select="str[@name='publication_date']" />-->
     </tr>
   </xsl:template>
 
@@ -51,13 +66,17 @@
     <xsl:variable name="filename" select="substring-after(., '/')" />
     <td>
       <a href="{kiln:url-for-match($match_id, ($language, $filename), 0)}">
-        <xsl:value-of select="$filename" />
+        <xsl:choose>
+          <xsl:when test="starts-with($filename, 'doc')"><xsl:value-of select="substring-after($filename, 'doc')" /></xsl:when>
+          <xsl:when test="starts-with($filename, 'text')"><xsl:value-of select="substring-after($filename, 'text')" /></xsl:when>
+          <xsl:when test="starts-with($filename, 'lexicon')"><xsl:value-of select="substring-after($filename, 'lexicon')" /></xsl:when>
+        </xsl:choose>
       </a>
     </td>
   </xsl:template>
 
   <xsl:template match="str[@name='document_id']" mode="text-index">
-    <td><xsl:value-of select="." /></td>
+    <td><xsl:value-of select="replace(., ' ', '')" /></td>
   </xsl:template>
 
   <xsl:template match="arr[@name='document_title']" mode="text-index">

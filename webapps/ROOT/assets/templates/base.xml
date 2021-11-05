@@ -19,9 +19,11 @@
           <meta content="width=device-width" name="viewport" />
           <meta content="IE=edge,chrome=IE8" http-equiv="X-UA-Compatible" />
           <title>
-            <kiln:block name="title">EFES: </kiln:block>
+            <kiln:block name="title">LARES </kiln:block>
           </title>
+          
           <kiln:block name="css">
+            <!--<link href="{$kiln:assets-path}/images/favicon.png" rel="shortcut icon" type="image/png"/>-->
             <link href="{$kiln:assets-path}/foundation/css/normalize.css"
                   rel="stylesheet" type="text/css" />
             <link href="{$kiln:assets-path}/foundation/css/foundation.min.css"
@@ -30,22 +32,39 @@
                   type="text/css" />
             <link href="{$kiln:assets-path}/styles/site.css" rel="stylesheet"
                   type="text/css" />
-            <link href="{$kiln:assets-path}/images/favicon.png" rel="shortcut icon" type="image/png"/>
+            <link href="{$kiln:assets-path}/styles/font-awesome.css" rel="stylesheet" type="text/css" />
+            <link href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" rel="stylesheet" type="text/css" />
+            <link href="{$kiln:assets-path}/styles/Control.Geocoder.css" rel="stylesheet" type="text/css" />
+            <link href="{$kiln:assets-path}/styles/leaflet.fullscreen.css" rel="stylesheet" type="text/css" />
+            <!--<link href="{$kiln:assets-path}/styles/jquery-ui/jquery-ui.css" rel="stylesheet" type="text/css" />-->
           </kiln:block>
+          
           <kiln:block name="js">
             <script src="{$kiln:assets-path}/foundation/js/vendor/custom.modernizr.js">&#160;</script>
+            <script src="{$kiln:assets-path}/scripts/cookieinfo.min.js" id="cookieinfo"></script>
+            <script src="{$kiln:assets-path}/foundation/js/vendor/jquery.js"></script>
+            <script src="{$kiln:assets-path}/scripts/cytoscape.min.js"></script>
+            <script src="{$kiln:assets-path}/scripts/cytoscape-panzoom-autocomplete.js"></script>
+            <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+            <script src="{$kiln:assets-path}/scripts/leaflet-providers.js"></script>
+            <!--<script src="{$kiln:assets-path}/scripts/jquery-ui.min.js"></script>
+            <script src="{$kiln:assets-path}/scripts/SliderControl.js"></script>-->
           </kiln:block>
+          
           <kiln:block name="head-extra"></kiln:block>
         </head>
       </kiln:block>
       <kiln:block name="body">
         <body>
           <kiln:block name="navigation">
+            <div id="header">
+              <h1 id="site-name" style="text-align:center"><!--<img id="site-image" src="{$kiln:assets-path}/images/favicon.png" alt="sella plicatilis"/>--> LARES</h1>
+            </div>
             <nav class="top-bar">
               <kiln:block name="main-navigation">
                 <ul class="title-area">
                   <li class="name">
-                    <h1><a href="{kiln:url-for-match('local-language-home-page', ($language), 0)}">EFES</a></h1>
+                    <h1><a href="{kiln:url-for-match('local-language-home-page', ($language), 0)}">Home</a></h1>
                   </li>
                   <li class="toggle-topbar menu-icon">
                     <a href="#"><span>Menu</span></a>
@@ -83,10 +102,10 @@
             </main>
           </kiln:block>
           <kiln:block name="footer">
-            <footer>
+            <!--<footer>
               <p>Powered by <a href="http://kcl-ddh.github.io/kiln/">Kiln</a></p>
               <p>Theme by <a href="http://foundation.zurb.com/">Foundation</a></p>
-            </footer>
+            </footer>-->
           </kiln:block>
           <kiln:block name="end-js">
             <!-- Since we make use of jQuery for other purposes, there

@@ -41,25 +41,10 @@
       <xsl:text>-display-html</xsl:text>
     </xsl:variable>
     <li>
-      <a href="{kiln:url-for-match($match_id, ($language, $location_parts[2]), 0)}">
-        <xsl:if test="$location_parts[5] = '1'">
-          <xsl:text>[</xsl:text>
-        </xsl:if>
-        <span class="index-instance-file">
-          <xsl:value-of select="$location_parts[2]" />
-        </span>
-        <xsl:if test="$location_parts[3]">
-          <span class="index-instance-text-parts">
-            <xsl:text>.</xsl:text>
-            <xsl:value-of select="$location_parts[3]" />
-          </span>
-        </xsl:if>
-        <xsl:text>.</xsl:text>
-        <span class="index-instance-line">
-          <xsl:value-of select="$location_parts[4]" />
-        </span>
-        <xsl:if test="$location_parts[5] = '1'">
-          <xsl:text>]</xsl:text>
+      <a target="_blank" href="{kiln:url-for-match($match_id, ($language, $location_parts[2]), 0)}">
+        <span class="index-instance-file"><xsl:value-of select="substring-after($location_parts[2], 'doc')" /></span>
+        <xsl:if test="$location_parts[4]!=''">
+          <span class="index-instance-file-keys"><xsl:text>: </xsl:text><xsl:value-of select="$location_parts[4]" /></span>
         </xsl:if>
       </a>
     </li>

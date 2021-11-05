@@ -1,0 +1,280 @@
+<TEI version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="cap2">
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lysistrata (Λυσιστρατη, Lisistrata)</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="textpart">
+                <div type="textpart" n="intro"> 
+                    <p>Una commedia probabilmente messa in scena a Leneo nel 411 a.C. Il suo contenuto si riferisce alla difficilissima situazione militare, economica e demografica di Atene dopo la sconfitta della spedizione siciliana. Quando c'erano già molti indizi che la guerra del Peloponneso, che durava da vent'anni, non poteva che concludersi con una sconfitta, Aristofane propose una visione comica di fare la pace non come risultato della rinuncia di una delle parti, ma grazie alla mediazione delle donne.</p>
+                   <p> Il nome dell'eroina eponima significa "esercito in dissoluzione" (da cui i concetti di polonizzazione di S. Srebrny). Forse allude al nome della sacerdotessa di Atena Polias che ricopriva la sua carica in quel periodo, Lisymache (Lewis 1955), il che significherebbe che il protagonista è una persona particolarmente legata al rito del sacrificio animale. </p>
+                   <p> Dal punto di vista dello studio di questo rituale, tuttavia, ciò non ha un particolare significato, trascurando il fatto, forse degno di nota, che lo svolgimento di una funzione di culto forniva alla donna una posizione eccezionalmente elevata, proprio quella di cui la comica Lisymache sembra realmente godere.</p>
+                   <p>
+                        <emph>Schema della trama</emph>: Lisistrata convoca una riunione
+                        segreta di donne di varie poleis di Atene per elaborare e giurare insieme un
+                        piano per portare la pace. Il mezzo per questo fine è uno "sciopero del
+                        letto", cioè negare agli uomini la soddisfazione sessuale finché fanno la
+                        guerra. Allo stesso tempo, le donne anziane catturano l'Acropoli con il suo
+                        tesoro. La parte femminile della comunità dell'Attica vi si trasferisce.
+                        Dopo un periodo di difficile lotta con la loro natura stereotipata, le donne
+                        riescono a portare alla riconciliazione tra Atene e Sparta. La commedia si
+                        conclude con una festa universale.</p>
+                    <p>Dal punto di vista della ricerca sul sacrificio di sangue, il testo è interessante per diverse brevi menzioni di questo rituale, e anche per la scena dell'obiezione, durante la quale - invece di un animale - viene macellato un vaso di vino.</p>
+                    <p>  Il testo è citato dall'edizione Henderson (1987).</p>
+                </div>
+             <div type="textpart" n="commentary">
+              <div type="textpart" n="Lisistrata_78-84">
+                  <head>Lisistrata 78-84</head>
+               <div type="textpart" n="78-84_intro">
+                   <p>All'incontro segreto delle mogli partecipa la ragazza spartana Lampito, caratterizzata nel testo in modo stereotipato. A differenza di Atene, le ragazze lacedemoni praticavano esercizi fisici all'aria aperta (una delle forme tipiche era la danza del calcio dei glutei menzionata dall'eroina), quindi erano forti e abbronzate. </p>
+                   <p>Il passus è significativo per il paragone che appare nel numero di Lampito, che afferma che le ragazze ateniesi la esaminano come un animale sacrificale.</p>
+                   
+                   <quote>
+                       <lb/><emph>Λυσιστράτη</emph>
+                       <lb/>ὦ φιλτάτη Λάκαινα χαῖρε Λαμπιτοῖ. 
+                       <lb/>οἷον τὸ κάλλος γλυκυτάτη σου φαίνεται. 
+                       <lb n="80"/>ὡς δ᾽ εὐχροεῖς, ὡς δὲ σφριγᾷ τὸ σῶμά σου. 
+                       <lb/>κἂν ταῦρον ἄγχοις.
+                       <lb/><emph>Λαμπιτώ</emph>
+                       <lb/>μάλα γ᾽ οἰῶ ναὶ τὼ σιώ:
+                       <lb/>γυμνάδδομαι γὰρ καὶ ποτὶ πυγὰν ἅλλομαι.
+                       <lb/><emph>Καλονίκη</emph>
+                       <lb/>ὡς δὴ καλὸν τὸ χρῆμα τιτθίων ἔχεις. 
+                       <lb/><emph>Λαμπιτώ</emph>
+                       <lb/>ᾇπερ ἱερεῖόν τοί μ᾽ ὑποψαλάσσετε. 
+                   </quote>
+                   
+                   <p><emph>Tr.:</emph> LISISTRATA: Lampito, caro spartano, benvenuto! Come
+                                brilla, mio dolce, la tua bellezza! Come è sano e sodo il tuo corpo!
+                                Potresti strangolare un toro! LAMPITO: E i Dioscuri? Finisco per
+                                esercitarmi e fare balli di culo. CALONIKE: Che seni incredibili che
+                                hai! LA.: Mi stai macellando come un animale sacrificale! </p>
+               </div>
+                  <div type="textpart" n="commento">
+                  <p> ὑποψαλάσσετε - 'tu che brancoli'; il verbo ὑπο-ψαλάσσω è certamente un hapax legomenon, ma la sua struttura e il contesto d'uso qui permettono di capire a cosa si riferisce. La forma senza prefisso (ψαλάσσω) significa toccare qualcosa, come le corde di uno strumento mentre si suona. Il prefisso ὑπο può avere sfumature rilassanti o riferirsi alla categoria spaziale "sotto". Entrambi i significati in questo contesto hanno un buon senso: "mi maceri delicatamente [solletico?]" o "mi maceri dal basso". </p>                  
+                  <p> Questo secondo aspetto del significato potrebbe essersi riflesso in modo interessante nello strato performativo dell'opera. Aristofane ha certamente fatto pieno uso dell'effetto comico della commedia ambigua, in cui un uomo (attore) vestito da donna palpeggia un altro uomo, indossando attributi iperbolici della femminilità. Naturalmente, questo strato dell'opera ci rimane completamente inaccessibile.</p> 
+                  <p>I commentatori moderni del passus (Sommerstein 1990: ad loc. , Henderson 1987: ad loc. ) spiegano il confronto indicando i passu- s che si riferiscono al sacrificio di un animale quando è abbastanza grasso da fornire una buona carne per il banchetto (Ar. Eq. 1135--1140; Philem. Fr. 155). </p>                
+                  <p> Lo scholiasta (ad loc. ) interpreta il luogo in modo simile: τὰ γὰρ ἱερεῖα μέλλοντες θύειν ψηλαφῶσιν, εἰ λιπαρά ἐστι ("perché gli animali che dovevano essere sacrificati venivano palpati per vedere se erano grassi"). A prescindere da questi motivi pratici e forse anche edonistici, la necessità di sottoporre un animale all'ispezione era dettata da fattori puramente religiosi (per un approfondimento si veda Feyel 2006; ad Ar. Ach. 784).</p>
+              </div>
+              </div>
+                 <div type="textpart" n="Lisistrata_177-179">
+                     <head>Lisistrata 177-179</head>
+                 <div type="textpart" n="177-179">
+                     <p>Come parte del piano comico di Lisistrata, le donne più giovani devono influenzare i loro mariti colpendo nelle loro camere da letto. Alle più anziane, che non possono svolgere un tale ruolo, è stato dato il compito di controllare la posizione strategica sull'Acropoli. </p>                     
+                     <p>Il passus non contiene alcuna informazione assolutamente chiara sul sacrificio di sangue, tuttavia c'è un prezioso suggerimento in esso. Vale a dire, qualcosa di ovvio per gli ateniesi deve essere stata la presenza di donne anziane sull'Acropoli nelle prime ore del mattino (quando l'azione del lavoro), legata all'attività cultuale. </p>
+                     <p>La parola θύειν usata nel testo può significare fare un sacrificio di sangue o un'altra forma di culto. Non è chiaro se il passus si riferisce a qualche particolare attività cultuale svolta dalle donne anziane sull'Acropoli. È possibile che si tratti di uno stereotipo (probabilmente giustificato dalla realtà ateniese), secondo il quale le donne anziane sono un gruppo sociale particolarmente incline alla devozione. </p>
+                   <p>  In questo caso, il passaggio potrebbe riferirsi a sacrifici spontanei, auto-iniziati dalle donne anziane.</p>
+                     
+                     <quote>
+                         <lb/><emph>Λυσιστράτη</emph>
+                         <lb/> Ταῖς πρεσβυτάταις γὰρ προστέτακται τοῦτο δρᾶν,  
+                         <lb/> ἕως ἂν ἡμεῖς ταῦτα συντιθώμεθα,
+                         <lb/> θύειν δοκούσαις καταλαβεῖν τὴν ἀκρόπολιν.    
+                     </quote>
+                     
+                     <p><emph>Tr.: </emph>LISISTRATA: È toccato alle donne più anziane
+                                andare ad occupare l'Acropoli mentre noi siamo qui a frequentare,
+                                con la scusa di fare delle offerte. </p>
+                 </div>
+                 </div>
+                 <div type="textpart" n="Lisitrata_181-239">
+                     <head>Lisitrata 181-239</head>
+                     <div type="textpart" n="181-239">
+                       <p>Il passus contiene una scena comica di giuramento. A differenza del rituale paragmatico di tipo thysia, il sacrificio, che di solito era coronato da una festa gioiosa, la cerimonia del giuramento era piuttosto cupa, poiché erano ancora presenti terribili sanzioni per il mancato rispetto degli obblighi. L'animale macellato non veniva mangiato. </p>
+                         <p>La scena di Aristofane contiene elementi contrastanti; la serietà cede qui il passo alla pagliacciata. Le donne, invece di macellare l'animale, aprono la brocca e al posto del sangue scorre il vino, alludendo allo stereotipo comico che le donne ateniesi erano ghiotte della bevanda, che bevevano non mescolata con l'acqua di nascosto dai loro mariti.</p>
+                         <quote>
+                             <lb/><emph>Λυσιστράτη</emph>
+                             <lb/>τί δῆτα ταῦτ᾽ οὐχ ὡς τάχιστ᾽ ὦ Λαμπιτοῖ 
+                             <lb/>ξυνωμόσαμεν, ὅπως ἂν ἀρρήκτως ἔχῃ; 
+                             <lb/><emph>Λαμπιτώ</emph>
+                             <lb/>πάρφαινε μὰν τὸν ὅρκον, ὡς ὀμιόμεθα. 
+                             <lb/><emph>Λυσιστράτη</emph>
+                             <lb/>καλῶς λέγεις. ποῦ 'σθ᾽ ἡ Σκύθαινα; ποῖ βλέπεις; 
+                             <lb n="185"/>θὲς ἐς τὸ πρόσθεν ὑπτίαν τὴν ἀσπίδα, 
+                             <lb/>καί μοι δότω τὰ τόμιά τις. 
+                             <lb/><emph>Καλονίκη</emph>
+                             <lb/>Λυσιστράτη
+                             <lb/>τίν᾽ ὅρκον ὁρκώσεις ποθ᾽ ἡμᾶς; 
+                             <lb/><emph>Λυσιστράτη</emph> 
+                             <lb/>ὅντινα;
+                             <lb/>εἰς ἀσπίδ᾽, ὥσπερ φάσ᾽ ἐν Αἰσχύλῳ ποτέ,
+                             <lb/>μηλοσφαγούσας.  
+                             <lb/><emph>Καλονίκη</emph>      
+                             <lb/>μὴ σύ γ᾽ ὦ Λυσιστράτη
+                             <lb n="190"/>εἰς ἀσπίδ᾽ ὀμόσῃς μηδὲν εἰρήνης πέρι.
+                             <lb/><emph>Λυσιστράτη</emph>
+                             <lb/>τίς ἂν οὖν γένοιτ᾽ ἂν ὅρκος; 
+                             <lb/><emph>Καλονίκη</emph>
+                             <lb/>εἰ λευκόν ποθεν
+                             <lb/>ἵππον λαβοῦσαι τόμιον ἐντεμοίμεθα.
+                             <lb/><emph>Λυσιστράτη</emph>
+                             <lb/>ποῖ λευκὸν ἵππον; 
+                             <lb/><emph>Καλονίκη</emph>
+                             <lb/>ἀλλὰ πῶς ὀμούμεθα
+                             <lb/>ἡμεῖς;
+                             <lb/><emph>Λυσιστράτη</emph>
+                             <lb/>ἐγώ σοι νὴ Δί᾽, ἢν βούλῃ, φράσω.
+                             <lb n="195"/>θεῖσαι μέλαιναν κύλικα μεγάλην ὑπτίαν,
+                             <lb/>μηλοσφαγοῦσαι Θάσιον οἴνου σταμνίον
+                             <lb/>ὀμόσωμεν ἐς τὴν κύλικα μὴ 'πιχεῖν ὕδωρ.
+                             <lb/><emph>Λαμπιτώ</emph>
+                             <lb/>φεῦ δᾶ τὸν ὅρκον ἄφατον ὡς ἐπαινίω. 
+                             <lb/><emph>Λυσιστράτη</emph>
+                             <lb/>φερέτω κύλικά τις ἔνδοθεν καὶ σταμνίον. 
+                             <lb/><emph>Μυρρίνη</emph>
+                             <lb/>ὦ φίλταται γυναῖκες, <add>ὁ</add> κεραμεὼν ὅσος. 
+                             <lb/><emph>Καλονίκη</emph>
+                             <lb/>ταύτην μὲν ἄν τις εὐθὺς ἡσθείη λαβών. 
+                             <lb/><emph>Λυσιστράτη</emph>
+                             <lb/>καταθεῖσα ταύτην προσλαβοῦ μοι τοῦ κάπρου. 
+                             <lb/>δέσποινα Πειθοῖ καὶ κύλιξ φιλοτησία, 
+                             <lb/>τὰ σφάγια δέξαι ταῖς γυναιξὶν εὐμενής. 
+                             <lb/><emph>Καλονίκη</emph>
+                             <lb/>εὔχρων γε θαἶμα κἀποπυτίζει καλῶς. 
+                             <lb/><emph>Λαμπιτώ</emph>
+                             <lb/>καὶ μὰν ποτόδδει γ᾽ ἁδὺ ναὶ τὸν Κάστορα. 
+                             <lb/><emph>Μυρρίνη</emph>
+                             <lb/>ἐᾶτε πρώτην μ᾽ ὦ γυναῖκες ὀμνύναι. 
+                             <lb/><emph>Καλονίκη</emph>
+                             <lb/>μὰ τὴν Ἀφροδίτην οὔκ, ἐάν γε μὴ λάχῃς. 
+                             <lb/><emph>Λυσιστράτη</emph>
+                             <lb/>λάζυσθε πᾶσαι τῆς κύλικος ὦ Λαμπιτοῖ: 
+                             <lb n="210"/>λεγέτω δ᾽ ὑπὲρ ὑμῶν μί᾽ ἅπερ ἂν κἀγὼ λέγω:
+                             <lb/>ὑμεῖς δ᾽ ἐπομεῖσθε ταὐτὰ κἀμπεδώσετε. 
+                             <lb/>οὐκ ἔστιν οὐδεὶς οὔτε μοιχὸς οὔτ᾽ ἀνήρ—   
+                             <lb/><emph>Καλονίκη</emph>
+                             <lb/>οὐκ ἔστιν οὐδεὶς οὔτε μοιχὸς οὔτ᾽ ἀνήρ— 
+                             <lb/>[...]
+                             <lb/><emph>Λυσιστράτη</emph>
+                             <lb/>ταῦτ᾽ ἐμπεδοῦσα μὲν πίοιμ᾽ ἐντευθενί: 
+                             <lb/><emph>Καλονίκη</emph>
+                             <lb/>ταῦτ᾽ ἐμπεδοῦσα μὲν πίοιμ᾽ ἐντευθενί: 
+                             <lb/><emph>Λυσιστράτη</emph>
+                             <lb/>εἰ δὲ παραβαίην, ὕδατος ἐμπλῇθ᾽ ἡ κύλιξ. 
+                             <lb/><emph>Καλονίκη</emph>
+                             <lb/>εἰ δὲ παραβαίην, ὕδατος ἐμπλῇθ᾽ ἡ κύλιξ. 
+                             <lb/><emph>Λυσιστράτη</emph>
+                             <lb/>συνεπόμνυθ᾽ ὑμεῖς ταῦτα πᾶσαι; 
+                             <lb/><emph>Πᾶσαι</emph>
+                             <lb/>νὴ Δία.
+                             <lb/><emph>Λυσιστράτη</emph>
+                             <lb/>φέρ᾽ ἐγὼ καθαγίσω τήνδε. 
+                             <lb/><emph>Καλονίκη</emph>
+                             <lb/>τὸ μέρος γ᾽ ὦ φίλη,
+                             <lb/>ὅπως ἂν ὦμεν εὐθὺς ἀλλήλων φίλαι.
+                         </quote>
+                         <p><emph>Tr.:</emph> LISISTRATA: Perché allora, Lampito, non
+                                facciamo subito un giuramento per rendere indissolubile l'accordo?
+                                LAMPITO: Quindi presenta le sue parole in modo che possiamo giurare.
+                                LY..: Giusto. Dov'è Scythian? Cosa stai guardando? [Date questa
+                                parte di catrame concava verso l'alto. Che qualcuno passi l'offerta
+                                a fette. CALONIKE: Lisistrato, che giuramento vuoi, avremmo legato?
+                                LY.:Quale?Come si dice che Eschilo abbia una volta predetto,
+                                macellando una pecora su uno scudo. KA.:Solo [190] non sopra lo
+                                scudo, visto che si tratta di pace. LY.: Allora cosa dovremmo
+                                giurare? KA.:Perché non prendiamo un gatto bianco da qualche parte,
+                                lo tagliamo a pezzi e ci giuriamo sopra?LY...: Da dove viene il
+                                cavallo bianco? KA.:Allora come possiamo giurare? LY.: Se vuoi, te
+                                lo dirò, per Zeus. [195] Prendi un grande incantesimo nero e mettilo
+                                a macinare una brocca di vino di Taso, e giura di non versare mai
+                                acqua in quell'incantesimo. LA.: In verità, raccomando questo
+                                straordinario tipo di giuramento. LY.: Allora che qualcuno porti un
+                                incantesimo e una brocca. MYRRINE: [200] Care donne, una brocca così
+                                grande! KA.: Basta prendere questo incantesimo nelle tue mani per
+                                provare piacere. LY..: Mettila giù e tieni il cinghiale. O Peitho,
+                                sovrano, e tu, maga dell'amicizia, accetta questa offerta, o donna
+                                benevola. KA.: [205] Bello è il colore di questo sangue, e sgorga
+                                magnificamente. LA.: E, per Kastor, ha un odore delizioso. NOI..:
+                                Lasciatemi essere il primo a giurare. KA: Su Afrodite, non c'è modo,
+                                a meno che non tiri fuori un destino. LY.: Lampito, prendi tutto
+                                l'incantesimo. [210] Che uno a nome di tutti ripeta dopo di me, e
+                                che gli altri lo approvino con un giuramento. "Nessun amante o
+                                marito.... KA.: "Nessun amante o marito... [...] LY..: [233] ...se
+                                tengo questo, posso bere da esso.... KA.: ...se tengo questo,
+                                lasciami bere da esso... LY..: [235] ...e se non mantengo la fede,
+                                che la coppa sia riempita d'acqua. KA..: e se non mantengo la fede,
+                                che la coppa sia riempita d'acqua. Giurate tutti. DONNA: Per Zeus!
+                                LY.: Ora compirò un atto di sacrificio. KA.:Solo un po', mia cara,
+                                per poter essere subito amici. </p>
+                     </div>
+                         <div type="textpart" n="commento">
+                         <p>Il sacrificio legato al giuramento è una categoria che interessa dal punto di vista tipologico. Sembra che nella visione "emica", fosse qualcosa di completamente diverso dalla thysia, come evidenziato dal vocabolario stesso usato nel passaggio. Il sostantivo τὰ σφάγια appare qui come sinonimo, denotando sacrifici cruenti, che non vengono mangiati. L'azione compiuta dall'eroina, o una delle azioni, è a sua volta denotata dal verbo καθαγίζω, 'distruggere ritualmente'. Questo suggerisce che abbiamo a che fare con un rituale il cui obiettivo primario non è quello di conquistare forze amiche, ma di scacciare quelle ostili (Parker 2011: 141 - l'opposizione tra sacrifici congiuntivi e disgiuntivi è una variante della divisione più consolidata nella letteratura in sacrifici olim-pici e ctonici, cfr. Scullion 1994). Nonostante queste indicazioni lessicali, il passus in questione contiene non pochi dati che suggeriscono che la distinzione tra tipi di rituali non era abbastanza rigorosa.</p>
+                           <p>La struttura del rituale, visibile sotto lo strato di distorsione comica, è analoga a quella dei thysia: le eroine portano l'"animale" e segue una preghiera (203-204). Vale la pena notare che essa contiene una richiesta alla dea di accettare il sacrificio (τὰ σφάγια δέξαι). La stessa destinataria è descritta come ταῖς γυναιξὶν εὐμενής ("benevola con le donne"), che è un tipico espediente retorico nella preghiera, che comporta l'identificazione di una divinità con un epiteto contenente una proiezione della sua relazione desiderata con il devoto. Il luogo suggerisce che il sacrificio (τὰ σφάγια) può essere trattato come l'equivalente di un dono, qualcosa il cui dare, da un lato, e il cui ricevere, dall'altro, apre un tipo di relazione benevola. Ciò che è caratteristico dei riti di tipo sphagia, l'accento cade sul "sangue". Nel caso della thysia, esso fluirebbe nella ciotola dello sphageion, una piccola parte verrebbe usata per ungere l'altare, e il resto verrebbe usato per le frattaglie (Ekroth 2005). Nel rituale in discussione, il sangue veniva raccolto in un recipiente (la cui scelta aveva chiaramente un significato simbolico) per essere utilizzato in qualche modo.</p>
+                             <p>La distorsione del comico e la vaghezza del testo senza didascalie rendono difficile dire cosa sia effettivamente successo in scena in quel luogo e a quale tipo di comportamento corrispondesse nella realtà rituale. Tuttavia, sembra caratteristico che la fine del rituale sia qui connessa con il piacere di banchettare insieme, similmente a Thysia, dove la macellazione era coronata dalla degustazione delle interiora arrostite. Le associazioni della festa non sono forse tanto il risultato di una distorsione comica quanto un segno dei tempi.</p>
+                             <p>Infatti, è chiaro da Pausania (5.24.10-11) che mentre c'era un'usanza tra gli eroi omerici di scartare l'intera carcassa degli animali (cfr. Il. 19.266-8) su cui giuravano, i suoi contemporanei (II secolo d.C.) non sempre, se mai, osservavano questa ingiunzione. Come nota Parker (2011: 157-158; 1996: 105; Stengel 1920: 137-138), il cambiamento (se si può davvero parlare di cambiamento, trattando l'Ome- ra come una fonte che riflette autorevolmente la realtà sociale) può essere avvenuto molto presto. Si sa che già nel periodo classico si mangiava la carne di un animale sul quale si era fatto un giuramento durante l'Apaturia (per un'ampia base di fonti vedi: Parker 1996: 105). Per saperne di più sui giuramenti: Sommerstein, Bayliss (2013) e Sommerstein, Torrance (2014).</p>
+                             <p>184: ἡ Σκύθαινα"Sciti"; ad Atene le truppe d'ordine venivano reclutate tra gli Sciti, che indossavano un caratteristico abito straniero. La loro immagine nella commedia indica l'esistenza di stereotipi negativi su di loro. La presenza di una controparte femminile della Scizia nella scena indica paradossalmente che la scena è una parodia di un tipico rito ateniese eseguito in pubblico, assistito da un tutore dell'ordine.</p>
+                            <p>186/192: τὰ τόμια - sacrificio a fette / τόμιον ἐντεμοίμεθα - "taglieremo a pezzi"; la pratica di una persona che presta giuramento stando in piedi su o toccando qualcosa descritto come τόμια è ben attestata (e.D. 23.68; Arist. Ath. 55.5; Antipho 5.12; Aesch. 1.114; Lycurg. 1.20). Il contesto, l'etimologia della frase, così come la formula τόμιον ἐντεμοίμεθα (cfr. Aesch. 2.87: τἐμνοντα τὰ τόμια) non lasciano dubbi sul fatto che ciò che si intende siano parti di un animale tagliate, escisse o tritate (la formula omerica, ad es. in Il. in Il. 2.124 ὅρκια πιστὰ ταμόντες - "aver tagliato = aver stretto un patto inviolabile"). </p>
+                             <p>I dettagli rimangono purtroppo oggetto di congetture. Stengel (1910: 80-85), Stengel (1920: 137), cf. Burkert (2011: 378), Burkert (1985: 251), Burkert (1983: 36) ha espresso una congettura audace che possa trattarsi di nuclei (tagliati), ma come nota Faraone (1993: 68), non ci sono forti indicazioni a sostegno di ciò, che non si trattasse di visceri (σπλάγχνα tagliati e affettati) o di carne tagliata (cfr. Ekroth 2014: 164-165; Casabona 1966: 220-225). È anche possibile che il tipo di oggetti che venivano usati come τόμια variasse e dipendesse da fattori per noi sfuggenti (oltre alla cronologia e alla geografia, il contenuto dei giuramenti, il loro carattere pubblico o privato, ecc.).</p>
+                             <p>>185-90: i versi contengono un riferimento esplicativo a un luogo dei Sette contro Tebe di Eschilo (42-48; parole dell'esploratore): ("Poiché, ecco, sette uomini, audaci condottieri,/ scannarono un toro, raccogliendone il sangue in uno scudo dai bordi neri/ e con le mani toccarono il sangue del toro,/ su Ares, Enyo e Grosha, avidi di sangue/ fecero un giuramento che o avrebbero portato distruzione alla città/ e l'avrebbero distrutta con la forza, / o morendo avrebbero mescolato il proprio sangue con questa terra"). </p>
+                           <p> Ovviamente, questa immagine suggestiva deve essere affrontata con la stessa cautela del grottesco aristofanico. Perché queste parole si riferiscono al comportamento dei violatori iperbolici del passato mitico. Vale la pena notare, tuttavia, che l'esistenza di una tale pratica rituale è ampiamente confermata da Senofonte (An. 2.2.9), che descrive come tre animali (un toro, un cinghiale e un ariete) furono macellati, il loro sangue fu raccolto in uno scudo, dopo di che i Greci e i loro alleati vi immersero le loro spade e lance e giurarono un'alleanza. Sembra significativo che Eschilo sottolinei la connessione simbolica tra il sangue animale versato e il sangue umano. È presente nel soprannome della personificazione Phobos - il sostantivo, trattato come il nome di una divinità, definisce "paura in preda al panico". Nel quadro della tecnica di guerra dei tempi di Eschilo, questo stesso fenomeno portava alla rottura della formazione, alla fuga disordinata e al massacro dei guerrieri. Il sangue menzionato qui è anche quello dei sette capi che giurano di morire se non catturano la città. Così, il poeta tratta chiaramente l'atto di violenza contro l'animale come una rappresentazione di ciò che è l'oggetto della promessa del boia: compiere un atto di violenza.</p>
+                             <p>È sorprendente che l'idea di Lisistrata di ripetere il gesto conosciuto da Eschilo si scontri con un violento rifiuto. Le donne di Aristofane si occupano di pace, quindi l'intero rituale, piuttosto che il sangue come rappresentazione materiale dell'oggetto del giuramento, invocherà il vino, un liquido che dà piacere alla donna ateniese stereotipata e che probabilmente era abbastanza comunemente associato alla pace (cfr. Ar. Pax: sparsim; E. Ba 417-433; Il. 6.264-268).</p>
+                             <p>189: μηλοσφαγούσας - "macellare una pecora"; in Eschilo (Th. 186) compare la parola ταυροσφαγοῦντες, "macellare un toro", come si dovrebbe dedurre dalla struttura del compositum e dal fatto che nel verso successivo si parla di sangue di toro. Va notato, tuttavia, che al tempo di Aristofane, sebbene la struttura di questi due composti fosse ancora evidente, essi persero chiaramente il loro significato originale ("macellare una pecora/toro") a favore di uno più generale: "macellare qualsiasi animale". (cf. schol. ad loc. ). È difficile resistere all'impressione che il poeta abbia voluto qui fare uno scherzo, sostituendo la parola associata a una vittima più prestigiosa con una che si riferisce a una più comune. Una tale interpretazione, tuttavia, sembra eccessivamente sottile, poiché richiederebbe al pubblico di memorizzare il testo di Eschilo in modo molto preciso. Da un punto di vista sintattico, è interessante notare il comportamento del verbo μηλο-/ ταυρο-σφαγέω, che nei luoghi discussi ricorre con la circostanza εἰς ἀσπίδα / ἐς σάκος, 'tar- if' (dove due sostantivi diversi nominano due tipi di scudi). Il punto, ovviamente, è che il sangue dell'animale macellato, che è l'oggetto di interesse pro- sessuale durante il rito, deve fluire in un tale recipiente improvvisato.</p>
+                             <p>191-2: λευκὸν ἵππον - "un cavallo bianco"; il luogo non è chiaro. Scholiasta vede qui o uno scherzo osceno o un'allusione ai costumi delle Amazzoni, che, scrive, sacrificavano cavalli bianchi (λευκοὺς ἵππους ἔθυον). La prima di queste ipotesi, come al solito con il testo di Aristofane, sembra attraente. Poiché non sappiamo cosa accadde sulla scena, non si può escludere che l'arguzia qui contenuta fosse non solo piccante ma anche perfettamente leggibile,grazie al gesto che accompagna le parole. </p>
+                            <p>D'altra parte, il fatto che Scholiast fornisca una variante alternativa della spiegazione indica che egli stesso non aveva dati sufficienti sullo strato per- formativo per affermare qualcosa di certo sul contenuto del passus. La seconda interpretazione che dà sembra tanto meno convincente in quanto nulla si sa da altre fonti sui sacrifici che si presume siano stati fatti dalle Amazzoni. Erodoto (7.113) menziona l'uccisione rituale di cavalli bianchi da parte dei magi persiani, e Lukian (Scyth. 3) menziona il sacrificio sulla tomba di una rosa scita. Questi due passaggi si collegano con i costumi delle Amazzoni nel migliore dei casi indirettamente. Inoltre non contengono nulla che sarebbe ovviamente associato al luogo in questione in Aristofane. Poiché il passus era ovviamente destinato a suscitare il riso, si può sospettare che l'allusione in esso contenuta fosse ben leggibile, e quindi si riferisse a qualcosa di ben noto al pubblico. Presumibilmente, quindi, le spiegazioni speculative dello studioso ci allontanano solo dal cogliere l'essenza della battuta, che poteva riguardare qualcosa di molto attuale all'epoca in cui la commedia fu rappresentata. È con una distanza simile che dobbiamo considerare la proposta di Fletcher (2012: 228), che ha indicato come parallelo il giuramento fatto dai pretendenti di Elena. In questo rituale, secondo Pausania (3.20.9), veniva utilizzato un tom di cavallo (non sappiamo di che razza), ma è difficile dire se questa tradizione fosse nota al pubblico di Aristofane.</p>
+                            <p>196: μηλοσφαγοῦσαι Θάσιον οἴνου σταμνίον - 'macellare una brocca di vino di Taso'. Lisistrata (qui e coerentemente più avanti) usa il linguaggio tecnico del sacrificio di sangue, applicandolo ad azioni che non sono sacrifici (μηλοσφαγέω - cfr. 189). Non sono nemmeno libagioni sensu stricto (come Henderson 1987: ad loc.), perché il vino qui non è versato a terra, ma in un recipiente. Il vino di Taso era famoso per la sua qualità, quindi chiaramente, come al solito nella commedia, la dimensione edonistica del rito parodiato viene in primo piano. Il sacrificio di un recipiente di vino anche in: Ar. Th. 686-762.</p>
+                             <p>202: προσλαβοῦ μοι τοῦ κάπρου - "tenere il cinghiale". Hender- son (1987: ad loc. ), nel suo commento al passus, fa notare che l'imposizione delle mani sull'animale prima di macellarlo aveva un importante significato simbolico. Suppongo che si tratti solo di un equivoco, perché lo studioso si riferisce al passus (cit. ad 185-190) di Eschilo (Th. 42), che parla di immergere le mani nel sangue già dopo la macellazione, e al luogo di Stengel (1920: 136), dove si tratta di tagliare ciocche di capelli alle vittime (in Iliade 3.273-274) e consegnarle ai capi degli Achei e dei Troiani. Quest'ultimo gesto (cfr. Eustathius: ad loc.) aveva chiaramente un significato analogo a quello di dare ai giuranti le interiora o pezzi dell'animale macellato e probabilmente non aveva nulla a che fare con il mettere le mani su di esso prima di ucciderlo. Per questo motivo, si può supporre che l'espressione data da Lisistrata nei passaggi discussi imiti il comportamento legato alla routine sacrificale di carattere puramente pragmatico e sia priva di un profondo simbolismo. Poiché le eroine erano così preoccupate per il calice, la leader ha dovuto richiamarle all'ordine, ordinando loro di aiutare a tenere l'animale, mentre lei stessa (apparentemente) intendeva sferrare un colpo. Perché il testo faccia riferimento a un cinghiale (κάπρος) rimane una questione di dibattito. </p>
+                             <p>Anche se i commentatori (Henderson 1987: ad loc.; Sommerstein 1990 ad loc.) suggeriscono che può essere influenzato da una scena analoga nell'Iliade (19.249-268), in cui Agamennone macella un simile animale, è difficile dire perché questo luogo dovrebbe essere più significativo di, per esempio, un passus dal libro III dell'Iliade (271-323), in cui l'eroe macella due pecore. Dato che i dati disponibili non indicano che i maiali siano particolarmente legati al contesto della storia, forse dovremmo supporre una sorta di gioco di parole qui. Scholiast (ad loc. ) nota che la parola per cinghiale è usata qui da Aristofane nel senso di "genitali", il che sembra essere un suggerimento attraente, purtroppo non confermato dal materiale lessicale. Naturalmente, invece di un cinghiale, le eroine "macellano" una brocca di vino.</p>
+                             <p>203-204: una preghiera molto breve che contiene un'invocazione a due dee (una delle quali è puramente una personificazione comica), una richiesta di accettare un'offerta (al singolare, ma credo che siano entrambe le dee). L'epiteto rivela che lo scopo del rituale è quello di conquistare gli immortali (questa volta, però, si riferisce probabilmente solo alla seconda dea menzionata).</p>
+                           <p>205: εὔχρων γε θαἶμα κἀποπυτίζει καλῶς - "bello è il colore di questo sangue e sgorga magnificamente". Un'altra di una serie di battute basate sul doppio senso: vino/sangue. Gli Scholia (ad loc.) contengono la spiegazione che il boia qui imita un indovino o un sacerdote (θυοσκόος). Questo ci porta a supporre che il flusso di sangue fosse sottoposto a una lettura per ottenere dei segni. Anche se non ci fosse un sofisticato sistema di semiosi delle petecchie, sarebbe effettivamente strano se non funzionasse la categoria di base dell'opposizione binaria: "giusto/sbagliato". Il luogo della Pace (1054-1055) indica l'adeguatezza in tale contesto dell'avverbio καλῶς.</p>
+                             <p>207: ἐᾶτε πρώτην μ', ὦ γυναῖκες, ὀμνύναι - "lasciami essere la prima a giurare"; l'eroina ovviamente non può aspettare il suo turno alla coppa. Sotto lo strato di uno scherzo si può scorgere una pratica rituale: il giuramento richiede un contatto fisico con l'animale macellato, i suoi pezzi o il sangue.</p>
+                             <p>235-236: εἰ δὲ παραβαίην, ὕδατος ἐμπλῆιθ' ἡ κύλιξ - "e se non mantengo la fede, che la coppa sia riempita di acqua". I testi di giuramento di solito contengono una sanzione esplicitamente espressa. Caratteristicamente, il materiale greco indica che essa era il più delle volte collegata all'oggetto su cui il giuramento veniva fatto. Faraone (1993), con tutta la distanza che conserva dal concetto di Frazer, definisce probabilmente a ragione tale comportamento come una sorta di magia simpatica, in cui - condizionatamente, perché nella situazione di rottura della parola - chi giura porta su di sé il destino che incontra qualcos'altro - un animale macellato e tagliato, sangue o vino versato, cera fusa (es. 3.292-301; Paroemioraphi Graeci 126 (Gaisford); SEG IX 4; cfr. Fletcher 2012: 214, 230). La descrizione del giuramento dai Sette contro Tebe di Eschilo (42-48), citata sopra (ad 185-9), rientra perfettamente in questo schema.</p>
+                             <p>238: ἐγὼ καθαγίσω τήνδε - "compirò un atto di sacrificio"; il verbo καθαγίζω denota l'atto di offrire qualcosa mediante distruzione completa, di solito con il fuoco (cfr. Ar. Av. 566). Nel luogo in discussione, tuttavia, si tratta chiaramente di "distruggere" il vino in un modo che sia piacevole per la persona che lo distrugge, cioè di berlo. Chiaramente, quindi, ciò che era al centro dell'interesse di chi usava il termine non era l'uso del fuoco, ma il fatto di annientare un oggetto, o, come probabilmente Svenbro (2005) fa notare giustamente, di toglierlo dalla sfera umana e in una forma alterata (per esempio il fumo) trasferirlo agli esseri soprannaturali. Considerando la funzione dell'oggetto su cui si è giurato, con il cui destino si è identificato il destino di chi giura sulla croce (cfr. ad 235,6), a questo punto ci si aspetterebbe un trattamento brutale del vino. Ciò è perfettamente sottolineato dalla natura comica del passus, in cui Lisistrata intende chiaramente bere avidamente l'intero contenuto del grande incantesimo.</p>
+                         </div>
+                 </div>
+                         <div type="textpart" n="Lisistrata_1128–1134">
+                             <head>Lisistrata 1128–1134</head>
+                             <div type="textpart" n="1128-1134">
+                                 <p>Lisistrata esprime la critica degli uomini delle varie poleis greche coinvolte nella guerra del Peloponneso. Il passus è interessante per l'ideologia panellenica che porta alla ribalta, il cui prezioso punto di riferimento è lo "straniero, il barbaro". A causa della menzione di un esercito di potenziali nemici esterni, possiamo indovinare che se era in qualche modo specificato quali stranieri si intendevano, la fonte della paura che portava i Greci alla solidarietà doveva essere soprattutto la Persia. Oltre alla minaccia esterna - reale o immaginaria - i santuari comuni erano un fattore unificante a livello ideologico. Nei passaggi citati l'attenzione si concentra sul gesto di lavarsi le mani. </p>
+                                 <p>È difficile dire se si tratta solo di una figura retorica. In ogni caso, era chiaramente un momento molto importante nel processo rituale.</p>
+                                 
+                                 <quote>
+                                     <lb/><emph>Λυσιστράτη</emph>
+                                     <lb/>λαβοῦσα δ᾽ ὑμᾶς λοιδορῆσαι βούλομαι
+                                     <lb/>κοινῇ δικαίως, οἳ μιᾶς ἐκ χέρνιβος
+                                     <lb n="1130"/>βωμοὺς περιρραίνοντες ὥσπερ ξυγγενεῖς
+                                     <lb/>Ὀλυμπίασιν, ἐν Πύλαις, Πυθοῖ （πόσους
+                                     <lb/>εἴποιμ᾽ ἂν ἄλλους, εἴ με μηκύνειν δέοι;）
+                                     <lb/>ἐχθρῶν παρόντων βαρβάρων στρατεύματι
+                                     <lb/>Ἕλληνας ἄνδρας καὶ πόλεις ἀπόλλυτε.
+                                 </quote>
+                                 
+                                 <p>Poiché vi ho riuniti qui, desidero esprimere una giusta critica
+                                a tutti coloro che da un solo recipiente spruzzano acqua sugli
+                                altari, come i fratelli - a Olimpia, a Pylaia, a Pytho.... quanti
+                                altri potrei enumerare, se dovessi parlare più a lungo? Sebbene
+                                l'esercito barbaro sia così vicino, tu distruggi le città e gli
+                                uomini greci.</p>
+                             </div>
+                             <div type="textpart" n="commento">
+                                 <p>1129: μιᾶς ἐκ χέρνιβος - "da un solo recipiente"; il sostantivo
+                                χέρνιψ originariamente significava acqua per lavarsi le mani - prima
+                                del sacrificio, così come altre attività come un pasto. Nel luogo in
+                                questione, Aristofane usa la frase preposizionale ἐκ χέρνιβος ("dai
+                                chernips"), il che può indicare che all'epoca veniva già usato anche
+                                in senso metonimico: "un recipiente per lavare l'acqua" (cfr. Ar.
+                                Av. 850 con commento). Una scena della Pace di Aristofane (960-961)
+                                contiene una preziosa menzione del passaggio di una tale ciotola di
+                                mano in mano durante i riti preliminari che precedono il sacrificio.
+                                È possibile che Lisistrata alluda a tale lavaggio collettivo,
+                                sottolineando l'unità del gruppo di partecipanti al rito. </p>
+                                 <p>È interessante notare, tuttavia, che nei dipinti su vaso il chernips è quasi sempre posto nelle mani di una persona più giovane, che lo consegna al sacrificatore principale, un uomo più anziano di status chiaramente superiore (van Straten 1995: fig. 30-36). Il luogo in questione si riferisce a un modo leggermente diverso di usare il chernips: βωμοὺς περιρραίνοντες: "spruzzare gli altari". Il verbo περιρραίνω qui usato, la cui sola base derivazionale: ῥαίνω esprime la semantica di "spruzzare", intensifica questo significato con il prefisso περι-, "da ogni dove". Evidentemente, quindi, ciò che si intende è un rituale preliminare che consiste in una pulizia simbolica dell'altare, probabilmente eseguita mentre l'altare viene percorso (in senso antiorario ἐπιδεξιά), con l'aiuto di una billetta o di un ramoscello immerso nel chernips. Più ampiamente su questo argomento: ad Ar. Pax 956-61; Av. 850, 958.Rispetto o mancanza di esso per il chernips come un segno di osservanza o di violazione delle norme rituali: Th. 4.97.3; S. O.T. 240; Lys. 6.52; D. 20.158 (citando dopo Henderson 1987: ad loc.; nel caso del primo luogo citato non sono sicuro che l'autore intendesse veramente chernips come figura; gli altri passi non sollevano le mie obiezioni).</p>
+                                 <p>1131-1132: Lisistrata afferma retoricamente che potrebbe nominare più santuari panellenici dei tre che elenca. Infatti, è difficile dimenticare Isthmia, Nemea, Delo, Eleusi, Do- don o anche Atene, che organizzando i giochi panatenaici, rivendicava il ruolo di centro del culto panellenico. Tanto più nel contesto della stessa dichiarazione dell'oratrice, la sua scelta dovrebbe apparire sconcertante. Mentre Olympia e Del- fy, probabilmente i più famosi santuari dell'antichità, sembrano ovviamente degni di menzione, la menzione di Pylaia sembra insolita. Questo luogo, meglio conosciuto come Thermopylai è un istmo in posizione strategica, che fornisce un passaggio facilmente difendibile da mezzanotte alla Grecia centrale. Almeno dal periodo arcaico nelle sue vicinanze c'era un santuario di Demetra in Anthelia, la sede originale di un'organizzazione panellenica chiamata l'Anfiteatro di Pylaean, più tardi (dato che controllava anche Delfi) - l'Anfiteatro di Delfi. </p>
+                                     <p>Questa istituzione religiosa svolgeva un importante ruolo politico. Forse fu ispirato da questa istituzione che il primo luogo di resistenza contro Serse da parte dei Greci fu vicino alla sua sede durante la famosa battaglia delle Termopili (cfr. Stählin 1934). Dato il contesto, questo è probabilmente ciò a cui Aristofane si riferisce quando invita gli Ateniesi a riconciliarsi con gli Spartani e ad unire le forze contro i loro comuni nemici. Il riferimento all'ideologia formata durante le guerre persiane è una caratteristica tipica del suo programma politico.</p>
+                            </div>
+                              </div>
+                     </div>
+            </div>
+                         </body>
+    </text>
+</TEI>

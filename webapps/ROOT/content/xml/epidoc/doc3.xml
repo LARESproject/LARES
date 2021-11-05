@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title>ἄφετος</title>
+            </titleStmt>
+            <editionStmt>
+                <edition><ref target="http://sitename.unibo.it">LARES Project</ref>
+                    <date when="2021">2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>LARES</publisher>
+                <idno type="filename">doc3</idno>
+                <availability xml:lang="en" status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
+                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
+                        4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <altIdentifier>
+                            <idno type="uri"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <rs type="text_type" ref="#">Lexicon entry</rs>
+                        </summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-10-12" who="gpviscardi">creation of record</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart">
+                    <ab>ἄφετος afetos ἄφετος, adj. swobodnie wypasany (o trzodzie); dosłownie:
+                        puszczony wolno. Etymologia i morfologia Przymiotnik odczasownikowy
+                        utworzony od czasownika ἀφίημι z tematem na stopniu zerowym (por. Chantraine
+                        1961: 283). Wystąpienia Wprost do zwierząt ofiarnych czasownik odnosi się w
+                        Kritiaszu Platona, w opisie stada byków, które pasły się w miejscu świętym
+                        Posejdona na Atlantydzie: ἀφέτων ὄντων ταύρων ἐν τῷ . . ἱερῷ, Pl. Criti.119d
+                        (zob. komentarz ad loc.). Do obrazu bydła wypasanego na należących do
+                        sanktuarium łąkach nawiązuje też zapewne Eurypides, kiedy określa tym
+                        przymiotnikiem porzuconego w Delfach młodego Iona (ὃ δ᾽ ἐν θεοῦ δόμοισιν
+                        ἄφετος, ὡς λάθοι, παιδεύεται, E. Ion 821-822). Przymiotnik ἄ. mógł być
+                        odniesiony również do miejsca swobodnego wypasu - νομὴ ἄφετος -
+                        przeciwstawionego żłobowi, φάτνη, por. Plut. Lys. 20. W warunkach
+                        geograficznych Grecji właściwej możliwości swobodnego wypasu bydła były
+                        mocno ograniczone. Jednocześnie rozwój dużych sanktuariów, w których
+                        składano publiczne ofiary dla rzesz ludzi, stwarzał zapotrzebowanie na tę
+                        kategorię zwierząt ofiarnych. Można w związku z tym zaobserwować zjawisko
+                        polegające na wyłączaniu obszarów położonych w pobliżu sanktuarium spod
+                        uprawy w celu wypasania na nich bydła. Taki charakter miało między innymi
+                        terytorium między Delfami a Zatoką Koryncką, przekształcone w świętą łąkę w
+                        wyniku Pierwszej Wojny Świętej (IG II2 1126) oraz łąki położone na zachód od
+                        Eleuzis (IG II2 204, Androtion, FGrH III B 324 F 30). Na temat hodowli bydła
+                        na świętych łakach zob. McInerney 2010: 146-172. Bibliografia Chantraine,
+                        Pierre, 1961, Morphologie Historique Du Grec, Paris. McInerney, Jeremy,
+                        2010, The Cattle of the Sun. Cows and Culture in the World of the Ancient
+                        Greeks, Princeton, NJ. Napisał: Przemysław Biernat Data ostatniej
+                        aktualizacji: 08.05.2018.</ab>
+                </div>
+            </div>
+            <div type="bibliography">
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

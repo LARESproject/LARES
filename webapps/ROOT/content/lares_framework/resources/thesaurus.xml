@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Thesaurus</title>
+      </titleStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc>
+        <p/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="thesaurus" n="c25660">
+          <!--<category n="Record source"><catDesc xml:id="c26115" n="Record_source">Record source</catDesc>
+            <category><catDesc xml:id="c26116" n="Original_document">    • Original document</catDesc></category>
+            <category><catDesc xml:id="c26117" n="Critical_edition">    • Critical edition</catDesc></category>
+            <category><catDesc xml:id="c26322" n="Edition">    • Edition</catDesc></category>
+            <category><catDesc xml:id="c26118" n="Document_summary">    • Document summary</catDesc></category>
+            <category><catDesc xml:id="c26119" n="Scientific_literature">    • Scientific literature</catDesc></category>
+          </category>-->
+          
+          <category n="Document features"><catDesc xml:id="c25661" n="Document_features">Document features</catDesc>
+            <category><catDesc xml:id="c26111" n="Document_tradition">    • Document tradition</catDesc>
+          <category><catDesc xml:id="c26112" n="Original">        ◦ Original</catDesc></category>
+          <category><catDesc xml:id="c26113" n="Copy">        ◦ Copy</catDesc></category>
+          <category><catDesc xml:id="c26237" n="Compendium">        ◦ Compendium</catDesc></category>
+          <category><catDesc xml:id="c26114" n="Uncertain_tradition">        ◦ Uncertain tradition</catDesc></category>
+          </category>
+            
+           <category n="type_of_document"><catDesc xml:id="c25662" n="Type_of_document">    • Type of document</catDesc>
+          <category><catDesc xml:id="c25663" n="Archaeological_sources">        ◦ Archaeological sources</catDesc></category>
+          <category><catDesc xml:id="c25664" n="Parchment_documents">        ◦ Parchment documents</catDesc>
+          <category><catDesc xml:id="c25665" n="Diploma">            ▸ Diploma</catDesc>
+          <category><catDesc xml:id="c25666" n="Imperial/royal_diploma">                * Imperial/royal diploma</catDesc></category>
+          <category><catDesc xml:id="c25667" n="Marquis’/ducal/princely_diploma">                * Marquis’/ducal/princely diploma</catDesc></category>
+          <category><catDesc xml:id="c25668" n="Episcopal_diploma">                * Episcopal diploma</catDesc></category>
+          </category>
+          <category><catDesc xml:id="c25669" n="Placitum/iudicatum">            ▸ Placitum/iudicatum</catDesc></category>
+          <category><catDesc xml:id="c25670" n="Cartula">            ▸ Cartula</catDesc>
+          <category><catDesc xml:id="c25671" n="Venditio">                * Venditio</catDesc></category>
+          <category><catDesc xml:id="c25672" n="Commutatio">                * Commutatio</catDesc></category>
+          <category><catDesc xml:id="c25673" n="Libellus/precaria/emphyteusis">                * Libellus/precaria/emphyteusis</catDesc></category>
+          <category><catDesc xml:id="c25674" n="Offersio/donatio">                * Offersio/donatio</catDesc></category>
+          <category><catDesc xml:id="c25675" n="Promissio">                * Promissio</catDesc></category>
+          <category><catDesc xml:id="c25676" n="Ordinatio">                * Ordinatio</catDesc></category>
+          <category><catDesc xml:id="c25677" n="Testamentum/iudicatum">                * Testamentum/iudicatum</catDesc></category>
+          <category><catDesc xml:id="c25678" n="Morgengabe">                * Morgengabe</catDesc></category>
+            <category><catDesc xml:id="c26454" n="Convenentia">                * Convenentia</catDesc></category>
+          </category>
+          <category><catDesc xml:id="c25679" n="Breve">            ▸ Breve</catDesc>
+          <category><catDesc xml:id="c25680" n="List/inventory">                * List/inventory</catDesc></category>
+          <category><catDesc xml:id="c25681" n="Judicial_breve">                * Judicial breve</catDesc></category>
+          <category><catDesc xml:id="c25682" n="Transactional_breve">                * Transactional breve</catDesc></category>
+          </category>
+          <category><catDesc xml:id="c26220" n="Catalogus">            ▸ Catalogus</catDesc></category>
+          <category><catDesc xml:id="c25683" n="Littera/mandatum">            ▸ Littera/mandatum</catDesc></category>
+          <category><catDesc xml:id="c26227" n="Papal_concession">            ▸ Papal concession</catDesc></category>
+          </category>
+          
+          <category><catDesc xml:id="c25684" n="Epigraphic_documents">        ◦ Epigraphic documents</catDesc></category>
+          <category><catDesc xml:id="c25685" n="Papyrological_documents">        ◦ Papyrological documents</catDesc>
+          <category><catDesc xml:id="c26269" n="Papal_concession_(papyrus)">            ▸ Papal concession (papyrus)</catDesc></category>
+          <category><catDesc xml:id="c26270" n="Breve_(papyrus)">            ▸ Breve (papyrus)</catDesc></category>
+          </category>
+          <category><catDesc xml:id="c25686" n="Literary_sources">        ◦ Literary sources</catDesc>
+          <category><catDesc xml:id="c25687" n="Author">            ▸ Author</catDesc></category>
+          </category>
+          <category><catDesc xml:id="c25688" n="Juridical_sources">        ◦ Juridical sources</catDesc>
+          <category><catDesc xml:id="c25689" n="Lex">            ▸ Lex</catDesc></category>
+          <category><catDesc xml:id="c25690" n="Capitulum">            ▸ Capitulum</catDesc></category>
+          </category>
+          </category>
+            
+            <!--<category><catDesc xml:id="c25691" n="Language">    • Language</catDesc>
+          <category><catDesc xml:id="c25692" n="Latin">        ◦ Latin</catDesc></category>
+          <category><catDesc xml:id="c25693" n="Greek">        ◦ Greek</catDesc></category>
+          </category>-->
+            
+            <category><catDesc xml:id="c25694" n="Writer">    • Writer</catDesc>
+              <category><catDesc xml:id="c25695" n="Copyist">        ◦ Copyist</catDesc></category>
+            </category>
+            
+            <category><catDesc xml:id="c25696" n="Intercessory">    • Intercessory</catDesc></category>
+            
+            <category><catDesc xml:id="c26268" n="Witness">    • Witness</catDesc></category>
+          </category>
+          
+          <category n="Geography"><catDesc xml:id="c25697" n="Geography">Geography</catDesc>
+            <category><catDesc xml:id="c25698" n="Geographic_regions">    • Geographic regions</catDesc></category>
+            
+            <category><catDesc xml:id="c25699" n="Cities">    • Cities</catDesc></category>
+            
+            <category><catDesc xml:id="c25700" n="Villages/settlements">    • Villages/settlements</catDesc>
+              <category><catDesc xml:id="c25701" n="Vici">        ◦ Vici</catDesc></category>
+              <category><catDesc xml:id="c25702" n="Burgi">        ◦ Burgi</catDesc></category>
+            </category>
+            
+            <category><catDesc xml:id="c25703" n="Houses">    • Houses</catDesc></category>
+            
+            <category><catDesc xml:id="c26362" n="Palatia">    • Palatia</catDesc></category>
+            
+            <category><catDesc xml:id="c25704" n="Areas">    • Areas</catDesc>
+              <category><catDesc xml:id="c25705" n="Confinia">        ◦ Confinia</catDesc></category>
+            </category>
+            
+            <category><catDesc xml:id="c25706" n="Modern_places">    • Modern places</catDesc></category>
+            
+            <category><catDesc xml:id="c25707" n="Natural_landscape">    • Natural landscape</catDesc>
+              <category><catDesc xml:id="c25708" n="Rivers">        ◦ Rivers</catDesc></category>
+              <category><catDesc xml:id="c26396" n="Riverbed">        ◦ Riverbed</catDesc></category>
+              <category><catDesc xml:id="c25709" n="Lakes">        ◦ Lakes</catDesc></category>
+              <category><catDesc xml:id="c25710" n="Marshes/lagoons/tombolos">        ◦ Marshes/lagoons/tombolos</catDesc></category>
+              <category><catDesc xml:id="c26397" n="Shores">        ◦ Shores</catDesc></category>
+              <category><catDesc xml:id="c25711" n="Islands">        ◦ Islands</catDesc></category>
+              <category><catDesc xml:id="c25712" n="Sea">        ◦ Sea</catDesc></category>
+              <category><catDesc xml:id="c25713" n="Mountains">        ◦ Mountains</catDesc></category>
+            </category>
+          </category>
+          
+          <category n="Economy"><catDesc xml:id="c25714" n="Economy">Economy</catDesc>
+            <category><catDesc xml:id="c25715" n="Production_units">    • Production units</catDesc>
+              <category><catDesc xml:id="c25716" n="Villas">        ◦ Villas</catDesc></category>
+              <category><catDesc xml:id="c25717" n="Curtes">        ◦ Curtes</catDesc></category>
+              <category><catDesc xml:id="c25718" n="Gai">        ◦ Gai</catDesc></category>
+              <category><catDesc xml:id="c25719" n="Massae">        ◦ Massae</catDesc></category>
+              <category><catDesc xml:id="c25720" n="Salae">        ◦ Salae</catDesc></category>
+              <category><catDesc xml:id="c25721" n="Demesnes">        ◦ Demesnes</catDesc></category>
+              <category><catDesc xml:id="c25722" n="Domuscultae">        ◦ Domuscultae</catDesc></category>
+              <category><catDesc xml:id="c26290" n="Fundi">        ◦ Fundi</catDesc></category>
+              <category><catDesc xml:id="c25723" n="Casalia">        ◦ Casalia</catDesc></category>
+              <category><catDesc xml:id="c25724" n="Mansi">        ◦ Mansi</catDesc></category>
+              <category><catDesc xml:id="c25725" n="Casae/cassinae_massaricie">        ◦ Casae/cassinae massaricie</catDesc></category>
+              <category><catDesc xml:id="c25726" n="Casalini/fundamenta">        ◦ Casalini/fundamenta</catDesc></category>
+              <category><catDesc xml:id="c25727" n="Petiae">        ◦ Petiae</catDesc></category>
+              <category><catDesc xml:id="c26246" n="Landed_possessions">        ◦ Landed possessions</catDesc></category>
+              <category><catDesc xml:id="c25728" n="Mines">        ◦ Mines</catDesc></category>
+              <category><catDesc xml:id="c25729" n="Quarries">        ◦ Quarries</catDesc></category>
+              <category><catDesc xml:id="c25730" n="Forests">        ◦ Forests</catDesc>
+                <category><catDesc xml:id="c25731" n="Gualdi">            ▸ Gualdi</catDesc></category>
+                <category><catDesc xml:id="c25732" n="Cafagia">            ▸ Cafagia</catDesc></category>
+            </category>
+              <category><catDesc xml:id="c25733" n="Fisheries">        ◦ Fisheries</catDesc></category>
+              <category><catDesc xml:id="c25734" n="Saltworks">        ◦ Saltworks</catDesc></category>
+              <category><catDesc xml:id="c25735" n="Other_basins">        ◦ Other basins</catDesc></category>
+              <category><catDesc xml:id="c25736" n="Processing_units">        ◦ Processing units</catDesc>
+                <category><catDesc xml:id="c25737" n="Mills">            ▸ Mills</catDesc></category>
+                <category><catDesc xml:id="c25738" n="Kilns">            ▸ Kilns</catDesc></category>
+            </category>
+              <category><catDesc xml:id="c25739" n="Storage_units">        ◦ Storage units</catDesc>
+                <category><catDesc xml:id="c25740" n="Granaries">            ▸ Granaries</catDesc></category>
+                <category><catDesc xml:id="c25741" n="Barns">            ▸ Barns</catDesc></category>
+            </category>
+              <category><catDesc xml:id="c25742" n="Workshops">        ◦ Workshops</catDesc>
+                <category><catDesc xml:id="c25743" n="Gynaecea">            ▸ Gynaecea</catDesc></category>
+            </category>
+            </category>
+            
+            <category><catDesc xml:id="c25744" n="Value">    • Value</catDesc>
+              <category><catDesc xml:id="c25745" n="Price">        ◦ Price</catDesc></category>
+              <category><catDesc xml:id="c25746" n="Meritum/launechild">        ◦ Meritum/launechild</catDesc></category>
+              <category><catDesc xml:id="c25747" n="Penalty">        ◦ Penalty</catDesc></category>
+            </category>
+            
+            <category><catDesc xml:id="c25748" n="Size">    • Size</catDesc></category>
+            
+            <category><catDesc xml:id="c25749" n="Production">    • Production</catDesc>
+              <category><catDesc xml:id="c25750" n="Cereals">        ◦ Cereals</catDesc>
+                <category><catDesc xml:id="c25751" n="Maiores">            ▸ Maiores</catDesc></category>
+                <category><catDesc xml:id="c25752" n="Minores">            ▸ Minores</catDesc></category>
+            </category>
+              <category><catDesc xml:id="c25753" n="Legumes">        ◦ Legumes</catDesc></category>
+              <category><catDesc xml:id="c25754" n="Wine">        ◦ Wine</catDesc></category>
+              <category><catDesc xml:id="c25755" n="Oil">        ◦ Oil</catDesc></category>
+              <category><catDesc xml:id="c25756" n="Fruits/vegetables">        ◦ Fruits/vegetables</catDesc></category>
+              <category><catDesc xml:id="c25757" n="Dried_fruits">        ◦ Dried fruits</catDesc></category>
+              <category><catDesc xml:id="c25758" n="Chestnuts">        ◦ Chestnuts</catDesc></category>
+              <category><catDesc xml:id="c25759" n="Acorns">        ◦ Acorns</catDesc></category>
+              <category><catDesc xml:id="c25760" n="Hay/fodder">        ◦ Hay/fodder</catDesc></category>
+              <category><catDesc xml:id="c25761" n="Honey">        ◦ Honey</catDesc></category>
+              <category><catDesc xml:id="c25762" n="Cheese">        ◦ Cheese</catDesc></category>
+              <category><catDesc xml:id="c25763" n="Eggs">        ◦ Eggs</catDesc></category>
+              <category><catDesc xml:id="c25764" n="Soap">        ◦ Soap</catDesc></category>
+              <category><catDesc xml:id="c25765" n="Papyrus">        ◦ Papyrus</catDesc></category>
+              <category><catDesc xml:id="c25766" n="Reed">        ◦ Reed</catDesc></category>
+              <category><catDesc xml:id="c25767" n="Stone">        ◦ Stone</catDesc>
+                <category><catDesc xml:id="c25768" n="Marble">            ▸ Marble</catDesc></category>
+                <category><catDesc xml:id="c25769" n="Granite">            ▸ Granite</catDesc></category>
+                <category><catDesc xml:id="c25770" n="Porphyry">            ▸ Porphyry</catDesc></category>
+                <category><catDesc xml:id="c25771" n="Soapstone">            ▸ Soapstone</catDesc>
+                  <category><catDesc xml:id="c25772" n="Steatite">                * Steatite</catDesc></category>
+                  <category><catDesc xml:id="c25773" n="Pietra_ollare">                * Pietra ollare</catDesc></category>
+            </category>
+                <category><catDesc xml:id="c25774" n="Gypsum">            ▸ Gypsum</catDesc></category>
+                <category><catDesc xml:id="c25775" n="Limestone">            ▸ Limestone</catDesc></category>
+                <category><catDesc xml:id="c25776" n="Sandstone">            ▸ Sandstone</catDesc></category>
+                <category><catDesc xml:id="c25777" n="Slate">            ▸ Slate</catDesc></category>
+                <category><catDesc xml:id="c25778" n="Verrucano">            ▸ Verrucano</catDesc></category>
+            </category>
+              <category><catDesc xml:id="c25779" n="Metals">        ◦ Metals</catDesc>
+                <category><catDesc xml:id="c25780" n="Gold">            ▸ Gold</catDesc></category>
+                <category><catDesc xml:id="c25781" n="Silver">            ▸ Silver</catDesc></category>
+                <category><catDesc xml:id="c25782" n="Iron">            ▸ Iron</catDesc></category>
+                <category><catDesc xml:id="c25783" n="Copper">            ▸ Copper</catDesc></category>
+                <category><catDesc xml:id="c25784" n="Lead">            ▸ Lead</catDesc></category>
+                <category><catDesc xml:id="c25785" n="Argentiferous_lead">            ▸ Argentiferous lead</catDesc></category>
+            </category>
+              <category><catDesc xml:id="c25786" n="Salt">        ◦ Salt</catDesc>
+                <category><catDesc xml:id="c25787" n="Sea_salt">            ▸ Sea salt</catDesc></category>
+                <category><catDesc xml:id="c25788" n="Rock_salt">            ▸ Rock salt</catDesc></category>
+            </category>
+              <category><catDesc xml:id="c25789" n="Alum">        ◦ Alum</catDesc></category>
+              <category><catDesc xml:id="c25790" n="Sulphur">        ◦ Sulphur</catDesc></category>
+              <category><catDesc xml:id="c25791" n="Gems">        ◦ Gems</catDesc></category>
+              <category><catDesc xml:id="c25792" n="Wood">        ◦ Wood</catDesc></category>
+              <category><catDesc xml:id="c25793" n="Garum">        ◦ Garum</catDesc></category>
+              <category><catDesc xml:id="c25794" n="Bread">        ◦ Bread</catDesc></category>
+              <category><catDesc xml:id="c25795" n="Glass">        ◦ Glass</catDesc></category>
+              <category><catDesc xml:id="c25796" n="Bricks">        ◦ Bricks</catDesc></category>
+              <category><catDesc xml:id="c25797" n="Tiles">        ◦ Tiles</catDesc></category>
+              <category><catDesc xml:id="c25798" n="Ceramics">        ◦ Ceramics</catDesc></category>
+              <category><catDesc xml:id="c25799" n="Weapons">        ◦ Weapons</catDesc></category>
+              <category><catDesc xml:id="c25800" n="Wool">        ◦ Wool</catDesc></category>
+              <category><catDesc xml:id="c25801" n="Tissues">        ◦ Tissues</catDesc>
+                <category><catDesc xml:id="c25802" n="Silk">            ▸ Silk</catDesc></category>
+                <category><catDesc xml:id="c25803" n="Linen">            ▸ Linen</catDesc></category>
+                <category><catDesc xml:id="c25804" n="Hemp">            ▸ Hemp</catDesc></category>
+            </category>
+              <category><catDesc xml:id="c25805" n="Leather">        ◦ Leather</catDesc></category>
+              <category><catDesc xml:id="c25806" n="Pigments">        ◦ Pigments</catDesc>
+                <category><catDesc xml:id="c25807" n="Woad">            ▸ Woad</catDesc></category>
+            </category>
+              <category><catDesc xml:id="c25808" n="Clothings">        ◦ Clothings</catDesc></category>
+              <category><catDesc xml:id="c25809" n="Animals">        ◦ Animals</catDesc>
+                <category><catDesc xml:id="c25810" n="Cows">            ▸ Cows</catDesc></category>
+                <category><catDesc xml:id="c25811" n="Goats">            ▸ Goats</catDesc></category>
+                <category><catDesc xml:id="c25812" n="Horses">            ▸ Horses</catDesc></category>
+                <category><catDesc xml:id="c25813" n="Fish">            ▸ Fish</catDesc></category>
+                <category><catDesc xml:id="c25814" n="Pigs">            ▸ Pigs</catDesc></category>
+                <category><catDesc xml:id="c25815" n="Sheep">            ▸ Sheep</catDesc></category>
+                <category><catDesc xml:id="c25816" n="Game">            ▸ Game</catDesc></category>
+                <category><catDesc xml:id="c25817" n="Poultry">            ▸ Poultry</catDesc></category>
+                <category><catDesc xml:id="c25818" n="Wildfowl">            ▸ Wildfowl</catDesc></category>
+                <category><catDesc xml:id="c25819" n="Birds_of_prey">            ▸ Birds of prey</catDesc></category>
+            </category>
+            </category>
+            
+            <category><catDesc xml:id="c25820" n="Fiscal_property">    • Fiscal property</catDesc>
+              <category><catDesc xml:id="c25821" n="Textual_occurrence">        ◦ Textual occurrence</catDesc>
+                <category><catDesc xml:id="c25822" n="Object">            ▸ Object</catDesc></category>
+                <category><catDesc xml:id="c25823" n="Mention">            ▸ Mention</catDesc></category>
+            </category>
+              <category><catDesc xml:id="c25837" n="Function">        ◦ Function</catDesc>
+                <category><catDesc xml:id="c25838" n="Residential">            ▸ Residential</catDesc></category>
+                <category><catDesc xml:id="c25839" n="Redistributive">            ▸ Redistributive</catDesc></category>
+                <category><catDesc xml:id="c25840" n="Exceptive">            ▸ Exceptive</catDesc>
+                  <category><catDesc xml:id="c25841" n="Dowry">                * Dowry</catDesc></category>
+                  <category><catDesc xml:id="c25842" n="Fiscal_reserve">                * Fiscal reserve</catDesc></category>
+            </category>
+            </category>
+              <category><catDesc xml:id="c25843" n="Inflow">        ◦ Inflow</catDesc>
+                <category><catDesc xml:id="c25844" n="Inheritance">            ▸ Inheritance</catDesc></category>
+                <category><catDesc xml:id="c25845" n="Confiscation">            ▸ Confiscation</catDesc></category>
+                <category><catDesc xml:id="c25846" n="Purchase">            ▸ Purchase</catDesc></category>
+                <category><catDesc xml:id="c25847" n="Forced_purchase">            ▸ Forced purchase</catDesc></category>
+                <category><catDesc xml:id="c25848" n="Gift">            ▸ Gift</catDesc></category>
+            </category>
+              <category><catDesc xml:id="c25849" n="Outflow">        ◦ Outflow</catDesc>
+                <category><catDesc xml:id="c26245" n="Iure_proprietatis/pleno_iure">            ▸ Iure proprietatis/pleno iure</catDesc></category>
+                <category><catDesc xml:id="c25850" n="Allocation_to_individuals">            ▸ Allocation to individuals</catDesc></category>
+                <category><catDesc xml:id="c25851" n="Allocation_to_groups">            ▸ Allocation to groups</catDesc></category>
+                <category><catDesc xml:id="c25852" n="Allocation_to_churches">            ▸ Allocation to churches</catDesc></category>
+                <category><catDesc xml:id="c25853" n="Counter-gift">            ▸ Counter-gift</catDesc></category>
+            </category>
+              <category><catDesc xml:id="c25854" n="Works_of_art">        ◦ Works of art</catDesc></category>
+              <category><catDesc xml:id="c25855" n="Furniture">        ◦ Furniture</catDesc></category>
+              <category><catDesc xml:id="c25856" n="Jewels">        ◦ Jewels</catDesc></category>
+              <category><catDesc xml:id="c25857" n="Luxury_clothes">        ◦ Luxury clothes</catDesc></category>
+              <category><catDesc xml:id="c25858" n="Exotic_animals">        ◦ Exotic animals</catDesc></category>
+              <category><catDesc xml:id="c25859" n="Exotic_coins">        ◦ Exotic coins</catDesc></category>
+              <category><catDesc xml:id="c25860" n="Books">        ◦ Books</catDesc></category>
+              <category><catDesc xml:id="c25861" n="Residences">        ◦ Residences</catDesc>
+                <category><catDesc xml:id="c25862" n="Palatium">            ▸ Palatium</catDesc></category>
+                <category><catDesc xml:id="c25863" n="Laubia/topia">            ▸ Laubia/topia</catDesc></category>
+                <category><catDesc xml:id="c25864" n="Spolia">            ▸ Spolia</catDesc></category>
+            </category>
+            </category>
+            
+            <category><catDesc xml:id="c26358" n="Management">    • Management</catDesc>
+              <category><catDesc xml:id="c26359" n="Coloni/tenants">        ◦ Coloni/tenants</catDesc>
+                <category><catDesc xml:id="c26360" n="Manentes">            ▸ Manentes</catDesc></category>
+                <category><catDesc xml:id="c26361" n="Condomae">            ▸ Condomae</catDesc></category>
+              </category>
+            </category>
+            
+            <category><catDesc xml:id="c25875" n="Agricultural_renders">    • Agricultural renders</catDesc>
+              <category><catDesc xml:id="c25876" n="Rent_in_kind">        ◦ Rent in kind</catDesc></category>
+              <category><catDesc xml:id="c25877" n="Rent_in_money">        ◦ Rent in money</catDesc></category>
+              <category><catDesc xml:id="c25878" n="Exenia">        ◦ Exenia</catDesc></category>
+              <category><catDesc xml:id="c25879" n="Operae">        ◦ Operae</catDesc></category>
+            </category>
+            
+            <category><catDesc xml:id="c26455" n="Land_clearing">    • Land clearing</catDesc></category>
+            
+            <category><catDesc xml:id="c25880" n="Work_and_workers">    • Work and workers</catDesc>
+              <category><catDesc xml:id="c25881" n="Paid_workforce">        ◦ Paid workforce</catDesc></category>
+              <category><catDesc xml:id="c25882" n="Slave_labour">        ◦ Slave labour</catDesc></category>
+              <category><catDesc xml:id="c25883" n="Agricultural_workers">        ◦ Agricultural workers</catDesc></category>
+              <category><catDesc xml:id="c25884" n="Unskilled_workers">        ◦ Unskilled workers</catDesc></category>
+              <category><catDesc xml:id="c25885" n="Specialized_workers">        ◦ Specialized workers</catDesc></category>
+              <category><catDesc xml:id="c25886" n="Stonemasons">        ◦ Stonemasons</catDesc></category>
+              <category><catDesc xml:id="c25887" n="Miners">        ◦ Miners</catDesc></category>
+              <category><catDesc xml:id="c25888" n="Moneyers">        ◦ Moneyers</catDesc></category>
+              <category><catDesc xml:id="c26456" n="Medici">        ◦ Medici</catDesc></category>
+            </category>
+            
+            <category><catDesc xml:id="c25889" n="Fortifications">    • Fortifications</catDesc>
+              <category><catDesc xml:id="c25890" n="Castle">        ◦ Castle</catDesc></category>
+              <category><catDesc xml:id="c26357" n="Fortress">        ◦ Fortress</catDesc></category>
+              <category><catDesc xml:id="c25891" n="Tower">        ◦ Tower</catDesc></category>
+              <category><catDesc xml:id="c25892" n="Clusae/gates">        ◦ Clusae/gates</catDesc></category>
+              <category><catDesc xml:id="c25893" n="Walls">        ◦ Walls</catDesc></category>
+              <category><catDesc xml:id="c25894" n="Carbonaria">        ◦ Carbonaria</catDesc></category>
+              <category><catDesc xml:id="c25895" n="Defensive_elements">        ◦ Defensive elements</catDesc></category>
+            </category>
+            
+            <category><catDesc xml:id="c25896" n="Infrastructures">    • Infrastructures</catDesc>
+              <category><catDesc xml:id="c25897" n="Ports">        ◦ Ports</catDesc></category>
+              <category><catDesc xml:id="c25898" n="Storage_buildings">        ◦ Storage buildings</catDesc></category>
+              <category><catDesc xml:id="c25899" n="Roads">        ◦ Roads</catDesc></category>
+              <category><catDesc xml:id="c25900" n="Aqueducts">        ◦ Aqueducts</catDesc></category>
+              <category><catDesc xml:id="c25901" n="Cisterns/pits">        ◦ Cisterns/pits</catDesc></category>
+              <category><catDesc xml:id="c25902" n="Fountains">        ◦ Fountains</catDesc></category>
+              <category><catDesc xml:id="c25903" n="Bridges/pontoons">        ◦ Bridges/pontoons</catDesc></category>
+              <category><catDesc xml:id="c25904" n="Canals">        ◦ Canals</catDesc></category>
+            </category>
+            
+            <category><catDesc xml:id="c25905" n="Mints">    • Mints</catDesc></category>
+            
+            <category><catDesc xml:id="c25906" n="Loans">    • Loans</catDesc>
+              <category><catDesc xml:id="c25907" n="Interest_bearing_loans">        ◦ Interest bearing loans</catDesc></category>
+              <category><catDesc xml:id="c25908" n="Loans_with_no_interest">        ◦ Loans with no interest</catDesc></category>
+            </category>
+            
+            <category><catDesc xml:id="c25909" n="Trade">    • Trade</catDesc>
+              <category><catDesc xml:id="c25910" n="Maritime_trade">        ◦ Maritime trade</catDesc></category>
+              <category><catDesc xml:id="c25911" n="Overland_transport">        ◦ Overland transport</catDesc></category>
+              <category><catDesc xml:id="c25912" n="Fluvial_transport">        ◦ Fluvial transport</catDesc></category>
+              <category><catDesc xml:id="c25913" n="Transport_contracts">        ◦ Transport contracts</catDesc></category>
+              <category><catDesc xml:id="c26457" n="Merchants">        ◦ Merchants</catDesc></category>
+              <category><catDesc xml:id="c25914" n="Navicularii">        ◦ Navicularii</catDesc></category>
+              <category><catDesc xml:id="c25915" n="Local_markets">        ◦ Local markets</catDesc></category>
+              <category><catDesc xml:id="c25916" n="Periodic_markets">        ◦ Periodic markets</catDesc></category>
+            </category>
+          </category>
+          
+          <category n="Administration"><catDesc xml:id="c25917" n="Administration">Administration</catDesc>
+            <category><catDesc xml:id="c25918" n="Emperor/king">    • Emperor/king</catDesc></category>
+            <category><catDesc xml:id="c25919" n="Queen">    • Queen</catDesc></category>
+            <category><catDesc xml:id="c26221" n="Princeps">    • Princeps</catDesc></category>
+            <category><catDesc xml:id="c26356" n="Principissa">    • Principissa</catDesc></category>
+            <category><catDesc xml:id="c25920" n="Marquis/duke">    • Marquis/duke</catDesc></category>
+            <category><catDesc xml:id="c25921" n="Count">    • Count</catDesc></category>
+            <category><catDesc xml:id="c25922" n="Countess">    • Countess</catDesc></category>
+            <category><catDesc xml:id="c25923" n="Palatine_count">    • Palatine count</catDesc></category>
+            <category><catDesc xml:id="c25924" n="Viscount">    • Viscount</catDesc></category>
+            <category><catDesc xml:id="c25925" n="Gastaldus/vicegastaldus">    • Gastaldus/vicegastaldus</catDesc></category>
+            <category><catDesc xml:id="c25926" n="Sculdahis">    • Sculdahis</catDesc></category>
+            <category><catDesc xml:id="c25927" n="Marepahis">    • Marepahis</catDesc></category>
+            <category><catDesc xml:id="c25928" n="Other_palatine_officer">    • Other palatine officer</catDesc></category>
+            <category><catDesc xml:id="c26355" n="Papal_court_officer">    • Papal court officer</catDesc></category>
+            
+            <category><catDesc xml:id="c25929" n="Other_minor_officer">    • Other minor officer</catDesc>
+              <category><catDesc xml:id="c25930" n="Court_clergyman">    • Court clergyman</catDesc></category>
+              <category><catDesc xml:id="c26243" n="Archchancellor">        ◦ Archchancellor</catDesc></category>
+              <category><catDesc xml:id="c25931" n="Chancellor">        ◦ Chancellor</catDesc></category>
+              <category><catDesc xml:id="c26244" n="Archchaplain">        ◦ Archchaplain</catDesc></category>
+              <category><catDesc xml:id="c25932" n="Chaplain">        ◦ Chaplain</catDesc></category>
+          </category>
+            
+            <category><catDesc xml:id="c25933" n="Professional_writer">    • Professional writer</catDesc>
+              <category><catDesc xml:id="c25934" n="Notary">        ◦ Notary</catDesc></category>
+              <category><catDesc xml:id="c26222" n="Tabellio">        ◦ Tabellio</catDesc></category>
+              <category><catDesc xml:id="c26242" n="Scriniarius">        ◦ Scriniarius</catDesc></category>
+              <category><catDesc xml:id="c25935" n="Judge">        ◦ Judge</catDesc></category>
+              <category><catDesc xml:id="c26354" n="Causidicus">        ◦ Causidicus</catDesc></category>
+          </category>
+            
+            <category><catDesc xml:id="c25936" n="Consiliarius_regis">    • Consiliarius regis</catDesc></category>
+            
+            <category><catDesc xml:id="c25937" n="Missus">    • Missus</catDesc>
+              <category><catDesc xml:id="c25938" n="Missus_regis">        ◦ Missus regis</catDesc></category>
+              <category><catDesc xml:id="c25939" n="Missus_of_other_public_authorities">        ◦ Missus of other public authorities</catDesc></category>
+          </category>
+            
+            <category><catDesc xml:id="c25940" n="Advocatus">    • Advocatus</catDesc>
+              <category><catDesc xml:id="c25941" n="Advocatus_regis">        ◦ Advocatus regis</catDesc></category>
+              <category><catDesc xml:id="c25942" n="Advocatus_of_other_public_authorities">        ◦ Advocatus of other public authorities</catDesc></category>
+          </category>
+            
+            <category><catDesc xml:id="c25943" n="Camera">    • Camera</catDesc>
+              <category><catDesc xml:id="c25944" n="Camera_regis">        ◦ Camera regis</catDesc></category>
+              <category><catDesc xml:id="c25945" n="Camera_of_other_public_authorities">        ◦ Camera of other public authorities</catDesc></category>
+          </category>
+            
+            <category><catDesc xml:id="c26208" n="Contractors">    • Contractors</catDesc>
+              <category><catDesc xml:id="c26209" n="Conductores">        ◦ Conductores</catDesc></category>
+              <category><catDesc xml:id="c26210" n="Actionarii/actores">        ◦ Actionarii/actores</catDesc></category>
+          </category>
+            
+            <category><catDesc xml:id="c26211" n="Estate_supervisors/vilici">    • Estate supervisors/vilici</catDesc>
+              <category><catDesc xml:id="c26212" n="Gualdemanni/silvani">        ◦ Gualdemanni/silvani</catDesc></category>
+              <category><catDesc xml:id="c26213" n="Porcarii">        ◦ Porcarii</catDesc></category>
+          </category>
+            
+            <category><catDesc xml:id="c25946" n="Administrative_units">    • Administrative units</catDesc>
+              <category><catDesc xml:id="c25947" n="Iudiciaria">        ◦ Iudiciaria</catDesc></category>
+              <category><catDesc xml:id="c26398" n="Marca/ducatum">        ◦ Marca/ducatum</catDesc></category>
+              <category><catDesc xml:id="c25948" n="Comitatus">        ◦ Comitatus</catDesc></category>
+              <category><catDesc xml:id="c26266" n="Patrimonium">        ◦ Patrimonium</catDesc></category>
+              <category><catDesc xml:id="c26241" n="Pagus">        ◦ Pagus</catDesc></category>
+              <category><catDesc xml:id="c25949" n="Fines">        ◦ Fines</catDesc></category>
+              <category><catDesc xml:id="c25950" n="Actio">        ◦ Actio</catDesc></category>
+              <category><catDesc xml:id="c25951" n="Subactio">        ◦ Subactio</catDesc></category>
+              <category><catDesc xml:id="c26321" n="Other_administrative_unit">        ◦ Other administrative unit</catDesc></category>
+              <category><catDesc xml:id="c26353" n="Seigneurial_district">        ◦ Seigneurial district</catDesc></category>
+              <category><catDesc xml:id="c25952" n="Dioecesis">        ◦ Dioecesis</catDesc></category>
+              <category><catDesc xml:id="c25953" n="Plebs">        ◦ Plebs</catDesc></category>
+          </category>
+            
+            <category><catDesc xml:id="c25954" n="Assembly">    • Assembly</catDesc></category>
+            <category><catDesc xml:id="c25955" n="Army">    • Army</catDesc></category>
+            
+            <category><catDesc xml:id="c25956" n="Armed_group">    • Armed group</catDesc>
+              <category><catDesc xml:id="c25957" n="Hungarians">        ◦ Hungarians</catDesc></category>
+              <category><catDesc xml:id="c26458" n="Muslims">        ◦ Muslims</catDesc></category>
+              <category><catDesc xml:id="c25958" n="Masnada">        ◦ Masnada</catDesc></category>
+          </category>
+            
+            <category><catDesc xml:id="c25959" n="Levies">    • Levies</catDesc>
+              <category><catDesc xml:id="c25960" n="Decima">        ◦ Decima</catDesc></category>
+              <category><catDesc xml:id="c25961" n="Nona_et_decima">        ◦ Nona et decima</catDesc></category>
+          </category>
+            
+            <category><catDesc xml:id="c25962" n="Public_exactions">    • Public_exactions</catDesc>
+              <category><catDesc xml:id="c25963" n="Fodrum">        ◦ Fodrum</catDesc></category>
+              <category><catDesc xml:id="c26399" n="Census">        ◦ Census</catDesc></category>
+              <category><catDesc xml:id="c26400" n="Datio">        ◦ Datio</catDesc></category>
+              <category><catDesc xml:id="c26401" n="Servitium">        ◦ Servitium</catDesc></category>
+              <category><catDesc xml:id="c26402" n="Angaria">        ◦ Angaria</catDesc></category>
+              <category><catDesc xml:id="c25964" n="Albergaria/gifori">        ◦ Albergaria/gifori</catDesc></category>
+              <category><catDesc xml:id="c25965" n="Profits_of_justice">        ◦ Profits of justice</catDesc></category>
+              <category><catDesc xml:id="c25966" n="Profits_of_mining/minting">        ◦ Profits of mining/minting</catDesc></category>
+              <category><catDesc xml:id="c25967" n="Tolls">        ◦ Tolls</catDesc></category>
+              <category><catDesc xml:id="c25968" n="Teloneum">        ◦ Teloneum</catDesc></category>
+              <category><catDesc xml:id="c25969" n="Rights_of_use_on_woods/pastures/waters">        ◦ Rights of use on woods/pastures/waters</catDesc></category>
+          </category>
+            
+            <category><catDesc xml:id="c25970" n="Malus_usus">    • Malus usus</catDesc></category>
+            
+            <category><catDesc xml:id="c25971" n="Privileges">    • Privileges</catDesc>
+              <category><catDesc xml:id="c25972" n="Immunity">        ◦ Immunity</catDesc></category>
+              <category><catDesc xml:id="c25973" n="Exemption">        ◦ Exemption</catDesc></category>
+              <category><catDesc xml:id="c26239" n="Districtio">        ◦ Districtio</catDesc></category>
+              <category><catDesc xml:id="c25974" n="Incastellamento">        ◦ Incastellamento</catDesc></category>
+              <category><catDesc xml:id="c26240" n="Public_infrastructures">        ◦ Public infrastructures</catDesc></category>
+              <category><catDesc xml:id="c25975" n="Coinage">        ◦ Coinage</catDesc></category>
+          </category>
+            
+            <category><catDesc xml:id="c26351" n="Ius_patronatus">    • Ius patronatus</catDesc></category>
+            <category><catDesc xml:id="c25976" n="Oral_ordinances">    • Oral ordinances</catDesc></category>
+            <category><catDesc xml:id="c26352" n="Oral_grants">    • Oral grants</catDesc></category>
+            <category><catDesc xml:id="c25977" n="Inquisitio">    • Inquisitio</catDesc></category>
+            <category><catDesc xml:id="c25978" n="Tuitio/bannum/mundeburdium">    • Tuitio/bannum/mundeburdium</catDesc></category>
+            <category><catDesc xml:id="c25979" n="Itinerary">    • Itinerary</catDesc></category>
+            <category><catDesc xml:id="c25980" n="Scufiae/transport_service">    • Scufiae/transport service</catDesc></category>
+            <category><catDesc xml:id="c25981" n="Extortions_by_officers">    • Extortions by officers</catDesc></category>
+          </category>
+          
+          <category><catDesc xml:id="c25982" n="Law">Law</catDesc>
+            <category><catDesc xml:id="c25983" n="Property_of_persons_without_heirs">    • Property of persons without heirs</catDesc></category>
+            <category><catDesc xml:id="c25984" n="Property_of_criminals/political_traitors">    • Property of criminals/political traitors</catDesc></category>
+            <category><catDesc xml:id="c25985" n="Boundary_disputes">    • Boundary disputes</catDesc></category>
+            <category><catDesc xml:id="c25986" n="Boundary_settings">    • Boundary settings</catDesc></category>
+          </category>
+          
+          <category><catDesc xml:id="c25987" n="Local_institutions">Local institutions</catDesc>
+            <category><catDesc xml:id="c25988" n="City_authorities">    • City authorities</catDesc>
+              <category><catDesc xml:id="c25989" n="Consules">        ◦ Consules</catDesc></category>
+              <category><catDesc xml:id="c25990" n="Potestas">        ◦ Potestas</catDesc></category>
+          </category>
+            <category><catDesc xml:id="c25991" n="City_assembly">    • City assembly</catDesc></category>
+            <category><catDesc xml:id="c25992" n="City_territory">    • City territory</catDesc></category>
+            
+            <category><catDesc xml:id="c25993" n="Local_elites">    • Local elites</catDesc>
+              <category><catDesc xml:id="c25994" n="Scabini">        ◦ Scabini</catDesc></category>
+              <category><catDesc xml:id="c25995" n="Lociservatores">        ◦ Lociservatores</catDesc></category>
+              <category><catDesc xml:id="c25996" n="Boni_viri/boni_homines">        ◦ Boni viri/boni homines</catDesc></category>
+          </category>
+            
+            <category><catDesc xml:id="c25997" n="Village/castle_representatives">    • Village/castle representatives</catDesc></category>
+            <category><catDesc xml:id="c25998" n="Village/castle_territory">    • Village/castle territory</catDesc></category>
+            <category><catDesc xml:id="c25999" n="Embassies/ambassadors">    • Embassies/ambassadors</catDesc></category>
+            <category><catDesc xml:id="c26289" n="Urban_communities">    • Urban communities</catDesc></category>
+            <category><catDesc xml:id="c26000" n="Rural_communities">    • Rural communities</catDesc></category>
+            <category><catDesc xml:id="c26001" n="Common_land">    • Common land</catDesc></category>
+          </category>  
+          
+          <category><catDesc xml:id="c26002" n="Religion">Religion</catDesc>
+            <category><catDesc xml:id="c26003" n="Churches/religious_bodies">    • Churches/religious bodies</catDesc>
+              <category><catDesc xml:id="c26004" n="Churches">        ◦ Churches</catDesc></category>
+              <category><catDesc xml:id="c26005" n="Baptismal_churches">        ◦ Baptismal churches</catDesc></category>
+              <category><catDesc xml:id="c26006" n="Collegiate_churches">        ◦ Collegiate churches</catDesc></category>
+              <category><catDesc xml:id="c26007" n="Mother_churches">        ◦ Mother churches</catDesc></category>
+              <category><catDesc xml:id="c26008" n="Monasteries">        ◦ Monasteries</catDesc></category>
+              <category><catDesc xml:id="c26009" n="Cells/hermitages">        ◦ Cells/hermitages</catDesc></category>
+              <category><catDesc xml:id="c26010" n="Hospitals">        ◦ Hospitals</catDesc></category>
+          </category>
+            
+            <category><catDesc xml:id="c26011" n="Altars">    • Altars</catDesc></category>
+            <category><catDesc xml:id="c26012" n="Funerary_rituals">    • Funerary rituals</catDesc></category>
+            <category><catDesc xml:id="c26013" n="Funerary_monuments/cemeteries">    • Funerary monuments/cemeteries</catDesc></category>
+            <category><catDesc xml:id="c26238" n="Relics">    • Relics</catDesc></category>
+            <category><catDesc xml:id="c26014" n="Popular_devotions">    • Popular devotions</catDesc></category>
+            <category><catDesc xml:id="c26015" n="Religious_festivals">    • Religious festivals</catDesc></category>
+            <category><catDesc xml:id="c26016" n="Processions">    • Processions</catDesc></category>
+            <category><catDesc xml:id="c26017" n="Pilgrimages">    • Pilgrimages</catDesc></category>
+            
+            <category><catDesc xml:id="c26018" n="Clergy/religious_persons">    • Clergy/religious persons</catDesc>
+              <category><catDesc xml:id="c26228" n="Popes">        ◦ Popes</catDesc></category>
+              <category><catDesc xml:id="c26223" n="Archbishops">        ◦ Archbishops</catDesc></category>
+              <category><catDesc xml:id="c26019" n="Bishops">        ◦ Bishops</catDesc></category>
+              <category><catDesc xml:id="c26224" n="Archpriests">        ◦ Archpriests</catDesc></category>
+              <category><catDesc xml:id="c26020" n="Priests">        ◦ Priests</catDesc></category>
+              <category><catDesc xml:id="c26225" n="Archdeacons">        ◦ Archdeacons</catDesc></category>
+              <category><catDesc xml:id="c26021" n="Deacons">        ◦ Deacons</catDesc></category>
+              <category><catDesc xml:id="c26022" n="Subdeacons">        ◦ Subdeacons</catDesc></category>
+              <category><catDesc xml:id="c26023" n="Other_clerics">        ◦ Other clerics</catDesc></category>
+              <category><catDesc xml:id="c26349" n="Patriarchs">        ◦ Patriarchs</catDesc></category>
+              <category><catDesc xml:id="c26350" n="Cardinals">        ◦ Cardinals</catDesc></category>
+              <category><catDesc xml:id="c26226" n="Prevosts">        ◦ Prevosts</catDesc></category>
+              <category><catDesc xml:id="c26459" n="Canons">        ◦ Canons</catDesc></category>
+              <category><catDesc xml:id="c26348" n="Priors">        ◦ Priors</catDesc></category>
+              <category><catDesc xml:id="c26024" n="Abbots">        ◦ Abbots</catDesc></category>
+              <category><catDesc xml:id="c26025" n="Abbesses">        ◦ Abbesses</catDesc></category>
+              <category><catDesc xml:id="c26026" n="Monks">        ◦ Monks</catDesc></category>
+              <category><catDesc xml:id="c26027" n="Nuns/sanctimoniales">        ◦ Nuns/sanctimoniales</catDesc></category>
+              <category><catDesc xml:id="c26460" n="Lay_brothers">        ◦ Lay brothers</catDesc></category>
+            </category>
+          </category> 
+         
+          <category><catDesc xml:id="c26028" n="Society">Society</catDesc>
+            <category><catDesc xml:id="c26029" n="Personal_statuses">    • Personal statuses</catDesc>
+              <category><catDesc xml:id="c26030" n="Freeborn">        ◦ Freeborn</catDesc></category>
+              <category><catDesc xml:id="c26031" n="Aldius">        ◦ Aldius</catDesc></category>
+              <category><catDesc xml:id="c26032" n="Slave">        ◦ Slave</catDesc></category>
+              <category><catDesc xml:id="c26033" n="Freedman">        ◦ Freedman</catDesc></category>
+              <category><catDesc xml:id="c26034" n="Royal_slave">        ◦ Royal slave</catDesc></category>
+              <category><catDesc xml:id="c26035" n="Royal_freedman">        ◦ Royal freedman</catDesc></category>
+              <category><catDesc xml:id="c26036" n="Royal_aldius">        ◦ Royal aldius</catDesc></category>
+              <category><catDesc xml:id="c26037" n="Arimannus">        ◦ Arimannus</catDesc></category>
+              <category><catDesc xml:id="c26038" n="Lambardus">        ◦ Lambardus</catDesc></category>
+          </category>
+            
+            <category><catDesc xml:id="c26045" n="Personal_rank">    • Personal rank</catDesc>
+              <category><catDesc xml:id="c26046" n="Vir_devotus/vir_honestus">        ◦ Vir devotus/vir honestus</catDesc></category>
+              <category><catDesc xml:id="c26047" n="Vir_magnificus">        ◦ Vir magnificus</catDesc></category>
+              <category><catDesc xml:id="c26048" n="Vir_clarissimus">        ◦ Vir clarissimus</catDesc></category>
+              <category><catDesc xml:id="c26049" n="Vir_spectabilis">        ◦ Vir spectabilis</catDesc></category>
+              <category><catDesc xml:id="c26050" n="Vir_inluster">        ◦ Vir inluster</catDesc></category>
+              <category><catDesc xml:id="c26051" n="Vir_gloriosus/vir_sublimis">        ◦ Vir gloriosus/vir sublimis</catDesc></category>
+              <category><catDesc xml:id="c26052" n="Consul/hypatos">        ◦ Consul/hypatos</catDesc></category>
+              <category><catDesc xml:id="c26053" n="Patricius">        ◦ Patricius</catDesc></category>
+          </category>
+            
+            <category><catDesc xml:id="c26054" n="Natio">    • Natio</catDesc>
+              <category><catDesc xml:id="c26055" n="Roman">        ◦ Roman</catDesc></category>
+              <category><catDesc xml:id="c26056" n="Lombard">        ◦ Lombard</catDesc></category>
+              <category><catDesc xml:id="c26057" n="Salian">        ◦ Salian</catDesc></category>
+              <category><catDesc xml:id="c26058" n="Ripuarian">        ◦ Ripuarian</catDesc></category>
+              <category><catDesc xml:id="c26059" n="Bavarian">        ◦ Bavarian</catDesc></category>
+              <category><catDesc xml:id="c26060" n="Burgundian">        ◦ Burgundian</catDesc></category>
+              <category><catDesc xml:id="c26061" n="Alemannus">        ◦ Alemannus</catDesc></category>
+              <category><catDesc xml:id="c26062" n="Public_rituals">    • Public rituals</catDesc></category>
+              <category><catDesc xml:id="c26063" n="Adventus/occursus">        ◦ Adventus/occursus</catDesc></category>
+              <category><catDesc xml:id="c26064" n="Deditio">        ◦ Deditio</catDesc></category>
+          </category>
+            <category><catDesc xml:id="c26065" n="Public_decorum">    • Public decorum</catDesc></category>
+            <category><catDesc xml:id="c26066" n="Conviviality">    • Conviviality</catDesc></category>
+            <category><catDesc xml:id="c26067" n="Beneficium">    • Beneficium</catDesc></category>
+            <category><catDesc xml:id="c26068" n="Feudum">    • Feudum</catDesc></category>
+            <category><catDesc xml:id="c26069" n="Honor">    • Honor</catDesc></category>
+            <category><catDesc xml:id="c26070" n="Munus">    • Munus</catDesc></category>
+            <category><catDesc xml:id="c26072" n="Private_foundations">    • Private foundations</catDesc></category>
+            <category><catDesc xml:id="c26073" n="Joint_foundations">    • Joint foundations</catDesc></category>
+            <category><catDesc xml:id="c26071" n="Consortes/shared_possessions">    • Consortes/shared possessions</catDesc></category>
+            <category><catDesc xml:id="c26074" n="Distributions_of_moveable_goods">    • Distributions of moveable goods</catDesc></category>
+            <category><catDesc xml:id="c26075" n="Marriages">    • Marriages</catDesc></category>
+            <category><catDesc xml:id="c26076" n="Clerical_concubinage">    • Clerical concubinage</catDesc></category>
+            <category><catDesc xml:id="c26079" n="Manumission">    • Manumission</catDesc></category>
+          
+            <category n="bonds"><catDesc xml:id="c26125" n="Bonds">    • Bonds</catDesc>
+              <category><catDesc xml:id="c26126" n="legallyRecognisedUnionWith" corresp="legallyRecognisedUnionWith" key="family">        ◦ Legally recognised union with</catDesc></category>
+              <category><catDesc xml:id="c26127" n="seriousIntimateRelationshipWith" corresp="seriousIntimateRelationshipWith" key="family">        ◦ Serious intimate relationship with</catDesc></category>
+              <category><catDesc xml:id="c26128" n="casualIntimateRelationshipWith" corresp="casualIntimateRelationshipWith" key="family">        ◦ Casual intimate relationship with</catDesc></category>
+              <category><catDesc xml:id="c26129" n="intimateRelationshipWith" corresp="intimateRelationshipWith" key="family">        ◦ Intimate relationship with</catDesc></category>
+              <category><catDesc xml:id="c26130" n="fatherOf" corresp="childOf" key="family">        ◦ Father of</catDesc></category>
+              <category><catDesc xml:id="c26131" n="fatherInLawOf" corresp="childInLawOf" key="family">        ◦ Father in law of</catDesc></category>
+              <category><catDesc xml:id="c26132" n="motherOf" corresp="childOf" key="family">        ◦ Mother of</catDesc></category>
+              <category><catDesc xml:id="c26133" n="motherInLawOf" corresp="childInLawOf" key="family">        ◦ Mother in law of</catDesc></category>
+              <category><catDesc xml:id="c26134" n="parentOf" corresp="childOf" key="family">        ◦ Parent of</catDesc></category>
+              <category><catDesc xml:id="c26135" n="fosterParentOf" corresp="fosterChildOf" key="family">        ◦ Foster parent of</catDesc></category>
+              <category><catDesc xml:id="c26136" n="sonOf" corresp="parentOf" key="family">        ◦ Son of</catDesc></category>
+              <category><catDesc xml:id="c26137" n="sonInLawOf" corresp="parentInLawOf" key="family">        ◦ Son in law of</catDesc></category>
+              <category><catDesc xml:id="c26138" n="daughterOf" corresp="parentOf" key="family">        ◦ Daughter of</catDesc></category>
+              <category><catDesc xml:id="c26139" n="daughterInLawOf" corresp="parentInLawOf" key="family">        ◦ Daughter in law of</catDesc></category>
+              <category><catDesc xml:id="c26140" n="childOf" corresp="parentOf" key="family">        ◦ Child of</catDesc></category>
+              <category><catDesc xml:id="c26141" n="grandfatherOf" corresp="grandchildOf" key="family">        ◦ Grandfather of</catDesc></category>
+              <category><catDesc xml:id="c26142" n="grandmotherOf" corresp="grandchildOf" key="family">        ◦ Grandmother of</catDesc></category>
+              <category><catDesc xml:id="c26143" n="grandparentOf" corresp="grandchildOf" key="family">        ◦ Grandparent of</catDesc></category>
+              <category><catDesc xml:id="c26144" n="grandsonOf" corresp="grandparentOf" key="family">        ◦ Grandson of</catDesc></category>
+              <category><catDesc xml:id="c26145" n="granddaughterOf" corresp="grandparentOf" key="family">        ◦ Granddaughter of</catDesc></category>
+              <category><catDesc xml:id="c26146" n="grandchildOf" corresp="grandparentOf" key="family">        ◦ Grandchild of</catDesc></category>
+              <category><catDesc xml:id="c26147" n="greatGrandfatherOf" corresp="greatGrandchildOf" key="family">        ◦ Great grandfather of</catDesc></category>
+              <category><catDesc xml:id="c26148" n="greatGrandmotherOf" corresp="greatGrandchildOf" key="family">        ◦ Great grandmother of</catDesc></category>
+              <category><catDesc xml:id="c26149" n="greatGrandparentOf" corresp="greatGrandchildOf" key="family">        ◦ Great grandparent of</catDesc></category>
+              <category><catDesc xml:id="c26150" n="greatGrandsonOf" corresp="greatGrandparentOf" key="family">        ◦ Great grandson of</catDesc></category>
+              <category><catDesc xml:id="c26151" n="greatGranddaughterOf" corresp="greatGrandparentOf" key="family">        ◦ Great granddaughter of</catDesc></category>
+              <category><catDesc xml:id="c26395" n="greatGrandchildOf" corresp="greatGrandparentOf" key="family">        ◦ Great grandchild of</catDesc></category> 
+              <category><catDesc xml:id="c26152" n="brotherOf" corresp="siblingOf" key="family">        ◦ Brother of</catDesc></category>
+              <category><catDesc xml:id="c26153" n="brotherInLawOf" corresp="siblingInLawOf" key="family">        ◦ Brother in law of</catDesc></category>
+              <category><catDesc xml:id="c26154" n="sisterOf" corresp="siblingOf" key="family">        ◦ Sister of</catDesc></category>
+              <category><catDesc xml:id="c26155" n="sisterInLawOf" corresp="siblingInLawOf" key="family">        ◦ Sister in law of</catDesc></category>
+              <category><catDesc xml:id="c26156" n="siblingOf" corresp="siblingOf" key="family">        ◦ Sibling of</catDesc></category>
+              <category><catDesc xml:id="c26157" n="auntOf" corresp="nephewOf/nieceOf" key="family">        ◦ Aunt of</catDesc></category>
+              <category><catDesc xml:id="c26158" n="uncleOf" corresp="nephewOf/nieceOf" key="family">        ◦ Uncle of</catDesc></category>
+              <category><catDesc xml:id="c26159" n="nephewOf" corresp="uncleOf/auntOf" key="family">        ◦ Nephew of</catDesc></category>
+              <category><catDesc xml:id="c26160" n="nieceOf" corresp="uncleOf/auntOf" key="family">        ◦ Niece of</catDesc></category>
+              <category><catDesc xml:id="c26161" n="childOfSiblingOf" corresp="uncleOf/auntOf" key="family">        ◦ Child of sibling of</catDesc></category>
+              <category><catDesc xml:id="c26162" n="cousinOf" corresp="cousinOf" key="family">        ◦ Cousin of</catDesc></category>
+              <category><catDesc xml:id="c26163" n="kinOf" corresp="kinOf" key="family">        ◦ Kin of</catDesc></category>
+              <category><catDesc xml:id="c26164" n="ancestorOf" corresp="descendentOf" key="family">        ◦ Ancestor of</catDesc></category>
+              <category><catDesc xml:id="c26165" n="descendentOf" corresp="descendentOf" key="family">        ◦ Descendent of</catDesc></category>
+              <category><catDesc xml:id="c26166" n="familyOf" corresp="familyOf" key="family">        ◦ Family of</catDesc></category>
+              <category><catDesc xml:id="c26167" n="extendedFamilyOf" corresp="extendedFamilyOf" key="family">        ◦ Extended family of</catDesc></category>
+              <category><catDesc xml:id="c26168" n="hereditaryFamilyOf" corresp="hereditaryFamilyOf" key="personal">        ◦ Hereditary family of</catDesc></category>
+              <category><catDesc xml:id="c26169" n="householdOf" corresp="householdOf" key="personal">        ◦ Household of</catDesc></category>
+              <category><catDesc xml:id="c26170" n="extendedHouseholdOf" corresp="extendedHouseholdOf" key="personal">        ◦ Extended household of</catDesc></category>
+              <category><catDesc xml:id="c26171" n="patronOf" corresp="clientOf" key="personal">        ◦ Patron of</catDesc></category>
+              <category><catDesc xml:id="c26172" n="clientOf" corresp="patronOf" key="personal">        ◦ Client of</catDesc></category>
+              <category><catDesc xml:id="c26173" n="masterOf" corresp="slaveOf" key="personal">        ◦ Master of</catDesc></category>
+              <category><catDesc xml:id="c26174" n="formerMasterOf" corresp="formerSlaveOf" key="personal">        ◦ Former master of</catDesc></category>
+              <category><catDesc xml:id="c26175" n="slaveOf" corresp="masterOf" key="personal">        ◦ Slave of</catDesc></category>
+              <category><catDesc xml:id="c26176" n="houseSlaveOf" corresp="masterOf" key="personal">        ◦ House slave of</catDesc></category>
+              <category><catDesc xml:id="c26177" n="formerSlaveOf" corresp="formerMasterOf" key="personal">        ◦ Former slave of</catDesc></category>
+              <category><catDesc xml:id="c26178" n="freedSlaveOf" corresp="formerMasterOf" key="personal">        ◦ Freed slave of</catDesc></category>
+              <category><catDesc xml:id="c26179" n="freedmanOf" corresp="formerMasterOf" key="personal">        ◦ Freedman of</catDesc></category>
+              <category><catDesc xml:id="c26180" n="freedwomanOf" corresp="formerMasterOf" key="personal">        ◦ Freedwoman of</catDesc></category>
+              <category><catDesc xml:id="c26181" n="fellowFreedmanOf" corresp="fellowFreedmanOf" key="personal">        ◦ Fellow freedman of</catDesc></category>
+              <category><catDesc xml:id="c26182" n="godfatherOf" corresp="godchildOf" key="personal">        ◦ Godfather of</catDesc></category>
+              <category><catDesc xml:id="c26183" n="godmotherOf" corresp="godchildOf" key="personal">        ◦ Godmother of</catDesc></category>
+              <category><catDesc xml:id="c26184" n="godsonOf" corresp="godparentOf" key="personal">        ◦ Godson of</catDesc></category>
+              <category><catDesc xml:id="c26185" n="goddaughterOf" corresp="godparentOf" key="personal">        ◦ Goddaughter of</catDesc></category>
+              <category><catDesc xml:id="c26186" n="compaterOf" corresp="hasAsCompater" key="personal">        ◦ Compater of</catDesc></category>
+              <category><catDesc xml:id="c26187" n="commaterOf" corresp="hasAsCommater" key="personal">        ◦ Commater of</catDesc></category>
+              <category><catDesc xml:id="c26188" n="nutritusOf" corresp="nutritorOf" key="personal">        ◦ Nutritus of</catDesc></category>
+              <category><catDesc xml:id="c26189" n="nutritorOf" corresp="nutritusOf" key="personal">        ◦ Nutritor of</catDesc></category>
+              <category><catDesc xml:id="c26190" n="benefactorOf" corresp="gratitudeTo" key="personal">        ◦ Benefactor of</catDesc></category>
+              <category><catDesc xml:id="c26191" n="gratitudeTo" corresp="benefactorOf" key="personal">        ◦ Gratitude to</catDesc></category>
+              <category><catDesc xml:id="c26192" n="testamentaryLinkWith" corresp="testamentaryLinkWith" key="personal">        ◦ Testamentary link with</catDesc></category>
+              <category><catDesc xml:id="c26193" n="legateeOf" corresp="hasAsLegatee" key="personal">        ◦ Legatee of</catDesc></category>
+              <category><catDesc xml:id="c26194" n="heirTo" corresp="hasAsHeir" key="personal">        ◦ Heir to</catDesc></category>
+              <category><catDesc xml:id="c26347" n="mundualdusOf" corresp="hasAsMundualdus" key="personal">        ◦ Mundualdus of</catDesc></category>
+              <category><catDesc xml:id="c26195" n="friendshipFor" corresp="friendshipFor" key="personal">        ◦ Friendship for</catDesc></category>
+              <category><catDesc xml:id="c26196" n="allianceWith" corresp="allianceWith" key="personal">        ◦ Alliance with</catDesc></category>
+              <category><catDesc xml:id="c26197" n="enmityFor" corresp="enmityFor" key="personal">        ◦ Enmity for</catDesc></category>
+              <category><catDesc xml:id="c26198" n="dominusOf" corresp="hasAsDominus" key="personal">        ◦ Dominus of</catDesc></category>
+              <category><catDesc xml:id="c26199" n="seniorOf" corresp="hasAsSenior" key="personal">        ◦ Senior of</catDesc></category>
+              <category><catDesc xml:id="c26200" n="vassusOf" corresp="hasAsVassus" key="personal">        ◦ Vassus of</catDesc></category>
+              <category><catDesc xml:id="c26201" n="gasindiusOf" corresp="hasAsGasindius" key="personal">        ◦ Gasindius of</catDesc></category>
+              <category><catDesc xml:id="c26202" n="fidelisOf" corresp="hasAsFidelis" key="personal">        ◦ Fidelis of</catDesc></category>
+              <category><catDesc xml:id="c26203" n="milesOf" corresp="hasAsMiles" key="personal">        ◦ Miles of</catDesc></category>
+              <category><catDesc xml:id="c26204" n="homoOf" corresp="hasAsHomo" key="personal">        ◦ Homo of</catDesc></category>
+              <category><catDesc xml:id="c26205" n="agentFor" corresp="hasAsAgent" key="personal">        ◦ Agent for</catDesc></category>
+              <category><catDesc xml:id="c26206" n="professionalRelationship" corresp="professionalRelationship" key="personal">        ◦ Professional relationship</catDesc></category>
+              <category><catDesc xml:id="c26207" n="link" corresp="link" key="other">        ◦ Link</catDesc></category>
+          </category>
+          </category>
+          
+          <!--<category n="Entry type"><catDesc xml:id="c26120" n="Entry_type">Entry type</catDesc>
+          <category><catDesc xml:id="c26121" n="Person">    • Person</catDesc></category>
+          <category><catDesc xml:id="c26122" n="Juridical_person">    • Juridical person</catDesc></category>
+          <category><catDesc xml:id="c26124" n="Place">    • Place</catDesc></category>
+          <category><catDesc xml:id="c26123" n="Estate">    • Estate</catDesc></category>
+          </category>-->
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <ab/>
+    </body>
+  </text>
+</TEI>
