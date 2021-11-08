@@ -393,7 +393,7 @@ a:link.button, a:visited.button, a:focus.button, a:hover.button, a:active.button
 }
 
 #toggle_rs, #toggle_persName, #toggle_orgName, #toggle_geogName, #toggle_placeName, #toggle_date, #toggle_links {
-    background-color: #f6f6f6;
+    background-color: white;
     border-style: none;
     padding: 8px 8px 6px 8px;
 }
