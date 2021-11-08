@@ -22,8 +22,8 @@ p {
     text-align: justify;
 }
 
-* {
-    font-family: Helvetica, serif;
+*, h1, h4 {
+    font-family: "Palatino Linotype", Helvetica, serif;
 }
 
 a, a:link, a:visited, a:focus, a:hover, a:active {
@@ -31,7 +31,7 @@ a, a:link, a:visited, a:focus, a:hover, a:active {
 }
 
 h1 {
-    color: #3A2A4C;
+    color: #546979;
     font-size: 36px;
 }
 
@@ -40,23 +40,34 @@ h4 {
 }
 
 b {
-    color: #3A2A4C;
+    color: #546979;
+}
+
+body {
+    background-color: #F5F6F8;
+}
+
+#logos {
+    background-color: white;
+    padding-top: 1em;
+    padding-bottom: 0.1em;
+    margin-bottom: 1em;
 }
 
 
 /* header */
 nav.top-bar, nav.top-bar ul.right li, nav.top-bar ul.left * {
-    background-color: #3A2A4C;
+    background-color: #546979;
     font-size: 14px;
     font-weight: 400;
 }
 
 #site-name {
-    background-color: #3A2A4C;
+    background-color: #546979;
     padding: 45px 0 20px 0;
     margin: -12px 0 -10px 0;
-    color: #A96D2D;
-    font-family: Quicksand, Helvetica, serif;
+    color: #F5F6F8;
+    font-family: "Palatino Linotype", Helvetica, serif;
     font-weight: 400;
     font-size: 48px;
 }
@@ -78,7 +89,7 @@ nav.top-bar, nav.top-bar ul.right li, nav.top-bar ul.left * {
     margin-bottom:10px;
 }
 
-#fiscal_estate {
+#homepage_heading {
     font-size: 28px;
 }
 
@@ -111,7 +122,7 @@ margin-left:20px;
 
 .item_name, .sublist_heading, #team_members b {
     font-weight: bold;
-    color: #3A2A4C;
+    color: #546979;
     font-size: 20px;
     font-variant: small-caps;
     padding-bottom:0;
@@ -121,7 +132,7 @@ margin-left:20px;
 
 #team_members h3 {
     font-size: 26px;
-    color: #3A2A4C;
+    color: #546979;
     padding-top: 30px;
     padding-bottom: 10px;
     font-variant: small-caps;
@@ -131,7 +142,7 @@ margin-left:20px;
     background-color: #f6f6f6;
     border-style: none;
     border-radius: 12px;
-    color: #3A2A4C;
+    color: #546979;
     font-weight: bold;
     font-size: 14px;
     padding: 9px 9px 7px 9px;
@@ -146,11 +157,11 @@ margin-left:20px;
     padding:1em;
     margin-top:1em;
     margin-bottom:1em;
-    border: 1px solid #3A2A4C;
+    border: 1px solid #546979;
 }
 
 .index_item_name {
-    color: #3A2A4C;
+    color: #546979;
     font-size: 20px;
     font-variant: small-caps;
     padding-top:0;
@@ -179,7 +190,7 @@ ul.expanded {
   z-index: 99;
   border: none;
   outline: none;
-  background-color: #3A2A4C;
+  background-color: #546979;
   color: white;
   cursor: pointer;
   padding: 1px;
@@ -421,7 +432,7 @@ a:link.button, a:visited.button, a:focus.button, a:hover.button, a:active.button
 	position: absolute;
 	font-size: 12px;
 	color: #fff;
-	font-family: arial, helvetica, sans-serif;
+	font-family: "Palatino Linotype", arial, helvetica, sans-serif;
 	line-height: 1;
 	color: #666;
 	font-size: 11px;
@@ -640,12 +651,6 @@ a:link.button, a:visited.button, a:focus.button, a:hover.button, a:active.button
 
 
 /*Fonts*/
-@font-face {
-    font-family: "Quicksand";
-    src: url('fonts/quicksand.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
 @font-face {
     font-family: "New Athena Unicode";

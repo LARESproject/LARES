@@ -16,7 +16,12 @@
     <kiln:block name="page-header">
       <div class="row">
         <div class="large-12 columns text-center">
-          <!--<h1 id="fiscal_estate">LARES</h1>-->
+          <h1 id="homepage_heading">LARES - Language and Religion</h1>
+          <br/>
+          <h4>Lexical Change and Variation <br/>in Religious Enculturation / Acculturation phenomena of the Ancient World</h4>
+          <br/>
+          <h4></h4>
+          <br/>
         </div>
       </div>
     </kiln:block>
@@ -25,19 +30,23 @@
       <main>
         <div class="row">
           <div id="home-text" class="small-8 large-centered columns">
-            <a href="documents/"><!--<img id="logo" src="{$kiln:assets-path}/images/logo.png" alt="Logo" />--></a>
-            <p>Research project "Animal Sacrifice in Ancient Greece in the Light of Philological Testimonies" funded by the National Science Centre (UMO-2013/09/B/HS2/01208), conducted in the Institute of Classical Studies of the Jagiellonian University.
-              Research project "Animal Sacrifice in Ancient Greece in the Light of Philological Testimonies" funded by the National Science Centre (UMO-2013/09/B/HS2/01208), conducted in the Institute of Classical Studies of the Jagiellonian University.
-              Research project "Animal Sacrifice in Ancient Greece in the Light of Philological Testimonies" funded by the National Science Centre (UMO-2013/09/B/HS2/01208), conducted in the Institute of Classical Studies of the Jagiellonian University.</p>
-            <p>Research project "Animal Sacrifice in Ancient Greece in the Light of Philological Testimonies" funded by the National Science Centre (UMO-2013/09/B/HS2/01208), conducted in the Institute of Classical Studies of the Jagiellonian University.
-              Research project "Animal Sacrifice in Ancient Greece in the Light of Philological Testimonies" funded by the National Science Centre (UMO-2013/09/B/HS2/01208), conducted in the Institute of Classical Studies of the Jagiellonian University.
-              Research project "Animal Sacrifice in Ancient Greece in the Light of Philological Testimonies" funded by the National Science Centre (UMO-2013/09/B/HS2/01208), conducted in the Institute of Classical Studies of the Jagiellonian University.</p></div>
+            <!--<a href="documents/"><img id="logo" src="{$kiln:assets-path}/images/logo.png" alt="Logo" /></a>-->
+            <p>LARES Language and Religion: Lexical Change and Variation in Religious Enculturation / Acculturation phenomena of the Ancient World (<a href="https://site.unibo.it/lares/en/" target="_blank">https://site.unibo.it/lares/en/</a>) is a research forsight project funded by the action  'seed funding' of the UNA-Europa Network and it is promoted jointly by: Alma Mater Studiorum – Università di Bologna, Helsingin Yliopisto, Uniwersytet Jagielloński w Krakowie, Universidad Complutense de Madrid.</p>
+            
+            <p>This website includes also the database of the Research project "<i>Animal Sacrifice in Ancient Greece in the Light of Philological Testimonies</i>" funded by the National Science Centre (UMO-2013/09/B/HS2/01208), conducted in the Institute of Classical Studies of the Jagiellonian University (previously hosted at <a target="_blank" href="http://www.sacrificium.filg.uj.edu.pl">http://www.sacrificium.filg.uj.edu.pl</a>).</p>
+           </div>
+          
           <div id="credits" class="small-8 large-centered columns">
-          	<p> 
-          	  <a href="https://www.unibo.it"><img alt="Logo Università di Bologna" style="padding-right:2em;height:70px" src="{$kiln:assets-path}/images/Bologna.png" /></a>
-          </p>
-            <p><a href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="License Creative Commons BY-SA" style="padding-left:0.9em; padding-right:1.2em; padding-bottom:0.2em" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a></p>
-            <p>Powered by <a href="http://kcl-ddh.github.io/kiln/">Kiln</a>/<a href="https://github.com/EpiDoc/EFES/wiki">EFES</a>. Theme by <a href="http://foundation.zurb.com/">Foundation</a>.</p>
+            <div id="logos">
+              <p> 
+          	  <a href="https://www.unibo.it"><img alt="Logo Università di Bologna" style="padding-right:1em;height:80px" src="{$kiln:assets-path}/images/Bologna.png" /></a>
+          	  <a href=""><img alt="Logo Helsingin Yliopisto" style="padding-right:1em;height:80px" src="{$kiln:assets-path}/images/Helsinki.png" /></a>
+          	  <a href=""><img alt="Logo Uniwersytet Jagielloński w Krakowie" style="padding-right:1em;height:55px" src="{$kiln:assets-path}/images/Krakow.png" /></a>
+          	  <a href=""><img alt="Logo Universidad Complutense de Madrid" style="padding-right:1em;height:35px" src="{$kiln:assets-path}/images/Madrid.png" /></a>
+          	  <a href=""><img alt="Logo UnaEuropa" style="padding-right:1em;height:70px" src="{$kiln:assets-path}/images/Unaeuropa.jpeg" /></a>
+              </p>
+            </div>
+            <p><a href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="License Creative Commons BY-SA" style="padding-left:0.9em; padding-right:1.2em; padding-bottom:0.2em" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> <span style="font-size:14px">Powered by <a href="http://kcl-ddh.github.io/kiln/">Kiln</a>/<a href="https://github.com/EpiDoc/EFES/wiki">EFES</a>. Theme by <a href="http://foundation.zurb.com/">Foundation</a>.</span></p>
           </div>
         </div>
       </main>

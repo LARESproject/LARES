@@ -22,18 +22,21 @@
         <body>
             <div type="commentary" xml:id="team_members">
                 <div>
-                    <head>Alma Mater Studiorum Università di Bologna</head>
+                    <head>Alma Mater Studiorum – Università di Bologna</head>
                     <p><emph>Giuseppina Paola Viscardi</emph></p>
                 </div>
-
                 <div>
                     <head>Uniwersytet Jagielloński w Krakowie</head>
+                    <p><emph>Lech Trzcionkowski</emph></p>
                     <p><emph>Krzysztof Bielawski</emph></p>
                 </div>
-                
                 <div>
-                    <head>Università di ...</head>
-                    <p><emph>...</emph></p>
+                    <head>Helsingin Yliopisto</head>
+                    <p><emph>Mika Kajava</emph></p>
+                </div>
+                <div>
+                    <head>Universidad Complutense de Madrid</head>
+                    <p><emph>Ana Isabel Jiménez San Cristóbal</emph></p>
                 </div>
             </div>
         </body>
