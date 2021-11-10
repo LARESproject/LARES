@@ -10,31 +10,29 @@
   <xsl:template name="lares-body-structure">
     <div id="metadata">
       <p>
-        <b>Title: </b>
+        <!--<b>Title: </b>
         <xsl:apply-templates select="//t:titleStmt/t:title"/>
         <br/>
         <b>Document number: </b>
-        <xsl:value-of select="substring-after(replace(//t:publicationStmt//t:idno, ' ', ''), 'doc')"/>
-        <br/>
+        <xsl:value-of select="substring-after(replace(//t:publicationStmt//t:idno, ' ', ''), '_')"/>
+        <br/>-->
         <b>Author(s): </b>
-        <xsl:choose>
-          <xsl:when test="contains(lower-case(//t:change[1]/@who), 'gpviscardi')"><xsl:text>Giuseppina Paola Viscardi</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[1]/@who), 'kbielawski')"><xsl:text>Krzysztof Bielawski</xsl:text></xsl:when>
-          <xsl:otherwise><xsl:value-of select="//t:change[1]/@who"/></xsl:otherwise>
-        </xsl:choose>
-        <xsl:text> (file creation on </xsl:text><xsl:value-of select="//t:change[1]/@when"/><xsl:text>); </xsl:text>
-        <xsl:choose>
-          <xsl:when test="contains(lower-case(//t:change[last()]/@who), 'gpviscardi')"><xsl:text>Giuseppina Paola Viscardi</xsl:text></xsl:when>
-          <xsl:when test="contains(lower-case(//t:change[last()]/@who), 'kbielawski')"><xsl:text>Krzysztof Bielawski</xsl:text></xsl:when>
-          <xsl:otherwise><xsl:value-of select="//t:change[last()]/@who"/></xsl:otherwise>
-        </xsl:choose>
-        <xsl:text> (last change on </xsl:text><xsl:value-of select="//t:change[last()]/@when"/><xsl:text>)</xsl:text>
-        <!--<xsl:for-each select="//t:change"><xsl:value-of select="@who"/>
-         <xsl:text> (</xsl:text><xsl:value-of select="@when"/><xsl:text>). </xsl:text>
-       </xsl:for-each>-->
+        <xsl:for-each select="//t:change">
+          <xsl:sort select="position()" order="descending"/>
+          <xsl:value-of select="@who"/><xsl:text> (</xsl:text>
+          <xsl:value-of select="@when"/>
+          <xsl:if test="normalize-space(.)!=''"><xsl:text>: </xsl:text><xsl:value-of select="."/></xsl:if>
+          <xsl:text>)</xsl:text>
+          <xsl:if test="position()!=last()"><xsl:text>; </xsl:text></xsl:if>
+       </xsl:for-each>
         <br/>
         <b>Document type: </b>
-        <xsl:value-of select="translate(//t:summary/t:rs[@type = 'text_type'], '-', '')"/>
+        <xsl:choose>
+          <xsl:when test="starts-with(//t:idno[@type='filename'], 'lexicon')"><xsl:text>lexicon entry</xsl:text></xsl:when>
+          <xsl:when test="starts-with(//t:idno[@type='filename'], 'text')"><xsl:text>text</xsl:text></xsl:when>
+          <xsl:when test="starts-with(//t:idno[@type='filename'], 'com')"><xsl:text>comedy book chapter</xsl:text></xsl:when>
+          <xsl:when test="starts-with(//t:idno[@type='filename'], 'trag')"><xsl:text>tragedy book chapter</xsl:text></xsl:when>
+        </xsl:choose>
       </p>
 
       <p id="toggle_buttons"><b>Show/hide in the text: </b>

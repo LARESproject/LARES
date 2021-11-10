@@ -1,42 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader xml:lang="en">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>ἄθυτος</title>
             </titleStmt>
-            <editionStmt>
-                <edition><ref target="http://sitename.unibo.it">LARES Project</ref>
-                    <date when="2021">2021</date>
-                </edition>
-            </editionStmt>
             <publicationStmt>
-                <publisher>LARES</publisher>
-                <idno type="filename">doc1</idno>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA4.0)</licence>
-                </availability>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
                 <date when="2021"/>
+                <idno type="filename">lexicon_athytos</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
             </publicationStmt>
             <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <altIdentifier>
-                            <idno type="uri"/>
-                        </altIdentifier>
-                    </msIdentifier>
-                    <msContents>
-                        <summary>
-                            <rs type="text_type" ref="#">Lexicon entry</rs>
-                        </summary>
-                    </msContents>
-                </msDesc>
+                <p>Born digital document.</p>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-10-12" who="gpviscardi">creation of record</change>
+                <change when="2021-10-12" who="Irene Vagionakis">encoded document in XML</change>
+                <change when="2021-10-12" who="Krzysztof Bielawski">created document contents</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -49,16 +34,16 @@
                             <orgName>wariantach</orgName>: ἄθυτος i <ref
                             corresp="http://stephanus.tlg.uci.edu/lsj/#eid=2199">ἄθυστος</ref>, z
                         których drugi występuje wyłącznie w wersie <rs>Semonidesa</rs> (7.56), <ref
-                            corresp="doc2.html">przekazanym</ref> przez
+                            corresp="lexicon_religio.html">przekazanym</ref> przez
                             <geogName>manuskrypty</geogName>
                         <foreign>Stobajosa</foreign>, skądinąd gdzie indziej (<ref
                             corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2013.01.0003%3Abook%3D5%3Achapter%3D7"
-                            >Ath. 5.7 = 179d</ref>) <date>poświadczonym</date> z lekcją ἄθυτος.
-                        Możliwe zatem, że kontrowersja jest wynikiem błędu lub reinterpretacji,
+                            >Ath. 5.7</ref> = <ref corresp="../texts/text_1.html">179d</ref>) <date>poświadczonym</date> z lekcją ἄθυτος.
+                        <ref corresp="../texts/com_1_ranae.html#Rane_847–848">Możliwe</ref> zatem, że kontrowersja jest wynikiem błędu lub reinterpretacji,
                         mającej na celu wyjaśnienie długiego <rs>iloczasu</rs> przedkońcowej sylaby
                             <rs>poprzez</rs> zamknięcie jej spółgłoską (jest to
                             <foreign>zresztą</foreign> niepotrzebne, ponieważ sylaba ta, choć
-                        otwarta, wyraźnie może być długa jak w Eur. H. 147). Oba warianty są
+                        otwarta, wyraźnie może być długa jak w Eur. H. 147). <placeName ref="Athens">Oba</placeName> warianty są
                         ewidentnie synonimiczne i wykazują identyczną strukturę: alpha privativum +
                         pierwiastek (-thu- lub -thus-) + morfem derywujący adiectivum verbale +
                         końcówka. <geogName>Struktura</geogName> taka sugeruje znaczenie:
@@ -76,9 +61,8 @@
                         któremu Eolowie nie pozwolili złożyć ofiary) – odszedł nie złożywszy ofiary.
                         Tutaj przymiotnik odnosi się do rzeczownika określającego ofiarnika. Lys.
                         25.6.3: ἄθυτα τὰ πάτρια ἱερὰ γίγνεσθαι – zgodne z tradycją obrzędy ofiarne
-                        nie zostaną spełnione. <ref corresp="../texts/text2.html">Lys.
-                        30.20.1</ref>: ἱερὰ ἄθυτα τριῶν ταλάντων γεγένηται – ofiary wartości trzech
-                        talentów nie zostały złożone. W tym i poprzednim przypadku
+                        nie zostaną spełnione. Lys. 30.20.1: ἱερὰ ἄθυτα τριῶν ταλάντων γεγένηται – ofiary 
+                        wartości trzech talentów nie zostały złożone. W tym i poprzednim przypadku
                             <orgName>przymiotnik</orgName> określa rzeczownik nazywający rytuał.
                         D.H. 8.25: γενέσθαι καὶ ἀθύτους – pozostaną bez ofiar. Tu przymiotnik odnosi
                         się do bogów, którzy nie otrzymają należnej czci. 2) Pochodną znaczenia 1
@@ -171,8 +155,7 @@
                         sięgnięcia przez człowieka po ἄθυτα. Wyraźnie była to część zwierzęcia
                         ofiarnego, którą, metaforycznie rzecz ujmując, orzeł miał zanieść Zeusowi
                         lub taka, która zakończeniu rytuału miała stać się – dosłownie – pożywieniem
-                        ptaków, czyli odpadkiem (por. wstęp do Ptaków Arystofanesa). <placeName
-                            ref="Athens">Najprawdopodobniej</placeName>
+                        ptaków, czyli odpadkiem (por. wstęp do Ptaków Arystofanesa). Najprawdopodobniej
                         zatem mamy tu do czynienia z wyrazem ἄθυτος w najsłabiej poświadczonym
                         znaczeniu 6 (por. Berthiaume 1982: 90-1). Cztery ostatnie przypadki,
                         jakkolwiek mogą zachodzić pomiędzy nimi nieuchwytne dla nas różnice, zdają

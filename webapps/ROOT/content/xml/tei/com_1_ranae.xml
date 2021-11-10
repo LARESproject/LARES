@@ -1,17 +1,29 @@
-<TEI version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="cap1">
-    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Ranae (Βατραχοι, Rane)</title>
             </titleStmt>
             <publicationStmt>
-                <p/>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">com_1_ranae</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
             </publicationStmt>
             <sourceDesc>
-                <p/>
+                <p>Born digital document.</p>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-11-10" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2021-10-12" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>

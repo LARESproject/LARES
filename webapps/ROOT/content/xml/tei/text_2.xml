@@ -7,21 +7,27 @@
                 <title>Lys. 30.20.1</title>
             </titleStmt>
             <publicationStmt>
-                <authority>LARES</authority>
-                <idno type="filename">text2</idno>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">text_2</idno>
                 <availability>
-                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative
-                        Commons Attributions-NonCommercial 4.0 International License.</licence>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <p/>
+                <p>Born digital document.</p>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-10-12" who="Irene Vagionakis">encoded document in XML</change>
+                <change when="2021-10-12" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <div type="commentary">
+            <div type="textpart">
                 <div>
                     <div>
                         <head>Text</head>

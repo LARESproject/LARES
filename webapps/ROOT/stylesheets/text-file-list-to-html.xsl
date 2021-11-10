@@ -24,21 +24,8 @@
         </tr>
       </thead>
       <tbody>
-        <xsl:apply-templates mode="text-index" select="result/doc" >
-          <xsl:sort>
-            <xsl:variable name="id">
-              <xsl:choose>
-                <xsl:when test="starts-with(str[@name='document_id'], 'doc')"><xsl:value-of select="substring-after(replace(str[@name='document_id'], ' ', ''), 'doc')"/></xsl:when>
-                <xsl:when test="starts-with(str[@name='document_id'], 'text')"><xsl:value-of select="substring-after(replace(str[@name='document_id'], ' ', ''), 'text')"/></xsl:when>
-                <xsl:when test="starts-with(str[@name='document_id'], 'lexicon')"><xsl:value-of select="substring-after(replace(str[@name='document_id'], ' ', ''), 'lexicon')"/></xsl:when>
-              </xsl:choose>
-            </xsl:variable>
-            <xsl:choose>
-            <xsl:when test="string-length($id) = 1"><xsl:value-of select="concat('000',$id)"/></xsl:when>
-            <xsl:when test="string-length($id) = 2"><xsl:value-of select="concat('00',$id)"/></xsl:when>
-            <xsl:when test="string-length($id) = 3"><xsl:value-of select="concat('0',$id)"/></xsl:when>
-            <xsl:otherwise><xsl:value-of select="$id"/></xsl:otherwise>
-          </xsl:choose></xsl:sort>
+        <xsl:apply-templates mode="text-index" select="result/doc[contains(str[@name='document_id'], '_')]" ><!-- added [contains(str[@name='document_id'], '_')] to hide other TEI files  -->
+          <xsl:sort select="str[@name='document_id']"/>
         </xsl:apply-templates>
       </tbody>
     </table>
@@ -66,11 +53,7 @@
     <xsl:variable name="filename" select="substring-after(., '/')" />
     <td>
       <a href="{kiln:url-for-match($match_id, ($language, $filename), 0)}">
-        <xsl:choose>
-          <xsl:when test="starts-with($filename, 'doc')"><xsl:value-of select="substring-after($filename, 'doc')" /></xsl:when>
-          <xsl:when test="starts-with($filename, 'text')"><xsl:value-of select="substring-after($filename, 'text')" /></xsl:when>
-          <xsl:when test="starts-with($filename, 'lexicon')"><xsl:value-of select="substring-after($filename, 'lexicon')" /></xsl:when>
-        </xsl:choose>
+        <xsl:value-of select="$filename" />
       </a>
     </td>
   </xsl:template>

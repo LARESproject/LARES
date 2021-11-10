@@ -1,42 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader xml:lang="en">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>ἄφετος</title>
             </titleStmt>
-            <editionStmt>
-                <edition><ref target="http://sitename.unibo.it">LARES Project</ref>
-                    <date when="2021">2021</date>
-                </edition>
-            </editionStmt>
             <publicationStmt>
-                <publisher>LARES</publisher>
-                <idno type="filename">doc3</idno>
-                <availability>
-                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA4.0)</licence>
-                </availability>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
                 <date when="2021"/>
+                <idno type="filename">lexicon_aphetos</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
             </publicationStmt>
             <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <altIdentifier>
-                            <idno type="uri"/>
-                        </altIdentifier>
-                    </msIdentifier>
-                    <msContents>
-                        <summary>
-                            <rs type="text_type" ref="#">Lexicon entry</rs>
-                        </summary>
-                    </msContents>
-                </msDesc>
+                <p>Born digital document.</p>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-10-12" who="gpviscardi">creation of record</change>
+                <change when="2021-10-12" who="Irene Vagionakis">encoded document in XML</change>
+                <change when="2021-10-12" who="Krzysztof Bielawski">created document contents</change>
             </listChange>
         </revisionDesc>
     </teiHeader>

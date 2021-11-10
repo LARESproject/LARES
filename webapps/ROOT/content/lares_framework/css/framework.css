@@ -423,15 +423,7 @@ ab placeName:before {
 
     region, institution, settlement, repository, idno {
         visibility: -oxy-collapse-text;
-    }       
-    
-    summary rs[type=text_type] {
-        content: "Document type: " oxy_editor(type, combo, edit, "#text", editable, true, columns, 30,
-              values, "Lexicon entry, Text, Commentary, Translation");
-              display:block;
-              margin:0px 20px 15px 20px;
-              visibility: -oxy-collapse-text ;
-    }
+    }      
 
        listChange:after {
        display:block;

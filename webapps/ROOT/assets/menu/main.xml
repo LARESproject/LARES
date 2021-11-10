@@ -6,8 +6,12 @@
   <menu label="Lexicon" match="local-epidoc-index-display" />
   <menu label="Texts" match="local-tei-index-display"/>
   <menu label="Books chapters">
-    <menu label="Lisistrata" match="local-tei-display-html" params="Lisistrata"/>
-    <menu label="Rane" match="local-tei-display-html" params="Rane"/>
+    <menu label="Comedy">
+      <item label="Ranae" match="local-tei-display-html" params="com_1_ranae"/>
+      <item label="Lysistrata" match="local-tei-display-html" params="com_2_lysistrata"/>
+    </menu>
+    <menu label="Tragedy">
+    </menu>
   </menu>
   <menu label="Bibliography" match="local-tei-display-html" params="bibliography"/>
   <menu label="Indices" match="local-indices-type-display" params="epidoc"/>

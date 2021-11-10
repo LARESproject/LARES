@@ -90,7 +90,7 @@
   </xsl:template>
 
   <!-- Display an individual search result. -->
-  <xsl:template match="result/doc" mode="search-results">
+  <xsl:template match="result/doc[contains(str[@name='document_id'], '_')]" mode="search-results"> <!-- added [contains(str[@name='document_id'], '_')] to hide other TEI files  -->
     <xsl:variable name="document-type" select="str[@name='document_type']" />
     <xsl:variable name="short-filepath"
                   select="substring-after(str[@name='file_path'], '/')" />
@@ -104,11 +104,13 @@
         </xsl:when>
       </xsl:choose>
     </xsl:variable>
+    <xsl:if test="str[@name='document_id']">
     <li>
       <a href="{$result-url}">
         <xsl:value-of select="concat(str[@name='document_id'], '. ', arr[@name='document_title']/str[1])" />
       </a>
     </li>
+    </xsl:if>
   </xsl:template>
 
   <!-- Display search results. -->

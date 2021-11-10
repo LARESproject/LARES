@@ -7,15 +7,16 @@
                 <title>Bibliography</title>
             </titleStmt>
             <publicationStmt>
-                <p/>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
             </publicationStmt>
             <sourceDesc>
-                <p>No source: created in electronic format.</p>
+                <p>Born digital document.</p>
             </sourceDesc>
         </fileDesc>
-        <encodingDesc>
-            <p>Encoding according to the TEI P4 Guidelines</p>
-        </encodingDesc>
     </teiHeader>
     <text>
         <body>
