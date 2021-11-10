@@ -1,0 +1,138 @@
+<TEI version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Κριτὴς ἐν ᾅδου</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>LARES</publisher>
+                <idno type="filename">doc6</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA4.0)</licence>
+                </availability>
+                <date when="2021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <p>...</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div n="Osservazioni preliminari">
+                    <head>Osservazioni preliminari</head>
+<p> In diversi dialoghi in cui si discute del destino delle anime, Platone menziona i giudici
+                        infernali, il cui compito è giudicare i defunti e valutare il loro destino
+                        negli inferi. Questi riferimenti hanno due caratteristiche peculiari: la
+                        prima è che Platone presenta il giudizio negli inferi come un aspetto
+                        tradizionale, dove invece i testi precedenti che menzionano tale giudizio
+                        sono molto rari, e molto rare sono le testimonianze iconografiche. La
+                        seconda questione è che le versioni del tema presenti nei vari dialoghi non
+                        sono completamente coerenti tra loro. Per questi motivi intendo esaminare da
+                        un lato in cui Platone configurava il mito dei giudici infernali in
+                        relazione alla tradizione letteraria greca, separando gli elementi
+                        tradizionali veramente nella tradizione dalle sue innovazioni, dall'altro i
+                        motivi principali delle diverse versioni che offre. Prima di discutere il
+                        contenuto dei riferimenti platonici, indicherò il modo in cui le presenta
+                        come parte di una tradizione.</p>
+                </div>
+                <div n="Epoca arcaica">
+    <head>Epoca arcaica</head>
+                    <p>      Il prossimo passo in questa indagine sarà dunque determinare quali aspetti della tradizione Platone può avere fatto ricorso per creare i suoi racconti. Nell'Odissea il protagonista dice di avere visto Minesse nelle vesti di giudice infernale, parla di Minosse che giudica i defunti sul suo scranno. </p>
+                    <quote>
+                        <p>Omero <hi rend="italic">Odissea</hi> 11, 568-571 <lb/>  ἔνθ᾽ ἦ τοι Μίνωα
+                        ἴδον, Διὸς ἀγλαὸν υἱόν, <lb/> χρύσεον σκῆπτρον ἔχοντα, θεμιστεύοντα
+                        νέκυσσιν, <lb/> ἥμενον, οἱ δέ μιν ἀμφὶ δίκας εἴροντο ἄνακτα, <lb/> ἥμενοι
+                            ἑσταότες τε κατ᾽ εὐρυπυλὲς Ἄϊδος δῶ. </p>
+                        <p>“Allora vidi Minosse, il glorioso
+                            figlio di Zeus, con lo scettro d'oro in mano, che giudicava i morti dal
+                            suo seggio, mentre essi sedevano e stavano intorno al re attraverso
+                            l'ampia casa dell'Ade, e gli chiedevano il giudizio”.</p>
+                    </quote>
+                    <p>È chiaro che Minosse non giudica le anime in transito dalla vita alla morte per decidere il destino negli inferi, questa è una idea assolutamente estranea a Omero, il suo compito è invece limitato all'amministrazione della giustizia e alla risoluzione dei conflitti tra i defunti nell'Ade. Minosse è anche menzionato in Esiodo in compagnia di Radamanto e Sarpedone senza che a nessuno di essi sia attribuita una funzione speciale. Contrariamente ai racconti platonici per Esiodo le isole dei beati non sono luoghi d'accesso per i defunti normali, la figura di un giudice infernale che intercede per un defunto dopo che questi ha ricevuto una sentenza positiva.  </p>               
+<p>                        Il primo testo che riferisce un giudizio nell'oltretomba seguto da premi e punizioni in base alle azioni compiuti in base alla vita è di Pindaro: 
+</p>                   
+                        <quote>
+                        <p> Pindaro Olimpica 2,56-70
+                            <lb/>εἰ δέ νιν ἔχων τις οἶδεν τὸ μέλλον,
+                        <lb/> ὅτι θανόντων μὲν ἐνθάδ᾽ αὐτίκ᾽ ἀπάλαμνοι φρένες <lb/> ποινὰς ἔτισαν,
+                        τὰ δ᾽ ἐν τᾷδε Διὸς ἀρχᾷ <lb/> ἀλιτρὰ κατὰ γᾶς δικάζει τις ἐχθρᾷ <lb/>
+                        60λόγον φράσαις ἀνάγκᾳ: <lb/> ἴσαις δὲ νύκτεσσιν αἰεί, <lb/> ἴσαις δ᾽ ἐν
+                        ἁμέραις ἅλιον ἔχοντες, ἀπονέστερον <lb/> ἐσλοὶ δέκονται βίοτον, οὐ χθόνα
+                        ταράσσοντες ἐν χερὸς ἀκμᾷ <lb/> οὐδὲ πόντιον ὕδωρ <lb/> 65κεινὰν παρὰ
+                        δίαιταν: ἀλλὰ παρὰ μὲν τιμίοις <lb/> θεῶν, οἵτινες ἔχαιρον εὐορκίαις,
+                        ἄδακρυν νέμονται <lb/> αἰῶνα: τοὶ δ᾽ ἀπροσόρατον ὀκχέοντι πόνον <lb/> ὅσοι
+                        δ᾽ ἐτόλμασαν ἐστρὶς <lb/> ἑκατέρωθι μείναντες ἀπὸ πάμπαν ἀδίκων ἔχειν <lb/>
+                        ψυχάν, ἔτειλαν Διὸς ὁδὸν παρὰ Κρόνου τύρσιν: </p>
+                            <p> "Ma le colpe in questo
+                            regno di Zeus qualcuno le giudicherà pronunciando sentenze con
+                            implacabile necessità e sempre godendo del sole per notti e quali nei
+                            giorni i valenti ricevono una vita priva di pene, non sconvolgono la
+                            terra con la forza del braccio né il mare per un misero vitto ma chi
+                            mantenne fede con gioia nei giuramenti presso gli dei onorati trascorsi
+                            una esistenza senza lacrime. Gli altri sopportano un dolore orribile a
+                            vedersi, ma chi ebbe l'ardire dimorando tra volte nell'altra vita di
+                            tenere lontano l'anima dalle opere ingiuste compie il cammino di Zeus
+                            fino alla torre di Crono intorno alle isole dei beati dove spirano le
+                            brezze etc."</p>
+                    </quote>
+                        <p>Questa è la situazione eccellente dei beati. Questo passo è stato discusso su molti punti particolari, soprattutto per quanto riguardo il significato di "né l'una né l'altra vita", ma è chiaro che ci sono novità rispetto alla tradizione precedente. Pindaro descrive il diverso destino dei mortali, non semidei o eroi, secondo i loro meriti determinato e dettato da un giudice, la cui identità non viene rivelata. Non sembra essere Radamanto, che sarà menzionato in seguito. Forse è Ade, una possibilità che può essere confermata dai passi di Eschilo. </p>
+                        <p> Eschilo fa alcuni riferimenti a un giudizio nell'aldilà, per esempio nelle Eumenidi: </p>
+                        <quote>
+                        <p> Eschilo <hi rend="italic">Eumenidi</hi> 267-275<lb/> καὶ ζῶντά σ᾽
+                        ἰσχνάνασ᾽ ἀπάξομαι κάτω, <lb/> ἀντίποιν᾽ ὡς τίνῃς ματροφόνου δύας. <lb/>
+                        ὄψει δὲ κεἴ τις ἄλλος ἤλιτεν βροτῶν <lb/> ἢ θεὸν ἢ ξένον <lb/> τιν᾽ ἀσεβῶν†
+                        ἢ τοκέας φίλους, <lb/> ἔχονθ᾽ ἕκαστον τῆς δίκης ἐπάξια. <lb/> μέγας γὰρ
+                        Ἅιδης ἐστὶν εὔθυνος βροτῶν <lb/> ἔνερθε χθονός, <lb/> δελτογράφῳ δὲ πάντ᾽
+                        ἐπωπᾷ φρενί. </p>
+                            <p>"Ancora vivo dopo avere prosciugato trarrò sottoterra a
+                            espiare con questa pena lo scempio materno. Laggiù vedrai gli altri
+                            mortali che offesero empiamente un dio o un ospite o i propri genitori,
+                            soffre ciascuno castigo adeguato a giustizia, Ade è giudice grande degli
+                            uomini sottoterra e tutto sorveglia nella sua mente". </p>
+                    </quote>
+                        <p>       Un altro riferimento è nella tragedia eschilea le Supplici, dove colui che giudica i crimini, chiamato Zeus, dove di nuovo Ade fratello di Zeus ha lo stesso potere. Non conosciamo le fonti del giudice dei morti di Eschilo, ma non sembra un caso che il poeta abbia viaggiato in Sicilia introno al 472 a.C. chiamato da Gerone. Quindi questa connessione siciliana, per così dire, sembra apparire più volte in relazione all'argomento dei giudici infernali. </p>               
+                </div>
+                <div n="Epoca classica">
+                    <head>Epoca classica</head>
+                    <p>Passiamo ora a esaminare i riferimenti di Platone ai giudici nell'Ade. La prima occorrenza è nell'apologia.     </p>        
+                    <quote>
+                        <p>Platone Apologia 41a</p>
+                        <p> ἀφικόμενος εἰς Ἅιδου, ἀπαλλαγεὶς τουτωνὶ τῶν φασκόντων δικαστῶν εἶναι, εὑρήσει τοὺς ὡς ἀληθῶς δικαστάς, οἵπερ καὶ λέγονται ἐκεῖ δικάζειν, Μίνως τε καὶ Ῥαδάμανθυς καὶ Αἰακὸς καὶ Τριπτόλεμος καὶ ἄλλοι ὅσοι τῶν ἡμιθέων δίκαιοι ἐγένοντο ἐν τῷ ἑαυτῶν βίῳ, ἆρα φαύλη ἂν εἴη ἡ ἀποδημία;</p>
+                        <p>"Se dunque uno arriva nell’Ade libero da costoro che si dichiarano
+                            giudici e torva quelli che lo sono veramente e si dice rendano giustizia
+                            in quel luogo, cioè Minosse, Radamanto e Eaco e Trittolemo, e tutti quei
+                            semidei che sono stati giusti in vita, il viaggio in questo cosa
+                            potrebbe mai dirsi inutile?". </p>
+                   </quote>
+                    <p>                  La menzione intenzionale in questo testo, Socrate mette a confronto quelli che affermano di essere giudici, quelli che lo hanno giudicato, e i giudici reali, dei quali da uomo virtuoso non ha bisogno di avere paura. Oltre a citare Minosse Radamanto e Eaco, citati anche nel Gorgia, ricorda anche Trittolemo, che appare nella rappresentazione della Magna Grecia, dal momento che Trittolemo è di Eleusi aggiunge una coloratura eleusina al riferimento. </p>                    
+                    <p>                    Senza dubbio la testimonianza più interessante della visione platonica dei giudici si trova nel Gorgia, dove Platone ricorda i limiti dei giudici mortali, che si lasciano ingannare dall'aspetto esteriore degli uomini e non sono in grado di vedere le vere anime nella loro verità, capacità che potrebbero invece avere i figli di Zeus che rendono giustizia nell'Ade. Platone aggiunge molti dettagli mitologici che sono tutti sue aggiunte personali. 
+</p>                    
+<quote>
+    <p>Platone Gorgia 523e</p>
+    <p> ἔπειτα γυμνοὺς κριτέον ἁπάντων τούτων: τεθνεῶτας γὰρ δεῖ κρίνεσθαι. καὶ τὸν κριτὴν δεῖ γυμνὸν εἶναι, τεθνεῶτα, αὐτῇ τῇ ψυχῇ αὐτὴν τὴν ψυχὴν θεωροῦντα ἐξαίφνης ἀποθανόντος ἑκάστου, ἔρημον πάντων τῶν συγγενῶν καὶ καταλιπόντα ἐπὶ τῆς γῆς πάντα ἐκεῖνον τὸν κόσμον, ἵνα δικαία ἡ κρίσις ᾖ. ἐγὼ μὲν οὖν ταῦτα ἐγνωκὼς πρότερος ἢ ὑμεῖς ἐποιησάμην δικαστὰς ὑεῖς ἐμαυτοῦ, δύο μὲν ἐκ τῆς Ἀσίας, Μίνω τε καὶ Ῥαδάμανθυν.</p>
+    <p>                  "Mi ero già reso conto del problema, prima ancora che veniste e ho nominato giudici tre dei miei figli, due originari dell'Asia, e uno originario dell'Europa. Questi tre, quando saranno morti, siederanno come giudici in mezzo al prato vicino all'incrocio da dove partono le vie che portano all'isola dei beati al Tartaro. Radamanto giudicherà quell' dell’Asia, Eaco dall'Europa, Minosse avrà il ruolo di giudice quando i due abbiano dei dubbi". </p>
+</quote>
+                    <p>Si nota che Trittolemo è scomparso e i giudici sono rimasti in Eaco, Radamanto e Minosse, che non appare nella tradizione della Magna Grecia.</p> 
+                       <p> I giudici appaiono nella Repubblica nella storia di Er che conclude il dialogo. Sembra evidente che il filosofo volesse dare alla storia un senso di verità facendo di Er un nuovo Orfeo che visita l'aldilà e che ritorna per descrivere cosa succede lì. Questo punto è confermato dal fatto che sono i giudici stessi, che Er cita senza specificare l'identità, a spingerlo a raccontare ciò che ha visto. il suo racconto p presentato come un messaggio diretto dagli dei: </p>                    
+<p>                    Una ulteriore conferma di questa opposizione viene dal dialogo platonico Protagora. In un famoso passo il sofista intervenendo sulla questione se la virtù posa essere insegnata propone la coppia mito e discorso come due forme alternative di argomentazione, che tendono ad escludersi. Il tema è se la virtù può essere insegnata, e chiede: </p>                    
+                   
+                    <quote>
+                        <p>  Platone Repubblica 614c</p>
+                        <p> μετὰ πολλῶν, καὶ ἀφικνεῖσθαι σφᾶς εἰς τόπον τινὰ δαιμόνιον, ἐν ᾧ τῆς τε γῆς δύ᾽ εἶναι χάσματα ἐχομένω ἀλλήλοιν καὶ τοῦ οὐρανοῦ αὖ ἐν τῷ ἄνω ἄλλα καταντικρύ. δικαστὰς δὲ μεταξὺ τούτων καθῆσθαι, οὕς, ἐπειδὴ διαδικάσειαν, τοὺς μὲν δικαίους κελεύειν πορεύεσθαι τὴν εἰς δεξιάν τε καὶ ἄνω διὰ τοῦ οὐρανοῦ, σημεῖα περιάψαντας τῶν δεδικασμένων ἐν τῷ πρόσθεν, τοὺς δὲ ἀδίκους τὴν εἰς ἀριστεράν τε καὶ κάτω, ἔχοντας καὶ τούτους ἐν τῷ ὄπισθεν σημεῖα πάντων ὧν </p>
+                        <p>"e che giunsero in una regione misteriosa dove c'erano due aperture una
+                                accanto all'altra nella terra, e sopra e di fronte ad esse nel cielo
+                                altre due, e che i giudici erano seduti2 tra queste, e che dopo ogni
+                                giudizio facevano viaggiare i giusti a destra e in alto attraverso
+                                il cielo con pegni attaccati a loro davanti al giudizio passato su
+                                di loro, e gli ingiusti a prendere la strada a sinistra4 e in basso,
+                                anche loro portando dietro segni". </p>
+                    </quote>                
+                   <p>Tutti i riferimenti di Platone hanno in comune la credenza nell'immortalità e la trasmigrazione dell'anima con implicazione che l'anima conserva la sua capacità di percepire e comprendere le cose nell'aldilà. Non si può dire che la situazione dell'anima in Omero sia una immortalità dell'anima, è una cosa del tutto diversa. La scenografia con le varie strade invita a ritenere che egli immagini che l'anima mantenga una forma o un a immagine corporea. L'idea di un giudizio è elemento essenziale nell'immaginario platonico. Ma i giudici divini hanno funzioni varie, secondo i dialoghi.</p>                    
+                </div>
+                </div>
+        </body>
+    </text>
+</TEI>

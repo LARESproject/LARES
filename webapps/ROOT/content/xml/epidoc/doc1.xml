@@ -14,10 +14,8 @@
             <publicationStmt>
                 <publisher>LARES</publisher>
                 <idno type="filename">doc1</idno>
-                <availability xml:lang="en" status="free">
-                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Metadata and
-                        texts are released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA
-                        4.0)</licence>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Released as Creative Commons, Attribution-ShareAlike 4.0 (CC BY-SA4.0)</licence>
                 </availability>
                 <date when="2021"/>
             </publicationStmt>
@@ -31,28 +29,11 @@
                     <msContents>
                         <summary>
                             <rs type="text_type" ref="#">Lexicon entry</rs>
-                            
                         </summary>
-                        <msItem xml:id="msItem1">
-                            <textLang mainLang="" otherLangs=""/>
-                        </msItem>
                     </msContents>
                 </msDesc>
-                <listPlace>
-                    <place></place>
-                </listPlace>
-                <listPerson>
-                    <person></person>
-                </listPerson>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term/>
-                </keywords>
-            </textClass>
-        </profileDesc>
         <revisionDesc>
             <listChange>
                 <change when="2021-10-12" who="gpviscardi">creation of record</change>
