@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -27,10 +27,8 @@
     </teiHeader>
     <text>
         <body>
-            <div type="textpart">
-                <div>
-                    <div>
-                        <head>Text</head>
+            <div type="edition">
+                <head>Text</head>
                         <p>καὶ πρὸ τοῦ θοινᾶσθαι δὲ ἃ δεῖ ποιεῖν ἡμᾶς διδάσκει πάλιν Ὅμηρος, ἀπαρχὰς τῶν βρωμάτων νέμειν τοῖς θεοῖς. οἱ γοῦν περὶ τὸν Ὀδυσσέα καίπερ ὄντες ἐν τῷ τοῦ Κύκλωπος σπηλαίῳ:
                             
                             ἔνθα δὲ πῦρ κείαντες ἐθύσαμεν ἠδὲ καὶ αὐτοὶ
@@ -54,10 +52,10 @@
                             ἅπερ καὶ Πλάτων φυλάσσει κατὰ τὸ συμπόσιον. μετὰ γὰρ τὸ δειπνῆσαι σπονδάς τέ φησιν ῾p. 176a' 'ποιῆσαι καὶ τὸν θεὸν παιωνίσαντας τοῖς νομιζομένοις γέρασι ... παραπλησίως δὲ καὶ Ξενοφῶν. παρὰ δ᾽ Ἐπικούρῳ οὐ σπονδή, οὐκ ἀπαρχὴ θεοῖς, ἀλλ᾽ ὥσπερ Σιμωνίδης ἔφη περὶ τῆς ἀκόσμου γυναικός ῾fr. 7, 56','
                             
                             ἄθυστα δ᾽ ἱρὰ πολλάκις κατεσθίει ....</p>
-                    </div>
+            </div>
                     
-                    <div>
-                        <head>Translation</head>
+            <div type="translation">
+                <head>Translation</head>
                         <p>If you do this as I bid you,
                             You will ask us all to a supper,
                             Not to such as that in Thrace,
@@ -146,13 +144,10 @@
                             Still or effervescent.</p>
                     </div>
                     
-                    <div>
+                    <div type="commentary">
                         <head>Commentary</head>
                         <p>...</p>
                     </div>
-                </div>
-                
-            </div>
         </body>
     </text>
 </TEI>

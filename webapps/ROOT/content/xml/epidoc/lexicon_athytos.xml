@@ -28,8 +28,7 @@
     <text>
         <body>
             <div type="edition">
-                <div type="textpart">
-                    <ab>ἄθυτος athytos <persName>ἄθυτος</persName>, adj. nieofiarny
+                    <p>ἄθυτος athytos <persName>ἄθυτος</persName>, adj. nieofiarny
                             <geogName>Morfologia</geogName> Wyraz <date>pojawia</date> się w dwóch
                             <orgName>wariantach</orgName>: ἄθυτος i <ref
                             corresp="http://stephanus.tlg.uci.edu/lsj/#eid=2199">ἄθυστος</ref>, z
@@ -164,21 +163,15 @@
                         ἄθυτα. Wbrew najoczywistszej interpretacji, ewidentnie nie chodzi tu o mięso
                         niepochodzące z ofiar, lecz o coś co złożono w ofierze wyjątkowej, albo
                         nieskutecznie. Możliwe także, że ἄθυτα to resztki lub wciąż płonące kawałki
-                        części boskiej.</ab>
-                </div>
+                        części boskiej.</p>
             </div>
             <div type="bibliography">
                 <p>Barret, W.S., ed., comm. (1964): Euripides. Hippolytus. Oxford.</p>
-                <p>Berthiaume, G. (1982): Les rôles du
-                    mágeiros: Etude sur la boucherie, la cuisine et le sacrifice dans la Grèce
-                    ancienne. Leiden. </p>
-                <p>Halleran, M.R., comm. (1995): Euripides. Hippolytus.
-                    Warminster. </p>
-                <p>Parker, R (2010): Eating unsacrificed meat. [w]: P. Carlier, Ch.
-                    Lerouge-Cohen, Paysage et religion en Grèce antique. Mélanges offerts á
-                    Madeleine Jost. Pari: 137-145. </p>
-                <p>Willetts, R.F. (1962): Cretan Cults and
-                    Festivals. London.</p>
+                <p>Berthiaume, G. (1982): Les rôles du mágeiros: Etude sur la boucherie, la cuisine et le sacrifice dans la Grèce ancienne. Leiden. </p>
+                <p>Halleran, M.R., comm. (1995): Euripides. Hippolytus. Warminster. </p>
+                <p><ref corresp="../texts/bibliography.html#parker2010">Parker, R (2010)</ref>: Eating unsacrificed meat. [w]: P. Carlier, Ch.
+                    Lerouge-Cohen, Paysage et religion en Grèce antique. Mélanges offerts á Madeleine Jost. Pari: 137-145. </p>
+                <p>Willetts, R.F. (1962): Cretan Cults and Festivals. London.</p>
             </div>
         </body>
     </text>

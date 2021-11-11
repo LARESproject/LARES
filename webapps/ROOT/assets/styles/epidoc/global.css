@@ -36,8 +36,9 @@
 }
 
 .textpartnumber {
-    padding-right: 0.2em;
-    position: absolute;
+    display: none;
+    /*padding-right: 0.2em;
+    position: absolute;*/
     }
     
 .linenumber {

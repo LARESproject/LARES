@@ -30,6 +30,10 @@
     <p style="margin-left:2em; margin-top:-2em"><xsl:apply-templates/></p>
   </xsl:template>
   
+  <xsl:template match="tei:listBibl//tei:bibl">
+    <p id="{@xml:id}"><xsl:apply-templates/></p>
+  </xsl:template>
+  
   <!--<xsl:template match="tei:div[@n][ancestor::tei:TEI[@xml:id]]">
     <div id="{concat(ancestor::tei:TEI/@xml:id,'-',@n)}"><xsl:apply-templates/></div>
   </xsl:template>-->

@@ -288,16 +288,8 @@
     </xsl:choose>
   </xsl:template>
 
-  <xsl:template match="t:foreign[not(ancestor::t:div[@type = 'edition'])]">
-    <i>
-      <xsl:apply-templates/>
-    </i>
-  </xsl:template>
-
-  <xsl:template match="t:title[not(parent::t:titleStmt)][not(ancestor::t:div[@type = 'edition'])]">
-    <i>
-      <xsl:apply-templates/>
-    </i>
+  <xsl:template match="t:foreign|t:title[not(parent::t:titleStmt)]">
+    <i><xsl:apply-templates/></i>
   </xsl:template>
 
   <xsl:template match="t:persName[ancestor::t:div[@type = 'edition']]">

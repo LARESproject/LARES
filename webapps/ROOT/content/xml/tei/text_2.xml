@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -27,23 +27,19 @@
     </teiHeader>
     <text>
         <body>
-            <div type="textpart">
-                <div>
-                    <div>
-                        <head>Text</head>
-                        <p>αὐτίκα πέρυσιν ἱερὰ ἄθυτα τριῶν ταλάντων γεγένηται τῶν ἐν ταῖς κύρβεσι γεγραμμένων. καὶ οὐχ οἷόν τε εἰπεῖν ὡς οὐχ ἱκανὰ ἦν ἃ1 προσῆλθε τῇ πόλει: εἰ γὰρ οὗτος μὴ πλείω ἀνέγραψεν ἓξ ταλάντοις, εἴς τε τὰς θυσίας τὰς πατρίους ἂν ἐξήρκεσε καὶ τρία τάλαντα ἂν περιεγένετο τῇ πόλει. περὶ δὲ τῶν εἰρημένων καὶ μάρτυρας ὑμῖν παρέξομαι. “Μάρτυρες”.</p>
-                    </div>
-                    
-                    <div>
-                        <head>Translation</head>
-                        <p>For example, last year some sacrifices, costing three talents, were in abeyance, though they were among those inscribed on the tablets. And it cannot be said that the revenues of the State were insufficient; for if this man had not entered sacrifices to an excess amounting to six talents, there would have been enough for our ancestral offerings, and moreover the State would have had a surplus of three talents. In support of these statements I will add the evidence of witnesses.“Witnesses”.</p>
-                    </div>
-                    
-                    <div>
-                        <head>Commentary</head>
-                        <p>...</p>
-                    </div>
-                </div>
+            <div type="edition">
+                <head>Text</head>
+                <p>αὐτίκα πέρυσιν ἱερὰ ἄθυτα τριῶν ταλάντων γεγένηται τῶν ἐν ταῖς κύρβεσι γεγραμμένων. καὶ οὐχ οἷόν τε εἰπεῖν ὡς οὐχ ἱκανὰ ἦν ἃ1 προσῆλθε τῇ πόλει: εἰ γὰρ οὗτος μὴ πλείω ἀνέγραψεν ἓξ ταλάντοις, εἴς τε τὰς θυσίας τὰς πατρίους ἂν ἐξήρκεσε καὶ τρία τάλαντα ἂν περιεγένετο τῇ πόλει. περὶ δὲ τῶν εἰρημένων καὶ μάρτυρας ὑμῖν παρέξομαι. “Μάρτυρες”.</p>
+            </div>
+            
+            <div type="translation">
+                <head>Translation</head>
+                <p>For example, last year some sacrifices, costing three talents, were in abeyance, though they were among those inscribed on the tablets. And it cannot be said that the revenues of the State were insufficient; for if this man had not entered sacrifices to an excess amounting to six talents, there would have been enough for our ancestral offerings, and moreover the State would have had a surplus of three talents. In support of these statements I will add the evidence of witnesses.“Witnesses”.</p>
+            </div>
+            
+            <div type="commentary">
+                <head>Commentary</head>
+                <p>...</p>
             </div>
         </body>
     </text>

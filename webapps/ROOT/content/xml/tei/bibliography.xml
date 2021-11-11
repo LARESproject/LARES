@@ -20,17 +20,15 @@
     </teiHeader>
     <text>
         <body>
-            <p>Barret, W.S., ed., comm. (1964): Euripides. Hippolytus. Oxford.</p>
-            <p>Berthiaume, G. (1982): Les rôles du
-                mágeiros: Etude sur la boucherie, la cuisine et le sacrifice dans la Grèce
-                ancienne. Leiden. </p>
-            <p>Halleran, M.R., comm. (1995): Euripides. Hippolytus.
-                Warminster. </p>
-            <p>Parker, R (2010): Eating unsacrificed meat. [w]: P. Carlier, Ch.
-                Lerouge-Cohen, Paysage et religion en Grèce antique. Mélanges offerts á
-                Madeleine Jost. Pari: 137-145. </p>
-            <p>Willetts, R.F. (1962): Cretan Cults and
-                Festivals. London.</p>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="barret1964">Barret, W.S., ed., comm. (1964): Euripides. Hippolytus. Oxford.</bibl>
+                    <bibl xml:id="berthiaume1982">Berthiaume, G. (1982): Les rôles du mágeiros: Etude sur la boucherie, la cuisine et le sacrifice dans la Grèce ancienne. Leiden. </bibl>
+                    <bibl xml:id="halleran1995">Halleran, M.R., comm. (1995): Euripides. Hippolytus. Warminster. </bibl>
+                    <bibl xml:id="parker2010">Parker, R (2010): Eating unsacrificed meat. [w]: P. Carlier, Ch. Lerouge-Cohen, Paysage et religion en Grèce antique. Mélanges offerts á Madeleine Jost. Pari: 137-145. </bibl>
+                    <bibl xml:id="willetts1962">Willetts, R.F. (1962): Cretan Cults and Festivals. London.</bibl>
+                </listBibl>
+            </div>
         </body>
     </text>
 </TEI>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -27,7 +27,7 @@
     </teiHeader>
     <text>
         <body>
-            <div type="textpart">
+            <div type="edition">
                 <div type="textpart" n="intro"> 
                     <p>Una commedia probabilmente messa in scena a Leneo nel 411 a.C. Il suo contenuto si riferisce alla difficilissima situazione militare, economica e demografica di Atene dopo la sconfitta della spedizione siciliana. Quando c'erano già molti indizi che la guerra del Peloponneso, che durava da vent'anni, non poteva che concludersi con una sconfitta, Aristofane propose una visione comica di fare la pace non come risultato della rinuncia di una delle parti, ma grazie alla mediazione delle donne.</p>
                    <p> Il nome dell'eroina eponima significa "esercito in dissoluzione" (da cui i concetti di polonizzazione di S. Srebrny). Forse allude al nome della sacerdotessa di Atena Polias che ricopriva la sua carica in quel periodo, Lisymache (Lewis 1955), il che significherebbe che il protagonista è una persona particolarmente legata al rito del sacrificio animale. </p>
