@@ -12,5 +12,3 @@ webapps/ROOT/WEB-INF/logs/cocoon.log
 webapps/openrdf-sesame/app_dir/OpenRDF\ Sesame/logs
 *.DS_Store
 .DS_Store
-webapps/ROOT/.DS_Store
-webapps/ROOT/.DS_Store

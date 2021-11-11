@@ -28,35 +28,23 @@
     <text>
         <body>
             <div type="edition">
-                    <p>ἄφετος afetos ἄφετος, adj. swobodnie wypasany (o trzodzie); dosłownie:
-                        puszczony wolno. Etymologia i morfologia Przymiotnik odczasownikowy
-                        utworzony od czasownika ἀφίημι z tematem na stopniu zerowym (por. Chantraine
-                        1961: 283). Wystąpienia Wprost do zwierząt ofiarnych czasownik odnosi się w
-                        Kritiaszu Platona, w opisie stada byków, które pasły się w miejscu świętym
-                        Posejdona na Atlantydzie: ἀφέτων ὄντων ταύρων ἐν τῷ . . ἱερῷ, Pl. Criti.119d
-                        (zob. komentarz ad loc.). Do obrazu bydła wypasanego na należących do
-                        sanktuarium łąkach nawiązuje też zapewne Eurypides, kiedy określa tym
-                        przymiotnikiem porzuconego w Delfach młodego Iona (ὃ δ᾽ ἐν θεοῦ δόμοισιν
-                        ἄφετος, ὡς λάθοι, παιδεύεται, E. Ion 821-822). Przymiotnik ἄ. mógł być
-                        odniesiony również do miejsca swobodnego wypasu - νομὴ ἄφετος -
-                        przeciwstawionego żłobowi, φάτνη, por. Plut. Lys. 20. W warunkach
-                        geograficznych Grecji właściwej możliwości swobodnego wypasu bydła były
-                        mocno ograniczone. Jednocześnie rozwój dużych sanktuariów, w których
-                        składano publiczne ofiary dla rzesz ludzi, stwarzał zapotrzebowanie na tę
-                        kategorię zwierząt ofiarnych. Można w związku z tym zaobserwować zjawisko
-                        polegające na wyłączaniu obszarów położonych w pobliżu sanktuarium spod
-                        uprawy w celu wypasania na nich bydła. Taki charakter miało między innymi
-                        terytorium między Delfami a Zatoką Koryncką, przekształcone w świętą łąkę w
-                        wyniku Pierwszej Wojny Świętej (IG II2 1126) oraz łąki położone na zachód od
-                        Eleuzis (IG II2 204, Androtion, FGrH III B 324 F 30). Na temat hodowli bydła
-                        na świętych łakach zob. McInerney 2010: 146-172. Bibliografia Chantraine,
-                        Pierre, 1961, Morphologie Historique Du Grec, Paris. McInerney, Jeremy,
-                        2010, The Cattle of the Sun. Cows and Culture in the World of the Ancient
-                        Greeks, Princeton, NJ. Napisał: Przemysław Biernat Data ostatniej
-                        aktualizacji: 08.05.2018.</p>
+                <div type="textpart">
+                    <p>ἄφετος afetos, adj. liberamente pascolato (su greggi); letteralmente: lasciato libero.</p>
+                    </div>
+                <div type="textpart" n="Etimologia_e_morfologia">
+                    <head>Etimologia e morfologia</head>
+                    <p>Verbo aggettivo formato dal verbo ἀφίημι con il soggetto nel grado zero (cfr. Chantraine 1961: 283).</p>
+                </div>
+                <div type="textpart" n="Occorrenze">
+                    <head>Occorrenze</head>
+                    <p>Il verbo si riferisce direttamente agli animali sacrificali nelle Kritias di Platone, nella descrizione della mandria di tori che pascolavano nel luogo sacro di Poseidone su Atlantide: ἀφέτων ὄντων ταύρων ἐν τῷ . . ἱερῷ, Pl. Criti.119d (vedi commento ad loc.). L'immagine del bestiame al pascolo nei prati appartenenti al santuario è probabilmente allusa anche da Euripide quando si riferisce al giovane Ione abbandonato a Delfi con questo aggettivo (ὃ δ᾽ ἐν θεοῦ δόμοισιν ἄφετος, ὡς λάθοι, παιδεύεται, E. Ion 821-822).</p>
+                    <p>L'aggettivo ἄ. potrebbe anche essersi riferito a un luogo di libero pascolo - νομὴ ἄφετος - opposto a una mangiatoia, φάτνη, cfr. Plut. Lys. 20.</p>
+                    <p>Nelle condizioni geografiche della Grecia vera e propria, le possibilità di pascolo libero del bestiame erano fortemente limitate. Allo stesso tempo, lo sviluppo di grandi santuari dove si offrivano sacrifici pubblici a moltitudini di persone creò una domanda per questa categoria di animali sacrificali. Di conseguenza, c'è stato un fenomeno per cui le aree vicine al santuario sono state messe da parte per il pascolo del bestiame. Questo era il caso, per esempio, del territorio tra Delfi e il golfo di Corinto, convertito in prato santo in seguito alla prima guerra santa (IG II2 1126), e dei prati a ovest di Eleusi (IG II2 204, Androtion, FGrH III B 324 F 30). Sull'allevamento di bestiame nei prati sacri si veda McInerney 2010: 146-172.</p>
+                </div>
             </div>
             <div type="bibliography">
-                <p/>
+                <p>Chantraine, Pierre, 1961, Morphologie Historique Du Grec, Paris.</p>
+                <p>McInerney, Jeremy, 2010, The Cattle of the Sun. Cows and Culture in the World of the Ancient Greeks, Princeton, NJ.</p>
             </div>
         </body>
     </text>

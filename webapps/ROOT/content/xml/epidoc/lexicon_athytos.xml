@@ -28,142 +28,164 @@
     <text>
         <body>
             <div type="edition">
-                    <p>ἄθυτος athytos <persName>ἄθυτος</persName>, adj. nieofiarny
-                            <geogName>Morfologia</geogName> Wyraz <date>pojawia</date> się w dwóch
-                            <orgName>wariantach</orgName>: ἄθυτος i <ref
-                            corresp="http://stephanus.tlg.uci.edu/lsj/#eid=2199">ἄθυστος</ref>, z
-                        których drugi występuje wyłącznie w wersie <rs>Semonidesa</rs> (7.56), <ref
-                            corresp="lexicon_religio.html">przekazanym</ref> przez
-                            <geogName>manuskrypty</geogName>
-                        <foreign>Stobajosa</foreign>, skądinąd gdzie indziej (<ref
+                <div type="textpart">
+                    <p>ἄθυτος <persName>athytos</persName>, agg. non sacrificale</p>
+                </div>
+                <div type="textpart" n="Morfologia">
+                    <head>Morfologia</head>
+                    <p>La parola appare in due <placeName>varianti</placeName>, ἄθυτος e <ref
+                            corresp="http://stephanus.tlg.uci.edu/lsj/#eid=2199">ἄθυστος</ref>,
+                        l'ultima delle quali ricorre solo nel <geogName>verso</geogName> di Simonide
+                            (<ref corresp="../texts/com_1_ranae.html#Rane_847–848">7.56</ref>),
+                        trasmesso dai manoscritti di Stobaios, altrimenti attestato altrove (<ref
                             corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2013.01.0003%3Abook%3D5%3Achapter%3D7"
-                            >Ath. 5.7</ref> = <ref corresp="../texts/text_1.html">179d</ref>) <date>poświadczonym</date> z lekcją ἄθυτος.
-                        <ref corresp="../texts/com_1_ranae.html#Rane_847–848">Możliwe</ref> zatem, że kontrowersja jest wynikiem błędu lub reinterpretacji,
-                        mającej na celu wyjaśnienie długiego <rs>iloczasu</rs> przedkońcowej sylaby
-                            <rs>poprzez</rs> zamknięcie jej spółgłoską (jest to
-                            <foreign>zresztą</foreign> niepotrzebne, ponieważ sylaba ta, choć
-                        otwarta, wyraźnie może być długa jak w Eur. H. 147). <placeName ref="Athens">Oba</placeName> warianty są
-                        ewidentnie synonimiczne i wykazują identyczną strukturę: alpha privativum +
-                        pierwiastek (-thu- lub -thus-) + morfem derywujący adiectivum verbale +
-                        końcówka. <geogName>Struktura</geogName> taka sugeruje znaczenie:
-                        nie-spalony-w-ofierze/ nie-ofiarny/ nie-ofiarowany/ nie-do-ofiarowania.
-                            <persName>Poświadczenia</persName> Związki syntaktyczne, w jakie wyraz
-                        wchodzi w różnych swoich wystąpieniach, a także konteksty jego pojawiania
-                        się świadczą o tym, że <placeName>albo</placeName> miał on szereg rozmaitych
-                        wyspecjalizowanych znaczeń i zastosowań, albo też
-                            <orgName>rozumiany</orgName> był w sposób generyczny, jako
-                        nieprecyzyjne: niezgodny z normami rytualnymi związanymi z ofiarą. Bardziej
-                            <placeName>prawdopodobny</placeName> wydaje się drugi człon alternatywy.
-                        1) Kilkakrotnie wyraz poświadczony jest w kontekście, który nie pozwala
-                        wątpić, że chodzi o rytuał, który z jakiegoś powodu w ogóle nie doszedł do
-                        skutku: X. HG. 3.2.22: ἄθυτος ἀπῆλθεν (o <persName>Agisie</persName>,
-                        któremu Eolowie nie pozwolili złożyć ofiary) – odszedł nie złożywszy ofiary.
-                        Tutaj przymiotnik odnosi się do rzeczownika określającego ofiarnika. Lys.
-                        25.6.3: ἄθυτα τὰ πάτρια ἱερὰ γίγνεσθαι – zgodne z tradycją obrzędy ofiarne
-                        nie zostaną spełnione. Lys. 30.20.1: ἱερὰ ἄθυτα τριῶν ταλάντων γεγένηται – ofiary 
-                        wartości trzech talentów nie zostały złożone. W tym i poprzednim przypadku
-                            <orgName>przymiotnik</orgName> określa rzeczownik nazywający rytuał.
-                        D.H. 8.25: γενέσθαι καὶ ἀθύτους – pozostaną bez ofiar. Tu przymiotnik odnosi
-                        się do bogów, którzy nie otrzymają należnej czci. 2) Pochodną znaczenia 1
-                        jest metonimiczne użycie wyrazu przez Platona: który nie został uświęcony
-                        rytuałem ofiarnym w czasie zaślubin: Pl. Leg. 841D: ἄθυτα δὲ παλλακῶν
-                        σπέρματα καὶ νόθα μὴ σπείρειν – bez odbycia rytuału ofiarnego [w czasie
-                        zaślubin] siać nasienie wśród dziewcząt i płodzić bękarty. 3) Również
-                        ewidentne, choć rzadkie, jest przeciwstawienie omawianego wyrazu
-                        przymiotnikowi → θύσιμος, co wskazuje na znaczenie nie nadający się na
-                        ofiarę: Plu. de Isid. 363B: κἂν μίαν ἔχῃ τρίχα μέλαιναν ἢ λευκήν, ἄθυτον
-                        ἡγεῖσθαι· θύσιμον γὰρ οὐ φίλον εἶναι θεοῖς, ἀλλὰ τοὐναντίον (o ofierze z
-                        rudego wołu w Egipcie) – a jeśli ma choćby i jeden włosek biały lub czarny,
-                        sądzą, że nie nadaje się na ofiarę. Nie to bowiem uważają za odpowiednie do
-                        złożenia w ofierze, co miłe bogom, lecz przeciwnie. 4) W przeciwstawieniu do
-                        καλὰ τὰ ἱερά (dobre znaki, wynikające z udanych ofiar) – [rytuał], który się
-                        nie powiódł: Aesch. (3.131; 152): (zarzut przeciwko Demostenesowi, który
-                        wyprawił wojsko do walki) ἀθύτων καὶ ἀκαλλιερήτων ὄντων τῶν ἱερῶν – choć
-                        ofiary się nie udały, a znaki były złe. 5) W literaturze żydowskiej wyraz
-                        zyskuje znaczenie: [rytuał] dokonany wbrew przepisom religijnym: Ph. V.M.
-                        2.107.2: ἄθυτοι θυσίαι – ofiary sprzeczne z przepisami. LXX Le. 19.7: ἐὰν δὲ
-                        βρώσει βρωθῇ τῇ ἡμέρᾳ τῇ τρίτῃ, ἄθυτόν ἐστιν – jeśli ktoś zje pokarm
-                        [pochodzący z ofiary] na trzeci dzień, będzie on [pokarm] nieczysty (hebr.
-                        פִּגּ֥וּל; lat. vulg. impurum). Problematyczny może być przypadek użycia
-                        wyrazu przez Eurypidesa (H. 147):†σὺ δ'† ἀμφὶ τὰν πολύθηρον <persName type="divine">Δίκτυνναν</persName>
-                        ἀμπλακίαις ἀνίερος ἀθύτων πελανῶν τρύχηι; Tradycja filologiczna nakazuje
-                        przełożyć ten skomplikowany pod względem gramatycznym passus jako: a może ty
-                        się zatracasz z powodu przewinienia względem zwierzęcej Diktynny, nie
-                        złożywszy jej żertwy ze zboża,w ofierze jej nie składając. Komentatorzy
-                        (Barret 1964: ad loc.; Halleran 1995: ad loc.) są zgodni, że struktura
-                        ἀνίερος ἀθύτων πελανῶν jest pleonastyczna. Innymi słowy ἀθύτων (w znaczeniu
-                        1) jako przydawka do πελανῶν nie wnosi tu nic, czego nie zawierałby wyraz
-                        ἀνίερος. Nie jest to zjawisko w poezji niezwykłe, dlatego prezentowana
-                        poniżej alternatywna interpretacja, przywracająca samodzielne znaczenie
-                        przymiotnikowi ἄθυτος w tym kontekście ma charakter wyłącznie hipotetyczny.
-                        Cytowane zdanie stanowi część dłuższego passusu, w którym chór docieka
-                        przyczyn cierpienia Fedry. Zgodnie z proponowaną diagnozą, wynika ono z
-                        zaniedbania rytuału ku czci Diktynny marginalnej z punktu widzenia
-                        Ateńczyków, choć bliskiej bohaterce bogini (por. Willetts 1962: 179-93.
-                        Czytając to przestarzałe już nieco opracowanie, należy zachować sporą
-                        rezerwę wobec śmiałych koncepcji autora). Obie przecież pochodzą z Krety.
-                        Szczegóły obrzędu, o którym tu mowa, nie są znane i być może Eurypides
-                        odniósł się tu wyłącznie do stereotypowego ujęcia drugorzędnego kultu.
-                        Charakterystyczne, że rytuał miał się sprowadzać do ofiarowania → πελανός, a
-                        więc zbożowego pokarmu, bez porównania mniej prestiżowego niż jakakolwiek
-                        ofiara krwawa. Niewykluczone, że obrazu samego obrzędu dopełnia przymiotnik,
-                        który przynajmniej teoretycznie może znaczyć nie przeznaczony do spalenia. W
-                        ramach takiej interpretacji zaniedbanie Fedry polegałoby na tym, że nie
-                        wyłożyła dla bogini zwierząt mącznej papki czy kaszy. W takim ujęciu ostatni
-                        człon zdania należałoby przetłumaczyć: nie złożywszy Diktynnie żertwy ze
-                        zboża w ofierze nie-palonej. Za takim rozumieniem passusu przemawia glossa u
-                        Hezychiusza (znaczenie 5): ἀπύρου· ἀθύτου. Σοφοκλῆς Μυσοῖς – bezogniowego =
-                        ἀθύτου. Sofokles w Myzyjczykach (fr. 384). Niestety, nie znamy kontekstu
-                        użycia wyrazu przez Sofoklesa. Być może w podobnym znaczeniu wyraz pojawia
-                        się w swoim pierwszym poświadczeniu, u Semonidesa w jego Satyrze na kobiety
-                        (fr. 7.56): ἄθυτα δ' ἱρὰ πολλάκις κατεσθίει – często pożera mięso nie
-                        podzieliwszy się nim z bogami. Kontekst, w jakim cytuje go Atenajos (Ath.
-                        5.7 = 179d) pozwala stwierdzić, że w jego opinii ἄθυτος w tym przypadku
-                        odnosi się do pokarmu, którym nie podzielono się z bogami przed
-                        przystąpieniem do jedzenia. Nie wiąże się zatem bezpośrednio z rytuałem
-                        ofiary typu thysia (związanej nierozłącznie zabiciem zwierzęcia). Nie można
-                        jednak wykluczyć, że interpretacja erudyty jest sprzeczna z intencjami
-                        samego autora. W takim przypadku dopuszczalne wydaje się nadanie
-                        przymiotnikowi ἄθυτος znaczenia 2 (często pożera mięso z nieudanych ofiar)
-                        lub 5 (często pożera pokarmy wyłożone dla bogów). Istnieje wreszcie
-                        możliwość, że wyraz określa tu resztki części zwierzęcia poświęcone bogom,
-                        które nie dopaliły się, spadły z ołtarza lub zostały z niego porwane
-                        (znaczenie 6). W kontekst passusu z Semonidesa prawdopodobnie wpisują się
-                        trzy przypadki inskrypcyjnego poświadczenia omawianego wyrazu z Azji
-                        Mniejszej okresu cesarstwa: LSAM 84.11 – tekst określający, warunki
-                        dopuszczenia do pewnej formy misteryjnego kultu Dionizosa Bromiosa w Smyrnie
-                        (II w.n.e.).: μεθ' ἀθύτοις θυσίαις ἱερῶν ἐπὶ χῖρας ἰάλ[λειν] (dosł. ani nie
-                        kłaść rąk na nieofiarnych ofiarach świętości). Sokołowski (ad loc.) chyba
-                        słusznie przyjmuje, że zwrot χῖρας ἰάλλειν musi oznaczać jedzenie (taki sens
-                        ta formuła ma u Homera, np. Od.1.149). Właściwie wszystkie znaczenia z
-                        wyjątkiem 1 i 2 pasują do tego kontekstu. Petzl 1994: 123.5 (Ortaköy) –
-                        ostrzeżenie przed jakimś nieszczęściem, które może spaść na tych, którzy
-                        uczynią to, co autor napisu: ἱερὸν ἄθυτον αἰγοτόμιον ἔσθειν (zjeść kawałek
-                        mięsa kozy z nieofiarnej ofiary). Petzl 1994: 1 (Akçaalvu I-II w.n.e.):
-                        niejaki Meidon wyprawił biesiadę, w czasie której słudzy jego lub świątynni
-                        (διάκονοι) zjedli ἄθυτα. To sprawiło, że Meidon przez trzy miesiące miał
-                        jakiegoś rodzaju trudności z mówieniem. W końcu za sprawą wieszczego snu
-                        postanowił przełamać kryzys wystawiając stelę z napisem. Na steli z
-                        inskrypcją znajduje się przedstawienie orła z rozpostartymi do połowy
-                        skrzydłami siedzącego na ołtarzu typu bomos. W jego stronę sięga ludzka
-                        ręka, podając mu coś do dzioba, lub odbierając to. Ponieważ stela pochodzi z
-                        przybytku Zeusa Trososa, gatunek ptaka prawdopodobnie nie jest przypadkowy
-                        (atrybut boga). Pozostając w sferze przypuszczeń (nie zaproponowano dotąd
-                        lepszego, ani na dobrą sprawę, żadnego wyjaśnienia), można domniemywać, że
-                        scena przedstawia akt wykroczenia przeciw boskim przepisom, a zatem
-                        sięgnięcia przez człowieka po ἄθυτα. Wyraźnie była to część zwierzęcia
-                        ofiarnego, którą, metaforycznie rzecz ujmując, orzeł miał zanieść Zeusowi
-                        lub taka, która zakończeniu rytuału miała stać się – dosłownie – pożywieniem
-                        ptaków, czyli odpadkiem (por. wstęp do Ptaków Arystofanesa). Najprawdopodobniej
-                        zatem mamy tu do czynienia z wyrazem ἄθυτος w najsłabiej poświadczonym
-                        znaczeniu 6 (por. Berthiaume 1982: 90-1). Cztery ostatnie przypadki,
-                        jakkolwiek mogą zachodzić pomiędzy nimi nieuchwytne dla nas różnice, zdają
-                        się wpisywać we wspólny schemat (cf. Paker 2010: 142-3). Wyraźnie świadczą
-                        one o istnieniu tabu, zakazującego zjadania przedmiotów określanych jako
-                        ἄθυτα. Wbrew najoczywistszej interpretacji, ewidentnie nie chodzi tu o mięso
-                        niepochodzące z ofiar, lecz o coś co złożono w ofierze wyjątkowej, albo
-                        nieskutecznie. Możliwe także, że ἄθυτα to resztki lub wciąż płonące kawałki
-                        części boskiej.</p>
+                            >Ath. 5.7</ref> = <ref corresp="../texts/text_1.html">179d</ref>) con la
+                        lezione ἄθυτος. È possibile, quindi, che la <rs>controversia</rs> sia il
+                        risultato di un errore o di una <ref corresp="lexicon_religio.html"
+                            >reinterpretazione</ref> volta a spiegare il lungo prodotto della
+                            <persName>sillaba</persName> pre-finale chiudendola con una
+                            <date>consonante</date> (ciò è, peraltro, inutile, poiché la <placeName
+                            ref="Athens">sillaba</placeName>, pur essendo aperta, può chiaramente
+                        essere lunga come in <orgName>Eur. <title>H.</title> 147</orgName>).
+                        Entrambe le varianti sono chiaramente sinonimi e mostrano una struttura
+                        identica: <foreign>alfa privativum</foreign> + elemento (-thu- o -thus-) +
+                            <geogName>morfema</geogName> derivazionale adiectivum verbale + finale.
+                        Una tale struttura suggerisce il significato: non <rs>bruciata</rs> in
+                        offerta/non sacrificata/non offerta/non offerta.</p>
+                </div>
+                <div type="textpart" n="Attestazioni">
+                    <head>Attestazioni</head>
+                    <p>Le relazioni sintattiche in cui la parola entra nelle sue varie occorrenze,
+                        così come i contesti in cui appare, testimoniano che o aveva una gamma di
+                        vari significati e usi specializzati, o era intesa in modo generico, come
+                        vago: incompatibile con le norme rituali associate al sacrificio. La seconda
+                        parte dell'alternativa sembra più probabile.</p>
+                    <p>1) In diverse occasioni la parola è attestata in un contesto che non ci
+                        permette di dubitare che si riferisca a un rito che, per qualche motivo, non
+                        ha avuto luogo:</p>
+                    <p>X. HG. 3.2.22: ἄθυτος ἀπῆλθεν (a proposito di Agis, al quale gli Eoliani non
+                        permisero di fare un sacrificio) - se ne andò senza fare un sacrificio. Qui
+                        l'aggettivo si riferisce al sostantivo che denota il sacrificatore.</p>
+                    <p>Lys. 25.6.3: ἄθυτα τὰ πάτρια ἱερὰ γίγνεσθαι - secondo la tradizione i riti
+                        sacrificali non saranno compiuti.</p>
+                    <p>Lys. 30.20.1: ἱερὰ ἄθυτα τριῶν ταλάντων γεγένηται - non furono fatte offerte
+                        del valore di tre talenti. In questo e nel caso precedente l'aggettivo
+                        specifica il sostantivo che nomina il rito.</p>
+                    <p>D.H. 8.25: γενέσθαι καὶ ἀθύτους - rimanere senza offerte. Qui l'aggettivo si
+                        riferisce agli dei che non riceveranno il dovuto culto.</p>
+                    <p>2) Un derivato del significato 1 è l'uso metonimico di Platone: chi non è
+                        stato santificato dal rito sacrificale alle nozze:</p>
+                    <p>Pl. Leg. 841D: ἄθυτα δὲ παλλακῶν σπέρματα καὶ νόθα μὴ σπείρειν - senza
+                        eseguire il rito sacrificale [alle nozze] semina tra le ragazze e genera
+                        bastardi.</p>
+                    <p>3) Evidente, anche se raro, è l'accostamento della parola in questione con
+                        l'aggettivo → θύσιμος, che indica il significato inadatto al sacrificio:</p>
+                    <p>Plu. de Isid. 363B: κἂν μίαν ἔχῃ τρίχα μέλαιναν ἢ λευκήν, ἄθυτον ἡγεῖσθαι-
+                        θύσιμον γὰρ οὐ φίλον εἶνναι θεοῖς, ἀλλὰ τοὐναντίον (a proposito del
+                        sacrificio di un bue rosso in Egitto) - e se ha anche un solo pelo bianco o
+                        nero, lo ritengono inadatto al sacrificio. Perché non è ciò che essi
+                        considerano adatto al sacrificio ad essere gradito agli dei, ma il
+                        contrario.</p>
+                    <p>4) In contrasto con καλὰ τὰ ἱερά (buoni segni, risultanti da sacrifici
+                        riusciti) - [un rito] che ha fallito:</p>
+                    <p>Aesch. (3.131; 152): (un'accusa contro Demostene, che aveva mandato un
+                        esercito a combattere) ἀθύτων καὶ ἀκαλλιερήτων ὄντων τῶν ἱερῶν - sebbene i
+                        sacrifici fossero falliti e i segni fossero cattivi.</p>
+                    <p>5) Nella letteratura ebraica la parola acquista significato: [un rituale]
+                        eseguito in contrasto con le norme religiose:</p>
+                    <p>Ph. V.M. 2.107.2: ἄθυτοι θυσίαι - sacrifici contrari ai regolamenti.</p>
+                    <p>LXX Le. 19.7: ἐὰν δὲ βρώσει βρωθῇ τῇ ἡμέρᾳ τῇ τρίτῃ, ἄθυτόν ἐστιν - se
+                        qualcuno mangia il cibo [del sacrificio] il terzo giorno, esso [il cibo]
+                        sarà impuro (ebraico: פִּגּ֥וּל; lat. vulg. impurum).</p>
+                    <p>Il caso dell'uso di Euripide della parola può essere problematico (H.
+                        147):†σὺ δ'† ἀμφὶ τὰν πολύθηρον <persName type="divine">Δίκτυνναν</persName>
+                        ἀμπλακίαις ἀνίερος ἀθύτων πελανῶν τρύχηι; la tradizione filologica vuole che
+                        questo passus grammaticalmente complesso sia tradotto come: e tu potresti
+                        perdere te stesso a causa della tua trasgressione contro l'animale Diktinna,
+                        non avendole offerto un pasto di grano, in sacrificio a lei. I commentatori
+                        (Barret 1964: ad loc.; Halleran 1995: ad loc.) concordano che la struttura
+                        di ἀνίερος ἀθύτων πελανῶν è pleonastica. In altre parole, ἀθύτων (nel senso
+                        1) come appendice di πελανῶν non apporta qui nulla che la parola ἀνίερος non
+                        faccia. Questo non è un fenomeno insolito nella poesia, quindi
+                        l'interpretazione alternativa presentata di seguito, restituendo un
+                        significato indipendente all'aggettivo ἄθυτος in questo contesto, è
+                        puramente ipotetica.</p>
+                    <p>La frase citata fa parte di un passus più lungo in cui il coro indaga sulle
+                        cause della sofferenza di Fedra. Secondo la diagnosi proposta, è dovuto alla
+                        trascuratezza del rituale in onore di Diktynna, una dea marginale dal punto
+                        di vista ateniese, anche se vicina all'eroina (cfr. Willetts 1962: 179-93.
+                        Leggendo questo studio un po' datato, si dovrebbe mantenere una notevole
+                        riserva nei confronti delle idee audaci dell'autore). Entrambi, dopo tutto,
+                        vengono da Creta. I dettagli del rituale in questione non sono noti, e forse
+                        Euripide si riferiva qui solo alla rappresentazione stereotipata di un culto
+                        secondario. Caratteristicamente, il rituale doveva essere ridotto
+                        all'offerta di → πελανός, cioè cibo di grano, incomparabilmente meno
+                        prestigioso di qualsiasi sacrificio di sangue. È possibile che l'immagine
+                        del rito stesso sia completata dall'aggettivo che, almeno teoricamente,
+                        potrebbe significare non destinato ad essere bruciato. Secondo tale
+                        interpretazione, la negligenza di Fedra consisterebbe nel fatto che non ha
+                        preparato un pasto o una polenta per la dea degli animali. In tale
+                        interpretazione, l'ultimo segmento della frase dovrebbe essere tradotto: non
+                        avendo offerto un'offerta di grano a Dictyne come sacrificio non bruciato.
+                        Questa comprensione del passus è supportata dalla glossa di Esichio
+                        (significato 5): ἀπύρου- ἀθύτου. Σοφοκλῆς Μυσοῖς - senza fuoco = ἀθύτου.
+                        Sofocle ne I Mistificatori (fr. 384). Purtroppo non conosciamo il contesto
+                        in cui Sofocle usa questa parola.</p>
+                    <p>Forse in un senso simile la parola appare nella sua prima attestazione, in
+                        Semonide nella sua Satira sulle donne (fr. 7.56): ἄθυτα δ' ἱρὰ πολλάκις
+                        κατεσθίει - spesso divora la carne senza condividerla con gli dei. Il
+                        contesto in cui Ateneo lo cita (Ath. 5.7 = 179d) ci permette di concludere
+                        che a suo parere ἄθυτος in questo caso si riferisce al cibo non condiviso
+                        con gli dei prima di mangiare. Non è quindi direttamente legato al rituale
+                        di un sacrificio di tipo thysia (associato inseparabilmente all'uccisione di
+                        un animale). Tuttavia, non si può escludere che l'interpretazione
+                        dell'erudito sia contraria alle intenzioni dell'autore stesso. In tal caso,
+                        sembra accettabile dare all'aggettivo ἄθυτος il significato di 2 (spesso
+                        divora la carne dei sacrifici falliti) o 5 (spesso divora il cibo preparato
+                        per gli dei). Infine, c'è la possibilità che la parola qui denoti i resti di
+                        parti di animali sacrificati agli dei che non sono riusciti a bruciare, sono
+                        caduti dall'altare o sono stati strappati da esso (significato 6).</p>
+                    <p>Tre casi di attestazione epigrafica della parola in questione dall'Asia
+                        Minore del periodo imperiale si inseriscono probabilmente nel contesto del
+                        passus di Semonide:</p>
+                    <p> 84.11 - un testo che specifica le condizioni di ammissione a una certa forma
+                        di culto misterioso di Dioniso Bromios a Smirne (II secolo d.C.): μεθ'
+                        ἀθύτοις θυσίαις ἱερῶν ἐπὶ χῖρας ἰάλ[λειν] (letteralmente, né imporre le mani
+                        sulle offerte non sacrificali di santità). Sokolowski (ad loc.) assume
+                        probabilmente a ragione che la frase χῖρας ἰάλλειν debba significare cibo
+                        (questo è il senso che questa formula ha in Omero, ad esempio Od.1.149). In
+                        realtà tutti i significati tranne 1 e 2 si adattano a questo contesto.</p>
+                    <p> 1994: 123.5 (Ortaköy) - un avvertimento di qualche disgrazia che può cadere
+                        su coloro che fanno ciò che fa l'autore dell'iscrizione: ἱερὸν ἄθυτον
+                        αἰγοτόμιον ἔσθειν (mangiare un pezzo di carne di capra di un sacrificio non
+                        sacrificato).</p>
+                    <p> 1994: 1 (Akçaalvu 1°-2° secolo d.C.): un certo Meidon teneva una festa in
+                        cui i suoi o i servi del tempio (διάκονοι) mangiavano ἄθυτα. Questo causò a
+                        Meidon una certa difficoltà a parlare per tre mesi. Alla fine, grazie al
+                        sogno di un indovino, decise di rompere la crisi mettendo una stele con
+                        un'iscrizione. La stele iscritta presenta una rappresentazione di un'aquila
+                        con le ali spiegate a metà, seduta su un altare di tipo bomos. Una mano
+                        umana si allunga verso di lui, dandogli qualcosa nel becco o portandoglielo
+                        via. Poiché la stele proviene dal tabernacolo di Zeus Trosos, la specie
+                        dell'uccello non è probabilmente casuale (un attributo del dio). Rimanendo
+                        nel regno delle congetture (non è stata ancora proposta una spiegazione
+                        migliore, o comunque una qualsiasi spiegazione), si può supporre che la
+                        scena raffiguri un atto di trasgressione contro le regole divine, e quindi
+                        dell'uomo che raggiunge l'ἄθυτα. Era chiaramente una parte dell'animale
+                        sacrificale che, metaforicamente parlando, l'aquila doveva portare a Zeus, o
+                        che, alla fine del rito, doveva diventare - letteralmente - cibo per
+                        uccelli, cioè rifiuto (cfr. l'introduzione agli Uccelli di Aristofane).
+                        Molto probabilmente, quindi, abbiamo a che fare qui con la parola ἄθυτος nel
+                        senso meno attestato 6 (cfr. Berthiaume 1982: 90-1).</p>
+                    <p>Gli ultimi quattro casi, anche se per noi possono esserci differenze elusive
+                        tra di loro, sembrano rientrare in uno schema comune (cfr. Packer 2010:
+                        142-3). Essi testimoniano chiaramente l'esistenza di un tabù che proibisce
+                        di mangiare oggetti descritti come ἄθυτα. Contrariamente all'interpretazione
+                        più ovvia, chiaramente non si tratta di carne non derivata da sacrifici, ma
+                        di qualcosa che è stato sacrificato in modo unico o inefficace. È anche
+                        possibile che ἄθυτα sia un residuo o un pezzo ancora bruciato della parte
+                        divina.</p>
+                </div>
             </div>
             <div type="bibliography">
                 <p>Barret, W.S., ed., comm. (1964): Euripides. Hippolytus. Oxford.</p>
