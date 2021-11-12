@@ -317,7 +317,16 @@
   <xsl:template match="t:date[ancestor::t:div[@type = 'edition']]">
     <span class="date"><xsl:apply-templates/></span>
   </xsl:template>
-
-
+  
+  <xsl:template match="t:quote">
+    <p class="quotation"><xsl:apply-templates/></p>
+  </xsl:template>
+  
+  <xsl:template match="t:quote//t:lb[1]">
+    <xsl:choose>
+      <xsl:when test="not(preceding-sibling::node()) or not(normalize-space(string-join(preceding-sibling::text(), ''))!='')"></xsl:when>
+      <xsl:otherwise><br/></xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
 
 </xsl:stylesheet>

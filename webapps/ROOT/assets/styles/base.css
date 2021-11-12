@@ -58,6 +58,11 @@ body {
     margin-bottom: 1em;
 }
 
+.quotation {
+    margin-left:2em; 
+    margin-right: 2em;
+    margin-top: 2em;
+   }
 
 /* header */
 nav.top-bar, nav.top-bar ul.right li, nav.top-bar ul.left * {
