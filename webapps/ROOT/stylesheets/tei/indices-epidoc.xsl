@@ -41,11 +41,10 @@
       <xsl:text>-display-html</xsl:text>
     </xsl:variable>
     <li>
-      <a target="_blank" href="{kiln:url-for-match($match_id, ($language, $location_parts[2]), 0)}">
-        <span class="index-instance-file"><xsl:value-of select="substring-after($location_parts[2], 'doc')" /></span>
-        <xsl:if test="$location_parts[4]!=''">
-          <span class="index-instance-file-keys"><xsl:text>: </xsl:text><xsl:value-of select="$location_parts[4]" /></span>
-        </xsl:if>
+      <a href="{kiln:url-for-match($match_id, ($language, $location_parts[2]), 0)}">
+        <span class="index-instance-file">
+           <xsl:value-of select="substring-after($location_parts[2], '_')" /> <!-- to exclude prefix 'lexicon/text/com/trag' -->
+        </span>
       </a>
     </li>
   </xsl:template>

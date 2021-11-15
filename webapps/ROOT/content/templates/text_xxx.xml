@@ -4,7 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>DOCUMENT TITLE</title>
+                <title>TITLE</title>
             </titleStmt>
             <publicationStmt>
                 <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
@@ -20,7 +20,7 @@
         </fileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-10-12" who="Irene Vagionakis">encoded document in XML</change>
+                <change when="2021-10-12" who="NAME">encoded document in XML</change>
                 <change when="2021-10-12" who="Krzysztof Bielawski">created document contents</change>
             </listChange>
         </revisionDesc>

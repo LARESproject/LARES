@@ -14,6 +14,10 @@
   <xsl:output method="html"/>
   <xsl:import href="../../kiln/stylesheets/tei/to-html.xsl" />
   
+  <xsl:template match="tei:titleStmt/tei:title[@xml:lang!=$language]"/>
+  <!--<xsl:template match="tei:seg[@xml:lang!=$language]"/>-->
+  <xsl:template match="tei:div[@type='edition'][@xml:lang!=$language][not(@n)]"/>
+  
   <xsl:template match="tei:div[@n]">
     <div id="{@n}"><xsl:apply-templates/></div>
   </xsl:template>

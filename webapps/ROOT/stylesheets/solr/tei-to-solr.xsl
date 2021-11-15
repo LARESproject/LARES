@@ -22,9 +22,15 @@
     </add>
   </xsl:template>
   
-    <xsl:template match="tei:summary/@corresp" mode="facet_inscription_type">
-    <field name="inscription_type">
-      <xsl:value-of select="."/>
+  <xsl:template match="tei:idno[@type='filename']" mode="facet_entry_type">
+    <field name="entry_type">
+      <xsl:variable name="entrytype" select="substring-before(., '_')"/>
+      <xsl:choose>
+        <xsl:when test="$entrytype='lexicon'"><xsl:text>Lexicon</xsl:text></xsl:when>
+        <xsl:when test="$entrytype='text'"><xsl:text>Text</xsl:text></xsl:when>
+        <xsl:when test="$entrytype='com' or $entrytype='trag'"><xsl:text>Book chapter</xsl:text></xsl:when>
+        <xsl:otherwise><xsl:value-of select="$entrytype"/></xsl:otherwise>
+      </xsl:choose>
     </field>
   </xsl:template>
   
@@ -55,14 +61,14 @@
        additional Solr field data (such as new facets) here. -->
   
   <xsl:template name="extra_fields">
-    <xsl:call-template name="field_inscription_type"/>
+    <xsl:call-template name="field_entry_type"/>
     <xsl:call-template name="field_mentioned_divinities"/>
     <xsl:call-template name="field_person_name"/>
     <xsl:call-template name="field_complete_edition"/>
   </xsl:template>
   
-  <xsl:template name="field_inscription_type">
-    <xsl:apply-templates mode="facet_inscription_type" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:summary/@corresp"/>
+  <xsl:template name="field_entry_type">
+    <xsl:apply-templates mode="facet_entry_type" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type='filename']"/>
   </xsl:template>
   
    <xsl:template name="field_mentioned_divinities">

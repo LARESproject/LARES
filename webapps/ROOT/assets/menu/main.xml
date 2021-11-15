@@ -2,10 +2,14 @@
 <?oxygen RNGSchema="../schema/menu/menu.rng" type="xml"?>
 <root xmlns="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
   xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
-  <menu label="Team" match="local-tei-display-html" params="team"/>
+  <menu label="Language">
+    <item label="English" language="en" match="local-language-home-page"/>
+    <item label="Italiano" language="it" match="local-language-home-page"/>
+    <item label="Polski" language="pl" match="local-language-home-page"/>
+  </menu>
   <menu label="Lexicon" match="local-epidoc-index-display" />
   <menu label="Texts" match="local-tei-index-display"/>
-  <menu label="Books chapters">
+  <menu label="Book chapters">
     <menu label="Comedy">
       <item label="Ranae" match="local-tei-display-html" params="com_1_ranae"/>
       <item label="Lysistrata" match="local-tei-display-html" params="com_2_lysistrata"/>
@@ -14,15 +18,13 @@
     </menu>
   </menu>
   <menu label="Bibliography" match="local-tei-display-html" params="bibliography"/>
-  <menu label="Indices" match="local-indices-type-display" params="epidoc"/>
+  <menu label="Indices">
+    <item label="Divinites" match="local-index-display-html" params="epidoc divine"/>
+  </menu>
   <!--<menu label="Concordances">
     <item label="Bibliographic" match="local-concordance-bibliography"/>
   </menu>-->
   <menu label="Search" match="local-search"/>
-  <menu label="Language" i18n:key="menu-language" language="en" match="local-language-home-page">
-    <item label="English" language="en" match="local-language-home-page"/>
-    <item label="Italiano" language="it" match="local-language-home-page"/>
-    <item label="Polski" language="pl" match="local-language-home-page"/>
-  </menu>
+  <menu label="Team" match="local-tei-display-html" params="team"/>
   <menu label="Admin" language="" match="local-admin-home-page" />
 </root>

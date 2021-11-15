@@ -48,9 +48,7 @@
   </xsl:template>
 
   <xsl:template match="tei:fileDesc/tei:titleStmt/tei:title" mode="document-metadata">
-    <field name="document_title">
-      <xsl:value-of select="normalize-space(.)" />
-    </field>
+    <field name="document_title"><xsl:value-of select="normalize-space(.)" /></field>
   </xsl:template>
 
   <xsl:template match="tei:fileDesc/tei:titleStmt/tei:author" mode="document-metadata">

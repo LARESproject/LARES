@@ -111,7 +111,7 @@
    <field indexed="true" multiValued="false" name="document_type"
           required="false" stored="true" type="string" />
    <field indexed="true" multiValued="true" name="document_title"
-          required="false" stored="true" type="text_general" />
+     required="false" stored="true" type="text_general" />
    <field indexed="true" multiValued="true" name="author"
           required="false" stored="true" type="string" />
    <field indexed="true" multiValued="true" name="editor"
@@ -155,7 +155,7 @@
      multiValued="true" required="false" type="string" />
    <field name="person_name" stored="true" indexed="true"
      multiValued="true" required="false" type="string" />
-   <field indexed="true" multiValued="true" name="inscription_type"
+   <field indexed="true" multiValued="true" name="entry_type"
      required="false" stored="true" type="string" />
    <field name="complete_edition" indexed="true" multiValued="true"
      stored="false" type="text_general" />

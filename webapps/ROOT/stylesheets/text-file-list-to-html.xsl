@@ -4,28 +4,18 @@
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <xsl:template match="response" mode="text-index">
-    <table class="tablesorter">
+    <table class="tablesorter" style="width:100%">
       <thead>
         <tr>
-          <!-- Let us assume that all texts have a filename, ID, and
-               title. -->
-          <th>ID</th>
-          <!--<th>ID</th>-->
+          <!-- Let us assume that all texts have a filename, ID, and title. -->
           <th>Title</th>
-          <!--<xsl:if test="result/doc/arr[@name='author']/str">
-            <th>Author</th>
-          </xsl:if>
-          <xsl:if test="result/doc/arr[@name='editor']/str">
-            <th>Editor</th>
-          </xsl:if>
-          <xsl:if test="result/doc/str[@name='publication_date']">
-            <th>Publication Date</th>
-          </xsl:if>-->
+          <!--<th>ID</th>-->
         </tr>
       </thead>
       <tbody>
-        <xsl:apply-templates mode="text-index" select="result/doc[contains(str[@name='document_id'], '_')]" ><!-- added [contains(str[@name='document_id'], '_')] to hide other TEI files  -->
-          <xsl:sort select="str[@name='document_id']"/>
+        <xsl:apply-templates mode="text-index" select="result/doc[contains(str[@name='document_id'], '_')][not(starts-with(str[@name='document_id'], 'com_'))][not(starts-with(str[@name='document_id'], 'trag_'))]" >
+          <!-- added [contains(str[@name='document_id'], '_')] to hide other TEI files  -->
+          <xsl:sort select="translate(normalize-unicode(lower-case(arr[@name='document_title']/str[1]),'NFD'), '&#x0300;&#x0301;&#x0308;&#x0303;&#x0304;&#x0313;&#x0314;&#x0345;&#x0342;' ,'')"/>
         </xsl:apply-templates>
       </tbody>
     </table>
@@ -42,10 +32,7 @@
     <tr>
       <xsl:apply-templates mode="text-index" select="str[@name='file_path']" />
       <!--<xsl:apply-templates mode="text-index" select="str[@name='document_id']" />-->
-      <xsl:apply-templates mode="text-index" select="arr[@name='document_title']" />
-      <!--<xsl:apply-templates mode="text-index" select="arr[@name='author']" />
-      <xsl:apply-templates mode="text-index" select="arr[@name='editor']" />
-      <xsl:apply-templates mode="text-index" select="str[@name='publication_date']" />-->
+      <!--<xsl:apply-templates mode="text-index" select="arr[@name='document_title']" />-->
     </tr>
   </xsl:template>
 
@@ -53,7 +40,7 @@
     <xsl:variable name="filename" select="substring-after(., '/')" />
     <td>
       <a href="{kiln:url-for-match($match_id, ($language, $filename), 0)}">
-        <xsl:value-of select="$filename" />
+        <xsl:apply-templates select="ancestor::doc//arr[@name='document_title']" mode="text-index"/>
       </a>
     </td>
   </xsl:template>
@@ -61,21 +48,18 @@
   <xsl:template match="str[@name='document_id']" mode="text-index">
     <td><xsl:value-of select="replace(., ' ', '')" /></td>
   </xsl:template>
-
+  
   <xsl:template match="arr[@name='document_title']" mode="text-index">
-    <td><xsl:value-of select="string-join(str, '; ')" /></td>
-  </xsl:template>
-
-  <xsl:template match="arr[@name='author']" mode="text-index">
-    <td><xsl:value-of select="string-join(str, '; ')" /></td>
-  </xsl:template>
-
-  <xsl:template match="arr[@name='editor']" mode="text-index">
-    <td><xsl:value-of select="string-join(str, '; ')" /></td>
-  </xsl:template>
-
-  <xsl:template match="str[@name='publication_date']">
-    <td><xsl:value-of select="." /></td>
+    <xsl:choose>
+      <xsl:when test="str[2]">
+        <xsl:if test="$language='it'"><xsl:value-of select="str[1]"/></xsl:if>
+        <xsl:if test="$language='en'"><xsl:value-of select="str[2]"/></xsl:if>
+        <xsl:if test="$language='pl'"><xsl:value-of select="str[3]"/></xsl:if>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="str[1]"/>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
 </xsl:stylesheet>

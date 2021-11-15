@@ -4,7 +4,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Ranae (Βατραχοι, Rane)</title>
+                <title xml:lang="it">Ranae (Βατραχοι, Rane)</title>
+                <title xml:lang="en">Ranae (Βατραχοι, Frogs)</title>
+                <title xml:lang="pl">Ranae (Βατραχοι, Zaby)</title>
             </titleStmt>
             <publicationStmt>
                 <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
@@ -27,7 +29,7 @@
     </teiHeader>
     <text>
         <body>
-            <div type="edition">
+            <div type="edition" xml:lang="it">
                 <div type="textpart" n="intro">
                     <p>L'opera fu messa in scena al Leneo nel 405 a.C., dove ricevette il primo
                         premio. Il protagonista è il dio Dioniso che, accompagnato dallo schiavo
@@ -328,6 +330,307 @@
                                     del bottino agricolo offerto agli dei (Jim 2014). Non c'è motivo
                                     di credere che fossero accompagnate da una qualsiasi forma di
                                     sacrificio di sangue.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>The play was staged at the Lenaeum in 405 BC, where it received first prize. The main character is the god Dionysus, who, accompanied by the slave Xanthias, descends into the land of the dead to retrieve his favourite tragic poet, Euripides, who had died a few months earlier. In Hades a poetic contest takes place between this tragic poet and Aeschylus, who is two generations older than him.</p>
+                    <p>The text is full of references to myths and various rituals. Against this background, it seems surprising that references and allusions to blood sacrifice appear here only occasionally. Despite their small number and laconic character, they deserve attention as a valuable source.</p>
+                    <p> I quote the text from the Dover (1993) edition.</p>
+                </div>
+                <div type="textpart" n="commentary">
+                    <div type="textpart" n="Rane_337–339">
+                        <head>Rane 337–339</head>
+                        <div type="textpart" n="337–339_intro">
+                            <p>Dionysus, together with his slave Xanthias, observes from a hidden place the choir of initiates in the Eleusinian mysteries. Probably at the sight of the girls in the procession, the servant whispers:</p>
+                            
+                            <quote><lb/><emph>Ξανθίας</emph>
+                                <lb/>ὦ πότνια πολυτίμητε Δήμητρος κόρη, <lb/>ὡς ἡδύ μοι προσέπνευσε
+                                χοιρείων κρεῶν. <lb/><emph>Διόνυσος</emph>
+                                <lb/>οὔκουν ἀτρέμ᾽ ἕξεις, ἤν τι καὶ χορδῆς λάβῃς; </quote>
+                            
+                            <quote>KSANTIAS:
+                                O highly honored lady, daughter of Demeter, how delightfully it smelled of piglet meat! DIONISOS:
+                                Couldn't you keep quiet? You might catch some sausage.
+                            </quote>
+                        </div>
+                        <div type="textpart" n="commento">
+                            <p> The passus contains an obscene joke based on the ambiguity of the word χοῖρος - "pig"/"female sexual organ" contained in Xanthias' statement. The question of Dionysus, as noted by Seager (1981: 250), evi- dently alludes to the same sphere of associations, although the word χορδή -                         "Kish", "sausage" is nowhere attested in the sense of "pe- nis". Unclear, but of little relevance here, seems to be the meaning of this statement. Perhaps Dionysus means onanism or, as commentators (Sommerstein 1996: ad loc.; del Corno 1987: ad loc.) wish, homoerotic intercourse. </p>
+                            <p>       From the point of view of the study of ritual, the association of the choir of initiates in the Eleusinian mysteries with the meat of a pig seems obvious at first glance. This is confirmed by two other places in Aristophanes (Ach. 739-814; Pax 374-375), where piglets are mentioned in a similar context - the low price of three drachmas mentioned in Peace indicates that it is a young animal. Additional confirmation of the above formulation is found in iconography. Especially in southern Italy and Sicily there are widespread vivid statuettes found in Demeter sanctuaries, depicting a woman (goddess?) with a small pig in her arms (cf. Burkert 1983: 257). With all the caution necessary when reading conventional representations it is hard to resist the impression that real pro- portions between the sizes of human and animal figures were preserved here. In other words, the art probably reflects the consistent use of very young pigs in the ritual.</p>
+                            <p>                                The course of the ritual and its meaning have long been the subject of speculation among scholars. Piglets (also in the Eleusinian context) were often used for purification, which involved piercing an artery in the neck of the animal and pouring its blood on the person or place subject to purification. We do not know what happened next with the body of the pig beaten in such a way, but it seems almost certain that through symbolic and physical (or almost physical) contact with impurity it became impure (cf. e.g. Parker 1983: 229-230). Therefore, no
+                            </p> <p>It was eaten, but removed to a place where it did not pose a threat. The author of the medical treatise De morbo sacro (184) mentions that catharmata, and thus some kind of by-products of purification (perhaps, but not necessarily, dead animals) were buried, left in the mountain wilderness or thrown into the sea. Although there are no unequivocal accounts on the subject, it seems natural that the use of piglets in the initial phase of the ritual of initiation into the Eleusinian mysteries may have had a cathartic function, preparing the mystics for the main part of the rites. Such a hypothesis was formulated by Foucart (1914: 294; it was considered attractive by, among others, Moulinier 1952: 126 and Mylonas 1961: 249-250) has been rejected by most scholars (Nilsson 1941: 95, note 3; Burkert 1983: 257; Parker 1983: 283; Scarpi 2002: 505-506) solely on the basis of the message contained in the passage from the Frogs discussed here, for the place seems to suggest that the meat of the piglets was eaten during the rite rather than thrown away. This would indicate that it was (more or less) a typical thysia-type sacrifice. Burkert (1983: 258.284) goes so far as to describe this as a substitute sacrifice "for the initiate," citing the words of the scholion to the Acharnaeans by Aristophanes (747: ἕκαστος δὲ τῶν μυουμένων ὑπὲρ ἑαυτοῦ ἔθυεν - "each of the mystas sacrificed for himself") and interpreting the phrase ὑπὲρ ἑαυτοῦ as
+                                "in his stead". This was pointed out to him by Parker (1983: 283), pointing out that better
+                                translate it "on behalf of himself". </p>
+                            <p>Therefore there is no reason to think that the pig, as Burkert wanted, was a substitute for a human being, and its killing freed the mysta from death.
+                                Moreover, it should be noted that the passus in question, as the only source supporting the idea that the initiates ate the meat of pigs, is a very uncertain source.</p> <p> It is true that Xanthias mentions the smell not of a piglet, but of its meat, but this does not necessarily mean that the mystics themselves ate it. If the slaughtered animals performed a cathartic function, this would have involved abandoning their corpses, and the so-called megara, i.e. pits located in the immediate vicinity of the entrance to the te- lesterion at Eleusis, may have been a specially designated place (Evans 2002: 241-242). Eating meat abandoned in such a place seems unappetising, it could have been violation of ritual norms, perhaps threatened with disgrace. However, there are many references in Greek literature to the fact that the poor, for pragmatic reasons, and the contesters - symbolic, reached for food intended for deities at the crossroads and for abandoned katharmata (Ar. Plut. 594-597 cum schol.; D. 54.39; Thphr. Char. 16.14; Call. Cer. 114-115; Luc. Dial. Mort. 1.1; Catapl. 7). It is not without significance that we are dealing here with a passus from a comedy, and the speaker is a slave whose name, Xanthias ("Rudy"), points to his non-Greek origin (Ehrenberg 1951: 173). It may be, then, that this is a joke, the meaning of which can be summed up by the formula: meat abandoned ritually by some is a delicacy for others. It seems, therefore, that the passus does not unambiguously indicate that the initiates ate piglets. Thus, its value as a source turns out to be very limited. The only thing we can deduce from it (and it is not the only source) is that there is a clear connection between initiations into Eleusinian mysteries and the ritual use of piglets. The way they were used, unfortunately, remains impossible to be unambiguously determined.
+                                </p>
+                        </div>
+                    </div>
+                    <div type="textpart" n="Rane_847–848">
+                        <head>Frogs  847–848</head>
+                        <div type="textpart" n="847–848_intro">
+                            <p>In response to Aeschylus' agitated question, Dionysus turns towards the stage building, demanding that a sacrificial animal be brought to him to appease the anger of Typhon, the god of the whirlwinds, to whom he implicitly compares the tragic poet. The passus is a two-line interjection, clearly intended to break the stage illusion. The rest of the text indicates that no one responded to the summons, which fits perfectly into the convention of comedy.</p>
+                            
+                            <quote><lb/><emph>Διόνυσος</emph>
+                                <lb/>ἄρν᾽ ἄρνα μέλανα παῖδες ἐξενέγκατε: <lb/>τυφὼς γὰρ ἐκβαίνειν
+                                παρασκευάζεται. </quote>
+                            
+                            <quote>DIONISOS: Baran, baran, boys, bring out the black, because a Typhoon is about to come crashing down on us.</quote>
+                        </div>
+                        <div type="textpart" n="commento">
+                            <p> ἄρνα - the noun ἀρήν, depending on the context, can mean a lamb or an adult sheep, and the sex of the animal is signaled  In the present case, since there is no genitive, the key form would be the adjective. In this place, since there is no genitive, the adjectival form would be crucial. Unfortunately, the manuscripts convey it in two ways: μέλανα (m) or μέλαιναν (f). The former variant is additionally supported by scholia (ad loc. ), so it seems to be preferable, especially as it is in accordance with the rule, according to which the sex of the sacrificed animal was usually (though not always) the same as that of the addressee of the ritual. Dover (1993: ad loc.) and Sommerstein (1996: ad loc.) in their commentaries cite two passages from the Aeneid as parallels to the quoted passage - 3.120: "nigram Hiemi pecudem, Zephyris felicibus albam" ("for Zephyris a black sheep, for Zephyris a white one" - it should be noted that the sex of the animal is not known in this case); 5.772: "Tempestatibus agnam" ("Tempestatibus agnam") - The word "Tempestatibus agnam" is of female gender, while the word "tempest" is also feminine.) It is characteristic that the first of the quoted passages suggests that the colour of the animal depended on the kindness of the addressee of the sacrifice: a threatening deity, as in Aristophanes, should receive a black sheep, a kind one - a white one. On the other hand, another interpretation is also possible, raised by Sommerstein (1996: ad loc. ), according to which winds were treated in the cult as chthonic deities, and therefore it would have been expected to offer them black sacrifices (so Stengel 1920: 126-127, 151). This statement, however valuable, requires some additions, especially in the light of Scullion's (1994) findings. Parallels provided e.g. by the cult of Eumenides (Paus. 8.34; cf. Scullion 1994: 91) indicate that the chthonic deities, depending on their attitude to humans (or: the attitude of humans to them), were treated as threatening, gloomy forces, against whose influence one had to protect oneself with ritual means (e.g. with sacrifices of the sphagia or holocaustos type). In certain circumstances, however, the same beings could be treated as friendly, surrounding them with joyful worship (a thysia type offering). This scheme corresponds perfectly with the above-quoted passus from the Aeneid (3.120), in which the dangerous winter winds receive a black sacrifice (associated with the chthonic sphere), and the gentle and warm ones - a white one (associated with the Olympian sphere). </p>
+                            <p> The discussed scene in Aristophanes probably refers to this scheme. The author of the book is an example of the kind of a thinking man, at the same time indicating that he was so deeply rooted in the ideas of Athenians of the classical period, that the laconic mention, which lacks even an explicative explanation that it is about a sacrifice, seems to be fully understandable.
+                            </p>
+                        </div>
+                    </div>
+                    <div type="textpart" n="Rane_1032">
+                        <head>Frogs 1032</head>
+                        <div type="textpart" n="1032_intro">
+                            <p>Passus from a statement by Aeschylus, in which the tragicist names four cultural po- etes-heros (Orpheus, Musaeus, Hesiod, and Homer), briefly explaining what each has given to humans.</p>
+                            
+                            <quote>
+                                <lb/><emph>Αἰσχύλος</emph>
+                                <lb/>Ὀρφεὺς μὲν γὰρ τελετάς θ᾽ ἡμῖν κατέδειξε φόνων τ᾽ ἀπέχεσθαι, 
+                            </quote>
+                            
+                            <quote>Orpheus taught us mysteries and to keep away from murder.</quote>
+                        </div>
+                        <div type="textpart" n="commento">
+                            <p>Orpheus is a legendary singer who was credited with author-a number of works known in the classical period and later, as well as  "invention" of a specific religious doctrine. Leaving aside the complex issue of the actual origin of particular texts and ideas, it is worth noting that Aristophanes in the discussed place refers to something that (1) at least within the framework of beliefs prevalent in his time, was closely related to Orphism, and (2) was generally regarded as a valuable achievement of civilization. </p>
+                            <p>Since it is known that there was a stereotype according to which the Orphics considered it appropriate to abstain from (some?) flesh foods as unclean and from killing animals in sacrifice (cf. E. Hipp. 953-955; Pl. Lg. 782c), one gets the impression that this is what Aristophanes means by "abstaining from murder". An important caveat is that there is no indication that the passus in question contains a judgment in any way contrary to the views of the majority of the audience. Considering, in turn, that criticism of blood sacrifice or any form of animal slaughter certainly appealed to only a few, it seems that the passus contains a reference to some other form of civilizing activity attributed to Orpheus (cf. Trzcionkowski 2013: 369-373, 403; Dover 1993: ad loc.; Sommer- stein 1996: ad loc.). This may also be indicated by the use of the noun φόνος, which in most contexts refers to bloodshed humanity and the murder of its victims. </p>
+                            <p>The passus is therefore go- day noted primarily to emphasize that, contrary to appearances, it most likely does not include data on blood sacrifice. The literature on the subject is abundantly cited by Bernabé (2005: ad 510T; 547T; 626T).
+                            </p>
+                        </div>
+                    </div>
+                    <div type="textpart" n="Rane_1240–1242">
+                        <head>Rane 1240–1242</head>
+                        <div type="textpart" n="1240–1242_intro">
+                            <p> The passus is a fragment of the poetic agon between Euripide and Aeschylus. In order to prove to his opponent the repetition of metrical patterns, Aeschylus again and again interrupts the recitation by throwing in the metre-matching fixed phrase ληκύθιον ἀπώλεσεν ('he lost a bottle', or rather: a small lekyt, 'an oil jug'). Perhaps this is not an entirely random sequence of words, for as Whitman (1975, cf. Griffith 1975) has suggested, it probably evoked obscene associations. Euripides quotes one and a half lines from the unpreserved tragedy Meleager. The passage contains a reference to ritual.</p>
+                            
+                            <quote>
+                                <lb/><emph>Εὐριπίδης</emph>
+                                <lb/>Οἰνεύς ποτ᾽ ἐκ γῆς πολύμετρον λαβὼν στάχυν 
+                                <lb/>θύων ἀπαρχάς
+                                <lb/><emph>Αἰσχύλος</emph>
+                                <lb/>ληκύθιον ἀπώλεσεν. 
+                                <lb/><emph>Διόνυσος</emph>
+                                <lb/>μεταξὺ θύων; καὶ τίς αὔθ᾽ ὑφείλετο;
+                            </quote>
+                            <quote>EURYPIDES:
+                                "Oineus once from the earth took a rich ear to lay down the primroses....
+                                AJSCHYLOS:
+                                „... and lost the bottle." DIONISOS:
+                                At the time of the sacrifice? Who stole it from him?
+                            </quote>
+                            <div type="textpart" n="commento">
+                                <p>From the point of view of the study of blood sacrifice, the passus is valuable because it contains data on the chronology of the term θύω. In Homer, the word means "to burn ritually in order to produce smoke,.</p>
+                                <p>The gradual narrowing of the meaning to "sacrifice an animal" was accompanied by the extension of semantics to activities other than burning, including slaughtering, and extremely general celebrations. The gradual narrowing of the meaning in the direction of "to sacrifice an animal" was accompanied by the extension of semantics to other activities than burning, including slaughter and an extremely general celebration. The place under discussion indicates that in Euripides/Aristophanes' time the use of the verb θύω in its Homeric sense was still possible. The Ἀπαρχαί ('primroses') referred to here are, as the context indicates, clearly part of the agricultural spoils offered to the gods (Jim 2014). There is no reason to believe that they were accompanied by any form of blood sacrifice.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="pl">
+                <div type="textpart" n="intro">
+                    <p>Sztukę wystawiono na Lenajach w 405 r. p.n.e., gdzie otrzymała ona pierwszą nagrodę. Głównym bohaterem jest bóg Dionizos, który w to- warzystwie niewolnika Ksantiasza zstępuje do krainy umarłych, by wydobyć z niej swojego ulubionego poetę tragicznego, zmarłego kilka miesięcy wcześniej Eurypidesa. W Hadesie dochodzi do poetyckiego konkursu pomiędzy tym tragikiem i starszym od niego o dwa pokole- nia Ajschylosem.
+                        Tekst pełen jest odwołań do mitów i rozmaitych rytuałów. Na tym tle zdumiewający wydaje się fakt, że wzmianki i aluzje do ofiary krwawej pojawiają się tu wyłącznie sporadycznie. Pomimo niewielkiej ich ilości i lakonicznego charakteru zasługują one na uwagę jako cenne źródło.
+                        Tekst cytuję za wydaniem Dover (1993). </p>
+                </div>
+                <div type="textpart" n="commentary">
+                    <div type="textpart" n="Rane_337–339">
+                        <head>Żaby 337–339</head>
+                        <div type="textpart" n="337–339_intro">
+                            <p>Dionizos wraz z niewolnikiem Ksantiaszem obserwują z ukrycia chór wtajemniczonych w misteria eleuzyńskie. Prawdopodobnie na widok dziewcząt w orszaku sługa szepce:</p>
+                            
+                            <quote>
+                                <lb/><emph>Ξανθίας</emph>
+                                <lb/>ὦ πότνια πολυτίμητε Δήμητρος κόρη, 
+                                <lb/>ὡς ἡδύ μοι προσέπνευσε χοιρείων κρεῶν. 
+                                <lb/><emph>Διόνυσος</emph>
+                                <lb/>οὔκουν ἀτρέμ᾽ ἕξεις, ἤν τι καὶ χορδῆς λάβῃς; 
+                            </quote>
+                            
+                            <quote>KSANTIASZ:
+                                O wielce czcigodna pani, córko Demeter, jak rozkosznie zalecia- ło mięsem prosiąt!
+                                
+                                DIONIZOS:
+                                Nie mógłbyś siedzieć cicho? Możesz złapać jakąś kiełbasę.
+                            </quote>
+                        </div>
+                        <div type="textpart" n="commento">
+                            <p> Passus zawiera obsceniczny żart oparty na dwuznaczności zawarte- go w wypowiedzi Ksantiasza słowa χοῖρος – „świnia”/ „żeński organ płciowy”. Kwestia Dionizosa, jak zauważył Seager (1981: 250), ewi- dentnie nawiązuje do tej samej sfery skojarzeń, choć wyraz χορδή –
+                                „kiszka”, „kiełbasa” nie jest nigdzie poświadczony w znaczeniu „pe- nis”. Niejasny, lecz mało istotny w tym miejscu wydaje się sens tej wypowiedzi. Być może Dionizos ma na myśli onanizm albo, jak chcą tego komentatorzy (Sommerstein 1996: ad loc.; del Corno 1987: ad loc.), stosunek homoerotyczny.
+                                Z punktu widzenia badań nad rytuałem skojarzenie chóru wtajem- niczonych w misteria eleuzyńskie z mięsem świni na pierwszy rzut oka wydaje się oczywiste. Potwierdzają to dwa inne miejsca u Arysto- fanesa (Ach. 739–814; Pax 374–375), gdzie w podobnym kontekście jest mowa o prosiętach – niska cena trzech drachm wymieniona w Pokoju wskazuje na to, że chodzi o młode zwierzę. Dodatkowe potwierdze- nie powyższego sformułowania znajdują w ikonografii. Szczególnie w południowej Italii i na Sycylii rozpowszechnione są statuetki wo- tywne znajdowane w sanktuariach Demeter, przedstawiające kobie- tę (boginię?) z małą świnką na ręku (cf. Burkert 1983: 257). Przy całej ostrożności koniecznej przy lekturze konwencjonalnych przedstawień trudno oprzeć się wrażeniu, że zachowywano tutaj rzeczywiste pro- porcje pomiędzy rozmiarami postaciami ludzkich i zwierzęcych. In- nymi słowy, sztuka prawdopodobnie odzwierciedla konsekwentne użycie w rytuale bardzo młodych świń.</p>
+                            <p> Przebieg rytuału i jego znaczenie stanowią od dawna przedmiot
+                                spekulacji uczonych. Prosięta (także w kontekście eleuzyńskim) czę-
+                                sto wykorzystywano do oczyszczeń polegających na przebiciu tętnicy w
+                                szyi zwierzęcia i oblaniu jego krwią osoby lub miejsca podlegają-
+                                cego oczyszczeniu. Nie wiemy, co działo się następnie z ciałem za-
+                                bitej w ten sposób świnki, wydaje się jednak niemal pewne, że przez
+                                symboliczny i fizyczny (lub niemal fizyczny) kontakt z nieczystością
+                                stawało się ono nieczyste (cf. e.g. Parker 1983: 229–230). Dlatego
+                                nie zjadano go, lecz usuwano w miejsce, w którym nie stanowiło ono
+                                za- grożenia. Autor traktatu medycznego De morbo sacro (184)
+                                wspomina, że katharmata, a więc jakiegoś rodzaju uboczne produkty
+                                oczyszczeń (być może, choć niekoniecznie, chodzi tu także o martwe
+                                zwierzęta) zakopywano, pozostawiano w górskich pustkowiach lub
+                                wrzucano do morza. Choć brakuje jednoznacznych przekazów na ten
+                                temat, wy- daje się naturalne, że wykorzystanie prosiaczków we
+                                wstępnej fazie procesu rytuału inicjacji w misteria eleuzyńskie
+                                mogło pełnić funkcję katartyczną, przygotowując mystów do
+                                zasadniczej części obrzędów. </p>
+                            <p>Hipoteza taka sformułowana przez Foucarta (1914: 294; za atrakcyj- ną
+                                uważali ją m.in. Moulinier 1952: 126 i Mylonas 1961: 249–250) zo-
+                                stała odrzucona przez większość badaczy (Nilsson 1941: 95, przyp. 3;
+                                Burkert 1983: 257; Parker 1983: 283; Scarpi 2002: 505–506) wyłącznie
+                                na podstawie przekazu zawartego w omawianym tu passusie z Żab.
+                                Miejsce to bowiem zdaje się sugerować, że mięso prosiaczków zjadano
+                                w czasie obrzędu, a nie wyrzucano go. To wskazywałoby, że była to
+                                (mniej lub więcej) typowa ofiara typu thysia. Burkert (1983:
+                                258.284) posunął się do tego, żeby opisać to jako ofiarę zastępczą
+                                „za wtajemni- czanego”, powołując się na słowa scholionu do
+                                Acharnejczyków Arysto- fanesa (747: ἕκαστος δὲ τῶν μυουμένων ὑπὲρ
+                                ἑαυτοῦ ἔθυεν – „każdy z mystów składał za siebie”) i interpretując
+                                zwrot ὑπὲρ ἑαυτοῦ jako „in his stead”. Wytknął mu to Parker (1983:
+                                283), zaznaczając, że lepiej przetłumaczyć go „on behalf of
+                                himself”. Nie ma zatem powodu są- dzić, że świnka, jak chciał tego
+                                Burkert, stanowiła substytut człowieka, a jej zabicie wyzwalało
+                                mysta od śmierci.</p>                 
+                            <p> Co więcej, należy zaznaczyć, że omawiany passus jako jedyne źró- dło przemawiające za tym, że wtajemniczani zjadali mięso świnek, jest źródłem bardzo niepewnym. Ksantiasz wprawdzie wspomina o zapachu nie tyle prosiaczka, ile jego mięsa, nie musi to jednak ozna- czać, że zjadali je sami mystowie. Jeśli uśmiercane zwierzęta pełniły funkcję katartyczną, wiązałoby się to z porzucaniem ich zwłok, a miej- scem specjalnie do tego przeznaczonym mogły być tak zwane megara, czyli jamy zlokalizowane w bezpośrednim sąsiedztwie wejścia do te- lesterionu w Eleusis (Evans 2002: 241–242). Wyjadanie mięsa porzu- conego w takim miejscu wydaje się mało apetyczne, mogło stanowić 
+                                pogwałcenie norm rytualnych, być może groziło zmazą. Skądinąd jed- nak sporo jest w literaturze greckiej wzmianek o tym, że ubodzy ze względów pragmatycznych, a kontestatorzy – symbolicznych, sięga- li po potrawy przeznaczone dla bóstw na rozdrożach i po porzucone katharmata (Ar. Plut. 594–597 cum schol.; D. 54.39; Thphr. Char. 16.14; Call. Cer. 114–115; Luc. Dial. Mort. 1.1; Catapl. 7). Nie bez znaczenia jest fakt, że mamy tu do czynienia z passusem z komedii, a osobą mówią- cą jest niewolnik, którego imię, Ksantiasz („Rudy”), wskazuje na jego niegreckie pochodzenie (Ehrenberg 1951: 173). Być może zatem jest to żart, którego sens daje się streścić formułą: mięso porzucane rytual- nie przez jednych jest smakołykiem dla innych. Wydaje się zatem, że passus nie wskazuje w sposób jednoznaczny na to, że wtajemniczani zjadali prosiaczki. Tym samym jego wartość jako źródła okazuje się bardzo ograniczona. Jedyne bowiem, co możemy z niego wyczytać (nie jest to zresztą źródło jedyne), to istnienie wyraźnego związku po- między wtajemniczeniami w misteria eleuzyńskie i rytualnym wyko- rzystaniem prosiąt. Sposób ich wykorzystania niestety pozostaje nie- możliwy do jednoznacznego określenia.
+                            </p>
+                        </div>
+                    </div>
+                    <div type="textpart" n="Rane_847–848">
+                        <head>Zaby 847–848</head>
+                        <div type="textpart" n="847–848_intro">
+                            <p>W odpowiedzi na pełną wzburzenia kwestię Ajschylosa Dionizos zwraca się w kierunku budynku scenicznego, żądając, by przyprowa- dzono mu zwierzę ofiarne dla załagodzenia gniewu Tyfona, bóstwa wichrów, do którego implicite przyrównuje poetę tragicznego. Passus jest dwuwersowym wtrętem, wyraźnie obliczonym na przełamanie iluzji scenicznej. Dalszy ciąg tekstu wskazuje na to, że nikt na wezwa- nie nie zareagował, co doskonale mieści się w konwencji komedii.</p>
+                            
+                            <quote>
+                                <lb/><emph>Διόνυσος</emph>
+                                <lb/>ἄρν᾽ ἄρνα μέλανα παῖδες ἐξενέγκατε: 
+                                <lb/>τυφὼς γὰρ ἐκβαίνειν παρασκευάζεται. 
+                            </quote>
+                            
+                            <quote>Barana, barana, chłopcy, wyprowadźcie czarnego, bo zaraz go- tów jest na nas runąć Tajfun.</quote>
+                        </div>
+                        <div type="textpart" n="commento">
+                            <p> „barana”; rzeczownik ἀρήν w zależności od kontekstu może oznaczać jagnię lub dorosłą owcę, a płeć zwierzęcia sygnalizowana jest
+                                rodzajem gramatycznym męskim lub żeńskim, jaki wyraz w danym kontekście przybiera. </p>
+                            <p> W omawianym miejscu, ponieważ brak rodzaj- nika, kluczowa byłaby
+                                forma przymiotnika. Manuskrypty przekazują ją niestety dwojako:
+                                μέλανα (m) lub μέλαιναν (f). Za tym pierwszym wariantem przemawiają
+                                dodatkowo scholia (ad loc.), dlatego wydaje się on lepszy, tym
+                                bardziej, że pozostaje to w zgodzie z regułą, według której płeć
+                                zwierzęcia ofiarnego najczęściej (choć nie zawsze) była taka sama
+                                jak adresata rytuału. Dover (1993: ad loc.) i Sommerstein (1996: ad
+                                loc.) w swoich komentarzach powołują się na dwa passusy z Ene- idy
+                                jako paralelne do cytowanego passusu – 3.120: „nigram Hiemi pecudem,
+                                Zephyris felicibus albam” („dla Zawieruchy czarną owcę, dla
+                                szczęsnych Zefirów białą” – należy zaznaczyć, że płeć zwierzęcia nie
+                                jest w tym przypadku znana); 5.772: „Tempestatibus agnam” („Bu- rzom
+                                owcę” – płci żeńskiej, przy czym słowo oznaczające burzę też jest
+                                rodzaju żeńskiego). Charakterystyczne, że pierwszy z cytowanych
+                                passusów zawiera sugestię, że kolor zwierzęcia zależał od
+                                życzliwości adresata ofiary: bóstwo groźne, jak w omawianym miejscu
+                                u Arysto- fanesa, powinno otrzymać owcę czarną, miłe – białą. </p>
+                            <p>Z drugiej strony możliwa jest również inna interpretacja, którą
+                                podnosi Sommerstein (1996: ad loc.), zgodnie z którą wiatry
+                                traktowano w kulcie jak bóstwa chtoniczne, w związku z czym rzeczą
+                                oczekiwaną byłoby składanie im czarnej ofiary (tak Stengel 1920:
+                                126–127, 151). Stwierdzenie to, jakkol- wiek cenne, wymaga pewnych
+                                uzupełnień, zwłaszcza w świetle usta- leń Sculliona (1994).
+                                Paralele, jakich dostarcza np. kult Eumenid (Paus. 8.34; cf.
+                                Scullion 1994: 91), wskazują na to, że bóstwa chtoniczne, w za-
+                                leżności od ich stosunku do ludzi (czy też: stosunku ludzi do nich)
+                                by- wały traktowane jako groźne, ponure siły, przed których wpływem
+                                na- leżało się chronić przy pomocy środków rytualnych (m.in. ofiarą
+                                typu sphagia lub holokaustos). W pewnych okolicznościach jednak te
+                                same istoty można było potraktować jako przyjazne, otaczając je
+                                radosnym kultem (ofiara typu thysia). Schemat ten doskonale
+                                odpowiada cyto- wanemu powyżej passusowi z Eneidy (3.120), w którym
+                                groźne wia- try zimowe otrzymują ofiarę czarną (związaną ze sferą
+                                chtoniczną), a łagodne i ciepłe – białą (kojarzoną ze sferą
+                                olimpijską). Omawiane miejsce u Arystofanesa prawdopodobnie
+                                nawiązuje do tego schematu myślowego, jednocześnie wskazując na to,
+                                że na tyle głęboko zako- rzeniony był w on wyobrażeniach Ateńczyków
+                                okresu klasycznego, że lakoniczna wzmianka, w której brak nawet
+                                eksplicytnego wyjaśnienia, że chodzi o ofiarę, wydawała się w pełni
+                                zrozumiała. </p>
+                        </div>
+                    </div>
+                    <div type="textpart" n="Rane_1032">
+                        <head>Zaby 1032</head>
+                        <div type="textpart" n="1032_intro">
+                            <p>Passus z wypowiedzi Ajschylosa, w której tragik wymienia czterech po- etów-herosów kulturowych (Orfeusza, Muzajosa, Hezjoda i Homera), krótko wyjaśniając, co każdy z nich dał ludziom.</p>
+                            
+                            <quote>
+                                <lb/><emph>Αἰσχύλος</emph>
+                                <lb/>Ὀρφεὺς μὲν γὰρ τελετάς θ᾽ ἡμῖν κατέδειξε φόνων τ᾽ ἀπέχεσθαι, </quote>
+                            
+                            <quote>DIONISOS: Orfeusz nauczył nas misteriów i trzymania się z dala od mordu..</quote>
+                        </div>
+                        <div type="textpart" n="commento">
+                            <p>Orfeusz to legendarny pieśniarz, któremu przypisywano autor- stwo
+                                wielu utworów znanych w okresie klasycznym i później, a także
+                                „wynalezienie” swoistej doktryny religijnej. Abstrahując od złożone-
+                                go zagadnienia rzeczywistego pochodzenia poszczególnych tekstów i
+                                idei, warto zaznaczyć, że Arystofanes w omawianym miejscu odwo- łuje
+                                się do czegoś, co (1) przynajmniej w ramach rozpowszechnionych w
+                                jego czasach przekonań ściśle wiązało się orfizmem i (2) przez ogół
+                                uważane było za wartościową zdobycz cywilizacyjną. Ponieważ wia-
+                                domo, że istniał stereotyp, zgodnie z którym orficy uważali za
+                                stosow- ne powstrzymywanie się od (niektórych?) pokarmów mięsnych
+                                jako nieczystych i od zabijania zwierząt w ofierze (cf. E. Hipp.
+                                953–955; Pl. Lg. 782c), można odnieść wrażenie, że to właśnie ma na
+                                myśli Arysto- fanes, mówiąc o „trzymaniu się z dala od mordu”.
+                                Istotne zastrzeże- nie polega na tym, że nic nie wskazuje na to,
+                                żeby omawiany passus zawierał sąd w jakikolwiek sposób sprzeczny z
+                                poglądami większości widzów. </p>
+                            <p>Zważywszy z kolei na to, że krytyka ofiary krwawej czy ja-
+                                kichkolwiek form uboju zwierząt z pewnością trafiała do przekonania
+                                wyłącznie nielicznych, wydaje się, że passus zawiera odwołanie do
+                                ja- kiejś innej formy cywilizacyjnej działalności przypisywanej
+                                Orfeuszo- wi (cf. Trzcionkowski 2013: 369–373, 403; Dover 1993: ad
+                                loc.; Sommer- stein 1996: ad loc.). Może na to wskazywać również
+                                użycie rzeczownika φόνος, który w większości kontekstów odnosi się
+                                do przelanej krwi ludzkiej i mordu, którego ofiarami są ludzie.
+                                Passus jest zatem go- dzien odnotowania przede wszystkim w celu
+                                podkreślenia, że wbrew pozorom najprawdopodobniej nie zawiera on
+                                danych na temat ofiary krwawej. Literaturę przedmiotu obficie cytuje
+                                Bernabé (2005: ad 510T; 547T; 626T). </p>
+                        </div>
+                    </div>
+                    <div type="textpart" n="Rane_1240–1242">
+                        <head>Rane 1240–1242</head>
+                        <div type="textpart" n="1240–1242_intro">
+                            <p> Passus stanowi fragment agonu poetyckiego pomiędzy Eurypide- sem i Ajschylosem. Żeby udowodnić przeciwnikowi powtarzalność schematów metrycznych, Ajschylos raz po raz przerywa recytację, do- rzucając pasującą do metrum stałą frazę ληκύθιον ἀπώλεσεν („stracił butelczynę”, czy raczej: mały lekyt, „dzbanuszek na oliwę”). Być może nie jest to całkowicie przypadkowa sekwencja wyrazów, jak bowiem zasugerował Whitman (1975, cf. Griffith 1975), prawdopodobnie wy- woływała ona obsceniczne asocjacje. W cytowanym miejscu Eurypides cytuje półtora wersu pochodzącego z niezachowanej tragedii Meleager. Urywek zawiera odwołanie do rytuału.
+                                
+                            </p>
+                            
+                            <quote><lb/><emph>Εὐριπίδης</emph>
+                                <lb/>Οἰνεύς ποτ᾽ ἐκ γῆς πολύμετρον λαβὼν στάχυν <lb/>θύων ἀπαρχάς
+                                <lb/><emph>Αἰσχύλος</emph>
+                                <lb/>ληκύθιον ἀπώλεσεν. <lb/><emph>Διόνυσος</emph>
+                                <lb/>μεταξὺ θύων; καὶ τίς αὔθ᾽ ὑφείλετο; </quote>
+                            
+                            
+                            <quote>EURYPIDES:
+                                „Oineus raz z ziemi wziął bogaty kłos, by złożyć pierwociny...
+                                AJSCHYLOS:
+                                „... i stracił butelczynę” DIONIZOS:
+                                W czasie ofiary? Któż mu ją zakosił?
+                            </quote>
+                            <div type="textpart" n="commento">
+                                <p>Z punktu widzenia badań nad ofiarą krwawą passus jest cenny, po- nieważ zawiera dane dotyczące chronologii terminu θύω. U Homera wyraz ten oznacza „spalać rytualnie w celu wytworzenia dymu”, przy
+                                    czym spalanym przedmiotem wcale nie muszą być części zwierząt, lecz np. ser (Od. 9.321). Stopniowemu zawężaniu znaczenia w kierun- ku „składać ofiarę ze zwierzęcia” towarzyszyło rozszerzenie seman- tyki na inne czynności niż palenie, łącznie z ubojem i skrajnie ogól- nym świętowaniem. Omawiane miejsce wskazuje na to, że w czasach Eurypidesa/Arystofanesa użycie czasownika θύω w jego homeryckim znaczeniu w dalszym ciągu było możliwe. Ἀπαρχαί („pierwociny”), o których tu mowa, to, jak wskazuje kontekst, ewidentnie część pło- dów rolnych, ofiarowanych bogom (Jim 2014). Nie ma powodu sądzić, że towarzyszyła im jakakolwiek forma ofiary krwawej.
+                                </p>
                             </div>
                         </div>
                     </div>

@@ -90,7 +90,8 @@
   </xsl:template>
 
   <!-- Display an individual search result. -->
-  <xsl:template match="result/doc[contains(str[@name='document_id'], '_')]" mode="search-results"> <!-- added [contains(str[@name='document_id'], '_')] to hide other TEI files  -->
+  <xsl:template match="result/doc[contains(str[@name='document_id'], '_')]" mode="search-results"> 
+    <!-- added [contains(str[@name='document_id'], '_')] to hide other TEI files  -->
     <xsl:variable name="document-type" select="str[@name='document_type']" />
     <xsl:variable name="short-filepath"
                   select="substring-after(str[@name='file_path'], '/')" />
@@ -107,7 +108,24 @@
     <xsl:if test="str[@name='document_id']">
     <li>
       <a href="{$result-url}">
-        <xsl:value-of select="concat(str[@name='document_id'], '. ', arr[@name='document_title']/str[1])" />
+        <xsl:variable name="doctype" select="substring-before($short-filepath, '_')"/>
+        <xsl:choose>
+          <xsl:when test="$doctype='com'">Book chapter: Comedy</xsl:when>
+          <xsl:when test="$doctype='trag'">Book chapter: Tragedy</xsl:when>
+          <xsl:when test="$doctype='lexicon'">Lexicon</xsl:when>
+          <xsl:when test="$doctype='text'">Text</xsl:when>
+        </xsl:choose>
+        <xsl:text>. </xsl:text>
+        <xsl:choose>
+          <xsl:when test="arr[@name='document_title']/str[2]">
+            <xsl:if test="$language='it'"><xsl:value-of select="arr[@name='document_title']/str[1]"/></xsl:if>
+            <xsl:if test="$language='en'"><xsl:value-of select="arr[@name='document_title']/str[2]"/></xsl:if>
+            <xsl:if test="$language='pl'"><xsl:value-of select="arr[@name='document_title']/str[3]"/></xsl:if>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="arr[@name='document_title']/str[1]"/>
+          </xsl:otherwise>
+        </xsl:choose>
       </a>
     </li>
     </xsl:if>
@@ -121,7 +139,28 @@
       </xsl:when>
       <xsl:when test="doc">
         <ul>
-          <xsl:apply-templates mode="search-results" select="doc"><xsl:sort select="str[@name='document_id']" order="ascending"/></xsl:apply-templates>
+          <xsl:apply-templates mode="search-results" select="doc">
+            <xsl:sort order="ascending">
+              <xsl:variable name="doctype" select="substring-before(str[@name='document_id'], '_')"/>
+              <xsl:variable name="sortdoctype">
+              <xsl:choose>
+                <xsl:when test="$doctype='com'">1</xsl:when>
+                <xsl:when test="$doctype='trag'">2</xsl:when>
+                <xsl:when test="$doctype='lexicon'">3</xsl:when>
+                <xsl:when test="$doctype='text'">4</xsl:when>
+                <xsl:otherwise>5</xsl:otherwise>
+              </xsl:choose>
+              </xsl:variable>
+              <xsl:variable name="sortfilename" select="translate(normalize-unicode(lower-case(arr[@name='document_title']/str[1]),'NFD'), '&#x0300;&#x0301;&#x0308;&#x0303;&#x0304;&#x0313;&#x0314;&#x0345;&#x0342;' ,'')"/>
+              <xsl:choose>
+                <xsl:when test="$sortdoctype">
+                  <xsl:value-of select="concat($sortdoctype, $sortfilename)"/>
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:value-of select="concat(str[@name='document_id'], $sortfilename)"/>
+                </xsl:otherwise>
+              </xsl:choose>
+            </xsl:sort></xsl:apply-templates>
         </ul>
 
         <xsl:call-template name="add-results-pagination" />

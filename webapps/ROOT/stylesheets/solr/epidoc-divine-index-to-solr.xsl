@@ -15,7 +15,7 @@
 
   <xsl:template match="/">
     <add>
-      <xsl:for-each-group select="//tei:persName[@type='divine']" group-by="@key">
+      <xsl:for-each-group select="//tei:persName[@type='divine']" group-by=".">
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -25,7 +25,7 @@
           </field>
           <xsl:call-template name="field_file_path" />
           <field name="index_item_name">
-            <xsl:value-of select="@key" />
+            <xsl:value-of select="." />
           </field>
           <xsl:apply-templates select="current-group()" />
         </doc>

@@ -4,7 +4,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>DOCUMENT TITLE</title>
+                <title xml:lang="it">TITLE</title>
+                <title xml:lang="en">TITLE</title>
+                <title xml:lang="pl">TITLE</title>
             </titleStmt>
             <publicationStmt>
                 <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
@@ -20,21 +22,31 @@
         </fileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-11-10" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2021-11-10" who="NAME">encoded document in XML</change>
                 <change when="2021-10-12" who="Krzysztof Bielawski">created document contents</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <div type="edition">
+            <div type="edition" xml:lang="it">
                 <div type="textpart" n="...">
                     <head>...</head>
-                    <p>...</p>
+                    <p>...</p>                    
                 </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
                 <div type="textpart" n="...">
                     <head>...</head>
-                    <p>...</p>
+                    <p>...</p>                    
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="pl">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>...</p>                    
                 </div>
             </div>
             
