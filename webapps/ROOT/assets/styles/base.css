@@ -64,6 +64,10 @@ body {
     margin-right: 2em;
     margin-top: 2em;
    }
+   
+.emph {
+    font-weight: bold;
+}
 
 /* header */
 nav.top-bar, nav.top-bar ul.right li, nav.top-bar ul.left * {

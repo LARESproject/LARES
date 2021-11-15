@@ -26,7 +26,7 @@
     <field name="entry_type">
       <xsl:variable name="entrytype" select="substring-before(., '_')"/>
       <xsl:choose>
-        <xsl:when test="$entrytype='lexicon'"><xsl:text>Lexicon</xsl:text></xsl:when>
+        <xsl:when test="$entrytype='lexicon'"><xsl:text>Lexicon entry</xsl:text></xsl:when>
         <xsl:when test="$entrytype='text'"><xsl:text>Text</xsl:text></xsl:when>
         <xsl:when test="$entrytype='com' or $entrytype='trag'"><xsl:text>Book chapter</xsl:text></xsl:when>
         <xsl:otherwise><xsl:value-of select="$entrytype"/></xsl:otherwise>

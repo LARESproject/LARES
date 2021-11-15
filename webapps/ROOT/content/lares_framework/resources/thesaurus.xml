@@ -19,6 +19,21 @@
           <category xml:id="c1" corresp="1.1" n="Religion"/>
           <category xml:id="c2" corresp="1.2" n="Sacrifice"/>
           <category xml:id="c3" corresp="1.3" n="Rite"/>
+          
+          <!--DOMINIO 1: Comunicazione
+          • AMBITO della pratica (rito)
+          • AMBITO della credenza (mito)
+          • AMBITO della finzione (simbolo)
+          
+          DOMINIO 2: Rappresentazione
+          • AMBITO del segno (semiotico)
+          • AMBITO del significato (semantico)
+          • AMBITO del discorso (retorico)
+          
+          DOMINIO 3: Fruizione
+          • AMBITO dei sistemi
+          • AMBITO degli strumenti
+          • AMBITO delle strutture-->
         </taxonomy>
       </classDecl>
     </encodingDesc>

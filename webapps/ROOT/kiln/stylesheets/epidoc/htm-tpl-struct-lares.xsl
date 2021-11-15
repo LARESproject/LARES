@@ -35,14 +35,17 @@
         </xsl:choose>
       </p>
 
-      <p id="toggle_buttons"><b>Show/hide in the text: </b>
-        <button class="placeName" id="toggle_placeName">sacrifice</button>
-        <button class="persName" id="toggle_persName">rite</button>
+      <p id="toggle_buttons"><b>Show/hide: </b>
+        <button class="placeName" id="toggle_placeName">pratica</button>
+        <button class="persName" id="toggle_persName">credenza</button>
         <button class="orgName" id="toggle_orgName">cult</button>
-        <button class="geogName" id="toggle_geogName">dedication</button>
-        <button class="date" id="toggle_date">offering</button>
-        <button class="rs" id="toggle_rs">keywords</button>
-        <!--<button class="links" id="toggle_links">links</button>-->
+        <button class="geogName" id="toggle_geogName">finzione</button>
+        <button class="date" id="toggle_date">segno</button>
+        <button class="rs" id="toggle_rs">significato</button>
+        <button class="links" id="toggle_links">discorso</button>
+        <button class="date" id="toggle_date">sistemi</button>
+        <button class="rs" id="toggle_rs">strumenti</button>
+        <button class="links" id="toggle_links">strutture</button>
       </p>
       <script>
          $(document).ready(function(){
@@ -320,6 +323,10 @@
   
   <xsl:template match="t:quote">
     <p class="quotation"><xsl:apply-templates/></p>
+  </xsl:template>
+  
+  <xsl:template match="t:emph">
+    <span class="emph"><xsl:apply-templates/></span>
   </xsl:template>
   
   <xsl:template match="t:quote//t:lb[1]">
