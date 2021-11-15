@@ -29,8 +29,8 @@
     <kiln:block name="content-section">
       <main>
         <div class="row">
-          <div id="home-text" class="small-8 large-centered columns">
-            <!--<a href="documents/"><img id="logo" src="{$kiln:assets-path}/images/logo.png" alt="Logo" /></a>-->
+          <div id="home-text" class="small-8 large-centered columns" style="text-align:center">
+            <a href="documents/"><img style="width:200px" id="logo" src="{$kiln:assets-path}/images/logo.png" alt="Graffito  rupestre con rappresentazione di figura femminile e animali" /></a>
             <p>LARES Language and Religion: Lexical Change and Variation in Religious Enculturation / Acculturation phenomena of the Ancient World (<a href="https://site.unibo.it/lares/en/" target="_blank">https://site.unibo.it/lares/en/</a>) is a research forsight project funded by the action  'seed funding' of the UNA-Europa Network and it is promoted jointly by: Alma Mater Studiorum – Università di Bologna, Helsingin Yliopisto, Uniwersytet Jagielloński w Krakowie, Universidad Complutense de Madrid.</p>
             
             <p>This website includes also the database of the Research project "<i>Animal Sacrifice in Ancient Greece in the Light of Philological Testimonies</i>" funded by the National Science Centre (UMO-2013/09/B/HS2/01208), conducted in the Institute of Classical Studies of the Jagiellonian University (previously hosted at <a target="_blank" href="http://www.sacrificium.filg.uj.edu.pl">http://www.sacrificium.filg.uj.edu.pl</a>).</p>
