@@ -38,7 +38,7 @@
       <p id="toggle_buttons"><b>Show/hide: </b>
         <button class="placeName" id="toggle_placeName">pratica</button>
         <button class="persName" id="toggle_persName">credenza</button>
-        <button class="orgName" id="toggle_orgName">cult</button>
+        <button class="orgName" id="toggle_orgName">culto</button>
         <button class="geogName" id="toggle_geogName">finzione</button>
         <button class="date" id="toggle_date">segno</button>
         <button class="rs" id="toggle_rs">significato</button>
