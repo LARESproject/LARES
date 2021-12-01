@@ -432,10 +432,10 @@ ab placeName:before {
       
       change {
           content: "When:" oxy_editor(type, datePicker, columns, 13, edit, "@when", format, "yyyy-MM-dd")
-        "  Who:" oxy_editor(type, combo, edit, "@who" editable, true, columns, 18,
+        "  Who:" oxy_editor(type, combo, edit, "@who" editable, true, columns, 22,
              values, "gpviscardi, kbielawski, other")
           "  Type of change:"
-          oxy_editor(type, combo, edit, "#text", editable, true, columns, 18, values, "creation of record, changes, minor changes, major changes");
+          oxy_editor(type, combo, edit, "#text", editable, true, columns, 24, values, "creation of record, changes, minor changes, major changes");
           margin:10px 20px 15px 20px;
           visibility: -oxy-collapse-text ;
           display:block;
