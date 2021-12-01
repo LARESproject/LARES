@@ -45,6 +45,11 @@
     <p id="{@xml:id}"><xsl:apply-templates/></p>
   </xsl:template>
   
+  <xsl:template priority="10" match="tei:titleStmt/tei:title">
+    <xsl:value-of select="."/>
+    <xsl:apply-templates/>
+  </xsl:template>
+  
   <!--<xsl:template match="tei:div[@n][ancestor::tei:TEI[@xml:id]]">
     <div id="{concat(ancestor::tei:TEI/@xml:id,'-',@n)}"><xsl:apply-templates/></div>
   </xsl:template>-->

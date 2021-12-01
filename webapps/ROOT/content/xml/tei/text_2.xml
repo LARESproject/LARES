@@ -4,7 +4,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Lys. 30.20.1</title>
+                <title xml:lang="en">Lys. 30.20.1</title>
+                <title xml:lang="it">Lys. 30.20.1</title>
+                <title xml:lang="pl">Lys. 30.20.1</title>
             </titleStmt>
             <publicationStmt>
                 <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>

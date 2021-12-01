@@ -4,7 +4,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Ath. 5.7</title>
+                <title xml:lang="en">Ath. 5.7</title>
+                <title xml:lang="it">Ath. 5.7</title>
+                <title xml:lang="pl">Ath. 5.7</title>
             </titleStmt>
             <publicationStmt>
                 <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
