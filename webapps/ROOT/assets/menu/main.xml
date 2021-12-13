@@ -10,11 +10,79 @@
   <menu label="Lexicon" match="local-epidoc-index-display" />
   <menu label="Texts" match="local-tei-index-display"/>
   <menu label="Book chapters">
-    <menu label="Comedy">
-      <item label="Ranae" match="local-tei-display-html" params="com_1_ranae"/>
-      <item label="Lysistrata" match="local-tei-display-html" params="com_2_lysistrata"/>
+    <menu label="I. Attic Tragedy">
+      <menu label="Aeschylos">
+        <item label="Persae" match="local-tei-display-html" params="trag_01_persae"/>
+        <item label="Septem contra Thebas" match="local-tei-display-html" params="trag_02_septem_contra_thebas"/>
+        <item label="Supplices" match="local-tei-display-html" params="trag_03_supplices"/>
+        <item label="Agamemnon" match="local-tei-display-html" params="trag_04_agamennon"/>
+        <item label="Choephori" match="local-tei-display-html" params="trag_05_cheophori"/>
+        <item label="Eumenides" match="local-tei-display-html" params="trag_06_eumenides"/>
+        <item label="Prometheus vinctus" match="local-tei-display-html" params="trag_07_prometheus_vinctus"/>
+      </menu>
+      <menu label="Sophocles">
+        <item label="Antigone" match="local-tei-display-html" params="trag_08_antigone"/>
+          <item label="Ajax" match="local-tei-display-html" params="trag_09_ajax"/>
+        <item label="Trachiniae" match="local-tei-display-html" params="trag_10_trachiniae"/>
+        <item label="Oedipus Tyrannus" match="local-tei-display-html" params="trag_11_oedipus_tyrannus"/>
+        <item label="Electra" match="local-tei-display-html" params="trag_12_electra"/>
+        <item label="Philoctetes" match="local-tei-display-html" params="trag_13_philoctetes"/>
+        <item label="Oedipus Coloneus" match="local-tei-display-html" params="trag_14_oedipus_coloneus"/>
+      </menu>
+      <menu label="Euripides">
+        <item label="Alcestis" match="local-tei-display-html" params="trag_15_alcestis"/>
+        <item label="Medea" match="local-tei-display-html" params="trag_16_medea"/>
+        <item label="Heraclidae" match="local-tei-display-html" params="trag_17_heraclidae"/>
+        <item label="Hippolytus" match="local-tei-display-html" params="trag_18_hippolytus"/>
+        <item label="Andromache" match="local-tei-display-html" params="trag_19_andromache"/>
+        <item label="Hecuba" match="local-tei-display-html" params="trag_20_hecuba"/>
+        <item label="Supplices" match="local-tei-display-html" params="trag_21_supplices"/>
+        <item label="Hercules" match="local-tei-display-html" params="trag_22_hercules"/>
+        <item label="Ion" match="local-tei-display-html" params="trag_23_ion"/>
+        <item label="Troades" match="local-tei-display-html" params="trag_24_troades"/>
+        <item label="Electra" match="local-tei-display-html" params="trag_25_electra"/>
+        <item label="Iphigenia Taurica" match="local-tei-display-html" params="trag_26_iphigenia_taurica"/>
+        <item label="Helena" match="local-tei-display-html" params="trag_27_helena"/>
+        <item label="Phoenissae" match="local-tei-display-html" params="trag_28_phoenissae"/>
+        <item label="Orestes" match="local-tei-display-html" params="trag_29_orestes"/>
+        <item label="Bacchae" match="local-tei-display-html" params="trag_30_bacchae"/>
+        <item label="Iphigenia Aulidensis" match="local-tei-display-html" params="trag_31_iphigenia_aulidensis"/>
+      </menu>
     </menu>
-    <menu label="Tragedy">
+    <menu label="II. Attic Comedy">
+      <item label="Aves" match="local-tei-display-html" params="com_01_aves"/>
+      <item label="Pax" match="local-tei-display-html" params="com_02_pax"/>
+      <item label="Acharnenses" match="local-tei-display-html" params="com_03_acharnenses"/>
+      <item label="Equites" match="local-tei-display-html" params="com_04_equites"/>
+      <item label="Nubes" match="local-tei-display-html" params="com_05_nubes"/>
+      <item label="Vespae" match="local-tei-display-html" params="com_06_vespae"/>
+      <item label="Lysistrata" match="local-tei-display-html" params="com_2_lysistrata"/><!-- 07 -->
+      <item label="Thesmophoriazousae" match="local-tei-display-html" params="com_08_thesmophoriazousae"/>
+      <item label="Ranae" match="local-tei-display-html" params="com_1_ranae"/><!-- 09 -->
+      <item label="Ecclesiazousae" match="local-tei-display-html" params="com_10_ecclesiazousae"/>
+      <item label="Plutus" match="local-tei-display-html" params="com_11_plutus"/>
+      <item label="Fragments" match="local-tei-display-html" params="com_12_fragments"/>
+    </menu>
+    <menu label="III. Corpus Platonicum. Corpus Hippocraticum">
+      <menu label="Corpus Platonicum">
+        <item label="Cratylus" match="local-tei-display-html" params="cph_01_cratylus"/>
+        <item label="Critias" match="local-tei-display-html" params="cph_02_critias"/>
+        <item label="Euthydemus" match="local-tei-display-html" params="cph_03_euthydemus"/>
+        <item label="Euthyphro" match="local-tei-display-html" params="cph_04_euthyphro"/>
+        <item label="Leges" match="local-tei-display-html" params="cph_05_leges"/>
+        <item label="Lysis" match="local-tei-display-html" params="cph_06_lysis"/>
+        <item label="Phaedo" match="local-tei-display-html" params="cph_07_phaedo"/>
+        <item label="Politicus" match="local-tei-display-html" params="cph_08_politicus"/>
+        <item label="Protagoras" match="local-tei-display-html" params="cph_09_protagoras"/>
+        <item label="Respublica" match="local-tei-display-html" params="cph_10_respublica"/>
+        <item label="Symposium" match="local-tei-display-html" params="cph_11_symposium"/>
+        <item label="Pseudo-Platon, Alcibiades II" match="local-tei-display-html" params="cph_12_alcibiades_ii"/>
+        <item label="Pseudo-Platon, Epistula VII" match="local-tei-display-html" params="cph_13_epistula_vii"/>
+        <item label="Pseudo-Platon, Minos" match="local-tei-display-html" params="cph_14_minos"/>
+      </menu>
+      <item label="Corpus Hippocraticum" match="local-tei-display-html" params="cph_15_corpus_hippocraticum"/>
+    </menu>
+    <menu label="IV. Homer">
     </menu>
   </menu>
   <menu label="Bibliography" match="local-tei-display-html" params="bibliography"/>
