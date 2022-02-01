@@ -29,6 +29,7 @@
               <gloss xml:lang="it">Credenza (mito)</gloss>
               <gloss xml:lang="en">Belief (myth)</gloss>
               <category xml:id="mythical_communication"/>
+              <category xml:id="mythical_object"/>
             </category>
             <category xml:id="fiction" n="1.3">
               <gloss xml:lang="it">Finzione (simbolo)</gloss>
