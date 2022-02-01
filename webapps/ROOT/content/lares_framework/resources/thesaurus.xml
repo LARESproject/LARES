@@ -16,7 +16,6 @@
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="thesaurus">
-          
           <category xml:id="communication" n="1">
             <gloss xml:lang="it">Dominio 1: Comunicazione</gloss>
             <gloss xml:lang="en">Field 1: Communication</gloss>
@@ -67,6 +66,12 @@
               <gloss xml:lang="en">Realm of the structures</gloss>
             </category>
           </category>
+        </taxonomy>
+        
+        <taxonomy xml:id="types">
+          <category xml:id="ritual_object"/>
+          <category xml:id="rhetoric_representation"/>
+          <category xml:id="mythical_communication"/>
         </taxonomy>
       </classDecl>
     </encodingDesc>

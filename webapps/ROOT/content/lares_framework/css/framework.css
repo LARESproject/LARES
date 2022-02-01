@@ -30,9 +30,10 @@ div geogName { background-color: #ccffcc; }
 div date { background-color: #ffccff; }
     
 div rs:before, div placeName:before, div geogName:before, div orgName:before, div persName:before {
-        content:  "REALM: " oxy_editor(type, popupSelection, edit, "@key", editable, false,
+        content:  " REALM: " oxy_editor(type, popupSelection, edit, "@key", editable, false,
              values, oxy_concat("", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category[ancestor::category]/@xml:id, ",")'))))
-             " TYPE: " oxy_editor( type, text, edit, "@type", columns, 20);
+             " TYPE: " oxy_editor(type, popupSelection, edit, "@type", editable, false,
+             values, oxy_concat("", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="types"]//category/@xml:id, ",")')))) " ";
         display:inline;
     }  
 /*End of markup inside the text*/      
