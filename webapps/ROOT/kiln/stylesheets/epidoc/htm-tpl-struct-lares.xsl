@@ -37,58 +37,71 @@
 
       <p id="toggle_buttons"><b>Show/hide: </b>
         <br/>COMMUNICATION:
-        <button class="placeName" id="toggle_placeName">practice (rite)</button>
-        <button class="persName" id="toggle_persName">belief (myth)</button>
-        <button class="orgName" id="toggle_orgName">fictio (symbol)</button>
+        <button class="practice" id="toggle_practice">practice (rite)</button>
+        <button class="belief" id="toggle_belief">belief (myth)</button>
+        <button class="fiction" id="toggle_fiction">fiction (symbol)</button>
         <br/>REPRESENTATION:
-        <button class="geogName" id="toggle_geogName">sign (semiotics)</button>
-        <button class="date" id="toggle_date">sense (semantics)</button>
-        <button class="rs" id="toggle_rs">speech (rhetoric)</button>
+        <button class="sign" id="toggle_sign">sign (semiotics)</button>
+        <button class="sense" id="toggle_sense">sense (semantics)</button>
+        <button class="speech" id="toggle_speech">speech (rhetoric)</button>
         <br/>FRUITION:
-        <button class="links" id="toggle_links">systems</button>
-        <button class="date" id="toggle_date">instruments</button>
-        <button class="rs" id="toggle_rs">structures</button>
+        <button class="systems" id="toggle_systems">systems</button>
+        <button class="instruments" id="toggle_instruments">instruments</button>
+        <button class="structures" id="toggle_structures">structures</button>
       </p>
+      
       <script>
          $(document).ready(function(){
-         $("#toggle_persName").click(function(){
-         $(".persName").toggleClass("_persName");
+         $("#toggle_practice").click(function(){
+         $(".practice").toggleClass("_practice");
          });
          });
          
          $(document).ready(function(){
-         $("#toggle_placeName").click(function(){
-         $(".placeName").toggleClass("_placeName");
+         $("#toggle_belief").click(function(){
+         $(".belief").toggleClass("_belief");
          });
          });
          
          $(document).ready(function(){
-         $("#toggle_orgName").click(function(){
-         $(".orgName").toggleClass("_orgName");
+         $("#toggle_fiction").click(function(){
+         $(".fiction").toggleClass("_fiction");
          });
          });
          
          $(document).ready(function(){
-         $("#toggle_geogName").click(function(){
-         $(".geogName").toggleClass("_geogName");
+         $("#toggle_sign").click(function(){
+         $(".sign").toggleClass("_sign");
          });
          });
          
          $(document).ready(function(){
-         $("#toggle_date").click(function(){
-         $(".date").toggleClass("_date");
+         $("#toggle_sense").click(function(){
+         $(".sense").toggleClass("_sense");
          });
          });
          
          $(document).ready(function(){
-         $("#toggle_rs").click(function(){
-         $(".rs").toggleClass("_rs");
+         $("#toggle_speech").click(function(){
+         $(".speech").toggleClass("_speech");
          });
          });
          
          $(document).ready(function(){
-         $("#toggle_links").click(function(){
-         $(".links").toggleClass("_links");
+         $("#toggle_systems").click(function(){
+         $(".systems").toggleClass("_systems");
+         });
+         });
+         
+         $(document).ready(function(){
+         $("#toggle_instruments").click(function(){
+         $(".instruments").toggleClass("_instruments");
+         });
+         });
+         
+         $(document).ready(function(){
+         $("#toggle_structures").click(function(){
+         $(".structures").toggleClass("_structures");
          });
          });
        </script>
@@ -296,31 +309,16 @@
   <xsl:template match="t:foreign|t:title[not(parent::t:titleStmt)]">
     <i><xsl:apply-templates/></i>
   </xsl:template>
+  
 
-  <xsl:template match="t:persName[ancestor::t:div[@type = 'edition']]">
-    <span class="persName"><xsl:apply-templates/></span>
-    <xsl:if test="@ref !=''"><a target="_blank" class="links hidden"><xsl:attribute name="href"><xsl:value-of select="concat('../texts/people.html#', substring-after(translate(@ref, '#', ''), 'people/'))"/></xsl:attribute> ➚</a></xsl:if>
-  </xsl:template>
-  <xsl:template match="t:placeName[ancestor::t:div[@type = 'edition']]">
-    <span class="placeName"><xsl:apply-templates/></span>
-    <xsl:if test="@ref !=''"><a target="_blank" class="links hidden"><xsl:attribute name="href"><xsl:value-of select="concat('../texts/places.html#', substring-after(translate(@ref, '#', ''), 'places/'))"/></xsl:attribute> ➚</a></xsl:if>
-  </xsl:template>
-  <xsl:template match="t:orgName[ancestor::t:div[@type = 'edition']]">
-    <span class="orgName"><xsl:apply-templates/></span>
-    <xsl:if test="@ref !=''"><a target="_blank" class="links hidden"><xsl:attribute name="href"><xsl:value-of select="concat('../texts/juridical_persons.html#', substring-after(translate(@ref, '#', ''), 'juridical_persons/'))"/></xsl:attribute> ➚</a></xsl:if>
-  </xsl:template>
-  
-  <xsl:template match="t:geogName[ancestor::t:div[@type = 'edition']]">
-    <span class="geogName"><xsl:apply-templates/></span>
-    <xsl:if test="@ref !=''"><a target="_blank" class="links hidden"><xsl:attribute name="href"><xsl:value-of select="concat('../texts/estates.html#', substring-after(translate(@ref, '#', ''), 'estates/'))"/></xsl:attribute> ➚</a></xsl:if>
-  </xsl:template>
-  
-  <xsl:template match="t:rs[ancestor::t:div[@type = 'edition']]">
-    <span class="rs"><xsl:apply-templates/></span>
-  </xsl:template>
-  
-  <xsl:template match="t:date[ancestor::t:div[@type = 'edition']]">
-    <span class="date"><xsl:apply-templates/></span>
+  <xsl:template match="t:rs[@key][ancestor::t:div[@type='edition']]">
+    <span class="popup_box">
+      <span class="{@key}"><xsl:apply-templates/></span>
+      <span class="popup">
+        <xsl:value-of select="@key"/>
+        <xsl:if test="@corresp!=''"><xsl:text>; </xsl:text><xsl:value-of select="@corresp"/></xsl:if></span>
+    </span>
+    <a target="_blank" class="links" href="../indices/epidoc/realms.html#{.}"> ➚</a>
   </xsl:template>
   
   <xsl:template match="t:quote">

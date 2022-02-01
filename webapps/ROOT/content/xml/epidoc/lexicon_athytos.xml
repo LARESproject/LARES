@@ -33,24 +33,22 @@
                 </div>
                 <div type="textpart" n="Morfologia">
                     <head>Morfologia</head>
-                    <p>La parola appare in due <placeName>varianti</placeName>, ἄθυτος e <ref
+                    <p>La parola appare in due varianti, ἄθυτος e <ref
                             corresp="http://stephanus.tlg.uci.edu/lsj/#eid=2199">ἄθυστος</ref>,
-                        l'ultima delle quali ricorre solo nel <geogName>verso</geogName> di Simonide
-                            (<ref corresp="../texts/com_1_ranae.html#Rane_847–848">7.56</ref>),
+                        l'ultima delle quali ricorre solo nel verso di Simonide
+                            (<ref corresp="../texts/com_1_ranae.html#Rane_847–848">7.56</ref><!-- sample link, to be removed -->),
                         trasmesso dai manoscritti di Stobaios, altrimenti attestato altrove (<ref
                             corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2013.01.0003%3Abook%3D5%3Achapter%3D7"
                             >Ath. 5.7</ref> = <ref corresp="../texts/text_1.html">179d</ref>) con la
-                        lezione ἄθυτος. È possibile, quindi, che la <rs>controversia</rs> sia il
-                        risultato di un errore o di una <ref corresp="lexicon_religio.html"
-                            >reinterpretazione</ref> volta a spiegare il lungo prodotto della
-                            <persName>sillaba</persName> pre-finale chiudendola con una
-                            <date>consonante</date> (ciò è, peraltro, inutile, poiché la <placeName
-                            ref="Athens">sillaba</placeName>, pur essendo aperta, può chiaramente
-                        essere lunga come in <orgName>Eur. <title>H.</title> 147</orgName>).
+                        lezione ἄθυτος. È possibile, quindi, che la controversia sia il
+                        risultato di un errore o di una reinterpretazione volta a spiegare il lungo prodotto della
+                            sillaba pre-finale chiudendola con una
+                            consonante (ciò è, peraltro, inutile, poiché la sillaba, pur essendo aperta, può chiaramente
+                        essere lunga come in Eur. <title>H.</title> 147).
                         Entrambe le varianti sono chiaramente sinonimi e mostrano una struttura
                         identica: <foreign>alfa privativum</foreign> + elemento (-thu- o -thus-) +
-                            <geogName>morfema</geogName> derivazionale adiectivum verbale + finale.
-                        Una tale struttura suggerisce il significato: non <rs>bruciata</rs> in
+                            morfema derivazionale adiectivum verbale + finale.
+                        Una tale struttura suggerisce il significato: non bruciata in
                         offerta/non sacrificata/non offerta/non offerta.</p>
                 </div>
                 <div type="textpart" n="Attestazioni">
@@ -92,7 +90,7 @@
                         esercito a combattere) ἀθύτων καὶ ἀκαλλιερήτων ὄντων τῶν ἱερῶν - sebbene i
                         sacrifici fossero falliti e i segni fossero cattivi.</p>
                     <p>5) Nella letteratura ebraica la parola acquista significato: [un rituale]
-                        eseguito in contrasto con le norme religiose:</p>
+                        eseguito in contrasto con le norme <ref corresp="lexicon_religio.html">religiose</ref>:</p>
                     <p>Ph. V.M. 2.107.2: ἄθυτοι θυσίαι - sacrifici contrari ai regolamenti.</p>
                     <p>LXX Le. 19.7: ἐὰν δὲ βρώσει βρωθῇ τῇ ἡμέρᾳ τῇ τρίτῃ, ἄθυτόν ἐστιν - se
                         qualcuno mangia il cibo [del sacrificio] il terzo giorno, esso [il cibo]

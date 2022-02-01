@@ -369,29 +369,50 @@ a:link.button, a:visited.button, a:focus.button, a:hover.button, a:active.button
     border-width: thin !important;
     padding: 4px 1px 1px 1px;
 }
-._persName {
+
+._practice {
     display: inline !important;
     background-color: #ffffcc !important;
     padding: 4px 0px 1px 0px;
 }
-._orgName {
+._belief {
     display: inline !important;
     background-color: #ffe6e6 !important;
     padding: 4px 0px 1px 0px;
 }
-._geogName {
+._fiction {
     display: inline !important;
     background-color: #ccffcc !important;
     padding: 4px 0px 1px 0px;
 }
-._placeName {
+._sign {
     display: inline !important;
     background-color: #e6e6ff !important;
     padding: 4px 0px 1px 0px;
 }
-._date {
+._sense {
     display: inline !important;
     background-color: #ffccff !important;
+    padding: 4px 0px 1px 0px;
+}
+._speech {
+    display: inline !important;
+    background-color: #ffd9b3 !important;
+    padding: 4px 0px 1px 0px;
+}
+._systems {
+    display: inline !important;
+    background-color: #ecd8c6 !important;
+    padding: 4px 0px 1px 0px;
+}
+._instruments {
+    display: inline !important;
+    background-color: #d1d1e0 !important;
+    padding: 4px 0px 1px 0px;
+}
+._structures {
+    display: inline !important;
+    background-color: #d6f5f5 !important;
     padding: 4px 0px 1px 0px;
 }
 
@@ -406,10 +427,36 @@ a:link.button, a:visited.button, a:focus.button, a:hover.button, a:active.button
     color: black;
 }
 
-#toggle_rs, #toggle_persName, #toggle_orgName, #toggle_geogName, #toggle_placeName, #toggle_date, #toggle_links {
+#toggle_practice, #toggle_belief, #toggle_fiction, #toggle_sign, #toggle_sense, #toggle_speech, #toggle_systems, #toggle_instruments, #toggle_structures {
     background-color: white;
     border-style: none;
     padding: 8px 8px 6px 8px;
+}
+
+/* Popup in documents */
+.popup_box {
+    position: relative;
+    display: inline;
+}
+
+.popup_box:hover .popup {
+    display: block;
+    z-index: 9;
+}
+
+.popup {
+    display: none;
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -140%);
+    text-align: center;
+    border: 1px solid #A9A9A9;
+    padding: 1px 7px 1px 7px;
+    color: white;
+    background-color: #546979;
+    width: 200px;
 }
 
 

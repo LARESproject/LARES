@@ -38,10 +38,13 @@
 
   <xsl:template match="result/doc">
     <tr>
+      <xsl:apply-templates select="str[@name='index_field']" />
       <xsl:apply-templates select="str[@name='index_item_name']" />
       <xsl:apply-templates select="str[@name='index_abbreviation_expansion']"/>
       <xsl:apply-templates select="str[@name='index_numeral_value']"/>
       <xsl:apply-templates select="arr[@name='language_code']"/>
+      <xsl:apply-templates select="str[@name='index_type']" />
+      <xsl:apply-templates select="str[@name='index_attested_form']" />
       <xsl:apply-templates select="str[@name='index_institution_type']" />
       <xsl:apply-templates select="str[@name='index_institution_role']" />
       <xsl:apply-templates select="str[@name='index_ethnic']" />
@@ -84,6 +87,24 @@
       <ul class="index-instances inline-list">
         <xsl:apply-templates select="str" />
       </ul>
+    </td>
+  </xsl:template>
+  
+  <xsl:template match="str[@name='index_field']">
+    <td>
+      <xsl:value-of select="."/>
+    </td>
+  </xsl:template>
+  
+  <xsl:template match="str[@name='index_type']">
+    <td>
+      <xsl:value-of select="."/>
+    </td>
+  </xsl:template>
+  
+  <xsl:template match="str[@name='index_attested_form']">
+    <td id="{.}">
+      <xsl:value-of select="."/>
     </td>
   </xsl:template>
   

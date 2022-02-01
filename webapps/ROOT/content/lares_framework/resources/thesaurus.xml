@@ -16,62 +16,63 @@
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="thesaurus">
-          <category xml:id="communication" n="1">
-            <gloss xml:lang="it">Dominio 1: Comunicazione</gloss>
-            <gloss xml:lang="en">Field 1: Communication</gloss>
+          <category xml:id="representation" n="1">
+            <gloss xml:lang="it">1: Rappresentazione</gloss> <!-- Field = Dominio -->
+            <gloss xml:lang="en">1: Representation</gloss>
             <category xml:id="practice" n="1.1">
-              <gloss xml:lang="it">Ambito della pratica (rito)</gloss>
-              <gloss xml:lang="en">Realm of the practice (rite)</gloss>
+              <gloss xml:lang="it">Pratica (rito)</gloss> <!-- Ambito = Realm -->
+              <gloss xml:lang="en">Practice (rite)</gloss>
+              <category xml:id="ritual_object"/>
+              <category xml:id="ritual_fumigations"/>
             </category>
             <category xml:id="belief" n="1.2">
-              <gloss xml:lang="it">Ambito della credenza (mito)</gloss>
-              <gloss xml:lang="en">Realm of the belief (myth)</gloss>
+              <gloss xml:lang="it">Credenza (mito)</gloss>
+              <gloss xml:lang="en">Belief (myth)</gloss>
+              <category xml:id="mythical_communication"/>
             </category>
             <category xml:id="fiction" n="1.3">
-              <gloss xml:lang="it">Ambito della finzione (simbolo)</gloss>
-              <gloss xml:lang="en">Realm of the fiction (symbol)</gloss>
+              <gloss xml:lang="it">Finzione (simbolo)</gloss>
+              <gloss xml:lang="en">Fiction (symbol)</gloss>
             </category>
           </category>
           
-          <category xml:id="representation" n="2">
-            <gloss xml:lang="it">Dominio 2: Rappresentazione</gloss>
-            <gloss xml:lang="en">Field 2: Representation</gloss>
+          <category xml:id="communication" n="2">
+            <gloss xml:lang="it">2: Comunicazione</gloss>
+            <gloss xml:lang="en">2: Communication</gloss>
             <category xml:id="sign" n="2.1">
-              <gloss xml:lang="it">Ambito del segno (semiotico)</gloss>
-              <gloss xml:lang="en">Realm of the sign (semiotics)</gloss>
+              <gloss xml:lang="it">Segno (semiotico)</gloss>
+              <gloss xml:lang="en">Sign (semiotics)</gloss>
             </category>
             <category xml:id="meaning" n="2.2">
-              <gloss xml:lang="it">Ambito del significato (semantico)</gloss>
-              <gloss xml:lang="en">Realm of the meaning (semantics)</gloss>
+              <gloss xml:lang="it">Significato (semantico)</gloss>
+              <gloss xml:lang="en">Meaning (semantics)</gloss>
             </category>
             <category xml:id="speech" n="2.3">
-              <gloss xml:lang="it">Ambito del discorso (retorico)</gloss>
-              <gloss xml:lang="en">Realm of the speech (rhetoric)</gloss>
+              <gloss xml:lang="it">Discorso (retorico)</gloss>
+              <gloss xml:lang="en">Speech (rhetoric)</gloss>
+                  <category xml:id="rhetoric_representation"/>
             </category>
           </category>
           
           <category xml:id="fruition" n="3">
-            <gloss xml:lang="it">Dominio 3: Fruizione</gloss>
-            <gloss xml:lang="en">Field 3: Fruition</gloss>
+            <gloss xml:lang="it">3: Fruizione</gloss>
+            <gloss xml:lang="en">3: Fruition</gloss>
             <category xml:id="systems" n="3.1">
-              <gloss xml:lang="it">Ambito dei sistemi</gloss>
-              <gloss xml:lang="en">Realm of the systems</gloss>
+              <gloss xml:lang="it">Sistemi</gloss>
+              <gloss xml:lang="en">Systems</gloss>
+              <category xml:id="reference_to_sacrificial_system"/>
             </category>
             <category xml:id="instruments" n="3.2">
-              <gloss xml:lang="it">Ambito degli strumenti</gloss>
-              <gloss xml:lang="en">Realm of the instruments</gloss>
+              <gloss xml:lang="it">Strumenti</gloss>
+              <gloss xml:lang="en">Instruments</gloss>
+              <category xml:id="juridical_instrument"/>
+              <category xml:id="sacrificial_action"/>
             </category>
             <category xml:id="structures" n="3.3">
-              <gloss xml:lang="it">Ambito delle strutture</gloss>
-              <gloss xml:lang="en">Realm of the structures</gloss>
+              <gloss xml:lang="it">Strutture</gloss>
+              <gloss xml:lang="en">Structures</gloss>
             </category>
           </category>
-        </taxonomy>
-        
-        <taxonomy xml:id="types">
-          <category xml:id="ritual_object"/>
-          <category xml:id="rhetoric_representation"/>
-          <category xml:id="mythical_communication"/>
         </taxonomy>
       </classDecl>
     </encodingDesc>

@@ -28,6 +28,22 @@
           <p></p>
         </div> -->
       </div>
+      
+      <div xml:id="realms">
+        <head>Fields and realms</head>
+        <div type="headings">
+          <list>
+            <item>Field</item>
+            <item>Realm</item>
+            <item>Type</item>
+            <item>Specific term</item>
+            <item>Documents</item>
+          </list>
+        </div>
+        <!--<div type="notes">
+          <p></p>
+        </div> -->
+      </div>
     </body>
   </text>
 </TEI>

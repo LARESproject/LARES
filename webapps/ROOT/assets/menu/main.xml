@@ -87,6 +87,7 @@
   </menu>
   <menu label="Bibliography" match="local-tei-display-html" params="bibliography"/>
   <menu label="Indices">
+    <item label="Fields and realms" match="local-index-display-html" params="epidoc realms"/>
     <item label="Divinites" match="local-index-display-html" params="epidoc divine"/>
   </menu>
   <!--<menu label="Concordances">

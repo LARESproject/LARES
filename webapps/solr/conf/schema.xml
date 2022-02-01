@@ -140,7 +140,11 @@
    <field name="origin_place" type="string" indexed="true"
           multiValued="true" stored="true" required="false" />
    <field name="support_object_type" type="string" indexed="true"
-          multiValued="true" stored="true" required="false" />
+     multiValued="true" stored="true" required="false" />
+   <field name="field" type="string" indexed="true"
+     multiValued="true" stored="true" required="false" />
+   <field name="realm" type="string" indexed="true"
+     multiValued="true" stored="true" required="false" />
    <field name="support_material" type="string" indexed="true"
           multiValued="true" stored="true" required="false" />
    <field name="found_provenance" type="string" indexed="true"
@@ -174,6 +178,12 @@
    <field name="index_institution_role" stored="true" indexed="true"
      multiValued="false" required="false" type="string" />
    <field name="index_institution_type" stored="true" indexed="true"
+     multiValued="false" required="false" type="string" />
+   <field name="index_field" stored="true" indexed="true"
+     multiValued="false" required="false" type="string" />
+   <field name="index_type" stored="true" indexed="true"
+     multiValued="false" required="false" type="string" />
+   <field name="index_attested_form" stored="true" indexed="true"
      multiValued="false" required="false" type="string" />
    <field name="index_ethnic" stored="true" indexed="true"
      multiValued="false" required="false" type="string" />
