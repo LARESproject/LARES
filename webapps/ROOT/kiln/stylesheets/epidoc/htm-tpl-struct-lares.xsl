@@ -36,16 +36,18 @@
       </p>
 
       <p id="toggle_buttons"><b>Show/hide: </b>
-        <button class="placeName" id="toggle_placeName">pratica</button>
-        <button class="persName" id="toggle_persName">credenza</button>
-        <button class="orgName" id="toggle_orgName">culto</button>
-        <button class="geogName" id="toggle_geogName">finzione</button>
-        <button class="date" id="toggle_date">segno</button>
-        <button class="rs" id="toggle_rs">significato</button>
-        <button class="links" id="toggle_links">discorso</button>
-        <button class="date" id="toggle_date">sistemi</button>
-        <button class="rs" id="toggle_rs">strumenti</button>
-        <button class="links" id="toggle_links">strutture</button>
+        <br/>COMMUNICATION:
+        <button class="placeName" id="toggle_placeName">practice (rite)</button>
+        <button class="persName" id="toggle_persName">belief (myth)</button>
+        <button class="orgName" id="toggle_orgName">fictio (symbol)</button>
+        <br/>REPRESENTATION:
+        <button class="geogName" id="toggle_geogName">sign (semiotics)</button>
+        <button class="date" id="toggle_date">sense (semantics)</button>
+        <button class="rs" id="toggle_rs">speech (rhetoric)</button>
+        <br/>FRUITION:
+        <button class="links" id="toggle_links">systems</button>
+        <button class="date" id="toggle_date">instruments</button>
+        <button class="rs" id="toggle_rs">structures</button>
       </p>
       <script>
          $(document).ready(function(){
