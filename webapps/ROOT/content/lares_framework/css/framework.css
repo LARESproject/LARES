@@ -32,8 +32,9 @@ div date { background-color: #ffccff; }
 div rs:before, div placeName:before, div geogName:before, div orgName:before, div persName:before {
         content:  " REALM: " oxy_editor(type, popupSelection, edit, "@key", editable, false,
              values, oxy_concat("", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category[ancestor::category[1]][not(ancestor::category[2])]/@xml:id, ",")'))))
-             " TYPE: " oxy_editor(type, popupSelection, edit, "@corresp", editable, false,
-             values, oxy_concat("", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category[ancestor::category[2]]/@xml:id, ",")')))) " ";
+             /*" TYPE: " oxy_editor(type, popupSelection, edit, "@corresp", editable, false,
+             values, oxy_concat("", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category[ancestor::category[2]]/@xml:id, ",")'))))*/
+             " ";
         display:inline;
     }  
 /*End of markup inside the text*/      

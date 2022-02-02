@@ -84,9 +84,9 @@
               </xsl:otherwise>
             </xsl:choose>
           </field>
-          <field name="index_type">
+          <!--<field name="index_type">
             <xsl:value-of select="@corresp" />
-          </field>
+          </field>-->
           <field name="index_attested_form">
             <xsl:value-of select="." />
           </field>

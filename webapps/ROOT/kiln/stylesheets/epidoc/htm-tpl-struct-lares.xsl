@@ -316,7 +316,7 @@
       <span class="{@key}"><xsl:apply-templates/></span>
       <span class="popup">
         <xsl:value-of select="@key"/>
-        <xsl:if test="@corresp!=''"><xsl:text>; </xsl:text><xsl:value-of select="@corresp"/></xsl:if></span>
+        <!--<xsl:if test="@corresp!=''"><xsl:text>; </xsl:text><xsl:value-of select="@corresp"/></xsl:if>--></span>
     </span>
     <a target="_blank" class="links" href="../indices/epidoc/realms.html#{.}"> ➚</a>
   </xsl:template>
