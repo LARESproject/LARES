@@ -30,31 +30,41 @@
             <div type="edition">
                 <div type="textpart" n="morfologia">
                     <head>Morfologia</head>
-                    <p><emph>Βαρεĩα</emph>, agg., <foreign>f</foreign> (βᾰρῠ́ς <foreign>m</foreign>, βᾰρύ <foreign>n</foreign>). Dal proto-ellenico *<foreign>gʷarus</foreign>, dal proto-indoeuropeo *<foreign>gʷréh₂us</foreign>. Affine al sanscrito <foreign>guru</foreign>- (da cui il sost. <foreign>guru</foreign>, cfr. GUSMANI 1971, 98-105), latino <foreign>gravis</foreign> (da cui <foreign>gravitas</foreign>, cfr. WAGENVOORT 1941; vedi anche GONDA 1947, 124).</p>
-                    <p><emph>Χείρ</emph>, sost., <foreign>f</foreign> (<foreign>genitivo</foreign> χειρός). Dal proto-ellenico *<foreign>kʰéhər</foreign>, dal proto-indoeuropeo *<foreign>ǵʰésōr</foreign>. Affine all'antico armeno (grabar o krapar) <foreign>jeṙn</foreign>, persiano antico <foreign>d-s-t</foreign> /dasta/, albanese <foreign>dorë</foreign>, tocario A (tocario orientale) <foreign>tsar</foreign>, latino <foreign>hir</foreign>.</p>
+                    <p><emph>Βαρεĩα</emph>, agg., <foreign>f</foreign> (βᾰρῠ́ς <foreign>m</foreign>, βᾰρύ <foreign>n</foreign>). 
+                        Dal proto-ellenico *<foreign>gʷarus</foreign>, dal proto-indoeuropeo *<foreign>gʷréh₂us</foreign>. 
+                        Affine al sanscrito <foreign>guru</foreign>- (da cui il sost. <foreign>guru</foreign>, cfr. GUSMANI 1971, 98-105), 
+                        latino <foreign>gravis</foreign> (da cui <foreign>gravitas</foreign>, cfr. WAGENVOORT 1941; vedi anche GONDA 1947, 124).</p>
+                    <p><emph>Χείρ</emph>, sost., <foreign>f</foreign> (<foreign>genitivo</foreign> χειρός). 
+                        Dal proto-ellenico *<foreign>kʰéhər</foreign>, dal proto-indoeuropeo *<foreign>ǵʰésōr</foreign>. 
+                        Affine all'antico armeno (grabar o krapar) <foreign>jeṙn</foreign>, persiano antico <foreign>d-s-t</foreign> /dasta/,
+                        albanese <foreign>dorë</foreign>, tocario A (tocario orientale) <foreign>tsar</foreign>, latino <foreign>hir</foreign>.</p>
                 </div>
                 <div type="textpart" n="credenziali">
                     <head>Credenziali</head>
-                    <p>La prima attestazione del sintagma βαρεĩα χείρ si ha in <title>Ilias</title>
-                        I.219 (χεĩρα βαρεĩαν; attestato al plurale già in <title>Ilias</title> I.89:
+                    <p>La prima attestazione del sintagma βαρεĩα χείρ si ha in 
+                        <ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Hom.+Il.+1.219&amp;fromdoc=Perseus%3Atext%3A1999.01.0133"><title>Ilias</title> 
+                            I.219</ref> (χεĩρα βαρεĩαν; attestato al plurale già in
+                        <ref corresp="../texts/com_1_ranae.html#Rane_847–848"><title>Ilias</title> I.89</ref><!-- sample link, to be removed -->:
                         βαρείας χεĩρας). Siamo alla scena della lite iniziale tra Achille e
                         Agamennone che scatenerà l’ira funesta dell’eroe di Ftia e il suo temporaneo
-                        ritiro dalla guerra contro <placeName
-                            ref="Troy">Troia</placeName> (vv. 84-100): l’indovino Calcante ha appena
-                        vaticinato che Apollo Lungisaettante getterà gran pena sui Danai finché
-                        Criseide – fatta prigioniera a Troia e andata, come bottino di guerra, al re
-                        degli Argivi Agamennone – non sarà liberata e restituita al padre Crise,
-                        sacerdote del dio; costretto perciò dal Pelìde a restituire a suo padre
-                        Criseide, il tracotante Agamennone decide allora di prendersi Briseide,
-                        bottino di guerra di Achille, come atto di forza sul re dei Mirmìdoni.
-                        Accecato dall’ira, Achille «fu incerto tra due: se sfilare la <rs
-                            key="practice"><emph>spada puntuta</emph></rs>
-                        via dalla coscia (<rs key="belief">φάσγανον</rs> = <rs key="practice">μάχαιρα</rs>) e uccidere
-                        l’Atride o se calmare l’ira e contenere il cuore»; ma interviene Atena a
-                        fermare l’eroe, prendendolo per la chioma, e a placarne l’animo, inducendolo
-                        a «trattenere la <emph><rs key="speech">mano pesante</rs></emph> 
-                        sull’elsa d’argento» e a «rinfoderare la
-                        spada (<rs key="belief">ξίφος</rs> = <rs key="belief">ἄορ</rs>)»:</p>
+                        ritiro dalla guerra contro <placeName ref="Troy">Troia</placeName> 
+                        (<ref corresp="../texts/text_1.html">vv. 84-100</ref>)<!-- sample link, to be removed -->: 
+                        l’indovino Calcante ha appena vaticinato che Apollo Lungisaettante
+                        getterà gran pena sui Danai finché Criseide – fatta prigioniera a Troia e
+                        andata, come bottino di guerra, al re degli Argivi Agamennone – non sarà
+                        liberata e restituita al padre Crise, sacerdote del dio; costretto perciò
+                        dal Pelìde a restituire a suo padre Criseide, il tracotante Agamennone
+                        decide allora di prendersi Briseide, bottino di guerra di Achille, come atto
+                        di forza sul re dei Mirmìdoni. Accecato dall’ira, Achille «fu incerto tra
+                        due: se sfilare la <rs key="practice"><emph>spada puntuta</emph></rs> via
+                        dalla coscia ( <ref corresp="lexicon_phasganon.html"><rs key="belief">φάσγανον</rs></ref> =  
+                        <ref corresp="lexicon_machaira.html"><rs key="practice"
+                            >μάχαιρα</rs></ref>) e uccidere l’Atride o se calmare l’ira e contenere il
+                        cuore»; ma interviene Atena a fermare l’eroe, prendendolo per la chioma, e a
+                        placarne l’animo, inducendolo a «trattenere la <emph><rs key="speech">mano
+                                pesante</rs></emph> sull’elsa d’argento» e a «rinfoderare la spada
+                        ( <ref corresp="lexicon_xiphos.html"><rs key="belief">ξίφος</rs></ref> =  
+                        <ref corresp="lexicon_aor.html"><rs key="belief">ἄορ</rs></ref>)»:</p>
                     <quote><title>Ilias</title> I.188-192:
                         <lb/>Πηλεΐωνι δ᾽ ἄχος γένετ᾽, ἐν δέ οἱ  ἦτορ <lb/><ref
                             corresp="http://www.perseus.tufts.edu/hopper/morph?l=sth%2Fqessin"
@@ -68,7 +78,8 @@
                         tra due:/ se sfilando la <emph>spada</emph> acuminata via dalla coscia,/
                         facesse alzare gli altri, ammazzasse l’Atride,/ o se calmasse l’ira e
                         contenesse il cuore).</quote>
-                    <quote><title>Ilias</title> I.219-221: <lb/>ἦ καὶ ἐπ᾽ ἀργυρέῃ κώπῃ σχέθε <rs key="speech">χεῖρα βαρεῖαν</rs>,
+                    <quote><title>Ilias</title> I.219-221: <lb/>ἦ καὶ ἐπ᾽ ἀργυρέῃ κώπῃ σχέθε <rs
+                            key="speech">χεῖρα βαρεῖαν</rs>,
                         <lb/>ἂψ δ᾽ ἐς κουλεὸν ὦσε μέγα ξίφος, οὐδ᾽ ἀπίθησε
                         <lb/>μύθῳ Ἀθηναίης·</quote>
                     <quote>(Così sull’elsa d’argento trattenne la <emph>mano pesante</emph>, spinse
@@ -76,9 +87,9 @@
                         di Atena).</quote>
                     <quote>Cfr. <title>Illias</title> I.84-89:
                         <lb/>τὸν δ᾽ ἀπαμειβόμενος προσέφη πόδας ὠκὺς Ἀχιλλεύς:
-                        <lb/>‘θαρσήσας μάλα εἰπὲ θεοπρόπιον ὅ τι οἶσθα:
-                        <lb/>οὐ μὰ γὰρ <persName type="divine">Ἀπόλλωνα</persName> 
-                        <persName type="divine">Διῒ</persName> φίλον, ᾧ τε σὺ Κάλχαν
+                        <lb/>‘θαρσήσας μάλα εἰπὲ θεοπρόπιον ὅ τι οἶσθα: <lb/>οὐ μὰ γὰρ <persName
+                            type="divine">Ἀπόλλωνα</persName>  <persName type="divine"
+                            >Διῒ</persName> φίλον, ᾧ τε σὺ Κάλχαν
                         <lb/>εὐχόμενος Δαναοῖσι θεοπροπίας ἀναφαίνεις,
                         <lb/>οὔ τις ἐμεῦ ζῶντος καὶ ἐπὶ χθονὶ δερκομένοιο
                             <lb/>σοὶ κοίλῃς παρὰ νηυσί <rs key="speech">βαρείας χεῖρας</rs> ἐποίσει
@@ -101,30 +112,31 @@
                         summenzionata le cui principali attestazioni si concentrano nel secondo
                         poema del ciclo epico e precisamente nei due libri relativi all’incontro di
                         Odisseo con Circe e all’evocazione dei morti dove, in un caso,
-                            <foreign>xiphos</foreign> è sostituito da <rs key="belief"><emph><foreign>aor</foreign></emph></rs>.</p>
+                            <foreign>xiphos</foreign> è sostituito da <rs key="belief"
+                                    ><emph><foreign>aor</foreign></emph></rs>.</p>
                     <p>Nel primo episodio, lo <foreign>xiphos</foreign> o <foreign>aor</foreign>
                         indica l’arma o piuttosto il rimedio utilizzato dall’eroe per vanificare
-                        l’effetto della <rs key="belief"><emph><foreign>rhabdos</foreign></emph></rs> di Circe,
-                        neutralizzando il potere magico della bacchetta della fattucchiera tessalica
-                        con «la spada puntuta sguainata all’altezza della coscia»
-                            (<title>Odyssea</title> X.294: ξίφος ὀξὺ ἐρυσσάμενος παρὰ μηροῦ e 321:
-                        ἄορ ὀξὺ ἐρυσσάμενος παρὰ μηροῦ). Nell’episodio della <title>Nekyia</title>,
-                        invece, l’<foreign>aor</foreign> è lo strumento con cui il supplice
-                        Laerziade scava la fossa su cui versare le libagioni funebri di rito
-                            (<title>Odyssea</title> XI.24: ἄορ ὀξὺ ἐρυσσάμενος παρὰ μηροῦ);
-                        successivamente, dopo aver invocato con voti e suppliche le stirpi dei
-                        morti, una volta tagliata la gola alle bestie scelte per il sacrificio in
-                        modo da farne scorrere il nero sangue fumante nella fossa appena scavata,
-                        mentre le anime dei defunti si affollano fuori dall’Erebo e i compagni
-                        invocano Ade invincibile e la tremenda Persefone, l’astuto Odisseo, con lo
-                            <foreign>xiphos</foreign> sguainato (<title>Odyssea</title> XI.48: ξίφος
-                        ὀξὺ ἐρυσσάμενος παρὰ μηροῦ), tiene a bada le teste esangui dei morti perché
-                        non si avvicinino al sangue delle vittime sgozzate prima che lui sia
-                        riuscito a interrogare il Tiresia. In seguito, l’eroe continua a tenere il
-                        coltello, indicato ora col termine <foreign>phasganon</foreign>, teso sulla
-                        linea di sangue tracciata tra sé e le schiere di trapassati, per tutto il
-                        tempo in cui rimane a colloquio con l’indovino tebano
-                            (<title>Odyssea</title>
+                        l’effetto della <rs key="belief"
+                            ><emph><foreign>rhabdos</foreign></emph></rs> di Circe, neutralizzando
+                        il potere magico della bacchetta della fattucchiera tessalica con «la spada
+                        puntuta sguainata all’altezza della coscia» (<title>Odyssea</title> X.294:
+                        ξίφος ὀξὺ ἐρυσσάμενος παρὰ μηροῦ e 321: ἄορ ὀξὺ ἐρυσσάμενος παρὰ μηροῦ).
+                        Nell’episodio della <title>Nekyia</title>, invece, l’<foreign>aor</foreign>
+                        è lo strumento con cui il supplice Laerziade scava la fossa su cui versare
+                        le libagioni funebri di rito (<title>Odyssea</title> XI.24: ἄορ
+                        ὀξὺ ἐρυσσάμενος παρὰ μηροῦ); successivamente, dopo aver invocato con voti e
+                        suppliche le stirpi dei morti, una volta tagliata la gola alle bestie scelte
+                        per il sacrificio in modo da farne scorrere il nero sangue fumante nella
+                        fossa appena scavata, mentre le anime dei defunti si affollano fuori
+                        dall’Erebo e i compagni invocano Ade invincibile e la tremenda Persefone,
+                        l’astuto Odisseo, con lo <foreign>xiphos</foreign> sguainato
+                            (<title>Odyssea</title> XI.48: ξίφος ὀξὺ ἐρυσσάμενος παρὰ μηροῦ), tiene
+                        a bada le teste esangui dei morti perché non si avvicinino al sangue delle
+                        vittime sgozzate prima che lui sia riuscito a interrogare il Tiresia. In
+                        seguito, l’eroe continua a tenere il coltello, indicato ora col termine
+                            <foreign>phasganon</foreign>, teso sulla linea di sangue tracciata tra
+                        sé e le schiere di trapassati, per tutto il tempo in cui rimane a colloquio
+                        con l’indovino tebano (<title>Odyssea</title>
                         XI.82: ἐγὼ μὲν ἄνευθεν ἐφ᾽ αἵματι φάσγανον ἴσχων). Dalle immagini omeriche
                         appena evocate risulta particolarmente evidente – dal modo in cui è
                         utilizzato l’oggetto – che il significato dei termini usati per indicare la
@@ -132,10 +144,12 @@
                             <foreign>phasganon</foreign>, <foreign>aor</foreign> – è facilmente
                         estensibile e sovrapponibile al significato assunto dalla
                             <foreign>machaira</foreign> (Hesychius. <title>Lexicon</title>. mu.421:
-                        &lt;µάχαιρα&gt;· ξίφος; <title>TLG</title>, <foreign>s.vv.</foreign> <ref corresp="http://stephanus.tlg.uci.edu/lsj/#eid=73995">ξίφος</ref> e
-                        <ref corresp="http://stephanus.tlg.uci.edu/lsj/#eid=67427">µάχαιρα</ref>), l’ampio coltello o stiletto da cacciatore (vedi ritratti di Peleo
-                        [Hes. <title>fr.</title> 209 M-W; Apollod. III.13.3] e di Orione [Nonn.,
-                            <title>Dion</title>. I.233-235 e XXV.357]) o da chirurgo
+                        <ref corresp="lexicon_machaira.html">µάχαιρα</ref>· ξίφος; <title>TLG</title>, <foreign>s.vv.</foreign>
+                        <ref corresp="http://stephanus.tlg.uci.edu/lsj/#eid=73995">ξίφος</ref> e
+                            <ref corresp="http://stephanus.tlg.uci.edu/lsj/#eid=67427"
+                        >µάχαιρα</ref>), l’ampio coltello o stiletto da cacciatore (vedi ritratti di
+                        Peleo [Hes. <title>fr.</title> 209 M-W; Apollod. III.13.3] e di Orione
+                        [Nonn., <title>Dion</title>. I.233-235 e XXV.357]) o da chirurgo
                             (<title>Odyssea</title> XI.844s.), di solito legato alla cintura insieme
                         allo <foreign>xiphos</foreign> e perciò facilmente confuso con questo
                             (<title>Odyssea</title> XIX.252-256). Adoperato per incidere e fare a
@@ -147,12 +161,13 @@
                         senso, tanto la machaira quanto lo <foreign>xiphos</foreign> assumono una
                         precisa funzione sacrale in contesti specifici di uccisione rituale,
                         conferendo a chi ne fa uso un <emph>potere di vita e di morte</emph> nel
-                        senso latino dello <rs key="speech instruments"><emph><foreign>Jus gladii</foreign></emph></rs>, 
-                        inteso propriamente come «<foreign>diritto di spada</foreign>» esercitato da colui
-                        al quale è legittimamente riconosciuta l’autorità sovrana di disporre della
-                        forza (armata), di infliggere (o assolvere da) una pena, tipicamente
-                        capitale (nel diritto romano e medievale), dove il “diritto di uccidere” è
-                        visto come necessità assoluta connessa all’amministrazione dell’<emph>alta
+                        senso latino dello <rs key="speech instruments"><emph><foreign>Jus
+                                    gladii</foreign></emph></rs>, inteso propriamente come
+                            «<foreign>diritto di spada</foreign>» esercitato da colui al quale è
+                        legittimamente riconosciuta l’autorità sovrana di disporre della forza
+                        (armata), di infliggere (o assolvere da) una pena, tipicamente capitale (nel
+                        diritto romano e medievale), dove il “diritto di uccidere” è visto come
+                        necessità assoluta connessa all’amministrazione dell’<emph>alta
                             giustizia</emph> [<foreign>Jus gladii</foreign> = <foreign>Supreme
                             jurisdiction. The right to absolve from, or condemn a man to
                             death</foreign>, cfr. <title>A Law Dictionary, Adapted to the
@@ -164,9 +179,11 @@
                         dello <foreign>xiphos</foreign>, ripreso dalla narrazione euripidea del
                         sacrificio di Ifigenia, di cui la stessa eroina ricorda: «Come giunsi in
                         Aulide, povera me, abbrancata e sollevata da terra sull’altare ardente
-                        [disposto per il sacrificio] fui <emph><rs key="systems">uccisa di spada</rs></emph>»:</p>
+                        [disposto per il sacrificio] fui <emph><rs key="systems">uccisa di
+                                spada</rs></emph>»:</p>
                     <quote>Euripides. <title>Iphigenia Taurica</title>. 26-27:
-                        <lb/>ἐλθοῦσα δ᾽ Αὐλίδ᾽ ἡ τάλαιν᾽ ὑπὲρ πυρᾶς μεταρσία ληφθεῖσ᾽ <rs key="systems">ἐκαινόμην ξίφει</rs>.</quote>
+                        <lb/>ἐλθοῦσα δ᾽ Αὐλίδ᾽ ἡ τάλαιν᾽ ὑπὲρ πυρᾶς μεταρσία ληφθεῖσ᾽ <rs
+                            key="systems">ἐκαινόμην ξίφει</rs>.</quote>
                     <p>Alla «<emph>mano pesante</emph>» pronta a sguainare lo
                             <foreign>xiphos</foreign> evocata nell’epos eroico è dunque possibile
                         attribuire quello stesso «<emph>diritto di spada</emph>», o <foreign>ius
@@ -174,25 +191,26 @@
                         ribadendone l’autorevolezza in determinati contesti. Di qui, l’ambigua
                         connotazione della «mano pesante» come mano violenta nel senso di
                         «tracotante, oltraggiosa, sanguinaria, omicida» (<title>EM</title> 188.35:
-                        &lt;Βαρείας χεĩρας&gt;), ma anche «influente, autorevole» (Hsch.
-                            <title>Lex</title>. beta.228: &lt;βαρείης&gt;· íσχυρãς), investita cioè
-                        dell’autorità conferita dal compimento di un atto la cui funzione religiosa
-                        o sacrale risulta sovente direttamente associata alla dimensione
-                        sacrificale. Alla dimensione sacrificale alluderebbe peraltro la stessa
-                        definizione di µιαιφόνος, «assetata di sangue» (letteralmente, «macchiata di
-                        omicidio», «contaminata dall’uccisione») attribuita da Esichio alla βαρεĩα
-                        χείρ, dove la forma aggettivale composta <foreign>miai-phónos</foreign>
-                        contiene in sé la doppia radice tematica di µιαίνω – letteralmente,
-                        «macchiare, inquinare, contaminare, violare, profanare» – e φονεύω –
-                        letteralmente, «uccidere, trucidare», da cui derivano anche i termini
-                        µίασµα, «macchia, contaminazione» e φόνος, «uccisione, omicidio, eccidio,
-                        strage», ma anche «macellazione, colpa» (cfr. <title>TLG</title>, s.vv.
-                        <ref corresp="http://stephanus.tlg.uci.edu/lsj/#eid=69845">µιαίνω</ref> > 
-                        <ref corresp="http://stephanus.tlg.uci.edu/lsj/#eid=69857">µίασµα</ref>; 
-                        <ref corresp="http://stephanus.tlg.uci.edu/lsj/#eid=115040">φονεύω</ref> > 
-                        <ref corresp="http://stephanus.tlg.uci.edu/lsj/#eid=115052">φόνος</ref>):</p>
-                    <quote><title>Etymologicum Magnum</title> 188.35: &lt;Βαρείας χεĩρας&gt;:
-                        Ὑβριστικάς, φονικάς, őπλῳ βεβαρηµένας·</quote>
+                        Βαρείας χεĩρας), ma anche «influente, autorevole» (Hsch. <title>Lex</title>.
+                        beta.228: βαρείης· íσχυρãς), investita cioè dell’autorità conferita dal
+                        compimento di un atto la cui funzione religiosa o sacrale risulta sovente
+                        direttamente associata alla dimensione sacrificale. Alla dimensione
+                        sacrificale alluderebbe peraltro la stessa definizione di µιαιφόνος,
+                        «assetata di sangue» (letteralmente, «macchiata di omicidio», «contaminata
+                        dall’uccisione») attribuita da Esichio alla βαρεĩα χείρ, dove la forma
+                        aggettivale composta <foreign>miai-phónos</foreign> contiene in sé la doppia
+                        radice tematica di µιαίνω – letteralmente, «macchiare, inquinare,
+                        contaminare, violare, profanare» – e φονεύω – letteralmente, «uccidere,
+                        trucidare», da cui derivano anche i termini µίασµα, «macchia,
+                        contaminazione» e φόνος, «uccisione, omicidio, eccidio, strage», ma anche
+                        «macellazione, colpa» (cfr. <title>TLG</title>, s.vv. <ref
+                            corresp="http://stephanus.tlg.uci.edu/lsj/#eid=69845">µιαίνω</ref>
+                        <ref corresp="http://stephanus.tlg.uci.edu/lsj/#eid=69857">µίασµα</ref>;
+                            <ref corresp="http://stephanus.tlg.uci.edu/lsj/#eid=115040">φονεύω</ref>
+                        <ref corresp="http://stephanus.tlg.uci.edu/lsj/#eid=115052"
+                        >φόνος</ref>):</p>
+                    <quote><title>Etymologicum Magnum</title> 188.35: Βαρείας χεĩρας: Ὑβριστικάς,
+                        φονικάς, őπλῳ βεβαρηµένας·</quote>
                     <quote>* ὑβριστικός, ή, όν, <emph>given to wantonness, insolent, outrageous, of
                             persons</emph>, Pl. <title>Cra</title>.396b, etc.; of words, acts, etc.,
                         Pl. <title>Phdr</title>. 252b; ὑ. καì βάρβαρος ἐπιστολή Aeschin.3.238; ὑ.
@@ -217,9 +235,9 @@
                             (<title>Thesaurus Linguae Graecae</title>, the Packard Humanities
                         Institute, The Perseus Project)</quote>
                     <p>Ancora in Esichio, per la forma aggettivale al femminile singolare (attestata
-                        al caso genitivo) si legge la specifica: &lt;βαρείης&gt;· ἰσχυρᾶς. βλαβερᾶς:
+                        al caso genitivo) si legge la specifica: βαρείης· ἰσχυρᾶς. βλαβερᾶς:
                         «pesante: forte, dannosa»:</p>
-                    <quote>Hesychius. <title>Lexicon</title>. beta.228: &lt;βαρείης&gt;· ἰσχυρᾶς.
+                    <quote>Hesychius. <title>Lexicon</title>. beta.228: βαρείης· ἰσχυρᾶς.
                         βλαβερᾶς.</quote>
                     <quote>* ἰσχυρός, ά, όν, (ἰσχύς): <emph>1) strong</emph>, esp. of personal
                         strength, S.Ph.945, E.Fr.290, etc.; of things, ἰ. βέλος Alc.15.4; ῥεύµατα
@@ -253,40 +271,45 @@
                         questa seconda accezione, inteso come <foreign>piaculum</foreign>,
                         semanticamente affine al termine <foreign>miasma</foreign> (BURKERT 1977,
                         183-188, 488-489; cfr. <title>TLG</title>
-                        <foreign>s.vv.</foreign> <ref corresp="http://stephanus.tlg.uci.edu/lsj/#eid=792">ἁγνός</ref> > <ref corresp="http://stephanus.tlg.uci.edu/lsj/#eid=569">ἅγιος</ref> > <ref corresp="http://stephanus.tlg.uci.edu/lsj/#eid=860">ἄγος</ref>).</p>
+                        <foreign>s.vv.</foreign>
+                        <ref corresp="http://stephanus.tlg.uci.edu/lsj/#eid=792">ἁγνός</ref>
+                        <ref corresp="http://stephanus.tlg.uci.edu/lsj/#eid=569">ἅγιος</ref>
+                        <ref corresp="http://stephanus.tlg.uci.edu/lsj/#eid=860">ἄγος</ref>).</p>
                     <p>In relazione alla qualità della pesantezza che sembra caratterizzare la mano
                         “che uccide”, nella speculazione lessicografica tardo-antica lo stesso
-                        aggettivo βαρύς è attribuito anche all’«<emph><rs key="practice">aroma</rs></emph>» (<rs key="practice">θυμίαμα</rs>: 
-                        incenso, fumo, essenza odorosa) esalante dai sacrifici, evidenziando, anche in questo contesto, la
-                        corrispondenza emergente tra ciò che è «greve, pesante» e la pratica
-                        sacrificale:</p>
-                    <quote>Hesychius. <title>Lexicon</title>. beta.243: &lt;βαρύ&gt;· τῐνές µέν φασι
-                        θυµίαµα εὐῶδες [τήν βαρεĩαν]. δηλοῖ δὲ καὶ µέγα, καὶ χαλεπόν, καὶ ἰσχυρόν,
-                        καὶ ἀναιδές.</quote>
+                        aggettivo βαρύς è attribuito anche all’«<emph><rs key="practice"
+                            >aroma</rs></emph>» (<rs key="practice">θυμίαμα</rs>: incenso, fumo,
+                        essenza odorosa) esalante dai sacrifici, evidenziando, anche in questo
+                        contesto, la corrispondenza emergente tra ciò che è «greve, pesante» e la
+                        pratica sacrificale:</p>
+                    <quote>Hesychius. <title>Lexicon</title>. beta.243: βαρύ· τῐνές µέν φασι θυµίαµα
+                        εὐῶδες [τήν βαρεĩαν]. δηλοῖ δὲ καὶ µέγα, καὶ χαλεπόν, καὶ ἰσχυρόν, καὶ
+                        ἀναιδές.</quote>
                     <quote>* θυµίαµα, Ion. θυµίηµα, ατος, τό, <emph>incense</emph>, Hdt.1.198,
                         Amphis 27, PTeb.112.22 (II B.C.), Phld.Vit.p.37J.; name of a particular kind
                         (perh.= ἀµµωνιακόν), Edict.Diocl, in Ἀθηνã 18.6 (Tegea): usu. in pl.,
                             <emph>fragrant stuffs for burning</emph>, Hdt.2.130, 7.54, S.OT4,
                         Ar.Av.1716, Pl.R.373c, IG5(2).514 (Lycosura), Apoc.5.8; θυµιάµατα
                             <emph>fumigations</emph>, Philum.Ven. 6 tit.</quote>
-                    <p>Derivato dalla radice del verbo <rs key="instruments">θυµιάω</rs> (<foreign>burn so as to produce
-                            smoke</foreign>) [<emph><rs key="belief">θυµός</rs></emph> =
-                            <foreign>soul, spirit, as the principle of life</foreign>], col
-                        significato di «bruciare, affumicare, purificare col fumo/ ardere come
-                        profumo», il <foreign>thymíama</foreign> indica di fatto l’aroma (inteso
-                        nella doppia accezione di incenso e profumo) che emana dalle carni e dal
-                        grasso delle vittime bruciate sull’altare, prodotto dalla mescolanza di
-                        spezie, erbe e resine naturali. Tale elemento – mediatore tra terra e cielo,
-                        uomini e dèi, basso e alto della gerarchia cosmica (VERNANT in DETIENNE
-                        1972, XII e XXVIII-XXXI) – occupa un ruolo centrale nei sacrifici per
-                        fumigazione, secondo la definizione riportata da Esichio in riferimento a
-                            <title>Ilias</title> IX.219-220 (Hesychius. <title>Lexicon</title>.
-                        Theta.958: <emph><rs key="instruments">&lt;θυσαι&gt;· άπάρξασθαι. θυµιᾶσαι.
-                                θυσιάσαι</rs></emph>) e ripresa negli <title>Anecdota Graeca</title>
-                        (I, 42, 14 Bekker) a proposito degli ἱερεία τεθύμενα (le vittime consacrate
-                        attraverso il fuoco), dove «sacrificare sta per affumicare» (θῦσαι· ἀντὶ τοῦ
-                        θυμιᾶσαι), specificando il valore primiziale dell’offerta consistente in
-                        «parti scelte» (θυηλαί) delle «vittime da bruciare»:</p>
+                    <p>Derivato dalla radice del verbo <rs key="instruments">θυµιάω</rs>
+                        (<foreign>burn so as to produce smoke</foreign>) [ <ref corresp="lexicon_thymos.html"><emph><rs key="belief"
+                                >θυµός</rs></emph></ref> = <foreign>soul, spirit, as the principle of
+                            life</foreign>], col significato di «bruciare, affumicare, purificare
+                        col fumo/ ardere come profumo», il <foreign>thymíama</foreign> indica di
+                        fatto l’aroma (inteso nella doppia accezione di incenso e profumo) che emana
+                        dalle carni e dal grasso delle vittime bruciate sull’altare, prodotto dalla
+                        mescolanza di spezie, erbe e resine naturali. Tale elemento – mediatore tra
+                        terra e cielo, uomini e dèi, basso e alto della gerarchia cosmica (VERNANT
+                        in DETIENNE 1972, XII e XXVIII-XXXI) – occupa un ruolo centrale nei
+                        sacrifici per fumigazione, secondo la definizione riportata da Esichio in
+                        riferimento a <title>Ilias</title> IX.219-220 (Hesychius.
+                        <title>Lexicon</title>. Theta.958:  <ref corresp="lexicon_machaira.html"><emph><rs key="instruments">θυσαι·
+                                άπάρξασθαι. θυµιᾶσαι. θυσιάσαι</rs></emph></ref>) e ripresa negli
+                            <title>Anecdota Graeca</title> (I, 42, 14 Bekker) a proposito degli
+                        ἱερεία τεθύμενα (le vittime consacrate attraverso il fuoco), dove
+                        «sacrificare sta per affumicare» (θῦσαι· ἀντὶ τοῦ θυμιᾶσαι), specificando il
+                        valore primiziale dell’offerta consistente in «parti scelte» (θυηλαί) delle
+                        «vittime da bruciare»:</p>
                     <quote><title>Anecdota Graeca</title>, I, 42, 14 Bekker: θῦσαι· ἀντὶ τοῦ
                         θυμιᾶσαι· “[Ἀχιλλεύς] θεοῖσι δὲ θῦσαι ἀνώγει Πάτροκλον ὃν ἑταῖρον· ὃ δ’ ἐν
                         πυρὶ βάλλε θυηλάς”· λέγει δὲ θυηλάς τὰς ἀπαρχὰς τῶν τεθυμένων ἱερείων. καὶ
