@@ -28,41 +28,47 @@
     <text>
         <body>
             <div type="edition" xml:lang="it">
-                <div type="textpart" n="...">
-                    <head>...</head>
-                    <p>...</p>                    
+                <div type="textpart" >
+                    <p>φάσγανον phasganon, ου, subst. n.: poet. arch. spada.</p>
+                </div>
+                <div type="textpart" n="Etimologia">
+                    <head>Etimologia</head> 
+                    <p>La parola è ben attestata nel greco miceneo come pa-ka-na (Diccionario Micénico, vol. II: 70), molto meglio di ξίφος ('spada'), identificata su una sola tavoletta (qi-si-pe-e, dualis, vide Chantraine 1968: 766, Diccionario Micénico, vol. II: 205). La sua etimologia, tuttavia, è sconosciuta. Beekes lo considera pre-greco (Beekes 2010: 1556), ricostruendo il suo soggetto nella forma σφαγ-/φασγ- con una -s- mobile specifica del substrato (sull'ipotesi di una -s- mobile nelle parole pre-greche: Beekes 2010: xxiii).</p>
+                </div>
+                <div type="textpart" n="Testimonianze">
+                    <head>Testimonianze</head> 
+                        <p>Φάσγανον era già un arcaismo per Omero (così Chantraine 1986: 1180), anche se come termine di spada appare frequentemente (15 occorrenze nell'Iliade, 10 nell'Odissea). Φάσγανον è spesso indicato come "a due tagli" (cfr. Hom. Il. 10.256, Od. 22.79-80, B. 11.87, S. Tr. 930). Più tardi troviamo l'espressione solo nella poesia.</p>
+                    <p>In diverse tragedie di Euripide, φάσγανον appare in contesti sacrificali, ma questo non significa che "coltello" sia la traduzione corretta della parola in tali contesti. È più probabile che sia stata la convenzione dell'eroe-tragedia a permettere ai personaggi di usare le spade laddove i coltelli erano usati nella vita quotidiana. In Ifigenia in Aulis, il personaggio del titolo deve essere sacrificato proprio con un fasgan (E. IA 1429, 1566, 1578 (verso forse interpolato)). La sostituzione del fasgan con la machaira è particolarmente evidente nella scena della sua collocazione in un cesto dorato (→ κανοῦν) di Kalchas (E. IA 1566) - una delle usanze sacrificali era quella di portare nel cesto il coltello con cui l'animale doveva essere ucciso (cfr. Ar. Pax 948-9). In Ifigenia in Taurida, invece, il poeta usa le parole φάσγανον e ξίφος in modo intercambiabile per designare sia le armi degli eroi che gli strumenti usati per macellare le vittime sugli altari tauridiani (φάσγανον sacrificale: E. IA 785, 852; ξίφος sacrificale: E. IA 27, 621, 875, 1190, 1459 (spada usata durante la festa di Artemide Tauropolos). Anche il sacrificio di Polissena doveva essere eseguito con un fasgan (E. Hec. 543). Krux è accompagnato dall'occorrenza della parola in un contesto sacrificale in Helena (E. Hel. 543).</p>                    
                 </div>
             </div>
             
             <div type="edition" xml:lang="en">
-                <div type="textpart" n="...">
-                    <head>...</head>
-                    <p>...</p>                    
+                <div type="textpart">
+                    <p>φάσγανον phasganon, ου, subst. n.: poet. arch. sword.</p>
+                </div>
+                <div type="textpart" n="Etymology">
+                    <head>Etymology</head>
+                        <p>The word is well attested in Mycenaean Greek as pa-ka-na (Diccionario Micénico, vol. II: 70), much better than ξίφος ('sword'), identified on only one tablet (qi-si-pe-e, dualis, vide Chantraine 1968: 766, Diccionario Micénico, vol. II: 205). Its etymology, however, is unknown. Beekes considers it to be pre-Greek (Beekes 2010: 1556), reconstructing its subject to the form σφαγ-/φασγ- with a substrate-specific movable -s- (on the hypothesis of a movable -s- in pre-Greek words: Beekes 2010: xxiii).</p>
+                </div>
+                <div type="textpart" n="Testimonies">
+                    <head>Testimonies</head>
+                        <p>Φάσγανον was already an archaism for Homer (so Chantraine 1986: 1180), although as a sword term it appears frequently (15 occurrences in the Iliad, 10 in the Odyssey). Φάσγανον is often referred to as "two-edged" (cf. Hom. Il. 10.256, Od. 22.79-80, B. 11.87, S. Tr. 930). Later we find the expression only in poetry.</p>
+                    <p>In several of Euripides' tragedies φάσγανον appears in sacrificial contexts, but this does not mean that 'knife' is the correct translation of the word in such contexts. It is more likely that it was the heroic-tragedy convention that allowed the characters to use swords where knives were used in everyday life. In Iphigenia in Aulis, the title character is to be sacrificed precisely with a fasgan (E. IA 1429, 1566, 1578 (verse perhaps interpolated)). The substitution of the fasgan for the machaira is particularly evident in the scene of its being placed in a gilded basket (→ κανοῦν) by Kalchas (E. IA 1566) - one of the sacrificial customs was to bring the knife with which the animal was to be killed in the basket (cf. Ar. Pax 948-9). In Iphigenia in Taurida, on the other hand, the poet uses the words φάσγανον and ξίφος interchangeably to designate both the weapons of the heroes and the tools used to slaughter the victims on the Tauridian altars (sacrificial φάσγανον: E. IA 785, 852; sacrificial ξίφος: E. IA 27, 621, 875, 1190, 1459 (sword used during the festival of Artemis Tauropolos)). Also the sacrifice of Polyxena was to be performed with a fasgan (E. Hec. 543). Krux is marked by the occurrence of the word in a sacrificial context in Helena (E. Hel. 543).</p>                    
                 </div>
             </div>
             
             <div type="edition" xml:lang="pl">
-                <div type="textpart" n="...">
-                    <head>...</head>
-                    <p>
-                        
-                        φάσγανον
-                        
-                        phasganon
-                        
-                        φάσγανον, ου, subst. n.: poet. arch. miecz.
-                        
-                        Etymologia
-                        
-                        Słowo jest dobrze poświadczone w mykeńskiej Grece jako pa-ka-na (Diccionario Micénico, vol. II: 70), dużo lepiej niż ξίφος („miecz”), zidentyfikowany na jednej tylko tabliczce (qi-si-pe-e, dualis, vide Chantraine 1968: 766, Diccionario Micénico, vol. II: 205). Jego etymologia jest jednak nieznana. Beekes uważa je za przedgreckie (Beekes 2010: 1556), rekonstruując jego temat do postaci σφαγ-/φασγ- z właściwym dla substratu -s- ruchomym (o hipotezie ruchomego -s- w wyrazach przedgreckich: Beekes 2010: xxiii).
-                        
-                        
-                        
-                        Poświadczenia
-                        
-                        Φάσγανον już dla Homera był archaizmem (tak Chantraine 1986: 1180), choć jako określenie miecza pojawia się często (15 wystąpień w Iliadzie, 10 w Odysei). Φάσγανον często określane jest jako „dwusieczne” (cf. Hom. Il. 10.256, Od. 22.79-80, B. 11.87, S. Tr. 930). Później wyraz odnajdujemy tylko w poezji.
-                        
-                        W kilku tragediach Eurypidesa φάσγανον pojawia się w kontekście ofiarniczym, nie znaczy to jednak, że „nóż” jest właściwym tłumaczeniem słowa w tego rodzaju kontekstach. Bardziej prawdopodobne jest, że to heroiczno-tragediowa konwencja pozwalała używać bohaterom mieczy tam, gdzie w codziennym życiu używano noży. W Ifigenii w Aulidzie tytułowa bohaterka ma zostać złożona w ofierze właśnie fasganem (E. IA 1429, 1566, 1578 (wers być może interpolowany)). Substytucja fasganu za machairę widoczna jest zwłaszcza w scenie umieszczenia go w złoconym koszu (→ κανοῦν) przez Kalchasa (E. IA 1566) - jednym z ofiarniczych zwyczajów było przynoszenie noża, którym miało zostać zabite zwierzę, w koszu (cf. Ar. Pax 948-9). Natomiast w Ifigenii w Taurydzie poeta używa zamiennie wyrazów φάσγανον i ξίφος na oznaczenie tak broni bohaterów, jak i narzędzia, którym zarzynane miały być ofiary na taurydzkich ołtarzach (ofiarnicze φάσγανον: E. IA 785, 852; ofiarnicze ξίφος: E. IA 27, 621, 875, 1190, 1459 (miecz wykorzystywany podczas święta Artemidy Tauropolos)). Również ofiara z Polikseny miała zostać spełniona fasganem (E. Hec. 543). Kruksem opatrzone jest wystąpienie tego słowa w kontekście ofiarniczym w Helenie (E. Hel. 543).</p>
+                <div type="textpart">
+                    <p>φάσγανον phasganon, ου, subst. n.: poet. arch. miecz.</p>
+                </div>
+                <div type="textpart" n="Etymologia">
+                    <head>Etymologia</head>
+                    <p>Słowo jest dobrze poświadczone w mykeńskiej Grece jako pa-ka-na (Diccionario Micénico, vol. II: 70), dużo lepiej niż ξίφος („miecz”), zidentyfikowany na jednej tylko tabliczce (qi-si-pe-e, dualis, vide Chantraine 1968: 766, Diccionario Micénico, vol. II: 205). Jego etymologia jest jednak nieznana. Beekes uważa je za przedgreckie (Beekes 2010: 1556), rekonstruując jego temat do postaci σφαγ-/φασγ- z właściwym dla substratu -s- ruchomym (o hipotezie ruchomego -s- w wyrazach przedgreckich: Beekes 2010: xxiii).</p>
+                </div>
+                <div type="textpart" n="Poświadczenia">
+                    <head>Poświadczenia</head>
+                    <p>Φάσγανον już dla Homera był archaizmem (tak Chantraine 1986: 1180), choć jako określenie miecza pojawia się często (15 wystąpień w Iliadzie, 10 w Odysei). Φάσγανον często określane jest jako „dwusieczne” (cf. Hom. Il. 10.256, Od. 22.79-80, B. 11.87, S. Tr. 930). Później wyraz odnajdujemy tylko w poezji.</p>
+                    <p>W kilku tragediach Eurypidesa φάσγανον pojawia się w kontekście ofiarniczym, nie znaczy to jednak, że „nóż” jest właściwym tłumaczeniem słowa w tego rodzaju kontekstach. Bardziej prawdopodobne jest, że to heroiczno-tragediowa konwencja pozwalała używać bohaterom mieczy tam, gdzie w codziennym życiu używano noży. W Ifigenii w Aulidzie tytułowa bohaterka ma zostać złożona w ofierze właśnie fasganem (E. IA 1429, 1566, 1578 (wers być może interpolowany)). Substytucja fasganu za machairę widoczna jest zwłaszcza w scenie umieszczenia go w złoconym koszu (→ κανοῦν) przez Kalchasa (E. IA 1566) - jednym z ofiarniczych zwyczajów było przynoszenie noża, którym miało zostać zabite zwierzę, w koszu (cf. Ar. Pax 948-9). Natomiast w Ifigenii w Taurydzie poeta używa zamiennie wyrazów φάσγανον i ξίφος na oznaczenie tak broni bohaterów, jak i narzędzia, którym zarzynane miały być ofiary na taurydzkich ołtarzach (ofiarnicze φάσγανον: E. IA 785, 852; ofiarnicze ξίφος: E. IA 27, 621, 875, 1190, 1459 (miecz wykorzystywany podczas święta Artemidy Tauropolos)). Również ofiara z Polikseny miała zostać spełniona fasganem (E. Hec. 543). Kruksem opatrzone jest wystąpienie tego słowa w kontekście ofiarniczym w Helenie (E. Hel. 543).</p>
                 </div>
             </div>
             

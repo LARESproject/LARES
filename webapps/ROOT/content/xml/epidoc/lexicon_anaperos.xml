@@ -29,7 +29,7 @@
     <text>
         <body>
             <div type="edition" xml:lang="it">
-                <div type="textpart" n="..">
+                <div type="textpart">
                     <p>ἀνάπηρος anaperos, agg.: mutilato</p>
                     </div>
                 <div type="textpart" n="Morfologia">
@@ -43,7 +43,7 @@
             </div>
             
             <div type="edition" xml:lang="en">
-                <div type="textpart" n="..">
+                <div type="textpart">
                     <p>ἀνάπηρος anaperos, adj.: mutilated</p>
                 </div>
                 <div type="textpart" n="Morphology">
