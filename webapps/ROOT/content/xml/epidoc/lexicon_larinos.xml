@@ -28,42 +28,62 @@
     <text>
         <body>
             <div type="edition" xml:lang="it">
-                <div type="textpart" n="...">
-                    <head>...</head>
-                    <p>...</p>                    
+                <div type="textpart">
+                    <p>λαρινός larinos, agg.: grasso (di bue, meno comunemente di maiale).</p>
+                </div>
+                <div type="textpart" n="Etimologia">
+                    <head>Etimologia</head>
+                    <p>Ateneo (376b) dà tre possibili derivazioni della parola: (1) deriva dal verbo λαρινεύεσθαι (essere ingrassato; infatti il processo ha evidentemente avuto il corso opposto), o (2) deriva dal nome di un villaggio dell'Epiro Larines, o (3) un pastore mitico chiamato Larinos, da cui una razza o varietà di bestiame prese il nome (Scholia ad Ar. Av. 465 spiegano che questo si riferisce ai discendenti dei buoi rubati a Gerion). Il filologo bizantino Eustathios aggiunge (Il. 4.526; Od. 1.7) e una quarta alle suggestioni date da Ateneo: l'aggettivo denoterebbe animali dalla pelle particolarmente spessa (ἀπὸ τοῦ ῥινοῦ), e la sillaba la- rappresenterebbe una sorta di prefisso. A quanto pare, già nella tarda antichità, il significato della parola non sembrava del tutto chiaro e la sua etimologia era soggetta a libere speculazioni.</p>
+                    <p>Come sottolineato da studiosi moderni (Beekes (2010: s.v.); Chantraine (1972: s.v.); Frisk (1960: s.v.)) l'aggettivo è probabilmente legato al latino laridum &gt; lardum (lardo; etimologia non chiara). Si deve quindi supporre che sia stato ereditato o preso in prestito nel latino e nel greco da una fonte comune. Il lungo ilo e l'accento ossitone sono motivo di preoccupazione.</p>
+                    <p>La lunga ā nella sillaba di inizio può essere spiegata come il risultato della contrazione o dell'allungamento con l'obliterazione della consonante laringea (o una sequenza di entrambe). La parola può quindi essere collegata all'aggettivo lārós &lt; lawarós (gustoso). Quest'ultimo Pokorny (1959: 655) lo ha collegato con apo-lauō (beneficio) e leiā &lt; lāu-íā (bottino, bestiame [depredato]; cfr. ad es. lat. lucrum; Go. laun - ricompensa), presentando l'elemento *leh2w-. A livello semantico, le connessioni tra queste parole sembrano abbastanza ovvie. È interessante notare che la parola leiā potrebbe anche essere collegata al greco lāós (gente armata; Chantraine 1972: s.v.; dopo Heubeck 1969), una parola derivata dallo stesso o omonimo elemento *leh2w-. I dati micenologici e l'epica omerica (Werlings 2010: 21-107) indicano che quest'ultimo sostantivo, come dēmos, si riferiva a una collettività umana, una massa concepita come l'opposto di un leader (anax, lawagetes; la differenza di significato e referente era significativa in questo caso: un popolo armato/un popolo che coltiva la terra). Questo fa sì che il rapporto lārīnós (grasso) / lāós (gruppo) : dēmós (grasso) / dēmos (gruppo) sembri troppo preciso per essere casuale (cfr. pol. fat / fata).</p>
+                </div>
+                <div type="textpart" n="Testimonianze">
+                    <head>Testimonianze</head>
+                    <p>La prima attestazione è un passus di Senofane di Colofone (fr. B6.1-2 ap. Ath. 369f):</p>
+                    <p>πέμψας γὰρ κωλῆν ἐρίφου σκέλος ἤραο πῖον/ ταύρου λαρινοῦ - Hai mandato la coscia di un capro e hai preso la gamba di un toro ingrassato. La continuazione del passus, anche se l'insieme non è del tutto chiaro, non lascia dubbi sul fatto che i due pezzi di carne in dono sono contrapposti. La gamba del toro ingrassato è chiaramente una cosa di grande valore (cfr. Untersteiner 1955: 121-2). L'uso della parola in due luoghi di Aristofane ha sfumature simili:</p>
+                    <p>Pax 925: Βούλεσθε λαρινῷ βοΐ; - vuoi un bue ingrassato [per onorare la dea]? Il sacrificio di prestigio è qui contrapposto all'economico pap di verdure a cui si fa riferimento nei versi precedenti.</p>
+                    <p>Aves 465: μέγα καὶ λαρινὸν ἔπος τι - grandi parole grasse (parole grandi come un bue = roboanti). Anche se questo è un uso figurato, la locuzione conferma che l'aggettivo descrive una caratteristica della grandezza, della magnificenza degli animali.</p>
+                    <p>Secondo Ateneo (376b), Acheo (probabilmente riferendosi al poeta tragico del quinto o quarto secolo a.C.), così come Eratostene (fr. 20), ha usato questo aggettivo per riferirsi ai maiali, il che era un'eccezione alla regola, perché si riferiva essenzialmente ai buoi (παραπλησίως δὲ τῷ ᾿Αχαιῷ καὶ ᾿Ερατοσθένης ἐν ᾿Αντερινύι τοὺς σύας λαρινοὺς προσηγόρευσε μεταγαγὼν καὶ αὐτὸς ἀπὸ τῶν λαρινῶν βοῶν).</p>                    
                 </div>
             </div>
             
             <div type="edition" xml:lang="en">
-                <div type="textpart" n="...">
-                    <head>...</head>
-                    <p>...</p>                    
+                <div type="textpart">
+                    <p>λαρινός larinos, adj.: fat (of an ox, less commonly of a pig).</p>       
+                </div>
+                <div type="textpart" n="Etymology">
+                    <head>Etymology</head>
+                    <p>Athenaeus (376b) gives three possible derivations of the word: (1) it derives from the verb λαρινεύεσθαι (to be fattened; in fact the process evidently took the opposite course), or (2) it derives from the name of a village in Epirus Larines, or (3) a mythical shepherd named Larinos, after whom a breed or variety of cattle was named (Scholia ad Ar. Av. 465 explain that this refers to descendants of oxen stolen from Gerion). The Byzantine philologist Eustathios adds (Il. 4.526; Od. 1.7) and a fourth to the suggestions given by Athenaeus: the adjective would denote animals with particularly thick skin (ἀπὸ τοῦ ῥινοῦ), and the syllable la- would represent a kind of prefix. Apparently, already in late antiquity, the meaning of the word did not seem fully clear, and its etymology was subject to free speculation.</p>
+                    <p>As pointed out by modern scholars (Beekes (2010: s.v.); Chantraine (1972: s.v.); Frisk (1960: s.v.)) the adjective is probably related to the Latin laridum &gt; lardum (lard; etymology unclear). It must therefore be assumed to have been inherited or borrowed into Latin and Greek from a common source. The long ilo and oxytonic accent are cause for concern.</p>
+                    <p>The long ā in the onset syllable can be explained as the result of contraction or lengthening with the obliteration of the laryngeal consonant (or a sequence of both). The word may therefore be related to the adjective lārós &lt; lawarós (tasty). The latter Pokorny (1959: 655) has linked with apo-lauō (benefit) and leiā &lt; lāu-íā (booty, [plundered] cattle; cf. e.g. lat. lucrum; Go. laun - reward), presenting the element *leh2w-. On a semantic level, the connections between these words seem quite obvious. Interestingly, the word leiā may also be related to the Greek lāós (armed people; Chantraine 1972: s.v.; after Heubeck 1969), a word derived from the same or homonymous element *leh2w-. Mycenological data and the Homeric epic (Werlings 2010: 21-107) indicate that the latter noun, like dēmos, referred to a human collectivity, a mass conceived as the opposite of a leader (anax, lawagetes; the difference in meaning and referent was significant in this case: an armed people/ a land-cultivating people). This makes the ratio lārīnós (fat) / lāós (group) : dēmós (fat) / dēmos (group) seem too precise to be accidental (cf. pol. fat / fata).</p>
+                </div>
+                <div type="textpart" n="Testimonies">
+                    <head>Testimonies</head>
+                    <p>The earliest attestation is a passus from Xenophanes of Colophon (fr. B6.1-2 ap. Ath. 369f):</p>
+                    <p>πέμψας γὰρ κωλῆν ἐρίφου σκέλος ἤραο πῖον/ ταύρου λαρινοῦ - You sent the thigh of a goat, and took the leg of a fattened bull. The continuation of the passus, though the whole is not entirely clear, leaves no doubt that the two pieces of meat as gifts are contrasted. The leg of the fattened bull is clearly a thing of great value (cf. Untersteiner 1955: 121-2). The use of the word in two places in Aristophanes has similar overtones:</p>
+                    <p>Pax 925: Βούλεσθε λαρινῷ βοΐ; - do you want a fattened ox [to honour the goddess]? The prestigious sacrifice is here contrasted with the cheap pap of vegetables referred to in the earlier verses.</p>
+                    <p>Aves 465: μέγα καὶ λαρινὸν ἔπος τι - big fat words (words as big as an ox = bombastic). Although this is a figurative usage, the locution confirms that the adjective describes a characteristic of the size, magnificence of animals.</p>
+                    <p>According to Athenaeus (376b), Achaeus (probably referring to the tragic poet of the fifth or fourth century BC), as well as Eratosthenes (fr. 20), used this adjective to refer to pigs, which was an exception to the rule, for it essentially referred to oxen (παραπλησίως δὲ τῷ ᾿Αχαιῷ καὶ ᾿Ερατοσθένης ἐν ᾿Αντερινύι τοὺς σύας λαρινοὺς προσηγόρευσε μεταγαγὼν καὶ αὐτὸς ἀπὸ τῶν λαρινῶν βοῶν).</p>                    
                 </div>
             </div>
             
             <div type="edition" xml:lang="pl">
-                <div type="textpart" n="...">
-                    <head>...</head>
-                    <p>λαρινός larinos, adj.: tłusty (o wole, rzadziej o świni).
-                        
-                        Etymologia
-                        Atenajos (376b) podaje trzy możliwe warianty derywacji wyrazu: (1) pochodzi on od czasownika λαρινεύεσθαι (być tuczonym; w rzeczywistości proces ewidentnie miał odwrotny przebieg), albo (2) wywodzi się od nazwy wsi w Epirze Larines, albo (3) mitycznego pasterza imieniem Larinos, od którego nazwano rasę lub odmianę bydła (Scholia ad Ar. Av. 465 wyjaśniają, że chodzi o potomków wołów skradzionych Gerionowi). Bizantyjski filolog Eustathios do podanych przez Atenajosa propozycji dodaje (Il. 4.526; Od. 1.7) i czwartą: przymiotnik miałby określać zwierzęta o szczególnie grubej skórze (ἀπὸ τοῦ ῥινοῦ), a sylaba la- reprezentowałaby rodzaj prefiksu. Najwyraźniej już w późnym antyku znaczenie wyrazu nie wydawało się w pełni jasne, a jego etymologia była przedmiotem swobodnej spekulacji.
-                        
-                        Jak zaznaczają nowocześni badacze (Beekes (2010: s.v.); Chantraine (1972: s.v.); Frisk (1960: s.v.)) przymiotnik prawdopodobnie spokrewniony jest z łacińskim laridum &gt; lardum (słonina; etymologia niejasna). Należy zatem przypuszczać, że został odziedziczony lub zapożyczony do łaciny i greki ze wspólnego źródła. Niepokój wzbudza długi iloczas i akcent oksytoniczny.
-                        
-                        Długie ā w nagłosowej sylabie można tłumaczyć jako wynik kontrakcji lub wzdłużenia przy zatracie spółgłoski laryngalnej (lub sekwencji jednego i drugiego). Wyraz może zatem wiązać się przymiotnikiem lārós &lt; lawarós (smaczny). Ten ostatni Pokorny (1959: 655) powiązał z apo-lauō (korzystać) i leiā &lt; lāu-íā (łup, [złupione] bydło; cf. e.g. lat. lucrum; Go. laun – nagroda), prezentującymi pierwiastek *leh2w-. Na płaszczyźnie semantycznej związki pomiędzy tymi wyrazami wydają się dość oczywiste. Interesujące, że wyraz leiā może się także wiązać z greckim lāós (lud zbrojny; Chantraine 1972: s.v.; za Heubeck 1969), wyrazem wywodzącym się z tego samego lub homonimicznego pierwiastka *leh2w-. Dane mykenologiczne i epos homerycki (Werlings 2010: 21-107) wskazują na to, że ten ostatni rzeczownik, podobnie jak dēmos odnosił się do zbiorowości ludzkiej, masy pojętej jako przeciwieństwo przywódcy (anax, lawagetes; różnica znaczenia i referencji była przy tym znacząca: lud zbrojny/ lud uprawiający ziemię). To sprawia, że proporcja lārīnós (tłusty) / lāós (grupa) : dēmós (tłuszcz) / dēmos (grupa) wydaje się zbyt precyzyjna, żeby była przypadkowa (cf. pol. tłuszcz / tłuszcza).
-                        
-                        Poświadczenia
-                        
-                        Najstarsze poświadczenie to passus z Ksenofanesa z Kolofonu (fr. B6.1-2 ap. Ath. 369f):
-                        
-                        πέμψας γὰρ κωλῆν ἐρίφου σκέλος ἤραο πῖον/ ταύρου λαρινοῦ – Przysłałeś udo koziołka, a wziąłeś nogę tuczonego byka. Dalszy ciąg passusu, choć całość nie jest do końca jasna, nie pozostawia wątpliwości, że dwa kawałki mięsa jako dary są ze sobą skontrastowane. Noga tuczonego byka to ewidentnie rzecz bardzo wartościowa (cf. Untersteiner 1955: 121-2). Podobny wydźwięk ma użycie wyrazu w dwóch miejscach u Arystofanesa:
-                        
-                        Pax 925: Βούλεσθε λαρινῷ βοΐ; – czy chcecie tuczonym wołem [uczcić boginię]? Prestiżowa ofiara jest tu przeciwstawiana taniej papce z warzyw, o której mowa we wcześniejszych wersach.
-                        
-                        Aves 465: μέγα καὶ λαρινὸν ἔπος τι – wielkie, tłuste słowa (słowa wielkie jak wół = bombastyczne). Choć jest to użycie figuratywne, miejsce to potwierdza, że przymiotnik określa cechę wielkości, wspaniałości zwierząt.
-                        
-                        Według Atenajosa (376b) Achajos (prawdopodobnie chodzi o poetę tragicznego z V lub IV w. p.n.e.), a także Eratostenes (fr. 20), posłużyli się tym przymiotnikiem w odniesieniu do świń, co stanowiło odstępstwo od reguły, bo zasadniczo określał on woły (παραπλησίως δὲ τῷ ᾿Αχαιῷ καὶ ᾿Ερατοσθένης ἐν ᾿Αντερινύι τοὺς σύας λαρινοὺς προσηγόρευσε μεταγαγὼν καὶ αὐτὸς ἀπὸ τῶν λαρινῶν βοῶν).</p>
+                <div type="textpart">
+                    <p>λαρινός larinos, adj.: tłusty (o wole, rzadziej o świni).</p>       
+                </div>
+                <div type="textpart" n="Etymologia">
+                    <head>Etymologia</head>
+                    <p>Atenajos (376b) podaje trzy możliwe warianty derywacji wyrazu: (1) pochodzi on od czasownika λαρινεύεσθαι (być tuczonym; w rzeczywistości proces ewidentnie miał odwrotny przebieg), albo (2) wywodzi się od nazwy wsi w Epirze Larines, albo (3) mitycznego pasterza imieniem Larinos, od którego nazwano rasę lub odmianę bydła (Scholia ad Ar. Av. 465 wyjaśniają, że chodzi o potomków wołów skradzionych Gerionowi). Bizantyjski filolog Eustathios do podanych przez Atenajosa propozycji dodaje (Il. 4.526; Od. 1.7) i czwartą: przymiotnik miałby określać zwierzęta o szczególnie grubej skórze (ἀπὸ τοῦ ῥινοῦ), a sylaba la- reprezentowałaby rodzaj prefiksu. Najwyraźniej już w późnym antyku znaczenie wyrazu nie wydawało się w pełni jasne, a jego etymologia była przedmiotem swobodnej spekulacji.</p>
+                    <p>Jak zaznaczają nowocześni badacze (Beekes (2010: s.v.); Chantraine (1972: s.v.); Frisk (1960: s.v.)) przymiotnik prawdopodobnie spokrewniony jest z łacińskim laridum &gt; lardum (słonina; etymologia niejasna). Należy zatem przypuszczać, że został odziedziczony lub zapożyczony do łaciny i greki ze wspólnego źródła. Niepokój wzbudza długi iloczas i akcent oksytoniczny.</p>
+                    <p>Długie ā w nagłosowej sylabie można tłumaczyć jako wynik kontrakcji lub wzdłużenia przy zatracie spółgłoski laryngalnej (lub sekwencji jednego i drugiego). Wyraz może zatem wiązać się przymiotnikiem lārós &lt; lawarós (smaczny). Ten ostatni Pokorny (1959: 655) powiązał z apo-lauō (korzystać) i leiā &lt; lāu-íā (łup, [złupione] bydło; cf. e.g. lat. lucrum; Go. laun – nagroda), prezentującymi pierwiastek *leh2w-. Na płaszczyźnie semantycznej związki pomiędzy tymi wyrazami wydają się dość oczywiste. Interesujące, że wyraz leiā może się także wiązać z greckim lāós (lud zbrojny; Chantraine 1972: s.v.; za Heubeck 1969), wyrazem wywodzącym się z tego samego lub homonimicznego pierwiastka *leh2w-. Dane mykenologiczne i epos homerycki (Werlings 2010: 21-107) wskazują na to, że ten ostatni rzeczownik, podobnie jak dēmos odnosił się do zbiorowości ludzkiej, masy pojętej jako przeciwieństwo przywódcy (anax, lawagetes; różnica znaczenia i referencji była przy tym znacząca: lud zbrojny/ lud uprawiający ziemię). To sprawia, że proporcja lārīnós (tłusty) / lāós (grupa) : dēmós (tłuszcz) / dēmos (grupa) wydaje się zbyt precyzyjna, żeby była przypadkowa (cf. pol. tłuszcz / tłuszcza).</p>
+                </div>
+                        <div type="textpart" n="Poświadczenia">
+                            <head>Poświadczenia</head>
+                            <p>Najstarsze poświadczenie to passus z Ksenofanesa z Kolofonu (fr. B6.1-2 ap. Ath. 369f):</p>
+                    <p>πέμψας γὰρ κωλῆν ἐρίφου σκέλος ἤραο πῖον/ ταύρου λαρινοῦ – Przysłałeś udo koziołka, a wziąłeś nogę tuczonego byka. Dalszy ciąg passusu, choć całość nie jest do końca jasna, nie pozostawia wątpliwości, że dwa kawałki mięsa jako dary są ze sobą skontrastowane. Noga tuczonego byka to ewidentnie rzecz bardzo wartościowa (cf. Untersteiner 1955: 121-2). Podobny wydźwięk ma użycie wyrazu w dwóch miejscach u Arystofanesa:</p>
+                    <p>Pax 925: Βούλεσθε λαρινῷ βοΐ; – czy chcecie tuczonym wołem [uczcić boginię]? Prestiżowa ofiara jest tu przeciwstawiana taniej papce z warzyw, o której mowa we wcześniejszych wersach.</p>
+                    <p>Aves 465: μέγα καὶ λαρινὸν ἔπος τι – wielkie, tłuste słowa (słowa wielkie jak wół = bombastyczne). Choć jest to użycie figuratywne, miejsce to potwierdza, że przymiotnik określa cechę wielkości, wspaniałości zwierząt.</p>
+                    <p>Według Atenajosa (376b) Achajos (prawdopodobnie chodzi o poetę tragicznego z V lub IV w. p.n.e.), a także Eratostenes (fr. 20), posłużyli się tym przymiotnikiem w odniesieniu do świń, co stanowiło odstępstwo od reguły, bo zasadniczo określał on woły (παραπλησίως δὲ τῷ ᾿Αχαιῷ καὶ ᾿Ερατοσθένης ἐν ᾿Αντερινύι τοὺς σύας λαρινοὺς προσηγόρευσε μεταγαγὼν καὶ αὐτὸς ἀπὸ τῶν λαρινῶν βοῶν).</p>
                 </div>
             </div>
             

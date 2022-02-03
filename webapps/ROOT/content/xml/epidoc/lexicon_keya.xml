@@ -29,27 +29,29 @@
     <text>
         <body>
             <div type="edition" xml:lang="it">
-                <div type="textpart" n="...">
-                    <head>...</head>
-                    <p>...</p>                    
+                <div type="textpart">
+                    <p>κηΰα keÿa, n.: offerta bruciata, forse (seguendo Esichio) anche purificatoria.</p>
+                    <p>Hapax legomenon che si verifica solo una volta su un'iscrizione contenente la legge degli anfiteatri delfici del 380/379 a.C. (<ref corresp="https://epigraphy.packhum.org /text/3341">IG II2 1126</ref> in. 34 = Ziehen 1906: 226-234 n. 75, v. 34 con commento a p. 233). Deriva dal verbo καίω (vedi Chantraine 1968: 481 e 528, rispettivamente s.v.: καίω e κήυα).</p>
+                    <p>Sull'iscrizione summenzionata si presenta evidentemente come il nome di un sacrificio di tre animali (τρίττοια, qui nella forma τρίκτευα).</p>
+                    <p>Secondo LSJ (s.v.) e i commenti all'edizione delle iscrizioni secondo il lessico di Esichio (s.v. κήϊα, κέϊα) significa un sacrificio purificatorio, equivalente a καθάρματα, che non è affatto indicato dal contesto in cui appare.</p>                    
                 </div>
             </div>
             
             <div type="edition" xml:lang="en">
-                <div type="textpart" n="...">
-                    <head>...</head>
-                    <p>...</p>                    
+                <div type="textpart">
+                    <p>κηΰα keÿa, n.: burnt offering, perhaps (following Hesychius) also purificatory.</p>
+                    <p>Hapax legomenon occurring only once on an inscription containing the law of Delphic amphictyons from 380/379 BC. (<ref corresp="https://epigraphy.packhum.org /text/3341">IG II2 1126</ref> in. 34 = Ziehen 1906: 226-234 no. 75, v. 34 with commentary on p. 233). Derived from the verb καίω (see Chantraine 1968: 481 and 528, respectively s.v.: καίω and κήυα).</p>
+                    <p>On the aforementioned inscription it evidently occurs as the name of a sacrifice of three animals (τρίττοια, here in the form τρίκτευα).</p>
+                    <p>According to LSJ (s.v.) and the commentaries on the edition of the inscriptions following the lexicon of Hesychius (s.v. κήϊα, κέϊα) it means a purificatory sacrifice, equivalent to καθάρματα, which is by no means indicated by the context in which it appears.</p>                    
                 </div>
             </div>
             
             <div type="edition" xml:lang="pl">
-                <div type="textpart" n="...">
-                    <head>...</head>
-                    <p>κηΰα keÿa
-                        κηΰα, n.: ofiara spalana, może (za Hezychiuszem) także oczyszczająca.
-                        Hapax legomenon występujące tylko jeden raz na inskrypcji zawierającej prawo amfiktionów delfickich z lat 380/379 p.n.e. (<ref corresp="https://epigraphy.packhum.org /text/3341">IG II2 1126</ref> w. 34 = Ziehen 1906: 226-234 nr 75, w. 34 z komentarzem na s. 233). Pochodzi od czasownika καίω (zob. Chantraine 1968: 481 i 528, odpowiednio s.v.: καίω i κήυα).
-                        Na wspomnianej inskrypcji występuje ewidentnie jako nazwa ofiary z trzech zwierząt (<ref corresp="http://www.sacrificium.filg.uj.edu.pl/en/#/lexicon/%CF%84%CF%81 %CE%AF%CF%84%CF%84%CE%BF%CE%B9%CE%B1%20%CE%B2%CE %BF%CF%8D%CE%B1%CF%81%CF%87%CE%BF%CF%82">τρίττοια</ref>, tutaj w formie τρίκτευα).
-                        Według LSJ (s.v.) oraz komentarzy do edycji inskrypcji idących za leksykonem Hezychiusza (s.v. κήϊα, κέϊα) oznacza ofiarę oczyszczającą, równoznaczną z καθάρματα, na co nie wskazuje bynajmniej kontekst, w jakim się pojawia.</p>
+                <div type="textpart">
+                    <p>κηΰα keÿa, n.: ofiara spalana, może (za Hezychiuszem) także oczyszczająca.</p>
+                    <p>Hapax legomenon występujące tylko jeden raz na inskrypcji zawierającej prawo amfiktionów delfickich z lat 380/379 p.n.e. (<ref corresp="https://epigraphy.packhum.org /text/3341">IG II2 1126</ref> w. 34 = Ziehen 1906: 226-234 nr 75, w. 34 z komentarzem na s. 233). Pochodzi od czasownika καίω (zob. Chantraine 1968: 481 i 528, odpowiednio s.v.: καίω i κήυα).</p>
+                    <p>Na wspomnianej inskrypcji występuje ewidentnie jako nazwa ofiary z trzech zwierząt (τρίττοια, tutaj w formie τρίκτευα).</p>
+                    <p>Według LSJ (s.v.) oraz komentarzy do edycji inskrypcji idących za leksykonem Hezychiusza (s.v. κήϊα, κέϊα) oznacza ofiarę oczyszczającą, równoznaczną z καθάρματα, na co nie wskazuje bynajmniej kontekst, w jakim się pojawia.</p>
                 </div>
             </div>
             
