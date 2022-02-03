@@ -28,7 +28,7 @@
     </teiHeader>
     <text>
         <body>
-            <div type="edition">
+            <div type="edition" xml:lang="it">
                 <div type="textpart" n="..">
                     <p>ἀνάπηρος anaperos, agg.: mutilato</p>
                     </div>
@@ -41,29 +41,40 @@
                     <p>Come termine per gli animali sacrificali, l'aggettivo ricorre in un frammento della commedia Kerkops di Hermippos (circa 417 a.C., vedi → Comicorum Atticorum fragmenta) e in → Alkibiades il Secondo (149a) dello Pseudo-Platone. A parte i pochi casi in cui le norme cultuali richiedevano al sacrificatore di sacrificare un animale che fosse difettoso in qualche aspetto, la regola era che gli animali uccisi fossero privi di difetti fisici. Tuttavia, l'autore di Alkibiades II attribuisce ai Lacedemoni l'usanza di sacrificare animali storpi anche quando non c'erano tali norme. È difficile dire quanta verità ci sia in questo e quanta rappresentazione stereotipata degli Spartani (cfr. Broulé, Touzé, 2008: 122; Ekroth 2014: 332).</p>
                 </div>
             </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="..">
+                    <p>ἀνάπηρος anaperos, adj.: mutilated</p>
+                </div>
+                <div type="textpart" n="Morphology">
+                    <head>Morphology</head>
+                    <p>Compound of the prefix ana- (in an intensifying function) and the adjective perós "crippled" (a word without etymology, see Beekes 2010: 1188-1189).</p>
+                </div>
+                <div type="textpart" n="Occurrences">
+                    <head>Occurrences</head>
+                    <p>As a term for sacrificial animals, the adjective occurs in a fragment of Hermippos' comedy Kerkopos (ca. 417 BC, see → Comicorum Atticorum fragmenta) and in Pseudo-Platon's → Alkibiades the Second (149a). Apart from the few cases where cultic regulations required the sacrificer to sacrifice an animal that was defective in some respect, the rule was that the animals killed were free from physical defects. However, the author of Alkibiades the Second attributes to the Lacedemonians the custom of sacrificing crippled animals also when there were no such regulations. It is difficult to say how much truth there is in this and how much stereotypical representation of the Spartans (cf. Broulé, Touzé, 2008: 122; Ekroth 2014: 332).</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="pl">
+                <div type="textpart" n="..">
+                    <p>ἀνάπηρος anaperos, adj.: okaleczony</p>
+                </div>
+                <div type="textpart" n="Morfologia">
+                    <head>Morfologia</head>
+                    <p>Złożenie przedrostka ana- (w funkcji intensyfikującej) i przymiotnika perós “kaleki” (wyraz bez etymologii, zob. Beekes 2010: 1188-1189).</p>
+                </div>
+                <div type="textpart" n="Wystąpienia">
+                    <head>Wystąpienia</head>
+                    <p>Jako określenie zwierząt ofiarnych przymiotnik ten występuje we fragmencie komedii Hermipposa Kerkopowie (ca. 417 p.n.e., zob. → Comicorum Atticorum fragmenta) i w → Alkibiadesie Drugim Pseudo-Platona (149a). Poza nielicznymi przypadkami, kiedy przepisy kultowe wymagały od ofiarnika złożenia w ofierze zwierzęcia pod jakimś względem ułomnego, regułą było, że zabijane zwierzęta były wolne od wad fizycznych. Autor Alkibiadesa Drugiego przypisuje natomiast Lacedemończykom zwyczaj składania w ofierze zwierząt kalekich także wtedy, kiedy takich przepisów nie było. Trudno powiedzieć, ile w tym prawdy, a ile stereotypowego przedstawienia Spartan (por. Broulé, Touzé, 2008: 122; Ekroth 2014: 332).</p>
+                </div>
+            </div>
+            
             <div type="bibliography">
                 <p>Beekes, Robert (2010). Etymological Dictionary of Greek. Leiden-Boston.</p>
                 <p>Broulé, P., Touzé, R. (2008). Le hiereion : phusis et psuchè d’un medium. w: P. Broulé, V. Mehl (eds.), Le sacrifice antique. Vestiges, procédures et stratégies: 111-138. Rennes.</p>
                 <p>Ekroth, G. (2014). Animal Sacrifice in Antiquity. The Oxford Handbook of Animals in Classical Thought and Life: 324-354. Oxford.</p>
             </div>
-            <!-- 
-ἀνάπηρος anaperos
-ἀνάπηρος, adj.: okaleczony
-
-Morfologia
-Złożenie przedrostka ana- (w funkcji intensyfikującej) i przymiotnika perós “kaleki” (wyraz bez etymologii, zob. Beekes 2010: 1188-1189).
-
-Wystąpienia
-Jako określenie zwierząt ofiarnych przymiotnik ten występuje we fragmencie komedii Hermipposa Kerkopowie (ca. 417 p.n.e., zob. → Comicorum Atticorum fragmenta) i w → Alkibiadesie Drugim Pseudo-Platona (149a). Poza nielicznymi przypadkami, kiedy przepisy kultowe wymagały od ofiarnika złożenia w ofierze zwierzęcia pod jakimś względem ułomnego, regułą było, że zabijane zwierzęta były wolne od wad fizycznych. Autor Alkibiadesa Drugiego przypisuje natomiast Lacedemończykom zwyczaj składania w ofierze zwierząt kalekich także wtedy, kiedy takich przepisów nie było. Trudno powiedzieć, ile w tym prawdy, a ile stereotypowego przedstawienia Spartan (por. Broulé, Touzé, 2008: 122; Ekroth 2014: 332).
-
-Bibliografia
-Beekes, Robert (2010). Etymological Dictionary of Greek. Leiden-Boston.
-Broulé, P., Touzé, R. (2008). Le hiereion : phusis et psuchè d’un medium. w: P. Broulé, V. Mehl (eds.), Le sacrifice antique. Vestiges, procédures et stratégies: 111-138. Rennes.
-Ekroth, G. (2014). Animal Sacrifice in Antiquity. The Oxford Handbook of Animals in Classical Thought and Life: 324-354. Oxford.
-
-Praca nad artykułem została sfinansowana ze środków Narodowego Centrum Nauki przyznanych na podstawie decyzji numer DEC-2013/09/B/HS2/01208.
-
- -->
         </body>
     </text>
 </TEI>

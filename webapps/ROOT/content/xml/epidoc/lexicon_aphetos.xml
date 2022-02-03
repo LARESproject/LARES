@@ -27,7 +27,7 @@
     </teiHeader>
     <text>
         <body>
-            <div type="edition">
+            <div type="edition" xml:lang="it">
                 <div type="textpart">
                     <p>ἄφετος afetos, adj. liberamente pascolato (su greggi); letteralmente: lasciato libero.</p>
                     </div>
@@ -42,29 +42,43 @@
                     <p>Nelle condizioni geografiche della Grecia vera e propria, le possibilità di pascolo libero del bestiame erano fortemente limitate. Allo stesso tempo, lo sviluppo di grandi santuari dove si offrivano sacrifici pubblici a moltitudini di persone creò una domanda per questa categoria di animali sacrificali. Di conseguenza, c'è stato un fenomeno per cui le aree vicine al santuario sono state messe da parte per il pascolo del bestiame. Questo era il caso, per esempio, del territorio tra Delfi e il golfo di Corinto, convertito in prato santo in seguito alla prima guerra santa (<ref corresp="https://epigraphy.packhum.org/text/3341">IG II2 1126</ref>), e dei prati a ovest di Eleusi (<ref corresp="https://epigraphy.packhum.org/text/2422">IG II2 204</ref>, <ref corresp="http://referenceworks.brillonline.com/entries/brill-s-new-jacoby/androtion-of-athens-324-a324?s.num=0&amp;s.f.s2_parent=s.f.book.brill-s-new-jacoby&amp;s.q=Androtion">Androtion, FGrH III B 324 F 30</ref>). Sull'allevamento di bestiame nei prati sacri si veda McInerney 2010: 146-172.</p>
                 </div>
             </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart">
+                    <p>ἄφετος aphetos, adj. freely grazed (about flocks); literally: let loose.</p>
+                </div>
+                <div type="textpart" n="Etymology_and_morphology">
+                    <head>Etymology and morphology</head>
+                    <p>Adjective verb formed from the verb ἀφίημι with the subject in the zero degree (cf. Chantraine 1961: 283).</p>
+                </div>
+                <div type="textpart" n="Appearances">
+                    <head>Appearances</head>
+                    <p>The verb refers directly to sacrificial animals in Plato's Kritias, in the description of the herd of bulls that grazed in Poseidon's sacred place on Atlantis: ἀφέτων ὄντων ταύρων ἐν τῷ . . ἱερῷ, Pl. Criti.119d (see comment ad loc.). The image of cattle grazing in the meadows belonging to the sanctuary is probably also alluded to by Euripides when he refers to the young Ion abandoned at Delphi with this adjective (ὃ δ᾽ ἐν θεοῦ δόμοισιν ἄφετος, ὡς λάθοι, παιδεύεται, E. Ion 821-822).</p>
+                    <p>The adjective ἄ. may also have referred to a place of free grazing - νομὴ ἄφετος - opposed to a manger, φάτνη, cf. Plut. Lys. 20.</p>
+                    <p>In the geographical conditions of Greece proper, the possibilities for free grazing of cattle were severely limited. At the same time, the development of large sanctuaries where public sacrifices were offered to multitudes of people created a demand for this category of sacrificial animals. Consequently, there was a phenomenon whereby areas close to the sanctuary were set aside for cattle grazing. This was the case, for example, in the territory between Delphi and the Gulf of Corinth, which was transformed into holy meadow as a result of the First Holy War (<ref corresp="https://epigraphy.packhum.org/text/3341">IG II2 1126</ref>), and in the meadows west of Eleuzis (<ref corresp="https://epigraphy.packhum.org/text/2422">IG II2 204</ref>, <ref corresp="http://referenceworks.brillonline.com/entries/brill-s-new-jacoby/androtion-of-athens-324-a324?s.num=0&amp;s.f.s2_parent=s.f.book.brill-s-new-jacoby&amp;s.q=Androtion">Androtion, FGrH III B 324 F 30</ref>). On cattle farming in the holy meadows see McInerney 2010: 146-172.</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="pl">
+                <div type="textpart">
+                    <p>ἄφετος afetos, adj. swobodnie wypasany (o trzodzie); dosłownie: puszczony wolno.</p>
+                </div>
+                <div type="textpart" n="Etymologia_i_morfologia">
+                    <head>Etymologia i morfologia</head>
+                    <p>Przymiotnik odczasownikowy utworzony od czasownika ἀφίημι z tematem na stopniu zerowym (por. Chantraine 1961: 283).</p>
+                </div>
+                <div type="textpart" n="Wystąpienia">
+                    <head>Wystąpienia</head>
+                    <p>Wprost do zwierząt ofiarnych czasownik odnosi się w Kritiaszu Platona, w opisie stada byków, które pasły się w miejscu świętym Posejdona na Atlantydzie: ἀφέτων ὄντων ταύρων ἐν τῷ . . ἱερῷ, Pl. Criti.119d (zob. komentarz ad loc.). Do obrazu bydła wypasanego na należących do sanktuarium łąkach nawiązuje też zapewne Eurypides, kiedy określa tym przymiotnikiem porzuconego w Delfach młodego Iona (ὃ δ᾽ ἐν θεοῦ δόμοισιν ἄφετος, ὡς λάθοι, παιδεύεται, E. Ion 821-822).</p>
+                    <p>Przymiotnik ἄ. mógł być odniesiony również do miejsca swobodnego wypasu - νομὴ ἄφετος - przeciwstawionego żłobowi, φάτνη, por. Plut. Lys. 20.</p>
+                    <p>W warunkach geograficznych Grecji właściwej możliwości swobodnego wypasu bydła były mocno ograniczone. Jednocześnie rozwój dużych sanktuariów, w których składano publiczne ofiary dla rzesz ludzi, stwarzał zapotrzebowanie na tę kategorię zwierząt ofiarnych. Można w związku z tym zaobserwować zjawisko polegające na wyłączaniu obszarów położonych w pobliżu sanktuarium spod uprawy w celu wypasania na nich bydła. Taki charakter miało między innymi terytorium między Delfami a Zatoką Koryncką, przekształcone w świętą łąkę w wyniku Pierwszej Wojny Świętej (<ref corresp="https://epigraphy.packhum.org/text/3341">IG II2 1126</ref>) oraz łąki położone na zachód od Eleuzis (<ref corresp="https://epigraphy.packhum.org/text/2422">IG II2 204</ref>, <ref corresp="http://referenceworks.brillonline.com/entries/brill-s-new-jacoby/androtion-of-athens-324-a324?s.num=0&amp;s.f.s2_parent=s.f.book.brill-s-new-jacoby&amp;s.q=Androtion">Androtion, FGrH III B 324 F 30</ref>). Na temat hodowli bydła na świętych łakach zob. McInerney 2010: 146-172.</p>
+                </div>
+            </div>
+            
             <div type="bibliography">
                 <p>Chantraine, Pierre, 1961, Morphologie Historique Du Grec, Paris.</p>
                 <p>McInerney, Jeremy, 2010, The Cattle of the Sun. Cows and Culture in the World of the Ancient Greeks, Princeton, NJ.</p>
             </div>
-            <!-- ἄφετος afetos
-ἄφετος, adj. swobodnie wypasany (o trzodzie); dosłownie: puszczony wolno.
-
-Etymologia i morfologia
-Przymiotnik odczasownikowy utworzony od czasownika ἀφίημι z tematem na stopniu zerowym (por. Chantraine 1961: 283).
-
-Wystąpienia
-Wprost do zwierząt ofiarnych czasownik odnosi się w Kritiaszu Platona, w opisie stada byków, które pasły się w miejscu świętym Posejdona na Atlantydzie: ἀφέτων ὄντων ταύρων ἐν τῷ . . ἱερῷ, Pl. Criti.119d (zob. komentarz ad loc.). Do obrazu bydła wypasanego na należących do sanktuarium łąkach nawiązuje też zapewne Eurypides, kiedy określa tym przymiotnikiem porzuconego w Delfach młodego Iona (ὃ δ᾽ ἐν θεοῦ δόμοισιν ἄφετος, ὡς λάθοι, παιδεύεται, E. Ion 821-822).
-
-Przymiotnik ἄ. mógł być odniesiony również do miejsca swobodnego wypasu - νομὴ ἄφετος - przeciwstawionego żłobowi, φάτνη, por. Plut. Lys. 20.
-
-W warunkach geograficznych Grecji właściwej możliwości swobodnego wypasu bydła były mocno ograniczone. Jednocześnie rozwój dużych sanktuariów, w których składano publiczne ofiary dla rzesz ludzi, stwarzał zapotrzebowanie na tę kategorię zwierząt ofiarnych. Można w związku z tym zaobserwować zjawisko polegające na wyłączaniu obszarów położonych w pobliżu sanktuarium spod uprawy w celu wypasania na nich bydła. Taki charakter miało między innymi terytorium między Delfami a Zatoką Koryncką, przekształcone w świętą łąkę w wyniku Pierwszej Wojny Świętej (IG II2 1126) oraz łąki położone na zachód od Eleuzis (IG II2 204, Androtion, FGrH III B 324 F 30). Na temat hodowli bydła na świętych łakach zob. McInerney 2010: 146-172.
-
-Bibliografia
-Chantraine, Pierre, 1961, Morphologie Historique Du Grec, Paris.
-McInerney, Jeremy, 2010, The Cattle of the Sun. Cows and Culture in the World of the Ancient Greeks, Princeton, NJ.
-
-Praca nad artykułem została sfinansowana ze środków Narodowego Centrum Nauki przyznanych na podstawie decyzji numer DEC-2013/09/B/HS2 /01208.
--->
         </body>
     </text>
 </TEI>
