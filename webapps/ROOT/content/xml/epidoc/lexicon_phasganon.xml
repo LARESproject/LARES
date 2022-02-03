@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>φάσγανον</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">lexicon_phasganon</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital document.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-11-10" who="NAME">encoded document in XML</change>
+                <change when="2021-10-12" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="it">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>...</p>                    
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>...</p>                    
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="pl">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>
+                        
+                        φάσγανον
+                        
+                        phasganon
+                        
+                        φάσγανον, ου, subst. n.: poet. arch. miecz.
+                        
+                        Etymologia
+                        
+                        Słowo jest dobrze poświadczone w mykeńskiej Grece jako pa-ka-na (Diccionario Micénico, vol. II: 70), dużo lepiej niż ξίφος („miecz”), zidentyfikowany na jednej tylko tabliczce (qi-si-pe-e, dualis, vide Chantraine 1968: 766, Diccionario Micénico, vol. II: 205). Jego etymologia jest jednak nieznana. Beekes uważa je za przedgreckie (Beekes 2010: 1556), rekonstruując jego temat do postaci σφαγ-/φασγ- z właściwym dla substratu -s- ruchomym (o hipotezie ruchomego -s- w wyrazach przedgreckich: Beekes 2010: xxiii).
+                        
+                        
+                        
+                        Poświadczenia
+                        
+                        Φάσγανον już dla Homera był archaizmem (tak Chantraine 1986: 1180), choć jako określenie miecza pojawia się często (15 wystąpień w Iliadzie, 10 w Odysei). Φάσγανον często określane jest jako „dwusieczne” (cf. Hom. Il. 10.256, Od. 22.79-80, B. 11.87, S. Tr. 930). Później wyraz odnajdujemy tylko w poezji.
+                        
+                        W kilku tragediach Eurypidesa φάσγανον pojawia się w kontekście ofiarniczym, nie znaczy to jednak, że „nóż” jest właściwym tłumaczeniem słowa w tego rodzaju kontekstach. Bardziej prawdopodobne jest, że to heroiczno-tragediowa konwencja pozwalała używać bohaterom mieczy tam, gdzie w codziennym życiu używano noży. W Ifigenii w Aulidzie tytułowa bohaterka ma zostać złożona w ofierze właśnie fasganem (E. IA 1429, 1566, 1578 (wers być może interpolowany)). Substytucja fasganu za machairę widoczna jest zwłaszcza w scenie umieszczenia go w złoconym koszu (→ κανοῦν) przez Kalchasa (E. IA 1566) - jednym z ofiarniczych zwyczajów było przynoszenie noża, którym miało zostać zabite zwierzę, w koszu (cf. Ar. Pax 948-9). Natomiast w Ifigenii w Taurydzie poeta używa zamiennie wyrazów φάσγανον i ξίφος na oznaczenie tak broni bohaterów, jak i narzędzia, którym zarzynane miały być ofiary na taurydzkich ołtarzach (ofiarnicze φάσγανον: E. IA 785, 852; ofiarnicze ξίφος: E. IA 27, 621, 875, 1190, 1459 (miecz wykorzystywany podczas święta Artemidy Tauropolos)). Również ofiara z Polikseny miała zostać spełniona fasganem (E. Hec. 543). Kruksem opatrzone jest wystąpienie tego słowa w kontekście ofiarniczym w Helenie (E. Hel. 543).
+                        
+                        
+                        
+                        Bibliografia
+                        
+                        Beekes Robert, 2010, Etymological Dictionary of Greek, Leiden-Boston.
+                        
+                        Chantraine Pierre, 1968, Dictionnaire étymologique de la langue grecque, Paris.
+                        
+                        Diccionario Micénico, 1993, vol. II, red. Francisco Aura Jorro,  Madrid.
+                        
+                        
+                        
+                        Napisał: Przemysław Biernat
+                        
+                        Data zamieszczenia: 31.03.2015.
+                        
+                        Praca nad artykułem została sfinansowana ze środków Narodowego Centrum Nauki przyznanych na podstawie decyzji numer DEC-2013/09/B/HS2/01208.</p>
+                </div>
+            </div>
+            
+            <div type="bibliography">
+                <p>...</p>
+            </div>
+        </body>
+    </text>
+</TEI>

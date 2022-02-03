@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>χρυσόκερως</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">lexicon_chrysokeros</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital document.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-11-10" who="NAME">encoded document in XML</change>
+                <change when="2021-10-12" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="it">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>...</p>                    
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>...</p>                    
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="pl">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>
+                        
+                        χρυσόκερως
+                        
+                        chrysokeros
+                        
+                        χρυσόκερως, adj. złotorogi
+                        
+                        Morfologia
+                        
+                        Wyraz stanowi złożenie przymiotnika chrysos, „złoty”, i rzeczownika keros „róg”.
+                        
+                        Poświadczenia
+                        
+                        Przymiotnik χρυσόκερως używany jest przez autorów antycznych przede wszystkim w dwóch kontekstach: jako określenie łani Artemidy, którą w ramach dwunastu prac miał złapać Herakles, oraz jako określenie bydła ofiarnego, któremu dla ozdoby pokrywano rogi złotą blaszką. Te dwa konteksty przyczyniły się zapewne do tego, że jeden z późnoantycznych mitografów opisał skradzione przez Hermesa trzody Apollona, brata Artemidy, jako „złotorogie” (Philostratus, Imagines, 1.26.3). Poza tym, przymiotnik pojawia się jeszcze w pismach gramatyków jako przykład wyrazów, które odmieniają się w ramach tak zwanej „deklinacji attyckiej”.
+                        
+                        Homer zna zwyczaj ozdabiania złotem rogów ofiarnego bydła (cf. Hom., Il. 10.294, Od. 3.430-438), chociaż przymiotnika χρυσόκερως nie używa. Jak sam Homer wyjaśnia w przywołanym passusie z Odysei, złocenie rogów ma sprawić, że dar będzie milszy bogini (ἵν᾽ ἄγαλμα θεὰ κεχάροιτο ἰδοῦσα, 438). Wydaje się, że nie należy odnosić rzeczownika ἄγαλμα z cytowanego passusu do ofiarowanej jałówki (tak np. Autenrieth 1984, s.v. ἄγαλμα). Bardziej prawdopodobne, że użyty jest tutaj w swoim zwyczajowym znaczeniu daru wotywnego (tak np. Montanari 2015, s.v. ἄγαλμα): po spełnieniu ofiary czaszka jałówki o pozłoconych rogach zostanie złożona w świątyni i właśnie w tej formie będzie radować oczy Ateny (tak Seaford 2004: 62 i nn.).
+                        
+                        Ponieważ bydło było najdroższym typem zwierzęcia ofiarnego, bydło o złoconych rogach stanowiło najdroższą możliwą formę ofiary zwierzęcej, związaną z najważniejszymi świętami państwowymi (<ref corresp="https://epigraphy.packhum.org/text/79">IG I3 78a</ref>, 36-40, zob. → Inskrypcje Eleuzyńskie). Wyrażenie „złotorogie bydło” może być też użyte jako metonimia kosztownych ofiar (Pl., Alc.2. 149c).
+                        
+                        Wystąpienia:
+                        
+                        Aeschin 3.164; Thphr. De piet. fr. 7, fr. 8; [Pl.] Alc. 2. 149c; J. AJ 13.242; Plu. Aem. 33.2; [Plu.] Apoph. 184e; Polyaen. 8.43; Lib. Decl. 23.1.10.
+                        
+                        Bibliografia:
+                        
+                        Autenrieth, G. (2004). Homeric Dictionary. London.
+                        
+                        Montanari, F. (2015). The Brill Dictionary of Ancient Greek. Boston-Leiden.
+                        
+                        Seaford, R. (2004). Money and the Early Greek Mind: Homer, Philosophy, Tragedy. Cambridge.
+                        
+                        
+                        
+                        Napisał: Przemysław Biernat
+                        
+                        Data zamieszczenia: 06.09.2016
+                        
+                        Data ostatniej aktualizacji: -
+                        
+                        Praca nad artykułem została sfinansowana ze środków Narodowego Centrum Nauki przyznanych na podstawie decyzji numer DEC-2013/09/B/HS2/01208.
+                        
+                    </p>
+                </div>
+            </div>
+            
+            <div type="bibliography">
+                <p>...</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>κοπίς</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">lexicon_kopis</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital document.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-11-10" who="NAME">encoded document in XML</change>
+                <change when="2021-10-12" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="it">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>...</p>                    
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>...</p>                    
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="pl">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>κοπίς kopis
+                        κοπίς, ίδος, subst. f.: masywny nóż do krojenia, tasak, poet. adj. tasakowy; być może przez metonimię: nazwa uczty podczas świąt Hiacyntiów i Tithenidiów w Sparcie.
+                        Etymologia
+                        Derywat od czasownika κόπτω, „uderzać” (Chantraine 1968 s.v. κόπτω, Beekes 2010 s.v. κόπτω). Czasownik jest być może indoeuropejski (cf. lit. kàpti, pl. kopać), chociaż Beekes nie wyklucza, że może pochodzić z substratu (cf. Mallory, Adams 1997, którzy nie uwzględniają go w swojej Encyklopedii). Gdyby przyjąć tę hipotezę, wyraz κοπίς można wiązać z rzeczownikiem σκέπαρνος (rodzaj topora), który, jak wiele nazw narzędzi, nie ma przekonującej indoeuropejskiej etymologii (Beekes 2010 s.v. σκέπαρνος; o ruchomym -s- w wyrazach przedgreckich: Beekes 2010: vol. 1, xxiii). Gordon zwrócił uwagę na możliwy związek słowa κοπίς z nazwą bliskowschodniej broni znanej ze źródeł egipskich jako kh.p.sh o podobnej budowie (Gordon 1958: 24). Nie implikuje to oczywiście bliskowschodniej etymologii słowa (kh.p.sh może być mykeńską pożyczką).
+                        Κοπίς jako nazwa przypadającej na pierwszy dzień spartańskiego święta Hiacyntiów uczty może mieć charakter metonimiczny i być może wpisuje się w zwyczaj nadawania nazw poszczególnym elementom świąt od czynności lub, co w tym kontekście ważniejsze, przedmiotów odgrywających w nich istotną rolę, jak to było w przypadku trzeciego dnia Anthesteriów, noszącego nazwę Χύτραι, „Garnki”.
+                        
+                        Wygląd i funkcja
+                        Kopida była drugim obok machairy (→ μάχαιρα (http://www.sacrificium.filg.uj.edu.pl /pl/#/lexicon/%CE%BC%CE%AC%CF%87%CE%B1%CE%B9%CF%81 %CE%B1)) narzędziem rzeźniczym wykorzystywanym w rytuale ofiarniczym. Służyła do skórowania zwierzęcia (βύρσαν ἐξέδειρεν: E. El. 824) i łamania kości klatki piersiowej (ἀναρρῆξαι χέλυν: E. El. 837).* (http://s) Z Elektry Eurypidesa możemy wnioskować, że istniały podtypy kopid związane prawdopodobnie z pierwotnym miejscem ich produkcji: Orestes najpierw skóruje zwierzę „doryjką” (E. El. 819, → Δωρίς (http://www.sacrificium.filg.uj.edu.pl/pl/#/lexicon/%CE%94%CF%89%CF%81 %CE%AF%CF%82)), czyli Δωρικὴ κοπίς (E. El. 836-7), a następnie prosi, aby podano mu tasak z Fthyi (Φθιάδ ̓ ἀντὶ Δωρικῆς, 836), którym rozłupuje jego klatkę piersiową, a także zabija Ajgistosa (E. El. 836-838; zob. też reprodukcje waz w: Berthiaume 1982: planches 19, 20). Praktyka wykorzystywania kilku noży (a więc pewnie także kilku ich typów) podczas ofiary została uchwycona na przedstawieniach wazowych (van Straten 1995: 18, ryc. 7).
+                        Granice zastosowań machairy i kopidy wydają się płynne: Eurypides w Cyklopie posługuje się wyrazem κοπίς jako przymiotnikiem do μάχαιρα, mówiąc o „tasakowych nożach” (E. Cyc. 241-2). W przywołanym wyżej opisie ofiary z Elektry kopida może być tożsama ze → σφαγίς (http://www.sacrificium.filg.uj.edu.pl/en/#/lexicon/%CF%83 %CF%86%CE%B1%CE%B3%CE%AF%CF%82) z wersu 811, która jest prawdopodobnie innym określeniem machairy. Również piszący o broni Ksenofont wydaje się traktować wyrazy μάχαιρα i κοπίς synonimicznie: „[Do walki z końskiego grzbietu] zalecam raczej machairę niż ksifos: dla znajdującego się wyżej jeźdźca cios kopidą jest lepszy, niż cios ksifosem” (μάχαιραν μὲν μᾶλλον ἢ ξίφος ἐπαινοῦμεν: ἐφ ̓ ὑψηλοῦ γὰρ ὄντι τῷ ἱππεῖ κοπίδος μᾶλλον ἡ πληγὴ ἢ ξίφους ἀρκέσει, Eq. 12.11). Wydaje się, że na synonimii kopidy i machairy opiera się domniemany kalambur Achajosa - τίς ὑποκεκρυμμένος μένει, σαραβάκων κοπίδων συνομώνυμε;, „kto się tam kryje, imienniku sromowych tasaków?” (Athen. 173d = TrGF 20 F 13; słowa skierowane były do delfijczyka, a kluczem do rozwikłania kalamburu jest powiedzenie „delficka machaira”). Niewykluczone, że o różnicy między nimi decydowała wyłącznie masywność ostrza.
+                        Podobnie jak w przypadku machairy, mianem kopidy określa się typ broni używanej przez mieszkańców wschodu (X. Cyr. 1.2.9, 1.2.13, 2.1.9, 2.2.9, 4.2.22, 5.2.1, 6.2.10, 7.3.8,
+                        
+                        8.8.23). Dla Greków w V i IV wieku p.n.e. jest to chyba wyłącznie narzędzie rzeźnicze, ofiarnicze i kuchenne (μαγειρικῶν κοπίς: Ar., Fr. 138; historia sprzedawcy mięsa, który kopidą odcina rękę Killikontowi: Theopomp.Hist. 111; Anaxipp. 6; zob. też Berthiaume 1982: 46).
+                        Prawdopodobnie przez metonimię, kopida stała się również nazwą wieczornej uczty, która przypadała na pierwszy dzień lakońskiego święta Hiacyntiów (dedykowanego Apollonowi) i miała miejsce w położonej na południe od Sparty miejscowości Amyklai. Zwierzętami, które składano wówczas w ofierze, były wyłącznie kozy (Ath. 138f). Najwcześniejsze literackie wzmianki o uczcie κοπίς pochodzą z komediopisarzy Kratinosa, Eupolisa i Epilykosa (Crat. 166, Eup. 138, Epil. 3), zacytowanych przez Atenajosa w jego opisie tego wydarzenia (137e-f, 140a). Z ich przekazów wynika, że lakońską kopidę znano w Atenach jako świąteczną ucztę, na której jedzenia nie wzbrania się nawet cudzioziemcom (τοῖς ξένοισιν, Crat. 166.1); fakt, że mięso z ofiar, obok innych smakołyków, otrzymywał każdy z obecnych, podkreśla również narrator Atenajosa (τῶν κρεῶν διδόασι μοίρας πᾶσι, Ath. 139a). Właśnie w wolnym dostępie wszystkich uczestników święta do mięsa ofiarnych zwierząt możemy upatrywać źródeł potencjalnego metonimicznego przeniesienia nazwy noża na całe święto. Z przekazu Atenajosa wynika również, że mianem kopidy określano w Sparcie nie tylko ucztę podczas święta Hiacyntiów, ale też „κοπίδες w mieście”, które miały miejsce podczas kurotroficznego święta Tithenidiów (Ath. 139a, RE 1511-1512; zdaniem Goldsteina zdanie to należy jednak rozumieć inaczej: „obchodzą kopides w mieście i podczas Tithenidiów”; Goldstein 1978: 30), obchodzonego ku czci Artemidy o przydomku Korythallia (cf. RE 1346, a zwłaszcza 1390). Składanymi wówczas w ofierze zwierzętami były młode prosięta w wieku 4-8 tygodni (γαλαθηνοὶ ὀρθαγορίσκοι, zwane w polskiej nomenklaturze zootechnicznej „prosiętami ssącymi”).
+                        Κοπίς jest również zaproponowaną przez Jortina (Griffith 1999: 226; zob. też Brown 1993: 173) emendacją wyrazu κόνις (pył) w wersie 602 Antygony Sofoklesa: νῦν γὰρ ἐσχάτας ὕπερ ῥίζας ὃ τέτατο φάος ἐν Οἰδίπου δόμοις, κατ ̓ αὖ νιν φοινία θεῶν τῶν νερτέρων ἀμᾷ κόνις λόγου τ ̓ ἄνοια καὶ φρενῶν ἐρινύς („Gdy teraz na najgłębsze korzenie domu Edypa padło światło, zakrył je znów krwawy pył bogów podziemnych, szaleństwo mowy i Erynia umysłu”, S. Ant. 599-602). Do emendacji takiej skłania obraz „korzeni” domu Edypa, które zostałyby tym samym „ścięte” (καταμάω) przez „tasak bogów
+                        
+                        podziemnych”. Ostatni wydawca Antygony odrzuca jednak tę emendację, argumentując, że „κοπίς is properly a 'scimitar' or 'cleaver', not a pruning or harvesting implement, (...) and why should the gods below be wielding a 'bloody scimitar'?” (Griffith 1999: 226; zob. też Smith 1961). Griffith ma niewątpliwie rację, odrzucając emendację Jortina, leksykologiczna linia jego argumentacji jest jednak błędna. Uczony, nie dysponując zapewne systematycznym opracowaniem słowa κοπίς, przecenia fakt, że oznacza ono miecz - znaczenie to jest wtórne i pojawia się przede wszystkim w opisach ludów wschodu. Za odrzuceniem emendacji przemawiają natomiast tradycja manuskryptowa i koherencja poetyckiego obrazowania. Jeżeli uznamy, że καταμάω nie znaczy „ścinać”, tylko, jak sugeruje scholiasta, „zakrywać” (cf. Griffith 1999: 226), otrzymamy obraz zorganizowany wokół piętrowej metafory zaślepiania: światło, które padło na korzenie w domu Edypa, już na nie nie pada, ponieważ zakryły je krwawy pył bogów podziemnych, bezmyślność rozumu i Erynia umysłu. Te dwa ostatnie wyrażenia ewokują inną metaforę – szaleństwa i niewiedzy jako zaślepienia – oraz przywołują plan psychologiczny, który doskonale tłumaczy się w kontekście metafory zakrywania/zaślepiania, mniej udatnie – w kontekście ścinania. Co więcej, Griffith nie zauważa, że nie tylko ἄνοια z wersu 602. odnosi się do zachowania Antygony (cf. S. Ant. 383, 562; Griffith 1999: 226), ale również κόνις, jako że pyłem właśnie Antygona posypała martwe ciało brata (S. Ant. 247; Brown 1993: 173).
+                        Katalog wystąpień w kontekście ofiary lub posiłku
+                        1. tasak: E. Cyc. 241 (adj.), E. El. 819 (→ Δωρίς (http://www.sacrificium.filg.uj.edu.pl /pl/#/lexicon/%CE%94%CF%89%CF%81%CE%AF%CF%82)), 836 (Phthias ~), 837 (Dorike ~), TrGF 20 F12, Ar. Fr. 138, Theopomp.Hist. 111;
+                        2. uczta świąteczna: Crat. 166, Eup. 138, Epil. 3.
+                        
+                        Bibliografia
+                        Beekes, R. (2010), Etymological Dictionary of Greek, Leiden-Boston.
+                        Berthiaume, G. (1982), Les rôles du mágeiros. Étude sur la boucherie, la cuisine et
+                        sacrifice dans la Grèce ancienne, Leiden.
+                        Brown, A. (1998), Sophocles: Antigone, Warminster.
+                        Goldstein, M.S. (1978), The Setting of the Ritual Meal in Greek Sanctuaries: 600-300 B.C., nieopublikowana praca doktorska.
+                        Gordon, D.H. (1958), 14. Scimitars, Sabres and Falchions, Man, Vol. 58, s. 22-27.
+                        Griffith, M. (1999), Sophocles, Antigone, Cambridge.
+                        Mallory, J.P.; Adams, D. Q. (1997), Encyclopedia of Indo-European Culture, London.
+                        Smith, P. J. (1961), Sophocles, „Ant”. 599-603, The Classical World, Vol. 54, No. 6, s. 175-176.
+                        van Straten, F. T. (1995), Hiera kala. Images of Animal Sacrifice in Archaic and Classical Greece, Leiden – New York – Köln.
+                        Wernicke (1894), Artemis, [w:] Paulys Real-Encyklopaedie der Classischen Altertumswissenschaft, Stuttgart, 1335-1440.
+                        Ziehen, Ludwig (1894), Τιθηνίδια, [w:] Paulys Real-Encyklopaedie der Classischen Altertumswissenschaft, Stuttgart, 1511-1512.
+                        Napisał: Przemysław Biernat
+                        Data zamieszczenia: 31.03.2015.
+                        Data ostatniej aktualizacji: 21.04.2015.
+                        Praca nad artykułem została sfinansowana ze środków Narodowego Centrum Nauki przyznanych na podstawie decyzji numer DEC-2013/09/B/HS2 /01208.
+                    </p>
+                </div>
+            </div>
+            
+            <div type="bibliography">
+                <p>...</p>
+            </div>
+        </body>
+    </text>
+</TEI>

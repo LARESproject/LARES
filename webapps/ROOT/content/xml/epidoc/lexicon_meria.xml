@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>μηρία</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">lexicon_meria</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital document.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-11-10" who="NAME">encoded document in XML</change>
+                <change when="2021-10-12" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="it">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>...</p>                    
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>...</p>                    
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="pl">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>μηρία
+                        
+                        mēría
+                        
+                        μηρία, subst. n., plurale tantum, kości udowe, femora (l.poj. femur).
+                        
+                        Etymologia.
+                        
+                        Urzeczownikowiony przymiotnik μηρία „kości udowe, udźce” (&lt; „udowe”, domyśl. ὄστεα „kości”) pochodzi od rzeczownika μηρός, „udo” (Risch 1974, 115); używany w l. mn. w technicznym znaczeniu „kości udowe bydlęce, owcze lub kozie” zawinięte w tłustą błonę otrzewnej (→ κνῖσα, rzadziej: → δημός, → ἐπιπόλαιον, → πιμελή), a następnie spalane na ołtarzu. W eposie homeryckim synonim rzeczownika zbiorczego μῆρα (→ μῆρα), w późniejszych tekstach niemal całkowicie go zastąpił (Chantraine 1999 [1968], 697). Zob. również → μηροί.
+                        
+                        Poświadczenia.
+                        
+                        Rzeczownik μηρία pojawia się w kontekście działań składających się trzy kolejne fazy procesu rytualnego: (1) przygotowanie części zwierzęcia ofiarnego przeznaczonej dla bogów, czyli (1a) odcięcie udźców i wykrojenie μηρία ἐκτάμνω/ἐκτέμνω, „odcinam, wycinam, wykrajam”, por. Meuli, 1946, 216-7), (1b) „ukrycie” μηρία poprzez owinięcie ich dwustronnie tłustą błoną otrzewnej ([κνίσῃ] κατακαλύπτω, „zakrywam (tłuszczem)” oraz (1c) ułożenie na nich surowych kawałków mięsa z innych części zwierzęcia (ἐπ᾽ αὐτῶν ὠμοθετέω, „na nich (tzn. udźcach) kładę kawałki mięsa”); (2) złożenie części przeznaczonej dla bogów na ołtarzu: ἐπιτίθημι, „układam, kładę na (domyśl. ołtarzu)”; (3) spalenie: καίω, „spalam, palę”, δαύω, „spalam”. Do tego należy dodać wzmianki o (4) wykorzystaniu popiołów powstałych ze spalonych kości.
+                        
+                        
+                        
+                        1. Przygotowanie części przeznaczonej dla bogów.
+                        
+                        
+                        
+                        W eposie homeryckim wyrażenie ἐκ μηρία τάμνον („wycięli kości udowe”, z tmezą Od. 3.456) pojawia się w szczegółowym opisie złożonej przez Nestora ofiary dla Ateny (Od. 3.456b-457): ἄφαρ δ᾽ ἐκ μηρία τάμνον / πάντα κατὰ μοῖραν, κατά τε κνίσῃ ἐκάλυψαν („gdy wycięli kości udowe, wszystkie jak się należy, i ukryli w tłuszczu otrzewnej”), który jest wariantem powszechniejszej wersji opisu procedury przygotowania udźców (μηρούς) do spalenia (Il. 1.464-5 = Il. 2.427-8 = Od. 12.364-5): μηρούς τ᾽ ἐξέταμον κατά τε κνίσῃ ἐκάλυψαν / δίπτυχα ποιήσαντες, ἐπ᾽ αὐτῶν δ᾽ ὠμοθέτησαν, „udźce wycieli i ukryli w tłuszczu otrzewnej, / podwójnie zawinąwszy, na nie zaś położyli surowe skrawki”. We wspomnieniach o ofiarach wbudowanych w wypowiedzi postaci owinięcie μηρία tłuszczem jest metonimicznie sygnalizowane przymiotnikami πίων „tłuste” (7x w eposie homeryckim), ἀγλαά „błyszczące” (Hes. Op.337), rzeczownikiem δημός „tłuszcz” (2x) lub wyrażeniem καλύψας πίονι δημῷ (1x).
+                        
+                        W Pokoju Arystofanesa (Pax 1025) poleca się wycięcie kości udowych po złożeniu ofiary, czyli po dokonaniu rytualnego uboju zwierzęcia w skene, i przyniesienie ich na orchestrę: θύσας τὰ μηρὶ᾽ ἐξελὼν δευρ᾽ ἔκφερε. Słowo μηρία pojawia się prawdopodobnie we fragmencie komedii Eubulosa Semele Eubulosa (fr. 94 Kassel-Austin = fr. 95 Kock, tekst zepsuty, crux philologorum), gdzie Dionizos skarży się na skład części zwierzęcia ofiarnego przeznaczonych dla bogów: πρῶτον μὲν ὅταν ἐμοί τι θύωσίν τινες, / αἷμα, κύστιν, ἧπαρ, καρδίαν, / ὑμέν᾽ ἐπιπόλαιον· οὐδ᾽ ἐγὼ γὰρ ἐσθίω / γλυκεῖαν οὐδὲ μηρία. „Po pierwsze, gdy ofiary jakieś dają mi, / To tylko krew i pęcherz, serce, wątrobę też, / I cienką błonę wierzchnią, lecz nie jadam ja, / Ni żółci, ani kości z biodra wziętych wszak. / (…) i biodra górną część (tłum. Janina Niemirska-Pliszczyńska)”.
+                        
+                        2. Ułożenie części przeznaczonej dla bogów na ołtarzu.
+                        
+                        Związek frazeologiczny μηρία + ἐπιτίθημι, „kłaść (na ołtarzu) udźce” = „składać ofiarę zwierzęcą” w eposie pojawia się w poleceniach przygotowanie ofiary (Od. 21.267: ὄφρ᾽ ἐπὶ μηρία θέντες Ἀπόλλωνι, mówi Alkinoos, por. A.Rh.  2.691: δὴ τότε οἱ κεραῶν ἐπὶ μηρία θήσομεν αἰγῶν „udźce rogatych kozłów złóżmy dla niego w ofierze”. Por. wspomnienie o ofiarach spełnionych (Nestor, Od. 3.178-9: Ποσειδάωνι δὲ ταύρων / πόλλ᾽ ἐπὶ μῆρ᾽ ἔθεμεν). W inskrypcjach μηρία jest zastępowane czasami innymi wyrażeniami, zob. LSAM 24 (ok. 380/360 p.n.e.), Erythraj, l.33-34: ὅταν τὴν ἱρὴν μοῖραν ἐπιθῆι. Udźce leżące na ołtarzu jako tło gwałtownej śmierci grożącej ofiarnikowi pojawiają się w przywołanym przez Arystofanesa fragmencie Eurypidesa (E.Fr. 143 = Ar. Th. 694): ἐπὶ τῶν μηρίων.
+                        
+                        
+                        
+                        3. Spalenie części poświęconej bogom.
+                        
+                        W eposie rzeczownik μηρία występuje najczęściej w połączeniu z czasownikiem „spalać” καίω i jego pochodnymi. W ofiarach przedstawionych przez głównego narratora spalanie udźców stanowi centralny element sceny typowej → uczta ofiarna (zob. Korpus, Homer, Wprowadzenie). W homeryckiej formule καῖε δ᾽ ἐπὶ σχίζῃς ὁ γέρων, ἐπὶ δ᾽ αἴθοπα οἶνον / λεῖβε „następnie starzec spalił na szczapach, polał skrzącym winem winem” (Il. 1.462-463 = Od. 3.459-460) domyślnym dopełnieniem są udźce zawinięte w tłuszcz z kawałkami surowego mięsa na wierzchu. W wariancie tego heksametru καὶ τὰ μὲν ἂρ σχίζῃσιν ἀφύλλοισιν κατέκαιον „i spalił je na szczapach bezlistnych” (Il. 2.425) zaimek τὰ wskazuje bezpośrednio na udźce, por. A.Rh. 1.434-5: τά γε πάντα (…) καῖον ἐπὶ σχίζῃσιν.
+                        
+                        Na kluczową rolę spalania kości udowych i kosztowania wnętrzności wskazuje formularny heksametr, który podsumowuje opis procesu rytualnego słowami: εὖθ᾽ οἱ σπλάγχνα πάσαντο, θεῷ δ᾽ ἐπὶ μηρί᾽ ἔκηαν „gdy skosztowali wnętrzności, i spalili bogu kości udowe” (Od. 3.9), por. jego standardowa postać: αὐτὰρ ἐπεὶ κατὰ μῆρ᾽ ἐκάη καὶ σπλάγχνα πάσαντο „gdy już udźce spalili i skosztowali wnętrzności” (4x: Il. 1, 464=Il. 2, 427=Od. 3, 461= Od. 12,364).
+                        
+                        Poza scenami typowymi wyrażenie καίω +  μηρία w eposie homerowym jest używane jako metonimia ofiar wspominanych przez narratora głównego (aojdę) lub w wypowiedziach postaci. Narrator główny używa go w dwóch miejscach: wspominając ofiary składane przez Autolykosa dla Hermesa (Od. 19.397-398: τῷ γὰρ κεχαρισμένα μηρία καῖεν / ἀρνῶν ἠδ᾽ ἐρίφων) oraz przedstawiając myśli Thespisa rozważającego, jak uratować życie w czasie rzezi zalotników (Od. 22.334-336: ἢ ἐκδὺς μεγάροιο Διὸς μεγάλου ποτὶ βωμὸν (…) / ἔνθ᾽ ἄρα πολλὰ / Λαέρτης Ὀδυσεύς τε βοῶν ἐπὶ μηρί᾽ ἔκηαν). W pierwszym wypadku chodzi “miłe (κεχαρισμένα)” ofiary, które łączą się ze szczególną przychylnością Hermesa dla czciciela obdarzonego przez boga specjalnymi przymiotami, w drugim jest elementem opisu ołtarza Zeusa, opiekuna zagrody, i podkreśla związek Odyseusza jako gorliwego ofiarnika z miejscem, gdzie błagalnik może szukać ochrony przed gniewem tegoż.  
+                        
+                        W wypowiedziach postaci spalenie udźców dla boga jest typowym elementem modlitwy, a jego przypomnienie powiązane z prośbą skierowaną  do istoty nadprzyrodzonej tworzy relację wzajemności. Modlący się mogą przywołać ofiary, które sami niegdyś złożyli:
+                        
+                        Il. 1.40-41 (Chryzes): ἢ εἰ δή ποτέ τοι κατὰ πίονα μηρί᾽ ἔκηα / ταύρων ἠδ᾽ αἰγῶν, „jeżelim Ci kiedy spalił tłuste udźce / byków i kozłów”; Il. 8.240 (Agamemnon): ἀλλ᾽ ἐπὶ πᾶσι βοῶν δημὸν καὶ μηρί᾽ ἔκηα, „lecz na wszystkich (ołtarzach) tłuszcz i udźce spalałem”; Il. 15.373-374 (Agamemnon): ἢ βοὸς ἢ οἰὸς κατὰ πίονα μηρία καίων  / εὔχετο νοστῆσαι, „(jeżelim) modlił się o powrót spalając tłuste udźce wołu lub owcy”. Jeśli natomiast modlącym jest postać zajmująca niższą pozycję społeczną (Eumajos, Penelopa), przywołuje ofiary złożone w przeszłości przez prawowitego gospodarza, Odyseusza:
+                        
+                        Od. 17.240-242 (Eumajos): Νύμφαι κρηναῖαι, κοῦραι  Διός, εἴ ποτ᾽  Ὀδυσσεὺς /
+                        
+                        ὔμμ᾽ ἐπὶ μηρί᾽ ἔκηε, καλύψας πίονι δημῷ, / ἀρνῶν ἠδ᾽ ἐρίφων, τόδε μοι κρηήνατ᾽ ἐέλδωρ; Od. 4.763-765 (Penelopa): εἴ ποτέ τοι πολύμητις ἐνὶ μεγάροισιν  Ὀδυσσεὺς / ἢ βοὸς ἢ ὄϊος κατὰ πίονα μηρία κῆε, / τῶν νῦν μοι μνῆσαι καί μοι φίλον υἷα σάωσον. Charakterystyczne, że we wszystkich przypadkach spalane udźce są określone jako tłuste (πίονα μηρία, Il. 1.40; 11.773; 15.373; Od. 4,764) lub – w przypadku modlitwy Eumajosa – podkreśla się fakt ukrycia ich w tłuszczu (καλύψας πίονι δημῷ, Od. 17.241).
+                        
+                        W kilku miejscach postaci wspominają w swoich opowiadaniach udźce spalane przez któregoś z herosów w przeszłości. Dwukrotnie mówi Nestor, który, jako najstarszy z herosów przybyłych pod Troję, jest nosicielem pamięci historycznej pokolenia walczącego w wojnie trojańskiej. W Il. 11.772-773 wspomina ofiarę składaną przez Peleusa w chwili, gdy Nestor przed wojną trojańską  przybył do Ftyi (γέρων δ᾽ ἱππηλάτα Πηλεὺς / πίονα μηρία καῖε βοὸς Διὶ τερπικεραύνῳ). Chodzi o wersję sceny typowej „uczta ofiarna + przybycie gości” dostosowaną do formatu mowy herosa. Natomiast w Od. 3.273  Nestor mówi o Ajgistosie, podkreślając bezskuteczność jego ofiar (πολλὰ δὲ μηρί᾽ ἔκηε θεῶν ἱεροῖσ᾽ ἐπὶ βωμοῖς). W 24. pieśni Iliady bogowie dwukrotnie wspominają udźce spalane przez Hektora (Il. 24.33-34; Apollon: οὔ νύ ποθ᾽ ὑμῖν / Ἕκτωρ μηρί᾽ ἔκηε βοῶν αἰγῶν τε τελείων; Il. 24.170-3; Zeus: (Ἕκτωρ) ὅς μοι πολλὰ βοῶν ἐπὶ μηρί᾽ ἔκηεν / Ἴδης ἐν κορυφῇσι πολυπτύχου, ἄλλοτε δ᾽ αὖτε / ἐν πόλει ἀκροτάτῃ). Wreszcie, gdy Odyseusz opowiada o udźcach spalonych w ofierze przez siebie w trakcie wędrówki, używa zwrotu, ῥέξας μηρί᾽ ἔκαιον (Od. 9.550 ἀρνειὸν (…) /· τὸν δ᾽ ἐπὶ θινὶ / Ζηνὶ κελαινεφέϊ  Κρονίδῃ, ὃς πᾶσιν ἀνάσσει, / ῥέξας μηρί᾽ ἔκαιον· ὁ δ᾽ οὐκ ἐμπάζετο ἱρῶν).
+                        
+                        Spalanie udźców jako metonimia ofiary występuje również w innych gatunkach poetyckich: w elegii (Thgn. 1145: niech modli się do bogów i składa ofiarę (…) spalając lśniące udźce, εὐχέσθω δὲ θεοῖσι, καὶ ἀγλαὰ μηρία καίων (…) θυέτω), w peanie Bakchylides (B. 1.66: ἐπὶ βω[μῶν] [θεοῖσιν αἴθε]σθαι βο[ῶν ξανθᾷ φλογί] [[μηρί᾽ εὐ]μάλ]λων τε [μήλων] „na ołtarzach / w jasnym ogniu bogom złożone / udźce wołów i owiec płoną wełnistych (tłum. J. Danielewicz)”. W liryce: Call. frg.2a: μνῆσαι δ᾽, εἴ κοτέ τοι μηρία καλὰ βοῶν.
+                        
+                        Arystofanes w Ptakach przyjmuje optykę odwróconą, ofiary widzianej z góry; przenosi akcent ze procesu spalania na jego rezultat, „tłusty” dym wznoszący się do nieba (Ar. Av. 193): διὰ τῆς πόλεως ... τὴν κνῖσαν οὐ διαφρήσετε „z udźców palonych dymu nie puścicie przez swoje miasto (tłum. J. Ławińska-Tyszkowska),” por. 1517-8 („ani dym z palonych udźców / nie płynie do nas”, οὐδὲ κνῖσα μηρίων ἄπο / ανῆλθεν). Zwrot τῶν μηρίων τὴν κνῖσαν, na zasadzie odwrócenie, znajduje swój odpowiednik w κεκίς μηρίων w Antygonie Sofoklesa.
+                        
+                        W epoce klasycznej pojawiają się pierwsze świadectwa praktyk mantycznych towarzyszących spalaniu, a w konsekwencji szczegółowe opisy anomalii procesu spalania części poświęconej bogom. Złe znaki wróżebne opisuje szczegółowo Tejrezjasz w Antygonie Sofoklesa (S.Ant. 1005-1020): ἀλλ᾽ ἐπὶ σποδῷ μυδῶσα κηκὶς μηρίων ἐτήκετο κἄτυφε κἀνέπτυε, καὶ μετάρσιοι χολαὶ διεσπείροντο, καὶ καταρρυεῖς μηροὶ καλυπτῆς ἐξέκειντο πιμελῆς, „lecz na popiele wyciekająca, bulgocąca ciecz z kości ofiarnych topiła się i dymiła i skwierczała, i krople żółci pryskały wysoko, a oślizgłe udźce wypadły z zakrywającego je tłuszczu”.
+                        
+                        W inskrypcjach okresu archaicznego i klasycznego słowo pojawia się rzadko. Stan zachowania napisu regulującego normy rytualne kultu Heraklesa w Milecie (LSAM 42, Milet, ok. 500 r. p.n.e.) nie pozwala ustalić kontekstu słowa, jednak czasownik παρατίθημι może sugerować, że poleca się ułożenie czegoś przy lub przed udźcami (]ὰ τοῖσι μηρίοισ[ι | πα]ρατιθέναι· ἔρ̣δεν ο-).
+                        
+                        W późniejszej prozie o spalaniu udźców autorzy mówią wówczas, gdy chodzi o ofiarę nietypową, na przykład ofiarę z odyńca składaną w Megalopolis: καὶ τά τε μηρία ἐκτεμόντες καίουσι καὶ δὴ καὶ ἀναλίσκουσιν αὐτόθι τοῦ ἱερείου τὰ κρέα, „po wycięciu kości udowych, spalają je i zjadają mięso zwierzęcia ofiarnego w samym okręgu świętym (Paus. 8.38.8)”.
+                        
+                        
+                        
+                        4. Wykorzystanie popiołu spalonych μηρία.
+                        
+                        
+                        
+                        Popiół spalonych μηρία bywał gromadzony w specjalnych miejscach: na heroonie (Hdt 4.35: καὶ τῶν μηρίων καταγιζομένων ἐπὶ τῷ βωμῷ τὴν σποδὸν ταύτην ἐπὶ τὴν θήκην τὴν  Ὤπιός τε καὶ  Ἄργης ἀναισιμοῦσθαι ἐπιβαλλομένην, „popiół ze spalonych na ołtarzu udźców zużywa się na posypanie grobu Opis i Argi”).
+                        
+                        
+                        
+                        Katalog wystąpień
+                        
+                        
+                        
+                        1) Verb. + μηρία:
+                        
+                        ἐκτάμνω + μηρία, „wyciąć”: Od. 3.456; Paus. 8.38.8
+                        
+                        ἐξαιρέω + μηρία, „wyjąć”: A. Pax 1021
+                        
+                        ἐπιτίθημι + μηρία, „położyć (na ołtarzu)”: Od. 21.267; Ap. Rhod. 2.691; por. ἐπὶ τῶν μηρίων E. fr. 143 = A.Th. 694
+                        
+                        καίω + μηρία, „spalić”: Il. 1.40; 8.240; 11.773; 22,34; Od. 3.273; 9.553; 19.366; 19.397; 22.336; Hes. Op. 337; Thgn. 1.1145; domyśl. [μηρία], Il. 1.462 = Od. 3.459; Il. 2.425; A.Rh. 1,435; Paus. 8.38.8
+                        
+                        ἐπικαίω + μηρία, „spalić”: Od. 3.9; Od. 17.241;
+                        
+                        κατακαίω + μηρία, „spalić”:  Il. 1.40; Il. 15.373; Il. 22.170; Od. 4.764; [Call. Eleg. 2a]; domyśl. Il. 2.425
+                        
+                        δαύω + μηρία, „spalić”: Sem. 30 (μηρίων δεδαυμένων)
+                        
+                        2) Adj. + μηρία
+                        
+                        W eposie rzeczownik μηρία występować z przydawkami:
+                        
+                        πίονα „tłuste”: Hom. Il. 1.40; Il. 15.373; Il. 11.773; Od. 4.764
+                        
+                        ἀγλαὰ „błyszczące”: Hes. Op. 337; Thgn. 1.1145
+                        
+                        πολλὰ „liczne, mnogie”: Hom. Od. 3.273; 24.170
+                        
+                        κεχαρισμένα „miłe”: Hom. Od. 19.397)
+                        
+                        ἱερὰ „święte”: A.Rh. 1.433.
+                        
+                        Wydaje się, że πίονα jest używane przede wszystkim w modlitwach jako metonimią sygnalizującą proces rytualny przygotowywania części przeznaczonej dla bogów.
+                        
+                        3) μηρία + SubstGEN
+                        
+                        Jako dopełnienie pojawiają się nazwy zwierząt ofiarnych: ἢ βοὸς ἢ ὄϊος (Il. 15.373: dla Zeusa; Od. 4.763: dla Zeusa), ταύρων ἠδ᾽ αἰγῶν (Il. 1.41; dla Apollona), ταύρων (Od. 3.178, dla Posejdona); βοῶν (Il. 8.240; dla Zeusa; Il.24.170; dla Zeusa, Od. 22.336; dla Zeusa Herkeiosa), βοῶν αἰγῶν τε (Il. 24.34; ofiary Hektora dla bogów, mówi Apollon), ἀρνῶν ἠδ᾽ ἐρίφων (Od. 17.242; dla Nimf, Od. 19.397, dla Hermesa).
+                        
+                        
+                        
+                        zwierzę ofiarne
+                        
+                        
+                        adresat ofiary
+                        
+                        ταύρων
+                        
+                        
+                        Posejdon
+                        
+                        ταύρων ἠδ᾽ αἰγῶν
+                        
+                        
+                        Apollon
+                        
+                        βοῶν
+                        
+                        
+                        Zeus (3x)
+                        
+                        βοῶν αἰγῶν τε
+                        
+                        
+                        bogowie (mówi Apollon)
+                        
+                        ἢ βοὸς ἢ ὄϊος
+                        
+                        
+                        Zeus (2x)
+                        
+                        ἀρνῶν ἠδ᾽ ἐρίφων
+                        
+                        
+                        Nimfy (1x), Hermes (1x)
+                        
+                        
+                        
+                        Zdaje się, że wybór zwierząt ofiarnych nie jest przypadkowy. Posejdon i Apollon otrzymują niekastrowane byki (ταύροι), Zeus – woły (βοῦς) oraz owce (οἶς), Nimfy i Hermes, bóstwa ściśle ze sobą związane – „jagnięta i koźlęta” (ἀρνῶν ἠδ᾽ ἐρίφων); warto zauważyć, że gdy w kontekście pojawia się Apollon, pojawiają się również kozy, αἰγῶν. Por. A.Rh. 2,697: κεραῶν ἐπὶ μηρία θήσομεν αἰγῶν. W zwrocie μηρία + SubstGEN nie pojawiają się świnie.
+                        
+                        
+                        
+                        4) μηρία καίειν + ἐπί Substdat. loc. lub ἐν Substdat. loc.
+                        
+                        W eposie zwrot może występować z okolicznikiem miejsca „na ołtarzu”: Od. 3.273:  ἱεροῖσ᾽ ἐπὶ βωμοῖς; Il. 8.240: ἐπὶ πᾶσι (scil. βωμοῖς); lub „na brzegu (morza)” Od. 9.550: ἐπὶ θινὶ.
+                        
+                        Il. 24.170-3: Ἴδης ἐν κορυφῇσι πολυπτύχου, (…) ἐν πόλει ἀκροτάτῃ; Od. 4.763-765: ἐνὶ μεγάροισιν.
+                        
+                        Dyskusja/Interpretacja.
+                        
+                        Długo toczyła się dyskusja, czy słowo μηρία oznacza „udziec”, czyli „kość udową z otaczającymi ją mięśniami”, czy „kość udową, femur”. W przełomowym artykule Karl Meuli,  wykazał, że drugie znaczenie jest właściwe (Meuli 1946, wcześniejsza bibliografia, tamże, s. 215, przyp. 6; por. Detienne, Vernant 1979, Detienne 1998, s. 70-2, van Straten 1995; Ekroth 2007, 2009, 2013). Ostatnio Guy Berthiaume zasugerował, że składanie w ofierze oczyszczonych kości lub kości z mięsem nie było bezwzględną normą, lecz zależało od okoliczności i decyzji ofiarnika (Berthiaume 2005), jednak przytoczone na poparcie tej tezy źródła nie są przekonujące (Ekroth 2009, 127-8). Hezjod w Teogonii uzasadniał zwyczaj palenia na ołtarzach μηρία, mēría mitem o podstępie, do którego uciekł się Prometeusz podczas ostatecznego rozdziału bogów i ludzi (ἐκ τοῦ δ᾽ ἀθανάτοισιν ἐπὶ χθονὶ φῦλ᾽ ἀναθρώπων / καίουσ᾽ ὀστέα λευκὰ θυηέντων ἐπὶ βωμῶν, →zob. komentarz do Hezjod, Teogonia, 535-558). Wyrażenie ὀστέα λευκὰ jest tutaj funkcjonalnym odpowiednikiem μηρία, co mogłoby sugerować, że na ołtarzu spalano oczyszczone z mięsa kości udowe lub że były one najważniejszym składnikiem części przeznaczonej bogom, stąd użycie metonimiczne. Chociaż wczesny epos nie używa słowa „ofiara”, epitet określający ołtarze w połączeniu z ὀστέα λευκὰ καίειν, „palić białe kości” ujmuje istotę rytuału ofiarnego: chodzi o wytworzenie dymu podczas spalania kości udowych, widocznego sygnału przesyłanego przez ludzi jako znaku czci w ramach relacji wzajemności (Parker 1998; 2011).
+                        
+                        Interpretację rzeczownika μηρία jako terminu technicznego oznaczającego oczyszczone z mięsa kości udowe potwierdza tradycja leksykograficzna. Hesychios definiuje je jako τὰ ἐκ τῶν μηρῶν ἐξαιρούμενα ὀστᾶ „kości wykrojone z udźców” (s.v. μηρία), por. użycie czasownika w Ar. Pax 1021). Podobnie u Apollon. Lex. s.v. μηρία· οὐχ ὡς ἡμεῖς, ἀλλὰ τὰ ἐκ τῶν μηριῶν ἐξαιρούμενα καὶ ἱεροθυτούμενα ὀστᾶ „odmiennie niż w naszym użyciu, oznacza kości wykrojone z udźców i ofiarowane bogom”. Natomiast Etym. M. (p. 585, 22) wyjaśnia: μηρία· τὰ μηριαῖα ὀστᾶ „kości udowe” (Meuli 1946, 216).
+                        
+                        W eposie homerowym akt spalania μηρία na ołtarzu jest metonimią ofiary krwawej, zwłaszcza w wypowiedziach bohaterów wspominających przeszłe lub zapowiadających przyszłe ofiary.  Chodzi o czyny dokonane, które – jeśli miłe bogu – zjednują, zaskarbiają jego życzliwość, charis. Bezpośredni związek między pojęciem charis a udźcami spalanymi na ołtarzach znajdujemy w Od. 19.397 (κεχαρισμένα μηρία). Nie chodzi o prostą wymianę opartą na zasadzie do ut des, lecz o stałą relację wzajemności, generalized reciprocity (na temat charis: Parker 2011; Loew, 1908; Latacz 1967, s. 78-98; Moussy 1966, 411-415).
+                        
+                        Bibliografia
+                        
+                        Berthiaume, Guy (1982), Les rôles du mágeiros. Études sur la boucherie, la cuisine et le sacrifice dans la Grèce ancienne, Leiden
+                        
+                        Detienne, Marcel, Vernant, Jean-Pierre (1979), La cuisine du sacrifice en pays grec, avec les contributions de Jean-Louis Durand, Stella Georgoudi, François Hartog et Jasper Svenbro, Gallimard, Paris
+                        
+                        Ekroth, Gunnel (2007), Meat in ancient Greece: sacrificial, sacred or secular? “Food &amp; History” 5, s. 249-272
+                        
+                        Ekroth, Gunnel (2009), Thighs or tails? The osteological evidence as a source for Greek ritual norms, w: Le norme en matière religieuse dans la Grèce ancienne. Actes du XIe colloque du CIERGA (Rennes, septembre 2007), ed. P. Brulé, Liège, s. 125-151
+                        
+                        Ekroth, Gunnel (2013), Forlegs in Greek cult, w: Perspectives on ancient Greece. Papers in celebration of the 60th anniversary of the Swedish Institute at Athens, ed. Ann-Louise Schallin, Stockholm, s. 113-134
+                        
+                        Latacz, Joachim (1967) Zum Wortfeld „Freude” in der Sprache Homers, Heidelberg
+                        
+                        Loew, O. (1908) ΧΑΡΙΣ, diss. Marburg
+                        
+                        Meuli, Karl (1946) Griechische Opferbaüche, w: Phyllobolia. Für Peter von der Mühll zum 60. Geburtstag am 1. August 1945, Basel, s. 185 – 288
+                        
+                        Moussy, Claude (1966), Grātia et sa famille, Paris
+                        
+                        Parker, Robert (1998), Pleasing Thighs: Reciprocity in Greek Religion [w:] Reciprocity in Ancient Greece, edited by Christopher Gill, Norman Postlethwaite and Richard Seaford, Oxford 1998, s. 105 – 125
+                        
+                        Pirenne-Delforge, Vincienne (2008), Retour à la source. Pausanias et la religion grecque, Liège
+                        
+                        Risch, Ernst (1974), Wortbildung der homerischen Sprache, Berlin
+                        
+                        
+                        
+                        Napisał: Lech Trzcionkowski
+                        
+                        Data zamieszczenia: 31.03.2015.
+                        
+                        Praca nad artykułem została sfinansowana ze środków Narodowego Centrum Nauki przyznanych na podstawie decyzji numer DEC-2013/09/B/HS2/01208.</p>
+                </div>
+            </div>
+            
+            <div type="bibliography">
+                <p>...</p>
+            </div>
+        </body>
+    </text>
+</TEI>

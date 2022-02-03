@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Δωρίς</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">lexicon_doris</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital document.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-11-10" who="NAME">encoded document in XML</change>
+                <change when="2021-10-12" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="it">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>...</p>                    
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>...</p>                    
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="pl">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>
+                        
+                        Δωρίς
+                        
+                        Doris
+                        
+                        Δωρίς, ίδος, subst. f. nazwa jakiegoś typu noża, dosł. doryjka
+                        
+                        Etymologia
+                        
+                        Pierwotnie przymiotnik żeński o znaczeniu „doryjska” (cf. Theoc. 2.156: τὰν Δωρίδα … ὄλπαν, „doryjską olpe”). Użyty na określenie noża, uległ substantywizacji, na co wskazuje użycie u Eurypidesa (ὁ δ᾽ εὐκρότητον Δωρίδ᾽ ἁρπάσας χεροῖν, „on zaś chwyciwszy w dłonie dobrze wykutą doryjkę... “, Eu. El. 819). Morfologicznie wyraz utworzony został za pomocą sufiksu -id-, służącego do derywacji przymiotników (Chantraine 1933: 339).
+                        
+                        
+                        
+                        Poświadczenia
+                        W literaturze epoki klasycznej słowo pojawia się jedynie w Elektrze Eurypidesa (E. El. 819), a z kontekstu jego wystąpienia wynika, że była to nazwa doryckiej (a przynajmniej uważanej za taką) odmiany masywnego noża, zwanego kopidą (Δωρικὴ [scil. κοπίς], E. El. 836; → <ref corresp="lexicon_kopis.html">κοπίς</ref>).
+                        
+                        W późniejszej literaturze spotykamy się też z oznaczającym nóż rzeczownikiem δορίς, ίδος: u komediopisarza Anaksipposa (6.3) pojawia się ona w kontekście innych przyrządów kuchennych, m.in. kopid, w Aitiach Kallimacha występuje natomiast w kontekście jednoznacznie ofiarniczym (οἱ βόες ὀξεῖαν δερκόμενοι δορίδα, Call. fr. 75.11). Zważywszy na niską frekwencję wystąpień tego słowa wydaje się, że Kallimach podstawia je w miejsce trywialnej machairy (→ <ref corresp="lexicon_machaira.html">μάχαιρα</ref>), czy to w ramach erudycyjnego popisu (dwie linijki wcześniej ten sam nóż został określony równie rzadkim, prawdopodobnie eolskim słowem μαῦλις: Call. fr. 75.9; cf. Harder 2012: 591), czy dla uzyskania instrumentacji zgłoskowej (δερκόμενοι δορίδα), a najprawdopodobniej w obu tych celach jednocześnie. Za tym, że mamy do czynienia z rzadkim słowem, przemawia fakt, że chociaż Onomastikon Polluksa (II wiek n.e.) wymienia δορίδες jako element wyposażenia kucharza w jednym rzędzie z kopidą i machairami (Poll. 6.89, cf. 10.104: κοπίδες καὶ δορίδες καὶ μαχαιρίδες), to już w Attika onomata współczesnego Polluksowi gramatyka i leksykografa Eliusza Dionizjusza δορίδες objaśnione są jako μαγειρικαὶ τράπεζαι, blaty kucharskie (Ael.Dion., s.v.).
+                        Bibliografia
+                        Chantraine, Pierre, 1933, La formation des noms en grec ancien, Paris.
+                        Harder, Anette, 2012, Callimachus, Aetia. Introduction, Text, Translation, and Commentary by Anette Harder, vol. 2, Oxford.
+                        Napisał: Przemysław Biernat.
+                        Data zamieszczenia: 31.03.2015.
+                        Data ostatniej modyfikacji: 08.05.2018.
+                        Praca nad artykułem została sfinansowana ze środków Narodowego Centrum Nauki przyznanych na podstawie decyzji numer DEC-2013/09/B/HS2/01208.</p>                    
+                </div>
+            </div>
+            
+            <div type="bibliography">
+                <p>...</p>
+            </div>
+        </body>
+    </text>
+</TEI>

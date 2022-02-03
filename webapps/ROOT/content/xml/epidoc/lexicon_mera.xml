@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>μῆρα</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">lexicon_mera</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital document.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-11-10" who="NAME">encoded document in XML</change>
+                <change when="2021-10-12" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="it">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>...</p>                    
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>...</p>                    
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="pl">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>
+                        
+                        μῆρα
+                        
+                        mēra
+                        
+                        μῆρα, subst. n., plurale tantum, kości udowe bydlęce, owcze lub kozie spalane na ołtarzu.
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        Etymologia
+                        
+                        Rzeczownik μῆρα jest prawdopodobnie kontynuacją archaicznej formy rzeczownika zbiorczego (kolektywnego) *mēms-reh2 (Vine 2002, 333), por. toch B mīsa „mięso” (&lt; ptoch. *myämsa, z regularną utratą zgłoski nosowej przez –s-, Hackstein 2011/2, 154). Jako rzeczownik kolektywny słowo *mēms-reh2 oznaczało zestaw przedmiotów, pierwotne znaczenie i.-e. *mēms-reh2 należałoby zdefiniować zatem jako „(zestaw, zbiór) części, kawałki zwierzęcia > mięso”. Hipoteza ta nie wyjaśnia jednak poświadczonej formy słowa, gdyż zgodnie z regułami zmian fonetycznych należałoby się spodziewać formy *μεμβρ- (Beekes 2010, 947). Możliwe zatem, że greckie μῆρα wywodzi się z formy pozbawionej zgłoski nosowej –m–: i.e. *mēs-reh2. W języku greckim w wyniku procesu specjalizacji słowo μῆρα zaczęło oznaczać „zestaw, komplet kości udowych”, odpowiednio przygotowanych i ofiarowanych istotom nadprzyrodzonym [?„(zestaw, zbiór) części zwierzęcia > kości udowe spalane dla bogów”].
+                        
+                        Specjalizacja w języku greckim jest szczególna, być może związana z ewolucją rytuału krwawej ofiary zwierzęcej (por. inny termin techniczny wyrażony rzeczownikiem kolektywnym σπλάγχνα). W innych językach z tej samej podstawy słowotwórczej, i.e. *mēs/*mēms „mięso”, wyewoluowały rzeczowniki oznaczające „mięso” lub „ciało”. Formę atematyczną zachował skr. rzeczownik mās- „mięso”. W wielu językach został utworzony rzeczownik tematyczny r.n. *mēms-(o)-m, od którego wywodzą się rzeczowniki oznaczające „mięso”, por. pol. mięso, „jadalne części zabitych zwierząt”, „miękkie części organizmu ludzkiego”, ogsł. *męso: scs. męso, cz. maso, ros. mjáso; lit. mėsà, łot. mìesa („mięso”, „ciało”); goc. mimz (acc. sg.); stind. māṁsám (n.), „mięso”, orm. mis (por. Polomé 1967). W języku greckim i.e. *mēs/*mēms w znaczeniu „mięso” przejął inny rzeczownik pochodzenia indoeuropejskiego, κρέας, „surowe mięso” (zob. s.v.).
+                        
+                        
+                        
+                        Poświadczenia
+                        
+                        Rzeczownik zbiorowy μῆρα jest archaicznym terminem technicznym oznaczającym kości udowe zawinięte w otłuszczoną błonę otrzewnej, które były składane na ołtarzu i spalane. W eposie homeryckim występuje w ściśle wyspecjalizowanych kontekstach wymiennie z terminem → μηρία. Po pierwsze w związku frazeologicznym μῆρα + ἐπιτίθημι, „kłaść (na ołtarzu) kości udowe (ukryte w błonie otrzewnej)” jako  metonimia „składać ofiarę zwierzęcą” (we wspomnieniu Nestora o ofiarach spełnionych w przeszłości: Od. 3.178-9: Ποσειδάωνι δὲ ταύρων / πόλλ᾽ ἐπὶ μῆρ᾽ ἔθεμεν, Posejdonowi złożyliśmy mnogie udźce byków). Najczęściej pojawia się jednak w standardowym heksametrze kończącym opisy ofiary krwawej połączonej z posiłkiem (scena typowa): αὐτὰρ ἐπεὶ κατὰ μῆρ᾽ ἐκάη καὶ σπλάγχνα πάσαντο „gdy już udźce spłonęły i skosztowali wnętrzności” (4x: Il. 1.464=Il. 2.427=Od. 3.461= Od. 12.364). W wariancie tego heksametru w Od. 3.9 μῆρα zostały zastąpione przez częstszy rzeczownik μηρία: εὖθ᾽ οἱ σπλάγχνα πάσαντο, θεῷ δ᾽ ἐπὶ μηρί᾽ ἔκηαν. Oprócz tego znajdujemy go w opisie uczty u Feaków (Od. 13.25-6: μῆρα δὲ κήαντες δαίνυντ᾽ ἐρικυδέα δαῖτα τερπόμενοι). W późniejszym eposie scena typowa uległa transformacji zachowując archaiczny rzeczownik (A.Rh. 1.433-434: „odrąbali też udźce, wszystkie części dokładnie tłuszczem obfitym pokrywszy”,  τε καὶ ἱερὰ μῆρ᾽ ἐτάμοντο, / κὰδ δ᾽ ἄμυδις τάγε πάντα καλύψαντες πύκα δημῷ).
+                        
+                        
+                        
+                        Katalog wystąpień
+                        
+                        1. kości udowe
+                        
+                        a. ἐπιτίθημι + μῆρα kłaść na ołtarzu: Od. 3.179
+                        
+                        b. κατακαίειν + μῆρα spalać: Il. 1.464=Il. 2.427 = Od. 3.461= Od. 12.364 (wers formularny), Od. 13.25;
+                        
+                        2. udźce
+                        
+                        a. τάμνειν + μῆρα odrąbać: A.Rh. 1,433
+                        
+                        Bibliografia
+                        
+                        Beekes, Robert (2010), Etymological Dictionary of Greek, Leiden
+                        
+                        Hackstein, Olav (2011-2), Collective and Feminine in Tocharian, w: Multilingualism and History of Knowledge, t.2: Linguistic Developments along the Silk Road. Archaism and Innovation in Tocharian, ed. by Olav Hackstein, Ronald I. Kim, Wien, s. 143-177 (Osterreichische Akademie der Wissenschaften, phil.-hist. Klasse Sitzungsberichte, 834. Band.).
+                        
+                        Vine, Brent (2002), On full-grade *-ro formations in Greek and Indo-European, w: Indo-European Perspectives, ed. M.V.S. Southern, Washington, s. 329-350.
+                        
+                        Polomé, E.R. (1967), Notes on the Reflexes of ie /ms/ in Germanic, „Revue Belge de Philologie et d’Histoire”, 45, s. 800-826.
+                        
+                        
+                        
+                        Napisał: Lech Trzcionkowski
+                        
+                        Data zamieszczenia: 31.03.2015.
+                        
+                        Praca nad artykułem została sfinansowana ze środków Narodowego Centrum Nauki przyznanych na podstawie decyzji numer DEC-2013/09/B/HS2/01208.</p>
+                </div>
+            </div>
+            
+            <div type="bibliography">
+                <p>...</p>
+            </div>
+        </body>
+    </text>
+</TEI>

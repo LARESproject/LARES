@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>μάχαιρα</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">lexicon_machaira</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital document.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-11-10" who="NAME">encoded document in XML</change>
+                <change when="2021-10-12" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="it">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>...</p>                    
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>...</p>                    
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="pl">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>μάχαιρα machaira
+                        μάχαιρα, ας, subst. f.: duży nóż Etymologia i morfologia
+                        Morfologia wyrazu wskazuje, że jest to derywat na -ya- i jako taki daje się rekonstruować do postaci *makhar-ya (Chantraine 1968: 673, Beekes 2010: 915), która sugeruje pokrewieństwo z wyrazem μῆχαρ „środek, sposób”. Ich wspólny pierwiastek rekonstruować można do postaci *meh2gh- i powiązać z czasownikiem μάχεσθαι „walczyć”. Beekes odrzuca jednak tę hipotezę (2010: 915, zob. też 916 i 950), postulując przedgreckie pochodzenie wyrazu i wiążąc go z μάγειρος „rzeźnik, kucharz”. Słowo ma swoje pendant w hebrajskim mekērā „miecz”, wydaje się jednak, że jest to grecka pożyczka (Chantraine 1968: 673, Beekes 2010: 915). Mykeńska forma ma-ke-ra interpretowana jest jako imię własne, chociaż pojawiła się sugestia, by widzieć w niej machairę (Diccionario Micénico, vol. I: 419, tam bibliografia).
+                        
+                        Budowa i funkcja
+                        Słowem μάχαιρα Grecy określali duże, przystosowane do cięcia (τέμνειν: cf. Hom. Il. 11.844, Democr. 302) noże o lekko zakrzywionej, jednosiecznej głowni (vide Gordon 1958: 25, fig. 2). Mogły być one wykonane z brązu (cf. Hom. Il. 3.292, 19.266) albo z żelaza (Daimachus 8c, cf. Booikidis, Strout 1997: 77 – ostrza żelaznych noży znalezione wśród kości zwierząt ofiarnych, VI wiek p.n.e), dlatego w poezji w opisach ofiary często spotykamy się z metonimicznym użyciem słów oznacząjących „brąz” (cf. Hom. Il. 3.292, 19.266) i „żelazo” (cf. Hom. Il. 23.30) w znaczeniu noża. Ich wytwarzaniem zajmowali się specjalni rzemieślnicy, μαχαιροποιοί (D. 27.9) lub μαχαιρουργοί (Demad. Fr. 75). Uchwyty noży mogły być wykonane z kości słoniowej (D. 27.9, cf. też Theopomp.Com. 7: ἐλεφαντοκώπους ξιφομαχαίρας).
+                        Wydaje się pewne, że w rytuale ofiarniczym μάχαιρα pełniła rolę wielofunkcyjnego narzędzia. Służyła do zadawania zwierzęciu ciosu, który miał wytoczyć zeń krew (σφάζειν: h Hom. 3.535; μαγειρικῶς σφάζειν: Ar. Pax 1017-8; τέμνειν σφάγια: E. Supp. 1196; τράχηλον τρίβειν: Aesop. 92.12 aliter), następnie zaś wykorzystywano ją do krojenia mięsa (χρῆσθαι, w kotekście rożna i garnka: Hdt. 2.41; διατέμνειν κρέας: Hdt. 2.41) i, prawdopodobnie, również skórowania zwierzęcia (ἐκτείνειν δέρμα: Pi. P. 4. 241-3, zob. też → κοπίς (http://www.sacrificium.filg.uj.edu.pl/pl/#/lexicon/%CE%BA %CE%BF%CF%80%CE%AF%CF%82)). Twardsze części zwierzęcia, jak np. kości, krojono przy pomocy tasaka → κοπίς (http://www.sacrificium.filg.uj.edu.pl/pl/#/lexicon /%CE%BA%CE%BF%CF%80%CE%AF%CF%82). W przypadku większych zwierząt, takich jak woły, do zadania zabójczego ciosu służył topór → πέλεκυς. W poezji ofiarniczy nóż bywa określany mianem „miecza”, ξίφος. Jest to częste zwłaszcza u Eurypidesa. W Alkestis 74 Thanatos chce przeznaczyć tytułową bohaterkę na ofiarę (→ κατάρχεσθαι), ścinając kosmyki jej włosów mieczem (ξίφει, 73-76; por. Hom. Il. 3.271-273, 19.252-254, gdzie do tego celu służy μάχαιρα). W innej tragedii poety, Elektrze, mamy do czynienia z synonimią σφαγίς-φάσγανον-ξίφος (E. El. 1142, 1222, 1225, zob. → σφαγίς (http://www.sacrificium.filg.uj.edu.pl/pl/#/lexicon/%CF%83 %CF%86%CE%B1%CE%B3%CE%AF%CF%82)), zastosowaną dla uzyskania stylistycznej varietas (vide etiam Eu. IT 27, 621, 880, 1190, 1459).
+                        Z machairą jako narzędziem do krojenia mięsa spotykamy się również poza kontekstem jednoznacznie ofiarniczym (τέμνειν κατὰ μέλη: Pi. O. 1.49; σφάζειν: E. Cyc. 242-243;
+                        
+                        †καθαρπάζειν†: E. Cyc. 403; τέμνειν D. 25.46), a w komedii jest częstym atrybutem kucharzy, rzeźników i kiełbaśników (Ar. Eq. 489, Ar. Pax 1017-1018, Alex. 174, vide etiam D. 25.46). W homeryckim opisie przysięgi, μάχαιρα służyła też do obcinania włosów zwierzęcia przeznaczonego na towarszyszącą jej ofiarę (τέμνειν τρίχας: Hom. Il. 3.271-273, 19.252-254). Zwyczaj umieszczania machairy w koszu → κανοῦν podczas ateńskiego rytuału ofiarniczego stanowił impuls dla koncepcji ofiary jako „komedii niewinności” (Burkert 1983; cf. Parker 2011: 127-131, Graf 2012; krytycznie o koncepcji Burkerta: Naiden 2013: 9 i n.), gra również ważną rolę w teorii Vernanta, który widział w nim jeden ze środków odbierających ofierze znamiona morderstwa (φόνος) (krytyczna reewaluacja teorii Burkerta i Vernanta pod kątem przedstawień wazowych: Pierce 1993).
+                        Do wielofunkcyjności machairy nawiązuje Arystoteles w Polityce (Arist. Pol. 1252b), choć w tym wypadku mówi on o machairze delfickiej, być może specyficznej odmianie noża (→ Arystoteles, Polityka 1252b (http://www.sacrificium.filg.uj.edu.pl/pl/#/texts /Arystoteles,%20Polityka%201252b)). Μάχαιρα mogła służyć też do obcinania ludzkich włosów (w kontekście rytualnym: Hdt. 2.61; poza kontekstem rytualnym: Ar. Ach. 849, Ephipp. 14), a dwie skrzyżowane machairy tworzyły nożyce – μάχαιραι κουρίδες (Cratin. 37). Pseudo-Arystoteles (Ps.-Arist. Mir. 847a) i Pseudo-Plutarch (Ps.-Plu. Fluv. 10.5) wzmiankują rodzący się na górze Berekynthos kamień nazywany machairą który doprowadza do szaleństwa tego, kto odnajdzie go podczas misteriów Hekate (τῶν μυστερίων τῆς Ἑκάτης ἐπιτελουμένων ἐμμανὴς γίνεται). Geneza nazwy nie jest jasna, a podane przez Pseudo-Plutarcha wyjaśnienie, że kamień zawiera żelazo, może być wtórne.
+                        
+                        Historia
+                        Wyjaśniając słowo μάχαιρα w swoim leksykonie, Hezychiusz zrównuje ją w pierwszej kolejności z mieczem ξίφος. Również księga Sudy uważa ją za rodzaj miecza (σπάθη), przedstawiając opis w którym nie ma śladu kontekstu ofiarniczego – μάχαιρα opisana jest w nim z perspektywy historii armii rzymskiej i interpretacji snów z mieczami w roli głównej* (http://P1). Z błędnym rozumieniem słowa spotykamy się u scholiasty Pindara, który tak komentuje śmierć Neoptolemosa, zabitego machairą podczas kłótni o mięso z ofiarnego zwierzęcia (κρεῶν νιν ὑπὲρ μάχας ἔλασεν ἀντιτυχόντ ̓ ἀνὴρ μαχαίρᾳ, Pi. N. 7.42): „Mówią, że kiedy Neoptolemos składał ofiarę, Delfijczycy porwali thymata, jak mają w zwyczaju. Neoptolemos zaś, nie mogąc tego zdzierżyć, powstrzymywał ich. Oni zaś, uzbrojeni w miecze (ξίφη ἔχοντας), zgładzili go” (Scholia vetera in Pindari carmina, A. B. Drachmann, vol. III, s. 125, scholion 42a). Wyjaśnienie to jest w oczywisty sposób błędne i pokazuje, jak momentami niewiele z rzeczywistości językowej i kultowej piątego wieku p.n.e. rozumieli późnoantyczni Grecy.
+                        Wydaje się pewne, że dla Homera μάχαιρα jeszcze bronią nie była, chociaż homeryccy wojownicy nosili ją przy sobie. W Iliadzie Patroklos używa jej, aby wydobyć grot strzały z rany Eurypylosa (Hom. Il. 11.844), μάχαιρα wisi również obok miecza ξίφος u pasa Agamemnona, który używa jej, by odcinać włosy zwierząt przeznaczonych na towarzyszącą przysiędze ofiarę (Ἀτρεΐδης δὲ ἐρυσσάμενος χείρεσσι μάχαιραν, ἥ οἱ πὰρ ξίφεος μέγα κουλεόν αἰὲν ἄωρτο, „Atryda zaś wyciągnął nóż, który miał zawsze przy wielkiej pochwie miecza”, Hom. Il. 3.271-272, 19.252-253). Kiedy po wypowiedzeniu słów przysięgi należy podciąć gardła zwierzętom, służy do tego „spiż”, który w tym miejscu jest prawdopodobnie metonimią machairy: ἦ, καὶ ἀπὸ στομάχους zwierzę τάμε νηλέϊ χαλκῷ („rzekł i gardła [zwierząt] ciął spiżem, który nie zna litości”, Hom. Il. 3.292, 19.266). Pozłacane machairy nosili też chłopcy z tanecznego korowodu wykutego na tarczy Achillesa (Hom. Il. 18.597).
+                        Wyłaniający się z homerowego poematu obraz potwierdzają przedstawienia wazowe. Jak twierdzi Gordon, μάχαιρα jako broń hoplity przed rokiem 530 p.n.e. w ogóle na nich nie występuje, choć pojawia się w kontekście ofiary (cf. Pierce 1993: 256). Dopiero po roku 510 p.n.e. na wazach czerwonofigurowych pojawiają się coraz liczniejsze przedstawienia żołnierskiej machairy (Gordon 1958: 24, bez bibliografii).
+                        
+                        Machaira jako wyposażenie greckiego hoplity pojawia się również u Herodota (7.225), a kontekst – otoczeni żołnierze Leonidasa walczą machairami, pięściami i zębami – może wskazywać, że wciąż była to broń, po którą sięgano jedynie w ostateczności. Z Ksenofonta wiemy, że jeźdźcy ze straży przybocznej Dariusza mieli „greckie machairy”, co wskazywałoby na istnienie w jego czasach użytkowego i wojskowego wariantu tego noża (o wojskowych machairach, vide Gordon 1958). Terminem μάχαιρα określa się również regularnie broń używaną przez ludy wschodu (Hdt 7.79, 7.89, 7.91, X. An. 4.6.26, 7.2.30, 7.4.16, X. Cyr. 1.2.13, 2.1.16, 2.3.10, 4.1.3, 4.5.58, 7.1.2, 7.1.33, 7.1.34, 7.1.37), co nie znaczy oczywiście, że Kolchowie, Egipcjanie czy poddani Wielkiego Króla walczyli greckimi nożami. W realiach starożytnej wojskowości upatrywać więc można źródeł późniejszych konfuzji, choć zaznaczyć należy, że wojskowe nożo-miecze typu μάχαιρα nigdy nie zdobyły popularności w świecie greckim (Gordon 1958: 25).
+                        Katalog wystąpień w kontekście ofiary lub posiłku
+                        1. nóż do uboju: h Hom. 3.535, Aesop. 92.13 aliter, E. Cyc. 242 (ubój ludzi), E. Supp. 1206, E. Fr. 143 = Ar. Th. 694, Hdt. 2.41, Ar. Pax 1017, Thphr. Fr. 18;
+                        2. ~ do krojenia mięsa: Pi. O. 1.49 (ludzkie mięso), Hdt. 2.41, E. Cyc. 403 (ludzkie mięso), Pherecr. 82, Ar. Eq. 489 (nóż kiełbaśnika), D. 25.46 (nóż rzeźnika), Archestr. 31.5;
+                        3. ~ do skórowania zwierzęcia: Pi. P. 4.242;
+                        4. ~ w ogólnym kontekście ofiary: Pi. N. 7.42, Ar. Fr. 684, Ar. Pax 948, Pl.Com. 91;
+                        5. ~ do innych czynności podczas składania przysiąg: Hom. Il. 3.271, 19.252, Hdt. 4.70;
+                        6. ~ delficki: Arist. Pol. 1252b.
+                        
+                        Bibliografia
+                        Beekes Robert, 2010, Etymological Dictionary of Greek, Leiden-Boston
+                        Bookidis Nancy and Stroud Ronald S., 1997, „The Sanctuary of Demeter and Kore:
+                        Topography and Architecture”, Corinth, Vol. 18, No. 3
+                        Burkert Walter, 1983, Homo Necans, Berkeley
+                        Chantraine Pierre, 1968, Dictionnaire étymologique de la langue grecque, Paris Diccionario Micénico, 1985, vol. I, red. Francisco Aura Jorro, Madrid
+                        Gordon, D.H., 1958, „14. Scimitars, Sabres and Falchions”, Man, Vol. 58, s. 22-27
+                        Graf Fritz, 2012, „One generation after Burkert and Girard. Where are the great theories?”, Greek and Roman Animal Sacrifice. Ancient Victims, Modern Observers, red. Christopher A. Faraone, F. S. Naiden, s. 32-51, Cambridge
+                        Naiden Fred, 2013 Smoke Signals for the Gods, Oxford Parker Robert, 2011, On Greek Religion, Oxford
+                        Pierce Sarah, 1993, „Death, Revelry and 'Thysia'”, Classical Antiquity, Vol. 12, No. 2, s. 219-266.
+                        Napisał: Przemysław Biernat
+                        Data zamieszczenia: 31.03.2015.
+                        Data ostatniej aktualizacji: 21.04.2015.
+                        Praca nad artykułem została sfinansowana ze środków Narodowego Centrum Nauki przyznanych na podstawie decyzji numer DEC-2013/09/B/HS2 /01208.
+                    </p>
+                </div>
+            </div>
+            
+            <div type="bibliography">
+                <p>...</p>
+            </div>
+        </body>
+    </text>
+</TEI>

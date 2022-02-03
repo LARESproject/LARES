@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>κηΰα</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">lexicon_keya</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital document.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-11-10" who="NAME">encoded document in XML</change>
+                <change when="2021-10-12" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="it">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>...</p>                    
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>...</p>                    
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="pl">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>κηΰα keÿa
+                        κηΰα, n.: ofiara spalana, może (za Hezychiuszem) także oczyszczająca.
+                        Hapax legomenon występujące tylko jeden raz na inskrypcji zawierającej prawo amfiktionów delfickich z lat 380/379 p.n.e. (IG II2 1126 (https://epigraphy.packhum.org /text/3341?&amp;bookid=5&amp;location=7) w. 34 = Ziehen 1906: 226-234 nr 75, w. 34 z komentarzem na s. 233). Pochodzi od czasownika καίω (zob. Chantraine 1968: 481 i 528, odpowiednio s.v.: καίω i κήυα).
+                        Na wspomnianej inskrypcji występuje ewidentnie jako nazwa ofiary z trzech zwierząt (τρίττοια (http://www.sacrificium.filg.uj.edu.pl/en/#/lexicon/%CF%84%CF%81 %CE%AF%CF%84%CF%84%CE%BF%CE%B9%CE%B1%20%CE%B2%CE %BF%CF%8D%CE%B1%CF%81%CF%87%CE%BF%CF%82), tutaj w formie τρίκτευα).
+                        Według LSJ (s.v.) oraz komentarzy do edycji inskrypcji idących za leksykonem Hezychiusza (s.v. κήϊα, κέϊα) oznacza ofiarę oczyszczającą, równoznaczną z καθάρματα, na co nie wskazuje bynajmniej kontekst, w jakim się pojawia.
+                        
+                        Bibliografia
+                        Chantraine, P., 1968, Dictionnaire étymologique de la langue grecque. Histoire des mots, Paris [avec un Suppléement: 1999].
+                        Ziehen, L., 1906, Leges Graecorum Sacrae e Titulis Collectae, pars altera, Lipsiae.
+                        Napisał: Krzysztof Bielawski
+                        Data zamieszczenia: 03.05.2016.
+                        Data ostatniej modyfikacji: 26.06.2018
+                        Praca nad artykułem została sfinansowana ze środków Narodowego Centrum Nauki przyznanych na podstawie decyzji numer DEC-2013/09/B/HS2/01208.</p>
+                </div>
+            </div>
+            
+            <div type="bibliography">
+                <p>...</p>
+            </div>
+        </body>
+    </text>
+</TEI>

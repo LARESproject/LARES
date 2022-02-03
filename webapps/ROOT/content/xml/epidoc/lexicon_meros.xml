@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>μηρός</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">lexicon_meros</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital document.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-11-10" who="NAME">encoded document in XML</change>
+                <change when="2021-10-12" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="it">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>...</p>                    
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>...</p>                    
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="pl">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>μηρός
+                        
+                        mēros
+                        
+                        μηρός, subst. m., udo, w kontekście ofiary krwawej częściej w l.mn. μηρούς, udźce.
+                        
+                        Etymologia.
+                        
+                        Rzeczownik μηρός, „udo” wywodzi się od i.e. *mēms-ro, por. łac. membrum, membra, „członki ciała, kończyny” (&amp;lt; pit. *memsro), st.irl. mír „porcja mięsa, kawałek, skrawek”. Według Brenta Veina *mēms-ro jest derywacją wsteczną od rzeczownika zbiorczego *mēms-reh2 (Vein 2002). Według bardziej prawdopodobnej interpretacji *mēms-ro jest przymiotnikiem („mięsny”), który na wczesnym etapie został urzeczownikowiony, czego kontynuacją są formy greckie, łacińskie i irlandzkie. Słowa te, w przeciwieństwie do słów kontynuujących i.e. *mē(m)s-(o)-, uległy procesowi specjalizacji i oznaczają „część mięsa, kęs, porcję” lub „umięśniony członek, udo”.  Można przypuszczać zatem, że ewolucja semantyczna słowa *mēms-ro przebiegała następująco: „mięsny” &gt; „umięśniona kończyna, członek ciała” &gt; „udo” &gt; (w kontekście uboju) „udziec” (por. pol. „udo” / „udziec” – „udo dużego zwierzęcia przeznaczone do spożycia”).
+                        
+                        
+                        
+                        Poświadczenia.
+                        
+                        W eposie homerowym μηρούς jako termin ofiarniczy pojawia się wyłącznie w kontekście pierwszej fazy procesu rytualnego, czyli przygotowania części zwierzęcia ofiarnego przeznaczonej dla bogów: po odcięciu μηρούς, owija się je dwustronnie tłuszczem i układa na nich surowe kawałki mięsa z innych części zwierzęcia. W późniejszym okresie zdaje się być synonimem słowa → μηρία, które z czasem zastępuje.
+                        
+                        W eposie wyrażenia μηρούς τ᾽ ἐξέταμον, „wycięli udźce” (Il. 1.464 = Il. 2.427 = Od. 12.364 (3x), por.  ἐκ μηρία τάμνον, z tmezą, Od. 3.456) występuje wyłącznie w rozbudowanych opisach przedstawiających przebieg rytuału ofiary (scena typowa). Czasownik ἐκτάμνειν może sugerować wycięcie nagich kości i oczyszczenie z mięsa, lecz może też oznaczać po prostu „odciąć, odrąbać udźce (od korpusu)”. W scenach typowych znajdujemy powtarzalny układ wersów opisujący procedurę przygotowania udźców (μηρούς) do spalenia (Il. 1.464-5 = Il. 2.427-8 = Od. 12.364-5): μηρούς τ᾽ ἐξέταμον κατά τε κνίσῃ ἐκάλυψαν / δίπτυχα ποιήσαντες, ἐπ᾽ αὐτῶν δ᾽ ὠμοθέτησαν, „wycięli udźce i zakryli tłuszczem (błony otrzewnej) / z dwóch stron obwijając, na nich położyli kawałki surowego mięsa”, por. wariant w opisie złożonej przez Nestora ofiary dla Ateny (Od. 3.456b-457, zob. komentarz ad. loc.): ἄφαρ δ᾽ ἐκ μηρία τάμνον / πάντα κατὰ μοῖραν, κατά τε κνίσῃ ἐκάλυψαν, „wycieli kości udowe / wszystkie wedle doli, i zakryli tłuszczem (błony otrzewnej)”. Również w okresie poklasycznym typowo grecki obyczaj wycinania  udźców / kości udowych zwierzęcia złożonego w ofierze i spalania ich na ołtarzu są wyrażane zwrotami τοὺς μηροὺς ἐκτέμνειν, „wyciąć udźce” (Paus. 1.24.2; 2.11.7), τοὺς μηροὺς καύειν, „spalić udźce” (Paus. 2.10.1) oraz τοὺς μηροὺς θύειν, „składać udźce w ofierze” (Paus. 2.10.5), por. Pirenne-Delforge 2008, 187-197.
+                        
+                        Poza eposem techniczne opisy przyrządzania części ofiary przeznaczonej dla bogów pojawiają się przede wszystkim w komedii, gdzie ze względu na swą dwuznaczność terminy μερώ lub μερός „udo / udziec” mogą przybrać podtekst seksualny. Jednocześnie teksty te przynoszą informacje o innych częściach zwierzęcia przeznaczonych dla bogów zawiniętych w otłuszczoną błonę otrzewnej. Ze Zbiegów Ferekratesa wynika, że bogowie otrzymują ukryte pod „licznymi θυλήματα” μερώ obrane z mięsa, razem z ὀσφῦς i σπόνδυλος (fr. 28 Kassel-Austin = fr. 23 Kock: εὖ τὼ μηρὼ περιλέψαντες [κομιδῇ] μέχρι βουβώνων &lt;κρέα πάντα&gt; / καὶ τὴν ὀσφὺν κομιδῇ ψιλήν, λοιπὸν τὸν σπόνδυλον αὐτὸν / εἶτ᾽ ἀλλήλους αἰσχυνόμενοι θυλήμασι κρύπτετε πολλοῖς {tekst zepsuty!: „[mięso] z udźców obżarte aż do kości [całe] / I tę kość całkiem gołą wraz z resztą karkówki / dajecie oszukańczo nam jak psom parszywym / ze wstydu, że ktoś ujrzy, całe pod osłoną (tłum. K. Bartol)” lub „chwytacie obydwa udźce, aż po pachwinę / Starannie wyciąwszy mięso; z biodra kość nagą zupełnie, / Kręgosłup też oczyściwszy jakby piłą cały, / Rzucacie nam jakby psom, a ze wstydu przed sobą nawzajem / Przykrywacie znowu rozlicznym darem ofiarnym. (tłum. Janina Niemirska-Pliszczyńska)”. U Eubulosa (fr. 127 Kassel-Austin fr. 130 Kock) bogowie skarżą się, że ludzie składają im w ofierze „wyłącznie ogon i udo (τὴν κέρκον μόνην / καὶ μηρὸν)”, z wyraźnym odniesieniem do pederastycznych stosunków analnych.
+                            
+                            Źródła epigraficzne dostarczają nam świadectwa używania rzeczownika μηρούς na oznaczenie części zwierzęcia ofiarnego przeznaczonej dla bogów. Najstarsze pochodzi z Miletu (ok. 500 p.n.e.), gdzie na terenie Delfinionu znaleziono zapisaną dwustronnie stelę z inskrypcją zawierającą wyrocznię Apollona regulującą kult Heraklesa (LSAM 42). Stan zachowania dokumentu nie pozwala na wyciąganie daleko idących wniosków, niemniej na stronie B czytamy zalecenie spalania udźców (B, l. 2: μηροὶ καίωνται) oraz położenie czegoś przy kościach udowych (B, ll. 3-4: π̣[α|ρ]ὰ τοῖς μηρίοισ[ι -| πα]ρατιθέναι). Brak kontekstu uniemożliwia przedstawienie hipotezy wyjaśniającej wahanie między μηροί a μηρία. Inskrypcja demu Phrearrhioi (ok. 300-250 p.n.e.) w sprawie lokalnego kultu bogów eleuzyńskich nakazuje dokonywanie jakiś czynności na ołtarzach (ἐπὶ δὲ τοὺς βωμοὺς), najpewniej spalenie, „μηροὺς μασχαλίσματα ἡμίκαιραν, „udźców, kawałków odciętych z łopatki, półgłowia (SEG XXXV = NGSL 3, ll. 16-8)”, zob. Lupu 2005, 166-168.
+                            
+                            W epoce klasycznej pojawiają się pierwsze świadectwa praktyk mantycznych towarzyszących spalaniu, a w konsekwencji szczegółowe opisy anomalii procesu spalania części poświęconej bogom. Złe znaki wróżebne opisuje szczegółowo Tejrezjasz w Antygonie Sofoklesa (S.Ant. xx-xx ): ἀλλ᾽ ἐπὶ σποδῷ μυδῶσα κηκὶς μηρίων ἐτήκετο κἄτυφε κἀνέπτυε, καὶ μετάρσιοι χολαὶ διεσπείροντο, καὶ καταρρυεῖς μηροὶ καλυπτῆς ἐξέκειντο πιμελῆς, „ale z udźców sączyła się / bulgocząca na popiele ciecz i spływała, / I dymiła, i skwierczała, i żółć rozpryskiwała wysoko, / oślizgłe udźce ofiarne wyłaniały się spod okrywającego je tłuszczu.”
+                            
+                            .
+                            
+                            
+                            
+                            Katalog poświadczeń (wyłącznie wystąpienia słowa μηροί w kontekście ofiary krwawej):
+                            
+                            1. kości udowe:
+                            
+                            a. wyciąć, odciąć
+                            
+                            μηρούς + ἐκτάμνειν „odciąć udźce, wyciąć kości udowe (?)”:Il. 1.464 = Il. 2.427 = Od. 12.364; Paus. 1.24.2; 2.11.7
+                            
+                            b. oczyścić (z mięsa)
+                            
+                            μηρώ + περιλέπειν „obierać, oczyszczać (z mięsa)”: Pherecr. fr. 28 Kassel-Austin = fr. 23 Kock
+                            
+                            c. spalić (na ołtarzu):
+                            
+                            μηροὺς + καύειν: Paus. 2.10.1
+                            
+                            μηροί + καίεσθαι: LSAM 42, B, l. 2.
+                            
+                            2. kości udowe, udźce:
+                            
+                            a. złożyć w ofierze
+                            
+                            μηρόν lub μηρούς + θύειν, „składać w ofierze udziec / udźce”: Euboulos, fr. 127 Kassel-Austin = fr. 130 Kock; Paus. 2.10.
+                            
+                            Napisał: Lech Trzcionkowski
+                            
+                            Data zamieszczenia: 31.03.2015.
+                            
+                            Praca nad artykułem została sfinansowana ze środków Narodowego Centrum Nauki przyznanych na podstawie decyzji numer DEC-2013/09/B/HS2/01208.</p>
+                </div>
+            </div>
+            
+            <div type="bibliography">
+                <p>...</p>
+            </div>
+        </body>
+    </text>
+</TEI>

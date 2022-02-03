@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>σφαγίς</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">lexicon_sphagis</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital document.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-11-10" who="NAME">encoded document in XML</change>
+                <change when="2021-10-12" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="it">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>...</p>                    
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>...</p>                    
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="pl">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>σφαγίς
+                        
+                        sfagis
+                        
+                        σφαγίς, ίδος, subst. f. nóż do zarzynania.
+                        
+                        Etymologia
+                        
+                        Derywat od czasownika → σφάζω „zarzynać” (Chantraine 1968: 1073, Beekes 2010: 1426). Chociaż temat sphag- jest izolowany na tle innych języków indoeuropejskich, jego produktywność stawia pod znakiem zapytania nieindoeuropejskie pochodzenie czasownika.
+                        
+                        Poświadczenia
+                        
+                        W literaturze klasycznej sfagida pojawia się wyłącznie w Elektrze Eurypidesa (E. El. 811, 1142),  w znaczeniu i funkcji tożsamej z machairą (→ <ref corresp="lexicon_machaira.html">μάχαιρα</ref>). W opisie sceny ofiary dla Nimf, Aigistos wydobywa sfagidę z kosza (→ κανοῦν) i obcina nią włosy z głowy cielęcia (E. El. 811-812, cf. Hom. Il. 3.271, 19.252, gdzie służy do tego machaira). Sfagida pojawia się również ukryta w koszu (jak machaira w Ar. Pax 948) w paralelnej scenie przygotowań do ofiary z byka, podczas której zginąć ma Klitajmestra (E. El. 1142-1146). W rozmowie o dokonanej zbrodni, tragediowe rodzeństwo nazywa jej narzędzie kolejno słowami → <ref corresp="lexicon_phasganon.html">φάσγανον</ref> (E. El. 1222) i ξίφος (E. El. 1225), oznaczającymi miecz. Mamy tu z pewnością do czynienia z licencją poetycką (cf. Eu. Alc. 74: ξίφος w funkcji machairy). Na podstawie użycia wyrazu przez Eurypidesa możemy więc stwierdzić, że sfagida jest hiponimem machairy wskazującym nie tyle na istotną różnicę w budowie przedmiotów, co na cel, w jakim nóż ma zostać użyty. W świetle braku innych źródeł z epoki, hipoteza nie daje się jednak zweryfikować.
+                        
+                        W późniejszych tekstach wyraz pojawia się częściej, zachowując swoją morfologicznie ugruntowaną konotację z czynnością zarzynania zwierząt (podczas gdy machaira bywała też określeniem broni). W Antiquitates Romanae 2.52 Dionizjusza z Halikarnasu (circa 60 – 7 r. p.n.e.) czytamy o Tatiusie zamordowanym μαγειρικαῖς σφαγίσι, rzeźniczymi sfagidami, podczas składania ofiary. Do zarzynania owiec przeznaczona była sfagida wymieniona przez Polyainosa (Polyaenus Rhetor, 2 wiek n.e., Strategemata 3.9.40). Wreszcie, fikcyjny epigram wotywny z Antologii Greckiej wymienia τὰν λαιμοτόμον σφαγίδα, podrzynającą gardło sfagidę, wśród narzędzi rzeźniczych złożonych w darze Hermesowi przez pewnego wyzwoleńca (Aristo, Anth. Graeca 6.306).
+                        
+                        Bibliografia
+                        Beekes Robert, 2010, Etymological Dictionary of Greek, Leiden-Boston.
+                        Chantraine Pierre, 1968, Dictionnaire étymologique de la langue grecque, Paris.
+                        
+                        Napisał: Przemysław Biernat.
+                        Data ostatniej modyfikacji: 08.05.2018.</p>
+                </div>
+            </div>
+            
+            <div type="bibliography">
+                <p>...</p>
+            </div>
+        </body>
+    </text>
+</TEI>

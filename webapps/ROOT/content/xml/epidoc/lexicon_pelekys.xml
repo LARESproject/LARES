@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>πέλεκυς</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">lexicon_pelekys</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital document.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-11-10" who="NAME">encoded document in XML</change>
+                <change when="2021-10-12" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="it">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>...</p>                    
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>...</p>                    
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="pl">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>πέλεκυς pelekys
+                        πέλεκυς, εως, subst. m.: topór, często o dwóch ostrzach Etymologia
+                        Rzeczownik indoeuropejski, spokrewniony m.in. z sanskryckim paraśú- “topór” (Beekes 2010: 1166-1167). W Grece mykeńskiej poświadczony w złożeniu pe-re-ku-wa-na-ka (Beekes 2010: 1166).
+                        Budowa i funkcja przedmiotu
+                        Topór jako narzędzie ofiarnicze wykorzystywany był przy ofierze z największych zwierząt – bydła. Służył do zadania ciosu w kark. Zwierzę prawdopodobnie przynajmniej niekiedy wcześniej ogłuszano za pomocą młota. Na inskrypcjach inwentażowych eleuzyńskich epistatai (I.Eleusis 52 (http://epigraphy.packhum.org /text/346512?hs=11033-11044%2C26154-26165), IG I3 386 (http://epigraphy.packhum.org/text/398?hs=6845-6856)) wymienione są sphyropelekeis – ich nazwa wskazuje, że stanowiły połączenie topora i młota. Trudno jednak powiedzieć, na ile powszechne było ich stosowanie poza Eleuzis.
+                        Przedstawione na attyckiej ikonografii wazowej topory wyposażone były w dwa ostrza (zob. Durand 1986: 104, fig. 24; 106, fig. 25). Służyło to zapewne zwiększeniu masywności topora, która z kolei przekładała się na siłę ciosu.
+                        
+                        Poświadczenia
+                        Siłą rzeczy, w literaturze pelekys wzmiankowany jest niekiedy w opisach ofiary z wołów (np. Hom. Od. 3.442 (http://www.perseus.tufts.edu/hopper/text?doc=Hom.+Od.+3.442&amp; fromdoc=Perseus%3Atext%3A1999.01.0135), Paus. 1.24.4 (http://www.perseus.tufts.edu /hopper/text?doc=Paus.+1.24.4&amp;fromdoc=Perseus%3Atext%3A1999.01.0159)) lub
+                        w aluzjach do niej (np. Porph. De abst. 2.29-31). Pelekys jest też istotnym komponentem ikonograficznych (czara Malarza Brygosa, krater Malarza Dokimazji (http://www.mfa.org /collections/object/mixing-bowl-calyx-krater-with-the-killing-of-agamemnon-153661); zob. też Taplin 2007: 49, przypis 4) i literackich przedstawień Klitajmestry. Chociaż
+                        w tekście Agamemnona Ajschylosa nie pada nazwa narzędzia zbrodni, to nie można wykluczyć, że było ono widoczne dla widzów przedstawienia. Natomiast w Choephoroi (889 (http://www.perseus.tufts.edu/hopper /text?doc=Perseus:text:1999.01.0007:card=875&amp;highlight=pe%2Flekun)) Klitajmestra prosi, by podano jej pelekys, gdy dowiaduje się od posłańca, że ktoś zamordował Ajgistosa – wydaje się więc, że Ajschylos pozostawał wierny zastanej tradycji ikonograficznej. O ile nie ma powodów sądzić, że przed Ajschylosem ktokolwiek myślał o ofierze zwierzęcej oglądając wizerunki Klitajmestry z toporem, o tyle tragedia Agamemnon wyraźnie ten kontekst otwiera. Jak pokazał A. Henrichs (2012), Ajschylos wdał się w niej w intertekstualną grę z opisem śmierci Agamemnona z Odysei, reguły tej gry wyznacza natomiast logika “wypaczonej ofiary” (perverted sacrifice), którą Henrichs uznaje za zasadę organizującą sposób wykorzystania języka ofiary w tragedii w ogóle.
+                        W Odysei duch Agamemnona żali się, że został zabity podstępnie podczas uczty niczym wół na pastwisku (11.411 (http://www.perseus.tufts.edu/hopper /text?doc=Perseus:text:1999.01.0135:book=11:card=404)), przywołując tym samym homeryckie simile, w którym wykorzystany został obraz powalonego toporem wołu (Il. 17.520-521 (http://www.perseus.tufts.edu/hopper/text?doc=Hom.+Il.+17.520&amp; fromdoc=Perseus%3Atext%3A1999.01.0133)).
+                        Wystąpienia
+                        1. topór ofiarny: Hom. Il. 17.520 (http://www.perseus.tufts.edu/hopper /text?doc=Hom.+Il.+17.520&amp;fromdoc=Perseus%3Atext%3A1999.01.0133), Od. 3.442 (http://www.perseus.tufts.edu/hopper/text?doc=Hom.+Od.+3.442&amp;
+                        
+                        fromdoc=Perseus%3Atext%3A1999.01.0135), Paus. 1.24.4 (http://www.perseus.tufts.edu /hopper/text?doc=Paus.+1.24.4&amp;fromdoc=Perseus%3Atext%3A1999.01.0159), Ath. 10.456c-d, Porph. De abst. 2.29-31.
+                        2. topór Klitajmestry: A. Ch. 889 (http://www.perseus.tufts.edu/hopper /text?doc=Perseus:text:1999.01.0007:card=875&amp;highlight=pe%2Flekun); E. El. 160 (http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0095:card=157&amp; highlight=pele%2Fkews), 279 (http://www.perseus.tufts.edu/hopper /text?doc=Perseus:text:1999.01.0095:card=262&amp;highlight=pele%2Fkei),   1160 (http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0095:card=1155&amp; highlight=pe%2Flekun).
+                        Bibliografia
+                        Beekes, Robert (2010). Etymological Dictionary of Greek. Leiden-Boston.
+                        Durand, Jean-Louis (1986). Sacrifice et labour en grèce ancienne. Paris-Rome.
+                        Henrichs, Albert (2012). “Animal Sacrifice in Greek Tragedy: Ritual, Metaphor, Problematizations,” [w:] Faraone, Ch.A., Naiden, F. (red.) (2012): Greek and Roman Animal Sacrifice. Ancient Victims, Modern Observers: 180–194, Chicago.
+                        Taplin, Oliver (2007). Pots &amp; Plays. Interactions between Tragedy and Greek Vase- painting of the Fourth Century B.C. Los Angeles.
+                        Napisał: Przemysław Biernat
+                        Data ostatniej aktualizacji: 26.06.2018.
+                        Praca nad artykułem została sfinansowana ze środków Narodowego Centrum Nauki przyznanych na podstawie decyzji numer DEC-2013/09/B/HS2 /01208.
+                    </p>
+                </div>
+            </div>
+            
+            <div type="bibliography">
+                <p>...</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>λαρινός</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">lexicon_larinos</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital document.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2021-11-10" who="NAME">encoded document in XML</change>
+                <change when="2021-10-12" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="it">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>...</p>                    
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>...</p>                    
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="pl">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>
+                        
+                        λαρινός
+                        
+                        larinos
+                        
+                        λαρινός, adj.: tłusty (o wole, rzadziej o świni).
+                        
+                        Etymologia
+                        
+                        Atenajos (376b) podaje trzy możliwe warianty derywacji wyrazu: (1) pochodzi on od czasownika λαρινεύεσθαι (być tuczonym; w rzeczywistości proces ewidentnie miał odwrotny przebieg), albo (2) wywodzi się od nazwy wsi w Epirze Larines, albo (3) mitycznego pasterza imieniem Larinos, od którego nazwano rasę lub odmianę bydła (Scholia ad Ar. Av. 465 wyjaśniają, że chodzi o potomków wołów skradzionych Gerionowi). Bizantyjski filolog Eustathios do podanych przez Atenajosa propozycji dodaje (Il. 4.526; Od. 1.7) i czwartą: przymiotnik miałby określać zwierzęta o szczególnie grubej skórze (ἀπὸ τοῦ ῥινοῦ), a sylaba la- reprezentowałaby rodzaj prefiksu. Najwyraźniej już w późnym antyku znaczenie wyrazu nie wydawało się w pełni jasne, a jego etymologia była przedmiotem swobodnej spekulacji.
+                        
+                        Jak zaznaczają nowocześni badacze (Beekes (2010: s.v.); Chantraine (1972: s.v.); Frisk (1960: s.v.)) przymiotnik prawdopodobnie spokrewniony jest z łacińskim laridum &gt; lardum (słonina; etymologia niejasna). Należy zatem przypuszczać, że został odziedziczony lub zapożyczony do łaciny i greki ze wspólnego źródła. Niepokój wzbudza długi iloczas i akcent oksytoniczny.
+                        
+                        Długie ā w nagłosowej sylabie można tłumaczyć jako wynik kontrakcji lub wzdłużenia przy zatracie spółgłoski laryngalnej (lub sekwencji jednego i drugiego). Wyraz może zatem wiązać się przymiotnikiem lārós &lt; lawarós (smaczny). Ten ostatni Pokorny (1959: 655) powiązał z apo-lauō (korzystać) i leiā &lt; lāu-íā (łup, [złupione] bydło; cf. e.g. lat. lucrum; Go. laun – nagroda), prezentującymi pierwiastek *leh2w-. Na płaszczyźnie semantycznej związki pomiędzy tymi wyrazami wydają się dość oczywiste. Interesujące, że wyraz leiā może się także wiązać z greckim lāós (lud zbrojny; Chantraine 1972: s.v.; za Heubeck 1969), wyrazem wywodzącym się z tego samego lub homonimicznego pierwiastka *leh2w-. Dane mykenologiczne i epos homerycki (Werlings 2010: 21-107) wskazują na to, że ten ostatni rzeczownik, podobnie jak dēmos odnosił się do zbiorowości ludzkiej, masy pojętej jako przeciwieństwo przywódcy (anax, lawagetes; różnica znaczenia i referencji była przy tym znacząca: lud zbrojny/ lud uprawiający ziemię). To sprawia, że proporcja lārīnós (tłusty) / lāós (grupa) : dēmós (tłuszcz) / dēmos (grupa) wydaje się zbyt precyzyjna, żeby była przypadkowa (cf. pol. tłuszcz / tłuszcza).
+                        
+                        Poświadczenia
+                        
+                        Najstarsze poświadczenie to passus z Ksenofanesa z Kolofonu (fr. B6.1-2 ap. Ath. 369f):
+                        
+                        πέμψας γὰρ κωλῆν ἐρίφου σκέλος ἤραο πῖον/ ταύρου λαρινοῦ – Przysłałeś udo koziołka, a wziąłeś nogę tuczonego byka. Dalszy ciąg passusu, choć całość nie jest do końca jasna, nie pozostawia wątpliwości, że dwa kawałki mięsa jako dary są ze sobą skontrastowane. Noga tuczonego byka to ewidentnie rzecz bardzo wartościowa (cf. Untersteiner 1955: 121-2). Podobny wydźwięk ma użycie wyrazu w dwóch miejscach u Arystofanesa:
+                        
+                        Pax 925: Βούλεσθε λαρινῷ βοΐ; – czy chcecie tuczonym wołem [uczcić boginię]? Prestiżowa ofiara jest tu przeciwstawiana taniej papce z warzyw, o której mowa we wcześniejszych wersach.
+                        
+                        Aves 465: μέγα καὶ λαρινὸν ἔπος τι – wielkie, tłuste słowa (słowa wielkie jak wół = bombastyczne). Choć jest to użycie figuratywne, miejsce to potwierdza, że przymiotnik określa cechę wielkości, wspaniałości zwierząt.
+                        
+                        Według Atenajosa (376b) Achajos (prawdopodobnie chodzi o poetę tragicznego z V lub IV w. p.n.e.), a także Eratostenes (fr. 20), posłużyli się tym przymiotnikiem w odniesieniu do świń, co stanowiło odstępstwo od reguły, bo zasadniczo określał on woły (παραπλησίως δὲ τῷ ᾿Αχαιῷ καὶ ᾿Ερατοσθένης ἐν ᾿Αντερινύι τοὺς σύας λαρινοὺς προσηγόρευσε μεταγαγὼν καὶ αὐτὸς ἀπὸ τῶν λαρινῶν βοῶν).
+                        
+                        Bibliografia
+                        
+                        Heubeck, A. (1969) Gedanken zu griech. λᾱός. [w:] Studi linguistici in onore di Vittore Pisani, ed. G. Bolognesi, E. Evangelisti, A. Grilli et al. II. Brescia: 535-44.
+                        
+                        Werlings, M.J. (2010): Le dèmos avant la démocratie. Mots, concepts, réalités historiques. Paris.
+                        
+                        Untersteiner, M. (1955): Senofane. Testimonianze e frammenti. Firenze.
+                        
+                        
+                        
+                        Napisał: Bartłomiej Bednarek
+                        
+                        Data zamieszczenia: 09.04.2015.
+                        
+                        Praca nad artykułem została sfinansowana ze środków Narodowego Centrum Nauki przyznanych na podstawie decyzji numer DEC-2013/09/B/HS6/01208.
+                        
+                    </p>
+                </div>
+            </div>
+            
+            <div type="bibliography">
+                <p>...</p>
+            </div>
+        </body>
+    </text>
+</TEI>
