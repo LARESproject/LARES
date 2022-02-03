@@ -20,8 +20,9 @@
         </fileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-11-10" who="NAME">encoded document in XML</change>
-                <change when="2021-10-12" who="Krzysztof Bielawski">created document contents</change>
+                <change when="2022-02-03" who="Irene Vagionakis">encoded document in XML</change>
+                <change when="2018-05-08" who="Przemysław Biernat">updated document contents</change>
+                <change when="2015-03-31" who="Przemysław Biernat">created document contents</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -45,11 +46,8 @@
                 <div type="textpart" n="...">
                     <head>...</head>
                     <p>
-                        
-                        Δωρίς
-                        
+                        Δωρίς 
                         Doris
-                        
                         Δωρίς, ίδος, subst. f. nazwa jakiegoś typu noża, dosł. doryjka
                         
                         Etymologia
@@ -62,12 +60,11 @@
                         W literaturze epoki klasycznej słowo pojawia się jedynie w Elektrze Eurypidesa (E. El. 819), a z kontekstu jego wystąpienia wynika, że była to nazwa doryckiej (a przynajmniej uważanej za taką) odmiany masywnego noża, zwanego kopidą (Δωρικὴ [scil. κοπίς], E. El. 836; → <ref corresp="lexicon_kopis.html">κοπίς</ref>).
                         
                         W późniejszej literaturze spotykamy się też z oznaczającym nóż rzeczownikiem δορίς, ίδος: u komediopisarza Anaksipposa (6.3) pojawia się ona w kontekście innych przyrządów kuchennych, m.in. kopid, w Aitiach Kallimacha występuje natomiast w kontekście jednoznacznie ofiarniczym (οἱ βόες ὀξεῖαν δερκόμενοι δορίδα, Call. fr. 75.11). Zważywszy na niską frekwencję wystąpień tego słowa wydaje się, że Kallimach podstawia je w miejsce trywialnej machairy (→ <ref corresp="lexicon_machaira.html">μάχαιρα</ref>), czy to w ramach erudycyjnego popisu (dwie linijki wcześniej ten sam nóż został określony równie rzadkim, prawdopodobnie eolskim słowem μαῦλις: Call. fr. 75.9; cf. Harder 2012: 591), czy dla uzyskania instrumentacji zgłoskowej (δερκόμενοι δορίδα), a najprawdopodobniej w obu tych celach jednocześnie. Za tym, że mamy do czynienia z rzadkim słowem, przemawia fakt, że chociaż Onomastikon Polluksa (II wiek n.e.) wymienia δορίδες jako element wyposażenia kucharza w jednym rzędzie z kopidą i machairami (Poll. 6.89, cf. 10.104: κοπίδες καὶ δορίδες καὶ μαχαιρίδες), to już w Attika onomata współczesnego Polluksowi gramatyka i leksykografa Eliusza Dionizjusza δορίδες objaśnione są jako μαγειρικαὶ τράπεζαι, blaty kucharskie (Ael.Dion., s.v.).
+                        
                         Bibliografia
                         Chantraine, Pierre, 1933, La formation des noms en grec ancien, Paris.
                         Harder, Anette, 2012, Callimachus, Aetia. Introduction, Text, Translation, and Commentary by Anette Harder, vol. 2, Oxford.
-                        Napisał: Przemysław Biernat.
-                        Data zamieszczenia: 31.03.2015.
-                        Data ostatniej modyfikacji: 08.05.2018.
+                        
                         Praca nad artykułem została sfinansowana ze środków Narodowego Centrum Nauki przyznanych na podstawie decyzji numer DEC-2013/09/B/HS2/01208.</p>                    
                 </div>
             </div>

@@ -21,7 +21,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2021-10-12" who="Irene Vagionakis">encoded document in XML</change>
-                <change when="2021-10-12" who="Krzysztof Bielawski">created document contents</change>
+                <change when="2018-05-08" who="Przemysław Biernat">created document contents</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -46,18 +46,13 @@
                 <p>Chantraine, Pierre, 1961, Morphologie Historique Du Grec, Paris.</p>
                 <p>McInerney, Jeremy, 2010, The Cattle of the Sun. Cows and Culture in the World of the Ancient Greeks, Princeton, NJ.</p>
             </div>
-            <!-- ἄφετος
-
-afetos
-
+            <!-- ἄφετος afetos
 ἄφετος, adj. swobodnie wypasany (o trzodzie); dosłownie: puszczony wolno.
 
 Etymologia i morfologia
-
 Przymiotnik odczasownikowy utworzony od czasownika ἀφίημι z tematem na stopniu zerowym (por. Chantraine 1961: 283).
 
 Wystąpienia
-
 Wprost do zwierząt ofiarnych czasownik odnosi się w Kritiaszu Platona, w opisie stada byków, które pasły się w miejscu świętym Posejdona na Atlantydzie: ἀφέτων ὄντων ταύρων ἐν τῷ . . ἱερῷ, Pl. Criti.119d (zob. komentarz ad loc.). Do obrazu bydła wypasanego na należących do sanktuarium łąkach nawiązuje też zapewne Eurypides, kiedy określa tym przymiotnikiem porzuconego w Delfach młodego Iona (ὃ δ᾽ ἐν θεοῦ δόμοισιν ἄφετος, ὡς λάθοι, παιδεύεται, E. Ion 821-822).
 
 Przymiotnik ἄ. mógł być odniesiony również do miejsca swobodnego wypasu - νομὴ ἄφετος - przeciwstawionego żłobowi, φάτνη, por. Plut. Lys. 20.
@@ -65,16 +60,11 @@ Przymiotnik ἄ. mógł być odniesiony również do miejsca swobodnego wypasu -
 W warunkach geograficznych Grecji właściwej możliwości swobodnego wypasu bydła były mocno ograniczone. Jednocześnie rozwój dużych sanktuariów, w których składano publiczne ofiary dla rzesz ludzi, stwarzał zapotrzebowanie na tę kategorię zwierząt ofiarnych. Można w związku z tym zaobserwować zjawisko polegające na wyłączaniu obszarów położonych w pobliżu sanktuarium spod uprawy w celu wypasania na nich bydła. Taki charakter miało między innymi terytorium między Delfami a Zatoką Koryncką, przekształcone w świętą łąkę w wyniku Pierwszej Wojny Świętej (IG II2 1126) oraz łąki położone na zachód od Eleuzis (IG II2 204, Androtion, FGrH III B 324 F 30). Na temat hodowli bydła na świętych łakach zob. McInerney 2010: 146-172.
 
 Bibliografia
-
 Chantraine, Pierre, 1961, Morphologie Historique Du Grec, Paris.
-
 McInerney, Jeremy, 2010, The Cattle of the Sun. Cows and Culture in the World of the Ancient Greeks, Princeton, NJ.
 
- 
-
-Napisał: Przemysław Biernat
-
-Data ostatniej aktualizacji: 08.05.2018. -->
+Praca nad artykułem została sfinansowana ze środków Narodowego Centrum Nauki przyznanych na podstawie decyzji numer DEC-2013/09/B/HS2 /01208.
+-->
         </body>
     </text>
 </TEI>

@@ -20,8 +20,9 @@
         </fileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-11-10" who="NAME">encoded document in XML</change>
-                <change when="2021-10-12" who="Krzysztof Bielawski">created document contents</change>
+                <change when="2022-02-03" who="Irene Vagionakis">encoded document in XML</change>
+                <change when="2015-04-21" who="Przemysław Biernat">updated document contents</change>
+                <change when="2015-03-31" who="Przemysław Biernat">created document contents</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -77,9 +78,7 @@
                         van Straten, F. T. (1995), Hiera kala. Images of Animal Sacrifice in Archaic and Classical Greece, Leiden – New York – Köln.
                         Wernicke (1894), Artemis, [w:] Paulys Real-Encyklopaedie der Classischen Altertumswissenschaft, Stuttgart, 1335-1440.
                         Ziehen, Ludwig (1894), Τιθηνίδια, [w:] Paulys Real-Encyklopaedie der Classischen Altertumswissenschaft, Stuttgart, 1511-1512.
-                        Napisał: Przemysław Biernat
-                        Data zamieszczenia: 31.03.2015.
-                        Data ostatniej aktualizacji: 21.04.2015.
+                        
                         Praca nad artykułem została sfinansowana ze środków Narodowego Centrum Nauki przyznanych na podstawie decyzji numer DEC-2013/09/B/HS2 /01208.
                     </p>
                 </div>

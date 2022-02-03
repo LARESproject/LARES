@@ -21,7 +21,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2021-10-12" who="Irene Vagionakis">encoded document in XML</change>
-                <change when="2021-10-12" who="Krzysztof Bielawski">created document contents</change>
+                <change when="2016-03-07" who="Przemysław Biernat">created document contents</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -51,9 +51,7 @@
                 <p>Casabona, J. (1966). Recherches sur le vocabulaire des sacrifices en grec, des origines à la fin de l'époque classique. Aix-en-Provence.</p>
                 <p>Moyer, Ian S. (2008). Notes on Re-Reading the Delian Aretalogy of Sarapis (“IG” XI.4 1299). Zeitschrift für Papyrologie und Epigraphik 166: 101-107.</p>
             </div>
-            <!-- θυηπολέω
-
-thyepoleo
+            <!-- θυηπολέω thyepoleo
 
 θυηπολέω, v.: poet. spełniać ofiarę.
 
@@ -70,24 +68,14 @@ Czasownik θ. odnajdujemy również w tekście wyroczni delfickiej, wygłoszonej
 W prozie poklasycznej czasownikiem θ. posługuje się Dionizjusz z Halikarnasu (2.67) w odniesieniu do obowiązków kultowych rzymskich Westalek. Jest to z pewnością świadomy zabieg autora, który konsekwentnie określa Westalki mianem θυηπόλοι (2.64, 2.65, 3.67).
 
 Wystąpienia
-
 A. Ag. 262; E. Tr. 330, El. 665, 1134, Heracl. 401; S. fr. 47.9 Nauck = Strabo 10.3.14; S. fr. 126; Pl. R. 364e; D.H. 2.67; Paus. 4.9.4.
 
 Bibliografia
-
 Beekes, Robert (2010). Etymological Dictionary of Greek. Leiden-Boston.
-
 Casabona, J. (1966). Recherches sur le vocabulaire des sacrifices en grec, des origines à la fin de l'époque classique. Aix-en-Provence.
-
 Moyer, Ian S. (2008). Notes on Re-Reading the Delian Aretalogy of Sarapis (“IG” XI.4 1299). Zeitschrift für Papyrologie und Epigraphik 166: 101-107.
 
- 
-
-Napisał: Przemysław Biernat
-
-Data zamieszczenia: 07.03.2016
-
-Data ostatniej aktualizacji: - -->
+Praca nad artykułem została sfinansowana ze środków Narodowego Centrum Nauki przyznanych na podstawie decyzji numer DEC-2013/09/B/HS2 /01208. -->
         </body>
     </text>
 </TEI>
