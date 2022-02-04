@@ -28,298 +28,378 @@
     <text>
         <body>
             <div type="edition" xml:lang="it">
-                <div type="textpart" n="...">
-                    <head>...</head>
-                    <p>...</p>                    
+                <div type="textpart">
+                    <p>χέρνιψ chernips, sost. f., 1. acqua rituale, usata (a) prima di un pasto ritualizzato o (b) prima di un rito sacrificale; (poeta.) anche acqua di sorgente usata nei rituali; 2. (metonimicamente) un rito eseguito durante un sacrificio usando chernips; 3. (metonimicamente) un recipiente per acqua rituale; 4. sacrifici liquidi usando acqua rituale (nel culto dei morti)</p>
+                </div>
+                <div type="textpart" n="Etimologia">
+                    <head>Etimologia</head>
+                    <p>Romance composto da χείρ "mano" (qui sotto la forma *χερρ-/χερ) e il soggetto del verbo νίζω "mi lavo, lavo le mie membra". Questo è un termine tecnico arcaico da cui derivano i nomi dei recipienti usati per il lavaggio rituale delle mani.</p>
+                </div>
+                <div type="textpart" n="Attestazioni">
+                    <head>Attestazioni</head>
+                    <p>La parola χέρνιψ (plurale χέρνιβες nella poesia lirica e tragica) è un termine tecnico per l'acqua usata nei rituali o prima di un pasto in una festa (nell'epica). Veniva spesso attinta da sorgenti o ruscelli speciali ritenuti adatti all'uso nei rituali. La sua funzione principale era quella di mettere i partecipanti al rituale in uno stato di prontezza per entrare nel regno di hiera, i partecipanti diventando hagnos. I partecipanti ai rituali con l'uso di chernips non potevano essere contaminati da contaminazione (miasma), la cui rimozione richiedeva l'applicazione preventiva di speciali rituali di purificazione. La χέρνιψι era usata non solo per il lavaggio delle mani dei partecipanti attivi ai rituali, ma anche per l'irrorazione degli animali sacrificali. Era un gesto che alla fine destinava l'animale al sacrificio o confermava la sua appartenenza al regno di hiera. I riferimenti all'irrorazione degli altari possono essere una figura retorica, poiché l'animale veniva irrorato sull'altare. In senso generale la parola χέρνιψ significa "acqua rituale".</p>
+                </div>
+                <div type="textpart" n="1">
+                    <head>1. Acqua rituale usata prima di un pasto rituale o prima di un rito sacrificale.</head>
+                    <head>1 a: acqua rituale per lavarsi le mani prima di un pasto</head>
+                    <p>Nell'Odissea il sostantivo χέρνιψ appare nei versi formativi al singolare accusativo (χέρνιβα) e si riferisce invariabilmente all'acqua versata sulle mani per lavarsi. Tutte le attestazioni (Od. 1.136 = 4.52 = 7.172 = 10.368 = 17.91) appaiono nella prima delle quattro parti della tipica scena di "festa di festa", cioè la descrizione dei preparativi: il lavaggio delle mani, l'accovacciarsi a tavola (le altre parti della scena sono: (2) il servizio di pane, carne e vino a tavola; (3) il pasto; (4) la conclusione). La prima parte è la più stabile per quanto riguarda l'uso dei versi tradizionali; vi troviamo una descrizione estesa del lavaggio delle mani prima della festa: χέρνιβα δ᾽ ἀμφίπολος προχόῳ ἐπέχευε φέρουσα / καλῇ χρυσείῃ, ὑπὲρ ἀργυρέοιο λέβητος, / νίψασθαι-"acqua per le mani che il servo versava da una brocca portante, / bella, dorata sopra un catino d'argento / per lavarsi". L'uso di una doppia figura etimologica (χέρνιβα - νίπτομαι, ἐπέχευε - προχόῳ) e la ripetizione (i versi appaiono anche quando la festa è preceduta dal bagno dei partecipanti) sono interessanti. Cfr. τὸ χέρνιβον "recipiente per χέρνιψ" usato per lavare le mani prima della libagione in Il. 24.304, dove χέρνιψ è sostituito dalla frase ὕδωρ (...) ἀκήρατον. L'uso di χέρνιψ durante la festa (deipnon) è attestato dal distico elegiaco conservato nel Corpus Teognideo, in cui la fine della festa è segnata da un vevan: χέρνιβα δ᾽ αἶψα θύραζε φέροι, στεφανώματα δ᾽ εἴσω / εὐειδὴς ῥαδιναῖς χερσὶ Λάκαινα κόρη "lasciatelo rapidamente fuori dalle porte chernips e mettete corone / una bella ragazza laconica dalle mani delicate (Theogn. 1001-2)".</p>
+                </div>
+                <div type="textpart" n="1b">
+                    <head>1 b: acqua rituale usata nei sacrifici animali,</head>
+                    <p>Nell'Iliade, nelle scene tipiche il rituale del sacrificio di sangue inizia con l'uso di chernips (1x) e la presa di coppe d'orzo, oulochytai (2x); la prima azione è definita dal verbo χερνίπτομαι. Di solito si presume che questo si riferisca al lavaggio delle mani da parte dei membri del gruppo che partecipano al rituale, anche se nella scena che descrive l'unirsi al popolo in festa dopo aver bruciato la meria al dio, il poeta non menziona esplicitamente il lavaggio delle mani (Od. 3. 5-13; 31-50); analogamente, nell'Elektra di Euripide, Oreste non si lava le mani nei chernips, adducendo la scusa che si era già pulito nel torrente (E. El. xx-xx). Nella scena più elaborata del sacrificio di sangue nell'Odissea, il sostantivo χέρνιψ, "acqua rituale", ricorre due volte in combinazione con torte d'orzo: χέρνιβά τ᾽ οὐλοχύτας τε κατήρχετο, "dall'acqua rituale iniziò e dai crocchi d'orzo (Od. 3.445)". Prima, nella descrizione del portare gli oggetti necessari al sacrificio, il χέρνιψ è portato ἐν ἀνθεμόεντι λέβητι, "in una ciotola adornata di fiori", mentre nell'altra mano gli oulai sono tenuti in un cesto (Od. 3.440-3). Apollonio di Rodi modella la sua descrizione del sacrificio sull'Odissea: χέρνιβά τ᾽ οὐλοχύτας τε παρέσχεθον, "furono portati acqua rituale e briciole d'orzo" (A.Rh. 1.409).</p>
+                    <p>In alcune descrizioni di sacrifici animali, la stretta relazione tra χέρνιψ e οὐλαί è evidenziata dalla loro giustapposizione nella processione e nei preparativi per il rito sacrificale sull'altare. A volte è difficile decidere chiaramente se si intende l'acqua rituale o, attraverso l'uso metonimico, il recipiente che la contiene. Negli Uccelli il sacrificio animale inizia con l'esortazione τὸ κανοῦν αἴρεσθε καὶ τὴν χέρνιβα, 'prendete il cesto e l'acqua/il vaso d'acqua'. (Aristof. Av. 850). La preparazione di chernips/chernibes e krup era essenziale per il rito sacrificale e significava la disponibilità a iniziare il rito sacrificale. In Ifigenia nella campagna di Tauri, un pastore che porta la notizia dell'arrivo di potenziali vittime esorta la sacerdotessa: χέρνιβας δὲ καὶ κατάργματα οὐκ ἂν φθάνοις ἂν εὐτρεπῆ ποιουμένη, "prepara rapidamente l'acqua rituale e i chernips (= briciole di orzo)" (E. I.T. 244-5 [244]), cfr. ἔκπεμπε παῖδα δωμάτων πατρὸς μέτα- ὡς χέρνιβες πάρεισιν ηὐτρεπισμέναι προχύται τε, "mandate da casa un bambino con suo padre, perché i chernibes sono stati preparati e prochytai" (E. I.A. 1111). In Ifigenia in Aulida, il protagonista dice: στέφεα περίβολα δίδοτε φέρετε-πλόκαμος ὅδε καταστέφειν- χερνίβων τε παγάς, 'datemi le corone che circondano e portate - ecco i capelli da incoronare - i flussi d'acqua rituale! (E. I. A. 1479)". A quanto pare, chernips e krups iniziavano il rito: πικροὺς δὲ προχύτας χέρνιβάς τ᾽ ἐνάρξεται Κάλχας ὁ μάντις, 'con prochytai amari (qui, krups d'orzo) e acqua rituale / inizierà l'indovino Kalchas! (E. I.A. 955)", tuttavia la funzione dei rituali eseguiti con essi differisce: chernips è piuttosto connesso con il sacrificio (con l'inclusione nella sfera del sacro), oulai con i sacrifici primordiali e la preghiera, cfr. E. IA 1470.</p>
+                    <p>D'altra parte, i ceri e gli strumenti usati per macellare un animale possono significare metonimicamente un rito sacrificale: il re Thoas, arrivato all'altare di Artemide, è sorpreso: οὔκουν ἐν ἔργωι χέρνιβες ξίφος τε σόν, "non c'è acqua rituale e la tua spada nel lavoro (E. I.T. 1190)", chernibes insieme a sphageia, potrebbe significare metonimicamente "sacrificio": E. I.T. 334-5 [334]: ἐς χέρνιβάς τε καὶ σφαγεῖ᾽ ἔπεμπέ σοι, "lo ha mandato a voi per i vasi d'acqua e i vasi sanguigni chernibes"</p>
+                    <p>Il χέρνιψ sembra essere stato usato in tre o quattro riti durante il rito sacrificale (a seconda se consideriamo l'aspersione dell'altare come un rito indipendente dall'aspersione dell'animale sacrificale):</p>
+                    <p>1) il lavaggio delle mani da parte dei partecipanti al rito.</p>
+                    <p>In questo senso, tranne forse Od. 3.445, il verbo χερνίπτομαι, "lavare le mani in χέρνιψ," è usato, vedi Lys. 6.52, Aristoph. Pax 961, e soprattutto D.H. 7.72. 2, dove χερνιψάμενοί τε γὰρ αὐτοὶ si riferisce ai partecipanti al rito, e τὰ ἱερὰ καθαρῷ περιαγνίσαντες ὕδατι agli animali sacrificali (καθαρὸν ὕδωρ è sinonimo di χέρνιψ).</p>
+                    <p>2) girando intorno all'altare in senso orario:</p>
+                    <p>Av. 958: Αὖθις σὺ περιχώρει λαβὼν τὴν χέρνιβα, Prendi l'acqua e muoviti. Che ci sia silenzio! </p>
+                    <p>Pax 956-7: ῎Αγε δή, τὸ κανοῦν λαβὼν σὺ καὶ τὴν χέρνιβα/ περίιθι τὸν βωμὸν ταχέως ἐπιδέξια Vai avanti, prendi il cesto, prendi l'acqua e vai velocemente attorno all'altare a destra</p>
+                    <p>E. I.A. 1569: ὁ παῖς δ᾽ ὁ Πηλέως ἐν κύκλωι βωμοῦ θεᾶς λαβὼν κανοῦν ἔθρεξε χέρνιβάς θ᾽ ὁμοῦ, "il figlio di Peleo attorno all'altare della dea tenendo il cesto corse con i chernibes"</p>
+                    <p>3) aspergere l'animale sacrificale con acqua rituale usando una radura:</p>
+                    <p>E. Heracl. 929: μέλλων δὲ δαλὸν χειρὶ δεξιᾶι φέρειν, ἐς χέρνιβ᾽ ὡς βάψειεν, cf. Aristoph. Pax 959: τὸ δαλίον τόδ' ἐμβάψω λαβών, "Prendo questo bastone e lo immergo nell'acqua"</p>
+                    <p>E. I.A. 1513: ἐπὶ κάραι στέφη βαλουμέναν χερνίβων τε παγάς, "una corona e rivoli d'acqua rituale saranno imposti sul suo capo", cfr. v. 1518.</p>
+                    <p>Cfr. E. IT 622: οὔκ, ἀλλὰ χαίτην ἀμφὶ σὴν χερνίψομαι con il riferimento unico di χερνίπτομαι agli animali sacrificali.</p>
+                    <p>Si aspettava che l'animale spruzzato sospirasse, il che fu preso come un buon segno.</p>
+                    <p>Ar. Pax 960: Σείου σὺ ταχέως, "Scuoti, presto!" [17 personaggi in Naiden]</p>
+                    <p>Secondo Euripide, l'aspersione del sacrificio umano era un gesto irrevocabile di dedizione alla divinità, in :</p>
+                    <p>E. I.T. 57: θνήισκουσι δ᾽ οὓς ἂν χέρνιβες βάλωσ᾽ ἐμαί, muoiono coloro in cui avrei gettato la mia acqua rituale</p>
+                    <p>E. I.T. 644-5: κατολοφύρομαι σὲ τὸν χερνίβων ῥανίσι μελόμενον αἱμακταῖς, piango per voi a cui sono state affidate gocce di acqua rituale mista a sangue.</p>
+                    <p>cfr. E. I.T. 861: φεῦ φεῦ χερνίβων ἐκεί&lt;νων- οἴμοι&gt;.</p>
+                    <p>4) aspersione dell'altare (?)</p>
+                    <p>οἳ μιᾶς ἐκ χέρνιβος βωμοὺς περιρραίνοντες, "cospargere intorno agli altari con un chernips": Aristofane. Lys.1129-1130 (cfr. Hipp. De morbo). Forse, l'aspersione dell'altare è un derivato dell'aspersione intorno all'animale, poiché gli animali erano molto probabilmente legati all'altare stesso. Lisistrata parla della complicità nei riti sacrificali in generale, usando la metonimia per enfatizzare la comunità degli Elleni che fanno sacrifici usando i cefali.</p>
+                </div>
+                <div type="textpart" n="2">
+                    <head>2. (Metonimicamente) il rituale eseguito durante il sacrificio con i chernips</head>
+                    <p>Aristoph. Av. 898: Εἶτ' αὖθις αὖ τἄρα σοι / δεῖ με δεύτερον μέλος / χέρνιβι θεοσεβὲς ὅσιον ἐπιβοᾶν, Così ancora, devo innalzare un altro pio, sacro canto al momento della purificazione e invocare i benedetti, il termine χέρνιβι essendo qui usato metonimicamente (acqua rituale &gt; gesto rituale), riferendosi all'attività per la quale è stato usato. Il canto del coro costituisce una nuova preghiera. Secondo l'interpretazione di Bartolomeo Bednarek, mentre gli uccelli cantano, Peisetairos, attingendo da un recipiente tenuto da uno degli schiavi, irrora l'animale e l'altare con la sua testa.</p>
+                </div>
+                <div type="textpart" n="3.1">
+                    <head>3. (Metonimicamente) acqua rituale &gt; un recipiente con acqua rituale</head>
+                    <p>In alcuni casi χέρνιψ denota l'acqua nei vasi vicino all'altare durante il rito sacrificale, e di conseguenza metonimicamente può significare un recipiente per conservare la χέρνιψ. Stare vicino ad essa implica la partecipazione al rito:</p>
+                    <p>1) E.El. 791-796: λούτρ᾽ ὡς τάχιστα τοῖς ξένοις τις αἰρέτω, / ὡς ἀμφὶ βωμὸν στῶσι χερνίβων πέλας, Che gli ospiti facciano portare rapidamente dell'acqua per lavarsi, / per stare vicino ai chernibes attorno all'altare". Che questo si riferisca senza dubbio al lavaggio rituale prima del rito è evidenziato dalla risposta di Oreste: Ἀρτίως ἡγνίσμεθα / λουτροῖσι καθαροῖς ποταμίων ῥείθρων ἄπο. Il lavaggio rituale prima del rito, loutra, mentre chernips serviva a marcare i partecipanti, confermando la loro appartenenza al cerchio sacrificale.</p>
+                    <p>2) Istruttivo è anche il dialogo tra Agamennone e Ifigenia in I.A. 675: {Αγ.} θῦσαί με θυσίαν πρῶτα δεῖ τιν᾽ ἐνθάδε. {Ιφ.} ἀλλὰ ξὺν ἱεροῖς χρὴ τό γ᾽ εὐσεβὲς σκοπεῖν. {Αγ.} εἴσηι σύ- χερνίβων γὰρ ἑστήξεις πέλας. {Ιφ.} στήσομεν ἄρ᾽ ἀμφὶ βωμόν, ὦ πάτερ, χορούς;</p>
+                    <p>Evidentemente l'espressione χερνίβων πέλας ἵστημι significa in Euripide "prendere parte al rito del sacrificio".</p>
+                    <p>L'uso di χέρνιψ durante il rito del sacrificio rese l'ammissione o l'esclusione a χέρνιψ un termine metonimico per l'appartenenza a un gruppo sociale che celebrava insieme i riti:</p>
+                    <p>1) ποία δὲ χέρνιψ φρατέρων προσδέξεται, quali χέρνιψ membri della fratria lo accetteranno? Aesch. Eum. 656. Traducendo il linguaggio poetico nel linguaggio della pratica rituale, questo verso può essere parafrasato come segue: quale fratria gli permetterà di partecipare ai χέρνιψ = rituali? (Sommerstein, 1989, p. 206).</p>
+                    <p>2) Aesch. Ag. 1037 (Clitennestra su Kassandra): κοινωνὸν εἶναι χερνίβων essere complice di χέρνιβες,</p>
+                    <p>3) Dem. 20.158 (citando le leggi di Drakon): χέρνιβος εἴργεσθαι (τὸν ἀνδροφόνον) per escludere (l'assassino) dall'uso di χέρνιψ, in un ulteriore luogo il legislatore enumerò σπονδῶν, κρατήρων, ἱερῶν, ἀγορᾶς.</p>
+                    <p>4) Soph. OT 240: μήτ᾽ ἐν θεῶν εὐχαῖσι μήτε θύμασιν κοινὸν ποιεῖσθαι, μήτε χέρνιβος νέμειν.</p>
+                    <p>Cfr. l'uso del termine χέρνιψ nel senso di "vaso di acqua rituale" nel Discorso di Lisia contro Andokides (Lys. 6. 52): ἐχερνίψατο ἐκ τῆς ἱερᾶς χέρνιβος, 'si lavò le mani attingendo l'acqua dai sacri chernips', dove l'ingresso di Andokides nell'Eleusinion e l'uso del più probabile lavaggio delle mani nei chernips infrange la pena di esclusione dai riti.</p>
+                </div>
+                <div type="textpart" n="3.2">
+                    <head>3. (Generalmente) acqua rituale di sorgente usata nei rituali.</head>
+                    <p>Nel senso generale di "acqua rituale, acqua usata ritualmente", soprattutto nel contesto del sacrificio animale, χέρνιψ appare in Tukidide nella denuncia dei Beot contro la condotta empia dell'equipaggio ateniese a Delion: ὕδωρ τε ὃ ἦν ἄψαυστον σφίσι πλὴν πρὸς τὰ ἱερὰ χέρνιβι χρῆσθαι, ἀνασπάσαντας ὑδρεύεσθαι, l'acqua, che era intoccabile per loro [i Beot] tranne che per l'uso come chernips nei sacrifici, [gli Ateniesi] attingevano e usavano per i loro scopi (Th. 4.97).</p>
+                    <p>Nella poesia lirica e nei tragici, i chernips (singolare) furono sostituiti da χέρνιβες (l.pl.) nel senso di acqua da attingere da una fonte designata e portata all'altare. Nella poesia mitica (tragedia), il motivo del viaggio dell'eroe/eroina per prendere l'acqua rituale è forse una trasposizione del motivo della 'ricerca (la ricerca)' di un oggetto magico nel mito eroico. Nelle Fenici di Euripide, il coro canta di Cadmo che ἐπὶ χέρνιβας μολὼν, 'andò per l'acqua della purificazione (E. Ph. 662)'. Cfr. il passo dell'Ipsipila di Euripide (fr. 572h, 29-30), dove l'indovino Amphiraos, cercando l'acqua necessaria per un rito, dice al personaggio del titolo: "[ῥ]υτὸν λαβεί̣ν̣ [χ]ρή̣ι̣[ζοι]μ̣᾽ ἅ̣ν̣ ἐν κρωσσοῖς ὕδωρ / χ]έρνιβα θ̣εοῖσ̣ιν ὅ[σιον] ὡ̣ς χεαίμεθα; 'Voglio attingere acqua corrente in vasi, / per versare agli dei chernips consacrati. "</p>
+                    <p>Nell'Alkestis Euripide menziona l'usanza (ὡς νομίζεται) di ordinare che i χέρνιψ siano posti ἐπὶ φθιτῶν πύλαις, cioè all'ingresso della casa del lutto: πυλῶν πάροιθε δ᾽ οὐχ ὁρῶ / πηγαῖον ὡς νομίζεται / χέρνιβ᾽ ἐπὶ φθιτῶν πύλαις, Perché non vedo di fronte alle porte / della sorgente d'acqua che condiscende / per purificare alle soglie dei morti (E. Alc. 98-100).</p>
+                </div>
+                <div type="textpart" n="3.3">
+                    <head>3. offerte liquide, libagioni d'acqua agli dei o ai morti</head>
+                    <p>Doppio χέρνιβες significa sacrifici liquidi. In Eschilo, Elettra esegue il rito sulla tomba di Agamennone:  κἀγὼ χέουσα τάσδε χέρνιβας νεκροῖς λέγω καλοῦσα πατέρ, "e io versando queste libagioni per i morti, dico invocando mio padre (Aesch. Ch. 129-30)". Al contrario, nel già citato passaggio dell'Ipsipila di Euripide, l'indovino Amphiraos, alla ricerca dell'acqua necessaria al rito, si rivolge al personaggio del titolo: ῥ]υτὸν λαβεί̣ν̣ [χ]ρή̣ι̣[ζοι]μ̣᾽ ἅ̣ν̣ ἐν κρωσσοῖς ὕδωρ / χ]έρνιβα θ̣εοῖσ̣ιν ὅ[σιον] ὡ̣ς χεαίμεθα; "Desidero attingere acqua corrente in vasi, / per versare agli dei chernips consacrati. " Il dativo θ̣εοῖσ̣ιν, tuttavia, suggerisce che ciò che si intende non è tanto il lavaggio delle mani quanto una libagione agli dei. In effetti, la connessione tra e sacrifici liquidi sembra essere suggerita da Plutarco quando parla della fonte delle Muse a Delfi, anche se il termine chiave manca nel testo manoscritto (Plut. De Pyth. or. 402c): ἐχρῶντο πρός τε τὰς λοιβὰς &lt;καὶ τὰς χέρνιβας&gt; τῷ ὕδατι τούτῳ, "usano quest'acqua per sacrifici liquidi e per χέρνιβες". La congiunzione si basa su un passo di Simonide citato da Plutarco per illustrare questa affermazione: &quot;ἔνθα χερνίβεσσιν ἀρύεται [τε] Μουσᾶν καλλικόμων ὑπένερθεν ἁγνὸν ὕδωρ. &quot; e, presumibilmente nella stessa poesia: ἁγνᾶν ἐπίσκοπον χερνίβων, dove "il guardiano delle pure acque rituali (χερνίβων)", è la musa Kleio.</p>
+                </div>
+                <div type="textpart" n="Catalogo_delle_occorrenze">
+                    <head>Catalogo delle occorrenze</head>
+                    <p>1) Verbo. + χέρνιβα</p>
+                    <p>"da cui attingere"</p>
+                    <p>χερνίβεσσιν ἀρύεται Simonid. fr 72(a).1</p>
+                    <p>"portare, trasportare"</p>
+                    <p>φέρω + χέρνιβα, Od. 1,136 = 4,52 = 7,172 = 10,368 = 17,91; Th. 1001; E. I.A. 1479</p>
+                    <p>"dare, portare"</p>
+                    <p>παρέχω + χέρνιβα: A.Rh. 1.409</p>
+                    <p>"da usare ritualmente"</p>
+                    <p>χρῆσθαι + χέρνιβι (τῷ ὕδατι)</p>
+                    <p>πρὸς τὰ ἱερὰ χέρνιβι χρῆσθαι, Thuc. 4.97.3,</p>
+                    <p>πρός τε τὰς λοιβὰς &lt;καὶ τὰς χέρνιβας&gt; τῷ ὕδατι τούτῳ, Plut. De Pyth. Oppure. 402c (?)</p>
+                    <p>"per iniziare un rituale"</p>
+                    <p>κατάρχομαι, Od. 3.445, E. I.A. 955 (?);</p>
+                    <p>"versare, versare (per difetto: sulle mani)"</p>
+                    <p>ἐπιχεύω + χέρνιβα, "versare":  Da. 1.136 = 4.52 = 7.172 = 10.368 = 17.91</p>
+                    <p>"versare (in sacrificio)"</p>
+                    <p>χέουσα τάσδε χέρνιβας νεκροῖς, Aesch. Cap. 129-30</p>
+                    <p>χ]έρνιβα θ̣εοῖσ̣ιν ὅ[σιον] ὡ̣ς χεαίμεθα, E. Hyps. frg.</p>
+                    <p>"prendere"</p>
+                    <p>ἀείρομαι + χέρνιβα Aristoph. Av. 850</p>
+                    <p>χερνίβων (καὶ κανῶν) ἁψόμενον, Dem. 22.78,</p>
+                    <p>"andare in giro (tenendo χέρνιβας)"</p>
+                    <p>περιχώρει: Av. 958</p>
+                    <p>περίιθι: Pax 956-7</p>
+                    <p>ἐν κύκλωι ἔθρεξε: E. I.A. 1569</p>
+                    <p>"immergere la lama nel chernips"</p>
+                    <p>τὸν δαλὸν ἐς χέρνιβα βάπτω: E. Heracl. 929, cfr. Aristoph. Pax 959</p>
+                    <p>Lancia le gocce di chernips</p>
+                    <p>βάλλω: E. I.T. 57 </p>
+                    <p>spiega in giro (altari):</p>
+                    <p>ἐκ χέρνιβος βωμοὺς περιρραίνοντες, Aristoph. Lys.1129-1130</p>
+                    <p>"stare vicino a chernibes" &gt; "prendere parte al rito del sacrificio"</p>
+                    <p>χερνίβων πέλας ἵστημι: E.El. 791-796, I.A. 675</p>
+                    <p>"condividere chernips" &gt; prendere parte ai sacrifici comuni</p>
+                    <p>χέρνιβος νέμειν: Soph. OT 240</p>
+                    <p>κοινωνὸν εἶναι χερνίβων: Aesch. Ag. 1037</p>
+                    <p>cfr. ποία δὲ χέρνιψ φρατέρων προσδέξεται</p>
+                    <p>"da escludere"</p>
+                    <p>χέρνιβος εἴργεσθαι, Dem. 20.158</p>
+                    <p>2) Adj. +</p>
+                    <p>πηγαῖον χέρνιβα, "primavera": E.Alc. 100</p>
+                    <p>χ]έρνιβα (...) ὅ[σιον]</p>
+                    <p>ἐκ τῆς ἱερᾶς χέρνιβος</p>
+                    <p>Sinonimi:</p>
+                    <p>ἁγνὸν ὕδωρ, Simonid., fr. 72(a).1</p>
+                    <p>λούτρα E.Electra 791-796, cfr. λουτροῖσι καθαροῖς ποταμίων ῥείθρων ἄπο, E. El. 796</p>
+                </div>
+                <div type="textpart" n="Interpretazione">
+                    <head>Interpretazione</head>
+                    <p>La natura purificatrice di χέρνιψ sembra essere suggerita da un passo dell'Elektra di Euripide in cui Oreste, in risposta alle chiamate di Ajgistos a portare chernips per gli ospiti, dice: Ἀρτίως ἡγνίσμεθα / λουτροῖσι καθαροῖς ποταμίων ῥείθρων ἄπο. / εἰ δὲ ξένους ἀστοῖσι συνθύειν χρεών, / Αἴγισθ᾽, ἕτοιμοι κοὐκ ἀπαρνούμεσθ᾽, ἄναξ, 'ci siamo purificati prima, / ci siamo lavati nell'acqua pura del fiume. / Quando, sconosciuti, dovremmo insieme alla gente del posto / offrire il sacrificio - eravamo pronti signore!". Tuttavia, ciò che può essere in questione qui è il rifiuto di compiere un gesto che normalmente sottolineava il diritto di partecipare al rito. In Oreste la possibilità di toccare i crani è apparentemente legata allo stato di purezza delle mani: εὖ γοῦν θίγοις ἂν χερνίβων (E. Or. 1602), cfr. ἁγνὸς γάρ εἰμι χεῖρας</p>
+                    <p>(E. Or. 1604). Ne consegue che l'aspersione di χέρνιβες non serviva di per sé a purificare dalle macchie, a raggiungere uno stato di purezza rituale, e che il partecipante al rito doveva procedere ad esso libero da miasmi. In Ifigenia nella terra del Toro, il personaggio del titolo spiega l'assenza di sacrifici umani con la necessità della loro preventiva purificazione dalle contaminazioni: ἁγνοῖς καθαρμοῖς πρῶτά νιν νίψαι θέλω, che viene interpretato come uno stato di purezza rituale dei sacrifici (ὁσιώτεροι γοῦν τῆι θεῶι). Queste purificazioni sono effettuate nel mare da θάλασσα κλύζει πάντα τἀνθρώπων κακά, anche se questo non sembra essere l'unico metodo: ({Θο.} πηγαῖσιν ὑδάτων ἢ θαλασσίαι δρόσωι;). Questo stato di cose sembra essere confermato da Demostene (22.78, cfr. 24. 186), dicendo: ἐγὼ μὲν γὰρ οἴομαι δεῖν τὸν εἰς ἱέρ᾽ εἰσιόντα καὶ χερνίβων καὶ κανῶν ἁψόμενον, καὶ τῆς πρὸς τοὺς θεοὺς ἐπιμελείας προστάτην ἐσόμενον οὐχὶ προειρημένον ἡμερῶν ἀριθμὸν ἁγνεύειν, ἀλλὰ τὸν βίον ἡγνευκέναι τοιούτων ἐπιτηδευμάτων οἷα τούτῳ βεβίωται. </p>
                 </div>
             </div>
             
             <div type="edition" xml:lang="en">
-                <div type="textpart" n="...">
-                    <head>...</head>
-                    <p>...</p>                    
+                <div type="textpart">
+                    <p>χέρνιψ chernips, subst. f., 1. ritual water, used (a) before a ritualized meal or (b) before a sacrificial ritual; (poet.) also spring water used in rituals; 2. (metonymically) a ritual performed during a sacrifice using chernips; 3. (metonymically) a vessel for ritual water; 4. liquid sacrifices using ritual water (in the cult of the dead)</p>
+                </div>
+                <div type="textpart" n="Etymology">
+                    <head>Etymology</head>
+                    <p>Romance compounded from χείρ "hand" (here under the form *χερρ-/χερ) and the verb subject νίζω "I wash, wash my limbs". This is an archaic technical term from which the vessels used for ritual handwashing are named.</p>
+                </div>
+                <div type="textpart" n="Attestations">
+                    <head>Attestations</head>
+                    <p>The word χέρνιψ (plural χέρνιβες in lyric and tragic poetry) is a technical term for water used in rituals or before a meal at a festive feast (in epic). It was often drawn from special springs or streams deemed fit for use in rituals. Its main function was to put the participants in the ritual in a state of readiness to enter the realm of hiera, the participants becoming hagnos. The participants of the rituals with the use of chernips could not be tainted with taint (miasma), the removal of which required the prior application of special purification rituals. The χέρνιψ was used not only for the washing of hands by active participants in the rituals but also for the spraying of sacrificial animals. It was a gesture that ultimately destined the animal for sacrifice or confirmed its belonging to the realm of hiera. The references to the spraying of the altars may be a rhetorical figure, since the animal was sprayed at the altar. In a general sense the word χέρνιψ means "ritual water".</p>
+                </div>
+                <div type="textpart" n="1a">
+                    <head>1. Ritual water used before a ritualised meal or before a sacrificial ritual.</head>
+                    <head>1 a: ritual water for washing hands before a meal</head>
+                    <p>In the Odyssey the noun χέρνιψ appears in the formative verses in the accusatiive l.singular (χέρνιβα) and invariably refers to water poured on the hands for washing. All the attestations (Od. 1.136 = 4.52 = 7.172 = 10.368 = 17.91) appear in the first of the four parts of the typical 'feast feast' scene, i.e. the description of the preparations: the washing of the hands, the squatting of the table (the other parts of the scene are: (2) the serving of bread, meat and wine to the table; (3) the meal; (4) the conclusion). The first part is the most stable in terms of its use of traditional verses; we find in it an extended description of the washing of hands before the feast: χέρνιβα δ᾽ ἀμφίπολος προχόῳ ἐπέχευε φέρουσα / καλῇ χρυσείῃ, ὑπὲρ ἀργυρέοιο λέβητος, / νίψασθαι-"water for the hands the servant poured from a pitcher carrying, / beautiful, golden over a silver bowl / to wash themselves". The use of a double etymological figure (χέρνιβα - νίπτομαι, ἐπέχευε - προχόῳ) and the repetition (the lines appear even when the festive feast is preceded by the participant's bath) are interesting. Cf. τὸ χέρνιβον 'vessel for χέρνιψ' used for washing hands before the libation in Il. 24.304, where χέρνιψ is replaced by the phrase ὕδωρ (...) ἀκήρατον. The use of χέρνιψ during the feast (deipnon) is attested by the elegiac distich preserved in the Theognidean Corpus, in which the end of the feast is marked by a vevan: χέρνιβα δ᾽ αἶψα θύραζε φέροι, στεφανώματα δ᾽ εἴσω / εὐειδὴς ῥαδιναῖς χερσὶ Λάκαινα κόρη "let him quickly out of doors chernips and put on wreaths / a beautiful Laconian girl with delicate hands (Theogn. 1001-2)".</p>
+                </div>
+                <div type="textpart" n="1b">
+                    <head>1 b: ritual water used in animal sacrifice,</head>
+                    <p>In the Iliad, in typical scenes the blood sacrifice ritual begins with the use of chernips (1x) and the taking of barley croups, oulochytai (2x); the first action is defined by the verb χερνίπτομαι. It is usually assumed that this refers to the washing of hands by the members of the group participating in the ritual, although in the scene describing joining the feasting people after burning the meria to the god, the poet does not explicitly mention the washing of hands (Od. 3. 5-13; 31-50); similarly, in Euripides' Elektra, Orestes does not wash his hands in the chernips, making the excuse that he had already cleansed himself in the stream (E. El. xx-xx). In the most elaborate scene of blood sacrifice in the Odyssey, the noun χέρνιψ, 'ritual water', occurs twice in combination with barley cakes: χέρνιβά τ᾽ οὐλοχύτας τε κατήρχετο, 'from the ritual water he began and from the barley croups (Od. 3.445)'. Earlier in the description of bringing the objects necessary for the sacrifice, the χέρνιψ is carried ἐν ἀνθεμόεντι λέβητι, "in a bowl adorned with flowers", while in the other hand the oulai are held in a basket (Od. 3.440-3). Apollonios of Rhodes models his description of the sacrifice on the Odyssey: χέρνιβά τ᾽ οὐλοχύτας τε παρέσχεθον, "ritual water and barley crumbs were brought" (A.Rh. 1.409).</p>   
+                    <p>In some descriptions of animal sacrifice, the close relationship between χέρνιψ and οὐλαί is evidenced by their juxtaposition in the procession and preparations for the sacrificial rite at the altar. It is sometimes difficult to decide clearly whether ritual water is meant or, through metonymic usage, the vessel containing it. In the Birds the animal sacrifice begins with the exhortation τὸ κανοῦν αἴρεσθε καὶ τὴν χέρνιβα, 'take the basket and the water/vessel of water' (Aristoph. Av. 850). The preparation of chernips/chernibes and krup was essential for the sacrificial rite and signified readiness to begin the sacrificial ritual. In Iphigenia in the Taurian country, a shepherd bringing news of the arrival of potential victims urges the priestess: χέρνιβας δὲ καὶ κατάργματα οὐκ ἂν φθάνοις ἂν εὐτρεπῆ ποιουμένη, "quickly prepare the ritual water and the chernips (= barley crumbs)" (E. I.T. 244-5 [244]), cf. ἔκπεμπε παῖδα δωμάτων πατρὸς μέτα- ὡς χέρνιβες πάρεισιν ηὐτρεπισμέναι προχύται τε, "send from home a child with his father, for the chernibes have been prepared and prochytai" (E. I.A. 1111). In Iphigenia in Aulida, the title character says: στέφεα περίβολα δίδοτε φέρετε-πλόκαμος ὅδε καταστέφειν- χερνίβων τε παγάς, 'give me the surrounding wreaths and bring - here is the hair to crown - the streams of ritual water! (E. I.A. 1479)'. Apparently, chernips and krups began the ritual: πικροὺς δὲ προχύτας χέρνιβάς τ᾽ ἐνάρξεται Κάλχας ὁ μάντις, 'with bitter prochytai (here, barley krups) and ritual water / will the soothsayer Kalchas begin! (E. I.A. 955)", nevertheless the function of the rituals performed with them differs: chernips is rather connected with sacrifice (with inclusion into the sphere of the sacred), oulai with primal sacrifices and prayer, cf. E. IA 1470.</p>
+                    <p>On the other hand, chernips and tools used to slaughter an animal may metonymically signify a sacrificial ritual: King Thoas having arrived at the altar of Artemis is surprised: οὔκουν ἐν ἔργωι χέρνιβες ξίφος τε σόν, "there is no ritual water and your sword in the work (E. I.T. 1190)", chernibes together with sphageia, could metonymically mean "sacrifice": E. I.T. 334-5 [334]: ἐς χέρνιβάς τε καὶ σφαγεῖ᾽ ἔπεμπέ σοι, "he sent him to you for chernibes water vessels and blood vessels"</p>
+                    <p>The χέρνιψ appears to have been used in three or four rites during the sacrificial rite (depending on whether we consider the sprinkling of the altar to be a rite independent of the sprinkling of the sacrificial animal):</p>
+                    <p>1) the washing of the hands by the participants in the rite.</p>
+                    <p>In this sense, except possibly Od. 3.445, the verb χερνίπτομαι, "to wash the hands in χέρνιψ," is used; see Lys. 6.52, Aristoph. Pax 961, and especially D.H. 7.72. 2, where χερνιψάμενοί τε γὰρ αὐτοὶ refers to the participants in the rite, and τὰ ἱερὰ καθαρῷ περιαγνίσαντες ὕδατι to the sacrificial animals (καθαρὸν ὕδωρ is synonymous with χέρνιψ).</p>
+                    <p>2) going around the altar in a clockwise motion:</p>
+                    <p>Av. 958: Αὖθις σὺ περιχώρει λαβὼν τὴν χέρνιβα, Take water and move around. Let there be silence!</p>
+                    <p>Pax 956-7: ῎Αγε δή, τὸ κανοῦν λαβὼν σὺ καὶ τὴν χέρνιβα/ περίιθι τὸν βωμὸν ταχέως ἐπιδέξια Go on, take the basket, take the water, and go quickly around the altar to the right</p>
+                    <p>E. I.A. 1569: ὁ παῖς δ᾽ ὁ Πηλέως ἐν κύκλωι βωμοῦ θεᾶς λαβὼν κανοῦν ἔθρεξε χέρνιβάς θ᾽ ὁμοῦ, "the son of Peleus round the altar of the goddess holding the basket ran with chernibes"</p>
+                    <p>3) sprinkling the sacrificial animal with ritual water using a clearing:</p>
+                    <p>E. Heracl. 929: μέλλων δὲ δαλὸν χειρὶ δεξιᾶι φέρειν, ἐς χέρνιβ᾽ ὡς βάψειεν, cf. Aristoph. Pax 959: τὸ δαλίον τόδ' ἐμβάψω λαβών, "I will take this stick and dip it in water"</p>
+                    <p>E. I.A. 1513: ἐπὶ κάραι στέφη βαλουμέναν χερνίβων τε παγάς, "a wreath and trickles of ritual water will be imposed on her head," cf. v. 1518.</p>
+                    <p>Cf. E. IT 622: οὔκ, ἀλλὰ χαίτην ἀμφὶ σὴν χερνίψομαι with the unique reference of χερνίπτομαι to sacrificial animals.</p>
+                    <p>The sprinkled animal was expected to sigh, which was taken as a good sign.</p>
+                    <p>Ar. Pax 960: Σείου σὺ ταχέως, "Shake, quickly!" [17 characters in Naiden]</p>
+                    <p>Under Euripides the sprinkling of the human sacrifice was an irrevocable gesture of dedication to the deity, in :</p>
+                    <p>E. I.T. 57: θνήισκουσι δ᾽ οὓς ἂν χέρνιβες βάλωσ᾽ ἐμαί, die those in whom I would throw my ritual water</p>
+                    <p>E. I.T. 644-5: κατολοφύρομαι σὲ τὸν χερνίβων ῥανίσι μελόμενον αἱμακταῖς, I mourn for you who have been entrusted with drops of ritual water mixed with blood.</p>
+                    <p>cfr. E. I.T. 861: φεῦ φεῦ χερνίβων ἐκεί&lt;νων- οἴμοι&gt;.</p>
+                    <p>4) sprinkling of the altar (?)</p>
+                    <p>οἳ μιᾶς ἐκ χέρνιβος βωμοὺς περιρραίνοντες, "sprinkling around the altars with one chernips": Aristoph. Lys.1129-1130 (cf. Hipp. De morbo). Possibly, the sprinkling of the altar is a derivative of the sprinkling around the animal, since the animals were most likely tied at the altar itself. Lysistrata speaks of complicity in sacrificial rites in general, using metonymy to emphasise the community of Hellenes making sacrifices using chernips.</p>
+                </div>
+                <div type="textpart" n="2">
+                    <head>2. (Metonymically) the ritual performed during the sacrifice using chernips</head>
+                    <p>Aristoph. Av. 898: Εἶτ' αὖθις αὖ τἄρα σοι / δεῖ με δεύτερον μέλος / χέρνιβι θεοσεβὲς ὅσιον ἐπιβοᾶν, So again, I am to raise another pious, sacred song at the time of purification and call upon the blessed, the term χέρνιβι being used metonymically here (ritual water &gt; ritual gesture), referring to the activity for which it was used. The song of the choir constitutes a new prayer. According to Bartholomew Bednarek's interpretation, while the birds are singing, Peisetairos, drawing from a vessel held by one of the slaves, sprinkles the animal and the altar with his head.</p>
+                </div>
+                <div type="textpart" n="3.1">
+                    <head>3. (Metonymically) ritual water &gt; a vessel with ritual water</head>
+                    <p>In some cases χέρνιψ denotes the water in the vessels near the altar during the sacrificial ritual, and consequently metonymically it can mean a vessel for storing χέρνιψ. Being near it implies participation in the rite:</p>
+                    <p>1) E.El. 791-796: λούτρ᾽ ὡς τάχιστα τοῖς ξένοις τις αἰρέτω, / ὡς ἀμφὶ βωμὸν στῶσι χερνίβων πέλας, Let the guests quickly have someone bring water for washing, / to stand near the chernibes around the altar". That this undoubtedly refers to ritual washing before the rite is evidenced by Orestes' response: Ἀρτίως ἡγνίσμεθα / λουτροῖσι καθαροῖς ποταμίων ῥείθρων ἄπο. The ritual washing before the rite, loutra, while chernips served to mark the participants, confirming their membership of the sacrificial circle.</p>
+                    <p>2) Also instructive is the dialogue between Agamemnon and Iphigenia in I.A. 675: {Αγ.} θῦσαί με θυσίαν πρῶτα δεῖ τιν᾽ ἐνθάδε. {Ιφ.} ἀλλὰ ξὺν ἱεροῖς χρὴ τό γ᾽ εὐσεβὲς σκοπεῖν. {Αγ.} εἴσηι σύ- χερνίβων γὰρ ἑστήξεις πέλας. {Ιφ.} στήσομεν ἄρ᾽ ἀμφὶ βωμόν, ὦ πάτερ, χορούς;</p>
+                    <p>Evidently the expression χερνίβων πέλας ἵστημι means in Euripides "to take part in the rite of sacrifice".</p>
+                    <p>The use of χέρνιψ during the rite of sacrifice made admission or exclusion to χέρνιψ a metonymic term for membership of a social group celebrating rites together:</p>
+                    <p>1) ποία δὲ χέρνιψ φρατέρων προσδέξεται, which χέρνιψ members of the fratria will accept him? Aesch. Eum. 656. Translating the poetic language into the language of ritual practice, this verse can be paraphrased as follows: what fratria will allow him to participate in χέρνιψ = rituals? (Sommerstein, 1989, p. 206).</p>
+                    <p>2) Aesch. Ag. 1037 (Clytemnestra on Kassandra): κοινωνὸν εἶναι χερνίβων to be an accomplice in χέρνιβες,</p>
+                    <p>3) Dem. 20.158 (citing Drakon's laws): χέρνιβος εἴργεσθαι (τὸν ἀνδροφόνον) to exclude (the murderer) from the use of χέρνιψ, in a further place the legislator enumerated σπονδῶν, κρατήρων, ἱερῶν, ἀγορᾶς.</p>
+                    <p>4) Soph. OT 240: μήτ᾽ ἐν θεῶν εὐχαῖσι μήτε θύμασιν κοινὸν ποιεῖσθαι, μήτε χέρνιβος νέμειν.</p>
+                    <p>Cf. the use of the term χέρνιψ in the sense of "vessel of ritual water" in Lysias' Speech against Andokides (Lys. 6. 52): ἐχερνίψατο ἐκ τῆς ἱερᾶς χέρνιβος, 'he washed his hands by drawing water from the sacred chernips', where Andokides' entry into Eleusinion and use of the most likely washing his hands in the chernips breaks the penalty of exclusion from the rituals.</p>
+                </div>
+                <div type="textpart" n="3.2">
+                    <head>3. (Generally) ritual spring water used in rituals.</head>
+                    <p>In the general sense of 'ritual water, water used ritually', especially in the context of animal sacrifice, χέρνιψ appears in Tukidides in the complaint of the Beots against the impious conduct of the Athenian crew at Delion: ὕδωρ τε ὃ ἦν ἄψαυστον σφίσι πλὴν πρὸς τὰ ἱερὰ χέρνιβι χρῆσθαι, ἀνασπάσαντας ὑδρεύεσθαι, water, which was untouchable to them [the Beots] except for use as chernips at sacrifices, [the Athenians] drew and used for their purposes (Th. 4.97).</p>
+                    <p>In lyric poetry and in the tragics, chernips (singular) were replaced by χέρνιβες (l.pl.) in the sense of water to be drawn from a designated source and brought to the altar. In mythic poetry (tragedy), the motif of the hero/heroine's journey to fetch ritual water is perhaps a transposition of the motif of 'the quest (the quest)' for a magical object in heroic myth. In Euripides' Phoenicians, the chorus sings about Cadmus that ἐπὶ χέρνιβας μολὼν, 'he went for the water of purification (E. Ph. 662)'. Cf. the passage from Euripides' Hypsipyle (fr. 572h, 29-30), where the soothsayer Amphiraos, seeking the water necessary for a ritual, says to the title character: "[ῥ]υτὸν λαβεί̣ν̣ [χ]ρή̣ι̣[ζοι]μ̣᾽ ἅ̣ν̣ ἐν κρωσσοῖς ὕδωρ / χ]έρνιβα θ̣εοῖσ̣ιν ὅ[σιον] ὡ̣ς χεαίμεθα; 'I wish to draw flowing water into vessels, / to pour to the gods chernips consecrated. "</p>
+                    <p>In Alkestis Euripides mentions the custom (ὡς νομίζεται) of ordering that χέρνιψ should be placed ἐπὶ φθιτῶν πύλαις, that is, at the entrance to the house of mourning: πυλῶν πάροιθε δ᾽ οὐχ ὁρῶ / πηγαῖον ὡς νομίζεται / χέρνιβ᾽ ἐπὶ φθιτῶν πύλαις, For I do not see opposite the gates / of the spring water that condescends / to purify at the thresholds of the dead (E. Alc. 98-100).</p>
+                </div>
+                <div type="textpart" n="3.3">
+                    <head>3. liquid offerings, libations of water to the gods or to the dead</head>
+                    <p>Double χέρνιβες means liquid sacrifices. In Aeschylus, Electra performs the ritual on Agamemnon's tomb:  κἀγὼ χέουσα τάσδε χέρνιβας νεκροῖς λέγω καλοῦσα πατέρ, "and I pouring these libations for the dead, I say calling upon my father (Aesch. Ch. 129-30)". By contrast, in the aforementioned passage from Euripides' Hypsipyle, the soothsayer Amphiraos, seeking the water necessary for the ritual, addresses the title character: ῥ]υτὸν λαβεί̣ν̣ [χ]ρή̣ι̣[ζοι]μ̣᾽ ἅ̣ν̣ ἐν κρωσσοῖς ὕδωρ / χ]έρνιβα θ̣εοῖσ̣ιν ὅ[σιον] ὡ̣ς χεαίμεθα; "I desire to draw flowing water into vessels, / to pour to the gods chernips consecrated. " The dativus θ̣εοῖσ̣ιν, however, suggests that it is perhaps not so much a matter of washing hands, but of libations to the gods. Indeed, the connection between and liquid sacrifices seems to be suggested by Plutarch when speaking of the source of the Muses at Delphi, although the key term is missing from the manuscript text (Plut. De Pyth. or. 402c): ἐχρῶντο πρός τε τὰς λοιβὰς &lt;καὶ τὰς χέρνιβας&gt; τῷ ὕδατι τούτῳ, "they use this water for liquid sacrifices and for χέρνιβες". The conjunction is based on a passage from Simonides quoted by Plutarch as illustrating this statement: &quot;ἔνθα χερνίβεσσιν ἀρύεται [τε] Μουσᾶν καλλικόμων ὑπένερθεν ἁγνὸν ὕδωρ. &quot; and, presumably in the same poem: ἁγνᾶν ἐπίσκοπον χερνίβων, where "the guardian of the pure ritual waters (χερνίβων)," is the muse Kleio.</p>
+                </div>
+                <div type="textpart" n="Catalogue_of_occurrences">
+                    <head>Catalogue of occurrences</head>
+                    <p>1) Verb. + χέρνιβα</p>
+                    <p>"to draw from"</p>
+                    <p>χερνίβεσσιν ἀρύεται Simonid. fr 72(a).1</p>
+                    <p>"bring, carry"</p>
+                    <p>φέρω + χέρνιβα, Od. 1.136 = 4.52 = 7.172 = 10.368 = 17.91; Th. 1001; E. I.A. 1479</p>
+                    <p>"to give, to bring"</p>
+                    <p>παρέχω + χέρνιβα: A.Rh. 1.409</p>
+                    <p>"to use ritually"</p>
+                    <p>χρῆσθαι + χέρνιβι (τῷ ὕδατι)</p>
+                    <p>πρὸς τὰ ἱερὰ χέρνιβι χρῆσθαι, Thuc. 4.97.3,</p>
+                    <p>πρός τε τὰς λοιβὰς &lt;καὶ τὰς χέρνιβας&gt; τῷ ὕδατι τούτῳ, Plut. De Pyth. Or. 402c (?)</p>
+                    <p>"to begin a ritual"</p>
+                    <p>κατάρχομαι, Od. 3.445, E. I.A. 955 (?);</p>
+                    <p>"to pour, to pour (by default: on the hands)"</p>
+                    <p>ἐπιχεύω + χέρνιβα, "to pour out":  From. 1.136 = 4.52 = 7.172 = 10.368 = 17.91</p>
+                    <p>"to pour out (in sacrifice)"</p>
+                    <p>χέουσα τάσδε χέρνιβας νεκροῖς, Aesch. Ch. 129-30</p>
+                    <p>χ]έρνιβα θ̣εοῖσ̣ιν ὅ[σιον] ὡ̣ς χεαίμεθα, E. Hyps. frg.</p>
+                    <p>"take"</p>
+                    <p>ἀείρομαι + χέρνιβα Aristoph. Av. 850</p>
+                    <p>χερνίβων (καὶ κανῶν) ἁψόμενον, Dem. 22.78,</p>
+                    <p>"go around (holding χέρνιβας)"</p>
+                    <p>περιχώρει: Av. 958</p>
+                    <p>περίιθι: Pax 956-7</p>
+                    <p>ἐν κύκλωι ἔθρεξε: E. I.A. 1569</p>
+                    <p>"dip the blade into the chernips"</p>
+                    <p>τὸν δαλὸν ἐς χέρνιβα βάπτω: E. Heracl. 929, cf. Aristoph. Pax 959</p>
+                    <p>throw the drops of chernips</p>
+                    <p>βάλλω: E. I.T. 57 </p>
+                    <p>sprinkle around (altars):</p>
+                    <p>ἐκ χέρνιβος βωμοὺς περιρραίνοντες, Aristoph. Lys.1129-1130</p>
+                    <p>"to stand near chernibes" &gt; "to take part in the rite of sacrifice"</p>
+                    <p>χερνίβων πέλας ἵστημι: E.El. 791-796, I.A. 675</p>
+                    <p>"to share chernips" &gt; to take part in common sacrifices</p>
+                    <p>χέρνιβος νέμειν: Soph. OT 240</p>
+                    <p>κοινωνὸν εἶναι χερνίβων: Aesch. Ag. 1037</p>
+                    <p>cfr. ποία δὲ χέρνιψ φρατέρων προσδέξεται</p>
+                    <p>"to be excluded"</p>
+                    <p>χέρνιβος εἴργεσθαι, Dem. 20.158</p>
+                    <p>2) Adj. +</p>
+                    <p>πηγαῖον χέρνιβα, "spring": E.Alc. 100</p>
+                    <p>χ]έρνιβα (...) ὅ[σιον]</p>
+                    <p>ἐκ τῆς ἱερᾶς χέρνιβος</p>      
+                    <p>Synonyms:</p>
+                    <p>ἁγνὸν ὕδωρ, Simonid., fr. 72(a).1</p>
+                    <p>λούτρα E.Electra 791-796, cf. λουτροῖσι καθαροῖς ποταμίων ῥείθρων ἄπο, E. El. 796</p>
+                </div>
+                <div type="textpart" n="Interpretation">
+                    <head>Interpretation</head>
+                    <p>The purifying nature of χέρνιψ seems to be suggested by the passus from Euripides' Electra, in which Orestes, in response to Ajgistos' calls to bring chernips for the guests, says: Ἀρτίως ἡγνίσμεθα / λουτροῖσι καθαροῖς ποταμίων ῥείθρων ἄπο. / εἰ δὲ ξένους ἀστοῖσι συνθύειν χρεών, / Αἴγισθ᾽, ἕτοιμοι κοὐκ ἀπαρνούμεσθ᾽, ἄναξ, 'we have cleansed ourselves beforehand, / we have washed ourselves in the pure water of the river. / When, strangers, we should together with the locals / offer sacrifice - we were ready ladies!" However, what may be at issue here is the refusal to perform a gesture that normally emphasised the right to participate in the rite. In Orestes the possibility of touching the chernips is apparently linked to the state of purity of the hands: εὖ γοῦν θίγοις ἂν χερνίβων (E. Or. 1602), cf. ἁγνὸς γάρ εἰμι χεῖρας</p>
+                    <p>(E. Or. 1604). It follows that the sprinkling of χέρνιβες did not in itself serve the purpose of cleansing from taint, of attaining a state of ritual purity, and that the participant in the rite had to proceed to it free from miasma. In Iphigenia in the land of Taurus, the title character explains the absence of human sacrifices by the necessity of their prior purification from taint: ἁγνοῖς καθαρμοῖς πρῶτά νιν νίψαι θέλω, which is interpreted as giving the sacrifices a state of ritual purity (ὁσιώτεροι γοῦν τῆι θεῶι). These purifications are performed in the sea by θάλασσα κλύζει πάντα τἀνθρώπων κακά, although this seems not to be the only method: ({Θο.} πηγαῖσιν ὑδάτων ἢ θαλασσίαι δρόσωι;). This state of affairs seems to be confirmed by Demosthenes (22.78, cf. 24. 186), saying: ἐγὼ μὲν γὰρ οἴομαι δεῖν τὸν εἰς ἱέρ᾽ εἰσιόντα καὶ χερνίβων καὶ κανῶν ἁψόμενον, καὶ τῆς πρὸς τοὺς θεοὺς ἐπιμελείας προστάτην ἐσόμενον οὐχὶ προειρημένον ἡμερῶν ἀριθμὸν ἁγνεύειν, ἀλλὰ τὸν βίον ἡγνευκέναι τοιούτων ἐπιτηδευμάτων οἷα τούτῳ βεβίωται. </p>
+                    
                 </div>
             </div>
             
             <div type="edition" xml:lang="pl">
-                <div type="textpart" n="...">
-                    <head>...</head>
-                    <p>
-                        
-                        χέρνιψ
-                        
-                        chernips
-                        
-                        χέρνιψ, subst. f., 1. woda rytualna, używana (a) przed zrytualizowanym posiłkiem lub (b) przed rytuałem ofiarnym; (poet.) również źródlana woda wykorzystywana w rytuałach; 2. (metonimicznie) ryt wykonywany podczas ofiary z wykorzystaniem chernips; 3. (metonimicznie) naczynie na wodę rytualną; 4. ofiary płynne z wykorzystaniem wody rytualnej (w kulcie zmarłych)
-                        
-                        Etymologia
-                        
-                        Rzeczownik złożony z χείρ „ręka” (tutaj pod postacią *χερρ-/χερ) oraz tematu czasownika νίζω „myję, obmywam kończyny”. Jest to archaiczny termin techniczny, od którego pochodzą nazwy naczyń używanych do rytualnego obmywania rąk.
-                        
-                        Poświadczenia
-                        
-                        Słowo χέρνιψ (w poezji lirycznej i tragicznej w liczbie mnogiej χέρνιβες) jest terminem technicznym oznaczającym wodę używaną w rytuałach lub przed posiłkiem w czasie uczty świątecznej (w eposie). Zaczerpywano ją często ze specjalnych źródeł lub strumieni uznanych za zdatne do wykorzystania w obrzędach. Jej główną funkcją było nadanie uczestnikom obrzędu stanu gotowości do wejścia w sferę hiera, uczestnicy stawali się hagnos. Przystępując do rytów z użyciem chernips uczestnicy obrzędu nie mogli być skalani zmazą (miasma), której usunięcie wymagało uprzedniego zastosowanie specjalnych rytuałów oczyszczających. χέρνιψ służyła nie tylko do obmywania rąk przez aktywnych uczestników rytuałów, lecz również do spryskiwania zwierząt ofiarnych. Chodziło o gest przeznaczający ostatecznie zwierzę na ofiarę lub potwierdzający jego przynależność do sfery hiera. Wzmianki, w których jest mowa o spryskiwaniu ołtarzy, mogą być figurą retoryczną, gdyż zwierzę spryskiwano przy ołtarzu. W ogólnym sensie słowo χέρνιψ oznacza „wodę rytualną”.
-                        
-                        
-                        
-                        1. Woda rytualna używana przed zrytualizowanym posiłkiem lub przed rytuałem ofiarnym.
-                        
-                        
-                        
-                        1 a: woda rytualna do umycia rąk przed posiłkiem
-                        
-                        
-                        
-                        W Odysei rzeczownik χέρνιψ pojawia się w wersach formularnych w accusatiwie l.poj. (χέρνιβα) i niezmiennie odnosi się do wody wylewanej na ręce w celu obmycia. Wszystkie poświadczenia (Od. 1.136 = 4.52 = 7.172 = 10.368 = 17.91) pojawiają się w pierwszej z czterech części sceny typowej „uczta świąteczna”, czyli opisie przygotowań: obmycia rąk, przysunięcia stołu (pozostałe części sceny to: (2) podanie do stołu chleba, mięsa i wina; (3) posiłek; (4) zakończenie). Część pierwsza jest najbardziej stabilna pod względem wykorzystania tradycyjnych wersów; znajdujemy w niej rozbudowany opis obmycia rąk przed ucztą: χέρνιβα δ᾽ ἀμφίπολος προχόῳ ἐπέχευε φέρουσα / καλῇ χρυσείῃ, ὑπὲρ ἀργυρέοιο λέβητος, / νίψασθαι· „wodę do rąk służąca z dzbana wylewała niosąc, / pięknego, złotego nad srebrną misą / aby się obmyli”. Interesujące jest zastosowanie podwójnej etymologicznej figury (χέρνιβα - νίπτομαι, ἐπέχευε - προχόῳ) oraz powtarzalność (wersy pojawiają się nawet wówczas, gdy ucztę świąteczną poprzedza kąpiel uczestnika). Por. τὸ χέρνιβον „naczynie na χέρνιψ” użyte do umycia rąk przed libacją w Il. 24.304, gdzie χέρνιψ jest zastąpiona zwrotem ὕδωρ (…) ἀκήρατον. Użycie χέρνιψ podczas uczty (deipnon) poświadcza dystych elegijny zachowany w Korpusie Teognidejskim, w którym koniec uczty wyznacza weawanie: χέρνιβα δ᾽ αἶψα θύραζε φέροι, στεφανώματα δ᾽ εἴσω / εὐειδὴς ῥαδιναῖς χερσὶ  Λάκαινα κόρη „niech szybko za drzwi wyniesie chernips i nałoży wieńce / piękna lakońska dziewczyna delikatnymi dłońmi (Theogn. 1001-2)”.
-                        
-                        
-                        
-                        1 b: woda rytualna używana w ofierze zwierzęcej,
-                        
-                        
-                        
-                        W Iliadzie w scenach typowych ofiara krwawa rytuał zaczyna się od użycia chernips (1x) i wzięcia krup jęczmiennych, oulochytai (2x); pierwszą czynność określa czasownik χερνίπτομαι. Zazwyczaj przyjmuje się, że chodzi o obmycie rąk przez członków grupy uczestniczącej w rytuale, chociaż w scenie opisującej dołączenie się do ucztujących po spaleniu meria bogu poeta nie mówi wprost o obmyciu rąk (Od. 3. 5-13; 31-50); podobnie w Elektrze Eurypidesa Orestes nie obmywa rąk w chernips wymawiając się, że oczyścił się już wcześniej w strumieniu (E. El. xx-xx). W najbardziej rozbudowanej scenie ofiary krwawej w Odysei dwukrotnie występuje rzeczownik χέρνιψ, „woda rytualna” w połączeniu z krupami jęczmiennymi: χέρνιβά τ᾽ οὐλοχύτας τε κατήρχετο, „od wody rytualnej rozpoczął i od krup jęczmiennych (Od. 3.445)”. Wcześniej w opisie przynoszenia przedmiotów niezbędnych do złożenia ofiary, χέρνιψ jest niesiona ἐν ἀνθεμόεντι λέβητι, „w misie zdobnej kwiatami”, natomiast w drugiej ręce są trzymane oulai w koszyku (Od. 3.440-3). Apollonios z Rodos w swoim opisie ofiary wzoruje się na Odysei: χέρνιβά τ᾽ οὐλοχύτας τε παρέσχεθον, „wodę rytualną i krupy jęczmienne przynieśli” (A.Rh. 1.409).
-                        
-                        W niektórych opisach ofiary zwierzęcej o ścisłym związku między χέρνιψ z οὐλαί świadczy ich zestawienie w procesji oraz przygotowaniach do obrzędu ofiarnego przy ołtarzu. Niekiedy trudno rozstrzygnąć jednoznacznie, czy chodzi o wodę rytualną, czy poprzez użycie metonimiczne naczynie ją zawierające. W Ptakach ofiara zwierzęca zaczyna się od wezwania τὸ κανοῦν αἴρεσθε καὶ τὴν χέρνιβα, „weźcie koszyk i wodę/naczynie z wodą” (Aristoph. Av. 850). Przygotowanie chernips/chernibes i krup było niezbędne dla odprawianie obrzędu ofiarnego i oznaczało gotowość do rozpoczęcia rytuału ofiarnego. W Ifigenii w kraju Taurów pasterz przynosząc wiadomość o przybyciu potencjalnych ofiar ponagla kapłankę: χέρνιβας δὲ καὶ κατάργματα οὐκ ἂν φθάνοις ἂν εὐτρεπῆ ποιουμένη, „prędko przygotuj wodę rytualną i pierwociny (= krupy jęczmienne)” (E. I.T. 244-5 [244]), por. ἔκπεμπε παῖδα δωμάτων πατρὸς μέτα· ὡς χέρνιβες πάρεισιν ηὐτρεπισμέναι προχύται τε, „przyślij z domu dziecko z ojcem, gdyż chernibes zostały przygotowane i prochytai” (E. I.A. 1111). W Ifigenii w Aulidzie tytułowa bohaterka mówi: στέφεα περίβολα δίδοτε φέρετε—πλόκαμος ὅδε καταστέφειν— χερνίβων τε παγάς, „dajcie mi wieńce otaczające i przynieście – oto włosy do zwieńczenia –  strugi wody rytualnej! (E. I.A. 1479)”. Najwyraźniej chernips i krupy rozpoczynały rytuał: πικροὺς δὲ προχύτας χέρνιβάς τ᾽ ἐνάρξεται Κάλχας ὁ μάντις, „od gorzkich prochytai (tutaj, krupy jęczmienne) i wody rytualnej / zacznie wieszczek Kalchas! (E. I.A. 955)”, niemniej funkcja rytów odprawianych z ich użyciem różni się: chernips łączy się raczej z poświęceniem (z włączeniem w sferę świętości), oulai z ofiarami pierwocinowymi i modlitwą, por. E. IA 1470.
-                        
-                        Z kolei chernips i narzędzia używane do uboju zwierzęcia mogą metonimicznie oznaczać rytuał ofiarny: król Thoas przybywszy do ołtarza Artemidy dziwi się: οὔκουν ἐν ἔργωι χέρνιβες ξίφος τε σόν, „nie jest w robocie woda rytualna i twój miecz (E. I.T. 1190)”, chernibes razem ze sphageia, mogły metonimicznie oznaczać „złożenie w ofierze”: E. I.T. 334-5 [334]: ἐς χέρνιβάς τε καὶ σφαγεῖ᾽ ἔπεμπέ σοι, „posłał ci go do naczyń na wodę chernibes i naczyń na krew”
-                        
-                        
-                        
-                        Wydaje się, że podczas obrzędu ofiarnego χέρνιψ wykorzystywano w trzech lub czterech rytach (w zależności od tego, czy uznamy skropienie ołtarza za ryt niezależny od skropienia zwierzęcia ofiarnego):
-                        
-                        1) obmycie rąk przez uczestników obrzędu.
-                        
-                        W tym znaczeniu, z wyjątkiem prawdopodobnie Od. 3.445, używa się czasownika χερνίπτομαι, „obmyć ręce w χέρνιψ”, zob. Lys. 6.52, Aristoph. Pax 961, a zwłaszcza D.H. 7.72.2, gdzie χερνιψάμενοί τε γὰρ αὐτοὶ odnosi się do uczestników obrzędu, a τὰ ἱερὰ καθαρῷ περιαγνίσαντες ὕδατι do zwierząt ofiarnych (καθαρὸν ὕδωρ jest synonimem χέρνιψ).
-                        
-                        2) obejście ołtarza wkoło ruchem w prawą stronę:
-                        
-                        Av. 958: Αὖθις σὺ περιχώρει λαβὼν τὴν χέρνιβα, Weź wodę i ruszaj dookoła. Niech będzie cisza!
-                        
-                        Pax 956-7: ῎Αγε δή, τὸ κανοῦν λαβὼν σὺ καὶ τὴν χέρνιβα/ περίιθι τὸν βωμὸν ταχέως ἐπιδέξια Dalej, bierz koszyk, bierz wodę i obejdź prędko ołtarz w prawą stronę
-                        
-                        E. I.A. 1569: ὁ παῖς δ᾽ ὁ  Πηλέως ἐν κύκλωι βωμοῦ θεᾶς λαβὼν κανοῦν ἔθρεξε χέρνιβάς θ᾽ ὁμοῦ, „syn Peleusa wkoło ołtarza bogini trzymając koszyk pobiegł z chernibes”
-                        
-                        3) skropienie zwierzęcia ofiarnego wodą rytualną przy użyciu polana:
-                        
-                        E. Heracl. 929: μέλλων δὲ δαλὸν χειρὶ δεξιᾶι φέρειν, ἐς χέρνιβ᾽ ὡς βάψειεν, por. Aristoph. Pax 959: τὸ δαλίον τόδ' ἐμβάψω λαβών, „wezmę ten patyk i zanurzę go w wodzie”
-                        
-                        E. I.A. 1513: ἐπὶ κάραι στέφη βαλουμέναν χερνίβων τε παγάς, „zostanie jej narzucony na głowę wieniec i strugi wody rytualnej”, por. w. 1518.
-                        
-                        Por. E. IT 622: οὔκ, ἀλλὰ χαίτην ἀμφὶ σὴν χερνίψομαι z wyjątkowym odniesieniem χερνίπτομαι do zwierząt ofiarnych.
-                        
-                        Oczekiwano, że skropione zwierzę wzdrygnie, co traktowano jako dobry znak.
-                        
-                        Ar. Pax 960: Σείου σὺ ταχέως, „Trzęś się, prędko!” [17 znaków u Naiden]
-                        
-                        U Eurypidesa skropienie ofiary z człowieka było nieodwołalnym gestem przeznaczenia go bóstwu, w :
-                        
-                        E. I.T. 57: θνήισκουσι δ᾽ οὓς ἂν χέρνιβες βάλωσ᾽ ἐμαί, umierają ci, w których rzuciłabym moją wodę rytualną
-                        
-                        E. I.T. 644-5: κατολοφύρομαι σὲ τὸν χερνίβων ῥανίσι μελόμενον αἱμακταῖς, opłakuję ciebie, który zostałeś powierzony kroplom wody rytualnej zmieszaną z krwią.
-                        
-                        por. E. I.T. 861: φεῦ φεῦ χερνίβων ἐκεί&lt;νων· οἴμοι&gt;.
-                            
-                            4) skropienie ołtarza (?)
-                            
-                            οἳ μιᾶς ἐκ χέρνιβος βωμοὺς περιρραίνοντες, „pokrapiający wkoło ołtarze z jednej chernips”: Aristoph. Lys.1129-1130 (por. Hipp. De morbo). Możliwe, skroplenie ołtarza jest pochodną skropienia wokół zwierzęcia, gdyż zwierzęta była najpewniej przywiązywane przy samym ołtarzu. Lysistrata mówi o ogólnie o współuczestnictwie w obrzędach ofiarnych, używając metonimii podkreśla wspólnotę Hellenów składających ofiary z wykorzystaniem chernips.
-                            
-                            
-                            
-                            
-                            
-                            2. (metonimicznie) ryt wykonywany podczas ofiary z wykorzystaniem chernips
-                            
-                            
-                            
-                            Aristoph. Av. 898: Εἶτ' αὖθις αὖ τἄρα σοι / δεῖ με δεύτερον μέλος / χέρνιβι θεοσεβὲς ὅσιον ἐπιβοᾶν, A więc znów mam wznieść kolejną pobożną, świętą pieśń w czasie oczyszczenia i wezwać błogosławionych, termin χέρνιβι został tu użyty metonimicznie (woda rytualna &gt; gest rytualny), odnosząc się do czynności, do której je wykorzystywano. Pieśń chóru stanowi nową modlitwę. Zgodnie z interpretacją Barłomieja Bednarka w czasie gdy ptaki śpiewają, Peisetairos, czerpiąc z naczynia trzymanego przez jednego z niewolników, skrapia przy pomocy głowni zwierzę i ołtarz.
-                            
-                            
-                            
-                            3. (metonimicznie) woda rytualna &gt; naczynie z wodą rytualną
-                            
-                            
-                            
-                            W niektórych przypadkach χέρνιψ oznacza wodę w naczyniach znajdujących się przy ołtarzu w czasie rytuału ofiarnego, a w konsekwencji metonimicznie może oznaczać naczynie do przechowywania χέρνιψ. Przebywanie w jej pobliżu oznacza uczestnictwo w obrzędzie:
-                            
-                            1) E.El. 791-796: λούτρ᾽ ὡς τάχιστα τοῖς ξένοις τις αἰρέτω, / ὡς ἀμφὶ βωμὸν στῶσι χερνίβων πέλας, Niech gościom prędko niech ktoś przyniesie wody do obmycia, / by wokół ołtarza stanęli blisko chernibes”. O tym, że niewątpliwie chodzi o rytualne obmycie się przed przystąpieniem do obrzędu świadczy odpowiedź Orestesa: Ἀρτίως ἡγνίσμεθα / λουτροῖσι καθαροῖς ποταμίων ῥείθρων ἄπο. Rytualne obmycie przed obrzędem, loutra, natomiast chernips służyło naznaczaniu uczestników, potwierdzanie ich przynależności do kręgu ofiarników.
-                            
-                            2) Pouczający jest również dialog między Agamemnonem a Ifigenią w I.A. 675: {Αγ.} θῦσαί με θυσίαν πρῶτα δεῖ τιν᾽ ἐνθάδε. {Ιφ.} ἀλλὰ ξὺν ἱεροῖς χρὴ τό γ᾽ εὐσεβὲς σκοπεῖν. {Αγ.} εἴσηι σύ· χερνίβων γὰρ ἑστήξεις πέλας. {Ιφ.} στήσομεν ἄρ᾽ ἀμφὶ βωμόν, ὦ πάτερ, χορούς;
-                            
-                            Najwyraźniej wyrażenie χερνίβων πέλας ἵστημι oznacza u Eurypidesa „brać udział w obrzędzie ofiary”.
-                            
-                            Użycie χέρνιψ w czasie obrzędu ofiary sprawiło, że dopuszczenie bądź wykluczenie do χέρνιψ stało się metonimicznym określeniem przynależności do grupy społecznej odprawiającej wspólnie obrzędy:
-                            
-                            1) ποία δὲ χέρνιψ φρατέρων προσδέξεται, jaka χέρνιψ członków fratrii przyjmie go? Aesch. Eum. 656. Przekładając język poetycki na język praktyki rytualnej wers ten można sparafrazować następująco: jaka fratria dopuści go do udziału w χέρνιψ = rytuałach? (Sommerstein, 1989, s. 206).
-                            
-                            2) Aesch. Ag. 1037 (Klitajmnestra o Kassandrze): κοινωνὸν εἶναι χερνίβων być wspólnikiem w χέρνιβες,
-                            
-                            3) Dem. 20.158 (z powołaniem na prawa Drakona): χέρνιβος εἴργεσθαι (τὸν ἀνδροφόνον) wykluczyć (zabójcę) z używania χέρνιψ, na dalszym miejscu prawodawca wyliczał σπονδῶν, κρατήρων, ἱερῶν, ἀγορᾶς.
-                            
-                            4) Soph. OT 240: μήτ᾽ ἐν θεῶν εὐχαῖσι μήτε θύμασιν κοινὸν ποιεῖσθαι, μήτε χέρνιβος νέμειν.
-                            
-                            Por. użycie  terminu χέρνιψ w znaczeniu „naczynia z wodą rytualną” w Mowie przeciwko Andokidesowi Lizjasza (Lys. 6.52): ἐχερνίψατο ἐκ τῆς ἱερᾶς χέρνιβος, „obmył ręce czerpiąc wodę ze świętej chernips”, gdzie wkroczenie Andokidesa do Eleusinion i użycie najpewniej obmycie rąk w chernips łamie karę wykluczenia z rytuałów.
-                            
-                            
-                            
-                            3. (ogólnie) źródlana woda rytualna wykorzystywana w obrzędach.
-                            
-                            
-                            
-                            W ogólnym znaczeniu „woda rytualna, woda wykorzystywana rytualnie”, zwłaszcza w kontekście ofiary zwierzęcej, χέρνιψ pojawia się u Tukidydesa w skardze Beotów na bezbożne postępowanie ateńskiej załogi w Delion: ὕδωρ τε ὃ ἦν ἄψαυστον σφίσι πλὴν πρὸς τὰ ἱερὰ χέρνιβι χρῆσθαι, ἀνασπάσαντας ὑδρεύεσθαι, wodę, która była dla nich [Beotów] nietykalna z wyjątkiem używania jej jako chernips przy składaniu ofiar, [Ateńczycy] czerpali i wykorzystywali do swych celów (Th. 4.97).
-                            
-                            W poezji lirycznej oraz u tragików chernips (w liczbie pojedynczej) zostały zastąpione χέρνιβες (l.mn.) w znaczeniu wody, którą należało zaczerpnąć z wyznaczonego źródła i przynieść do ołtarza. W poezji mitycznej (tragedii) motyw drogi bohatera/bohaterki po wodę rytualną jest być może transpozycją motywu „poszukiwania (the quest)” przedmiotu magicznego w micie bohaterskim. W Fenicjankach Eurypidesa chór śpiewa o Kadmosie, że ἐπὶ χέρνιβας μολὼν, „poszedł po wodę oczyszczeń (E. Ph. 662)”. Por. fragment z Hypsipyle Eurypidesa (fr. 572h, 29-30), gdzie wieszczek Amfiraos poszukując wody niezbędnej do rytuału mówi do tytułowej bohaterki: ῥ]υτὸν λαβεί̣ν̣ [χ]ρή̣ι̣[ζοι]μ̣᾽ ἅ̣ν̣ ἐν κρωσσοῖς ὕδωρ / χ]έρνιβα θ̣εοῖσ̣ιν ὅ[σιον] ὡ̣ς χεαίμεθα; „pragnąłbym zaczerpnąć płynącej wody do naczyń, / aby wylać bogom chernips poświęconej.”
-                            
-                            W Alkestis Eurypides wspomina o zwyczaju (ὡς νομίζεται) nakazującym umieszczanie χέρνιψ powinna ἐπὶ φθιτῶν πύλαις, to znaczy przy wejściu do domu żałoby: πυλῶν πάροιθε δ᾽ οὐχ ὁρῶ / πηγαῖον ὡς νομίζεται / χέρνιβ᾽ ἐπὶ φθιτῶν πύλαις, Nie widzę przecież naprzeciwko bram / wody źródlanej, jaka się godzi / do oczyszczeń przy progach umarłych (E. Alc. 98-100).
-                            
-                            
-                            
-                            3. ofiary płynne, libacje z wody dla bogów lub dla zmarłych
-                            
-                            
-                            
-                            Dwukrotnie χέρνιβες oznacza ofiary płynne. U Ajschylosa Elektra odprawia rytuał na grobie Agamemnona:  κἀγὼ χέουσα τάσδε χέρνιβας νεκροῖς λέγω καλοῦσα πατέρ, „a ja lejąc te libacje dla zmarłych, mówię wzywając ojca (Aesch. Ch. 129-30)”. Natomiast we wspomnianym już fragmencie Hypsipyle Eurypidesa, wieszczek Amfiraos poszukując wody niezbędnej do rytuału zwraca się do tytułowej bohaterki: ῥ]υτὸν λαβεί̣ν̣ [χ]ρή̣ι̣[ζοι]μ̣᾽ ἅ̣ν̣ ἐν κρωσσοῖς ὕδωρ / χ]έρνιβα θ̣εοῖσ̣ιν ὅ[σιον] ὡ̣ς χεαίμεθα; „pragnąłbym zaczerpnąć płynącej wody do naczyń, / aby wylać bogom chernips poświęconej.” Dativus θ̣εοῖσ̣ιν sugeruje jednak, że chodzi być może nie tyle o obmycie rąk, ale o libację dla bogów. Istotnie, związek między a ofiarami płynnymi zdaje się sugerować Plutarch mówiąc o źródle Muz w Delfach, chociaż w tekście rękopisów brakuje kluczowego terminu (Plut. De Pyth. or. 402c): ἐχρῶντο πρός τε τὰς λοιβὰς &lt;καὶ τὰς χέρνιβας&gt; τῷ ὕδατι τούτῳ, „używają tej wody do ofiar płynnych i do χέρνιβες”. Koniektura opiera się na fragmencie Simonidesa przytoczonym przez Plutarcha jako ilustracja tego stwierdzenia: &quot;ἔνθα χερνίβεσσιν ἀρύεται [τε] Μουσᾶν καλλικόμων ὑπένερθεν ἁγνὸν ὕδωρ.&quot;  oraz, najpewniej w tym samym poemacie: ἁγνᾶν ἐπίσκοπον χερνίβων, gdzie „strażniczką czystych wód rytualnych (χερνίβων)”, jest muza Kleio.
-                                
-                                
-                                
-                                
-                                
-                                Katalog wystąpień
-                                
-                                
-                                
-                                1) Verb. + χέρνιβα
-                                
-                                
-                                
-                                „zaczerpnąć”
-                                
-                                χερνίβεσσιν ἀρύεται Simonid. fr 72(a).1
-                                
-                                
-                                
-                                „przynieść, nieść”
-                                
-                                φέρω + χέρνιβα, Od. 1.136 = 4.52 = 7.172 = 10.368 = 17.91; Th. 1001; E. I.A. 1479
-                                
-                                
-                                
-                                „podawać, przynosić”
-                                
-                                παρέχω + χέρνιβα: A.Rh. 1.409
-                                
-                                
-                                
-                                „używać rytualnie”
-                                
-                                χρῆσθαι + χέρνιβι (τῷ ὕδατι)
-                                
-                                πρὸς τὰ ἱερὰ χέρνιβι χρῆσθαι, Thuc. 4.97.3,
-                                
-                                πρός τε τὰς λοιβὰς &lt;καὶ τὰς χέρνιβας&gt; τῷ ὕδατι τούτῳ, Plut. De Pyth. or. 402c (?)
-                                    
-                                    
-                                    
-                                    „rozpoczynać rytuał”
-                                    
-                                    κατάρχομαι, Od. 3.445, E. I.A. 955 (?);
-                                    
-                                    
-                                    
-                                    „wylewać, polewać (domyślnie: na ręce)”
-                                    
-                                    ἐπιχεύω + χέρνιβα, „wylewać”:  Od. 1.136 = 4.52 = 7.172 = 10.368 = 17.91
-                                    
-                                    
-                                    
-                                    „wylewać (w ofierze)”
-                                    
-                                    χέουσα τάσδε χέρνιβας νεκροῖς, Aesch. Ch. 129-30
-                                    
-                                    χ]έρνιβα θ̣εοῖσ̣ιν ὅ[σιον] ὡ̣ς χεαίμεθα, E. Hyps. frg.
-                                    
-                                    
-                                    
-                                    „wziąć”
-                                    
-                                    ἀείρομαι + χέρνιβα Aristoph. Av. 850
-                                    
-                                    χερνίβων (καὶ κανῶν) ἁψόμενον, Dem. 22.78,
-                                    
-                                    
-                                    
-                                    „obchodzić (trzymając χέρνιβας)”
-                                    
-                                    περιχώρει: Av. 958
-                                    
-                                    περίιθι: Pax 956-7
-                                    
-                                    ἐν κύκλωι ἔθρεξε: E. I.A. 1569
-                                    
-                                    
-                                    
-                                    „zanurzyć głownię w chernips”
-                                    
-                                    τὸν δαλὸν ἐς χέρνιβα βάπτω: E. Heracl. 929, por. Aristoph. Pax 959
-                                    
-                                    
-                                    
-                                    rzucić krople chernips
-                                    
-                                    βάλλω: E. I.T. 57
-                                    
-                                    
-                                    
-                                    pokrapiać wokół (ołtarze):
-                                    
-                                    ἐκ χέρνιβος βωμοὺς περιρραίνοντες, Aristoph. Lys.1129-1130
-                                    
-                                    
-                                    
-                                    „stać w pobliży chernibes” &gt; „brać udział w obrzędzie ofiary”
-                                    
-                                    χερνίβων πέλας ἵστημι: E.El. 791-796, I.A. 675
-                                    
-                                    
-                                    
-                                    „dzielić chernips” &gt; brać udział we wspólnych ofiarach
-                                    
-                                    χέρνιβος νέμειν: Soph. OT 240
-                                    
-                                    κοινωνὸν εἶναι χερνίβων: Aesch. Ag. 1037
-                                    
-                                    por. ποία δὲ χέρνιψ φρατέρων προσδέξεται
-                                    
-                                    
-                                    
-                                    „być wykluczonym”
-                                    
-                                    χέρνιβος εἴργεσθαι, Dem. 20.158
-                                    
-                                    
-                                    
-                                    2) Adj. +
-                                    
-                                    πηγαῖον χέρνιβα, „źródlana”: E.Alc. 100
-                                    
-                                    χ]έρνιβα (…) ὅ[σιον]
-                                    
-                                    ἐκ τῆς ἱερᾶς χέρνιβος
-                                    
-                                    
-                                    
-                                    Synonimy:
-                                    
-                                    ἁγνὸν ὕδωρ, Simonid., fr. 72(a).1
-                                    
-                                    λούτρα E.Elektra 791-796, por. λουτροῖσι καθαροῖς ποταμίων ῥείθρων ἄπο, E. El. 796
-                                    
-                                    
-                                    
-                                    Interpretacja
-                                    Oczyszczający charakter χέρνιψ wydaje się sugerować passus z Elektry Eurypidesa, w którym Orestes w odpowiedzi na wezwania Ajgistosa do przyniesienia chernips dla gości mówi: Ἀρτίως ἡγνίσμεθα / λουτροῖσι καθαροῖς ποταμίων ῥείθρων ἄπο. / εἰ δὲ ξένους ἀστοῖσι συνθύειν χρεών, / Αἴγισθ᾽, ἕτοιμοι κοὐκ ἀπαρνούμεσθ᾽, ἄναξ, „wcześniej oczyściliśmy się, / obmyliśmy się w czystej wodzie rzeki. / Gdy, obcy, mamy razem z miejscowymi / złożyć ofiarę – gotowiśmy panie!” Jednak może w tym wypadku chodzić o odmowę wykonania gestu, który w normalnych warunkach podkreślał prawo do uczestnictwa w obrzędzie. W Orestesie możliwość dotknięcia chernips jest najwyraźniej połączona ze stanem czystości rąk: εὖ γοῦν θίγοις ἂν χερνίβων (E. Or. 1602), por. ἁγνὸς γάρ εἰμι χεῖρας
-                                    (E. Or. 1604). Wynika stąd, że pokropienie χέρνιβες nie służyło samo przez się oczyszczeniu ze zmazy, osiągnięciu stanu czystości rytualnej, a uczestnik obrzędu musiał przystępować doń wolny od miasma. W Ifigenii w kraju Taurów tytułowa bohaterka tłumaczy nieobecność ofiar ludzkich koniecznością uprzedniego ich oczyszczenia ze zmazy: ἁγνοῖς καθαρμοῖς πρῶτά νιν νίψαι θέλω, co jest interpretowane jako nadanie ofiarom stanu czystości rytualnej (ὁσιώτεροι γοῦν τῆι θεῶι). Oczyszczeń tych dokonuje w morzu θάλασσα κλύζει πάντα τἀνθρώπων κακά, aczkolwiek zdaje się, że nie jest to jedyna metoda: ({Θο.} πηγαῖσιν ὑδάτων ἢ θαλασσίαι δρόσωι;). Ten stan rzeczy zdaje się potwierdzać Demostenes (22.78, por. 24.186), mówiąc: ἐγὼ μὲν γὰρ οἴομαι δεῖν τὸν εἰς ἱέρ᾽ εἰσιόντα καὶ χερνίβων καὶ κανῶν ἁψόμενον, καὶ τῆς πρὸς τοὺς θεοὺς ἐπιμελείας προστάτην ἐσόμενον οὐχὶ προειρημένον ἡμερῶν ἀριθμὸν ἁγνεύειν, ἀλλὰ τὸν βίον ἡγνευκέναι τοιούτων ἐπιτηδευμάτων οἷα τούτῳ βεβίωται.
-                    </p>
+                <div type="textpart">
+                    <p>χέρνιψ chernips, subst. f., 1. woda rytualna, używana (a) przed zrytualizowanym posiłkiem lub (b) przed rytuałem ofiarnym; (poet.) również źródlana woda wykorzystywana w rytuałach; 2. (metonimicznie) ryt wykonywany podczas ofiary z wykorzystaniem chernips; 3. (metonimicznie) naczynie na wodę rytualną; 4. ofiary płynne z wykorzystaniem wody rytualnej (w kulcie zmarłych)</p>
+                </div>
+                <div type="textpart" n="Etymologia">
+                    <head>Etymologia</head>
+                    <p>Rzeczownik złożony z χείρ „ręka” (tutaj pod postacią *χερρ-/χερ) oraz tematu czasownika νίζω „myję, obmywam kończyny”. Jest to archaiczny termin techniczny, od którego pochodzą nazwy naczyń używanych do rytualnego obmywania rąk.</p>
+                </div>
+                <div type="textpart" n="Poświadczenia">
+                    <head>Poświadczenia</head>
+                    <p>Słowo χέρνιψ (w poezji lirycznej i tragicznej w liczbie mnogiej χέρνιβες) jest terminem technicznym oznaczającym wodę używaną w rytuałach lub przed posiłkiem w czasie uczty świątecznej (w eposie). Zaczerpywano ją często ze specjalnych źródeł lub strumieni uznanych za zdatne do wykorzystania w obrzędach. Jej główną funkcją było nadanie uczestnikom obrzędu stanu gotowości do wejścia w sferę hiera, uczestnicy stawali się hagnos. Przystępując do rytów z użyciem chernips uczestnicy obrzędu nie mogli być skalani zmazą (miasma), której usunięcie wymagało uprzedniego zastosowanie specjalnych rytuałów oczyszczających. χέρνιψ służyła nie tylko do obmywania rąk przez aktywnych uczestników rytuałów, lecz również do spryskiwania zwierząt ofiarnych. Chodziło o gest przeznaczający ostatecznie zwierzę na ofiarę lub potwierdzający jego przynależność do sfery hiera. Wzmianki, w których jest mowa o spryskiwaniu ołtarzy, mogą być figurą retoryczną, gdyż zwierzę spryskiwano przy ołtarzu. W ogólnym sensie słowo χέρνιψ oznacza „wodę rytualną”.</p>
+                </div>
+                <div type="textpart" n="1a">
+                    <head>1. Woda rytualna używana przed zrytualizowanym posiłkiem lub przed rytuałem ofiarnym.</head>
+                    <head>1 a: woda rytualna do umycia rąk przed posiłkiem</head>
+                    <p>W Odysei rzeczownik χέρνιψ pojawia się w wersach formularnych w accusatiwie l.poj. (χέρνιβα) i niezmiennie odnosi się do wody wylewanej na ręce w celu obmycia. Wszystkie poświadczenia (Od. 1.136 = 4.52 = 7.172 = 10.368 = 17.91) pojawiają się w pierwszej z czterech części sceny typowej „uczta świąteczna”, czyli opisie przygotowań: obmycia rąk, przysunięcia stołu (pozostałe części sceny to: (2) podanie do stołu chleba, mięsa i wina; (3) posiłek; (4) zakończenie). Część pierwsza jest najbardziej stabilna pod względem wykorzystania tradycyjnych wersów; znajdujemy w niej rozbudowany opis obmycia rąk przed ucztą: χέρνιβα δ᾽ ἀμφίπολος προχόῳ ἐπέχευε φέρουσα / καλῇ χρυσείῃ, ὑπὲρ ἀργυρέοιο λέβητος, / νίψασθαι· „wodę do rąk służąca z dzbana wylewała niosąc, / pięknego, złotego nad srebrną misą / aby się obmyli”. Interesujące jest zastosowanie podwójnej etymologicznej figury (χέρνιβα - νίπτομαι, ἐπέχευε - προχόῳ) oraz powtarzalność (wersy pojawiają się nawet wówczas, gdy ucztę świąteczną poprzedza kąpiel uczestnika). Por. τὸ χέρνιβον „naczynie na χέρνιψ” użyte do umycia rąk przed libacją w Il. 24.304, gdzie χέρνιψ jest zastąpiona zwrotem ὕδωρ (…) ἀκήρατον. Użycie χέρνιψ podczas uczty (deipnon) poświadcza dystych elegijny zachowany w Korpusie Teognidejskim, w którym koniec uczty wyznacza weawanie: χέρνιβα δ᾽ αἶψα θύραζε φέροι, στεφανώματα δ᾽ εἴσω / εὐειδὴς ῥαδιναῖς χερσὶ  Λάκαινα κόρη „niech szybko za drzwi wyniesie chernips i nałoży wieńce / piękna lakońska dziewczyna delikatnymi dłońmi (Theogn. 1001-2)”.</p>
+                </div>
+                <div type="textpart" n="1b">
+                    <head>1 b: woda rytualna używana w ofierze zwierzęcej,</head>
+                    <p>W Iliadzie w scenach typowych ofiara krwawa rytuał zaczyna się od użycia chernips (1x) i wzięcia krup jęczmiennych, oulochytai (2x); pierwszą czynność określa czasownik χερνίπτομαι. Zazwyczaj przyjmuje się, że chodzi o obmycie rąk przez członków grupy uczestniczącej w rytuale, chociaż w scenie opisującej dołączenie się do ucztujących po spaleniu meria bogu poeta nie mówi wprost o obmyciu rąk (Od. 3. 5-13; 31-50); podobnie w Elektrze Eurypidesa Orestes nie obmywa rąk w chernips wymawiając się, że oczyścił się już wcześniej w strumieniu (E. El. xx-xx). W najbardziej rozbudowanej scenie ofiary krwawej w Odysei dwukrotnie występuje rzeczownik χέρνιψ, „woda rytualna” w połączeniu z krupami jęczmiennymi: χέρνιβά τ᾽ οὐλοχύτας τε κατήρχετο, „od wody rytualnej rozpoczął i od krup jęczmiennych (Od. 3.445)”. Wcześniej w opisie przynoszenia przedmiotów niezbędnych do złożenia ofiary, χέρνιψ jest niesiona ἐν ἀνθεμόεντι λέβητι, „w misie zdobnej kwiatami”, natomiast w drugiej ręce są trzymane oulai w koszyku (Od. 3.440-3). Apollonios z Rodos w swoim opisie ofiary wzoruje się na Odysei: χέρνιβά τ᾽ οὐλοχύτας τε παρέσχεθον, „wodę rytualną i krupy jęczmienne przynieśli” (A.Rh. 1.409).</p>
+                    <p>W niektórych opisach ofiary zwierzęcej o ścisłym związku między χέρνιψ z οὐλαί świadczy ich zestawienie w procesji oraz przygotowaniach do obrzędu ofiarnego przy ołtarzu. Niekiedy trudno rozstrzygnąć jednoznacznie, czy chodzi o wodę rytualną, czy poprzez użycie metonimiczne naczynie ją zawierające. W Ptakach ofiara zwierzęca zaczyna się od wezwania τὸ κανοῦν αἴρεσθε καὶ τὴν χέρνιβα, „weźcie koszyk i wodę/naczynie z wodą” (Aristoph. Av. 850). Przygotowanie chernips/chernibes i krup było niezbędne dla odprawianie obrzędu ofiarnego i oznaczało gotowość do rozpoczęcia rytuału ofiarnego. W Ifigenii w kraju Taurów pasterz przynosząc wiadomość o przybyciu potencjalnych ofiar ponagla kapłankę: χέρνιβας δὲ καὶ κατάργματα οὐκ ἂν φθάνοις ἂν εὐτρεπῆ ποιουμένη, „prędko przygotuj wodę rytualną i pierwociny (= krupy jęczmienne)” (E. I.T. 244-5 [244]), por. ἔκπεμπε παῖδα δωμάτων πατρὸς μέτα· ὡς χέρνιβες πάρεισιν ηὐτρεπισμέναι προχύται τε, „przyślij z domu dziecko z ojcem, gdyż chernibes zostały przygotowane i prochytai” (E. I.A. 1111). W Ifigenii w Aulidzie tytułowa bohaterka mówi: στέφεα περίβολα δίδοτε φέρετε—πλόκαμος ὅδε καταστέφειν— χερνίβων τε παγάς, „dajcie mi wieńce otaczające i przynieście – oto włosy do zwieńczenia –  strugi wody rytualnej! (E. I.A. 1479)”. Najwyraźniej chernips i krupy rozpoczynały rytuał: πικροὺς δὲ προχύτας χέρνιβάς τ᾽ ἐνάρξεται Κάλχας ὁ μάντις, „od gorzkich prochytai (tutaj, krupy jęczmienne) i wody rytualnej / zacznie wieszczek Kalchas! (E. I.A. 955)”, niemniej funkcja rytów odprawianych z ich użyciem różni się: chernips łączy się raczej z poświęceniem (z włączeniem w sferę świętości), oulai z ofiarami pierwocinowymi i modlitwą, por. E. IA 1470.</p>
+                    <p>Z kolei chernips i narzędzia używane do uboju zwierzęcia mogą metonimicznie oznaczać rytuał ofiarny: król Thoas przybywszy do ołtarza Artemidy dziwi się: οὔκουν ἐν ἔργωι χέρνιβες ξίφος τε σόν, „nie jest w robocie woda rytualna i twój miecz (E. I.T. 1190)”, chernibes razem ze sphageia, mogły metonimicznie oznaczać „złożenie w ofierze”: E. I.T. 334-5 [334]: ἐς χέρνιβάς τε καὶ σφαγεῖ᾽ ἔπεμπέ σοι, „posłał ci go do naczyń na wodę chernibes i naczyń na krew”</p>
+                    <p>Wydaje się, że podczas obrzędu ofiarnego χέρνιψ wykorzystywano w trzech lub czterech rytach (w zależności od tego, czy uznamy skropienie ołtarza za ryt niezależny od skropienia zwierzęcia ofiarnego):</p>
+                    <p>1) obmycie rąk przez uczestników obrzędu.</p>
+                    <p>W tym znaczeniu, z wyjątkiem prawdopodobnie Od. 3.445, używa się czasownika χερνίπτομαι, „obmyć ręce w χέρνιψ”, zob. Lys. 6.52, Aristoph. Pax 961, a zwłaszcza D.H. 7.72.2, gdzie χερνιψάμενοί τε γὰρ αὐτοὶ odnosi się do uczestników obrzędu, a τὰ ἱερὰ καθαρῷ περιαγνίσαντες ὕδατι do zwierząt ofiarnych (καθαρὸν ὕδωρ jest synonimem χέρνιψ).</p>
+                    <p>2) obejście ołtarza wkoło ruchem w prawą stronę:</p>
+                    <p>Av. 958: Αὖθις σὺ περιχώρει λαβὼν τὴν χέρνιβα, Weź wodę i ruszaj dookoła. Niech będzie cisza!</p>
+                    <p>Pax 956-7: ῎Αγε δή, τὸ κανοῦν λαβὼν σὺ καὶ τὴν χέρνιβα/ περίιθι τὸν βωμὸν ταχέως ἐπιδέξια Dalej, bierz koszyk, bierz wodę i obejdź prędko ołtarz w prawą stronę</p>
+                    <p>E. I.A. 1569: ὁ παῖς δ᾽ ὁ  Πηλέως ἐν κύκλωι βωμοῦ θεᾶς λαβὼν κανοῦν ἔθρεξε χέρνιβάς θ᾽ ὁμοῦ, „syn Peleusa wkoło ołtarza bogini trzymając koszyk pobiegł z chernibes”</p>
+                    <p>3) skropienie zwierzęcia ofiarnego wodą rytualną przy użyciu polana:</p>
+                    <p>E. Heracl. 929: μέλλων δὲ δαλὸν χειρὶ δεξιᾶι φέρειν, ἐς χέρνιβ᾽ ὡς βάψειεν, por. Aristoph. Pax 959: τὸ δαλίον τόδ' ἐμβάψω λαβών, „wezmę ten patyk i zanurzę go w wodzie”</p>
+                    <p>E. I.A. 1513: ἐπὶ κάραι στέφη βαλουμέναν χερνίβων τε παγάς, „zostanie jej narzucony na głowę wieniec i strugi wody rytualnej”, por. w. 1518.</p>
+                    <p>Por. E. IT 622: οὔκ, ἀλλὰ χαίτην ἀμφὶ σὴν χερνίψομαι z wyjątkowym odniesieniem χερνίπτομαι do zwierząt ofiarnych.</p>
+                    <p>Oczekiwano, że skropione zwierzę wzdrygnie, co traktowano jako dobry znak.</p>
+                    <p>Ar. Pax 960: Σείου σὺ ταχέως, „Trzęś się, prędko!” [17 znaków u Naiden]</p>
+                    <p>U Eurypidesa skropienie ofiary z człowieka było nieodwołalnym gestem przeznaczenia go bóstwu, w :</p>
+                    <p>E. I.T. 57: θνήισκουσι δ᾽ οὓς ἂν χέρνιβες βάλωσ᾽ ἐμαί, umierają ci, w których rzuciłabym moją wodę rytualną</p>
+                    <p>E. I.T. 644-5: κατολοφύρομαι σὲ τὸν χερνίβων ῥανίσι μελόμενον αἱμακταῖς, opłakuję ciebie, który zostałeś powierzony kroplom wody rytualnej zmieszaną z krwią.</p>
+                    <p>por. E. I.T. 861: φεῦ φεῦ χερνίβων ἐκεί&lt;νων· οἴμοι&gt;.</p>
+                    <p>4) skropienie ołtarza (?)</p>
+                    <p>οἳ μιᾶς ἐκ χέρνιβος βωμοὺς περιρραίνοντες, „pokrapiający wkoło ołtarze z jednej chernips”: Aristoph. Lys.1129-1130 (por. Hipp. De morbo). Możliwe, skroplenie ołtarza jest pochodną skropienia wokół zwierzęcia, gdyż zwierzęta była najpewniej przywiązywane przy samym ołtarzu. Lysistrata mówi o ogólnie o współuczestnictwie w obrzędach ofiarnych, używając metonimii podkreśla wspólnotę Hellenów składających ofiary z wykorzystaniem chernips.</p>
+                </div>
+                <div type="textpart" n="2">
+                    <head>2. (metonimicznie) ryt wykonywany podczas ofiary z wykorzystaniem chernips</head>
+                    <p>Aristoph. Av. 898: Εἶτ' αὖθις αὖ τἄρα σοι / δεῖ με δεύτερον μέλος / χέρνιβι θεοσεβὲς ὅσιον ἐπιβοᾶν, A więc znów mam wznieść kolejną pobożną, świętą pieśń w czasie oczyszczenia i wezwać błogosławionych, termin χέρνιβι został tu użyty metonimicznie (woda rytualna &gt; gest rytualny), odnosząc się do czynności, do której je wykorzystywano. Pieśń chóru stanowi nową modlitwę. Zgodnie z interpretacją Barłomieja Bednarka w czasie gdy ptaki śpiewają, Peisetairos, czerpiąc z naczynia trzymanego przez jednego z niewolników, skrapia przy pomocy głowni zwierzę i ołtarz.</p>
+                </div>
+                <div type="textpart" n="3.1">
+                    <head>3. (metonimicznie) woda rytualna &gt; naczynie z wodą rytualną</head>
+                    <p>W niektórych przypadkach χέρνιψ oznacza wodę w naczyniach znajdujących się przy ołtarzu w czasie rytuału ofiarnego, a w konsekwencji metonimicznie może oznaczać naczynie do przechowywania χέρνιψ. Przebywanie w jej pobliżu oznacza uczestnictwo w obrzędzie:</p>
+                    <p>1) E.El. 791-796: λούτρ᾽ ὡς τάχιστα τοῖς ξένοις τις αἰρέτω, / ὡς ἀμφὶ βωμὸν στῶσι χερνίβων πέλας, Niech gościom prędko niech ktoś przyniesie wody do obmycia, / by wokół ołtarza stanęli blisko chernibes”. O tym, że niewątpliwie chodzi o rytualne obmycie się przed przystąpieniem do obrzędu świadczy odpowiedź Orestesa: Ἀρτίως ἡγνίσμεθα / λουτροῖσι καθαροῖς ποταμίων ῥείθρων ἄπο. Rytualne obmycie przed obrzędem, loutra, natomiast chernips służyło naznaczaniu uczestników, potwierdzanie ich przynależności do kręgu ofiarników.</p>
+                    <p>2) Pouczający jest również dialog między Agamemnonem a Ifigenią w I.A. 675: {Αγ.} θῦσαί με θυσίαν πρῶτα δεῖ τιν᾽ ἐνθάδε. {Ιφ.} ἀλλὰ ξὺν ἱεροῖς χρὴ τό γ᾽ εὐσεβὲς σκοπεῖν. {Αγ.} εἴσηι σύ· χερνίβων γὰρ ἑστήξεις πέλας. {Ιφ.} στήσομεν ἄρ᾽ ἀμφὶ βωμόν, ὦ πάτερ, χορούς;</p>
+                    <p>Najwyraźniej wyrażenie χερνίβων πέλας ἵστημι oznacza u Eurypidesa „brać udział w obrzędzie ofiary”.</p>
+                    <p>Użycie χέρνιψ w czasie obrzędu ofiary sprawiło, że dopuszczenie bądź wykluczenie do χέρνιψ stało się metonimicznym określeniem przynależności do grupy społecznej odprawiającej wspólnie obrzędy:</p>
+                    <p>1) ποία δὲ χέρνιψ φρατέρων προσδέξεται, jaka χέρνιψ członków fratrii przyjmie go? Aesch. Eum. 656. Przekładając język poetycki na język praktyki rytualnej wers ten można sparafrazować następująco: jaka fratria dopuści go do udziału w χέρνιψ = rytuałach? (Sommerstein, 1989, s. 206).</p>
+                    <p>2) Aesch. Ag. 1037 (Klitajmnestra o Kassandrze): κοινωνὸν εἶναι χερνίβων być wspólnikiem w χέρνιβες,</p>
+                    <p>3) Dem. 20.158 (z powołaniem na prawa Drakona): χέρνιβος εἴργεσθαι (τὸν ἀνδροφόνον) wykluczyć (zabójcę) z używania χέρνιψ, na dalszym miejscu prawodawca wyliczał σπονδῶν, κρατήρων, ἱερῶν, ἀγορᾶς.</p>
+                    <p>4) Soph. OT 240: μήτ᾽ ἐν θεῶν εὐχαῖσι μήτε θύμασιν κοινὸν ποιεῖσθαι, μήτε χέρνιβος νέμειν.</p>
+                    <p>Por. użycie  terminu χέρνιψ w znaczeniu „naczynia z wodą rytualną” w Mowie przeciwko Andokidesowi Lizjasza (Lys. 6.52): ἐχερνίψατο ἐκ τῆς ἱερᾶς χέρνιβος, „obmył ręce czerpiąc wodę ze świętej chernips”, gdzie wkroczenie Andokidesa do Eleusinion i użycie najpewniej obmycie rąk w chernips łamie karę wykluczenia z rytuałów.</p>
+                </div>
+                <div type="textpart" n="3.2">
+                    <head>3. (ogólnie) źródlana woda rytualna wykorzystywana w obrzędach.</head>
+                    <p>W ogólnym znaczeniu „woda rytualna, woda wykorzystywana rytualnie”, zwłaszcza w kontekście ofiary zwierzęcej, χέρνιψ pojawia się u Tukidydesa w skardze Beotów na bezbożne postępowanie ateńskiej załogi w Delion: ὕδωρ τε ὃ ἦν ἄψαυστον σφίσι πλὴν πρὸς τὰ ἱερὰ χέρνιβι χρῆσθαι, ἀνασπάσαντας ὑδρεύεσθαι, wodę, która była dla nich [Beotów] nietykalna z wyjątkiem używania jej jako chernips przy składaniu ofiar, [Ateńczycy] czerpali i wykorzystywali do swych celów (Th. 4.97).</p>
+                    <p>W poezji lirycznej oraz u tragików chernips (w liczbie pojedynczej) zostały zastąpione χέρνιβες (l.mn.) w znaczeniu wody, którą należało zaczerpnąć z wyznaczonego źródła i przynieść do ołtarza. W poezji mitycznej (tragedii) motyw drogi bohatera/bohaterki po wodę rytualną jest być może transpozycją motywu „poszukiwania (the quest)” przedmiotu magicznego w micie bohaterskim. W Fenicjankach Eurypidesa chór śpiewa o Kadmosie, że ἐπὶ χέρνιβας μολὼν, „poszedł po wodę oczyszczeń (E. Ph. 662)”. Por. fragment z Hypsipyle Eurypidesa (fr. 572h, 29-30), gdzie wieszczek Amfiraos poszukując wody niezbędnej do rytuału mówi do tytułowej bohaterki: ῥ]υτὸν λαβεί̣ν̣ [χ]ρή̣ι̣[ζοι]μ̣᾽ ἅ̣ν̣ ἐν κρωσσοῖς ὕδωρ / χ]έρνιβα θ̣εοῖσ̣ιν ὅ[σιον] ὡ̣ς χεαίμεθα; „pragnąłbym zaczerpnąć płynącej wody do naczyń, / aby wylać bogom chernips poświęconej.”</p>
+                    <p>W Alkestis Eurypides wspomina o zwyczaju (ὡς νομίζεται) nakazującym umieszczanie χέρνιψ powinna ἐπὶ φθιτῶν πύλαις, to znaczy przy wejściu do domu żałoby: πυλῶν πάροιθε δ᾽ οὐχ ὁρῶ / πηγαῖον ὡς νομίζεται / χέρνιβ᾽ ἐπὶ φθιτῶν πύλαις, Nie widzę przecież naprzeciwko bram / wody źródlanej, jaka się godzi / do oczyszczeń przy progach umarłych (E. Alc. 98-100).</p>
+                </div>
+                <div type="textpart" n="3.3">
+                    <head>3. ofiary płynne, libacje z wody dla bogów lub dla zmarłych</head>
+                    <p>Dwukrotnie χέρνιβες oznacza ofiary płynne. U Ajschylosa Elektra odprawia rytuał na grobie Agamemnona:  κἀγὼ χέουσα τάσδε χέρνιβας νεκροῖς λέγω καλοῦσα πατέρ, „a ja lejąc te libacje dla zmarłych, mówię wzywając ojca (Aesch. Ch. 129-30)”. Natomiast we wspomnianym już fragmencie Hypsipyle Eurypidesa, wieszczek Amfiraos poszukując wody niezbędnej do rytuału zwraca się do tytułowej bohaterki: ῥ]υτὸν λαβεί̣ν̣ [χ]ρή̣ι̣[ζοι]μ̣᾽ ἅ̣ν̣ ἐν κρωσσοῖς ὕδωρ / χ]έρνιβα θ̣εοῖσ̣ιν ὅ[σιον] ὡ̣ς χεαίμεθα; „pragnąłbym zaczerpnąć płynącej wody do naczyń, / aby wylać bogom chernips poświęconej.” Dativus θ̣εοῖσ̣ιν sugeruje jednak, że chodzi być może nie tyle o obmycie rąk, ale o libację dla bogów. Istotnie, związek między a ofiarami płynnymi zdaje się sugerować Plutarch mówiąc o źródle Muz w Delfach, chociaż w tekście rękopisów brakuje kluczowego terminu (Plut. De Pyth. or. 402c): ἐχρῶντο πρός τε τὰς λοιβὰς &lt;καὶ τὰς χέρνιβας&gt; τῷ ὕδατι τούτῳ, „używają tej wody do ofiar płynnych i do χέρνιβες”. Koniektura opiera się na fragmencie Simonidesa przytoczonym przez Plutarcha jako ilustracja tego stwierdzenia: &quot;ἔνθα χερνίβεσσιν ἀρύεται [τε] Μουσᾶν καλλικόμων ὑπένερθεν ἁγνὸν ὕδωρ.&quot;  oraz, najpewniej w tym samym poemacie: ἁγνᾶν ἐπίσκοπον χερνίβων, gdzie „strażniczką czystych wód rytualnych (χερνίβων)”, jest muza Kleio.</p>
+                </div>
+                <div type="textpart" n="Katalog_wystąpień">
+                    <head>Katalog wystąpień</head>
+                    <p>1) Verb. + χέρνιβα</p>
+                    <p>„zaczerpnąć”</p>
+                    <p>χερνίβεσσιν ἀρύεται Simonid. fr 72(a).1</p>
+                    <p>„przynieść, nieść”</p>
+                    <p>φέρω + χέρνιβα, Od. 1.136 = 4.52 = 7.172 = 10.368 = 17.91; Th. 1001; E. I.A. 1479</p>
+                    <p> „podawać, przynosić”</p>
+                    <p>παρέχω + χέρνιβα: A.Rh. 1.409</p>
+                    <p>„używać rytualnie”</p>
+                    <p>χρῆσθαι + χέρνιβι (τῷ ὕδατι)</p>
+                    <p>πρὸς τὰ ἱερὰ χέρνιβι χρῆσθαι, Thuc. 4.97.3,</p>
+                    <p>πρός τε τὰς λοιβὰς &lt;καὶ τὰς χέρνιβας&gt; τῷ ὕδατι τούτῳ, Plut. De Pyth. or. 402c (?)</p>
+                    <p>„rozpoczynać rytuał”</p>
+                    <p>κατάρχομαι, Od. 3.445, E. I.A. 955 (?);</p>
+                    <p>„wylewać, polewać (domyślnie: na ręce)”</p>
+                    <p>ἐπιχεύω + χέρνιβα, „wylewać”:  Od. 1.136 = 4.52 = 7.172 = 10.368 = 17.91</p>
+                    <p>„wylewać (w ofierze)”</p>
+                    <p>χέουσα τάσδε χέρνιβας νεκροῖς, Aesch. Ch. 129-30</p>
+                    <p>χ]έρνιβα θ̣εοῖσ̣ιν ὅ[σιον] ὡ̣ς χεαίμεθα, E. Hyps. frg.</p>
+                    <p>„wziąć”</p>
+                    <p>ἀείρομαι + χέρνιβα Aristoph. Av. 850</p>
+                    <p>χερνίβων (καὶ κανῶν) ἁψόμενον, Dem. 22.78,</p>
+                    <p>„obchodzić (trzymając χέρνιβας)”</p>
+                    <p>περιχώρει: Av. 958</p>
+                    <p>περίιθι: Pax 956-7</p>
+                    <p>ἐν κύκλωι ἔθρεξε: E. I.A. 1569</p>
+                    <p>„zanurzyć głownię w chernips”</p>
+                    <p>τὸν δαλὸν ἐς χέρνιβα βάπτω: E. Heracl. 929, por. Aristoph. Pax 959</p>
+                    <p>rzucić krople chernips</p>
+                    <p>βάλλω: E. I.T. 57  </p>
+                    <p>pokrapiać wokół (ołtarze):</p>
+                    <p>ἐκ χέρνιβος βωμοὺς περιρραίνοντες, Aristoph. Lys.1129-1130</p>
+                    <p>„stać w pobliży chernibes” &gt; „brać udział w obrzędzie ofiary”</p>
+                    <p>χερνίβων πέλας ἵστημι: E.El. 791-796, I.A. 675</p>
+                    <p>„dzielić chernips” &gt; brać udział we wspólnych ofiarach</p>
+                    <p>χέρνιβος νέμειν: Soph. OT 240</p>
+                    <p>κοινωνὸν εἶναι χερνίβων: Aesch. Ag. 1037</p>
+                    <p>por. ποία δὲ χέρνιψ φρατέρων προσδέξεται</p>
+                    <p>„być wykluczonym”</p>
+                    <p>χέρνιβος εἴργεσθαι, Dem. 20.158</p>
+                    <p>2) Adj. +</p>
+                    <p>πηγαῖον χέρνιβα, „źródlana”: E.Alc. 100</p>
+                    <p>χ]έρνιβα (…) ὅ[σιον]</p>
+                    <p>ἐκ τῆς ἱερᾶς χέρνιβος</p>
+                    <p>Synonimy:</p>
+                    <p>ἁγνὸν ὕδωρ, Simonid., fr. 72(a).1</p>
+                    <p>λούτρα E.Elektra 791-796, por. λουτροῖσι καθαροῖς ποταμίων ῥείθρων ἄπο, E. El. 796</p>
+                </div>
+                <div type="textpart" n="Interpretacja">
+                    <head>Interpretacja</head>
+                    <p>Oczyszczający charakter χέρνιψ wydaje się sugerować passus z Elektry Eurypidesa, w którym Orestes w odpowiedzi na wezwania Ajgistosa do przyniesienia chernips dla gości mówi: Ἀρτίως ἡγνίσμεθα / λουτροῖσι καθαροῖς ποταμίων ῥείθρων ἄπο. / εἰ δὲ ξένους ἀστοῖσι συνθύειν χρεών, / Αἴγισθ᾽, ἕτοιμοι κοὐκ ἀπαρνούμεσθ᾽, ἄναξ, „wcześniej oczyściliśmy się, / obmyliśmy się w czystej wodzie rzeki. / Gdy, obcy, mamy razem z miejscowymi / złożyć ofiarę – gotowiśmy panie!” Jednak może w tym wypadku chodzić o odmowę wykonania gestu, który w normalnych warunkach podkreślał prawo do uczestnictwa w obrzędzie. W Orestesie możliwość dotknięcia chernips jest najwyraźniej połączona ze stanem czystości rąk: εὖ γοῦν θίγοις ἂν χερνίβων (E. Or. 1602), por. ἁγνὸς γάρ εἰμι χεῖρας</p>
+                    <p>(E. Or. 1604). Wynika stąd, że pokropienie χέρνιβες nie służyło samo przez się oczyszczeniu ze zmazy, osiągnięciu stanu czystości rytualnej, a uczestnik obrzędu musiał przystępować doń wolny od miasma. W Ifigenii w kraju Taurów tytułowa bohaterka tłumaczy nieobecność ofiar ludzkich koniecznością uprzedniego ich oczyszczenia ze zmazy: ἁγνοῖς καθαρμοῖς πρῶτά νιν νίψαι θέλω, co jest interpretowane jako nadanie ofiarom stanu czystości rytualnej (ὁσιώτεροι γοῦν τῆι θεῶι). Oczyszczeń tych dokonuje w morzu θάλασσα κλύζει πάντα τἀνθρώπων κακά, aczkolwiek zdaje się, że nie jest to jedyna metoda: ({Θο.} πηγαῖσιν ὑδάτων ἢ θαλασσίαι δρόσωι;). Ten stan rzeczy zdaje się potwierdzać Demostenes (22.78, por. 24.186), mówiąc: ἐγὼ μὲν γὰρ οἴομαι δεῖν τὸν εἰς ἱέρ᾽ εἰσιόντα καὶ χερνίβων καὶ κανῶν ἁψόμενον, καὶ τῆς πρὸς τοὺς θεοὺς ἐπιμελείας προστάτην ἐσόμενον οὐχὶ προειρημένον ἡμερῶν ἀριθμὸν ἁγνεύειν, ἀλλὰ τὸν βίον ἡγνευκέναι τοιούτων ἐπιτηδευμάτων οἷα τούτῳ βεβίωται.</p>
                 </div>
             </div>
             
