@@ -11,7 +11,7 @@
             <publicationStmt>
                 <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
                 <date when="2021"/>
-                <idno type="filename">lexicon_xxx</idno>
+                <idno type="filename">hipp_xxx</idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
                 </availability>
@@ -23,7 +23,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2021-11-10" who="NAME">encoded document in XML</change>
-                <change when="2021-10-12" who="NAME">created document contents</change>
+                <change when="2021-10-12" who="Przemysław Biernat">created document contents</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -48,10 +48,6 @@
                     <head>...</head>
                     <p>...</p>                    
                 </div>
-            </div>
-            
-            <div type="bibliography">
-                <p>...</p>
             </div>
         </body>
     </text>
