@@ -4,26 +4,28 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="it">Lysistrata (Λυσιστρατη, Lisistrata)</title>
-                <title xml:lang="en">Lysistrata (Λυσιστρατη, Lysistrata)</title>
-                <title xml:lang="pl">Lysistrata (Λυσιστρατη, Lysistrata)</title>
+                <title xml:lang="it">Lysistrata (Λυσιστράτη, Lisistrata)</title>
+                <title xml:lang="en">Lysistrata (Λυσιστράτη, Lysistrata)</title>
+                <title xml:lang="pl">Lysistrata (Λυσιστράτη, Lysistrata)</title>
             </titleStmt>
             <publicationStmt>
                 <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
                 <date when="2021"/>
-                <idno type="filename">com_2_lysistrata</idno>
+                <idno type="filename">com_07_lysistrata</idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <p>Born digital document.</p>
+                <p><title>Lysistrata (Λυσιστράτη, Lizystrata, Bojomira, Gromiwoja)</title>, in Bartłomiej Bednarek, 
+                    <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                        Stara komedia attycka</title>, Warszawa 2017, pp. 183-200</p>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
             <listChange>
                 <change when="2021-11-10" who="Gaetano Spampinato">encoded document in XML</change>
-                <change when="2021-10-12" who="Krzysztof Bielawski">created document contents</change>
+                <change when="2017" who="Bartłomiej Bednarek">created document contents</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -48,7 +50,7 @@
                     <p>  Il testo è citato dall'edizione Henderson (1987).</p>
                 </div>
                 <div type="textpart" n="commentary">
-                    <div type="textpart" n="Lisistrata_78-84">
+                    <div type="textpart" n="Lysistrata_78-84">
                         <head>Lisistrata 78-84</head>
                         <div type="textpart" n="78-84_intro">
                             <p>All'incontro segreto delle mogli partecipa la ragazza spartana Lampito, caratterizzata nel testo in modo stereotipato. A differenza di Atene, le ragazze lacedemoni praticavano esercizi fisici all'aria aperta (una delle forme tipiche era la danza del calcio dei glutei menzionata dall'eroina), quindi erano forti e abbronzate. </p>
@@ -75,14 +77,14 @@
                                 esercitarmi e fare balli di culo. CALONIKE: Che seni incredibili che
                                 hai! LA.: Mi stai macellando come un animale sacrificale! </quote>
                         </div>
-                        <div type="textpart" n="commento">
+                        <div type="textpart" n="commentary">
                             <p> ὑποψαλάσσετε - 'tu che brancoli'; il verbo ὑπο-ψαλάσσω è certamente un hapax legomenon, ma la sua struttura e il contesto d'uso qui permettono di capire a cosa si riferisce. La forma senza prefisso (ψαλάσσω) significa toccare qualcosa, come le corde di uno strumento mentre si suona. Il prefisso ὑπο può avere sfumature rilassanti o riferirsi alla categoria spaziale "sotto". Entrambi i significati in questo contesto hanno un buon senso: "mi maceri delicatamente [solletico?]" o "mi maceri dal basso". </p>                  
                             <p> Questo secondo aspetto del significato potrebbe essersi riflesso in modo interessante nello strato performativo dell'opera. Aristofane ha certamente fatto pieno uso dell'effetto comico della commedia ambigua, in cui un uomo (attore) vestito da donna palpeggia un altro uomo, indossando attributi iperbolici della femminilità. Naturalmente, questo strato dell'opera ci rimane completamente inaccessibile.</p> 
                             <p>I commentatori moderni del passus (Sommerstein 1990: ad loc. , Henderson 1987: ad loc. ) spiegano il confronto indicando i passu- s che si riferiscono al sacrificio di un animale quando è abbastanza grasso da fornire una buona carne per il banchetto (Ar. Eq. 1135--1140; Philem. Fr. 155). </p>                
                             <p> Lo scholiasta (ad loc. ) interpreta il luogo in modo simile: τὰ γὰρ ἱερεῖα μέλλοντες θύειν ψηλαφῶσιν, εἰ λιπαρά ἐστι ("perché gli animali che dovevano essere sacrificati venivano palpati per vedere se erano grassi"). A prescindere da questi motivi pratici e forse anche edonistici, la necessità di sottoporre un animale all'ispezione era dettata da fattori puramente religiosi (per un approfondimento si veda Feyel 2006; ad Ar. Ach. 784).</p>
                         </div>
                     </div>
-                    <div type="textpart" n="Lisistrata_177-179">
+                    <div type="textpart" n="Lysistrata_177-179">
                         <head>Lisistrata 177-179</head>
                         <div type="textpart" n="177-179">
                             <p>Come parte del piano comico di Lisistrata, le donne più giovani devono influenzare i loro mariti colpendo nelle loro camere da letto. Alle più anziane, che non possono svolgere un tale ruolo, è stato dato il compito di controllare la posizione strategica sull'Acropoli. </p>                     
@@ -102,7 +104,7 @@
                                 con la scusa di fare delle offerte. </quote>
                         </div>
                     </div>
-                    <div type="textpart" n="Lisitrata_181-239">
+                    <div type="textpart" n="Lysistrata_181-239">
                         <head>Lisitrata 181-239</head>
                         <div type="textpart" n="181-239">
                             <p>Il passus contiene una scena comica di giuramento. A differenza del rituale paragmatico di tipo thysia, il sacrificio, che di solito era coronato da una festa gioiosa, la cerimonia del giuramento era piuttosto cupa, poiché erano ancora presenti terribili sanzioni per il mancato rispetto degli obblighi. L'animale macellato non veniva mangiato. </p>
@@ -222,7 +224,7 @@
                                 LY.: Ora compirò un atto di sacrificio. KA.:Solo un po', mia cara,
                                 per poter essere subito amici. </quote>
                         </div>
-                        <div type="textpart" n="commento">
+                        <div type="textpart" n="commentary">
                             <p>Il sacrificio legato al giuramento è una categoria che interessa dal punto di vista tipologico. Sembra che nella visione "emica", fosse qualcosa di completamente diverso dalla thysia, come evidenziato dal vocabolario stesso usato nel passaggio. Il sostantivo τὰ σφάγια appare qui come sinonimo, denotando sacrifici cruenti, che non vengono mangiati. L'azione compiuta dall'eroina, o una delle azioni, è a sua volta denotata dal verbo καθαγίζω, 'distruggere ritualmente'. Questo suggerisce che abbiamo a che fare con un rituale il cui obiettivo primario non è quello di conquistare forze amiche, ma di scacciare quelle ostili (Parker 2011: 141 - l'opposizione tra sacrifici congiuntivi e disgiuntivi è una variante della divisione più consolidata nella letteratura in sacrifici olim-pici e ctonici, cfr. Scullion 1994). Nonostante queste indicazioni lessicali, il passus in questione contiene non pochi dati che suggeriscono che la distinzione tra tipi di rituali non era abbastanza rigorosa.</p>
                             <p>La struttura del rituale, visibile sotto lo strato di distorsione comica, è analoga a quella dei thysia: le eroine portano l'"animale" e segue una preghiera (203-204). Vale la pena notare che essa contiene una richiesta alla dea di accettare il sacrificio (τὰ σφάγια δέξαι). La stessa destinataria è descritta come ταῖς γυναιξὶν εὐμενής ("benevola con le donne"), che è un tipico espediente retorico nella preghiera, che comporta l'identificazione di una divinità con un epiteto contenente una proiezione della sua relazione desiderata con il devoto. Il luogo suggerisce che il sacrificio (τὰ σφάγια) può essere trattato come l'equivalente di un dono, qualcosa il cui dare, da un lato, e il cui ricevere, dall'altro, apre un tipo di relazione benevola. Ciò che è caratteristico dei riti di tipo sphagia, l'accento cade sul "sangue". Nel caso della thysia, esso fluirebbe nella ciotola dello sphageion, una piccola parte verrebbe usata per ungere l'altare, e il resto verrebbe usato per le frattaglie (Ekroth 2005). Nel rituale in discussione, il sangue veniva raccolto in un recipiente (la cui scelta aveva chiaramente un significato simbolico) per essere utilizzato in qualche modo.</p>
                             <p>La distorsione del comico e la vaghezza del testo senza didascalie rendono difficile dire cosa sia effettivamente successo in scena in quel luogo e a quale tipo di comportamento corrispondesse nella realtà rituale. Tuttavia, sembra caratteristico che la fine del rituale sia qui connessa con il piacere di banchettare insieme, similmente a Thysia, dove la macellazione era coronata dalla degustazione delle interiora arrostite. Le associazioni della festa non sono forse tanto il risultato di una distorsione comica quanto un segno dei tempi.</p>
@@ -246,7 +248,7 @@
                             <p>238: ἐγὼ καθαγίσω τήνδε - "compirò un atto di sacrificio"; il verbo καθαγίζω denota l'atto di offrire qualcosa mediante distruzione completa, di solito con il fuoco (cfr. Ar. Av. 566). Nel luogo in discussione, tuttavia, si tratta chiaramente di "distruggere" il vino in un modo che sia piacevole per la persona che lo distrugge, cioè di berlo. Chiaramente, quindi, ciò che era al centro dell'interesse di chi usava il termine non era l'uso del fuoco, ma il fatto di annientare un oggetto, o, come probabilmente Svenbro (2005) fa notare giustamente, di toglierlo dalla sfera umana e in una forma alterata (per esempio il fumo) trasferirlo agli esseri soprannaturali. Considerando la funzione dell'oggetto su cui si è giurato, con il cui destino si è identificato il destino di chi giura sulla croce (cfr. ad 235,6), a questo punto ci si aspetterebbe un trattamento brutale del vino. Ciò è perfettamente sottolineato dalla natura comica del passus, in cui Lisistrata intende chiaramente bere avidamente l'intero contenuto del grande incantesimo.</p>
                         </div>
                     </div>
-                    <div type="textpart" n="Lisistrata_1128–1134">
+                    <div type="textpart" n="Lysistrata_1128–1134">
                         <head>Lisistrata 1128–1134</head>
                         <div type="textpart" n="1128-1134">
                             <p>Lisistrata esprime la critica degli uomini delle varie poleis greche coinvolte nella guerra del Peloponneso. Il passus è interessante per l'ideologia panellenica che porta alla ribalta, il cui prezioso punto di riferimento è lo "straniero, il barbaro". A causa della menzione di un esercito di potenziali nemici esterni, possiamo indovinare che se era in qualche modo specificato quali stranieri si intendevano, la fonte della paura che portava i Greci alla solidarietà doveva essere soprattutto la Persia. Oltre alla minaccia esterna - reale o immaginaria - i santuari comuni erano un fattore unificante a livello ideologico. Nei passaggi citati l'attenzione si concentra sul gesto di lavarsi le mani. </p>
@@ -270,7 +272,7 @@
                                 l'esercito barbaro sia così vicino, tu distruggi le città e gli
                                 uomini greci.</quote>
                         </div>
-                        <div type="textpart" n="commento">
+                        <div type="textpart" n="commentary">
                             <p>1129: μιᾶς ἐκ χέρνιβος - "da un solo recipiente"; il sostantivo
                                 χέρνιψ originariamente significava acqua per lavarsi le mani - prima
                                 del sacrificio, così come altre attività come un pasto. Nel luogo in
@@ -298,7 +300,7 @@
                     <p> The text is quoted from the Henderson (1987) edition.  </p>
                 </div>
                 <div type="textpart" n="commentary">
-                    <div type="textpart" n="Lisistrata_78-84">
+                    <div type="textpart" n="Lysistrata_78-84">
                         <head>Lysistrata 78-84</head>
                         <div type="textpart" n="78-84_intro">
                             <p>The secret meeting of wives is attended by the Spartan girl Lampito, characterized in the text in a stereotypical way. Unlike in Athens, Lacedemonian girls practiced physical exercises in the open air (one of the typical forms was the buttock-kicking dance mentioned by the heroine), so they were strong and tanned. </p>
@@ -328,13 +330,13 @@
                                 LA.: You're macing me like a sacrificial animal!
                             </quote>
                         </div>
-                        <div type="textpart" n="commento">
+                        <div type="textpart" n="commentary">
                             <p> ὑποψαλάσσετε - 'you groping'; the verb ὑπο-ψαλάσσω is admittedly a hapax legomenon, but its structure and context of use here make it possible to understand what it refers to. The form without the prefix (ψαλάσσω) means to touch something, such as the strings of an instrument while playing. The prefix ὑπο may have soothing overtones or refer to the spatial category 'below'. Both meanings in this context make good sense: "you macerate me gently [tickle?]" or "you macerate me from below". This second aspect of meaning may have been interestingly reflected in the performative layer of the work. Aristophanes certainly made full use of the comic effect of the ambiguous play, in which a man (actor) dressed as a woman gropes another man, wearing hyper- bolic attributes of femininity. Of course, this layer of the work remains completely inaccessible to us.</p>                  
                             <p> Modern commentators on the passus (Sommerstein 1990: ad loc. , Henderson 1987: ad loc. ) explain the comparison by pointing to passu- s that refer to sacrificing an animal when it is fat enough to provide good meat for the feast (Ar. Eq. 1135–
                                 -1140; Philem. Fr. 155). The scho- liasta (ad loc. ) interpreted the place in a similar way: τὰ γὰρ ἱερεῖα μέλλοντες θύειν ψηλαφῶσιν, εἰ λιπαρά ἐστι ("for the animals that were to be sacrificed were groped to see if they were fat"). Regardless of these practical and perhaps even hedonistic motives, the necessity of subjecting an animal to inspection was dictated by purely religious factors (for more on this see Feyel 2006; ad Ar. Ach. 784).</p>
                         </div>
                     </div>
-                    <div type="textpart" n="Lisistrata_177-179">
+                    <div type="textpart" n="Lysistrata_177-179">
                         <head>Lysistrata 177-179</head>
                         <div type="textpart" n="177-179">
                             <p>As part of Lysistrata's comical plan, the younger women are to influence their husbands by striking in their bedrooms. The older ones, who cannot play such a role, were given the task of controlling the strategic position on the Acropolis. The passus does not contain any absolutely clear information about the blood sacrifice, however there is a valuable suggestion in it. Namely, something obvious for Athenians must have been the presence of elderly women on the Acropolis in the early morning hours (when the The action of the work), related to cultic activity. </p>
@@ -350,7 +352,7 @@
                             </quote>
                         </div>
                     </div>
-                    <div type="textpart" n="Lisitrata_181-239">
+                    <div type="textpart" n="Lysistrata_181-239">
                         <head>Lisitrata 181-239</head>
                         <div type="textpart" n="181-239">
                             <p>The passus contains a comical oath scene. Unlike the paragmatic ritual of the thysia type, the sacrifice, which was usually crowned with a joyful feast, the oath ceremony was rather gloomy, as there were still present terrible sanctions for failure to keep the obligations. The slaughtered animal was not eaten. The scene in Aristophanes contains contrasting elements; seriousness gives way here to clownishness. </p>
@@ -474,7 +476,7 @@
                                 so we could be friends right away.
                             </quote>
                         </div>
-                        <div type="textpart" n="commento">
+                        <div type="textpart" n="commentary">
                             <p>The oath-related sacrifice is a category of concern from a typological point of view. It seems that in the "emic" view, it was something entirely different from thysia, as evidenced by Perhaps the very vocabulary used in the passage. </p>
                             <p>   The noun τὰ σφάγια appears here as a synonym, denoting bloody sacrifices, which are not eaten. The action performed by the heroine, or one of the actions, is in turn denoted by the verb καθαγίζω, 'to ritually destroy'. This suggests that we are dealing with a ritual whose primary goal is not to win over friendly forces, but to drive away hostile ones (Parker 2011: 141 - the opposition between conjunctive and disjunctive sacrifices is a variant of the more established in scholarship division into olim- pic and chthonic sacrifices, cf. Scullion 1994). In spite of these lexical indications, the passus in question contains quite a few data suggesting that the distinction between types of rituals was not strict enough. </p> 
                             <p>     The structure of the ritual, visible under the layer of comic distortion, is analogous to that in thysia: the heroines bring in the "animal" and a prayer follows (203-204). It is worth noting that it contains a request to the goddess to accept the sacrifice (τὰ σφάγια δέξαι). The addressee herself is described as ταῖς γυναιξὶν εὐμενής ('benevolent to women'), which is a typical rhetorical device in prayer, involving the identification of a deity with an epithet containing a projection of his desired relationship with the worshipper. The place suggests that the sacrifice (τὰ σφάγια) may be treated as the equivalent of a gift, something the giving of which, on the one hand, and the receiving of which, on the other, opens up a type of benevolent relationship. What is characteristic of sphagia-type rites, the accent falls on "blood." In the case of thysia, it would flow into the sphageion bowl, a small part of it would be used to anoint the altar, and the rest would be used for offal (Ekroth 2005). In the ritual under discussion, the blood was collected into a vessel (the choice of which clearly had symbolic significance) to be used in some way. The coe- mic distortion and vagueness of the text without did- eliquaries make it difficult to say what actually happened on stage at that place and what kind of behaviour it corresponded to in the ritual reality. However, it seems characteristic that the end of the ritual is connected here with the pleasure of feasting together, similarly to Thysia, where the slaughter was crowned with tasting the roasted entrails. The feast associations are perhaps not so much the result of a comic distortion as a sign of the times.</p>
@@ -494,8 +496,8 @@
                             <p>238: ἐγὼ καθαγίσω τήνδε - "I will perform an act of sacrifice"; the verb καθαγίζω denotes the act of offering something by complete destruction, usually by fire (cf. Ar. Av. 566). In the place under discussion, however, it is clearly a matter of 'destroying' wine in a way that is pleasant for the person who destroys it, that is, drinking it. Clearly, then, what was in the centre of interest of those who used the term was not the use of fire, but the fact of annihilating an object, or, as Svenbro (2005) probably rightly points out, removing it from the human sphere and in an altered form (e.g. smoke) transferring it to supernatural beings. Considering the function of the object on which one has sworn, with whose fate one has identified the fate of the cross- swearer (cf. ad 235,6), at this point a brutal treatment of wine would be expected. This is perfectly underscored by the comical nature of the passus, in which Lysistrata clearly intends to drink greedily the entire contents of the great spell.</p>
                         </div>
                     </div>
-                    <div type="textpart" n="Lisistrata_1128–1134">
-                        <head>Lisistrata 1128–1134</head>
+                    <div type="textpart" n="Lysistrata_1128–1134">
+                        <head>Lysistrata 1128–1134</head>
                         <div type="textpart" n="1128-1134">
                             <p>Lysistrata expresses criticism of men from various Greek poleis involved in the Peloponnesian War. The passus is interesting because of the Panhellenic ideology it brings to the fore, whose invaluable reference point is the "stranger, the barbarian". Because of the mention of an army of potential external enemies, we can guess that if it was in any way specified which foreigners were meant, the source of the fear that led the Greeks to solidarity had to be above all Persia. In addition to external - real or imagined - threat, common sanctuaries were a unifying factor at the ideological level. In the quoted passages attention is focused on the gesture of washing hands. It is difficult to say whether this is merely a rhetorical figure.</p>
                             <p>Either way, it was clearly a very important moment in the ritual process.</p>
@@ -513,7 +515,7 @@
                             
                             <quote>Since I have gathered you here, I wish to express a just criticism of all those who from one vessel [1130] spray water on the altars, like the brothers - in Olympia, Pylaia, Pytho.... how many more could I enumerate, if I were to speak longer? Though the barbarian army is so near, you destroy Greek cities and men.</quote>
                         </div>
-                        <div type="textpart" n="commento">
+                        <div type="textpart" n="commentary">
                             <p>1129: μιᾶς ἐκ χέρνιβος - 'from one vessel'; the noun χέρνιψ originally meant water for washing hands - before the sacrifice, as well as other activities such as a meal. In the place in question, Aristophanes uses the prepositional phrase ἐκ χέρνιβος ("from the chernips"), which may indicate that at the time it was also already being used in a metonymic sense: "a vessel for washing water" (cf. Ar. Av. 850 with commentary). A scene in the Peace of Aristophanes (960-961) contains a valuable mention of passing such a bowl from hand to hand during the preliminary rites preceding the sacrifice. It is possible that Lysistrata alludes to such a collective washing, emphasizing the unity of the group of participants in the ritual. Interestingly, however, in vase paintings chernips is almost always placed in the hands of a younger person, who hands it to the main sacrificer, an older man of clearly higher status (van Straten 1995: fig. 30-36). The place in question refers to a slightly different way of using chernips: βωμοὺς περιρραίνοντες: "spraying the altars". The verb περιρραίνω used here, whose derivational base alone: ῥαίνω expresses the semantics of 'to spray', intensifies this meaning with the prefix περι-, 'from everywhere'. Evidently, therefore, what is meant is a preliminary ritual consisting in a symbolic cleansing of the altar, probably performed while the altar is being walked around (counterclockwise ἐπιδεξιά), with the help of a billet or twig immersed in the chernips. More extensively on this subject: ad Ar. Pax 956-61; Av. 850, 958.</p>
                             <p>  A sign of observance or violation of ritual norms: Th. 4.97.3; S. O.T. 240; Lys. 6.52; D. 20.158 (quoting after Henderson 1987: ad loc.; in the case of the first mentioned place I am not sure that the author really meant chernips as a figure; the other passages do not raise my objections).</p>
                             <p>1131-1132:Lysistrata rhetorically asserts that she could name more Panhellenic sanctuaries than the three she lists. Indeed, it is difficult to forget Isthmia, Nemea, Delos, Eleusis, Do- don or even Athens, which by organizing the Panathenaic Games, claimed the role of the centre of the Panhellenic cult. All the more so in the context of the speaker's own declaration, her choice should seem puzzling. While Olympia and Del- fy, probably the most famous sanctuaries of antiquity, seem obviously worthy of mention, the mention of Pylaia seems unusual. This place, better known as Thermopylai is a strategically located isthmus, providing an easily defensible passage from midnight to central Greece. At least from the archaic period in its vicinity there was a sanctuary of Demeter in Anthelia, the original seat of a pan-Hellenic organisation called the Pylaean Amphiction, later (as it controlled also Delphi) - the Delphic Amphiction. This religious institution played an important political role. Perhaps it was inspired by this institution that the first place of resistance against Xerxes by the Greeks was near its seat during the famous battle of Thermopylae (cf. Stählin 1934). Given the context, this is probably what Aristophanes refers to when he calls on the Athenians to reconcile with the Spartans and join forces against their common enemies. Referring to the ideology shaped during the Persian wars is a typical feature of his political programme.</p>
@@ -532,7 +534,7 @@
                     <p> Tekst cytuję za wydaniem Henderson (1987).</p>
                 </div>
                 <div type="textpart" n="commentary">
-                    <div type="textpart" n="Lisistrata_78-84">
+                    <div type="textpart" n="Lysistrata_78-84">
                         <head>Lysistrata 78-84</head>
                         <div type="textpart" n="78-84_intro">
                             <p>                   Na tajne zebranie żon przybywa Spartanka Lampito, scharakte- ryzowana w tekście w sposób stereotypowy. Inaczej niż w Atenach, dziewczęta lacedemońskie uprawiały ćwiczenia fizyczne na świeżym powietrzu (jedną z typowych form był wspomniany przez bohaterkę taniec z kopaniem pośladków), były więc silne i opalone. Passus jest istotny ze względu na porównanie pojawiające się w kwestii Lampito, która stwierdza, że Atenki badają ją jak zwierzę ofiarne.</p>                 
@@ -560,13 +562,13 @@
                                 LA.: Macacie mnie jak zwierzę ofiarne!
                             </quote>
                         </div>
-                        <div type="textpart" n="commento">
+                        <div type="textpart" n="commentary">
                             <p> ὑποψαλάσσετε – „obmacujecie”; czasownik ὑπο-ψαλάσσω jest wprawdzie hapax legomenon, jednak jego struktura i kontekst użycia w tym miejscu pozwalają zrozumieć, do czego się odnosi. Forma bez prefiksu (ψαλάσσω) oznacza dotykanie czegoś, np. strun instrumen- tu w czasie gry. Przedrostek ὑπο może mieć wydźwięk łagodzący lub odwoływać się do kategorii przestrzennej „poniżej”. Oba znaczenia w tym kontekście mają niezły sens: „macacie mnie delikatnie [łasko- czecie?]” lub „macacie mnie od spodu”. Ten drugi aspekt znaczenia mógł znajdować ciekawe odzwierciedlenie w warstwie performatyw- nej dzieła. Arystofanes bowiem z pewnością wykorzystał w pełni efekt komiczny niejednoznacznej gry, w ramach której mężczyzna (aktor) przebrany za kobietę obmacuje innego mężczyznę, noszącego hiper- boliczne atrybuty kobiecości. Rzecz jasna, ta warstwa dzieła pozostaje dla nas całkowicie niedostępna.</p>
                             <p>Współcześni komentatorzy passusu (Sommerstein 1990: ad loc., Henderson 1987: ad loc.) wyjaśniają porównanie, wskazując na passu- sy, w których mowa o składaniu zwierzęcia w ofierze w chwili, gdy jest ono na tyle tłuste, by zapewnić dobre mięso na ucztę (Ar. Eq. 1135––1140; Philem. fr. 155). </p>
                             <p>Podobnie zresztą zinterpretował miejsce scho- liasta (ad loc.): τὰ γὰρ ἱερεῖα μέλλοντες θύειν ψηλαφῶσιν, εἰ λιπαρά ἐστι („bo zwierzęta, które miały zostać złożone w ofierze, obmacywa- no, by sprawdzić, czy są tłuste”). Niezależnie od tych praktycznych, a może wręcz hedonistycznych motywów, konieczność poddania zwierzęcia oględzinom dyktowały czynniki czysto religijne (szerzej na ten temat: Feyel 2006; ad Ar. Ach. 784).</p>
                         </div>
                     </div>
-                    <div type="textpart" n="Lisistrata_177-179">
+                    <div type="textpart" n="Lysistrata_177-179">
                         <head>Lysistrata 177-179</head>
                         <div type="textpart" n="177-179">
                             <p>W ramach komicznego planu Lizystraty młodsze kobiety mają wywrzeć wpływ na swych mężów poprzez strajk w sypialniach. Starszym, które tego rodzaju roli nie mogą odegrać, przypadło w udziale opanowanie strategicznej pozycji na Akropolu. Passus nie zawiera żadnej całkowicie jasnej informacji na temat ofiary krwawej, jednak pojawia się w nim cenna sugestia. Mianowicie czymś oczy- wistym dla Ateńczyków musiała być obecność starszych kobiet na Akropolu we wczesnych godzinach porannych (kiedy rozgrywa się
@@ -586,7 +588,7 @@
                             </quote>
                         </div>
                     </div>
-                    <div type="textpart" n="Lisitrata_181-239">
+                    <div type="textpart" n="Lysistrata_181-239">
                         <head>Lysitrata 181-239</head>
                         <div type="textpart" n="181-239">
                             <p>Passus zawiera komiczną scenę przysięgi. W odróżnieniu od para- dygmatycznego rytuału typu thysia, ofiary, którą najczęściej wieńczyła radosna uczta, obrzęd przysięgi był raczej ponury, jako że wirtual- nie wciąż obecne tu były straszliwe sankcje za niedotrzymanie zobo- wiązań. Zarzynanego zwierzęcia nie zjadano. Scena u Arystofanesa zawiera elementy kontrastowe; powaga ustępuje tu miejsca błazena- dzie. Kobiety, zamiast zarżnąć zwierzę, otworzą bukłak, zamiast krwi popłynie wino, w nawiązaniu do komediowego stereotypu, zgodnie z którym Atenki lubowały się w trunku, który niezmieszany z wodą pijały w tajemnicy przed mężami.</p>
@@ -710,7 +712,7 @@
                                 żebyśmy od razu mogły zostać przyjaciółkami.
                             </quote>
                         </div>
-                        <div type="textpart" n="commento">
+                        <div type="textpart" n="commentary">
                             <p>Ofiara związana z przysięgą stanowi kategorię niepokojącą z typo- logicznego punktu widzenia. Wygląda na to, że w ujęciu „emicznym”, była ona czymś całkowicie odmiennym niż thysia, o czym świadczyć
                                 może samo użyte w passusie słownictwo. </p>
                             <p>Jako synonim pojawia się tu rzeczownik τὰ σφάγια, określający ofiary krwawe, których nie zjada- no. Czynność dokonywaną przez bohaterkę, lub jedną z czynności, na- zywa z kolei czasownik καθαγίζω, „rytualnie zniszczyć”. To sugeru- je, że mamy do czynienia z rytuałem, którego zasadniczym celem nie jest zjednanie sobie przyjaznych sił, lecz odepchnięcie wrogich (Parker 2011: 141 – opozycja pomiędzy conjunctive i disjunctive sacrifices jest to wariant bardziej utrwalonego w nauce podziału na ofiary typu olim- pijskiego i chtonicznego, cf. Scullion 1994). Pomimo tych leksykalnych przesłanek omawiany passus zawiera sporo danych przemawiających za tym, że rozgraniczenie pomiędzy typami rytuałów nie było dosko- nale ścisłe. Wyraźna pod warstwą komicznego zniekształcenia struk- tura obrzędu jest analogiczna do tej, która uwidaczniała się w thysia: bohaterki sprowadzają „zwierzę”, następuje modlitwa (203–204). Warto zaznaczyć, że zawiera ona prośbę do bogini o przyjęcie ofiary (τὰ σφάγια δέξαι). Sama adresatka określona jest jako ταῖς γυναιξὶν εὐμενής („życzliwa kobietom”), co stanowi typowy zabieg retoryczny w modlitwie, polegający na określaniu bóstwa przydomkiem zawiera- jącym projekcję pożądanej relacji jego z wyznawcą. Miejsce sugeruje, że ofiara (τὰ σφάγια) może być traktowana jako odpowiednik daru, coś, czego przekazanie z jednej strony, a przyjęcie – z drugiej, otwiera typ życzliwej relacji. Co charakterystyczne dla rytów typu sphagia, akcent pada na „krew”. W przypadku thysia, spłynęłaby ona do misy typu sphageion, niewielką jej część wykorzystano by do pomazania ołtarza, a resztę przeznaczono na podroby (Ekroth 2005). W ramach omawia- nego rytuału krew zebrano do naczynia (którego wybór ewidentnie miał znaczenie symboliczne), by wykorzystać ją w jakiś sposób. Ko- miczne zniekształcenie i niejasność tekstu pozbawionego didaskaliów sprawiają, że trudno powiedzieć, co rzeczywiście stało się w tym miej- scu na scenie i jakiemu zachowaniu odpowiadało to w rzeczywisto- ści rytualnej. Charakterystyczne wydaje się jednak to, że zakończenie obrzędu wiąże się tu z przyjemnością wspólnego ucztowania, podob- nie jak w przypadku thysia, gdzie ubój wieńczyło kosztowanie pieczo- nych wnętrzności. Skojarzenia biesiadne są być może nie tyle wyni- kiem komicznego zniekształcenia, ile znakiem czasu. Ze stwierdzenia
@@ -739,7 +741,7 @@
                             <p>238: ἐγὼ καθαγίσω τήνδε – „dokonam aktu poświęcenia”; cza- sownik καθαγίζω oznacza czynność ofiarowania czegoś poprzez cał- kowite zniszczenie, najczęściej przy pomocy ognia (cf. Ar. Av. 566). W omawianym miejscu wyraźnie jednak chodzi o „zniszczenie” wina w sposób przyjemny dla niszczącej je osoby, to znaczy o wypicie. Wy- raźnie zatem to, co znajdowało się w centrum zainteresowania osób posługujących się terminem, to nie użycie ognia, lecz fakt unicestwia- nia przedmiotu, czy też, jak chyba słusznie zaznacza Svenbro (2005), usunięcie go ze sfery ludzkiej i w zmienionej postaci (np. dymu) prze- kazanie go istotom nadprzyrodzonym. Zważywszy na funkcję przed- miotu, na który przysięgano, z którego losem utożsamiano los krzy- woprzysięzcy (cf. ad 235,6), w tym momencie czymś oczekiwanym byłoby brutalne potraktowanie wina. Doskonale podkreśla to komizm passusu, w którym Lizystrata wyraźnie zamierza łapczywie wypić całą zawartość wielkiej czary.</p>
                         </div>
                     </div>
-                    <div type="textpart" n="Lisistrata_1128–1134">
+                    <div type="textpart" n="Lysistrata_1128–1134">
                         <head>Lysistrata 1128–1134</head>
                         <div type="textpart" n="1128-1134">
                             <p>Lizystrata wyraża krytykę mężczyzn z różnych poleis greckich zaangażowanych w wojnę peloponeską. Passus jest interesujący ze względu na dochodzącą w nim do głosu ideologię panhelleńską, której bezcennym punktem odniesienia jest „obcy, barbarzyńca”. Ze względu na wzmiankę o wojsku potencjalnych zewnętrznych wro- gów możemy się domyślać, że jeśli w jakikolwiek sposób konkre- tyzowano, o jakich cudzoziemców chodzi, źródłem lęku skłaniają- cego Greków do solidarności musiała być przede wszystkim Persja. Oprócz zewnętrznego – rzeczywistego bądź urojonego – zagrożenia czynnikiem jednoczącym na poziomie ideologicznym były wspólne sanktuaria. W przytoczonym passusie uwaga sfokalizowana jest na geście obmywania rąk. Trudno powiedzieć, czy to wyłącznie figura retoryczna. Tak czy inaczej, wyraźnie był to bardzo ważny moment procesu rytualnego..</p>
@@ -757,7 +759,7 @@
                             
                             <quote>Skoro was tu zebrałam, pragnę wyrazić słuszną krytykę wszyst- kich, którzy z jednego naczynia [1130] opryskujecie wodą ołtarze, jak bracia – w Olimpii, Pylai, Pytho... ileż bym ich mogła jeszcze wyliczyć, gdybym miała dłużej mówić? Choć wojsko barbarzyń- skie jest tak blisko, wy niszczycie greckie miasta i mężów.</quote>
                         </div>
-                        <div type="textpart" n="commento">
+                        <div type="textpart" n="commentary">
                             <p>1129:μιᾶς ἐκ χέρνιβος – „z jednego naczynia”; rzeczownik χέρνιψ pierwotnie oznaczał wodę do mycia rąk – przed przystąpieniem do ofiary, a także innych czynności, np. posiłku. W omawianym miejscu Arystofanes posługuje się wyrażeniem przyimkowym ἐκ χέρνιβος („z chernipsu”), co może wskazywać na to, że w owym okresie wy- raz był już także używany w znaczeniu metonimicznym: „naczynie na wodę do mycia” (cf. Ar. Av. 850 wraz z komentarzem). Scena w Poko- ju Arystofanesa (960–961) zawiera cenną wzmiankę o przekazywaniu z rąk do rąk takiej miski w czasie wstępnych rytów poprzedzających ofiarę. Być może właśnie do takiego kolektywnego obmycia, podkre- ślającego jedność grupy uczestników obrzędu, nawiązuje tu Lizystra- ta. Co ciekawe jednak, w malarstwie wazowym chernips niemal zawsze znajduje się w rękach osoby młodszej, która podaje go głównemu ofiarnikowi, mężczyźnie starszemu o wyraźnie wyższym statusie (van Straten 1995: fig. 30–36). W omawianym miejscu mowa o nieco innym sposobie zastosowania chernips: βωμοὺς περιρραίνοντες: „sprysku- jąc ołtarze”. Użyty tu czasownik περιρραίνω, którego sama podstawa derywacyjna: ῥαίνω wyraża semantykę „opryskiwać”, intensyfikuje to znaczenie prefiksem περι-, „zewsząd”. Ewidentnie zatem chodzi o wstępny ryt, polegający na symbolicznym oczyszczeniu ołtarza, prawdopodobnie dokonywany w czasie obchodzenia go (w kierunku przeciwnym do wskazówek zegara ἐπιδεξιά), przy pomocy zanurza- nego w chernips polana lub gałązki. Obszerniej na ten temat: ad Ar. Pax 956–61; Av. 850, 958. Poszanowanie lub jego brak wobec chernips jako
                                 znak przestrzegania lub łamania norm rytualnych: Th. 4.97.3; S. O.T. 240; Lys. 6.52; D. 20.158 (cytuję za Henderson 1987: ad loc.; w przypad- ku pierwszego z wymienionych miejsc nie jestem pewien, czy autor rzeczywiście miał na myśli chernips jako figurę; pozostałe passusy nie budzą moich zastrzeżeń).
                             </p>

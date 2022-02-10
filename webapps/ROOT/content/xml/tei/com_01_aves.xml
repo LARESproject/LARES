@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Aves (Όρνιθες, Uccelli)</title>
+                <title xml:lang="en">Aves (Όρνιθες, Birds)</title>
+                <title xml:lang="pl">Aves (Όρνιθες, Ptaki)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">com_01_aves</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Aves (Όρνιθες, Ptaki)</title>, in Bartłomiej Bednarek, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Stara komedia attycka</title>, Warszawa 2017, pp. 25-80</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Irene Vagionakis">encoded document in XML</change>
+                <change when="2017" who="Bartłomiej Bednarek">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="it">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>...</p>                    
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="...">
+                    <head>...</head>
+                    <p>...</p>                    
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="pl">
+                <div type="textpart" n="intro">
+                    <p>Komedię tę wystawiono na Dionizjach Miejskich w 414 r. p.n.e. (należy zatem do „środkowego” okresu twórczości poety). Otrzymała ona drugie miejsce w agonie. Problematyka ofiary krwawej jest w tym utworze wyraźniejsza niż gdziekolwiek indziej u Arystofanesa, jako że całość fabuły opiera się na specyficznej, komicznej wizji tego rytuału i na założeniu, że można przejąć władzę nad bogami, kontrolując przepływ dymu z ołtarzy.</p>
+                <p>Zarys fabuły: dwaj niezadowoleni z życia w swoim mieście obywatele ateńscy, Pejsetajros i Euelpides, poszukują nowej ojczyzny. W tym celu wspinają się po drzewie w przestworza, by spytać ptaków, czy znają miejsce wolne od uciążliwości życia społecznego. Spotkawszy dudka, w którego zamienił się w czasach mitycznych Tereus, a także całą gromadę źle nastawionych do ludzi ptaków (chór), Pejsetajros zjednuje je sobie, proponując założenie nowego miasta. Ponieważ znajdować się ono będzie w połowie drogi pomiędzy ziemią i niebem, jego mieszkańcy kontrolować będą dym z ofiar wysyłany przez ludzi do bogów. Gdy miasto jest już zbudowane, Pejsetajros śle heroldów z wiadomością o nastaniu nowego porządku. Bogowie próbują mediacji poprzez Irydę. Następnie przychodzi Prometeusz, by poinformować o trudnej sytuacji, w jakiej znalazł się Zeus: jeśli ptasie państwo nie zniesie embarga na dym, barbarzyńscy bogowie gotowi są wypowiedzieć wojnę helleńskim. Zaraz potem przybywa delegacja wygłodniałych bóstw: Posejdon, Herakles i cudzoziemiec Triballos. Przekupieni mięsem nieśmiertelni godzą się na warunki Pejsetajrosa. Zeus odda władzę, a wraz z nią Basileję (królewnę), tajemniczą dziewczynę, gospodynię siedziby bogów, która dotąd pozwalała ich władcy zachować swą pozycję. Komedię kończą zaślubiny.</p>
+                <p>Uwagi ogólne: Tekst zawiera bardzo obszerną scenę ofiary, a także szereg pomniejszych wzmianek o rytuale i różnych związanych z nim kwestiach. Wybór fragmentów i szczegółowy komentarz do nich nie mogą jednak zdać sprawy z ogólnego wydźwięku dzieła, o którym wypada wspomnieć w tym miejscu.</p>
+                <p>Ptaki nie podnoszą kwestii nierównego, czy też niesprawiedliwego podziału zwierzęcia ofiarnego, będącej jednym z toposów komedii. Zgodnie z tradycją homerycką, którą już Hezjod uważał za problematyczną na tyle, że trzeba ją było uzasadnić (Op. zwłaszcza 550–552), bogowie są w pełni zadowoleni z tłustego oparu spalanych dla nich udźców (193; 1517: τῶν μηρίων κνῖσα). W ramach komicznej wizji świata dym stanowi pełnowartościowy pokarm nieśmiertelnych, na który są oni łakomi i którego brak doprowadza ich do utraty sił. Z tego powodu bogowie okazują się całkowicie zależni od ludzi i dają sobą sterować jak automaty. Z faktu, że taka implicytna teologia stała się podstawą fabuły komedii, wyciągnąć można wniosek, że nie tylko intelektualiści, ale i przeciętny widz uważał ją za naiwną i groteskową.</p>
+                <p>Komizm utworu w znacznej mierze opiera się na przypisywaniu przez Arystofanesa nowych i nieoczekiwanych znaczeń zjawiskom i zachowaniom dobrze znanym widzom. Z rozproszonych w tekście wzmianek wynika, że ptaki różnych gatunków bywały obecne przy ołtarzach, kradły mięso i kości, żywiły się rozmaitymi odpadami z zabitych zwierząt i ziarnem wykorzystywanym do obsypywania ofiar. W ramach komicznego porządku bogowie jako prymarni adresaci rytuału mają zostać zastąpieni przez swoich dotychczasowych przypadkowych lub niechcianych współbiesiadników. Szczególną uwagę Arystofanes przywiązuje do ziarna, w czasie ofiary wykorzystywanego w rycie o drugorzędnym znaczeniu, a z punktu widzenia ptaków, rzecz jasna, wyjątkowo atrakcyjnego.</p>
+                <p>W odniesieniu do konstrukcji fabuły warto podkreślić rolę pre-tekstu, który wyraźnie stanowi jakiś wariant (lub najprawdopodobniej konglomerat różnych wersji) mitu o Prometeuszu. Passusy w Teogonii oraz Pracach i dniach Hezjoda, a także Prometeuszu skowanym Ajschylosa dają się streścić następująco: tytan oszukał Zeusa przy prymordialnym podziale zwierzęcia ofiarnego. Za karę bogowie odebrali ludziom ogień, potrzebny do składania ofiar. Prometeusz wykradł go, za co nieśmiertelni zemścili się, zsyłając na ziemię Pandorę, pierwszą kobietę. Sam tytan został przykuty do skały Kaukazu, gdzie orzeł zjadał mu codziennie odrastającą wątrobę. Do pojednania z bogami i przyjęcia na Olimp Prometeusz doprowadził, dzieląc się z nimi swoją wiedzą, odradzając Zeusowi małżeństwo z Tetydą (cf. Vernant 1979).</p>
+                <p>Ptaki stanowią swojego rodzaju kontynuację tej opowieści, wykorzystującą znaczną część jej motywów. Akcja komedii rozgrywa się „współcześnie”, a zatem na długo po tym, jak Prometeusz (w czasach mitycznych) został ostatecznie przyjęty do grona niebian (1518). W dalszym ciągu jednak większą sympatią darzy ludzi niż bogów (1545–1546). Kiedy następuje wywołany przez Pejsetajrosa kryzys ofiarniczy i, jak wtedy gdy zabrakło ognia, dym nie wznosi się nad ołtarzami, tytan interweniuje, informując Pejsetajrosa o istnieniu Basilei i doradzając małżeństwo z nią. Nieco wcześniej w tekście pojawia się wzmianka o Pandorze jako adresatce enigmatycznie opisanej ofiary (971–973). Zbieżności z mitem Prometeusza (i już sama obecność tytana na scenie) wskazują na to, jak wielką rolę odgrywał on w ramach greckich wyobrażeń o ofierze (cf. Bowie 1993: 151–177). Należy jednak zaznaczyć, że wykorzystanie tradycyjnego materiału przez Arystofanesa wydaje się kapryśne i nie wskazuje na konsekwentne zastosowanie przez poetę komicznego kodu, którego identyfikacja pozwalałaby dokonać całkiem nowej lektury tekstu.</p>
+                <p>Tekst cytuję za wydaniem Dunbar (1995).</p>
+                </div>
+                    
+                    <div type="textpart" n="Aves_42-44">
+                        <head>Aves 42-44</head>
+                            <p>Pejsetajros opisuje rodzinne Ateny jako miasto wyjątkowo niemiłe dla mieszkańców. Z tego powodu, jak wyjaśnia, opuścił je wraz z towarzyszącym mu Euelpidesem, by szukać lepszego miejsca. Charakterystyczne, że na wyprawę bohaterowie wyruszyli ze sprzętami ofiarniczymi:</p>
+                            
+                            <quote>
+                                <lb/>διὰ ταῦτα τόνδε τὸν βάδον βαδίζομεν, 
+                                <lb/>κανοῦν δ’ ἔχοντε καὶ χύτραν καὶ μυρρίνας
+                                <lb/>πλανώμεθα ζητοῦντε τόπον ἀπράγμονα,
+                            </quote>
+                            
+                            <quote>Z tego powodu wyruszyliśmy w drogę, niosąc koszyk ofiarny, garnek i gałązki mirtu – tak błąkamy się w poszukiwaniu spokojnego miejsca.</quote> 
+                       
+                            <p>43: <w>κανοῦν</w> – „koszyk ofiarny”; zawiera on potrzebne do złożenia ofiary przedmioty, takie jak (lista niekoniecznie kompletna): nóż, wieńce i ziarno. Szerzej: 863 infra; <title>Pax</title> 948–949.</p>
+                            <p><w>χύτρα</w> – „garnek”; kontekst pozwala się domyślać, że zawiera on żar, który umożliwi rozpalenie ognia przy składaniu ofiar. Poza funkcją czysto pragmatyczną (ogień jest potrzebny, a łatwiej go przenosić niż krzesać, <foreign>cf.</foreign> Ar. <title>Lys.</title> 293–305; X. <title>HG</title> 4.5.4), transport ognia może mieć wydźwięk symboliczny: w ten sposób artykułowano łączność pomiędzy kolonią a metropolią cf. ad 865–866.</p>
+                            <p><w>μυρρίνας</w> – „gałązki mirtu”; z tego materiału wykonywano (przynajmniej niekiedy) wieńce wykorzystywane w czasie różnych rytuałów (<ref type="lit">Ar. <title>Th.</title> 447–452</ref>; V. 861).</p>
+                    </div>
+                
+                <div type="textpart" n="Aves_185-193">
+                    <head>Aves 185–193</head>
+                    <p>Pejsetajros proponuje Dudkowi (człowiekowi w czasach mitycz- nych zamienionemu w ptaka) założenie miasta w powietrzu. Przeko- nuje do swojego planu w sposób następujący:</p>
+                    
+                    <quote>
+                        <lb n="185"/><emph>ΠΕΙΣΕΤΑΙΡΟΣ:</emph>
+                        <lb/>ὥστ᾽ ἄρξετ᾽ ἀνθρώπων μὲν ὥσπερ παρνόπων,
+                        <lb/>τοὺς δ᾽ αὖ θεοὺς ἀπολεῖτε λιμῶι Μηλίωι.
+                        <lb/><emph>ΕΠΟΨ:</emph>
+                        <lb/>πῶς;
+                        <lb/><emph>ΠEI.:</emph> ἐν μέσωι δήπουθεν ἀήρ ἐστι γῆς. 
+                        <lb/>εἶθ᾽ ὥσπερ ἡμεῖς, ἢν ἰέναι βουλώμεθα
+                        <lb/>Πυθώδε, Βοιωτοὺς δίοδον αἰτούμεθα,
+                        <lb/>οὕτως, ὅταν θύσωσιν ἄνθρωποι θεοῖς,
+                        <lb/>ἢν μὴ φόρον φέρωσιν ὑμῖν οἱ θεοί,
+                        <lb n="190"/>[διὰ τῆς πόλεως τῆς ἀλλοτρίας καὶ τοῦ χάους]
+                        <lb/>τῶν μηρίων τὴν κνῖσαν οὐ διαφρήσετε.
+                    </quote>
+                    
+                    <quote>
+                        <lb/><emph>PEJSETAJROS:</emph>
+                        <lb/>Ludźmi będziecie rządzić jak szarańczą, a bogów zgładzicie głodem melijskim.
+                        <lb/><emph>DUDEK:</emph>
+                        <lb/>Jak?
+                        <lb/><emph>PEJ.</emph>: Powietrze jest przecież pomiędzy ziemią [a siedzibą bo- gów]. Podobnie jak my, kiedy chcemy iść do Delf, prosimy Beotów o pozwolenie na przejście, [190] tak w czasie gdy lu- dzie składać będą ofiary bogom, jeśli bogowie nie będą płacić trybutu, wy nie przepuścicie dymu z udźców [przez terytorium swego państwa i przestworza].
+                    </quote> 
+                    
+                    <p>Ten krótki passus zawiera wyjaśnienie fabuły utworu, a jednocześnie stanowi wykład pryncypiów komicznej teologii, z różnymi mody- fikacjami obecnej we wszystkich dziełach Arystofanesa. Różnica po- między ludźmi i bogami wyraża się tutaj zajmowaniem odmiennych miejsc w przestrzeni: śmiertelni żyją na ziemi, nieśmiertelni ponad nimi. Przestrzeń pośrodku jest siedliskiem ptaków. Pod względem żywieniowym podstawowe rozróżnienie (jak w hezjodejskim micie Prometeusza) polega na odżywianiu się różnymi częściach zwierząt ofiarnych: dla ludzi przeznaczone jest mięso, dla bogów κνῖσα – opar wznoszący się znad ołtarzy. Co charakterystyczne dla wizji komicznej, nieśmiertelni są w pełni uzależnieni od „dostaw” tego pokarmu, po- dobnie jak mieszkańcy miast potrzebują żywności przywożonej z ze- wnątrz.</p>
+                    <p>185: ὥσπερ παρνόπων – „jak szarańczą”; Pejsetajros odwołuje się do punktu widzenia ptaków. Mają one zyskać władzę nad ludźmi, taką, jaką mają nad szarańczą (πάρνοψ), która stanowi pokarm wie- lu z nich. Ten element wzbogaca schemat komicznego świata o nowy aspekt reguł żywieniowych: ludzie jedzą mięso, bogowie – dym, ptaki – owady. W ramach utopii zaproponowanej przez Pejsetajrosa pierwsza z tych zasad okaże się problematyczna, o ile bowiem jedze- nie mięsa zwierząt czworonożnych i ryb nie wzbudza w państwie ptasim wątpliwości, czy wolno tam jeść drób. Bohater rozwiąże ten problem w nieoczekiwany sposób: w w. 1583–1585 jest mowa o przy- gotowywaniu posiłku z ptaków skazanych przez sąd za przestępstwa. W ten sposób przyjemny element praktyki życiowej (jedzenie drobiu) staje się zjawiskiem groteskowo makabrycznym. Zjadanie obywate- li przez osobę o wyjątkowej pozycji w państwie bardzo przypomina hezjodejską allelofagię, opisaną, nota bene także w formie bajki o pta- kach (Op. 203–215; cf. Corbel-Morana 2012: 198–207).</p>
+                    <p>186: ἀπολεῖτε – „zgładzicie”; czasownik ten konotuje całkowite zniszczenie kogoś lub czegoś, nie tylko podporządkowanie go swej władzy. To implikuje traktowanie bogów jak wrogów, dopuszczalne w ramach burleskowej konwencji komedii starej.
+                    λιμῶι Μηλίωι – „głodem melijskim”; aluzja do długotrwałego ob- lężenia Melos zakończonego w 415 r. p.n.e. (a zatem niedługo przed wystawieniem komedii) zdobyciem miasta przez Ateńczyków, masa- krą męskiej części populacji i sprzedaniem kobiet w niewolę. Przenie- sienie taktyki walki z ludźmi na wojnę z nieśmiertelnymi wyraźnie ma wydźwięk humorystyczny, choćby dlatego, że czym innym jest unie- możliwienie dostaw żywności do miasta położonego na wyspie niż powstrzymywanie dymu przed wznoszeniem się ku niebu.</p>
+                    <p>189: Πυθώδε – „do wyroczni pytyjskiej, do Delf”; droga lądowa z Attyki do sanktuarium prowadziła przez Beocję. Stosunki pomię- dzy Ateńczykami i Beotami bardzo często bywały napięte, szczegól- nie w takich okresach jak wojna peloponeska. W chwili wystawie- nia Ptaków wolny dostęp do Delf gwarantował Ateńczykom (jeszcze obowiązujący) Pokój Nikiasza z 421 r. p.n.e. (por. Th. 5.18.2), a także osobne porozumienia między Atenami i Związkiem Beockim (por. Th. 5.26.2; 5.32.5 wraz z komentarzem Hornblower 2008: ad loc., tam także literatura do obszernie dyskutowanego problemu charakteru tych układów). Omawiane miejsce wskazuje na to, że przynajmniej w pewnych okolicznościach mieszkańcy Attyki zmuszeni byli wystę- pować o specjalne pozwolenie na tranzyt. Mogło to dotyczyć np. ofi- cjalnych państwowych delegacji (tak Dunbar 1995: ad loc.). Sommer- stein (1987: ad loc.) zaznacza, że w czasie wystawienia Ptaków temat mógł być aktualny ze względu na zbliżające się igrzyska pytyjskie, na które w imieniu Aten za każdym razem wyruszała grupa piel- grzymów.</p>
+                    <p>191: φόρος – „trybut” (taki, między innymi, jaki członkowie Związ- ku Morskiego płacili Atenom); użycie tego wyrazu sugeruje polityczną dominację państwa ptasiego nad „państwem” bogów.</p>
+                    <p>192: wers interpolowany.</p>
+                    <p>193: οὐ διαφρήσετε – „nie przepuścicie”; poza scholiami i leksyko- nami poświadczone wyłącznie u Tukidydesa (7.32.1, wg powszechnie akceptowanej koniektury Dobreego), gdzie odnosi się do przepuszcza- nia wrogich posłańców przez terytoria poleis. Jeśli użycie wyrazu w pi- śmie historycznym odzwierciedla normę językową, wskazuje to na konsekwentne budowanie przez Arystofanesa komizmu polegającego na przypisywaniu lotnemu dymowi z udźców (τῶν μηρίων κνῖσα) cech już nawet nie ciała stałego, lecz człowieka (terminologia militarna lub polityczna). Idea zatrzymywania czy przechwytywania dymu jest zatem prawdopodobnie celowo absurdalna.</p>
+                    <p>τῶν μηρίων τὴν κνῖσαν – „dym z udźców”; w wersie 1517 zwrot powtarza się w nieco innym kontekście metrycznym, co pozwala określić go jako formułę wyłącznie w pewnym tego terminu znacze- niu. Rzecz jasna, udźce stanowią pars pro toto wszelkich pokarmów spalanych w ofierze bogom. Dane ikonograficzne i zooarcheologicz- ne, a także passus w Pokoju Arystofanesa (922, ss.) wskazują na to, że w rzeczywistości kultowej Attyki okresu klasycznego na porcję dla bogów, obok kości udowych i tłuszczu, regularnie przeznaczano rów- nież kość krzyżową i ogon zwierzęcia, czasami i inne ich części (cf. e.g. Ekroth 2008; Ekroth 2009; Berthiaume 2005; van Straten 1995: 118–143; Ar. Pax 1053). Rzeczownik κνῖσα, co znamienne, u Homera ozna- cza tłuszcz, w który owijano kości zwierzęcia ofiarnego (cf. Il. 2.423: μηρούς τ’ ἐξέταμον κατά τε κνίσηι ἐκάλυψαν). W późniejszym okresie (szczególnie wyraźnie w: D. 21.52) przybiera znaczenie takie, jakie ewidentnie posiada w omawianym passusie: „tłusty, aromatycz- ny opar unoszący się nad ołtarzami” (cf. 1233 wraz z komentarzem). Umieszczenie tej formuły przynależącej do języka religii w kontekście pojawiającej się w passusie terminologii politycznej i wojskowej, ma wyraźny wydźwięk komiczny.</p>
+                </div>
+                
+                <!-- proseguire qui dai vv. 514–519 in poi -->
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

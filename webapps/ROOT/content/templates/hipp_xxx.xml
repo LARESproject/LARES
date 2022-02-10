@@ -11,44 +11,65 @@
             <publicationStmt>
                 <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
                 <date when="2021"/>
-                <idno type="filename">hipp_xxx</idno>
+                <idno type="filename">hipp_XXX</idno> <!-- hipp_ChapterNumber_LatinWorkTitle, e.g. hipp_01_corpus -->
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <p>Born digital document.</p>
+                <p><title>CHAPTER TITLE</title>, in Przemysław Biernat, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Corpus Platonicum. Corpus Hippocraticum</title>, Warszawa 2017, pp. CHAPTER PAGES</p>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-11-10" who="NAME">encoded document in XML</change>
-                <change when="2021-10-12" who="Przemysław Biernat">created document contents</change>
+                <change when="2022-02-10" who="NAME">encoded document in XML</change>
+                <change when="2017" who="Przemysław Biernat">created document contents</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
+            
             <div type="edition" xml:lang="it">
-                <div type="textpart" n="...">
-                    <head>...</head>
-                    <p>...</p>                    
+                <div type="textpart" n="intro">
+                    <p>PREFACE DIVIDED INTO PARAGRAPHS</p>
+                </div>
+                <div type="textpart" n="WORK_LINES">
+                    <head>WORK + LINES</head>
+                    <p>INTRO TO TEXT</p>
+                    <quote>GREEK TEXT</quote>
+                    <quote>TRANSLATION</quote>
+                    <p>COMMENTARY DIVIDED INTO PARAGRAPHS</p>
                 </div>
             </div>
             
             <div type="edition" xml:lang="en">
-                <div type="textpart" n="...">
-                    <head>...</head>
-                    <p>...</p>                    
+                <div type="textpart" n="intro">
+                    <p>PREFACE DIVIDED INTO PARAGRAPHS</p>
+                </div>
+                <div type="textpart" n="WORK_LINES">
+                    <head>WORK + LINES</head>
+                    <p>INTRO TO TEXT</p>
+                    <quote>GREEK TEXT</quote>
+                    <quote>TRANSLATION</quote>
+                    <p>COMMENTARY DIVIDED INTO PARAGRAPHS</p>
                 </div>
             </div>
             
             <div type="edition" xml:lang="pl">
-                <div type="textpart" n="...">
-                    <head>...</head>
-                    <p>...</p>                    
+                <div type="textpart" n="intro">
+                    <p>PREFACE DIVIDED INTO PARAGRAPHS</p>
+                </div>
+                <div type="textpart" n="WORK_LINES">
+                    <head>WORK + LINES</head>
+                    <p>INTRO TO TEXT</p>
+                    <quote>GREEK TEXT</quote>
+                    <quote>TRANSLATION</quote>
+                    <p>COMMENTARY DIVIDED INTO PARAGRAPHS</p>
                 </div>
             </div>
+            
         </body>
     </text>
 </TEI>

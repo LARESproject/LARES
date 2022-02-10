@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Eschilo: Persae (Πέρσαι, Persiani)</title>
+                <title xml:lang="en">Aeschylus: Persae (Πέρσαι, Persians)</title>
+                <title xml:lang="pl">Ajschylos: Persae (Πέρσαι, Persowie)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">trag_01_persae</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Ajschylos. Persae (Πέρσαι, Persowie)</title>, in Krzysztof Bielawski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. Tragedia attycka</title>, Warszawa 2017, pp. 15-20</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <div type="edition" xml:lang="it">
+                <div type="textpart" n="intro"> 
+                    <p>Questo è il più antico dramma di Eschilo conservato nella sua interezza; fu messo in scena 
+                        ad Atene nel 472 come parte centrale di una trilogia. I Persiani è un "dramma storico", come ha scritto Lesky (2006: 93), ma attraverso 
+                        L'interpretazione della storia va oltre la storia. Descrivono eventi 
+                        Nel palazzo del re persiano, dove la regina, la vedova di Dario, 
+                        attende notizie sulla sorte di suo figlio Serse, che è partito per 
+                        conquistando Hellada ed entrando nella battaglia di Salamina. Il dramma contiene 
+                        un meraviglioso resoconto della battaglia (v. 353-432), scritto dal suo partecipante Eschilo, e una visione del fantasma di Dario proveniente dall'Ade, 
+                        per interpretare le azioni del proprio figlio. Soprattutto, però 
+                        è un'interpretazione teologica degli eventi. </p>
+                    <p>Il tema del sacrificio di sangue è assente in Perses. La terminologia 
+                        La terminologia tecnica relativa al sacrificio di sangue appare solo in relazione 
+                        con sacrifici incruenti, che sono notati nel commento a causa di 
+                        a causa dei legami lessicografici con il linguaggio del sacrificio in generale. </p>
+                    <p> Testo originale come modificato: West (1991b)</p>
+                </div>    
+                    <div type="textpart" n="commentary">
+                        <div type="textpart" n="Persians_201-206">
+                            <head>Persiani 201-206</head>
+                            <div type="textpart" n="201-206_intro">
+                                <p>Passus da un discorso della regina Athosseus, in cui prima racconta il suo sogno infausto sulla morte di Serse, e poi riferisce i segni letti dal volo degli uccelli - un falco che attacca e sconfigge un'aquila indifesa. Quest'aquila nella visione di Atossa stava schivando 
+                                    dal falco verso il falò o l'altare (eschara) al mattino quando intendeva fare dei sacrifici. Il passus non contiene riferimenti al 
+                                    sacrificio di sangue, solo le offerte di pelanos e i riti di purificazione sono menzionati. Tuttavia, contiene termini tecnici relativi al sacrificio di sangue: θυηπόλος, τέλος, βωμός, ἐσχάρα, che dovrebbero essere notati per la loro funzione in contesti direttamente collegati 
+                                    con il sacrificio di sangue.</p>
+                                
+                                <quote>
+                                    <lb/>ἐπεὶ δ᾽ ἀνέστην καὶ χεροῖν καλλιρρόου 
+                                    <lb/>ἔψαυσα πηγῆς, σὺν θυηπόλῳ χερὶ 
+                                    <lb/>βωμὸν προσέστην, ἀποτρόποισι δαίμοσιν 
+                                    <lb/>θέλουσα θῦσαι πέλανον, ὧν τέλη τάδε. 
+                                    <lb/>ὁρῶ δὲ φεύγοντ᾽ αἰετὸν πρὸς ἐσχάραν 
+                                    <lb/>Φοίβου.
+                                </quote>
+                                
+                                <p><emph>Tr.:</emph>204: ὧν τέλη τάδε - "a cui sono dovuti tali sacrifici". Frits M.J. Waanders nel suo lavoro sul significato di τέλος e τελέω (Waanders 
+                                    1983: 96, cfr. anche 17) suggerisce qui il significato di τέλος come "compito" neutro, 
+                                    dovere", che darebbe il senso di "fare un sacrificio agli dei [...] ai quali tale azione è dovuta". Sembra, tuttavia, che un significato più basilare, già 
+                                    solo legato alla performatività del rito sacrificale (ibidem: 96), già 
+                                    che denota direttamente questo sacrificio (in Waanders 1983: 96 - 'offerte', 'obbligo religioso' in relazione a Supp. 122; Bielawski 2004: 65-68) è più giustificato qui a causa del contesto. Sembra addirittura che τέλη sia una sorta di equivalente per πέλανον (commento dettagliato su 
+                                    questo verso Bielawski 2004: 69-70). Henry D. Broadhead (1960: 82) nel suo commento ai Persiani indica due possibili significati di τέλη in questo 
+                                    luogo: 1. come "riti", "rituali", "attività sacre e rituali"; 2. come 
+                                    "sacrifici" ("offerte"). Alla fine, però, propone la traduzione: "richiedere 
+                                    tali offerte". Un recente commento (Garvie 2009: 123) replica queste considerazioni. In un altro lavoro precedente, Waanders (1976: 478) indica il verso commentato come un esempio dell'uso del sostantivo τέλος in un senso esplicitamente religioso. In questo caso, il sostantivo dovrebbe essere 
+                                    da considerare come appartenente al linguaggio tecnico del sacrificio, anche se non del 
+                                    sanguinosa (un tale significato, tuttavia, è anche possibile). </p>
+                                <p>205: πρὸς <w>ἐσχάραν</w> - "verso l'altare"; ἐσχάρα è principalmente il focolare sull'altare, qui usato metonimicamente per indicare l'intero altare. 
+                                    Oltre al suddetto passus, altre due volte, sia nel consiglio del capo del coro (vv. 219-220: δεύτερον δὲ χρὴ χοὰς / γῇ τε 
+                                    καὶ φθιτοῖς χέασθαι), così come più tardi nelle dichiarazioni della regina (v. 229: 
+                                    πάντ᾽ ἐφήσομεν θεοῖσι τοῖς τ᾿ ἔνερθε γῆς φίλοις1
+                                    ), appaiono sacrifici agli dei e ai morti - ma in entrambi i casi è 
+                                    solo un sacrificio liquido combinato con la preghiera.
+                                    Allo stesso modo, nei versi 522-524, dopo aver sentito parlare il messaggero 
+                                    del disastro salamitano, la regina dichiara la necessità di innalzare preghiere agli dei (θεοῖς μὲν πρῶτον εὔξασθαι θέλω) e di offrire alla terra e ai morti (γῇ τε καὶ φθιτοῖς) doni (δωρήματα), consistenti in 
+                                    il pelanos portato da casa (λαβοῦσα πέλανον ἐξ οἴκων ἐμῶν). 
+                                    L'ampio passus con il sacrificio necromantico per i morti (vv. 609-622) contiene informazioni dettagliate su questo tipo di sacrificio e le sue componenti, ma il vocabolario presente 
+                                    il vocabolario tecnico non contiene alcun riferimento, nemmeno metaforico 
+                                    al sacrificio di sangue. Lo stesso, tra l'altro, come più tardi nel discorso dello spirito di Dario (v. 685).</p>
+                            </div>
+                        </div>
+                        <div type="textpart" n="Persians_816-817">
+                            <head>816-817</head>
+                            <div type="textpart" n="177-179">                     
+                                <quote>
+                                    <lb/>τόσος γὰρ ἔσται πέλανος αἱματοσφαγὴς 
+                                    <lb/>πρὸς γῇ Πλαταιῶν Δωρίδος λόγχης ὕπο.
+                                </quote>
+                                
+                                <quote><emph>Tr.: </emph>Per un pelanos così sanguinoso e sacrificale
+                                    La lancia dorica si srotolerà sul suolo platonico.</quote>
+                                
+                                <p>Passo dal discorso fantasma di Dario, che annuncia la sconfitta dei persiani 
+                                    a Plataea, indicando come causa della sconfitta l'insulto al greco 
+                                    templi. Eschilo usa qui una metafora della lingua caratteristica per 
+                                    sacrificio di sangue, presentando la morte dei soldati persiani come un sacrificio 
+                                    (pelanos, vedi commento sopra al v. 203), che è precedentemente menzionato ripetutamente dalla regina, dal coro e dallo spirito di Dario come 
+                                    appropriato alla terra e ai morti. In un certo senso, la metafora si applica 
+                                    anche il linguaggio del sacrificio incruento - pelanos come sacrificio liquido e incruento 
+                                    diventa nella visione poetica di Eschilo un sacrificio di sangue (αἷμα), in aggiunta 
+                                    steso nel modo proprio di un sacrificio di sangue (σφαγής). Nell'immagine metaforica, i Doriani usano una lancia - e non un coltello (machaira) 
+                                    come nel classico sacrificio di sangue - macellano (sphazein) non il 
+                                    animali sacrificali, ma persiani, per trarne il sangue. E questo sangue 
+                                    è a sua volta sacrificato come pelanos, caratteristica del 
+                                    sacrificio incruento. Così, in questa immagine c'è un metaforico 
+                                    feedback tra sacrificio cruento e incruento, costruendo da un lato 
+                                    immagine di una morte cruenta da un lato, e dall'altro un legame con il ripetuto 
+                                    menzionato prima, le offerte ai morti. </p>
+                                <p>816: <w>αἱματοσφαγής</w> - "sanguinoso, sacrificale"; Eschilo hapax 
+                                    legomenon. Compositum composto da αἷμα e dal soggetto σφάγ- - dal verbo σφάζω, associato al rito del sacrificio di sangue e che significa 
+                                    il massacro di una vittima. Né i lessici bizantini né gli studi moderni sul linguaggio tecnico del sacrificio invocano questo aggettivo 
+                                    (per esempio Rudhardt). Non è nemmeno notato dal LSJ (anche nel supplemento). 
+                                    Il dizionario greco-polacco di Zygmunt Węclewski (1905) dà il significato di 
+                                    (sv.): "spruzzato del sangue degli uccisi", sanguine maculatus, e dizionario di Montanari (s.v.): "fatto con il sangue dei macellati" con l'indicazione che nel relativo passus si riferisce alle libagioni. Nell'interpretazione del 
+                                    In quest'ultimo caso avremmo "pelanos mescolato al sangue dei macellati". 
+                                    Diversi manoscritti tardivi contengono la lezione αἱματοσταγής invece di αἱματοσφαγής. In almeno un caso, sia Roger D. Dawe che Denys L. Page hanno trovato la lezione sovrascritta. 
+                                    Il senso di questo compositum rimane simile: 'grondante di sangue', tuttavia 
+                                    l'immagine della metafora viene indebolita privandola della sua connessione etimologica con il linguaggio del sacrificio di sangue e il processo di macellazione di una vittima. 
+                                    Martin L. West, nella sua edizione che costituisce la base di questo commento, argomenta a favore della lezione αἱματοσταγής, citando nell'apparato critico il verso 1389 Ag. dove abbiamo la frase αἵματος σφαγήν
+                                    (così anche Garvie 2009: 313-314).</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                    <div type="textpart" n="intro"> 
+                        <p>This is the oldest of Aeschylus' plays preserved in its entirety; it was staged 
+                            in Athens in 472 as the middle part of a trilogy. The Persians is a 'historical drama', as Lesky (2006: 93) wrote, but through 
+                            interpretation of history they go beyond history. They describe events 
+                            In the palace of the Persian king, where the queen, the widow of Darius, 
+                            awaits news of the fate of her son Xerxes, who has set out to 
+                            conquering Hellada and entering the battle of Salamis. The drama contains 
+                            a wonderful account of the battle (v. 353-432), written by its participant Aeschylus, and a vision of Darius' ghost coming from Hades, 
+                            to interpret the actions of his own son. Above all, however 
+                            is a theological interpretation of the events. </p>
+                        <p>The theme of blood sacrifice is absent in Perses. The terminology 
+                            technical terminology related to blood sacrifice appears only in connection 
+                            with bloodless sacrifices, which are noted in the commentary because of 
+                            due to the lexicographical links with the language of sacrifice in general. </p>
+                        <p> Source text as edited: West (1991b)</p>
+                    </div>
+                    <div type="textpart" n="commentary">
+                        <div type="textpart" n="Persians_201-206">
+                            <head>Persians 201-206</head>
+                            <div type="textpart" n="201-206_intro">
+                                <p>Passus from a speech by Queen Athosseus, in which she first recounts her ominous dream about the death of Xerxes, and then relates signs read from the flight of birds - a hawk that attacks and defeats a defenceless eagle. This eagle in the vision of Atossa was dodging 
+                                    from the falcon towards the bonfire or the altar (eschara) in the morning when she intended to make sacrifices. The passus does not contain references to the 
+                                    blood sacrifice, only pelanos offerings and purification rites are mentioned. It does, however, contain technical terms related to the blood sacrifice: θυηπόλος, τέλος, βωμός, ἐσχάρα, which should be noted for their function in contexts directly related 
+                                    with the blood sacrifice. 
+                                </p>
+                                
+                                <quote>
+                                    <lb/>  ἐπεὶ δ᾽ ἀνέστην καὶ χεροῖν καλλιρρόου 
+                                    <lb/>  ἔψαυσα πηγῆς, σὺν θυηπόλῳ χερὶ 
+                                    <lb/>βωμὸν προσέστην, ἀποτρόποισι δαίμοσιν 
+                                    <lb/>  θέλουσα θῦσαι πέλανον, ὧν τέλη τάδε. 
+                                    <lb/>      ὁρῶ δὲ φεύγοντ᾽ αἰετὸν πρὸς ἐσχάραν 
+                                    <lb/>      Φοίβου.
+                                </quote>
+                                
+                                <quote><emph>Tr.:</emph>Kiedy wstałam i zanurzyłam dłonie w pięknym bijącym 
+                                    Źródle, stanęłam przy ołtarzu z ręką spełniającą ofiary, 
+                                    Zamierzając złożyć w ofiarę pelanos bogom zła odwrócicielom, 
+                                    Którym takie ofiary są należne. 
+                                    Widzę zaś, że orzeł umyka w stronę ołtarza Feba. </quote>
+                            </div>
+                            <div type="textpart" n="commentary">
+                                <p>202: σὺν θυηπόλῳ χερί – „z ręką spełniającą ofiary”. Θυηπόλος 
+                                    – „ofiarny”, „spełniający ofiarę”, w postaci urzeczownikowionej, jak 
+                                    sugerują Suda (s.v.: Θυηπόλος: ὁ θύων, ὁ ἱερεύς) i Hesychios (s.v.: 
+                                    θυηπόλος· ὁ περὶ τὰς θυσίας ἀναστρεφόμενος, ἱερεύς) – „ofiarnik”, 
+                                    „kapłan”. </p>
+                                <p>203: θῦσαι πέλανον – „złożyć (oznacza spalić) w ofiarę pelanos”. Pelanos – półpłynna mieszanina miodu, mąki i oliwy (por. Fraenkel 1950, 
+                                    vol. 1: 54–55 w komentarzu do w. 96 Ag. oraz Jameson 1956: passim), 
+                                    ewentualnie ciastko ofiarne lub placek (por. Pauzaniasz 8.2.3: πέμματα 
+                                    ἐπιχώρια […], ἃ πελάνους καλοῦσιν ἔτι καὶ ἐς ἡμᾶς Ἀθηναῖοι). </p>
+                                <p>204: ὧν τέλη τάδε – „którym takie ofiary są należne”. Frits M.J. Waanders in his work on the meaning of the words τέλος and τελέω (Waanders 
+                                    1983: 96, cf. also 17) suggests here the meaning of τέλος as a neutral "task, 
+                                    duty', which would give the sense of 'make a sacrifice to the gods [...] to whom such an action is due'. It seems, however, that a more basic meaning, already 
+                                    only related to the performatics of the sacrificial ritual (ibidem: 96), already 
+                                    directly denoting this sacrifice (in Waanders 1983: 96 - 'offerings', 'religiousobligation' in relation to Supp. 122; Bielawski 2004: 65-68) is more justified here because of the context. It even seems that τέλη are a kind of equivalent for πέλανον (detailed commentary on 
+                                    this verse Bielawski 2004: 69-70). Henry D. Broadhead (1960: 82) in his commentary on Persians points out two possible meanings of τέλη in this 
+                                    place: 1. as 'rites', 'rituals', 'sacred, ritual activities'; 2. as 
+                                    "sacrifices" ("offerings"). Ultimately, however, he proposes the translation: "require 
+                                    such offerings". A recent commentary (Garvie 2009: 123) replicates these considerations. In another earlier work, Waanders (1976: 478) points to the commented verse as an example of the use of the noun τέλος in an explicitly religious sense. In this case, the noun should be 
+                                    to be considered as belonging to the technical language of sacrifice, albeit not of the 
+                                    bloody (such a meaning, however, is also possible). </p>
+                                <p>205: πρὸς ἐσχάραν - "towards the altar"; ἐσχάρα is primarily the hearth on the altar, here used metonymically to denote the entire altar. 
+                                    Apart from the above passus, twice more, both in the advice of the choir leader (vv. 219-220: δεύτερον δὲ χρὴ χοὰς / γῇ τε 
+                                    καὶ φθιτοῖς χέασθαι), as well as later in the Queen's declarations (v. 229: 
+                                    πάντ᾽ ἐφήσομεν θεοῖσι τοῖς τ᾿ ἔνερθε γῆς φίλοις1
+                                    ), sacrifices to the gods and to the dead appear - but in both cases it is 
+                                    only a liquid sacrifice combined with prayer.
+                                    Similarly, in verses 522-524, after hearing the messenger speak 
+                                    of the Salamanian disaster, the Queen declares the necessity of raising prayers to the gods (θεοῖς μὲν πρῶτον εὔξασθαι θέλω) and of offering to the earth and to the dead (γῇ τε καὶ φθιτοῖς) gifts (δωρήματα), consisting of 
+                                    the pelanos brought from home (λαβοῦσα πέλανον ἐξ οἴκων ἐμῶν). 
+                                    The extensive passus with the necromantic sacrifice for the dead (vv. 609-622) contains detailed information on this type of sacrifice and its components, but the vocabulary present 
+                                    technical vocabulary does not contain any - even metaphorical - references 
+                                    to the blood sacrifice. The same, by the way, as later in Darius's spirit speech (v. 685).</p>
+                            </div>
+                        </div>
+                        <div type="textpart" n="Persians_816-817">
+                            <head>816-817</head>
+                            <div type="textpart" n="177-179">                     
+                                <quote>
+                                    <lb/>τόσος γὰρ ἔσται πέλανος αἱματοσφαγὴς 
+                                    <lb/>πρὸς γῇ Πλαταιῶν Δωρίδος λόγχης ὕπο.
+                                </quote>
+                                
+                                <quote><emph>Tr.:</emph> For such a bloody, sacrificial pelanos
+                                    The Doric spear will roll out on the Plataean soil.</quote>
+                                
+                                <p>Passus from the ghost speech of Darius, who announces the defeat of the Persians 
+                                    at Plataea, indicating as the cause of the defeat the insult to the Greek 
+                                    temples. Aeschylus uses here a metaphor of the language characteristic for 
+                                    blood sacrifice, presenting the death of Persian soldiers as a sacrifice 
+                                    (pelanos, see comment above on v. 203), which is previously mentioned repeatedly by the Queen, the chorus and the spirit of Darius as 
+                                    appropriate to the land and the dead. In a sense, the metaphor applies 
+                                    also the language of the bloodless sacrifice - pelanos as a liquid and bloodless sacrifice 
+                                    becomes in Aeschylus' poetic vision a blood sacrifice (αἷμα), in addition 
+                                    rolled out in the manner proper to a blood sacrifice (σφαγής). In the metaphorical image, the Dorians use a spear - and not a knife (machaira) 
+                                    as in the classic blood sacrifice - they slaughter (sphazein) not the 
+                                    sacrificial animals, but Persians, in order to draw blood from them. And this blood 
+                                    is in turn sacrificed like pelanos, characteristic of the 
+                                    bloodless sacrifice. Thus, in this image there is a metaphorical 
+                                    feedback between bloody and bloodless sacrifice, building up on the one hand 
+                                    image of a bloody death on the one hand, and on the other a link to the repeatedly 
+                                    mentioned earlier, the offerings to the dead. </p>
+                                <p>816: αἱματοσφαγής - "bloody, sacrificial"; Aeschylus hapax 
+                                    legomenon. Compositum composed of αἷμα and the subject σφάγ- - from the verb σφάζω, associated with the ritual of blood sacrifice and meaning 
+                                    the slaughter of a victim. Neither Byzantine lexicons nor modern studies of the technical language of sacrifice invoke this adjective 
+                                    (e.g. Rudhardt). It is not even noted by the LSJ (also in the supplement). 
+                                    Zygmunt Węclewski's Greek-Polish dictionary (1905) gives the meaning of 
+                                    (sv.): "splashed with the blood of the slain", sanguine maculatus, and Montanari's dictionary (s.v.): "made with the blood of the slaughtered" with the indication that in the relevant passus it refers to libations. In the interpretation of the 
+                                    latter we would have "pelanos mixed with the blood of the slaughtered". 
+                                    Several late manuscripts contain the lection αἱματοσταγής instead of αἱματοσφαγής. In at least one instance, both Roger D. Dawe and Denys L. Page found the lesson overwritten. 
+                                    The sense of this compositum remains similar: 'dripping with blood', however 
+                                    the image of the metaphor is weakened by depriving it of its etymological connection to the language of blood sacrifice and the process of butchering a victim. 
+                                    Martin L. West, in his edition that forms the basis of this commentary, argues in favour of the αἱματοσταγής lesson, citing in the critical apparatus verse 1389 Ag. where we have the phrase αἵματος σφαγήν
+                                    (so also Garvie 2009: 313-314).</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                
+            </div>
+            
+            <div type="edition" xml:lang="pl">
+                    <div type="textpart" n="intro"> 
+                        <p>To najstarsza z zachowanych w całości sztuk Ajschylosa; wystawiona 
+                            w Atenach w roku 472 jako środkowa część trylogii. Persowie są „dramatem historycznym”, jak napisał Lesky (2006: 93), jednak poprzez 
+                            interpretację dziejów wykraczają poza historię. Opisują wydarzenia 
+                            w pałacu króla perskiego, w którym królowa, wdowa po Dariuszu, 
+                            oczekuje wiadomości o losach syna Kserksesa, wyprawionego na 
+                            podbój Hellady i stającego do bitwy pod Salaminą. Dramat zawiera 
+                            wspaniałą relację z tej bitwy (w. 353–432), napisaną przez jej uczestnika – Ajschylosa, oraz wizję ducha Dariusza przybywającego z Hadesu, 
+                            żeby zinterpretować działania własnego syna. Nade wszystko jednak 
+                            stanowi teologiczną interpretację wydarzeń. </p>
+                        <p>Tematyka ofiary krwawej jest w Persach nieobecna. Terminologia 
+                            techniczna związana z ofiarą krwawą pojawia się jedynie w związku 
+                            z ofiarami bezkrwawymi, które zostały odnotowane w komentarzu ze 
+                            względu na związki leksykograficzne z językiem ofiary w ogóle. </p>
+                        <p>   Tekst źródłowy według edycji: West (1991b)</p>
+                    </div>
+                    <div type="textpart" n="commentary">
+                        <div type="textpart" n="Persians_201-206">
+                            <head>Persians 201-206</head>
+                            <div type="textpart" n="201-206_intro">
+                                <p>Passus z przemowy królowej Atossy, w której najpierw opowiada ona swój złowróżbny sen o śmierci Kserksesa, a następnie relacjonuje znaki wyczytane z lotu ptaków – jastrzębia, który atakuje i pokonuje bezbronnego orła. Orzeł ten w wizji Atossy umykał 
+                                    przed sokołem w stronę ogniska lub ołtarza (eschara) rankiem, kiedy zamierzała złożyć ofiary. Passus nie zawiera odniesień do ofiary 
+                                    krwawej, wspomniane są jedynie ofiary z pelanosu i obrzędy oczyszczające. Zawiera jednak terminy techniczne związane z ofiarą krwawą: θυηπόλος, τέλος, βωμός, ἐσχάρα, które należy odnotować ze względu na ich funkcje w kontekstach bezpośrednio związanych 
+                                    z ofiarą krwawą. 
+                                </p>
+                                
+                                <quote>
+                                    <lb/>ἐπεὶ δ᾽ ἀνέστην καὶ χεροῖν καλλιρρόου 
+                                    <lb/>ἔψαυσα πηγῆς, σὺν θυηπόλῳ χερὶ 
+                                    <lb/>βωμὸν προσέστην, ἀποτρόποισι δαίμοσιν 
+                                    <lb/>θέλουσα θῦσαι πέλανον, ὧν τέλη τάδε. 
+                                    <lb/>ὁρῶ δὲ φεύγοντ᾽ αἰετὸν πρὸς ἐσχάραν 
+                                    <lb/>Φοίβου.
+                                </quote>
+                                
+                                <quote><emph>Tr.:</emph>Kiedy wstałam i zanurzyłam dłonie w pięknym bijącym 
+                                    Źródle, stanęłam przy ołtarzu z ręką spełniającą ofiary, 
+                                    Zamierzając złożyć w ofiarę pelanos bogom zła odwrócicielom, 
+                                    Którym takie ofiary są należne. 
+                                    Widzę zaś, że orzeł umyka w stronę ołtarza Feba.</quote>
+                            </div>
+                            
+                            <div type="textpart" n="commentary">
+                                <p>202: σὺν θυηπόλῳ χερί – „z ręką spełniającą ofiary”. Θυηπόλος 
+                                    – „ofiarny”, „spełniający ofiarę”, w postaci urzeczownikowionej, jak 
+                                    sugerują Suda (s.v.: Θυηπόλος: ὁ θύων, ὁ ἱερεύς) i Hesychios (s.v.: 
+                                    θυηπόλος· ὁ περὶ τὰς θυσίας ἀναστρεφόμενος, ἱερεύς) – „ofiarnik”, 
+                                    „kapłan”. </p>
+                                <p>203: θῦσαι πέλανον – „złożyć (oznacza spalić) w ofiarę pelanos”. Pelanos – półpłynna mieszanina miodu, mąki i oliwy (por. Fraenkel 1950, 
+                                    vol. 1: 54–55 w komentarzu do w. 96 Ag. oraz Jameson 1956: passim), 
+                                    ewentualnie ciastko ofiarne lub placek (por. Pauzaniasz 8.2.3: πέμματα 
+                                    ἐπιχώρια […], ἃ πελάνους καλοῦσιν ἔτι καὶ ἐς ἡμᾶς Ἀθηναῖοι). </p>
+                                <p>204: ὧν τέλη τάδε – „którym takie ofiary są należne”. Frits M.J. Waanders w swojej pracy poświęconej znaczeniu słów τέλος i τελέω (Waanders 
+                                    1983: 96, por. też 17) sugeruje tutaj znaczenie τέλος jako neutralne „task, 
+                                    duty”, co dawałoby sens „złożyć ofiarę bogom […], którym należy się takie działanie”. Wydaje się jednak, że bardziej podstawowe znaczenie, już 
+                                    to jedynie związane z performatyką rytuału ofiarnego (ibidem: 96), już to 
+                                    wprost tę ofiarę oznaczające (u Waandersa 1983: 96 – „offerings”, „religiousobligation” w odniesieniu do Supp. 122; Bielawski 2004: 65–68) jest tu bardziej uzasadnione ze względu na kontekst. Wydaje się nawet, że τέλη stanowią swoisty równoważnik dla πέλανον (szczegółowy komentarz do 
+                                    tego wersu Bielawski 2004: 69–70). Henry D. Broadhead (1960: 82) w swoim komentarzu do Persów zaznacza dwie możliwości znaczeń τέλη w tym 
+                                    miejscu: 1. jako „ryty”, „rytuały”, „czynności święte, obrzędowe”; 2. jako 
+                                    „ofiary” („offerings”). Ostatecznie jednak proponuje przekład: „require 
+                                    such offerings”. Najnowszy komentarz (Garvie 2009: 123) powiela te rozważania. W innej wcześniejszej pracy Waanders (1976: 478) wskazuje komentowany wers jako przykład zastosowania rzeczownika τέλος w jednoznacznie religijnym znaczeniu. W tym wypadku rzeczownik ten należy 
+                                    uznać za należący do technicznego języka ofiary, jakkolwiek nie ofiary 
+                                    krwawej (takie znaczenie jednak jest również możliwe). </p>
+                                <p>205: πρὸς ἐσχάραν – „w stronę ołtarza”; ἐσχάρα to przede wszystkim palenisko na ołtarzu, tutaj zastosowane metonimicznie na określenie całego ołtarza. 
+                                    Poza powyższym passusem jeszcze dwukrotnie, zarówno w radach przodownika chóru (w. 219–220: δεύτερον δὲ χρὴ χοὰς / γῇ τε 
+                                    καὶ φθιτοῖς χέασθαι), jak i później w deklaracjach Królowej (w. 229: 
+                                    πάντ᾽ ἐφήσομεν θεοῖσι τοῖς τ᾿ ἔνερθε γῆς φίλοις1
+                                    ), pojawiają się ofiary dla bogów oraz dla zmarłych – jednak w obydwu wypadkach jest to 
+                                    jedynie ofiara płynna połączona z modlitwą.
+                                    Podobnie w wersach 522–524, już po wysłuchaniu mowy posłańca 
+                                    o klęsce salamińskiej, Królowa deklaruje konieczność wzniesienia modłów do bogów (θεοῖς μὲν πρῶτον εὔξασθαι θέλω) oraz złożenia ziemi i zmarłym (γῇ τε καὶ φθιτοῖς) darów (δωρήματα), na które składa 
+                                    się przyniesiony z domu pelanos (λαβοῦσα πέλανον ἐξ οἴκων ἐμῶν). 
+                                    Obszerny passus z ofiarą dla zmarłego o charakterze nekromantycznym (w. 609–622) zawiera szczegółowe informacje na temat tego rodzaju ofiary i jej składników, jednak występujące w nim słownictwo 
+                                    techniczne nie zawiera żadnych – choćby metaforycznych – odniesień 
+                                    do ofiary krwawej. Tak samo zresztą jak później w mowie ducha Dariusza (w. 685).</p>
+                            </div>
+                        </div>
+                        <div type="textpart" n="Persians_816-817">
+                            <head>816-817</head>
+                            <div type="textpart" n="177-179">                     
+                                <quote>
+                                    <lb/>τόσος γὰρ ἔσται πέλανος αἱματοσφαγὴς 
+                                    <lb/>πρὸς γῇ Πλαταιῶν Δωρίδος λόγχης ὕπο.
+                                </quote>
+                                
+                                <quote><emph>Tr.: </emph>Bo taki krwawy, ofiarny pelanos
+                                    Dorycka włócznia wytoczy na platejskiej ziemi. </quote>
+                                
+                                <p>Passus z mowy ducha Dariusza, który zapowiada klęskę Persów 
+                                    pod Platejami, jako przyczynę klęski wskazując znieważenie greckich 
+                                    świątyń. Ajschylos posługuje się tu metaforą języka właściwego dla 
+                                    ofiary krwawej, przedstawiając śmierć żołnierzy perskich jako ofiarę 
+                                    (pelanos, zob. komentarz powyżej do w. 203), która wcześniej wielokrotnie jest wspominana przez Królową, chór i ducha Dariusza jako 
+                                    właściwa dla ziemi i zmarłych. W pewnym sensie metafora dotyczy 
+                                    też języka ofiary bezkrwawej – pelanos jako ofiara płynna i bezkrwawa 
+                                    staje się w poetyckiej wizji Ajschylosa ofiarą z krwi (αἷμα), w dodatku 
+                                    wytoczonej w sposób właściwy dla ofiary krwawej (σφαγής). W metaforycznym obrazie Dorowie za pomocą włóczni – a nie noża (machaira) 
+                                    jak w klasycznej ofierze krwawej – dokonują zarżnięcia (sphazein) nie 
+                                    zwierząt ofiarnych, ale Persów, by wytoczyć z nich krew. A krew ta 
+                                    składana jest z kolei w ofierze jak pelanos, charakterystyczny dla ofiary 
+                                    bezkrwawej. W obrazie tym występuje więc metaforyczne sprzężenie 
+                                    zwrotne między ofiarą krwawą i bezkrwawą, budując z jednej strony 
+                                    obraz krwawej śmierci, a z drugiej – związek z wielokrotnie wcześniej 
+                                    wspominanymi ofiarami dla zmarłych. </p>
+                                <p>816: αἱματοσφαγής – „krwawy, ofiarny”; Ajschylosowe hapax 
+                                    legomenon. Compositum złożone z αἷμα i tematu σφάγ- – od czasownika σφάζω, związanego z rytuałem ofiary krwawej i oznaczającego 
+                                    zarzynanie ofiary. Przymiotnika tego nie przywołują ani bizantyjskie leksykony, ani nowożytne opracowania języka technicznego ofiary 
+                                    (np. Rudhardt). Nie odnotowuje go nawet LSJ (także w suplemencie). 
+                                    Słownik grecko-polski Zygmunta Węclewskiego (1905) podaje znaczenie 
+                                    (sv.): „krwią zabitych zbryzgany”, sanguine maculatus, a słownik Montanariego (s.v.): „made with the blood of the slaughtered” z zaznaczeniem, że w odnośnym passusie dotyczy to libacji. W interpretacji tego 
+                                    ostatniego mielibyśmy „pelanos zmieszany z krwią zamordowanych”. 
+                                    W kilku późnych manuskryptach znajduje się lekcja αἱματοσταγής zamiast αἱματοσφαγής. Przynajmniej w jednym wypadku zarówno Roger D. Dawe, jak i Denys L. Page uznali tę lekcję za nadpisaną. 
+                                    Sens tego compositum pozostaje podobny: „ociekający krwią”, jednak 
+                                    obraz metafory zostaje osłabiony przez pozbawienie jej etymologicznego związku z językiem ofiary krwawej i procesu zarzynania ofiary. 
+                                    Martin L. West w swojej edycji, która stanowi podstawę tego komentarza, opowiada się za lekcją αἱματοσταγής, przywołując w aparacie krytycznym wers 1389 Ag., gdzie mamy zwrot αἵματος σφαγήν
+                                    (tak samo też Garvie 2009: 313–314).</p>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
