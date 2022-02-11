@@ -32,6 +32,8 @@
           <xsl:when test="starts-with(//t:idno[@type='filename'], 'text')"><xsl:text>text</xsl:text></xsl:when>
           <xsl:when test="starts-with(//t:idno[@type='filename'], 'com')"><xsl:text>comedy book chapter</xsl:text></xsl:when>
           <xsl:when test="starts-with(//t:idno[@type='filename'], 'trag')"><xsl:text>tragedy book chapter</xsl:text></xsl:when>
+          <xsl:when test="starts-with(//t:idno[@type='filename'], 'plato') or starts-with(//t:idno[@type='filename'], 'hipp')"><xsl:text>Corpus Platonicum and Hippocraticum book chapter</xsl:text></xsl:when>
+          <xsl:when test="starts-with(//t:idno[@type='filename'], 'hom')"><xsl:text>Homer book chapter</xsl:text></xsl:when>
         </xsl:choose>
       </p>
 

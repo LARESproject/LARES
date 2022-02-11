@@ -43,7 +43,7 @@
     <li>
       <a href="{kiln:url-for-match($match_id, ($language, $location_parts[2]), 0)}">
         <span class="index-instance-file">
-           <xsl:value-of select="substring-after($location_parts[2], '_')" /> <!-- to exclude prefix 'lexicon/text/com/trag' -->
+           <xsl:value-of select="substring-after($location_parts[2], '_')" /> <!-- to exclude prefix 'lexicon/text/com/trag/plato/hipp/hom' -->
         </span>
       </a>
     </li>

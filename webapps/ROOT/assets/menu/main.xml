@@ -49,38 +49,38 @@
         <item label="Iphigenia Aulidensis" match="local-tei-display-html" params="trag_31_iphigenia_aulidensis"/>
       </menu>
     </menu>
-    <menu label="II. Attic Comedy">
+    <menu label="II. Old Attic Comedy">
       <item label="Aves" match="local-tei-display-html" params="com_01_aves"/>
       <item label="Pax" match="local-tei-display-html" params="com_02_pax"/>
       <item label="Acharnenses" match="local-tei-display-html" params="com_03_acharnenses"/>
       <item label="Equites" match="local-tei-display-html" params="com_04_equites"/>
       <item label="Nubes" match="local-tei-display-html" params="com_05_nubes"/>
       <item label="Vespae" match="local-tei-display-html" params="com_06_vespae"/>
-      <item label="Lysistrata" match="local-tei-display-html" params="com_2_lysistrata"/><!-- 07 -->
+      <item label="Lysistrata" match="local-tei-display-html" params="com_07_lysistrata"/>
       <item label="Thesmophoriazousae" match="local-tei-display-html" params="com_08_thesmophoriazousae"/>
-      <item label="Ranae" match="local-tei-display-html" params="com_1_ranae"/><!-- 09 -->
+      <item label="Ranae" match="local-tei-display-html" params="com_09_ranae"/>
       <item label="Ecclesiazousae" match="local-tei-display-html" params="com_10_ecclesiazousae"/>
       <item label="Plutus" match="local-tei-display-html" params="com_11_plutus"/>
       <item label="Fragments" match="local-tei-display-html" params="com_12_fragments"/>
     </menu>
     <menu label="III. Corpus Platonicum. Corpus Hippocraticum">
       <menu label="Corpus Platonicum">
-        <item label="Cratylus" match="local-tei-display-html" params="cph_01_cratylus"/>
-        <item label="Critias" match="local-tei-display-html" params="cph_02_critias"/>
-        <item label="Euthydemus" match="local-tei-display-html" params="cph_03_euthydemus"/>
-        <item label="Euthyphro" match="local-tei-display-html" params="cph_04_euthyphro"/>
-        <item label="Leges" match="local-tei-display-html" params="cph_05_leges"/>
-        <item label="Lysis" match="local-tei-display-html" params="cph_06_lysis"/>
-        <item label="Phaedo" match="local-tei-display-html" params="cph_07_phaedo"/>
-        <item label="Politicus" match="local-tei-display-html" params="cph_08_politicus"/>
-        <item label="Protagoras" match="local-tei-display-html" params="cph_09_protagoras"/>
-        <item label="Respublica" match="local-tei-display-html" params="cph_10_respublica"/>
-        <item label="Symposium" match="local-tei-display-html" params="cph_11_symposium"/>
-        <item label="Pseudo-Platon, Alcibiades II" match="local-tei-display-html" params="cph_12_alcibiades_ii"/>
-        <item label="Pseudo-Platon, Epistula VII" match="local-tei-display-html" params="cph_13_epistula_vii"/>
-        <item label="Pseudo-Platon, Minos" match="local-tei-display-html" params="cph_14_minos"/>
+        <item label="Cratylus" match="local-tei-display-html" params="plato_01_cratylus"/>
+        <item label="Critias" match="local-tei-display-html" params="plato_02_critias"/>
+        <item label="Euthydemus" match="local-tei-display-html" params="plato_03_euthydemus"/>
+        <item label="Euthyphro" match="local-tei-display-html" params="plato_04_euthyphro"/>
+        <item label="Leges" match="local-tei-display-html" params="plato_05_leges"/>
+        <item label="Lysis" match="local-tei-display-html" params="plato_06_lysis"/>
+        <item label="Phaedo" match="local-tei-display-html" params="plato_07_phaedo"/>
+        <item label="Politicus" match="local-tei-display-html" params="plato_08_politicus"/>
+        <item label="Protagoras" match="local-tei-display-html" params="plato_09_protagoras"/>
+        <item label="Respublica" match="local-tei-display-html" params="plato_10_respublica"/>
+        <item label="Symposium" match="local-tei-display-html" params="plato_11_symposium"/>
+        <item label="Pseudo-Platon, Alcibiades II" match="local-tei-display-html" params="plato_12_alcibiades_ii"/>
+        <item label="Pseudo-Platon, Epistula VII" match="local-tei-display-html" params="plato_13_epistula_vii"/>
+        <item label="Pseudo-Platon, Minos" match="local-tei-display-html" params="plato_14_minos"/>
       </menu>
-      <item label="Corpus Hippocraticum" match="local-tei-display-html" params="cph_15_corpus_hippocraticum"/>
+      <item label="Corpus Hippocraticum" match="local-tei-display-html" params="hipp_15_corpus"/>
     </menu>
     <menu label="IV. Homer">
     </menu>

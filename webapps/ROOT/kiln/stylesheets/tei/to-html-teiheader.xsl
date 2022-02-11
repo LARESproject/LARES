@@ -6,7 +6,7 @@
 
   <!-- Transform a TEI document's teiHeader into HTML. -->
 
-  <xsl:template match="tei:author">
+  <!--<xsl:template match="tei:author">
     <xsl:if test="not(preceding-sibling::tei:author)">
       <p>
         <strong>
@@ -33,8 +33,8 @@
   <xsl:template match="tei:change">
     <li>
       <xsl:apply-templates select="@when" />
-      <!-- A tei:change may contain so much markup that it is best to
-           use the base templates to render it. -->
+      <!-\- A tei:change may contain so much markup that it is best to
+           use the base templates to render it. -\->
       <xsl:apply-templates />
       <xsl:apply-templates select="@who" />
     </li>
@@ -142,14 +142,19 @@
         <xsl:apply-templates />
       </div>
     </section>
+  </xsl:template>-->
+  
+  <xsl:template match="tei:title[ancestor::tei:sourceDesc]">
+    <i><xsl:apply-templates/></i>
   </xsl:template>
 
   <xsl:template match="tei:teiHeader">
     <!-- Display metadata about this document, drawn from the TEI
          header. -->
-    <div class="section-container accordion" data-section="accordion">
-      <xsl:apply-templates />
-      <section>
+    <div class="chapter_description"> <!-- class="section-container accordion" data-section="accordion" -->
+      <xsl:apply-templates select="//tei:sourceDesc" />
+      <xsl:apply-templates select="//tei:listChange" />
+      <!--<section>
         <h2 class="title" data-section-title="">
           <small><a href="#">Other Formats</a></small>
         </h2>
@@ -163,11 +168,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section>-->
     </div>
   </xsl:template>
 
-  <xsl:template match="tei:seriesStmt/tei:title">
+  <!--<xsl:template match="tei:seriesStmt/tei:title">
     <p>
       <strong>Series title:</strong>
       <xsl:text> </xsl:text>
@@ -203,6 +208,6 @@
       </xsl:otherwise>
     </xsl:choose>
     <xsl:text>] </xsl:text>
-  </xsl:template>
+  </xsl:template>-->
 
 </xsl:stylesheet>

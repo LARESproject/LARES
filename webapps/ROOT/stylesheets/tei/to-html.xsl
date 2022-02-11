@@ -18,12 +18,45 @@
   <!--<xsl:template match="tei:seg[@xml:lang!=$language]"/>-->
   <xsl:template match="tei:div[@type='edition'][@xml:lang!=$language][not(@n)]"/>
   
+  <xsl:template match="tei:sourceDesc//tei:p[1]">
+    <div>
+      <p><b>Original publication: </b> <xsl:apply-templates/></p>
+    </div>
+  </xsl:template>
+  
+  <xsl:template match="tei:listChange">
+    <div>
+      <p>
+        <b>Authors: </b>
+      <xsl:for-each select="tei:change">
+        <xsl:sort select="position()" order="descending"/>
+        <xsl:value-of select="@who"/><xsl:text> (</xsl:text>
+        <xsl:value-of select="@when"/>
+        <xsl:if test="normalize-space(.)!=''"><xsl:text>: </xsl:text><xsl:value-of select="."/></xsl:if>
+        <xsl:text>)</xsl:text>
+        <xsl:if test="position()!=last()"><xsl:text>; </xsl:text></xsl:if>
+      </xsl:for-each>
+      </p>
+    </div>
+  </xsl:template>
+  
   <xsl:template match="tei:div[@n]">
     <div id="{@n}"><xsl:apply-templates/></div>
   </xsl:template>
   
   <xsl:template match="tei:lb[@n]">
-    <br/><span style="margin-left:-1px"><xsl:text>(</xsl:text><xsl:value-of select="@n"/><xsl:text>) </xsl:text></span>
+    <xsl:choose>
+      <xsl:when test="not(ancestor::tei:quote)"><br/></xsl:when>
+      <xsl:when test="ancestor::tei:quote and (preceding-sibling::node() or normalize-space(string-join(preceding-sibling::text(), ''))!='')"><br/></xsl:when>
+    </xsl:choose>
+    <xsl:text>(</xsl:text><xsl:value-of select="@n"/><xsl:text>) </xsl:text>
+  </xsl:template>
+  
+  <xsl:template match="tei:quote//tei:lb[1][not(@n)]">
+    <xsl:choose>
+      <xsl:when test="not(preceding-sibling::node()) or not(normalize-space(string-join(preceding-sibling::text(), ''))!='')"></xsl:when>
+      <xsl:otherwise><br/></xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
   <xsl:template match="tei:emph[ancestor::tei:quote]">
@@ -32,13 +65,6 @@
   
   <xsl:template match="tei:quote">
     <p class="quotation"><xsl:apply-templates/></p>
-  </xsl:template>
-  
-  <xsl:template match="tei:quote//tei:lb[1]">
-    <xsl:choose>
-      <xsl:when test="not(preceding-sibling::node()) or not(normalize-space(string-join(preceding-sibling::text(), ''))!='')"></xsl:when>
-      <xsl:otherwise><br/></xsl:otherwise>
-    </xsl:choose>
   </xsl:template>
   
   <xsl:template match="tei:listBibl//tei:bibl">

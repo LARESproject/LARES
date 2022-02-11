@@ -69,6 +69,12 @@ body {
     font-weight: bold;
 }
 
+.chapter_description {
+    border: 1px solid #546979;
+    padding: 1em 1.5em 0.1em 1.5em;
+    margin: 1em;
+}
+
 /* header */
 nav.top-bar, nav.top-bar ul.right li, nav.top-bar ul.left * {
     background-color: #546979;

@@ -25,7 +25,8 @@
     <kiln:block name="content">
       <div class="row">
         <div class="large-12 columns">
-          <xsl:apply-templates select="/aggregation/tei:TEI/tei:text/tei:body" />
+          <xsl:apply-templates select="/aggregation/tei:TEI/tei:teiHeader" />
+          <xsl:apply-templates select="/aggregation/tei:TEI/tei:text" />
         </div>
       </div>
     </kiln:block>
