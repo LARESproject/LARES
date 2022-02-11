@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Euthydemus (Εὐθύδημος, Eutidemo)</title>
+                <title xml:lang="en">Euthydemus (Εὐθύδημος, Euthydemus)</title>
+                <title xml:lang="pl">Euthydemus (Εὐθύδημος, Eutydem)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">plato_03_euthydemus</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Euthydemus (Εὐθύδημος, Eutydem)</title>, in Przemysław Biernat, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Corpus Platonicum. Corpus Hippocraticum</title>, Warszawa 2017, pp. 42-43</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Przemysław Biernat">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>L'opera si colloca cronologicamente tra i primi e i medi dialoghi di Platone. La sua azione drammatica può essere stabilita tra il 420 e il 404 a.C. (Guthrie 1975: 267). Il dialogo è un lungo discorso di Socrate, che riferisce al suo amico Kritone la lotta verbale che ha avuto con due fratelli sufi-panocrati venuti ad Atene da Thourioi - Dionysodorus ed Euthydes. I luoghi commentati sono tratti dai due sofismi di Dionisodoro, in cui l'eloquente pugile gioca sull'ambiguità della grammatica (il primo sofisma) e sulle espressioni con pronomi possessivi (il secondo sofisma). Per commenti generali sui sofismi, si veda Chance (1992), Palpacelli (2009), tra gli altri.</p>
+                    <p>Testo basato sull'edizione di Méridier (1931a).</p>
+                </div>
+                <div type="textpart" n="Euthydemus_301c-d">
+                    <head>Eutidemo 301c-d:</head>
+                    <p>Questo passus è un'enumerazione dei compiti del magejros (mageiros), macellaio e cuoco in uno, la cui partecipazione al sacrificio di sangue risultava dalla sua stessa natura (vedi Berthiaume 1982).</p>
+                    <quote>τί δέ, σφάττειν τε καὶ ἐκδέρειν καὶ τὰ μικρὰ κρέα κατακόψαντα ἕψειν καὶ ὀπτᾶν; [301d] μάγειρον, ἦν δ᾽ ἐγώ.</quote>
+                    <quote>E chi macella, scuoia e, dopo aver tagliato la carne a pezzi, la cucina e la arrostisce? [Il macellaio, risposi.</quote>
+                    <p>Mageiros è menzionato in una riga con il fabbro e il vasaio, il che sembra confermare la supposizione di Berthiaume (1982: 12-14) che nel quinto secolo si può già parlare di una professione formata che accompagnano i sacrifici del macellaio. Significativamente, il sofista non dice che i compiti del macellaio includono il sacrificio di animali (thyein), ma piuttosto elenca una serie di attività la cui natura deve essere considerata tecnica, con la macellazione (sphattein) al primo posto. Questo ci permette di comprendere meglio il rapporto in cui i verbi sphattein (= spha- zein) e thyein rimangono in relazione tra loro ("Σφάζω s'oppose à θύω, non plus comme un rite à l'ensemble, mais comme un terme techinque à un terme général", Casabona 1966: 335; vedi anche Henrichs 2012: 186).</p>
+                </div>
+                <div type="textpart" n="Euthydemus_301e-302a">
+                    <head>Eutidemo 301e-302a:</head>
+                    <p>Il passus deriva dal secondo sofisma di Dionysodorus, che sfrutta l'ambiguità dei pronomi possessivi.</p>
+                    <quote>ἆρ᾽ οὖν, ἔφη, ταῦτα ἡγῇ σὰ εἶναι, ὧν ἂν ἄρξῃς καὶ ἐξῇ [302a] σοι αὐτοῖς χρῆσθαι ὅτι ἂν βούλῃ; οἷον βοῦς καὶ πρόβατον, ἆρ᾽ ἂν ἡγοῖο ταῦτα σὰ εἶναι, ἅ σοι ἐξείη καὶ ἀποδόσθαι καὶ δοῦναι καὶ θῦσαι ὅτῳ βούλοιο θεῶν; ἃ δ᾽ ἂν μὴ οὕτως ἔχῃ, οὐ σά;</quote>
+                    <quote>Considerate dunque queste cose, dice, come vostre, sulle quali avete il controllo e con le quali potete fare ciò che volete? Prendete, per esempio, un bue o una pecora. Le consideri tue, che puoi dare e dare e sacrificare a qualsiasi dio tu voglia? E quelli che non potete, perché non sono vostri?</quote>
+                    <p>Qui Dionysodoros stabilisce il significato del pronome possessivo che corona il suo sofisma: poiché avere è poter vendere et cetera, allora chiunque abbia dei nativi può venderli et cetera (302d-303a; cfr. Parker 2005: 22-23). È interessante notare che egli usa l'esempio del bestiame, e l'enumerazione delle possibilità a cui va incontro il proprietario di una pecora o di un bue dà l'impressione di essere paragmatica: usare il proprio animale a proprio piacimento è fare precisamente una di queste tre cose con esso: venderlo, darlo a qualcuno o sacrificarlo a qualsiasi dio (Dionysodoros ripete questa frazione in 302e). Quest'ultimo elemento della lista può essere considerato come l'equivalente dell'uccisione di un animale per poterlo mangiare - dopo tutto, molti animali erano allevati proprio per questo scopo. Detienne credeva che l'intero la carne mangiata dai greci proveniva dai sacrifici ("toute viand con- sommable doit venir d'une mise à mort rituelle", Detienne 1979a: 21), sembra, tuttavia, che in una formulazione così radicale la tesi sia insostenibile. Vedi Ekroth (2007), Parker (2011: 131).
+                        Nell'interpretare l'affermazione di Dionisodoro, possiamo prendere in considerazione il modo in cui Platone ha trattato le questioni sacrificali negli altri suoi dialoghi. Così, il sofista non elenca tutte le cose che possiamo fare con i nostri beni (la lista sarebbe troppo lunga e non servirebbe a nulla), ma i suoi esempi non sono nemmeno tre scelti a caso da una moltitudine di possibilità. Ciò che Dionysodoros dà sono tre modalità di dare: si può "dare-come-merce" (indicato dal verbo ἀποδίδομαι, 'vendere'), 'dare-come-cose' (in modo non nativo, da cui il generico δίδωμι) o "dare-come-regalo" (θύω). Una tale lettura del passo richiede l'assunzione di un'associazione diretta delle parole θύειν e δώρεισθαι nella mente dei Greci, e il consenso che si sta sviluppando tra gli studiosi negli ultimi anni sembra andare verso la conferma di questa ipotesi (vedi Parker 2011; Naiden 2013). Senza dubbio tale associazione esisteva nella mente di almeno un greco - Platone. Troviamo tracce di tale pensiero sul sacrificio in diversi dialoghi (Eutifrone 14a-15b, Politica 290c-d), ma possiamo identificarlo con certezza con le opinioni di Platone stesso solo nelle Leggi (716c-717a), dove la donazione diventa una metonimia dell'intero culto degli dei. Il filosofo vi afferma che la cosa migliore per un uomo buono è θύειν καὶ προσομιλεῖν ἀεὶ τοῖς θεοῖς εὐχαῖς καὶ ἀναθήμασιν καὶ συμπάσῃ θεραπείᾳ θεῶν ("offrire sacrifici e avere rapporti costanti con gli dei attraverso le preghiere, offerte e tutto il culto degli dei", 716d), mentre il contrario vale per il malvagio; perché da un uomo contaminato (μιαρός) né un altro uomo né un dio possono "ricevere doni" correttamente (716e-717a).
+                </p></div>
+              
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>The work is placed chronologically between Plato's first and middle dialogues. Its dramatic action can be established between 420 and 404 BC. (Guthrie 1975: 267). The dialogue is a long speech by Socrates, who reports to his friend Kriton the verbal struggle he had with two Sufi-panocratic brothers who came to Athens from Thourioi - Dionysodorus and Euthydes. The places commented on are taken from the two sophisms of Dionysodorus, in which the eloquent boxer plays on the ambiguity of grammar (the first sophism) and on expressions with possessive pronouns (the second sophism). For general comments on sophisms, see Chance (1992), Palpacelli (2009), among others.</p>
+                        <p>Text based on the Méridier edition (1931a).</p>
+                </div>
+                <div type="textpart" n="Euthydemus_301c-d">
+                    <head>Euthydemus 301c-d:</head>
+                    <p>This passus is an enumeration of the tasks of the magejros (mageiros), butcher and cook in one, whose participation in blood sacrifice resulted from his very nature (see Berthiaume 1982).</p>
+                    <quote>τί δέ, σφάττειν τε καὶ ἐκδέρειν τὰ μικρὰ κρέα κατακόψαντα ἕψειν καὶ ὀπτᾶν; [301d] μάγειρον, ἦν δ᾽ ἐγώ.</quote>
+                    <quote>And who butchers, skins and, after cutting the meat into pieces, cooks and roasts it? [The butcher, I replied.</quote>
+                    <p>Mageiros is mentioned in a row with the blacksmith and the potter, which seems to confirm Berthiaume's (1982: 12-14) supposition that in the fifth century we can already speak of a trained profession accompanying the butcher's sacrifices. Significantly, the Sophist does not say that the butcher's tasks include animal sacrifice (thyein), but rather lists a series of activities whose nature must be considered technical, with slaughtering (sphattein) in first place. This allows us to better understand the relationship in which the verbs sphattein (= spha- zein) and thyein remain in relation to each other ('Σφάζω s'oppose à θύω, non plus comme un rite à l'ensemble, mais comme un terme techinque à un terme général', Casabona 1966: 335; see also Henrichs 2012: 186).</p>
+                </div>
+                <div type="textpart" n="Euthydemus_301e-302a">
+                    <head>Euthydemus 301e-302a:</head>
+                    <p>The passus derives from the second sophism of Dionysodorus, which exploits the ambiguity of possessive pronouns.</p>
+                    <quote>ἆρ᾽ οὖν, ἔφη, ταῦτα ἡγῇ σὰ εἶναι, ὧν ἂν ἄρξῃς καὶ ἐξῇ [302a] σοι αὐτοῖς χρῆσθαι ὅτι ἂν βούλῃ; οἷον βοῦς καὶ πρόβατον, ἆρ᾽ ἂν ἡγοῖο ταῦτα σὰ εἶναι, ἅ σοι ἐξείη καὶ ἀποδόσθαι καὶ δοῦναι καὶ θῦσαι ὅτῳ βούλοιο θεῶν; ἃ δ᾽ ἂν οὕτως ἔχῃ, οὐ σά;</quote>
+                    <quote>Do you then consider these things, he says, as your own, over which you have control and with which you can do what you will? Take, for example, an ox or a sheep. Do you consider them yours, which you can give and give and sacrifice to any god you wish? What about those you cannot, because they are not yours?</quote>
+                    <p>Here Dionysodoros establishes the meaning of the possessive pronoun that crowns his sophism: since to have is to be able to sell et cetera, then whoever has natives can sell them et cetera (302d-303a; cf. Parker 2005: 22-23). Interestingly, he uses the example of cattle, and the enumeration of the possibilities open to the owner of a sheep or an ox gives the impression of being paragmatic: to use one's animal as one pleases is to do precisely one of these three things with it: to sell it, to give it to someone, or to sacrifice it to any god (Dionysodoros repeats this fraction in 302e). This last item on the list can be regarded as the equivalent of killing an animal in order to eat it - after all, many animals were bred for this very purpose. Detienne believed that the entire meat eaten by the Greeks came from sacrifices ('toute viand con- sumble doit venir d'une mise à mort rituelle', Detienne 1979a: 21), it seems, however, that in such a radical formulation the thesis is untenable. See Ekroth (2007), Parker (2011: 131).
+                        In interpreting Dionysodorus' claim, we can take into account the way Plato treated sacrificial issues in his other dialogues. Thus, the sophist does not list all the things we can do with our possessions (the list would be too long and would serve no purpose), but his examples are not even three chosen at random from a multitude of possibilities. What Dionysodoros gives are three modes of giving: one can 'give-as-merce' (indicated by the verb ἀποδίδομαι, 'sell'), 'give-as-things' (non-natively, hence the generic δίδωμι) or 'give-as-gift' (θύω). Such a reading of the passage requires the assumption of a direct association of the words θύειν and δώρεισθαι in the minds of the Greeks, and the consensus developing among scholars in recent years seems to be moving towards confirming this hypothesis (see Parker 2011; Naiden 2013). No doubt such an association existed in the mind of at least one Greek - Plato. We find traces of such thinking about sacrifice in several dialogues (Euthyphro 14a-15b, Politics 290c-d), but we can only identify it with certainty with Plato's own views in the Laws (716c-717a), where donation becomes a metonymy for the whole cult of the gods. The philosopher states there that the best thing for a good man is θύειν καὶ προσομιλεῖν ἀεὶ τοῖς θεοῖς εὐχαῖς καὶ ἀναθήμασιν καὶ συμπάσῃ θεραπείᾳ θεῶν ("offering sacrifices and having constant dealings with the gods through prayers, offerings and all the worship of the gods", 716d), while the opposite is true of the wicked; for from a defiled man (μιαρός) neither another man nor a god can 'receive gifts' properly (716e-717a).
+                    </p></div>
+              
+            </div>
+            
+            <div type="edition" xml:lang="pl">
+                <div type="textpart" n="intro">
+                    <p>Dzieło umiejscawiane jest chronologicznie między wczesnymi a środkowymi dialogami Platona. Jego akcję dramatyczną można ustanowić 
+                        między 420 a 404 r. p.n.e. (Guthrie 1975: 267). Dialog jest długim opowiadaniem Sokratesa, który relacjonuje swojemu przyjacielowi Kritonowi słowne zapasy, jakie stoczył z dwójką braci sofistów-pankratiastów przybyłych do Aten z Thourioi – Dionizodorem i Eutydemem. 
+                        Komentowane miejsca pochodzą z dwóch sofizmatów Dionizodora, 
+                        w których elokwentny bokser rozgrywa wieloznaczność gramatyki 
+                        (pierwszy sofizmat) i wyrażeń wykorzystujących zaimki dzierżawcze 
+                        (drugi sofizmat). Ogólne komentarze do sofizmatów można znaleźć 
+                        m.in. w Chance (1992), Palpacelli (2009).</p> <p>Przekład polski: Witwicki (1957).
+                            Tekst na podstawie wydania: Méridier (1931a)</p>
+                </div>
+                <div type="textpart" n="Euthydemus_301c-d">
+                    <head>Eutidem 301c-d:</head>
+                    <p>Passus ten jest wyliczeniem obowiązków magejrosa (mageiros) – 
+                        rzeźnika i kucharza w jednym, którego udział w ofierze krwawej wynikał z samego jej charakteru (zob. Berthiaume 1982).</p>
+                    <quote>τί δέ, σφάττειν τε καὶ ἐκδέρειν τὰ μικρὰ κρέα κατακόψαντα ἕψειν καὶ ὀπτᾶν; [301d] μάγειρον, ἦν δ᾽ ἐγώ.</quote>
+                    <quote>A kto zarzyna, obdziera ze skóry i, pokroiwszy mięso na kawałki, gotuje je i piecze? [301d] Rzeźnik, odpowiedziałem</quote>
+                    <p>Mageiros został wymieniony w jednym rzędzie z kowalem i garncarzem, co wydaje się potwierdzać przypuszczenie Berthiaume’a (1982: 
+                        12–14), że w V w. możemy już mówić o ukształtowanym zawodzie towarzyszącego ofiarom rzeźnika. Co znamienne, sofista nie mówi, że 
+                        do zadań rzeźnika należy składanie zwierząt w ofierze (thyein), a jedynie wymienia szereg czynności, których charakter należy uznać za 
+                        techniczny, z zarzynaniem (sphattein) w pierwszej kolejności. Pozwala 
+                        nam to lepiej zrozumieć relację, w jakiej czasowniki sphattein (= sphazein) i thyein pozostają względem siebie („Σφάζω s’oppose à θύω, non 
+                        plus comme un rite à l’ensemble, mais comme un terme techinque à un 
+                        terme général”, Casabona 1966: 335; zob. też Henrichs 2012: 186).</p>
+                </div>
+                <div type="textpart" n="Euthydemus_301e-302a">
+                    <head>Eutidem 301e-302a:</head>
+                    <p>Passus pochodzi z drugiego sofizmatu Dionizodora, wykorzystującego niejednoznaczność zaimków dzierżawczych.</p>
+                    <quote>ἆρ᾽ οὖν, ἔφη, ταῦτα ἡγῇ σὰ εἶναι, ὧν ἂν ἄρξῃς καὶ ἐξῇ [302a] σοι αὐτοῖς χρῆσθαι ὅτι ἂν βούλῃ; οἷον βοῦς καὶ πρόβατον, ἆρ᾽ ἂν ἡγοῖο ταῦτα σὰ εἶναι, ἅ σοι ἐξείη καὶ ἀποδόσθαι καὶ δοῦναι καὶ θῦσαι ὅτῳ βούλοιο θεῶν; ἃ δ᾽ ἂν οὕτως ἔχῃ, οὐ σά;</quote>
+                    <quote>Czy więc te rzeczy – powiada – uważasz za swoje, nad którymi panujesz i z którymi możesz [302a] zrobić, co zechcesz? Weźmy na przykład woła czy owcę. Czy uznasz, że te są twoje, które możesz i sprzedać, i dać, i złożyć w ofierze, któremu bogu zechcesz? A te, których 
+                        nie możesz, za nie swoje?</quote>
+                    <p>W miejscu tym Dionizodoros ustala znaczenie zaimka dzierżawczego, które zwieńczy jego sofizmat: skoro mieć to móc sprzedać et 
+                        cetera, to każdy, kto ma ojczystych bogów, może ich sprzedać et cetera
+                        (302d–303a; por. Parker 2005: 22–23). Co ciekawe, posługuje się przy 
+                        tym przykładem zwierząt hodowlanych, a wyliczenie możliwości, 
+                        przed którymi stoi posiadacz owcy czy wołu, sprawia wrażenie paradygmatycznego: używać własnego zwierzęcia jak się komu podoba to 
+                        zrobić z nim właśnie jedną z tych trzech rzeczy: sprzedać, dać komuś 
+                        lub złożyć w ofierze dowolnemu bogu (Dionizodoros powtarza tę frazę w 302e). Ten ostatni element wyliczenia można uznać za ekwiwalent zabicia zwierzęcia po to, by można je było zjeść – ostatecznie wiele zwierząt hodowano właśnie w tym celu. Detienne uważał, że całe mięso spożywane przez Greków pochodziło z ofiar („toute viand consommable doit venir d’une mise à mort rituelle”, Detienne 1979a: 21), 
+                        wydaje się jednak, że w tak radykalnym brzmieniu teza ta jest nie do 
+                        utrzymania. Zob. Ekroth (2007), Parker (2011: 131).
+                        Interpretując wypowiedź Dionizodora, możemy wziąć pod uwagę sposób, w jaki Platon ujmował kwestie ofiarnicze w innych swoich 
+                        dialogach. Sofista nie wymienia więc wszystkich rzeczy, jakie możemy zrobić z naszą własnością (lista byłaby zbyt długa i nie służyłaby 
+                        niczemu), ale jego przykłady nie są też trzema przypadkowo wybranymi z bezmiaru możliwości. Tym, co podaje Dionizodoros, są trzy 
+                        modalności dawania: można „dawać-jak-towar” (na co wskazuje czasownik ἀποδίδομαι, „sprzedawać”), „dawać-jak-rzecz” (w sposób nienacechowany, stąd ogólne δίδωμι) lub „dawać-jak-dar” (θύω). Takie 
+                        odczytanie tego fragmentu wymaga założenia bezpośredniej asocjacji 
+                        słów θύειν i δώρεισθαι w umysłach Greków i wydaje się, że konsensus, jaki wykształca się wśród uczonych w ostatnich latach, zmierza 
+                        do potwierdzenia tego założenia (zob. Parker 2011; Naiden 2013). </p>
+                        <p>Bez 
+                        wątpienia asocjacja taka istniała w umyśle przynajmniej jednego Greka – Platona. Ślady takiego myślenia o ofierze odnajdujemy w kilku 
+                        dialogach (Eutyfron 14a–15b, Polityk 290c–d), ale z poglądami samego 
+                        Platona możemy je z całą pewnością utożsamiać dopiero w Prawach
+                        (716c–717a), gdzie darowanie staje się metonimią całego kultu bogów. 
+                        Filozof stwierdza tam, że dla człowieka dobrego najlepszą rzeczą jest 
+                        θύειν καὶ προσομιλεῖν ἀεὶ τοῖς θεοῖς εὐχαῖς καὶ ἀναθήμασιν καὶ 
+                        συμπάσῃ θεραπείᾳ θεῶν („składać ofiary i stale obcować z bogami 
+                        za sprawą modlitw, darów wotywnych i całego kultu bogów”, 716d), 
+                        dla złego zaś – wprost przeciwną; ponieważ od człowieka skalanego (μιαρός) ani inny człowiek, ani bóg nie mogą „otrzymać darów” 
+                        w sposób właściwy (716e–717a) </p></div>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

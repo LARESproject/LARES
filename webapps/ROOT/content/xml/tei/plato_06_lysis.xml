@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Lysis (Λύσις, Liside)</title>
+                <title xml:lang="en">Lysis (Λύσις, Lisys)</title>
+                <title xml:lang="pl">Lysis (Λύσις, Lizys)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">plato_06_lysis</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Lysis (Λύσις, Lizys)</title>, in Przemysław Biernat, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Corpus Platonicum. Corpus Hippocraticum</title>, Warszawa 2017, pp. 107-109</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Przemysław Biernat">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>Lisia è stato tradizionalmente annoverato tra i primi dialoghi 
+                        essere stato scritto da Platone (cfr. D.L. 3.35), alcuni studiosi hanno indicato 
+                        Tuttavia, un certo numero di caratteristiche che collegano il dialogo alle opere del periodo medio (vedi Sowa 2007: 3-5). Il tema del dialogo è l'amicizia. Dal nostro 
+                        Dal nostro punto di vista è interessante solo per la menzione 
+                        Il dialogo è il tema dell'amicizia. Dal nostro punto di vista, è interessante solo dal punto di vista della menzione di Hermay - la festa dei ragazzi, che veniva celebrata nei palestras.</p>
+                    <p>Traduzioni in polacco: Witwicki (1937), Sowa (2007).
+                        Testo basato sull'edizione di Burnet (1903).</p> 
+                </div>
+                <div type="textpart" n="Lysis_301c-d">
+                    <head>Lysis 206c–e:</head>
+                    <p>Socrate vuole parlare con Lisia. Hippothales lo consiglia su come 
+                        meglio organizzare una conversazione con il giovane.</p>
+                    <quote>„ἀλλ᾽ οὐδέν, ἔφη, χαλεπόν. ἂν γὰρ εἰσέλθῃς μετὰ Κτησίππου 
+                        τοῦδε καὶ καθεζόμενος διαλέγῃ, οἶμαι μὲν καὶ αὐτός σοι πρόσεισι—
+                        φιλήκοος γάρ, ὦ Σώκρατες, διαφερόντως [206d] ἐστίν, καὶ ἅμα, ὡς 
+                        Ἑρμαῖα ἄγουσιν, ἀναμεμειγμένοι ἐν ταὐτῷ εἰσιν οἵ τε νεανίσκοι 
+                        καὶ οἱ παῖδες.” […] καὶ ἅμα λαβὼν τὸν [206e] Κτήσιππον προσῇα 
+                        εἰς τὴν παλαίστραν: οἱ δ᾽ ἄλλοι ὕστεροι ἡμῶν ᾖσαν. εἰσελθόντες 
+                        δὲ κατελάβομεν αὐτόθι τεθυκότας τε τοὺς παῖδας καὶ τὰ περὶ 
+                        τὰ ἱερεῖα σχεδόν τι ἤδη πεποιημένα, ἀστραγαλίζοντάς τε δὴ καὶ 
+                        κεκοσμημένους ἅπαντας</quote>
+                    <quote>"Ma niente di difficile, ha detto. Se ci vai con Ktezypp, 
+                        si sieda e cominci a parlare, penso che sarà lui stesso ad avvicinarsi a lei - 
+                        perché ama immensamente ascoltare, [206d] Socrate. Eppure, come hanno 
+                        Hermai ora, i giovani e i bambini sono mescolati insieme". [...] Allora presi [206e] Ctesippo con me e andai alla palestra, e gli altri 
+                        ci ha seguiti. Entrando abbiamo visto che i ragazzi avevano già offerto sacrifici e che 
+                        quasi tutto al rito era già stato fatto - tutti stavano giocando 
+                        così stavano tutti giocando a dadi vestiti a festa
+                    </quote>
+                    <p>206d: Ἑρμαῖα (Hermaja) - la festa di Hermes, comune in tutto il mondo greco (Johnston 2003: 161-162), e fino a un certo punto l'unica 
+                        goduto in Atene da questo dio (Versnel 2011: 351). Hermaja erano 
+                        una festa per i giovani ragazzi che frequentavano i palestras, e le competizioni sportive erano una parte importante di essa (Scanlon 2002: 91-92). Hermes 
+                        non aveva un proprio tempio ad Atene (anche se una sua immagine di legno si trovava al tempo di Pausania nel tempio di Atena Polias, 
+                        Paus. 1.27.1), e il luogo dove si teneva la festa era il 
+                        gymnasia (Mikalson 1998: 195, nota 78; cfr. Aeschin. 1.10). Nel periodo ellenistico, un funzionario chiamato 
+                        ginnasiarca (IG II2
+                        1227.7).
+                        Christopher Planeaux (2001: 64-66) ha suggerito che l'Hermaja, 
+                        cui si fa riferimento nel dialogo, ha avuto luogo il terzo giorno dell'Antesteria, 
+                        Tuttavia, questa è una visione isolata. Sotto il nome di Hermaeans, gli ateniesi 
+                        La cavalleria celebrava anche un'altra festa di Hermes, attestata 
+                        solo nel secondo secolo a.C. (IG II2
+                        895.5). Sappiamo anche di un'iscrizione che commemora la vittoria di Demetrio di Faleron in una corsa di carri 
+                        durante l'Hermes (IG II2
+                        2971.13), presumibilmente diversi da quelli 
+                        Platone cita (Parker 2005: 392, nota 23)</p>
+                    <p>206e: τεθυκότας... τὰ περὶ τὰ ἱερεῖα - "hanno già offerto sacrifici... al 
+                        rito" (letteralmente, "agli animali sacrificali"; la parola hiereion è il termine più generale per un animale sacrificale (Casabona 1966: 
+                        31-38). L'Hermes ateniese, tuttavia, fu raramente il destinatario di un sacrificio di tipo thysia (l'iscrizione attestata è solo una thysia per Hermes Hegemonios, IG II² 1496, Mikalson 1975: 145; vedi anche l'osservazione di Versnel 
+                        2011: 351), quindi questo può riferirsi a un sacrificio di tipo trapezomata (vedi Gill 1974; 
+                        Gill 1991), in cui gli alimenti venivano offerti agli dei sotto forma di depositi. 
+                        Questi alimenti alla fine andavano al personale del tempio (Gill 1991: 
+                        15-19) o venivano mangiati dagli stessi sacrificatori (quando l'offerta veniva fatta 
+                        in un ambiente privato, vedi Versnel 2011: 358). L'offerta di sacrifici di questo tipo a Hermes ad Atene sembra essere suggerita da un passus in Plutos (1103-1145). Lì Hermes si contrappone agli dei dell'Olimpo, che si nutrono del fumo dei femori bruciati (vedi Versnel 
+                        2011: 353-357). La dieta di Hermes, d'altra parte, si sovrappone alla dieta umana: 
+                        comprende prosciutto (1128), frattaglie (1130) o 
+                        biscotti (1142-1143), che uno dei personaggi aveva l'abitudine di offrire a Hermes e poi mangiare se stesso, indicando chiaramente il modello trapezomatico di sacrificio a cui si riferisce. L'allusione a 
+                        trapezomatos per Hermes si trova, forse, anche in Pace
+                        386-387, e il fatto che i maialini vi siano menzionati può suggerire che 
+                        si intendono i sacrifici domestici (i sacrifici pubblici di maialini a Hermes non sono 
+                        sono attestati, vedi Olson 1998: comm. ad loc.). L'uso che Platone fa del 
+                        il verbo thyein non indica necessariamente un sacrificio di tipo thysia - è 
+                        semplicemente il termine più generalizzato che significa "offrire 
+                        sacrificio"</p>
+                </div>
+                <div type="textpart" n="Lysis_301e-302a">
+                    <head>Lysis 301e-302a:</head>
+                    <p>Il passus viene dal secondo sofisma di Dionysodorus, sfruttando l'ambiguità dei pronomi possessivi.</p>
+                    <quote>ἆρ᾽ οὖν, ἔφη, ταῦτα ἡγῇ σὰ εἶναι, ὧν ἂν ἄρξῃς καὶ ἐξῇ [302a] σοι αὐτοῖς χρῆσθαι ὅτι ἂν βούλῃ; οἷον βοῦς καὶ πρόβατον, ἆρ᾽ ἂν ἡγοῖο ταῦτα σὰ εἶναι, ἅ σοι ἐξείη καὶ ἀποδόσθαι καὶ δοῦναι καὶ θῦσαι ὅτῳ βούλοιο θεῶν; ἃ δ᾽ ἂν οὕτως ἔχῃ, οὐ σά;</quote>
+                    <quote>'Allora', dice, 'consideri queste cose come tue, sulle quali hai il controllo e con le quali puoi fare ciò che vuoi? Prendete, per esempio, un bue o una pecora. Li consideri tuoi, che puoi sia vendere, sia dare, sia sacrificare a qualsiasi dio tu voglia? E quelli che 
+                        non puoi, perché non sono tuoi?</quote>
+                        <p>In questo luogo Dionysodoros stabilisce il significato del pronome possessivo che coronerà il suo sofisma: poiché avere è poter vendere et 
+                            cetera, allora chiunque abbia dei nativi può venderli ecc.
+                            (302d-303a; cfr. Parker 2005: 22-23). È interessante notare che usa il 
+                            l'esempio del bestiame, ed enumera le possibilità 
+                            L'enumerazione delle possibilità di fronte alle quali si trova il proprietario di una pecora o di un bue sembra paradigmatica: usare il proprio animale come si vuole è 
+                            fare precisamente una di queste tre cose con esso: venderlo, darlo a qualcuno 
+                            o sacrificarlo a qualsiasi dio (Dionysodoros ripete questa frase nel 302e). Quest'ultimo elemento dell'enumerazione può essere visto come l'equivalente dell'uccisione di un animale per essere mangiato - dopo tutto, molti animali sono stati allevati proprio per questo scopo. Detienne credeva che tutta la carne consumata dai greci provenisse dai sacrifici ("toute viand consommable doit venir d'une mise à mort rituelle", Detienne 1979a: 21), 
+                            Tuttavia, sembra che in una formulazione così radicale questa tesi non sia 
+                            mantenibile. Vedi Ekroth (2007), Parker (2011: 131).
+                            Nell'interpretare l'affermazione di Dionisodoro, possiamo prendere in considerazione il modo in cui Platone inquadra le questioni sacrificali in altri suoi 
+                            dialoghi. Così, il sofista non elenca tutte le cose che possiamo fare con la nostra proprietà (l'elenco sarebbe troppo lungo e non servirebbe 
+                            scopo), ma nemmeno i suoi esempi sono tre scelti a caso nell'immensità delle possibilità. Ciò che Dionysodoros dà sono tre 
+                            modalità di dare: si può "dare-come-merce" (indicato dal verbo ἀποδίδομαι, "vendere"), "dare-come-cose" (in modo non accentato, da cui il generico δίδωμι) o "regalare" (θύω). Tale 
+                            La lettura di questo passaggio richiede l'assunzione di un'associazione diretta 
+                            delle parole θύειν e δώρεισθαι nella mente dei greci, e sembra che il consenso che si sta sviluppando tra gli studiosi negli ultimi anni tende a 
+                            per confermare questa ipotesi (vedi Parker 2011; Naiden 2013). </p>
+                        <p>Senza 
+                            Senza dubbio una tale associazione esisteva nella mente di almeno un greco - Platone. Troviamo tracce di questo pensiero sul sacrificio in diversi 
+                            dialoghi (Eutifrone 14a-15b, Politica 290c-d), ma con le opinioni di 
+                            Platone stesso, ma possiamo identificarli con certezza solo nelle Leggi
+                            (716c-717a), dove il dare diventa una metonimia di tutto il culto degli dei. 
+                            Il filosofo afferma lì che per un uomo buono la cosa migliore è 
+                            θύειν καὶ προσομιλεῖν ἀεὶ τοῖς θεοῖς εὐχαῖς καὶ ἀναθήμασιν καὶ 
+                            συμπάσῃ θεραπείᾳ θεῶν ("offrire sacrifici e comunicare costantemente con gli dei 
+                            per mezzo di preghiere, offerte votive e tutto il culto degli dei", 716d), 
+                            per il malvagio, invece, il contrario; poiché da un uomo contaminato (μιαρός) né un altro uomo né un dio possono "ricevere doni" 
+                            in modo appropriato (716e-717a) </p></div>
+                
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>Lysias has traditionally been counted among the earliest dialogues 
+                        to have been written by Plato (cf. D.L. 3.35), some scholars have pointed 
+                        however, a number of features that link the dialogue to works of the middle period (see Sowa 2007: 3-5). The theme of the dialogue is friendship. From our 
+                        From our point of view it is interesting only because of the mention 
+                        The dialogue is the subject of friendship. From our point of view, it is only interesting from the point of view of the mention of Hermay - the festival of boys, which was celebrated in the palestras.</p>
+                    <p>Polish translations: Witwicki (1937), Sowa (2007).
+                        Text based on the edition by Burnet (1903). </p> 
+                </div>
+                <div type="textpart" n="Lysis_301c-d">
+                    <head>Lysis 206c–e:</head>
+                    <p>Socrates wants to talk to Lysias. Hippothales advises him on how 
+                        best to arrange a conversation with the young man.</p>
+                    <quote>„ἀλλ᾽ οὐδέν, ἔφη, χαλεπόν. ἂν γὰρ εἰσέλθῃς μετὰ Κτησίππου 
+                        τοῦδε καὶ καθεζόμενος διαλέγῃ, οἶμαι μὲν καὶ αὐτός σοι πρόσεισι—
+                        φιλήκοος γάρ, ὦ Σώκρατες, διαφερόντως [206d] ἐστίν, καὶ ἅμα, ὡς 
+                        Ἑρμαῖα ἄγουσιν, ἀναμεμειγμένοι ἐν ταὐτῷ εἰσιν οἵ τε νεανίσκοι 
+                        καὶ οἱ παῖδες.” […] καὶ ἅμα λαβὼν τὸν [206e] Κτήσιππον προσῇα 
+                        εἰς τὴν παλαίστραν: οἱ δ᾽ ἄλλοι ὕστεροι ἡμῶν ᾖσαν. εἰσελθόντες 
+                        δὲ κατελάβομεν αὐτόθι τεθυκότας τε τοὺς παῖδας καὶ τὰ περὶ 
+                        τὰ ἱερεῖα σχεδόν τι ἤδη πεποιημένα, ἀστραγαλίζοντάς τε δὴ καὶ 
+                        κεκοσμημένους ἅπαντας</quote>
+                    <quote>"But nothing difficult, he said. If you go there with Ktezypp, 
+                        sit down and start talking, I think he will approach you himself - 
+                        for he is immensely fond of listening, [206d] Socrates. And yet, as they have 
+                        Hermai now, the young men and the kids are mixed together." [...] So I took [206e] Ctesippus with me and went to the palestra, and the others 
+                        followed us. On entering we saw that the boys had already offered sacrifices and that 
+                        almost everything at the rite had already been done - everyone was playing 
+                        so they were all playing dice, festively dressed
+                    </quote>
+                    <p>206d: Ἑρμαῖα (Hermaja) - the festival of Hermes, common throughout the Greek world (Johnston 2003: 161-162), and until a certain point the only one 
+                        enjoyed in Athens by this god (Versnel 2011: 351). Hermaja were 
+                        a festival for young boys attending the palestras, and sporting competitions were an important part of it (Scanlon 2002: 91-92). Hermes 
+                        did not have his own temple in Athens (although a wooden image of him was located in the time of Pausanias in the temple of Athena Polias, 
+                        Paus. 1.27.1), and the place where the feast was held was the city's 
+                        gymnasia (Mikalson 1998: 195, note 78; cf. Aeschin. 1.10). In the Hellenistic period, an official called 
+                        gymnasiarch (IG II2
+                        1227.7).
+                        Christopher Planeaux (2001: 64-66) has suggested that the Hermaja, 
+                        referred to in the dialogue, took place on the third day of the Antesteria, 
+                        however, this is an isolated view. Under the name of the Hermaeans, the Athenian 
+                        cavalry also celebrated another festival of Hermes, attested 
+                        only in the second century BC. (IG II2
+                        895.5). We also know of an inscription commemorating the victory of Demetrius of Faleron in a chariot race 
+                        during the Hermes (IG II2
+                        2971.13), probably other than those 
+                        Plato mentions (Parker 2005: 392, note 23)</p>
+                    <p>206e: τεθυκότας... τὰ περὶ τὰ ἱερεῖα - 'they have already offered sacrifices... at the 
+                        rite" (literally, "at the sacrificial animals"; the word hiereion is the most general term for a sacrificial animal (Casabona 1966: 
+                        31-38). The Athenian Hermes, however, was rarely the recipient of a thysia-type sacrifice (inscriptionally attested is only a thysia for Hermes Hegemonios, IG II² 1496, Mikalson 1975: 145; see also Versnel's remark 
+                        2011: 351), so this may refer to a trapezomata-type sacrifice (see Gill 1974; 
+                        Gill 1991), in which foods were offered to the gods in the form of deposits. 
+                        These foods eventually went to the temple staff (Gill 1991: 
+                        15-19) or were eaten by the sacrificers themselves (when the offering was made 
+                        in a private setting, see Versnel 2011: 358). The offering of sacrifices of this kind to Hermes in Athens seems to be suggested by a passus in Plutos (1103-1145). There Hermes contrasts himself with the Olympian gods, who feed on the smoke of burnt femurs (see Versnel 
+                        2011: 353-357). The diet of Hermes, on the other hand, overlaps with the human diet: 
+                        it includes ham (1128), offal (1130) or 
+                        biscuits (1142-1143), which one of the characters was in the habit of offering to Hermes and then eating himself, clearly indicating the trapezomatous model of sacrifice to which he refers. The allusion to 
+                        trapezomatos for Hermes is found, perhaps, also in Peace
+                        386-387, and the fact that piglets are mentioned there may suggest that 
+                        domestic sacrifices are meant (public piglet sacrifices to Hermes are not 
+                        are attested, see Olson 1998: comm. ad loc.). Plato's use of the 
+                        the verb thyein does not necessarily indicate a thysia-type sacrifice - it is 
+                        simply the most generalised term meaning 'to offer 
+                        sacrifice"</p>
+                </div>
+                <div type="textpart" n="Lysis_301e-302a">
+                    <head>Lysis 301e-302a:</head>
+                    <p>The passus comes from Dionysodorus' second sophism, exploiting the ambiguity of possessive pronouns.</p>
+                    <quote>ἆρ᾽ οὖν, ἔφη, ταῦτα ἡγῇ σὰ εἶναι, ὧν ἂν ἄρξῃς καὶ ἐξῇ [302a] σοι αὐτοῖς χρῆσθαι ὅτι ἂν βούλῃ; οἷον βοῦς καὶ πρόβατον, ἆρ᾽ ἂν ἡγοῖο ταῦτα σὰ εἶναι, ἅ σοι ἐξείη καὶ ἀποδόσθαι καὶ δοῦναι καὶ θῦσαι ὅτῳ βούλοιο θεῶν; ἃ δ᾽ ἂν οὕτως ἔχῃ, οὐ σά;</quote>
+                    <quote>So these things," he says, "do you regard as your own, over which you have control, and with which you may [302a] do what you will? Take, for example, an ox or a sheep. Do you consider these to be yours, which you can both sell, and give, and sacrifice to whichever god you wish? And those which 
+                        you cannot, for not yours?</quote>
+                        <p>In this place Dionysodoros establishes the meaning of the possessive pronoun that will crown his sophism: since to have is to be able to sell et 
+                            cetera, then anyone who has native gods can sell them et cetera
+                            (302d-303a; cf. Parker 2005: 22-23). Interestingly, he uses the 
+                            the example of livestock, and enumerates the possibilities 
+                            The enumeration of possibilities faced by the owner of a sheep or an ox seems to be paradigmatic: to use one's own animal as one pleases is to 
+                            do precisely one of these three things with it: sell it, give it to someone 
+                            or sacrifice it to any god (Dionysodoros repeats this phrase in 302e). This last element of the enumeration can be seen as the equivalent of killing an animal so that it can be eaten - after all, many animals were bred for this very purpose. Detienne believed that all meat consumed by the Greeks came from sacrifices ('toute viand consommable doit venir d'une mise à mort rituelle', Detienne 1979a: 21), 
+                            However, it seems that in such a radical formulation this thesis is not 
+                            maintainable. See Ekroth (2007), Parker (2011: 131).
+                            In interpreting Dionysodorus' statement, we can take into account the way Plato framed sacrificial issues in his other 
+                            dialogues. Thus, the Sophist does not list all the things we can do with our property (the list would be too long and would not serve 
+                            purpose), but neither are his examples three randomly selected from the immensity of possibilities. What Dionysodoros gives are three 
+                            modalities of giving: one can "give-as-commodity" (indicated by the verb ἀποδίδομαι, "to sell"), "to give-as-things" (in an unaccented way, hence the generic δίδωμι) or "give-as-a-gift" (θύω). Such 
+                            reading of this passage requires the assumption of a direct association 
+                            of the words θύειν and δώρεισθαι in the minds of the Greeks, and it seems that the consensus that has been developing among scholars in recent years tends to 
+                            to confirm this assumption (see Parker 2011; Naiden 2013). </p>
+                        <p>Without 
+                            doubtless such an association existed in the mind of at least one Greek - Plato. We find traces of such thinking about sacrifice in several 
+                            dialogues (Euthyphron 14a-15b, Politics 290c-d), but with the views of 
+                            Plato himself, but we can identify them with certainty only in the Laws
+                            (716c-717a), where giving becomes a metonymy of the whole cult of the gods. 
+                            The philosopher states there that for a good man the best thing is 
+                            θύειν καὶ προσομιλεῖν ἀεὶ τοῖς θεοῖς εὐχαῖς καὶ ἀναθήμασιν καὶ 
+                            συμπάσῃ θεραπείᾳ θεῶν ("to offer sacrifices and constantly commune with the gods 
+                            by means of prayers, votive offerings and the whole worship of the gods", 716d), 
+                            for the evil one, on the other hand, the opposite; since from a defiled man (μιαρός) neither another man nor a god can "receive gifts" 
+                            in a proper way (716e-717a) </p></div>
+                
+            </div>
+            
+            <div type="edition" xml:lang="pl">
+                <div type="textpart" n="intro">
+                    <p>Lizys tradycyjnie zaliczany był w poczet najwcześniejszych dialogów, 
+                        które miał napisać Platon (por. D.L. 3.35), niektórzy badacze wskazują 
+                        jednak na wiele cech, które wiążą dialog z dziełami okresu średniego (zob. Sowa 2007: 3–5). Tematem dialogu jest przyjaźń. Z naszego 
+                        punktu widzenia jest on interesujący tylko ze względu na wzmiankę 
+                        o Hermajach – święcie chłopców, które obchodzono w palestrach.</p>
+                       <p> Przekłady polskie: Witwicki (1937), Sowa (2007).
+                        Tekst na podstawie wydania: Burnet (1903).</p> 
+                </div>
+                <div type="textpart" n="Lysis_301c-d">
+                    <head>Lysis 206c–e:</head>
+                    <p>Sokrates chce porozmawiać z Lizysem. Hippothales radzi mu, jak 
+                        najlepiej zaaranżować rozmowę z młodzieńcem.</p>
+                    <quote>„ἀλλ᾽ οὐδέν, ἔφη, χαλεπόν. ἂν γὰρ εἰσέλθῃς μετὰ Κτησίππου 
+                        τοῦδε καὶ καθεζόμενος διαλέγῃ, οἶμαι μὲν καὶ αὐτός σοι πρόσεισι—
+                        φιλήκοος γάρ, ὦ Σώκρατες, διαφερόντως [206d] ἐστίν, καὶ ἅμα, ὡς 
+                        Ἑρμαῖα ἄγουσιν, ἀναμεμειγμένοι ἐν ταὐτῷ εἰσιν οἵ τε νεανίσκοι 
+                        καὶ οἱ παῖδες.” […] καὶ ἅμα λαβὼν τὸν [206e] Κτήσιππον προσῇα 
+                        εἰς τὴν παλαίστραν: οἱ δ᾽ ἄλλοι ὕστεροι ἡμῶν ᾖσαν. εἰσελθόντες 
+                        δὲ κατελάβομεν αὐτόθι τεθυκότας τε τοὺς παῖδας καὶ τὰ περὶ 
+                        τὰ ἱερεῖα σχεδόν τι ἤδη πεποιημένα, ἀστραγαλίζοντάς τε δὴ καὶ 
+                        κεκοσμημένους ἅπαντας</quote>
+                    <quote>„Ależ nic trudnego, powiedział. Jeżeli pójdziesz tam z Ktezyppem, 
+                        usiądziesz i zaczniesz rozmawiać, myślę, że sam do ciebie podejdzie – 
+                        bo on ogromnie lubi słuchać, [206d] Sokratesie. A jeszcze, jako że mają 
+                        teraz Hermaja, młodzieńcy i dzieciaki zmieszani są razem”. […] Zabrałem więc ze sobą [206e] Ktezyppa i poszedłem do palestry, a inni 
+                        za nami. Wchodząc zobaczyliśmy, że chłopcy złożyli już ofiary i że 
+                        prawie wszystko przy obrzędzie zostało już zrobione – wszyscy grali 
+                        więc w kości odświętnie ubrani
+                    </quote>
+                    <p>206d: Ἑρμαῖα (Hermaja) – święto Hermesa, pospolite w całym świecie greckim (Johnston 2003: 161–162), a do pewnego momentu jedyne, 
+                        jakim w Atenach cieszył się ten bóg (Versnel 2011: 351). Hermaja były 
+                        świętem młodych chłopców uczęszczających do palestr, a jego ważnym elementem były zawody sportowe (Scanlon 2002: 91–92). Hermes 
+                        nie miał własnej świątyni w Atenach (chociaż jego drewniany wizerunek znajdował się w czasach Pauzaniasza w świątyni Ateny Polias, 
+                        Paus. 1.27.1), a miejscem, w którym odbywało się święto, były miejskie 
+                        gimnazjony (Mikalson 1998: 195, przyp. 78; por. Aeschin. 1.10). W epoce hellenistycznej za organizację święta odpowiadał urzędnik zwany 
+                        gimnazjarchą (IG II2
+                        1227.7).
+                        Christopher Planeaux (2001: 64–66) zasugerował, że Hermaja, 
+                        o których mowa w dialogu, miały miejsce trzeciego dnia Antesteriów, 
+                        jest to jednak pogląd odosobniony. Pod nazwą Hermajów ateńska 
+                        kawaleria obchodziła również inne święto Hermesa, poświadczone 
+                        dopiero w II w. p.n.e. (IG II2
+                        895.5). Znamy także inskrypcję upamiętniającą zwycięstwo Demetriusza z Faleronu w wyścigu rydwanów 
+                        podczas Hermajów (IG II2
+                        2971.13), zapewne innych niż te, o których 
+                        wspomina Platon (Parker 2005: 392, przyp. 23)</p>
+                    <p>206e: τεθυκότας… τὰ περὶ τὰ ἱερεῖα – „złożyli już ofiary… przy 
+                        obrzędzie” (dosł. „przy zwierzętach ofiarnych”; słowo hiereion jest najbardziej ogólnym określeniem zwierzęcia ofiarnego (Casabona 1966: 
+                        31–38). Ateński Hermes jednak rzadko był odbiorcą ofiary typu thysia (inskrypcyjnie poświadczona jest jedynie thysia dla Hermesa Hegemoniosa, IG II² 1496, Mikalson 1975: 145; zob. też uwagę Versnela 
+                        2011: 351), może więc chodzić o ofiarę typu trapezomata (zob. Gill 1974; 
+                        Gill 1991), w której ofiarowano bogom pokarmy w formie depozytów. 
+                        Pokarmy te ostatecznie trafiały do personelu świątynnego (Gill 1991: 
+                        15–19) lub były zjadane przez samych ofiarników (gdy ofiarę składano 
+                        w prywatnym otoczeniu, zob. Versnel 2011: 358). Składanie ofiar tego rodzaju Hermesowi w Atenach wydaje się sugerować passus w Plutosie (1103–1145). Hermes kontrastuje tam siebie z bogami olimpijskimi, którzy karmią się dymem palonych kości udowych (zob. Versnel 
+                        2011: 353–357). Dieta Hermesa pokrywa się natomiast z dietą ludzką: 
+                        w jej skład wchodzą między innymi szynka (1128), podroby (1130) czy 
+                        ciastka (1142–1143), które jeden z bohaterów miał w zwyczaju ofiarowywać Hermesowi, a następnie samemu zjadać, co wyraźnie wskazuje na trapezomatyczny model ofiary, do której nawiązuje. Aluzję do 
+                        trapezomatów dla Hermesa znajdujemy, być może, również w Pokoju
+                        386–387, a fakt, że jest tam mowa o prosiaczkach, może sugerować, że 
+                        chodzi o ofiary domowe (publiczne ofiary z prosiąt dla Hermesa nie 
+                        są poświadczone, zob. Olson 1998: comm. ad loc.). Użyty przez Platona 
+                        czasownik thyein nie musi wskazywać na ofiarę typu thysia – jest to 
+                        po prostu najbardziej zgeneralizowany termin oznaczający „składać 
+                        w ofierze”</p>
+                </div>
+                <div type="textpart" n="Lysis_301e-302a">
+                    <head>Lysis 301e-302a:</head>
+                    <p>Passus pochodzi z drugiego sofizmatu Dionizodora, wykorzystującego niejednoznaczność zaimków dzierżawczych.</p>
+                    <quote>ἆρ᾽ οὖν, ἔφη, ταῦτα ἡγῇ σὰ εἶναι, ὧν ἂν ἄρξῃς καὶ ἐξῇ [302a] σοι αὐτοῖς χρῆσθαι ὅτι ἂν βούλῃ; οἷον βοῦς καὶ πρόβατον, ἆρ᾽ ἂν ἡγοῖο ταῦτα σὰ εἶναι, ἅ σοι ἐξείη καὶ ἀποδόσθαι καὶ δοῦναι καὶ θῦσαι ὅτῳ βούλοιο θεῶν; ἃ δ᾽ ἂν οὕτως ἔχῃ, οὐ σά;</quote>
+                    <quote>Czy więc te rzeczy – powiada – uważasz za swoje, nad którymi panujesz i z którymi możesz [302a] zrobić, co zechcesz? Weźmy na przykład woła czy owcę. Czy uznasz, że te są twoje, które możesz i sprzedać, i dać, i złożyć w ofierze, któremu bogu zechcesz? A te, których 
+                        nie możesz, za nie swoje?</quote>
+                    <p>W miejscu tym Dionizodoros ustala znaczenie zaimka dzierżawczego, które zwieńczy jego sofizmat: skoro mieć to móc sprzedać et 
+                        cetera, to każdy, kto ma ojczystych bogów, może ich sprzedać et cetera
+                        (302d–303a; por. Parker 2005: 22–23). Co ciekawe, posługuje się przy 
+                        tym przykładem zwierząt hodowlanych, a wyliczenie możliwości, 
+                        przed którymi stoi posiadacz owcy czy wołu, sprawia wrażenie paradygmatycznego: używać własnego zwierzęcia jak się komu podoba to 
+                        zrobić z nim właśnie jedną z tych trzech rzeczy: sprzedać, dać komuś 
+                        lub złożyć w ofierze dowolnemu bogu (Dionizodoros powtarza tę frazę w 302e). Ten ostatni element wyliczenia można uznać za ekwiwalent zabicia zwierzęcia po to, by można je było zjeść – ostatecznie wiele zwierząt hodowano właśnie w tym celu. Detienne uważał, że całe mięso spożywane przez Greków pochodziło z ofiar („toute viand consommable doit venir d’une mise à mort rituelle”, Detienne 1979a: 21), 
+                        wydaje się jednak, że w tak radykalnym brzmieniu teza ta jest nie do 
+                        utrzymania. Zob. Ekroth (2007), Parker (2011: 131).
+                        Interpretując wypowiedź Dionizodora, możemy wziąć pod uwagę sposób, w jaki Platon ujmował kwestie ofiarnicze w innych swoich 
+                        dialogach. Sofista nie wymienia więc wszystkich rzeczy, jakie możemy zrobić z naszą własnością (lista byłaby zbyt długa i nie służyłaby 
+                        niczemu), ale jego przykłady nie są też trzema przypadkowo wybranymi z bezmiaru możliwości. Tym, co podaje Dionizodoros, są trzy 
+                        modalności dawania: można „dawać-jak-towar” (na co wskazuje czasownik ἀποδίδομαι, „sprzedawać”), „dawać-jak-rzecz” (w sposób nienacechowany, stąd ogólne δίδωμι) lub „dawać-jak-dar” (θύω). Takie 
+                        odczytanie tego fragmentu wymaga założenia bezpośredniej asocjacji 
+                        słów θύειν i δώρεισθαι w umysłach Greków i wydaje się, że konsensus, jaki wykształca się wśród uczonych w ostatnich latach, zmierza 
+                        do potwierdzenia tego założenia (zob. Parker 2011; Naiden 2013). </p>
+                        <p>Bez 
+                        wątpienia asocjacja taka istniała w umyśle przynajmniej jednego Greka – Platona. Ślady takiego myślenia o ofierze odnajdujemy w kilku 
+                        dialogach (Eutyfron 14a–15b, Polityk 290c–d), ale z poglądami samego 
+                        Platona możemy je z całą pewnością utożsamiać dopiero w Prawach
+                        (716c–717a), gdzie darowanie staje się metonimią całego kultu bogów. 
+                        Filozof stwierdza tam, że dla człowieka dobrego najlepszą rzeczą jest 
+                        θύειν καὶ προσομιλεῖν ἀεὶ τοῖς θεοῖς εὐχαῖς καὶ ἀναθήμασιν καὶ 
+                        συμπάσῃ θεραπείᾳ θεῶν („składać ofiary i stale obcować z bogami 
+                        za sprawą modlitw, darów wotywnych i całego kultu bogów”, 716d), 
+                        dla złego zaś – wprost przeciwną; ponieważ od człowieka skalanego (μιαρός) ani inny człowiek, ani bóg nie mogą „otrzymać darów” 
+                        w sposób właściwy (716e–717a) </p></div>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
