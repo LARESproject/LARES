@@ -8,34 +8,23 @@
   <!-- Called from htm-tpl-structure.xsl -->
 
   <xsl:template name="lares-body-structure">
-    <div id="metadata">
-      <p>
-        <!--<b>Title: </b>
-        <xsl:apply-templates select="//t:titleStmt/t:title"/>
-        <br/>
-        <b>Document number: </b>
-        <xsl:value-of select="substring-after(replace(//t:publicationStmt//t:idno, ' ', ''), '_')"/>
-        <br/>-->
-        <b>Author(s): </b>
-        <xsl:for-each select="//t:change">
-          <xsl:sort select="position()" order="descending"/>
-          <xsl:value-of select="@who"/><xsl:text> (</xsl:text>
-          <xsl:value-of select="@when"/>
-          <xsl:if test="normalize-space(.)!=''"><xsl:text>: </xsl:text><xsl:value-of select="."/></xsl:if>
-          <xsl:text>)</xsl:text>
-          <xsl:if test="position()!=last()"><xsl:text>; </xsl:text></xsl:if>
-       </xsl:for-each>
-        <br/>
-        <b>Document type: </b>
-        <xsl:choose>
-          <xsl:when test="starts-with(//t:idno[@type='filename'], 'lexicon')"><xsl:text>lexicon entry</xsl:text></xsl:when>
-          <xsl:when test="starts-with(//t:idno[@type='filename'], 'text')"><xsl:text>text</xsl:text></xsl:when>
-          <xsl:when test="starts-with(//t:idno[@type='filename'], 'com')"><xsl:text>comedy book chapter</xsl:text></xsl:when>
-          <xsl:when test="starts-with(//t:idno[@type='filename'], 'trag')"><xsl:text>tragedy book chapter</xsl:text></xsl:when>
-          <xsl:when test="starts-with(//t:idno[@type='filename'], 'plato') or starts-with(//t:idno[@type='filename'], 'hipp')"><xsl:text>Corpus Platonicum and Hippocraticum book chapter</xsl:text></xsl:when>
-          <xsl:when test="starts-with(//t:idno[@type='filename'], 'hom')"><xsl:text>Homer book chapter</xsl:text></xsl:when>
-        </xsl:choose>
-      </p>
+    <div id="metadata" class="chapter_description">
+      <div>
+        <p><b>Original publication: </b> <xsl:apply-templates select="//t:sourceDesc//t:p[1]/node()"/></p>
+      </div>
+      <div>
+        <p>
+          <b>Authors: </b>
+          <xsl:for-each select="//t:listChange//t:change">
+            <xsl:sort select="position()" order="descending"/>
+            <xsl:value-of select="@who"/><xsl:text> (</xsl:text>
+            <xsl:value-of select="@when"/>
+            <xsl:if test="normalize-space(.)!=''"><xsl:text>: </xsl:text><xsl:value-of select="."/></xsl:if>
+            <xsl:text>)</xsl:text>
+            <xsl:if test="position()!=last()"><xsl:text>; </xsl:text></xsl:if>
+          </xsl:for-each>
+        </p>
+      </div>
 
       <p id="toggle_buttons"><b>Show/hide: </b>
         <br/>COMMUNICATION:
@@ -155,23 +144,6 @@
       <xsl:apply-templates select="$commtxt" mode="sqbrackets"/>
     </div>
     </xsl:if>
-
-    <!--<div id="images">
-       <p><b>Images: </b></p>
-       <xsl:choose>
-         <xsl:when test="//t:facsimile//t:graphic">
-           <xsl:for-each select="//t:facsimile//t:graphic">
-             <span>&#160;</span>
-             <xsl:apply-templates select="." />
-           </xsl:for-each>
-         </xsl:when>
-         <xsl:otherwise>
-           <xsl:for-each select="//t:facsimile[not(//t:graphic)]">
-             <xsl:text>None available.</xsl:text>
-           </xsl:for-each>
-         </xsl:otherwise>
-       </xsl:choose>
-     </div>-->
   </xsl:template>
 
   <xsl:template name="lares-structure">
@@ -257,9 +229,6 @@
       <xsl:when test="//t:titleStmt/t:title/text()">
         <xsl:value-of select="//t:titleStmt/t:title"/>
       </xsl:when>
-      <xsl:when test="//t:sourceDesc//t:bibl/text()">
-        <xsl:value-of select="//t:sourceDesc//t:bibl"/>
-      </xsl:when>
       <xsl:when test="//t:idno[@type = 'filename']/text()">
         <xsl:value-of select="//t:idno[@type = 'filename']"/>
       </xsl:when>
@@ -327,15 +296,31 @@
     <p class="quotation"><xsl:apply-templates/></p>
   </xsl:template>
   
-  <xsl:template match="t:emph">
+  <xsl:template match="t:emph[not(ancestor::t:quote)]">
     <span class="emph"><xsl:apply-templates/></span>
   </xsl:template>
   
-  <xsl:template match="t:quote//t:lb[1]">
+  <xsl:template match="t:emph[ancestor::t:quote]">
+    <b class="speaker"><xsl:apply-templates/></b>
+  </xsl:template>
+  
+  <xsl:template priority="10" match="t:div[@n]">
+    <div id="{@n}"><xsl:apply-templates/></div>
+  </xsl:template>
+  
+  <xsl:template priority="10" match="t:lb[@n]">
+    <xsl:choose>
+      <xsl:when test="not(ancestor::t:quote)"><br/></xsl:when>
+      <xsl:when test="ancestor::t:quote and (preceding-sibling::node() or normalize-space(string-join(preceding-sibling::text(), ''))!='')"><br/></xsl:when>
+    </xsl:choose>
+    <span class="line_number"><xsl:text>(</xsl:text><xsl:value-of select="@n"/><xsl:text>) </xsl:text></span>
+  </xsl:template>
+  
+  <xsl:template priority="10" match="t:quote//t:lb[1][not(@n)]">
     <xsl:choose>
       <xsl:when test="not(preceding-sibling::node()) or not(normalize-space(string-join(preceding-sibling::text(), ''))!='')"></xsl:when>
       <xsl:otherwise><br/></xsl:otherwise>
     </xsl:choose>
-  </xsl:template>
+  </xsl:template>  
 
 </xsl:stylesheet>

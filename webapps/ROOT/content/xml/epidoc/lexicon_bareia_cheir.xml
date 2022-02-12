@@ -15,7 +15,7 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <p>Born digital document.</p>
+                <p>LARES born digital document.</p>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
@@ -44,7 +44,7 @@
                     <p>La prima attestazione del sintagma βαρεĩα χείρ si ha in 
                         <ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Hom.+Il.+1.219&amp;fromdoc=Perseus%3Atext%3A1999.01.0133"><title>Ilias</title> 
                             I.219</ref> (χεĩρα βαρεĩαν; attestato al plurale già in
-                        <ref corresp="../texts/com_1_ranae.html#Rane_847–848"><title>Ilias</title> I.89</ref><!-- sample link, to be removed -->:
+                        <ref corresp="com_09_ranae.html#Ranae_847–848"><title>Ilias</title> I.89</ref><!-- sample link, to be removed -->:
                         βαρείας χεĩρας). Siamo alla scena della lite iniziale tra Achille e
                         Agamennone che scatenerà l’ira funesta dell’eroe di Ftia e il suo temporaneo
                         ritiro dalla guerra contro <placeName ref="Troy">Troia</placeName> 
@@ -211,7 +211,7 @@
                     <quote><title>Etymologicum Magnum</title> 188.35: Βαρείας χεĩρας: Ὑβριστικάς,
                         φονικάς, őπλῳ βεβαρηµένας·</quote>
                     <quote>* ὑβριστικός, ή, όν, <emph>given to wantonness, insolent, outrageous, of
-                            persons</emph>, Pl. <title>Cra</title>.396b, etc.; of words, acts, etc.,
+                            persons</emph>, <ref type="lit">Pl. <title>Cra</title>.396b</ref>, etc.; of words, acts, etc.,
                         Pl. <title>Phdr</title>. 252b; ὑ. καì βάρβαρος ἐπιστολή Aeschin.3.238; ὑ.
                         διάθεσις Arist.Rh.1385b31; ὑ. ἀδικήµατα, <emph>such as proceed from wanton
                             insolence</emph>, ib.1391a19; ὑβριστικὰ καì µανικὰ λέγοντες,

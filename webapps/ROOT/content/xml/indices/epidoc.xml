@@ -45,6 +45,17 @@
         </div> -->
       </div>
       
+      <div xml:id="sources">
+        <head>Ancient sources</head>
+        <div type="headings">
+          <list>
+            <item>Source</item>
+            <item>Type</item>
+            <item>Documents</item>
+          </list>
+        </div>
+      </div>
+      
       <div xml:id="word">
         <head>Greek and Latin terms</head>
         <div type="headings">

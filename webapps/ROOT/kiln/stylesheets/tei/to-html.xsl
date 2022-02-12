@@ -144,25 +144,15 @@
   </xsl:template>
 
   <!-- References. -->
-  <xsl:template match="tei:ref[starts-with(@target, '#')]">
-    <xsl:variable name="target" select="id(substring(@target, 2))" />
+  <xsl:template match="tei:ref[@corresp]">
+    <xsl:variable name="target" select="@corresp" />
     <xsl:call-template name="tei-make-ref-link">
-      <xsl:with-param name="target" select="@target" />
+      <xsl:with-param name="target" select="@corresp" />
     </xsl:call-template>
   </xsl:template>
 
-  <xsl:template match="tei:ref">
-    <xsl:choose>
-      <xsl:when test="contains(concat(' ', @kiln:class, ' '), ' nested-link ')">
-        <xsl:apply-templates />
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:call-template name="tei-make-ref-link">
-          <xsl:with-param name="target" select="@target" />
-          <xsl:with-param name="n" select="@n" />
-        </xsl:call-template>
-      </xsl:otherwise>
-    </xsl:choose>
+  <xsl:template match="tei:ref[not(@corresp)]">
+    <xsl:apply-templates/>
   </xsl:template>
 
   <xsl:template match="tei:seg">
