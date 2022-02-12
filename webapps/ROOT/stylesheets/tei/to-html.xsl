@@ -49,7 +49,7 @@
       <xsl:when test="not(ancestor::tei:quote)"><br/></xsl:when>
       <xsl:when test="ancestor::tei:quote and (preceding-sibling::node() or normalize-space(string-join(preceding-sibling::text(), ''))!='')"><br/></xsl:when>
     </xsl:choose>
-    <xsl:text>(</xsl:text><xsl:value-of select="@n"/><xsl:text>) </xsl:text>
+    <span class="line_number"><xsl:text>(</xsl:text><xsl:value-of select="@n"/><xsl:text>) </xsl:text></span>
   </xsl:template>
   
   <xsl:template match="tei:quote//tei:lb[1][not(@n)]">
@@ -60,7 +60,7 @@
   </xsl:template>
   
   <xsl:template match="tei:emph[ancestor::tei:quote]">
-    <b style="margin-left:-1em"><xsl:apply-templates/></b>
+    <b class="speaker"><xsl:apply-templates/></b>
   </xsl:template>
   
   <xsl:template match="tei:quote">
