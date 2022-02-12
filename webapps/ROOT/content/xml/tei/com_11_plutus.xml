@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Plutus (Πλοῦτος, Pluto)</title>
+                <title xml:lang="en">Plutus (Πλοῦτος, Plutus)</title>
+                <title xml:lang="pl">Plutus (Πλοῦτος, Plutos, Bogactwo)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">com_11_plutus</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Plutus (Πλοῦτος, Plutos, Bogactwo)</title>, in Bartłomiej Bednarek, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Stara komedia attycka</title>, Warszawa 2017, pp. 223-243</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaia Fanelli">encoded document in XML</change>
+                <change when="2017" who="Bartłomiej Bednarek">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="pl">
+                <div type="textpart" n="intro">
+                    <p>Najpóźniejsza z zachowanych komedii Arystofanesa, wystawiona
+                        w 388 r. p.n.e., stanowi zarazem jedyny obok <title>Ecclesiazousae</title> dostępny
+                        przykład komedii średniej. Formalne cechy odróżniające ten wariant
+                        gatunku od komedii starej (przede wszystkim redukcja partii chóralnej)
+                        nie mają znaczącego wpływu na jej wartość jako źródła do badań
+                        nad rytuałem. Warto jednak zaznaczyć, że (być może wyłącznie przypadkiem)
+                        niewiele jest w <title>Plutosie</title> samodzielnych wzmianek dotyczących
+                        rzeczywistości kultowej, teologia zaś, specyficzna komediowa
+                        teologia, sprowadza się do dość prostego schematu, o którym poniżej.</p>
+                        <p>Akcja utworu zaczyna się, gdy ubogi Ateńczyk imieniem Chremylos
+                        radzi się Apollona w Delfach, czy powinien swego syna wychowywać
+                        na uczciwego obywatela, czy raczej uczyć go oszustw. Otrzymawszy
+                        osobliwą wyrocznię, zgodnie z którą powinien iść za pierwszym
+                        napotkanym człowiekiem, bohater rusza za ślepcem w łachmanach.
+                        Gdy okazuje się, że biedak jest Plutosem, uosobieniem boskiego bogactwa,
+                        a oślepionym przez Zeusa na szkodę ludzi, Chremylos wysyła
+                        chorego na kurację do Asklepiosa. Odzyskawszy wzrok, Plutos
+                        przenosi się do domu Chremylosa, by przysparzać dóbr jemu i innym
+                        uczciwym ludziom. Wywołuje to sprzeciw bogini Biedy (<title>Penia</title>), następnie
+                        sykofanta (donosiciela), wreszcie i Zeusa, którego pozycji
+                        zagraża nadmierny dobrobyt ludzi. Jak zwykle w komedii arystofanejskiej,
+                        opozycja zostaje przełamana ku zadowoleniu głównych bohaterów
+                        i tych, którzy cieszą się z rewolucyjnych zmian.</p>
+                       <p> <title>Plutos</title>, podobnie jak <title>Ptaki</title>, a w odróżnieniu od większości utworów
+                        Arystofanesa, jest tekstem, dla którego centralne znaczenie ma specyficzne
+                        pojmowanie wzajemnych relacji między ludźmi i bogami. Bohaterowie
+                        odwracają kosmiczny porządek, odbierając władzę Zeusowi, dzięki przywłaszczeniu sobie tytułowego <title>Plutosa</title>. Dociekania na temat
+                        mechanizmu tego zamachu stanu nie są tu potrzebne, wyjaśnień
+                        udzielają bowiem sami bohaterowie (128–146): ludzie składają bogom
+                        ofiary, a także darzą ich wszelkiego rodzaju czcią (1) dlatego, że dysponują
+                        środkami materialnymi, które to umożliwiają (pieniędzmi i bogactwem),
+                        (2) po to, żeby od bogów uzyskać bogactwo. Kontrola nad
+                        pieniędzmi stanowi zatem środek do przejęcia władzy nad kultem,
+                        a przez to także i nad samymi bogami. Taki układ presuponuje jeszcze
+                        jeden warunek: kult musi stanowić jakiegoś rodzaju środek sprawowania
+                        kontroli nad nieśmiertelnymi. Na czym ona polega, wyjaśnia
+                        Hermes, mówiąc, że odkąd ustały ofiary, bogowie głodują.</p>
+                       <p> Interpretacja tej groteskowej wizji wydaje się dosyć trudna, gdy przychodzi
+                        do subtelnych rozgraniczeń. Wydaje się jasne, że Arystofanes
+                        uważał ją za całkowicie niedorzeczną i przez to zabawną. Prawdopodobnie
+                        tak samo myślał ogół widzów. Powtarzające się w tekście wzmianki
+                        o tym, że to ludzie (ubodzy, niewolnicy, kapłani) zjadają potrawy zastawione
+                        dla bogów, zdaje się zdradzać tajemnicę poliszynela. Z drugiej
+                        zaś strony, jest jasne, że te potrawy wciąż bogom dawano. Śmiech, jaki
+                        wywoływała komedia Arystofanesa, stanowił zatem reakcję na niepokój
+                        związany z paradoksem immanentnym tradycyjnej teologii, który ewidentnie
+                        stawał się przedmiotem rozważań i poważnych dyskusji.</p>
+                        <p>Tekst cytuję za wydaniem Sommerstein (2001).</p>
+                </div>
+                <div type="textpart" n="Plutus_128-146">
+                    <head>Plutus 128-146</head>
+                    <p>Passus zawiera wyjaśnienie komicznej teologii i wprowadza plan
+                        opartego na niej działania, zmierzającego do pozbawienia Zeusa władzy
+                        poprzez uniemożliwienie składania mu ofiar.</p>
+                    <quote><lb/><emph>ΧΡΕΜΥΛΟΣ</emph>:
+                       <lb n="128"/> Ἐγὼ γὰρ ἀποδείξω σε τοῦ Διὸς πολὺ
+                        <lb/> μεῖζον δυνάμενον.
+                        <lb/> <emph>ΠΛΟΥΤΟΣ</emph>:
+                        <lb/>Ἐμὲ σύ;
+                        <lb/> <emph>ΧΡ</emph>.: Νὴ τὸν οὐρανόν.
+                        <lb n="130"/>Αὐτίκα γὰρ—ἄρχει διὰ τί ὁ Ζεὺς τῶν θεῶν;
+                        <lb/><emph>ΚΑΡΙΩΝ</emph>:
+                        <lb/> Διὰ τἀργύριον· πλεῖστον γάρ ἐστ’ αὐτῶι.
+                        <lb/><emph>ΧΡ</emph>.: Φέρε,
+                        <lb/>τίς οὖν ὁ παρέχων ἐστὶν αὐτῶι τοῦθ’;
+                        <lb/><emph>ΚΑ</emph>.: Ὁδί.
+                        <lb/><emph>ΧΡ</emph>.: Θύουσι δ’ αὐτῶι διὰ τίν’; Οὐ διὰ τουτονί;
+                        <lb/><emph>ΚΑ</emph>.: Καὶ νὴ Δί’ εὔχονταί γε πλουτεῖν ἄντικρυς.
+                        <lb n="135"/><emph>ΧΡ</emph>.: Οὔκουν ὅδ’ ἐστὶν αἴτιος καὶ ῥαιδίως
+                        <lb/>παύσειεν, εἰ βούλοιτο, ταῦτ’ ἄν;
+                        <lb/><emph>ΠΛ</emph>.: Ὅτι τί δή;
+                        <lb/><emph>ΧΡ</emph>.: Ὅτι οὐδ’ ἂν εἷς θύσειεν ἀνθρώπων ἔτι
+                        <lb/>οὐ βοῦν ἄν, οὐχὶ ψαιστόν, οὐκ ἄλλ’ οὐδὲ ἕν,
+                        <lb/>μὴ βουλομένου σοῦ.
+                        <lb/><emph>ΠΛ</emph>.: Πῶς;
+                        <lb/><emph>ΧΡ</emph>.: Ὅπως; οὐκ ἔσθ’ ὅπως
+                        <lb n="140"/>ὠνήσεται δήπουθεν, ἢν σὺ μὴ παρὼν
+                        <lb/>αὐτὸς διδῶις τἀργύριον, ὥστε τοῦ Διὸς
+                        <lb/>τὴν δύναμιν, ἢν λυπῆι τι, καταλύσεις μόνος.
+                        <lb/><emph>ΠΛ</emph>.: Τί λέγεις; δι’ ἐμὲ θύουσιν αὐτῶι;
+                        <lb/><emph>ΧΡ</emph>.: Φήμ’ ἐγώ.
+                        <lb/>Καὶ νὴ Δί’ εἴ τί γ’ ἐστὶ λαμπρὸν καὶ καλὸν
+                        <lb n="145"/>ἢ χαρίεν ἀνθρώποισι, διὰ σὲ γίγνεται.
+                        <lb/>Ἅπαντα τῶι πλουτεῖν γάρ ἐσθ’ ὑπήκοα.</quote>
+                    <quote><lb/><emph>CHREMYLOS</emph>:
+                        <lb/>Wykażę ci, że jesteś znacznie potężniejszy od Zeusa.
+                        <lb/><emph>PLUTOS</emph>:
+                        <lb/>Ja?
+                        <lb/><emph>CHR</emph>.:
+                        <lb/>Wielkie nieba, jak naj
+                        <lb break="no"/>bardziej! Bo co pozwala Zeusowi rządzić innymi bogami?
+                        <lb/><emph>KARION</emph>:
+                        <lb/>Pieniądze. Ma ich przecież najwięcej.
+                        <lb/><emph>CHR</emph>.:
+                        <lb/>Dalej, kto mu ich dostarcza?
+                        <lb/><emph>KA</emph>. wskazując Plutosa:
+                        <lb/>On.
+                        <lb/><emph>CHR</emph>.: Zatem co sprawia, że składają mu ofiary? Czyż nie on?
+                        <lb/><emph>KA</emph>.: I, na Zeusa, modlą się o to, by natychmiast otrzymać bogactwa!
+                        <lb/><emph>CHR</emph>.: Czy zatem nie on jest za wszystko odpowiedzialny i gdyby tyl
+                        <lb break="no"/>kozechciał, czyż nie położyłby temu z łatwością kresu?
+                        <lb/><emph>PL</emph>: Ale jak?
+                        <lb/><emph>CHR</emph>.: Tak, że nikt odtąd nie złoży w ofierze ani wołu, ani ciastka, i to
+                        <lb/>nawet jednego, jeśli tobie się to nie spodoba.
+                        <lb/><emph>PL</emph>.: Dlaczego?
+                        <lb/><emph>CHR</emph>.: Dlatego, że jeśli ciebie zabraknie, by dać komuś pieniądze, nikt
+                        <lb/>niczego nie zdoła kupić. Skutkiem tego w pojedynkę zdołasz
+                        <lb/>obalić potęgę Zeusa, jeśli tylko ci się czymś narazi.
+                        <lb/><emph>PL</emph>.: Co ty mówisz? To dzięki mnie składają jemu ofiary?
+                        <lb/><emph>CHR</emph>.: Tak właśnie. Bo, na Zeusa, cokolwiek wspaniałego i pięknego
+                        <lb/>jest na świecie i miłego ludziom, to powstaje dzięki tobie.
+                        <lb/>Wszystko zależy od bogactwa.</quote>
+                    <p>128: <w>ἀποδείξω</w> – „wykażę”; wstęp, jaki czyni Chremylos, stanowi
+                        nawiązanie do postępowania sofistów. Sformułowanie „wykażę ci, że
+                        jesteś potężniejszy od Zeusa” w sytuacji, gdyby obaj rozmówcy byli
+                        zwykłymi ludźmi, stanowiłoby zapowiedź mniej lub bardziej wyrafinowanego
+                        sofizmatu. Wydaje się, że mamy do czynienia z wyraźnym
+                        wpływem mód intelektualnych, ukazanych, być może celowo, w krzywym
+                        zwierciadle. Pytanie, które stawiali w tym samym czasie tacy intelektualiści,
+                        jak Platon, Sokrates czy Eutyfron, czego bogowie mogą
+                        chcieć od ludzi, stawia również poeta komiczny, by udzielić na nie
+                        hiperbolicznie niedorzecznej odpowiedzi: chcą, by ich karmić.</p>
+                    <p>129: Νὴ τὸν <w>οὐρανόν</w> – „wielkie nieba”; konwencjonalne wezwanie
+                    wyższych sił. Bohaterowie <title>Plutosa</title> wielokrotnie popełniają komiczny
+                    błąd, polegający na przywołaniu bóstw lub związanych z nimi zjawisk
+                    w kontekście najbardziej bezbożnych wypowiedzi. Jest to dodatkowy
+                    sygnał, wskazujący na to, że należy zachować duży dystans w stosunku
+                    do wyrażanych tu treści jako jaskrawo niezgodnych z przeświadczeniami
+                    poety i jego publiczności.</p>
+                    <p>130–131: chociaż w sanktuariach bóstw przechowywano wielkie
+                    bogactwa, stwierdzenia, że Zeus posiada najwięcej pieniędzy ze
+                    wszystkich bogów i że właśnie dzięki temu sprawuje nad nimi władzę,
+                    nie są w tekście w żaden sposób uzasadnione. Sommerstein (2001:
+                    ad loc.) sugeruje, że dochodzi tu do wyraźnej interferencji pomiędzy
+                    wyobrażeniami na temat króla bogów i króla Persji, który dla Greków
+                    okresu klasycznego stanowił archetyp monarchy. Van Leeuwen (1904:
+                    ad loc.) stwierdza z drugiej strony, że wypowiedź może być wynikiem
+                    komicznej trywializacji ze strony niewolnika powiedzenia παρὰ τοῖς
+                    θεοῖς εἶναι τὴν πλουθυγίειαν („bogactwo i zdrowie należą do bogów”,
+                    scil. jako ich dawców). Także i w tym przypadku nic nie uzasadnia
+                    szczególnej pozycji Zeusa.</p>
+                    <p>133: <w>Θύουσι</w> δ’ αὐτῶι διὰ τίνα – „co sprawia, że składają mu
+                    ofiary?”; przyimek διὰ jest dwuznaczny. W zależności od kontekstu
+                    wprowadza okolicznik przyczyny lub celu. W omawianym miejscu
+                    poeta wyzyskuje tę dwuznaczność, każąc bohaterom mówić o bogactwie
+                    zarówno jako o czymś, co umożliwia oddawanie bogom czci (będąc
+                    niejako przyczyną materialną), jak i stanowi jej ostateczny cel. Sam
+                    czasownik θύουσι, jak wskazują jego inne przypadki użycia w tym
+                    ustępie, choć odnosi się przede wszystkim do ofiary krwawej, obejmuje
+                    także i inne formy kultu.</p>
+                    <p>134: przysłówek <w>ἄντικρυς</w> w późniejszych tekstach (<title>LS</title> II) miewa
+                    znaczenie „naprzeciw” (w kategoriach przestrzennych, raczej nie
+                    w użyciu figuratywnym), które może wywoływać skojarzenie z oczekiwaną
+                    w tym kontekście kategorią wzajemności. Prawdopodobnie
+                    jednak w tym miejscu należy przypisać wyrazowi bardziej tradycyjną
+                    semantykę (<title>LS</title> I): „natychmiast”. W takim ujęciu wypowiedź bohatera
+                    można interpretować jako wyraz krytyki w stosunku do ludzi, którzy
+                    traktują bogów instrumentalnie, licząc na to, że ofiary przyniosą błyskawiczny
+                    efekt. O wzajemności: Ar. <title>Pax</title> 392; <title>Av</title>. 854 wraz z komentarzami.</p>
+                    <p>137–138: οὐδ’ ἂν εἷς <w>θύσειεν</w> οὐ <w>βοῦν</w> ἄν, οὐχὶ <w>ψαιστόν</w> – „nikt nie złoży
+                    w ofierze ani wołu, ani ciastka”; bohater wymienia ofiarę najdroższą (wołu) i jedną z tańszych (ciastko), sugerując, że ustaną wszelkie ofiary,
+                    zarówno te najbardziej, jak i najmniej wyszukane. <w>Ψαιστόν</w> to określenie
+                    placka jęczmiennego z miodem, spalanego w ogniu jednocześnie
+                    z udźcami zwierzęcia (<title>Suda</title> o 907), a także – prawdopodobnie – jako rodzaj
+                    samodzielnej ofiary, składanej np. przez ubogich.</p>
+                    <p>139–142: naszkicowany tu plan odebrania władzy nad światem
+                    Zeusowi ostatecznie sprowadza się do przejęcia kontroli nad towarami,
+                    które potencjalnie mogą zostać wykorzystane w kulcie. Schemat
+                    narracyjny bardzo przypomina ten obecny w <title>Ptakach</title>, choć warto zaznaczyć
+                    mniejszy stopień złożoności i abstrakcyjności przedstawionej
+                    tu koncepcji. Trudno oprzeć się wrażeniu, że mamy tu do czynienia
+                    z wtórnym opracowaniem motywu, który publiczności nie wydawał
+                    się już zaskakujący, przynależąc do topiki gatunku.</p>
+                </div>
+                <div type="textpart" n="Plutus_819-823">
+                    <head>Plutus 819-823</head>
+                    <quote><lb/><emph>ΚΑΡΙΩΝ</emph>:
+                        <lb/>Καὶ νῦν ὁ δεσπότης μὲν ἔνδον βουθυτεῖ
+                        <lb/>ὗν καὶ τράγον καὶ κριὸν ἐστεφανωμένος,
+                        <lb/>ἐμὲ δ’ ἐξέπεμψεν ὁ καπνός· οὐχ οἷός τε γὰρ
+                        <lb/>ἔνδον μένειν ἦν· ἔδακνε γὰρ τὰ βλέφαρά μου.</quote>
+                    <quote><lb/><emph>KARION</emph>:
+                        <lb/>Pan, nałożywszy wieniec, w domu składa w ofierze knura, kozła i barana,
+                        a mnie wypędził stamtąd dym. Nie dało się w środku wytrzymać,
+                        bo gryzł w oczy.</quote>
+                    <p>819: <w>βουθυτεῖ</w> – „składa w ofierze”; struktura tego złożonego czasownika,
+                        z pewnością przejrzysta dla Arystofanesa i jego współczesnych,
+                        wskazuje na pierwotne znaczenie: „składać w ofierze wołu”
+                        lub „spalać udźce wołu”. W omawianym kontekście użycie tego wyrazu
+                        może dziwić, ponieważ seria trzech dopełnień wskazuje na to,
+                        że ofiarowanymi zwierzętami były knur, kozioł i baran. Lista nie zawiera
+                        zatem wołu. Trzy różne scholia do passusu zawierają przekonujące
+                        wyjaśnienie, że czasownika βουθυτέω używano wbrew jego etymologii na określenie wszelkiego rodzaju prestiżowych czy kosztownych
+                        ofiar, które niekoniecznie składały się z wołów (podobną
+                        ewolucję przeszedł rzeczownik ἑκατόμβη). Nie zmienia to faktu, że
+                        jego wstąpienie w tym miejscu mogło być odebrane jako element gry
+                        językowej. Szerzej: Casabona 1966: 140–142.</p>
+                <p>820: ὗν καὶ <w>τράγον</w> καὶ <w>κριόν</w> – „knura, kozła i barana”; dwa spośród
+                    zwierząt (kozioł i baran) opisane są rzeczownikami odnoszącymi
+                    się do niekastrowanych samców, co pozwala przypuszczać, że
+                    i trzecie, określone wyłącznie nazwą gatunku (<w>ὗς</w>, „świnia”) miało
+                    być niekastrowanym samcem (knurem). Scholia (ad loc.) zawierają
+                    wyjaśnienie, że taki typ ofiary złożonej z trzech zwierząt różnego gatunku
+                    określał rzeczownik <w>τριττύς</w>. Za synonimy tego wyrazu prawdopodobnie
+                    należy uznać <w>τριττύα</w> (e.g. Ister 34), <w>τρικτεύα</w>/ <w>τρίκτευα</w>
+                    (IG 22 1126.34), <w>τρίττοια</w> (e.g. Theognost. Can. 103), <w>τρίκτειρα</w> (Hsch.
+                    s.v.). Szerzej: van Straten 1995: 16–17. Niezależnie od trudnych do
+                    uchwycenia różnic, jakie zachodzić mogą pomiędzy desygnatami
+                    poszczególnych wyrazów, ewidentnie mamy do czynienia z typem
+                    ofiary dosyć drogiej, a zatem z pewnością prestiżowej i stosownej do
+                    solennych okazji. Dlatego kontrast pomiędzy katalogiem zwierząt
+                    ofiarnych a wydźwiękiem czasownika <w>βουθυτέω</w> (cf. ad 819) może
+                    być znacznie bardziej subtelny, niż mogłoby się na pierwszy rzut oka
+                    wydawać.</p>
+                  <p>  <w>Ἐστεφανωμένος</w> – „nałożywszy wieniec”; konwencjonalny w tym
+                    przypadku atrybut podkreśla odświętny charakter wydarzenia.</p>
+                    <p>822: ἐμὲ δ’ ἐξέπεμψεν ὁ <w>καπνός</w> – „mnie wypędził stamtąd dym”;
+                    miejscem spalania udźców i opiekania wnętrzności nie jest zatem
+                    ołtarz na otwartej przestrzeni, ale palenisko wewnątrz domu (ἑστία).
+                    Ten fakt będzie miał znaczenie w dalszym toku akcji (cf. 1138).</p>
+                </div>
+                
+                <div type="textpart" n="Plutus_1103-1190">
+                    <head>Plutus 1103-1190</head>
+                    <quote><lb/><emph>ΕΡΜΗΣ</emph>:
+                        <lb n="1103"/> Ἀλλ’ ἐκκάλει τὸν δεσπότην τρέχων ταχύ,
+                        <lb/>ἔπειτα τὴν γυναῖκα καὶ τὰ παιδία,
+                        <lb n="1105"/>ἔπειτα τοὺς θεράποντας, εἶτα τὴν κύνα,
+                        <lb/>ἔπειτα σαυτόν, εἶτα τὴν ὗν.
+                        <lb/><emph>ΚΑΡΙΩΝ</emph>:
+                        <lb/>Εἰπέ μοι,
+                        <lb/>τί δ’ ἐστίν;
+                        <lb/><emph>ΕΡ</emph>.: Ὁ Ζεύς, ὦ πόνηρε, βούλεται
+                        <lb/>εἰς ταὐτὸν ὑμᾶς συγκυκήσας τρύβλιον
+                        <lb/>ἁπαξάπαντας εἰς τὸ βάραθρον ἐμβαλεῖν.
+                        <lb n="1110"/><emph>ΚΑ</emph>.: ῾Η γλῶττα τῶι κήρυκι τούτων τέμνεται.
+                        <lb/>Ἀτὰρ διὰ τί δὴ ταῦτ’ ἐπιβουλεύει ποεῖν ἡμᾶς;
+                        <lb/><emph>ΕΡ</emph>.: ῾Οτιὴ δεινότατα πάντων πραγμάτων
+                        <lb/>εἴργασθ’. Ἀφ’ οὗ γὰρ ἤρξατ’ ἐξ ἀρχῆς βλέπειν
+                        <lb/>ὁ Πλοῦτος, οὐδεὶς οὐ λιβανωτόν, οὐ δάφνην,
+                        <lb n="1115"/>οὐ ψαιστόν, οὐχ ἱερεῖον, οὐκ ἄλλ’ οὐδὲ ἓν 
+                        <lb/>ἡμῖν ἔτι θύει τοῖς θεοῖς.
+                        <lb/><emph>ΚΑ</emph>.: Μὰ Δί’, οὐδέ γε 
+                        <lb/>θύσει· κακῶς γὰρ ἐπεμελεῖσθ’ ἡμῶν τότε.
+                        <lb/><emph>ΕΡ</emph>.: Καὶ τῶν μὲν ἄλλων μοι θεῶν ἧττον μέλει,
+                        <lb/>ἐγὼ δ’ ἀπόλωλα κἀπιτέτριμμαι.
+                        <lb/><emph>ΚΑ</emph>.: Σωφρονεῖς.
+                        <lb n="1120"/><emph>ΕΡ</emph>.: Πρότερον γὰρ εἶχον <interp>ἂν</interp> παρὰ ταῖς καπηλίσιν
+                            <lb/>πάντ’ ἀγάθ’· ἕωθεν εὐθύς, οἰνοῦτταν, μέλι,
+                            <lb/>ἰσχάδας, ὅσ’ εἰκός ἐστιν ῾Ερμῆν ἐσθίειν·
+                            <lb/>νυνὶ δὲ πεινῶν ἀναβάδην ἀναπαύομαι.
+                        <lb/><emph>ΚΑ</emph>.: Οὔκουν δικαίως, ὅστις ἐπόεις ζημίαν
+                        <lb n="1125"/>ἐνίοτε τοιαῦτ’ ἀγάθ’ ἔχων;
+                        <lb/><emph>ΕΡ</emph>.: Οἴμοι τάλας,
+                        <lb/>οἴμοι πλακοῦντος τοῦ ‘ν τετράδι πεπεμμένου.
+                        <lb/><emph>ΚΑ</emph>.: «Ποθεῖς τὸν οὐ παρόντα καὶ μάτην καλεῖς.»
+                        <lb/><emph>ΕΡ</emph>.: Οἴμοι δὲ κωλῆς ἧς ἐγὼ κατήσθιον—
+                        <lb/> <emph>ΚΑ</emph>.: Ἀσκωλίαζ’ ἐνταῦθα πρὸς τὴν αἰθρίαν.
+                        <lb n="1130"/><emph>ΕΡ</emph>.: σπλάγχνων τε θερμῶν ὧν ἐγὼ κατήσθιον.
+                        <lb/><emph>ΚΑ</emph>.: Ὀδύνη σε περὶ τὰ σπλάγχν’ ἔοικέ τις στρέφειν.
+                        <lb/><emph>ΕΡ</emph>.: Οἴμοι δὲ κύλικος ἴσον ἴσωι κεκραμένης.
+                        <lb/><emph>ΚΑ</emph>.: Ταύτην ἐπιπιὼν ἀποτρέχων οὐκ ἂν φθάνοις.
+                        <lb/><emph>ΕΡ</emph>.: Ἆρ’ ὠφελήσαις ἄν τι τὸν σαυτοῦ φίλον;
+                        <lb n="1135"/><emph>ΚΑ</emph>.: Εἴ του δέει γ’ ὧν δυνατός εἰμί σ’ ὠφελεῖν.
+                        <lb/><emph>ΕΡ</emph>.: Εἴ μοι πορίσας ἄρτον τιν’ εὖ πεπεμμένον
+                        <lb/>δοίης καταφαγεῖν καὶ κρέας νεανικὸν
+                        <lb/>ὧν θύεθ’ ὑμεῖς ἔνδον.
+                        <lb/><emph>ΚΑ</emph>.: Ἀλλ’ οὐκ ἐκφορά.
+                        <lb/><emph>ΕΡ</emph>.: Καὶ μὴν ὁπότε τι σκευάριον τοῦ δεσπότου
+                        <lb n="1140"/>ὑφέλοι’, ἐγώ σ’ ἂν λανθάνειν ἐποίουν ἀεί.
+                        <lb/><emph>ΚΑ</emph>.: Ἐφ’ ὧι τε μετέχειν καὐτός, ὦ τοιχωρύχε·
+                        <lb/>ἧκεν γὰρ ἄν σοι ναστὸς εὖ πεπεμμένος.
+                        <lb/><emph>ΕΡ</emph>.: Ἔπειτα τοῦτόν γ’ αὐτὸς ἂν κατήσθιες.
+                        <lb/><emph>ΚΑ</emph>.: Οὐ γὰρ μετεῖχες τὰς ἴσας πληγὰς ἐμοί,
+                        <lb n="1145"/>ὁπότε τι ληφθείην πανουργήσας ἐγώ.
+                        <lb/><emph>ΕΡ</emph>.: Μὴ μνησικακήσηις, εἰ σὺ Φυλὴν κατέλαβες.
+                        <lb/>Ἀλλὰ ξύνοικον, πρὸς θεῶν, δέξασθέ με.
+                        <lb/><emph>ΚΑ</emph>.: Ἔπειτ’ ἀπολιπὼν τοὺς θεοὺς ἐνθάδε μενεῖς;
+                        <lb/><emph>ΕΡ</emph>.: Τὰ γὰρ παρ’ ὑμῖν ἐστι βελτίω πολύ.
+                        <lb n="1150"/><emph>ΚΑ</emph>.: Τί δέ; ταὐτομολεῖν ἀστεῖον εἶναί σοι δοκεῖ;
+                        <lb/><emph>ΕΡ</emph>.: «Πατρὶς γάρ ἐστι πᾶσ’ ἵν’ ἂν πράττηι τις εὖ.»
+                        <lb/><emph>ΚΑ</emph>.: Τί δῆτ’ ἂν εἴης ὄφελος ἡμῖν ἐνθάδ’ ὤν;
+                        <lb/><emph>ΕΡ</emph>.: Παρὰ τὴν θύραν στροφαῖον ἱδρύσασθέ με.
+                        <lb/><emph>ΚΑ</emph>.: Στροφαῖον; ἀλλ’ οὐκ ἔργον ἔστ’ οὐδὲν στροφῶν.
+                        <lb/><emph>ΕΡ</emph>.: Ἀλλ’ ἐμπολαῖον.
+                        <lb n="1155"/><emph>ΚΑ</emph>.: Ἀλλὰ πλουτοῦμεν. Τί οὖν
+                        <lb/>Ἑρμῆν παλιγκάπηλον ἡμᾶς δεῖ τρέφειν;
+                        <lb/><emph>ΕΡ</emph>.: Ἀλλὰ δόλιον τοίνυν.
+                        <lb/><emph>ΚΑ</emph>.: Δόλιον; ἥκιστά γε·
+                        <lb/>οὐ γὰρ δόλου νῦν ἔργον, ἀλλ’ ἁπλῶν τρόπων.
+                        <lb/><emph>ΕΡ</emph>.: Ἀλλ’ ἡγεμόνιον.
+                        <lb/><emph>ΚΑ</emph>.: Ἀλλ’ ὁ θεὸς ἤδη βλέπει.
+                        <lb n="1160"/>Ὥσθ’ ἡγεμόνος οὐδὲν δεησόμεσθ’ ἔτι.
+                        <lb/><emph>ΕΡ</emph>.: Ἐναγώνιος τοίνυν ἔσομαι. Καὶ τί ἔτ’ ἐρεῖς;
+                        <lb/>Πλούτωι γάρ ἐστι τοῦτο συμφορώτατον,
+                        <lb/>ποεῖν ἀγῶνας μουσικοὺς καὶ γυμνικούς.
+                        <lb/><emph>ΚΑ</emph>.: Ὡς ἀγαθόν ἐστ’ ἐπωνυμίας πολλὰς ἔχειν.
+                        <lb n="1165"/>Οὗτος γὰρ ἐξηύρηκεν αὑτῶι βιότιον.
+                        <lb/>Οὐκ ἐτὸς ἅπαντες οἱ δικάζοντες θαμὰ
+                        <lb/>σπεύδουσιν ἐν πολλοῖς γεγράφθαι γράμμασιν.
+                        <lb/><emph>ΕΡ</emph>.: Οὐκοῦν ἐπὶ τούτοις εἰσίω;
+                        <lb/><emph>ΚΑ</emph>.: Καὶ πλῦνέ γε
+                        <lb/>αὐτὸς προσελθὼν πρὸς τὸ φρέαρ τὰς κοιλίας,
+                        <lb n="1170"/>ἵν’ εὐθέως διακονικὸς εἶναι δοκῆις.
+                        <lb/><emph>ΙΕΡΕΥΣ</emph>:
+                        <lb/>Τίς ἂν φράσειε ποῦ ‘στὶ Χρεμύλος μοι σαφῶς;
+                        <lb/><emph>ΧΡ</emph>.: 
+                        <lb/>Τί δ’ ἐστίν, ὦ βέλτιστε;
+                        <lb/><emph>ΙΕ</emph>.: Τί γὰρ ἄλλ’ ἢ κακῶς;
+                        <lb/>Ἀφ’ οὗ γὰρ ὁ Πλοῦτος οὗτος ἤρξατο βλέπειν,
+                        <lb/>ἀπόλωλ’ ὑπὸ λιμοῦ· καταφαγεῖν γὰρ οὐκ ἔχω,
+                        <lb n="1175"/>καὶ ταῦτα τοῦ σωτῆρος ἱερεὺς ὢν Διός.
+                        <lb/><emph>ΧΡ</emph>.: ῾Η δ’ αἰτία τίς ἐστιν, ὢ πρὸς τῶν θεῶν;
+                        <lb/><emph>ΙΕ</emph>.: Θύειν ἔτ’ οὐδεὶς ἀξιοῖ.
+                        <lb/><emph>ΧΡ</emph>.: Τίνος οὕνεκα;
+                        <lb/><emph>ΙΕ</emph>.: ῞Οτι πάντες εἰσὶ πλούσιοι. Καίτοι τότε,
+                        <lb/>ὅτ’ εἶχον οὐδέν, ὁ μὲν ἂν ἥκων ἔμπορος
+                        <lb n="1180"/>ἔθυσεν ἱερεῖόν τι σωθείς, ὁ δέ τις ἂν
+                        <lb/>δίκην ἀποφυγών, ὁ δ’ ἂν ἐκαλλιερεῖτό τις
+                        <lb/>κἀμέ γ’ ἐκάλει τὸν ἱερέα· νῦν δ’ οὐδὲ εἷς
+                        <lb/>θύει τὸ παράπαν οὐδὲν οὐδ’ εἰσέρχεται,
+                        <lb/>πλὴν ἀποπατησόμενοί γε πλεῖν ἢ μύριοι.
+                        <lb n="1185"/><emph>ΧΡ</emph>.: Οὔκουν τὰ νομιζόμενα σὺ τούτων λαμβάνεις;
+                        <lb/><emph>ΙΕ</emph>.: Τὸν οὖν Δία τὸν σωτῆρα καὐτός μοι δοκῶ
+                        <lb/>χαίρειν ἐάσας ἐνθάδ’ αὐτοῦ καταμένειν.
+                        <lb/><emph>ΧΡ</emph>.: Θάρρει· καλῶς ἔσται γάρ, ἢν θεὸς θέληι.
+                        <lb/>῾Ο Ζεὺς ὁ σωτὴρ γὰρ πάρεστιν ἐνθάδε,
+                        <lb n="1190"/>αὐτόματος ἥκων.</quote>
+                    <quote>
+                        <lb/><emph>HERMES</emph>:
+                        <lb/>Biegnij prędko wezwać swojego pana, potem jego żonę i dzieci,
+                        <lb/>potem służbę i psa, [1105] potem i ciebie samego, i świnię.
+                        <lb/><emph>KARION</emph>:
+                        <lb/>Powiedz lepiej,
+                        <lb/>o co chodzi.
+                        <lb/><emph>HER</emph>.: Zeus, nieszczęśniku, chce was wszystkich zmieszać
+                        <lb/>w jednym kubku i wylać do rowu.
+                        <lb/><emph>KA</emph>.: Język trzeba za to uciąć heroldowi. [1110] Tylko czemu Zeus
+                        <lb/>chce nam to zrobić?
+                        <lb/><emph>HER</emph>.: Bo dopuściliście się najgorszego z możliwych czynów. Odkąd
+                        <lb/>Plutos przejrzał na oczy, nikt nam, bogom już nie składa kadzidła,
+                        <lb/>lauru, ciastek ani zwierząt. [1115]
+                        <lb/><emph>KA</emph>.: I, na Zeusa, nikt składać nie będzie. W końcu dopóki to robiliśmy,
+                        <lb/>kiepsko się o nas troszczyliście.
+                        <lb/><emph>HER</emph>.: Ja zresztą nie bardzo troszczę się o pozostałych bogów, bo sam
+                        <lb/>ginę i rozpadam się.
+                        <lb/><emph>KA</emph>.: Całkiem rozsądnie.
+                        <lb/><emph>HER</emph>.: Dawniej dostawałem od handlarek [1120] różne rzeczy: ciastko
+                        <lb/>już z samego rana, miód, suszone figi, którymi zwykł się żywić
+                        <lb/>Hermes. Teraz leżę i zdycham w biedzie.
+                        <lb/><emph>KA</emph>.: Czy nie jest to sprawiedliwe, skoro nieraz po tym, jak otrzymałeś
+                        <lb/>wszystkie te dobra, przynosiłeś ludziom szkody? [1125]
+                        <lb/><emph>HER</emph>.: O, ja biedny!
+                        <lb/>Placku upieczony w czwartym dniu miesiąca!
+                        <lb/><emph>KA</emph>.: Pragniesz nieobecnego i na próżno wzywasz.
+                        <lb/><emph>HER</emph>.: Udźcu, który pożarłem!
+                        <lb/><emph>KA</emph>.: Udo może ci posłużyć do skakania na jednej nodze przed domem.
+                        <lb/><emph>HER</emph>.: Ciepłe trzewia, które pożarłem! [1130]
+                        <lb/><emph>KA</emph>.: Zdaje się, że twoje trzewia szarpie ból.
+                        <lb/><emph>HER</emph>.: Kielichu słabo rozcieńczonego wina!
+                        <lb/><emph>KA</emph>.: Obyś tylko szybko się oddalił po wypiciu tego.
+                        <lb/><emph>HER</emph>.: Chyba mógłbyś wyświadczyć przysługę swemu przyjacielowi.
+                        <lb/><emph>KA</emph>.: Jeśli tylko jestem w stanie przysłużyć się tym, czego potrzebu
+                        <lb break="no"/>jesz. [1135]
+                        <lb/><emph>HER</emph>.: Mógłbyś dać mi dobrze wypieczony bochenek i zdrowy kawa
+                        <lb break ="no"/>łek mięsa zwierzęcia, które w domu zarzynacie.
+                        <lb/><emph>KA</emph>.: Niestety to nie „na wynos”.
+                        <lb/><emph>HER</emph>.: A ja cię zawsze kryłem, ilekroć jakiś garnuszek wyniosłeś swe
+                        <lb break ="no"/>mu panu. [1140]
+                        <lb/><emph>KA</emph>.: I sam dostawałeś swoją dolę, rzezimieszku! Zawsze przypadało
+                        <lb/>tobie wypieczone ciastko.
+                        <lb/><emph>HER</emph>.: Które sam potem pożerałeś.
+                        <lb/><emph>KA</emph>.: Bo ty nie dostawałeś swojej doli w rózgach, które na mnie spa
+                        <lb break="no"/>dały, gdy mnie ktoś przyłapał. [1145]
+                        <lb/><emph>HER</emph>.: Ale skoro zająłeś Fyle, czas zapomnieć o urazach. Przyjmijcie
+                        <lb/>mnie, na bogów, do swojego domu!
+                        <lb/><emph>KA</emph>.: Więc opuścisz bogów, by zamieszkać z nami?
+                        <lb/><emph>HER</emph>.: Przecież tu jest znacznie lepiej.
+                        <lb/><emph>KA</emph>.: Cóż to? Myślisz, że to ładnie tak dezerterować? [1150]
+                        <lb/><emph>HER</emph>.: Ojczyzna przecież jest wszędzie tam, gdzie dobrze nam się wie
+                        <lb break="no"/>dzie.
+                        <lb/><emph>KA</emph>.: A na co miałbyś nam się tu przydać?
+                        <lb/><emph>HER</emph>.: Postawicie mnie przy drzwiach jako stróża.
+                        <lb/><emph>KA</emph>.: Stróża? Ależ tu nie ma zajęcia dla stróżów.
+                        <lb/><emph>HER</emph>.: To jako opiekuna handlu.
+                        <lb/><emph>KA</emph>.: Przecież jesteśmy bogaci! [1155]
+                        <lb/>Po co mielibyśmy utrzymywać Hermesa-przekupnia?
+                        <lb/><emph>HER</emph>.: To jako oszusta.
+                        <lb/><emph>KA</emph>.: Oszusta? To nie czas oszustw, lecz uczciwego
+                        <lb/>postępowania.
+                        <lb/><emph>HER</emph>.: To przewodnika.
+                        <lb/><emph>KA</emph>.: Bóg przecież już widzi. Przewodników już nie trzeba. [1160]
+                        <lb/><emph>HER</emph>.: To jako enagoniosa, od współzawodnictwa. Co ty na to? W koń
+                        <lb break="no"/>cu bogactwo doskonale łączy się z organizowaniem konkursów
+                        <lb/>muzycznych i gimnastycznych.
+                        <lb/><emph>KA</emph>.: Oto jak dobrze jest mieć wiele przydomków. Tak w końcu zdo
+                        <lb break="no"/>łał znaleźć jakąś posadkę. [1165] Nie na próżno sędziowie stara
+                        <lb break="no"/>ją się zapisać na listy pod kilkoma imionami.
+                        <lb/><emph>HER</emph>.: Czy zatem przyjmujecie mnie?
+                        <lb/><emph>KA</emph>.: Weź te jelita i je umyj przy studni, żeby od razu było widać, że
+                        <lb/>jesteś na służbie. [1170]
+                        <lb/><emph>KAPŁAN</emph>:
+                        <lb/>Czy ktoś może mi powiedzieć, gdzie jest Chremylos?
+                        <lb/><emph>CHR</emph>.: A co się stało, mój drogi?
+                        <lb/><emph>KAP</emph>.: Nic dobrego. Odkąd Plutos odzyskał
+                        <lb/>wzrok, ja umieram z głodu. Nic nie mam do żarcia, choć jestem
+                        <lb/>kapłanem Zeusa Sotera. [1175]
+                        <lb/><emph>CHR</emph>.: A to czemu, na bogów?
+                        <lb/><emph>KAP</emph>.: Nikt już nie widzi sensu składania ofiar.
+                        <lb/><emph>CHR</emph>.: Jak to?
+                        <lb/><emph>KAP</emph>.: Bo wszyscy są bogaci. Dopóki niczego nie mieli, przychodził
+                        <lb/>z ofiarami kupiec, który szczęśliwie powrócił z podróży, i ktoś,
+                        <lb/>[1180] kto uniknął wyroku, i taki, który chciał uzyskać znaki
+                        <lb/>i mnie wołał jako kapłana. A teraz nikt w ogóle ofiar nie składa
+                        <lb/>i nie przychodzi, chyba że chce się wypróżnić, bo takich są ty
+                        <lb break="no"/>siące.
+                        <lb/><emph>CHR</emph>.: Rozumiem, że przyjmujesz przypadającą tobie część z tych da
+                        <lb break ="no"/>rów? [1185]
+                        <lb/><emph>KAP</emph>.: Postanowiłem więc, że pożegnam Zeusa Sotera i przeniosę się
+                        tutaj.
+                        <lb/><emph>CHR</emph>.: Nie martw się. Jeśli bóg zechce, będzie ci tu dobrze, bo Zeus
+                        <lb/>Soter już sam się tu przeniósł. [1190]
+                    </quote>
+                   
+                    <p>1106: <w>ὗν</w> – „świnię”; komizm passusu polega na tym, że Hermes
+                        umieszcza Kariona w hierarchii domowników na przedostatnim miejscu,
+                        pomiędzy psem a świnią. Miejsce to presuponuje, że czymś naturalnym
+                        była obecność świni w domu przeciętnego Ateńczyka. Z czysto
+                        pragmatycznego punktu widzenia jest to zrozumiałe, ponieważ zwierzę
+                        to, żywiąc się odpadkami, dostarcza cennego mięsa. Passus w Osach
+                        (844 wraz z komentarzem) zawiera sugestię, że świnie trzymano w specjalnych
+                        kojcach przy palenisku. Niewykluczone, że ofiary z nich przeznaczone
+                        były dla bogini paleniska, Hestii, o czym poniżej (1138).</p>
+                    
+                <p>    1110: Ἡ γλῶττα τῶι <w>κήρυκι</w> τούτων τέμνεται – „język trzeba za
+                    to uciąć heroldowi”; Sommerstein (2001: ad loc.) słusznie zauważa, że
+                    miejsce jest celowo dwuznaczne. Rzeczownik oznaczający herolda (typowa
+                    rola Hermesa), τῶι <w>κήρυκι</w>, w datiwie może tu określać osobę,
+                    którą należy ukarać przez ucięcie języka za to, że przyniosła złe wieści.
+                    Z drugiej strony w kontekście podziału zwierząt ofiarnych wyrażenie
+                    ἡ γλῶττα τέμνεται w sposób oczywisty odnosi się do obcinania ozora.
+                    Ta część często (chyba zwykle) przypadała kapłanom czy innym
+                    specjalistom rytualnym (cf. e.g. <title>LSS</title> 77.7; Ar. <title>Pax</title> 1060; <title>Av</title>. 1704–1705), nie dziwi więc, że mógł ją otrzymać herold, choćby dlatego, że w świecie
+                    homeryckim jego funkcja obejmowała pomoc przy ofiarach i podziale
+                    mięsa (cf. Il. 18.58). Należy nadmienić, że dwa miejsca (schol.
+                    ad loc.; Athen. 16b–c) zawierają stwierdzenie, że istniał obyczaj ofiarowywania
+                    języków wraz z libacjami samemu Hermesowi jako bóstwu
+                    odpowiedzialnemu za udzielanie wyjaśnień.</p>
+                    <p>1114–1116: οὐδεὶς οὐ λιβανωτόν, οὐ δάφνην, οὐ ψαιστόν, οὐχ
+                    <w>ἱερεῖον</w>, ἡμῖν ἔτι <w>θύει</w> τοῖς θεοῖς – „nikt nam, bogom już nie poświęca kadzidła,
+                    lauru, ciastek ani zwierząt”; czasownik <w>θύω</w> wyraźnie występuje
+                    tu w swoim pierwotnym znaczeniu „spalać w celu wytworzenia dymu”,
+                    przyjmując jako dopełnienia bliższe serię rzeczowników odnoszących
+                    się do rzeczy regularnie składanych bogom w ofierze palonej. <w>Ἱερεῖον</w>,
+                    „zwierzę ofiarne” jest wyłącznie jednym z elementów wyliczenia.</p>
+                    
+                    <p>1116–1117: wypowiedź Kariona presuponuje elementarną teologię
+                    ofiary: składano ją z różnych powodów, ale jeśli ktoś, kto okazał się pobożny,
+                    nie doświadczał boskiej opieki, wywoływało to poczucie krzywdy.</p>
+                    
+                    <p>1119: ἐγὼ δ’ <w>ἀπόλωλα</w> κἀπιτέτριμμαι – „sam ginę i rozpadam się”;
+                    w tym miejscu z całą wyrazistością ujawnia się komediowa teologia. Bóg
+                    po prostu cierpi z głodu. Użyta tu forma czasownika <w>ἀπόλλυμι</w> („ginąć”)
+                    nie ewokuje w sposób jednoznaczny paradoksu, jaki wprowadziłoby
+                    użycie w tym miejscu np. ἀποθνήσκω („umierać”), trudno zatem powiedzieć,
+                    czy bóg, istota z definicji nieśmiertelna, jest bliska śmierci, czy
+                    tylko doznaje fizycznych katuszy. Ten drugi wariant wydaje się głęboko
+                    zakorzeniony w tradycji poetyckiej związanej z Hermesem, bóstwem
+                    szczególnie wyraźnie obdarzonym ludzkimi słabościami. Już Hymn homerycki
+                    4 zawiera subtelną grę opartą na kontraście pomiędzy tym, czego
+                    Hermes doznaje, a czego doznawać powinien jako bóg (cf. e.g. w. 131
+                    wraz z komentarzem Vergados 2013: ad loc.; Versnel 2011: 309–377), przy
+                    czym na pierwszy plan wysuwa się jego iście ludzki apetyt.</p>
+                    
+                    <p>1120: παρὰ ταῖς <w>καπηλίσιν</w> – „od handlarek”; wyraz może odnosić
+                     się do rozmaitych kategorii kobiet parających się drobnym handlem 
+                     artykułami spożywczymi: straganiarek, szynkarek etc. Hermes wymienia
+                     w kolejnych wersach kilka kategorii tanich produktów, którymi
+                     go obdarzano (tzn. jego figury) jako boga handlu.</p>
+                    
+                    <p>1124–1125: Karion znęca się nad bogiem, czyniąc mu wyrzuty „z teodycei”,
+                     nawiązując do ludowej wizji pobożności: bóg, który otrzymuje
+                     dary od ludzi, powinien odwzajemniać doznane dobro. Bohater
+                     nawet nie traci czasu na wyjaśnienie oczywistego – jak widać – faktu,
+                     że bogowie często zawodzą.</p>
+                    
+                    <p>1126: οἴμοι <w>τάλας</w> – „o, ja biedny”; responsoryjna struktura stychomytii
+                     przypomina tragediowy lament. Hermes wyraża rozpacz, wzywając
+                     potrawy, a Karion odpowiada cytatem z tragedii (1127), a w dalszych
+                     wersach celowo nadaje wypowiedzi rozmówcy nieoczekiwane
+                     i niechciane przez niego znaczenia.</p>
+                    
+                    <p>1128: <w>κωλῆς</w> – „udźcu”; terminem, który regularnie odnosi się do
+                        udźców spalanych na ołtarzu jest μηρία, rzadziej μηροί. <w>Κωλῆ</w> to mięso
+                        z uda zwierzęcia, z którego nie spalano, przy czym na fakt, że nie
+                        zawierało ono kości wskazuje malarstwo wazowe, gdzie obiekt wyraźnie
+                        przedstawiany był jako wiotki (Tsoukala 2009: 33). <w>Κωλῆ</w> bywa
+                        wymieniana jako część zwierzęcia ofiarnego, którą kładziono na stole
+                        w ramach rytu trapezomata lub jako prerogatywa kapłana (najczęściej
+                        zresztą jedno stawało się drugim. cf. e.g. IG 2² 1361.5, SIG 1015.10). Tym
+                        samym ostatecznie mięso to trafiało na stół ludzi – personelu świątynnego
+                        lub kogoś, komu je odsprzedano albo oddano. Jest to o tyle istotne,
+                        że Hermes w tym miejscu najprawdopodobniej nie mówi o tym, co
+                        przypadało większości bóstw olimpijskich – dymie z udźców (<w>κνῖσα</w>
+                        <w>μηρίων</w>), lecz ciągnie wątek z poprzednich wersów, odnosząc się do
+                        posiłków ludzkich, których częścią częstowano go. Nie bez znaczenia
+                        jest tu użycie czasownika <w>κατεσθίω</w>, „pożerać”, „zjadać łapczywie”,
+                        który sugeruje z jednej strony wielki apetyt, a z drugiej obcowanie
+                        z mięsem w jego pierwotnej postaci, nie zaś z oparem.</p>
+                    
+                    <p>1130: <w>σπλάγχνων</w> τε θερμῶν ὧν ἐγὼ κατήσθιον – „ciepłe trzewia,
+                        które pożarłem!”; w czasie, gdy na ołtarzu płonęły udźce oraz – być
+                        może opcjonalnie – kość krzyżowa zwierzęcia wraz z ogonem, w tym
+                        samym ogniu opiekano trzewia nadziane na ruszt. Skosztowanie trzewi
+                        stanowi ważny element rytuału, który Homer traktuje jako jedną
+                        z jego dwóch partes pro toto (cf. Il. 1.464: αὐτὰρ ἐπεὶ κατὰ μῆρε κάη καὶ
+                        <w>σπλάγχνα</w> πάσαντο). Jak podkreśla Versnel (2011: 353), trzewia w odróżnieniu
+                        od tego, co płonęło na ołtarzu, były zasadniczo pokarmem
+                        ludzi. Wprawdzie granica nie wydaje się tu bardzo ścisła, ponieważ
+                        część podrobów kładziono na stole jako trapezomata (por. także Athenion
+                        1.18: τὰ <w>σπλάγχνα</w> τοῖς θεοῖσιν ὀπτῶσιν φλογί, „trzewia pieką
+                        w ogniu dla bogów”), Hermesowi prawdopodobnie nie chodzi o to,
+                        by oddawano mu typowo boską cześć poprzez ofiarę zwierzęcą, mającą
+                        jego samego za adresata. Wyraźnie tęskni on za uczestniczeniem
+                        w posiłkach ludzi, którzy przeznaczali mu część swojego jedzenia (cf.
+                        Od. 14.435–6; Kadletz 1984; Petropoulou 1987).</p>
+                    
+                    <p>1132–1133: Hermes wyraża pragnienie wypicia wina zmieszanego
+                        pół na pół z wodą, a zatem według greckich standardów dosyć mocnego.
+                        Złośliwa odpowiedź Kariona jest niejasna. Sommerstein (2001 ad
+                        loc.) wyraził przypuszczenie, że niewolnik podał Hermesowi urynał,
+                        a jego słowa nawiązują do picia moczu. W równym stopniu prawdopodobne
+                        wydaje się, że jest to jakiegoś rodzaju odwołanie do praktyki
+                        wylewania libacji, choć tutaj oczekiwalibyśmy wzmianki o trunku nierozcieńczonym.</p>
+                    
+                    <p>1137: κρέας νεανικόν – „zdrowy kawałek mięsa”; przymiotnik
+                        νεανικός oznacza przede wszystkim „młodzieńczy”, a także odnosi
+                        się do cech z młodością związanych, takich jak bycie radosnym,
+                        krzepkim, energicznym. Scholia zawierają kilka propozycji wyjaśnienia,
+                        większość z nich sprowadza się jednak do stwierdzenia, że
+                        chodzi o kawałek mięsa dostatecznie duży, by nasycić młodzieńca.
+                        Pomimo że nadmierna subtelność tych spekulacji może budzić podejrzenia,
+                        wydaje się prawdopodobne, że scholiaści prawidłowo zrozumieli
+                        wydźwięk użytej przez Arystofanesa figury, którą staram się oddać w przekładzie przez polski kolokwializm. Poeta w sposób konsekwentny
+                        buduje tu obraz wygłodniałego, po ludzku żarłocznego
+                        boga. O jedzeniu mięsa z pszennym chlebem typu ἄρτος, cf. Ar. <title>Plut</title>.
+                        320; X. <title>An</title>. 7.3.23.</p>
+                    
+                    <p>1138: οὐκ <w>ἐκφορά</w> – „nie «na wynos»”; wyrażenie w kontekście
+                        ofiary krwawej ma charakter technicyzmu i oznacza, że mięsa nie należy
+                        wynosić z miejsca, w którym odbywa się rytuał. Inskrypcyjnie
+                        zwrot wraz z wariantami (LSCG 54.10: τῶν δὲ κρεῶν μὴ <w>φέρεσθαι</w>
+                        – „a mięsa nie wynosić”; LSCG 18A5 et al.: οὐ <w>φορά</w> – „nie na wynos”)
+                        poświadczony jest w sanktuariach. Przykład wersji pozbawionej niedomówień
+                        czy elips zawiera <title>Lex Sacra</title> z Oropos (LSCG 69.31–32): τῶν
+                        δε κρεῶν μὴ εἶναι <w>ἐκφορὴν</w> ἔξω τοῦ τεμένεος („niech nie będzie wynoszenia
+                        mięsa poza temenos”). Z kolei kalendarz z Kos (LSCG 151B
+                        8 i 10) wskazuje na istnienie złożonego systemu opozycji. W odniesieniu
+                        bowiem do jednych obiektów pojawia się zwrot ταύτας <w>ἀποφορά</w>
+                        („to można wynosić”), do innych – τούτων οὐκ <w>ἐκφορὰ</w> ἐκ τοῦ ναοῦ
+                        („nie ma wynoszenia tych rzeczy ze świątyni”). Warto zaznaczyć, że
+                        dwie inskrypcje w różny sposób dookreślają granice miejsca świętego:
+                        w tekście z Oropos jest to temenos, a w tym z Kos – świątynia. Rytuał,
+                        o którym mowa w omawianym passusie, odbywa się w lokalizacji
+                        trudnej do jednoznacznego zinterpretowania, ponieważ w ramach
+                        komediowej fikcji bóg Plutos we własnej osobie zamieszkał z obywatelem
+                        ateńskim. Trudno zatem powiedzieć, czy to, co reprezentuje budynek
+                        sceniczny, jest jeszcze prywatnym domem, czy już świątynią.
+                        Należy zaznaczyć, że pewne późne źródła (Zen. 4.44; Diogenian. 2.40;
+                        4.68) przekazują stwierdzenie, że w czasie ofiar składanych w domu
+                        ku czci bogini Hestii nie dzielono się mięsem z osobami z zewnątrz.
+                        Być może Arystofanes nawiązuje w tym miejscu do jednego z takich
+                        rytuałów o charakterze prywatnym, dobrze znanych jego publiczności
+                        z autopsji, nieobecnych jednak w materiale inskrypcyjnym z sanktuariów
+                        (cf. Ar. <title>V</title>. 844–846 wraz z komentarzem).</p>
+                    
+                    <p>1143: αὐτὸς ἂν <w>κατήσθιες</w> – „sam pożerałeś”; dzielenie się zyskami
+                        z Hermesem wydaje się naturalne, nawet jeśli pochodziły one 
+                        z kradzieży (na temat darów z pierwocin/części czegoś pozyskanego
+                        cf. Jim 2014). <title>Plutos</title> jest komedią, w której sporo mówi się o wtórnym
+                        wykorzystaniu tych darów przez ludzi: o zjadaniu ich przez personel
+                        sanktuariów, ubogich, samych obdarowujących (zwłaszcza 594–597
+                        i 668–695). Co ciekawe, passusy te (w tym omawiany tutaj) sprawiają
+                        wrażenie, jakby chodziło o praktykę wstydliwą i niepokojącą, mimo
+                        że czymś doskonale znanym, bo szczegółowo regulowanym w oficjalnych
+                        inskrypcjach był fakt otrzymywania przez kapłanów tego,
+                        co wcześniej wierni złożyli jako poczęstunek dla boga (cf. Pirenne-
+                        -Delforge 2010).</p>
+                    
+                    <p>1146: <w>Φυλὴν</w> κατέλαβες – „zająłeś Fyle”; nawiązanie do amnestii
+                        z 403 r. p.n.e., bez związku z religią. Kolejne wersy zawierają metafory
+                        zaczerpnięte ze sfery polityki.</p>
+                       
+                     <p>1153–1163: Hermes wymienia swoje różne, najprawdopodobniej
+                        autentyczne przydomki i przypisywane mu sfery boskiego wpływu.</p>
+                    
+                    <p>1168–1169: πλῦνε τὰς <w>κοιλίας</w> – „umyj jelita”; części przewodu
+                    pokarmowego zwierzęcia nie zaliczały się do kategorii <w>σπλάγχνα</w>,
+                    trzewi, których kosztowali ofiarnicy. Niekiedy po skończeniu rytuału
+                    jelita przypadały kapłanom (e.g. LSCG 151 A 50), bywały sprzedawane
+                    i używane do różnych celów, np. jako powłoki na kiełbasy, czy też jako
+                    struny instrumentów muzycznych. Oczywiście, trudno wykluczyć, że
+                    stosowano tu i jelita zwierząt, których nie zarżnięto w ofierze. Z całą
+                    pewnością ich płukanie z treści pokarmowych i ekskrementów nie należało
+                    do zadań przyjemnych, dlatego Karion z sadystyczną przyjemnością
+                    przekazuje to zadanie Hermesowi jako nowemu słudze. Na ten
+                    temat Ar. <title>Eq</title> 157–161.</p>
+                    
+                    <p>1175: τοῦ <w>σωτῆρος</w> ἱερεὺς ὢν <w>Διός</w> – „jestem kapłanem Zeusa Sotera”;
+                        wybór kapłana tego bóstwa jako osoby, która szczególnie wiele
+                        straciła na powszechnym dobrobycie, nie jest chyba przypadkowy.
+                        Jak świadczą dane dotyczące sprzedaży skór zwierząt ofiarnych (IG II²
+                        1496.88–89, 118–119) pod koniec okresu klasycznego święto Diisoteria
+                        obchodzone ku czci tego boga stanowiło jedną z ważniejszych (obok
+                        Dionizjów Miejskich) okazji do składania spektakularnie obfitych ofiar
+                        (Parke 1977: 167–168; Deubner 1932: 174–176). Poza tym, o ile można
+                        wnosić na podstawie cytowanego tu passusu, a zwłaszcza wersów
+                        1178–1182, wiele osób z własnej inicjatywy składało ofiary w sanktuarium
+                        Zeusa Sotera, w przeświadczeniu, że bóg pozwolił lub pozwoli
+                        (udzielając znaków) im uniknąć jakiegoś niebezpieczeństwa. Należy
+                        zaznaczyć, że bóstwo o tym przydomku otrzymywało w Attyce cześć
+                        przynajmniej w dwóch miejscach: ewidentnie utożsamiano z nim Zeusa
+                        Eleutheriosa, od którego imienia nazwano portyk na ateńskiej agorze
+                        zbudowany w 430 r. p.n.e. (Rosivach 1987). Większe znaczenie miało
+                        chyba sanktuarium umiejscowione w Pireusie. Pauzaniasz (1.1.3)
+                        wspomina o nim jako o rzeczy najwspanialszej w tym portowym mieście,
+                        tam też odbywały się wzmiankowane powyżej Diisoteria. Taka
+                        lokalizacja wydaje się zresztą czymś oczywistym, zważywszy na fakt,
+                        że starożytne podróże morskie wiązały się generalnie ze znacznym ryzykiem.
+                        Emocje, jakich doświadczali marynarze i podróżni po zakończeniu
+                        żeglugi mogły mieć proste przełożenie na dobrobyt świątyni
+                        (cf. Parker 1996: 238–241).</p>
+                    <p>1181: ὁ δ’ ἂν <w>ἐκαλλιερεῖτό</w> τις – „i taki, który chciał uzyskać znaki”;
+                        Van Leeuwen (1904: ad loc.) stwierdził, że użyty tu wyraz stanowi
+                        synonim pojawiającego się w poprzedzającym wersie <w>θύω</w>. Zdaniem
+                        tego komentatora w passusie chodziłoby o to, że osoba, która złożyła
+                        ofiarę, wołała na ucztę kapłana. Nowsze komentarze (Sommerstein
+                        2001: ad loc.; Olson 1989: ad loc.) przekazują inną interpretację (moim
+                        zdaniem bardziej przekonującą). Mianowicie kapłan w swojej wypowiedzi
+                        wymienia dwie kategorie ludzi, którzy uniknęli nieszczęścia –
+                        na morzu i w sądzie. Cytowany tu trzeci element wyliczenia odwołuje
+                        się do tych, którzy dopiero zamierzają podjąć jakieś ryzykowne działania.
+                        Takie jest bowiem najczęstsze znaczenie czasownika <w>καλλιερέω</w>:
+                        „uzyskać dobre znaki przy składaniu ofiary” (LS I.1). Może on wprawdzie
+                        także znaczyć „złożyć ofiarę, która przynosi dobre znaki” (LS I.2),
+                        co oznacza przesunięcie akcentu na samą czynność ofiarowania, jednak
+                        także i w tym przypadku aspekt wieszczy jest bardzo silnie obecny. To
+                        oznacza, że w omawianym passusie wyraźne jest rozgraniczenie pomiędzy
+                        ofiarami składanymi przez osoby, które czynią to, by podziękować
+                        bóstwu za opiekę, i takimi, które poprzedzały podjęcie działalności.
+                        Jak wskazują rozproszone miejsca w <title>Anabazie</title> Ksenofonta (e.g.
+                        1.8.15; 6.4.14), normalną praktyką było zasięganie znaków z ofiar typu
+                        thysia lub sphagia przed rozpoczęciem niebezpiecznej akcji, takiej jak
+                        bitwa, wymarsz z obozu lub przeprawa przez rzekę. Jakkolwiek procedury
+                        mantyczne związane z ofiarami stanowiły całą gałąź wiedzy,
+                        na poziomie znaczeń opisanych przez Ksenofonta, najczęściej zdają
+                        się one tworzyć system prostej opozycji binarnej: znaki są dobre (<w>ἱερὰ</w>
+                        καλά) lub złe (οὐκ ἐγίγνετο τὰ <w>ἱερά</w>). Bogowie mówią „tak” lub „nie”.
+                        Uzyskanie niekorzystnych znaków prowadziło, jeśli nie do porzucenia
+                        zamiarów, to przynajmniej do ich odroczenia w czasie. Szerzej:
+                        Flower (2008: 104–210); Naiden (2013: 109–122); Furley, Gysembergh
+                        (2015: 1–24). Choć brak szczegółowych danych dotyczących praktyki
+                        rytualnej w sanktuarium Zeusa Sotera, możemy sobie wyobrażać, że
+                        przed wyruszeniem na morze lub podjęciem innych czynności, składano
+                        bogu ofiary, które miały pomóc w podjęciu decyzji o stosownym
+                        momencie działania lub przynieść wróżbę dotyczącą jego wyników.</p>
+                    
+                    <p>1182: κἀμέ γ’ ἐκά<w></w>λει τὸν <w>ἱερέα</w> – „mnie wołali jako kapłana”; Sommerstein
+                        (2001: ad loc.) stwierdza, że chodzi o ofiary składane w domach
+                        prywatnych, a nie w sanktuarium, interpretując czasownik <w>καλέω</w> jako
+                        „zaprosić”, nie zaś „wezwać”. W ramach takiej rekonstrukcji kapłan
+                        poza służbą świątynną świadczyłby usługi również w przestrzeni prywatnej.
+                        Jest to z pewnością możliwe, a z drugiej strony, ranga kapłana
+                        Zeusa Sotera, a także dogodne położenie jego sanktuarium sprawiają,
+                        że łatwiej oczekiwać, że prywatni ludzie odwiedzaliby przybytek, przyprowadzając
+                        zwierzęta, niż żeby zapraszali rytualnego specjalistę do
+                        siebie. Do przywoływania kapłana (który z różnych powodów mógł się
+                        znajdować poza temenosem) do ołtarza w celu złożenia prywatnej ofiary
+                        nawiązuje inskrypcja LSCG 119. 9–14.</p>
+                    
+                    <p>1185: τὰ <w>νομιζόμενα</w> – „przypadającą tobie część”; zawarty tu
+                        skatologiczny żart jest oczywisty. Kapłanowi nor malnie przypadały
+                        pewne części zwierzęcia ofiarnego lub – ewentualnie – innych przedmiotów
+                        przyniesionych dla bogów. W tym kontekście zastanawiające
+                        jest użycie participium czasownika <w>νομίζω</w> („uznawać”, „uznawać za
+                        stosowne”). Eliptyczna struktura zdania wskazuje na to, że mamy do
+                        czynienia z użyciem typowym, może nawet z technicyzmem. Tymczasem
+                        w korpusie normatywnych inskrypcji wyraz ten pojawia się zasadniczo
+                        na określenie „tego, co potrzebne do złożenia ofiary” (LSAM
+                        70.3; 72.32), i „tradycyjnych form kultu” (LSAM 81.27), nie zaś „tego,
+                        co tradycyjnie przypada kapłanowi”. Widocznie jednak i takie znaczenie
+                        było nie tylko możliwe, lecz także – jak wynika z kontekstu – oczywiste
+                        dla publiczności Arystofanesa.</p>
+                    
+                    <p>1186–1191: ostatnie wersy cytowanego passusu pozwalają stwierdzić,
+                        że pomimo wszelkich złośliwości pod adresem personelu świątynnego
+                        Arystofanes nie negował potrzeby jego istnienia. W dalszym
+                        ciągu tekstu jest mowa o tym, że kapłan poprowadzi procesję ku czci
+                        boga Plutosa. Wygląda zatem na to, że nawet w utopijnym i groteskowo
+                        bezbożnym świecie komedii jest miejsce dla specjalistów religijnych,
+                        tyle tylko, że przeznacza się im nieco inną rolę niż ta, którą pełnili
+                        w rzeczywistych Atenach.</p>    
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
