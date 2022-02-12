@@ -57,14 +57,14 @@
                         decide allora di prendersi Briseide, bottino di guerra di Achille, come atto
                         di forza sul re dei Mirmìdoni. Accecato dall’ira, Achille «fu incerto tra
                         due: se sfilare la <rs key="practice"><emph>spada puntuta</emph></rs> via
-                        dalla coscia ( <ref corresp="lexicon_phasganon.html"><rs key="belief">φάσγανον</rs></ref> =  
+                        dalla coscia ( <ref corresp="lexicon_phasganon.html"><rs key="belief"><w>φάσγανον</w></rs></ref> =  
                         <ref corresp="lexicon_machaira.html"><rs key="practice"
-                            >μάχαιρα</rs></ref>) e uccidere l’Atride o se calmare l’ira e contenere il
+                            ><w>μάχαιρα</w></rs></ref>) e uccidere l’Atride o se calmare l’ira e contenere il
                         cuore»; ma interviene Atena a fermare l’eroe, prendendolo per la chioma, e a
                         placarne l’animo, inducendolo a «trattenere la <emph><rs key="speech">mano
                                 pesante</rs></emph> sull’elsa d’argento» e a «rinfoderare la spada
-                        ( <ref corresp="lexicon_xiphos.html"><rs key="belief">ξίφος</rs></ref> =  
-                        <ref corresp="lexicon_aor.html"><rs key="belief">ἄορ</rs></ref>)»:</p>
+                        ( <ref corresp="lexicon_xiphos.html"><rs key="belief"><w>ξίφος</w></rs></ref> =  
+                        <ref corresp="lexicon_aor.html"><rs key="belief"><w>ἄορ</w></rs></ref>)»:</p>
                     <quote><title>Ilias</title> I.188-192:
                         <lb/>Πηλεΐωνι δ᾽ ἄχος γένετ᾽, ἐν δέ οἱ  ἦτορ <lb/><ref
                             corresp="http://www.perseus.tufts.edu/hopper/morph?l=sth%2Fqessin"
@@ -79,7 +79,7 @@
                         facesse alzare gli altri, ammazzasse l’Atride,/ o se calmasse l’ira e
                         contenesse il cuore).</quote>
                     <quote><title>Ilias</title> I.219-221: <lb/>ἦ καὶ ἐπ᾽ ἀργυρέῃ κώπῃ σχέθε <rs
-                            key="speech">χεῖρα βαρεῖαν</rs>,
+                        key="speech"><w lemma="χεῖρ">χεῖρα</w> <w lemma="βαρεῖα">βαρεῖαν</w></rs>,
                         <lb/>ἂψ δ᾽ ἐς κουλεὸν ὦσε μέγα ξίφος, οὐδ᾽ ἀπίθησε
                         <lb/>μύθῳ Ἀθηναίης·</quote>
                     <quote>(Così sull’elsa d’argento trattenne la <emph>mano pesante</emph>, spinse
@@ -92,7 +92,7 @@
                             >Διῒ</persName> φίλον, ᾧ τε σὺ Κάλχαν
                         <lb/>εὐχόμενος Δαναοῖσι θεοπροπίας ἀναφαίνεις,
                         <lb/>οὔ τις ἐμεῦ ζῶντος καὶ ἐπὶ χθονὶ δερκομένοιο
-                            <lb/>σοὶ κοίλῃς παρὰ νηυσί <rs key="speech">βαρείας χεῖρας</rs> ἐποίσει
+                        <lb/>σοὶ κοίλῃς παρὰ νηυσί <rs key="speech"><w lemma="βαρεῖα">βαρείας</w> <w lemma="χεῖρ">χεῖρας</w></rs> ἐποίσει
                         ...</quote>
                     <quote>(E ricambiandolo Achille piede rapido disse:/ Svela con gran coraggio il
                         responso divino che sai./ No – per Apollo amato da Zeus, a cui tu,
@@ -112,12 +112,11 @@
                         summenzionata le cui principali attestazioni si concentrano nel secondo
                         poema del ciclo epico e precisamente nei due libri relativi all’incontro di
                         Odisseo con Circe e all’evocazione dei morti dove, in un caso,
-                            <foreign>xiphos</foreign> è sostituito da <rs key="belief"
-                                    ><emph><foreign>aor</foreign></emph></rs>.</p>
+                        <foreign>xiphos</foreign> è sostituito da <ref corresp="lexicon_aor.html"><emph><foreign>aor</foreign></emph></ref>.</p>
                     <p>Nel primo episodio, lo <foreign>xiphos</foreign> o <foreign>aor</foreign>
                         indica l’arma o piuttosto il rimedio utilizzato dall’eroe per vanificare
                         l’effetto della <rs key="belief"
-                            ><emph><foreign>rhabdos</foreign></emph></rs> di Circe, neutralizzando
+                            ><emph><foreign><w>rhabdos</w></foreign></emph></rs> di Circe, neutralizzando
                         il potere magico della bacchetta della fattucchiera tessalica con «la spada
                         puntuta sguainata all’altezza della coscia» (<title>Odyssea</title> X.294:
                         ξίφος ὀξὺ ἐρυσσάμενος παρὰ μηροῦ e 321: ἄορ ὀξὺ ἐρυσσάμενος παρὰ μηροῦ).
@@ -161,8 +160,8 @@
                         senso, tanto la machaira quanto lo <foreign>xiphos</foreign> assumono una
                         precisa funzione sacrale in contesti specifici di uccisione rituale,
                         conferendo a chi ne fa uso un <emph>potere di vita e di morte</emph> nel
-                        senso latino dello <rs key="speech instruments"><emph><foreign>Jus
-                                    gladii</foreign></emph></rs>, inteso propriamente come
+                        senso latino dello <rs key="speech"><rs key="instruments"><emph><foreign><w>Jus
+                            gladii</w></foreign></emph></rs></rs>, inteso propriamente come
                             «<foreign>diritto di spada</foreign>» esercitato da colui al quale è
                         legittimamente riconosciuta l’autorità sovrana di disporre della forza
                         (armata), di infliggere (o assolvere da) una pena, tipicamente capitale (nel
@@ -183,7 +182,7 @@
                                 spada</rs></emph>»:</p>
                     <quote>Euripides. <title>Iphigenia Taurica</title>. 26-27:
                         <lb/>ἐλθοῦσα δ᾽ Αὐλίδ᾽ ἡ τάλαιν᾽ ὑπὲρ πυρᾶς μεταρσία ληφθεῖσ᾽ <rs
-                            key="systems">ἐκαινόμην ξίφει</rs>.</quote>
+                            key="systems"><w>ἐκαινόμην</w> <w lemma="ξίφος">ξίφει</w></rs>.</quote>
                     <p>Alla «<emph>mano pesante</emph>» pronta a sguainare lo
                             <foreign>xiphos</foreign> evocata nell’epos eroico è dunque possibile
                         attribuire quello stesso «<emph>diritto di spada</emph>», o <foreign>ius
@@ -278,7 +277,7 @@
                     <p>In relazione alla qualità della pesantezza che sembra caratterizzare la mano
                         “che uccide”, nella speculazione lessicografica tardo-antica lo stesso
                         aggettivo βαρύς è attribuito anche all’«<emph><rs key="practice"
-                            >aroma</rs></emph>» (<rs key="practice">θυμίαμα</rs>: incenso, fumo,
+                            >aroma</rs></emph>» (<rs key="practice"><w>θυμίαμα</w></rs>: incenso, fumo,
                         essenza odorosa) esalante dai sacrifici, evidenziando, anche in questo
                         contesto, la corrispondenza emergente tra ciò che è «greve, pesante» e la
                         pratica sacrificale:</p>
@@ -291,9 +290,9 @@
                             <emph>fragrant stuffs for burning</emph>, Hdt.2.130, 7.54, S.OT4,
                         Ar.Av.1716, Pl.R.373c, IG5(2).514 (Lycosura), Apoc.5.8; θυµιάµατα
                             <emph>fumigations</emph>, Philum.Ven. 6 tit.</quote>
-                    <p>Derivato dalla radice del verbo <rs key="instruments">θυµιάω</rs>
+                    <p>Derivato dalla radice del verbo <rs key="instruments"><w>θυµιάω</w></rs>
                         (<foreign>burn so as to produce smoke</foreign>) [ <ref corresp="lexicon_thymos.html"><emph><rs key="belief"
-                                >θυµός</rs></emph></ref> = <foreign>soul, spirit, as the principle of
+                                ><w>θυµός</w></rs></emph></ref> = <foreign>soul, spirit, as the principle of
                             life</foreign>], col significato di «bruciare, affumicare, purificare
                         col fumo/ ardere come profumo», il <foreign>thymíama</foreign> indica di
                         fatto l’aroma (inteso nella doppia accezione di incenso e profumo) che emana
@@ -303,8 +302,8 @@
                         in DETIENNE 1972, XII e XXVIII-XXXI) – occupa un ruolo centrale nei
                         sacrifici per fumigazione, secondo la definizione riportata da Esichio in
                         riferimento a <title>Ilias</title> IX.219-220 (Hesychius.
-                        <title>Lexicon</title>. Theta.958:  <ref corresp="lexicon_machaira.html"><emph><rs key="instruments">θυσαι·
-                                άπάρξασθαι. θυµιᾶσαι. θυσιάσαι</rs></emph></ref>) e ripresa negli
+                        <title>Lexicon</title>. Theta.958:  <ref corresp="lexicon_machaira.html"><emph><rs key="instruments"><w>θυσαι</w>·
+                                <w>άπάρξασθαι</w>. <w>θυµιᾶσαι</w>. <w>θυσιάσαι</w></rs></emph></ref>) e ripresa negli
                             <title>Anecdota Graeca</title> (I, 42, 14 Bekker) a proposito degli
                         ἱερεία τεθύμενα (le vittime consacrate attraverso il fuoco), dove
                         «sacrificare sta per affumicare» (θῦσαι· ἀντὶ τοῦ θυμιᾶσαι), specificando il
