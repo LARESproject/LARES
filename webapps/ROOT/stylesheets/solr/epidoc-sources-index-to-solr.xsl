@@ -28,7 +28,12 @@
             <xsl:value-of select="." />
           </field>
           <field name="index_type">
-            <xsl:value-of select="@type" />
+            <xsl:choose>
+              <xsl:when test="@type='lit'">literary source</xsl:when>
+              <xsl:when test="@type='ins'">inscription</xsl:when>
+              <xsl:when test="@type='pap'">papyrus</xsl:when>
+              <xsl:otherwise><xsl:value-of select="@type" /></xsl:otherwise>
+            </xsl:choose>
           </field>
           <xsl:apply-templates select="current-group()" />
         </doc>
