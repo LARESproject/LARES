@@ -44,6 +44,16 @@
           <p></p>
         </div> -->
       </div>
+      
+      <div xml:id="word">
+        <head>Greek and Latin terms</head>
+        <div type="headings">
+          <list>
+            <item>Term</item>
+            <item>Documents</item>
+          </list>
+        </div>
+      </div>
     </body>
   </text>
 </TEI>

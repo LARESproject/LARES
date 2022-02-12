@@ -30,6 +30,7 @@ div geogName { background-color: #ccffcc; }
 div date { background-color: #ffccff; }
     
 div rs:before, div placeName:before, div geogName:before, div orgName:before, div persName:before {
+        /* the following could be done alternatively with 'combo', to select only one entry at a time, or with 'popupSelection', to select more entries together */
         content:  " REALM: " oxy_editor(type, popupSelection, edit, "@key", editable, false,
              values, oxy_concat("", oxy_xpath(oxy_concat('string-join(doc("', oxy_url('${framework}/', 'resources/thesaurus.xml'), '")//taxonomy[@xml:id="thesaurus"]//category[ancestor::category[1]][not(ancestor::category[2])]/@xml:id, ",")'))))
              /*" TYPE: " oxy_editor(type, popupSelection, edit, "@corresp", editable, false,
