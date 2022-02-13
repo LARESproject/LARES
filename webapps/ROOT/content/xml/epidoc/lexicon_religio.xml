@@ -39,14 +39,14 @@
                     <head>Epoca repubblicana</head>
                     <p>Come sappiamo, l'etimologia del termine latino religio è controversa: si dice che derivi da <foreign><w>relegere</w></foreign> ("rileggere attentamente", "ritornare col pensiero a", "ricordare mentalmente"), o da <foreign><w>religare</w></foreign> ("legare"). La prima etimologia è difesa in particolare da Cicerone, che distingue la superstitiosi dai religiosi e di conseguenza la superstitio dalla religio.</p>         
                     
-                    <quote>Cicerone <title>De natura deorum</title> II, 28:
+                    <quote><ref type="lit">Cicerone <title>De natura deorum</title> II, 28</ref>:
                         <lb/>qui autem omnia quae ad cultum deorum pertinerent diligenter retractarent et tamquam relegerent, sunt dicti religiosi ex relegendo, ut elegantes ex eligendo, diligendo diligentes, ex intelligendo intelligentes.</quote>
                     <quote>“invece coloro che riconsideravano con cura e, per così dire, ripercorrevano tutto ciò che riguarda il culto degli dei furono detti religiosi da relegere, come elegante deriva da eligere (scegliere), diligente da diligere (prendersi cura di), intelligente da intelligere (comprendere)”</quote>
                     
                     <p>Quanto alla seconda spiegazione etimologica, essa è offerta, per esempio, da Servio nel suo commento a due versi dell'Eneide che sono messi in bocca al pio Enea: in una preghiera rivolta in particolare al Sole e alla Terra, l'eroe invoca le sorgenti, i fiumi e le potenze del mare; egli afferma anche la sua venerazione (religio) per l'etere:</p>
                     
                     <quote>Virgilio <title>Eneide</title>:
-                            <lb/>Tum pius Aeneas stricto sic ense precatur:
+                            <lb/>Tum pius <persName type="myth" key="Aeneas">Aeneas</persName> stricto sic ense precatur:
                             <lb/>“Esto nunc Sol testis et haec mihi Terra vocanti,
                             <lb/>quam propter tantos potui perferre labores (…),
                             <lb/>fontisque fluviosque voco, quaeque aetheris alti
@@ -55,12 +55,12 @@
                     
                     <p>E Servio commenta:</p>
                     
-                    <quote>Servio <title>ad Aeneidem</title> 12, 181
+                    <quote><ref type="lit">Servio <title>ad Aeneidem</title> 12, 181</ref>
                         <lb/>sane religio dicta quod ea homines religantur ad cultum divinum
                     </quote>
                     <quote>“La "religione" è giustamente chiamata così perché lega le persone al culto degli dei”.</quote>
                     
-                    <p>Una attestazione importante di religio si trova in Lucrezio. Qui il termine ha una connotazione negativa, dal momento che la religione è intesa come ciò che sottomette l’uomo. Davanti al potere della religione, soltanto un uomo, Epicuro, riesce a sfuggire dalla religio e a fondare una propria dottrina, l’epicureismo, che viene qui esaltata dal poeta:</p>
+                    <p>Una attestazione importante di religio si trova in <persName key="Lucretius">Lucrezio</persName>. Qui il termine ha una connotazione negativa, dal momento che la religione è intesa come ciò che sottomette l’uomo. Davanti al potere della religione, soltanto un uomo, Epicuro, riesce a sfuggire dalla religio e a fondare una propria dottrina, l’epicureismo, che viene qui esaltata dal poeta:</p>
                     
                     <quote>
                         <lb/>«Humana ante oculos foede cum vita iacere
@@ -72,7 +72,7 @@
                         </quote>
                     <quote>“La vita umana giaceva sulla terra alla vista di tutti turpemente schiacciata dall'opprimente religione, che mostrava il capo dalle regioni celesti, con orribile faccia incombendo dall'alto sui mortali. Un uomo greco per la prima volta osò levare contro di lei gli occhi mortali, e per primo resistere contro di lei”.</quote>
                     
-                    <p>Qualunque sia il suo significato etimologico, che è stato contestato fin dall'antichità, il termine religio, spesso usato al plurale, si riferisce nel suo uso latino alla cura scrupolosa che gli uomini mortali prendono nelle loro relazioni con gli dei. Si riferisce quindi all'esecuzione coscienziosa di pratiche che chiameremmo "religiose", in un sistema politeista, ovviamente. Così, nella Guerra gallica di Cesare, il termine religiones si riferisce alle osservanze e alle pratiche dei Galli nei confronti dei loro dei (che lo storico generale indica con nomi latini come Mercurio, Marte, Giove o Minerva, se non Apollo).</p>              
+                    <p>Qualunque sia il suo significato etimologico, che è stato contestato fin dall'antichità, il termine religio, spesso usato al plurale, si riferisce nel suo uso latino alla cura scrupolosa che gli uomini mortali prendono nelle loro relazioni con gli dei. Si riferisce quindi all'esecuzione coscienziosa di pratiche che chiameremmo "religiose", in un sistema politeista, ovviamente. Così, nella Guerra gallica di <persName key="Caesar">Cesare</persName>, il termine religiones si riferisce alle osservanze e alle pratiche dei Galli nei confronti dei loro dei (che lo storico generale indica con nomi latini come <persName type="divine" key="Mercury">Mercurio</persName>, <persName type="divine" key="Mars">Marte</persName>, <persName type="divine" key="Jupiter">Giove</persName> o <persName type="divine" key="Minerva">Minerva</persName>, se non <persName type="divine" key="Apollo">Apollo</persName>).</p>              
                 </div>
                 
                 <div type="textpart" n="Cristianesimo">
@@ -80,7 +80,7 @@
                     <p>Nel contesto cristiano, questa spiegazione etimologizzante è ripresa da Lattanzio in relazione all'attaccamento provato per la divinità e in esplicito contrasto con l'etimologia e il significato proposti da Cicerone. Quindi religio come cura scrupolosa del rito e rispetto della divinità.</p>
                     
                     <quote>Lattanzio <title>Divinarum Institutionum liber</title> 4.28,2.
-                        <lb/>Hoc vinculo pietatis obstricti Deo et religati sumus; unde ipsa religio nomen accepit, non ut Cicero interpretatus est, a relegendo.</quote>
+                        <lb/>Hoc vinculo pietatis obstricti Deo et religati sumus; unde ipsa religio nomen accepit, non ut <persName>Cicero</persName> interpretatus est, a relegendo.</quote>
                     <quote>“Per questo vincolo di pietà siamo stretti e legati a Dio: onde prese il nome la stessa religione, e non come Cicerone ha interpretato, da relegere”..</quote>
                     
                     <p>Significativamente, è nel confronto del politeismo romano con il monoteismo cristiano che la religio comincia a implicare un contenuto preciso; la parola si riferirà allora a un insieme di credenze e non solo alle pratiche. Dal tempo dell'apologeta Tertulliano, la "religione" è cristiana: è opposta come una vera religio alla falsa religio del paganesimo. È in questa misura che la vera religio si colloca, dal punto di vista enunciativo, nella prospettiva dell'oratore apologetico per rappresentare la nostra religio. Come tale 'la nostra religione' si oppone alla religio dei romani; più spesso si contrappone religiositas a irreligiositas. Di conseguenza, la religione romana (politeista) diventa, nella stessa prospettiva propagandistica, vestra religio, come avviene per esempio in Lattanzio. La religione si trasforma così in un operatore di demarcazione e di affermazione della propria identità, in contrasto con le pratiche e le credenze degli altri; è una categoria identitaria.</p>                    
@@ -96,7 +96,7 @@
                         <lb/>Item alio loco: Ad unum Deum tendentes, inquam, et ei uni religantes animas nostras, unde religio dicta creditur, omni superstitione careamus. In his verbis meis ratio quae reddita est, unde sit dicta religio, plus mihi placuit. Nam non me fugit aliam nominis huius originem exposuisse latini sermonis auctores, quod inde sit appellata religio, quod religitur: quod verbum compositum est a legendo, id est eligendo, ut ita latinum videatur religo sicut eligo.</quote>
                     <quote>“In un altro passo ho detto: “Volgendoci all'unico Dio e legando a lui solo le nostre anime - di qui si ritiene che derivi il termine religione - teniamoci al sicuro da ogni superstizione”. In queste mie parole è espressa l'etimologia del termine religione che più mi soddisfaceva. So che autorevoli studiosi della lingua latina hanno proposto per questo vocabolo un'altra origine, supponendo che religio sia detto così perché religitur [è rieletto, scelto di nuovo]. Questo verbo è un composto di legere, cioè eligere [eleggere, scegliere], sì che in latino religere equivale a eligere [eleggere]”..</quote>
                     
-                    <p>È dunque nella scelta di tornare a Dio che Agostino trova il significato di religio. Il contesto è dunque quello dell’opposizione al politeismo, che sarebbe invece una superstitio, mentre la vera religio porterebbe alla verità del cristianesimo.</p>                    
+                    <p>È dunque nella scelta di tornare a Dio che <persName key="Augustine">Agostino</persName> trova il significato di religio. Il contesto è dunque quello dell’opposizione al politeismo, che sarebbe invece una superstitio, mentre la vera religio porterebbe alla verità del cristianesimo.</p>                    
                 </div>
             </div>
         </body>

@@ -44,14 +44,14 @@
                     <p>La prima attestazione del sintagma βαρεĩα χείρ si ha in 
                         <ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Hom.+Il.+1.219&amp;fromdoc=Perseus%3Atext%3A1999.01.0133"><title>Ilias</title> 
                             I.219</ref> (χεĩρα βαρεĩαν; attestato al plurale già in
-                        <ref corresp="com_09_ranae.html#Ranae_847–848"><title>Ilias</title> I.89</ref><!-- sample link, to be removed -->:
+                        <ref corresp="com_09_ranae.html#Ranae_847–848"><title>Ilias</title> I.89</ref><!-- sample link -->:
                         βαρείας χεĩρας). Siamo alla scena della lite iniziale tra Achille e
                         Agamennone che scatenerà l’ira funesta dell’eroe di Ftia e il suo temporaneo
-                        ritiro dalla guerra contro <placeName ref="Troy">Troia</placeName> 
-                        (<ref corresp="../texts/text_1.html">vv. 84-100</ref>)<!-- sample link, to be removed -->: 
+                        ritiro dalla guerra contro <placeName ref="Troy">Troia</placeName> (vv. 84-100): 
                         l’indovino Calcante ha appena vaticinato che Apollo Lungisaettante
                         getterà gran pena sui Danai finché Criseide – fatta prigioniera a Troia e
-                        andata, come bottino di guerra, al re degli Argivi <persName type="myth" key="Agamemnon">Agamennone</persName> – non sarà
+                        andata, come bottino di guerra, al re degli Argivi 
+                        <persName type="myth" key="Agamemnon">Agamennone</persName> – non sarà
                         liberata e restituita al padre Crise, sacerdote del dio; costretto perciò
                         dal Pelìde a restituire a suo padre Criseide, il tracotante Agamennone
                         decide allora di prendersi Briseide, bottino di guerra di Achille, come atto
@@ -67,10 +67,8 @@
                         <ref corresp="lexicon_aor.html"><rs key="belief"><w>ἄορ</w></rs></ref>)»:</p>
                     <quote><title>Ilias</title> I.188-192:
                         <lb/>Πηλεΐωνι δ᾽ ἄχος γένετ᾽, ἐν δέ οἱ  ἦτορ <lb/><ref
-                            corresp="http://www.perseus.tufts.edu/hopper/morph?l=sth%2Fqessin"
-                            >στήθεσσιν</ref>
-                        <ref corresp="http://www.perseus.tufts.edu/hopper/morph?l=lasi%2Foisi"
-                            >λασίοισι</ref> διάνδιχα μερμήριξεν,
+                            corresp="http://www.perseus.tufts.edu/hopper/morph?l=sth%2Fqessin">στήθεσσιν</ref>
+                        <ref corresp="http://www.perseus.tufts.edu/hopper/morph?l=lasi%2Foisi">λασίοισι</ref> διάνδιχα μερμήριξεν,
                         <lb/>ἢ ὅ γε φάσγανον ὀξὺ ἐρυσσάμενος παρὰ μηροῦ
                         <lb/>τοὺς μὲν ἀναστήσειεν, ὃ δ᾽ Ἀτρεΐδην ἐναρίζοι,
                         <lb/>ἦε χόλον παύσειεν ἐρητύσειέ τε θυµόν.</quote>
@@ -118,25 +116,25 @@
                         l’effetto della <rs key="belief"
                             ><emph><foreign><w>rhabdos</w></foreign></emph></rs> di Circe, neutralizzando
                         il potere magico della bacchetta della fattucchiera tessalica con «la spada
-                        puntuta sguainata all’altezza della coscia» (<title>Odyssea</title> X.294:
+                        puntuta sguainata all’altezza della coscia» (<ref type="lit"><title>Odyssea</title> X.294</ref>:
                         ξίφος ὀξὺ ἐρυσσάμενος παρὰ μηροῦ e 321: ἄορ ὀξὺ ἐρυσσάμενος παρὰ μηροῦ).
                         Nell’episodio della <title>Nekyia</title>, invece, l’<foreign>aor</foreign>
                         è lo strumento con cui il supplice Laerziade scava la fossa su cui versare
-                        le libagioni funebri di rito (<title>Odyssea</title> XI.24: ἄορ
+                        le libagioni funebri di rito (<ref type="lit"><title>Odyssea</title> XI.24</ref>: ἄορ
                         ὀξὺ ἐρυσσάμενος παρὰ μηροῦ); successivamente, dopo aver invocato con voti e
                         suppliche le stirpi dei morti, una volta tagliata la gola alle bestie scelte
                         per il sacrificio in modo da farne scorrere il nero sangue fumante nella
                         fossa appena scavata, mentre le anime dei defunti si affollano fuori
                         dall’Erebo e i compagni invocano Ade invincibile e la tremenda Persefone,
                         l’astuto Odisseo, con lo <foreign>xiphos</foreign> sguainato
-                            (<title>Odyssea</title> XI.48: ξίφος ὀξὺ ἐρυσσάμενος παρὰ μηροῦ), tiene
+                            (<ref type="lit"><title>Odyssea</title> XI.48</ref>: ξίφος ὀξὺ ἐρυσσάμενος παρὰ μηροῦ), tiene
                         a bada le teste esangui dei morti perché non si avvicinino al sangue delle
                         vittime sgozzate prima che lui sia riuscito a interrogare il Tiresia. In
                         seguito, l’eroe continua a tenere il coltello, indicato ora col termine
                             <foreign>phasganon</foreign>, teso sulla linea di sangue tracciata tra
                         sé e le schiere di trapassati, per tutto il tempo in cui rimane a colloquio
-                        con l’indovino tebano (<title>Odyssea</title>
-                        XI.82: ἐγὼ μὲν ἄνευθεν ἐφ᾽ αἵματι φάσγανον ἴσχων). Dalle immagini omeriche
+                        con l’indovino tebano (<ref type="lit"><title>Odyssea</title>
+                        XI.82</ref>: ἐγὼ μὲν ἄνευθεν ἐφ᾽ αἵματι φάσγανον ἴσχων). Dalle immagini omeriche
                         appena evocate risulta particolarmente evidente – dal modo in cui è
                         utilizzato l’oggetto – che il significato dei termini usati per indicare la
                         spada sguainata all’altezza della coscia – <foreign>xiphos</foreign>,
