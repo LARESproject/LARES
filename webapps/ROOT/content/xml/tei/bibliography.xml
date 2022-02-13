@@ -22,11 +22,100 @@
         <body>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="barret1964">Barret, W.S., ed., comm. (1964): Euripides. Hippolytus. Oxford.</bibl>
-                    <bibl xml:id="berthiaume1982">Berthiaume, G. (1982): Les rôles du mágeiros: Etude sur la boucherie, la cuisine et le sacrifice dans la Grèce ancienne. Leiden. </bibl>
-                    <bibl xml:id="halleran1995">Halleran, M.R., comm. (1995): Euripides. Hippolytus. Warminster. </bibl>
-                    <bibl xml:id="parker2010">Parker, R (2010): Eating unsacrificed meat. [w]: P. Carlier, Ch. Lerouge-Cohen, Paysage et religion en Grèce antique. Mélanges offerts á Madeleine Jost. Pari: 137-145. </bibl>
-                    <bibl xml:id="willetts1962">Willetts, R.F. (1962): Cretan Cults and Festivals. London.</bibl>
+                    <head>Abbreviations</head>
+                    <bibl xml:id="lsj"><emph>LSJ</emph>: The Online Liddell Scott Jones, <ref corresp="https://stephanus.tlg.uci.edu/lsj/">https://stephanus.tlg.uci.edu/lsj/</ref>.</bibl>
+                </listBibl>
+                
+                <listBibl>
+                    <head>Other bibliography</head>
+                    <bibl xml:id="Autenrieth2004">Autenrieth, G. (2004). Homeric Dictionary. London.</bibl>
+                    <bibl xml:id="Barret1964">Barret, W.S., ed., comm. (1964): Euripides. Hippolytus. Oxford.</bibl>
+                    <bibl xml:id="Beekes2010">Beekes, R. (2010). Etymological Dictionary of Greek. Leiden-Boston.</bibl>
+                    <bibl xml:id="Berthiaume1982">Berthiaume, G. (1982). <title>Les rôles du mágeiros. Étude sur la boucherie, la cuisine et le sacrifice dans la Grèce ancienne</title> («Mnemosyne» Supplément 70), Leiden.</bibl>
+                    <bibl xml:id="Bookidis1997">Bookidis N. and Stroud R. S., 1997, „The Sanctuary of Demeter and Kore: Topography and Architecture”, Corinth, Vol. 18, No. 3.</bibl>
+                    <bibl xml:id="Broulé2008">Broulé, P., Touzé, R. (2008). Le hiereion : phusis et psuchè d’un medium. w: P. Broulé, V. Mehl (eds.), Le sacrifice antique. Vestiges, procédures et stratégies: 111-138. Rennes.</bibl>
+                    <bibl xml:id="Brown1998">Brown, A. (1998), Sophocles: Antigone, Warminster.</bibl>
+                    <bibl xml:id="Burkert1977">Burkert, W. (1977). <title>Griechische Religion der archaischen und klassischen Epoche, Kohlhammer</title>, Stuttgart-Berlin- Köln 1977. Trad. it. <title>La religione greca di epoca arcaica e classica</title>, a cura di Giampiera Arrigoni, Milano.</bibl>
+                    <bibl xml:id="Burkert1983">Burkert, W., 1983, Homo Necans, Berkeley.</bibl>
+                    <bibl xml:id="Casabona1966">Casabona, J. (1966). Recherches sur le vocabulaire des sacrifices en grec, des origines à la fin de l'époque classique. Aix-en-Provence.</bibl>
+                    <bibl xml:id="Chantraine1933">Chantraine, P., 1933, La formation des noms en grec ancien, Paris.</bibl>
+                    <bibl xml:id="Chantraine1961">Chantraine, P., 1961, Morphologie Historique Du Grec, Paris.</bibl>
+                    <bibl xml:id="Chantraine1968">Chantraine, P., 1968, Dictionnaire étymologique de la langue grecque. Histoire des mots, Paris [avec un Supplément: 1999]</bibl>
+                    <bibl xml:id="Collins2008">Collins, D. 2008. Mapping the Entrails: the Practice of Greek Hepatoscopy. American Journal of Philology 129: 319-345.</bibl>
+                    <bibl xml:id="Daux1980">Daux, G., 1980, “Calendrier sacrificial de Thorikos”, CRAI, 463-470.</bibl>
+                    <bibl xml:id="Detienne1972">Detienne, M. (1972). <title>Les jardins d’Adonis. La mythologie des aromates en Grèce</title>, avec préface de J.-P. Vernant, Gallimard, Paris 1972. Trad. it. <title>I giardini di Adone</title>, Torino.</bibl>
+                    <bibl xml:id="Detienne1979">Detienne, M., Vernant, Jean-Pierre (1979), La cuisine du sacrifice en pays grec, avec les contributions de Jean-Louis Durand, Stella Georgoudi, François Hartog et Jasper Svenbro, Gallimard, Paris.</bibl>
+                    <bibl xml:id="Detienne1998">Detienne, M. (1998). <title>Apollon le couteau à la main. Une approche expérimentale du polythéisme grec</title>, Paris.</bibl>
+                    <bibl xml:id="DiccionarioMicénico1993">Diccionario Micénico, 1993, vol. II, red. Francisco Aura Jorro, Madrid.</bibl>
+                    <bibl xml:id="Dittenberger1915">Dittenberger, G., 1915, Sylloge Inscriptionum Graecarum, vol. 1, Lipsiae.</bibl>
+                    <bibl xml:id="Durand1986">Durand, J.-L. (1986). <title>Sacrifice et labour en Grèce ancienne. Essai d’anthropologie religieuse</title> (Coll. «École française de Rome»), Paris.</bibl>
+                    <bibl xml:id="Ekroth2002">Ekroth, G. 2002. The Sacrificial Rituals of Greek Hero-Cults in the Archaic to Early Hellenistic Period. Kernos, Supplément 12. Liège.</bibl>
+                    <bibl xml:id="Ekroth2007">Ekroth, G. (2007), Meat in ancient Greece: sacrificial, sacred or secular? “Food &amp; History” 5, s. 249-272.</bibl>
+                    <bibl xml:id="Ekroth2009">Ekroth, G. 2009. Thighs or tails? The osteological evidence as a source for Greek ritual norms. La norme en matière religieuse. Kernos supplément 21: 125-151.</bibl>
+                    <bibl xml:id="Ekroth2013">Ekroth, G. (2013), Forlegs in Greek cult, w: Perspectives on ancient Greece. Papers in celebration of the 60th anniversary of the Swedish Institute at Athens, ed. Ann-Louise Schallin, Stockholm, s. 113-134.</bibl>
+                    <bibl xml:id="Ekroth2014">Ekroth, G. (2014). Animal Sacrifice in Antiquity. The Oxford Handbook of Animals in Classical Thought and Life: 324-354. Oxford.</bibl>
+                    <bibl xml:id="Flower2008">Flower, M. A. (2008). The Seer in Ancient Greece. Berkeley.</bibl>
+                    <bibl xml:id="Furley2015">Furley, W., Gysembergh V. 2015. Reading the Liver. Papyrological Texts on Ancient Greek Extispicy. Tübingen.</bibl>
+                    <bibl xml:id="Goldstein1978">Goldstein, M.S. (1978), The Setting of the Ritual Meal in Greek Sanctuaries: 600-300 B.C., nieopublikowana praca doktorska.</bibl>
+                    <bibl xml:id="Gonda1947">Gonda, J. (1947). «À propos d’un sens magico-religieux de skt. “guru-”», <title>Bullettin of the School of Oriental and African Studies</title> 12/1, pp. 124-131.</bibl>
+                    <bibl xml:id="Gordon1958">Gordon, D.H. (1958), 14. Scimitars, Sabres and Falchions, Man, Vol. 58, s. 22-27.</bibl>
+                    <bibl xml:id="Graf2012">Graf F., 2012, „One generation after Burkert and Girard. Where are the great theories?”, Greek and Roman Animal Sacrifice. Ancient Victims, Modern Observers, red. Christopher A. Faraone, F. S. Naiden, s. 32-51, Cambridge.</bibl>
+                    <bibl xml:id="Griffith1999">Griffith, M. (1999), Sophocles, Antigone, Cambridge.</bibl>
+                    <bibl xml:id="Gusmani1971">Gusmani, R. (1971). <title>Elementi di fonetica storica delle lingue indoeuropee</title>, Messina.</bibl>
+                    <bibl xml:id="Hackstein2011">Hackstein, O. (2011-2), Collective and Feminine in Tocharian, w: Multilingualism and History of Knowledge, t.2: Linguistic Developments along the Silk Road. Archaism and Innovation in Tocharian, ed. by Olav Hackstein, Ronald I. Kim, Wien, s. 143-177 (Osterreichische Akademie der Wissenschaften, phil.-hist. Klasse Sitzungsberichte, 834. Band.).</bibl>
+                    <bibl xml:id="Halleran1995">Halleran, M.R., comm. (1995): Euripides. Hippolytus. Warminster. </bibl>
+                    <bibl xml:id="Halliday1913">Halliday, W. R. 1913. Greek Divination. London.</bibl>
+                    <bibl xml:id="Harder2012">Harder, A., 2012, Callimachus, Aetia. Introduction, Text, Translation, and Commentary by Anette Harder, vol. 2, Oxford.</bibl>
+                    <bibl xml:id="Henrichs2012">Henrichs, A. (2012). “Animal Sacrifice in Greek Tragedy: Ritual, Metaphor, Problematizations,” [w:] Faraone, Ch.A., Naiden, F. (red.) (2012): Greek and Roman Animal Sacrifice. Ancient Victims, Modern Observers: 180–194, Chicago.</bibl>
+                    <bibl xml:id="Hermary2004">Hermary, A., Legiuilloux, M., 2004, Les sacrifices dans le monde grec, ThesCRA, vol. I, Los Angeles, 59-134.</bibl>
+                    <bibl xml:id="Heubeck1969">Heubeck, A. (1969) Gedanken zu griech. λᾱός. [w:] Studi linguistici in onore di Vittore Pisani, ed. G. Bolognesi, E. Evangelisti, A. Grilli et al. II. Brescia: 535-44.</bibl>
+                    <bibl xml:id="Heubeck1989">Heubeck, A., Hoeckstra, A., 1989, A Commentary on Homer’s Odyssey, vol. 2: Books IX-XVI, Oxford.</bibl>
+                    <bibl xml:id="Jameson1966">Jameson, M. H. 1966. The Omen of the Oxtail. Scientific American 214: 54.</bibl>
+                    <bibl xml:id="Labarbe1977">Labarbe, J., 1977, Thorikos: Les Testimonia (FdTh I), Ghent.</bibl>
+                    <bibl xml:id="Latacz1967">Latacz, J. (1967) Zum Wortfeld „Freude” in der Sprache Homers, Heidelberg.</bibl>
+                    <bibl xml:id="Lentz1867">Lentz, A., (ed.), 1867, Herodiani Technici Reliquiae, Lipsiae.</bibl>
+                    <bibl xml:id="Loew1908">Loew, O. (1908) ΧΑΡΙΣ, diss. Marburg.</bibl>
+                    <bibl xml:id="Lupu2005">Lupu, E., 2005, Greek Sacred Law. A Collection of New Documents (NGSL), Leiden.</bibl>
+                    <bibl xml:id="Mallory1997">Mallory, J.P.; Adams, D. Q. (1997), Encyclopedia of Indo-European Culture, London.</bibl>
+                    <bibl xml:id="McInerney2010">McInerney, J., 2010, The Cattle of the Sun. Cows and Culture in the World of the Ancient Greeks, Princeton, NJ.</bibl>
+                    <bibl xml:id="Meuli1946">Meuli, K. (1946) Griechische Opferbaüche, w: Phyllobolia. Für Peter von der Mühll zum 60. Geburtstag am 1. August 1945, Basel, s. 185 – 288.</bibl>
+                    <bibl xml:id="Montanari2015">Montanari, F. (2015). The Brill Dictionary of Ancient Greek. Boston-Leiden.</bibl>
+                    <bibl xml:id="Morton2015">Morton, J. 2015. The Experience of Greek Sacrifice. Margaret M. Miles (ed.), Autopsy in Athens: Recent Archaeological Research on Athens and Attica: 66-75. Oxford.</bibl>
+                    <bibl xml:id="Moussy1966">Moussy, C. (1966), Grātia et sa famille, Paris.</bibl>
+                    <bibl xml:id="Moyer2008">Moyer, Ian S. (2008). Notes on Re-Reading the Delian Aretalogy of Sarapis (“IG” XI.4 1299). Zeitschrift für Papyrologie und Epigraphik 166: 101-107.</bibl>
+                    <bibl xml:id="Mylonas1961">Mylonas G., 1961, Eleusis and Eleusinian Mysteries, Princeton.</bibl>
+                    <bibl xml:id="Naiden2013">Naiden Fred, 2013 Smoke Signals for the Gods, Oxford Parker Robert, 2011, On Greek Religion, Oxford.</bibl>
+                    <bibl xml:id="Papanikolaou2012">Papanikolaou, D. (2012). “Hermogenes and the Tlos Sophist”. Classica et Mediaevalia 63: 119-160.</bibl>
+                    <bibl xml:id="Park1963">Park, G. K. 1963. Divination and its Social Contexts. The Journal of the Royal Anthropological Institute of Great Britain and Ireland 93: 195-209.</bibl>
+                    <bibl xml:id="Parker1985">Parker, R., 1987, “Festivals of the Attic Demes”, [w:] Gifts to the Gods: Proceedings of the Uppsala Symposium 1985 (Boreas 15), ed. T. Linders, G. Nordquist, 137-147.</bibl>
+                    <bibl xml:id="Parker1998">Parker, R. (1998), Pleasing Thighs: Reciprocity in Greek Religion [w:] Reciprocity in Ancient Greece, edited by Christopher Gill, Norman Postlethwaite and Richard Seaford, Oxford 1998, s. 105-125.</bibl>
+                    <bibl xml:id="Parker2010">Parker, R (2010): Eating unsacrificed meat. [w]: P. Carlier, Ch. Lerouge-Cohen, Paysage et religion en Grèce antique. Mélanges offerts á Madeleine Jost. Pari: 137-145. </bibl>
+                    <bibl xml:id="Pfeiffer1949">Pfeiffer, R., (ed.), 1949, Callimachus, vol 1: Fragmenta, Oxford.</bibl>
+                    <bibl xml:id="Pfister1935">Pfister, F. (1935). “Katharsis”, in <title>Real-Encyclopädie der Classischen Altertumswissenschaft</title> (eds. A. Pauly – G. Wissowa &amp; W. Kroll), Suppl. VI, coll. 146-162.</bibl>
+                    <bibl xml:id="Pierce1993">Pierce S., 1993, „Death, Revelry and 'Thysia'”, Classical Antiquity, Vol. 12, No. 2, s. 219-266.</bibl>
+                    <bibl xml:id="PirenneDelforge2008">Pirenne-Delforge, V. (2008), Retour à la source. Pausanias et la religion grecque, Liège.</bibl>
+                    <bibl xml:id="Polomé1967">Polomé, E.R. (1967), Notes on the Reflexes of ie /ms/ in Germanic, „Revue Belge de Philologie et d’Histoire”, 45, s. 800-826.</bibl>
+                    <bibl xml:id="Rhodes1981">Rhodes, P. J. 1981. A Commentary on the Aristotelian Athenaion Politeia. Oxford.</bibl>
+                    <bibl xml:id="Risch1974">Risch, E. (1974), Wortbildung der homerischen Sprache, Berlin.</bibl>
+                    <bibl xml:id="Seaford2004">Seaford, R. (2004). Money and the Early Greek Mind: Homer, Philosophy, Tragedy. Cambridge.</bibl>
+                    <bibl xml:id="Sloth2012">Sloth, L. 2012. Divination as a Convention of War in Classical Greece. Classica et Mediaevalia 63: 5-31.</bibl>
+                    <bibl xml:id="Smith1961">Smith, P. J. (1961), Sophocles, „Ant”. 599-603, The Classical World, Vol. 54, No. 6, s. 175-176.</bibl>
+                    <bibl xml:id="Smith1989">Smith, N. D. 1989. Diviners and Divination in Aristophanic Comedy. Classical Antiquity 8: 140-158.</bibl>
+                    <bibl xml:id="Sokolowski1962">Sokolowski, F., 1962, Lois sacrées des cités grecques. Supplément, Paris (=LSS).</bibl>
+                    <bibl xml:id="Sokolowski1969">Sokolowski F., 1969, Lois Sacrées des cites grecques, Paris (=LSCG).</bibl>
+                    <bibl xml:id="Taplin2007">Taplin, O. (2007). Pots &amp; Plays. Interactions between Tragedy and Greek Vase- painting of the Fourth Century B.C. Los Angeles.</bibl>
+                    <bibl xml:id="Untersteiner1955">Untersteiner, M. (1955): Senofane. Testimonianze e frammenti. Firenze.</bibl>
+                    <bibl xml:id="vanStraten1966">van Straten, F. T. 1966. The God’s Portion in Greek Sacrificial Representations. R. Hägg, N. Marinatos and G. C. Nordquist (ed.), Early Greek Cult Practice: 51-68. Stockholm.</bibl>
+                    <bibl xml:id="vanStraten1995">Straten van F.T., 1995, Hiera kala. Images of Animal Sacrifice in Archaic Classical Greece, Leiden.</bibl>
+                    <bibl xml:id="Vine2002">Vine, B. (2002), On full-grade *-ro formations in Greek and Indo-European, w: Indo-European Perspectives, ed. M.V.S. Southern, Washington, s. 329-350.</bibl>
+                    <bibl xml:id="Wagenvoort1941">Wagenvoort, H. (1941). <title>Imperium, Studie over het “Mana” -begrip in zede en taal der Romeinen</title>, Amsterdam.</bibl>
+                    <bibl xml:id="Werlings2010">Werlings, M.J. (2010): Le dèmos avant la démocratie. Mots, concepts, réalités historiques. Paris.</bibl>
+                    <bibl xml:id="Wernicke1894">Wernicke (1894), Artemis, [w:] Paulys Real-Encyklopaedie der Classischen Altertumswissenschaft, Stuttgart, 1335-1440.</bibl>
+                    <bibl xml:id="Willetts1962">Willetts, R.F. (1962): Cretan Cults and Festivals. London.</bibl>
+                    <bibl xml:id="Ziehen1894">Ziehen, L. (1894), Τιθηνίδια, [w:] Paulys Real-Encyklopaedie der Classischen Altertumswissenschaft, Stuttgart, 1511-1512.</bibl>
+                    <bibl xml:id="Ziehen1906">Ziehen, L., 1906, Leges Graecorum Sacrae e Titulis Collectae, pars altera, Lipsiae.</bibl>
+                    <bibl xml:id="Ziehen1939">Ziehen, L., 1939, Τρίττοια, RΕ, II/13, Stuttgart, 328-330.</bibl>
+                                        
                 </listBibl>
             </div>
         </body>

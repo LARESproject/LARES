@@ -5,7 +5,7 @@
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <!-- This XSLT transforms a set of EpiDoc documents into a Solr
-       index document representing an index of divinities in those
+       index document representing an index of symbols in those
        documents. -->
 
   <xsl:import href="epidoc-index-utils.xsl" />
@@ -15,7 +15,7 @@
 
   <xsl:template match="/">
     <add>
-      <xsl:for-each-group select="//tei:persName[@type='divine']" group-by=".">
+      <xsl:for-each-group select="//tei:persName[@type!='divine'][@type!='myth'][@key][ancestor::tei:div/@type='edition']" group-by="normalize-unicode(normalize-space(@key))">
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -25,7 +25,23 @@
           </field>
           <xsl:call-template name="field_file_path" />
           <field name="index_item_name">
-            <xsl:value-of select="." />
+            <xsl:value-of select="normalize-unicode(normalize-space(@key))" />
+          </field>
+          <xsl:apply-templates select="current-group()" />
+        </doc>
+      </xsl:for-each-group>
+      
+      <xsl:for-each-group select="//tei:persName[@type!='divine'][@type!='myth'][not(@key)][ancestor::tei:div/@type='edition']" group-by="normalize-unicode(normalize-space(.))">
+        <doc>
+          <field name="document_type">
+            <xsl:value-of select="$subdirectory" />
+            <xsl:text>_</xsl:text>
+            <xsl:value-of select="$index_type" />
+            <xsl:text>_index</xsl:text>
+          </field>
+          <xsl:call-template name="field_file_path" />
+          <field name="index_item_name">
+            <xsl:value-of select="normalize-unicode(normalize-space(.))" />
           </field>
           <xsl:apply-templates select="current-group()" />
         </doc>

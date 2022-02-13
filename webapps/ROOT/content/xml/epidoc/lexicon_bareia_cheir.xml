@@ -51,7 +51,7 @@
                         (<ref corresp="../texts/text_1.html">vv. 84-100</ref>)<!-- sample link, to be removed -->: 
                         l’indovino Calcante ha appena vaticinato che Apollo Lungisaettante
                         getterà gran pena sui Danai finché Criseide – fatta prigioniera a Troia e
-                        andata, come bottino di guerra, al re degli Argivi Agamennone – non sarà
+                        andata, come bottino di guerra, al re degli Argivi <persName type="myth" key="Agamemnon">Agamennone</persName> – non sarà
                         liberata e restituita al padre Crise, sacerdote del dio; costretto perciò
                         dal Pelìde a restituire a suo padre Criseide, il tracotante Agamennone
                         decide allora di prendersi Briseide, bottino di guerra di Achille, come atto
@@ -88,8 +88,8 @@
                     <quote>Cfr. <title>Illias</title> I.84-89:
                         <lb/>τὸν δ᾽ ἀπαμειβόμενος προσέφη πόδας ὠκὺς Ἀχιλλεύς:
                         <lb/>‘θαρσήσας μάλα εἰπὲ θεοπρόπιον ὅ τι οἶσθα: <lb/>οὐ μὰ γὰρ <persName
-                            type="divine">Ἀπόλλωνα</persName>  <persName type="divine"
-                            >Διῒ</persName> φίλον, ᾧ τε σὺ Κάλχαν
+                            type="divine" key="Apollo">Ἀπόλλωνα</persName>  <persName type="divine" key="Zeus"
+                            >Διῒ</persName> φίλον, ᾧ τε σὺ <persName type="myth" key="Calchas">Κάλχαν</persName>
                         <lb/>εὐχόμενος Δαναοῖσι θεοπροπίας ἀναφαίνεις,
                         <lb/>οὔ τις ἐμεῦ ζῶντος καὶ ἐπὶ χθονὶ δερκομένοιο
                         <lb/>σοὶ κοίλῃς παρὰ νηυσί <rs key="speech"><w lemma="βαρεῖα">βαρείας</w> <w lemma="χεῖρ">χεῖρας</w></rs> ἐποίσει

@@ -14,9 +14,8 @@
   <xsl:output method="html"/>
   <xsl:import href="../../kiln/stylesheets/tei/to-html.xsl" />
   
-  <xsl:template match="tei:titleStmt/tei:title[@xml:lang!=$language]"/>
-  <!--<xsl:template match="tei:seg[@xml:lang!=$language]"/>-->
-  <xsl:template match="tei:div[@type='edition'][@xml:lang!=$language][not(@n)]"/>
+  
+  <!-- for the tei:teiHeader cf. to-html-teiheader.xsl -->
   
   <xsl:template match="tei:sourceDesc//tei:p[1]">
     <div>
@@ -28,16 +27,38 @@
     <div>
       <p>
         <b>Authors: </b>
-      <xsl:for-each select="tei:change">
-        <xsl:sort select="position()" order="descending"/>
-        <xsl:value-of select="@who"/><xsl:text> (</xsl:text>
-        <xsl:value-of select="@when"/>
-        <xsl:if test="normalize-space(.)!=''"><xsl:text>: </xsl:text><xsl:value-of select="."/></xsl:if>
-        <xsl:text>)</xsl:text>
-        <xsl:if test="position()!=last()"><xsl:text>; </xsl:text></xsl:if>
-      </xsl:for-each>
+        <xsl:for-each select="tei:change">
+          <xsl:sort select="position()" order="descending"/>
+          <xsl:value-of select="@who"/><xsl:text> (</xsl:text>
+          <xsl:value-of select="@when"/>
+          <xsl:if test="normalize-space(.)!=''"><xsl:text>: </xsl:text><xsl:value-of select="."/></xsl:if>
+          <xsl:text>)</xsl:text>
+          <xsl:if test="position()!=last()"><xsl:text>; </xsl:text></xsl:if>
+        </xsl:for-each>
       </p>
     </div>
+  </xsl:template>
+  
+  <xsl:template match="tei:foreign[ancestor::tei:teiHeader]|tei:title[ancestor::tei:teiHeader][not(ancestor::tei:titleStmt)]">
+    <i><xsl:apply-templates/></i>
+  </xsl:template>
+  
+  <xsl:template match="tei:foreign[ancestor::tei:div]|tei:title[ancestor::tei:div]">
+    <i><xsl:apply-templates/></i>
+  </xsl:template>
+  
+  <xsl:template match="tei:ref[@corresp]">
+    <a href="{@corresp}" target="_blank"><xsl:apply-templates/></a>
+  </xsl:template>
+  
+  <xsl:template match="tei:ref[not(@corresp)]">
+    <xsl:apply-templates/>
+  </xsl:template>
+  
+  <xsl:template match="tei:div[@type='edition'][@xml:lang!=$language][not(@n)]"/>
+  
+  <xsl:template match="tei:listBibl//tei:bibl">
+    <p id="{@xml:id}"><xsl:apply-templates/></p>
   </xsl:template>
   
   <xsl:template match="tei:div[@n]">
@@ -59,25 +80,26 @@
     </xsl:choose>
   </xsl:template>
   
-  <xsl:template match="tei:emph[ancestor::tei:quote]">
-    <b class="speaker"><xsl:apply-templates/></b>
+  <xsl:template match="tei:emph">
+    <xsl:choose>
+      <xsl:when test="ancestor::tei:quote">
+        <span class="speaker"><xsl:apply-templates/></span>
+      </xsl:when>
+      <xsl:when test="ancestor::tei:div[@type='commentary']|ancestor::tei:div[@type='bibliography']">
+        <span class="emph"><xsl:apply-templates/></span>
+      </xsl:when>
+      <xsl:otherwise>
+        <b><xsl:apply-templates /></b>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
   <xsl:template match="tei:quote">
     <p class="quotation"><xsl:apply-templates/></p>
   </xsl:template>
   
-  <xsl:template match="tei:listBibl//tei:bibl">
-    <p id="{@xml:id}"><xsl:apply-templates/></p>
+  <xsl:template match="tei:head">
+    <h2><xsl:apply-templates/></h2>
   </xsl:template>
-  
-  <xsl:template priority="10" match="tei:titleStmt/tei:title">
-    <xsl:value-of select="."/>
-    <xsl:apply-templates/>
-  </xsl:template>
-  
-  <!--<xsl:template match="tei:div[@n][ancestor::tei:TEI[@xml:id]]">
-    <div id="{concat(ancestor::tei:TEI/@xml:id,'-',@n)}"><xsl:apply-templates/></div>
-  </xsl:template>-->
   
 </xsl:stylesheet>

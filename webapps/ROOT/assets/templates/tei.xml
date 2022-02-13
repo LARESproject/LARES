@@ -14,12 +14,26 @@
   <kiln:child>
     <kiln:block name="title">
       <kiln:super />
-      <xsl:value-of select="/aggregation/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@xml:lang=$language][1]" />
+      <xsl:choose>
+        <xsl:when test="/aggregation/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@xml:lang=$language][1]">
+          <xsl:value-of select="/aggregation/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@xml:lang=$language][1]" />
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="/aggregation/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[not(@xml:lang)]" />
+        </xsl:otherwise>
+      </xsl:choose>
     </kiln:block>
 
     <kiln:block name="page-heading">
       <kiln:super />
-      <xsl:value-of select="/aggregation/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@xml:lang=$language][1]" />
+      <xsl:choose>
+        <xsl:when test="/aggregation/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@xml:lang=$language][1]">
+          <xsl:value-of select="/aggregation/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@xml:lang=$language][1]" />
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="/aggregation/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[not(@xml:lang)]" />
+        </xsl:otherwise>
+      </xsl:choose>
     </kiln:block>
     
     <kiln:block name="content">

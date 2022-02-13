@@ -129,32 +129,11 @@
     <xsl:apply-templates select="node()" />
   </xsl:template>
 
-  <xsl:template match="tei:emph">
-    <b>
-      <xsl:apply-templates />
-    </b>
-  </xsl:template>
-
-  <xsl:template match="tei:foreign">
-    <xsl:call-template name="tei-make-span" />
-  </xsl:template>
-
   <xsl:template match="tei:name[@key]|tei:rs[@key]">
     <xsl:call-template name="tei-make-span" />
   </xsl:template>
 
   <!-- References. -->
-  <xsl:template match="tei:ref[@corresp]">
-    <xsl:variable name="target" select="@corresp" />
-    <xsl:call-template name="tei-make-ref-link">
-      <xsl:with-param name="target" select="@corresp" />
-    </xsl:call-template>
-  </xsl:template>
-
-  <xsl:template match="tei:ref[not(@corresp)]">
-    <xsl:apply-templates/>
-  </xsl:template>
-
   <xsl:template match="tei:seg">
     <xsl:call-template name="tei-make-span" />
   </xsl:template>

@@ -6,15 +6,16 @@
 
   <!-- Transform a TEI document's teiHeader into HTML. -->
   
-  <xsl:template match="tei:title[ancestor::tei:sourceDesc]">
-    <i><xsl:apply-templates/></i>
-  </xsl:template>
+  
 
   <xsl:template match="tei:teiHeader">
-    <div class="chapter_description">
-      <xsl:apply-templates select="//tei:sourceDesc" />
-      <xsl:apply-templates select="//tei:listChange" />
-    </div>
+    <!-- the tei:titleStmt/tei:title is already provided by tei.xml -->
+    <xsl:if test="//tei:idno[@type='filename']">
+      <div class="chapter_description">
+        <xsl:apply-templates select="//tei:sourceDesc" />
+        <xsl:apply-templates select="//tei:listChange" />
+      </div>
+    </xsl:if>
   </xsl:template>
 
 </xsl:stylesheet>

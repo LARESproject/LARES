@@ -15,19 +15,17 @@
   </teiHeader>
   <text>
     <body>
-      
-      <div xml:id="divine">
-        <head>Divinities</head>
+      <div xml:id="sources">
+        <head>Ancient sources</head>
         <div type="headings">
           <list>
-            <item>Name</item>
+            <item>Source</item>
+            <item>Type</item>
             <item>Documents</item>
           </list>
         </div>
-        <!--<div type="notes">
-          <p></p>
-        </div> -->
       </div>
+      
       
       <div xml:id="realms">
         <head>Fields and realms</head>
@@ -45,17 +43,6 @@
         </div> -->
       </div>
       
-      <div xml:id="sources">
-        <head>Ancient sources</head>
-        <div type="headings">
-          <list>
-            <item>Source</item>
-            <item>Type</item>
-            <item>Documents</item>
-          </list>
-        </div>
-      </div>
-      
       <div xml:id="word">
         <head>Greek and Latin terms</head>
         <div type="headings">
@@ -65,6 +52,29 @@
           </list>
         </div>
       </div>
+      
+      <div xml:id="myth">
+        <head>Literary and mythological characters</head>
+        <div type="headings">
+          <list>
+            <item>Name</item>
+            <item>Type</item>
+            <item>Documents</item>
+          </list>
+        </div>
+      </div>
+      
+      <div xml:id="people">
+        <head>Modern and ancient authors and historical figures</head>
+        <div type="headings">
+          <list>
+            <item>Name</item>
+            <!--<item>Type</item>-->
+            <item>Documents</item>
+          </list>
+        </div>
+      </div>
+      
     </body>
   </text>
 </TEI>

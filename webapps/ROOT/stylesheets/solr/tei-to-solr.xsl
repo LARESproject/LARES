@@ -34,8 +34,8 @@
     </field>
   </xsl:template>
   
-  <xsl:template match="tei:persName[@type='divine']" mode="facet_mentioned_divinities">
-    <field name="mentioned_divinities">
+  <xsl:template match="tei:persName[@type='divine']|tei:persName[@type='myth']" mode="facet_literary_and_mythological_characters">
+    <field name="literary_and_mythological_characters">
       <xsl:choose>
         <xsl:when test="@ref"><xsl:value-of select="@ref"/></xsl:when>
         <xsl:when test="@key"><xsl:value-of select="@key"/></xsl:when>
@@ -89,7 +89,7 @@
   
   <xsl:template name="extra_fields">
     <xsl:call-template name="field_entry_type"/>
-    <xsl:call-template name="field_mentioned_divinities"/>
+    <xsl:call-template name="field_literary_and_mythological_characters"/>
     <xsl:call-template name="field_person_name"/>
     <xsl:call-template name="field_complete_edition"/>
     <xsl:call-template name="field_field"/>
@@ -100,8 +100,8 @@
     <xsl:apply-templates mode="facet_entry_type" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type='filename']"/>
   </xsl:template>
   
-   <xsl:template name="field_mentioned_divinities">
-    <xsl:apply-templates mode="facet_mentioned_divinities" select="//tei:text/tei:body/tei:div[@type='edition']" />
+  <xsl:template name="field_literary_and_mythological_characters">
+     <xsl:apply-templates mode="facet_literary_and_mythological_characters" select="//tei:text/tei:body/tei:div[@type='edition']" />
   </xsl:template>
   
   <xsl:template name="field_person_name">

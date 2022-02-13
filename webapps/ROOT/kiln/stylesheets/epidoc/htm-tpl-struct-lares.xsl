@@ -8,11 +8,10 @@
   <!-- Called from htm-tpl-structure.xsl -->
 
   <xsl:template name="lares-body-structure">
+    
     <div id="metadata" class="chapter_description">
-      <div>
-        <p><b>Original publication: </b> <xsl:apply-templates select="//t:sourceDesc//t:p[1]/node()"/></p>
-      </div>
-      <div>
+          <p><b>Original publication: </b> <xsl:apply-templates select="//t:sourceDesc//t:p[1]/node()"/></p>    
+      
         <p>
           <b>Authors: </b>
           <xsl:for-each select="//t:listChange//t:change">
@@ -24,7 +23,6 @@
             <xsl:if test="position()!=last()"><xsl:text>; </xsl:text></xsl:if>
           </xsl:for-each>
         </p>
-      </div>
 
       <p id="toggle_buttons"><b>Show/hide: </b>
         <br/>COMMUNICATION:
@@ -97,6 +95,7 @@
          });
        </script>
     </div>
+    
 
     <div class="content" id="edition" data-section-content="data-section-content">
       <xsl:variable name="edtxt">
@@ -296,12 +295,18 @@
     <p class="quotation"><xsl:apply-templates/></p>
   </xsl:template>
   
-  <xsl:template match="t:emph[not(ancestor::t:quote)]">
-    <span class="emph"><xsl:apply-templates/></span>
-  </xsl:template>
-  
-  <xsl:template match="t:emph[ancestor::t:quote]">
-    <b class="speaker"><xsl:apply-templates/></b>
+  <xsl:template match="t:emph">
+    <xsl:choose>
+      <xsl:when test="ancestor::t:quote and ancestor::t:TEI[not(starts-with(descendant::t:idno[@type='filename'], 'lexicon'))]">
+        <span class="speaker"><xsl:apply-templates/></span> <!-- only in book chapters, not in lexicon entries -->
+      </xsl:when>
+      <xsl:when test="ancestor::t:div[@type='commentary']|ancestor::t:div[@type='bibliography']">
+        <span class="emph"><xsl:apply-templates/></span>
+      </xsl:when>
+      <xsl:otherwise>
+        <b><xsl:apply-templates /></b>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
   <xsl:template priority="10" match="t:div[@n]">
