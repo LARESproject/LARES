@@ -251,29 +251,23 @@
     
     <xsl:template match="t:div//t:ref[@corresp]">
     <xsl:choose>
-      <xsl:when test="@type = 'lares'">
-        <a>
-          <xsl:attribute name="href">
-            <xsl:value-of select="concat('./', @corresp, '.html')"/>
-          </xsl:attribute>
-          <xsl:attribute name="target">
-            <xsl:value-of select="'_blank'"/>
-          </xsl:attribute>
+      <xsl:when test="@type='lares'">
+        <a href="{concat('./', @corresp, '.html')}" target="_blank">
           <xsl:apply-templates/>
         </a>
       </xsl:when>
       <xsl:otherwise>
-        <a>
-          <xsl:attribute name="href">
-            <xsl:value-of select="@corresp"/>
-          </xsl:attribute>
-          <xsl:attribute name="target">
-            <xsl:value-of select="'_blank'"/>
-          </xsl:attribute>
+        <a href="{@corresp}" target="_blank">
           <xsl:apply-templates/>
         </a>
       </xsl:otherwise>
     </xsl:choose>
+  </xsl:template>
+  
+  <xsl:template priority="10" match="t:w[@lemma]">
+    <a href="{concat('https://logeion.uchicago.edu/', @lemma)}" target="_blank"> <!-- apparently works better without normalize-unicode() -->
+      <xsl:apply-templates/>
+    </a>
   </xsl:template>
 
   <xsl:template match="t:foreign|t:title[not(parent::t:titleStmt)]">
