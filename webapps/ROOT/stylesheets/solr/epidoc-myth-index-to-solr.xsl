@@ -30,7 +30,9 @@
           <field name="index_type">
             <xsl:choose>
               <xsl:when test="@type='divine'">Deity</xsl:when>
+              <xsl:when test="@type='hero'">Hero</xsl:when>
               <xsl:when test="@type='myth'">Mythological character</xsl:when>
+              <xsl:when test="@type='literary'">Literary character</xsl:when>
               <xsl:otherwise><xsl:value-of select="@type" /></xsl:otherwise>
             </xsl:choose>
           </field>

@@ -15,7 +15,7 @@
 
   <xsl:template match="/">
     <add>
-      <xsl:for-each-group select="//tei:persName[@type!='divine'][@type!='myth'][@key][ancestor::tei:div/@type='edition']" group-by="normalize-unicode(normalize-space(@key))">
+      <xsl:for-each-group select="//tei:persName[@type!='divine'][@type!='myth'][@type!='hero'][@type!='literary'][ancestor::tei:div/@type='edition'][@key]" group-by="normalize-unicode(normalize-space(@key))">
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -31,7 +31,7 @@
         </doc>
       </xsl:for-each-group>
       
-      <xsl:for-each-group select="//tei:persName[@type!='divine'][@type!='myth'][not(@key)][ancestor::tei:div/@type='edition']" group-by="normalize-unicode(normalize-space(.))">
+      <xsl:for-each-group select="//tei:persName[@type!='divine'][@type!='myth'][@type!='hero'][@type!='literary'][ancestor::tei:div/@type='edition'][not(@key)]" group-by="normalize-unicode(normalize-space(.))">
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
