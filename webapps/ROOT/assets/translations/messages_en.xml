@@ -10,11 +10,15 @@
   <message key="menu-index-person_name">Personal names</message>
    <message key="prosopography">Prosopography</message> 
   <message key="divinities">Divinities</message>  
-  <message key="mentioned_places">Places</message>
+  <message key="places">Places</message>
    <message key="institutions">Institutions</message> 
   <message key="menu-index-symbol">Symbols</message>
   <message key="menu-index-word">Words</message>
   <message key="menu-search">Search</message>
   <message key="menu-admin">Admin</message>
-  <message key="Introduction">Introduction</message> 
+  <message key="Introduction">Introduction</message>
+  <message key="I. Attic Tragedy">I. Attic Tragedy</message>
+  <message key="II. Old Attic Comedy">II. Old Attic Comedy</message>
+  <message key="III. Corpus Platonicum. Corpus Hippocraticum">III. Corpus Platonicum. Corpus Hippocraticum</message>
+  <message key="IV. Homer">IV. Homer</message>
 </catalogue>

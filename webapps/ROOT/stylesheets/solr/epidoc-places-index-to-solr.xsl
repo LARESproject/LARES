@@ -15,7 +15,7 @@
 
   <xsl:template match="/">
     <add>
-      <xsl:for-each-group select="//tei:placeName[@ref][ancestor::tei:div/@type='edition']" group-by="concat(@ref,'-',@type)">
+      <xsl:for-each-group select="//tei:placeName[ancestor::tei:div/@type='edition'][@key]" group-by="normalize-unicode(normalize-space(@key))">
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -25,13 +25,22 @@
           </field>
           <xsl:call-template name="field_file_path" />
           <field name="index_item_name">
-            <xsl:value-of select="@ref" />
+            <xsl:value-of select="normalize-unicode(normalize-space(@key))" />
           </field>
-          <field name="index_ethnic">
-            <xsl:choose>
-              <xsl:when test="@type='ethnic'"><xsl:text>Ethnic</xsl:text></xsl:when>
-              <xsl:otherwise><xsl:text>Toponym</xsl:text></xsl:otherwise>
-            </xsl:choose>
+          <xsl:apply-templates select="current-group()" />
+        </doc>
+      </xsl:for-each-group>
+      <xsl:for-each-group select="//tei:placeName[ancestor::tei:div/@type='edition'][not(@key)]" group-by="normalize-unicode(normalize-space(.))">
+        <doc>
+          <field name="document_type">
+            <xsl:value-of select="$subdirectory" />
+            <xsl:text>_</xsl:text>
+            <xsl:value-of select="$index_type" />
+            <xsl:text>_index</xsl:text>
+          </field>
+          <xsl:call-template name="field_file_path" />
+          <field name="index_item_name">
+            <xsl:value-of select="normalize-unicode(normalize-space(.))" />
           </field>
           <xsl:apply-templates select="current-group()" />
         </doc>

@@ -75,6 +75,20 @@
         </div>
       </div>
       
+      <div xml:id="places">
+        <head>Places</head>
+        <div type="headings">
+          <list>
+            <item>Place</item>
+            <!--<item>Type</item>-->
+            <item>Documents</item>
+          </list>
+        </div>
+        <!--<div type="notes">
+          <p></p>
+        </div> -->
+      </div>
+      
     </body>
   </text>
 </TEI>

@@ -149,7 +149,7 @@
           multiValued="true" stored="true" required="false" />
    <field name="found_provenance" type="string" indexed="true"
           multiValued="true" stored="true" required="false" />
-   <field name="mentioned_places" type="string" indexed="true"
+   <field name="places" type="string" indexed="true"
           multiValued="true" stored="true" required="false" />
    <field name="mentioned_people" type="string" indexed="true"
           multiValued="true" stored="true" required="false" />

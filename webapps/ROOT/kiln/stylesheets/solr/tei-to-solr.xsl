@@ -36,7 +36,7 @@
         <!-- Facets. -->
         <xsl:call-template name="field_found_provenance" />
         <xsl:call-template name="field_mentioned_people" />
-        <xsl:call-template name="field_mentioned_places" />
+        <xsl:call-template name="field_places" />
         <xsl:call-template name="field_origin_place" />
         <xsl:call-template name="field_source_repository"/>
         <xsl:call-template name="field_support_object_type" />
@@ -202,16 +202,15 @@
     </field>
   </xsl:template>
 
-  <xsl:template match="tei:placeName | tei:geogName" mode="facet_mentioned_places">
-    <field name="mentioned_places">
+  <xsl:template match="tei:placeName | tei:geogName" mode="facet_places">
+    <field name="places">
       <xsl:choose>
-        <xsl:when test="@ref"><xsl:value-of select="@ref"/></xsl:when>
         <xsl:when test="@key"><xsl:value-of select="@key"/></xsl:when>
         <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
       </xsl:choose>
     </field>
   </xsl:template>
-  <xsl:template match="text()" mode="facet_mentioned_places" />
+  <xsl:template match="text()" mode="facet_places" />
 
   <xsl:template name="field_document_id">
     <field name="document_id">
@@ -253,8 +252,8 @@
     <xsl:apply-templates mode="facet_mentioned_people" select="//tei:text/tei:body/tei:div[@type='edition']" />
   </xsl:template>
 
-  <xsl:template name="field_mentioned_places">
-    <xsl:apply-templates mode="facet_mentioned_places" select="//tei:text/tei:body/tei:div[@type='edition']" />
+  <xsl:template name="field_places">
+    <xsl:apply-templates mode="facet_places" select="//tei:text/tei:body/tei:div[@type='edition']" />
   </xsl:template>
 
   <xsl:template name="field_origin_place">
