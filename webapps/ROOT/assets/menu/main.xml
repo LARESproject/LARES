@@ -11,6 +11,7 @@
   <menu label="Texts" match="local-tei-index-display"/>
   <menu label="Book chapters">
     <menu label="I. Attic Tragedy">
+      <item label="Introduction" match="local-epidoc-display-html" params="trag_00_intro"/>
       <menu label="Aeschylos">
         <item label="Persae" match="local-epidoc-display-html" params="trag_01_persae"/>
         <item label="Septem contra Thebas" match="local-epidoc-display-html" params="trag_02_septem_contra_thebas"/>
@@ -50,6 +51,7 @@
       </menu>
     </menu>
     <menu label="II. Old Attic Comedy">
+      <item label="Introduction" match="local-epidoc-display-html" params="com_00_intro"/>
       <item label="Aves" match="local-epidoc-display-html" params="com_01_aves"/>
       <item label="Pax" match="local-epidoc-display-html" params="com_02_pax"/>
       <item label="Acharnenses" match="local-epidoc-display-html" params="com_03_acharnenses"/>
@@ -64,6 +66,7 @@
       <item label="Fragments" match="local-epidoc-display-html" params="com_12_fragments"/>
     </menu>
     <menu label="III. Corpus Platonicum. Corpus Hippocraticum">
+      <item label="Introduction" match="local-epidoc-display-html" params="plato_00_intro"/>
       <menu label="Corpus Platonicum">
         <item label="Cratylus" match="local-epidoc-display-html" params="plato_01_cratylus"/>
         <item label="Critias" match="local-epidoc-display-html" params="plato_02_critias"/>
@@ -83,6 +86,53 @@
       <item label="Corpus Hippocraticum" match="local-epidoc-display-html" params="hipp_15_corpus"/>
     </menu>
     <menu label="IV. Homer">
+      <item label="Introduction" match="local-epidoc-display-html" params="hom_00_intro"/>
+      <menu label="Ilias">
+        <item label="Ilias I" match="local-epidoc-display-html" params="hom_01_ilias_i"/>
+        <item label="Ilias II" match="local-epidoc-display-html" params="hom_02_ilias_ii"/>
+        <item label="Ilias III" match="local-epidoc-display-html" params="hom_03_ilias_iii"/>
+        <item label="Ilias IV" match="local-epidoc-display-html" params="hom_04_ilias_iv"/>
+        <item label="Ilias V" match="local-epidoc-display-html" params="hom_05_ilias_v"/>
+        <item label="Ilias VI" match="local-epidoc-display-html" params="hom_06_ilias_vi"/>
+        <item label="Ilias VII" match="local-epidoc-display-html" params="hom_07_ilias_vii"/>
+        <item label="Ilias VIII" match="local-epidoc-display-html" params="hom_08_ilias_viii"/>
+        <item label="Ilias IX" match="local-epidoc-display-html" params="hom_09_ilias_ix"/>
+        <item label="Ilias X" match="local-epidoc-display-html" params="hom_10_ilias_x"/>
+        <item label="Ilias XI" match="local-epidoc-display-html" params="hom_11_ilias_xi"/>
+        <item label="Ilias XII" match="local-epidoc-display-html" params="hom_12_ilias_xii"/>
+        <item label="Ilias XV" match="local-epidoc-display-html" params="hom_13_ilias_xv"/>
+        <item label="Ilias XVII" match="local-epidoc-display-html" params="hom_14_ilias_xvii"/>
+        <item label="Ilias XVIII" match="local-epidoc-display-html" params="hom_15_ilias_xviii"/>
+        <item label="Ilias XIX" match="local-epidoc-display-html" params="hom_16_ilias_xix"/>
+        <item label="Ilias XX" match="local-epidoc-display-html" params="hom_17_ilias_xx"/>
+        <item label="Ilias XXI" match="local-epidoc-display-html" params="hom_18_ilias_xxi"/>
+        <item label="Ilias XXII" match="local-epidoc-display-html" params="hom_19_ilias_xxii"/>
+        <item label="Ilias XXIII" match="local-epidoc-display-html" params="hom_20_ilias_xxiii"/>
+        <item label="Ilias XXIV" match="local-epidoc-display-html" params="hom_21_ilias_xxiv"/>
+      </menu>
+      <menu label="Odyssea">
+        <item label="Odyssea I" match="local-epidoc-display-html" params="trag_22_odyssea_i"/>
+        <item label="Odyssea II" match="local-epidoc-display-html" params="trag_23_odyssea_ii"/>
+        <item label="Odyssea III" match="local-epidoc-display-html" params="trag_24_odyssea_iii"/>
+        <item label="Odyssea IV" match="local-epidoc-display-html" params="trag_25_odyssea_iv"/>
+        <item label="Odyssea V" match="local-epidoc-display-html" params="trag_26_odyssea_v"/>
+        <item label="Odyssea VII" match="local-epidoc-display-html" params="trag_27_odyssea_vii"/>
+        <item label="Odyssea VIII" match="local-epidoc-display-html" params="trag_28_odyssea_viii"/>
+        <item label="Odyssea IX" match="local-epidoc-display-html" params="trag_29_odyssea_ix"/>
+        <item label="Odyssea X" match="local-epidoc-display-html" params="trag_30_odyssea_x"/>
+        <item label="Odyssea XI" match="local-epidoc-display-html" params="trag_31_odyssea_xi"/>
+        <item label="Odyssea XII" match="local-epidoc-display-html" params="trag_32_odyssea_xii"/>
+        <item label="Odyssea XIII" match="local-epidoc-display-html" params="trag_33_odyssea_xiii"/>
+        <item label="Odyssea XIV" match="local-epidoc-display-html" params="trag_34_odyssea_xiv"/>
+        <item label="Odyssea XV" match="local-epidoc-display-html" params="trag_35_odyssea_xv"/>
+        <item label="Odyssea XVI" match="local-epidoc-display-html" params="trag_36_odyssea_xvi"/>
+        <item label="Odyssea XVII" match="local-epidoc-display-html" params="trag_37_odyssea_xvii"/>
+        <item label="Odyssea XIX" match="local-epidoc-display-html" params="trag_38_odyssea_xix"/>
+        <item label="Odyssea XX" match="local-epidoc-display-html" params="trag_39_odyssea_xx"/>
+        <item label="Odyssea XXI" match="local-epidoc-display-html" params="trag_40_odyssea_xxi"/>
+        <item label="Odyssea XXII" match="local-epidoc-display-html" params="trag_41_odyssea_xxii"/>
+        <item label="Odyssea XXIV" match="local-epidoc-display-html" params="trag_42_odyssea_xxiv"/>
+      </menu>
     </menu>
   </menu>
   <menu label="Bibliography" match="local-tei-display-html" params="bibliography"/>
