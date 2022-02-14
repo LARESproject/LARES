@@ -193,7 +193,7 @@
                         connotazione della «mano pesante» come mano violenta nel senso di
                         «tracotante, oltraggiosa, sanguinaria, omicida» (<title>EM</title> 188.35:
                         <emph>Βαρείας χεĩρας</emph>), ma anche «influente, autorevole» (Hsch. <title>Lex</title>.
-                        beta.228: <emph>βαρείης</emph>· ἰσχυρᾶς), investita cioè dell’autorità conferita dal
+                        beta.228: <w>βαρείης</w>· ἰσχυρᾶς), investita cioè dell’autorità conferita dal
                         compimento di un atto la cui funzione religiosa o sacrale risulta sovente
                         direttamente associata alla dimensione sacrificale. Alla dimensione
                         sacrificale alluderebbe peraltro la stessa definizione di µιαιφόνος,
@@ -209,7 +209,7 @@
                     <quote><title>Etymologicum Magnum</title> 188.35: Βαρείας χεĩρας: Ὑβριστικάς,
                         φονικάς, őπλῳ βεβαρηµένας·</quote>
                     
-                    <quote>* ὑβριστικός, ή, όν, <emph>given to wantonness, insolent, outrageous, of
+                    <quote><w lemma="ὑβριστικός">ὑβριστικός</w>, ή, όν, <emph>given to wantonness, insolent, outrageous, of
                             persons</emph>, <ref type="lit">Pl. <title>Cra</title>.396b</ref>, etc.; of words, acts, etc.,
                         Pl. <title>Phdr</title>. 252b; ὑ. καì βάρβαρος ἐπιστολή Aeschin.3.238; ὑ.
                         διάθεσις Arist.Rh.1385b31; ὑ. ἀδικήµατα, <emph>such as proceed from wanton
@@ -218,7 +218,7 @@
                         Id.17.23: τò -κόν, <emph>an insolent disposition</emph>,
                         X.Mem.3.10.5.</quote>
                     
-                    <quote>* φονικός, ή, όν, <emph>inclined to slay, murderous</emph>, γένος
+                    <quote><w lemma="φονικός">φονικός</w>, ή, όν, <emph>inclined to slay, murderous</emph>, γένος
                         –ώτατον, Th.7.29, cf. Pl.Phdr.252c, D.S.18.33, J.BJ2.21.1 (Sup.),
                         Ael.VH14.41 (Comp.), Hierocl. in CA11p.440M., etc.; φ. ἀδίκηµα
                             <emph>blood</emph>-guiltiness, Lycurg.52; τò φ. <emph>a murderous
@@ -228,7 +228,7 @@
                     <quote>Hesychius. <title>Lexicon</title>. beta.226: βαρεĩα χείρ· ἡ
                         µιαιφόνος.</quote>
                     
-                    <quote>* µĭαίφον-ος, ον, (parox.): <emph>bloodthirsty, murderous</emph>, in Il.
+                    <quote><w lemma="µιαίφονος">µĭαίφον-ος</w>, ον, (parox.): <emph>bloodthirsty, murderous</emph>, in Il.
                         always epith. of Ares, 5.31, 455, 844, al.: coupled with θρασύχειρ,
                         B.Scol.Oxy.5.1; µ. µύσος pollution of murder, E.Andr.335: c. gen., µ. τέκνων
                         murderess of thy children, Id.Med.1346: Comp. -ώτερος Hdt.5.92.ά, E.Med.266:
@@ -237,22 +237,25 @@
                         Institute, The Perseus Project)</quote>
                     
                     <p>Ancora in Esichio, per la forma aggettivale al femminile singolare (attestata
-                        al caso genitivo) si legge la specifica: βαρείης· ἰσχυρᾶς. βλαβερᾶς:
+                        al caso genitivo) si legge la specifica: <w>βαρείης</w>· ἰσχυρᾶς. βλαβερᾶς:
                         «pesante: forte, dannosa»:</p>
                     <quote>Hesychius. <title>Lexicon</title>. beta.228: βαρείης· ἰσχυρᾶς.
                         βλαβερᾶς.</quote>
-                    <quote>* ἰσχυρός, ά, όν, (ἰσχύς): <emph>1) strong</emph>, esp. of personal
+                    
+                    <quote><w lemma="ἰσχυρός">ἰσχυρός</w>, ά, όν, (ἰσχύς): <emph>1) strong</emph>, esp. of personal
                         strength, S.Ph.945, E.Fr.290, etc.; of things, ἰ. βέλος Alc.15.4; ῥεύµατα
                         Hdt.8.12; etc. <emph>2) powerful</emph>, ἂλοχος ∆ιός A.Supp.302; πόλις
                         E.Supp.447; θεός Ar.Pl.946; ἰ. τò πολλόν Hdt.1.136; <emph>3) forcible,
                             violent, severe</emph>, σιτοδείη, ψύχη, Hdt.1.94,4.29; λιµός
                         Ev.Luc.15.14; ἀναγκαίη Hdt.1.74; αἱ λίαν ἰ. τιµωρίαι <emph>violent,
                             excessive</emph>, Id.4.205; etc.</quote>
-                    <quote>* βλăβερός, ά, όν: <emph>harmful</emph>, β. τò θύρηφιν Hes.Op.365 (=
+                    
+                    <quote><w lemma="βλαβερός">βλăβερός</w>, ά, όν: <emph>harmful</emph>, β. τò θύρηφιν Hes.Op.365 (=
                         h.Merc.36); opp. συµφέρον, Democr.237; opp. ὠφέλιµος, X.Cyr.8.8.14; β. καì
                         ζηµιῶδες Pl.Cra.417d. Adv. -ρῶς Id.Phdr.243c; opp. ὠφελίµως, Id.Chrm.164c,
                         cf. Plu.2.599b. (<title>Thesaurus Linguae Graecae</title>, the Packard
                         Humanities Institute, The Perseus Project)</quote>
+                    
                     <p>Con <foreign>miasma</foreign> e <foreign>phonos</foreign> entriamo finalmente
                         nel vivo della questione, perché entrambi i termini rimandano immediatamente
                         a due nozioni chiave del linguaggio e della mentalità religiosa sacrificale
@@ -262,41 +265,41 @@
                         dall’esigenza di liberarsi dalla colpa, purificarsi dalla contaminazione.
                         Per quanto riguarda il lessico della purificazione (PFISTER 1935), in
                         particolare, va ricordato in questo contesto il portato semantico
-                        dell’aggettivo ἁγνός, «puro, incontaminato» (spesso usato in associazione
+                        dell’aggettivo <w lemma="ἁγνός">ἁγνός</w>, «puro, incontaminato» (spesso usato in associazione
                         con φόνος a indicare «puro da colpa», cfr. Plato. <title>Leges</title>
-                        VI.759c: φόνου  ἁγνός), linguisticamente associato ad ἅγιος (cfr. ἅζομαι,
+                        VI.759c: φόνου  ἁγνός), linguisticamente associato ad <w lemma="ἅγιος">ἅγιος</w> (cfr. ἅζομαι,
                         «rispettare, temere»), «sacro, santo, venerabile», ma anche «esecrando»,
-                        derivato dal neutro τό ἄγος (<foreign>any matter of religious
+                        derivato dal neutro τό <w lemma="ἄγος">ἄγος</w> (<foreign>any matter of religious
                         awe</foreign>), letteralmente inteso come «espiazione» e «sacrificio
                         (espiatorio)», dal sanscrito <foreign>yájati</foreign>, detto anche di ciò
                         che richiede espiazione, quindi «contaminazione, colpa, sacrilegio» e, in
                         questa seconda accezione, inteso come <foreign>piaculum</foreign>,
                         semanticamente affine al termine <foreign>miasma</foreign> (BURKERT 1977,
-                        183-188, 488-489; cfr. <title>TLG</title>
-                        <foreign>s.vv.</foreign>
-                        <w lemma="ἁγνός">ἁγνός</w> <w lemma="ἅγιος">ἅγιος</w>
-                        <w lemma="ἄγος">ἄγος</w>).</p>
+                        183-188, 488-489).</p>
                     <p>In relazione alla qualità della pesantezza che sembra caratterizzare la mano
                         “che uccide”, nella speculazione lessicografica tardo-antica lo stesso
-                        aggettivo βαρύς è attribuito anche all’«<rs key="practice"
-                            >aroma</rs>» (<rs key="practice"><w>θυμίαμα</w></rs>: incenso, fumo,
+                        aggettivo βαρύς è attribuito anche all’«aroma» 
+                        (<rs key="practice"><w lemma="θυμίαμα">θυμίαμα</w></rs>: incenso, fumo,
                         essenza odorosa) esalante dai sacrifici, evidenziando, anche in questo
                         contesto, la corrispondenza emergente tra ciò che è «greve, pesante» e la
                         pratica sacrificale:</p>
-                    <quote>Hesychius. <title>Lexicon</title>. beta.243: βαρύ· τῐνές µέν φασι θυµίαµα
+                    
+                    <quote>Hesychius. <title>Lexicon</title>. beta.243: <w>βαρύ</w>· τῐνές µέν φασι θυµίαµα
                         εὐῶδες [τήν βαρεĩαν]. δηλοῖ δὲ καὶ µέγα, καὶ χαλεπόν, καὶ ἰσχυρόν, καὶ
                         ἀναιδές.</quote>
-                    <quote>* θυµίαµα, Ion. θυµίηµα, ατος, τό, <emph>incense</emph>, Hdt.1.198,
+                    
+                    <quote><w lemma="θυµίαµα">θυµίαµα</w>, Ion. θυµίηµα, ατος, τό, <emph>incense</emph>, Hdt.1.198,
                         Amphis 27, PTeb.112.22 (II B.C.), Phld.Vit.p.37J.; name of a particular kind
                         (perh.= ἀµµωνιακόν), Edict.Diocl, in Ἀθηνã 18.6 (Tegea): usu. in pl.,
                             <emph>fragrant stuffs for burning</emph>, Hdt.2.130, 7.54, S.OT4,
                         Ar.Av.1716, Pl.R.373c, IG5(2).514 (Lycosura), Apoc.5.8; θυµιάµατα
                             <emph>fumigations</emph>, Philum.Ven. 6 tit.</quote>
-                    <p>Derivato dalla radice del verbo <rs key="instruments"><w>θυµιάω</w></rs>
-                        (<foreign>burn so as to produce smoke</foreign>) [ <ref corresp="lexicon_thymos.html"><rs key="belief"
-                                ><w>θυµός</w></rs></ref> = <foreign>soul, spirit, as the principle of
-                            life</foreign>], col significato di «bruciare, affumicare, purificare
-                        col fumo/ ardere come profumo», il <foreign>thymíama</foreign> indica di
+                    
+                    <p>Derivato dalla radice del verbo <rs key="instruments"><w lemma="θυµιάω">θυµιάω</w></rs>
+                        (<foreign>burn so as to produce smoke</foreign>), col significato di «bruciare, affumicare, purificare
+                        col fumo/ ardere come profumo» (alla cui radice tematica è anche connesso il sostantivo 
+                        <ref corresp="lexicon_thymos.html"><rs key="belief"><w lemma="θυµός">θυµός</w></rs></ref> 
+                        = <foreign>soul, spirit, as the principle of life</foreign>), il <foreign>thymíama</foreign> indica di
                         fatto l’aroma (inteso nella doppia accezione di incenso e profumo) che emana
                         dalle carni e dal grasso delle vittime bruciate sull’altare, prodotto dalla
                         mescolanza di spezie, erbe e resine naturali. Tale elemento – mediatore tra
@@ -304,8 +307,9 @@
                         in DETIENNE 1972, XII e XXVIII-XXXI) – occupa un ruolo centrale nei
                         sacrifici per fumigazione, secondo la definizione riportata da Esichio in
                         riferimento a <title>Ilias</title> IX.219-220 (Hesychius.
-                        <title>Lexicon</title>. Theta.958:  <ref corresp="lexicon_machaira.html"><rs key="instruments"><w>θυσαι</w>·
-                                <w>άπάρξασθαι</w>. <w>θυµιᾶσαι</w>. <w>θυσιάσαι</w></rs></ref>) e ripresa negli
+                        <title>Lexicon</title>. Theta.958:  
+                        <rs key="instruments"><w>θῦσαι</w>·
+                                <w>άπάρξασθαι</w>. <w>θυµιᾶσαι</w>. <w>θυσιάσαι</w></rs>) e ripresa negli
                             <title>Anecdota Graeca</title> (I, 42, 14 Bekker) a proposito degli
                         ἱερεία τεθύμενα (le vittime consacrate attraverso il fuoco), dove
                         «sacrificare sta per affumicare» (θῦσαι· ἀντὶ τοῦ θυμιᾶσαι), specificando il
@@ -317,7 +321,7 @@
                         πυρὶ βάλλε θυηλάς”· λέγει δὲ θυηλάς τὰς ἀπαρχὰς τῶν τεθυμένων ἱερείων. καὶ
                         ἐν τῇ ἀρχαίᾳ κωμῳδίᾳ τὸ θῦσαι ἀντὶ τοῦ θυμιᾶσαι.</quote>
                     
-                    <quote>* <title>Ilias</title> IX.218-220: <lb/>αὐτὸς [Ἀχιλλεύς]
+                    <quote><title>Ilias</title> IX.218-220: <lb/>αὐτὸς [Ἀχιλλεύς]
                         δ᾽ ἀντίον ἷζεν Ὀδυσσῆος θείοιο
                         <lb/>τοίχου τοῦ ἑτέροιο, θεοῖσι δὲ θῦσαι ἀνώγει
                         <lb/>Πάτροκλον ὃν ἑταῖρον: ὃ δ᾽ ἐν πυρὶ βάλλε θυηλάς</quote>
