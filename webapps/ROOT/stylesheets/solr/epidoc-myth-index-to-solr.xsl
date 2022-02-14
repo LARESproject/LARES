@@ -15,7 +15,7 @@
 
   <xsl:template match="/">
     <add>
-      <xsl:for-each-group select="//tei:persName[@type='divine'][@key]|//tei:persName[@type='myth'][@key]" group-by="normalize-unicode(normalize-space(@key))">
+      <xsl:for-each-group select="//tei:persName[@type='divine' or @type='hero' or @type='myth' or @type='literary'][@key]" group-by="normalize-unicode(normalize-space(@key))">
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -39,7 +39,7 @@
           <xsl:apply-templates select="current-group()" />
         </doc>
       </xsl:for-each-group>
-      <xsl:for-each-group select="//tei:persName[@type='divine'][not(@key)]|//tei:persName[@type='myth'][not(@key)]" group-by="normalize-unicode(normalize-space(.))">
+      <xsl:for-each-group select="//tei:persName[@type='divine' or @type='hero' or @type='myth' or @type='literary'][not(@key)]" group-by="normalize-unicode(normalize-space(.))">
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -50,6 +50,15 @@
           <xsl:call-template name="field_file_path" />
           <field name="index_item_name">
             <xsl:value-of select="normalize-unicode(normalize-space(.))" />
+          </field>
+          <field name="index_type">
+            <xsl:choose>
+              <xsl:when test="@type='divine'">Deity</xsl:when>
+              <xsl:when test="@type='hero'">Hero</xsl:when>
+              <xsl:when test="@type='myth'">Mythological character</xsl:when>
+              <xsl:when test="@type='literary'">Literary character</xsl:when>
+              <xsl:otherwise><xsl:value-of select="@type" /></xsl:otherwise>
+            </xsl:choose>
           </field>
           <xsl:apply-templates select="current-group()" />
         </doc>
