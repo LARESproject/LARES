@@ -103,8 +103,8 @@
   </xsl:template>
   
   <xsl:template match="str[@name='index_attested_form']">
-    <td id="{.}">
-      <xsl:value-of select="."/>
+    <td id="{replace(normalize-space(.), ' ', '_')}">
+      <xsl:value-of select="normalize-space(.)"/>
     </td>
   </xsl:template>
   

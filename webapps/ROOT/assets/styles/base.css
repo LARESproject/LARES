@@ -435,10 +435,15 @@ a:link.button, a:visited.button, a:focus.button, a:hover.button, a:active.button
     padding: 4px 0px 1px 0px;
 }
 
-._links {
+#toggle_links {
     display: inline !important;
+}
+
+._links {
+    display: none;
     color: #005471 !important;
 }
+
 
 #toggle_buttons button {
     margin: 5px;
@@ -446,7 +451,7 @@ a:link.button, a:visited.button, a:focus.button, a:hover.button, a:active.button
     color: black;
 }
 
-#toggle_practice, #toggle_belief, #toggle_fiction, #toggle_sign, #toggle_sense, #toggle_speech, #toggle_systems, #toggle_instruments, #toggle_structures {
+#toggle_practice, #toggle_belief, #toggle_fiction, #toggle_sign, #toggle_sense, #toggle_speech, #toggle_systems, #toggle_instruments, #toggle_structures, #toggle_links {
     background-color: white;
     border-style: none;
     padding: 8px 8px 6px 8px;

@@ -15,14 +15,14 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <p>"Animal Sacrifice in Ancient Greece" database (<ref corresp="http://www.sacrificium.filg.uj.edu.pl">http://www.sacrificium.filg.uj.edu.pl</ref>).</p>
+                <p>"Animal Sacrifice in Ancient Greece" database (<ref>http://www.sacrificium.filg.uj.edu.pl</ref>).</p>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-10-12" who="Irene Vagionakis">encoded document in XML</change>
+                <change when="2021-10-12" who="Irene Vagionakis">encoded in XML</change>
                 <change when="2017-02-27" who="Przemysław Biernat">updated document contents</change>
-                <change when="2016-09-06" who="Przemysław Biernat">created document contents</change>
+                <change when="2016-09-06" who="Przemysław Biernat">written contents</change>
             </listChange>
         </revisionDesc>
     </teiHeader>

@@ -25,15 +25,13 @@
         </p>
 
       <p id="toggle_buttons"><b>Show/hide: </b>
-        <br/>COMMUNICATION:
-        <button class="practice" id="toggle_practice">practice (rite)</button>
-        <button class="belief" id="toggle_belief">belief (myth)</button>
-        <button class="fiction" id="toggle_fiction">fiction (symbol)</button>
-        <br/>REPRESENTATION:
-        <button class="sign" id="toggle_sign">sign (semiotics)</button>
-        <button class="sense" id="toggle_sense">sense (semantics)</button>
-        <button class="speech" id="toggle_speech">speech (rhetoric)</button>
-        <br/>FRUITION:
+        <button class="links" id="toggle_links">links</button>
+        <button class="practice" id="toggle_practice">practice</button>
+        <button class="belief" id="toggle_belief">belief</button>
+        <button class="fiction" id="toggle_fiction">fiction</button>
+        <button class="sign" id="toggle_sign">sign</button>
+        <button class="sense" id="toggle_sense">sense</button>
+        <button class="speech" id="toggle_speech">speech</button>
         <button class="systems" id="toggle_systems">systems</button>
         <button class="instruments" id="toggle_instruments">instruments</button>
         <button class="structures" id="toggle_structures">structures</button>
@@ -91,6 +89,12 @@
          $(document).ready(function(){
          $("#toggle_structures").click(function(){
          $(".structures").toggleClass("_structures");
+         });
+         });
+         
+         $(document).ready(function(){
+         $("#toggle_links").click(function(){
+         $(".links").toggleClass("_links");
          });
          });
        </script>
@@ -237,52 +241,30 @@
     </xsl:choose>
   </xsl:template>
 
-  <xsl:template match="t:div//t:ref[not(@corresp)][starts-with(., 'http')]">
-    <a>
-      <xsl:attribute name="href">
-        <xsl:value-of select="."/>
-      </xsl:attribute>
-      <xsl:attribute name="target">
-        <xsl:value-of select="'_blank'"/>
-      </xsl:attribute>
-      <xsl:apply-templates/>
-    </a>
+  <xsl:template match="t:ref[not(@corresp)][starts-with(., 'http')]">
+    <a href="{.}" target="_blank"><xsl:apply-templates/></a>
   </xsl:template>
     
-    <xsl:template match="t:div//t:ref[@corresp]">
-    <xsl:choose>
-      <xsl:when test="@type='lares'">
-        <a href="{concat('./', @corresp, '.html')}" target="_blank">
-          <xsl:apply-templates/>
-        </a>
-      </xsl:when>
-      <xsl:otherwise>
-        <a href="{@corresp}" target="_blank">
-          <xsl:apply-templates/>
-        </a>
-      </xsl:otherwise>
-    </xsl:choose>
+  <xsl:template priority="10" match="t:ref[@corresp]">
+    <xsl:apply-templates/>
+    <a class="links" href="{@corresp}" target="_blank"><b> ➚</b></a>
   </xsl:template>
   
   <xsl:template priority="10" match="t:w[@lemma]">
-    <a href="{concat('https://logeion.uchicago.edu/', @lemma)}" target="_blank"> <!-- apparently works better without normalize-unicode() -->
-      <xsl:apply-templates/>
-    </a>
+      <b><xsl:apply-templates/></b>
+      <a class="links" href="{concat('https://logeion.uchicago.edu/', @lemma)}" target="_blank"><b> ➚</b></a> 
   </xsl:template>
 
-  <xsl:template match="t:foreign|t:title[not(parent::t:titleStmt)]">
-    <i><xsl:apply-templates/></i>
+  <xsl:template priority="20" match="t:rs[@key][ancestor::t:div[@type='edition']]">
+    <span class="popup_box">
+      <span class="{@key}"><b><xsl:apply-templates/></b></span>
+      <span class="popup"><xsl:value-of select="replace(@key, ' ', ', ')"/></span>
+    </span>
+    <a class="links" href="../indices/epidoc/realms.html#{replace(normalize-space(.), ' ', '_')}" target="_blank"><b> ➚</b></a>
   </xsl:template>
   
-
-  <xsl:template match="t:rs[@key][ancestor::t:div[@type='edition']]">
-    <span class="popup_box">
-      <span class="{@key}"><xsl:apply-templates/></span>
-      <span class="popup">
-        <xsl:value-of select="@key"/>
-        <!--<xsl:if test="@corresp!=''"><xsl:text>; </xsl:text><xsl:value-of select="@corresp"/></xsl:if>--></span>
-    </span>
-    <a target="_blank" class="links" href="../indices/epidoc/realms.html#{.}"> ➚</a>
+  <xsl:template match="t:foreign|t:title[not(parent::t:titleStmt)]">
+    <i><xsl:apply-templates/></i>
   </xsl:template>
   
   <xsl:template match="t:quote">

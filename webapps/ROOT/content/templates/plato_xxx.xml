@@ -23,8 +23,8 @@
         </fileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2022-02-10" who="NAME">encoded document in XML</change>
-                <change when="2017" who="Przemysław Biernat">created document contents</change>
+                <change when="2022-02-10" who="NAME">encoded in XML</change>
+                <change when="2017" who="Przemysław Biernat">written contents</change>
             </listChange>
         </revisionDesc>
     </teiHeader>

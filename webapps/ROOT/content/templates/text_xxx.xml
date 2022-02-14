@@ -20,8 +20,8 @@
         </fileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2021-10-12" who="NAME">encoded document in XML</change>
-                <change when="2021-10-12" who="NAME">created document contents</change>
+                <change when="2021-10-12" who="NAME">encoded in XML</change>
+                <change when="2021-10-12" who="NAME">written contents</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
