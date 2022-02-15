@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Iliade, canto II</title>
+                <title xml:lang="en">Iliad, book  II</title>
+                <title xml:lang="pl">Iliada, pieśń II</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_02_ilias_ii</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Iliada, pieśń II</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 33-47</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>Il secondo canto dell'Iliade copre l'inizio degli eventi del primo giorno della lotta raccontata nell'epica, cioè il 22° giorno della trama del poema, contando dall'arrivo di Crise nel campo degli Achei. La divisione alessandrina comprende le canzoni da due a sette. La canzone II è composta da due parti. Nel primo Zeus mette in atto il suo piano per onorare Achille mandando la sconfitta agli Achei attraverso il Sogno 'fatale', in base al quale Agamennone deciderà di procedere alla resa dei conti finale con la città assediata; nel secondo il poeta presenta al pubblico un catalogo delle navi achee giunte a Troia. Zeus manda un "sogno fatale" alla tenda di Agamennone, che prende la forma di Nestore e lo informa falsamente che Zeus e gli dei sono d'accordo sulla caduta di Troia quel giorno. Sul mondo Agamennone convoca un consiglio e poi un'assemblea degli Achei per emettere una battaglia conclusiva. Quando la battaglia è stata decisa, il poeta passa alla seconda parte, in cui presenta un catalogo delle navi e dei capi giunti a Troia. </p>
+                    <p>La scena del sacrificio animale è introdotta tre volte. La prima volta è nel discorso di Odisseo all'assemblea, che ricorda il segno dato da Zeus durante la catomba di Aulis interpretato da Kalchas come presagio della caduta di Troia. Questa analessi esterna, che va oltre il tempo della storia, allo stesso tempo prefigura gli eventi che seguiranno il tempo coperto dalla storia principale nell'Iliade, concludendo la trama sulla guerra di Troia (prolepsis). L'incapacità umana di riconoscere la volontà del dio, ironicamente, porta Agamennone, Nestore e Odisseo a riconoscere questo giorno come il momento del compimento di un segno, anche se in realtà questo giorno arriverà nel futuro.  Il secondo estratto proviene dalla narrazione principale ed è una scena tipica. Dopo che l'assemblea è sciolta, gli Achei procedono a offrire sacrifici animali e una festa. Il narratore concentra la sua attenzione sul sacrificio di un bue fatto da Agamennone in compagnia dei membri del consiglio, chiudendo così la struttura ad anello dell'intero episodio, in linea con l'intenzione del poeta - la preghiera di Agamennone non viene accettata da Zeus, sebbene nessun segno avverta il condottiero della realizzazione del piano disastroso del dio. Il terzo testo fa parte del cosiddetto catalogo delle navi, in cui il poeta descrive i contingenti dell'esercito acheo che arrivarono su navi al comando degli eroi citati per nome.
+                    </p>
+                </div>
+                <div type="textpart" n="Iliad_2.299–322 ">
+                    <head>Iliade 2.299–322 </head>
+                    <p>Agamennone, ingannato da un sogno inviato da Zeus, convoca un'assemblea degli Achei e presenta una mozione per porre fine all'assedio di Troia e tornare in Hellada. È seguito da un discorso di Odisseo, che invita alla perseveranza e ricorda la divinazione di Kalchas del momento in cui l'esercito riunito ad Aulis pose una catomba sugli altari. La scena del sacrificio ricordata da Odisseo è importante per diverse ragioni: (1) non è costruito da formule caratteristiche delle scene tipiche, ma si concentra sugli eventi miracolosi che accompagnano il sacrificio di sangue; (2) il segno inviato dal dio non è direttamente collegato al rituale del sacrificio, ma lo accompagna come eventi indipendenti - Omero non menziona affatto i segni di accettazione o rifiuto del sacrificio che appaiono durante le attività rituali, come il comportamento degli animali, le caratteristiche specifiche delle interiora del sacrificio, specialmente il fegato, o il caratteristico posizionamento della coda durante il rogo sull'altare; (3) il testo è stato utilizzato in argomenti riguardanti la storia del mito del sacrificio di Ifigenia. 
+                        L'evocazione di Odisseo del sacrificio di Aulis ha una funzione persuasiva: una serie di eventi inattesi (l'apparizione del serpente durante il sacrificio - il divoramento dei passeri - la trasformazione del serpente in pietra), di semiotica crescente, è stata interpretata da Kalchas come un presagio che prefigura la conquista di Troia. 
+                    </p>
+                    <quote>
+                        <lb/>τλῆτε φίλοι, καὶ μείνατ᾽ ἐπὶ χρόνον ὄφρα δαῶμεν 
+                        <lb n="300"/>ἢ ἐτεὸν Κάλχας μαντεύεται ἦε καὶ οὐκί. 						
+                        <lb/> εὖ γὰρ δὴ τόδε ἴδμεν ἐνὶ φρεσίν, ἐστὲ δὲ πάντες 
+                        <lb/>μάρτυροι, οὓς μὴ κῆρες ἔβαν θανάτοιο φέρουσαι· 
+                        <lb/>χθιζά τε καὶ πρωΐζ᾽ ὅτ᾽ ἐς Αὐλίδα νῆες Ἀχαιῶν 
+                        <lb/>ἠγερέθοντο κακὰ Πριάμῳ καὶ Τρωσὶ φέρουσαι, 
+                        <lb n="305"/>     ἡμεῖς δ᾽ ἀμφὶ περὶ κρήνην ἱεροὺς κατὰ βωμοὺς 					
+                        <lb/>   ἕρδομεν ἀθανάτοισι τεληέσσας ἑκατόμβας 
+                        <lb/>        καλῇ ὑπὸ πλατανίστῳ ὅθεν ῥέεν ἀγλαὸν ὕδωρ· 
+                        <lb/>       ἔνθ᾽ ἐφάνη μέγα σῆμα· δράκων ἐπὶ νῶτα δαφοινὸς, 
+                        <lb/>       σμερδαλέος, τόν ῥ᾽ αὐτὸς  Ὀλύμπιος ἧκε φόως δέ, 
+                        <lb n="310"/>      βωμοῦ ὑπαΐξας πρός ῥα πλατάνιστον ὄρουσεν. 					
+                        <lb/>     ἔνθα δ᾽ ἔσαν στρουθοῖο νεοσσοί, νήπια τέκνα, 
+                        <lb/>     ὄζῳ ἐπ᾽ ἀκροτάτῳ πετάλοις ὑποπεπτηῶτες ὀκτώ, 
+                        <lb/>     ἀτὰρ μήτηρ ἐνάτη ἦν ἣ τέκε τέκνα· 
+                        <lb/>    ἔνθ᾽ ὅ γε τοὺς ἐλεεινὰ κατήσθιε τετριγῶτας· 
+                        <lb n="315"/>     μήτηρ δ᾽ ἀμφεποτᾶτο ὀδυρομένη φίλα τέκνα· 					
+                        <lb/>    τὴν δ᾽ ἐλελιξάμενος πτέρυγος λάβεν ἀμφιαχυῖαν. 
+                        <lb/>    αὐτὰρ ἐπεὶ κατὰ τέκνα φάγε στρουθοῖο καὶ αὐτήν, 
+                        <lb/>   τὸν μὲν ἀρίζηλον θῆκεν θεὸς ὅς περ ἔφηνε·  
+                        <lb/>   λᾶαν γάρ μιν ἔθηκε  Κρόνου πάϊς ἀγκυλομήτεω· 
+                        <lb n="320"/>   ἡμεῖς δ᾽ ἑσταότες θαυμάζομεν οἷον ἐτύχθη. 					
+                        <lb/>     ὡς οὖν δεινὰ πέλωρα θεῶν εἰσῆλθ᾽ ἑκατόμβας, 
+                        <lb/>   Κάλχας δ᾽ αὐτίκ᾽ ἔπειτα θεοπροπέων ἀγόρευε·  
+                        <lb/>        τίπτ’ ἄνεῳ ἐγένεσθε κάρη κομόωντες Ἀχαιοί; 
+                        <lb/>       ἡμῖν μὲν τόδ’ ἔφηνε τέρας μέγα μητίετα Ζεὺς		
+                        <lb/>          ὄψιμον ὀψιτέλεστον, ὅου κλέος οὔ ποτ’ ὀλεῖται.	
+                    </quote>
+                    <quote>
+                        <lb/> Resistete, amici, e rimanete finché non lo sapremo,
+                        <lb/> se Kalchas ha veramente predetto o no.
+                        <lb n="300"/> Perché lo sappiamo bene nei nostri cuori - voi siete tutti 
+                        <lb/> testimoni, a meno che gli assassini portatori di morte non siano venuti da voi.
+                        <lb/> Sono passati alcuni giorni da quando le navi degli Achei
+                        <lb/> venne portando il male a Priamo e ai Troiani,
+                        <lb/> e noi intorno alla sorgente sugli altari sacri
+                        <lb n="305"/> abbiamo sacrificato agli immortali perfette hecatombs, 
+                        <lb/> sotto il bel platano dove scorre l'acqua brillante,
+                        <lb/> quando apparve un grande presagio. Un serpente con il dorso color sangue,
+                        <lb/> uno spaventoso, che l'Olimpico stesso ha mandato alla luce,
+                        <lb/> cadde da sotto l'altare e corse verso il platano.
+                        <lb n="310"/> E c'erano passeri, bambini piccoli, 
+                        <lb/> in un nido in alto, nascosto sotto le foglie,
+                        <lb/> ce n'erano otto, e la nona madre che portava i bambini,
+                        <lb/> lì il serpente divorò il deplorevole, cinguettando,
+                        <lb/> la madre volava intorno, piangendo i suoi figli:
+                        <lb n="315"/> lei, mentre girava intorno, contorcendosi la prese per l'ala, 
+                        <lb/> dopo di che, quando ebbe mangiato i bambini passeri e la madre,
+                        <lb/> il dio che gli aveva mostrato prima gli fece un segno visibile - 
+                        <lb/> lo trasformò in pietra il figlio di Crono l'astuto,
+                        <lb/> e noi, in piedi, ci siamo meravigliati di quello che ci era successo.
+                        <lb n="320"/> Così questo terribile mostro degli dei ha infestato hakatomby, 
+                        <lb/> Kalchas annunciò immediatamente la sua profezia.
+                        <lb/> Perché continuate in silenzio, achei dai capelli lunghi?
+                        <lb/> Questo segno augurale ci è stato rivelato dall'astuto Zeus, 
+                        <lb/> tardo a compiersi, la cui fama non perderà mai.
+                    </quote>
+                    <p>300: 	ἢ ἐτεὸν Κάλχας μαντεύεται ἦε καὶ οὐκί – "se veramente Kalchas ha predetto o no"; alla domanda posta risponderà, secondo le regole della composizione dell'anello, Odisseo nel verso 330.</p>
+                    <p>303: χθιζά τε καὶ πρωΐζ᾽ ὅτ᾽ - "erano passati pochi giorni da quando..."; l'interpretazione dell'idioma χθιζά τε καὶ πρωΐζα è importante per la collocazione dell'evento raccontato nella cronologia del ciclo troiano, soprattutto in considerazione della sua connessione con il sacrificio di Ifigenia suggerita da alcuni studiosi. Data l'importanza del sacrificio di Ifigenia per il destino di Agamennone, il comandante in capo degli eserciti achei, gli studiosi moderni hanno esaminato attentamente tutte le possibili allusioni a questo episodio silenzioso o sconosciuto. La frase χθιζά τε καὶ πρωΐζ᾽ ὅτε significa letteralmente "ieri e l'altro ieri" e viene interpretata come un idioma. Il suo significato qui è oggetto di controversia. Si possono distinguere tre proposte di traduzione. Alcuni studiosi e traduttori ritengono che la frase enfatizzi la sensazione soggettiva del passare del tempo, "solo ora", "come se da poco", "sembra come se fosse ieri" (Kirk, comm. ad loc., cfr. "ieri - sembra - l'altro ieri" nella traduzione di I. Wieniawski, "sembra solo ieri" - Hitch 2009: 74). Infatti, nel greco più tardo abbiamo la frase πρώην τε καὶ χθές (es. Hdt. 2.53.1) che denota un senso soggettivo di "recentemente". In questo modo, il poeta dell'Iliade ha voluto esprimere la potenza con cui l'episodio ricordato da Kalchas è stato registrato nella memoria dei testimoni. La seconda interpretazione collega la frase al tempo trascorso tra l'arrivo delle navi achee ad Aulida e gli eventi raccontati da Odisseo, collegandola direttamente al verbo ἠγερέθοντο, "il giorno dopo, o dopo due giorni, quando le navi achee / ad Aulida si affrettarono" (tradotto da K. Jeżewska); Lehrs, Leaf, cfr. BK, comm. ad loc. Odisseo sottolineerebbe così che i fatti sono avvenuti all'inizio della sosta dell'esercito acheo ad Aulida, un giorno o due dopo che l'esercito vi si era radunato, il che escluderebbe definitivamente la possibilità di collegare il sacrificio invocato da Odisseo e il sacrificio di Ifigenia, ma la sintassi della frase greca sembra escludere questa interpretazione. Fred Naiden collega l'evento invocato da Odisseo a una preghiera (omessa dal racconto ma in qualche modo ovvia per gli ascoltatori) per i venti favorevoli (2011: 115-116). Una terza interpretazione è stata proposta da Martin L. West, invocando la frase semitica occidentale ina timāli šalši ūme (akk.), temôl šilšōm (ebraico), letteralmente "ieri e tre giorni prima", il cui senso è più generale: "nel passato (West 2008: 332). Se davvero l'idioma greco è un'indicazione generale di eventi del passato, è difficile dimostrare che Odisseo qui tace diplomaticamente sul sacrificio di Ifigenia.</p>
+                    <p>305-7: Dopo aver radunato i loro eserciti ad Aulida, gli Achei circumambulano gli altari degli dei, sacrificando loro in catacombe. Il passus è interessante per diverse ragioni. Prima di tutto, è uno dei pochi luoghi dell'Iliade in cui troviamo una descrizione dettagliata del luogo sacro in cui si svolge il rito. Tuttavia, non appare nella narrazione principale, ma nel discorso del personaggio Odisseo, che ne ricorda i dettagli per visualizzare ai suoi ascoltatori il ricordo di un evento di molto tempo fa.</p>
+                    <p>305: ἡμεῖς δ᾽ ἀμφὶ περὶ κρήνην - "noi mentre attorno alla sorgente"; i recinti e gli altari sacri greci erano spesso situati presso sorgenti, cripte, ruscelli o fiumi che fornivano ai sacrificatori una fonte di acqua rituale, chernips, necessaria per un corretto sacrificio. Nel II secolo d.C., gli scavi archeologici di Aulida scoprirono una sorgente protetta da una struttura a forma di tenda costruita su una pianta quadrata; una scala conduceva alla piscina profonda da nord. </p>
+                    <p>306: ἕρδομεν ἀθανάτοισι τεληέσσας ἑκατόμβας - 'abbiamo sacrificato agli immortali la perfetta hecatomb'; sulla frase ἔρδω + ἡκατόμβην, vedi commento a Il. 1.315.</p>
+                    <p>307:	καλῇ ὑπὸ πλατανίστῳ ὅθεν ῥέεν ἀγλαὸν ὕδωρ – "sotto un bel platano dove scorre un'acqua scintillante"; una sorgente o un ruscello su cui cresce un platano non è insolito, motivo per cui alcuni studiosi danno a questa descrizione il significato del topos di un perfetto luogo sacro, uno scenario adatto per una perfetta hecatomb (Kirk 1985, ad loc., cfr. Thesleff 1981). Scrivendo nel secondo secolo d.C. Pausania menziona i resti di un tronco d'albero conservato nel tempio (9.19.7). Il direttore degli scavi di Aulida ha interpretato un piccolo cerchio di pietra costruito in una frattura del recinto della sorgente sul lato ovest come il sito dove cresceva un platano nel periodo classico (e probabilmente prima) (ThesCRA, Moggi, Osanna 2010: 325-6). </p>
+                    <p>308: ἔνθ᾽ ἐφάνη μέγα σῆμα - 'quando apparve il grande presagio'; il presagio (σῆμα) non è direttamente collegato al rito sacrificale, ma appare in occasione del sacrificio. L'epica omerica non fa menzione di pratiche di divinazione associate al processo rituale stesso, che nelle fonti successive divenne una componente importante del sacrificio di sangue. 	
+                        μέγα σῆμα, cfr. τέρας v. 324. L'aggettivo μέγα, letteralmente 'grande', è usato qui nel senso di 'significativo', 'evidente', 'espressivo'.
+                    </p>
+                    <p>321: ὡς οὖν δεινὰ πέλωρα θεῶν εἰσῆλθ᾽ ἑκατόμβας - "così tali terribili presagi degli dei infestavano l'hecatomb"; non si sa se gli Achei completarono i loro sacrifici dopo che i presagi apparvero. Il verbo εἰσῆλθε, che significa "tormentare", "interrompere", non dà qui un'indicazione sicura.</p>
+                    <p>324: ἡμῖν μὲν τόδ' ἔφηνε τέρας μέγα μητίετα Ζεὺς - "a noi Zeus consigliere ha rivelato questo grande presagio": il sostantivo τέρας denota qualsiasi fenomeno fuori dalla norma che possa essere interpretato come un presagio inviato dagli dei, cfr. Nenci 1957-1958; Pizzani 1997; Pizzani 2000, 528 ss. </p>
+                    
+                </div>
+                <div type="textpart" n="Iliad_2.398–430 ">
+                    <head>Iliade 2.398–430 </head>
+                    <p>Scena tipica - sacrificio di animali. Nella seconda scena tipica estesa, il narratore si concentra sul sacrificio fatto da Agamennone, al quale furono invitati sei dei capi più importanti, così come Menelao, che però si presentò senza invito, αὐτόματος. Il narratore contrappone le offerte fatte nelle varie tende a quelle fatte dai capi: le prime pregano per un guadagno personale - evitare la morte in battaglia (v. 401), le seconde per una vittoria comune. Vale anche la pena notare il diverso vocabolario nelle due descrizioni. I sacrifici offerti dall'esercito agli dei sono inquadrati dal termine generale (ἔρεζε) 'compiere un rito (sacrificale)', mentre il sacrificio offerto da Agamennone è specificato dal verbo (ἱερεύω), 'compiere il dovere di un sacerdote > sacrificare > uccidere un animale sacrificato agli dei'. Sulla preghiera di Agamennone, vedi Chapot, Laurot 2001: 34-35 (G3). </p>
+                    <quote>
+                        <lb/>ἀνστάντες δ᾽ ὀρέοντο κεδασθέντες κατὰ νῆας, 					
+                        <lb/>κάπνισσάν τε κατὰ κλισίας, καὶ δεῖπνον ἕλοντο. 
+                        <lb n="400"/> ἄλλος δ᾽ ἄλλῳ ἔρεζε θεῶν αἰειγενετάων 						
+                        <lb/>  εὐχόμενος θάνατόν τε φυγεῖν καὶ μῶλον Ἄρηος.  
+                        <lb/>αὐτὰρ ὃ βοῦν ἱέρευσε ἄναξ ἀνδρῶν Ἀγαμέμνων 
+                        <lb/>  πίονα πενταέτηρον ὑπερμενέϊ  Κρονίωνι, 
+                        <lb/> κίκλησκεν δὲ γέροντας ἀριστῆας Παναχαιῶν, 
+                        <lb n="405"/> Νέστορα μὲν πρώτιστα καὶ Ἰδομενῆα ἄνακτα, 					
+                        <lb/>   αὐτὰρ ἔπειτ᾽  Αἴαντε δύω καὶ Τυδέος υἱόν, 
+                        <lb/>   ἕκτον δ᾽ αὖτ᾽  Ὀδυσῆα Διὶ μῆτιν ἀτάλαντον. 
+                        <lb/>    αὐτόματος δέ οἱ ἦλθε βοὴν ἀγαθὸς Μενέλαος· 
+                        <lb/>    ᾔδεε γὰρ κατὰ θυμὸν ἀδελφεὸν ὡς ἐπονεῖτο. 
+                        <lb n="410"/>    βοῦν δὲ περιστήσαντο καὶ οὐλοχύτας ἀνέλοντο·					
+                        <lb/>    τοῖσιν δ᾽ εὐχόμενος μετέφη κρείων Ἀγαμέμνων· 
+                        <lb/>    Ζεῦ κύδιστε μέγιστε κελαινεφὲς αἰθέρι ναίων 
+                        <lb/>     μὴ πρὶν ἐπ᾽ ἠέλιον δῦναι καὶ ἐπὶ κνέφας ἐλθεῖν 
+                        <lb/>       πρίν με κατὰ πρηνὲς βαλέειν Πριάμοιο μέλαθρον 
+                        <lb n="415"/>        αἰθαλόεν, πρῆσαι δὲ πυρὸς δηΐοιο θύρετρα,					
+                        <lb/>         Ἑκτόρεον δὲ χιτῶνα περὶ στήθεσσι δαΐξαι 
+                        <lb/>         χαλκῷ ῥωγαλέον· πολέες δ᾽ ἀμφ᾽ αὐτὸν ἑταῖροι 
+                        <lb/>           πρηνέες ἐν κονίῃσιν ὀδὰξ λαζοίατο γαῖαν.
+                        <lb/>          Ὣς ἔφατ᾽, οὐδ᾽ ἄρα πώ οἱ ἐπεκραίαινε Κρονίων, 
+                        <lb n="420"/>          ἀλλ᾽ ὅ γε δέκτο μὲν ἱρά, πόνον δ᾽ ἀμέγαρτον ὄφελλεν.	  			
+                        <lb/>          αὐτὰρ ἐπεί ῥ᾽ εὔξαντο καὶ οὐλοχύτας προβάλοντο, 
+                        <lb/>        αὐέρυσαν μὲν πρῶτα καὶ ἔσφαξαν καὶ ἔδειραν, 
+                        <lb/>        μηρούς τ᾽ ἐξέταμον κατά τε κνίσῃ ἐκάλυψαν 
+                        <lb/>        δίπτυχα ποιήσαντες, ἐπ᾽ αὐτῶν δ᾽ ὠμοθέτησαν. 
+                        <lb n="425"/>        καὶ τὰ μὲν ἂρ σχίζῃσιν ἀφύλλοισιν κατέκαιον, 				
+                        <lb/>         σπλάγχνα δ᾽ ἄρ᾽ ἀμπείραντες ὑπείρεχον  Ἡφαίστοιο. 
+                        <lb/>         αὐτὰρ ἐπεὶ κατὰ μῆρε κάη καὶ σπλάγχνα πάσαντο, 
+                        <lb/>         μίστυλλόν τ᾽ ἄρα τἆλλα καὶ ἀμφ᾽ ὀβελοῖσιν ἔπειραν, 
+                        <lb/>         ὤπτησάν τε περιφραδέως, ἐρύσαντό τε πάντα. 
+                        <lb n="430"/>         αὐτὰρ ἐπεὶ παύσαντο πόνου τετύκοντό τε δαῖτα 					
+                        <lb/>          δαίνυντ᾽, οὐδέ τι θυμὸς ἐδεύετο δαιτὸς ἐΐσης.  
+                        <lb/>          αὐτὰρ ἐπεὶ πόσιος καὶ ἐδητύος ἐξ ἔρον ἕντο, 
+                        <lb/>     τοῖς ἄρα μύθων ἦρχε  Γερήνιος ἱππότα Νέστωρ·  
+                    </quote>
+                    <quote>
+                        <lb/>Allora si alzarono e si mossero disperdendosi tra le navi, 				
+                        <lb/> Coprirono le loro tende di fumo e fecero un banchetto.
+                        <lb n="400"/> Ognuno fece un sacrificio a un altro degli dei eterni, 
+                        <lb/> pregando di sfuggire alla morte e alle difficoltà di Ares.  
+                        <lb/> Mentre il signore degli uomini Agamennone ha sacrificato un bue
+                        <lb/> grasso, cinque anni per il potente Cronides.
+                        <lb/> E convocò gli anziani, i migliori capi di tutti gli Achei,
+                        <lb n="405"/> prima Nestore e Idomeneo, il signore, 
+                        <lb/> poi i due Achei e il figlio di Tideo,
+                        <lb/> come sesto - Odisseo, uguale a Zeus in intelligenza.
+                        <lb/> E arbitrariamente Menelao venne da lui con una voce forte:
+                        <lb/> Perché sapeva in cuor suo come il suo fratello faticasse.
+                        <lb n="410"/> Si misero intorno al bue e gettarono briciole d'orzo, 
+                        <lb/> e pregando per loro il potente Agamennone parlò:
+                        <lb/> "Zeus superstizioso, grandissimo, nero-nero, dimorante nei cieli!
+                        <lb/> Che il sole non tramonti e il crepuscolo non arrivi,
+                        <lb/> Prima di tirare giù l'intradosso coperto di fuliggine
+                        <lb/> la casa di Priamo, e con fuoco ostile bruciare le sue porte, 
+                        <lb n="415"/> Prima di strappare la corazza di Ettore 
+                        <lb/> prima di strappare la corazza di Ettore, e prima dei suoi molti compagni
+                        <lb/> non rosicchierà la terra rovesciata a faccia in giù nella polvere".
+                        <lb/> Così disse, ma non aveva ancora soddisfatto la sua richiesta a Kronid,
+                        <lb/> pur accettando le offerte, moltiplicò la fatica in modo insopportabile.
+                        <lb n="420"/> Quando ebbero pregato e gettato l'orzo sacrificale, 
+                        <lb/> prima hanno deviato (le gole) e macellato e scuoiato,
+                        <lb/> hanno tagliato le gambe e le hanno coperte di grasso (della membrana peritoneale)
+                        <lb/> avvolgendo su entrambi i lati, su questi hanno messo pezzi di carne cruda.
+                        <lb/> Poi li bruciavano su lastre di legno senza foglie,
+                        <lb n="425"/> E le viscere le infilavano negli spiedi e le tenevano sul fuoco di Efesto.		
+                        <lb/> Quando le gambe erano bruciate e avevano assaggiato le interiora,
+                        <lb/> hanno fatto a pezzi il resto e lo hanno infilato negli spiedini,
+                        <lb/> Lo abbrustolirono con cura e poi lo tirarono giù dagli spiedi.
+                        <lb/> Quando si furono riposati dopo la fatica, prepararono un banchetto,
+                        <lb/> hanno banchettato, e nulla mancava al cuore di una festa uguale.
+                    </quote>
+                    <p>398–9:	Le truppe achee si alzano e si disperdono dal raduno alle loro navi. Il participio κεδασθέντες, "disperso", e le frasi κατὰ νῆας, "tra le navi" e κατὰ κλισίας, "nelle tende" sottolineano la disintegrazione della comunità dopo lo scioglimento dell'assemblea. </p>
+                    <p>399: κάπνισ(σ)άν τε κατὰ κλισίας - "coprirono di fumo le tende": la descrizione metonimica della preparazione del pasto sacrificale precede l'affermazione che questa si riferisce alle offerte agli dei (v. 400). Il verbo καπνί(ζ)ω (da καπνός, 'fumo', omerico hapax) significa effettivamente 'fumare', 'coprire di fumo'; qui è probabilmente usato nel senso metonimico di 'hanno fumato > cucinato' (LfgrE, s.v.). La forma κάπνισαν trasmessa dai papiri e dai manoscritti medievali è sostenuta da M.L. West ('Glotta' 2001, pp. 124-5).  Cfr. la variante di questo esametro in Il. 7.466: βουφόνεον δὲ κατὰ κλισίας καὶ δόρπον ἕλοντο (vedi comm. ad loc.).
+                        καὶ δεῖπνον ἕλοντο - "e mangiarono un pasto"; nell'epica la parola δεῖπνον denota un pasto base indipendentemente dall'ora del giorno in cui è stato consumato. In Il. 10.578 è il terzo pasto che Ulisse mangia in una notte. In Eschilo (frg. 304) δεῖπνον prende posto tra la colazione (ἄρίστον) e la cena (δόρπον). In questo caso si tratta del pasto di mezzogiorno, poiché i sacrifici furono offerti dopo la chiusura dell'assemblea convocata in seguito alla deliberazione nella tenda di Agamennone che ebbe luogo al mattino.
+                    </p>
+                    <p>400:	ἄλλος δ᾽ ἄλλῳ ἔρεζε θεῶν αἰειγενετάων – "ognuno ha compiuto un sacrificio a un altro degli dei eternamente viventi"; il verbo ἔρδω usato in senso assoluto, con il nome del dio al dativo ma senza il complemento prossimale, significa "sacrificare", "compiere un rito sacrificale" + dat. (nomen numinis) (Casabona 1966: 53). L'accento è quindi, secondo l'etimologia del verbo, sull'azione. Appare in questo senso tre volte nell'Iliade (2,400 e 8,250; 9,536). </p>
+                    <p>401: εὐχόμενος θάνατόν τε φυγεῖν καὶ μῶλον Ἄρηος - "pregando di sfuggire alla morte e ai disagi di Ares"; inf. aor. φυγεῖν combinato con il verbo εὐχέσθαι si riferisce qui al futuro (vedi Chantraine 1953: 189) - in contrasto con Agamennone, che in compagnia degli eroi più coraggiosi pregherà per la vittoria e la caduta di Troia, gli altri partecipanti alla spedizione fanno richieste per evitare la morte e la fatica della battaglia. Sul problema della dipendenza dell'espressione καὶ μῶλον Ἄρηος dal verbo φυγεῖν ('sfuggire [...] alla fatica di Ares'), che suggerisce che i guerrieri stanno pregando in generale per evitare non solo la morte ma ulteriori battaglie in generale, si veda Kirk 1985: 157. </p>
+                    <p>402-3: αὐτὰρ ὃ βοῦν ἱέρευσε ἄναξ ἀνδρῶν Ἀγαμέμνων - 'mentre il signore degli uomini Agamennone sacrificava un bue'; i versi formativi che introducono la scena della festa reale nella tenda di Agamennone (= Il. 7.314-5, cfr. Introduzione, p. XX). Il narratore sposta l'attenzione dalle offerte fatte alle tende delle varie truppe al comandante principale, Agamennone. Egli contrappone (αὐτὰρ) le varie, anche se non specificate, offerte fatte alle singole tende con il sacrificio di un bue fatto a Zeus dal comandante principale. L'enfasi che questo è un sacrificio del bestiame più prestigioso sottolinea la posizione sociale di Agamennone. Non si tratta quindi di un sacrificio pubblico che coinvolge tutta la comunità, ma di un rito del re, che prende i membri del consiglio e in questa occasione prepara una festa eroica preceduta da un rito per Zeus.      
+                        ἱέρευσε - 'sacrificato'; il verbo ἱερεύειν appare nell'Iliade 10 volte (2.402; 6.94; 174; 275; 309; 7.314; 18.559; 21.131; 23. 147; 24.125) e 18 x nell'Odissea (2.56; 8.59; 10.524; 11.32; 13.24; 182; 14.28; 74; 94; 414; 16.454; 17.180-181; 535; 19.198; 20.3; 250-251; 391; 24.215). L'uso del verbo ἱερεύειν sottolinea il fatto che Agamennone svolge funzioni di sacerdote, ἱερεύς, essendo la funzione sacerdotale derivata da quella di capo gruppo, che nel caso di Agamennone significa comandante in capo dell'esercito acheo. Il verbo nell'epica si presenta sempre con un sostantivo che denota un animale in funzione di complemento prossimale. Cfr. Casabona 1966: 23, il quale sostiene che il verbo ἱερεύειν appare solitamente quando l'idea di una festa viene in primo piano. In questo caso, tuttavia, Agamennone sta offrendo un sacrificio combinato con una preghiera rivolta a Zeus, quindi l'idea è principalmente quella di onorare il dio in previsione di un ascolto benevolo delle richieste. Al contrario, la natura comunitaria del rituale e la festa eroica che segue è enfatizzata dal catalogo degli ospiti.	
+                        ἄναξ ἀνδρῶν Ἀγαμέμνων: vedi comm. ad 1.442. 
+                    </p>
+                    <p>403:	βοῦν… πίονα πενταέτηρον – "un bue ... grasso, di cinque anni": = Il. 7.315. L'epiteto πενταέτηρον indica l'età dell'animale scelto per la festa del re. Nel caso del bue enfatizza il suo valore, quindi non è sorprendente che appaia due volte nell'Iliade nel contesto degli animali uccisi nella tenda di Agamennone. In Il. 7.315 la scena di un tipico sacrificio animale è abbreviata dalla descrizione dei riti sacrificali, così che si ha l'impressione che il verbo qui significhi la macellazione di un animale per un pasto. Nell'Odissea, l'epiteto πενταέτηρον era probabilmente usato scherzosamente per riferirsi al maiale macellato per la cena di Odisseo dal porcaro Eumaios (14.419) e al banchetto preparato da Autolico in onore di suo nipote, Odisseo (19. 420), che ripete essenzialmente i versi formulaici usati per descrivere la festa di Agamennone in Il. 7.315. Nelle fonti successive, l'età dell'animale è una delle caratteristiche distintive prese in considerazione nella scelta del tipo appropriato di sacrificio.</p>
+                    <p>404-9: Agamennone convoca i più venerabili comandanti achei, che fanno parte del consiglio, alla festa sacrificale. L'ordine in cui sono elencati non è del tutto casuale, anche se dipende in parte da considerazioni metriche. I nomi dei guerrieri anziani appaiono per primi: Nestore e Idomeneo, che Agamennone teneva in particolare considerazione (Nestore: Il. 21.370 ss., 4.311 ss.; Idomeneo: 4.255 ss.), poi il più forte e coraggioso, e infine il poeta menziona Odisseo "uguale a Zeus in astuzia", che evidentemente svolge qui il ruolo di un saggio consigliere, la controparte di Nestore nella generazione di Agamennone. Sulle funzioni sociali della festa nella tenda del capo nell'epica omerica, vedi Latcz 1990: 360; van Wees 1995: 164-177; Rundin 1996: 200-205. </p>
+                    <p>410-431: scena tipica - sacrificio di animali. I versi 2,421-424 e 2,427-432 ripetono esattamente i versi 1,458-461 e 1,464-469. </p>
+                    <p>410:	Esametro formulare (cfr. Il. 1.449), in cui il primo emistichio alla cesura (Il. 1.449a χερνίψαντο δ᾽ ἔπειτα) è sostituito dall'emistichio βοῦν δὲ περιστήσαντο.</p>
+                    <p>413-420: Agamennone eleva una preghiera a nome di tutti i capi riuniti nella sua tenda (cfr. la preghiera di Crise a nome di tutti quelli riuniti all'altare di Apollo Sminteo (Il. 1.450 ss.). Bibliografia: Aubriot-Sévin 1992: 68, 285-286; Cosset 1990: 5 e seguenti; Jouanna 1992: 411-412; Lang 1975: 309-314; Morrison 1991: 145-157.</p>
+                    <p>419-20: Questo singolo caso nell'Iliade, in cui il dio accetta il sacrificio ma non soddisfa la richiesta, è diventato oggetto di un commento di Aristarco che vuole togliere il sospetto di doppiezza a Zeus (schol. in Il. 2.420). L'interpretazione di Aristarco presuppone l'apparizione di qualche segno di buon auspicio che costituiva la base del giudizio degli indovini che il dio aveva accettato il sacrificio. Tuttavia, non si dovrebbe arrivare a tanto. Non ci sono indicazioni che la lettura di segni da parte degli indovini al momento del sacrificio fosse una pratica regolare nel mondo dell'epica, o che gli dei trasmettessero la loro risposta alle richieste contenute nella preghiera in un modo che fosse visibile e comprensibile agli umani. Sembra che si tratti di rimandare l'adempimento di una richiesta piuttosto che rifiutarla definitivamente. Dal punto di vista del tempo degli dei, l'unico che dà senso e ordine agli eventi, Zeus realizza il suo piano: accetta il sacrificio e la preghiera che lo accompagna, il che significa che Ettore morirà e Troia cadrà, ma se ne renderà conto a tempo debito (cfr. Il. 1.211-214 con note di: Vidal-Naquet 2003: 64-65). Il narratore, attraverso il dono delle Muse, ha accesso all'ordine temporale degli dei e presenta gli eventi da questa prospettiva. Su v. 419-20 vedi Kirk 1985: 160; Latcz XXXX: 126-127).</p>
+                    <p>419:	οὐδ᾽ ἄρα πώ οἱ ἐπεκραίαινε Κρονίων – "ma non ha ancora esaudito la sua richiesta alla Cronide"; il verbo ἐπικραίνω ricorre sei volte nell'Iliade (1.455, 2.419, 3.302, 8.242, 15.599, 16.238), sempre nel contesto di una richiesta rivolta a un dio (specificamente Zeus, tranne in 1.455, dove appare nella preghiera di Crise ad Apollo per porre fine alla peste). Appare tre volte nella narrazione principale, dove serve a sottolineare proletticamente il compimento della volontà di Zeus e il pegno dato a Teti. Qui e in 3.302 il narratore sottolinea che Zeus non ha "ancora" soddisfatto la richiesta. Nel primo caso, è una preghiera per la morte di Ettore e l'annientamento di Troia nel giorno a venire; nel secondo, è un giuramento che contiene una minaccia di annientamento per coloro che lo romperebbero. In entrambi i casi, il contenuto della preghiera/giuramento si realizzava, non immediatamente, ma nel futuro. Nel canto XV, il narratore afferma che Zeus vuole concedere la fama a Ettore affinché egli incendi le navi e possa soddisfare la richiesta di Teti.</p>
+                    <p>420: ἀλλ᾽ ὅ γε δέκτο μὲν ἱρά - 'sebbene accettasse i sacrifici'; come mostra il contesto, il sostantivo ἱρά, usato come complemento al verbo δέχεσθαι, 'accettare', denota un sacrificio, cioè un rito di sacrificio di sangue, di cui il segno di riverenza mostrato al dio è il fumo che sale al cielo dai femori bruciati e dal grasso peritoneale. Jean Casabona sottolinea che è difficile decidere in modo inequivocabile se questo si riferisce al rito sacrificale o ai doni sacrificali (offrandes) nella loro forma materiale (Casabona 1966: 7). La funzione prolettica della reazione del dio al sacrificio e alla preghiera che lo accompagna è sottolineata dal fatto che i versi che lo descrivono sono posti immediatamente dopo la preghiera.</p>
+                    <p>421-424: versi formulari = 1,458-461 con commento.</p>
+                    <p>425: καὶ τὰ μὲν ἂρ σχίζῃσιν ἀφύλλοισιν κατέκαιον - "poi su ceppi senza foglie bruciarono"; variante del verso formulare Il. 1.462-3: καῖε δ᾽ ἐπὶ σχίζῃς ὁ γέρων, ἐπὶ δ᾽ αἴθοπα οἶνον / λεῖβε. La differenza tra i due versi è legata alle circostanze del sacrificio e alla diversa focalizzazione della narrazione sui personaggi. Nel sacrificio Chryza, il poeta si concentra sul sacerdote Chryses, che presiede il rito del sacrificio; qui, introducendo il plurale, si sottolinea il carattere comunitario del sacrificio (cfr. Kirk, comm. ad loc.; Carlier 1984: 163). Nel primo caso, il poeta menziona il versamento del vino sulle fiamme di un falò acceso sull'altare; nel secondo, sottolinea il fatto dell'incendio delle cosce introducendo il pronome τὰ (scil. μηρία) e il verbo κατέκαιον, che, attraverso il suffisso κατά, sottolinea il compimento, l'incendio completo delle cosce. </p>
+                    <p>426:	σπλάγχνα δ᾽ ἄρ᾽ ἀμπείραντες ὑπείρεχον Ἡφαίστοιο - "E le interiora le hanno infilate negli spiedi e tenute sul fuoco di Efesto"; in una scena tipica del primo canto, il poeta non parla esplicitamente di abbrustolire le viscere sul fuoco - Crisi mentre il sacerdote versa il vino sul fuoco, i giovani tengono gli spiedi (1. 463). Qui, invece, è stato introdotto un verso che si concentra su due azioni espresse dai verbi corrispondenti: imbottire le viscere dell'animale sugli spiedi (ἀμπείραντες) e arrostirle sul fuoco (ὑπείρεχον). L'uso coerente del plurale sottolinea la natura comunitaria del rituale. </p>
+                    <p>427-432: versi formulari (= Il 1.464-469), vedi commento.</p>
+                    
+                </div>
+                <div type="textpart" n="Iliad_2.546–551  ">
+                    <head>Iliade 2.546–551  </head>
+                    <p>C'è una menzione di un sacrificio nel catalogo della nave - un'offerta a Eretteo sull'Acropoli ateniese. Il sito è comunemente ritenuto un'interpolazione ateniese dell'epoca della redazione del testo dell'Iliade sotto Pisistatus.</p>
+                    <quote>
+                        <lb/>Οἳ δ’ ἄρ’ Ἀθήνας εἶχον ἐϋκτίμενον πτολίεθρον					
+                        <lb/>δῆμον Ἐρεχθῆος μεγαλήτορος, ὅν ποτ’ Ἀθήνη 
+                        <lb/>θρέψε Διὸς θυγάτηρ, τέκε δὲ ζείδωρος ἄρουρα, 
+                        <lb/>κὰδ δ’ ἐν Ἀθήνῃς εἷσεν ἑῷ ἐν πίονι νηῷ·
+                        <lb n="550"/>ἔνθα δέ μιν ταύροισι καὶ ἀρνειοῖς ἱλάονται    					
+                        <lb/>κοῦροι Ἀθηναίων περιτελλομένων ἐνιαυτῶν· 
+                        <lb/>τῶν αὖθ’ ἡγεμόνευ’ υἱὸς Πετεῶο Μενεσθεύς.
+                    </quote>
+                    <quote>
+                        <lb/>E quelli che avevano la città di Atena saldamente costruita, 
+                        <lb/>il popolo di Eretteo il generoso, che una volta Atena
+                        <lb/>allevato, figlia di Zeus, e ha portato la terra di grano,
+                        <lb/>poi ha dato residenza nel suo ricco tempio,
+                        <lb n="550"/>dove con tori e montoni 
+                        <lb/>I giovani ateniesi nel corso degli anni.
+                        <lb/>Questi erano guidati dal figlio di Petheus, Menesteus.
+                    </quote>
+                    <p>546:	Ἐρεχθῆος – "Erechteus"; un mitico re di Atene, secondo la più antica tradizione il successore di Kecrops. Nell'epica omerica, nato dalla terra e cresciuto da Atena, era venerato nel tempio della dea, dove i giovani ateniesi gli offrivano annualmente sacrifici di montoni e buoi (probabilmente la festa di Skira o Genesia). Sull'Acropoli c'era l'Eretteo, solitamente identificato con il tempio di Atena Polias, dove Eretteo era originariamente venerato come Poseidone-Eretteo. Dalle riforme di Cleisto (508-507 a.C.) l'eroe eponimo di uno dei filatteri ateniesi. Nella tradizione successiva, riflessa nelle opere di Euripide tra gli altri, Eretteo era il figlio di Pandion e fratello gemello di Butes. Dopo la morte del padre, Eretteo assunse il trono reale, mentre Butes divenne un sacerdote di Atena. Erechteus era il padre di Prokris, Creusa e Orejtya. Come re di Atene, fu vittorioso in una guerra con la vicina Eleusi, che fu aiutata da Eumolpos, figlio di Poseidone. Prima della battaglia decisiva, Eretteo, seguendo il consiglio dell'oracolo, sacrificò la sua figlia più giovane, la cui morte rese possibile la vittoria. Le altre figlie di Eretteo si sono suicidate perché hanno fatto voto di morire tutte insieme. Eretteo fu ucciso da Poseidone, che si vendicò della morte di Eumolpos. La tradizione successiva sostiene che fu sollevato da Zeus e trasformato nella costellazione del cocchiere.</p>
+                    <p>549:	κὰδ δ' ἐν Ἀθήνῃς εἷσεν ἑῷ ἐν πίονι νηῷ - "poi diede un posto nel suo tempio opulento"; questo si riferisce al tempio di Atena Polias sull'acropoli ateniese, presso il quale era situato il cerchio sacro (heroon) di Eretteo, l'Erechtheion. Il tempio attuale fu costruito nell'ordine ionico 421-405 a.C. in marmo pentelico ed era un luogo di culto per Atena Polias, Poseidone, Zeus Hypatos, Eretteo, Efesto e l'heroos Butes, che comprendeva anche un'oliva sacra, una sorgente di acqua salata, la tomba di Kekrops - simboli religiosi associati alle origini leggendarie di Atene e alla disputa di Atena con Poseidone per il dominio dell'Attica. </p>
+                    <p>550-551: ταύροισι καὶ ἀρνειοῖς ἱλάονται / κοῦροι Ἀθηναίων περιτελλομένων ἐνιαυτῶν - "con tori e montoni vincono / i giovani ateniesi nel corso degli anni"; Il verbo ἱλάσκεσθαι, "propiziare" è un termine tecnico che denota vari tipi di riti propiziatori destinati a scongiurare gli effetti dell'ira della divinità. Spesso i mezzi di questi riti sono sacrifici di sangue (Il. 1.147; 444) o coreia, soprattutto pean (Il. 1.472). Anche qui la frase "tori e montoni" (ταύροισι καὶ ἀρνειοῖς) suggerisce sacrifici di sangue, e la parola 'giovani' come soggetto di queste attività forse implica la partecipazione a una danza corale collettiva.</p>
+                    
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>The second song of the Iliad covers the beginning of the events of the first day of the struggle recounted in the epic, that is, the 22nd day of the poem's plot, counting from the arrival of Chryses at the camp of the Achaeans. The Alexandrian division includes songs two through seven. Song II consists of two parts. In the first Zeus enacts his plan to honour Achilles by sending defeat to the Achaeans through the 'fatal' Dream, on the basis of which Agamemnon will decide to proceed to a final showdown with the besieged city; in the second the poet presents the audience with a catalogue of the Achaean ships that have arrived at Troy. Zeus sends a "fatal Dream" to Agamemnon's tent, who takes the form of Nestor and falsely informs him that Zeus and the gods agree on the fall of Troy that day. About the world Agamemnon calls a council and then an assembly of the Achaeans to issue a conclusive battle. When the battle has been decided, the poet moves on to the second part, in which he presents a catalogue of the ships and chiefs who have come to Troy. </p>
+                    <p>The animal sacrifice scene is introduced three times. The first time is in Odysseus' speech to the assembly, which recalls the sign given by Zeus during the hecatomb at Aulis interpreted by Kalchas as foreshadowing the fall of Troy. This external analepsis, which goes beyond the time of the story, at the same time foreshadows the events that will follow the time covered by the main story in the Iliad, concluding the plot about the Trojan War (prolepsis). The human inability to recognise the will of the god, ironically, leads Agamemnon, Nestor and Odysseus to recognise this day as the time of the fulfilment of a sign, although in fact this day will come in the future.  The second extract comes from the main narrative and is a typical scene. After the assembly is disbanded, the Achaeans proceed to offer animal sacrifices and a feast. The narrator focuses his attention on the sacrifice of an ox made by Agamemnon in the company of the members of the council, thus closing the ring structure of the whole episode, in keeping with the poet's intention - Agamemnon's prayer is not accepted by Zeus, although no sign warns the leader about the realisation of the god's disastrous plan. The third text is part of the so-called catalogue of ships, in which the poet describes the contingents of the Achaean army that arrived on ships under the command of the heroes mentioned by name.
+                    </p>
+                </div>
+                <div type="textpart" n="Iliad_2.299–322 ">
+                    <head>Iliad 2.299–322 </head>
+                    <p>Agamemnon, deceived by a dream sent by Zeus, calls an assembly of the Achaeans and presents a motion to end the siege of Troy and return to Hellada. He is followed by a speech from Odysseus, who calls for perseverance and recalls Kalchas' divination of the time when the army assembled at Aulis laid hecatomb on the altars. The scene of sacrifice recalled by Odysseus is important for several reasons: (1) it is not constructed from formulas characteristic of typical scenes, but focuses on the miraculous events accompanying the blood sacrifice; (2) the sign sent by the god is not directly related to the ritual of sacrifice, but accompanies it as independent events - Homer does not mention at all the signs of acceptance or rejection of the sacrifice appearing during the ritual activities, such as the behaviour of animals, the specific features of the entrails of the sacrifice, especially the liver, or the characteristic positioning of the tail during the burning on the altar; (3) the text was used in arguments concerning the history of the myth of Iphigenia's sacrifice. 
+                        Odysseus' evocation of the sacrifice in Aulis has a persuasive function: a series of unexpected events (the appearance of the serpent during the sacrifice - the devouring of the sparrows - the transformation of the serpent into stone), of increasing semioticity, was interpreted by Kalchas as an omen foreshadowing the conquest of Troy. 
+                    </p>
+                    <quote>
+                        <lb/>τλῆτε φίλοι, καὶ μείνατ᾽ ἐπὶ χρόνον ὄφρα δαῶμεν 
+                        <lb n="300"/>ἢ ἐτεὸν Κάλχας μαντεύεται ἦε καὶ οὐκί. 						
+                        <lb/> εὖ γὰρ δὴ τόδε ἴδμεν ἐνὶ φρεσίν, ἐστὲ δὲ πάντες 
+                        <lb/>μάρτυροι, οὓς μὴ κῆρες ἔβαν θανάτοιο φέρουσαι· 
+                        <lb/>χθιζά τε καὶ πρωΐζ᾽ ὅτ᾽ ἐς Αὐλίδα νῆες Ἀχαιῶν 
+                        <lb/>ἠγερέθοντο κακὰ Πριάμῳ καὶ Τρωσὶ φέρουσαι, 
+                        <lb n="305"/>     ἡμεῖς δ᾽ ἀμφὶ περὶ κρήνην ἱεροὺς κατὰ βωμοὺς 					
+                        <lb/>   ἕρδομεν ἀθανάτοισι τεληέσσας ἑκατόμβας 
+                        <lb/>        καλῇ ὑπὸ πλατανίστῳ ὅθεν ῥέεν ἀγλαὸν ὕδωρ· 
+                        <lb/>       ἔνθ᾽ ἐφάνη μέγα σῆμα· δράκων ἐπὶ νῶτα δαφοινὸς, 
+                        <lb/>       σμερδαλέος, τόν ῥ᾽ αὐτὸς  Ὀλύμπιος ἧκε φόως δέ, 
+                        <lb n="310"/>      βωμοῦ ὑπαΐξας πρός ῥα πλατάνιστον ὄρουσεν. 					
+                        <lb/>     ἔνθα δ᾽ ἔσαν στρουθοῖο νεοσσοί, νήπια τέκνα, 
+                        <lb/>     ὄζῳ ἐπ᾽ ἀκροτάτῳ πετάλοις ὑποπεπτηῶτες ὀκτώ, 
+                        <lb/>     ἀτὰρ μήτηρ ἐνάτη ἦν ἣ τέκε τέκνα· 
+                        <lb/>    ἔνθ᾽ ὅ γε τοὺς ἐλεεινὰ κατήσθιε τετριγῶτας· 
+                        <lb n="315"/>     μήτηρ δ᾽ ἀμφεποτᾶτο ὀδυρομένη φίλα τέκνα· 					
+                        <lb/>    τὴν δ᾽ ἐλελιξάμενος πτέρυγος λάβεν ἀμφιαχυῖαν. 
+                        <lb/>    αὐτὰρ ἐπεὶ κατὰ τέκνα φάγε στρουθοῖο καὶ αὐτήν, 
+                        <lb/>   τὸν μὲν ἀρίζηλον θῆκεν θεὸς ὅς περ ἔφηνε·  
+                        <lb/>   λᾶαν γάρ μιν ἔθηκε  Κρόνου πάϊς ἀγκυλομήτεω· 
+                        <lb n="320"/>   ἡμεῖς δ᾽ ἑσταότες θαυμάζομεν οἷον ἐτύχθη. 					
+                        <lb/>     ὡς οὖν δεινὰ πέλωρα θεῶν εἰσῆλθ᾽ ἑκατόμβας, 
+                        <lb/>   Κάλχας δ᾽ αὐτίκ᾽ ἔπειτα θεοπροπέων ἀγόρευε·  
+                        <lb/>        τίπτ’ ἄνεῳ ἐγένεσθε κάρη κομόωντες Ἀχαιοί; 
+                        <lb/>       ἡμῖν μὲν τόδ’ ἔφηνε τέρας μέγα μητίετα Ζεὺς		
+                        <lb/>          ὄψιμον ὀψιτέλεστον, ὅου κλέος οὔ ποτ’ ὀλεῖται.	
+                    </quote>
+                    <quote>
+                        <lb/> Endure, friends, and remain until we know,
+                        <lb/> whether or not Kalchas truly foretold.
+                        <lb n="300"/> For we know it well in our hearts - you are all 
+                        <lb/> witnesses, unless the death-bringing kers have come to you.
+                        <lb/> A few days have passed since the ships of the Achaeans
+                        <lb/> came bringing evil to Priam and the Trojans,
+                        <lb/> and we around the spring on the sacred altars
+                        <lb n="305"/> we sacrificed to the immortals perfect hecatombs, 
+                        <lb/> under the beautiful plane tree where the shining water flows,
+                        <lb/> when a great omen appeared. A snake with a blood-coloured back,
+                        <lb/> a frightening one, which the Olympian himself sent into the light,
+                        <lb/> fell out from under the altar and ran towards the plane tree.
+                        <lb n="310"/> And there were sparrows, little children, 
+                        <lb/> in a nest on high, hidden under the leaves,
+                        <lb/> there were eight of them, and the ninth mother who bore the children,
+                        <lb/> there the serpent devoured the deplorable, chirping,
+                        <lb/> the mother flew around, mourning her children:
+                        <lb n="315"/> her, as she circled around, writhing he seized her by the wing, 
+                        <lb/> after which, when he had eaten the children sparrows and the mother,
+                        <lb/> the god who had shown him before made him a visible sign - 
+                        <lb/> turned him into stone by the son of Kronos the cunning,
+                        <lb/> and we, standing around, marvelled at what had happened to us.
+                        <lb n="320"/> So this terrible monster from gods haunted hakatomby, 
+                        <lb/> Kalchas immediately announced his prophecy.
+                        <lb/> Why do you continue in silence, long-haired Achaeans?
+                        <lb/> This augury sign was revealed to us by the cunning Zeus, 
+                        <lb/> late to be fulfilled, whose fame shall never perish.
+                    </quote>
+                    <p>300: 	ἢ ἐτεὸν Κάλχας μαντεύεται ἦε καὶ οὐκί – "whether truly Kalchas foretold or not"; the question posed will be answered, according to the rules of ring composition, by Odysseus in verse 330.</p>
+                    <p>303: χθιζά τε καὶ πρωΐζ᾽ ὅτ᾽ - "a few days have passed since..."; the interpretation of the idiom χθιζά τε καὶ πρωΐζα is important for the placement of the recounted event in the chronology of the Trojan cycle, especially in view of its connection to the sacrifice of Iphigenia suggested by some scholars. In view of the importance of the sacrifice of Iphigenia for the fate of Agamemnon, the commander-in-chief of the Achaean armies, modern scholars have looked carefully at all possible allusions to this silent or unknown episode. The phrase χθιζά τε καὶ πρωΐζ᾽ ὅτε literally means 'yesterday and the day before' and is interpreted as an idiom. Its meaning here is the subject of controversy. Three translation proposals can be distinguished. Some scholars and translators believe that the phrase emphasizes the subjective feeling of the passage of time, "only just now", "as if recently", "it seems as if it were yesterday" (Kirk, comm. ad loc., cf. "yesterday - it seems - the day before yesterday" in the translation of I. Wieniawski, 'it seems like only yesterday' - Hitch 2009: 74). Indeed, in the later Greek we have the phrase πρώην τε καὶ χθές (e.g. Hdt. 2.53.1) denoting a subjective sense of 'recently'. In this way, the poet of the Iliad wished to express the power with which the episode recalled by Kalchas was recorded in the memory of the witnesses. The second interpretation relates the phrase to the time that elapsed between the arrival of the Achaean ships at Aulida and the events recounted by Odysseus, linking it directly to the verb ἠγερέθοντο, "the day after, or after two days, when the Achaean ships / to Aulida hastened" (translated by K. Jeżewska); Lehrs, Leaf, cf. BK, comm. ad loc. Odysseus would thus emphasize that the events took place at the beginning of the standstill of the Achaean army at Aulida, a day or two after the army had gathered there, which would definitely exclude the possibility of connecting the sacrifice invoked by Odysseus and the sacrifice of Iphigenia, but the syntax of the Greek sentence seems to exclude this interpretation. Fred Naiden links the event invoked by Odysseus to a prayer (omitted from the narrative but somehow obvious to the hearers) for favourable winds (2011: 115-116). A third interpretation has been proposed by Martin L. West, invoking the West Semitic phrase ina timāli šalši ūme (akk.), temôl šilšōm (Hebrew), literally 'yesterday and three days before', the sense of which is more general: 'in the past' (West 2008: 332). If indeed the Greek idiom is a general indication of events in the past, it is difficult to show that Odysseus is diplomatically silent about Iphigenia's sacrifice here.</p>
+                    <p>305-7: After assembling their armies at Aulida, the Achaeans circumambulate the altars of the gods, sacrificing to them in hecatombs. The passus is interesting for several reasons. First of all, it is one of the few places in the Iliad where we find a detailed description of the sacred site on which the rite is performed. It appears, however, not in the main narrative, but in the speech of the character Odysseus, who recalls the details in order to visualise for his listeners the memory of an event from long ago.</p>
+                    <p>305: ἡμεῖς δ᾽ ἀμφὶ περὶ κρήνην - "we while around the spring"; Greek sacred precincts and altars were often situated by springs, crypts, streams or rivers that provided the sacrificers with a source of ritual water, chernips, necessary for proper sacrifice. In the 2nd century AD, archaeological excavations at Aulida uncovered a spring sheltered by a tent-type structure built on a square plan; a staircase led to the deep pool from the north. </p>
+                    <p>306: ἕρδομεν ἀθανάτοισι τεληέσσας ἑκατόμβας - "we sacrificed to the immortals perfect hecatombs"; on the phrase ἔρδω + ἡκατόμβην, see commentary on Il. 1.315.</p>
+                    <p>307:	καλῇ ὑπὸ πλατανίστῳ ὅθεν ῥέεν ἀγλαὸν ὕδωρ - "under the beautiful plane tree where the shining water flows"; The spring or stream over which the plane tree grows is not unusual, so some scholars give this description the meaning of the topos of a perfect sacred place, a suitable setting for a perfect hecatomb (Kirk 1985, ad loc. , cf. Thesleff 1981). Writing in the second century AD. Pausanias mentions the remains of a tree trunk stored in the temple (9.19.7). The manager of the excavations at Aulida interpreted a small stone circle built into a break in the enclosure of the spring on the west side as the site where a plane tree grew in the classical period (and probably earlier) (ThesCRA, Moggi, Osanna 2010: 325-6). </p>
+                    <p>308:	ἔνθ᾽ ἐφάνη μέγα σῆμα – "when a great divining sign appeared"; the divining sign (σῆμα) is not directly related to the sacrificial ritual, but appears on the occasion of the sacrifice. The Homeric epic makes no mention of divination practices associated with the ritual process itself, which in later sources became an important component of the blood sacrifice. 	
+                        μέγα σῆμα, cf. τέρας v. 324. The adjective μέγα, literally 'great', is used here in the sense of 'significant', 'obvious', 'expressive'.
+                    </p>
+                    <p>321: ὡς οὖν δεινὰ πέλωρα θεῶν εἰσῆλθ᾽ ἑκατόμβας - "so such terrible omens of the gods haunted the hecatomb"; it is not known whether the Achaeans completed their sacrifices after the omens appeared. The verb εἰσῆλθε, which means "to haunt", "to interrupt", does not give a sure indication here.</p>
+                    <p>324: ἡμῖν μὲν τόδ' ἔφηνε τέρας μέγα μητίετα Ζεὺς - 'to us Zeus the counsellor revealed this great omen': the noun τέρας denotes any phenomenon outside the norm that can be interpreted as an omen sent by the gods, cf. Nenci 1957-1958; Pizzani 1997; Pizzani 2000, 528 ff. </p>
+                    
+                </div>
+                <div type="textpart" n="Iliad_2.398–430 ">
+                    <head>Iliad 2.398–430 </head>
+                    <p>Typical scene - animal sacrifice. In the second extended typical scene, the narrator focuses on the sacrifice made by Agamemnon, to which six of the most prominent chiefs were invited, as well as Menelaus, who, however, appeared without invitation, αὐτόματος. The narrator contrasts the offerings made in the various tents with those made by the chiefs: the former pray for personal gain - avoiding death in battle (v. 401), the latter for a common victory. It is also worth noting the different vocabulary in the two descriptions. The sacrifices offered by the army to the gods are framed by the general term (ἔρεζε) 'to perform a (sacrificial) rite', while the sacrifice offered by Agamemnon is specified by the verb (ἱερεύω), 'to perform the duty of a priest > to sacrifice > to kill an animal sacrificed to the gods'. On Agamemnon's prayer, see Chapot, Laurot 2001: 34-35 (G3). </p>
+                    <quote>
+                        <lb/>ἀνστάντες δ᾽ ὀρέοντο κεδασθέντες κατὰ νῆας, 					
+                        <lb/>κάπνισσάν τε κατὰ κλισίας, καὶ δεῖπνον ἕλοντο. 
+                        <lb n="400"/> ἄλλος δ᾽ ἄλλῳ ἔρεζε θεῶν αἰειγενετάων 						
+                        <lb/>  εὐχόμενος θάνατόν τε φυγεῖν καὶ μῶλον Ἄρηος.  
+                        <lb/>αὐτὰρ ὃ βοῦν ἱέρευσε ἄναξ ἀνδρῶν Ἀγαμέμνων 
+                        <lb/>  πίονα πενταέτηρον ὑπερμενέϊ  Κρονίωνι, 
+                        <lb/> κίκλησκεν δὲ γέροντας ἀριστῆας Παναχαιῶν, 
+                        <lb n="405"/> Νέστορα μὲν πρώτιστα καὶ Ἰδομενῆα ἄνακτα, 					
+                        <lb/>   αὐτὰρ ἔπειτ᾽  Αἴαντε δύω καὶ Τυδέος υἱόν, 
+                        <lb/>   ἕκτον δ᾽ αὖτ᾽  Ὀδυσῆα Διὶ μῆτιν ἀτάλαντον. 
+                        <lb/>    αὐτόματος δέ οἱ ἦλθε βοὴν ἀγαθὸς Μενέλαος· 
+                        <lb/>    ᾔδεε γὰρ κατὰ θυμὸν ἀδελφεὸν ὡς ἐπονεῖτο. 
+                        <lb n="410"/>    βοῦν δὲ περιστήσαντο καὶ οὐλοχύτας ἀνέλοντο·					
+                        <lb/>    τοῖσιν δ᾽ εὐχόμενος μετέφη κρείων Ἀγαμέμνων· 
+                        <lb/>    Ζεῦ κύδιστε μέγιστε κελαινεφὲς αἰθέρι ναίων 
+                        <lb/>     μὴ πρὶν ἐπ᾽ ἠέλιον δῦναι καὶ ἐπὶ κνέφας ἐλθεῖν 
+                        <lb/>       πρίν με κατὰ πρηνὲς βαλέειν Πριάμοιο μέλαθρον 
+                        <lb n="415"/>        αἰθαλόεν, πρῆσαι δὲ πυρὸς δηΐοιο θύρετρα,					
+                        <lb/>         Ἑκτόρεον δὲ χιτῶνα περὶ στήθεσσι δαΐξαι 
+                        <lb/>         χαλκῷ ῥωγαλέον· πολέες δ᾽ ἀμφ᾽ αὐτὸν ἑταῖροι 
+                        <lb/>           πρηνέες ἐν κονίῃσιν ὀδὰξ λαζοίατο γαῖαν.
+                        <lb/>          Ὣς ἔφατ᾽, οὐδ᾽ ἄρα πώ οἱ ἐπεκραίαινε Κρονίων, 
+                        <lb n="420"/>          ἀλλ᾽ ὅ γε δέκτο μὲν ἱρά, πόνον δ᾽ ἀμέγαρτον ὄφελλεν.	  			
+                        <lb/>          αὐτὰρ ἐπεί ῥ᾽ εὔξαντο καὶ οὐλοχύτας προβάλοντο, 
+                        <lb/>        αὐέρυσαν μὲν πρῶτα καὶ ἔσφαξαν καὶ ἔδειραν, 
+                        <lb/>        μηρούς τ᾽ ἐξέταμον κατά τε κνίσῃ ἐκάλυψαν 
+                        <lb/>        δίπτυχα ποιήσαντες, ἐπ᾽ αὐτῶν δ᾽ ὠμοθέτησαν. 
+                        <lb n="425"/>        καὶ τὰ μὲν ἂρ σχίζῃσιν ἀφύλλοισιν κατέκαιον, 				
+                        <lb/>         σπλάγχνα δ᾽ ἄρ᾽ ἀμπείραντες ὑπείρεχον  Ἡφαίστοιο. 
+                        <lb/>         αὐτὰρ ἐπεὶ κατὰ μῆρε κάη καὶ σπλάγχνα πάσαντο, 
+                        <lb/>         μίστυλλόν τ᾽ ἄρα τἆλλα καὶ ἀμφ᾽ ὀβελοῖσιν ἔπειραν, 
+                        <lb/>         ὤπτησάν τε περιφραδέως, ἐρύσαντό τε πάντα. 
+                        <lb n="430"/>         αὐτὰρ ἐπεὶ παύσαντο πόνου τετύκοντό τε δαῖτα 					
+                        <lb/>          δαίνυντ᾽, οὐδέ τι θυμὸς ἐδεύετο δαιτὸς ἐΐσης.  
+                        <lb/>          αὐτὰρ ἐπεὶ πόσιος καὶ ἐδητύος ἐξ ἔρον ἕντο, 
+                        <lb/>     τοῖς ἄρα μύθων ἦρχε  Γερήνιος ἱππότα Νέστωρ·  
+                    </quote>
+                    <quote>
+                        <lb/>So they arose and moved dispersing among the ships, 				
+                        <lb/> They covered their tents with smoke and ate a feast.
+                        <lb n="400"/> Each performed a sacrifice to another of the everlasting gods, 
+                        <lb/> praying to escape the death and hardship of Ares.  
+                        <lb/> Whereas the lord of men Agamemnon sacrificed an ox
+                        <lb/> a fat one, five years old for the mighty Cronides.
+                        <lb/> And he summoned the elders, the best leaders of all the Achaeans,
+                        <lb n="405"/> first Nestor and Idomeneus, the lord, 
+                        <lb/> then the two Achaeans and the son of Tydeus,
+                        <lb/> as sixth - Odysseus, equal to Zeus in cleverness.
+                        <lb/> And arbitrarily Menelaos came to him with a strong voice:
+                        <lb/> For he knew in his heart how his brother toiled.
+                        <lb n="410"/> They set themselves round about the ox, and cast barley crumbs, 
+                        <lb/> and praying for them the mighty Agamemnon spoke:
+                        <lb/> "Zeus superstitious, greatest, black-clouded, dwelling in the skies!
+                        <lb/> Let not the sun set and the dusk come,
+                        <lb/> Before I bring down the soot-covered soffit
+                        <lb/> Priam's house, and with hostile fire burn its gates, 
+                        <lb n="415"/> Before I tear Hector's breastplate 
+                        <lb/> before I tear the breastplate of Hector, and before his many companions
+                        <lb/> shall not gnaw the ground overthrown face down in the dust."
+                        <lb/> So he said, but he had not yet complied with his request of Kronid,
+                        <lb/> though he accepted the offerings, he multiplied the toil unbearably.
+                        <lb n="420"/> When they had prayed and thrown the sacrificial barley, 
+                        <lb/> first they deflected (the throats) and butchered and skinned,
+                        <lb/> they cut out the legs and covered them with fat (of the peritoneal membrane)
+                        <lb/> wrapping on both sides, on these they placed pieces of raw meat.
+                        <lb/> Then they burnt them on leafless logs,
+                        <lb n="425"/> And the entrails they stuffed on spits and held over the fire of Hephaestus.		
+                        <lb/> When the legs were burnt and they had tasted the entrails,
+                        <lb/> they chopped up the rest and stuffed them on spits,
+                        <lb/> They toasted it carefully, and then took it all down from the spits.
+                        <lb/> When they had rested after their toil, they prepared a feast,
+                        <lb/> they feasted, and nothing was missing from the heart of an equal feast.
+                    </quote>
+                    <p>398–9:	The Achaean troops rise and scatter from the rally to their ships. The participle κεδασθέντες, 'dispersed', and the phrases κατὰ νῆας, 'among the ships' and κατὰ κλισίας, 'in the tents' emphasise the disintegration of the community following the dissolution of the assembly. </p>
+                    <p>399: κάπνισ(σ)άν τε κατὰ κλισίας - "they covered the tents with smoke": the metonymic description of the preparation of the sacrificial meal precedes the statement that this refers to offerings to the gods (v. 400). The verb καπνί(ζ)ω (from καπνός, 'smoke', Homeric hapax) actually means 'to smoke', 'to cover with smoke'; here it is probably used in the metonymic sense of 'they smoked > cooked' (LfgrE, s.v.). The form κάπνισαν transmitted by papyri and medieval manuscripts is argued for by M.L. West ('Glotta' 2001, pp. 124-5).  Cf. the variant of this hexameter in Il. 7.466: βουφόνεον δὲ κατὰ κλισίας καὶ δόρπον ἕλοντο (see comm. ad loc.).
+                        καὶ δεῖπνον ἕλοντο - "and they ate a meal"; in the epic the word δεῖπνον denotes a basic meal regardless of the time of day at which it was eaten. In Il. 10.578 it is the third meal that Odysseus eats in one night. In Aeschylus (frg. 304) δεῖπνον takes its place between breakfast (ἄρίστον) and dinner (δόρπον). In this case it is the midday meal, since the sacrifices were offered after the close of the assembly convened as a result of the deliberation in Agamemnon's tent that took place in the morning.
+                    </p>
+                    <p>400:	ἄλλος δ᾽ ἄλλῳ ἔρεζε θεῶν αἰειγενετάων – The Achaean troops rise and scatter from the rally to their ships. The participle κεδασθέντες, 'dispersed', and the phrases κατὰ νῆας, 'among the ships' and κατὰ κλισίας, 'in the tents' emphasise the disintegration of the community following the dissolution of the assembly. </p>
+                    <p>399: κάπνισ(σ)άν τε κατὰ κλισίας - "they covered the tents with smoke": the metonymic description of the preparation of the sacrificial meal precedes the statement that this refers to offerings to the gods (v. 400). The verb καπνί(ζ)ω (from καπνός, 'smoke', Homeric hapax) actually means 'to smoke', 'to cover with smoke'; here it is probably used in the metonymic sense of 'they smoked > cooked' (LfgrE, s.v.). The form κάπνισαν transmitted by papyri and medieval manuscripts is argued for by M.L. West ('Glotta' 2001, pp. 124-5).  Cf. the variant of this hexameter in Il. 7.466: βουφόνεον δὲ κατὰ κλισίας καὶ δόρπον ἕλοντο (see comm. ad loc.).
+                        καὶ δεῖπνον ἕλοντο - "and they ate a meal"; in the epic the word δεῖπνον denotes a basic meal regardless of the time of day at which it was eaten. In Il. 10.578 it is the third meal that Odysseus eats in one night. In Aeschylus (frg. 304) δεῖπνον takes its place between breakfast (ἄρίστον) and dinner (δόρπον). In this case it is the midday meal, since the sacrifices were offered after the close of the assembly convened as a result of the deliberation in Agamemnon's tent that took place in the morning.
+                        
+                    </p>
+                    <p>403:	βοῦν… πίονα πενταέτηρον – "an ox ... fat, five years old": = Il. 7.315. The epithet πενταέτηρον indicates the age of the animal chosen for the king's feast. In the case of the ox it emphasises its value, so it is not surprising that it appears twice in the Iliad in the context of the animals killed in Agamemnon's tent. In Il. 7.315 the scene of a typical animal sacrifice is shortened by the description of sacrificial rites so that one gets the impression that the verb here means the slaughter of an animal for a meal. In the Odyssey, the epithet πενταέτηρον was probably used jocularly to refer to the hog slaughtered for supper for Odysseus by the pig-herder Eumaios (14.419) and to the feast prepared by Autolycus in honour of his grandson, Odysseus (19. 420), which essentially repeats the formulaic verses used to describe Agamemnon's feast in Il. 7.315. In later sources, the age of the animal is one of the distinguishing features taken into account when choosing the appropriate type of sacrifice.</p>
+                    <p>404-9: Agamemnon convenes the most venerable Achaean commanders, who form part of the council, to the sacrificial feast. The order in which they are listed is not entirely coincidental, although it depends in part on metrical considerations. The names of the aged warriors appear first: Nestor and Idomeneus, whom Agamemnon held in special esteem (Nestor: Il. 21.370 ff., 4.311 ff.; Idomeneus: 4.255 ff.), then the strongest and bravest, and finally the poet mentions Odysseus 'equal to Zeus in cunning', who evidently plays here the role of a wise advisor, the counterpart of Nestor in Agamemnon's generation. On the social functions of the feast in the chief's tent in the Homeric epic, see Latcz 1990: 360; van Wees 1995: 164-177; Rundin 1996: 200-205. </p>
+                    <p>410-431: typical scene - animal sacrifice. Verses 2.421-424 and 2.427-432 exactly repeat verses 1.458-461 and 1.464-469. </p>
+                    <p>410:	Formular hexameter (cf. Il. 1.449), in which the first hemistich to the caesura (Il. 1.449a χερνίψαντο δ᾽ ἔπειτα) is replaced by the hemistich βοῦν δὲ περιστήσαντο.</p>
+                    <p>413-420: Agamemnon raises a prayer on behalf of all the chiefs gathered in his tent (cf. Chryses' prayer on behalf of all those gathered at the altar of Apollo Sminteus (Il. 1.450 ff.). Bibliography: Aubriot-Sévin 1992: 68, 285-286; Cosset 1990: 5 ff; Jouanna 1992: 411-412; Lang 1975: 309-314; Morrison 1991: 145-157.</p>
+                    <p>419–20: This single instance in the Iliad, in which the god accepts the sacrifice but does not comply with the request, became the subject of a comment by Aristarchus wishing to remove from Zeus the suspicion of duplicity (schol. in Il. 2.420). Aristarchus' interpretation presupposes the appearance of some auspicious sign that formed the basis of the soothsayers' judgment that the god had accepted the sacrifice. However, one should not go that far. There is no indication that the reading of signs by the soothsayers at the time of the sacrifice was a regular practice in the world of the epic, or that the gods communicated their response to the requests contained in the prayer in a way that was visible and understandable to humans. It seems to be a matter of postponing the fulfilment of a request rather than ultimately rejecting it. From the point of view of the time of the gods, the only one that gives events meaning and order, Zeus carries out his plan: he accepts the sacrifice and the accompanying prayer, which means that Hector will die and Troy will fall, but he will realise this in due course (cf. Il. 1.211-214 with notes from: Vidal-Naquet 2003: 64-65). The narrator, through the gift of the Muses, has access to the time order of the gods and presents events from this perspective. On v. 419-20 see Kirk 1985: 160; Latcz XXXX: 126-127).</p>
+                    <p>419: οὐδ᾽ ἄρα πώ οἱ ἐπεκραίαινε Κρονίων - 'but he has not yet fulfilled his request of Kronid'; the verb ἐπικραίνω occurs six times in the Iliad (1. 455, 2.419, 3.302, 8.242, 15.599, 16.238), always in the context of a request addressed to a god (specifically Zeus, except in 1.455, where it appears in Chryses' prayer to Apollo to end the plague). It appears three times in the main narrative, where it serves to proleptically emphasise the fulfilment of Zeus' will and the pledge given to Thetis. Here and in 3.302 the narrator emphasises that Zeus has 'not yet' fulfilled the request. In the first case, it is a prayer for the death of Hector and the annihilation of Troy in the coming day; in the second, it is an oath containing a threat of annihilation to those who would break it. In both cases, the content of the prayer/oath was fulfilled, not immediately, but in the future. In song XV, the narrator states that Zeus wants to bestow fame on Hector so that he will set the ships afire and can fulfil Thetis' request.</p>
+                    <p>420: ἀλλ᾽ ὅ γε δέκτο μὲν ἱρά - 'though he accepted the sacrifices'; as the context shows, the noun ἱρά, used as a complement to the verb δέχεσθαι, 'to accept', denotes a sacrifice, i.e. a rite of blood sacrifice, of which the sign of reverence shown to the god is the smoke rising to heaven from burnt femurs and peritoneal fat. Jean Casabona stresses that it is difficult to decide unequivocally whether this refers to the sacrificial ritual or to the sacrificial gifts (offrandes) in their material form (Casabona 1966: 7). The proleptic function of the god's reaction to the sacrifice and the accompanying prayer is underlined by the fact that the verses describing it are placed immediately after the prayer.</p>
+                    <p>421-424: formular verses = 1.458-461 with commentary.</p>
+                    <p>425: καὶ τὰ μὲν ἂρ σχίζῃσιν ἀφύλλοισιν κατέκαιον - "then on leafless stumps they burned"; variant of the formular verse Il. 1.462-3: καῖε δ᾽ ἐπὶ σχίζῃς ὁ γέρων, ἐπὶ δ᾽ αἴθοπα οἶνον / λεῖβε. The difference between the two verses is related to the circumstances of the sacrifice and the different focus of the narrative on the characters. In the Chryza sacrifice, the poet focuses on the priest Chryses, who presides over the rite of sacrifice; here, by introducing the plural, the communal character of the sacrifice is emphasised (cf. Kirk, comm. ad loc.; Carlier 1984: 163). In the first case, the poet mentions the pouring of wine on the flames of a bonfire lit on the altar; in the second, he emphasises the fact of the burning of the thighbones by introducing the pronoun τὰ (scil. μηρία) and the verb κατέκαιον, which, through the suffix κατά, emphasises the fulfilment, the complete burning of the thighbones. </p>
+                    <p>426:	σπλάγχνα δ᾽ ἄρ᾽ ἀμπείραντες ὑπείρεχον Ἡφαίστοιο - "And the entrails they stuffed on spits and held over the fire of Hephaestus"; in a scene typical of the first song, the poet does not explicitly speak of toasting entrails over the fire - Chryses as the priest pours wine on the fire, the young men hold spits (1. 463). Here, on the other hand, a verse has been introduced that focuses on two actions expressed by the corresponding verbs: stuffing the animal's viscera on spits (ἀμπείραντες) and roasting them over the fire (ὑπείρεχον). The consistent use of the plural emphasises the communal nature of the ritual. </p>
+                    <p>427-432: formular verses (= Il 1.464-469), see commentary.</p>
+                    
+                </div>
+                <div type="textpart" n="Iliad_2.546–551  ">
+                    <head>Iliad 2.546–551  </head>
+                    <p>There is one mention of a sacrifice in the ship's catalogue - an offering to Erechteus on the Athenian Acropolis. The site is commonly thought to be an Athenian interpolation from the time of the redaction of the Iliad text under Pisistatus.</p>
+                    <quote>
+                        <lb/>Οἳ δ’ ἄρ’ Ἀθήνας εἶχον ἐϋκτίμενον πτολίεθρον					
+                        <lb/>δῆμον Ἐρεχθῆος μεγαλήτορος, ὅν ποτ’ Ἀθήνη 
+                        <lb/>θρέψε Διὸς θυγάτηρ, τέκε δὲ ζείδωρος ἄρουρα, 
+                        <lb/>κὰδ δ’ ἐν Ἀθήνῃς εἷσεν ἑῷ ἐν πίονι νηῷ·
+                        <lb n="550"/>ἔνθα δέ μιν ταύροισι καὶ ἀρνειοῖς ἱλάονται    					
+                        <lb/>κοῦροι Ἀθηναίων περιτελλομένων ἐνιαυτῶν· 
+                        <lb/>τῶν αὖθ’ ἡγεμόνευ’ υἱὸς Πετεῶο Μενεσθεύς.
+                    </quote>
+                    <quote>
+                        <lb/>And those who had Athena's city firmly built, 
+                        <lb/>the people of Erechteus the generous, whom Athena once
+                        <lb/>bred, daughter of Zeus, and bore the wheat soil,
+                        <lb/>then gave residence in her rich temple,
+                        <lb n="550"/>where with bulls and rams they win him 
+                        <lb/>the Athenian youths in the course of years.
+                        <lb/>These were led by the son of Petheus, Menesteus.
+                    </quote>
+                    <p>546: Ἐρεχθῆος - "Erechteus"; a mythical king of Athens, according to the oldest tradition the successor of Kecrops. In the Homeric epic, born of the earth and raised by Athena, he was worshipped in the temple of the goddess, where the Athenian youth offered him annual sacrifices of rams and oxen (probably the festival of Skira or Genesia). On the Acropolis was the Erechtheion, usually identified with the temple of Athena Polias, where Erechtheus was originally worshipped as Poseidon-Erechtheus. Since the reforms of Cleisthenes (508-507 BC) the eponymous heros of one of the Athenian phylacteries. In later tradition, reflected in the works of Euripides among others, Erechteus was the son of Pandion and twin brother of Butes. After his father's death, Erechteus assumed the royal throne and Butes became a priest of Athena. Erechteus was the father of Prokris, Creusa and Orejtya. As king of Athens, he was victorious in a war with neighbouring Eleusis, which was aided by Poseidon's son Eumolpos. Before the decisive battle, Erechteus, following the advice of the oracle, sacrificed his youngest daughter, whose death made victory possible. The other daughters of Erechteus committed suicide because they vowed to die all together. Erechteus was killed by Poseidon, who took revenge for the death of Eumolpos. Later tradition holds that he was lifted up by Zeus and turned into the constellation of the coachman.</p>
+                    <p>549:	κὰδ δ' ἐν Ἀθήνῃς εἷσεν ἑῷ ἐν πίονι νηῷ - "afterwards she gave a seat in her opulent temple"; this refers to the temple of Athena Polias on the Athenian acropolis, at which was located the sacred circle (heroon) of Erechtheus - the Erechtheion. The current temple was built in the Ionic order 421-405 BC of Pentelic marble and was a place of worship for Athena Polias, Poseidon, Zeus Hypatos, Erechtheus, Hephaestus and the heroos Butes, which also included a sacred olive, a salt water spring, the tomb of Kekrops - religious symbols associated with the legendary origins of Athens and Athena's dispute with Poseidon over the dominion of Attica. </p>
+                    <p>550-551: ταύροισι καὶ ἀρνειοῖς ἱλάονται / κοῦροι Ἀθηναίων περιτελλομένων ἐνιαυτῶν - "with bulls and rams they win / Athenian youths in the course of years"; The verb ἱλάσκεσθαι, "to propitiate" is a technical term that denotes various kinds of propitiatory rituals designed to avert the effects of the deity's wrath. Often the means of these rites are blood sacrifices (Il. 1.147; 444) or choreia, especially pean (Il. 1.472). Here too the phrase "bulls and rams" (ταύροισι καὶ ἀρνειοῖς) suggests blood sacrifices, and the word 'youths' as the subject of these activities perhaps implies participation in a collective choral dance.</p>
+                    
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="pl">
+                <div type="textpart" n="intro">
+                    <p>Druga pieśń Iliady obejmuje początek wydarzeń pierwszego dnia zmagań opowiedzianych w eposie, czyli 22-ego dnia fabuły poematu, licząc od przybycia Chryzesa do obozu Achajów. W aleksandryjskim podziale obejmują pieśni od drugiej do siódmej. Pieśń II składa się z dwóch części. W pierwszej Zeus wciela swój plan uczczenia Achillesa poprzez zesłanie klęski na Achajów za sprawą „zgubnego” Snu, na podstawie którego Agamemnon postanowi o przystąpieniu do ostatecznej rozprawy z oblężonym miastem, w drugiej poeta przedstawia słuchaczom katalog achajskich okrętów, które przybyły pod Troję. Zeus posyła do namiotu Agamemnona „zgubny Sen”, który przybiera postać Nestora i fałszywie powiadamia, że Zeus i bogowie zgadzają się na upadek Troi tego dnia. O świecie Agamemnon zwołuje radę, a następnie zgromadzenie Achajów, aby wydać rozstrzygającą bitwę. Gdy walka została postanowiona, poeta przechodzi do drugiej części, w której przedstawia katalog okrętów i wodzów, którzy przybyli pod Troję. </p>
+                    <p>Scena ofiary zwierzęcej zostaje wprowadzona trzykrotnie. Za pierwszym razem w mowie Odyseusza wygłoszonej na zgromadzeniu, który przywołuje znak dany przez Zeusa podczas składania hekatomby w Aulidzie zinterpretowany przez Kalchasa jako zapowiedź upadku Troi. Ta zewnętrzna analepsa, wykraczająca poza czas opowiadania, zapowiada jednocześni wydarzenia, które nastąpią po czasie objętym głównym opowiadaniem w Iliadzie, kończących fabułę o wojnie trojańskiej (prolepsis). Ludzka nieumiejętność rozpoznawania woli boga, ironicznie, skłania Agamemnona, Nestora i Odyseusza do rozpoznania tego dnia, jako czasu spełnienia się znaku, chociaż w istocie dzień ten nadejdzie w przyszłości.  Drugi wyimek pochodzi z narracji głównej i stanowi scenę typową. Po rozwiązaniu zgromadzenia Achajowie przystępują do składania ofiar zwierzęcych i uczty. Narrator skupia uwagę na ofiarze z wołu złożonej przez Agamemnona w towarzystwie członków rady, zamykając w ten sposób strukturę pierścieniową całego epizodu, wpisuje się w zamysł poety – modlitwa Agamemnona nie zostaje przyjęta przez Zeusa, chociaż żaden znak nie ostrzega wodza przed ziszczaniem się zgubnego planu boga. Trzeci tekst jest częścią tzw. katalogu okrętów, w którym poeta opisuje kontyngenty wojsk achajskich przybyłe na okrętach pod dowództwem wymienionych z imienia herosów.
+                    </p>
+                </div>
+                <div type="textpart" n="Iliad_2.299–322 ">
+                    <head>Iliada 2.299–322 </head>
+                    <p>Agamemnon, zwiedziony snem zesłanym przez Zeusa, zwołuje zgromadzenie Achajów i przedstawia wniosek o zakończenie oblężenia Troi i powrót do Hellady. Po nim przemawia Odyseusz, który wzywa do wytrwałości i przypomina wróżbę Kalchasa z czasu, gdy wojsko zgromadzone w Aulidzie składało hekatomby na ołtarzach. Przywołana przez Odyseusza scena ofiary ważna jest z kilku względów: (1) nie została zbudowana z formuł charakterystycznych dla scen typowych, lecz skupia się na wydarzeniach cudownych towarzyszących ofierze krwawej; (2) znak zesłany przez boga nie wiąże się bezpośrednio z rytuałem ofiary, lecz towarzyszy mu jako niezależne wydarzenia – Homer w ogóle nie wspomina o znakach przyjęcia, bądź odrzucenia ofiary pojawiających się w trakcie czynności obrzędowych, jak zachowanie zwierząt, specyficzne cechy wnętrzności ofiary, zwłaszcza wątroby, czy charakterystyczne ułożenie się ogona podczas spalania na ołtarzu; (3) tekst był wykorzystywany w argumentacji dotyczącej historii mitu o ofierze Ifigenii. 
+                        Przywołanie ofiary w Aulidzie przez Odyseusza ma funkcję perswazyjną: seria niespodziewanych zdarzeń (pojawienie się węża podczas ofiary – pożarcie wróbli – przemiana węża w kamień), o wzrastającej semiotyczności, została zinterpretowana przez Kalchasa jako znak wróżebny zapowiadający zdobycie Troi. 
+                    </p>
+                    <quote>
+                        <lb/>τλῆτε φίλοι, καὶ μείνατ᾽ ἐπὶ χρόνον ὄφρα δαῶμεν 
+                        <lb n="300"/>ἢ ἐτεὸν Κάλχας μαντεύεται ἦε καὶ οὐκί. 						
+                        <lb/> εὖ γὰρ δὴ τόδε ἴδμεν ἐνὶ φρεσίν, ἐστὲ δὲ πάντες 
+                        <lb/>μάρτυροι, οὓς μὴ κῆρες ἔβαν θανάτοιο φέρουσαι· 
+                        <lb/>χθιζά τε καὶ πρωΐζ᾽ ὅτ᾽ ἐς Αὐλίδα νῆες Ἀχαιῶν 
+                        <lb/>ἠγερέθοντο κακὰ Πριάμῳ καὶ Τρωσὶ φέρουσαι, 
+                        <lb n="305"/>     ἡμεῖς δ᾽ ἀμφὶ περὶ κρήνην ἱεροὺς κατὰ βωμοὺς 					
+                        <lb/>   ἕρδομεν ἀθανάτοισι τεληέσσας ἑκατόμβας 
+                        <lb/>        καλῇ ὑπὸ πλατανίστῳ ὅθεν ῥέεν ἀγλαὸν ὕδωρ· 
+                        <lb/>       ἔνθ᾽ ἐφάνη μέγα σῆμα· δράκων ἐπὶ νῶτα δαφοινὸς, 
+                        <lb/>       σμερδαλέος, τόν ῥ᾽ αὐτὸς  Ὀλύμπιος ἧκε φόως δέ, 
+                        <lb n="310"/>      βωμοῦ ὑπαΐξας πρός ῥα πλατάνιστον ὄρουσεν. 					
+                        <lb/>     ἔνθα δ᾽ ἔσαν στρουθοῖο νεοσσοί, νήπια τέκνα, 
+                        <lb/>     ὄζῳ ἐπ᾽ ἀκροτάτῳ πετάλοις ὑποπεπτηῶτες ὀκτώ, 
+                        <lb/>     ἀτὰρ μήτηρ ἐνάτη ἦν ἣ τέκε τέκνα· 
+                        <lb/>    ἔνθ᾽ ὅ γε τοὺς ἐλεεινὰ κατήσθιε τετριγῶτας· 
+                        <lb n="315"/>     μήτηρ δ᾽ ἀμφεποτᾶτο ὀδυρομένη φίλα τέκνα· 					
+                        <lb/>    τὴν δ᾽ ἐλελιξάμενος πτέρυγος λάβεν ἀμφιαχυῖαν. 
+                        <lb/>    αὐτὰρ ἐπεὶ κατὰ τέκνα φάγε στρουθοῖο καὶ αὐτήν, 
+                        <lb/>   τὸν μὲν ἀρίζηλον θῆκεν θεὸς ὅς περ ἔφηνε·  
+                        <lb/>   λᾶαν γάρ μιν ἔθηκε  Κρόνου πάϊς ἀγκυλομήτεω· 
+                        <lb n="320"/>   ἡμεῖς δ᾽ ἑσταότες θαυμάζομεν οἷον ἐτύχθη. 					
+                        <lb/>     ὡς οὖν δεινὰ πέλωρα θεῶν εἰσῆλθ᾽ ἑκατόμβας, 
+                        <lb/>   Κάλχας δ᾽ αὐτίκ᾽ ἔπειτα θεοπροπέων ἀγόρευε·  
+                        <lb/>        τίπτ’ ἄνεῳ ἐγένεσθε κάρη κομόωντες Ἀχαιοί; 
+                        <lb/>       ἡμῖν μὲν τόδ’ ἔφηνε τέρας μέγα μητίετα Ζεὺς		
+                        <lb/>          ὄψιμον ὀψιτέλεστον, ὅου κλέος οὔ ποτ’ ὀλεῖται.	
+                    </quote>
+                    <quote>
+                        <lb/> Wytrzymajcie, przyjaciele, i pozostańcie do czasu aż się dowiemy,
+                        <lb/>     czy prawdziwie Kalchas wróżył, czy też nie.
+                        <lb n="300"/>      Dobrze to bowiem wiemy w swych sercach – wszyscy jesteście			
+                        <lb/>      świadkami, o ile nie przybyły do was kery śmierć niosące.
+                        <lb/>      Kilka dni upłynęło od czasu gdy do Aulidy okręty Achajów
+                        <lb/>     przybyły przynosząc zło Priamowi i Trojanom,
+                        <lb/>       my zaś wokół  źródła na świętych ołtarzach
+                        <lb n="305"/>       składaliśmy nieśmiertelnym doskonałe hekatomby,					
+                        <lb/>       pod pięknym platanem, gdzie płynie błyszcząca woda,
+                        <lb/>      gdy ukazał się wielki znak wróżebny. Wąż o krwistym grzbiecie,
+                        <lb/>      zatrważający, którego sam Olimpijczyk na światło posłał,
+                        <lb/>      wypadł spod ołtarza i pomknął w stronę platanu.
+                        <lb n="310"/>       Tam zaś były wróbla pisklęta, maleńkie dzieci,					
+                        <lb/>             w gnieździe na wysokości, pod liśćmi ukryte,
+                        <lb/>       osiem ich było, a dziewiąta matka, która dzieci zrodziła,
+                        <lb/>       tam ów wąż pożarł godne pożałowania, ćwierkające,
+                        <lb/>     matka wkoło latała, opłakując swe dzieci:
+                        <lb n="315"/>         ją to, gdy wokół krążyła, wijąc się chwycił za skrzydło,				
+                        <lb/>          po czym, gdy zjadł dzieci wróbelki i matkę,
+                        <lb/>          bóg, który ukazał go wcześniej, sprawił, że stał się widzialnym znakiem – 
+                        <lb/>            przemienił go w kamień syn Kronosa przebiegłego,
+                        <lb/>            my zaś, ustawieni wokół, dziwiliśmy się temu, co nam się trafiło.
+                        <lb n="320"/>            Tak to straszny potwór od bogów nawiedził hakatomby, 				
+                        <lb/>            Kalchas natychmiast ogłosił swoją przepowiednię.
+                        <lb/>          Dlaczego w milczeniu trwacie, długowłosi Achajowie?
+                        <lb/>       Ten oto znak wróżebny objawił nam przemyślny Zeus, 
+                        <lb/>      późno się spełniający, którego sława nigdy nie zginie.
+                    </quote>
+                    <p>300: 	ἢ ἐτεὸν Κάλχας μαντεύεται ἦε καὶ οὐκί – „czy prawdziwie Kalchas wróżył, czy też nie”; na postawione pytanie Odyseusz odpowie, zgodnie z zasadami kompozycji pierścieniowej, w wersie 330. </p>
+                    <p>303: χθιζά τε καὶ πρωΐζ᾽ ὅτ᾽ – „kilka dni upłynęło od czasu gdy…”; interpretacja idiomu χθιζά τε καὶ πρωΐζα jest ważna dla umiejscowienia opowiedzianego zdarzenia w chronologii cyklu trojańskiego, zwłaszcza wobec sugerowanego przez niektórych badaczy jego związku z ofiarą z Ifigenii. W związku ze znaczeniem ofiary z Ifigenii dla losów głównodowodzącego wojskami achajskimi Agamemnona, badacze nowożytni uważnie przyglądają się wszelkim możliwym aluzjom do tego przemilczanego lub nieznanego epizodu. Zwrot χθιζά τε καὶ πρωΐζ᾽ ὅτε oznacza dosłownie „wczoraj i jeszcze dzień wcześniej” i jest interpretowany jako idiom. Jego znaczenie w tym miejscu jest przedmiotem kontrowersji. Można wyróżnić trzy propozycje tłumaczenia. Część badaczy i tłumaczy uważa, że zwrot podkreśla subiektywne odczucie biegu czasu, „dopiero co”, „jakby niedawno”, „wydaje się, jakby to było wczoraj” (Kirk, comm. ad loc., por. „wczoraj – zda się – przedwczoraj” w tłumaczeniu I. Wieniawskiego, „it seems like only yesterday” – Hitch 2009: 74). Istotnie w późniejszej grece mamy zwrot πρώην τε καὶ χθές (np. Hdt. 2.53.1) oznaczający subiektywne poczucie „niedawno”. W ten sposób poeta Iliady chciał wyrazić moc, z jakim przywołany przez Kalchasa epizod zapisał się w pamięci świadków. Druga interpretacja odnosi zwrot do czasu, który upłynął od przypłynięcia okrętów Achajów do Aulidy, a zdarzeniami opowiedzianymi przez Odyseusza, łącząc go bezpośrednio z czasownikiem ἠγερέθοντο, „dnia następnego, czy po dwóch dniach, gdy okręty Achajów / do Aulidy śpieszyły” (tłum. K. Jeżewska); Lehrs, Leaf, por. BK, comm. ad loc. Odyseusz podkreślałby w ten sposób, że wydarzenia miały miejsce na początku postoju wojsk achajskich w Aulidzie, dzień albo dwa po zgromadzeniu się wojsk w tym miejscu, co w zdecydowany sposób wykluczałoby możliwość połączenia ofiary przywołanej przez Odyseusza, a ofiarą z Ifigenii, jednak składnia zdania greckiego zdaje się tę interpretację wykluczać. Fred Naiden łączy zdarzenie przywołane przez Odyseusza z modlitwą (pominiętą w narracji, ale w jakiś sposób oczywistą dla słuchaczy) o przychylne wiatry (2011: 115–116). Trzecią interpretację zaproponował Martin L. West, przywołując zachodniosemicki zwrot ina timāli šalši ūme (akk.), temôl šilšōm (hebr.), dosł. „wczoraj i trzy dni wcześniej”, którego sens jest bardziej ogólny: „w przeszłości” (West 2008: 332). Jeśli istotnie grecki idiom jest ogólnym wskazaniem na wydarzenia w przeszłości, trudno wykazać, że Odyseusz dyplomatycznie przemilcza w tym miejscu ofiarę z Ifigenii.</p>
+                    <p>305–7: Po zgromadzeniu wojsk w Aulidzie Achajowie obchodzą ołtarze bogów, składając im w ofierze hekatomby. Passus jest interesujący z kilku powodów. Przede wszystkim jest to jedno z niewielu miejsc w Iliadzie, w którym znajdujemy szczegółowy opis miejsca świętego, na którym dokonuje się obrzęd. Pojawia się jednak nie w głównej narracji, lecz wypowiedzi postaci Odyseusza, który przywołuje szczegóły, aby unaocznić słuchaczom wspomnienie zdarzenia sprzed lat.</p>
+                    <p>305:	ἡμεῖς δ᾽ ἀμφὶ περὶ κρήνην – „my zaś wokół źródła”; greckie okręgi święte i ołtarze często były usytuowane przy źródłach, krynicach, strumieniach lub rzekach, które zapewniały ofiarnikom źródło wody rytualnej, chernips, niezbędnej do prawidłowego złożenia ofiary. W II w. n.e. wykopaliska archeologiczne w Aulidzie odsłoniły źródło osłonięte budowlą typu namiotowego wzniesioną na planie kwadratu; do głębokiego basenu prowadziły od strony północnej schody. </p>
+                    <p>306:	ἕρδομεν ἀθανάτοισι τεληέσσας ἑκατόμβας – „składaliśmy nieśmiertelnym doskonałe hekatomby”; na temat zwrotu ἔρδω + ἡκατόμβην, zob. komentarz do Il. 1.315.</p>
+                    <p>307:	καλῇ ὑπὸ πλατανίστῳ ὅθεν ῥέεν ἀγλαὸν ὕδωρ – „pod pięknym platanem, gdzie płynie błyszcząca woda”; źródło lub strumień, nad którym rośnie platan nie jest niczym nadzwyczajnym, dlatego niektórzy badacze nadają temu opisowi znaczenie toposu doskonałego miejsca świętego, stosownej scenerii dla doskonałej hekatomby (Kirk 1985, ad loc., por. Thesleff 1981). Piszący w II w. n.e. Pauzaniasz wspomina o pozostałościach pnia drzewa przechowywanych w świątyni (9.19.7). Kierujący wykopaliskami w Aulidzie zinterpretował mały kamienny okrąg wbudowany w przerwę w ogrodzeniu źródła od zachodniej strony jako miejsce, w którym w okresie klasycznym (a zapewne i wcześniej) rósł platan (ThesCRA, Moggi, Osanna 2010: 325–6). </p>
+                    <p>308:	ἔνθ᾽ ἐφάνη μέγα σῆμα – „gdy ukazał się wielki znak wróżebny”; znak wróżebny (σῆμα) nie jest związany bezpośrednio z rytuałem ofiarniczym, lecz ukazuje się przy okazji ofiary. Epos homerowy nie wspomina o praktykach wróżbiarskich związanych z samym procesem rytualnym, które w późniejszych źródłach stały się ważnym komponentem ofiary krwawej. 	
+                        μέγα σῆμα, por. τέρας w. 324. Przymiotnik μέγα, dosł. „wielki”, jest tutaj użyty w sensie „znaczący”, „oczywisty”, „wyrazisty”.
+                    </p>
+                    <p>321:	ὡς οὖν δεινὰ πέλωρα θεῶν εἰσῆλθ᾽ ἑκατόμβας – „takie więc straszne znaki wróżebne bogów nawiedziły hekatomby”; nie wiadomo, czy po pojawieniu się znaku wróżebnego Achajowie dokończyli składanie ofiar. Czasownik εἰσῆλθε, który oznacza „nawiedzić”, „przerwać”, nie daje tutaj pewnej wskazówki.</p>
+                    <p>324:	ἡμῖν μὲν τόδ’ ἔφηνε τέρας μέγα μητίετα Ζεὺς – „nam Zeus doradca objawił nam ten wielki znak wróżebny”: rzeczownik τέρας oznacza każde zjawisko wykraczające poza normę, które może być interpretowane jako znak wróżebny zsyłany przez bogów, zob. Nenci 1957–1958; Pizzani 1997; Pizzani 2000, 528 i nast. </p>
+                  
+                </div>
+                <div type="textpart" n="Iliad_2.398–430 ">
+                    <head>Iliada 2.398–430 </head>
+                    <p>Scena typowa – ofiara zwierzęca. W drugiej rozbudowanej scenie typowej narrator skupia się na ofierze złożonej przez Agamemnona, na którą zaproszono sześciu najwybitniejszych wodzów oraz Menelaosa, który pojawił się jednak bez zaproszenia, αὐτόματος. Narrator przeciwstawia ofiary składane w poszczególnych namiotach ofierze złożonej przez wodza: pierwsi modlą się o osobistą korzyść – uniknięcie śmierci w boju (w. 401), drudzy o wspólne zwycięstwo. Warto również zwrócić uwagę na odmienne słownictwo w obu opisach. Ofiary składane przez wojsko bogom zostały ujęte w ogólnym terminie (ἔρεζε) „odprawić obrzęd (ofiarny)”, natomiast ofiara złożona przez Agamemnona została sprecyzowana czasownikiem (ἱερεύω), „wykonać powinność kapłana > poświęcić > zabić zwierzę poświęcone bogom”. Na temat modlitwy Agamemnona, zob. Chapot, Laurot 2001: 34–35 (G3). </p>
+                    <quote>
+                        <lb/>ἀνστάντες δ᾽ ὀρέοντο κεδασθέντες κατὰ νῆας, 					
+                        <lb/>κάπνισσάν τε κατὰ κλισίας, καὶ δεῖπνον ἕλοντο. 
+                        <lb n="400"/> ἄλλος δ᾽ ἄλλῳ ἔρεζε θεῶν αἰειγενετάων 						
+                        <lb/>  εὐχόμενος θάνατόν τε φυγεῖν καὶ μῶλον Ἄρηος.  
+                        <lb/>αὐτὰρ ὃ βοῦν ἱέρευσε ἄναξ ἀνδρῶν Ἀγαμέμνων 
+                        <lb/>  πίονα πενταέτηρον ὑπερμενέϊ  Κρονίωνι, 
+                        <lb/> κίκλησκεν δὲ γέροντας ἀριστῆας Παναχαιῶν, 
+                        <lb n="405"/> Νέστορα μὲν πρώτιστα καὶ Ἰδομενῆα ἄνακτα, 					
+                        <lb/>   αὐτὰρ ἔπειτ᾽  Αἴαντε δύω καὶ Τυδέος υἱόν, 
+                        <lb/>   ἕκτον δ᾽ αὖτ᾽  Ὀδυσῆα Διὶ μῆτιν ἀτάλαντον. 
+                        <lb/>    αὐτόματος δέ οἱ ἦλθε βοὴν ἀγαθὸς Μενέλαος· 
+                        <lb/>    ᾔδεε γὰρ κατὰ θυμὸν ἀδελφεὸν ὡς ἐπονεῖτο. 
+                        <lb n="410"/>    βοῦν δὲ περιστήσαντο καὶ οὐλοχύτας ἀνέλοντο·					
+                        <lb/>    τοῖσιν δ᾽ εὐχόμενος μετέφη κρείων Ἀγαμέμνων· 
+                        <lb/>    Ζεῦ κύδιστε μέγιστε κελαινεφὲς αἰθέρι ναίων 
+                        <lb/>     μὴ πρὶν ἐπ᾽ ἠέλιον δῦναι καὶ ἐπὶ κνέφας ἐλθεῖν 
+                        <lb/>       πρίν με κατὰ πρηνὲς βαλέειν Πριάμοιο μέλαθρον 
+                        <lb n="415"/>        αἰθαλόεν, πρῆσαι δὲ πυρὸς δηΐοιο θύρετρα,					
+                        <lb/>         Ἑκτόρεον δὲ χιτῶνα περὶ στήθεσσι δαΐξαι 
+                        <lb/>         χαλκῷ ῥωγαλέον· πολέες δ᾽ ἀμφ᾽ αὐτὸν ἑταῖροι 
+                        <lb/>           πρηνέες ἐν κονίῃσιν ὀδὰξ λαζοίατο γαῖαν.
+                        <lb/>          Ὣς ἔφατ᾽, οὐδ᾽ ἄρα πώ οἱ ἐπεκραίαινε Κρονίων, 
+                        <lb n="420"/>          ἀλλ᾽ ὅ γε δέκτο μὲν ἱρά, πόνον δ᾽ ἀμέγαρτον ὄφελλεν.	  			
+                        <lb/>          αὐτὰρ ἐπεί ῥ᾽ εὔξαντο καὶ οὐλοχύτας προβάλοντο, 
+                        <lb/>        αὐέρυσαν μὲν πρῶτα καὶ ἔσφαξαν καὶ ἔδειραν, 
+                        <lb/>        μηρούς τ᾽ ἐξέταμον κατά τε κνίσῃ ἐκάλυψαν 
+                        <lb/>        δίπτυχα ποιήσαντες, ἐπ᾽ αὐτῶν δ᾽ ὠμοθέτησαν. 
+                        <lb n="425"/>        καὶ τὰ μὲν ἂρ σχίζῃσιν ἀφύλλοισιν κατέκαιον, 				
+                        <lb/>         σπλάγχνα δ᾽ ἄρ᾽ ἀμπείραντες ὑπείρεχον  Ἡφαίστοιο. 
+                        <lb/>         αὐτὰρ ἐπεὶ κατὰ μῆρε κάη καὶ σπλάγχνα πάσαντο, 
+                        <lb/>         μίστυλλόν τ᾽ ἄρα τἆλλα καὶ ἀμφ᾽ ὀβελοῖσιν ἔπειραν, 
+                        <lb/>         ὤπτησάν τε περιφραδέως, ἐρύσαντό τε πάντα. 
+                        <lb n="430"/>         αὐτὰρ ἐπεὶ παύσαντο πόνου τετύκοντό τε δαῖτα 					
+                        <lb/>          δαίνυντ᾽, οὐδέ τι θυμὸς ἐδεύετο δαιτὸς ἐΐσης.  
+                        <lb/>          αὐτὰρ ἐπεὶ πόσιος καὶ ἐδητύος ἐξ ἔρον ἕντο, 
+                        <lb/>     τοῖς ἄρα μύθων ἦρχε  Γερήνιος ἱππότα Νέστωρ·  
+                    </quote>
+                    <quote>
+                        <lb/>Powstali zatem i ruszyli rozpraszając się między okręty, 				
+                        <lb/>     Zasnuli namioty dymem i spożyli ucztę.
+                        <lb n="400"/>     Każdy spełniał ofiarę innemu z bogów wiecznie żyjących,				
+                        <lb/>     modląc się, aby umknąć śmierci i trudu Aresa.  
+                        <lb/>      Natomiast pan mężów Agamemnon poświęcił wołu
+                        <lb/>       tłustego, pięcioletniego dla przemożnego Kronidy.
+                        <lb/>         Zwoływał zaś starszych, najlepszych przywódców wszystkich Achajów,
+                        <lb n="405"/>         najpierw Nestora i Idomeneusa, pana,						
+                        <lb/>          następnie dwóch Ajasów i syna Tydeusa,
+                        <lb/>          jako szóstego – Odyseusa, równego Zeusowi pod względem sprytu.
+                        <lb/>          Samowolnie zaś przybył do niego Menelaos o mocnym głosie:
+                        <lb/>            wiedział bowiem w sercu jak trudzi się brat jego.
+                        <lb n="410"/>            Ustawili się wokół wołu i rzucili krupy jęczmienne,				
+                        <lb/>            a modląc się za nich przemówił potężny Agamemnon:
+                        <lb/>         „Zeusie przesławny, największy, czarnochmury, mieszkający w przestworzach!
+                        <lb/>         Niech słońce nie zajdzie i zmrok nie nadejdzie,
+                        <lb/>        Zanim nie strącę na ziemię pokrytej sadzą powały
+                        <lb/>      domu Priama i ogniem wrogim wrót mu nie spalę, 
+                        <lb n="415"/>     zanim Hektorowej nie rozedrę na piersiach kolczugi				
+                        <lb/>    przeszytej spiżem i zanim liczni jego towarzysze
+                        <lb/>              nie będą gryźli ziemi obaleni twarzą w pył.”
+                        <lb/>              Tak powiedział, lecz nie spełnił jeszcze jego prośby Kronida,
+                        <lb/>               chociaż przyjął ofiary, pomnożył zaś trud nie do zniesienia.
+                        <lb n="420"/>Gdy już się pomodlili i rzucili jęczmień ofiarny,					
+                        <lb/>               najpierw odchylili (gardła) i zarżnęli i oskórowali,
+                        <lb/>      wycięli udźce i okryli tłuszczem (błony otrzewnej)
+                        <lb/>      z dwóch stron obwijając, na nich położyli kawałki surowego mięsa.
+                        <lb/>           Potem na szczapach bezlistnych spalili,
+                        <lb n="425"/>wnętrzności zaś nadziali na rożna i trzymali nad ogniem Hefajstosa.		
+                        <lb/>          Gdy udźce zostały spalone i skosztowali wnętrzności,
+                        <lb/>            posiekali resztę i na rożny nadziali,
+                        <lb/>            opiekli starannie, a potem wszystko z rożnów ściągnęli.
+                        <lb/>            Gdy odpoczęli po trudach i przygotowali ucztę,
+                        <lb/>            ucztowali i niczego nie brakowało sercu z równej uczty.
+                    </quote>
+                    <p>398–9:	Wojska achajskie powstają i rozchodzą się z wiecu do swoich okrętów. Imiesłów κεδασθέντες, „rozproszeni” oraz zwroty κατὰ νῆας, „między okręty” i κατὰ κλισίας, „w namiotach” podkreślają rozpad wspólnoty następujący po rozwiązaniu zgromadzenia. </p>
+                    <p>399:	κάπνισ(σ)άν τε κατὰ κλισίας – „zasnuli namioty dymem”: metonimiczny opis przyrządzenia posiłku ofiarnego poprzedza stwierdzenie, że chodzi o ofiary składane bogom (w. 400). Czasownik καπνί(ζ)ω (od καπνός, „dym”, homerycki hapax) oznacza właściwie „dymić”, „zasnuwać dymem”, tutaj prawdopodobnie użyty został w znaczeniu metonimicznym „zadymili > ugotowali” (LfgrE, s.v.). Za formą κάπνισαν przekazaną przez papirusy i manuskrypty średniowieczne opowiada się M.L. West („Glotta” 2001, s. 124-5).  Por. wariant tego heksametru w Il. 7.466: βουφόνεον δὲ κατὰ κλισίας καὶ δόρπον ἕλοντο (zob. comm. ad loc.).
+                        καὶ δεῖπνον ἕλοντο – „i zjedli posiłek”; w eposie słowo δεῖπνον oznacza podstawowy posiłek niezależnie od pory dnia, w którym go spożywano. W Il. 10.578 jest to trzeci posiłek, który zjada Odyseusz w ciągu jednej nocy. U Ajschylosa (frg. 304) δεῖπνον zajmuje miejsce między śniadaniem (ἄρίστον), a kolacją (δόρπον). W tym wypadku chodzi o posiłek południowy, gdyż ofiary złożono po zamknięciu zgromadzenia zwołanego w wyniku narady w namiocie Agamemnona, która miała miejsce o poranku.
+                    </p>
+                    <p>400:	ἄλλος δ᾽ ἄλλῳ ἔρεζε θεῶν αἰειγενετάων – „każdy spełniał ofiarę innemu z bogów wiecznie żyjących”; czasownik ἔρδω użyty w sensie absolutnym, z imieniem boga w datiwie, lecz bez dopełnienia bliższego, oznacza „składać ofiarę”, „odprawiać obrzęd ofiarny” + dat. (nomen numinis) (Casabona 1966: 53). Nacisk jest zatem położony, zgodnie z etymologią czasownika, na działanie. W Iliadzie pojawia się on w tym znaczeniu trzykrotnie (2.400 oraz 8.250; 9.536). </p>
+                    <p>401:	εὐχόμενος θάνατόν τε φυγεῖν καὶ μῶλον Ἄρηος – „modląc się, aby umknąć śmierci i trudu Aresa”; inf. aor. φυγεῖν w połączeniu z czasownikiem εὐχέσθαι odnosi się w tym miejscu do przyszłości (zob. Chantraine 1953: 189) – w przeciwieństwie do Agamemnona, który w towarzystwie najdzielniejszych herosów będzie się modlił o zwycięstwo i upadek Troi, pozostali uczestnicy wyprawy wznoszą prośby o uniknięcie śmierci i znoju bitwy. W sprawie problemu związanego z zależnością wyrażenia καὶ μῶλον Ἄρηος od czasownika φυγεῖν („aby umknąć […] trudu Aresa”), co sugeruje, że wojownicy modlą się ogólnie o uniknięcie nie tylko śmierci, ale w ogóle dalszej walki, zob. Kirk 1985: 157. </p>
+                    <p>402–3:	αὐτὰρ ὃ βοῦν ἱέρευσε ἄναξ ἀνδρῶν Ἀγαμέμνων – „natomiast pan mężów Agamemnon poświęcił wołu”; wersy formularne wprowadzające scenę uczty królewskiej w namiocie Agamemnona (= Il. 7.314–5, por. Wprowadzenie, s. XX). Narrator przenosi uwagę z ofiar składanych przy namiotach poszczególnych oddziałów na głównego dowódcę, Agamemnona. Przeciwstawia (αὐτὰρ) różnorodne, choć niesprecyzowane ofiary składane w poszczególnych namiotach, ofierze z wołu złożonej Zeusowi przez głównego wodza. Podkreślenie, że chodzi o ofiarę z najbardziej prestiżowego zwierzęcia hodowlanego podkreśla pozycję społeczną Agamemnona. Nie jest to zatem ofiara publiczna angażująca całą społeczność, lecz rytuał króla, który podejmuje członków rady i z tej okazji przygotowuje ucztę heroiczną poprzedzoną rytuałem dla Zeusa.      
+                        ἱέρευσε – „poświęcił”; czasownik ἱερεύειν pojawia się w Iliadzie 10 x (2.402; 6.94; 174; 275; 309; 7.314; 18.559; 21.131; 23.147; 24.125) oraz 18 x w Odysei (2.56; 8.59; 10.524; 11.32; 13.24; 182; 14.28; 74; 94; 414; 16.454; 17.180–181; 535; 19.198; 20.3; 250–251; 391; 24.215). Użycie czasownika ἱερεύειν podkreśla fakt, że Agamemnon wypełnia powinności jako kapłan, ἱερεύς, przy czym funkcja kapłańska jest pochodną funkcji przywódcy grupy, co w przypadku Agamemnona oznacza głównodowodzącego wojska Achajów. Czasownik w eposie występuje zawsze z rzeczownikiem oznaczającym zwierzę w funkcji dopełnienia bliższego. Por. Casabona 1966: 23, który twierdzi, że czasownik ἱερεύειν zazwyczaj pojawia się wówczas, gdy idea uczty wysuwa się na plan pierwszy. W tym wypadku jednak Agamemnon składa ofiarę połączoną z modlitwą skierowaną do Zeusa, a zatem chodzi przede wszystkim o uczczenie boga w oczekiwaniu na łaskawe wysłuchanie próśb. Natomiast wspólnotowy charakter rytuału i następującej po nim uczty heroicznej podkreśla katalog gości.	
+                        ἄναξ ἀνδρῶν Ἀγαμέμνων: zob. comm. ad 1.442. 
+                    </p>
+                    <p>403:	βοῦν… πίονα πενταέτηρον – „wołu… tłustego, pięcioletniego”: = Il. 7.315. Epitet πενταέτηρον określa wiek zwierzęcia wybranego na ucztę królewską. W przypadku wołu podkreśla jego wartość, nic dziwnego zatem, że w Iliadzie pojawia dwukrotnie w kontekście zwierząt zabitych w namiocie Agamemnona. W Il. 7.315 scena typowa ofiara zwierzęca została skrócona o opis rytów ofiarniczych tak, że odnosi się wrażenie, iż czasownik oznacza w tym miejscu ubój zwierzęcia na posiłek. W Odysei epitet πενταέτηρον został użyty najpewniej żartobliwie na określenie wieprza zabitego na wieczerzę dla Odyseusza przez świniopasa Eumajosa (14.419) oraz w odniesieniu do uczty przygotowanej przez Autolykosa na cześć jego wnuka, Odyseusza (19.420), która w zasadniczej części powtarza wersy formularne użyte do opisu uczty Agamemnona w Il. 7.315.  W późniejszych źródłach wiek zwierzęcia jest jedną z cech dystynktywnych branych pod uwagę podczas wyboru właściwego rodzaju ofiary.</p>
+                    <p>404–9:	Agamemnon zwołuje na ucztę ofiarną najbardziej czcigodnych dowódców achajskich, którzy wchodzą w skład rady. Kolejność, w której zostali wymienieni, nie jest całkowicie przypadkowa, chociaż częściowo zależy od względów metrycznych. Na pierwszym miejscu pojawiają się imiona sędziwych wojowników: Nestora i Idomeneusa, których Agamemnon darzył szczególną estymą (Nestor: Il. 21.370 i nast., 4.311 i nast.; Idomeneus: 4.255 i nast.), następnie najsilniejszych i najdzielniejszych, na końcu poeta wymienia Odyseusza „równego Zeusowi pod względem sprytu”, który najwyraźniej pełni tu rolę mądrego doradcy, odpowiednika Nestora w pokoleniu Agamemnona. Na temat społecznych funkcji uczty w namiocie wodza w eposie homerowym, zob. Latacz 1990: 360; van Wees 1995: 164–177; Rundin 1996: 200–205. </p>
+                    <p>410–431:	scena typowa – ofiara zwierzęca. Wersy 2.421–424 oraz 2.427–432 dokładnie powtarzają wersy 1.458–461 oraz 1.464–469. </p>
+                    <p>410:	Heksametr formularny (por. Il. 1.449), w którym pierwszy hemistych do cezury (Il. 1, 449a χερνίψαντο δ᾽ ἔπειτα) został zastąpiony hemistychem βοῦν δὲ περιστήσαντο.</p>
+                    <p>413–420: Agamemnon wznosi modlitwę w imieniu wszystkich wodzów zgromadzonych w jego namiocie (por. modlitwa Chryzesa w imieniu wszystkich zgromadzonych przy ołtarzu Apollona Sminteusa (Il. 1.450 i nast.). Bibliografia: Aubriot-Sévin 1992: 68, 285–286; Cosset 1990: 5 i nast.; Jouanna 1992: 411–412; Lang 1975: 309–314; Morrison 1991: 145–157.</p>
+                    <p>419–20: Ten jedyny przypadek w Iliadzie, w którym bóg przyjmuje ofiarę, lecz nie spełnia prośby, stał się przedmiotem komentarza Arystarcha pragnącego odsunąć od Zeusa podejrzenie o dwulicowość (schol. in Il. 2.420). Interpretacja Arystarcha zakłada pojawienie się jakiegoś pomyślnego znaku, który stał się podstawą orzeczenia wieszczków, że bóg przyjął ofiarę. Nie należy jednak iść tak daleko. Nic nie wskazuje na to, że odczytywanie znaków przez wieszczków w czasie ofiary było stałą praktyką w świecie eposu, ani że bogowie w widoczny i zrozumiały dla ludzi sposób przekazywali swą odpowiedź na prośby zawarte w modlitwie. Wydaje się, że chodzi raczej o odsunięcie spełnienia prośby niż jej ostateczne odrzucenie. Z punktu widzenia czasu bogów, jedynego, który nadaje zdarzeniom sens i ład, Zeus realizuje swój plan: przyjmuje ofiarę i towarzyszącą jej modlitwę, co oznacza, że Hektor zginie, a Troja padnie, lecz zrealizuje to w stosownym czasie (por. Il. 1.211–214 z uwagami od: Vidal-Naquet 2003: 64–65). Narrator, dzięki darowi Muz, ma dostęp do porządku czasu bogów i z tej perspektywy przedstawia zdarzenia. Na temat w. 419-20 zob. Kirk 1985: 160; Latacz XXXX: 126–127).</p>
+                    <p>419:	οὐδ᾽ ἄρα πώ οἱ ἐπεκραίαινε Κρονίων – „lecz nie spełnił jeszcze jego prośby Kronida”; czasownik ἐπικραίνω występuje w Iliadzie sześciokrotnie (1.455, 2.419, 3.302, 8.242, 15.599, 16.238), zawsze w kontekście prośby skierowanej do boga (konkretnie do Zeusa, z wyjątkiem 1.455, gdzie pojawia się w modlitwie Chryzesa do Apollona o zakończenie zarazy). Trzykrotnie pojawia się w głównej narracji, gdzie służy proleptycznemu podkreśleniu wypełniania się woli Zeusa i przyrzeczeniu danemu Tetydzie. W tym miejscu oraz w 3.302 narrator podkreśla, że Zeus „jeszcze” nie spełnił prośby. W pierwszym wypadku chodzi o modlitwę o śmierć Hektora i zagładę Troi w ciągu nadchodzącego dnia, w drugim – o przysięgę zawierającą groźbę zagłady tych, którzy ją by złamali. W obu wypadkach treść modlitwy/przysięgi wypełniła się, nie natychmiast, lecz w przyszłości. W pieśni XV narrator stwierdza, że Zeus chce obdarzyć Hektora sławą, aby ten wzniecił pożar okrętów i mógł wypełnić prośbę Tetydy.</p>
+                    <p>420:	ἀλλ᾽ ὅ γε δέκτο μὲν ἱρά – „chociaż przyjął ofiary”; jak wynika z kontekstu rzeczownik ἱρά, użyty jako dopełnienie czasownika δέχεσθαι, „przyjąć”, oznacza ofiarę, czyli obrzęd ofiary krwawej, którego znakiem czci okazywanej bogu jest dym wznoszący się do nieba ze spalonych kości udowych i tłuszczu otrzewnej. Jean Casabona podkreśla, że trudno jednoznacznie rozstrzygnąć, czy chodzi o rytuał ofiarny, czy też o dary ofiarne (offrandes) w ich materialnej postaci (Casabona 1966: 7). Proleptyczną funkcję reakcji boga na ofiarę i towarzyszącą jej modlitwę podkreśla fakt, że wersy ją opisujące zostały umieszczone bezpośrednio po modlitwie.</p>
+                    <p>421–424: wersy formularne = 1.458–461 z komentarzem.</p>
+                    <p>425:	καὶ τὰ μὲν ἂρ σχίζῃσιν ἀφύλλοισιν κατέκαιον – „potem na szczapach bezlistnych spalili”; wariant wersu formularnego Il. 1.462–3: καῖε δ᾽ ἐπὶ σχίζῃς ὁ γέρων, ἐπὶ δ᾽ αἴθοπα οἶνον / λεῖβε. Różnica między oboma wersami jest związana z okolicznościami ofiary i odmiennym ogniskowaniem narracji na postaciach. W ofierze składanej w Chryzie poeta skupia się na kapłanie Chryzesie, który przewodniczy obrzędowi składania ofiary, tutaj, poprzez wprowadzenie liczby mnogiej, podkreśla się wspólnotowy charakter ofiary (por. Kirk, comm. ad loc.; Carlier 1984: 163). W pierwszym wypadku poeta wspomina o wylewaniu wina na płomienie ogniska rozpalonego na ołtarzu, w drugim podkreśla fakt spalenia kości udowych poprzez wprowadzenie zaimka τὰ (scil. μηρία) oraz czasownika κατέκαιον, który poprzez przyrostek κατά podkreśla spełnienie, całkowite spalenie udźców. </p>
+                    <p>426:	σπλάγχνα δ᾽ ἄρ᾽ ἀμπείραντες ὑπείρεχον Ἡφαίστοιο – „wnętrzności zaś nadziali na rożna i trzymali nad ogniem Hefajstosa”; w scenie typowej z pieśni pierwszej poeta nie mówi wprost o opiekaniu wnętrzności nad ogniem – Chryzes jako kapłan wylewa wino na ogień, młodzieńcy trzymają rożny (1.463). Tutaj natomiast został wprowadzony wers, który skupia się na dwóch czynnościach wyrażonych odpowiednimi czasownikami: nadzianie trzewi zwierzęcia na rożny (ἀμπείραντες) oraz pieczenie ich nad ogniem (ὑπείρεχον). Konsekwentne używanie liczby mnogiej podkreśla wspólnotowy charakter rytuału. </p>
+                    <p>427–432: 	wersy formularne (= Il 1.464–469), zob. komentarz.</p>
+                    
+                </div>
+                <div type="textpart" n="Iliad_2.546–551  ">
+                    <head>Iliada 2.546–551  </head>
+                    <p>W katalogu okrętów pojawia się jedna wzmianka o ofiara – składana na Akropolu ateńskim ofiara dla Erechteusa. Miejsce powszechnie jest uważane za interpolację ateńską z czasów redakcji tekstu Iliady za Pizystrata.</p>
+                    <quote>
+                        <lb/>Οἳ δ’ ἄρ’ Ἀθήνας εἶχον ἐϋκτίμενον πτολίεθρον					
+                        <lb/>δῆμον Ἐρεχθῆος μεγαλήτορος, ὅν ποτ’ Ἀθήνη 
+                        <lb/>θρέψε Διὸς θυγάτηρ, τέκε δὲ ζείδωρος ἄρουρα, 
+                        <lb/>κὰδ δ’ ἐν Ἀθήνῃς εἷσεν ἑῷ ἐν πίονι νηῷ·
+                        <lb n="550"/>ἔνθα δέ μιν ταύροισι καὶ ἀρνειοῖς ἱλάονται    					
+                        <lb/>κοῦροι Ἀθηναίων περιτελλομένων ἐνιαυτῶν· 
+                        <lb/>τῶν αὖθ’ ἡγεμόνευ’ υἱὸς Πετεῶο Μενεσθεύς.
+                    </quote>
+                    <quote>
+                        <lb/>A ci, co mieli gród Ateny mocno zbudowany, 
+                        <lb/>lud Erechteusa wielkodusznego, którego niegdyś Atena
+                        <lb/>chowała, córka Zeusa, a zrodziła gleba pszeniczna,
+                        <lb/>potem dała siedzibę w swojej zasobnej świątyni,
+                        <lb n="550"/>gdzie mu bykami i baranami zjednują 						
+                        <lb/>młodzieńcy ateńscy w biegu lat.
+                        <lb/>Tym przewodził syn Peteusa, Menesteus.
+                    </quote>
+                    <p>546:	Ἐρεχθῆος – „Erechteusa”; mityczny król Aten, według najstarszej tradycji następca Kekropsa. W eposie homeryckim, zrodzony z ziemi i wychowany przez Atenę, doznał czci w świątyni bogini, gdzie młodzież ateńska składała mu doroczne ofiary z baranów i wołów (prawdopodobnie święto Skira lub Genesia). Na Akropolu znajdował się Erechtejon, zazwyczaj identyfikowany ze świątynią Ateny Polias, w której pierwotnie czczono Erechteusa jako Posejdona-Erechteusza. Od czasu reform Klejstenesa (508–507 p.n.e.) heros eponimiczny jednej z ateńskich fyl. W późniejszej tradycji, odzwierciedlonej m.in. w dziełach Eurypidesa, Erechteus był synem Pandiona i bratem bliźniakiem Butesa. Po śmierci ojca Erechteusa objął tron królewski, a Butes został kapłanem Ateny. Erechteus był ojcem Prokris, Kreuzy i Orejtyi. Jako król Aten zwyciężył w wojnie z sąsiednią Eleusis, której na pomoc przybył syn Posejdona, Eumolpos. Przed rozstrzygającą bitwą Erechteus, zgodnie ze wskazaniem wyroczni, złożył w ofierze najmłodszą córkę, której śmierć umożliwiała zwycięstwo. Pozostałe córki Erechteusa popełniły samobójstwo, gdyż ślubowały, że umrą wszystkie razem. Erechteusa został zabity przez Posejdona, który zemścił się za śmierć Eumolposa. Późniejsza tradycja głosi, że został uniesiony przez Zeusa i zamieniony w konstelację woźnicy.</p>
+                    <p>549:	κὰδ δ’ ἐν Ἀθήνῃς εἷσεν ἑῷ ἐν πίονι νηῷ – „potem dała siedzibę w swojej zasobnej świątyni”; chodzi o świątynię Ateny Polias na ateńskim akropolu, przy której znajdował się okrąg święty (heroon) Erechteusa – Erechtejon. Obecnie istniejąca świątynia została wzniesiona w porządku jońskim 421–405 p.n.e. z marmuru pentelickiego i była miejscem kultu Ateny Polias, Posejdona, Zeusa Hypatosa, Erechteusza, Hefajstosa i herosa Butesa, w którym także znalazła się święta oliwka, źródło słonej wody, grobowiec Kekropsa – symbole religijne związane z legendarnymi początkami Aten i sporem Ateny z Posejdonem o panowanie nad Attyką. </p>
+                    <p>550–551: ταύροισι καὶ ἀρνειοῖς ἱλάονται / κοῦροι Ἀθηναίων περιτελλομένων ἐνιαυτῶν – „bykami i baranami zjednują / młodzieńcy ateńscy w biegu lat”; czasownik ἱλάσκεσθαι, „przebłagać” jest terminem technicznym, który oznacza różnego rodzaju rytuały przebłagalne, mające na celu odwrócenie skutków gniewu bóstwa. Często środkiem tych obrzędów są ofiary krwawe (Il. 1.147; 444) lub choreia, zwłaszcza pean (Il. 1.472). Również tutaj fraza „byki i barany” (ταύροισι καὶ ἀρνειοῖς) sugeruje ofiary krwawe, a słowo „młodzieńcy” jako podmiot tych czynności zakłada być może udział w zbiorowym tańcu chóralnym.</p>
+                 
+                </div>
+              
+            </div>
+            
+        </body>
+    </text>
+</TEI>
