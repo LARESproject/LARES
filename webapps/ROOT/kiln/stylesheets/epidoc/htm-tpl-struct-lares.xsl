@@ -172,63 +172,8 @@
     </html>
   </xsl:template>
 
-  <xsl:template match="t:dimensions" mode="lares-dimensions">
-    <xsl:if test="//text()">
-      <xsl:if test="t:width/text()">w: <xsl:value-of select="t:width"/>
-        <xsl:if test="t:height/text()">
-          <xsl:text> x </xsl:text>
-        </xsl:if>
-      </xsl:if>
-      <xsl:if test="t:height/text()">h: <xsl:value-of select="t:height"/>
-      </xsl:if>
-      <xsl:if test="t:depth/text()">x d: <xsl:value-of select="t:depth"/>
-      </xsl:if>
-      <xsl:if test="t:dim[@type = 'diameter']/text()">x diam.: <xsl:value-of
-          select="t:dim[@type = 'diameter']"/>
-      </xsl:if>
-    </xsl:if>
-  </xsl:template>
-
-  <xsl:template match="t:placeName | t:rs" mode="lares-placename">
-    <!-- remove rs? -->
-    <xsl:choose>
-      <xsl:when
-        test="contains(@ref, 'pleiades.stoa.org') or contains(@ref, 'geonames.org') or contains(@ref, 'slsgazetteer.org')">
-        <a>
-          <xsl:attribute name="href">
-            <xsl:value-of select="@ref"/>
-          </xsl:attribute>
-          <xsl:apply-templates/>
-        </a>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:apply-templates/>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>
-
-  <xsl:template name="lares-invno">
-    <xsl:if test="//t:idno[@type = 'invNo'][string(translate(normalize-space(.), ' ', ''))]">
-      <xsl:text> (Inv. no. </xsl:text>
-      <xsl:for-each
-        select="//t:idno[@type = 'invNo'][string(translate(normalize-space(.), ' ', ''))]">
-        <xsl:value-of select="."/>
-        <xsl:if test="position() != last()">
-          <xsl:text>, </xsl:text>
-        </xsl:if>
-      </xsl:for-each>
-      <xsl:text>)</xsl:text>
-    </xsl:if>
-  </xsl:template>
-
   <xsl:template name="lares-title">
     <xsl:choose>
-      <xsl:when
-        test="//t:titleStmt/t:title/text() and number(substring(//t:publicationStmt/t:idno[@type = 'filename']/text(), 2, 5))">
-        <xsl:value-of select="//t:publicationStmt/t:idno[@type = 'filename']/text()"/>
-        <xsl:text>. </xsl:text>
-        <xsl:value-of select="//t:titleStmt/t:title"/>
-      </xsl:when>
       <xsl:when test="//t:titleStmt/t:title/text()">
         <xsl:value-of select="//t:titleStmt/t:title"/>
       </xsl:when>
@@ -236,12 +181,13 @@
         <xsl:value-of select="//t:idno[@type = 'filename']"/>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:text>EpiDoc example output, lares style</xsl:text>
+        <xsl:text>EpiDoc example output, LARES style</xsl:text>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
 
-  <xsl:template match="t:ref[not(@corresp)][starts-with(., 'http')]">
+  <!-- all the templates below should be named or moved elsewhere -->
+  <xsl:template priority="10" match="t:ref[not(@corresp)][starts-with(., 'http')]">
     <a href="{.}" target="_blank"><xsl:apply-templates/></a>
   </xsl:template>
     
@@ -263,15 +209,11 @@
     <a class="links" href="../indices/epidoc/realms.html#{replace(normalize-space(.), ' ', '_')}" target="_blank"><b> ➚</b></a>
   </xsl:template>
   
-  <xsl:template match="t:foreign|t:title[not(parent::t:titleStmt)]">
-    <i><xsl:apply-templates/></i>
-  </xsl:template>
-  
-  <xsl:template match="t:quote">
+  <xsl:template priority="10" match="t:quote">
     <p class="quotation"><xsl:apply-templates/></p>
   </xsl:template>
   
-  <xsl:template match="t:emph">
+  <xsl:template priority="10" match="t:emph">
     <xsl:choose>
       <xsl:when test="ancestor::t:quote and ancestor::t:TEI[not(starts-with(descendant::t:idno[@type='filename'], 'lexicon'))]">
         <span class="speaker"><xsl:apply-templates/></span> <!-- only in book chapters, not in lexicon entries -->
