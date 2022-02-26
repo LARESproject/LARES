@@ -96,9 +96,18 @@
             <xsl:element name="span">
                <xsl:attribute name="class">reversed</xsl:attribute>
                <xsl:attribute name="title">reversed: <xsl:value-of select="."/>
-               </xsl:attribute> ((<xsl:apply-templates/>)) </xsl:element>
+               </xsl:attribute>((<xsl:apply-templates/>))</xsl:element>
          </xsl:when>
          <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+         <!-- @rend='inverted'                                                   -->
+          <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+          <xsl:when test="@rend='inverted'">
+             <xsl:element name="span">
+                <xsl:attribute name="class">inverted</xsl:attribute>
+                <xsl:attribute name="title">inverted: <xsl:value-of select="."/>
+                </xsl:attribute>((<xsl:apply-templates/>))</xsl:element>
+          </xsl:when>
+          <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
          <!-- @rend='small'                                                      -->
          <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
          <xsl:when test="@rend='small'">
@@ -125,7 +134,7 @@
                <xsl:when test="$parm-leiden-style = 'iospe'">
                   <xsl:apply-templates/>
                </xsl:when>
-                <xsl:when test="$parm-leiden-style = 'ddbdp' or $parm-leiden-style = 'sammelbuch'">
+                <xsl:when test="$parm-leiden-style = ('ddbdp','dclp','sammelbuch')">
                   <span style="vertical-align:sub;">
                      <xsl:apply-imports/>
                   </span>
@@ -144,7 +153,7 @@
                <xsl:when test="$parm-leiden-style = 'iospe'">
                   <xsl:apply-templates/>
                </xsl:when>
-                <xsl:when test="$parm-leiden-style = 'ddbdp' or $parm-leiden-style = 'sammelbuch'">
+                <xsl:when test="$parm-leiden-style = ('ddbdp','dclp','sammelbuch')">
                   <span style="vertical-align:super;">
                      <xsl:apply-imports/>
                   </span>

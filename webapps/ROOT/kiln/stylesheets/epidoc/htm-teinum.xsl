@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Id$ -->
-<xsl:stylesheet xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
    xmlns:t="http://www.tei-c.org/ns/1.0"
    exclude-result-prefixes="t" version="2.0">
    <!-- Template in teinum.xsl -->
@@ -10,20 +10,16 @@
        <xsl:param name="parm-leiden-style" tunnel="yes" required="no"></xsl:param>
        <xsl:choose>
          <xsl:when
-             test="$parm-leiden-style=('ddbdp','sammelbuch') 
+            test="$parm-leiden-style=('ddbdp','dclp','sammelbuch') 
             and string(.)">
             <span>
                <xsl:attribute name="title">
                   <xsl:choose>
                      <xsl:when test="contains(@value,'/') or @type='fraction'">
-                        <i18n:text i18n:key="epidoc-xslt-fraction">
-                           <xsl:text>fraction</xsl:text>
-                        </i18n:text>
+                        <xsl:text>fraction</xsl:text>
                      </xsl:when>
                      <xsl:otherwise>
-                        <i18n:text i18n:key="epidoc-xslt-number">
-                           <xsl:text>number</xsl:text>
-                        </i18n:text>
+                        <xsl:text>number</xsl:text>
                      </xsl:otherwise>
                   </xsl:choose>
                   <xsl:choose>

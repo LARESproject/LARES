@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Id$ -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-   xmlns:t="http://www.tei-c.org/ns/1.0"
+    xmlns:t="http://www.tei-c.org/ns/1.0" 
    xmlns:xs="http://www.w3.org/2001/XMLSchema"
    exclude-result-prefixes="t" version="2.0">
    <xsl:output method="xml" encoding="UTF-8"/>
 
-   <xsl:include href="global-varsandparams.xsl"/>
+    <xsl:include href="global-varsandparams.xsl"/>
 
    <!-- html related stylesheets, these may import tei{element} stylesheets if relevant eg. htm-teigap and teigap -->
    <xsl:include href="htm-teiab.xsl"/>
@@ -26,8 +26,8 @@
    <xsl:include href="htm-teilgandl.xsl"/>
    <xsl:include href="htm-teilistanditem.xsl"/>
    <xsl:include href="htm-teilistbiblandbibl.xsl"/>
-   <xsl:include href="htm-teimilestone.xsl"/>
-   <xsl:include href="htm-teibibl.xsl"/>
+    <xsl:include href="htm-teimilestone.xsl"/>
+    <xsl:include href="htm-teibibl.xsl"/>
    <xsl:include href="htm-teinote.xsl"/>
    <xsl:include href="htm-teinum.xsl"/>
    <xsl:include href="htm-teip.xsl"/>
@@ -62,23 +62,20 @@
    <xsl:include href="htm-tpl-sqbrackets.xsl"/>
    
    <!-- named templates for localized layout/structure (aka "metadata") -->
-   <xsl:include href="htm-tpl-structure.xsl"/>
+    <xsl:include href="htm-tpl-structure.xsl"/>
+    <xsl:include href="htm-tpl-struct-creta.xsl"/>
     <xsl:include href="htm-tpl-struct-dol.xsl"/>
-    <xsl:include href="htm-tpl-struct-eagle.xsl"/>
     <xsl:include href="htm-tpl-struct-edak.xsl"/>
-    <xsl:include href="htm-tpl-struct-edh.xsl"/>
-    <xsl:include href="htm-tpl-struct-hgv.xsl"/>
-    <xsl:include href="htm-tpl-struct-igcyr.xsl"/>
     <xsl:include href="htm-tpl-struct-inslib.xsl"/>
     <xsl:include href="htm-tpl-struct-iospe.xsl"/>
-    <xsl:include href="htm-tpl-struct-lares.xsl"/>
-    <xsl:include href="htm-tpl-struct-rib.xsl"/>
     <xsl:include href="htm-tpl-struct-sample.xsl"/>
-    <xsl:include href="htm-tpl-struct-spes.xsl"/>
+    <xsl:include href="htm-tpl-struct-sigidoc.xsl"/>
+    <xsl:include href="htm-tpl-struct-ecg.xsl"/>
 
-   <!-- global named templates with no html, also used by start-txt -->
+    <!-- global named templates with no html, also used by start-txt  -->
    <xsl:include href="tpl-certlow.xsl"/>
-   <xsl:include href="tpl-text.xsl"/>
+    <xsl:include href="tpl-text.xsl"/>
+    <xsl:include href="functions.xsl"/>
 
 
 
@@ -95,19 +92,6 @@
                 <xsl:with-param name="parm-hgv-gloss" select="$hgv-gloss" tunnel="yes"/>
                 <xsl:with-param name="parm-leiden-style" select="$leiden-style" tunnel="yes"/>
                  <xsl:with-param name="parm-line-inc" select="$line-inc" tunnel="yes" as="xs:double"/>
-                 <xsl:with-param name="parm-verse-lines" select="$verse-lines" tunnel="yes"/>
-                 <xsl:with-param name="parm-css-loc" select="$css-loc" tunnel="yes"/>
-            </xsl:call-template>
-         </xsl:when>
-         <xsl:when test="$edn-structure = 'hgv'">
-             <xsl:call-template name="hgv-structure">
-                 <xsl:with-param name="parm-internal-app-style" select="$internal-app-style" tunnel="yes"/>
-                 <xsl:with-param name="parm-external-app-style" select="$external-app-style" tunnel="yes"/>
-                <xsl:with-param name="parm-edn-structure" select="$edn-structure" tunnel="yes"/>
-                <xsl:with-param name="parm-edition-type" select="$edition-type" tunnel="yes"/>
-                <xsl:with-param name="parm-hgv-gloss" select="$hgv-gloss" tunnel="yes"/>
-                <xsl:with-param name="parm-leiden-style" select="$leiden-style" tunnel="yes"/>
-                <xsl:with-param name="parm-line-inc" select="$line-inc" tunnel="yes" as="xs:double"/>
                  <xsl:with-param name="parm-verse-lines" select="$verse-lines" tunnel="yes"/>
                  <xsl:with-param name="parm-css-loc" select="$css-loc" tunnel="yes"/>
             </xsl:call-template>
@@ -136,32 +120,12 @@
                   <xsl:with-param name="parm-line-inc" select="$line-inc" tunnel="yes" as="xs:double"/>
                   <xsl:with-param name="parm-verse-lines" select="$verse-lines" tunnel="yes"/>
                   <xsl:with-param name="parm-css-loc" select="$css-loc" tunnel="yes"/>
-              </xsl:call-template>
-          </xsl:when>
-          <xsl:when test="$edn-structure = 'sample'">
-              <xsl:call-template name="sample-structure">
-                  <xsl:with-param name="parm-internal-app-style" select="$internal-app-style" tunnel="yes"/>
-                  <xsl:with-param name="parm-external-app-style" select="$external-app-style" tunnel="yes"/>
-                  <xsl:with-param name="parm-edn-structure" select="$edn-structure" tunnel="yes"/>
-                  <xsl:with-param name="parm-edition-type" select="$edition-type" tunnel="yes"/>
-                  <xsl:with-param name="parm-hgv-gloss" select="$hgv-gloss" tunnel="yes"/>
-                  <xsl:with-param name="parm-leiden-style" select="$leiden-style" tunnel="yes"/>
-                  <xsl:with-param name="parm-line-inc" select="$line-inc" tunnel="yes" as="xs:double"/>
-                  <xsl:with-param name="parm-verse-lines" select="$verse-lines" tunnel="yes"/>
-                  <xsl:with-param name="parm-css-loc" select="$css-loc" tunnel="yes"/>
-              </xsl:call-template>
-          </xsl:when>
-          <xsl:when test="$edn-structure = 'spes'">
-              <xsl:call-template name="spes-structure">
-                  <xsl:with-param name="parm-internal-app-style" select="$internal-app-style" tunnel="yes"/>
-                  <xsl:with-param name="parm-external-app-style" select="$external-app-style" tunnel="yes"/>
-                  <xsl:with-param name="parm-edn-structure" select="$edn-structure" tunnel="yes"/>
-                  <xsl:with-param name="parm-edition-type" select="$edition-type" tunnel="yes"/>
-                  <xsl:with-param name="parm-hgv-gloss" select="$hgv-gloss" tunnel="yes"/>
-                  <xsl:with-param name="parm-leiden-style" select="$leiden-style" tunnel="yes"/>
-                  <xsl:with-param name="parm-line-inc" select="$line-inc" tunnel="yes" as="xs:double"/>
-                  <xsl:with-param name="parm-verse-lines" select="$verse-lines" tunnel="yes"/>
-                  <xsl:with-param name="parm-css-loc" select="$css-loc" tunnel="yes"/>
+                  <xsl:with-param name="parm-bib" select="$bibliography" tunnel="yes"/>
+                  <xsl:with-param name="parm-bibloc" select="$localbibl" tunnel="yes"/>
+                  <xsl:with-param name="parm-zoteroUorG" select="$ZoteroUorG" tunnel="yes"/>
+                  <xsl:with-param name="parm-zoteroKey" select="$ZoteroKey" tunnel="yes"/>
+                  <xsl:with-param name="parm-zoteroNS" select="$ZoteroNS" tunnel="yes"/>
+                  <xsl:with-param name="parm-zoteroStyle" select="$ZoteroStyle" tunnel="yes"/>
               </xsl:call-template>
           </xsl:when>
           <xsl:when test="$edn-structure = 'dol'">
@@ -177,7 +141,20 @@
                   <xsl:with-param name="parm-css-loc" select="$css-loc" tunnel="yes"/>
               </xsl:call-template>
           </xsl:when>
-         <xsl:when test="$edn-structure = 'iospe'">
+         <xsl:when test="$edn-structure = 'sample'">
+              <xsl:call-template name="sample-structure">
+                  <xsl:with-param name="parm-internal-app-style" select="$internal-app-style" tunnel="yes"/>
+                  <xsl:with-param name="parm-external-app-style" select="$external-app-style" tunnel="yes"/>
+                  <xsl:with-param name="parm-edn-structure" select="$edn-structure" tunnel="yes"/>
+                  <xsl:with-param name="parm-edition-type" select="$edition-type" tunnel="yes"/>
+                  <xsl:with-param name="parm-hgv-gloss" select="$hgv-gloss" tunnel="yes"/>
+                  <xsl:with-param name="parm-leiden-style" select="$leiden-style" tunnel="yes"/>
+                  <xsl:with-param name="parm-line-inc" select="$line-inc" tunnel="yes" as="xs:double"/>
+                  <xsl:with-param name="parm-verse-lines" select="$verse-lines" tunnel="yes"/>
+                  <xsl:with-param name="parm-css-loc" select="$css-loc" tunnel="yes"/>
+              </xsl:call-template>
+          </xsl:when>
+          <xsl:when test="$edn-structure = 'iospe'">
              <xsl:call-template name="iospe-structure">
                  <xsl:with-param name="parm-internal-app-style" select="$internal-app-style" tunnel="yes"/>
                  <xsl:with-param name="parm-external-app-style" select="$external-app-style" tunnel="yes"/>
@@ -190,6 +167,32 @@
                  <xsl:with-param name="parm-css-loc" select="$css-loc" tunnel="yes"/>
             </xsl:call-template>
          </xsl:when>
+          <xsl:when test="$edn-structure = 'sample'">
+              <xsl:call-template name="sample-structure">
+                  <xsl:with-param name="parm-internal-app-style" select="$internal-app-style" tunnel="yes"/>
+                  <xsl:with-param name="parm-external-app-style" select="$external-app-style" tunnel="yes"/>
+                  <xsl:with-param name="parm-edn-structure" select="$edn-structure" tunnel="yes"/>
+                  <xsl:with-param name="parm-edition-type" select="$edition-type" tunnel="yes"/>
+                  <xsl:with-param name="parm-hgv-gloss" select="$hgv-gloss" tunnel="yes"/>
+                  <xsl:with-param name="parm-leiden-style" select="$leiden-style" tunnel="yes"/>
+                  <xsl:with-param name="parm-line-inc" select="$line-inc" tunnel="yes" as="xs:double"/>
+                  <xsl:with-param name="parm-verse-lines" select="$verse-lines" tunnel="yes"/>
+                  <xsl:with-param name="parm-css-loc" select="$css-loc" tunnel="yes"/>
+              </xsl:call-template>
+          </xsl:when>
+          <xsl:when test="$edn-structure = 'sigidoc'">
+              <xsl:call-template name="sigidoc-structure">
+                  <xsl:with-param name="parm-internal-app-style" select="$internal-app-style" tunnel="yes"/>
+                  <xsl:with-param name="parm-external-app-style" select="$external-app-style" tunnel="yes"/>
+                  <xsl:with-param name="parm-edn-structure" select="$edn-structure" tunnel="yes"/>
+                  <xsl:with-param name="parm-edition-type" select="$edition-type" tunnel="yes"/>
+                  <xsl:with-param name="parm-hgv-gloss" select="$hgv-gloss" tunnel="yes"/>
+                  <xsl:with-param name="parm-leiden-style" select="$leiden-style" tunnel="yes"/>
+                  <xsl:with-param name="parm-line-inc" select="$line-inc" tunnel="yes" as="xs:double"/>
+                  <xsl:with-param name="parm-verse-lines" select="$verse-lines" tunnel="yes"/>
+                  <xsl:with-param name="parm-css-loc" select="$css-loc" tunnel="yes"/>
+              </xsl:call-template>
+          </xsl:when>
          <xsl:when test="$edn-structure = 'ddbdp'">
             <div>
                 <xsl:call-template name="default-body-structure">
@@ -205,50 +208,35 @@
               </xsl:call-template>
             </div>
          </xsl:when>
-        <xsl:when test="$edn-structure='eagle'">
-            <xsl:call-template name="eagle-structure">
-                <xsl:with-param name="parm-internal-app-style" select="$internal-app-style" tunnel="yes"/>
-                <xsl:with-param name="parm-external-app-style" select="$external-app-style" tunnel="yes"/>
-                <xsl:with-param name="parm-edn-structure" select="$edn-structure" tunnel="yes"/>
-                <xsl:with-param name="parm-edition-type" select="$edition-type" tunnel="yes"/>
-                <xsl:with-param name="parm-hgv-gloss" select="$hgv-gloss" tunnel="yes"/>
-                <xsl:with-param name="parm-leiden-style" select="$leiden-style" tunnel="yes"/>
-                <xsl:with-param name="parm-line-inc" select="$line-inc" tunnel="yes" as="xs:double"/>
-                <xsl:with-param name="parm-verse-lines" select="$verse-lines" tunnel="yes"/>
-                <xsl:with-param name="parm-css-loc" select="$css-loc" tunnel="yes"/>
-                <xsl:with-param name="parm-bib" select="$bibliography" tunnel="yes"/>
-                <xsl:with-param name="parm-bibloc" select="$localbibl" tunnel="yes"/>
-                <xsl:with-param name="parm-zoteroUorG" select="$ZoteroUorG" tunnel="yes"/>
-                <xsl:with-param name="parm-zoteroKey" select="$ZoteroKey" tunnel="yes"/>
-                <xsl:with-param name="parm-zoteroNS" select="$ZoteroNS" tunnel="yes"/>
-                <xsl:with-param name="parm-zoteroStyle" select="$ZoteroStyle" tunnel="yes"/>
-            </xsl:call-template>
-        </xsl:when>
-          <xsl:when test="$edn-structure='igcyr'">
-              <xsl:call-template name="igcyr-structure">
-                  <xsl:with-param name="parm-internal-app-style" select="$internal-app-style" tunnel="yes"/>
-                  <xsl:with-param name="parm-external-app-style" select="$external-app-style" tunnel="yes"/>
-                  <xsl:with-param name="parm-edn-structure" select="$edn-structure" tunnel="yes"/>
-                  <xsl:with-param name="parm-edition-type" select="$edition-type" tunnel="yes"/>
-                  <xsl:with-param name="parm-hgv-gloss" select="$hgv-gloss" tunnel="yes"/>
-                  <xsl:with-param name="parm-leiden-style" select="$leiden-style" tunnel="yes"/>
-                  <xsl:with-param name="parm-line-inc" select="$line-inc" tunnel="yes" as="xs:double"/>
-                  <xsl:with-param name="parm-verse-lines" select="$verse-lines" tunnel="yes"/>
-                  <xsl:with-param name="parm-css-loc" select="$css-loc" tunnel="yes"/>
-              </xsl:call-template>
-          </xsl:when>
-          <xsl:when test="$edn-structure='lares'">
-              <xsl:call-template name="lares-structure">
-                  <xsl:with-param name="parm-internal-app-style" select="$internal-app-style" tunnel="yes"/>
-                  <xsl:with-param name="parm-external-app-style" select="$external-app-style" tunnel="yes"/>
-                  <xsl:with-param name="parm-edn-structure" select="$edn-structure" tunnel="yes"/>
-                  <xsl:with-param name="parm-edition-type" select="$edition-type" tunnel="yes"/>
-                  <xsl:with-param name="parm-hgv-gloss" select="$hgv-gloss" tunnel="yes"/>
-                  <xsl:with-param name="parm-leiden-style" select="$leiden-style" tunnel="yes"/>
-                  <xsl:with-param name="parm-line-inc" select="$line-inc" tunnel="yes" as="xs:double"/>
-                  <xsl:with-param name="parm-verse-lines" select="$verse-lines" tunnel="yes"/>
-                  <xsl:with-param name="parm-css-loc" select="$css-loc" tunnel="yes"/>
-              </xsl:call-template>
+         <xsl:when test="$edn-structure = 'ecg'">
+             <div>
+                 <xsl:call-template name="ecg-structure">
+                     <xsl:with-param name="parm-internal-app-style" select="$internal-app-style" tunnel="yes"/>
+                     <xsl:with-param name="parm-external-app-style" select="$external-app-style" tunnel="yes"/>
+                     <xsl:with-param name="parm-edn-structure" select="$edn-structure" tunnel="yes"/>
+                     <xsl:with-param name="parm-edition-type" select="$edition-type" tunnel="yes"/>
+                     <xsl:with-param name="parm-hgv-gloss" select="$hgv-gloss" tunnel="yes"/>
+                     <xsl:with-param name="parm-leiden-style" select="$leiden-style" tunnel="yes"/>
+                     <xsl:with-param name="parm-line-inc" select="$line-inc" tunnel="yes" as="xs:double"/>
+                     <xsl:with-param name="parm-verse-lines" select="$verse-lines" tunnel="yes"/>
+                     <xsl:with-param name="parm-css-loc" select="$css-loc" tunnel="yes"/>
+                 </xsl:call-template>
+             </div>
+         </xsl:when>
+          <xsl:when test="$edn-structure = 'creta'">
+              <div>
+                  <xsl:call-template name="creta-structure">
+                      <xsl:with-param name="parm-internal-app-style" select="$internal-app-style" tunnel="yes"/>
+                      <xsl:with-param name="parm-external-app-style" select="$external-app-style" tunnel="yes"/>
+                      <xsl:with-param name="parm-edn-structure" select="$edn-structure" tunnel="yes"/>
+                      <xsl:with-param name="parm-edition-type" select="$edition-type" tunnel="yes"/>
+                      <xsl:with-param name="parm-hgv-gloss" select="$hgv-gloss" tunnel="yes"/>
+                      <xsl:with-param name="parm-leiden-style" select="$leiden-style" tunnel="yes"/>
+                      <xsl:with-param name="parm-line-inc" select="$line-inc" tunnel="yes" as="xs:double"/>
+                      <xsl:with-param name="parm-verse-lines" select="$verse-lines" tunnel="yes"/>
+                      <xsl:with-param name="parm-css-loc" select="$css-loc" tunnel="yes"/>
+                  </xsl:call-template>
+              </div>
           </xsl:when>
           <xsl:otherwise>
              <xsl:call-template name="default-structure">
@@ -261,11 +249,10 @@
                 <xsl:with-param name="parm-line-inc" select="$line-inc" tunnel="yes" as="xs:double"/>
                  <xsl:with-param name="parm-verse-lines" select="$verse-lines" tunnel="yes"/>
                  <xsl:with-param name="parm-css-loc" select="$css-loc" tunnel="yes"/>
+                 <xsl:with-param name="parm-glyph-variant" select="$glyph-variant" tunnel="yes"/>
             </xsl:call-template>
          </xsl:otherwise>
       </xsl:choose>
    </xsl:template>
-
-
 
 </xsl:stylesheet>

@@ -8,6 +8,11 @@
       <xsl:param name="parm-leiden-style" tunnel="yes" required="no"></xsl:param>
       <xsl:param name="parm-edition-type" tunnel="yes" required="no"></xsl:param>
       <div class="textpart">
+      	<!-- transfers the  @xml:lang attribute of the ab element to the textpart-->
+      	<!-- a div[@type='textpart'] is created for each ab element, independant of the textpart / ab hierarchical structure -->
+      	
+      	<!-- Found in htm-tpl-lang.xsl -->
+      	<xsl:call-template name="attr-lang"/>
           <span class="ab">
               <xsl:if test="$parm-leiden-style='iospe'">
                 <xsl:variable name="div-loc">
@@ -26,12 +31,12 @@
                 <xsl:text>-</xsl:text>
              </xsl:if>
              <!-- if final lb in ab is L2R or R2L, then print arrow here -->
-             <xsl:if test="not($parm-leiden-style=('ddbdp','sammelbuch')) 
-                and descendant::t:lb[last()][@rend='left-to-right']">
+             <xsl:if test="not($parm-leiden-style=('ddbdp', 'dclp','sammelbuch')) 
+                 and descendant::t:lb[last()][contains(@style, 'text-direction:l-to-r') or @rend='left-to-right']">
                 <xsl:text>&#xa0;&#xa0;→</xsl:text>
              </xsl:if>
-             <xsl:if test="not($parm-leiden-style=('ddbdp','sammelbuch')) 
-                and descendant::t:lb[last()][@rend='right-to-left']">
+             <xsl:if test="not($parm-leiden-style=('ddbdp','dclp','sammelbuch')) 
+                 and descendant::t:lb[last()][contains(@style, 'text-direction:r-to-l') or @rend='right-to-left']">
                 <xsl:text>&#xa0;&#xa0;←</xsl:text>
              </xsl:if>
              <!-- in IOSPE, if followed by lg, include it here (and suppress in htm-teilgandl.xsl) -->

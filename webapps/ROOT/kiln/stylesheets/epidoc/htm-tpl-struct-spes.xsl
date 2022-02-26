@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Id: htm-tpl-struct-spes.xsl 2561 2017-04-04 11:24:24Z gabrielbodard $ -->
-<xsl:stylesheet xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns:t="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="t" 
                 version="2.0">
    <!-- Contains named templates for SPES file structure -->
 
    <xsl:template name="spes-body-structure">
-      <p><b><i18n:text i18n:key="epidoc-xslt-spes-description">Description</i18n:text>: </b>
+      <p><b>Description: </b>
       <xsl:choose>
          <xsl:when test="//t:support/t:p/text()">
             <xsl:apply-templates select="//t:support/t:p" mode="spes-dimensions"/>
@@ -14,25 +14,25 @@
          <xsl:when test="//t:support//text()">
             <xsl:apply-templates select="//t:support" mode="spes-dimensions"/>
          </xsl:when>
-         <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-spes-unknown">Unknown</i18n:text></xsl:otherwise>
+         <xsl:otherwise>Unknown</xsl:otherwise>
       </xsl:choose>
 
       <br />
-      <b><i18n:text i18n:key="epidoc-xslt-spes-text">Text</i18n:text>: </b>
+      <b>Text: </b>
       <xsl:choose>
          <xsl:when test="//t:layoutDesc/t:layout//text()">
             <xsl:value-of select="//t:layoutDesc/t:layout"/>
          </xsl:when>
-         <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-spes-unknown">Unknown</i18n:text>.</xsl:otherwise>
+         <xsl:otherwise>Unknown.</xsl:otherwise>
       </xsl:choose>
       <br />
-      <b><i18n:text i18n:key="epidoc-xslt-spes-letters">Letters</i18n:text>: </b>
+      <b>Letters: </b>
       <xsl:if test="//t:handDesc/t:handNote/text()">
          <xsl:value-of select="//t:handDesc/t:handNote"/>
       </xsl:if>
       </p>
 
-      <p><b><i18n:text i18n:key="epidoc-xslt-spes-date">Date</i18n:text>: </b>
+      <p><b>Date: </b>
       <xsl:choose>
          <xsl:when test="//t:origin/t:origDate/text()">
             <xsl:value-of select="//t:origin/t:origDate"/>
@@ -47,26 +47,26 @@
                <xsl:text>)</xsl:text>
             </xsl:if>
          </xsl:when>
-         <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-spes-unknown">Unknown</i18n:text>.</xsl:otherwise>
+         <xsl:otherwise>Unknown.</xsl:otherwise>
       </xsl:choose>
       </p>
 
       <p>
          <xsl:if test="//t:provenance[@type='found'][string(translate(normalize-space(.),' ',''))]">
-            <b><i18n:text i18n:key="epidoc-xslt-spes-findspot">Findspot</i18n:text>: </b>
+            <b>Findspot: </b>
             <xsl:apply-templates select="//t:provenance[@type='found']" mode="spes-placename"/>
          </xsl:if>
 
          <xsl:if test="//t:origin/t:origPlace/text()">
             <br/>
-            <b><i18n:text i18n:key="epidoc-xslt-spes-original-location">Original location</i18n:text>: </b>
+            <b>Original location: </b>
             <xsl:apply-templates select="//t:origin/t:origPlace" mode="spes-placename"/>
          </xsl:if>
 
          <xsl:if test="//t:provenance[@type='observed'][string(translate(normalize-space(.),' ',''))] or
                        //t:msIdentifier//t:repository[string(translate(normalize-space(.),' ',''))]">
             <br/>
-            <b><i18n:text i18n:key="epidoc-xslt-spes-last-location">Last recorded location</i18n:text>: </b>
+            <b>Last recorded location: </b>
             <xsl:if test="//t:provenance[@type='observed'][string(translate(normalize-space(.),' ',''))]">
                <xsl:apply-templates select="//t:provenance[@type='observed']" mode="spes-placename"/> 
             </xsl:if>
@@ -82,15 +82,15 @@
          </xsl:if>
       </p>
 
-      <p><b><i18n:text i18n:key="epidoc-xslt-spes-bibliography">Bibliography</i18n:text>: </b>
+      <p><b>Bibliography: </b>
       <xsl:apply-templates select="//t:div[@type='bibliography']/t:p/node()"/>
       <br/>
-      <b><i18n:text i18n:key="epidoc-xslt-spes-text-constituted">Text constituted from</i18n:text>: </b>
+      <b>Text constituted from: </b>
       <xsl:apply-templates select="//t:creation"/>
       </p>
 
       <div id="edition">
-         <p><b><i18n:text i18n:key="epidoc-xslt-spes-edition">Edition</i18n:text>:</b></p>
+         <p><b>Edition:</b></p>
          <!-- Edited text output -->
          <xsl:variable name="edtxt">
             <xsl:apply-templates select="//t:div[@type='edition']"/>
@@ -109,7 +109,7 @@
       </div>
 
       <div id="translation">
-         <h4 class="slimmer"><i18n:text i18n:key="epidoc-xslt-spes-translation">Translation</i18n:text>:</h4>
+         <h4 class="slimmer">Translation:</h4>
          <!-- Translation text output -->
          <xsl:variable name="transtxt">
             <xsl:apply-templates select="//t:div[@type='translation']//t:p"/>
@@ -119,7 +119,7 @@
       </div>
 
       <div id="commentary">
-         <h4 class="slimmer"><i18n:text i18n:key="epidoc-xslt-spes-commentary">Commentary</i18n:text>:</h4>
+         <h4 class="slimmer">Commentary:</h4>
          <!-- Commentary text output -->
          <xsl:variable name="commtxt">
             <xsl:apply-templates select="//t:div[@type='commentary']//t:p"/>
@@ -130,12 +130,12 @@
    </xsl:template>
 
    <!-- Called from htm-tpl-structure.xsl -->
-
+   
    <xsl:template name="spes-structure">
       <xsl:variable name="title">
          <xsl:call-template name="spes-title" />
       </xsl:variable>
-
+      
       <html>
          <head>
             <title>
@@ -145,7 +145,7 @@
             <!-- Found in htm-tpl-cssandscripts.xsl -->
             <xsl:call-template name="css-script"/>
          </head>
-
+         
          <body>
             <h1>
                <xsl:value-of select="$title"/>
@@ -155,7 +155,7 @@
          </body>
       </html>
    </xsl:template>
-
+   
    <xsl:template match="t:dimensions" mode="spes-dimensions">
       <xsl:if test="//text()">
          <xsl:if test="t:width/text()">w: 
@@ -175,7 +175,7 @@
          </xsl:if>
       </xsl:if>
    </xsl:template>
-
+   
    <xsl:template match="t:placeName|t:rs" mode="spes-placename">
       <xsl:choose>
          <xsl:when test="contains(@ref,'pleiades.stoa.org') or contains(@ref,'geonames.org')">

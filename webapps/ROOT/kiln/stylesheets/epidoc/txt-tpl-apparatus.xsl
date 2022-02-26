@@ -15,7 +15,7 @@
       
          <xsl:text>
 
-Apparatus###
+Apparatus
 
 </xsl:text>
          <!-- An entry is created for-each of the following instances -->

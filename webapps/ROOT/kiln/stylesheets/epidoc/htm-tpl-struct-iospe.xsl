@@ -234,17 +234,6 @@
         <!-- Moded templates found in htm-tpl-sqbrackets.xsl -->
         <xsl:apply-templates select="$commtxt" mode="sqbrackets"/>
       </div>
-      <div id="images" class="iospe">
-        <h4 class="iospe"><i18n:text i18n:key="epidoc-xslt-iospe-images">Images</i18n:text></h4>
-        <dl>
-          <xsl:for-each select="//t:facsimile//t:graphic">
-            <dt width="150" align="left"></dt>
-            <dd>
-              <xsl:apply-templates select="." />
-            </dd>
-          </xsl:for-each>
-        </dl>
-      </div>
     </div>
   </xsl:template>
 

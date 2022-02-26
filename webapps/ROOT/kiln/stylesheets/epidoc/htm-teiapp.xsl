@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Id$ -->
-<xsl:stylesheet xmlns:i18n="http://apache.org/cocoon/i18n/2.1"
-                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns:tei="http://www.tei-c.org/ns/1.0"
                 xmlns:t="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="t"
                 version="2.0">
@@ -11,6 +10,7 @@
       <xsl:param name="parm-internal-app-style" tunnel="yes" required="no"></xsl:param>
       <xsl:param name="parm-external-app-style" tunnel="yes" required="no"></xsl:param>
       <xsl:param name="parm-edn-structure" tunnel="yes" required="no"></xsl:param>
+      <xsl:param name="location" tunnel="yes" required="no"/>
       <xsl:choose>
          <xsl:when test="$parm-edn-structure = 'igcyr'">
          <xsl:for-each select=".">
@@ -116,10 +116,8 @@
                            </xsl:if>
                         </xsl:for-each>
                      </xsl:when>
-                     <xsl:otherwise>
-                        <i18n:text i18n:key="epidoc-xslt-other-reading">
+                        <xsl:otherwise>
                            <xsl:text>Other reading</xsl:text>
-                        </i18n:text>
                         </xsl:otherwise>
                      </xsl:choose>
                      </xsl:variable>
@@ -157,7 +155,7 @@
 
 
   <xsl:template match="t:rdg">
-      <xsl:param name="parm-edition-type" tunnel="yes" required="no"></xsl:param>
+      <xsl:param name="parm-edition-type" tunnel="yes" required="no"/>
       <xsl:choose>
           <xsl:when test="$parm-edition-type = 'diplomatic'">
             <xsl:choose>
@@ -198,7 +196,7 @@
       <xsl:param name="parm-leiden-style" tunnel="yes" required="no"></xsl:param>
       <xsl:param name="parm-hgv-gloss" tunnel="yes" required="no"></xsl:param>
       <xsl:choose>
-          <xsl:when test="$parm-leiden-style=('ddbdp','sammelbuch') and ancestor::t:div[@type='translation']">
+         <xsl:when test="$parm-leiden-style=('ddbdp','dclp','sammelbuch') and ancestor::t:div[@type='translation']">
             <xsl:variable name="wit-val" select="@resp"/>
             <xsl:variable name="lang" select="ancestor::t:div[@type = 'translation']/@xml:lang"/>
             <span class="term">
@@ -228,12 +226,12 @@
               </span>
             </span>
          </xsl:when>
-          <xsl:when test="$parm-leiden-style=('ddbdp','sammelbuch') and ancestor::t:*[local-name()=('reg','corr','rdg')
+         <xsl:when test="$parm-leiden-style=('ddbdp','dclp','sammelbuch') and ancestor::t:*[local-name()=('reg','corr','rdg') 
             or self::t:del[@rend='corrected']]">
             <xsl:apply-templates/>
             <xsl:if test="@resp">
                <xsl:choose>
-                   <xsl:when test="$parm-leiden-style='ddbdp'"><xsl:text> FNORD-SPLIT </xsl:text></xsl:when>
+                  <xsl:when test="$parm-leiden-style=('ddbdp','dclp')"><xsl:text> FNORD-SPLIT </xsl:text></xsl:when>
                   <xsl:otherwise><xsl:text> </xsl:text></xsl:otherwise>
                </xsl:choose>
                <xsl:if test="parent::t:app[@type='BL']">
@@ -246,7 +244,7 @@
                   <xsl:text> (via PE)</xsl:text>
                </xsl:if>
                <xsl:choose>
-                   <xsl:when test="$parm-leiden-style='ddbdp'"><xsl:text> FNORD-DELIM </xsl:text></xsl:when>
+                  <xsl:when test="$parm-leiden-style=('ddbdp','dclp')"><xsl:text> FNORD-DELIM </xsl:text></xsl:when>
                   <xsl:otherwise><xsl:text> </xsl:text></xsl:otherwise>
                </xsl:choose>
             </xsl:if>

@@ -10,6 +10,7 @@
   <parameter>
     <name>leiden-style</name>
     <value>ddbdp</value>
+    <value>dclp</value>
     <value>dohnicht</value>
     <value>edh-itx</value>
     <value>edh-names</value>
@@ -125,6 +126,19 @@
 <parameter>
     <name>js-dir</name>
     <value>../js/</value>
+  </parameter>
+  
+  <parameter>
+    <name>glyph-variant</name>
+    <value on="yes">standard</value>
+    <value>simplified</value>
+    <value>glyph-display</value>
+    <value>text-display</value>
+    <value>g-london</value>
+    <value>g-iospe</value>
+    <value>g-ddbdp</value>
+    <value>g-rib</value>
+    <value>g-creta</value>
   </parameter>
   
 </parameters>
