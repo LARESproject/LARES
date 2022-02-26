@@ -68,6 +68,7 @@
     <xsl:include href="htm-tpl-struct-edak.xsl"/>
     <xsl:include href="htm-tpl-struct-inslib.xsl"/>
     <xsl:include href="htm-tpl-struct-iospe.xsl"/>
+    <xsl:include href="htm-tpl-struct-lares.xsl"/>
     <xsl:include href="htm-tpl-struct-sample.xsl"/>
     <xsl:include href="htm-tpl-struct-sigidoc.xsl"/>
     <xsl:include href="htm-tpl-struct-ecg.xsl"/>
@@ -141,8 +142,8 @@
                   <xsl:with-param name="parm-css-loc" select="$css-loc" tunnel="yes"/>
               </xsl:call-template>
           </xsl:when>
-         <xsl:when test="$edn-structure = 'sample'">
-              <xsl:call-template name="sample-structure">
+         <xsl:when test="$edn-structure = 'lares'">
+             <xsl:call-template name="lares-structure">
                   <xsl:with-param name="parm-internal-app-style" select="$internal-app-style" tunnel="yes"/>
                   <xsl:with-param name="parm-external-app-style" select="$external-app-style" tunnel="yes"/>
                   <xsl:with-param name="parm-edn-structure" select="$edn-structure" tunnel="yes"/>
