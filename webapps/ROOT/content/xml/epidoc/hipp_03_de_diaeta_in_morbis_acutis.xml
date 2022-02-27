@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Corpus Hippocraticum, De diaeta in morbis acutis</title>
+                <title xml:lang="en">Corpus Hippocraticum, De diaeta in morbis acutis</title>
+                <title xml:lang="pl">Corpus Hippocraticum, De diaeta in morbis acutis</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hipp_03_de_diaeta_in_morbis_acutis</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Corpus Hippocraticum, De diaeta in morbis acutis</title>, in Przemysław Biernat, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Corpus Platonicum. Corpus Hippocraticum</title>, Warszawa 2017, pp. 181-193 [191-193]</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded in XML</change>
+                <change when="2017" who="Przemysław Biernat">written contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!--xml:lang="pl"-->
+                <div type="textpart" n="intro">
+                    <p>Poświęcony dietetyce (a tym samym leczeniu) chorych na scho-rzenia ostre traktat miał powstać w ostatnim trzydziestoleciu V w. 
+                        p.n.e. (Joly 1972: 23, odrzucając wcześniejszą propozycję, by traktat 
+                        datować na IV w. p.n.e. i widzieć w nim wpływy platońskie). Pismo 
+                        nie jest jednak tylko podręcznikiem – otwiera je polemika z Κνίδιαι 
+                        γνῶμαι, prawdopodobnie rozpowszechnionym wówczas zbiorem 
+                        medycznych instrukcji, a sam traktat pełen jest, zwłaszcza w pierw-szych rozdziałach, rozważań nad ogólną kondycją τέχνη ἰατρική. 
+                        Polemika z „knidyjczykami” (na ich temat zob. rozsądne uwagi 
+                        Langholfa 1990: 16–17; por. też Jones 1959: xiv–xix), wyrażenia o cha-rakterze normatywizującym, takie jak np. „chwaliłbym zwłaszcza 
+                        tego lekarza, który” (μάλιστα δ᾽ ἂν ἐπαινέσαιμι ἰητρόν, ὅστις, 5.1, 
+                        por. też 10.1), oraz podzielenie ludzi praktykujących medycynę na 
+                        ἰητροί i μὴ ἰητροί (6.1) składają się na zachętę do wypracowania me-dycznej ortodoksji, konsensu między lekarzami, który wzmocniłby 
+                        pozycję medycyny jako τέχνη w oczach laików. Jak bowiem przy-znaje w cytowanym fragmencie autor, „cała sztuka ma tak złą opinię 
+                        wśród ludzi, że nieledwie zdaje się, że w ogóle nie ma żadnej medy-cyny” (8.1).
+                        Tekst na podstawie wydania: Joly (1972)</p>
+                </div>
+            
+                <div type="textpart" n="De_diaeta_in_morbis_acutis_8.1–2">
+                    <head>De diaeta in morbis acutis 8.1–2</head>
+                    <p>Komentowany passus jest dość rozpaczliwym apelem autora do 
+                        innych lekarzy, którzy rozbieżnością diagnoz kompromitują sztukę 
+                        lekarską.</p>
+                    <quote>καίτοι διαβολήν γε ἔχει ὅλη ἡ τέχνη πρὸς τῶν δημοτέων μεγάλην, 
+                        ὡς μηδὲ δοκέειν ὅλως ἰητρικὴν εἶναι· [2] ὥστ᾽ εἰ ἔν γε τοῖσιν ὀξέσι 
+                        τῶν νουσημάτων τοσόνδε διοίσουσιν ἀλλήλων οἱ χειρωνάκται, 
+                        ὥστε ἃ ὁ ἕτερος προσφέρει ἡγεύμενος ἄριστα εἶναι, ταῦτα 
+                        νομίζειν τὸν ἕτερον κακὰ εἶναι, σχεδὸν ἂν κατά γε τῶν τοιούτων 
+                        τὴν τέχνην φαῖεν ὡμοιῶσθαι μαντικῇ, ὅτι καὶ οἱ μάντιες τὸν αὐτὸν 
+                        ὄρνιθα, εἰ μὲν ἀριστερὸς εἴη, ἀγαθὸν νομίζουσιν εἶναι, εἰ δὲ δεξιὸς, 
+                        κακόν – καὶ ἐν ἱεροσκοπίῃ δὲ τοιάδε, ἄλλα ἐπ᾽ ἄλλοις –, ἔνιοι δὲ 
+                        τῶν μαντίων τὰ ἐναντία τούτων.</quote>
+                    <quote>Już przecież cała sztuka ma tak złą opinię wśród ludzi, że nieledwie 
+                        zdaje się, że w ogóle nie ma żadnej medycyny; wskutek czego – jeżeli 
+                        zajmujący się leczeniem nie będą zgodni do tego stopnia, że co jeden 
+                        zaleci, uważając za pożyteczne, drugi uzna za szkodliwe – niewie-le zabraknie, żeby zaczęto mówić wśród ludzi, że sztuka [lekarska] 
+                        przypomina mantyczną, ponieważ również wróżbici tego samego 
+                        ptaka, jeżeli leci ze strony lewej, uważają za znak pomyślny, a jeżeli 
+                        z prawej, za niepomyślny – również w hieroskopii te same znaki [zna-czą] co innego w różnym położeniu – pewni zaś spośród wróżbitów 
+                        interpretują je odwrotnie</quote>
+                    <p>8.2: ἐν ἱεροσκοπίῃ – „w hieroskopii”; interpretacja wnętrzności 
+                        zwierzęcia ofiarnego należała do najważniejszych funkcji wieszcz-ków (manteis), choć nie była zarezerwowana wyłącznie dla nich (por. 
+                        Bouché-Leclercq 1879 vol. 1: 166–174; Flower 2008; Collins 2008b; Fur-ley, Gysembergh 2015; scholia in Ar. V. 831, komentarz do Praw 7.791a–
+                        b). Tutaj hieroskopia ukazana jest w analogii do interpretacji lotu 
+                        ptaków (zob. Halliday 1913: 246–271; Collins 2002), wspólnie z którą 
+                        porównana została do sztuki lekarskiej. W pierwszej chwili można od-nieść wrażenie, że autor odwołuje się tutaj do negatywnego stereotypu 
+                        mantyki jako formy anti-techne, w której nie istnieją żadne uchwytnereguły. Jednak nawet jeżeli pewni wróżbici posługiwali się innym klu-czem w interpretacji znaków (czego echem może być dotycząca inter-pretacji lotu ptaków inskrypcja z Efezu, LSAM 30), to chyba należeli 
+                        do mniejszości, a stereotyp, do którego miałby odwoływać się autor, 
+                        w rzeczywistości nie istniał – w epoce klasycznej hieroskopia pozo-stawała uznaną i powszechnie praktykowaną metodą interpretacji 
+                        znaków, a manteis odgrywali ważną rolę w życiu religijnym polis (zob. 
+                        m.in. Bremmer 1996; Flower 2008; nawet Platon włączył ich do grona 
+                        religijnych autorytetów zaprojektowanego przez siebie państwa, zob. 
+                        Lg. 828b).
+                        
+                    </p>
+                </div>
+                  
+                     
+            </div>
+            
+        </body>
+    </text>
+</TEI>

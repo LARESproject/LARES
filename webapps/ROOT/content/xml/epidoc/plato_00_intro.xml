@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Introduzione</title>
+                <title xml:lang="en">Introduction</title>
+                <title xml:lang="pl">Wstęp</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">plato_00_intro</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Wstęp</title>, in Przemysław Biernat, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Corpus Platonicum. Corpus Hippocraticum</title>, Warszawa 2017, pp. 7-12</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded in XML</change>
+                <change when="2017" who="Przemysław Biernat">written contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!--xml:lang="pl"-->
+                <div type="textpart" n="intro">
+                    <quote>„Plato’s theology has often been examined, Plato’s religion less often, 
+                        and the religion of Plato’s state almost not at all”.
+                        Glenn R. Morrow, Plato’s Cretan City</quote>
+                    <p>Przedmiotem zawartych w niniejszym tomie komentarzy są wzmianki 
+                        o rytuałach ofiarniczych w dziełach pochodzących ze zbioru określa-nego tradycyjnie jako Corpus Platonicum, zawierającego pisma Platona 
+                        i anonimowych naśladowców jego myśli i stylu. W odróżnieniu od teo-logii Platona, o której napisano wiele, praktyczny wymiar religii, od-zwierciedlony w jego dialogach, stosunkowo rzadko obierany był jako 
+                        przedmiot samodzielnych badań, służąc raczej za drugorzędne źródło 
+                        uczonym podejmującym problematykę greckich wierzeń i kultu. Infor-macje, które Platon przekazuje na temat faktycznie spełnianych rytu-ałów, są istotnie znikome. Dość wspomnieć, że opis procedury ofiarni-czej, który ze zrozumiałych względów jest uznawany przez historyków 
+                        religii za świadectwo o pierwszorzędnym znaczeniu, w dialogach Pla-tona pojawia się tylko raz, na dodatek jest to ofiara całkowicie fikcyjna. 
+                        Tym samym przywołana jako motto opinia Glenna R. Morrowa (1960: 
+                        399, przyp. 2) wciąż dość adekwatnie oddaje stan rzeczy: od publikacji 
+                        jego monografii minęło co prawda 60 lat, w ciągu których ukazało się 
+                        wiele wartościowych opracowań, ale stosunek ilościowy pozostał mniej 
+                        więcej taki sam: dużo o platońskiej teologii, o religii stosunkowo niewie-le. I chociaż Morrow, pisząc „the religion of Plato’s state”, miał na myśli 
+                        religię projektowanego w Prawach państwa, my pozwolimy sobie na za-bieg de- i rekontekstualizacji cytatu (pobieraliśmy w tym nauki u same-go Platona), rozciągając znaczenie słowa state również na historyczne 
+                        Ateny, odzwierciedlone w pismach filozofa.  Informacje przekazane przez Platona na temat greckiego rytuału 
+                        ofiarniczego są niejednorodne, ale dużą część z nich można przypo-rządkować do kilku niesymetrycznych kategorii. Do pierwszej z nich 
+                        należą informacje dotyczące historycznych świąt i rytuałów: Bendide-jów (Państwo 327a–328a), Hermajów (Lizys 206d), kultu Asklepiosa 
+                        (Fedon 118a), ofiar dla bogini Hestii (Kratylos 401d) i tych spełnianych 
+                        w świątyni Zeusa Lykajosa w Arkadii (Państwo 565d–e). W dru-giej można umieścić opis fikcyjnej ofiary dla Posejdona z Kritiasza
+                        (119c–120c) – zarazem literacki pastisz i rytualny kolaż. W trzeciej – 
+                        namysł nad ofiarą jako taką, zarówno w jej wymiarze teologicznym, 
+                        jak i społecznym (tutaj w grę wchodzą liczne passusy Praw, Eutyfron
+                        oraz początek Państwa; echa tej refleksji pobrzmiewają w nieauten-tycznym Alkibiadesie Drugim). Można oczywiście wysuwać/zgłaszać 
+                        zastrzeżenie, że jest to refleksja wyłącznie jednego człowieka, na do-datek nietuzinkowego, ale zdaje się, że ten argument nie ma obecnie 
+                        żadnych zwolenników, przynajmniej nie wśród historyków religii. 
+                        Kontrast między „religią ludową” (popular religion) a „religią filozo-fów”, który w swoich publikacjach postulują niektórzy uczeni (np. 
+                        Vlastos 1991; McPherran 2002; Mikalson 2010), jest stanowczo przeja-skrawiony i niekiedy paternalistyczny, a samo pojęcie popular religion
+                        – problematyczne (zob. Pirenne-Delforge 2008; Lännström 2011; Kindt 
+                        2016). Zadaniem tej książki jest więc poprawne skontekstualizowanie 
+                        zarówno własnego projektu teologicznego Platona, jak i dopuszczo-nych przezeń do głosu (nierzadko zapośredniczonego) cudzych „teo-logii” (Eutyfrona, Kefalosa, orfeotelestów itp.).</p>
+                    <p>Słowem „teologia” posługuję się tutaj rozmyślnie i nieco na przekór 
+                        pierwszej intuicji, jaką słowo może wywołać u czytelnika wychowane-go w tej tradycji religijnej. O teologii w sensie korpusu usystematyzo-wanej wiedzy, stworzonej, legitymizowanej i podtrzymywanej przez 
+                        jednolitą grupę specjalistów w starożytnej Grecji mowy być oczywi-ście nie może, ale nie jest też tak, że grecka refleksja nad „sprawami 
+                        dotyczącymi bogów” (ta theia) całkowicie wolna była od autorytetu, 
+                        który by nią kierował lub wyznaczał granice, w których może się po-ruszać. Panhelleńska wyrocznia, tragediopisarz, religijny specjalista, 
+                        który udowodnił swoją praktyczną skuteczność, demos, legendarny 
+                        poeta i przekonujący interpretator jego poezji – to tylko kilka przykła-dów autorytetów, które ze sobą rywalizowały lub, co zdecydowanie 
+                        częstsze, wzmacniały się nawzajem, formułując swoje cząstkowe theo
+                        -logie, wypowiedzi na temat spraw boskich (moje rozumienie teologii 
+                        jest więc odmienne niż np. Burkerta, 1985: 246–247, który chyba nazbyt 
+                        sztucznie próbował postawić rozgraniczenie między teologią poetów, 
+                        teologią polis i teologią filozofów).
+                        Zainteresowanie refleksją Greków nad bogami odsyła nas w spo-sób nieunikniony do kategorii wierzenia (belief). Ten na pozór dość 
+                        oczywisty element opisu każdej, zdawałoby się, religii, w pracach sta-rożytników długo pozostawał w cieniu swojej brzydkiej siostry, prak-tyki (practice). W przeciwieństwie do antropologów historycy religii 
+                        nie mogli bowiem udać się między Greków z plikiem ankiet do wypeł-nienia. Ta metodologicznie poprawna ostrożność przybrała z czasem 
+                        u niektórych uczonych wymiary zgoła patologiczne, ponieważ zaczęto 
+                        podważać zasadność samego używania terminów belief/believe w bada-niach nad religiami przedchrześcijańskimi, dowodzono wręcz, że od-powiedniki tych słów w grece nie istniały (Needham 1972; Giordano-
+                        -Zecharya 2005; tę tendencję można już chyba uznać za przezwyciężo-ną, zob. Versnel 2011: 539–559). Zwrot pragmatyczny w badaniach nad 
+                        religią grecką, czyli postawienie rytuału w centrum zainteresowania 
+                        uczonych, przypieczętowany został w latach siedemdziesiątych, kiedy 
+                        ukazały się Homo Necans – najbardziej wpływowe dzieło Waltera Bur-kerta (pierwsze wydanie w 1972 r., przekład angielski – Burkert 1983) 
+                        i La cuisine du sacrifice en pays grec – flagowa publikacja grupy uczonych 
+                        skupionych wokół Jean-Pierre’a Vernanta (Detienne, Vernant 1979). 
+                        Mimo wyraźnych różnic metodologicznych ci dwaj totemiczni ojco-wie współczesnych badań nad religią starożytnej Grecji skoncentro-wali swoją uwagę na ofierze krwawej, widząc w niej centralny rytuał 
+                        Greków. Burkert poszukiwał w nim śladów tego, co w historycznym 
+                        i psychologicznym sensie pierwotne, mając ambicję objaśnić sens grec-kiego rytuału ofiarniczego przez zrozumienie jego źródeł. Koncepcje 
+                        uczonych francuskich trudniej streścić w jednej formule, ale wszyscy, 
+                        jak się zdaje, wychodzili z założenia sformułowanego przez Mar-cela Detienne’a, według którego ofiara zwierzęca stanowiła sposób pozyskiwania mięsa i artykulacji miejsca, jakie uczestnik rytuału zaj-mował w uporządkowanym wszechświecie i w strukturze społecznej 
+                        polis (Detienne 1979a). Za inny ważny wyraz zwrotu pragmatycznego 
+                        Julia Kindt (2016: 21–22) uznała wykształcenie się paradygmatu polis
+                        religion, który zdominował sposób opisu religii Greków równolegle 
+                        z popularyzacją koncepcji Burkerta i francuskich strukturalistów, na 
+                        których się w dużej mierze opierał. W ramach tego paradygmatu, naj-pełniej wyrażonego przez Christiane Sourvinou-Inwood (2000), religia 
+                        to przede wszystkim zespół wspólnotowych, obywatelskich praktyk 
+                        religijnych, zanurzonych w społecznych strukturach polis i reprezen-tujących je. Wszystko, co znajdowało się poza polis, dawało się scha-rakteryzować najwyżej jako sectarian discourse (Sourvinou-Inwood 
+                        2000: 20).</p>
+                    <p>Każdy, kto śledzi najnowsze publikacje w dziedzinie badań nad re-ligią starożytnych Greków, zauważył pewnie, że po ponad ćwierćwie-czu wypracowywania, testowania i niuansowania stare teorie zaczęły 
+                        się wyczerpywać, a uczeni zaczęli poszukiwać nowych sposobów pro-blematyzowania zjawisk z zakresu religii greckiej (krytyczna refleksja 
+                        nad niektórymi koncepcjami szkoły paryskiej: Georgoudi 2010; fiasko 
+                        „wielkiej teorii” Burkerta: Graf 2012; krytyka paradygmatu polis reli-gion: Kindt 2009; Kindt 2012: 12–35; Eidinow 2011; zob. też uwagi ogól-ne w: Parker 2011: 84–144). Krytycy teorii Burkerta i tez francuskich 
+                        strukturalistów zwracają uwagę, że opisując grecką praktykę ofiarni-czą, kładli oni akcent w miejscach – patrząc z perspektywy Greków 
+                        – niewłaściwych. Wspólne dla Burkerta i Vernanta (choć inaczej moty-wowane) przekonanie, że podczas ofiary rozgrywała się swoista „ko-media niewinności”, czyli próba zatajenia przed zwierzęciem inten-cji ofiarników i jego wymuszona zgoda na bycie złożonym w ofierze, 
+                        opierało się na wybiórczo potraktowanych źródłach literackich i niedo-statecznym wykorzystaniu przez uczonych źródeł ikonograficznych 
+                        (zob. Pierce 1993; Georgoudi 2005; Naiden 2007; Parker 2011: 128–130). 
+                        Ofiara niewątpliwie stwarzała okazję do jedzenia mięsa (rzadką dla 
+                        Greków), ale nikt już chyba nie powtórzy za Marcelem Detienne’em, 
+                        że „l’alimentation carnée coincide absolutement avec la pratique sa-crificielle” (1979a: 10). Ofiarując zwierzę, Grek chyba raczej nie miał 
+                        poczucia winy, zapewne cieszył się na myśl o posiłku, być może do-strzegał w równym podziale mięsa odzwierciedlenie społecznego ega-litaryzmu jego polis, z pewnością natomiast – bo do tego sam się nam 
+                        przyznaje – darował coś bogom. Komentując niedostatki klasycznych 
+                        teorii, Robert Parker zauważył, że „[t]he whole Greek conceptualization 
+                        of the relation between gods and men becomes incomprehensible if one 
+                        denies that a sacrifice was a gift that would ideally call forth a counter-gift” (Parker 2011: 137). Niewielkie zainteresowanie tym aspektem ofi-ary u Burkerta czy Detienne’a (zob. Naiden 2013 oraz odpowiedź, jakiej 
+                        na jego zarzuty udzielił Carbon 2013) nie wynika jednak z przeoczenia. 
+                        Przeciwnie, uczeni ci z pewnością doskonale zdawali sobie sprawę 
+                        z implikacji materiałów źródłowych, ale, jak sądzę, nie wszystkie te 
+                        implikacje wydawały im się jednakowo atrakcyjne. Burkert próbował 
+                        zrekonstruować źródła greckich praktyk ofiarniczych, zarówno te hi-storyczne (zwyczaje neolitycznych myśliwych), jak i psychologiczne 
+                        (wentyl dla agresji wewnątrzgatunkowej), Francuzi natomiast chcie-li „mówić nadzwyczaj inteligentnie”, by posłużyć się frazą Czesława 
+                        Miłosza (1985: 135) z wiersza Strukturalizm. Sprowadzenie dyskusji 
+                        nad ofiarą do serii łacińskich koniugacji („do ut des”, „da ut dem”, 
+                        „do quia dedisti”) musiało im się wydawać powierzchowne i nieinte-resujące (por. van Straten 2005: 17, z uwzględnieniem kontekstu kon-ferencji, na której został wygłoszony pierwowzór artykułu). Rosnące 
+                        zainteresowanie uczonych tym, jak sami Grecy rozumieli swoje zwy-czaje ofiarnicze (nie tylko ofiarę zwierzęcą, ale też całą praktykę „da-rowania bogom”, zob. Patera 2012; Jim 2014), stanowi zachętę, by po 
+                        raz pierwszy systematycznie przyjrzeć się wątkom ofiarniczym w dia-logach Platona.</p>
+                    <p>Niniejsza książka powstała w ramach projektu badawczego Ofia-ra krwawa w starożytnej Grecji w świetle danych filologicznych, finanso-wanego ze środków Narodowego Centrum Nauki (UMO-2013/09/B/
+                        HS2/01208), realizowanego w Instytucie Filologii Klasycznej UJ. Zgod-nie z przyjętymi w zespole regułami pracy wszystkie tłumaczenia są 
+                        mojego autorstwa. Starałem się być możliwie dokładny, tam gdzie 
+                        tekst poruszał zagadnienia z zakresu religii, wszędzie zaś indziej za-dowalałem się uzyskaniem tekstu zrozumiałego. Pretensji do artyzmu 
+                        nie miałem żadnych. Informacje o istniejących przekładach polskich 
+                        podaję z pominięciem tłumaczeń starszych niż te autorstwa Władysła-wa Witwickiego.
+                        Z powodu niepewności co do datowania większości dialogów i co 
+                        do relatywnej chronologii niektórych z nich komentowane pisma uło-żone zostały w oparciu o jedyne intersubiektywne kryterium, jakim 
+                        jest porządek alfabetyczny. Po nich, również w porządku alfabetycz-nym, zostały zamieszczone dzieła przypisywane niegdyś Platonowi. 
+                        Takie rozwiązanie może się wydać kontrowersyjne, pamiętać jednak 
+                        należy, że niniejsza książka nie jest przeznaczona do lektury ciągłej. 
+                        Komentarze pozbawione są przypisów, co wynika z przyjętej przez 
+                        zespół konwencji. Mam nadzieję, że nie odbierze im to charakteru na-ukowego w oczach czytelników</p>
+                    <p>Bibliografię do poszczególnych dialogów ograniczyłem (naturalnie 
+                        z pewnymi wyjątkami) do prac, które w jakimś stopniu poruszały za-gadnienia stanowiące przedmiot moich badań, jakim jest religia grec-ka. Czytelników zainteresowanych w większym stopniu samą filozo-fią Platona, poszukujących komentarzy do poszczególnych dialogów, 
+                        syntetycznych ujęć lub szczegółowych opracowań, odsyłam do usys-tematyzowanej bibliografii publikowanej cyklicznie w czasopiśmie 
+                        „Lustrum” (Cherniss 1959; Cherniss 1960; Brisson 1977; Brisson, Ioan-nidi 1983; Brisson, Ioannidi 1988; Brisson, Ioannidi 1992), następnie zaś 
+                        on-line na stronie International Plato Society (http://platosociety.org/pla-to-bibliography/). Informacje o charakterze prozopograficznym, które 
+                        podaję w ograniczonym zakresie, zebrała Debra Nails w The People of 
+                        Plato (2002).
+                        Skróty tytułów dzieł starożytnych i imion ich autorów podaję za 
+                        słownikiem A Greek-English Lexicon H.G. Liddella, R. Scotta i H.S. Jonesa (dostępny również w wersji on-line: http://stephanus.tlg.uci.edu/lsj/#).
+                    </p>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

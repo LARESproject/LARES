@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Corpus Hippocraticum, De morbo sacro</title>
+                <title xml:lang="en">Corpus Hippocraticum, De morbo sacro</title>
+                <title xml:lang="pl">Corpus Hippocraticum, De morbo sacro</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hipp_01_de_morbo_sacro</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Corpus Hippocraticum, De morbo sacro</title>, in Przemysław Biernat, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Corpus Platonicum. Corpus Hippocraticum</title>, Warszawa 2017, pp. 181-193 [181-188]</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded in XML</change>
+                <change when="2017" who="Przemysław Biernat">written contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Zbiór określany mianem Corpus Hippocraticum składa się z 53 trak-tatów pisanych przez różnych autorów, reprezentujących różne me-dyczne tradycje (unikam słowa „szkoły” pod wpływem argumentacji 
+                        Langholfa 1990, zob. zwłaszcza 12–36), i scalonych w jedno być może 
+                        dopiero w Aleksandrii w III w. p.n.e. (Turasiewicz 2005: 493–495; We-soły 2008: 19–20). Interesująca nas terminologia ofiarnicza pojawia się 
+                        w tekstach korpusu sporadycznie i w aspekcie raczej ilościowym niż 
+                        jakościowym. Najbogatszy pod tym względem jest traktat De morbo 
+                        sacro, choć i on w większym stopniu zaświadcza o teologicznych po-glądach swojego autora niż o rytualnej rzeczywistości epoki. </p>
+                    <p>Hippokratejski traktat De morbo sacro poświęcony jest opisowi ty-tułowej „świętej choroby” – epilepsji. Tekst powstał prawdopodobnie 
+                        między 420 a 350 r. p.n.e. (Turasiewicz 2005: 494), a paralelizmy z tre-ścią De aere, aquis et locis skłoniły niektórych komentatorów i wydaw-ców, by uznać wspólne autorstwo obu pism (główne argumenty „za” 
+                        i „przeciw” referuje Jouanna 2003: LXX–LXXIV). Traktat De morbo sacro
+                        od zawsze cieszył się zainteresowaniem badaczy religii greckiej, ponie-waż jego początek poświęcony jest polemice z głównymi konkurentami 
+                        hippokratejczyków – religijnymi specjalistami (zob. Rüpke 1996), którzy 
+                        w chorobie widzieli następstwo zmazy i uzdrawiali chorych, stosując 
+                        między innymi oczyszczenia. Autor traktatu określa ich jako „magów 
+                        i puryfikatorów, żebrzących kapłanów i szarlatanów, którzy udają, że są 
+                        bardzo pobożni i że dużo wiedzą” (μάγοι τε καὶ καθάρται καὶ ἀγύρται 
+                        καὶ ἀλαζόνες, ὁκόσοι δὴ προσποιέονται σφόδρα θεοσεβέες εἶναι καὶπλέον τι εἰδέναι, 1.4). Dwa pierwsze z tych określeń domagają się krót-kiego komentarza. Μάγος, słowo pochodzenia perskiego, mogło ozna-czać zarówno perskiego kapłana, jak i greckiego religijnego specjalistę 
+                        (Bremmer 1999; Dickie 2003: 13–14; Collins 2008a: 54–58; Trzcionkowski 
+                        2013: 337–342; Biernat 2014). W pierwszym przypadku mamy do czynie-nia z terminem o charakterze etnograficznym, choć zaznaczyć należy, 
+                        że przedstawieniom perskich magów często towarzyszy aura skandalu 
+                        bądź „mrocznej egzotyki” (zob. Kingsley 1995; Biernat 2014). Określe-nie μάγος użyte wobec Greka ma najczęściej wydźwięk pejoratywny. 
+                        Drugim z określeń, które padają pod adresem religijnych specjalistów, 
+                        są καθάρται – puryfikatorzy. Ponieważ kompetencja katartyczna trady-cyjnie przynależała do μάντεις, wróżbitów, wydaje się, że autor trakta-tu właśnie ich ma na myśli, akcentując jedynie ten konkretny aspekt ich 
+                        działalności (zob. Bremmer 1996; Flower 2008; na temat ich działalności 
+                        katartycznej zob. też Burkert 1995: 42–43). Biorąc pod uwagę, jak silnie 
+                        zakorzeniona w greckiej kulturze była rola wróżbity i praktyka oczysz-czeń, uważam, że pod zestawionymi z puryfikatorami μάγοι kryją się 
+                        greccy religijni specjaliści, a nie perscy wędrowni kapłani. Niewyklu-czone natomiast, że określenie „mag” należało do ich własnej nomenkla-tury, a władza nad zjawiskami przyrody, do której pretendowali, mogła 
+                        być echem greckiego wyobrażenia o ludach Wschodu jako czcicielach 
+                        słońca i księżyca (Dickie 2003: 13–14). Przeprowadzona przez autora 
+                        traktatu krytyka religijnych specjalistów sprowadza się do wykazania 
+                        sprzeczności w ich rozumowaniu oraz obnażenia ich faktycznej (zda-niem hippokratejczyka) bezbożności – religijni specjaliści uważali epi-lepsję za chorobę zesłaną przez bogów (τὸ θεῖον αἴτιον εἶναι), a leczyli 
+                        tak, jakby to ludzki czynnik (τι ἀνθρώπινον) był za nią odpowiedzialny 
+                        (1.7); przypisywali sobie umiejętność wpływania na słońce, księżyc, bu-rze i inne zjawiska, które my nazwalibyśmy przyrodniczymi, a które dla 
+                        hippokratejczyka były boskie, a tym samym negowali istnienie bóstwa 
+                        lub jego moc (1.9); wreszcie uważali, że bóstwo może być dla człowieka 
+                        źródłem zmazy, choć w oczywisty sposób to, co najświętsze, nie może 
+                        kalać (1.13). Jednym ze słów kluczy traktatu jest καθαρμός – rytualne 
+                        oczyszczenie. Dotykamy w nim charakterystycznego dla Grecji splotu 
+                        sfer, które jako ludzie nowożytni przywykliśmy ujmować oddzielnie – medycyny i religii. Przekonanie, że moralna przewina może ściągnąć 
+                        na winowajców karę w postaci choroby (np. epidemii), implikuje bo-wiem nierozróżnialność między czystością moralną a fizjologiczną.
+                        Tekst na podstawie wydania: Jouanna (2003).</p>
+                </div>
+                 <div type="textpart" n="De_morbo_sacro_1.8–9">
+                    <head>De morbo sacro 1.8–9:</head>
+                    <p>Autor traktatu dyskredytuje religijnych specjalistów, wykazując 
+                        sprzeczność między ich słowami a praktyką. Bóstwo, zasugeruje gdzie 
+                        indziej, jest im potrzebne tylko po to, by zasłonić nim swą bezradność 
+                        i obciążyć je winą w razie niepowodzenia kuracji. Hippokratejski au-tor szybko przechodzi od zarzutu o cynizm i szarlatanerię do oskarże-nia o ateizm, który człowiekowi myślącemu w kategoriach presokra-tejskiej filozofii przyrody musiał się wydawać przeczącym zdrowemu 
+                        rozsądkowi skandalem. Nawet jeżeli religijni specjaliści zastrzegają, 
+                        powiada, że swoją moc czerpią z rytuałów, to twierdząc, iż potrafią 
+                        wywoływać zaćmienia i zmieniać pogodę, pokazują, że de facto nie 
+                        mogą wierzyć, by bogowie istnieli lub mieli jakąkolwiek moc.</p>
+                    <quote>καίτοι ἔμοιγε οὐ περὶ εὐσεβείης δοκέουσι τοὺς λόγους ποιεῖσθαι, 
+                        ὡς οἴονται, ἀλλὰ περὶ δυσσεβείης μᾶλλον, καὶ ὡς οἱ θεοὶ οὐκ εἰσί, 
+                        τό τε εὐσεβὲς αὐτῶν καὶ τό θεῖον ἀσεβὲς ἐστι καὶ ἀνόσιόν, ὡς 
+                        ἐγὼ διδάξω. [9] εἰ γὰρ σελήνην τε καθαιρεῖν καὶ ἥλιον ἀφανίζειν 
+                        καὶ χειμῶνά τε καὶ εὐδίην ποιεῖν καὶ ὄμβρους καὶ αὐχμοὺς καὶ 
+                        θάλασσαν ἄφορον καὶ γῆν καὶ τἄλλα τὰ τοιουτότροπα πάντα 
+                        ὑποδέχονται ἐπίστασθαι – εἴτε καὶ ἐκ τελετέων εἴτε καὶ ἐξ ἄλλης 
+                        τινὸς γνώμης ἢ μελέτης φασὶ ταῦτα οἷόν τ᾽ εἶναι γενέσθαι – οἱ 
+                        ταῦτ᾽ ἐπιτηδεύοντες δυσσεβεῖν ἔμοιγε δοκέουσι καὶ θεοὺς οὔτε 
+                        εἶναι νομίζειν οὔτε ἰσχύειν οὐδὲν, οὔτ᾽ εἴργεσθαι ἂν οὐδενὸς τῶν 
+                        ἐσχάτων ποιέοντες, ὡς οὐ δεινοὶ αὐτοῖσίν εἰσιν. εἰ γὰρ ἄνθρωπος 
+                        μαγεύων τε καὶ θύων σελήνην τε καθαιρήσει καὶ ἥλιον ἀφανιεῖ 
+                        καὶ χειμῶνα καὶ εὐδίην ποιήσει, οὐκ ἂν ἔγωγ᾽ ἔτι θεῖον νομίσαιμι 
+                        τούτων εἶναι οὐδέν, ἀλλ᾽ ἀνθρώπινον, εἰ δὴ τοῦ θείου ἡ δύναμις 
+                        ὑπ᾽ ἀνθρώπου γνώμης κρατεῖται καὶ δεδούλωται.</quote>
+                    <quote>Tak więc uważam, że nie mówią oni o szacunku w stosunku do bo-gów, jak sądzą, lecz raczej o jego braku, oraz że bogów nie ma. Tysamym to, co u nich zwie się szacunkiem i tym, co boskie, jest niepo-szanowaniem bogów i bezbożnością, jak udowodnię. [9] Bo jeśli twier-dzą, że potrafią ściągnąć księżyc, zaćmić słońce, wywołać sztorm i go 
+                        uspokoić, sprowadzić deszcz albo suszę i uczynić ziemię lub morze 
+                        jałowymi, czy to z rytuałów czy z jakiejś innej formy wiedzy lub prak-tyki, to uważam, że są bezbożni i ani nie uważają, że bogowie istnieją i 
+                        że mają jakąkolwiek moc, ani nie powstrzymują się od robienia rzeczy 
+                        najpodlejszych, ponieważ nie mają żadnej bojaźni przed nimi. Bo jeśli 
+                        człowiek za sprawą magii i ofiar ściągnie księżyc, zaćmi słońce oraz 
+                        uczyni sztorm i ciszę, to już nigdy nie uznam któregokolwiek z nich 
+                        za boskie, lecz za ludzkie, skoro przemyślność człowieka opanowuje 
+                        i zniewala moc tego, co boskie.</quote>
+                    <p>1.8: ἀσεβὲς ἐστι καὶ ἀνόσιόν – „nieposzanowanie bogów i bezboż-ność”; zakres synonimii terminów asebes i anosion, a tym samym rów-nież eusebes i hosion, jest przedmiotem debaty. Do niedawna uważało się 
+                        uważać, że eusebeia (i pokrewne) odnosi się częściej do dyspozycji, na-tomiast hosiotes (i pokrewne) do działania (Rudhardt 1992: 15; Mikalson 
+                        2010: 140–186). Analizy Peels, metodologicznie najbardziej zaawanso-wane, zdają się jednak wskazywać na znacznie większe podobieństwo 
+                        zakresów znaczeniowych tych słów, niż do tej pory uważano (Peels 
+                        2016: 83–84, 104–106). Peels zwraca natomiast uwagę, że anosios staty-stycznie częściej niż asebes/dyssebes używane jest z silnym negatywnym 
+                        zabarwieniem emocjonalnym, dlatego tłumaczenie przez „bezbożny”, 
+                        przyjęte tutaj, wydaje się uczonej poprawne (Peels 2016: 104).</p>
+                    <p>1.9: ἐκ τελετέων – „z rytuałów”; rzeczownik telete, obok ogólne-go sensu ceremonii religijnej, w epoce klasycznej często desygnował 
+                        nietypowy rytuał, którego nie dało się przypisać do kategorii thysia
+                        (Schuddeboom 2009). Tutaj, być może, należy przezeń rozumieć jakie-goś rodzaju wtajemniczenia, w których rzekomo mieli wziąć udział re-ligijni specjaliści. Związek rytuału i wiedzy pojawia się, zanegowany, 
+                        w traktacie z papirusu z Derveni. Jego autor lekceważąco wypowiada 
+                        się tam o ludziach, którzy przystępują do rytu wtajemniczenia (epite-leo), sądząc, że po nim będą wiedzieć więcej (col. XX.1–8, zob. Janko 
+                        2001; Janko 2002).μαγεύων τε καὶ θύων – „za sprawą magii i ofiar” (dosł. „magując 
+                        i składając ofiary”); wyrażenie to może być przekształceniem często 
+                        spotykanego meryzmu „modlitwami i ofiarami” (cf. Isoc. 5.117; Th. 
+                        8.70; Pl. Mx. 244a, Lg. 885b, 888c, 909b, 910b; posłuży się nim również 
+                        autor traktatu w komentowanym niżej passusie), oznaczającego mniej 
+                        więcej tyle, co „słowem i czynem”. Jeżeli tak, to czasownik μαγεύειν 
+                        wskazuje zapewne na to, co religijni specjaliści mówili, a tłumaczenie 
+                        go za pomocą rzeczownika „magia” jest mylące – nowożytne pojęcie 
+                        ma bowiem znaczenie bardzo szerokie i bardzo rozmyte. Ponieważ 
+                        μάγοι z traktatu nie byli perskimi kapłanami, ich μαγεία musiała mieć 
+                        charakter mniej lub bardziej udanego naśladownictwa. Identyfikacja 
+                        działań religijnych specjalistów z praktykami kulturowego innego 
+                        służyła zapewne ich negatywnemu wartościowaniu, poprzez umiesz-czenie religijnych specjalistów i ich działań po drugiej stronie linii my 
+                        – oni (o μαγεία zob. Bremmer 1999; Dickie 2003; Collins 2008a: 54–63).
+                    </p>
+                     
+                     <div type="textpart" n="De_morbo_sacro_1.11">
+                         <head>De morbo sacro 1.11:</head>
+                         <p>Hippokratejczyk odsłania przed nami tajniki diagnostyki praktyko-wanej przez swoich konkurentów – różne objawy przypisane zostały 
+                             przez nich różnym bogom. Kuracja polega więc na identyfikacji bóstwa 
+                             odpowiedzialnego za chorobę (wiele z nich wygląda na schorzenia 
+                             o podłożu psychologicznym) i zaaplikowaniu rytualnego oczyszczenia.</p>
+                         <quote>ἢν μὲν γὰρ αἶγα μιμῶνται κἢν βρύχωνται κἢν τὰ δεξιὰ σπῶνται, 
+                             Μητέρα θεῶν φασιν αἰτίην εἶναι.</quote>
+                         <quote>   Bo jeśli [chorzy] naśladują kozę, zgrzytają zębami i mają konwulsje z pra-wej strony, [religijni specjaliści] mówią, że winna jest Matka Bogów.</quote>
+                         <p>αἶγα μιμῶνται – „naśladują kozę”; przez „naśladowanie kozy” au-tor ma na myśli oczywiście wydawanie dźwięków przypominających 
+                             beczenie (cf. Pl. Ion, 536c, gdzie korybanci wydają dźwięki przypisa-ne bogu, który ich aktualnie opętał). Być może mamy tu do czynienia 
+                             z wpływem praktyki ofiarniczej na aitiologię choroby: koza była zwie-rzęciem składanym w ofierze bogini (SIG3
+                             1044.39; Jouanna 2003: 57; 
+                             Roselli 1996: 34).
+                         </p>
+                     </div>
+                     <div type="textpart" n="De_morbo_sacro__1.12">
+                         <head>De morbo sacro  + 1.12</head>
+                         <p>Passus zawiera opis kuracji, której poddawali swoich klientów 
+                             religijni specjaliści, oraz dalszy ciąg argumentacji mającej wykazać 
+                             sprzeczność w ich postępowaniu.</p>
+                         <quote>Καθαρμοῖσί τε χρέονται καὶ ἐπαοιδῇσι, καὶ ἀνοσιώτατόν τε καὶ 
+                             ἀθεώτατον πρῆγμα ποιέουσιν ὡς ἔμοιγε δοκέει· καθαίρουσι
+                             γὰρ τοὺς ἐχομένους τῇ νούσῳ αἵματί τε καὶ ἄλλοισι τοιούτοισιν 
+                             ὥσπερ μίασμά τι ἔχοντας, ἢ ἀλάστορας ἢ πεφαρμαγμένους ὑπ᾽ 
+                             ἀνθρώπων ἤ τι ἔργον ἀνόσιον εἰργασμένους· οὓς ἐχρῆν τἀντία 
+                             τούτοισι ποιεῖν, θύειν τε καὶ εὔχεσθαι καὶ ἐς τὰ ἱερὰ φέροντας 
+                             ἱκετεύειν τοὺς θεούς. νῦν δὲ τούτων μὲν ποιέουσιν οὐδέν, 
+                             καθαίρουσι δέ καὶ τὰ μὲν τῶν καθαρμῶν γῇ κρύπτουσι, τὰ δὲ 
+                             ἐς θάλασσαν ἐμβάλλουσι, τὰ δ᾽ ἐς τὰ οὔρεα ἀποφέρουσιν, ὅπῃ 
+                             μηδεὶς ἅψεται μηδ᾽ ἐπιβήσεται. τὰδ᾽ ἐχρῆν ἐς τὰ ἱερὰ φέροντας 
+                             τῷ θεῷ ἀποδοῦναι, εἰ δὴ ὁ θεός γέ ἐστιν αἴτιος.</quote>
+                         <quote>   Posługują się oczyszczeniami i zamowami oraz robią rzecz najbar-dziej świętokradczą i bezbożną: oczyszczają bowiem opanowanych 
+                             przez chorobę krwią i innymi tego rodzaju rzeczami, jak gdyby byli 
+                             oni splamieni, ciążył nad nimi duch zemsty, padli ofiarą czarów albo 
+                             popełnili jakiś bezbożny czyn – a trzeba było postąpić odwrotnie, zło-żyć ofiarę, modlić się i prowadząc do miejsc świętych, błagać bogów. 
+                             Oni zaś teraz niczego takiego nie robią, tylko oczyszczają. Pozosta-łości z oczyszczeń ukrywają następnie w ziemi, wrzucają do morza 
+                             albo zanoszą w góry, gdzie nikt ich nie dotknie ani nie nadepnie na 
+                             nie – a powinni byli zanieść je do miejsc świętych i oddać bogu, jeżeli 
+                             to bóg jest odpowiedzialny [za chorobę].</quote>
+                         <p>καθαίρουσι – „oczyszczają”; zgodnie z typologią Jamesona, Jorda-na i Kotansky’ego (1993: 73) wyróżniamy dwa typy procedur oczysz-czających – działania symboliczne (symbolic actions), jak na przykład 
+                             obmycie wodą czy okadzenie, oraz ofiary przebłagalne, które mają 
+                             załagodzić lub odwrócić gniew sił nadprzyrodzonych. Zdaniem 
+                             uczonych procedury te, choć teoretycznie rozdzielne, w praktyce za-wsze pojawiają się razem (ibidem: 73–74). Autor traktatu przedstawioczyszczenie krwią jako przeciwieństwo (τἀντία) regularnej ofiary 
+                             przebłagalnej, sugerując tym samym, że zwierzę nie było zabijane dla 
+                             żadnego boga (nie było „ofiarą-dla”), lecz wyłącznie celem pozyskania 
+                             krwi. Możemy więc uznać, że świadectwo hippokratejczyka przeczy 
+                             tezie Jamesona, Jordana i Kotansky’ego lub, że hippokratejczyk nie 
+                             przedstawia działań swoich adwersarzy w sposób uczciwy, konstru-ując łatwy do ośmieszenia wypaczony obraz ich działań i światopo-glądu.
+                             αἵματι – „krwią”; ze względów technicznych wydaje się prawdo-podobne, że krew wykorzystywana do puryfikacji pochodziła z jakiejś 
+                             formy ofiary zwierzęcej, spełnianej w trakcie rytuału. Zwierzęciem 
+                             najczęściej wykorzystywanym do tego celu, prawdopodobnie z powo-du jego ceny, było prosię (Clinton 2005; Parker 1983: 372; cf. καθαρμοὶ 
+                             χοιρόκοτνοι, A. Eu. 283, IG II² 1672.188–190). Przekonujące uzasadnie-nie wykorzystania krwi w rytuale puryfikacji zaproponował Parker – 
+                             krew była jedynie widocznym znakiem zmazy, którą rytuał usuwał 
+                             (Parker 1996: 234, zob. też Appendix 6). Wydaje się, że stwierdzenie 
+                             Jouanny, iż „la purification est inseparable d’un sacrifice, puisqu’el-le s’opère non par l’eau mais par le sang” (Jouanna 2003: 62–63), jest 
+                             nieco na wyrost i nie znajduje potwierdzenia w tekście – sam autor 
+                             mówi przecież o „oczyszczaniu krwią i innymi tego rodzaju rzeczami” 
+                             (podkreślenie moje – P. Biernat), które nie muszą oznaczać substancji po-zyskiwanych w wyniku uboju zwierzęcia.
+                             θύειν τε καὶ εὔχεσθαι – „złożyć ofiarę i modlić się”; bardzo często 
+                             spotykany meryzm (cf. Isoc. 5.117, Th. 8.70, Pl. Mx. 244a, Lg. 885b, 888c, 
+                             909b, 910b), wskazujący na ścisły związek ofiary i modlitwy (cf. Pl. 
+                             Euthph. 14c, Plt. 260d). Wypowiedź autora należy rozumieć jako przy-jęcie logiki adwersarzy celem wykazania sprzeczności w ich myśleniu 
+                             – jeżeli twierdzicie, że bóg zsyła chorobę, czemu nie prosicie go, aby 
+                             ją uleczył? Możemy sobie jednak wyobrażać, że skoro elementem dia-gnozy religijnych specjalistów było rozpoznanie, który bóg odpowie-dzialny jest za schorzenie, ofiara puryfikacyjna będzie miała charakter 
+                             ofiary przebłagalnej, skierowanej do tego właśnie boga.
+                             ἐς τὰ ἱερὰ φέροντας ἱκετεύειν τοὺς θεούς – „prowadząc do 
+                             miejsc świętych, błagać bogów”; warte podkreślenia wydaje się, żemodlitwa, ofiara i błaganie nie są zawieszone w próżni, ale w prze-strzeni całkowicie konkretnej. Wątek ten powraca w 1.13, gdzie 
+                             mowa jest o wyznaczanej przez nas (ἀποδεικνῦμεν) granicy świątyń 
+                             i temenosów, których przekroczenie równe jest oczyszczeniu (Bier-nat 2014: 36). Na temat teologicznych poglądów autora traktatu zob. 
+                             van der Eijk (1990).
+                             τὰ τῶν καθαρμῶν – „pozostałości z oczyszczeń” (dosł. „rzeczy 
+                             oczyszczeń”); pod tym peryfrastycznym wyrażeniem domyślamy się 
+                             wszelkich pozostałości po rytuale, których unicestwienie stanowiło 
+                             jego symboliczne dopełnienie (por. Hom. Il. 1.314 i Apoll. Arg. 4.710, 
+                             gdzie wyrzucane pozostałości z oczyszczeń zostają określone jako 
+                             λύματα). Najpewniej chodzi tu o ciało zwierzęcia, które zabito dla po-zyskania krwi, i resztki samej krwi (por. Parker 1996: 234).</p>
+                     </div>
+                    
+                </div>
+                    
+                        
+                        
+            </div>
+            
+        </body>
+    </text>
+</TEI>

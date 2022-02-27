@@ -1,0 +1,1756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Pax (Εἰρήνη, Pace)</title>
+                <title xml:lang="en">Pax (Εἰρήνη, Peace)</title>
+                <title xml:lang="pl">Pax (Εἰρήνη, Pokój)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">com_02_pax</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Pax (Εἰρήνη, Pokój)</title>, in Bartłomiej Bednarek, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Stara komedia attycka</title>, Warszawa 2017, pp. 81-131</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaia Fanelli">encoded in XML</change>
+                <change when="2017" who="Bartłomiej Bednarek">written contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition">  <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Komedia wystawiona na Dionizjach Miejskich w 421 r., uzyskała drugą
+                        nagrodę. Stanowi wyraz niechęci Arystofanesa i znacznej części
+                        społeczeństwa attyckiego do prowadzonej już od dziesięciu lat wojny
+                        ze Spartą (wojna archidamijska, pierwsza część wojny peloponeskiej).</p>
+                        <p>Zarys fabuły: Trygajos (w polskiej tradycji translatorskiej – Winobraniec;
+                        imię mówiące, nawiązujące do jednej z przyjemniejszych
+                        i weselszych prac gospodarczych greckich rolników) wznosi się do
+                        nieba na wielkim żuku, by uzyskać od Zeusa Pokój (boginię Eirene;
+                        personifikacja jest płci żeńskiej, bo i rzeczownik pospolity oznaczający
+                        „pokój” jest rodzaju żeńskiego). Zastaje tam jedynie Hermesa, od
+                        którego dowiaduje się, że wszyscy bogowie opuścili swoją dotychczasową
+                        siedzibę, a Eirene została uwięziona przez straszliwą istotę
+                        imieniem Polemos (Wojna). Wraz z grupą Greków pochodzących
+                        z różnych poleis (składają się oni na chór) Trygajosowi udaje się uwolnić
+                        boginię i sprowadzić ją na ziemię. Dla ogółu Hellenów oznacza to
+                        koniec konfliktu i możliwość powrotu do ulubionych zajęć. Główny
+                        bohater sprowadza Eirene do swojego domu, ustanawia jej kult, by
+                        w końcu ją poślubić.</p>
+                        <p>Tekst jest szczególnie istotny jako źródło do badań nad ofiarą
+                        krwawą przede wszystkim ze względu na obecność bardzo obszernej
+                        (922–1126) sceny rytuału, zawierającej szczegółowe instrukcje wydawane
+                        słudze przez Trygajosa. Rzecz jasna, warstwę utworu wyrażającą
+                        się działaniem możemy wyłącznie częściowo rekonstruować na podstawie
+                        wypowiedzi bohaterów. Poziom szczegółowości niektórych
+                        poleceń przekłada się jednak na wyjątkowe nagromadzenie w tekście
+                        bezcennych detali, niekiedy niepoświadczonych nigdzie indziej lub
+                        znanych ze znacznie mniej godnych zaufania źródeł.</p>
+                   <p>Z punktu widzenia „teologii i antropologii komicznej” utwór nie
+                    wnosi wiele oryginalnego. Ofiara wyraźnie ma być miła bogini, jednocześnie
+                    jednak w centrum uwagi bohaterów pozostaje czysto ludzka
+                    przyjemność konsumpcji. Passusy, w których występuje Hermes, podkreślają
+                    jego łakomstwo, a zatem pewien stopień uzależnienia bogów
+                    od ludzi jako dostarczycieli pokarmu. Charakterystyczny jest również
+                    niechętny stosunek Arystofanesa do „specjalistów rytualnych/religijnych”
+                    (przede wszystkim w osobie wieszczbiarza Hieroklesa), których
+                    poeta przedstawia jako natrętnych naciągaczy.</p>
+                    <p>Tekst cytuję za wydaniem Olsona (1998) z niewielkimi zmianami,
+                    odnotowanymi w komentarzu.</p>
+                </div>
+                <div type="textpart" n="Pax_192-195">
+                    <head>Pax 192-195</head>
+                    <p>Przybywszy do siedziby bogów, Trygajos zastał w niej tylko Hermesa,
+                        który przyjął go bardzo nieżyczliwie. W cytowanym passusie
+                        śmiertelnik wkupuje się w łaski boga.</p>
+                    <quote><lb/><emph>ΕΡΜHΣ</emph>:
+                        <lb/> Ἥκεις δὲ κατὰ τί;
+                        <lb/><emph>ΤΡΥΓΑIΟΣ</emph>:
+                        <lb/>Τὰ κρέα ταυτί σοι φέρων.
+                        <lb/><emph>ΕΡ</emph>.: Ὦ δειλακρίων, πῶς ἦλθες;
+                        <lb/><emph>ΤΡ</emph>.: Ὦ γλίσχρων, ὁρᾶις
+                        <lb/>ὡς οὐκέτ' εἶναί σοι δοκῶ μιαρώτατος;
+                        <lb/>Ἴθι νυν κάλεσόν μοι τὸν Δί’.</quote>
+                    <quote><lb/><emph>HERMES</emph>:
+                        <lb/>A z czym przychodzisz?
+                        <lb/><emph>TRYGAJOS</emph>:
+                        <lb/>Mięso ci przyniosłem.
+                        <lb/><emph>HER</emph>.: Biedaczku! Jakże to...?
+                        <lb/><emph>TR</emph>.: Już ci się, żarłoku, nie wydaję takim
+                        <lb/>strasznym nędznikiem? Teraz idź zawołać Zeusa.</quote>
+                    <p>Słowom oczywiście towarzyszyły odpowiednie gesty: Trygajos wydobył
+                        z torby lub kosza (cf. Olson 1998: <title>ad loc.</title>) kawałek mięsa, Hermes 
+                        prawdopodobnie rzucił się na nie. Dalszy ciąg tekstu przynosi informację,
+                        że bogowie opuścili swoją dotychczasową siedzibę. Hermes, jak
+                        sam mówi (201–202), pozostał, żeby pilnować sprzętów kuchennych.
+                        Przypuszczalnie jest to kłamstwo. Prawdopodobnie Trygajos zastał
+                        boga w czasie, gdy ten przeszukiwał puste naczynia w poszukiwaniu
+                        czegoś do jedzenia (cf. 924 <title>infra</title> wraz z komentarzem). Żarłoczność
+                        być może przynależy do typowych cech Hermesa w komedii (por. Ar.
+                        <title>Plut</title>. 1134 i nn.; <title>Pax</title> 924) i zdecydowanie nie licuje z boskością, jako
+                        że nieśmiertelni powinni zadowalać się wonnym oparem znad ołtarza
+                        (<w>κνῖσα</w>, cf. <title>h.Merc.</title> 131). Z punktu widzenia badań nad ofiarą passus
+                        jest cenny z dwóch powodów.</p>
+                    <p>1) Stanowi egzemplifikację „komicznej teologii”, zgodnie z którą bogowie
+                    żywią się pokarmem dostarczanym przez ludzi, a w przypadku
+                    jego braku cierpią głód. Taka hiperboliczna antropomorfizacja
+                    ewidentnie miała w oczach publiczności charakter groteskowy.
+                    Być może jednocześnie stanowiła wyraz poważnych wątpliwości
+                    nurtujących Greków końca V w. – czego chcą od nas bogowie, czego
+                    by sami nie mieli? Cf. Pl. <title>Euthphr</title>. 15a.</p>
+                    <p>2) Podczas gdy ofiarę krwawą typu <w>thysia</w> można rozumieć jako przekazanie
+                    bogom pokarmów pod postacią dymu, w omawianym
+                    przypadku jednak mamy do czynienia z odzwierciedleniem rytuału
+                    typu <w>theoksenia</w> lub <w>trapezoma</w> (na temat tych rytuałów: Gill 1974; Gill
+                    1991; Ekroth 2008; Ekroth 2011; Patera 2012: 113–127). Być może jest
+                    znaczące, że pierwszego w literaturze przykładu takiego zachowania
+                    dostarcza scena w <title>Odysei</title> (14.435–436), w której Eumajos dzieli
+                    się posiłkiem właśnie z Hermesem i z nimfami – Nilsson (1940: 8),
+                    a za nim Gill (1974: 118; 1991: 7–8) podają, że kładzenie pokarmów
+                    na stosach kamieni, które później przerodziły się w hermy, stanowi
+                    archaiczny rytuał poprzedzający narodziny koncepcji osobowego
+                    bóstwa. Do tego rodzaju spekulacji należy zachować daleko posuniętą
+                    rezerwę. Nie bez znaczenia jest polecenie, jakie bogu wydaje
+                    Trygajos, traktując go jak odźwiernego (paralele w: Olson 1998 <title>ad
+                    loc</title>.). Nawiązuje ono do schematu charakterystycznego dla wielu
+                    ważnych wydarzeń religijnych (np. konsultacje wyroczni w Delfach
+                    czy misteria eleuzyńskie): zasadniczą ofiarę przeznaczoną dla
+                    głównego w danym kontekście bóstwa poprzedza pomniejszy ryt
+                    typu <w>προτέλεια</w> / <w>πρόθυμα</w>. Oczywiście rola pośrednika nie jest
+                    w przypadku Hermesa niczym niezwykłym. Por. także 1032 <title>infra</title>.</p>
+                </div>
+                <div type="textpart" n="Pax_374-375">
+                    <head>Pax 374-375</head>
+                    <p>Hermes zapowiada Trygajosowi natychmiastową śmierć. Bohater,
+                        ewidentnie w celu wywołania efektu komicznego, odpowiada bogu:</p>
+                    <quote><lb/>Εἰς χοιρίδιόν μοί νυν δάνεισον τρεῖς δραχμάς·
+                        <lb/>δεῖ γὰρ μυηθῆναί με πρὶν τεθνηκέναι.</quote>
+                    <quote><lb/>>To pożycz trzy drachmy na świnkę, bo przecież muszę się wtajemniczyć
+                        przed śmiercią.</quote>
+                    <p>Aluzja do jednego ze wstępnych rytów misteriów eleuzyńskich, polegającego
+                        na złożeniu w ofierze prosiaczka (<w>χοιρίδιον</w>). Lakoniczny charakter
+                        wzmianki wskazuje na to, jak powszechna była wiedza o tych
+                        obrzędach (por. Ar. <title>Ra</title>. 378; <title>Ach</title>. 739–814 – tam też szerszy komentarz).
+                        Miejsce to jako jedyne w literaturze przekazuje informację o cenie
+                        świnki. Nie odbiega ona od kwot wymienionych w inskrypcjach z tego
+                        okresu, np. (wymieniam za: Olson 1998: <title>ad loc</title>.): SEG XL (1990): 146.261
+                        (410–399 p.n.e.); IG II² 1358 a.55; b.4,28 (etc.) (400–350 p.n.e.). Oznacza
+                        to, że mała świnka była najtańszym spośród typowo ofiarnych zwierząt
+                        i kosztowała 5–6 razy mniej niż dorosła koza czy owca.</p>
+                </div>
+                <div type="textpart" n="Pax_376-399">
+                    <head>Pax 376-399</head>
+                    <p>Hermes zapowiada, że zaalarmuje bogów o planowanym przez
+                        Trygajosa podstępie. Prośby bohatera przeradzają się w modlitwę:</p>
+                    <quote><lb/><emph>ΤΡΥΓΑΙΟΣ</emph>:
+                        <lb/>μή, πρὸς τῶν θεῶν,
+                        <lb/>ἡμῶν κατείπηις, ἀντιβολῶ σε, δέσποτα.
+                        <lb/><emph>ΕΡΜΗΣ</emph>:
+                        <lb/>Οὐκ ἂν σιωπήσαιμι.
+                        <lb/><emph>ΤΡ</emph>.: Ναί, πρὸς τῶν κρεῶν
+                        <lb/>ἁγὼ προθύμως σοι φέρων ἀφικόμην.
+                        <lb n="380"/><emph>ΕΡ</emph>.: Ἀλλ’, ὦ μέλ’, ὑπὸ τοῦ Διὸς ἀμαλδυνθήσομαι,
+                        <lb/>εἰ μὴ τετορήσω ταῦτα καὶ λακήσομαι.
+                        <lb/><emph>ΤΡ</emph>.: Μή νυν λακήισηις, λίσσομαί σ’, Ὦρμήιδιον.
+                        <lb/>Εἰπέ μοι, τί πάσχετ', ὦνδρες; Ἕστατ’ ἐκπεπληγμένοι.
+                        <lb/>Ὦ πόνηροι, μὴ σιωπᾶτ’· εἰ δὲ μή, λακήσεται.
+                        <lb/><emph>ΧΟΡΟΣ</emph>:
+                        <lb n="385"/>Μηδαμῶς, ὦ δέσποθ’ Ἑρμῆ, μηδαμῶς, μὴ μηδαμῶς,
+                        <lb/>εἴ τι κεχαρισμένον
+                        <lb/>χοιρίδιον οἶσθα παρ’ ἐ-
+                        <lb/>μοῦ γε κατεδηδοκώς,
+                        <lb/>τοῦτο μὴ φαῦλον νόμιζ’ ἐν τῶιδε <supplied reason="omitted">νῦν</supplied> πράγματι.
+                            <lb/><emph>ΤΡ</emph>.: Οὐκ ἀκούεις οἷα θωπεύουσί σ’, ὦναξ δέσποτα;
+                            <lb n="390a"/><emph>ΧΟ</emph>.: Μὴ γένηι παλίγκοτος
+                            <lb n="390b"/>†ἀντιβολοῦσιν ἡμῖν†
+                            <lb/>ὥστε τήνδε μὴ λαβεῖν·
+                            <lb/>ἀλλὰ χάρισ’, ὦ φιλαν-
+                            <lb/>θρωπότατε καὶ μεγαλο-
+                            <lb/>δωρότατε δαιμόνων,
+                            <lb n="395"/>εἴ τι Πεισάνδρου βδελύττει τοὺς λόφους καὶ τὰς ὀφρῦς,
+                            <lb/>σε θυσίαισιν ἱε-
+                            <lb/>ραῖσι προσόδοις τε μεγά-
+                            <lb/>λαισι διὰ παντός, ὦ
+                            <lb/>δέσποτ’, ἀγαλοῦμεν ἡμεῖς ἀεί.</quote>
+                    <quote><lb/><emph>TRYGAJOS</emph>:
+                        <lb/>Na bogów, błagam cię, nie zdradzaj nas, panie!
+                        <lb/><emph>HERMES</emph>:
+                        <lb/>Nie będę siedział cicho...
+                        <lb/><emph>TR</emph>.: Ależ na mięso... które tobie ochoczo przyniosłem!
+                        <lb/><emph>HER</emph>.: Ależ, mój drogi, Zeus mnie zgniecie, jeśli gromkim nie ozwę się
+                        hukiem.
+                        <lb/><emph>TR</emph>.: Nie hucz, błagam, Hermesku. [do chóru] Dalej, powiedzcie mu,
+                        ludzie. Stoicie oniemiali, nędznicy. Mówcie, bo zacznie huczeć.
+                        <lb/><emph>CH</emph>.: W żadnym razie, o Hermesie panie, w żadnym, w żadnym! Jeśli
+                        pamiętasz, jak pożarłeś miłego twemu sercu prosiaczka ode
+                        mnie, nie waż sobie tego teraz lekce!
+                        <lb/><emph>TR</emph>.: Nie słyszysz, panie i władco, jak ci się przymilają?
+                        <lb/><emph>CH</emph>.: Nie bądź wrogiem naszych próśb, pozwól nam zabrać ją [Eirene].
+                        Bądź łaskawy, wielki przyjacielu ludzi, największy spośród
+                        bóstw szafarzu darów, jeśli czujesz wstręt do Pejsandrowych
+                        hełmów i brwi. My cię odtąd zawsze i na wieki będziemy
+                        czcić świętymi obrzędami ofiarnymi i wspaniałymi pochodami.</quote>
+                    <p>375 i 378–379: Μή πρὸς τῶν θεῶν/ ναί πρὸς τῶν <w>κρεῶν</w> – „nie, na
+                        bogów” / „ależ na mięso” (dosł. mięsa); typowe wykrzyknienie funkcjonujące
+                        jako jeden z pospolitszych operatorów impresywno-ekspresywnych
+                        zostało twórczo przekształcone w ramach prostej gry słów.
+                        O ile pierwsza prośba Trygajosa jest w pełni konwencjonalna, druga
+                        odwołuje się do hiperbolicznie konkretnego precedensu nawiązania
+                        przyjaznych stosunków między nim i Hermesem (w wersie 192 mowa
+                        o tym, że bohater daje bogu kawałek mięsa).</p>
+                    <p>380–381: od połowy wersu 380 Hermes wyraża się pompatycznie,
+                    przekraczając poziom patosu charakterystycznego dla komedii. Kolejne
+                    wypowiedzi bohaterów podejmują grę z tą konwencją (Olson 1998:
+                    <title>ad loc.</title>).</p>
+                    <p>385–399: (z wtrąceniem Trygajosa w 389) modlitwa eksploatująca
+                    cały szereg retorycznych strategii typowych dla tego typu wypowiedzi:
+                    apostrofę wraz z epitetem na samym początku (385 ὦ <w>δέσποθ</w>’
+                    Ἑρμῆ) i z wariacjami w dalszych częściach tekstu (392–394; 398–399);
+                    prośbę o nieokazywanie wrogości (390a–1 μὴ γένηι <w>παλίγκοτος</w>...);
+                    prośbę o okazanie życzliwości (392: ἀλλὰ <w>χάρισαι</w>); uzasadnienie
+                    prośby poprzez odwołanie się do okazanej wcześniej czci (386–387: εἴ
+                    τι... <w>χοιρίδιον</w>...); uzasadnienie prośby poprzez wykazanie słuszności
+                    sprawy (subiektywnej, ale wspólnej ludziom i Hermesowi – 395: εἴ τι
+                    … <w>βδελύττει</w>...); obietnicę przyszłego kultu (396–399).</p>
+                    <p>386–387: εἴ τι <w>κεχαρισμένον</w> <w>χοιρίδιον</w> οἶσθα παρ’ ἐμοῦ γε
+                    <w>ù</w> – „Jeśli pamiętasz, jak pożarłeś miłego twemu sercu
+                    prosiaczka ode mnie”; zastanawiające w tym kontekście jest użycie
+                    słowa οἶσθα, które subiektywizuje precedens, odwołując się do percepcji
+                    Hermesa. Olson (1998: <title>ad loc.</title>) przywołuje analogiczną strukturę
+                    gramatyczną (Ar. <title>Ec</title>. 547), jednak chyba nie istnieją analogie w obrębie
+                    zachowanych modlitw. Znaczenie zwrotu „jeśli pamiętasz, jeśli zdajesz
+                    sobie sprawę” może nadawać passusowi wydźwięku komicznego,
+                    o ile wyobrazimy sobie, że Hermes mógł łapczywie zjeść przeznaczone
+                    dla siebie mięso, nawet nie zadając sobie pytania o jego pochodzenie.
+                    Ewidentnie groteskowo brzmi także participium <w>κατεδηδοκώς</w>:
+                    „pożarłszy”. Te dwa wyrazy umieszczone zostały w podniosłym kontekście
+                    modlitwy, przywołującej na myśl choćby słowa Chryzesa z <title>Iliady</title>
+                    (1.39) εἴ ποτέ τοι <w>χαρίεντ</w>’ ἐπὶ νηὸν ἔρεψα („jeśli zbudowałem miłą
+                    tobie świątynię”). Znaczące w przypadku modlitwy jest odwołanie się
+                    do wcześniejszego wydarzenia, wywołującego stan <w>χάρις</w> (życzliwości,
+                    łaski). W omawianym kontekście ewokuje go participium, podobnie
+                    jak u Homera (<title>Od</title>. 19.397: <w>κεχαρισμένα</w> μηρία καῖεν) odnoszące się
+                    do rzeczownika nazywającego przedmiot dawany bogu. W tym przypadku
+                    takim „darem”, nośnikiem istotnych znaczeń religijnych staje
+                    się <w>χοιρίδιον</w>, mała świnka (cf. 374). Zastanawiające, że chór (a zatem
+                    grupa mężczyzn) odwołuje się tu do przypadku „nakarmienia” boga
+                    bardzo mało kosztownym zwierzęciem. Ewidentnie jest to znaczące,
+                    na co wskazuje użycie formy deminutivum, zaimka nieokreślonego τι
+                    i liczby pojedynczej. Wyraźny jest kontrast pomiędzy rodzajem ofiary
+                    i tym, że bóg zjadł ją łapczywie. Choć nie jest to całkiem pewne,
+                    participium <w>κατεδηδοκώς</w> może sugerować, że nie chodzi tu o ofiarę
+                    polegającą na spaleniu zwierzątka lub jego części, ale o theoksenię (cf.
+                    192 wraz z komentarzem). Trudno powiedzieć, czy wzmianka o niej
+                    ewokuje jakikolwiek konkretny zwyczaj czy święto. Olson (1998: <title>ad
+                    loc.</title>) zaznacza, że nie ma danych o składaniu w Attyce ofiar ze świnek
+                    Hermesowi.</p>
+                    <p>392: <w>χάρισαι</w> – „bądź łaskawy”; miejsce doskonale ilustruje zasadę
+                    wzajemności. Participium tego samego czasownika (χαρίζω) pojawiło
+                    się sześć wersów wcześniej, określając miłą bogu rzecz, którą obdarzyli
+                    go ludzie. Pewną formą trywializacji wydaje się ujęcie Olsona (1998: ad
+                    385–388), który dopatruje się tu zasady „da quia dedi”. Choć to komedia,
+                    Arystofanes wyraźnie odwołuje się tu do modelu interakcji między
+                    ludźmi i bogami wzorowanego na schemacie relacji międzyludzkich
+                    epoki homeryckiej. Wymiana dóbr nie ma tu charakteru handlu, lecz
+                    służy stwarzaniu więzów. Zasadę należy ująć w formułę „bądź moim
+                    przyjacielem, bo kiedyś okazałem ci przyjaźń” (cf. Parker 1998, a także:
+                    Mauss 1925; Polanyi 1944; Seaford 2004; von Reden 1998). Następujące
+                    w tym i dwóch następnych wersach epiklezy, jak słusznie zauważa
+                    Olson (1998: <title>ad loc.</title>), ewidentnie mają charakter manipulacji, wirtualnie
+                    czyniąc boga takim, jakim ludzie chcą, żeby się dla nich okazał.</p>
+                    <p>396–399: styl passusu staje się znów podniosły. Chór w konwencjonalny
+                    sposób obiecuje Hermesowi typowe formy kultu: ofiary i pochody
+                    (cf. bardziej rozbudowaną listę w Ar. <title>Nu</title>. 307–309). Olson (1998:<title> ad
+                    loc</title>.) zauważa, że mamy tu do czynienia z figurą hysteron proteron, ponieważ
+                    w ramach rzeczywistości rytualnej procesja poprzedzała ofiarę,
+                    nie odwrotnie. Nieco dalej w tekście (418–423) obietnice osiągają
+                    poziom hiperboliczny. Trygajos zapowiada, że ku czci Hermesa odbywać
+                    się będą Panatenaje, misteria (eleuzyńskie), Dipolia i Adonia. Tym
+                    samym zastąpi on odpowiednio: Atenę, Demeter i Persefonę, Zeusa
+                    i Afrodytę. Jednocześnie (421–422): ἅλλαι τέ σοι πόλεις πεπαυμέναι
+                    κακῶν Ἀλεξικάκωι <w>θύσουσιν</w> Ἑρμῆι πανταχοῦ – „gdy ustąpią nieszczęścia
+                    także i inne poleis składać tobie będą wszędzie ofiary jako
+                    Hermesowi, który chroni przed złem”.</p>
+                </div>
+                
+                <div type="textpart" n="Pax_409-413">
+                    <head>Pax 409-413</head>
+                    <p>Trygajos, żeby przekonać Hermesa do swojej sprawy, zdradza mu
+                        (być może wymyślony ad hoc) sekret: Słońce i Księżyc spiskują przeciwko
+                        innym bogom.</p>
+                    <quote><lb/>Ὁτιὴ νὴ Δία
+                        <lb/>ἡμεῖς μὲν ὑμῖν θύομεν, τούτοισι δὲ
+                        <lb/>οἱ βάρβαροι θύουσι, διὰ τοῦτ’ εἰκότως
+                        <lb/>βούλοιντ’ ἂν ἡμᾶς πάντας ἐξολωλέναι,
+                        <lb/>ἵνα τὰς τελετὰς λάβοιεν αὐτοὶ τῶν θεῶν.</quote>
+                    <quote><lb/>Ilekroć, na Zeusa, my wam składamy ofiary, barbarzyńcy składają je
+                        im [Słońcu i Księżycowi]. Widocznie dlatego chcą nas wszystkich wyniszczyć,
+                        żeby sami dla siebie zagarnęli obrzędy ku czci bogów.</quote>
+                    <p>410: ἡμεῖς ὑμῖν <w>θύομεν</w> – „my wam składamy ofiary”; należy
+                        zaznaczyć, że tekst nie wyklucza składania ofiar Słońcu i Księżycowi
+                        przez Greków. Przeciwnie, już w samym zacytowanym passusie
+                        i w jego sąsiedztwie ciała niebieskie przedstawione są jako bogowie,
+                        którzy spiskują przeciwko innym nieśmiertelnym. Por. Pl. <title>Ap</title>. 26d,
+                        a także Olson 1998: <title>ad loc</title>.</p>
+                    <p>411: <w>βάρβαροι</w> – „barbarzyńcy”; komentatorzy (np. Sommerstein
+                    1985 <title>ad loc</title>.; Platnauer 1964: <title>ad loc</title>.) tradycyjnie dopatrują się tu aluzji do
+                    Persów, za czym przemawiać ma passus u <title>Herodota</title> (1.131), o tym, że
+                    lud ten nie uznaje antropomorficznych bogów. Katalog bóstw, którym
+                    Persowie mieli oddawać cześć, choć uwzględnia Słońce i Księżyc, nie
+                    ogranicza się jednak do nich i nie stawia ich na wyjątkowej pozycji (pojawia
+                    się tu także niebo, ziemia, ogień, woda i wiatry). Dlatego nie bez
+                    racji Olson odwołuje się także do innych miejsc: <title>Herodot</title> (1.216) twierdzi,
+                    że Massageci czczą wyłącznie Słońce, a Libijczycy (4.188) – Słońce
+                    i Księżyc (mniej wynika z jednowersowego fragmentu S. 582, gdzie
+                    mowa o Słońcu jako najdostojniejszym bogu Traków); Platon w <title>Kratylosie</title>
+                    (397d) stwierdza, że wielu różnych barbarzyńców oddaje cześć
+                    różnym bogom – żywiołom (katalog zbliżony do tego z <title>Hdt</title>. 1.216).
+                    Można zatem przypuszczać, że Arystofanesowi chodziło o stereotypowo
+                    wyobrażonych nie-Greków, niekoniecznie o Persów. Siedem lat
+                    później w Ptakach (1520–1524 i 1565–1693) poeta wykorzysta podobny
+                    motyw, wprowadzając na scenę boga illiryjskiego plemienia Triballoi.
+                    Co charakterystyczne dla komicznej teologii, Arystofanes w stopniu
+                    hiperbolicznym czyni świat nieśmiertelnych odbiciem rzeczywistości
+                    ludzkiej (w odróżnieniu na przykład od Homera, który nie posuwa
+                    się do stworzenia konkurencyjnego panteonu dla Trojan). Być może
+                    współzawodnictwo o ofiary stanowi odzwierciedlenie typowego dla
+                    czasów wojny peloponeskiej myślenia o zabezpieczeniu możliwości
+                    zaopatrzenia w żywność dla walczących miast.</p>
+                    <p>413: τὰς <w>τελετάς</w> – „obrzędy”; współcześnie termin najczęściej
+                    bywa kojarzony z misteriami, do których, rzecz jasna, może się odnosić
+                    (cf. Harrison 1914), jednak jego pole semantyczne jest znacznie
+                    szersze, może on bowiem określać właściwie każdy typ ustrukturyzowanego
+                    zachowania kultowego (Schuddeboom 2013). Tutaj jednak
+                    wyraźnie użyty został jako synonim, czy raczej hiperonim w stosunku
+                    do tego, o czym była mowa wcześniej, a zatem „ofiary”, a także, przypuszczalnie,
+                    wszystkich form czci wymienionych w wersach 375–399.</p>
+                </div>
+                <div type="textpart" n="Pax_715-718">
+                    <head>Pax 715-718</head>
+                    <p>Przełamując iluzję sceniczną, Trygajos zwraca się do członków
+                        rady, którzy zasiadali w teatrze w wydzielonym sektorze:</p>
+                    <quote><lb/>Ὦ μακαρία βουλὴ σὺ τῆς Θεωρίας,
+                        <lb/>ὅσον ῥοφήσεις ζωμὸν ἡμερῶν τριῶν,
+                        <lb/>ὅσας δὲ κατέδει χόλικας ἑφθὰς καὶ κρέα.</quote>
+                    <quote><lb/>Rado, szczęśliwa, bo przyszło święto, ileż nachłepcesz się polewki
+                        przez trzy dni, ile pożresz kiszek gotowanych i mięsiw!</quote>
+                    <p><w>ἡμερῶν τριῶν</w> – „przez trzy dni”; Dionizje Μiejskie rozpoczynały
+                        się procesją, po której składano wielką ilość ofiar. Na przykład
+                        w 334/3 r. p.n.e. zarżnięto, jak oszacował Rosivach (1994: 70), 81 wołów.
+                        Liczba 240, którą podaje Parke (1977: 127, za: Ferguson 1948: 134),
+                        jest chyba znacznie mniej prawdopodobna. Ewidentnym błędem jest
+                        także stwierdzenie uczonego, że zwierzętami ofiarnymi były byki. Źródłem
+                        dla obu uczonych jest dermatikon, inskrypcja informująca o publicznych
+                        dochodach ze sprzedaży skór zwierząt ofiarnych IG 2² 1496.
+                        Być może nie były to jedyne zwierzęta złożone wówczas w ofierze. Kolejny
+                        dzień święta wypełniał agon komiczny. Po nim następowały trzy
+                        dni przeznaczone na tetralogie tragiczno-satyrowe. Ponieważ centrum
+                        deiktycznym dla omawianego passusu jest chwila wystawienia Pokoju,
+                        Trygajos wyraźnie ma na myśli kolejne trzy dni konkursu.</p>
+                    <p><w>ζωμόν</w>, <w>χόλικας</w>, <w>κρέα</w> – „polewkę, kiszki, mięsiwa”; po zabiciu
+                    zwierzęcia spalano na ołtarzu przeznaczoną dla bogów część (udźce
+                    i/lub kość krzyżową z ogonem). Jednocześnie pieczono w ogniu
+                    trzewia, które uczestnicy obrzędu spożywali (lub kosztowali). Prawdopodobnie
+                    dotąd trwał właściwy obrzęd ofiarny. Omawiany passus
+                    wskazuje na to, że następująca później w ramach święta uczta mogła
+                    rozciągnąć się na wiele dni. W tym czasie spożywano mięso ugotowane
+                    w kotłach (por. np. przedstawienia na Hydrii Ricci; <title>Hdt</title>. 1.59).
+                    Zasadniczym lub ubocznym produktem był ζωμός, czyli rodzaj zupy.
+                    Trudno powiedzieć, czy bardziej przypominała ona gulasz czy rosół.
+                    Ponieważ mięso i kiełbasy (faszerowane jelita) w omawianym miejscu
+                    wymienione są osobno, stanowi to niejaką przesłankę na rzecz drugiego
+                    członu alternatywy.</p>
+                </div>
+                <div type="textpart" n="Pax_922-1126">
+                    <head>Pax 922-1126</head>
+                    <p>obszerna scena ofiary związanej z wprowadzeniem nowej
+                        bogini, Eirene (Pokoju).</p>
+                </div>
+                <div type="textpart" n="Pax_922-1124">
+                    <head>Pax 922-1124</head>
+                    <p>922–1124: sprowadziwszy Eirene do domu, Trygajos wraz ze sługą
+                        zastanawiają się, jakie kroki podjąć dalej. Czymś naturalnym wydaje
+                        się oficjalne wprowadzenie bogini do panteonu, a to wiązać się będzie
+                        z oddaniem jej jakiejś formy czci. Bohaterowie wspólnie dochodzą do
+                        tego, że powinni złożyć ofiarę z owcy:</p>
+                    <quote><lb/><emph>ΟΙΚΕΤΗΣ</emph>:
+                        <lb/>Ἄγε δή, τί νῶιν ἐντευθενὶ ποητέον;
+                        <lb/><emph>ΤΡΥΓΑΙΟΣ</emph>:
+                        <lb/>Τί δ’ ἄλλο γ’ ἢ ταύτην χύτραις ἱδρυτέον;
+                        <lb/><emph>ΟΙ</emph>.: Χύτραισιν, ὥσπερ μεμφόμενον ῾Ερμήιδιον;
+                        <lb n="925"/><emph>ΤΡ</emph>.: Τί δαὶ δοκεῖ; Βούλεσθε λαρινῶι βοΐ;
+                        <lb/><emph>ΟΙ</emph>.: Βοΐ; μηδαμῶς, ἵνα μὴ βοηθεῖν ποι δέῃ.
+                        <lb/><emph>ΤΡ</emph>.: Ἀλλ’ ὑὶ παχείαι καὶ μεγάληι;
+                        <lb/><emph>ΟΙ</emph>.: Μὴ μή.
+                        <lb/><emph>ΤΡ</emph>.: Τιή;
+                        <lb/><emph>ΟΙ</emph>.: ῞Ινα μὴ γένηται Θεογένους ὑηνία.
+                        <lb/><emph>ΤΡ</emph>.: Τῶι δαὶ δοκεῖ σοι δῆτα τῶν λοιπῶν;
+                        <lb/><emph>ΟΙ</emph>.: Ὀί.
+                        <lb n="930"/><emph>ΤΡ</emph>.: Ὀί;
+                        <lb/><emph>ΟΙ</emph>.: Ναὶ μὰ Δί’.
+                        <lb/><emph>ΤΡ</emph>.: Ἀλλὰ τοῦτό γ’ ἔστ’ Ἰωνικὸν
+                        <lb/>τὸ ῥῆμ’.
+                        <lb/>[…]
+                        <lb n="937"/><emph>ΤΡ</emph>.: Ἴθι νυν, ἄγ’ ὡς τάχιστα τὸ πρόβατον λαβών·
+                        <lb/>ἐγὼ δὲ ποριῶ βωμὸν ἐφ’ ὅτου θύσομεν.
+                        <lb/><emph>ΧΟ</emph>.: Ὡς πάνθ’ ὅσ’ ἂν θεὸς θέληι χἠ τύχη, κατορθοῖ.
+                        <lb n="940"/>Χωρεῖ κατὰ νοῦν, ἕτερον δ’ ἑτέρωι
+                        <lb/>τούτων κατὰ καιρὸν ἀπαντᾶι.
+                        <lb/><emph>ΤΡ</emph>.: Ὡς ταῦτα δῆλά γ’ ἔσθ’· ὁ γὰρ βωμὸς θύρασι καὶ δή.
+                        <lb/><emph>ΧΟ</emph>.: <supplied reason="omitted">Ἄγ</supplied>’ ἐπείγετέ νυν ἐν ὅσωι σοβαρὰ
+                        <lb n="944/5"/>θεόθεν κατέχει πολέμου μετάτροπος
+                        <lb/>αὔρα· νῦν γὰρ δαίμων φανερῶς
+                        <lb/>εἰς ἀγαθὰ μεταβιβάζει.
+                        <lb/><emph>ΤΡ</emph>.: Τὸ κανοῦν πάρεστ’ ὀλὰς ἔχον καὶ στέμμα καὶ μάχαιραν,
+                        <lb/>καὶ πῦρ γε τουτί, κοὐδὲν ἴσχει πλὴν τὸ πρόβατον ἡμᾶς.
+                        <lb n="950"/><emph>ΧΟ</emph>.: Οὔκουν ἁμιλλήσεσθον; ὡς
+                        <lb/>ἢν Χαῖρις ὑμᾶς ἴδηι,
+                        <lb/>πρόσεισιν αὐλήσων ἄκλη
+                        <lb break="no"/>τος, κἆιτα τοῦδ’ εὖ οἶδ’ ὅτι
+                        <lb/>φυσῶντι καὶ πονουμένωι
+                        <lb n="955"/>προσδώσετε δήπου.
+                        <lb/><emph>ΤΡ</emph>.: Ἄγε δή, τὸ κανοῦν λαβὼν σὺ καὶ τὴν χέρνιβα
+                        <lb/>περίιθι τὸν βωμὸν ταχέως ἐπιδέξια.
+                        <lb/>ΟΙ.: Ἰδού. Λέγοις ἂν ἄλλο· περιελήλυθα.
+                        <lb/><emph>ΤΡ</emph>.: Φέρε δή, τὸ δαλίον τόδ’ ἐμβάψω λαβών.
+                        <lb n="960"/>Σείου σὺ ταχέως· σὺ δὲ πρότεινε τῶν ὀλῶν,
+                        <lb/>καὐτός τε χερνίπτου παραδοὺς ταύτην ἐμοί,
+                        <lb/>καὶ τοῖς θεαταῖς ῥῖπτε τῶν κριθῶν.
+                        <lb/><emph>ΟΙ</emph>.: Ἰδού.
+                        <lb/><emph>ΤΡ</emph>.: Ἔδωκας ἤδη;
+                        <lb/><emph>ΟΙ</emph>.: Νὴ τὸν Ἑρμῆν, ὥστε γε
+                        <lb/>τούτων ὅσοιπέρ εἰσι τῶν θεωμένων
+                        <lb n="965"/>οὐκ ἔστιν οὐδεὶς ὅστις οὐ κριθὴν ἔχει.
+                        <lb/><emph>ΤΡ</emph>.: Οὐχ αἱ γυναῖκές γ’ ἔλαβον.
+                        <lb/><emph>ΟΙ</emph>.: Ἀλλ’ εἰς ἑσπέραν
+                        <lb/>δώσουσιν αὐταῖς ἅνδρες.
+                        <lb/><emph>ΤΡ</emph>.: Ἀλλ’ εὐχώμεθα.
+                        <lb/>Τίς τῆιδε; Ποῦ ποτ' εἰσὶ πολλοὶ κἀγαθοί;
+                        <lb/><emph>ΟΙ</emph>.: Τοισδὶ φέρε δῶ· πολλοὶ γάρ εἰσι κἀγαθοί.
+                        <lb n="970"/><emph>ΤΡ</emph>.: Τούτους ἀγαθοὺς ἐνόμισας;
+                        <lb/><emph>ΟΙ</emph>.: Οὐ γάρ, οἵτινες
+                        <lb/>ἡμῶν καταχεόντων ὕδωρ τοσουτονὶ
+                        <lb/>εἰς ταὐτὸ τοῦθ’ ἑστᾶσ’ ἰόντες χωρίον;
+                        <lb/>Ἀλλ’ ὡς τάχιστ’ εὐχώμεθ’.
+                        <lb/><emph>ΤΡ</emph>.: Εὐχώμεσθα δή.
+                        <lb/>Ὦ σεμνοτάτη βασίλεια θεά,
+                        <lb n="975"/>πότνι’ Εἰρήνη,
+                        <lb/>δέσποινα χορῶν, δέσποινα γάμων,
+                        <lb/>δέξαι θυσίαν τὴν ἡμετέραν.
+                        <lb/>[...]
+                        <lb n="1016"/>Ταῦτ’, ὦ πολυτίμητ’, εὐχομένοις ἡμῖν δίδου.
+                        <lb/>Λαβὲ τὴν μάχαιραν· εἶθ' ὅπως μαγειρικῶς
+                        <lb/>σφάξεις τὸν οἶν.
+                        <lb/><emph>ΟΙ</emph>.: Ἀλλ’ οὐ θέμις.
+                        <lb/><emph>ΤΡ</emph>.: Τιὴ τί δή;
+                        <lb/><emph>ΟΙ</emph>.: Οὐχ ἥδεται δήπουθεν Εἰρήνη σφαγαῖς,
+                        <lb n="1020"/>οὐδ’ αἱματοῦται βωμός.
+                        <lb/><emph>ΤΡ</emph>.: Ἀλλ’ εἴσω φέρων
+                        <lb/>θύσας τὰ μηρί’ ἐξελὼν δεῦρ’ ἔκφερε,
+                        <lb/>χοὔτω τὸ πρόβατον τῶι χορηγῶι σώιζεται.
+                        <lb/><emph>ΧΟ</emph>.: Σὲ δὴ θύρασιν χρὴ μένοντ’ [τοίνυν] <supplied reason="omitted">_v_v_ </supplied>
+                            <lb/>σχίζας δευρὶ τιθέναι ταχέως
+                            <lb n="1025"/>τά τε πρόσφορα πάντ’ ἐπὶ τούτοις.
+                            <lb/><emph>ΤΡ</emph>.: Οὔκουν δοκῶ σοι μαντικῶς τὸ φρύγανον τίθεσθαι;
+                            <lb/><emph>ΧΟ</emph>.: Πῶς δ’ οὐχί; Τί γάρ σε πέφευγ’ ὅσα χρὴ
+                            <lb/>σοφὸν ἄνδρα; Τί δ’ οὐ σὺ φρονεῖς ὁπόσα χρε
+                            <lb break="no"/>ώ ν ἐστιν τόν γε σοφῆι δόκιμον
+                            <lb n="1030"/>φρενὶ πορίμωι τε τόλμηι;
+                            <lb/><emph>ΤΡ</emph>.: Ἡ σχίζα γοῦν ἐνημμένη τὸν Στιλβίδην πιέζει.
+                            <lb/>Καὶ τὴν τράπεζαν οἴσομαι, καὶ παιδὸς οὐ δεήσει.
+                            <lb/><emph>ΧΟ</emph>.: Τίς οὖν ἂν οὐκ ἐπαινέσει
+                            <lb break="no"/>εν ἄνδρα τοιοῦτον, ὅσ
+                            <lb break="no" n="1035"/>τις πόλλ’ ἀνατλὰς <supplied reason="omitted">x_v_</supplied>
+                            <lb/>ἔσωσε τὴν ἱερὰν πόλιν;
+                            <lb/>ὥστ’ οὐχὶ μὴ παύσει ποτ’ ὢν
+                            <lb/>ζηλωτὸς ἅπασιν.
+                            <lb/><emph>ΟΙ</emph>.: Ταυτὶ δέδραται. Τίθεσο τὼ μηρὼ λαβών·
+                            <lb n="1040"/>ἐγὼ δ’ ἐπὶ σπλάγχν’ εἶμι καὶ θυλήματα.
+                            <lb/><emph>ΤΡ</emph>.: Ἐμοὶ μελήσει ταῦτά γ’. Ἀλλ’ ἥκειν ἐχρῆν.
+                            <lb/><emph>ΟΙ</emph>.: Ἰδού, πάρειμι. Μῶν ἐπισχεῖν σοι δοκῶ;
+                            <lb/><emph>ΤΡ</emph>.: Ὄπτα καλῶς νυν αὐτά· καὶ γὰρ οὑτοσὶ
+                            <lb/>προσέρχεται δάφνηι τις ἐστεφανωμένος.
+                            <lb n="1045"/><emph>ΟΙ</emph>.: Τίς ἄρα ποτ’ ἐστίν;
+                            <lb/><emph>ΤΡ</emph>.: Ὡς ἀλαζὼν φαίνεται.
+                            <lb/><emph>ΟΙ</emph>.: Μάντις τίς ἐστιν;
+                            <lb/><emph>ΤΡ</emph>.: Οὐ μὰ Δί’, ἀλλ’ ῾Ιεροκλέης
+                            <lb/>οὗτός γέ πού ’σθ’ ὁ χρησμολόγος οὑξ Ὠρεοῦ.
+                            <lb/><emph>ΟΙ</emph>.: Τί ποτ’ ἄρα λέξει;
+                            <lb/><emph>ΤΡ</emph>.: Δῆλός ἐσθ’ οὗτός γ’ ὅτι
+                            <lb/>ἐναντιώσεταί τι ταῖς διαλλαγαῖς.
+                            <lb n="1050"/>ΟΙ.: Οὔκ, ἀλλὰ κατὰ τὴν κνῖσαν εἰσελήλυθεν.
+                            <lb/><emph>ΤΡ</emph>.: Μή νυν ὁρᾶν δοκῶμεν αὐτόν.
+                            <lb/><emph>ΟΙ</emph>.: Εὖ λέγεις.
+                            <lb/><emph>ΙΕΡΟΚΛΗΣ</emph>
+                            <lb/>Τίς ἡ θυσία ποθ' αὑτηὶ καὶ τῶι θεῶν;
+                            <lb/><emph>ΤΡ</emph>.: ῎Οπτα σὺ σιγῆι κἄπαγ’ ἀπὸ τῆς ὀσφύος.
+                            <lb/><emph>ΙΕ</emph>.: ῞Οτῳ δὲ θύετ’ οὐ φράσεθ’;
+                            <lb/><emph>ΤΡ</emph>.: ῾Η κέρκος ποιεῖ
+                            <lb n="1055"/>καλῶς.
+                            <lb/><emph>ΟΙ</emph>.: Καλῶς δῆτ’, ὦ πότνι’ Εἰρήνη φίλη.
+                            <lb/><emph>ΙΕ</emph>.: Ἄγε νυν ἀπάρχου κἆιτα δὸς τἀπάργματα.
+                            <lb/><emph>ΤΡ</emph>.: Ὀπτᾶν ἄμεινον πρῶτον.
+                            <lb/><emph>ΙΕ</emph>.: Ἀλλὰ ταυταγὶ
+                            <lb/>ἤδη ’στὶν ὀπτά.
+                            <lb/><emph>ΤΡ</emph>.: Πολλὰ πράττεις, ὅστις εἶ.
+                            <lb/>Κατάτεμνε.
+                            <lb/><emph>ΙΕ</emph>.: Ποῦ τράπεζα;
+                            <lb/><emph>ΤΡ</emph>.: Τὴν σπονδὴν φέρε.
+                            <lb n="1060"/>ΙΕ.: ῾Η γλῶττα χωρὶς τέμνεται.
+                            <lb/><emph>ΤΡ</emph>.: Μεμνήμεθα.
+                            <lb/>Ἀλλ’ οἶσθ’ ὃ δρᾶσον;
+                            <lb/><emph>ΙΕ</emph>.: ῍Ην φράσηις.
+                            <lb/><emph>ΤΡ</emph>.: Μὴ διαλέγου
+                            <lb/>νῶιν μηδέν· Εἰρήνηι γὰρ ἱερὰ θύομεν.
+                            <lb/><emph>ΙΕ</emph>.: Ὦ μέλεοι θνητοὶ καὶ νήπιοι –
+                            <lb/>[…]
+                            <lb n="1068"/>ΤΡ.: Εἴθε σου εἶναι
+                            <lb/>ὤφελεν, ὦλαζών, οὑτωσὶ θερμὸς ὁ πλεύμων.
+                            <lb/>[…]
+                            <lb n="1074"/><emph>ΤΡ</emph>.: Τοῖς ἁλσί γε παστέα ταυτί.
+                            <lb/>[…]
+                            <lb/><emph>ΤΡ</emph>.: Οὔποτε δειπνήσεις ἔτι τοῦ λοιποῦ ’ν πρυτανείωι,
+                            <lb n="1085"/>οὐδ’ ἐπὶ τῶι πραχθέντι ποήσεις ὕστερον οὐδέν.
+                            <lb/><emph>ΙΕ</emph>.: Οὐδέποτ’ ἂν θείης λεῖον τὸν τρηχὺν ἐχῖνον.
+                            <lb/><emph>ΤΡ</emph>.: Ἆρα φενακίζων ποτ’ Ἀθηναίους ἔτι παύσει;
+                            <lb/><emph>ΙΕ</emph>.: Ποῖον γὰρ κατὰ χρησμὸν ἐκαύσατε μῆρα θεοῖσιν;
+                            <lb/><emph>ΤΡ</emph>.: Ὅνπερ κάλλιστον δήπου πεποίηκεν Ὅμηρος·
+                            <lb n="1090"/>„Ὣς οἱ μὲν νέφος ἐχθρὸν ἀπωσάμενοι πολέμοιο
+                            <lb/>Εἰρήνην εἵλοντο καὶ ἱδρύσανθ’ ἱερείωι.
+                            <lb/>Αὐτὰρ ἐπεὶ κατὰ μῆρ’ ἐκάη καὶ σπλάγχν’ ἐπάσαντο,
+                            <lb/>ἔσπενδον δεπάεσσιν, ἐγὼ δ’ ὁδὸν ἡγεμόνευον·
+                            <lb/>χρησμολόγωι δ’ οὐδεὶς ἐδίδου κώθωνα φαεινόν.”
+                            <lb n="1095"/><emph>ΙΕ</emph>.: Οὐ μετέχω τούτων· οὐ γὰρ ταῦτ’ εἶπε Σίβυλλα.
+                            <lb/><emph>ΤΡ</emph>.: Ἀλλ’ ὁ σοφός τοι νὴ Δί’ Ὅμηρος δεξιὸν εἶπεν·
+                            <lb/>„Ἀφρήτωρ, ἀθέμιστος, ἀνέστιός ἐστιν ἐκεῖνος,
+                            <lb/>ὃς πολέμου ἔραται ἐπιδημίου ὀκρυόεντος.”
+                            <lb/><emph>ΙΕ</emph>.: Φράζεο δή, μή πώς σε δόλωι φρένας ἐξαπατήσας
+                            <lb n="1100"/>ἰκτῖνος μάρψηι –
+                            <lb/><emph>ΤΡ</emph>.: Τουτὶ μέντοι σὺ φυλάττου,
+                            <lb/>ὡς οὗτος φοβερὸς τοῖς σπλάγχνοις ἐστὶν ὁ χρησμός.
+                            <lb/>Ἔγχει δὴ σπονδὴν καὶ τῶν σπλάγχνων φέρε δευρί.
+                            <lb/><emph>ΙΕ</emph>.: Ἀλλ’ εἰ ταῦτα δοκεῖ, κἀγὼ ’μαυτῶι βαλανεύσω.
+                            <lb/><emph>ΤΡ</emph>.: Σπονδὴ σπονδή.
+                            <lb n="1105"/><emph>ΙΕ</emph>.: Ἔγχει δὴ κἀμοὶ καὶ σπλάγχνων μοῖραν ὄρεξον.
+                            <lb/><emph>ΤΡ</emph>.: Ἀλλ’ οὔπω τοῦτ' ἐστὶ φίλον μακάρεσσι θεοῖσιν,
+                            <lb/>ἀλλὰ τό γε πρότερον, σπένδειν ἡμᾶς, σὲ δ’ ἀπελθεῖν.
+                            <lb/>Ὦ πότνι’ Εἰρήνη, παράμεινον τὸν βίον ἡμῖν.
+                            <lb/><emph>ΙΕ</emph>.: Πρόσφερε τὴν γλῶτταν.
+                            <lb/><emph>ΤΡ</emph>.: Σὺ δὲ τὴν σαυτοῦ γ’ ἀπένεγκε.
+                            <lb n="1110"/>Σπονδή.
+                            <lb/><emph>ΟΙ</emph>.: Καὶ ταυτὶ μετὰ τῆς σπονδῆς λαβὲ θᾶττον.
+                            <lb/><emph>ΙΕ</emph>.: Οὐδεὶς προσδώσει μοι σπλάγχνων;
+                            <lb/><emph>ΤΡ</emph>.: Οὐ γὰρ οἷόν τε
+                            <lb/>ἡμῖν προσδιδόναι, πρίν κεν λύκος οἶν ὑμεναιοῖ.
+                            <lb/><emph>ΙΕ</emph>.: Ναὶ πρὸς τῶν γονάτων.
+                            <lb/><emph>ΤΡ</emph>.: Ἄλλως, ὦ τᾶν, ἱκετεύεις·
+                            <lb/>οὐ γὰρ ποιήσεις λεῖον τὸν τρηχὺν ἐχῖνον.
+                            <lb n="1115"/>Ἄγε δή, θεαταί, δεῦρο συσπλαγχνεύετε
+                            <lb/>μετὰ νῶιν.
+                            <lb/><emph>ΙΕ</emph>.: Τί δαὶ ’γώ;
+                            <lb/><emph>ΤΡ</emph>.: Τὴν Σίβυλλαν ἔσθιε.
+                            <lb/><emph>ΙΕ</emph>.: Οὔτοι μὰ τὴν Γῆν ταῦτα κατέδεσθον μόνω,
+                            <lb/>ἀλλ’ ἁρπάσομαι σφῶιν αὐτά· κεῖται δ’ ἐν μέσωι.
+                            <lb/><emph>ΤΡ</emph>.: Ὢ παῖε παῖε τὸν Βάκιν.
+                            <lb/><emph>ΙΕ</emph>.: Μαρτύρομαι.
+                            <lb n="1120"/>ΤΡ.: Κἄγωγ’, ὅτι τένθης εἶ σὺ κἀλαζὼν ἀνήρ.
+                            <lb/>Παῖ’ αὐτὸν ἐπέχων τῶι ξύλωι, τὸν ἀλαζόνα.
+                            <lb/><emph>ΟΙ</emph>.: Σὺ μὲν οὖν· ἐγὼ δὲ τουτονὶ τῶν κωιδίων
+                            <lb/>ἁλάμβαν’ αὐτὸς ἐξαπατῶν, ἐκβολβιῶ.
+                            <lb/>Οὐ καταβαλεῖς τὰ κώιδι’, ὦ θυηπόλε;
+                    </quote>
+                    <quote><lb/><emph>SŁUGA</emph>:
+                        <lb/>Dalej, co mamy robić?
+                        <lb/><emph>TR</emph>.: Jak to? Musimy jej złożyć ofiarę inauguracyjną w garnkach.
+                        <lb/><emph>SŁ</emph>.: W garnkach? Jak nędznemu Hermeskowi?
+                        <lb/><emph>TR</emph>.: A co myślisz? Chcielibyście tuczonego wołu?
+                        <lb/><emph>SŁ</emph>.: Wołu? W żadnym razie, bo jeszcze ktoś nas zawoła na pomoc.
+                        <lb/><emph>TR</emph>.: To może świnię wielką i grubą?
+                        <lb/><emph>SŁ</emph>.: Nie, nie!
+                        <lb/><emph>TR</emph>.: Czemu?
+                    <lb/><emph>SŁ</emph>.: Żeby uniknąć Theogenesowych świństw.
+                    <lb/><emph>TR</emph>.: To co twoim zdaniem pozostaje?
+                    <lb/><emph>SŁ</emph>.: Łowca.
+                    <lb/><emph>TR</emph>.: Łowca?
+                    <lb/><emph>SŁ</emph>.: Tak, na Zeusa.
+                    <lb/><emph>TR</emph>.: Ale to słowo w dialekcie jońskim.
+                    <lb/>[Dalej następuje kilka wersów dialogu o tym, dlaczego dialekt joński
+                    pasuje do sytuacji. Później rozpoczynają się przygotowania do rytuału
+                    ofiarnego.]
+                    <lb/><emph>TR</emph>.: Idź teraz, weź owcę i czym prędzej ją tu przyprowadź, a ja postaram
+                    się o ołtarz.
+                    <lb/><emph>CH</emph>.: Oto jak spełnia się wszystko, czego zechce bóg i Los! Tak jak
+                    pragniesz, jedno następuje po drugim, akurat we właściwej
+                    chwili.
+                    <lb/><emph>TR</emph>.: To ewidentna prawda. Oto ołtarz przed drzwiami.
+                    <lb/><emph>CH</emph>.: Dalej, spieszcie się, dopóki bóg powstrzymuje wichry wojny, bo
+                    oto teraz wyraźnie wszystko kieruje na dobre tory.
+                    <lb/><emph>TR</emph>.: Jest koszyk z krupami, wstęgą i nożem, jest i ogień. Nic nas już
+                    nie powstrzymuje, poza tym, że nie ma owcy.
+                    <lb/><emph>CH</emph>.: Lepiej się pospieszyć, bo jak was Chajris zobaczy, to zaraz tu
+                    przyjdzie nieproszony, żeby zagrać. A wy, oczywiście, koniecznie
+                    mu coś dacie za trud i piski.
+                    <lb/><emph>TR</emph>.: Dalej, bierz koszyk, bierz wodę i obejdź prędko ołtarz w prawą
+                    stronę.
+                    <lb/><emph>SŁ</emph>.: No? Co teraz? Obszedłem.
+                    <lb/><emph>TR</emph>.: Dobra, wezmę ten patyk i zanurzę go w wodzie. Trzęś się, prędko!
+                    A ty podaj krupy. Daj to teraz i sam się obmyj. Rzuć jęczmień
+                    widzom.
+                    <lb/><emph>SŁ</emph>.: Proszę.
+                    <lb/><emph>TR</emph>.: Rozdałeś już?
+                    <lb/><emph>SŁ</emph>.: Na Hermesa, nie ma wśród nich nikogo, kto by go
+                    nie miał.
+                    <lb/><emph>TR</emph>.: Kobiety nie dostały.
+                    <lb/><emph>SŁ</emph>.: Wieczorem mężowie się z nimi podzielą.
+                    <lb/><emph>TR</emph>.: Więc módlmy się. Kto tu jest? Gdzie liczni i zacni?
+                    <lb/><emph>SŁ</emph>.: Oto oni. Są liczni i zacni.
+                    <lb/><emph>TR</emph>.: Ich nazywasz zacnymi?
+                    <lb/><emph>SŁ</emph>.: A czyż nie są tacy ci, którzy powrócili na swoje miejsca, choć
+                    oblaliśmy ich wodą? Czym prędzej módlmy się.
+                    <lb/><emph>TR</emph>.: Módlmy się. Czcigodna królowo, bogini, pani Eirene, władczyni
+                    chórów i godów, przyjmij naszą ofiarę […]. Prosimy ciebie,
+                    która od wielu otrzymujesz cześć, daj nam to wszystko. Bierz
+                    nóż i zarżnij owcę jak prawdziwy rzeźnik.
+                    <lb/><emph>SŁ</emph>.: Ale nie godzi się.
+                    <lb/><emph>TR</emph>.: Czemuż to?
+                    <lb/><emph>SŁ</emph>.: Przecież Eirene z pewnością nie cieszą rzezie, a jej ołtarz nie jest
+                    zbroczony krwią.
+                    <lb/><emph>TR</emph>.: To zabierz owcę do środka, zabij ją i przynieś tu udźce. W ten
+                    sposób zwierzę zachowamy dla chorega.
+                    <lb/><emph>CH</emph>.: A ty zostań na zewnątrz, prędko ułóż drewka i przygotuj
+                    wszystko, czego trzeba.
+                    <lb/><emph>TR</emph>.: Nie uważasz, że ten patyk kładę jak wieszczek?
+                    <lb/><emph>CH</emph>.: Jasne! Przecież wszystko umiesz, co wypada umieć mądremu
+                    człowiekowi, rozumiesz to, co potrzebne komuś cenionemu za
+                    rozum i zdolność śmiałego myślenia.
+                    <lb/><emph>TR</emph>.: Drewno już się pali, co boli Stilbadesa. Przyniosę stół, nie potrzebuję
+                    do tego sługi.
+                    <lb/><emph>CH</emph>.: Któż nie pochwali tego męża, który wiele zniósł, by uratować święte
+                    miasto i nigdy nie przestanie wzbudzać powszechnej zazdrości?
+                    <lb/><emph>SŁ</emph>.: Gotowe. Weź udźce i włóż je do ognia, a ja pójdę po wnętrzności
+                    i ciasto.
+                    <lb/><emph>TR</emph>.: Ja się tym zajmę. A ty już powinieneś tu być.
+                    <lb/><emph>SŁ</emph>.: Już idę. Nie myślisz chyba, że zwlekam?
+                    <lb/><emph>TR</emph>.: Porządnie to teraz piecz. Ktoś się tu zbliża uwieńczony wawrzynem...
+                    <lb/><emph>SŁ</emph>.: Któż to taki?
+                    <lb/><emph>TR</emph>.: Zdaje się, że jakiś cwaniak.
+                    <lb/><emph>SŁ</emph>.: To wieszczek?
+                    <lb/><emph>TR</emph>.: Nie, na Zeusa, to musi być Hierokles, ten wieszczbiarz
+                    z Oreos.
+                    <lb/><emph>SŁ</emph>.: Co teraz powie?
+                    <lb/><emph>TR</emph>.: To jasne, że się sprzeciwi pokojowi.
+                    <lb/><emph>SŁ</emph>.: Raczej nie, to zapach mięsa go tu przyciągnął.
+                    <lb/><emph>TR</emph>.: Udajmy, że go nie widzimy.
+                    <lb/><emph>SŁ</emph>.: Słusznie.
+                    <emph>HIEROKLES</emph>:
+                    <lb/>Co to za ofiara i dla jakiego boga?
+                    <lb/><emph>TR</emph>.: Piecz to bez gadania. Trzymaj się z dala od grzbietu.
+                    <lb/><emph>HI</emph>.: Nie powiecie mi dla kogo to ofiara?
+                    <lb/><emph>TR</emph>.: Ogon dobrze idzie.
+                    <lb/><emph>SŁ</emph>.: Dobrze, droga pani Eirene.
+                    <lb/><emph>HI</emph>.: Dobrze, złóż pierwociny i podaj je także i mnie.
+                    <lb/><emph>SŁ</emph>.: Lepiej to upiec.
+                    <lb/><emph>HI</emph>.: Przecież już się upiekło.
+                    <lb/><emph>TR</emph>.: Strasznie się wtrącasz, kimkolwiek jesteś. Odetnij.
+                    <lb/><emph>HI</emph>.: Gdzie jest stół?
+                    <lb/><emph>TR</emph>.: Przynieś wino na libacje.
+                    <lb/><emph>HI</emph>.: Trzeba obciąć język.
+                    <lb/><emph>TR</emph>.: Wiemy. A ty wiesz, co powinieneś?
+                    <lb/><emph>HI</emph>.: Jeśli powiesz...
+                    <lb/><emph>TR</emph>.: Nic do nas nie mów, bo składamy ofiarę dla Eirene.
+                    <lb/><emph>HI</emph>.: O nieszczęśni śmiertelnicy, nieświadomi...
+                    <lb/>[…]
+                    <lb/><emph>TR</emph>.: Oby twoje płuca, bufonie, tak się rozpaliły!
+                    <lb/>[…]
+                    <lb/><emph>TR</emph>.: Trzeba to posolić.
+                    <lb/>[…]
+                    <lb/>TR.: Po tym, co zaszło, już nigdy nie będziesz ucztował w Prytanejonie
+                    i nie będziesz pisał wyroczni.
+                    <lb/><emph>HI</emph>.: Nigdy nie uczynisz gładkim kolczastego jeża.
+                    <lb/><emph>TR</emph>.: Czy przestaniesz wreszcie oszukiwać Ateńczyków?
+                    <lb/><emph>HI</emph>.: Według jakiej wyroczni spaliliście udźce bogom?
+                    <lb/><emph>TR</emph>.: Chyba najlepiej wyraził ją Homer: „gdy odepchnęli od siebie
+                    zgiełk wojny, przyjęli Eirene i ją uczcili ofiarą. A kiedy spalili udźce
+                    i spróbowali podrobów, wylali z kubków libacje, ja zaś ich poprowadziłem,
+                    nikt wieszczbiarzowi nie podał wspaniałego naczynia”.
+                    <lb/><emph>HI</emph>.: Ja z tym nie mam nic wspólnego. Tego nie mówi Sybilla.
+                    <lb/><emph>TR</emph>.: Ale, na Zeusa, mądry Homer roztropnie powiedział: „bez bliskich,
+                    bez praw i domu jest ten, kto miłuje straszliwą wojnę domową”.
+                    <lb/><emph>HI</emph>.: Strzeż się, żeby twego rozumu nie zmąciła podstępem kania
+                    i nie porwała...
+                    <lb/><emph>TR</emph>.: Tymczasem ty uważaj, bo wyrocznia zagraża podrobom. Nalej
+                    wina i podaj podroby.
+                    <lb/><emph>HI</emph>.: Jeśli można, sam sobie zrobię dobrze...
+                    <lb/><emph>TR</emph>.: Wina, wina!
+                    <lb/><emph>HI</emph>.: Nalej i mnie i podaj należną część podrobów.
+                    <lb/><emph>TR</emph>.: Ależ to nie jest miłe szczęsnym bogom. Powinniśmy zacząć od
+                    tego: my wylejemy libację, a ty sobie pójdziesz. Eirene, pani, pozostań
+                    z nami na zawsze!
+                    <lb/><emph>HI</emph>.: Podaj mi język.
+                    <lb/><emph>TR</emph>.: Lepiej zabierz stąd swój. Wina!
+                    <lb/><emph>SŁ</emph>.: Weź prędko jeszcze i to!
+                    <lb/><emph>HI</emph>.: Nikt mi nie poda podrobów?
+                    <lb/><emph>TR</emph>.: To być nie może, dopóki wilk nie poślubi owcy.
+                    <lb/><emph>HI</emph>.: Do kolan ci padam.
+                    <lb/><emph>TR</emph>.: Na próżno błagasz, mój drogi. Przecież nie
+                    uczynisz gładkim kolczastego jeża. Dalej, widzowie, jedzcie
+                    podroby wraz z nami.
+                    <lb/><emph>HI</emph>.: A ja?
+                    <lb/><emph>TR</emph>.: Zjedz sobie Sybillę.
+                    <lb/><emph>HI</emph>.: Na Gaję, ci dwaj nie zjedzą tego wszystkiego sami. Ukradnę im,
+                    w końcu to leży na środku.
+                    <lb/><emph>TR</emph>.: Wal Bakisa, zbij go!
+                    <lb/><emph>HI</emph>.: Jesteście świadkami!
+                    <lb/><emph>TR</emph>.: Właśnie, że to żarłok i bufon. Zbij go, oszusta, przepędź go kijem.
+                    <lb/><emph>SŁ</emph>.: Ty to zrób, a ja go obłupię z tych skór, które zarobił swymi oszustwami.
+                        Nie zrzucisz tych skór, ofiarniku?</quote>
+                    <p>923: ταύτην <w>χύτραις</w> ἱδρυτέον – „musimy jej [Eirene] złożyć
+                        ofiarę inauguracyjną w garnkach”; scholia zawierają wyjaśnienie,
+                        że wszelkie statuy i ołtarze poświęcano wstępnym rytem, czego
+                        przykład ma stanowić (cytowany tam) passus z <title>Plutosa</title> (1197–1198)
+                        i Ar. <title>fr</title>. 256 (245) (μαρτύρομαι δὲ Ζηνὸς ἑρκείου <w>χύτρας</w>, παρ’ αἷς
+                        ὁ βωμὸς οὗτος ἱδρύθη ποτέ – „niech świadkami mi będą garnki
+                        Zeusa Herkejosa, które posłużyły do inauguracji jego ołtarza”). Co
+                        ciekawe, o ile drugi z cytowanych przez scholiastę passusów stanowi
+                        potwierdzenie jego własnych słów, o tyle ustęp z <title>Plutosa</title>, podobnie
+                        jak kontekst w <title>Pokoju</title> stawiają je pod znakiem zapytania. Wydaje
+                        się bowiem, że w obu tych komediach jest mowa o wprowadzaniu
+                        nowych bogów (istot nadprzyrodzonych), a nie konsekracji elementów
+                        małej architektury (posągów i ołtarzy). Dlatego zaproponowane
+                        przez wydawcę scholiów, Rutherforda (1896: 134) tłumaczenie wersu
+                        <title>Pax</title> 1091 jako „They took Peace unto them and set up her image with
+                        a sacrifice” wskazuje na przesadne trzymanie się tego, co podaje starożytny
+                        komentarz kosztem samego tekstu. Można jednak przyznać,
+                        że w rzeczywistości historycznej wprowadzanie nowego boga chyba
+                        naprawdę wiązało się przede wszystkim z umieszczeniem w przestrzeni
+                        materialnego nośnika jego kultu. Stąd może wynikać pewna
+                        niezręczność Arystofanesa, który o bogini mówi tak, jakby była ona
+                        swoim posągiem. Według scholiów garnki zawierać miały gotowane
+                        ziarna roślin strączkowych (<w>ὄσπρια</w>).</p>
+                    <p>924: ὥσπερ <w>μεμφόμενον</w> ῾Ερμήιδιον; – „jak nędznemu Hermeskowi?”;
+                    zawarta w scholiach uwaga o inauguracji posągów zdaje się
+                    kierować myśli komentatorów (np. Olson 1998: <title>ad loc</title>.; Sommerstein
+                    1985: <title>ad loc</title>.) ku hermom. Użyte w tekście słowo nie oznacza jednak
+                    pomnika, lecz jest zdrobnieniem imienia samego boga. Otrzymywał
+                    on między innymi cześć w trzecim dniu Anthesteriów, zwanym chytroi,
+                    właśnie od garnków z warzywną papką przeznaczoną dla Hermesa
+                    (cf. e.g. Deubner 1932: 112). Chyba nie przypadkiem w wersach
+                    201–202 mowa o tym, że bóg ten pozostał w niebie na straży naczyń
+                    (cf. ad 192–195). Dlaczego Hermes ma być „nędzny”, „godzien nagany”
+                    (<w>μεμφόμενος</w>)? Prawdopodobnie poecie zależało na uwypukleniu
+                    kontrastu pomiędzy skromnym posiłkiem, jakim zadowala się
+                    to bóstwo, a wspaniałością Eirene. Proponowana w kolejnym wersie
+                    ofiara znajduje się niejako na drugim końcu skali.</p>
+                    <p>925: <w>λαρινῶι</w> βοΐ – „[wykorzystując] tuczonego wołu”; wół jako
+                    największe zwierzę hodowlane był zarazem najcenniejszą ofiarą. Tutaj
+                    pojawia się w wyraźnym kontraście do zaproponowanego wcześniej
+                    bardzo skromnego posiłku dla boga. Propozycja zostanie odrzucona
+                    ze względu na skojarzenia będące produktem komicznej gry
+                    słów. Rzadki przymiotnik λαρινός, najprawdopodobniej oznaczający
+                    „tuczonego”, również i w innych miejscach zdaje się odnosić do wołu
+                    jako zwierzęcia ofiarnego o szczególnej wartości (cf. Xenoph. B6.1–2).</p>
+                    <p>927: ὑὶ <w>παχείαι</w> καὶ μεγάληι – „świnię wielką i grubą”; świnia stanowiła
+                    ofiarę znacznie mniej prestiżową niż wół. Tutaj nazwa zwierzęcia
+                    pojawia się chyba jednak przede wszystkim po to, by stworzyć
+                    pretekst do politycznego dowcipu opartego na grze słów (związek
+                    z Θεογένους <w>ὑηνία</w> – „Theogenesowe świństwa”). Jego dokładny sens
+                    pozostaje jednak trudny do zrozumienia (cf. Olson 1998: <title>ad loc</title>.). Co
+                    ciekawe, para przymiotników użytych w odniesieniu do świni pojawia
+                    się także w <title>Iliadzie</title> (17.296): πληγεῖσ’ ἔγχεΐ τε μεγάλωι καὶ χειρὶ
+                    <w>παχείηι</w> – „uderzony wielką włócznią w krzepkiej ręce”. Podobnie jak
+                    tutaj w wyrazie ὑὶ u Homera w ἔγχεΐ występuje kraza, zjawisko może
+                    nie wyjątkowe, ale przykuwające uwagę. Możliwe zatem, że mamy do
+                    czynienia z grą intertekstualną. Z całą jednak pewnością można w tym
+                    miejscu dopatrywać się obscenicznego żartu, o czym świadczą użycia
+                    formuły „wielki i gruby” w innych miejscach u Arystofanesa (<title>Pax</title>
+                    1359; <title>Ach</title>. 787; <title>Lys</title>. 23; Ec. 1048). Co ciekawe, jedynym komentatorem,
+                    który zwraca na to uwagę jest chyba van Herwerden (1897: <title>ad loc</title>.).</p>
+                 <p>929–930: <w>ὀί</w> – „owcę”; jońska forma datiwu potrzebna była poecie
+                    ze względu na skojarzenia dźwiękowe. Owca (<w>οἶς</w>) była jednym
+                    z tańszych zwierząt wykorzystywanych w ofiarach na poziomie polis,
+                    ewidentnie jednak często składanym w kultach jednostek organizacyjnych
+                    mniejszych niż państwo-miasto (dem, fratria itp.) i prywatnych
+                    (cf. Rosivach 1994: 68–78). Nieco dalej (937) zwierzę zostanie nazwane
+                    πρόβατον. Rzeczownik ten używany bywał na określenie różnych
+                    zwierząt hodowlanych, jednak zdecydowanie najczęściej owiec (cf. ad
+                    Ar. <title>Av</title>. 1625).</p>
+                    <p>937: ἴθι νυν, <w>ἄγ’</w> ὡς τάχιστα – „czym prędzej ją tu przyprowadź”;
+                    czasownik <w>ἄγω</w> prymarnie oznacza „prowadzić” [zwierzę], jego pole
+                    semantyczne jest jednak chyba równie szerokie jak łacińskiego ago czy
+                    polskiego robić. W tym miejscu jego użycie odpowiada pierwotnemu
+                    znaczeniu, można się jednak zastanawiać, czy stanowi formułę przynależącą
+                    do języka technicznego ofiary. Identyczną strukturę znajdujemy
+                    w Osach Arystofanesa (843: ἴθι νυν, <w>ἄγ’</w> αὐτὼ δεῦρο – „idź
+                    i wprowadź ich obu”) w scenie sądu, a więc poza kontekstem ofiary.
+                    Problem staje się jednak bardziej skomplikowany dlatego, że przyprowadzonymi
+                    przed oblicze sędziego mają być dwa psy.</p>
+                   <p> 938: ποριῶ βωμόν – „postaram się o ołtarz”; użyty tu czasownik
+                    jest niejednoznaczny. Wypowiadając tę kwestię, Trygajos może mieć
+                    na myśli to, że przyniesie skądś jakiś rodzaj ruchomego ołtarza, lub coś,
+                    co można w tym celu wykorzystać, albo, że taki obiekt „znajdzie, przygotuje”
+                    (LS w większości miejsc proponuje tłumaczyć wyraz jako to
+                    provide). Problem o tyle jest istotny, że nie wiemy, (1) czy na orchestrze
+                    Teatru Dionizosa w V w. znajdował się ołtarz (źródła archeologiczne potwierdzają
+                    jego obecność wyłącznie w późniejszym okresie, cf. Arnott
+                    1962: 44; Sourvinou-Inwood 2003: 141–145) ani (2) czy wykorzystywano
+                    go jako element scenografii. Jeśli udzielimy przeczącej odpowiedzi
+                    na którekolwiek z tych pytań, należy uznać, że (1) na potrzeby sztuk,
+                    w których ołtarz pojawiał się wnoszono go w odpowiednim momencie
+                    akcji (tak Georgoudi 2005: 119), lub (2) stawiano taki przedmiot na proscenium
+                    albo orchestrze jeszcze przed spektaklem, lub (3) istniał stały
+                    „sceniczny” ołtarz odrębny od rzeczywistego ołtarza Dionizosa (koncepcji
+                    tej broni Arnott 1962: 53), lub (4) istniał stały, „sceniczny” ołtarz,
+                    rzeczywistego zaś ołtarza Dionizosa w teatrze nie było (Rehm 1988).
+                    Omawiany passus dosyć wyraźnie wskazuje na to, że w Pokoju wykorzystano
+                    element od początku sztuki obecny w przestrzeni scenicznej.
+                    Wersy 939–941 zawierają wypowiedź chóru, która daje aktorom czas na
+                    wykonanie zapowiedzianych przez Trygajosa czynności. Stanowi ona
+                    komentarz do całości akcji, która rzeczywiście rozwija się pomyślnie
+                    dla bohatera, a jednocześnie uzasadnia odstępstwo od zasady prawdopodobieństwa:
+                    niespodziewanie dla siebie samego Trygajos znalazł
+                    ołtarz przed drzwiami swego domu, o czym zaraz oznajmia widzom
+                    (942; cf. Olson 1998: <title>ad loc</title>.; Arnott 1962: 49–50). Wynikająca stąd niezręczność
+                    pozwala się domyślać, że Arystofanes borykał się z problemem
+                    technicznym: eksponowanie nagłego „odkrycia” ołtarza wskazuje
+                    na to, że publiczność potrzebowała eksplicytnej informacji, że w ramach
+                    konwencji dopiero teraz się on pojawia. Prawdopodobnie zatem był on
+                    fizycznie obecny (i ignorowany) na scenie od samego początku.</p>
+                  <p>  948–949: lista obiektów potrzebnych do złożenia ofiary nie jest
+                    kompletna. Oprócz ołtarza, o którym mowa wcześniej, Trygajos nie
+                    wymienia choćby wody (o której w 956) i wina na libacje (1059).</p>
+                    <p><w>κανοῦν</w> – „koszyk”; chodzi o specjalny typ pojemnika, dobrze znanego
+                    z przedstawień w malarstwie wazowym. W czasie publicznej
+                    procesji często (jeśli nie zawsze) niosła go dziewczyna idąca na czele
+                    procesji. W przedstawieniach prywatnych ofiar, koszyk często niesie
+                    mężczyzna (van Straten 1995: 14), tak jak ma to miejsce i tutaj.</p>
+                    <p><w>ὀλὰς</w> ἔχον καὶ <w>στέμμα</w> καὶ <w>μάχαιραν</w> καὶ <w>πῦρ</w> γε τουτί – „z krupami,
+                    wstęgą i nożem, jest i ogień”; składnia i szyk nie pozostawiają
+                    wątpliwości, że trzy pierwsze rzeczowniki nazywają przedmioty, które
+                    znajdowały się w koszyku, ogień prawdopodobnie był poza nim.
+                    Jeżeli Trygajos nie zastał ołtarza już przygotowanego do ofiary, żar
+                    przyniesiono mu w garnku (cf. Ar. <title>Lys</title>. 308; <title>Av</title>. 43; <title>Pax</title> 1024 infra – tam
+                    obszerniejszy komentarz).</p>
+                   <p> <w>ὀλάς</w> – „krupy”; attycka forma rzeczownika οὐλαί. Gruba kasza
+                    jęczmienna. Jak wskazuje opis dziwacznej ofiary w <title>Odysei</title> (12.356–
+                    –363), ten marginalny, zdawać by się mogło, element uważano za bardzo
+                    istotny dla definicji uboju jako ofiary. W passusie homeryckim,
+                    z braku zboża, towarzysze Odyseusza zastępują je jedynym, co mają,
+                    czyli liśćmi dębu. Więcej: ad 962–7.</p>
+                    <p><w>στέμμα</w> – „wstęgę”; jak słusznie zauważa Olson (1998: <title>ad loc</title>.), liczba
+                    pojedyncza sugeruje, że wyłącznie zwierzę powinno zostać udekorowane.
+                    Skądinąd można by oczekiwać, że wstęgi założą także i ludzie
+                    uczestniczący w rytuale.</p>
+                  <p>  <w>μάχαιραν</w> – „nóż”; scholia do passusu zawierają informację, że
+                    nóż „ukrywano” (εἰώθασι […] <w>μάχαιραν</w> φέρειν κατακρύπτοντες)
+                    w koszyku pod wstęgami i ziarnem. Dlatego słowo oznaczające koszyk
+                    (według fałszywej etymologii) miało się wywodzić od czasownika
+                    odnoszącego się do czynności zabijania (<w>κανοῦν</w> ἀπὸ τοῦ <w>κανεῖν</w>).
+                    Ten sam zestaw informacji podaje <title>Suda</title> ( s.v. <w>κανοῦν</w>). Te dwa przekazy,
+                    wyraźnie zależne od wspólnego źródła (Georgoudi 2005: 122–
+                    –123), jako jedyne zawierają wzmiankę na temat ukrywania noża przed
+                    zwierzęciem (nawiasem mówiąc, w tekstach wcale nie jest powiedziane,
+                    przed kim i dlaczego chowano narzędzie), która z kolei stanowi
+                    jedną z przesłanek teorii „komedii niewinności” Burkerta-Meuliego
+                    (cf. ad 960), a także przeświadczenia francuskich strukturalistów o konieczności
+                    ukrywania przemocy przez greckich ofiarników (doskonałe
+                    podsumowanie: Georgoudi 2005: 117–118). Wartość tych późnych
+                    przekazów, prawdopodobnie zawierających efekt czyjejś spekulacji,
+                    wydaje się znikoma tym bardziej, że istnieją dane, które im przeczą. Na
+                    przykład przedstawienia w malarstwie wazowym (van Straten 1995:
+                    fig. 6 i 7) wskazują na to, że przynajmniej niekiedy ofiarnicy mogli nieść
+                    nóż w pochwie przy boku. Natomiast wzmianka w <title>Ifigenii aulidzkiej</title>
+                    (1565–1567) przekazuje, że w czasie gdy dokonywano wstępnych rytów,
+                    miejsce noża rzeczywiście było w koszyku, nie ukrywano go jednak
+                    przed zwierzęciem i uczestnikami ofiary: Κάλχας δ’ ὁ μάντις ἐς
+                    <w>κανοῦν</w> χρυσήλατον / ἔθηκεν ὀξὺ χειρὶ φάσγανον σπάσας / κολεῶν
+                    ἔσωθεν κρᾶτά τ’ ἔστεψεν κόρης („wieszczek Kalchas włożył do koszyka
+                    wykutego ze złota tasak ostry, który ręką wydobył z pochwy,
+                    dziewczynie zaś głowę uwieńczył”). Dodajmy do tego, że w <title>Iliadzie</title>
+                    Agamemnon jest jedynym spośród Achajów, o którym dowiadujemy
+                    się, że obok miecza nosił przy boku także i nóż (3.271–272 = 19.252–253
+                    Ἀτρεΐδης δὲ ἐρυσσάμενος χείρεσσι <w>μάχαιραν</w>,/ ἥ οἱ πὰρ ξίφεος μέγα
+                    κουλεὸν αἰὲν ἄωρτο („Atryda rękoma dobył noża, który miał zawsze
+                    przy wielkiej pochwie miecza”). Ze względu na wybiórczy charakter
+                    homeryckich opisów oczywiście nie możemy na tej podstawie wnosić,
+                    że inni przywódcy i żołnierze nie nosili noży, niemniej ze względu
+                    na szczególną rolę Agamemnona jako tego, kto regularnie składa
+                    ofiary w imieniu całej zbiorowości (w zdecydowanej większości opisów
+                    w prymarnej narracji – cf. Hitch 2009: 142 et passim), machaira przy
+                    jego boku wyraźnie stanowi ważny element identyfikacji jego statusu.
+                    Przypuszczalnie również jako emblemat należy potraktować noże,
+                    które noszą ofiarnicy w przedstawieniach w malarstwie (nie jest to
+                    malarstwo realistyczne – każdy element namalowany obarczony jest
+                    znaczeniami). Rozpatrywany w tym świetle cytowany powyżej passus
+                    z <title>Ifigenii aulidzkiej</title> wyraźnie należy rozumieć następująco: w czasie
+                    samego rytuału, tzn. przy ołtarzu, miejsce noża było w koszyku lub
+                    w ręku ofiarnika. Poza tym we wszystkich innych sytuacjach niektóre
+                    osoby, takie jak Kalchas (religijny specjalista) lub Agamemnon (lider
+                    polityczno-religijny) mogły nosić to narzędzie przy boku jako emblemat
+                    swojego specjalnego statusu. Więcej o nożu: ad 1017.</p>
+                    <p>951: <w>Χαῖρις</w> – Chajris; auleta będący przedmiotem wielu żartów
+                    w komedii czasów Arystofanesa (cf. A. <title>Av</title>. 858, wraz z komentarzem
+                    ad 849). Nie jest jasne, czy była to po prostu dobrze znana osoba, czy
+                    też członek trupy, do którego aluzja miałaby charakter metateatralny
+                    (Taplin 1993: 105–106; Olson 1998 <title>ad loc.</title> jest przeciwny). Prawdopodobnie
+                    Chór wspomina o nim dlatego, że z budynku scenicznego
+                    (przynajmniej w ramach konwencji, bo prawdziwy auleta mógł się
+                    znajdować gdzie indziej) dobiegł dźwięk aulosu. Właśnie teraz na scenę
+                    wychodzi owca (a może kukła na kółkach?). Przypuszczalnie prowadzi
+                    ją wysłany w tym celu sługa. Za nimi, w ramach typowej procesji
+                    ofiarniczej zmierzającej ku ołtarzowi, powinien podążać auleta.
+                    Obecność takiego specjalisty, który nieproszony pojawia się, by pomóc
+                    w złożeniu ofiary w zamian za część mięsa czy inne dary stanowi jeden
+                    z toposów komedii (cf. 1052–1126; <title>Av</title>. 809–1060), prawdopodobnie
+                    nie była czymś niezwykłym również i w ateńskiej rzeczywistości.</p>
+                    <p>956–957: w czasie gdy chór śpiewał, sługa z owcą wyszedł z budynku
+                    scenicznego i zbliżył się do ołtarza. W tym momencie rozpoczyna się rytuał
+                    ofiarniczy wstępnymi rytami. Ewidentnie należało do nich obejście
+                    ołtarza z koszykiem i wodą (<w>χέρνιψ</w>). Olson (1998: ad loc.) cytuje następujące
+                    paralele: A. <title>Av</title>. 958 E. <title>IA</title> 1471–1472; 1568–1569; <title>HF</title> 926–927; Philem.
+                    fr. 54. Wyraźnie jednak nie ma racji, twierdząc, że na tym polegał ryt zwany
+                    ἐνάρχεσθαι τὸ κανοῦν. Podane przez niego miejsca (E. <title>IA</title> 1470; Men.
+                    <title>Pk</title>. 997–998; <title>Sam</title>. 222) wskazują na to, że była to osobna czynność.</p>
+                    <p><w>ἐπιδέξια</w> – „w prawą stronę”; spośród siedmiu wydań, jakie konsultowałem,
+                    wyłącznie tekst Olsona (1998) zawiera w tym miejscu formę
+                    <w>ἐπὶ δεξιά</w>. Jest ona wprawdzie możliwa, jednak brak wyjaśnienia
+                    w komentarzu i aparacie krytycznym zarówno tej edycji, jak i wszystkich
+                    innych wskazują na to, że nie jest to świadomie wprowadzona koniektura,
+                    lecz zwykła pomyłka. Dlatego pozostawiam lekcję <w>ἐπιδέξια</w>
+                    jako wyraźnie jedyną obecną w tradycji rękopiśmiennej i nie wymagającą
+                    zmian. Przysłówek określa ruch z lewa w prawo, a zatem, jeśli
+                    przyjąć ustawienie twarzą do ołtarza – przeciwny do wskazówek
+                    zegara. Co istotne, malarstwo wazowe zdaje się tej konwencji przestrzegać.
+                    Na przykład na jednym z kraterów reprodukowanych przez
+                    van Stratena (1995: fig. 34) widzimy młodzieńca stojącego za ołtarzem,
+                    twarzą do widza, z koszykiem w lewej ręce. W prawej trzyma naczynie
+                    z wodą, podając je innemu młodzieńcowi, wykonującemu gest
+                    obmycia rąk. Jeśli coś podobnego miało miejsce w omawianej scenie,
+                    Trygajos stał w miejscu i czekał, aż niewolnik obejdzie ołtarz po to, by
+                    mu wręczyć potrzebne przedmioty od jego lewej strony. W podobny
+                    sposób (<w>ἐπιδέξια</w>) w czasie uczty krążyły naczynia z winem (cf. e.g.
+                    Eup. 325; Węcowski 2014: 85–102).</p>
+                    <p>959: <w>δαλίον</w> τόδ’ <w>ἐμβάψω</w> – „zanurzę ten patyk w wodzie”; Trygajos
+                    bierze ze stosu patyk, zanurza jego koniec w naczyniu trzymanym
+                    przez niewolnika i skrapia owcę wodą. Na to, że była to typowa procedura,
+                    wskazuje passus z Eurypidesa (<title>HF</title> 928–929, w którym wszystko
+                    odbywa się jak w ramach zwykłej ofiary, poza tym, że zwierzęta
+                    zastępują ludzie): μέλλων δὲ <w>δαλὸν</w> χειρὶ δεξιᾶι φέρειν,/ ἐς χέρνιβ’
+                    ὡς <w>βάψειεν</w>. Arystofanes w omawianym passusie używa zdrobnienia
+                    wyrazu oznaczającego polano: <w>δαλίον</w> zamiast <w>δαλόν</w>. To, co następuje
+                    w kolejnym wersie, może sugerować, że nie chodziło tu o zwykłą
+                    szczapkę, lecz o ulistnioną gałązkę, którą można było zaczerpnąć
+                    większą ilość wody. Na temat drewna także ad 1024.</p>
+                    <p>960: <w>σείου</w> σὺ ταχέως – „trzęś się, prędko!”; scholia do tego miejsca
+                    zawierają stwierdzenie: πρὸς τὸ ἱερεῖον λέγει. ἐσπούδαζον γὰρ
+                    ἐπισπένδοντες, ἵνα <w>σείσῃ</w> τὴν κεφαλὴν καὶ ἐπινεύειν τοῖς ἱερείοις
+                    δοκῆι („mówi do zwierzęcia ofiarnego. Wylewali bowiem płyn, starając
+                    się, żeby zwierzę wstrząsnęło głową, i sprawiło wrażenie, że wyraża
+                    zgodę na czynności obrzędowe”). Wypowiedź starożytnego komentatora
+                    jest jednym z bardzo nielicznych miejsc w literaturze, w których
+                    jest mowa o zgodzie zwierzęcia na ubój. Z tego powodu passusowi należy
+                    się szczególna uwaga, zważywszy na rolę, jaką odegrał on w konstruowaniu
+                    przez Burkerta (1983: 107) jego koncepcji „komedii niewinności”
+                    – choć sam termin ukuł K. Meuli (1946). Zgodnie z tą teorią
+                    rytualna oprawa ofiary miała na celu ukrycie przed jej uczestnikami
+                    faktu, że dokonywali oni aktu przemocy. Jednym z narzędzi mających
+                    na celu wywołanie wśród ofiarników wrażenia, że nie czynią niczego
+                    niemoralnego, miało być przeniesienie odpowiedzialności na samo
+                    zwierzę (skrajnym przypadkiem miały być bouphonia). Teoria Burkerta
+                    spotkała się w ostatnich latach z surową krytyką (e.g. Lincoln 2012;
+                    Graf 2012). Na szczególną uwagę w omawianym miejscu zasługuje
+                    artykuł Naidena (2007): The fallacy of the willing victim (por. także Georgoudi
+                    2005). Uczony zwraca w nim uwagę na archeologiczne i ikonograficzne
+                    źródła wskazujące na to, że zwierzęta nie tylko nie szły na
+                    ubój dobrowolnie, lecz także, że wcale tego po nich nie oczekiwano.
+                    Większą część tekstu Naidena wypełnia celna polemika z zasadnością
+                    wykorzystania przez Burkerta danych z literatury. W odniesieniu do
+                    omawianego passusu z Pokoju uczony zauważa (Naiden 2007: 63–64),
+                    że wyraz <w>σείω</w> („trząść się”) odnosi się nie do skinięcia głową, lecz do
+                    otrząśnięcia się z wody. Dlaczego stawiano takie wymagania wobec
+                    zwierzęcia? Plutarch (<title>de def</title>. 437b) powiada, że w ten sposób sprawdzano,
+                    czy jest ono zdrowe, a tym samym, czy nadaje się na ofiarę: τοῖς
+                    μὲν ταύροις ἄλφιτα τοῖς δὲ κάπροις ἐρεβίνθους παρατιθέντες· τὸ
+                    γὰρ μὴ γευσάμενον ὑγιαίνειν οὐκ οἴονται. τὴν δ’ αἶγα διελέγχειν τὸ
+                    ψυχρὸν ὕδωρ· οὐ γὰρ εἶναι ψυχῆς κατὰ φύσιν ἐχούσης τὸ πρὸς τὴν
+                    κατάσπεισιν ἀπαθὲς καὶ ἀκίνητον – „bykom podaje się krupy jęczmienne,
+                    knurom ciecierzycę, bo takiego, który nie zje, uważają za niezdrowego.
+                    Kozę oblewa się zimną wodą, bo musi być coś sprzecznego
+                    z naturą w duszy zwierzęcia, które nie porusza się gdy czuje, że jest
+                    spryskiwane”. Należy zaznaczyć, że tekst odnosi się do konkretnego
+                    miejsca i czasu: chodzi mianowicie o ofiary składane w Delfach w II w.
+                    n.e. Co również istotne, jego autorem jest wybitny intelektualista. Być
+                    może zatem Berthiaume (1982: 86) słusznie uznał całość wywodu za
+                    efekt racjonalizacji, mającej na celu wyjaśnienie użycia rekwizytów,
+                    takich jak woda i ziarno. Z całą pewnością jednak z równie dużą, jeśli
+                    nie większą dozą nieufności, powinniśmy podejść do wyjaśnień scholiasty,
+                    które także mogą stanowić efekt przesadnie subtelnej egzegezy.</p>
+                    <p>960–961: πρότεινε τῶν ὀλῶν καὐτός τε <w>χερνίπτου</w> παραδοὺς
+                    ταύτην ἐμοί – „podaj krupy. Daj to teraz i sam się obmyj”. Sługa podsuwa
+                    Trygajosowi koszyk, a ten bierze z niego ziarno. Następnie Trygajos
+                    przejmuje naczynie z wodą, sługa myje ręce. Trygajos prawdopodobnie
+                    już to uczynił, chyba zaraz przed opryskaniem owcy. Dosyć
+                    rzadkie słowo <w>χερνίπτομαι</w> jest regularnym derywatem <w>χέρνιψ</w> (Beekes
+                    2010 s. χείρ). Prawdopodobnie oznacza po prostu „umyć ręce”,
+                    choć jako denominativum teoretycznie może mieć wszelkie znaczenie
+                    mieszczące się w: „użyć chernips”, na przykład w celu opryskania się
+                    podczas rytualnego oczyszczenia.</p>
+                  <p>  962–967: passus stał się słynny jako źródło do historii teatru, zawiera
+                    on bowiem przesłankę przemawiającą za tym, że nie tylko mężczyźni,
+                    ale i kobiety oglądały spektakle komiczne (cf. e.g. Pickard-Cambridge
+                    1968: 263–265; Sourvinou-Inwood 2003: 177–184; Goff 2004: 294). Zawarty
+                    w nim obsceniczny dowcip opiera się na dwuznaczności słowa
+                    <w>κριθή</w>, „ziarno jęczmienia” lub „członek męski”. Stwierdzenie Olsona
+                    (1998: ad 963–965), że przywołanie Hermesa w tym miejscu nie wynika
+                    z niczego poza metryką, wydaje się nieuzasadnione. Ponieważ bóstwo
+                    to otrzymywało cześć między innymi pod postacią ityfallicznych
+                    herm, wzmianka o nim połączona z odpowiednim gestem mogła służyć
+                    uwypukleniu żartu.</p>
+                   <p> Nie całkiem jasne jest, co działo się w tym czasie na scenie. Wypowiadając
+                    słowa z wersu 960, Trygajos z pewnością zaczerpnął jęczmień
+                    z koszyka. Być może od razu obrzucił nim zwierzę lub ołtarz, możliwe
+                    jednak, że czekał, aż ziarno zostanie rozdzielone pomiędzy pozostałych
+                    uczestników obrzędu, którymi stają się widzowie. Oczywiście
+                    to, co ma miejsce w teatrze, nie stanowi precyzyjnego odzwierciedlenia
+                    rytuału. W normalnych okolicznościach z pewnością dystrybuowano
+                    jęczmień w inny sposób niż rzucając nim. Wydaje się zresztą możliwe,
+                    że sługa zamiast zboża rzucał widzom orzechy, czy inne przysmaki.
+                    Wprawdzie sam poeta krytycznie wyraża się o tego rodzaju praktyce
+                    (<title>V.</title> 58–59; <title>Pl</title>. 797–799), więc nie można wykluczyć, że tutaj ją parodiuje
+                    (Platnauer 1964: ad 962), jednak, jak słusznie zauważa Olson (1998:
+                    ad 960), niekoniecznie należy dawać wiarę metapoetyckim stwierdzeniom
+                    Arystofanesa.</p>
+                    <p>Ἀλλ’ <w>εὐχώμεθα</w> – „módlmy się”; jedna z możliwych formuł
+                    rozpoczynających modlitwę (e.g. w Ptakach 865 jest imp. 2. os. pl.:
+                    <w>εὔχεσθε</w>). Przedstawienie intencji, w jakiej składana jest ofiara w ramach
+                    modelowego scenariusza rytualnego powinno nastąpić właśnie
+                    teraz.</p>
+                    <p>968: τίς τῆιδε; ποῦ ποτ’ εἰσὶ <w>πολλοὶ κἀγαθοί</w>; – „Kto tu jest? Gdzie
+                    liczni i zacni?”; scholiasta wyjaśnia, że istniał zwyczaj poprzedzania
+                    libacji (publicznych – Olson 1998: <title>ad loc</title>.) formularnym pytaniem o to,
+                    kto jest obecny. Prawidłowa odpowiedź brzmiała: <w>πολλοὶ κἀγαθοί</w>
+                    („liczni i zacni”). Taka wymiana zdań miała pozwolić na oddalenie się
+                    tym, którzy sądzili, że z jakiegoś powodu nie powinni uczestniczyć
+                    w rytuale (οἱ <w>συνειδότες</w> τι ἑαυτοῖς ἄτοπον). Dalsza wymiana zdań
+                    wskazuje na to, że zamiast dokonać libacji, Trygajos wylał chernips
+                    (wodę do oczyszczeń) na publiczność albo chór. Scholiasta i komentatorzy
+                    (e.g. Olson 1998: <title>ad loc</title>.; Sommerstein 1985: <title>ad loc</title>.) opowiadają
+                    się za drugim z tych wariantów, być może jednak świadczy to o zbyt
+                    dosłownym traktowaniu wydźwięku czasownika <w>ἑστᾶσι</w> („stanęli”) –
+                    podczas gdy widzowie powinni byli „siedzieć”. Zważywszy na to, że
+                    przed chwilą rzucano ziarno lub orzechy, a teraz lała się woda, trudno
+                    powiedzieć, jaką pozycję zajmowała publiczność.</p>
+                    <p>973–1016: modlitwa zaczyna się powtórzeniem formuły <w>εὐχώμεθα</w>
+                    („módlmy się”). Po niej następują apostrofy do bogini, które przedstawiają
+                    (w zamierzeniu także widzom) pokój jako „panią chórów
+                    i godów/ślubów” (<w>δέσποινα χορῶν</w>,<w> δέσποινα γάμων</w>), a więc przyjemnej
+                    działalności, którą wojna utrudnia. Część wstępna modlitwy
+                    kończy się formułą δέξαι <w>θυσίαν</w> τὴν ἡμετέραν („przyjmij naszą ofiarę”),
+                    co pozwala przyjąć, że rytuał stanowi swego rodzaju „akt otwarcia
+                    kanału komunikacji z bogami” (koncepcja forsowana przez Naidena,
+                    zwłaszcza 2013). Dalszy ciąg wypowiedzi, czy raczej dwugłosu
+                    Trygajosa i jego sługi, ma formę bardzo swobodną i stanowi ilustrację
+                    dobrodziejstw pokoju. Całość kończy krótka formuła zamknięcia,
+                    zawierająca epiklezę bogini i zwięzłe sformułowanie prośby ταῦτ’, ὦ
+                    πολυτίμητ’, <w>εὐχομένοις</w> ἡμῖν δίδου („prosimy ciebie, która od wielu
+                    otrzymujesz cześć, daj nam to wszystko”).</p>
+                    <p>1017–1018: wydaje się znamienne, że polecenie zarżnięcia owcy
+                    Trygajos wydaje słudze. Jak zauważa Parker (2011: 161–162), na poziomie
+                    znaczeń marginalną rolę odgrywało to, kto dokonywał uboju,
+                    tzn. przeciągał nóż po gardle zwierzęcia (wyjątek stanowią przepisy
+                    w <title>LSCG</title> 151.40–44). Dlatego tę funkcję można było powierzyć niewolnikowi
+                    bez szkody dla czci własnej i bogów. Bardziej istotne było
+                    dokonanie rytów rozpoczynających ofiarę i kończących ją – umieszczenie
+                    udźców na ołtarzu. Kto wykonywał te czynności, uchodził za
+                    właściwego ofiarnika (cf. 1039 infra)? Czasownik <w>σφάζω</w> („zarżnąć”)
+                    ma w tym kontekście bardzo precyzyjne, techniczne znaczenie. Choć
+                    gdzie indziej może określać całość rytuału (e.g. <title>Il</title>. 23.31; <title>Od</title>. 10.532;
+                    11.45), tutaj określa przecięcie naczyń krwionośnych w szyi zwierzęcia.
+                    Przysłówek μαγειρίκως jest derywatem rzeczownika <w>μάγειρος</w>,
+                    oznaczającego kucharza-rzeźnika, który gotował mięso, dokonywał
+                    jego podziału i uboju zwierzęcia (trzy pola działania według Berthiaume’a
+                    (1982: 5 et passim); cf. Pl. <title>Euthd</title>. 301c–d). Tego rodzaju specjalistów
+                    nie ma u Homera, pojawiają się oni w VI lub V w. p.n.e. (pierwszym
+                    poświadczeniem ma być fr. Semonidesa 24 West. Berthiaume 1982: 9
+                    jest jednak sceptyczny wobec niego, ponieważ interesujące nas słowo
+                    pojawia się nie w samym cytacie, lecz w komentarzu, jaki czyni do niego
+                    Atenajos 659e). W czasach Arystofanesa mageiroi wyraźnie stanowili
+                    liczącą się grupę zawodową.</p>
+                    <p>οὐ <w>θέμις</w> – „nie wolno/nie godzi się”; Olson (1998: <title>ad loc</title>.) zwraca
+                    uwagę, że zwrot ma wydźwięk formuły odnoszącej się do przepisów
+                    kultowych.</p>
+                    <p>1019–1020: <w>σφαγή</w> to zarówno „ofiara” ze zwierzęcia (A. <title>Ag</title>.
+                    1057), jak i krwawiąca „rana” (S. <title>Tr</title>. 573), a także wszelkiego rodzaju
+                    „mord” (S. <title>El</title>. 37). Szczególnie często wyraz ten (w każdym ze znaczeń)
+                    pojawia się w tragedii. W tym miejscu wyraźnie stanowi element
+                    stylizacji, której efekt wzmacnia czasownik <w>αἱματοῦται</w> – dosł.
+                    „zalewa się krwią” (cf. E. <title>Andr</title>. 260; Olson 1998: <title>ad loc</title>.). W ramach
+                    komedii Arystofanesa sformułowanie takie ma charakter metafory,
+                    chyba trudno wyczuwalnej dla dzisiejszego czytelnika. Zrównanie
+                    krwi zwierzęcej z ludzką (tzn. żołnierzy padających na polu bitwy),
+                    jakkolwiek nie było nowe, nie wydawało się chyba wcale oczywiste.
+                    Krew ofiar spływająca z ołtarza ewidentnie nie była niczym wstydliwym,
+                    być może nawet stanowiła powód do chwały (dowód pobożności),
+                    o czym świadczą przedstawienia w malarstwie wazowym.
+                    Spośród obrazów reprodukowanych przez van Stratena na uwagę
+                    zasługują tu m.in. nr 43; 56; 110, a ponadto np. AN1924.3 ze zbiorów
+                    Ashmolean Museum. Jak zaznacza Ekroth (2005), w czasie ofiary
+                    typu thysia większość krwi zarzynanego zwierzęcia wyłapywano do
+                    naczynia typu <w>σφαγεῖον</w>, by później wykorzystać ją jako składnik
+                    pewnych potraw (np. czarnej polewki). Znane z malarstwa wazowego
+                    ślady krwi na ołtarzu mogą być więc wynikiem nie tyle zarzynania
+                    zwierzęcia w taki sposób, by wykrwawiło się na palenisko, ile
+                    celowego spryskiwania czy mazania jego bocznych powierzchni. Na
+                    temat momentu i sposobu dokonywania tego istnieją bardzo wątłe
+                    poszlaki. Należy także zaznaczyć, że krew rozlana na ołtarzu czy też
+                    tryskająca z szyi ofiary stanowi szczególnie istotny element w tych
+                    przedstawieniach, w których świadczy ona o przełamaniu kodu rytualnego
+                    (cf. Henrichs 2012) – gdy jest to krew ludzka (por. obrazy
+                    śmierci Buzyrysa, np. van Straten 1995: fig. 49; 51; 52 i Polikseny,
+                    Ekroth 2005: 14).</p>
+                  <p>  1020–1022: podobnie jak w Ptakach (1056–1057), Arystofanes znajduje
+                    pretekst, żeby ofiara nie dokonała się na oczach widzów. Wyraźnie
+                    istniały jakiegoś rodzaju przeciwwskazania, być może o charakterze
+                    czysto technicznym. Stwierdzenie Arnotta (1962: 53–54), że
+                    istniało tabu zakazujące używania autentycznego ołtarza znajdującego
+                    się w teatrze do zabijania „na niby”, nie jest niczym więcej niż tylko hipotezą.
+                    Pozostaje zatem stwierdzić, ujmując rzecz w kategoriach czysto
+                    opisowych, że ani w komedii, ani w tragedii nie ma zabijania ludzi
+                    i zwierząt na scenie. Pozorny wyjątek Ar. <title>Th</title>. 689–759.</p>
+                    <p><w>εἴσω</w> – „wewnątrz”; sługa zaprowadzi zatem zwierzę do budynku
+                    scenicznego, który w ramach konwencji jest domem Trygajosa.</p>
+                    <p><w>θύσας</w> – dosł. „zabiwszy”; czasownik θύω, którego pierwotnym
+                    znaczeniem było „spalać w celu wytworzenia dymu”, tutaj wyraźnie
+                    został użyty w znaczeniu „zarżnąć”, czynność spalania ma się bowiem
+                    odbyć później.</p>
+                    <p><w>μηρία</w> – „udźce”; podobnie jak u Homera, kości udowe stanowią
+                    zasadniczy przedmiot zainteresowania ofiarnika, pars pro toto części,
+                    którą otrzymywał bóg. Same kości przed spaleniem owijano w tłuszcz
+                    z błony otrzewnej lub ud zwierzęcia (Forstenpointner, Galik, Weissengruber
+                    2013: 237–238). W omawianej scenie poza nimi spalona zostanie
+                    także zadnia część zwierzęcia (<w>ὀσφῦς</w> – kość krzyżowa z ogonem vide
+                    1053; cf. ad Ar. <title>Av</title>. 193). Wszystko to przyniesie sługa. Zastanawiające,
+                    czy w rzeczywistości pozascenicznej również wystarczyło wymienić
+                    udźce, żeby zrozumiano, że chodzi i o pozostałe elementy „części boskiej”.
+                    Być może to drobne zaniedbanie Arystofanesa. Użyty tu pospolity
+                    czasownik <w>ἐξαιρέω</w> nie ma chyba wydźwięku technicyzmu, choć
+                    dobrze oddaje czynność „wydobywania” kości z ciała zwierzęcia.</p>
+                    <p>τὸ πρόβατον τῶι <w>χορηγῶι</w> σώιζεται – „zwierzę zachowamy dla
+                    chorega”; choreg to wyznaczony przez archonta zamożny obywatel,
+                    którego obowiązkiem było zapewnienie środków na przygotowanie
+                    chóru. Olson (1998: ad loc.) z powagą zauważa, że koszty, jakie ponosił
+                    taki „sponsor”, były nieporównywalnie duże w porównaniu z ceną
+                    owcy i dlatego musi tu chodzić o coś innego. Oczywiście jest to metateatralny
+                    żart. Jego znaczenie zależy w dużej mierze od tego, czego
+                    nie wiemy – czy na scenie było żywe zwierzę. Jeśli nie, wydźwięk
+                    passusu jest bliski stwierdzeniu: „nie będziemy niszczyć rekwizytów,
+                    bo jeszcze się przydadzą”. Gdyby owca była prawdziwa, słowa mogłyby
+                    stanowić zapowiedź ofiary i uczty, jaka będzie miała miejsce po
+                    oczekiwanym zwycięstwie w agonie.</p>
+                    <p>1024: <w>σχίζας</w> τιθέναι – „ułóż drewka”; Olson (1998: ad loc.; 1991:
+                    414–420) zwraca uwagę na rozgraniczenie pomiędzy różnymi rodzajami
+                    drewna: <w>σχίζα</w> to porąbane szczapy, polana (cf. <title>Od</title>. 14.425–426),
+                    w odróżnieniu od <w>φρύγανα</w> (patyki, chrust). Scholia zawierają cenną
+                    informację, że tego pierwszego słowa „dawniejsi ludzie” (οἱ <w>παλαιοί</w>;
+                    ta kategoria obejmowała chyba także Arystofanesa) używali na określenie
+                    tego, czym opalano na ołtarzach (cf. <title>Il</title>. 1.426; 2.425; <title>Od</title>. 3.459). Nie
+                    wiemy, jak wiele na scenie działo się naprawdę, a ile odbywało się wyłącznie
+                    w ramach konwencji. Możliwe, że w teatrze rzeczywiście płonął
+                    ogień. Odrębną kwestią pozostaje, czy bohater rozpala go dopiero teraz,
+                    wykorzystując żar przyniesiony w garnku (cf. 949), czy tylko dokłada
+                    do niego. W malarstwie wazowym często pojawiają się obrazy procesji
+                    zmierzającej do ołtarza, na którym już buzuje ogień (van Straten 1995:
+                    fig. 2; 38). Są także i sceny rozgrywające się przy ołtarzu, na którym nie
+                    ma płomienia. Być może jest to wyłącznie kwestią konwencji przedstawień.
+                    Van Straten (1995: 167) zaznacza, że ogień może stanowić swojego
+                    rodzaju epitheton ornans przedstawień, czyli wskazywać na to, czym jest
+                    natura ołtarza, a nie to, w jakim stanie chwilowo się on znajduje. Istnieje
+                    jednak kategoria obrazów, na których pojawia się to, co uczony określa
+                    jako small pilot fire (ibidem, tam także adresy), który w odpowiednim momencie
+                    wystarczyło zasilić drewnem i rozdmuchać. Niewykluczone, że
+                    to właśnie ma miejsce w omawianej scenie.</p>
+                   <p>1025: użyte przez Arystofanesa słowo <w>πρόσφορα</w> („odpowiednie”,
+                    „stosowne”, „potrzebne”) gramatycznie łączy się z <w>τιθέναι</w> („ułożyć”).
+                    To sugeruje, że odnosi się ono do przedmiotów, które wraz z polanami
+                    Trygajos umieszcza na palenisku ołtarza. Sommerstein (1985) tłumaczy
+                    „on top of them [faggots]”, co sugeruje, że jego zdaniem chodzi
+                    o położenie czegoś na polanach. Olson (1998: <title>ad loc</title>.) zauważa, że jest
+                    to błąd, ponieważ <w>ἐπὶ τούτοις</w> („na nich”) nie może się odnosić do
+                    szczapek (<w>σχίζαι</w>), bo te są rodzaju żeńskiego. Stąd wynika słuszna,
+                    moim zdaniem, propozycja rozbioru gramatycznego podporządkowująca
+                    ἐπὶ τούτοις przymiotnikowi <w>πρόσφορα</w>, a nie czasownikowi
+                    τιθέναι. Passus należałoby zatem skalkować jako: „prędko ułóż tu
+                    szczapki i wszystko to, co jest potrzebne do tych”. Problematyczna
+                    staje się referencja zaimka wskazującego (wyraźnie w neutrum) τούτοις
+                    („tych”). Najbardziej neutralne, a zarazem roztropne tłumaczenie zaproponował
+                    van Herwerden (1897: ad loc.): „qui rei conveniunt, ad rem
+                    pertinent”. Przy tym najlepiej pozostać. Stwierdzenia Sommersteina
+                    (1985: ad loc.) i Olsona (1998: <title>ad loc</title>.), że chodzi o część zwierzęcia, która
+                    ma zostać spalona w ofierze, wydają się bardzo nieostrożne (wariant
+                    Sommersteina znajduje uzasadnienie w jego rozumieniu składni zdania
+                    – niestety błędnym). Na udźce „z przyległościami” trzeba będzie
+                    poczekać aż do wersu 1039, a chór chyba ma na myśli to, czym Trygajos
+                    ma się zająć w międzyczasie, czyli na przykład przyniesieniem stołu,
+                    rzeczy jak najbardziej w tym kontekście „potrzebnej i stosownej”.</p>
+                    <p>1026: <w>μαντικῶς</w> – „jak wieszczek”; przysłówek będący derywatem
+                    rzeczownika <w>μάντις</w> („wieszczek”). To, co najciekawsze w tym
+                    miejscu, czyli gesty Trygajosa parodiującego zachowanie religijnego
+                    specjalisty, jest dla nas całkowicie nieuchwytne. Scholia zawierają
+                    wyjaśnienie, że jedną z podstawowych technik mantycznych była
+                    obserwacja ognia, co siłą rzeczy musiało się wiązać z wcześniejszym
+                    przygotowaniem paleniska. Zestawione przez Olsona (1998: <title>ad loc</title>.)
+                    passusy (A. <title>PV</title> 496–498; S. <title>Ant</title>. 1005–1011; E. <title>Supp</title>. 211–213; <title>Ph</title>. 1255–
+                    –1258) potwierdzają to, jednak z pewnym zastrzeżeniem. W każdym
+                    z tych miejsc chodzi bowiem o ogień, w którym palą się ofiary. Zważywszy
+                    na ogólnie „antyklerykalny” (jeśli można użyć tego anachronizmu)
+                    wydźwięk passusu i na dalszy jego ciąg (1032–1033: Trygajos
+                    nie potrzebuje niewolnika, żeby przynieść stół), można się domyślać,
+                    że Arystofanes krytycznie odnosi się do faktu, że współcześni mu specjaliści
+                    religijni oferowali swoje usługi w sytuacjach, w których było
+                    to całkowicie zbędne. Być może podobny wydźwięk ma skierowane
+                    do sługi polecenie zarżnięcia zwierzęcia „jak rzeźnik” (<w>μαγειρικῶς</w>).
+                    Passus w <title>Anabazie</title> Ksenofonta (5.6.29) wskazuje na to, że odczytywanie
+                    znaków rzeczywiście wymagało umiejętności, jednak profesjonalista
+                    nie był do tego niezbędny.</p>
+                    <p>1031: <w>Στιλβίδην</w> – „Stilbidesa”; był on jednym z bardziej prominentnych
+                    wieszczków ateńskich w owym okresie (cf. Olson 1998: <title>ad loc</title>.).
+                    Scholia zawierają poza tym ewidentnie słuszną sugestię, że w tym miejscu
+                    pojawia się gra słów: <w>στίλβω</w> znaczy „lśnić”. Być może był to jeden
+                    z powodów, dla których złośliwy żart wymierzony jest akurat w Stilbidesa.
+                    Dyskomfort, jakiego wieszczek ma doznawać prawdopodobnie
+                    wynika z tego, że Trygajos świetnie sobie radzi bez jego pomocy.</p>
+                    <p>1032: τὴν <w>τράπεζαν</w> οἴσομαι – „przyniosę stół”; w tym miejscu
+                    pojawia się nazwa pospolitego mebla, który odegra bardzo ważną
+                    rolę w rytuale. Przypuszczalnie w czasie ofiar składanych przy domu
+                    przez prywatne osoby wykorzystanie domowego stołu stanowiło
+                    normę. W sanktuariach natomiast zachowała się pewna ilość ozdobnych
+                    stołów z blatami z kamienia, często z obszernymi zagłębieniami
+                    w powierzchni blatu (Gill 1991; Gill 1974; Ekroth 2008; Ekroth 2011;
+                    Patera 2012: 113–127). Wykorzystywano je między innymi, kładąc na
+                    nich żertwę dla bogów (ciastka, owoce, mięso etc.). Komiczny passus
+                    w Plutosie Arystofanesa (659–695), a także szereg normatywnych inskrypcji
+                    (e.g. <title>LSAM</title> 13.12–16) wskazuje na to, że dary te często, o ile
+                    nie zawsze, po spełnieniu swej rytualnej funkcji przypadały w udziale
+                    personelowi świątynnemu jako swojego rodzaju wynagrodzenie.
+                    W ten sposób wykorzystywano stoły również (choć chyba nie zawsze)
+                    w czasie uczty po ofierze typu <w>θυσία</w>, niezależnie od tego, że bogowie
+                    otrzymywali swoją część pod postacią dymu z ołtarza (<w>κνῖσα</w>). Nomenklatura
+                    odnosząca się do tego rodzaju rytualnych poczęstunków
+                    jest bogata i chyba wskazuje na pewną chwiejność. W odniesieniu do
+                    świąt, których centralnym elementem było „goszczenie boga” pojawiają
+                    się terminy <w>θεοξένια</w> i <w>θεοδαίσια</w> (Gill 1991: 11). Poza kontekstem
+                    festiwalowym występują takie terminy jak <w>τράπεζα</w>, <w>τραπέζωμα</w>,
+                    <w>θεομοιρία</w>, <w>ἱερά μοῖρα</w>, <w>παρατιθέμενα</w> (Gill 1991: 12). W tym miejscu
+                    należy zwrócić uwagę na dwie istotne kwestie. (1) Poczęstunek
+                    dla boga w formie innej niż palona może mieć znaczenie odmienne
+                    niż θυσία. Gill (1991: 19–23) prawdopodobnie ma rację, twierdząc, że
+                    pierwszym znanym z literatury przykładem takiego rytuału jest zachowanie
+                    Eumajosa w <title>Odysei</title> (14.433–436), który na początku posiłku
+                    podzielił pokarm na siedem części, z czego jedną odłożył dla Hermesa
+                    i Nimf (Gill stwierdza, że świniopas umieścił ją na stole, jednak
+                    w tekście nie ma mowy o meblu), a pozostałe podał obecnym w jego
+                    chacie ludziom. Jeśli to stanowiło model dla rytuału τράπεζα, prawdopodobnie
+                    był on częścią uczty, a nie samej ofiary. (2) Wykorzystanie
+                    stołu do odkładania na nim poczęstunku dla boga może być wtórne
+                    w stosunku do jego praktycznego zastosowania przy podziale (krojeniu)
+                    mięsa. Malarstwo wazowe (van Straten 1995: fig. 119, 20, 21, 22;
+                    Detienne, Vernant 1979: fig. 8) wskazuje na to, że zarżnięte zwierzęta
+                    wieszano, na przykład na drzewie, lub kładziono na ziemi, otwierano
+                    im brzuchy, wydobywano wnętrzności, po czym dokonywano rozbioru
+                    tuszy (cf. Durand 1979). Stół, na który można było odkładać wypreparowane
+                    w ten sposób elementy, z pewnością nie był niezbędny, ale
+                    musiał ułatwiać zadanie, choćby poprzez zapewnienie ochrony przed
+                    brudem, piaskiem i mrówkami.</p>
+                    <p>1039: sługa powraca, niosąc część zwierzęcia przeznaczoną dla
+                    bogów.</p>
+                    <p>τὼ <w>μηρώ</w> – „uda”; dualis rzeczownika oznaczającego uda jako część
+                    anatomiczną człowieka lub zwierzęcia (μηρός). Użycie wyrazu w tym
+                    kontekście zaskakuje, bo oczekiwalibyśmy raczej słowa odnoszącego
+                    się do przygotowanych do spalenia „udźców” (<w>μηρία</w>; cf. 1021 supra).
+                    Dalszy ciąg przynosi informacje pozwalające zrozumieć, że jest to
+                    pars pro toto większej części zwierzęcia, składającej się również z kości
+                    krzyżowej i ogona. To wszystko zawinięte było w tłuszcz.</p>
+                    <p><w>τίθεσο</w> … <w>λαβών</w> – „weź i włóż [do ognia]”; participium coniunctum
+                    <w>λαβών</w> („weź”) nie pozostawia wątpliwości co do atrybucji wersu
+                    (Lowe 1967: 63–64): musi go wypowiadać ten, kto podaje drugiemu
+                    udźce, a zatem sługa, który właśnie wyniósł je z domu. To wskazuje na
+                    rozgraniczenie pomiędzy rolami osób uczestniczących w rytuale. Sługa
+                    zarżnął zwierzę, dokonał jego podziału, później będzie piekł wnętrzności.
+                    Rolą, która przypada osobie wyżej usytuowanej w hierarchii, jest
+                    włożenie „części boskiej” do ognia (cf. 1017–1018 supra; 1043 infra).</p>
+                    <p>1040: <w>σπλάγχνα</w> – „podroby”/„wnętrzności”; do kategorii tej zaliczało
+                    się serce, płuca, wątroba, śledziona i nerki. Te organy wylicza
+                    bowiem Arystoteles (<title>PA</title> 665a–672b), jednak wcale nie musi to być
+                    kompletne zestawienie (wbrew temu, co twierdzi van Straten 1995:
+                    131). W każdym razie z całą pewnością chodzi o narządy wewnętrzne.
+                    U Homera ich „skosztowanie” stanowi jeden z dwóch (obok spalenia
+                    udźców) zasadniczych elementów składających się na rytuał ofiarny
+                    (cf. Il. 1.464 αὐτὰρ ἐπεὶ κατὰ μῆρε κάη καὶ <w>σπλάγχνα</w> πάσαντο). Dalszy
+                    ciąg sceny stanowi ilustrację ich rytualnego użycia: nabijano je na
+                    ruszty i pieczono w ogniu nad spalającą się „częścią boską”. Następnie
+                    ofiarnicy je spożywali. Na temat szczególnej wagi, jaką przywiązywano
+                    w ramach rytuału do wnętrzności: Parker 2011: 151–152; Ekroth 2011:
+                    272–273; Berthiaume 2005: 241–242; van Straten 1995: 144–146; Vernant
+                    1979: 45; Detienne 1979a: 74–77; Meuli 1946: 268–274. Komedia i źródła
+                    epigraficzne wskazują na to, że specjalista religijny, który w jakiś sposób
+                    przyczynił się do prawidłowego przebiegu obrzędu, zasługiwał na
+                    udział w podrobach i – traktowanym z osobna – języku (1060 i 1109).</p>
+                   <p> <w>θυλήματα</w> – „ciasto”; etymologia sugeruje, że chodzi o coś, co spalano.
+                    Scholia zawierają wyjaśnienie, że mowa o mielonych na mąkę
+                    lub kaszkę ziarnach jęczmienia, które spryskiwano winem i oliwą (τὰ
+                    τοῖς θεοῖς <w>ἐπιθυόμενα</w> ἄλφιτα. ἐπιρραίνεται δὲ οἴνωι καὶ ἐλαίωι).
+                    Focjusz (s.v.) przekazuje informację, że z tymi płynami je mieszano,
+                    a Hezychiusz (s.v.), że łączono je z miodem. Żaden z tych późnych autorów
+                    nie jest w pełni wiarygodny jako znawca praktyk ofiarniczych
+                    czasów Arystofanesa. Podane przez nich informacje nie są wzajemnie
+                    sprzeczne, niekoniecznie jednak należy mniemać, że θυλήματα zawsze
+                    i wszędzie były identyczne, dlatego nie musimy chyba od nich
+                    wymagać posiadania jednocześnie wszystkich wymienionych cech.
+                    Literatura przekazuje obraz nieco niespójny. W <title>Odysei</title> (14.429) Eumajos
+                    posypuje „część boską” jęczmieniem przed włożeniem jej do ognia.
+                    Tutaj procedura odbywa się w odwrotnej kolejności. Van Straten (1995:
+                    145) wyraża przypuszczenie, że chodzi o rodzaj wyrobionego ciasta,
+                    z którego lepiono z kulki i wrzucano je do ognia. Na uwagę zasługują
+                    wskazane przez niego wazy z przedstawieniami omawianego momentu
+                    procesu rytualnego (fig. 150,1,2; a także szereg adresów w przyp.
+                    88). Pozwalają one przyjąć, że sługa Trygajosa wyszedł z domu z rożnem
+                    z nadzianymi organami zwierzęcia, prawdopodobnie jeszcze nie
+                    pokrojonymi i z koszykiem typu κανοῦν zawierającym ziarno. Kearns
+                    (2011: 92–93) zwraca uwagę, że dodatek pokarmu zbożowego, wina
+                    i oliwy sprawiał, że bóg wraz ze swoją częścią zwierzęcia otrzymywał
+                    ekwiwalent pełnego ludzkiego posiłku.</p>
+                    <p>1041–1042: Trygajos pośpiesza sługę, a ten zapewnia, że wcale nie
+                    zwleka. To pozwala domniemywać, że było przeciwnie. Zważywszy
+                    na to, że łakomstwo niewolników jest jednym z toposów komedii,
+                    możemy przypuszczać, że sługa usiłował po kryjomu (choć na oczach
+                    publiczności) coś wyjeść. Trudno w pierwszej chwili orzec, co to mogło
+                    być, zważywszy na to, że niósł surowe podroby i również surowe
+                    ciasto. Może, jak podaje Hezychiusz (vide: supra), zawierało ono miód?</p>
+                    <p>1043: <w>ὄπτα</w> – „piecz”; podział ról, zgodnie z którym osoba o podrzędnym
+                    statusie zajmuje się pieczeniem podrobów na rożnie, znajduje
+                    odzwierciedlenie w malarstwie wazowym, (e.g. van Straten
+                    1995: fig. 152; Rizza 1959–1960), gdzie zadanie to przypada najczęściej
+                    chłopcom, podczas gdy dojrzali mężczyźni wykonują inne czynności
+                    (cf. 1017–1018; 1039 supra).</p>
+                    <p>1043–1126: długi passus, w którym oprócz Trygajosa i jego sługi
+                    na scenie przebywa specjalista religijny, wieszczbiarz Hierokles. Podobnie
+                    jak w analogicznym fragmencie Ptaków (959–991), Arystofanes
+                    przedstawia go jako pasożyta, który próbuje wyłudzić podroby w zamian
+                    za świadczone przez siebie usługi. Charakterystyka bohaterów
+                    w dwóch komediach jest bardzo podobna, z tą uderzającą różnicą, że
+                    o ile wieszczbiarza z Ptaków chyba nie identyfikowano z żadną rzeczywistą
+                    osobą, o tyle postać w Pokoju ma swój pierwowzór. Pierwsza
+                    wzmianka o Hieroklesie (Kirchner 1901: 7473) pochodzi z 446/5 r.
+                    p.n.e., kiedy został on wysłany, by nadzorować ofiarę składaną na Eubei.
+                    Ponieważ (IG I³ 40.64–66 + ML 52.64–66) jest tam mowa o τὰ ἱερὰ
+                    τὰ ἐκ τῶν <w>χρησμῶν</w> („ofiary wynikające z przepowiedni”), można się
+                    domyślać, że już wtedy pełnił funkcję taką jak w omawianym passusie.
+                    Scholia zawierają cytat z Poleis Eupolisa (komedii, która konkurowała
+                    z Pokojem Arystofanesa), w którym Hierokles przedstawiany jest jako
+                    „władca wieszczbiarzy” (<w>χρησμωιδῶν</w> ἄναξ). Ewidentnie była to
+                    osoba prominentna w owym czasie. Scholiasta zaznacza wprawdzie,
+                    że był to zarówno wieszczek (<w>μάντις</w>, specjalista zajmujący się między
+                    innymi odczytywaniem znaków z różnych elementów rzeczywistości
+                    fizycznej), jak i wieszczbiarz (<w>χρησμολόγος</w>, zbieracz przepowiedni),
+                    Arystofanes jednak zaznacza, że należy go uznać za reprezentanta
+                    tej drugiej kategorii, co może być wyrazem czystej złośliwości (Argyle
+                    1970 chyba słusznie przypisuje pejoratywny wydźwięk wyrazowi
+                    χρησμολόγος). Zewnętrznymi atrybutami Hieroklesa, wyraźnie pozostającymi
+                    w związku z jego funkcją religijną, był wieniec laurowy
+                    (1044) – można się domyślać, że wskazujący na jego łączność z Apollonem
+                    – i odzież ze skór owczych (1122–1124).</p>
+                    <p>1049–50: całość wiedzy na temat politycznych poglądów Hieroklesa
+                    uczeni czerpią z jego komicznego portretu (cf. Olson 1998: <title>ad loc</title>.).
+                    Choć taka procedura bywa niebezpieczna, nie ma powodu wątpić,
+                    że Arystofanes – sprawiedliwie lub nie – zarzuca mu postawę otwarcie
+                    wrogą wobec idei pokoju. Stanie się to ewidentne w wersie 1063.
+                    Wers 1050 przynosi alternatywne wyjaśnienie obecności Hieroklesa:
+                    nie przyszedł, by sprzeciwić się wprowadzeniu nowego bóstwa, lecz
+                    zwabił go aromat mięsa ofiarnego (<w>κνῖσα</w>). To czyni go zwykłym pasożytem.
+                    Te dwie diagnozy w gruncie rzeczy uzupełniają się i będą
+                    się przeplatać w passusie: zgodnie z negatywnymi stereotypami specjalista
+                    religijny jest zainteresowany przede wszystkim materialnymi
+                    korzyściami. W tym celu stara się manipulować ludźmi, narażając ich
+                    na szkody (cf. S. <title>Ant</title>. 1033–1047; należy zaznaczyć, że w tragedii takie
+                    przekonanie żywią bohaterowie, którzy tkwią w błędzie polegającym
+                    na nadmiernym zaufaniu do rozumu, np. Kreon).</p>
+                    <p>1052: Olson (1998: ad loc.) wyjaśnia, że Hierokles może chcieć się
+                    dowiedzieć, jakiemu bóstwu składana jest ofiara, żeby dobrać odpowiednią
+                    do sytuacji wyrocznię. Możliwe. Jakkolwiek nie istnieją chyba
+                    paralele, przypuszczam, że pierwsze słowa, jakie bohater wypowiada,
+                    mają charakter formuły, którą mógł on wygłosić z pozycji religijnego
+                    autorytetu. Brak reakcji ze strony Trygajosa i jego sługi komicznie
+                    z tym kontrastuje.</p>
+                    <p>1053: <w>ἄπαγ’</w> ἀπὸ τῆς <w>ὀσφύος</w> – „trzymaj się z dala od grzbietu”;
+                    Trygajos udaje, że wykonuje rutynową czynność. Wydawane przez
+                    niego komendy są w dużej mierze werystyczne. Cytowane potoczne
+                    sformułowanie (jak sugerują scholia) może oznaczać: „trzymaj ruszt
+                    z podrobami w odpowiedniej odległości od spalanej w ogniu części
+                    bogów”, choć użycie nieprzechodniego czasownika <w>ἀπάγω</w> („oddalić
+                    się”) może sugerować szereg innych znaczeń, na przykład to, że sługa
+                    stara się wykraść dla siebie „część boską”. Możliwy jest także sens obsceniczny
+                    („precz od kupra!”), który na scenie wydobyto przy pomocy
+                    jakiegoś gestu. Tutaj nareszcie pojawia się słowo <w>ὀσφύς</w>, oznaczające
+                    „okolice miednicy”. Wcześniej jako pars pro toto „części boskiej” występowały
+                    w tekście wyłącznie słowa oznaczające „udźce” (1021: <w>μηρία</w>)
+                    lub „uda” (1039: <w>μηρός</w>). Nieco dalej, w nawiązaniu do formularnej
+                    dykcji wyroczni i eposu, dwukrotnie (1088, 1092) pojawi się archaiczny
+                    synonim <w>μηρία</w>: <w>μῆρα</w>. Dwa ostatnie przypadki są ewidentną stylizacją.
+                    Wcześniejsze mogą nią być, choć ze względu na konserwatywny
+                    charakter języka kultowego i myślenia religijnego nie można wykluczyć,
+                    że przeciętny Ateńczyk czasów Arystofanesa konceptualizował
+                    „część boską” ofiary właśnie jako „udźce z ewentualnymi przyległościami”.
+                    W wysokiej literaturze wyraz ὀσφύς występuje rzadko, choć
+                    ewidentnie nie był on objęty tabu: wzmianka o tej części zwierzęcia
+                    pojawia się w Prometeuszu skowanym Ajschylosa w miejscu, gdzie tytan
+                    powiada, że to on nauczył ludzi praktyk ofiarniczych i odczytywania
+                    znaków. Na liście elementów spalanych dla bogów (496–497),
+                    ὀσφύς pojawia się obok udźców i tłuszczu. Być może jednak ze względu
+                    na specyficzny ton Prometeusza przemawiającego jak nauczyciel,
+                    który udziela szczegółowych wyjaśnień, to wystąpienie wyrazu należy
+                    uznać za nietypowe (poza tym w tragedii leksem nie występuje).
+                    Częściej słowo pojawia się w komedii w kontekście obscenicznych
+                    żartów (Eub. 130) i w miejscach, które epatują dużą dozą realizmu
+                    (Eub. 95; Men. <title>Dys</title>. 447–453). Sama definicja tego, co rozumiano przez
+                    ὀσφύς, jest nieco płynna. Według definicji Arystotelesa (<title>HA</title> 439a; cf.
+                    Poll. 2.178, 182; Ruf. <title>Onom</title>. 114) chodzi o całość miednicy. Dane zooarcheologiczne
+                    (cf. e.g. Ekroth 2009) i ikonograficzne (van Straten 1995:
+                    118–131) wskazują na to, że chodziło raczej o tylną jej część, tzn. kość
+                    krzyżową (nota bene zwaną ἱερὸν ὀστοῦν) wraz z ogonem. Van Straten
+                    (1995: 129) proponuje zgrabną definicję: „the sacrum plus one or more
+                    parts of the skeleton connected to it”.</p>
+                    <p>1054–1055: <w>κέρκος</w> to ogon zwierzęcia, który Trygajos włożył
+                    do ognia wraz z kością krzyżową. Scholia zawierają wyjaśnienie,
+                    że z tego, co działo się z ogonem, odczytywano, „czy ofiara została
+                    przyjęta i różne inne znaki związane ze sprawami, przez wzgląd
+                    na które składano ofiarę” (εἰ εὐπρόσδεκτος ἡ θυσία, καὶ ἄλλα
+                    τινὰ πρὸς τὰ †νεύματα† σημεῖα λαμβάνειν, περὶ ὧν τὴν θυσίαν
+                    ἐποίουν). Literatura nie zawiera więcej poświadczeń tego zwyczaju,
+                    jednak ikonografia zdaje się te dane potwierdzać. Istnieją przynajmniej
+                    dwa przedstawienia misy z częścią zwierzęcia, która ma zostać
+                    spalona na ołtarzu, z której zwisa coś, co van Straten (1995: 119; fig.
+                    125, 6) interpretuje jako ogon. O wiele częstszym motywem jest sterczący
+                    do góry ogon leżący na palenisku (van Straten 1995: 120; fig.
+                    e.g. 124). Jak wynika z prostego eksperymentu przeprowadzonego
+                    przez Jamesona (Scientific American 214.2 (1966): 54; cf. Forstenpointner,
+                    Galik, Weissengruber 2013: 236), ta część zwierzęcia, reagując
+                    na ciepło ognia, rzeczywiście się wygina. Uwaga, jaką dekoratorzy
+                    waz przywiązywali do tego szczegółu, wskazuje, że nie był on obojętny,
+                    a zważywszy na to, że ogon na ołtarzu przedstawiali wygięty
+                    ku górze, przypuszczalnie to właśnie stanowiło dobry znak. Trudno
+                    wykluczyć, że w omawianym miejscu ukryty jest obsceniczny żart,
+                    którego efektu dopełniał jakiś gest. Słowo κέρκος może bowiem
+                    oznaczać również „członek męski” (e.g. Ar. <title>Th</title>. 239). Jak zaznacza
+                    van Straten (1995: 130), istnieją przedstawienia, na których stanowi
+                    to źródło komizmu (reprodukcja także w: Brommer 1959: 29).</p>
+                    <p>1056: <w>ἄπαργμα</w> to rzadki wyraz spokrewniony z rzeczownikiem
+                    <w>ἀπαρχή</w>, oznaczającym wszelkiego rodzaju pierwociny składane
+                    w darze istotom nadprzyrodzonym. Jego semantyka prawdopodobnie
+                    pokrywa się ze znaczeniem homeryckiego <w>ἄργματα</w> (<title>Od</title>. 14.446),
+                    którego znaczenie jest niestety dosyć niejasne. Oba wyrazy ewidentnie
+                    odnoszą się do mięsa, które przekazywano bogom, być może spalając
+                    je wraz z udźcami, a może przekazując jako trapezoma (Jim 2014: 30–33,
+                    39–42). Zainteresowanie, jakie wykazuje w omawianym miejscu Hierokles,
+                    zdaje się wskazywać na to, że bardziej prawdopodobny jest
+                    drugi wariant, ponieważ bohater ten konsekwentnie ukazywany jest
+                    jako bardziej zainteresowany tym, co sam może zjeść, niż tym, co płonie
+                    na ołtarzu.</p>
+                    <p>1058: niezależnie od tego, czy aktorzy czynili pauzy pomiędzy
+                    wypowiedziami, pieczenie wnętrzności trwało za krótko, żeby było
+                    rzeczywiste. Jeśli zatem na scenie pojawiły się prawdziwe podroby,
+                    musiały być upieczone od samego początku.</p>
+                   <p>1059: czasownik <w>κατατέμνω</w> („kroić”), jakkolwiek posiada szereg
+                    znaczeń niezwiązanych z rytuałem, również i gdzie indziej odnosi
+                    się do podrobów. Co ciekawe, miejsce w Ptakach Arystofanesa (1524)
+                    wskazuje na to, że posiekane wnętrzności otrzymywali bogowie. Czy
+                    były to wspomniane w 1056 <w>ἄπαργμα</w>, czy jeszcze inna, odrębna porcja,
+                    to z omawianego passusu nie wynika.</p>
+                    <p>ποῦ <w>τράπεζα</w>; – „gdzie stół?”; manuskrypty traktują tę kwestię
+                    jako dalszy ciąg wypowiedzi Trygajosa. Boissonade (1826) i szereg
+                    późniejszych wydawców, w tym Olson (1998), przypisuje ją Hieroklesowi,
+                    wychodząc z założenia, że skoro sam główny bohater przyniósł
+                    stół, musi wiedzieć, gdzie on się znajduje. To nie jest dostateczny argument,
+                    zważywszy na to, że w międzyczasie sporo mogło się na scenie
+                    wydarzyć. Sommerstein (1985: <title>ad loc</title>.) zauważa jednak, że Trygajos,
+                    mając na myśli konkretny stół, użyłby rodzajnika. Uczony ten proponuje
+                    oddać kwestię słudze. Na to jednak nie ma silnych argumentów.
+                    Ktokolwiek te słowa wypowiada, z samego faktu, że teraz uwaga bohaterów
+                    kieruje się ku stołowi, wynika, że prawdopodobnie mieściło
+                    się to w ramach rytualnego scenariusza. Miejsce podrobów było na
+                    stole i chyba tam je krojono.</p>
+                    <p>τὴν <w>σπονδὴν</w> φέρε – „przynieś wino na libacje”; kalendarz z Erchii
+                    (LSCG 18a.41–43) zawiera zwrot: νηφάλιος μέχρι <w>σπλάγχνων</w>, który
+                    prawdopodobnie należy tłumaczyć jako: „bez wina aż do [czasu] trzewi”.
+                    Wyrażenie to presuponuje, że typową praktyką było wylewanie
+                    libacji także na wcześniejszym etapie procesu. Nie ma o tym mowy
+                    w tekście, ale wers 968 i następne sugerują, że na początku modlitwy
+                    Trygajos wykonał gesty, będące parodią tego rytu (prawdopodobnie
+                    oblał kogoś wodą). W tym miejscu wino powinno pojawić się po raz
+                    kolejny. W połączeniu z inskrypcją z Erchii, passus wskazuje na to, że
+                    była to typowa praktyka (cf. Men. Col. fr. 1 = 292 Kock). Rzeczownik
+                    σπονδή pojawia się tutaj chyba w użyciu metonimicznym i oznacza
+                    większą ilość wina, a nie tylko tę jego porcję, która zostanie wylana dla
+                    bogów (por. 1102). Polecenie, jak można się domyślać, skierowane jest
+                    do sługi, który powinien z dzbanka (oinochoe) przelać trochę płynu do
+                    phiale, płytkiej czary. Trygajos trzyma takie naczynie w rękach, albo
+                    oczekuje, że zostanie mu ono podane. Wers 1103 może wskazywać na
+                    to, że i Hierokles ma swoją phiale. Niewykluczone, że wydobywa ją
+                    z zanadrza właśnie teraz, oczekując, że dostanie wina, którym poczęstuje
+                    się sam.</p>
+                    <p>1060: Hierokles wydaje instrukcje, jak sam usłyszy, całkowicie
+                    zbędne. Zwrot ἡ γλῶττα χωρὶς <w>τέμνεται</w> („obcina się język”) występuje
+                    w identycznej formie w Ptakach (1704–1705) i w podobnej w Plutosie
+                    (1110), co sugeruje, że wyrażenie ma charakter technicyzmu. Skądinąd
+                    obyczaj obcinania języka jest dobrze poświadczony. U Homera
+                    (<title>Od</title>. 3.332–341) pojawia się wzmianka o spaleniu ozorów jako rycie
+                    zamykającym ucztę ofiarną. Dane epigraficzne (e.g. <title>LSS</title> 77.7) wskazują
+                    na to, że przynajmniej od okresu klasycznego język wraz z pewnymi
+                    innymi częściami zwierzęcia często przypadał w udziale kapłanowi.
+                    W Plutosie (1110) ma go otrzymać herold. Wynika z tego, że Hierokles
+                    wspomina o ozorze dlatego, że jako specjalista religijny ma nadzieję
+                    dostać go za swoje usługi (cf. 1109).</p>
+                    <p>1063: Hierokles rozpoczyna formularną apostrofą do odbiorców
+                    (Olson 1998: <title>ad loc</title>.), jego wypowiedzi odtąd będą w heksametrze daktylicznym,
+                    metrum typowym dla wyroczni delfickich. W tym miejscu
+                    pomijam znaczną część jego kwestii, będących parodią hermetycznego
+                    języka przepowiedni.</p>
+                    <p>1068–1069: Trygajos przerywa Hieroklesowi złorzeczeniem. Komentatorzy
+                    (Olson 1998: ad loc.; Sommerstein 1985: <title>ad loc.</title>) chyba słusznie
+                    uznają, że życzy mu zapalenia płuc. Bardzo to na miejscu w odniesieniu
+                    do gaduły. Słowom towarzyszył jakiś gest. Możliwe, że Trygajos
+                    właśnie dotknął lub skosztował płuc zwierzęcia ofiarnego.</p>
+                    <p>1074: tym razem Trygajos zwraca się do sługi, ostentacyjnie ignorując
+                    Hieroklesa. Olson (1998: <title>ad loc</title>.) cytuje miejsca, w których mowa
+                    o soleniu potraw [Il. 9.214; Crates Com. 16.10 (14.10 Kock); Axion.
+                    Com. 8.3–4; Archestr. <title>SH</title> 188.4], jednak żadne z nich nie odnosi się do
+                    podrobów, lecz do mięsa i ryb. Jest to o tyle znaczące, że (zaznacza
+                    to sam Olson: ibidem) we fragmencie komika Atheniona (1.18–19) występuje
+                    stwierdzenie, że „trzewia dla bogów piecze się w ogniu bez
+                    dodawania soli” (τὰ σπλάγχνα τοῖς θεοῖσιν ὀπτῶσιν φλογὶ/ ἅλας
+                    οὐ προσάγοντες). Jeśli przyjąć, że jest to opis rzeczywistej praktyki,
+                    nie przypadkiem wzmianka o soli pojawia się w tekście Pokoju właśnie
+                    w tym miejscu. Sługa pokroił już podroby, dokonano ich ostatecznego
+                    podziału. Część przeznaczona dla bogów została umieszczona w osobnym
+                    miejscu na stole (lub gdzieś indziej, co jednak mniej prawdopodobne).
+                    Resztę, którą skonsumują ludzie, można teraz przyprawić.</p>
+                    <p>1084: ucztowanie w Prytanejonie, siedzibie władz miasta, a także
+                    symbolicznym centrum polis ( cf. ad Ar. <title>Av</title>. 865–866), stanowiło zaszczyt,
+                    którym cieszyli się tylko zasłużeni obywatele i dobroczyńcy
+                    Aten. Kolejny wers sugeruje, że Hierokles zyskał sobie ten przywilej,
+                    wygłaszając fałszywe (zdaniem Arystofanesa) wyrocznie.</p>
+                    <p>1088–1094: składanie ofiar na polecenie wyroczni, czy też w sposób
+                    zgodny z jej orzeczeniem, nie jest niczym niezwykłym (cf. e.g. ad 1043–
+                    –1126 supra). Nic jednak nie wskazuje na to, żeby konsultacja religijnych
+                    autorytetów była w takich przypadkach obowiązkowa. Być może
+                    zatem należy przyznać rację Olsonowi (1998: <title>ad loc</title>.), który twierdzi,
+                    że miejsce to stanowi przyczynek do charakterystyki Hieroklesa jako
+                    człowieka o przesadnym poczuciu własnej wartości. Odpowiedź Trygajosa
+                    wyraża sugestię, że orzeczenia wieszczbiarzy nie są potrzebne,
+                    ponieważ tradycyjna poezja zawiera dostatecznie dużo mądrości. Co
+                    charakterystyczne, metryczna forma epiki Homerowej, czyni utożsamienie
+                    z wyroczniami (również w heksametrze daktylicznym) bardzo
+                    naturalnym.</p>
+                    <p><w>μῆρα</w> – „udźce”, archaiczna forma rzeczownika μηρός. Występuje
+                    u Homera (Od. 3.179) i Bakchylidesa (fr. 3.4; nota bene w opisie ofiar
+                    składanych w czasie pokoju). Jego użycie stanowi wyraźną markaturę
+                    stylistyczną, nawiązując do wysokiej poezji, być może także do specjalistycznego
+                    języka religijnego i wyroczni (cf. 1053 supra).</p>
+                    <p>1090–1094: cytowane wersy nie stanowią dosłownego cytatu z Homera,
+                    są jednak doskonale rozpoznawalną stylizacją.</p>
+                    <p><w>ἱδρύσανθ’</w> ἱερείωι – „uczcili ofiarą [inauguracyjną]”; cf. 923 supra.</p>
+                    <p>1092: wers jest niemal dosłownym cytatem, powtarzającym formuły
+                    <title>Odysei</title> (3.461; 12.364), z tą różnicą, że w pierwowzorze pojawia
+                    się wariant: σπλάγχνα πάσαντο. Nie ma różnicy w znaczeniu. Fraza
+                    stanowi formularne podsumowanie całości rytuału ofiarnego, sprowadzając
+                    jego kwintesencję do dwóch elementów: spalenia udźców
+                    i skosztowania wnętrzności.</p>
+                    <p>1095: <w>Σίβυλλα</w> – „Sybilla”; podobnie jak w najstarszym tekście,
+                    w którym mowa o wieszczce (Heraclit. fr. 22 B92), jej imię pojawia się
+                    w liczbie pojedynczej i bez wskazania, o którą spośród kilku Sybill
+                    chodzi. Autorytatywne stwierdzenie Hieroklesa, że passus cytowany
+                    przez Trygajosa nie pochodzi od Sybilli, jest oczywistym wykrętem,
+                    wskazuje jednak na to, że w czasach Arystofanesa wieszczbiarze dysponowali
+                    tekstami, które mogli przedstawiać jako normatywne, uzurpując
+                    sobie kontrolę nad tym, co uważano za rzeczywiste wyrocznie.</p>
+                    <p>1097–1098 = Il. 9.63–64; przymiotnik ἀνέστιός (dosł. „pozbawiony
+                    paleniska”) użyty w znaczeniu „bezdomny” pozwala uchwycić centralne
+                    znaczenie, jakie <w>ἑστία</w> („palenisko”) miała dla określania przestrzeni,
+                    której centrum stanowiła, a zarazem przynależności człowieka
+                    do grupy rodzinnej.</p>
+                    <p>1097–1098 = Il. 9.63–64; przymiotnik <w>ἀνέστιός</w> (dosł. „pozbawiony
+                    paleniska”) użyty w znaczeniu „bezdomny” pozwala uchwycić centralne
+                    znaczenie, jakie <w>ἑστία</w> („palenisko”) miała dla określania przestrzeni,
+                    której centrum stanowiła, a zarazem przynależności człowieka
+                    do grupy rodzinnej.</p>
+                  <p>  1100: kania, spory padlinożerny ptak, cieszyła się złą reputacją jako
+                    pasożyt kradnący mięso, zwłaszcza w kontekście ofiar i uczt pod gołym
+                    niebem (cf. e.g. Ar. <title>Av</title>. 865–866; 892–893; 1624). Wyrocznie, które
+                    wygłasza Hierokles (w większości pominięte tutaj) posługują się
+                    niejasną symboliką zaczerpniętą ze świata zwierzęcego. W kolejnych
+                    wersach Trygajos proponuje własną interpretację słów wieszczbiarza:
+                    kanią jest sam łakomy naciągacz. Chwilę później okaże się to prawdą.</p>
+                    <p>1102: nie jest dla mnie jasne, jaka jest relacja pomiędzy tym miejscem
+                    a wersem 1059, w którym Trygajos zażądał wina. Chyba mało
+                    możliwe, że po raz kolejny zamierza wylać obowiązkową libację. Przypuszczalnie
+                    dialog z Hieroklesem okazał się na tyle absorbujący (być
+                    może towarzyszył temu intensywny ruch sceniczny), że słudze po
+                    prostu nie udało się aż dotąd podać panu naczynia lub go napełnić.
+                    Nie można jednak wykluczyć, że scena zawiera elementy sadystycznego
+                    humoru. Trygajos, w ramach takiej interpretacji, wylałby libację
+                    i napił się po 1059, następnie w okolicy 1093 i znów teraz, ciesząc się
+                    i bawiąc publiczność tym, że Hierokles spogląda na niego z zazdrością
+                    (oczywiście, w jakiś sposób odegraną). O związku wina z podrobami:
+                    ad 1059.</p>
+                   <p> 1103: Olson (1998: <title>ad loc</title>.) stwierdza, że fraza „zyskała status idiomu,
+                    o ile jeszcze go nie miała”. Rzeczywiście, źródła leksykograficzne
+                    (Hsch., Suid., Zonar., Zen., Greg. Cypr., Macar.: s.v. <w>ἐμαυτῷ
+                    βαλανεύσω</w>) przypisują jej taką funkcję. Trudno jednak wykluczyć, że
+                    to Arystofanes był pierwszym autorem, który się nią posłużył. Sformułowanie
+                    odwołuje się do szczegółu z życia codziennego: w publicznej
+                    łaźni łaziebny podgrzewał wodę i polewał nią klientów. Zwrot, który
+                    można przetłumaczyć jako „sam sobie będę łaziebnym” oznacza:
+                    „sam się obsłużę”. Ponieważ mowa o nalewaniu wina, jest to bardzo
+                    na miejscu. Pozostaje wyłącznie zastanawiać się, w jaki sposób rozegrano
+                    to na scenie. Hierokles mógł na przykład podsunąć swoje naczynie
+                    pod dzbanek albo próbować się wcisnąć pod strumień nalewanego
+                    wina. Ze względu na tego rodzaju potencjał sceniczny, mało możliwe,
+                    żeby w tym miejscu chodziło o próbę zdobycia podrobów.</p>
+                  <p>  1105: <w>μοῖρα</w> – „należna część”; wyraz pojawia się w różnych kontekstach,
+                    często nie mających nic wspólnego z rytuałem. U Homera
+                    może się odnosić na przykład do udziału w łupach (Il. 9.318) lub do
+                    wyznaczonego przez bogów czasu życia (Od. 19.592). Użycia te konotują
+                    pewną odpowiedniość przydzielanej komuś części, co szczególnie
+                    dobrze widać w wyrażeniu <w>κατὰ μοῖραν</w> (e.g. Il. 16.367), oznaczającym
+                    „jak należy” (Adkins 1960: 17–23). To, że podział mięsa ofiarnego stanowił
+                    artykulację struktury społecznej, jest swojego rodzaju truizmem
+                    (cf. e.g. Robertson Smith 1927: 267–311; Puttkammer 1912; Detienne,
+                    Vernant 1979: sparsim; Seaford 1994: 39–67, 281–293). Przypuszczalnie
+                    podobnie rzecz się miała i z trzewiami zwierzęcia. Użycie słowa μοῖρα
+                    w tym miejscu wskazuje na to, że Hierokles w dalszym ciągu uważa
+                    się za uprawnionego do uczestnictwa w rytuale.</p>
+                   <p> 1106–1107: Trygajos przedrzeźnia Hieroklesa, który w podobny
+                    sposób zbudował wypowiedź w 1075–1076a. W obu tych miejscach pojawia
+                    się zwrot: <w>φίλον μακάρεσσι θεοῖσιν</w> („miłe szczęsnym bogom”).
+                    Dwa ostatnie słowa są homerycką formułą (e.g. Il. 1.599). Przymiotnik
+                    φίλον („miłe”) w podobnym użyciu pojawia się w Eutyfronie Platona
+                    (15b; cf. komentarz), w miejscu, w którym Sokrates zastawia dialektyczną
+                    pułapkę na swojego rozmówcę, religijnego specjalistę. Wcześniejsze
+                    ustalenia powinny były skłonić tytułowego bohatera do negatywnej odpowiedzi
+                    na pytanie: „czy zbożne […] to, co miłe bogom?” (<w>τὸ ὅσιον […]
+                    οὐδὲ φίλον τοῖς θεοῖς</w>;). A jednak jej nie udziela. Dlaczego? Być może
+                    mamy do czynienia z formułą, którą sam Eutyfron (a także Hierokles
+                    i inni specjaliści religijni) posługiwał się zbyt często, żeby się jej wyrzec.</p>
+                    <p>1109: Hierokles wciąż oczekuje, że zostanie wynagrodzony. Na temat
+                    szczególnego statusu języka jako części przeznaczonej dla specjalistów
+                    religijnych cf. ad 1060 supra.</p>
+                    <p>1110: trudno powiedzieć, co dzieje się na scenie. Tradycja rękopiśmienna
+                    przekazuje wyraz <w>σπονδή</w> jako kwestię Hieroklesa, a dalszy
+                    ciąg wypowiedzi przydziela Trygajosowi. Sommerstein (1985: <title>ad loc</title>.)
+                    stwierdza, że prawdopodobnie jeszcze nikt nie bije Hieroklesa, więc
+                    „weź to” (ταυτὶ […] <w>λαβέ</w>) nie powinno się odnosić do razów. Jego
+                    sugestia, że może chodzić o kawałki podrobów, którymi obrzucono
+                    wieszczbiarza, już dawno spotkała się z krytyką, moim zdaniem
+                    słuszną. Sharpley (1905: ad loc.) zauważa mianowicie, że w passusie
+                    chodzi właśnie o to, że Hierokles nie otrzymuje trzewi zwierzęcia.
+                    Gag zrekonstruowany przez Sommersteina osłabiłby zatem efekt sceny.
+                    Olson (1998: <title>ad loc.</title>) proponuje przywrócić sens passusowi poprzez
+                    zmianę atrybucji wersów. W wydrukowanym powyżej fragmencie
+                    bohaterowie grają w sadystyczną grę z Hieroklesem. Trygajos żąda
+                    wina, natychmiast je dostaje, a sługa z wyrazem głębokiej czci podaje
+                    mu naczynie z siekanymi podrobami. Tak przeorganizowany tekst doskonale
+                    tłumaczy skargę Hieroklesa w kolejnym wersie.</p>
+                    <p>1112: echo wypowiedzi Hieroklesa z 1075.</p>
+                    <p>1113: w kolejnym wersie Trygajos określi działanie Hieroklesa mianem
+                    próżnego błagania. Istotnie, zwrot πρὸς τῶν <w>γονάτων</w> pojawia
+                    się w takim kontekście (Ar. <title>Ach</title>. 414; E. Med 324, 497, 853) i może zostać
+                    wypowiedziany w chwili, gdy błagalnik pada do kolan błaganego
+                    w tradycyjnym geście hiketei lub stanowi wyłącznie substytut takiego
+                    zachowania (cf. Naiden 2006: 44–60).</p>
+                   <p> 1115: poniżenie Hieroklesa staje się kompletne w chwili, gdy Trygajos
+                    zaprasza wszystkich obecnych do udziału w podrobach. Czegoś
+                    takiego właściwie należałoby oczekiwać, skoro jeszcze przed zarżnięciem
+                    zwierzęcia widzowie otrzymali jęczmień (choćby na niby:
+                    962–967) i – prawdopodobnie zostali „oczyszczeni”, czyli oblani wodą
+                    (968). W ten sposób zostali oni włączeni w krąg ofiarniczy, czego kolejnym
+                    wyrazem jest udział w trzewiach zwierzęcia (cf. ad 1105). Czasownik
+                    prefigowany συ-<w>σπλαγχνεύω</w> pojawia się wyłącznie w tym
+                    miejscu. Wariant bez prefiksu (<w>σπλαγχνεύω</w>) jest dosyć rzadki, lecz
+                    w żadnym razie nie problematyczny. Jest to derywat denominalny
+                    z produktywnym w okresie klasycznym sufiksem -eu- dodanym do
+                    rdzenia splankhn-. Oznacza: „zająć się trzewiami” – albo zjeść je (Ar. Av.
+                    985), albo odczytać z nich znaki (Str. 3.3.6). W tym miejscu, zwłaszcza
+                    że prefiksacja i dalszy ciąg zdania na to wskazują, ewidentnie chodzi
+                    o wspólne spożywanie podrobów. Jak to rozegrano na scenie? Być
+                    może coś rzucono publiczności lub podano w misie.</p>
+                    <p>1117: Οὔ τοι […] ταῦτα <w><w>κατέδεσθον</w></w> μόνω – „ci dwaj nie zjedzą
+                    tego wszystkiego sami”. Dualis wyraźnie odnosi się do Trygajosa
+                    i sługi. Jak to pogodzić z faktem, że chwilę wcześniej poczęstowano
+                    widzów (1115)? Wyraźnie zaimek wskazujący odnosi się do części
+                    podrobów, która pozostała po przekazaniu całej reszty publiczności.
+                    Znajdowały się one na stole, o którym mowa w kolejnym wersie.</p>
+                    <p>1118: <w>κεῖται</w> δ’ ἐν μέσωι – „leży na środku”; Olson (1998: <title>ad loc</title>.)
+                    zwraca uwagę na sympotyczne asocjacje, jakie wywołuje to sformułowanie.
+                    Umiejscowienie krateru (cf. e.g. Alex. 119.1–2) w środku sali
+                    bankietowej przyczyniało się do niwelacji relacji hierarchicznych
+                    w obrębie grupy ucztujących. Zachowanie Hieroklesa (niczym kani;
+                    cf. 1100) w sposób drastyczny odbiega od wszystkiego, co dopuszczalne
+                    w takich okolicznościach. Z drugiej strony warto zaznaczyć,
+                    że cytowane wyrażenie regularnie używane bywa w odniesieniu
+                    do przedmiotów przeznaczonych na nagrody (<w>ἆθλα</w>) dla zwycięzców
+                    w agonach, wyraźnie umieszczanych w miejscu dostępnym
+                    dla wszystkich (D. 4.5; Thgn. 944; X. <title>An</title>. 3.1.21). Jeśli jego znaczenie
+                    w tym użyciu było w czasach Arystofanesa silnie spetryfikowane,
+                    być może mamy tu do czynienia z czymś, co pierwotna publiczność
+                    miała odebrać jako grę słów.</p>
+                    <p>1119: Bakis to legendarny wróżbita, któremu przypisywano przepowiednie
+                    popularne w Grecji okresu klasycznego i później (cf. ad Ar.
+                    <title>Av</title>. 960). Sam Hierokles kilkadziesiąt wersów wcześniej (1070–1071)
+                    powołał się na autorytet tego wieszcza. W tym miejscu Trygajos w ten
+                    sposób złośliwie określa samego Hieroklesa.</p>
+                    <p>1122–4: <w>κώιδια</w> – „skóry”; skóry ofiarnych zwierząt bardzo często
+                    przypadały w udziale specjalistom religijnym (cf. <title>LSAM</title> 40.6).
+                    Fakt, że w tym miejscu o nich mowa, wskazuje na to, że Hierokles
+                    nosił je jako swojego rodzaju oznakę statusu. Tracąc status, traci jego
+                    emblemat.</p>
+                    <p>ὦ <w>θυηπόλε</w> – „ofiarniku”; wyraz oznacza kogoś, kto zarzyna zwierzę
+                    ofiarne (A. <title>Pers</title>. 202; E. <title>IT</title> 1359) w dosłownym znaczeniu, a zatem
+                    spełnia funkcję służebną wobec kogoś, kto (jak Trygajos) jest właściwym
+                    beneficjentem pozyskanej w ten sposób życzliwości bogów. Wystąpienia
+                    terminu w wysokiej literaturze wskazują na to, że zwykle
+                    nie miał on wydźwięku pejoratywnego. Być może stopniowo zaczynał
+                    oznaczać rodzaj specjalisty (cf. E. <title>IA</title> 746), a nie tak jak wcześniej, kogoś,
+                    kto ad hoc podejmował się tej funkcji (A. Pers. 202). Możliwe, że
+                    właśnie to zjawisko „profesjonalizacji” i „komercjalizacji” prowadziło
+                    do powstawania negatywnych asocjacji, których dość oczywistym wyrazem
+                    jest omawiany passus.</p>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

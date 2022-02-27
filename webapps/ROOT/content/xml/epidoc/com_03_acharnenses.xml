@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Acharnenses (Αχαρνῆς, Acarnesi)</title>
+                <title xml:lang="en">Acharnenses (Αχαρνῆς, Acharnaeans)</title>
+                <title xml:lang="pl">Acharnenses (Αχαρνῆς, Acharnejczycy, Acharniacy)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">com_03_acharnenses</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Acharnenses (Αχαρνῆς, Acharnejczycy, Acharniacy)</title>, in Bartłomiej Bednarek, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Stara komedia attycka</title>, Warszawa 2017, pp. 133-144</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaia Fanelli">encoded in XML</change>
+                <change when="2017" who="Bartłomiej Bednarek">written contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Najstarsza spośród zachowanych komedii Arystofanesa, wystawiona na Lenajach w 425 r. p.n.e. Otrzymała pierwszą nagrodę w konkursie. Tytuł pierwotnie określał mieszkańców Acharnai, największego spośród demów attyckich (część fyli Oineis, położona na terenie Mesogeion ok. 10 km od Aten. cf. Whitehead 1986: 397–400), którzy na czas powtarzających się w czasie wojny peloponeskiej inwazji spartańskich opuszczali swoje siedziby, wydając pola i winnice na pastwę plądrujących. Niezadowoleni ze swej sytuacji wieśniacy składają się na chór komedii.</p>
+                 <p>   Zarys fabuły: Ateńczyk imieniem Dikajopolis otrzymuje od bożka Amphitheosa płyn, dzięki któremu bohater jako jedyny obywatel Aten zawiera pokój z wrogami. Nawiasem mówiąc, ponieważ rytu-ałem przypieczętowującym wszelkie układy była libacja, nic dziwnego, że właśnie formę cieczy (można się domyślać, że wina) przyjmuje komiczny pokój. W dalszym ciągu akcji bohater wraz z rodziną rozkoszuje się tym, co Ateńczykom odebrała wojna, między innymi: Dionizjami Wiejskimi i wolnym handlem. Pewną przeszkodę stanowić będzie chór Acharnejczyków, którzy dopiero pod wpływem perswazji wyrzekną się złości na Dikajopolisa, który nie podziela ich nienawiśc do Spartan.</p>
+                  <p>  Problematyka ofiary krwawej pojawia się w tekście w formie kilku drobnych wzmianek. Na szczególnie obszerny komentarz zasługuje scena procesji, która wprawdzie nie kończy się złożeniem zwierzęcia w ofierze, jednak użyty w niej język nawiązuje do terminologii i imaginarium ofiarniczego. Co więcej, w sposób szczególnie wyraźny – moim zdaniem przesadny – passus z ofiarą łączy tradycja badawcza.</p>
+                   <p>Tekst cytuję za wydaniem Olson (2002).</p>
+                </div>
+                <div type="textpart" n="Acharnenses_237-279">
+                    <head>Acharnenses 237-279</head>
+                    <p>Zgodnie z zapowiedzią z wersu 202 Dikajopolis obchodzi wraz z rodziną Dionizje Wiejskie (τὰ κατ’ ἀγροὺς Διονύσια). On sam występuje tu w roli „reżysera”, przydzielając role poszczególnym domownikom. Chwilę przed tym na orchestrę wpada tłum wieśniaków z demu Acharnai, którzy pragną się zemścić na bohaterze za samowolne zawarcie pokoju. Ich okrzyki przerywa wezwanie Dikajopolisa:</p>
+                    <quote><lb/><emph>ΔΙΚΑΙΟΠΟΛΙΣ</emph>:
+                        <lb/>Εὐφημεῖτε, εὐφημεῖτε.
+                        <lb/><emph>ΧΟΡΟΣ</emph>:
+                        <lb/>Σῖγα πᾶς. ᾿Ηκούσατ', ἄνδρες, ἆρα τῆς εὐφημίας;
+                        <lb/>Οὗτος αὐτός ἐστιν ὃν ζητοῦμεν. Ἀλλὰ δεῦρο πᾶς 
+                        <lb n="240"/>ἐκποδών· θύσων γὰρ ἁνήρ, ὡς ἔοικ’, ἐξέρχεται.
+                        <lb/><emph>ΔΙ</emph>.: Εὐφημεῖτε, εὐφημεῖτε.
+                        <lb/>Προΐτω ’ς τὸ πρόσθεν ὀλίγον, ἡ κανηφόρος.
+                        <lb/>῾Ο Ξανθίας τὸν φαλλὸν ὀρθὸν στησάτω.
+                        <lb/>Κατάθου τὸ κανοῦν, ὦ θύγατερ, ἵν' ἀπαρξώμεθα. 
+                        <lb/><emph>ΘΥΓΑΤΗΡ</emph>:
+                        <lb n="245"/>῏Ω μῆτερ, ἀνάδος δεῦρο τὴν ἐτνήρυσιν,
+                        <lb/>ἵν’ ἔτνος καταχέω τοὐλατῆρος τουτουΐ.
+                        <lb/><emph>ΔΙ</emph>.: Καὶ μὴν καλόν γ’ ἔστ’. ῏Ω Διόνυσε δέσποτα,
+                        <lb/>κεχαρισμένως σοι τήνδε τὴν πομπὴν ἐμὲ
+                        <lb/>πέμψαντα καὶ θύσαντα μετὰ τῶν οἰκετῶν
+                        <lb n="250"/>ἀγαγεῖν τυχηρῶς τὰ κατ’ ἀγροὺς Διονύσια,
+                        <lb/>στρατιᾶς ἀπαλλαχθέντα, τὰς σπονδὰς δέ μοι
+                        <lb/>καλῶς ξυνενεγκεῖν τὰς τριακοντούτιδας.
+                        <lb/>Ἄγ’, ὦ θύγατερ, ὅπως τὸ κανοῦν καλὴ καλῶς
+                        <lb/>οἴσεις βλέπουσα θυμβροφάγον. Ὡς μακάριος
+                        <lb n="255"/>ὅστις σ’ ὀπύσει κἀκποήσεται γαλᾶς
+                        <lb/>σοῦ μηδὲν ἥττους βδεῖν, ἐπειδὰν ὄρθρος ἦι.
+                        <lb/>Πρόβαινε, κἀν τὤχλωι φυλάττεσθαι σφόδρα
+                        <lb/>μή τις λαθών σου περιτράγηι τὰ χρυσία.
+                        <lb/>῏Ω Ξανθία, σφῶιν δ’ ἐστὶν ὀρθὸς ἑκτέος
+                        <lb n="260"/>ὁ φαλλὸς ἐξόπισθε τῆς κανηφόρου·
+                        <lb/>ἐγὼ δ’ ἀκολουθῶν ἄισομαι τὸ φαλλικόν·
+                        <lb/>σὺ δ’, ὦ γύναι, θεῶ μ’ ἀπὸ τοῦ τέγους. Πρόβα.
+                       <lb/>[...]
+                        <lb/><emph>ΔΙ.:</emph> ῾Ηράκλεις τουτὶ τί ἐστι; τὴν χύτραν συντρίψετε. </quote>
+                    <quote> <lb/><emph>DIKAJOPOLIS</emph>: 
+                        <lb/>Niech będzie cisza! Cisza!
+                        <lb/><emph>CHÓR</emph>: 
+                        <lb/>Cicho wszyscy! Słyszeliście, panowie, to wezwanie? To ten, którego szukamy. [245] Z drogi, zdaje się, że wychodzi złożyć ofiarę.
+                        <lb/><emph>DI</emph>.: Cisza! Cisza! Trochę do przodu, ty, z koszykiem. Ksantiaszu, trzymaj prosto tego fallusa. Daj, córko, koszyk niżej, żebyśmy mogli złożyć pierwociny.
+                        <lb/><emph>CÓRKA</emph>: 
+                        <lb/>Matko, podaj chochlę, żebym po tym placku rozlała zupę. [250]
+                        <lb/><emph>DI</emph>.: Doprawdy, jest jak trzeba. Dionizosie, panie, niech miły tobie będzie ten pochód, który dla ciebie odprawiam i ofiara, którą składam wraz z domownikami, szczęśliwie spędźmy Dionizje Wiejskie teraz, gdy uniknąłem służby wojskowej, niech się uda trzydziestoletni pokój!
+                        <lb/>Dalej, córko, gdy tak niesiesz koszyk ładnie, ładna bądź, jakbyś jadła cząber. [255] Szczęśliwy będzie, kto cię poślubi i zrobi ci gromadkę łasic, co nie gorzej od ciebie pierdzieć będą o świcie. 
+                        <lb/>Idź naprzód, tylko uważaj, żeby kto w tłumie cichaczem nie dobrał się do twoich klejnotów. Ksantiaszu, macie trzymać [260] fallusa prosto, z tyłu za dziewczyną. A ja wam będę towarzyszył z pieśnią falliczną. Ty, żono, patrz z dachu. Naprzód.
+                        <lb/>[Następuje pieśń falliczna. Chór Acharnejczyków próbuje zaatakować Dikajopolisa, który wykrzykuje:]
+                        <lb/>Na Heraklesa, cóż to! Rozbijecie mi garnek! [284]</quote>
+                    <p>Z punktu widzenia badań nad ofiarą krwawą zawartość passusu jest frustrująca. Na pierwszy rzut oka mogłoby się bowiem wydawać, że bohater zamierza przeprowadzić tego rodzaju rytuał, ewidentnie jednak do tego nie dochodzi. Mimo tego w literaturze przedmiotu pojawiają się wzmianki, z których wynika, że badacze często łączą passus z ofiarą krwawą (Jim 2014: 44; Habash 1995: 560–567). Ten stan rzeczy częściowo wynika z faktu, że oprócz omawianego miejsca, za najważniejszy opis Dionizjów Wiejskich uchodzi ustęp z Plutarcha (de cup. div. 527d, cf. Bowie 1993: 26; Deubner 1932: 134–138; ostrożność zalecają Pickard-Cambridge 1968: 44 i Whitehead 1986: 213), w którym autor, kontrastując dawne obyczaje z sobie współczesnymi, powiada: ῾Η πάτριος τῶν Διονυσίων ἑορτὴ τὸ παλαιὸν ἐπέμπετο δημοτικῶς καὶ ἱλαρῶς· ἀμφορεὺς οἴνου καὶ κληματίς, εἶτα τράγον τις εἷλκεν, ἄλλος ἰσχάδων ἄρριχον ἠκολούθει κομίζων, ἐπὶ πᾶσι δ’ ὁ φαλλός („tradycyjnie święto Dionizosa niegdyś obchodzono w sposób wieśniaczy i wesoły. Ktoś niósł amforę wina i gałązkę winorośli, ktoś ciągnął kozła, inny szedł z koszykiem suszonych fig; do tego jeszcze był i fallus”). Plutarch nie wyjaśnia, o jakim okresie ani miejscu mówi. Na dobrą sprawę nawet to, że chodzi o Dionizje Wiejskie, jest wyłącznie domysłem. Dlatego nie ma podstaw, by sądzić, że ofiara z kozła była typowym elementem tego święta w Attyce w czasach Arystofanesa. Inna rzecz, że ofiara zwierzęca ewidentnie stanowiła ważny (może nawet centralny) punkt programu w przypadku Dionizjów obchodzonych w demie Pireus, o czym świadczą inskrypcje od 331/330 r. p.n.e. po okres cesarstwa (IG II21496a70; 1672.106; 1008.13; 1028.16; 1029.11). Należy jednak zaznaczyć, że mowa tu o prestiżowych ofiarach z wołów, a nie o koźle, samo zaś święto ewidentnie było jednym z ważniejszych wydarzeń w kalendarzu kultowym w skali całej Attyki, regularnie bowiem wymieniane bywa w inskrypcjach obok Dionizjów Miejskich i misteriów eleuzyńskich (w wymienionych inskrypcjach; cf. Parke 1977: 103; Pickard-Cambridge 1968: 45–47). Nawet jeśli taką rangę miało lub zyskało w czasie wojny peloponeskiej, Arystofanesowi z całą pewnością chodziło o coś innego, czego nazwa „Dionizje na polach” (τὰ κατ’ ἀγροὺς Διονύσια) odpowiadała rzeczywistości. Świadczy o tym wzmianka Dikajopolisa (266) o tym, że od sześciu lat, a zatem od początku wojny nie miał możliwości tego święta obchodzić. Tymczasem Dionizje w Pireusie, ponieważ ten port połączony był z Atenami Długimi Murami, jako jedyne spośród wiejskich, mogły się odbywać nieprzerwanie przez cały czas trwania konfliktu. W wypowiedziach bohaterów nie ma wzmianki o zwierzęciu, niewykluczone jednak, że na scenie pojawiła się kukła na kółkach, którą prowadzi aktor grający Dikajopolisa (dlatego bohater nie udziela instrukcji na ten temat). Rytuał nie dochodzi do skutku, wskutek interwencji Acharnejczyków, którzy obrzucają pochód kamieniami.</p>
+                 <p>   237: <w>εὐφημεῖτε</w> – „niech będzie cisza!”; wezwanie do zachowania <w>εὐφημία</w>, czyli nabożnej ciszy, czy też, precyzyjniej, do niezakłócania 
+                    procesu rytualnego niewłaściwym zachowaniem werbalnym. Jak widać, zasugerowało ono Acharnejczykom (chór), że Dikajopolis szykuje 
+                    się do odbycia rytuału. Szerzej: Ar. <title>Av</title>. 959; Th. 295 z komentarzem.</p>
+                 <p>   240: <w>θύσων</w> – „złożyć ofiarę”; nie jest niestety do końca jasne, czy participia <w>θύσων</w> (240) i <w>θύσαντα</w> (249) odnoszą się do czynności składania ofiary krwawej, czy też do spalania dla bogów jakiejś substancji, niekoniecznie pochodzenia zwierzęcego, np. kadzidła. Cf. e.g. adespot. fr. 80; Ar. <title>Pl</title>. 114–116; Th. 38. W tym drugim przypadku obrzęd sprowadzałby się do ofiarowania bóstwu placka.</p>
+                    <p>242: ἡ <w>κανηφόρος</w> – „ty, z koszykiem”; chodzi o specyficzny rodzaj koszyka, określonego dwa wersy dalej jako κανοῦν, który zawierał potrzebne do przeprowadzenia obrzędu przedmioty. Szerzej: komentarze do Ar. <title>Av</title>. 863; Pax 948–949. Osoba niosąca taki koszyk zwykle szła na początku procesji, przy czym, jak zauważa van Straten (1995: 13–14), w przypadku procesji prywatnych funkcję tę mógł sprawować właściwie każdy, natomiast w czasie oficjalnych świąt (do takiej roli pretendują obchodzone przez Dikajopolisa Dionizje) przypadała ona dziewczętom. Była to przy tym znakomita okazja dla panny na wydaniu do publicznego zaprezentowania się, nic więc dziwnego, że szczególną wagę przywiązywano do urody κανηφόρος (cf. Ar. <title>Ec</title>. 732). Była to funkcja bardzo prestiżowa, cf. Ar. <title>Lys</title>. 1193; Gebauer 2002: 169–171; Dillon 2002: 37–42; Lefkovitz 1996: 79–80.</p>
+                    <p>243: τὸν <w>φαλλὸν</w> ὀρθὸν στησάτω – „trzymaj prosto tego fallusa”; według Olsona (2002 ad loc.) gigantyczny członek męski wykonany z drewna figowego wniesiono na scenę na dwóch żerdkach (τὰ ξύλα), na co wskazują przedstawienia w malarstwie wazowym i fragment 7 (9) Hermipposa (Cf. Deubner 1932: il. 22; Csapo 1997; Keuls 1985: 78–79). Wykorzystanie tego tradycyjnego atrybutu świąt dionizyjskich w ramach akcji scenicznej jest trudne do zrekonstruowania, nie należy jednak wątpić, że Arystofanes w pełni wykorzystał jego potencjał komiczny. Dane na ten temat wydają się o tyle istotne, że konstrukcja wypowiedzi bohaterów i akcja sceniczna prawdopodobnie w większej mierze podporządkowana była produkcji znaczeń obscenicznych niż odtwarzaniu szczegółów interesujących nas rytuałów. Charakterystyczne, że fallus niesiony jest bezpośrednio za dziewczyną, której ojciec nakazuje odłożyć koszyk (prawdopodobnie na ziemi), co mogło się wiązać z wypięciem przez nią pośladków w kierunku fallusa. Przymiotnik ὀρθός w odniesieniu do erekcji: <title>Her</title>. 2.51.</p>
+                    <p>244: ἵν’ <w>ἀπαρξώμεθα</w> – „żebyśmy mogli złożyć pierwociny”; według Jim (2014: 29–58) czasownik ἀπάρχομαι regularnie odnosi się do poświęcania bogom „części większej całości”. Może chodzić o odrobinę płodów rolnych lub choćby o włosy człowieka albo zwierzęcia. Wprawdzie wstępna część rytuału ofiary krwawej mogła obejmować spalenie kosmyka sierści, w takim jednak przypadku regularnie pojawia się czasownik κατάρχομαι. Dlatego autorka określa (ibidem: 44) omawiane miejsce jako wyjątek od reguły, wychodząc z założenia, że mamy do czynienia ze sceną ofiary krwawej. Przekonanie to, jak zaznaczyłem powyżej, nie jest jednak mocno ugruntowane. Być może użycie czasownika, który nie bywa używany w kontekście ofiary krwawej, należy uznać za kolejny argument przeciwko takiej interpretacji passusu.</p>
+                   <p>246: ἵν’ ἔτνος καταχέω <w>τοὐλατῆρος</w> τουτουΐ – „żebym po tym placku rozlała zupę”; ἐλατήρ, a także prawdopodobnie synonimiczny wyraz ἔλατρον pojawiają się w czterech inskrypcjach z okresu klasycznego i hellenistycznego (LSCG 19.7; 151 B 9 = LGS 6 B 9; LSA 37.11; 50.36), regulujących rytuał ofiary krwawej i odnoszą się do placków, które stanowią dodatek do mięsa i wina przeznaczonego dla boga i/lub kapłana. Każda z cytowanych inskrypcji zawiera informację o rozmiarze placka. W jednym przypadku (LSCG 151) jest mowa o tym, że ma on być ulepiony z pszenicy w ilości określonej miarą jednego hemiekton. W LSA 37.11 rozmiar ciasta zależy od rodzaju składanego w ofierze zwierzęcia. Jagnięciu towarzyszyć ma taki z dwóch choinikes, wołowi – z jednego tetarteus. Różnice geograficzne i chronologiczne sprawiają, że trudno precyzyjnie określić rozmiary tych placków, rzuca się jednak w oczy, że są one duże: zużywano na nie od dwóch do kilkudziesięciu litrów mąki. Hesychios (s.v.) podaje, że nazwa <w>ἐλατήρ</w> wywodzi się od <w>ἐληλάσθαι</w> εἰς μέγεθος („rozwałkować obszernie”), co sugeruje, że placek był duży i płaski. Erudyta dodaje jako synonim dosyć wieloznaczne πέμμα, wyraz oznaczający ciasto z dodatkiem sosu lub nadzienia (pieróg?). Kwestia córki może także zawierać grę  słów, jako że homonimiczny wyraz ἐλατήρ oznaczać może osobę, która jedzie na czymś (ἐλαύνω), woźnicę lub wioślarza. To ostatnie znaczenie mogło być wzmacniane podobieństwem wyrazu <w>ἐλάτη</w> – „jodła” (drzewo skądinąd związane z Dionizosem) i „to, co zrobione z jej  drewna, okręt” (E. <title>Ph</title>. 208; <title>Alc</title>. 444) lub „wiosło” (<title>Od</title>.12.172). Taką grę słów wykorzystał Arystofanes także w Rycerzach (1181–1182), gdzie  mowa o jedzeniu placka ἐλατήρ po to, by dobrze się pływało na okrętach (῾Η Γοργολόφα σ’ ἐκέλευε τουτουὶ φαγεῖν <w>ἐλατῆρος</w>,/ ἵνα τὰς ναῦς ἐλαύνωμεν καλῶς). Jest zatem możliwe, że zamiast o polewaniu placka zupą córka Dikajopolisa (wykonując odpowiednie gesty), mówiła o zmoczeniu czymś fallusa. Wydaje się to o tyle bardziej prawdopodobne, że wyraz ἔτνος, dosłownie oznaczający rodzaj zupy warzywnej, w dwóch innych miejscach u Arystofanesa (<title>Lys</title>. 1061 z kom. Sommerstein 1990: ad loc.; <title>Ec</title>. 845 z kom. Sommerstein 1998: ad loc. Ussher 1973: ad loc.) pojawia się jako określenie wydzieliny z pochwy.</p>
+                    <p>48–9: τὴν <w>πομπὴν</w> ἐμὲ <w>πέμψαντα</w> – „ten pochód, który odprawiam”; podobna figura w Ar. <title>Av</title>. 849.</p>
+                    <p>284: τὴν <w>χύτραν</w> <w>συντρίψετε</w> – „rozbijecie mi garnek”; Dikajopolis najwyraźniej niósł garnek może z zupą (<w>ἔτνος</w>), może z żarem potrzebnym do rozpalenia na ołtarzu (cf. Ar. <title>Av</title>. 42, <title>Lys</title>. 293–305; X. <title>HG</title> 4.5.4).</p>
+                    <p>253: <w>καλὴ</w> <w>καλῶς</w> – „ładnie ładna”; typowa formuła w odniesieniu do <w>κανηφόρος</w>. Cf. Ar. <w>Ec</w>. 730.</p>
+                </div>
+                <div type="textpart" n="Acharnenses_784-96">
+                    <head>Acharnenses 784-96</head>
+                    <p>andlarz z wyniszczonej wojną Megary stara się sprzedać Dikajopolisowi swoje kilkuletnie córki, udając, że są to świnki (całość sceny obejmuje wersy 729–817). W dwóch miejscach określa je jako χοιρία μυστηρικά (747) i χοῖροι μυστικαί (764), „prosiaczki misteryjne”, czyli młode świnie wykorzystywane do wstępnego rytu oczyszczenia w czasie misteriów eleuzyńskich (cf. Ar. Ra. 378; Pax 374–375). Humor passusu o tyle jest brutalny, że ojciec nie tylko sprzedaje w nim swoje dzieci, lecz jednocześnie stręczy córki, co wynika z konsekwentnego rozgrywania dwuznaczności słowa χοῖρος – „świnka”, pudenda muliebria (Henderson 1991: 60, 131). W celu zbudowania efektu komicznego, Arystofanes wplata w tekst szereg żartów, które z jednej strony eksploatują słownictwo i tematykę związaną z hodowlą świń i wykorzystaniem ich mięsa i ofiarą oraz – z drugiej – z erotyką. </p>
+                    <p>W passusie Dikajopolis mówi w dialekcie attyckim, a handlarz – w megaryjskim (niekoniecznie czystym, jako że mamy do czynienia ze stylizacją dokonaną przez autora attyckiego).</p>
+                    <quote><lb/><emph>ΔΙΚΑΙΟΠΟΛΙΣ</emph>:
+                        <lb/>Ἀλλ’ οὐδὲ θύσιμός ἐστιν αὑτηγί.
+                        <lb/><emph>ΜΕΓΑΡΕΥΣ</emph>:
+                        Σά μάν;
+                        <lb n="785"/>πᾶ δ’ οὐκὶ θύσιμός ἐστι;
+                        <lb/><emph>ΔΙ</emph>.: Κέρκον οὐκ ἔχει.
+                        <lb/><emph>ΜΕ</emph>.: Νεαρὰ γάρ ἐστιν· ἀλλὰ δελφακουμένα
+                        <lb/>ἑξεῖ μεγάλαν τε καὶ παχεῖαν κἠρυθράν.
+                        <lb/>Ἀλλ’ αἰ τράφειν λῆις, ἅδε τοι χοῖρος καλά.
+                        <lb/><emph>ΔΙ</emph>.: Ὡς ξυγγενὴς ὁ κύσθος αὐτῆς θἀτέραι.
+                        <lb n="790"/>ΜΕ.: Ὁμοματρία γάρ ἐστι κἠκ τωὐτοῦ πατρός. 
+                        <lb/>Ἀλλ’ ἀν παχυνθῆ κἂν ἀναχνοανθῆι τριχί,
+                        <lb/>κάλλιστος ἔσται χοῖρος Ἀφροδίται θύειν.
+                        <lb/><emph>ΔΙ</emph>.: Ἀλλ’ οὐχὶ χοῖρος τἀφροδίτηι θύεται,
+                        <lb/><emph>ΜΕ</emph>.: Οὐ χοῖρος Ἀφροδίται; Μόναι γα δαιμόνων.
+                        <lb n="795"/>Καὶ γίνεταί γα τᾶνδε τᾶν χοίρων τὸ κρῆς
+                        <lb/>ἅδιστον ἂν τὸν ὀδελὸν ἀμπεπαρμένον.</quote>
+                    <quote><lb/><emph>DIKAJOPOLIS</emph>: 
+                        <lb/>Przecież ta się nie nadaje na ofiarę!
+                        <lb/><emph>MEGARYJCZYK</emph>: 
+                        <lb/>Jak to? [785] Dlaczego się nie nadaje?
+                        <lb/><emph>DI</emph>.: Nie ma ogona.
+                        <lb/><emph>ME</emph>.: Nie ma. Ale gdy wyrośnie na lochę, znajdzie sobie ogona. Wielkiego, grubego, czerwonego... Jeśli jednak chcesz utuczyć świnkę, ta ci się doskonale nada.
+                        <lb/><emph>DI</emph>.: Cipkę ma identyczną jak ta druga.
+                        <lb/><emph>ME</emph>.: Z jednej są matki i ojca. [790] Jeśli dasz im przytyć i pokryć się 
+                        futerkiem, będą w sam raz nadawać się na ofiarę dla Afrodyty.
+                        <lb/><emph>DI</emph>.: Ależ Afrodycie nie składa się świnek.
+                        <lb/><emph>ME</emph>.: Świnek Afrodycie? Przecież wyłącznie jej się je składa! [795] 
+                        <lb/>W dodatku ich mięso okaże się naprawdę rozkoszne, jeśli je nadziać na ruszt.</quote>
+                    <p>784: οὐχί <w>θύσιμός</w> ἐστιν – „nie nadaje się na ofiarę”; przymiotnik <w>θύσιμος</w> jest typowym adiectivum dewerbalnym naimo, derywowanym od czasownika <w>θύω</w> („składać w ofierze”). Struktura derywatu wskazuje na znaczenie: „nadający się na ofiarę”. Poświadczenia w materiale filologicznym nie przynoszą niespodzianki co do semantyki wyrazu, pozwalają jednak na udzielenie wyłącznie częściowej odpowiedzi na pytanie dotyczące pozajęzykowej rzeczywistości kulturowej – „nadający się na ofiarę”, czyli jaki? W pierwszej kolejności decydowała o tym przynależność zwierzęcia do odpowiedniego, „ofiarnego” gatunku. Wydaje się truizmem, że woły, owce, kozy i świnie wykorzystywano w tych celach regularnie (e.g. van Straten 1995: 170–175), inne zaś gatunki rzadziej, wyłącznie w pewnych specyficznych kultach czy okolicznościach (konie, osły, psy; Schoemann 1863: 222–224), a jeszcze inne uchodziły za nieofiarne (np. zwierzyna łowna cf. Vidal-Naquet 1972: 139; teorię tę jako pierwszy sformułował Schoemann 1863: 212–243). Jakkolwiek badania archeozoologiczne (cf. e.g. Ekroth 2013; Scullion 2013) i coraz wnikliwsza lektura materiału inskrypcyjnego oraz literackiego prowadzą do wciąż nowych przewartościowań w naukowej wizji klasyfikacji zwierząt ofiarnych i nieofiarnych, samo istnienie tych dwóch opozycyjnych kategorii oraz stopni pośrednich pomiędzy nimi nie wzbudza wątpliwości. Oprócz przynależności do gatunku o tym, że zwierzę nie nadawało się na ofiarę, decydowały pewne jego przypadłości. Dość długo sądzono, że tabu obejmowało woły robocze (tak jeszcze np. Berthiaume 1982: 85). Jak jednak przekonująco argumentuje Rosivach (1994: 161–163), cytowane na poparcie tej tezy miejsca wskazują na to, że starożytni uważali ten zakaz za przynależący do prehistorii i już dawno nieaktualny (Arat. 132 i <title>schol. ad loc.</title>; mniej oczywiście wynika to z Ael. <title>VH</title> 5.14; <title>schol. ad </title>H. <title>Od</title>. 12.353; Heracl. <title>Incred</title>. 39). W pewnych specyficznych kontekstach o tym, czy zwierzę nadawało się na ofiarę, mogła decydować jego drugorzędna cecha. Na przykład u Plutarcha (<title>de Isid</title>. 363b) pojawia się ten wyraz w miejscu, które sugeruje, że o przynależności wołu do kategorii θύσιμος w Egipcie może decydować jego kolor (mowa tu o zwyczajach obcych, ale opisanych po grecku i wyraźnie dla Greków zrozumiałych). W omawianym passusie Arystofanesa Dikajopolis stwierdza (786), że mankament zwierzęcia stanowi brak ogona. Rzecz jasna, jest to pretekst do sformułowania obscenicznego żartu, jednocześnie jednak, ponieważ bohater odwołuje się do swoich kategorii kulturowych, pozwala dociekać na ich temat. Bardzo cenne wydaje się zdroworozsądkowe wyjaśnienie zastrzeżenia podane przez Olsona (2002: <title>ad loc</title>.): ponieważ w Attyce czasów Arystofanesa regularnie spalano na ołtarzu nie tylko udźce, ale i kość krzyżową wraz z ogonem (cf. Ar. <title>Pax</title> 1053–1055 z komentarzem), brak tej części ciała mógł wykluczać zwierzę jako potencjalną ofiarę. Z drugiej strony istnieje szereg przekazów (e.g. Poll. 2.9; Schol. <title>ad</title> D. 21.171; Plut. <title>de def</title>. 437ab; Porph. <title>Abst</title>. 2.9), z których wynika, że starożytni Grecy (Spartanie i Eretryjczycy stanowić mieli szokujący wyjątek, cf. Pl. <title>Alc</title>.2 1491; Ael. <title>NA</title> 12.34) dbali o to, by zwierzęta ofiarne były zdrowe (cf. e.g. Feyel 2006; Naiden 2007). Wyrwany z kontekstu fragment <title>Sympozjonu</title> Arystotelesa (101 Rose = Athen. 674f) zdaje się wskazywać na to, że filozof (lub ten, kto w utworze wygłaszał kwestię) interpretował fizyczną integralność jako przejaw doskonałości. Aż się prosi, żeby odczytać to w kluczu teologicznym: οὐδὲν κολοβὸν προσφέρομεν πρὸς τοὺς θεούς, ἀλλὰ τέλεια καὶ ὅλα. τὸ δὲ πλῆρες τέλειόν ἐστιν. τὸ δὲ στέφειν πλήρωσίν τινα σημαίνει („nie zanosimy bogom niczego, co byłoby ułomne, lecz skończone [doskonałe] i całe. Bo pełne to znaczy skończone [doskonałe]. Zakładanie wieńców z kolei oznacza pewnego rodzaju dopełnienie”). Należy zaznaczyć, że troska o zdrowie zwierząt ofiarnych interpretowana bywała także jako wyraz czysto pragmatycznej skłonności ludzi do pozyskania wysokiej jakości mięsa (cf. <title>scholia ad</title> Ar. <title>Lys</title>. 83).</p>
+                   <p> 793: κάλλιστος [...] Ἀφροδίται <w>θύειν</w> – „doskonale nadaje się na ofiarę dla Afrodyty”; oczywiście jest to obsceniczny żart, mający wywołać skojarzenie z seksem (kontekst ocieka dwuznacznością, więc takie rozumienie wzmianki o bogini miłości wydaje się oczywiste). Odpowiedź Dikajopolisa z kolejnego wersu wydaje się nawiązywać do rzeczywistej reguły: źródła (Athen. 96a wraz z Antiph. <title>fr</title>. 124 (126); Str. 9.5.17 wraz z Call. <title>fr</title>. 200a; Paus. 2.10.5; LSCG 126) wskazują na to, że wyłącznie niektóre lokalne kulty dopuszczały składanie Afrodycie ofiar ze świń. Kolejna kwestia handlarza zawiera stwierdzenie dokładnie przeciwne, pełni ono jednak funkcję komiczną i jest całkowicie sprzeczne z rzeczywistą praktyką kultową.</p>
+                </div>
+                <div type="textpart" n="Acharnenses_1049-1055">
+                    <head>Acharnenses 1049-1055</head>
+                    <p>Pokój, którego materialnym nośnikiem jest specjalny płyn (wino na libację), jest przedmiotem pragnień współobywateli Dikajopolisa. Między innymi przychodzi po nie drużba ze ślubu, by prosić o możliwość  zwolnienia pana młodego od służby wojskowej.</p>
+                    <quote><lb/><emph>ΠΑΡΑΝΥΜΦΟΣ</emph>:
+                        <lb/>Ἔπεμψέ τίς σοι νυμφίος ταυτὶ κρέα
+                        <lb n="1050"/>ἐκ τῶν γάμων.
+                        <lb/><emph>ΔΙΚΑΙΟΠΟΛΙΣ</emph>:
+                        <lb/>Καλῶς γε ποιῶν ὅστις ἦν.
+                        <lb/><emph>ΠΑ</emph>.: Ἐκέλευε δ’ ἐγχέαι σε τῶν κρεῶν χάριν,
+                        <lb/>ἵνα μὴ στρατεύοιτ’, ἀλλὰ βινοίη μένων,
+                        <lb/>εἰς τὸν ἀλάβαστον κύαθον εἰρήνης ἕνα.
+                        <lb/><emph>ΔΙ</emph>.: Ἀπόφερ’, ἀπόφερε τὰ κρέα καὶ μή μοι δίδου,
+                        <lb n="1055"/>ὡς οὐκ ἂν ἐγχέαιμι χιλίων δραχμῶν.</quote>
+                    <quote><lb/><emph>DRUŻBA</emph>: 
+                        <lb/>Ktoś, kto bierze właśnie ślub, przysłał ci to mięso z wesela. [1050]
+                        <lb/><emph>DIKAJOPOLIS</emph>: 
+                        <lb/>To miło z jego strony, kimkolwiek jest. 
+                        <lb/><emph>DR</emph>.: Zażyczył sobie, żebyś za to mięso nalał do tego dzbanuszka jedną kroplę pokoju, by zamiast iść na wojnę, mógł zostać i zabawić się z żoną.
+                        <lb/><emph>DI</emph>.: Precz, zabierz to mięso i nie dawaj mi go, bo nie dam pokoju, choćby mi płacili tysiąc drachm. [1055]</quote>
+                    <p>Już <title>Iliada</title> (8.162) poświadcza, że kawałki mięsa ubitego zwierzęcia stanowiły typowy zaszczytny dar, o którym sama wzmianka informowała o wysokim statusie otrzymującego. W późniejszym okresie dobrze udokumentowane jest dawanie mięsa pochodzącego z publicznych ofiar tym, którzy odznaczyli się w jakiegoś rodzaju agonie, czy też zasłużyli sobie służbą publiczną (e.g. Pl. <title>R</title>. 468d–e), a także – na przykład w czasie prywatnych świąt w rodzaju ślubów – przyjaciołom i ukochanym (Ephipp. <title>fr</title>. 15; Men. <title>Sam</title>. 403–404; Thphr. <title>Char</title>. 17.2; cf. Tsoukala 2009). Omawiany passus stanowi typowy przykład zachowania zaliczającego się do ostatniej spośród wymienionych kategorii, tyle tylko, że normy rytualne zostały tu brutalnie złamane. Trudno powiedzieć, czy czymś dopuszczalnym było zachowanie pana młodego, który mięso potraktował jak przedmiot wymiany handlowej, z pewnością jednak odpowiedź Dikajopolisa musiała się wydać grubiańska. Charakterystyczne jest przejście od czegoś, co wydaje się typową, staroświecką wymianą darów do konceptualizacji zachowania jako transakcji monetarnej (bardzo wysoka kwota tysiąca drachm skądinąd zdaje się w tym kontekście nie oznaczać konkretnej ceny, tylko być idiomem, oznaczającym „dużo”.</p> 
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

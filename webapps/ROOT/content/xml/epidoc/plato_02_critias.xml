@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Critias (Κριτίας, Crizia)</title> 
+                <title xml:lang="en">Critias (Κριτίας, Kritiasz)</title>
+                <title xml:lang="pl">Critias (Κριτίας, Kritiasz)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">plato_03_critias</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Critias (Κριτίας, Kritiasz)</title>, in Przemysław Biernat, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Corpus Platonicum. Corpus Hippocraticum</title>, Warszawa 2017, pp. 25-40</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded in XML</change>
+                <change when="2017" who="Przemysław Biernat">written contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text> 
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!--xml:lang="pl"-->
+                <div type="textpart" n="intro">
+                    <p>Niedokończony (być może rozmyślnie, zob. Welliver 1977; Altman 
+                        2016: 123–124) dialog Kritiasz należy do późnego okresu twórczości Platona i stanowi kontynuację Timajosa. Według tradycji Timajos
+                        i Kritiasz miały stanowić części trylogii, a jej dopełnieniem miał być 
+                        Hermokrates. Chociaż dialog pod takim tytułem nigdy nie powstał, 
+                        wydaje się, że jego zamierzoną treść oddają w jakimś stopniu Prawa
+                        (Naddaf 1994: 204).</p> <p>Treścią Kritiasza jest opowieść tytułowego bohatera o Atlantydzie, 
+                            stanowiąca dopełnienie narracji o wojnie Aten z atlantydzkim najeźdźcą, 
+                            o której czytamy w Timajosie, a która miała mieć miejsce dziewięć tysięcy 
+                            lat temu, przed wielkim potopem. Pozbawiony na pierwszy rzut oka treści filozoficznych, dialog intrygował przez lata zarówno amatorów, jak 
+                            i profesjonalnych uczonych usiłujących rozstrzygnąć problem historyczności atlantydzkiego mitu opowiedzianego przez Kritiasza (Frost 1913; 
+                            Luce 1969; Lee 1977, a ostatnio Settegast 1987; listę można by wydłużać; 
+                            do argumentów zwolenników identyfikacji Atlantydy z Therą lub Kretą 
+                            kompleksowo odniósł się Naddaf 1994: 191–194; w języku polskim dostępne jest również popularnonaukowe opracowanie – Jordan 2003). 
+                            Chociaż Platon usiłuje nadać opowieści Kritiasza wszelkie pozory prawdy, uwiarygadniając ją autorytetem Solona i egipskich archiwów, w których rzekomo przetrwała pamięć o wydarzeniach sprzed dziewięciu 
+                            tysięcy lat, nie ulega wątpliwości, że dialog jest pastiszem historiografii 
+                            i świadomie skonstruowaną fikcją o allotopijnym, a nie historycznym 
+                            charakterze. Wychodząc z tego założenia, a zarazem pozostając w opozycji do popularnego wówczas odczytania mitu o wojnie Atlantydy 
+                            i Aten jako mitycznej prefiguracji wojen perskich (a tym samym Kritiasza
+                            jako drugiego Meneksenosa), Pierre Vidal-Naquet (1964) odczytał historię Atlantydy w świetle kosmologii Timajosa. Pozwoliło mu to sformułować 
+                            interpretację, której zasadnicza treść podzielana jest dziś chyba przez 
+                            wszystkich badaczy dialogu, nawet jeżeli nie zgadzają się oni co do pewnych jej szczegółów (np. Naddaf 1994; Desclos 1996): peryklejskie Ateny 
+                            odzwierciedlone zostały nie w Atenach przedpotopowych, rządzących 
+                            się reżimem, który znamy z Państwa (cf. Ti. 25e; zob. też Annas 2010a), 
+                            lecz w zamorskim i agresywnym imperium Atlantydów. Odniesiona do 
+                            rzeczywistości ateńskiej poprzedzającej wybuch wojny peloponeskiej 
+                            opowieść stanowiła swoistą przestrogę ex post (por. Gill 1977: 295–296: 
+                            „Atlantis is, in essence, not only a dream island in the mythical west, but 
+                            […] the dream or ideal Periclean Athens had about itself”); firmowana 
+                            autorytetem Solona i egipskich archiwów (o grze między tradycją ustną 
+                            i pisemną w Kritiaszu zob. Brisson 1998) może być potraktowana jako zapowiedź nowej platońskiej mitologii, która w zamyśle filozofa miała, być 
+                            może, zastąpić starą, a przynajmniej z nią konkurować (Detienne 1988; 
+                            w Ti. 21c–d pada stwierdzenie, że gdyby Solon ułożył epos na podstawie 
+                            notatek zrobionych w Egipcie, mógłby przyćmić sławę Homera i Hezjoda); wreszcie opowieść o wojnie Aten i Atlantydy była też prawdopodobnie fundamentem nowej platońskiej historiozofii, której dopełnienie 
+                            odnajdujemy w Prawach (por. Naddaf 1994, zwłaszcza s. 200–209, gdzie 
+                            uczony polemizuje z konkluzjami Vidala-Naqueta).
+                        </p> <p>Przedmiotem poniższego komentarza jest rozbudowany opis rytuału, którego elementem była ofiara z byka. Prawdopodobnie ze względu 
+                            na jej fikcyjny charakter uczeni, którzy podejmują temat greckiej ofiary, 
+                            rzadko o niej wspominają. Fikcyjność opisu nie powinna nas jednak zniechęcać do jego uważnej lektury – Platon nie tworzy bowiem atlantydzkiego rytuału ex nihilo, a wszystkie elementy, z których został zbudowany, odnajdujemy w historycznych praktykach Greków. Z tego względu 
+                            przedstawiona w komentarzu interpretacja oparta jest na modelu lektury, jaki w odniesieniu do całości mitu atlantydzkiego zastosował Luc 
+                            Brisson w Plato the Myth Maker (1998). Jak pisze francuski uczony <quote>which are not, at first glance, as explicit in traditional myths. This is 
+                                because the making of a pastiche implies a prior analysis of the kind of 
+                                discourse the imitation is concerned with. (Brisson 1998: 14–15)which are not, at first glance, as explicit in traditional myths. This is 
+                                because the making of a pastiche implies a prior analysis of the kind of 
+                                discourse the imitation is concerned with. (Brisson 1998: 14–15) </quote></p> <p>Przekłady polskie: Witwicki (1951), Siwek (1986).
+                                    Tekst na podstawie wydania: Burnet (1903).</p>
+              
+                </div>
+                <div type="textpart" n="Critias_119c–120c">
+                    <head>Kritiasz 119c–120c:</head>
+                    <p>Komentowany niżej rytuał spełniany był przez królów Atlantydy każdego piątego i szóstego roku w świątyni Posejdona (τοῦ δὲ 
+                        Ποσειδῶνος αὐτοῦ νεώς, 116c), wokół której pasły się stada świętych 
+                        byków. Dobór właśnie tego boga na opiekuna mitycznego kraju nie jest 
+                        przypadkowy – wydaje się, że w zamyśle filozofa firmowana autorytetem egipskich archiwów i mądrością Solona opowieść o Atlantydzie 
+                        miała zastąpić tradycyjny mit o rywalizacji (κατ᾽ ἔριν, motywowanej 
+                        zazdrością) Ateny i Posejdona o Attykę, który Kritiasz odrzuca już na 
+                        początku dialogu jako niedorzeczny (οὐ γὰρ ἂν ὀρθὸν ἔχοι λόγον, 
+                        109b; o doborze bogów-opiekunów dla obu państw zob. Vidal-Naquet 
+                        1964: 431–433 Naddaf 1994: 197–199).</p>
+                      <p>  Poza ofiarą dla Posejdona królowie Atlantydy składają coroczną 
+                        ofiarę z płodów rolnych (ὡραῖα, 116c, przy czym typowym terminem na określenie ofiary tego typu jest ἀπαρχή; ofiary tego rodzaju doczekały się niedawno wyczerpującej monografii: Jim 2014) dla 
+                        protoplastów swojego rodu. Ofiara spełniana jest w pobliżu złotego 
+                        muru okalającego miejsce poczęcia pierwszych atlantydzkich królów, przekształcone w ἅγιον ἱερόν Posejdona i Klejto (na temat użycia przymiotnika ἅγιος u Platona zob. Motte 1989: 23) i pozostawione 
+                        jako ἄβατον, miejsce, do którego nie ma dostępu (116c; zob. też Motte 
+                        1987: 141, przyp. 13). Z wyrazem ἄβατον spotykamy się najczęściej 
+                        w kontekście miejsc związanych z epifanią bóstwa, na przykład poświęconych Zeusowi Katabajtesowi skrawków ziemi, w którą uderzył 
+                        piorun (Trzcionkowski 2005: 27). Podobnie jest tutaj – ἱερόν Posejdona 
+                        jest tym miejscem, w którym „zstąpił” on na Atlantydę.</p>
+                    <quote>[119c] τῶν δέκα βασιλέων εἷς ἕκαστος ἐν μὲν τῷ καθ᾽ αὑτὸν μέρει 
+                        κατὰ τὴν αὑτοῦ πόλιν τῶν ἀνδρῶν καὶ τῶν πλείστων νόμων ἦρχεν, 
+                        [119c] τῶν δέκα βασιλέων εἷς ἕκαστος ἐν μὲν τῷ καθ᾽ αὑτὸν μέρει 
+                        κατὰ τὴν αὑτοῦ πόλιν τῶν ἀνδρῶν καὶ τῶν πλείστων νόμων ἦρχεν, 
+                    </quote>
+                    <quote>[119c] Każdy z dziesięciu królów na sobie wydzielonym terytorium 
+                        i we własnym mieście sprawował rządy nad ludźmi i prawami, karząc, także śmiercią, kogo zechciał. Natomiast władzę, którą mieli 
+                        nad sobą nawzajem, oraz ogół łączących ich stosunków, określały nakazy Posejdona – tak głosiło ich prawo oraz słowa zapisane przez 
+                        pierwszych królów na steli [119d] z orychalku, która stała na środku 
+                        wyspy w świątyni Posejdona. Oni więc gromadzili się tam co piąty 
+                        i szósty rok, wydzielając równy udział parzystemu i nieparzystemu, i naradzali się nad wspólnymi sprawami oraz badali, czy któryś 
+                        z nich nie popełnił wykroczenia, a także sądzili się. Kiedy zaś przystępowali do sądzenia, dawali sobie najpierw takie oto rękojmie: na 
+                        świętej ziemi Posejdona żyły na swobodzie byki; królowie zaś, będąc 
+                        sami w dziesięciu, obiecawszy bogu, że złapią mu miłą [119e] ofiarę, 
+                        bez żelaza, a tylko z pałkami i pętami, polowali na nie. Którego zaś 
+                        z byków złapali, prowadzili do steli i nad jej wierzchołkiem podrzynali mu gardło, tak że krew spływała na litery. Na steli, oprócz prawa, 
+                        była też przysięga, która zapowiadała wielkie klątwy wiarołomcom. 
+                        Kiedy zgodnie ze [120a] swoimi obyczajami zabili byka w ofierze 
+                        i spalili wszystkie jego kończyny, wymieszawszy [scil. z wodą] krater wina wlali doń po jednej kropli krwi na każdego z królów, resztę 
+                        zaś zanieśli do ognia, oczyściwszy wprzód stelę. Później nabrali wina 
+                        w złote czarki i, wylewając libację nad ogniem, przysięgali sądzić 
+                        zgodnie z prawami steli i karać, jeżeli ktoś wcześniej popełnił jakieś 
+                        wykroczenie, a także, że nie złamią spisanych praw z własnej woli 
+                        i że ani nie będą rządzić, ani nie podporządkują się żadnemu rządcy 
+                        [120b] oprócz takiego, który działa wedle prawa ojców. Każdy przyrzekał to w swoim imieniu i w imieniu swoich potomków, później zaś 
+                        pił, a czarkę składał w świątyni boga. Spędziwszy zaś czas na posiłku 
+                        i załatwianiu innych koniecznych spraw, gdy już się ściemniło i ogień 
+                        wokół byka dogasał, każdy ubrał się w najpiękniejszą szatę i zasiadał na ziemi wokół popiołów towarzyszących przysiędze ofiar, nocą, 
+                        [120c] gasząc każdy płomień w świątyni – tak sądzili i byli sądzeni, 
+                        jeżeli któryś oskarżył o coś któregoś.</quote>
+                    <p>119c: ἐν στήλῃ – „na steli”; stela (ustawiona pionowo płyta, najczęściej kamienna) była popularnym medium dla słowa pisanego i służyła jako nośnik treści postanowień rad, politycznych dekretów, a także 
+                        legum sacrarum, przepisów kultowych. Orychalkowa (orychalk, niezidentyfikowany, prawdopodobnie fikcyjny metal lub stop, cf. 114e, 
+                        Hsch. ο 1223; stanowił główne bogactwo Atlantydy, a czytelnikom dialogu miał przywodzić na myśl srebro z Laurion, zbliżając tym samym Atlantydę do historycznych Aten; zob. Vidal-Naquet 1964: 441) 
+                        stela w świątyni Posejdona zapisana była tekstem prawa regulującego stosunki panujące między królami Atlantydy oraz przysięgi, którą 
+                        składali królowie, przystępując do sądzenia siebie nawzajem.</p> 
+                    <p>119d: ταύρων – „byki”; byk był drugim, obok konia, zwierzęciem 
+                        tradycyjnie przypisanym Posejdonowi (jako zwierzę ofiarne: Hom. Il. 
+                        20.403–405; Od. 1.25, 3.5–6; jako przydomek boga: Hes. Sc. 104; zob. 
+                        też McInerney 2010: 117–118; Doyen 2011: 296–299). Oboje zwierząt 
+                        związanych było z kultem Posejdona jako boga-władcy, co można 
+                        łączyć zarówno z indoeuropejską identyfikacją króla i konia, jak i byczymi cechami bliskowschodnich bóstw-suwerenów (obszerniej o tym 
+                        aspekcie kultu Posejdona: Doyen 2011). Konie zresztą również występują na Atlantydzie i mają status wyjątkowy: Kritiasz mówi o osobnych wodopojach dla koni i osobnych dla pozostałych zwierząt pociągowych (117b) oraz polach ćwiczebnych przeznaczonych dla, znów 
+                        osobno, koni i ludzi (117c). Ta prominencja koni może jednak wynikać 
+                        z roli rydwanów i kawalerii w atlantydzkiej armii (119a–b), a nie z ich 
+                        szczególnego związku z bogiem-opiekunem wyspy.
+                        Grecki odbiorca dialogu nie mógł być zaskoczony informacją o bydle pasącym się wokół świątyni. Do normalnej praktyki należało udostępnianie hodowcom bydła pastwisk należących do wielkich sanktuariów (świątynia Posejdona na podzielonej między dziesięciu królów 
+                        Atlantydzie ma z pewnością przywodzić na myśl panhelleńskie sanktuaria), co gwarantowało podaż zdolną zaspokoić potrzeby ośrodka kultu 
+                        (McInerney 2010: 146–172). Z punktu widzenia realiów stadnego życia 
+                        zwierząt kopytnych nie jest możliwe, żeby w okręgu Posejdona nie 
+                        było żadnych krów – musimy je więc potraktować jako domyślne bądź 
+                        uznać, że ich brak jest elementem fantastyczności Atlantydy</p><p>119d–e: ἐπευξάμενοι τῷ θεῷ τὸ κεχαρισμένον αὐτῷ θῦμα ἑλεῖν 
+                            – „obiecawszy bogu, że złapią mu miłą ofiarę”; słowa Kritiasza musimy uznać za wypowiedziane w trybie mowy pozornie zależnej, 
+                            a nie obiektywnej trzecioosobowej narracji. Mówienie o ofiarowanym zwierzęciu (tu określonym słowem θῦμα), że jest κεχαρισμένον, 
+                            oznacza bowiem przyjęcie punktu widzenia ofiarnika, który swoim 
+                            darem chce podtrzymać χάρις – wzajemną życzliwość między sobą 
+                            a bogiem, modyfikującą charakter istniejącej między nimi wzajemności (na temat kategorii charis zob. Parker 1998; Mikalson 2010: 14–15; 
+                            Berti 2014; Jim 2014: 60–68, komentarz do Eutyfrona 14b). Powołanie się 
+                            na wzajemnie wyświadczone κεχαρισμένα należy do topiki mówienia 
+                            o relacji ludzi i bogów (por. słowa Posejdona o Eneaszu: κεχαρισμένα 
+                            δ᾽ αἰεὶ δῶρα θεοῖσι δίδωσι, Hom. Il. 20.298–299), przy czym samo słowo może zostać zastąpione przez przymiotnik χαρίεις (por. frazę δίδοι 
+                            χαρίFετταν ἀμοιβ[άν], „daj miłą odpłatę”, na figurce brązowego hoplity, CEG 326) lub sam rzeczownik χάρις (por. frazę χάριν ἀντιδιδός, 
+                            „[składam ten dar] odpłacając charis”, IG I3 872). Większość źródeł ilustrujących rozumienie kategorii χάρις przez Greków pochodzi z inskrypcji wotywnych, wynika to jednak wyłącznie z fizycznej trwałości przedmiotów złożonych w świątyniach, na których te inskrypcje 
+                            umieszczono. Nie ulega wątpliwości, że w rozumieniu przynajmniej 
+                            niektórych Greków χάρις realizowała się poprzez wszystkie formy 
+                            kultu bogów (por. Lys. 6.33, gdzie pod κεχαρισμένα ποιεῖν kryją się 
+                            ofiary, procesje, modlitwy i wyrocznie).
+                            Nawiązanie do kategorii wzajemności opartej na charis modyfikuje 
+                            charakter rytuału spełnianego przez Atlantydów: jest on ofiarą zaprzysiężną, a w rytuałach tego typu zabijane zwierzęta rzadko zabijane 
+                            były dla jakiegoś boga („The actual killing of the animal rarely seems 
+                            to have been directed to a particular divinity”, Ekroth 2002: 252; zob. 
+                            też rozważania Casabony 1966: 215–216 oraz uwagę Burkerta 1985: 252 
+                            o predeistycznym charakterze rytuałów przysięgi). Tutaj natomiast 
+                            zabijany byk od początku określony jest jako ofiara dla Posejdona</p><p>119e: ἐθήρευον – „polowali”; chociaż ostatecznie cała opisana 
+                                czasownikiem θηρεύω procedura sprowadza się do wyłapania jednej sztuki ze stada (byka trzeba pojmać żywcem, ponieważ ma być 
+                                złożony w ofierze), użyty przez Platona czasownik „polować” niesie ze sobą nadwyżkę znaczenia, której neutralne „łapać” nie posiada. Fakt, że narrator dobiera słowo („polować”), które domaga się natychmiastowego wyjaśnienia („bez użycia żelaza”), żeby mogło 
+                                zostać zrozumiane właściwie (polowanie implikuje zabijanie), wskazuje, że nadwyżka ta jest dla niego istotna. Powód jest, jak sądzę, prosty: przedmiotem polowania są zwierzęta hodowlane, co sprawia, że 
+                                granice między dzikim i udomowionym zostają w nim czasowo zniesione. Leksykalny wybór Platona ma również pewną konsekwencję: 
+                                polowanie jest taką formą wyboru zwierzęcia na ofiarę, która chyba 
+                                niewiele ma wspólnego z rozmyślnym doborem najpiękniejszego 
+                                (zdrowego, nieułomnego fizycznie) okazu. Ścigając byki po świętym 
+                                pastwisku, atlantydzcy królowie byli, być może, zdani na całkowity 
+                                przypadek – składali w ofierze to zwierzę, które udało im się złapać. 
+                                Tymczasem w publicznych ofiarach Greków precyzyjnie określone 
+                                były nie tylko rodzaj i płeć zwierząt, ale także ich wiek i maść. Wydaje się więc, że w pierwszym etapie atlantydzkiego rytuału – doborze 
+                                ofiary – nie tylko została zawieszona różnica między zwierzęciem domowym i dzikim, ale również uległa odwróceniu zasada rozmyślnego 
+                                doboru zwierzęcia.
+                                Polowanie i ofiara nie są całkowicie rozłączne w greckiej kulturze, 
+                                ale ich punkty styczne są mocno warunkowe. Badania archeozoologiczne prowadzone na szczątkach kostnych z kilku greckich sanktuariów pokazały co prawda, że Grecy zjadali dziczyznę także podczas 
+                                świątecznych uczt (Ekroth 2007: 257–258; por. też Scullion 2013), jak 
+                                jednak zauważa Ekroth, kości jeleni czy dzików bardzo rzadko znajdywane są pośród szczątków pochodzących ze spalania mięsa bogom 
+                                (Ekroth 2007: 261–263). Tam gdzie dochodzi do złamania tej reguły, 
+                                uzasadnienia dostarcza charakter bóstwa – najczęściej jest nim bowiem 
+                                Artemida (zob. Ekroth 2007: 262–263; Scullion 2013: 245–246; Morris et 
+                                alii 2003; ThesCRA VI.368)</p><p>Co więcej, królewskie polowanie było częstym bliskowschodnim i egipskim motywem ikonograficznym,
+                        służącym budowaniu wizerunku władcy i jego ideologii, a przodek udomowionego
+                        bydła, tur (Bos primigenius), należał do zwierząt w wyjątkowy sposób
+                        powiązanych z osobą władcy (bycza ikonografia bliskowschodnia, także w jej
+                        wenatoryjnym aspekcie, została wyczerpująco omówiona przez van Dijk 2011;
+                        zob. też omówienie złotej patery phiale ze sceną polowania na byki w: Aruz,
+                        Benzel, Evans 2008: 242–243, fig. 147). Zdaniem niektórych uczonych w
+                        okresie neoasyryjskim (911–609 p.n.e.) królewskie polowanie mogło być
+                        rozumiane jako jakaś forma ofiary (zob. Black, Green 1992: 33; o polowaniu
+                        jako strategii wytwarzania, reprodukowania i legitymizowania władzy
+                        mykeńskiej arystokracji zob. Hamilakis 2003). McInerney 2010: 40, komentując
+                        wykorzystanie wizerunków byka w ikonografii królewskiej w epoce brązu,
+                        stwierdza: <quote> [i]ts wildness is therefore not restricted to the animal
+                            world of the wilderness; the bull stands at the intersection of the wild
+                            with the domesticated, hinting at the incompletness of that process [of
+                            domestication]. </quote> Platon mógł również wiedzieć o utrzymywanych
+                        przez perskich satrapów parkach z dzikimi zwierzętami, takich jak paradyż
+                        Cyrusa w Kelainai we Frygii, gdzie polował on konno na dzikie zwierzęta,
+                        kiedy chciał poćwiczyć (cf. X. An. 1.2.7). Wydaje się więc, że asocjacja
+                        królewskości i polowania mogła nie być mu całkiem obc</p><p>W Prawach 824a Platon przeciwstawił polowanie tym formom łowiectwa, w których człowiek nie wystawia się na niebezpieczeństwo 
+                                        (jak łowienie ryb i ptasznictwo), nazywając je „najszlachetniejszym 
+                                        polowaniem” (ἀρίστη ἡ θήρα; greckie słowo θήρα odnosi się do 
+                                        wszystkich form łowiectwa). W zaproponowanej legislaturze polowanie to miało cieszyć się znaczną swobodą – myśliwi mogliby polować 
+                                        gdziekolwiek i jakkolwiek zechcą. Sens owego „gdziekolwiek zechcą” 
+                                        staje się jasny, gdy czytamy o restrykcjach nałożonych na mniej szlachetne formy łowiectwa: 
+                                        <quote>τὸν ὀρνιθευτὴν δὲ ἐν ἀργοῖς μὲν καὶ ὄρεσιν μὴ κωλυέτω, ἐν 
+                                        ἐργασίμοις δὲ καὶ ἱεροῖς ἀγρίοις ἐξειργέτω ὁ προστυγχάνων, 
+                                        ἐνυγροθηρευτὴν δέ, πλὴν ἐν λιμέσιν καὶ ἱεροῖς ποταμοῖς τε καὶ 
+                                        ἕλεσι καὶ λίμναις, ἐν τοῖς ἄλλοις δὲ ἐξέστω θηρεύειν [824a].</quote>
+                                       <quote> Nie należy zakazywać ptasznikowi polowania na łąkach i w górach, 
+                                        ale jeżeli ktoś spotka go na polu uprawnym albo świętej ziemi, niech 
+                                        go wypędzi. Co się zaś tyczy rybaków, niech łowią wszędzie z wyjątkiem przystani oraz świętych rzek, mokradeł i zatoczek. </quote>Natomiast myśliwi nie tylko mogą polować na poświęconej ziemi, ale 
+                                        wręcz sami nazwani są „prawdziwie świętymi” (τοὺς ἱεροὺς ὄντως 
+                                        θηρευτὰς)</p>
+                    <p>     119e: ἔσφαττον κατὰ τῶν γραμμάτων – „podrzynali mu gardło, 
+                        tak że krew spływała na litery”; czasownik σφάζειν denotuje zadanie 
+                        ciosu dla wytoczenia krwi (Casabona 1966: 156) i był rozumiany jako 
+                        poderżnięcie gardła lub pchnięcie w tętnicę. Tutaj występuje w połączeniu z przyimkiem kierunkowym κατά wskazującym na celowe 
+                        pokierowanie strumieniem wylewającej się z byczej tętnicy krwi. Z podobną strukturą gramatyczną spotykamy się również w innych opisach 
+                        praktyk, w których krew była wykorzystywana w celach rytualnych 
+                        (ofiara dla Acheloosa: πρὸς τῶι βωμῶι i ἐς ποταμόν, LSG96.36–37; 
+                        ofiara puryfikacyjna: σφαζέτο δ᾽ ἐς γᾶν, lex sacra z Selinuntu B13, Jameson, Jordan, Kotansky 1993; ofiary zaprzysiężne: εἰς ἀσπίδα, Ar. 
+                        Lys. 188–189, X. An. 2.2.9 oraz ἐς σάκος, A. Th. 44). Z toku dalszej narracji wynika, że tryskająca z byczej tętnicy krew została zebrana do 
+                        przemilczanego naczynia (σφαγεῖον) i wykorzystana w dalszej części 
+                        ceremonii (w przywołanych przykładach ofiar zaprzysiężnych rolę takiego naczynia odgrywała tarcza). Naczynie na krew wykorzystywano również podczas ofiary typu thysia, a krew była składnikiem dań 
+                        stanowiących posiłek ofiarników (zob. Ekroth 2002: 242–251)</p>
+                    <p> Przez γράμματα należy rozumieć tekst prawa regulującego stosunki między królami Atlantydy oraz klątwy grożącej wiarołomcom, 
+                        które zostały spisane przez pierwszych królów na steli w świątyni Posejdona (119c). Prawo ma formę przysięgi zawieranej przez królów, 
+                        stąd też obecność klątwy – te dwa performatywy często występują razem (zob. Hom. Il. 3.298–301, 19.238–274; Faraone 1993). Porównanie 
+                        ofiary Atlantydów z innymi opisami ofiar towarzyszących przysiędze 
+                        pozwala lepiej zrozumieć sens dokonanego przez Platona brikolażu. 
+                        Na wstępie można zauważyć, że solenna przysięga była prawdopodobnie nieodłączna od rytualnego uboju (tak Faraone 1993: 66; zob. 
+                        też Ekroth 2002: 252): w Błagalnicach Eurypidesa Atena nakazuje Adrastosowi złożenie przysięgi, po czym dodaje: „a teraz powiem ci, gdzie 
+                        masz zabić zwierzęta” (ἐν ᾧ δὲ τέμνειν σφάγια χρή σ᾽, ἄκουέ μου, E. Supp. 1196), co oczywiście presuponuje, że w ogóle należy to zrobić. 
+                        Przyczyna tego związku nie jest jasna. Christopher Faraone próbuje go 
+                        przynajmniej zasugerować przez odwołanie do źródeł bliskowschodnich (Faraone 1993). Z treści zachowanych przysiąg, jak cytowana 
+                        przez uczonego przysięga asyryjska (ibidem: 65), wynika, że w zabijaniu zwierzęcia ujawniało się myślenie w kategoriach magii sympatycznej – pokrojone na kawałki zwierzę miało stanowić zapowiedź 
+                        losu tego, kto złamie dane zobowiązanie. Grecy znali zwyczaj przysięgania przy zaszlachtowanym zwierzęciu – Corpus Pareomiographorum
+                        przekazuje informację o „wole Molossów”, którego krojono na kawałki podczas składania przysiąg (Zen. II.83, ale już Diog. III.60 wiąże 
+                        zwyczaj z niesprecyzowanymi ἑορταῖ, świętami), dobrze poświadczony jest również zwyczaj przysięgania przy τόμια (cf. Aesch.Alex. 2.87, 
+                        Ar. Lys. 191–192), pokrojonych kawałkach zwierzęcia (tak Casabona 
+                        1966: 220–225 i Faraone 1993: 68, przyp. 37, wbrew popularnej tezie, 
+                        że τόμια oznaczają wyłącznie odcięte zwierzęce genitalia). Nie znamy jednak treści tych przysiąg, nie potrafimy więc powiedzieć, czy ich 
+                        procedura rzeczywiście motywowana była logiką magii sympatycznej (do czego ostatecznie skłania się Faraone 1993: 74). Tam gdzie jest 
+                        ona wyrażona explicite (np. Hom. Il. 3.298–301), motywuje gest wylania wina, nie poszlachtowania zwierzęcia. W opisach Homera zabite 
+                        zwierzę z pewnością nie było ani zjadane, ani ofiarowane żadnemu 
+                        bogu. W ofierze Atlantydów jest jednak inaczej: o zarżniętym byku 
+                        od początku mówi się, że jest ofiarą dla Posejdona (rozwijam ten wątek w komentarzu do θύσαντες καθαγίζοιεν πάντα τοῦ ταύρου τὰ 
+                        μέλη).
+                    </p>
+                    <p>Wydaje się, że w strukturze przysięgi homeryckiej możemy upatrywać uzasadnienia dla wykreowanego przez Platona zwyczaju oblewania krwią tekstu przyrzeczenia. W Homerowym opisie słowa przysięgi bezpośrednio poprzedzają akt zabicia zwierzęcia, co wywołuje 
+                        asocjację momentu jej wypowiedzenia z przelaniem krwi (ewentualnie to właśnie czasowa bliskość jest efektem wcześniejszej asocjacji, ale 
+                        to bez znaczenia dla naszych analiz). Przy substytucji przysięgi wypowiadanej przez spisaną asocjacja ta została przez Platona utrzymana, 
+                        co odzwierciedla zwyczaj oblewania krwią liter (samo wypowiedzeniezapisanych słów następuje później). Również w Błagalnicach krew 
+                        i spisane słowa przysięgi łączą się ze sobą, choć w odmienny sposób: 
+                        składając ją, Adrastos i Tezeusz zarzynają owce nad trypodem, a później zapisują na nim treść przyrzeczenia (E. Supp. 1201–1204). Asocjacja przez bezpośrednie następstwo w czasie (wypowiedzenie przyrzeczenia poprzedza zarżnięcie zwierzęcia) łączy się tutaj z asocjacją 
+                        przestrzenną (w miejscu, na które polała się krew, wypisuje się słowa 
+                        przysięgi). Nawet jeżeli Grecy rzeczywiście uważali, że krew ma jakiegoś rodzaju „moc”, zobowiązującą do dotrzymania przyrzeczeń (co 
+                        mogłoby sugerować wykorzystanie krwi w dalszej części tej ceremonii 
+                        oraz w innych rytuałach zaprzysiężnych), to Eurypides przekształca 
+                        ją w czynnik drugorzędny – tym, co ma zapewnić przysiędze trwałość, jest złożenie trypodu w świątyni delfickiej, μνημεῖά θ᾽ ὅρκων 
+                        μαρτύρημά θ᾽ Ἑλλάδι (E. Supp. 1204).
+                    </p> <p>119e–120a: κατὰ τοὺς αὑτῶν νόμους – „zgodnie ze swoimi obyczajami”; fraza ta przygotowuje czytelnika dialogu na informację o zwyczaju, który odbiegał będzie od jego codziennego doświadczenia</p>
+                    <p>120a: ὁτε ... θύσαντες καθαγίζοιεν πάντα τοῦ ταύρου τὰ μέλη – 
+                        „kiedy ... zabili byka w ofierze i spalili wszystkie jego kończyny”; czasownik θύειν („składać w ofierze”) został tu użyty jako totum pro parte
+                        i oznacza sam akt zabicia zwierzęcia, po którym nie nastąpiło oczekiwane spalenie kości udowych byka Posejdonowi (por. podobne użycie 
+                        u Metrodorosa, FGrH 43 F3 apud Plut. Quaest. Conv. 694a: θύουσι… 
+                        καὶ κατακόψαντες αὐτόδορον ὁλοκαυτοῦσιν; zob. też podobne wykorzystanie czasownika ἱερεύω, opisane w: Scullion 2012: 248–249). 
+                        Zamiast tego królowie spalili kończyny byka w całości, nie oddzielając mięsa od skóry, jak miało to miejsce podczas regularnej ofiary typu 
+                        thysia, kiedy spalano wyłącznie kości owinięte w tłuszcz. Opisany tu 
+                        rytuał miał więc charakter czegoś, co Scott Scullion określił mianem 
+                        moirokaustu – częściowego spalenia mięsa zwierzęcia ofiarnego (Scullion 2000: 165–166). Spalenie było najpopularniejszą formą unicestwienia denotowaną przez czasownik καθαγίζειν (zob. Casabona 1966: 
+                        202). Jednocześnie już na samym początku opisu byk został określony w sposób, który każe nam myśleć o nim jako przeznaczonym dla boga 
+                        – jest κεχαρισμένον αὐτῷ θῦμα. Nie zauważa tego Casabona, który 
+                        stanowczo odrzuca możliwość rozumienia καθαγίζειν jako składania 
+                        ofiary-dla (ibidem: 200–202). Za kontekstową uważa też interesującą 
+                        paralelę, którą odnajdujemy w Ptakach Arystofanesa: ἢν δὲ Ποσειδῶνί 
+                        τις οἶν θύῃ, νήττῃ πυροὺς καθαγίζειν, „jeżeli ktoś składa ofiarę ze 
+                        świni Posejdonowi, niech całopali kaczce pszenicę” (Ar. Av. 566).</p>
+                    <p>120a: ὑπὲρ ἑκάστου θρόμβον ἐνέβαλλον αἵματος – „wlali doń 
+                        po jednej kropli krwi na każdego z królów”; królowie wykorzystują 
+                        w tym celu krew zebraną do naczynia (σφαγεῖον). Brak wzmianki 
+                        o naczyniu oraz przemilczenie czynności zebrania tryskającej krwi ponownie wskazują, że z punktu widzenia narratora informacje te nie 
+                        były istotne. Wydaje się, że jesteśmy już w stanie podać przyczynę 
+                        tych narracyjnych luk: podobnie jak w przypadku ćwiartowania byka, 
+                        tak i tutaj Platon pomija czynności o charakterze technicznym, które 
+                        w ramach jego ofiarniczego brikolażu pozbawione są ładunku symbolicznego.
+                        Wlanie do krateru z przeznaczonym na libację winem po jednej 
+                        kropli krwi za każdego z królów może być symbolem wspólnoty 
+                        składających przysięgę (i raczej nie jest formą identyfikacji z teriomorficznym bogiem Atlantydów poprzez wypicie krwi totemicznego 
+                        zwierzęcia, jak chciał tego Rivaud 1925: 245). Jeżeli nawet jest to oryginalny pomysł Platona, to znamy jego archetyp: we wzmiankowanym 
+                        wyżej opisie ofiary towarzyszącej przysiędze w trzeciej księdze Iliady
+                        włosy owcy, odcięte w ramach rytuału rozpoczęcia (κατάρχεσθαι, 
+                        Kirk 1985: 303–304), zostały rozdane uczestnikom ceremonii (Hom. Il.
+                        3.274). Platon musiał też znać zwyczaj przekazany przez Ksenofonta – 
+                        zamoczenie broni we krwi zabitego zwierzęcia przez żołnierzy składających sobie przysięgę zaufania (X. An. 2.2.8–9) – jeżeli nie z autopsji, 
+                        to na pewno z literatury. W ten sposób przysięgę składało sobie Siedmiu przed szturmem na Teby (A. Th. 43–44), a obraz ten był na tyle 
+                        rozpoznawalny dla widowni ateńskiego teatru, że Arystofanes dokonał jego pastiszu w Lizystracie (εἰς ἀσπίδ᾽, ὥσπερ φάσ᾽ ἐν Αἰσχύλῳ 
+                        ποτέ, / μηλοσφαγούσας, 188–189). Warto zauważyć, że broń została zanurzona w krwi, którą zebrano w tarczy (X. An. 2.2.9: σφάξαντες… 
+                        εἰς ἀσπίδα; A. Th. 43: ταυροσφαγοῦντες ἐς… σάκος). 
+                        τὸ δ᾽ ἄλλ᾽ εἰς τὸ πῦρ ἔφερον – „resztę zaś zanieśli do ognia”; należy chyba rozumieć, że nie krew została wlana do ognia, ale całe naczynie z krwią zostało w nim umieszczone (por. Epich. fr. 83 Kaibel: 
+                        φέρ’ ἐγχέας εἰς τὸ σκύφος, „włóż włócznię do kubka”). W ofierze 
+                        typu thysia krew zabijanego zwierzęcia zbierano do naczynia po to, by 
+                        wykorzystać je do celów kulinarnych (zob. Ekroth 2002: 245–251). Tutaj pojawia się wyraźne wskazanie, że krwi na Atlantydzie nie spożywano. Być może jest transformacja motywu całkowitego unicestwienia 
+                        zwierzęcia zabitego na ofiarę zaprzysiężną.
+                        Jak zauważa Ekroth, ilość krwi, jaką można uzyskać z zarżniętego zwierzęcia, zależy w dużej mierze od sposobu, w jaki zostało ono 
+                        zabite. Przytoczone przez nią dane ze wschodniej Afryki mówią o 8 litrach krwi wytaczanej z bydła podczas tamtejszych ofiar. Wyniki osiągane w zachodnioeuropejskich rzeźniach są nawet o połowę wyższe 
+                        (Ekroth 2002: 249, przyp. 155)
+                    </p> <p>120a: περικαθήραντες τὴν στήλην – „oczyściwszy wprzód stelę”; 
+                        królowie dokonują oczyszczenia steli z krwi byka, ale czym? Porządek 
+                        narracji jest odwrócony względem rzeczywistego czasowego następstwa zdarzeń: „resztę zaś [scil. krwi] zanieśli do ognia, oczyściwszy 
+                        wprzód stelę”. Czy to oznacza, że krew była im potrzebna także do 
+                        puryfikacji? Zwyczaj oczyszczania krwią był dobrze znany Grekom (cf. 
+                        Parker 1996: 371–373 z przypisami; uczony praktyki Atlantydów pomija; zob. też Ekroth 2002: 251 i 256 – oczyszczenie rodziny zmarłego; Burkert 1985: 80–82), chociaż w tym przypadku stela byłaby oczyszczona 
+                        po tym, jak oblała ją ta sama krew – to cokolwiek niespójne. Wydaje się 
+                        więc, że oczyszczenie mogło być w tym przypadku dokonane wodą, 
+                        a fakt, że umieszczenie krwi w ogniu musi nastąpić po oczyszczeniu 
+                        steli, a nie wcześniej, wynika z logiki procedury puryfikacyjnej: unicestwienie katharmatów (pozostałości po rytuale) stanowi jej symboliczne zamknięcie, musi więc dokonać się jako ostatnie (por. Hp. Morb. 
+                        Sacr. 1.12 – τὰ τῶν καθαρμῶν wynoszone są w góry lub wrzucane do 
+                        morza; Hom. Il. 1.314 – λύματα wlewane są do morza)</p> <p>120b: ἀναθεὶς – „złożywszy”; czasownik ἀνατίθημι ma w tym 
+                            kontekście zabarwienie techniczne i wskazuje na wotywny charakter gestu królów (por. figurę etymologiczną ἀνάθημα ἀνατιθέναι 
+                            w Hdt. 1.53, 2.182). Złożenie naczynia (φιάλη) w świątyni pełni tutaj 
+                            taką samą funkcję, jaką miało złożenie trypodu w Delfach przez bohaterów Błagalnic (patrz wyżej) – ma zagwarantować pamięć o złożonej 
+                            przysiędze, a tym samym jej dotrzymanie. Jeżeli więc u początków 
+                            praktyki składania przysiąg z towarzyszeniem uboju zwierząt stało 
+                            jakiegoś rodzaju przekonanie o zobowiązującej mocy przelanej krwi 
+                            (za czym może przemawiać fakt, że u Homera ubój ten był rytualny, 
+                            ale nie był „ofiarą-dla”), to Platon i Eurypides chyba już jej nie dostrzegali; krew i przysięga to dla nich asocjacja czasowa i przestrzenna, nie konceptualna.
+                            τὴν φιάλην – „czarkę”; płytka czara phiale (łac. patera) służyła jako 
+                            naczynie do picia wody lub wina, a jej wykorzystanie w ofierze miało 
+                            związek z rytem libacji (ThesCRA V: 209). Naczynie o podobnym kształcie wykorzystywane było również na Bliskim Wschodzie. Widzimy je 
+                            na przykład w ręce asyryjskiego króla Aszurnasipala II, wnoszącego libację nad ciałem zabitego byka (van Dijk 2011: 118, fig. 8).
+                            τὸ δεῖπνον – „posiłek”; prawdopodobnie składały się nań między 
+                            innymi mięso i podroby z byka. Jak zauważył Scullion (2000), podczas 
+                            ofiar typu moirokaust obowiązywał niekiedy nakaz zjedzenia mięsa 
+                            na miejscu.
+                            τἀναγκαῖα – „inne konieczne sprawy”; trudno nam powiedzieć, co 
+                            to dokładnie było, chociaż wydaje się, że Grecy nie mieliby problemu 
+                            z dokonaniem poprawnej koniektury. Wyobrażam sobie, że chodzi 
+                            o usunięcie resztek rzezi (krwi, byczych ekskrementów) i trywialne 
+                            „sprzątnięcie po obiedzie”. Przy ołtarzu nie manipulowano – resztki 
+                            byka jeszcze się na nim dopalały.
+                            
+                        </p>
+                </div>
+               
+            </div>
+        </body>
+    </text>
+</TEI>

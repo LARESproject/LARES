@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Respublica (Πολιτεία, Repubblica)</title>
+                <title xml:lang="en">Respublica (Πολιτεία, Republic)</title>
+                <title xml:lang="pl">Respublica (Πολιτεία, Państwo)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">plato_10_respublica</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Respublica (Πολιτεία, Państwo)</title>, in Przemysław Biernat, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Corpus Platonicum. Corpus Hippocraticum</title>, Warszawa 2017, pp. 127-147</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded in XML</change>
+                <change when="2017" who="Przemysław Biernat">written contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!--xml:lang="pl"-->
+                <div type="textpart" n="intro">
+                    <p>Platon pisał Państwo prawdopodobnie w latach 380–370 p.n.e. i, być 
+                        może, publikował je sukcesywnie (zob. Gell. 14.3.3). Pierwsza księ-ga, nosząca wyraźny charakter wcześniejszych sokratycznych dia-logów Platona, poświęcona jest w całości próbie zdefiniowania, 
+                        czym jest sprawiedliwość. Kolejne księgi stanowią natomiast opis 
+                        sprawiedliwego miasta – Kallipolis. Ta nieco heterogeniczna budo-wa dzieła skłoniła niektórych uczonych do uznania, że pierwsza 
+                        księga stanowiła pierwotnie osobny dialog, inkorporowany później 
+                        do Państwa jako swoisty prolog (zob. Vegetti 1998a: 15–18; Guthrie 
+                        1975: 437).
+                        Chociaż przedmiotem dialogu jest projekt doskonałego miasta, 
+                        jego idealistyczny (paradygmatyczny, jak powie o nim sam Platon) 
+                        charakter (por. 368d–369a; Guthrie 1975: 483–486) przekłada się na 
+                        relatywnie niewielką liczbę wzmianek o ofierze. Większość z nich 
+                        znajduje się w pierwszych dwóch księgach dialogu: w rozmowie So-kratesa z Kefalosem oraz w wypowiedzi Adejmantosa, który kryty-kuje cyniczny stosunek ludzi do ofiar, jaki rzekomo promują poeci 
+                        i rytualni specjaliści. Państwo jest również głównym pozaepigraficz-nym źródłem do zrekonstruowania przebiegu jednego z ateńskich 
+                        świąt – Bendidejów.
+                        Miejscem, w którym rozgrywa się dialog, jest dom Kefalosa poło-żony w Pireusie, głównym porcie Aten. Nie sposób ustalić daty dra-matycznej dialogu tak, by nie popaść w anachronizm. Najczęściej ty-powane są lata 411, 425 i 422–21 p.n.e. (Guthrie 1975: 437–438; Vegetti 
+                        1998a: 22).   </p><p>Przekłady polskie: Witwicki (1958).
+                            Tekst na podstawie wydania: Burnet (1903).
+                        </p>
+                </div>
+                <div type="textpart" n="Respublica_327a_i_328a">
+                    <head>Państwo 327a i 328a:
+                    </head>
+                    <p>Scena otwierająca dialog stanowi główne pozaepigraficzne źródło 
+                        do ustalenia chronologii wprowadzenia i rozwoju kultu trackiej bo-gini Bendis (Bendydy) w Atenach. Sokrates jest bardziej widzem niż 
+                        uczestnikiem tego wydarzenia, dlatego narracja Platona ogranicza się 
+                        do wyłapania tych elementów święta, które tworzyły swoisty spek-takl – dwóch uroczystych procesji i konnego wyścigu z pochodniami. 
+                        Sama ofiara jest przemilczana (domyślamy się jedynie, że zwierzęta 
+                        musiały być prowadzone we wzmiankowanych pompai, pochodach, 
+                        chociaż pewnie nie przez całą – dość długą – drogę, zob. Parker 2005: 
+                        179, przyp. 6), ale dzięki świadectwom epigraficznym jesteśmy w sta-nie uzupełnić opis święta o ten brakujący element. Mówi Sokrates:</p> 
+                    
+                    <quote>[327a] κατέβην χθὲς εἰς Πειραιᾶ μετὰ Γλαύκωνος τοῦ Ἀρίστωνος 
+                        προσευξόμενός τε τῇ θεῷ καὶ ἅμα τὴν ἑορτὴν βουλόμενος 
+                        θεάσασθαι τίνα τρόπον ποιήσουσιν ἅτε νῦν πρῶτον ἄγοντες. 
+                        καλὴ μὲν οὖν μοι καὶ ἡ τῶν ἐπιχωρίων πομπὴ ἔδοξεν εἶναι, οὐ 
+                        μέντοι ἧττον ἐφαίνετο πρέπειν ἣν οἱ Θρᾷκες ἔπεμπον. ... [328a] 
+                        καὶ ὁ Ἀδείμαντος, ἆρά γε, ἦ δ᾽ ὅς, οὐδ᾽ ἴστε ὅτι λαμπὰς ἔσται 
+                        πρὸς ἑσπέραν ἀφ᾽ ἵππων τῇ θεῷ; ἀφ᾽ ἵππων; ἦν δ᾽ ἐγώ· καινόν 
+                        γε τοῦτο. λαμπάδια ἔχοντες διαδώσουσιν ἀλλήλοις ἁμιλλώμενοι 
+                        τοῖς ἵπποις; ἢ πῶς λέγεις; οὕτως, ἔφη ὁ Πολέμαρχος. καὶ πρός γε 
+                        παννυχίδα ποιήσουσιν, ἣν ἄξιον θεάσασθαι.</quote>
+                    <quote>[327a] Zszedłem wczoraj do Pireusu wspólnie z Glaukonem, synem 
+                        Arystona, żeby pomodlić się do bogini, a przy okazji dlatego, że chcia-łem zobaczyć święto – w jaki sposób będzie po raz pierwszy organi-zowane. Procesja mieszkańców bardzo mi się podobała, ale ta, którą 
+                        wystawili Trakowie, była nie mniej godna podziwu. [W drodze po-wrotnej do miasta Sokrates i Glaukon zostają zatrzymani przez Pole-marcha, Adejmantosa i innych znajomych, którzy brali udział w pro-cesji]. [328a] Wtedy Adejmantos zapytał, „To nie wiesz, że wieczorem 
+                        będzie wyścig konny z pochodniami ku czci bogini?” „Konny? – zdzi-wiłem się. – To coś nowego! I będą sobie te pochodnie przekazywać 
+                        z końskich grzbietów czy jak?” „Tak, właśnie tak – odpowiedział Po-lemarch – i szykują również nocne obrzędy, które warto zobaczyć”.
+                    </quote>
+                    <p>Bendideja, bo tak nazywało się państwowe święto trackiej bogini 
+                        Bendis, w którym wziął udział Sokrates (por. 354a), obchodzono mię-dzy 19. a 20. dniem miesiąca Thargelion (Ferguson 1949; Parker 1996: 
+                        170–175; Planeaux 2000–2001; Janouchová 2013; Sakurai 2014). Pierw-szy publiczny ołtarz bogini wzniesiono w ateńskim Pireusie praw-dopodobnie przed 429 r. p.n.e. (Campese, Gastaldi 1998: 118 błędnie 
+                        sądzą, że chodzi o świątynię), z którego pochodzi najwcześniejsza in-skrypcja wskazująca na jego istnienie (IG I³ 383 w. 143; Ferguson 1949: 
+                        133; fakt, że Bendis dzieliła ołtarz z Adrasteją, został przekonująco 
+                        objaśniony przez Sakurai 2014: 206–208; najwcześniejsze świadectwa 
+                        ikonograficzne: Parker 1996: 172; Janouchová 2013: 98; Wijma 2014: 
+                        133–134). Świadectwo Platona sugeruje, że święto zostało ustanowio-ne dopiero po jakimś czasie od ustanowienia miejsca kultu bogini 
+                        w Pireusie (Parker 1996: 172 i Wijma 2014: 140 mówią o rozbudowie 
+                        kultu, Sakurai 2014 zwraca jednak uwagę, że możemy mieć do czy-nienia z dwoma osobnymi kultami). Pierwsza epigraficzna wzmianka 
+                        o nocnych obrzędach (pannychis) i ofierze dla bogini pochodzi z dato-wanej na 413 r. p.n.e. inskrypcji IG I³ 136 (na temat historii datacji tej 
+                        inskrypcji zob. Sakurai 2014: 204–205), a ponieważ akcja dramatyczna 
+                        Państwa tradycyjnie umieszczana jest w 411 r. p.n.e., 413 r. typowany 
+                        jest przez niektórych uczonych jako nieodległe ante quem dla ustano-wienia święta o takim przebiegu, jaki opisuje Platon (contra: Planeaux 
+                        2000–2001). Świadectwo Platona uzupełnia pochodząca z połowy 
+                        III w. p.n.e. inskrypcja IG II2
+                        1283, dotycząca wybudowania świątyni 
+                        Bendis w samych Atenach (ἐν τῶι ἄστει). Znajdują się na niej infor-macje odnoszące się do dotychczasowego kultu bogini i jego historii 
+                        – w tym, że procesja Traków, o której wspomina Platon, wyruszała do 
+                        Pireusu spod paleniska w Prytanejonie (ἀπὸ τῆς ἑστίας τῆς ἐκ τοῦ 
+                        πρυτανείου, w. 7) </p> <p>Pewne wyobrażenie o ofierze spełnianej podczas Bendidejów daje 
+                            inskrypcja znana jako dermatikon (IG II² 1496, w. 86; zob. komentarz do 
+                            inskrypcji w Rosivach 1994: 48–64), zawiera ona informacje o docho-dach ze sprzedaży skór zwierząt (prawdopodobnie wyłącznie bydła, 
+                            Rosivach 1994: 58) składanych w ofierze podczas kilkunastu ateńskich 
+                            świąt. Dzięki niej wiemy, że w drugiej połowie IV w. p.n.e. dochody ze sprzedaży skór zwierząt złożonych w ofierze podczas święta wy-niosły 457 drachm. Sugerując się wysokością liczby, Planeaux wysunął 
+                            pospieszny wniosek, że w kulcie Bendis mieliśmy do czynienia z do-słowną hekatombą, ofiarą ze stu zwierząt (2000–2001: 176; podobnie 
+                            Parker, 1996: 173: „at least 100 head of cattle slaughtered”). Ponieważ 
+                            inskrypcja nie podaje wartości pojedynczej skóry (która na pewno pod-legała wahaniom w czasie), a jedynie całkowitą wartość sprzedanych 
+                            skór, szacunki, ile zwierząt zabito podczas danego święta, muszą być 
+                            obarczone dużym marginesem błędu. Margines ten jest tym większy, 
+                            że jednym z możliwych punktów wyjścia dla oszacowań jest cena nie-wyprawionej skóry świni na początku czwartego stulecia (3 drachmy, 
+                            IG II² 1356.5–6) i skóry wyprawionej w latach dwudziestych tegoż (od 
+                            2,5, IG II² 1673.47, do 4,5 drachmy, IG II² 1672.104). Na tej podstawie 
+                            Rosivach zaproponował, by górną granicę ceny niewyprawionej skóry 
+                            bydlęcej ustalić na 10 drachm, dolną – na 4 drachmy (Rosivach 1994: 
+                            62–63; por. starsze oszacowania w Ferguson 1944: 101). Jeżeli te sza-cunki są adekwatne, podczas święta Bendis istotnie składano ofiarę 
+                            z wielu sztuk bydła (co najmniej 46), ale rzadko była to hekatomba 
+                            w sensie etymologicznym. Mięso zwierząt rozdzielano następnie mię-dzy uczestników ceremonii (Ferguson 1944: 101; Rosivach 1994: 55).
+                            Sprowadzenie bogini Bendis do Aten jest powszechnie wiązane 
+                            z politycznym sojuszem między Ateńczykami a trackim królem Sital-kesem (Ferguson 1944: 98; Nilsson 1951: 45–48; Garland 1992: 111–114; 
+                            Planeaux 2000–2001: 179–180; Janouchová 2013: 96; Sakurai, 2014: 
+                            208–210, zwraca uwagę na konieczność odbudowy floty po klęsce sy-cylijskiej w 413 r. p.n.e., co pociągało za sobą zwiększone zapotrzebo-wanie na drewno sprowadzane z Macedonii i Tracji; sceptycznie do 
+                            wyjaśnienia politycznego odnosi się Parker 1996: 173–5), a jej kult miał 
+                            w pierwszej kolejności zaspokoić potrzeby trackich metojków (zob. 
+                            Wijma 2014: 126–133). Druga możliwa motywacja, na którą wskazują 
+                            uczeni, to chęć odwrócenia zarazy, która wybuchła w Atenach w 430 r. 
+                            p.n.e. (Ferguson 1949: 157–162). Jak jednak zauważył Nilsson, Bendis 
+                            nie była boginią-uzdrowicielką (Nilsson 1951: 46–47, przyp. 20; Par-ker 1996: 173). Do tej hipotezy powrócił ostatnio Planeaux (2000–2001), 
+                            zauważając, że Bendis nie przybyła do Aten sama. Towarzyszył jejDeloptes, heros (ten tytuł pojawia się na inskrypcjach z Samos, gdzie 
+                            również czczono jego i Bendis, zob. Samos 207, IG XII,6 2:592), przed-stawiany w modelu ikonograficznym Asklepiosa (Ferguson 1944: 102; 
+                            Planeaux 2000–2001: 181). Argument Nilssona może być nietrafny 
+                            także z innego powodu – to prawda, że tracka Bendis nie była bogi-nią-uzdrowicielką, ale Ateńczycy postrzegali ją przez pryzmat swojej 
+                            jońskiej Artemidy – bogini zsyłającej nagłą śmierć, której rytuały miały 
+                            często charakter przebłagalny (Burkert 1985: 151; Faraone 2003: 48).
+                            O ile początkowo bogini dzieliła miejsce swego kultu z Adrasteją (IG
+                            I³ 383; por. Wijma 2014: 136), o tyle później wzniesiono jej w Pireusie 
+                            samodzielną świątynię, Bendidejon (jako pierwszy wzmiankuje go Kse-nofont, HG 2.4.11 – opisane wydarzenia dzieją się w 404 r. p.n.e.)</p>
+                </div>
+                <div type="textpart" n="Respublica_328b–c">
+                    <head>Państwo 328b–c:</head>
+                    <p>Sokrates korzysta z zaproszenia Polemarcha i trafia do domu jego 
+                        ojca, Kefalosa (na temat tej postaci i jej roli w dialogu zob. Steinber-ger 1996, tam dalsza bibliografia), bogatego metojka rodem z Syra-kuz, który osiedlił się w Atenach około 440 r. p.n.e. (Jowett, Campbell 
+                        1894: 6). Poniższy cytat pochodzi z opisu Kefalosa, którego Sokrates 
+                        widział wówczas po raz pierwszy od wielu lat. Informacja ta stanowi 
+                        pośrednią charakterystykę Kefalosa: wydaje się, że Platon dodatkowo 
+                        podkreśla w ten sposób prywatny, wycofany z udziału w sprawach 
+                        publicznych styl życia metojka Kefalosa, który znalazł odzwierciedle-nie również w jego religijności.</p>
+                    <quote>καὶ μάλα πρεσβύτης μοι ἔδοξεν εἶναι· διὰ χρόνου γὰρ καὶ [328c] 
+                        ἑωράκη αὐτόν. καθῆστο δὲ ἐστεφανωμένος ἐπί τινος προσκεφαλαίου 
+                        τε καὶ δίφρου: τεθυκὼς γὰρ ἐτύγχανεν ἐν τῇ αὐλῇ. ἐκαθεζόμεθα 
+                        οὖν παρ᾽ αὐτόν: ἔκειντο γὰρ δίφροι τινὲς αὐτόθι κύκλῳ.</quote>
+                    <quote>Kefalos] wydał mi się bardzo stary, bo i nie widziałem [328c] go już 
+                        dawno. Siedział na krześle z podgłówkiem z wieńcem na głowie – 
+                        składał akurat ofiarę na dziedzińcu. Usiedliśmy więc przy nim, na 
+                        stołkach, które stały wokół.
+                    </quote>
+                    <p>328c: ἐστεφανωμένος – „z wieńcem na głowie”; wieniec (stepha-nos) był znakiem rozpoznawczym ofiarnika (por. ἐστεφανωμένος ὡς 
+                        θύσων, X. An. 7.1.40, Ar. Pl. 820; van Straten 1995: 161).
+                        τεθυκὼς … ἐν τῇ αὐλῇ – „składał… ofiarę na dziedzińcu”; goście 
+                        zastają Kefalosa odpoczywającego w trakcie składania ofiary, do któ-rej zresztą powróci, opuszczając scenę dialogu. O ofiarach prywatnych 
+                        wiemy znacznie mniej niż o ofiarach publicznych (ich najstarszym 
+                        przykładem jest ofiara Eumajosa w Odysei 14.414–456. Ich najczęstszy-mi adresatami byli zapewne bogowie związani z gospodarstwem do-mowym i rodziną: Hestia, Zeus Ktesios, Zeus Herkejos, Apollo Agu-jeus, Hekate (Parker 2005: 15–20). W Plutosie (819–23) Arystofanes dla 
+                        komicznego efektu każe swoim bohaterom składać kosztowną ofiarę 
+                        z trzech zwierząt w zatłoczonym wnętrzu domostwa głównego boha-tera. W normalnych warunkach zabijanymi zwierzętami mogły być 
+                        świnie, które wolno było hodować przy domu w mieście (por. Ar. V. 
+                        844–846). Richard Parker przypuszczał, że Kefalos składał swoją ofiarę 
+                        z okazji Bendidejów, tyle że prywatnie (Parker 2005: 171).</p>
+                    
+                </div>
+                <div type="textpart" n="Respublica_331a–b">
+                    <head>Państwo 331a–b</head>
+                    <p>W rozmowie z Sokratesem Kefalos przyznaje, że na starość zaczął 
+                        obawiać się tego, co po śmierci, i stał się bardzo religijny. Sokrates pyta 
+                        go również, jaki największy pożytek przyniosło mu posiadanie mająt-ku. Komentowany fragment pochodzi z odpowiedzi Kefalosa.</p>
+                    <quote>πρὸς δὴ τοῦτ᾽ ἔγωγε τίθημι τὴν τῶν χρημάτων κτῆσιν πλείστου 
+                        ἀξίαν εἶναι, οὔ [331b] τι παντὶ ἀνδρὶ ἀλλὰ τῷ ἐπιεικεῖ καὶ κοσμίῳ. 
+                        τὸ γὰρ μηδὲ ἄκοντά τινα ἐξαπατῆσαι ἢ ψεύσασθαι, μηδ᾽ αὖ 
+                        ὀφείλοντα ἢ θεῷ θυσίας τινὰς ἢ ἀνθρώπῳ χρήματα ἔπειτα ἐκεῖσε 
+                        ἀπιέναι δεδιότα, μέγα μέρος εἰς τοῦτο ἡ τῶν χρημάτων κτῆσις 
+                        συμβάλλεται. ἔχει δὲ καὶ ἄλλας χρείας πολλάς· ἀλλὰ ἕν γε ἀνθ᾽ 
+                        ἑνὸς οὐκ ἐλάχιστον ἔγωγε θείην ἂν εἰς τοῦτο ἀνδρὶ νοῦν ἔχοντι, ὦ 
+                        Σώκρατες, πλοῦτον χρησιμώτατον εἶναι.</quote>
+                    <quote>Dlatego też uważam, że posiadanie pieniędzy jest bardzo ważne, tyle 
+                        [331b] tylko, że nie dla każdego, a jedynie dla człowieka, który ma poukładane w głowie. Nie oszukiwać i nie kłamać – nawet nieświa-domie! – ani nie być dłużnym bogu ofiar, a ludziom pieniędzy, żeby 
+                        nie iść ze strachem na tamten świat – oto do czego pieniążki bardzo 
+                        się przydają. Mają też oczywiście wiele innych zastosowań, ale w ze-stawieniu z innymi to właśnie musi się wydać najkorzystniejsze czło-wiekowi rozumnemu.</quote>
+                    <p>331b: μηδ’… ὀφείλοντα θεῷ θυσίας – „nie być dłużnym bogu 
+                        ofiar”; Kefalos może mieć oczywiście na myśli obowiązek składania 
+                        ofiar, jaki nakłada na nas tradycja (ofiary składane przez gene, demy, 
+                        fratrie), przy czym jako metojk nie miał równie wielu okazji, by w nich 
+                        uczestniczyć, co rodowity Ateńczyk. Metojkowie byli początkowo 
+                        włączeni jedynie w obchody Panatenajów i dopiero z czasem dopusz-czono ich do udziału w kolejnych świętach państwowych (zob. Wij-ma 2014). Ich udział w ofiarach demowych jest nieco bardziej proble-matyczny: poświadcza go jedynie szczątkowo zachowany kalendarz 
+                        demu Skambonidai (IG I³ 244 C 4–10), gdzie zamieszkujący go metoj-kowie otrzymywali porcję mięsa z ofiary dla herosa Leosa (zob. ko-mentarz Wijma 2014: 104–109). Dlatego bardziej rozsądne wydaje się 
+                        przyjąć, że Kefalos ma na myśli religię w jej prywatnym wymiarze.
+                        „Bycie winnym” bogu ofiary w kontekście religii osobistej (personal 
+                        religion, zob. Kindt 2015) należy wiązać w pierwszej kolejności z tym, 
+                        co w ramach modelu Platvoeta-van Baala nazywa się high-intensity 
+                        communication (van Baal 1976), a czego najbardziej powszechną reali-zacją był zwyczaj składania ofiar wotywnych, a więc realizacji zobo-wiązania, które człowiek nakłada na siebie w nadziei na interwencję 
+                        ze strony bóstwa (jak pewien mężczyzna, który obiecał Asklepiosowi 
+                        koguta, jeżeli będzie zdrowy przez cały rok, zob. Artem. 5.9).
+                        W życiu codziennym, w którym, by użyć sformułowania van Baala, 
+                        „sprawy idą gładko”, człowiek ogranicza się do prostych rytów i prze-strzegania tradycyjnych ofiar, a więc czegoś, co w ramach modelu van 
+                        Baala nosi miano low-intensity communication, a co służy podtrzymaniu 
+                        relacji życzliwej wzajemności między ludźmi a bogami. Również w ra-mach tej formy komunikacji możemy mówić o zobowiązaniu („byciu 
+                        winnym komuś coś”), choć jego natura jest znacznie bardziej ogólna: 
+                        o bogach zwyczajnie trzeba pamiętać, inaczej mogą odwrócić od nas swoje życzliwe oblicze. Przekonał się o tym Ksenofont, kiedy utknął 
+                        w Lampsakos bez grosza przy psyche. Towarzyszący mu przy składa-niu ofiary wieszczek domyślił się, że ten musiał zaniedbać ofiar dla Ze-usa Mejlichiosa – i rzeczywiście, Ksenofont przyznał, że odkąd opuścił 
+                        Ateny, nie składał ich temu bogu (X. An. 7.8.1–6).
+                        Chociaż postawa Kefalosa nie jest ani otwarcie cyniczna, ani pro-wokacyjna (Kefalos jedynie zauważa, że bogaci ludzie mogą łatwiej 
+                        pozwolić sobie na uregulowanie zobowiązań), to implikuje istnienie 
+                        korelacji między bogactwem a byciem miłym bogom (czy sprawiedli-wością w ogóle), która będzie powodem moralnego niepokoju Glau-kona i Adejmantosa w kolejnej księdze</p>
+                </div>
+                <div type="textpart" n="Respublica_362b–c">
+                    <head>Państwo 362b–c</head>
+                    <p>Po wyjściu Kefalosa Glaukon i Adejmantos domagają się od Sokra-tesa przedstawienia argumentów, że warto być sprawiedliwym dla 
+                        samej sprawiedliwości (por. 367b–e). Jako pierwszy odzywa się młod-szy, Glaukon, i przeciwstawia dwie skrajne postawy: sprawiedliwego, 
+                        który nie dba, by go za takiego uważano, ma więc reputację łotra, oraz 
+                        niesprawiedliwego, który bogaci się i zdobywa przyjaciół nie tylko 
+                        wśród ludzi, ale również wśród bogów, ponieważ jest w stanie ofiaro-wać im więcej i lepiej</p>
+                    <quote>[τὸν ἄδικον] πλεονεκτοῦντα δὲ πλουτεῖν καὶ [362c] τούς τε 
+                        φίλους εὖ ποιεῖν καὶ τοὺς ἐχθροὺς βλάπτειν, καὶ θεοῖς θυσίας καὶ 
+                        ἀναθήματα ἱκανῶς καὶ μεγαλοπρεπῶς θύειν τε καὶ ἀνατιθέναι, 
+                        καὶ θεραπεύειν τοῦ δικαίου πολὺ ἄμεινον τοὺς θεοὺς καὶ τῶν 
+                        ἀνθρώπων οὓς ἂν βούληται, ὥστε καὶ θεοφιλέστερον αὐτὸν εἶναι 
+                        μᾶλλον προσήκειν ἐκ τῶν εἰκότων ἢ τὸν δίκαιον.</quote>
+                    <quote>[Niesprawiedliwy], mając więcej, staje się bogaczem i [362c] może so-bie pozyskać przyjaciół i krzywdzić swoich wrogów, a bogom skła-dać ofiary oraz dary wotywne należycie i z szerokim gestem, a tym 
+                        samym znacznie lepiej od człowieka sprawiedliwego dbać o tych 
+                        bogów i ludzi, których chce. Należy się więc spodziewać, że będzie 
+                        bogom milszy od człowieka sprawiedliwego.
+                    </quote>
+                    <p>Glaukon obraca religię przeciwko niej samej, ale musi przy tym 
+                        przymknąć oko na fakt, że ofiara nie wymusza automatyzmu odpłaty, 
+                        a wśród powodów, dla których bogowie mogą odrzucić ofiarę, są rów-nież powody natury moralnej (zob. Naiden 2013: 131 i nn.; Petrovic, 
+                        Petrovic 2016). Platon w Prawach spróbuje ocalić tradycyjne formy re-ligijności, dopisując im archaios logos głoszący, że τῷ ὁμοίῳ τὸ ὅμοιον 
+                        φίλον („podobnemu miłe podobne”, Lg. 716c). Tym samym, rozwija 
+                        dalej Platon, „od złego człowieka ani człowiek dobry, ani bóg nie może 
+                        niczego otrzymać w sposób właściwy. Bezbożni więc na próżno tru-dzą się o bogów, podczas gdy trud pobożnych zawsze przynosi owo-ce” (παρὰ δὲ μιαροῦ δῶρα οὔτε ἄνδρ᾽ ἀγαθὸν οὔτε θεὸν ἔστιν ποτὲ 
+                        τό γε ὀρθὸν δέχεσθαι: μάτην οὖν περὶ θεοὺς ὁ πολύς ἐστι πόνος 
+                        τοῖς ἀνοσίοις, τοῖσιν δὲ ὁσίοις ἐγκαιρότατος ἅπασιν, 716e–171a).</p>
+                </div>
+                <div type="textpart" n="Respublica_364b–365a">
+                    <head>Państwo 364b–365a</head>
+                    <p>Bezpośrednio po Glaukonie głos zabiera Adejmantos, mówiąc, że 
+                        ludzie co prawda zalecają sobie nawzajem bycie sprawiedliwym, ale 
+                        nie ze względu na sprawiedliwość, ale ze względu na opinię sprawie-dliwego. Następnie zaś oskarża twórców literatury, że zniechęcają do 
+                        sprawiedliwości, przedstawiając ją jako rzecz trudną, a o bogach pi-szą, że nie wynagradzali dobrych ludzi za życia. Wreszcie Adejmantos 
+                        przystępuje do ataku na wędrownych rytualnych specjalistów, którzy 
+                        za pieniądze oczyszczają ludzi z przewin, obiecując lepsze życie za-równo na ziemi, jak i w zaświatach. Aluzja do nieobecnego już Kefalo-sa, który na starość zaczął obawiać się konsekwencji swojego dotych-czasowego życia, jest tutaj wyraźna (por. też dwie drogi życia z 328e 
+                        i 364d).
+                        Wielu uczonych, zwłaszcza historyków filozofii zajmujących się 
+                        kwestiami teologicznymi w pismach Platona, jest przekonanych, że in-telektualiści tamtej doby, atakując wiarę w przekupność bogów, kryty-kowali tradycyjne wierzenia (tak Vlastos 1991: 174–178; por. McPherran 
+                        2002; krytycznie do ich interpretacji odniosła się Lännström 2011). 
+                        Wydaje się jednak, że Platon mówi nam w tym miejscu coś zgoła od-miennego – aby przekonać swoich klientów, że oferują skuteczną po-moc, rytualni specjaliści muszą podpierać się wyrwanymi z kontekstu cytatami z Homera. Wypowiedź Adejmantosa, obok hippokratejskie-go traktatu De morbo sacro, stanowi ważne źródło do poznania metod 
+                        działania wędrownych rytualnych specjalistów. Nie sposób oczywi-ście powiedzieć, na ile źródła tego rodzaju są adekwatne, a w jakim 
+                        stopniu przekazują obraz celowo zaczerniony lub zradykalizowany. 
+                        Rytualni specjaliści Adejmantosa są bardzo konsekwentni w odcho-dzeniu od tradycyjnego sposobu mówienia o bogach, dlatego wydaje 
+                        się, że do pewnego stopnia stanowią jednak kreację Platona powołaną 
+                        w celach moralizatorskich.</p>
+                    <quote>ἀγύρται δὲ καὶ μάντεις ἐπὶ πλουσίων θύρας ἰόντες πείθουσιν 
+                        ὡς ἔστι παρὰ σφίσι δύναμις ἐκ θεῶν ποριζομένη θυσίαις τε καὶ 
+                        ἐπῳδαῖς, εἴτε τι [364c] ἀδίκημά του γέγονεν αὐτοῦ ἢ προγόνων, 
+                        ἀκεῖσθαι μεθ᾽ ἡδονῶν τε καὶ ἑορτῶν, ἐάν τέ τινα ἐχθρὸν πημῆναι 
+                        ἐθέλῃ, μετὰ σμικρῶν δαπανῶν ὁμοίως δίκαιον ἀδίκῳ βλάψει 
+                        ἐπαγωγαῖς τισιν καὶ καταδέσμοις, τοὺς θεούς, ὥς φασιν, πείθοντές 
+                        σφισιν ὑπηρετεῖν. τούτοις δὲ πᾶσιν τοῖς λόγοις μάρτυρας ποιητὰς 
+                        ἐπάγονται οἱ μὲν κακίας πέρι, εὐπετείας διδόντες, ὡς „τὴν μὲν 
+                        κακότητα καὶ ἰλαδὸν ἔστιν ἑλέσθαι / [364d] ῥηϊδίως· λείη μὲν ὁδός, 
+                        μάλα δ᾽ ἐγγύθι ναίει· / τῆς δ᾽ ἀρετῆς ἱδρῶτα θεοὶ προπάροιθεν 
+                        ἔθηκαν”. καί τινα ὁδὸν μακράν τε καὶ τραχεῖαν καὶ ἀνάντη: 
+                        οἱ δὲ τῆς τῶν θεῶν ὑπ᾽ ἀνθρώπων παραγωγῆς τὸν Ὅμηρον 
+                        μαρτύρονται, ὅτι καὶ ἐκεῖνος εἶπεν „λιστοὶ δέ τε καὶ θεοὶ αὐτοί, / καὶ 
+                        τοὺς μὲν θυσίαισι καὶ εὐχωλαῖς ἀγαναῖσιν / [364e] λοιβῇ τε κνίσῃ 
+                        τε παρατρωπῶσ᾽ ἄνθρωποι / λισσόμενοι, ὅτε κέν τις ὑπερβήῃ καὶ 
+                        ἁμάρτῃ.” βίβλων δὲ ὅμαδον παρέχονται Μουσαίου καὶ Ὀρφέως, 
+                        Σελήνης τε καὶ Μουσῶν ἐκγόνων, ὥς φασι, καθ᾽ ἃς θυηπολοῦσιν, 
+                        πείθοντες οὐ μόνον ἰδιώτας ἀλλὰ καὶ πόλεις, ὡς ἄρα λύσεις τε καὶ 
+                        καθαρμοὶ ἀδικημάτων διὰ θυσιῶν καὶ [365a] παιδιᾶς ἡδονῶν εἰσι 
+                        μὲν ἔτι ζῶσιν, εἰσὶ δὲ καὶ τελευτήσασιν, ἃς δὴ τελετὰς καλοῦσιν, αἳ 
+                        τῶν ἐκεῖ κακῶν ἀπολύουσιν ἡμᾶς, μὴ θύσαντας δὲ δεινὰ περιμένει.</quote>
+                    <quote>Do tego jeszcze wędrowni kapłani i wieszczkowie pukają do boga-tych domów i przekonują, że za sprawą ofiar i zaklęć pozyskali od 
+                        bogów moc, by uzdrawiać podczas przyjemnych uroczystości, jeśli 
+                        [364c] ktoś albo czyjś przodek popełnił występek. Co więcej, jeżeli ktoś chciałby zaszkodzić swojemu wrogowi, za małą dopłatą skrzyw-dzą nawet bogu ducha winnych, korzystając z klątw i tabliczek zwią-zujących, bo, jak twierdzą, potrafią bogów przekonać, żeby im byli 
+                        posłuszni. Wszystkim tym słowom na świadków przywołują poetów, 
+                        którzy pobłażliwie pisali o niegodziwości, że „zło można łatwo brać 
+                        nawet [364d] na kopy: droga doń prosta i blisko położona. Za to przed 
+                        cnotą bogowie trud położyli” [Hes. Op. 287–289], a droga do niej dłu-ga, stroma i uciążliwa. Inni zaś zaświadczają się Homerem, że ludzie 
+                        mogą zwodzić bogów, ponieważ i on powiedział, że „i bogów można 
+                        uprosić, więc ludzie błagając odwracają ich gniew ofiarami i grzecz-nymi modlitwami, [364e] libacją i tłustym dymem, jeżeli ktoś popeł-ni występek lub uchybienie” [Hom. Il. 9.497]. I mają ze sobą wrzawę 
+                        ksiąg Muzajosa i Orfeusza, „potomków Seleny i Muz”, jak twier-dzą, podług których „składają żertwę”, przekonując nie tylko ludzi 
+                        prywatnych, ale i całe miasta, że istnieją uwolnienia i oczyszczenia 
+                        z przewin za pomocą ofiar i [365a] przyjemnych zabaw i że jedne są 
+                        dla żywych, a inne dla umarłych – te drugie nazywają teletai i mówią, 
+                        że uwalniają nas od złych rzeczy po drugiej stronie, a kto by tych ofiar 
+                        nie złożył, tego czeka coś strasznego.</quote>
+                    <p>364b: ἀγύρται – „wędrowni kapłani”; pogardliwe określenie agyr-tes („zbieracz”, „żebrak”; w anachronicznym acz niezwykle trafionym 
+                        tłumaczeniu Witwickiego: żebrzący klecha) przylgnęło do rytualnych 
+                        specjalistów zapewne za sprawą akwizycyjnego charakteru działalno-ści wielu z nich (Parker 2005: 119). O tym, że każdy wieszczek (mantis)
+                        mógł zostać zdeprecjonowany tym określeniem, świadczy przypadek 
+                        Tejrezjasza, którego Edyp w gniewie nazywa podstępnym żebrakiem, 
+                        który patrzy tylko na zysk (387–389), choć wcześniej dla Chóru Tejre-zjasz był „boskim wieszczkiem” (theios mantis, 298; na temat wieszcz-ków zob. też monografię: Flower 2008).
+                        δύναμις ἐκ θεῶν ποριζομένη θυσίαις τε καὶ ἐπῳδαῖς – „moc po-zyskana od bogów za sprawą ofiar i inkantacji”; specjaliści od rytual-nych oczyszczeń przenosili na siebie sprawczość, która poza tym zare-zerwowana była dla bogów. Podobnie, choć pośrednio, charakteryzuje 
+                        ich autor De morbo sacro, zauważając, że gdyby faktycznie epilepsja, 
+                        którą leczą oczyszczeniami, była zsyłana przez bogów jako kara za przewinienia, powinni byli prowadzić swoich pacjentów do świątyń, 
+                        składać ofiary przebłagalne i w ten sposób ich oczyścić.</p>
+                    <p>364d: καταδέσμοις – „tabliczek związujących”; zachowane katade-smoi (zob. Collins 2008a: 64–92) wykonane zostały z ołowiu (prawdopo-dobnie używano również mniej trwałych materiałów). Zazwyczaj były 
+                        rolowane i często przebijane (np. paznokciami), a następnie umieszcza-ne w grobach osób przedwcześnie zmarłych. Charakterystyczną cechą 
+                        klątwy, której treść zawierały, było wyliczenie elementów ciała ofiary 
+                        (niekiedy bardzo drobiazgowe), a czasem również jej życiowych ak-tywności (spanie, jedzenie, mowa), które autor klątwy (w terminologii 
+                        łacińskiej defigens) „związywał” (katadeo) jej mocą. Najpopularniejsze są 
+                        jednak bardziej eliptyczne katadesmoi, zawierające wyłącznie imię lub 
+                        listę imion ofiar. Niekiedy ofiara była również przekazywana (paratithe-mi) bóstwom podziemnym (Ge, Hekate, najczęściej Hermesowi). Pla-ton będzie wzmiankował je jeszcze w Prawach (pod nazwą katadeseis). 
+                        Chociaż w tekstach literackich stosunkowo rzadko wspomina się o ma-gii, do tej pory światło dzienne ujrzało ponad 1600 katadesmoi, odkry-tych na terenie całego świata grecko-rzymskiego i datowanych między 
+                        VI w. p.n.e. a VIII w. n.e. (Eidinow 2007: 141).
+                        ὑπηρετεῖν – „byli posłuszni”; język, którym rytualni specjaliści 
+                        opisują swoją relację z bogami, jest całkowitym zaprzeczeniem teo-logicznych założeń religii greckiej, które możemy rekonstruować na 
+                        bazie inskrypcji dedykacyjnych i tekstów literackich. W tradycyjnym 
+                        ujęciu bogowie istotnie wychodzą naprzeciw oczekiwaniom ludzi, ale 
+                        odbywa się to w ramach relacji zgeneralizowanej wzajemności opar-tej na charis, wdzięczności lub łaskawości, którą to relację wytwarza 
+                        ofiara (a także inne formy pobożności) i którą bóg odwzajemnia, zsy-łając człowiekowi dobra (czasem również określane jako charites, por. 
+                        Hp. Aër. 22). Wzajemność ta nie ma jednak charakteru automatycz-nego i z różnych powodów, często natury moralnej, może zostać za-wieszona (zob. Naiden 2013: 131 i nn.; Jim 2014: 65). Wydaje się, że 
+                        przekonanie wieszczka Eutyfrona o analogii między kultem (therapeia) 
+                        bogów a służeniem (therapeia) władcom (Euthphr. 13d) nie wzbudziło-by poważnych kontrowersji wśród Ateńczyków. Tymczasem rytualni specjaliści mówią o podległości bogów, relację zgeneralizowanej wza-jemności zastępują automatyzmem perswazji (πείθοντές), a regułę 
+                        odwzajemnienia – pozyskiwaniem (ποριζομένη).</p>
+                    <p>364d: λιστοὶ δέ τε καὶ θεοὶ αὐτοί – „i bogów można uprosić”; cytat 
+                        z Iliady (9.497–501, z drobnymi różnicami) pochodzi z wypowiedzi Foj-niksa adresowanej do Achillesa, która w oryginalnym kontekście miała 
+                        pouczyć Achillesa o granicach zawziętości, które ten dawno przekroczył, 
+                        popadając tym samym w hybris. Fojniks zauważa, że chociaż człowiek 
+                        łamie zasady ustanowione przez bogów i zrywa tym samym relację 
+                        wzajemności, jaka panuje między nim a bogami, to możliwe jest jej od-tworzenie dzięki ofiarom (domyślnie: przebłagalnym). Dla kompletności 
+                        przesłania Fojniksa najważniejszy jest wers 498, nie przypadkiem pomi-nięty w cytacie, w którym stary wychowawca zwraca uwagę, że cześć 
+                        i siła bogów znacznie przewyższają cześć i siłę Achillesa, a ten mimo to 
+                        zachowuje się, jak gdyby wolno mu było więcej niż samym bogom. Ry-tualni specjaliści reinterpretują wypowiedź Fojniksa w ramach swojej 
+                        mechanicznej wizji postępowania z bogami: nie jest to już opowieść o po-korze i wybaczeniu, tylko o kierowaniu bogami (τῶν θεῶν παραγωγή).</p> 
+                    <p>364e: θυηπολοῦσιν – „składają żertwę”; poetyzm oznaczający „skła-dać ofiarę”, używany – zapewne przez wzgląd na jambiczną strukturę 
+                        – głównie przez tragików (A. Ag. 262; E. Tr. 330; El. 665, 1134; Heracl. 401; 
+                        por. jambiczną wyrocznię Pytii przytoczoną przez Pauzaniasza, 4.9.4). 
+                        Można przypuszczać, że Adejmantos zaczerpnął go z żargonu samych 
+                        rytualnych specjalistów. Te dwa światy – świat bohaterów tragediowych 
+                        i świat rytualnych specjalistów – przenikają się nie tylko na poziomie języ-ka, ale również idei. Zmaza, która jest następstwem przewiny i ściąga na 
+                        ludzi kolejne nieszczęścia, jest kołem zamachowym niejednej z tragedio-wych fabuł. Na temat zmazy zob. klasyczne opracowanie Parkera (198</p>
+                    <p>365a: τελευτήσασιν, ἃς δὴ τελετὰς καλοῦσιν – „dla umarłych 
+                        – te nazywają teletaimi”; gra słów oparta na podobieństwie czasow-nika teleutao (zakończyć, umrzeć) i rzeczownika telete (obrzęd, cere-monia). Analiza historii słowa telete w epoce archaicznej i klasycznej 
+                        (Schuddeboom 2009) wskazuje, że obok bardzo ogólnego sensu ce-remonii religijnej (od igrzysk olimpijskich po misteria eleuzyńskie) 
+                        istniała tendencja, z czasem dominująca, by używać terminu telete na 
+                        określenie nietypowego rytuału – być może takiego, którego nie dało 
+                        się przyporządkować do kategorii thysia. W tym passusie telete Wi-twicki tłumaczy jako „wtajemniczenie”, cokolwiek miałoby ono ozna-czać (Fritz Graf sądzi, że chodzi o prywatne misteria bakchiczne – Graf 
+                        2011: 62). Warto mieć na uwadze, że Adejmantos wyraźnie wskazuje 
+                        na oczyszczający charakter tych teletai.
+                        Graf zasugerował, że teletai w tym passusie odnoszą się nie tylko 
+                        do rytuałów spełnianych dla zmarłych, na co wskazuje składnia, lecz 
+                        także do niesprecyzowanych rytuałów przeznaczonych dla żywych. 
+                        Zdaniem uczonego ma na to wskazywać kontekst, w całości skoncen-trowany na życiu po śmierci („the entire passage focuses solely on the 
+                        afterlife”, Graf 2011: 61). Nie uważam jednak, by ten argument był 
+                        przekonujący. Zawężenie użycia terminu telete do określenia rytów 
+                        dla zmarłych (rozumiem przez to ryty spełniane z myślą o tym, co po 
+                        śmierci, jak te, których echa odnajdujemy na tzw. złotych tabliczkach 
+                        orfickich, zob. Edmonds 2004; Edmonds 2011; Sekita 2011) zdaje się 
+                        pochodzić od samych rytualnych specjalistów (a nie, jak chce Graf, od 
+                        Platona) i prawdopodobnie jest echem zainteresowania rytualnych 
+                        specjalistów, jak zresztą greckich intelektualistów w ogóle, spekulacją 
+                        etymologiczną (zob. Struck 2004).
+                        μὴ θύσαντας – „nie złożył”; wygląda na to, że oczyszczające 
+                        z przewin teletai Orfeusza przynajmniej niekiedy przewidywały złoże-nie jakiejś formy ofiary (zapewne przebłagalnej). Nie zmienia to faktu, 
+                        że telete i thysia nie były koekstensywne – druga mogła stanowić część 
+                        pierwszej, ale jej nie wyczerpywała.</p>
+                </div>
+                <div type="textpart" n="Respublica_LINES">
+                    <head>Państwo LINES</head>
+                    <p>INTRO TO TEXT</p>
+                    <quote>GREEK TEXT</quote>
+                    <quote>TRANSLATION</quote>
+                    <p>COMMENTARY DIVIDED INTO PARAGRAPHS</p>
+                </div>
+                
+                <div type="textpart" n="Respublica_378a">
+                    <head>Państwo 378a</head>
+                    <p>Passus pochodzi z wypowiedzi Sokratesa na temat poetów, któ-rzy ułożyli i propagują fałszywe opowieści (mythoi) o bogach. Jest to 
+                        oczywiście echo wcześniejszych słów Adejmantosa. Sokrates mówi 
+                        o „prostaczkach i młodzieży”, czyli ludziach najbardziej skłonnych do 
+                        dosłownego odczytania opowieści mitycznej.</p>
+                    <quote>τὰ δὲ δὴ τοῦ Κρόνου ἔργα καὶ πάθη ὑπὸ τοῦ ὑέος, οὐδ᾽ ἂν εἰ ἦν 
+                        ἀληθῆ ᾤμην δεῖν ῥᾳδίως οὕτως λέγεσθαι πρὸς ἄφρονάς τε καὶ 
+                        νέους, ἀλλὰ μάλιστα μὲν σιγᾶσθαι, εἰ δὲ ἀνάγκη τις ἦν λέγειν, δι᾽ 
+                        ἀπορρήτων ἀκούειν ὡς ὀλιγίστους, θυσαμένους οὐ χοῖρον ἀλλά τι 
+                        μέγα καὶ ἄπορον θῦμα, ὅπως ὅτι ἐλαχίστοις συνέβη ἀκοῦσαι.</quote>
+                    <quote>Co do czynów Kronosa i tego, co wyrządził mu jego syn, to nawet 
+                        gdyby to była prawda, nie uważałbym, że można o tym tak po prostu 
+                        opowiadać prostaczkom i młodzieży – lepiej zmilczeć. A jeśli już trze-ba byłoby mówić, to niechby słuchało tego jak najmniej osób i pod za-kazem powtarzania, złożywszy w ofierze nie prosię, ale jakąś wielką 
+                        i trudną do zdobycia ofiarę, żeby słuchaczy było możliwie niewielu.</quote>
+                    <p>θυσαμένους… θῦμα – „złożywszy w ofierze… zwierzę” (dosł. 
+                        „ofiarę”, „zwierzę ofiarne”); figura etymologiczna. Platon często po-sługuje się tym środkiem stylistycznym w rozmaitych wyrażeniach 
+                        związanych z kultem bogów, por. Cra. 401d (πρώτῃ προθύειν), Plt. 
+                        290c–d (δωρεάς… δωρεῖσθαι, o ofiarach), Plt. 290e (θύματα… θύειν), 
+                        R. 362c (θυσίας καὶ ἀναθήματα… θύειν τε καὶ ἀνατιθέναι), Lg. 738c 
+                        (τεμένη… ἐτεμένισαν).
+                        οὐ χοῖρον – „nie prosię”; ze wszystkich ssaków hodowlanych, któ-re zazwyczaj składano w ofierze, prosię było zwierzęciem najtańszym 
+                        (kosztowało mniej więcej trzy drachmy, zob. zestawienie cen zwierząt 
+                        z sześciu kalendarzy ofiarniczych w: van Straten 1995: 176). Stanowiło 
+                        też typową ofiarę wstępną, poprzedzającą właściwą ofiarę lub inny ry-tuał (zob. Mikalson 1972). Wymieniając je, Platon robi zapewne aluzję 
+                        do powszechnego dostępu do misteriów eleuzyńskich, przed którymi 
+                        należało złożyć ofiarę z prosięcia (por. Ar. Ach. 747, Pax 374–5).</p>
+                </div>
+                <div type="textpart" n="Respublica_419a">
+                    <head>Państwo 419a</head>
+                    <p>Adejmantos przedstawia Sokratesowi uroki życia osoby prywatnej 
+                        w idealnym państwie, w zestawieniu z którymi podporządkowana 
+                        wspólnocie egzystencja strażników wydaje się co najmniej szara.</p>
+                    <quote>καὶ ὁ Ἀδείμαντος ὑπολαβών, τί οὖν, ἔφη, ὦ Σώκρατες, ἀπολογήσῃ, 
+                        ἐάν τίς σε φῇ μὴ πάνυ τι εὐδαίμονας ποιεῖν τούτους τοὺς ἄνδρας, 
+                        καὶ ταῦτα δι᾽ ἑαυτούς, ὧν ἔστι μὲν ἡ πόλις τῇ ἀληθείᾳ, οἱ δὲ μηδὲν 
+                        ἀπολαύουσιν ἀγαθὸν τῆς πόλεως, οἷον ἄλλοι ἀγρούς τε κεκτημένοι 
+                        καὶ οἰκίας οἰκοδομούμενοι καλὰς καὶ μεγάλας, καὶ ταύταις 
+                        πρέπουσαν κατασκευὴν κτώμενοι, καὶ θυσίας θεοῖς ἰδίας θύοντες καὶ 
+                        ξενοδοκοῦντες, καὶ δὴ καὶ ἃ νυνδὴ σὺ ἔλεγες, χρυσόν τε καὶ ἄργυρον 
+                        κεκτημένοι καὶ πάντα ὅσα νομίζεται τοῖς μέλλουσιν μακαρίοις εἶναι;</quote>
+                    <quote>Wtedy odezwał się Adejmantos, mówiąc: „Co powiesz na swoją obro-nę, Sokratesie, jeżeli ktoś powie, że nie uczyniłeś tych mężów [scil. 
+                        strażników] zanadto szczęśliwymi? I to z ich własnej winy, bo chociaż 
+                        miasto po prawdzie do nich należy, nie mogą się cieszyć żadną z jego 
+                        zalet. Tymczasem inni mieszkańcy zakupują ziemię i wznoszą piękne, 
+                        duże domy, które gustownie wyposażają, składają bogom prywatne 
+                        ofiary i zapraszają gości, a także, jak sam mówiłeś, kupują złoto i srebro 
+                        oraz wszystko to, co pasuje do ludzi mających zamiar żyć szczęśliwie”.</quote>
+                    <p>θυσίας θεοῖς ἰδίας θύοντες καὶ ξενοδοκοῦντες – „składają bogom 
+                        prywatne ofiary i zapraszają gości”; ofiary prywatne, a więc wszystkie 
+                        inne niż te, których złożenie wynikało ze świątecznego kalendarza pań-stwowego. Nie chodzi tu jednak o te same ofiary, których zakaz prze-widziany był w Prawach 909d, jak wydawał się sugerować Shorey w ad-notacji b (Shorey 1930: 315). Zakazem w Prawach objęte są nie tyle ofiary 
+                        prywatne, co ofiary składane poza społeczną kontrolą: w domowym 
+                        zaciszu, gdzie zaistnieć mogły dowolna pobudka (także niska) i forma 
+                        (także niestosowna). Ofiara prywatna, o której mowa w Państwie, pole-gała na przyprowadzeniu własnego (wyhodowanego lub kupionego, 
+                        Rosivach 1994: 107) zwierzęcia do świątyni, by z prywatnych pobudek 
+                        złożyć je w ofierze temu bogu, któremu uważano za stosowne.
+                        W posiłku, który następował po prywatnej ofierze, brali udział nie 
+                        tylko ofiarnicy, bezpośrednio zainteresowani celem, w jakim ofiarę 
+                        złożono, ale również zaproszeni przez nich goście (por. Isaios 1.31, 
+                        8.15–16 – tu gości wykluczono; X. Oec. 2.4–5, Men. Dyskolos 393–418; 
+                        zob. też Rosivach 1994: 9–10 z przypisami).
+                        To nie jedyne miejsce u Platona, w którym składanie ofiar jest eg-zemplifikacją wolności do posiadania i dysponowania prywatną wła-snością: podobnie jest w Eutydemie 302a.
+                    </p>
+                </div>
+                <div type="textpart" n="Respublica_459e–460a">
+                    <head>Państwo 459e–460a</head>
+                    <p>W Kallipolis obywatele mają łączyć się w tymczasowe pary pod-czas zbiorowych ślubów w wyznaczone dni świąteczne. Wydarzenie 
+                        ma odbywać się z towarzyszeniem ofiar.</p>
+                    <quote>οὐκοῦν δὴ ἑορταί τινες νομοθετητέαι ἐν αἷς συνάξομεν τάς τε 
+                        νύμφας καὶ τοὺς νυμφίους καὶ θυσίαι, καὶ ὕμνοι [460a] ποιητέοι 
+                        τοῖς ἡμετέροις ποιηταῖς πρέποντες τοῖς γιγνομένοις γάμοις ...</quote>
+                    <quote>Więc trzeba, byśmy ustanowili jakieś święta i ofiary, podczas których 
+                        będziemy gromadzić panny młode i panów młodych. Trzeba też, 
+                        [460a] żeby nasi poeci ułożyli hymny na okoliczność tych zaślubin.</quote>
+                    <p>ἑορταί τινες… καὶ θυσίαι – „jakieś święta i ofiary” – w normalnej 
+                        greckiej społeczności śluby były prywatną sprawą rodzin państwa mło-dych, a towarzyszące im ofiary należały do kategorii idiai thysiai. W ima-ginowanym ustroju Państwa przewidziane było najwidoczniej święto 
+                        ślubów, wpisane w świąteczny kalendarz miasta, podczas którego oby-watele mieli łączyć się w pary, by płodzić dzieci „z towarzyszeniem 
+                        ofiar i modlitw” (ὑπὸ θυσιῶν… ὑπὸ εὐχῶν, 461a). Ofiara zaślubinowa 
+                        nosiła nazwę proteleia (zob. Dillon 2002: 215–219; Parker 2005: 440–441).</p>
+                </div>
+                <div type="textpart" n="Respublica_565d–e">
+                    <head>Państwo 565d–e</head>
+                    <p>Chcąc metaforycznie zilustrować proces przemiany politycznego 
+                        lidera (ὁ προστάτης, dosł. „obrońca”) w tyrana, Sokrates przywołuje 
+                        pogłoskę, jaka krąży na temat sanktuarium Zeusa Lykajosa w Arkadii.</p>
+                    <quote>τίς ἀρχὴ οὖν μεταβολῆς ἐκ προστάτου ἐπὶ τύραννον; ἢ δῆλον ὅτι 
+                        ἐπειδὰν ταὐτὸν ἄρξηται δρᾶν ὁ προστάτης τῷ ἐν τῷ μύθῳ ὃς περὶ 
+                        τὸ ἐν Ἀρκαδίᾳ τὸ τοῦ Διὸς τοῦ Λυκαίου ἱερὸν λέγεται; 
+                        τίς; 
+                        ἔφη. 
+                        ὡς ἄρα ὁ γευσάμενος τοῦ ἀνθρωπίνου σπλάγχνου, ἐν ἄλλοις 
+                        ἄλλων ἱερείων ἑνὸς ἐγκατατετμημένου, ἀνάγκη δὴ [565e] τούτῳ 
+                        λύκῳ γενέσθαι. ἢ οὐκ ἀκήκοας τὸν λόγον;
+                    </quote>
+                    <quote>Więc jaki jest początek przemiany obrońcy w tyrana? Czy nie jest jasne, 
+                        że to się zaczyna, kiedy obrońca zaczyna postępować tak, jak w tej opo-wieści, która krąży na temat świątyni Zeusa Lykajosa w Arkadii? 
+                        Jakiej? 
+                        – zapytał. – 
+                        Ano tej, że kto skosztuje ludzkich wnętrzności pokrojonych razem 
+                        z wnętrznościami zwierząt ofiarnych, niechybnie [565e] stanie się wil-kiem. A może o tym nie słyszałeś?</quote>
+                    <p>τὸ τοῦ Διὸς τοῦ Λυκαίου ἱερὸν – „świątynia Zeusa Lykajosa w Ar-kadii”; Platon ma na myśli przybytek Zeusa Lykajosa umiejscowiony 
+                        na południowym szczycie góry Lykajon w Arkadii, o wysokości 1382 
+                        m n.p.m. Konstantinos Kourouniotes, kierownik pierwszej wyprawy 
+                        archeologicznej na górę Lykajon, odkrył tam między innymi popio-łowy ołtarz Zeusa o średnicy 30 m, który oglądał jeszcze Pauzaniasz 
+                        (8.38.7). Pauzaniasz był przekonany, że przy ołtarzu tym składa się 
+                        ofiary z ludzi, odtwarzając ofiarę złożoną przez mitycznego króla Ly-kaona (por. jego ἐχέτω δὲ ὡς ἔχει καὶ ὡς ἔσχεν ἐξ ἀρχῆς – „niech 
+                        będzie, jak jest i jak było od początku”). Jednak zarówno wykopaliska 
+                        Kourouniotesa, jak i wyniki badań przeprowadzonych przez ostatnią 
+                        ekspedycję potwierdzają, że periegeta mylił się podwójnie – nie tyl-ko nie znaleziono tam żadnych ludzkich szczątków (znalezione kości 
+                        należały głównie do owiec i kóz), ale również nie składano tam ofiar 
+                        w jego czasach – najmłodsze znaleziska pochodzą z IV w. p.n.e. (Hu-ghes 1991: 105; Bonnechere 1994: 87; Romano, Voyatzis 2010). Pomyłka 
+                        Pauzaniasza jest zupełnie zrozumiała – sam przecież przyznaje, że nie 
+                        miał ochoty dowiadywać się niczego na temat spełnianych tam ofiar.
+                        ὁ γευσάμενος – „kto skosztuje”; kosztowanie splanchna, podrobów, 
+                        zwierzęcia ofiarnego upieczonych na tym samym ogniu, w którym 
+                        płonęły przeznaczone bogom części zwierzęcia, należało do central-nych aktów rytuału ofiarniczego i zarezerwowane było dla wąskiego 
+                        kręgu ofiarników (por. Durand 1979: 139–150). Ponieważ w żadnej ze 
+                        znanych wersji mitu Lykaona (Hezjod, fr. 163 Merkelbach-West, Apol-lodoros 3.8, Mikołaj z Damaszku FGrH 90 F38 = Suda λ 797, Pauza-niasz 8.2.1–6) ani Lykaon, ani nikt inny nie dopuszcza się kanibalizmu, 
+                        Platon musi nawiązywać do pogłoski krążącej na temat spełnianego rytuału (por. Lengauer 1994: 12). Poza Państwem stwierdzenie, że pod-czas Lykajów składano ofiary z ludzi, pojawia się jeszcze zdawkowo 
+                        u Teofrasta (apud Porph. Abst. 2.27.2) i w Minosie (zob. komentarz do 
+                        dialogu). Znacznie bardziej szczegółowych informacji dostarczają na-tomiast świadectwa Pliniusza Starszego i Pauzania</p>
+                    <p>Pliniusz w Historii naturalnej przytacza opowieść o bokserze 
+                        Demajnecie z Parrazji, który zamienił się w wilka, gdy skosztował 
+                        wnętrzności dziecka podczas ofiary dla Zeusa Lykajosa, a po dziewię-ciu latach powrócił do ludzkiej postaci i odniósł zwycięstwo w Olimpii 
+                        (NH 8.37). Źródłem tej opowieści miało być Olympionikai (Zwycięstwa 
+                        olimpijskie), dzieło należące zapewne do gatunku literackiego o tej sa-mej nazwie (na jego temat zobacz pionierską monografię Christesena, 
+                        2007). O autorze tych konkretnych Olympionikai nie wiemy praktycz-nie nic. Poprawnej wersji jego imienia (najpopularniejsza rekonstruk-cja to „Skopas”) nie przekazuje żaden z kodeksów Historii naturalnej, 
+                        a jedyny możliwy terminus jego działalności wyznacza działalność 
+                        Warrona, którego prawdopodobnie streszcza w tym miejscu Pliniusz 
+                        (Jost 1985: 259). Pismo Skopasa, podobnie jak inne Olympionikai, za-wierało zapewne chronologiczny spis imion zwycięzców olimpijskich 
+                        w poszczególnych dyscyplinach oraz pokrewne informacje, w tym 
+                        anegdoty, jakie krążyły na ich temat.
+                        Natomiast Pauzaniasz, przy okazji opisu Olimpii, przytacza histo-rię arkadyjskiego boksera Damarchosa z Parrazji, którego posąg moż-na tam było zobaczyć i który również rzekomo doświadczył dziewię-cioletniej przemiany w wilka podczas ofiary dla Zeusa Lykajosa (6.8.2, 
+                        por. 8.2.6, 8.38.7).Ponieważ istnienie Pliniuszowego Demajneta nie jest 
+                        poświadczone w innych źródłach, wydaje się wielce prawdopodobne, 
+                        że Damarchos i Demajnetos to jedna i ta sama osoba (Jost 1985: 259; 
+                        Hughes 1991: 99, przyp. 87; Bonnechere 1994: 88). Jednocześnie na pod-stawie danych przekazanych przez Pauzaniasza Luigi Moretti ustalił, 
+                        że zwycięstwo Damarchosa mogło mieć miejsce mniej więcej w 400 r. 
+                        p.n.e. (Moretti 1957: 112; datacja Morettiego jest powszechnie akcepto-wana: Burkert 1983: 85; Jost 1985: 259; Hughes 1991: 100; Bonnechere 
+                        1994: 88, przyp. 344). To oznacza, że legenda towarzysząca „bokserowi 
+                        celebrycie” mogła być znana w Atenach za czasów Platona</p>
+                    <p>Rekonstrukcja pochodzenia historii o bokserze przemienionym 
+                        w wilka zatrzymuje się zawsze w tym właśnie punkcie. Wydaje się 
+                        jednak, że z powodzeniem jesteśmy w stanie pójść dalej. Autorstwo 
+                        historii o bokserze-wilkołaku, w którą oczywiście nie wierzy, Pau-zaniasz przypisał anonimowym andres alazones. Chociaż nie można 
+                        wykluczyć, że byli to jego ustni informatorzy, Paul Christesen udo-wodnił, że przygotowując się do opisu Olimpii, Pauzaniasz wyko-rzystywał źródła literackie, które bazowały na istniejących wcześniej 
+                        Olympionikai lub na samych Olympionikai (Christesen 2007: 220–227). 
+                        Pod określeniem andres alazones mogą się więc kryć autorzy wyżej wy-mienionych typów prac, którzy swoim upodobaniem do fantastyczno-ści nie wzbudzili zaufania Pauzaniasza. Pliniusz z kolei powołuje się 
+                        na Olympionikai wprost i chociaż różnica w brzmieniu imienia boksera 
+                        sugeruje, że nie musiały być to te same pisma, które konsultował Pau-zaniasz, to wszystkie pozostałe szczegóły opowieści wskazują na jedno 
+                        wspólne źródło historii o bokserze Demajnecie/Damarchosie. Ponie-waż Damarchos miał odnieść swoje zwycięstwo około 400 r. p.n.e., jest 
+                        niewykluczone, że legenda, jaką był owiany, została przytoczona już 
+                        w pierwszym znanym nam dziele z gatunku, Olympionikon anagraphe, 
+                        napisanym przez Hippiasza z Elidy krótko po 400 r. p.n.e. (Christesen 
+                        2007: 45–50; Węcowski 2011 wskazuje na okres 400–380 r. p.n.e.).
+                        Z dzieła Hippiasza nie zachowały się nawet fragmenty, dlatego re-konstrukcja jego treści opiera się na analogiach z późniejszymi pisma-mi z tego gatunku (zob. Christesen 2007: 57–73; Węcowski 2011). Sam 
+                        Hippiasz był postacią dobrze zadomowioną w dialogach Platona i są 
+                        one głównym źródłem informacji biograficznych na jego temat (Nails 
+                        2002: 168–169). W Hippiaszu Mniejszym Platon przedstawia Elijczyka 
+                        jako człowieka dysponującego ogromem faktograficznej wiedzy i goto-wego odpowiedzieć na każde pytanie związane z igrzyskami olimpij-skimi (363c–d), a zarazem pozbawionego krytycyzmu i skłonnego brać 
+                        wszystko za dobrą monetę (zob. też analizę passusu u Węcowskiego, 
+                        2011). Jest mało prawdopodobne, by Platon poznał Hippiasza osobi-ście, dlatego niewykluczone, że cechy Hippiasza – postaci z dialogów 
+                        Platona – stanowiły ekstrapolację cech, które zdradzał Hippiasz – autor 
+                        dzieł czytanych przez Platona. Drugie dzieło z tego gatunku, o którymsłyszymy, napisał Arystoteles. Trudno sobie wyobrazić, by mogło po-wstać bez konsultowania unikalnej pracy Hippiasza, której egzemplarz 
+                        mógł być przechowywany w Akademii – jak przekazuje Plutarch, kie-dy Hippiasz rozpoczynał pracę nad swoim katalogiem zwycięzców, nie 
+                        miał do dyspozycji żadnych wiarygodnych źródeł pisanych (Num. 1.4). 
+                        Co znamienne, to właśnie Timajos, współczesny autorowi Minosa histo-ryk, przebywający na wygnaniu w Atenach, jako pierwszy posługuje 
+                        się jakimś katalogiem zwycięzców (τοὺς ὀλυμπιονίκας), opracowując 
+                        chronologię swojego dzieła (Plb. 12.11.1). Musiała to być lista sporzą-dzona przez Hippiasza (tak Walbank 1972: 101) lub Arystotelesa.
+                        Wśród uczonych panuje obecnie przekonanie, że chociaż na górze 
+                        Lykajon nie składano ludzi w ofierze, Grecy wierzyli, że tak się dzia-ło. Burkert uważał, że ofiara dla Zeusa Lykajosa i następująca po niej 
+                        „przemiana” w wilka miały charakter rytu inicjacyjnego, którego psy-chologiczna siła opierała się na autosugestii inicjowanego, przekona-nego, że bierze udział w kanibalistycznej ofierze (Burkert 1983: 88–90; 
+                        w jego ślady idą Buxton 1987, Gundersen 2005 i, z modyfikacjami, 
+                        Bonnechere 1994: 90–92; sceptycznie do tej interpretacji odnosi się Jost 
+                        1985: 267, odrzuca ją Zolotnikova 2005). Chociaż trudno na podstawie 
+                        źródeł określić, do czego inicjacją miała być przemiana w wilka, Bur-kert sugeruje rytuał wejścia w dorosłość i porównuje arkadyjski rytu-ał do spartańską krypteją (1983: 90–91). Uczony przymyka przy tym 
+                        oko na fakt, że o ile krypteja obejmowała grupę młodych ludzi, o tyle 
+                        w źródłach dotyczących arkadyjskiego rytuału słyszymy zawsze o tyl-ko jednym wilkołaku. W rzeczywistości Burkert nie traktuje poważ-nie tej informacji i w swojej rekonstrukcji rytuału pisze: „each time one 
+                        or more [scil. of participants] would be struck with »wolf’s frenzy«” 
+                        (1983: 90, zaznaczenie kursywą – P. Biernat). Hughes uważał, że osoba 
+                        poddana inicjacji przez przemianę w wilka mogła reprezentować całą 
+                        swoją grupę wiekową (1991: 103–104), jak jednak dowodził Faraone 
+                        (2003: 47), zjawisko inicjacji przez reprezentację nie istnieje w żadnej 
+                        znanej nam kulturze</p>
+                </div>
+               
+            </div>
+            
+        </body>
+    </text>
+</TEI>

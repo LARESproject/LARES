@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Euthyphro (Ευθύφρων, Eutifrone)</title>
+                <title xml:lang="en">Euthyphro (Ευθύφρων, Euthyphro)</title>
+                <title xml:lang="pl">Euthyphro (Ευθύφρων, Eutyfron)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">plato_04_euhyphro</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Euthyphro (Ευθύφρων, Eutyfron)</title>, in Przemysław Biernat, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Corpus Platonicum. Corpus Hippocraticum</title>, Warszawa 2017, pp. 13-24</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded in XML</change>
+                <change when="2017" who="Przemysław Biernat">written contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text> 
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!--xml:lang="pl"-->
+                <div type="textpart" n="intro">
+                    <p>Poświęcony problemowi pobożności dialog Eutyfron plasowany 
+                        jest na pograniczu wczesnych i środkowych pism Platona (Burnet 
+                        1979 [1924]: 84; Legutko 1998: 37–38). Jego bohaterami są wieszczek 
+                        (μάντις, 3e) Eutyfron i Sokrates. Do ich spotkania dochodzi pod 
+                        στοὰ τοῦ Βασιλέως, Portykiem Króla (lub Królewskim Portykiem), 
+                        siedzibą drugiego z dziewięciu ateńskich archontów, między innymi 
+                        przewodzącego w procesach dotyczących kwestii religijnych (Burnet 
+                        1979 [1924]: 82; Garland 1984: 111–112; Dorion 1997: 190–191; Legutko 1998: 42–43). To właśnie w tym miejscu wieszczek Eutyfron wytoczył własnemu ojcu proces o morderstwo (γραφή; nie jest jednak 
+                        jasne, czy było to postępowanie uzasadnione, zob. Legutko 1998: 42). 
+                        Słysząc, w jakim charakterze Eutyfron stanął przed obliczem archonta, a także wiedząc o jego biegłości w sprawach boskich, Sokrates 
+                        próbuje skorzystać z okazji i w ostatniej chwili przed czekającym go 
+                        procesem dowiedzieć się, czym jest religijna poprawność (hosiotes, 
+                        zob. Peels 2016; Mikalson 2010: 140–170; Mikalson 2016: 283–291), 
+                        z powodu której go skarżą.
+                        Postać Eutyfrona i jego poglądy teologiczne nie doczekały się jednomyślnej interpretacji wśród badaczy. Dominuje pogląd, że Eutyfron 
+                        uosabiał tradycyjną ateńską religijność (Croiset 1920; Furley 1985; Dorion 1997; Candiotto 2011; Eutyfron rozdarty między tradycją a nowoczesnością: Legutko 1998; Chateau 2005) oraz że fakt ten ma kluczowe 
+                        znaczenie dla wymowy dialogu: Platon po prostu musiał przeciwstawić Sokratesowi kogoś, kto reprezentowałby religijną wrażliwość ludzi, którzy oskarżyli Sokratesa o bezbożność, ponieważ tylko w ten 
+                        sposób uzyskiwał dramatyczny kontrast między bohaterami dialogu 
+                        i przydawał mu apologetycznego wymiaru (Croiset 1920: 179; Furley 
+                        1985: 205; Candiotto 2011: 47). Przeciwko interpretacji postaci Eutyfrona 
+                        jako tradycjonalisty wystąpił niegdyś John Burnet (Burnet 1979 [1924]), 
+                        pokazując, że wieszczek konsekwentnie buduje swój wizerunek jako 
+                        religijnego outsidera, przeciwstawiając błędne poglądy „szerokich kół” 
+                        własnym. Burnet widział w Eutyfronie orfickiego sekciarza, a interpretacja ta została przez niektórych zaakceptowana (np. Hoerber 1958: 96). 
+                        Polemikę z Burnetem podjął William Furley, broniąc wizerunku Eutyfrona jako człowieka posiadającego zupełnie tradycyjne zapatrywania 
+                        na bogów (Furley 1985). Furley atakuje przekonanie Burneta o „sekciarskim” charakterze poglądów Eutyfrona, jednocześnie akceptując 
+                        całkowicie anachroniczną koncepcję religijnej „sekty”. To niefortunne 
+                        określenie piszący w latach dwudziestych Burnet zaczerpnął prawdopodobnie ze słownika uczonych zajmujących się orfizmem. Należy jednak zauważyć, że nazwanie Eutyfrona „sekciarzem” jest u brytyjskiego komentatora wtórne i zmierza do wpisania go w uchwytny, jak się 
+                        wówczas wydawało, prąd myślowy – gdyby nie Domenico Comparetti 
+                        i polowanie na orfików, które zapoczątkował, Eutyfron Burneta byłby po prostu religijnym innowatorem, wolnym od orfickiej etykietki. 
+                        Dla Furleya natomiast idea religijnej sekty jest budulcem argumentacji: 
+                        uczony dowodzi bowiem, że Eutyfron musiał być tradycjonalistą, ponieważ nie mógł być sekciarzem. Jak inaczej wytłumaczyć fakt, pyta 
+                        uczony, że Sokrates chciał powołać się na autorytet wieszczka podczas 
+                        procesu (ibidem: 204) albo że Eutyfron przywoływał poetów, których 
+                        znali wszyscy Grecy (ibidem: 202–203; zob. też Legutko 1998: 46)? Mówiąc obrazowo, Furley wyobrażał sobie, że postawiony przed obliczem ateńskich sędziów Eutyfron Burneta wyglądałby jak scjentolog 
+                        na synodzie katolickich biskupów. Trudno powiedzieć, jak to możliwe, 
+                        że uczony nie zauważył, że walczy z wyimaginowanym olbrzymem 
+                        „orfickiej sekty”. Jak zauważyła Kindt (2012: 23), zjawiska z marginesu lub całkowicie spoza religii obywatelskiej, takie jak orfizm, kulty 
+                        bakchiczne czy magia, pozostawały z nią w ciągłej interakcji. Trudność 
+                        w ich wzajemnym zintegrowaniu w jeden obraz może więc wynikać 
+                        z przyjętego w ostatnich latach modelu polis religion jako narzędzia opisu greckiej religii (zob. najpełniejsze chyba sformułowanie tego modelu 
+                        w Sourvinou-Inwood 2000).
+                    </p><p>Zapoczątkowaną przez Burneta antytradycjonalistyczną interpretację postaci Eutyfrona rozwinął niedawno M.J. Edwards, wskazując, że pewne poglądy wieszczka powracają w twórczości Platona 
+                    jako przekonania Ateńskiego Nieznajomego z Praw (Edwards 2000: 
+                    221–222). Zdaniem Edwardsa Eutyfron został bohaterem dialogu nie 
+                    dlatego, że nie wiedział, na czym polega prawdziwa pobożność, tylko 
+                    dlatego, że chociaż miał dobre intuicje, to brakowało mu filozoficznego rygoru, aby je uzasadnić. W podobnym duchu utrzymana jest interpretacja postaci wieszczka u Anne K. Cotton (2014), która wykorzystała casus Eutyfrona w polemice z koncepcją pedagogiki mimetycznej 
+                    Ruby Blondell (zob. np. Blondell 2002). Zdaniem Cotton charakterystyka bohaterów wczesnych dialogów Platona nie miała prowadzić do 
+                    pełnej identyfikacji czytelnika z jednym zestawem postaci i całkowitym odrzuceniem innych. Podążając za sugestią McPherrana (2003), 
+                    który w Eutyfronie zobaczył wiele cech samego Sokratesa, Cotton 
+                    (2014: 112–113) stwierdza: 
+                   <quote> [h]is goodwill, obstinacy, and idiosyncrasy, as well as his unconventional ideas about the gods, are all traits that could, in different instantiations, be of value; so for us simply to distance ourselves from him is 
+                    an inadequate response.</quote>
+                    Przekłady polskie: Witwicki (1934), Legutko (1998; z obszernym 
+                    komentarzem), Bocheński (2015; wzbogacony o wybór artykułów poświęconych dialogowi, często po raz pierwszy publikowanych w języku polskim).</p>
+                <p>    Tekst na podstawie wydania: Burnet (1979 [1924])</p>
+              
+                </div>
+                <div type="textpart" n="Euthyphro_401b–d">
+                    <head>Euthyphro 14a–15a:</head>
+                    <p>Komentowany passus jest ostatnią próbą zdefiniowania religijnej 
+                        poprawności, do której nakłonił Eutyfrona Sokrates. Podczas pierwszej próby Eutyfron nazwał tym, co religijnie poprawne (τὸ ὅσιον; 
+                        tradycyjnie przymiotnik hosios tłumaczony jest jako „zbożny”), to, co 
+                        właśnie sam robi – ściganie przestępców religijnych (5d–6e), nie rozumiejąc, że Sokratesowi chodzi o to, co ogólne, a nie jednostkowe. 
+                        Za drugim razem wieszczek zaproponował, by to, co jest kochane przez wszystkich bogów (ὃ ἂν πάντες οἱ θεοὶ φιλῶσιν), uznać za 
+                        ὅσιον, a to, czego wszyscy bogowie nienawidzą – za ἀνόσιον, religijnie niepoprawne (tradycyjnie „bezbożne”, 9e). Sokrates przekonał 
+                        go jednak, że rzecz kochana i rzecz zbożna nie mogą być tym samym, 
+                        ponieważ inaczej rzecz zbożna byłaby zbożna, ponieważ bogowie ją 
+                        kochają (10a–11b, zob. komentarz Geacha, 1966: 376–380). Trzecia 
+                        próba ma dwa podejścia, a jej punktem wyjścia jest zdefiniowanie 
+                        religijnej poprawności jako części sprawiedliwości (τὸ μέρος τοῦ 
+                        δικαίου), związanej z troszczeniem się (θεραπεία) o bogów (12e). 
+                        Przez analogię do opieki (θεραπεία) nad zwierzętami Sokrates przekształca tę definicję w taki sposób, by Eutyfron musiał ją odrzucić: 
+                        religijna poprawność („zbożność”) definiowana jako θεραπεία miałaby być zarazem „korzyścią bogów” (ὠφελία θεῶν) i czynić ich lepszymi (βελτίους τοὺς θεοὺς ποιεῖ, 13c). Eutyfron precyzuje więc, że 
+                        chodziło mu o taką formę θεραπεία, jaką okazują słudzy względem 
+                        władców (13d). Znajdując analogię wśród lekarzy czy generałów, 
+                        Sokrates dookreśla tak ujętą therapeia jako „służebną” (ὑπηρετική) 
+                        i dopytuje, do osiągnięcia jakiego celu służy ona bogom (13d–14a). 
+                        Początek cytowanego fragmentu to właśnie odpowiedź zniecierpliwionego Eutyfrona: zbożność jest bogom potrzebna, by zbożnych 
+                        ocalać, a bezbożnych gubić (podkreślenia w cytacie pochodzą od autora niniejszego komentarza).
+                    </p>
+                    <quote>ΕυΘυΦΡΩΝ: καὶ ὀλίγον σοι πρότερον εἶπον, ὦ Σώκρατες, ὅτι [14b] 
+                        πλείονος ἔργου ἐστὶν ἀκριβῶς πάντα ταῦτα ὡς ἔχει μαθεῖν· τόδε 
+                        μέντοι σοι ἁπλῶς λέγω, ὅτι ἐὰν μὲν κεχαρισμένα τις ἐπίστηται
+                        τοῖς θεοῖς λέγειν τε καὶ πράττειν εὐχόμενός τε καὶ θύων, ταῦτ᾽ ἔστι 
+                        τὰ ὅσια, καὶ σῴζει τὰ τοιαῦτα τούς τε ἰδίους οἴκους καὶ τὰ κοινὰ 
+                        τῶν πόλεων· τὰ δ᾽ ἐναντία τῶν κεχαρισμένων ἀσεβῆ, ἃ δὴ καὶ 
+                        ἀνατρέπει ἅπαντα καὶ ἀπόλλυσιν.
+                        ΣΩΚΡΑΤΗΣ: ἦ πολύ μοι διὰ βραχυτέρων, ὦ Εὐθύφρων, εἰ ἐβούλου, 
+                        εἶπες ἂν τὸ κεφάλαιον ὧν ἠρώτων: ἀλλὰ γὰρ οὐ [14c] πρόθυμός με 
+                        εἶ διδάξαι—δῆλος εἶ. καὶ γὰρ νῦν ἐπειδὴ ἐπ᾽ αὐτῷ ἦσθα ἀπετράπου, 
+                        ὃ εἰ ἀπεκρίνω, ἱκανῶς ἂν ἤδη παρὰ σοῦ τὴν ὁσιότητα ἐμεμαθήκη. 
+                        νῦν δὲ ἀνάγκη γὰρ τὸν ἐρῶντα τῷ ἐρωμένῳ ἀκολουθεῖν ὅπῃ ἂν 
+                        ἐκεῖνος ὑπάγῃ, τί δὴ αὖ λέγεις τὸ ὅσιον εἶναι καὶ τὴν ὁσιότητα; 
+                        οὐχὶ ἐπιστήμην τινὰ τοῦ θύειν τε καὶ εὔχεσθαι; 
+                        ΕυΘ.: ἔγωγε. 
+                        ΣΩ.: οὐκοῦν τὸ θύειν δωρεῖσθαί ἐστι τοῖς θεοῖς, τὸ δ᾽ εὔχεσθαι 
+                        αἰτεῖν τοὺς θεούς; 
+                        ΕυΘ.: καὶ μάλα, ὦ Σώκρατες. [14d] 
+                        ΣΩ.: ἐπιστήμη ἄρα αἰτήσεως καὶ δόσεως θεοῖς ὁσιότης ἂν εἴη ἐκ 
+                        τούτου τοῦ λόγου. 
+                        ΕυΘ.: πάνυ καλῶς, ὦ Σώκρατες, συνῆκας ὃ εἶπον. 
+                        ΣΩ.: ἐπιθυμητὴς γάρ εἰμι, ὦ φίλε, τῆς σῆς σοφίας καὶ προσέχω τὸν 
+                        νοῦν αὐτῇ, ὥστε οὐ χαμαὶ πεσεῖται ὅτι ἂν εἴπῃς. ἀλλά μοι λέξον τίς 
+                        αὕτη ἡ ὑπηρεσία ἐστὶ τοῖς θεοῖς; αἰτεῖν τε φῂς αὐτοὺς καὶ διδόναι 
+                        ἐκείνοις; 
+                        ΕυΘ.: ἔγωγε. 
+                        ΣΩ.: ἆρ᾽ οὖν οὐ τό γε ὀρθῶς αἰτεῖν ἂν εἴη ὧν δεόμεθα παρ᾽ ἐκείνων, 
+                        ταῦτα αὐτοὺς αἰτεῖν; 
+                        ΕυΘ.: ἀλλὰ τί; [14e] 
+                        ΣΩ.: καὶ αὖ τὸ διδόναι ὀρθῶς, ὧν ἐκεῖνοι τυγχάνουσιν δεόμενοι 
+                        παρ᾽ ἡμῶν, ταῦτα ἐκείνοις αὖ ἀντιδωρεῖσθαι; οὐ γάρ που τεχνικόν 
+                        γ᾽ ἂν εἴη δωροφορεῖν διδόντα τῳ ταῦτα ὧν οὐδὲν δεῖται. 
+                        ΕυΘ.: ἀληθῆ λέγεις, ὦ Σώκρατες. 
+                        ΣΩ.: ἐμπορικὴ ἄρα τις ἂν εἴη, ὦ Εὐθύφρων, τέχνη ἡ ὁσιότης θεοῖς 
+                        καὶ ἀνθρώποις παρ᾽ ἀλλήλων. 
+                        ΕυΘ.: ἐμπορική, εἰ οὕτως ἥδιόν σοι ὀνομάζειν. 
+                        ΣΩ.: ἀλλ᾽ οὐδὲν ἥδιον ἔμοιγε, εἰ μὴ τυγχάνει ἀληθὲς ὄν. φράσον 
+                        δέ μοι, τίς ἡ ὠφελία τοῖς θεοῖς τυγχάνει οὖσα ἀπὸ τῶν δώρων 
+                        ὧν παρ᾽ ἡμῶν λαμβάνουσιν; ἃ μὲν γὰρ διδόασι [15a] παντὶ 
+                        δῆλον: οὐδὲν γὰρ ἡμῖν ἐστιν ἀγαθὸν ὅτι ἂν μὴ ἐκεῖνοι δῶσιν. ἃ 
+                        δὲ παρ᾽ ἡμῶν λαμβάνουσιν, τί ὠφελοῦνται; ἢ τοσοῦτον αὐτῶν 
+                        πλεονεκτοῦμεν κατὰ τὴν ἐμπορίαν, ὥστε πάντα τὰ ἀγαθὰ παρ᾽ 
+                        αὐτῶν λαμβάνομεν, ἐκεῖνοι δὲ παρ᾽ ἡμῶν οὐδέν; 
+                        ΕυΘ.: ἀλλ᾽ οἴει, ὦ Σώκρατες, τοὺς θεοὺς ὠφελεῖσθαι ἀπὸ τούτων ἃ 
+                        παρ᾽ ἡμῶν λαμβάνουσιν; 
+                        ΣΩ.: ἀλλὰ τί δήποτ᾽ ἂν εἴη ταῦτα, ὦ Εὐθύφρων, τὰ παρ᾽ ἡμῶν 
+                        δῶρα τοῖς θεοῖς; 
+                        ΕυΘ.: τί δ᾽ οἴει ἄλλο ἢ τιμή τε καὶ γέρα καί, ὅπερ ἐγὼ ἄρτι ἔλεγον,
+                        χάρις;
+                    </quote>
+                    <quote>EUTYFRON: Mówiłem ci już wcześniej, Sokratesie, że niełatwo zrozumieć, jak się te sprawy mają: to ci tylko po prostu powiem, że jeśli 
+                        ktoś wie, jak mówić i robić rzeczy miłe bogom, gdy się modli i składa 
+                        ofiary, to te rzeczy są zbożne i one właśnie ocalają prywatne domy 
+                        i dobro publiczne miast; natomiast rzeczy przeciwne miłym są bezbożne i one wszystko wywracają i gubią. 
+                        SOKRATES: Naprawdę, Eutyfronie, gdybyś tylko zechciał, mógłbyś 
+                        znacznie zwięźlej odpowiedzieć na moje pytanie – ale ty [14c] wcale 
+                        nie chcesz mnie nauczyć, to jasne. Bo teraz ledwieś doszedł do sedna, robisz w tył zwrot. A gdybyś był udzielił odpowiedzi, już bym się 
+                        pewnie nauczył od ciebie pobożności. Teraz zaś trzeba, by kochający 
+                        szedł za ukochanym, gdziekolwiek go ten prowadzi. Co więc nazywasz tym, co pobożne i pobożnością? Czy nie pewną wiedzę o składaniu ofiar i modleniu się? 
+                        EUT.: Tak jest. 
+                        SO.: Więc składanie ofiar to obdarowywanie bogów, a modlenie się – 
+                        proszenie ich? 
+                        EUT.: Ależ tak, Sokratesie. 
+                        SO.: [14d] Więc z tego, co mówisz, pobożność jest wiedzą dotyczącą 
+                        proszenia i dawania bogom? 
+                        EUT.: Doskonale zrozumiałeś to, co powiedziałem, Sokratesie. 
+                        SO.: Bo bardzo pragnę, mój miły, tej twojej mądrości i kieruję ku niej 
+                        umysł, aby nie spadło na ziemię nic z tego, co mówisz. Ale powiedz 
+                        mi, cóż to jest ta służba bogom? Mówisz, że i proszenie ich, i dawanie 
+                        im, tak? 
+                        EUT.: Tak jest. 
+                        SO.: Czy więc słuszne proszenie nie polega na proszeniu o to, czego 
+                        od nich potrzebujemy? 
+                        EUT.: Jakżeby inaczej? [14e]SO.: A znowu słuszne dawanie na darowaniu im w zamian tego, czego im przypadkiem od nas potrzeba? Bo to chyba niefachowe obdarowanie dawać komuś to, czego nie potrzebuje? 
+                        EUT.: Prawdę mówisz, Sokratesie. 
+                        SO.: Więc pobożność byłaby, Eutyfronie, jakąś sztuką wymiany handlowej między bogami i ludźmi? 
+                        EUT.: Tak, wymiany handlowej, jeżeli podoba ci się taka nazwa. 
+                        SO.: Ależ wcale mi się nie podoba, o ile nie jest prawdziwa. I powiedz mi, jaki pożytek mieliby mieć bogowie z darów, które od nas 
+                        otrzymują? Bo co oni dają, [15a] każdemu wiadomo, żadnego bowiem nie mamy dobra, którego by oni nam nie dali. A to, co od nas 
+                        dostają, na co się przydaje? A może do tego stopnia korzystniej wychodzimy na tym handlu, że my bierzemy od nich wszystkie dobra, 
+                        a oni od nas nic? 
+                        EUT.: Chyba nie uważasz, Sokratesie, że bogowie mają pożytek z tego, 
+                        co od nas dostają? 
+                        SO.: Więc czym właściwie miałyby być te nasze dary dla bogów, Eutyfronie? 
+                        EUT.: Myślisz, że czymś innym niż czcią i jej oznakami oraz, jak przed
+                        chwilą powiedziałem, przyczyną radości?</quote>
+                    <p>14b: κεχαρισμένα… τοῖς θεοῖς – „rzeczy miłe bogom”; słowo 
+                        κεχαρισμένα, morfologicznie imiesłów perfecti passivi od czasownika 
+                        χαρίζω, „radować”, tradycyjnie tłumaczony jest na język polski jako 
+                        „miły”. Jest to szczególnie uciążliwe dla tłumaczy dialogu Eutyfron, 
+                        w którym to, co pobożne, zostaje przez tytułowego bohatera zdefiniowane najpierw jako φίλον, później jako κεχαρισμένον, a z zakończenia jego rozmowy z Sokratesem wyraźnie widać, że są to dwie różne 
+                        rzeczy (15a). W przeciwieństwie do bardzo ogólnego φίλον przymiotnik κεχαρισμένον jednoznacznie wiąże się z kontekstem religijnym. 
+                        Kεχαρισμένον oraz inne słowa zbudowane na temacie khar- regularnie 
+                        pojawiają się na inskrypcjach dedykacyjnych oraz w kontekście wypowiedzi dotyczących innych form pobożności, takich jak ofiary. Jak wynika z wypowiedzi samych Greków, postrzegali oni akty pobożności 
+                        jako formę okazania bogom wdzięczności (m.in. IG I3
+                        872, IG II2
+                        4334, 
+                        CEG 326, CEG 400; por. też Hom. Il. 1.39, 20.298–299; Lys. 6.33) lub 
+                        sprawienia im radości (IG I3
+                        728; h.hom. 9.6, 14.6; Hp. Aër. 22.10), które bogowie odwzajemniali, zsyłając ludziom dobro (czasem również 
+                        określane mianem charis, IG II2
+                        4334; Hp. Aër. 22.10). Z tego powodu 
+                        możemy mówić o relacji zgeneralizowanej wzajemności opartej na 
+                        charis, jaką wytwarzała i podtrzymywała ofiara (ang. charis – relationship; zob. Parker 1998). Podążając zapewne za Loewem, który zdefiniował charis jako factum laetificans („coś, co sprawia radość”, Loew 1908), 
+                        Irene Berti (2014: 289) zauważyła: 
+                        [t]he ideas of reciprocity and repayment are not associated with chariwords in a direct semantic way, but rather in a function, expressed by 
+                        charis, of bridging the divide between men and mortals through an 
+                        exchange of kindnesses. 
+                        W podobnym duchu utrzymana jest wypowiedź Theodory S.F. Jim 
+                        (2014: 67): 
+                        [t]he elements of mutual goodwill, pleasure, and joy that might be 
+                        present in the exchange of charis makes the English word ‘reciprocity’ (with its emphasis on repayment) a potentially flawed translation, 
+                        unless by ‘reciprocity’ we include elements of voluntariness, pleasure, 
+                        and delight – that is, unless ‘reciprocity’ is used in a sufficiently nuanced sense that goes beyond the mercantile. 
+                        Wbrew implikacjom handlowej definicji ofiary zaproponowanej 
+                        niżej przez Sokratesa relacja oparta na charis nie zakłada automatyzmu 
+                        odpłaty (o odrzuconych darach: Naiden 2013: 131 i nn.; Jim 2014: 65) 
+                        ani adekwatności darów. Mimo to wielu uczonych, zwłaszcza historyków filozofii zajmujących się kwestiami teologicznymi w pismach Platona, jest przekonanych, że intelektualiści tamtej doby, atakując wiarę 
+                        w przekupność bogów, krytykowali tradycyjne wierzenia (tak Vlastos 
+                        1991: 174–178; łagodniej McPherran 2002; krytycznie do ich interpretacji odniosła się Lännström 2011)</p> <p>W Państwie 364b–e Adejmantos nakreśli obraz cynicznych specjalistów od oczyszczeń i klątw, którzy konsekwentnie unikają tradycyjnego języka mówienia o relacji ludzi i bogów, a ofiarę traktują jako środek 
+                            do niejako mechanicznego podporządkowania sobie istot nadprzyrodzonych (por. też Pl. Lg. 885d, 905b–907a). Ich redukcjonistyczny gest 
+                            powtórzy wkrótce Sokrates, przekształcając myśl Eutyfrona do postaci 
+                            „pobożność to sztuka wymiany handlowej” (patrz comm. ad 14e). W tym 
+                            miejscu w słowach wieszczka nie ma jednak niczego z instrumentalnego traktowania ofiary.</p> <p>Z14b: ἐὰν… τις ἐπίστηται – „jeśli ktoś wie”; wyrażenie „wiedzieć, 
+                                jak mówić i robić rzeczy miłe bogom” może się wydawać redundantne względem „mówić i robić rzeczy miłe bogom” w kontekście ateńskiego modelu pobożności, opartego na odprawianiu czynności kultowych zgodnie z obyczajem przodków (κατὰ τὰ πάτρια). Większość 
+                                badaczy dostrzegła tu potwierdzenie tradycyjnego charakteru poglądów Eutyfrona (Furley 1985: 207; Dorion 1997: 231–233; Legutko 1998: 
+                                90). W tym przypadku przesunięcie akcentu na wiedzę jest jednak nieprzypadkowe i zgadza się z autokreacją Eutyfrona, który przedstawia 
+                                siebie jako specjalistę od spraw boskich (cf. 4e–5a). Wydaje się przy 
+                                tym, że źródłem wiedzy Eutyfrona o bogach i o tym, jakie postępowanie jest zbożne, nie była tradycja kultowa, tylko poezja poddana odczytaniu alegorycznemu (por. Cra. 396d; na temat alegorycznej lektury 
+                                tradycyjnej poezji przez greckich intelektualistów w epoce klasycznej 
+                                zob. Obbink 2010, o alegorezie ogólnie zob. Struck 2004; musimy pamiętać, że wyobrażenia o bogach przekazywane przez poetów były 
+                                nierzadko odmienne od tego, co wynikało z lokalnych podań i rytuałów) oraz jego kompetencje mantyczne. Koncentrując się na wiedzy, 
+                                jaką musi posiadać ofiarnik, aby jego działania były pobożne, Eutyfron 
+                                ignoruje inną jego właściwość, która stanie się najważniejsza dla Platona: moralną czystość (cf. Lg. 716c–717a).
+                                Słowa Eutyfrona mają ciekawy pendant w innym Platońskim dialogu, Polityku: spełniający ofiary kapłani zostają tam określeni jako 
+                                γένος ἐπιστῆμον δωρεῖσθαι, „rodzaj ludzi wiedzący, jak darować” 
+                                (290c–d). Jeżeli słowa Nieznajomego odzwierciedlają sposób, w jaki 
+                                rolę kapłanów rozumieli ludzie lub sami kapłani (a wiele na to wskazuje, ponieważ poprzedza je wtrącenie głosi obyczaj/jak się powszechnie uważa”), to w słowach Eutyfrona 
+                                możemy usłyszeć echa rywalizacji, jaka toczyła się między różnymi 
+                                typami rytualnych specjalistów: wieszczek Eutyfron chciał, aby kojarzono go z tą wartością, która w społecznym odbiorze przypisana 
+                                była kapłanom..</p><p>14b: ταῦτ᾽ ἔστι τὰ ὅσια… τὰ δ᾽ ἐναντία – „te rzeczy są zbożne… 
+                                    natomiast rzeczy im przeciwne”; słowa te są odpowiedzią na dwa pytania: czym jest pobożność (ponownie źle sformułowaną, bo wskazującą 
+                                    na konkretne przykłady pobożnego działania) oraz do czego dokładnie 
+                                    (13e) służy ona bogom (pytanie to wynika ze zdefiniowania pobożności jako ὑπηρετικὴ θεραπεία, zob. 13d–14a). Zwolennicy interpretacji 
+                                    Eutyfrona jako postaci reprezentującej prymitywne, merkantylistyczne 
+                                    rozumienie ofiary z pewnością woleliby, żeby Eutyfron powiedział, że 
+                                    służy ona dobrobytowi, wieszczek jednak nie dał im tej satysfakcji. Chyba zwyczajnie dlatego, że wcale tak nie uważał. Biorąc pod uwagę, że 
+                                    wcześniej Eutyfron porównał kult bogów do służby panom, możemy 
+                                    jego poglądy sparafrazować następująco: bogowie dbają o nas i zsyłają 
+                                    nam wszystko, czego potrzebujemy (por. 14e–15a), my oddajemy należną im cześć wyłącznie po to, by uniknąć ich sprawiedliwego gniewu. 
+                                    Niektórzy uczeni sądzą, że chodzi tu o coś mniej nowatorskiego: o tradycyjne przekonanie, że można odwrócić gniew bogów za pomocą ofiar 
+                                    (tak Furley 1985: 207). Wiemy jednak, że Grecy nie składali wszystkich 
+                                    swoich ofiar i nie wznosili wszystkich swoich modlitw, by bogów przebłagać. Czy mamy wierzyć, że Eutyfron uważał inaczej? Jest to mało 
+                                    prawdopodobne nie tylko dlatego, że byłoby to wyjątkowo ekscentryczne, ale również niespójne z analogią między kultem bogów a służbą panom oraz z tym, jak Eutyfron definiuje ofiary w 15a.</p>
+                    <p>     14c: τὸ θύειν δωρεῖσθαί ἐστι τοῖς θεοῖς – „składanie ofiar to obdarowywanie bogów”; jest to chyba najczęściej cytowane zdanie z dialogu, służące uczonym jako ilustracja tezy, iż Grecy postrzegali swoje 
+                        ofiary dla bogów jako dary (por. Gill 1974: 117; Parker 2011: 136; Naiden 2013: 280–281). Podobną definicją ofiary i modlitwy posługują się 
+                        Nieznajomy i Młody Sokrates w dialogu Polityk (290c–d) oraz autor pseudo-Platońskich Definitiones (θυσία θεῷ δόμα θύματος, 415b). 
+                        W Prawach Platon rozszerzył to pojęcie na całość ludzkich aktywności 
+                        nakierowanych na oddawanie czci bogom (Pl. Lg. 716d–e). Tutaj, w Eutyfronie, twierdzenie τὸ θύειν δωρεῖσθαί ἐστι τοῖς θεοῖς jest wspólnym punktem wyjścia dla dwóch skrajnie różnych koncepcji ofiary –
+                        Sokrates przygotowuje sobie nim grunt pod jej handlową definicję (cf.
+                        Jim 2014: 61), podczas gdy dla Eutyfrona twierdzenie to jest tożsame 
+                        z jego rozumieniem ofiary jako γέρας dla bogów (patrz niżej, komentarz do τιμή τε καὶ γέρα).
+                        Formułując (niżej) koncepcję ofiarowania jako wymiany handlowej 
+                        z bogami, Sokrates nie atakuje konwencjonalnej greckiej pobożności, 
+                        tylko jej wypaczenie, za które obwinia dawnych poetów i sobie współczesnych sofistów. Konwencjonalna pobożność, wyrażona w zdaniu 
+                        τὸ θύειν δωρεῖσθαί ἐστι τοῖς θεοῖς, jest w pewnym sensie neutralna 
+                        i podatna na różne interpretacje – na to właśnie, jak sądzę, chciał zwrócić uwagę Platon, prowadząc do zupełnego nieporozumienia między 
+                        bohaterami dialogu. „For the drama (and pathos) to work”, by posłużyć się słowami przywołanego już Furleya (1985: 205 – choć tym razem 
+                        wbrew niemu), Eutyfron musi mieć rację i nie wiedzieć dlaczego, natomiast Sokrates – z rozmysłem ukrywać swą wiedzę.</p>
+                    <p>14e: ἐμπορική, εἰ οὕτως ἥδιόν σοι ὀνομάζειν – „tak, wymiany handlowej, jeżeli podoba ci się taka nazwa” – Eutyfron sądzi, że ἐμπορική 
+                        jest „jedynie nazwą”, nadaną zgodnie z kaprysem Sokratesa (εἰ οὕτως 
+                        ἥδιόν σοι), która nie wpływa na to, jak należy rozumieć pobożność. 
+                        Sokrates zmierza natomiast do jej zredefiniowania na cyniczną modłę. 
+                        Ten fakt umyka tym komentatorom dialogu, którzy uznali koekstensywność poglądów Eutyfrona i Sokratesa w masce cynicznego ofiarnika (Legutko 1998: 92–93; McPherran 2002: 165; Mikalson 2010: 30).
+                        Przymiotnik ἐμπορικός nie oznacza dowolnej formy wymiany, 
+                        lecz coś, co określilibyśmy mianem handlu zagranicznego – według 
+                        definicji z Sofisty ἐμπορική to skup i sprzedaż z jednej polis do innej 
+                        (Soph. 223d). Przedstawienie bogów jako odrębnego bytu politycznego ze wszystkimi tego ekonomicznymi konsekwencjami, tutaj obecne 
+                        jedynie implicytnie, zostało wyrażone wprost w Ptakach Arystofanesa, gdzie Pejsetajros przekonuje Dudka o korzyściach, jakie będą płynąć 
+                        dla ptaków z założenia miasta w chmurach (w. 185–193) – będą one 
+                        mogły obłożyć bogów trybutem, grożąc im blokadą ofiarnego dymu. 
+                        W obu przypadkach ekonomiczna konceptualizacja ofiary jest intencjonalnie absurdalna – Eutyfron ma ją odrzucić, widownia ma się roześmiać.</p>
+                    <p>15a: ἀλλ᾽ οἴει, ὦ Σώκρατες – „chyba nie uważasz, Sokratesie”; ἀλλά 
+                        w pytaniu Eutyfrona rozmaicie bywa oddawane w tłumaczeniach (Legutko: „A czy według ciebie…”; Witwicki: „A czy ty myślisz…”). Postanowiłem oddać je przez zdecydowaną obiekcję, ponieważ tak wypowiedź Eutyfrona zrozumiał Sokrates: w kolejnym zdaniu pyta „No to 
+                        [ἀλλὰ τί δήποτε] czym właściwie miałyby być te nasze dary dla bogów, 
+                        Eutyfronie?”. Niezależnie od tłumaczenia nie sposób zaprzeczyć, że 
+                        wieszczek jest zdziwiony pomysłem Sokratesa.
+                        τιμή τε καὶ γέρα – „czcią i jej oznakami” (dosł. „czcią i darami honorowymi”); pojęcia te zostały użyte przez Eutyfrona w wyraźnie komplementarnym połączeniu, dlatego nie możemy widzieć w słowie γέρας 
+                        (l. mn. γέρα) jedynie redundantnego powtórzenia słowa „dar” z pytania 
+                        Sokratesa. Podstawowym sensem τιμή jest cześć i uznanie, wynikające 
+                        z określonej hierarchizacji (cf. Pl. Lg. 696e i 697b, gdzie widać to szczególnie wyraźnie), a γέρα stanowią jej materialne odzwierciedlenie (cf.
+                        Rudhardt 1992: 57). Γέρας nie jest bowiem „zwykłym” darem (δῶρον). 
+                        Cechuje go szczególna nadwyżka semantyczna: γέρας to dar, który 
+                        w pierwszej kolejności uwypukla wyjątkową pozycję społeczną obdarowanego. Z regulacji kultowych wiemy, że słowem tym określano dary 
+                        honorowe należne przewodzącym ofierze kapłanom (zob. SEG XXXV 
+                        923 A.9, LSS 19.27–28; Lupu 2009; Daux 1963; Gill 1974; Ekroth 2002). 
+                        Poza kontekstem inskrypcyjnym słowo pojawia się głównie w poezji. 
+                        Wydaje się, że sposób, w jaki Eutyfron rozumie γέρας, ukształtowany 
+                        został właśnie przez poezję, której był znawcą i interpretatorem (vide 
+                        supra). W Iliadzie γέρα przysługują w pierwszej kolejności bogom i królom (βασιλέες) – nie jako zwykłe prezenty czy łupy, lecz widome znaki ich statusu, rozpoznawanego i potwierdzanego przez innych członków społeczności (Benveniste 2011: 127–129; Ekroth 2011: 28–29; por. też h.Hom. 29.4: καλὸν ἔχουσα γέρας καὶ τίμιον, o Hestii otrzymującej 
+                        pierwszą i ostatnią libację podczas posiłków).</p>
+                    <p>15a: καί, ὅπερ ἐγὼ ἄρτι ἔλεγον, χάρις – „oraz, jak przed chwilą 
+                        powiedziałem, przyczyną radości”; tłumaczę charis jako „przyczyna 
+                        radości”, idąc w ślady Loewa (1908: 2 – „χάρις in universum id est 
+                        quod laetitiam efficit”). Słownikowo poprawne jest również tłumaczenie charis jako „wdzięczność”, ma ono jednak dwie wady. Po pierwsze, 
+                        w polskim słowie „wdzięczność” nie sposób przekazać etymologicznego związku charis i chaireo („radować się”). Po drugie, Eutyfron sam 
+                        informuje nas, że chodzi mu o χάρις implikowaną przez κεχαρισμένα 
+                        („rzeczy miłe bogom”, czyli takie, które sprawiają im radość), o których mówił wcześniej.
+                        
+                        
+                            </p>
+                </div>
+                
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

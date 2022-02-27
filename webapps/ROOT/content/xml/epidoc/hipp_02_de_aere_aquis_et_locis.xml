@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Corpus Hippocraticum, De aere, aquis et locis</title>
+                <title xml:lang="en">Corpus Hippocraticum, De aere, aquis et locis</title>
+                <title xml:lang="pl">Corpus Hippocraticum, De aere, aquis et locis</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hipp_02_de_aere_aquis_et_locis</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Corpus Hippocraticum</title>, in Przemysław Biernat, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Corpus Platonicum. Corpus Hippocraticum</title>, Warszawa 2017, pp. 181-193 [188-191]</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded in XML</change>
+                <change when="2017" who="Przemysław Biernat">written contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!--xml:lang="pl"-->
+                <div type="textpart" n="intro">
+                    <p>Traktat De aere, aquis et locis (O powietrzu, wodach i okolicach) 
+                        można podzielić na dwie części. Pierwszą, poświęconą wpływowi 
+                        środowiska na zdrowie człowieka, oraz drugą – o charakterze po 
+                        części etnograficznym. Z niej właśnie, a dokładniej z opisu kultury 
+                        scytyjskich Sauromatów, pochodzą cytowane fragmenty. Chociaż 
+                        wykopaliska wydają się potwierdzać istnienie rzeczywistości spo-łecznej, która dała początek wyobrażeniom Greków o Amazonkach 
+                        z północy, czytając etnograficzne opisy autora, powinniśmy pamię-tać, że Scytowie byli dlań nie tylko (o ile w ogóle) przedmiotem bez-interesownego zainteresowania, lecz także (a pewnie przede wszyst-kim) innym kulturowym. Przedmiotem kontrowersji pozostaje, czy
+                        De aere, aquis et locis i De morbo sacro wyszły spod pióra jednego au-tora (zob. Ducatillon 1977; van der Eijk 1991) oraz, jeżeli tak, które 
+                        z dzieł jest wcześniejsze (zob. Jouanna 1996: 73). Jouanna, sugerując 
+                        się złożonością obecnej w dziele refleksji nad wojnami perskimi i an-tytezą nomos – physis, umieścił powstanie traktatu przed 430 r. p.n.e., 
+                        sytuując jego autora w połowie drogi między Herodotem a Tukidy-desem (ibidem: 79–82). 
+                        Tekst na podstawie wydania: Jouanna (1996).
+                        
+                     </p>
+                </div>
+                <div type="textpart" n="De_aere,_aquis_et_locis_17.1">
+                    <head>De aere, aquis et locis 17.1</head>
+                    
+                    <quote>τούτων αἱ γυναῖκες ἱππάζονταί τε καὶ τοξεύουσι καὶ ἀκοντίζουσιν 
+                        ἀπὸ τῶν ἵππων καὶ μάχονται τοῖσι πολεμίοισι, ἕως ἂν παρθένοι 
+                        ἔωσιν. οὐκ ἀποπαρθενεύονται δέ μέχρις ἂν τῶν πολεμίων τρεῖς 
+                        ἀποκτείνωσι, καὶ οὐ πρότερον συνοικέουσιν ἤπερ τὰ ἱερὰ θύσωσι
+                        τὰ ἐν νόμῳ.</quote>
+                    <quote>       Ich kobiety jeżdżą konno, strzelają z łuku, miotają pociski z końskiego 
+                        grzbietu oraz walczą z wrogami tak długo, jak długo są pannami. Nie 
+                        tracą zaś dziewictwa, dopóki nie zabiją trzech wrogów, i nie wychodzą 
+                        za mąż, nim nie złożą takich ofiar, które są przewidziane zwyczajem.</quote>
+                    <p>τὰ ἱερὰ θύσωσι τὰ ἐν νόμῳ – „złożą takich ofiar, które są prze-widziane zwyczajem”; ofiara towarzyszy tutaj przejściu jednostki do 
+                        nowej roli społecznej. Obecność dopełnienia do czasownika θύειν wy-nika ze specyfikacji ofiary – chodzi o ἱερὰ ἐν νόμῳ. Również grecka 
+                        ceremonia zaślubin (gamos) poprzedzona była ofiarą (proteleia, zob. 
+                        Dillon 2002: 215–219; Parker 2005: 440–441)</p>
+                </div>
+                <div type="textpart" n="De_aere,_aquis_et_locis_22.10">
+                    <head>De aere, aquis et locis 22.10</head>
+                    <p>Poniższy passus dotyczy źródeł impotencji wśród scytyjskich elit. 
+                        Autor, polemizując z poglądem, że impotencja jest chorobą zsyłaną 
+                        przez bogów, powołuje się na podzielane przez Greków przekonanie, 
+                        że bogowie odwzajemniają ofiary. Kontrowersje wśród uczonych bu-dzi stosunek samego autora do tego przekonania</p>
+                    <quote>καίτοι ἐχρῆν, ἐπεὶ θειότερον τοῦτο τὸ νόσευμα τῶν λοιπῶν ἐστιν, 
+                        οὐ τοῖς γενναιοτάτοις τῶν Σκυθέων καὶ τοῖς πλουσιωτάτοις 
+                        προσπίπτειν μούνοις, ἀλλὰ τοῖς ἅπασιν ὁμοίως, καὶ μᾶλλον 
+                        τοῖσιν ὀλίγα κεκτημένοισιν, εἰ δὴ τιμώμενοι χαίρουσιν οἱ θεοὶ 
+                        καί θαυμαζόμενοι ὑπ᾽ ἀνθρώπων καὶ ἀντὶ τούτων χάριτας 
+                        ἀποδιδόασιν. εἰκὸς γὰρ τοὺς μὲν πλουσίους θύειν πολλὰ τοῖσι 
+                        θεοῖσι καὶ ἀνατιθέναι ἀναθήματα ἐόντων χρημάτων καὶ τιμέων, 
+                        τοὺς δὲ πένητας ἧσσον διὰ τὸ μὴ ἔχειν</quote>
+                    <quote>Gdyby ta choroba [scil. impotencja] była bardziej boska od innych, 
+                        nie dotykałaby tylko najlepiej urodzonych i najbogatszych spośródScytów, lecz wszystkich jednakowo, a nawet w większym stopniu 
+                        ubogich, jeżeli bogowie radują się oznakami czci i podziwu i odwza-jemniają się za nie. Bo prawdą jest, że ludzie zamożni, mając pieniądze 
+                        i stanowiska, składają bogom wiele ofiar i darów wotywnych, biedni 
+                        zaś [robią to] w mniejszym stopniu, ponieważ nie mają pieniędzy</quote>
+                    <p>τιμώμενοι χαίρουσιν – „radują się oznakami czci” (dosł. „uczcze-ni”); τιμή i χάρις to pojęcia właściwe tradycyjnemu przedstawianiu 
+                        charakteru relacji między człowiekiem a bóstwem: bóstwu należy się 
+                        cześć (τιμή), okazywanie jej sprawia mu radość (χαίρω), którą od-wzajemnia, zsyłając człowiekowi dobra, wzajemność ta nie ma jednak 
+                        charakteru automatycznego i z różnych powodów może zostać zawie-szona (zob. Naiden 2013: 131 i nn.; Jim 2014: 65). Użyty przez auto-ra czasownik χαίρω jest jednym ze słów kluczy, odsyłających nas do 
+                        istniejącej między bogami a ludźmi relacji wzajemności, którą budo-wały i podtrzymywały akty pobożności, w tym ofiara (por. inskrypcję 
+                        wotywną hῶι χαίροσα διδοίες ἄλλο ἀναθῆναι, „radując się darem, 
+                        pozwól dać następny”, IG I3
+                        728, oraz frazę z hymnów homeryckich 
+                        καὶ σὺ μὲν οὕτω χαῖρε θεαί θ᾽ ἅμα πᾶσαι ἀοιδῇ, „ty i inne boginie 
+                        uradujcie się pieśnią”, h.Hom. 9.6 = 14.6). Aspekt radości, wdzięczno-ści i życzliwości, obecny w tradycyjnym języku mówienia o darze dla 
+                        bogów, jest nie do pogodzenia z czysto merkantylistycznym pojmo-waniem ofiary (zob. Jim 2014: 67). Mimo to wielu uczonych, zwłaszcza 
+                        historyków filozofii zajmujących się kwestiami teologicznymi w pi-smach Platona, jest przekonanych, że intelektualiści tamtej doby, ata-kując wiarę w przekupność bogów, krytykowali tradycyjne wierzenia 
+                        (tak Vlastos 1991: 174–178; por. McPherran 2002; krytycznie do ich in-terpretacji odniosła się Lännström 2011), co pozostaje nie bez wpływu 
+                        na interpretację passusu z De aere (patrz niżej).
+                        χάριτας ἀποδιδόασιν – „odwzajemniają się” (dosł. „okazu-ją wdzięczność w zamian za”); kolejna typowa dla języka religijnej 
+                        wzajemności fraza (por. inskrypcję χάριν ἀντιδιδός, „[składam ten 
+                        dar] odpłacając charis”, IG I3
+                        872). O ile przekonanie, że kult bogów 
+                        jest formą okazania im czci, nie budzi kontrowersji w ustach hippo-kratejskiego autora, o tyle twierdząc, że bogowie odwzajemniają się 
+                        ludziom stosownie do okazanej im czci, autor traktatu naraził się na 
+                        zarzut o wulgarność w myśleniu o bogach. Z tego powodu Jeanne Du-catillon argumentowała za ironicznym odczytaniem tej wypowiedzi 
+                        (1977: 155–156). Takie odczytanie passusu było ściśle związane z prze-konaniem uczonej, że De morbo sacro i De aere musiały zostać napisane 
+                        przez dwóch autorów. Philip van der Eijk, który tego przekonania nie 
+                        podzielał, podjął się obrony szczerości twierdzeń hippokratejczyka 
+                        o bogach, którzy radują się oznakami czci i je odwzajemniają (van der 
+                        Eijk 1991). Jak zauważył, nie ma językowych przesłanek, by traktować 
+                        słowa autora jako ironiczne, a fakt, że Ducatillon uznała to za „ewi-dentne”, wynika zapewne z apriorycznego wyobrażenia o tym, jakie 
+                        powinny być religijne przekonania ludzi „światłych” (van der Eijk 
+                        1991: 170–174).</p>
+                </div>          
+            </div>
+            
+        </body>
+    </text>
+</TEI>

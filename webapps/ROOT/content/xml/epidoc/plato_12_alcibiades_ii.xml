@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Pseudo-Platone, Alcibiades II (Ἀλκιβιάδης βʹ, Alcibiade II)</title>
+                <title xml:lang="en">Pseudo-Plato, Alcibiades II (Ἀλκιβιάδης βʹ, Alcibiades II)</title>
+                <title xml:lang="pl">Pseudo-Platon, Alcibiades II (Ἀλκιβιάδης βʹ, Alkibiades Drugi)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">plato_12_alcibiades_ii</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Pseudo-Platon, Alcibiades II (Ἀλκιβιάδης βʹ, Alkibiades Drugi)</title>, in Przemysław Biernat, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Corpus Platonicum. Corpus Hippocraticum</title>, Warszawa 2017, pp. 157-168</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded in XML</change>
+                <change when="2017" who="Przemysław Biernat">written contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!--xml:lang="pl"-->
+                <div type="textpart" n="intro">
+                    <p>Powstanie utworu datowane jest na okres między 312 r. p.n.e. a latami 
+                        siedemdziesiątymi III w. p.n.e. (Neuhausen 2010: 239–242), pierwszym 
+                        zaś wydawcą dialogów Platona, który umieścił wśród nich Alkibiadesa 
+                        Drugiego, był Thrazyllos z Mendes (D. L. 3.56–61), utalentowany astrolog, który działał na dworze Tyberiusza (por. Tacyt, Annales 6.21).
+                        Dialog rozpoczyna się spotkaniem Sokratesa z Alkibiadesem, idącym z zamiarem złożenia ofiary. Widząc jego zamyśloną minę, Sokrates sugeruje, że Alkibiades z pewnością rozważa największą zagadkę 
+                        (megiste synnoia, dosł. „największe rozmyślanie”), a mianowicie dlaczego bogowie nie każdemu dają to, o co prosi, i nie zawsze wszystko 
+                        to, o co prosi (138b). W toku dyskusji Sokrates przekonuje Alkibiadesa, że człowiek, który nie wie, co jest dla niego naprawdę dobre, może 
+                        nieświadomie prosić bogów o największe zło, i tym samym odwodzi 
+                        od powziętego zamiaru złożenia ofiary. W ten sposób autor Alkibiadesa 
+                        Drugiego przedstawia problem zaangażowania bogów w sprawy ludzi 
+                        w perspektywie nie, jak to się zazwyczaj czyniło, teologicznej (dlaczego bogowie nie zawsze dają to, o co prosimy), lecz antropologicznej 
+                        (czy możemy wiedzieć, o co prosimy; zob. Zeller 2002: 54–55).
+                        Czas akcji dramatycznej dialogu możemy z pewnością umieścić w 399 r. p.n.e., a więc w roku śmierci Sokratesa. Wskazuje na to 
+                        wzmianka o śmierci króla Macedonii Archelaosa jako wydarzeniu, 
+                        które dopiero miało miejsce (141d). Nie wydaje się, by wzmianka ta 
+                        była bezcelowa: w ten sposób autor dialogu sytuuje jego akcję blisko 
+                        Eutyfrona (zob. wprowadzenie do komentarza), dla którego stanowi swoiste uzupełnienie – w zakończeniu Eutyfrona tytułowy bohater próbował zdefiniować pobożność jako wiedzę o tym, co należyrobić i mówić, modląc się i składając ofiary (ἐὰν μὲν κεχαρισμένα τις 
+                        ἐπίστηται τοῖς θεοῖς λέγειν τε καὶ πράττειν εὐχόμενός τε καὶ θύων, 
+                        ταῦτ᾽ ἔστι τὰ ὅσια, 14b). Sokrates jednak szybko zawęził przedmiot 
+                        ich dyskusji do samych ofiar, ironicznie forsując pogląd, jakoby ofiarowanie było formą wymiany handlowej, w której ludzie i bogowie wymieniają dobra. Autor Alkibiadesa Drugiego nie tylko podejmuje zaniedbany w Eutyfronie wątek modlitwy, ale również uzupełnia dyskusję 
+                        z Eutyfrona o element, którego wyraźnie w niej zabrakło, czyli związek 
+                        pobożności nie tylko, jak chciał wieszczek, z wiedzą, ale również z moralnością ofiarnika (150a–b). Na temat modlitwy w Alkibiadesie Drugim
+                        zob. Zeller (2002), Scrofani (2009).</p><p>Przekład polski: Regner (1973).
+                            Tekst na podstawie wydania: Burnet (1903).</p>
+                </div>
+                <div type="textpart" n="Alcibiades_II_148d–149c">
+                    <head>Alkibiades Drugi 148d–149c:
+                    </head>
+                    <p>W rozmowie poprzedzającej cytowany passus Sokrates nakłaniał 
+                        Alkibiadesa, by ten dobrze przemyślał, o co chce prosić boga. Powołał 
+                        się przy tym na przykład Spartan, którzy rzekomo nigdy nie modlą 
+                        się o nic konkretnego, a tylko o to, co piękne i dobre (148c). Skądinąd 
+                        wiemy, że w ten sposób miał modlić się sam Sokrates (X. Mem. 1.3.2). 
+                        Być może ex post – jako archetypowemu mędrcowi – zalecanie takiej 
+                        modlitwy przypisano też Pitagorasowi (Mikalson 2010: 48). Modlitwa 
+                        Spartan byłaby więc modlitwą filozofów.</p>
+                    
+                    <quote>[148d] […] βούλομαι δέ σοι καὶ ἕτερόν τι διηγήσασθαι, ὅ ποτε 
+                        ἤκουσα τῶν πρεσβυτέρων τινῶν, ὡς Ἀθηναίοις καὶ Λακεδαιμονίοις 
+                        διαφορᾶς γενομένης συνέβαινεν ἀεὶ τῇ πόλει ἡμῶν ὥστε καὶ 
+                        κατὰ γῆν καὶ κατὰ θάλατταν ὁπότε μάχη γένοιτο δυστυχεῖν καὶ 
+                        μηδέποτε δύνασθαι κρατῆσαι· τοὺς οὖν Ἀθηναίους ἀγανακτοῦντας 
+                        τῷ πράγματι καὶ ἀπορουμένους τίνι [148e] χρὴ μηχανῇ τῶν 
+                        παρόντων κακῶν ἀποτροπὴν εὑρεῖν, βουλευομένοις αὐτοῖς δοκεῖν 
+                        κράτιστον εἶναι πέμψαντας πρὸς Ἄμμωνα ἐκεῖνον ἐπερωτᾶν: 
+                        ἔτι δὲ πρὸς τούτοις τάδε, καὶ ἀνθ᾽ ὅτου ποτὲ Λακεδαιμονίοις οἱ 
+                        θεοὶ μᾶλλον νίκην διδόασιν ἢ σφίσιν αὐτοῖς, οἳ πλείστας, φάναι, 
+                        μὲν θυσίας καὶ καλλίστας τῶν Ἑλλήνων ἄγομεν, ἀναθήμασί τε κεκοσμήκαμεν τὰ ἱερὰ αὐτῶν ὡς οὐδένες ἄλλοι, πομπάς τε 
+                        πολυτελεστάτας καὶ σεμνοτάτας ἐδωρούμεθα τοῖς θεοῖς ἀν᾽ 
+                        ἕκαστον ἔτος, καὶ [149a] ἐτελοῦμεν χρήματα ὅσα οὐδ᾽ ἇλλοι 
+                        σύμπαντες Ἕλληνες· Λακεδαιμονίοις δέ, φάναι, οὐδεπώποτ᾽ 
+                        ἐμέλησεν οὐδὲν τούτων, ἀλλ᾽ οὕτως ὀλιγώρως διάκεινται πρὸς 
+                        τοὺς θεούς, ὥστε καὶ ἀνάπηρα θύουσιν ἑκάστοτε καὶ τἆλλα 
+                        πάντα οὐκ ὀλίγῳ ἐνδεεστέρως τιμῶσιν ἤπερ ἡμεῖς, χρήματα 
+                        οὐδὲν ἐλάττω κεκτημένοι τῆς ἡμετέρας πόλεως. ἐπεὶ δὴ εἰρηκέναι 
+                        ταῦτα καὶ ἐπερωτῆσαι τί χρὴ πράττοντας αὐτοὺς τῶν παρόντων 
+                        κακῶν ἀπαλλαγὴν εὑρεῖν, ἄλλο μὲν οὐθὲν ἀποκριθῆναι τὸν 
+                        [149b] προφήτην – τὸν γὰρ θεὸν οὐκ ἐᾶν δῆλον ὅτι – καλέσαντα δὲ 
+                        αὐτόν, Ἀθηναίοις, φάναι, τάδε λέγει Ἄμμων· φησὶν ἂν βούλεσθαι 
+                        αὑτῷ τὴν Λακεδαιμονίων εὐφημίαν εἶναι μᾶλλον ἢ τὰ σύμπαντα 
+                        τῶν Ἑλλήνων ἱερά. τοσαῦτα εἰπεῖν, οὐκέτι περαιτέρω. τήν γ᾽ οὖν 
+                        εὐφημίαν οὐκ ἄλλην τινά μοι δοκεῖ λέγειν ὁ θεὸς ἢ τὴν εὐχὴν 
+                        αὐτῶν· ἔστι γὰρ τῷ ὄντι πολὺ τήν γ᾽ οὖν εὐφημίαν οὐκ ἄλλην 
+                        τινά μοι δοκεῖ λέγειν ὁ θεὸς ἢ τὴν εὐχὴν αὐτῶν· ἔστι γὰρ τῷ ὄντι 
+                        πολὺ [149c] διαφέρουσα τῶν ἄλλων. οἱ μὲν γὰρ ἄλλοι Ἕλληνες 
+                        οἱ μὲν χρυσόκερως βοῦς παραστησάμενοι, ἕτεροι δ᾽ ἀναθήμασι 
+                        δωρούμενοι τοὺς θεούς, εὔχονται ἅττ᾽ ἂν τύχῃ ταῦτα, ἄντε ἀγαθὰ 
+                        ἄντε κακά· βλασφημούντων οὖν αὐτῶν ἀκούοντες οἱ θεοὶ οὐκ 
+                        ἀποδέχονται τὰς πολυτελεῖς ταυτασὶ πομπάς τε καὶ θυσίας. ἀλλὰ 
+                        δοκεῖ μοι πολλῆς φυλακῆς δεῖσθαι καὶ σκέψεως ὅτι ποτὲ ῥητέον 
+                        ἐστὶ καὶ μή.
+                    </quote>
+                    <quote>[148d] […] chciałbym też opowiedzieć ci coś innego, co kiedyś słyszałem od starszych, o tym, jak w konflikcie ze Spartanami nie mieliśmy 
+                        powodzenia ani na lądzie, ani na morzu i nie mogliśmy odnieść zwycięstwa. Otóż Ateńczycy, poirytowani tym faktem, a także bezsilni 
+                        [148e] w znalezieniu sposobu na wydobycie się z kłopotów, naradzili się i uznali, że najlepiej będzie posłać kogoś do słynnej wyroczni 
+                        Ammona, żeby zasięgnął rady oraz dowiedział się, dlaczego bogowie 
+                        zsyłają zwycięstwa Lacedemończykom, a nie nam, którzy, powiedzieli, przeprowadzamy najpiękniejsze ofiary ze wszystkich Hellenów, ozdabiamy świątynie bogów darami wotywnymi jak nikt inny, 
+                        darujemy bogom najkosztowniejsze i najbardziej podniosłe procesje każdego roku, wreszcie [149a] wydajemy więcej pieniędzy niż wszyscy Grecy razem wzięci. Lacedemończycy zaś – ciągnęli dalej – nigdy 
+                        o te rzeczy nie dbali, a wręcz tak lekceważąco odnoszą się do bogów, 
+                        że przy każdej okazji składają im w ofierze ułomne zwierzęta i w ogóle oddają im cześć w dużo mniejszym stopniu, chociaż wcale nie mają 
+                        mniej pieniędzy od nas. Kiedy więc to powiedzieli i zapytali, co trzeba robić, żeby oddalić obecne nieszczęścia, nic innego nie odpowiedział im [149b] wieszcz – oczywiste jest, że bóg nie pozwolił – jak 
+                        tylko „Ateńczykom to powiada Ammon: mówi, że woli zbożne milczenie Lacedemończyków od wszystkich obrzędów Hellenów”. To 
+                        właśnie powiedział i nic poza tym. Moim zdaniem, mówiąc „zbożne 
+                        milczenie”, bóg nie miał na myśli nic innego jak ich modlitwę. I rzeczywiście, [149c] różni się ona bardzo od pozostałych. Bo inni Hellenowie a to przyprowadzają złotorogie bydło, a to obdarowują bogów 
+                        darami wotywnymi, a modlą się przy tym o co bądź, czy to dobre, 
+                        czy złe. Kiedy więc bogowie słyszą, jak tamci bluźnią, nie przyjmują
+                        kosztownych procesji i ofiar. Zdaje mi się więc, że trzeba się pilnować 
+                        i baczyć, co mówić należy, a czego nie wolno.</quote>
+                    <p>148e: θυσίας… ἄγομεν – „przeprowadzamy… ofiary”; w epoce 
+                        klasycznej wyrażenie thysian agein pojawia się wyłącznie u Izokrate
+                     (19.10) i Anaksymenesa z Lampsakos (Rh. Al., 2.7; autorstwo dzieła jest sporne, tradycja przypisała je Arystotelesowi), zapewne z tego 
+                        powodu zostało ono pominięte przez Casabonę w jego Recherches sur 
+                        le vocabulaire des sacrifices en grec (uczony uwzględnia natomiast wystąpienia wyrażeń thysian anagein i thysian prosagein, Casabona 1966: 135). 
+                        Warto przy tym odnotować, że Izokrates posługuje się wyrażeniem 
+                        w znaczeniu „brać udział w ofierze”, a nie „przeprowadzać ofiarę” 
+                        (przekł. – P. Biernat): 
+                        Póki byliśmy dziećmi, pozostawaliśmy w większej zażyłości między 
+                        sobą niż z naszymi braćmi i nie było ofiary, pielgrzymki [teoria] czy jakiegoś innego święta, w którym nie bralibyśmy udziału razem. Skoro 
+                        zaś staliśmy się mężczyznami…
+                        W literaturze późniejszej thysian agein w znaczeniu „przeprowadzać, spełniać ofiary” występuje często (D.S., 4.23; D.H., 2.18.2, 2.19.4; Plut. Sep. sap. 162e, Quaest. Gr., 301e, De exilio 601b; App. Mith. 9.66; 
+                        Paus. 1.42.7, 2.19.5; X.Eph. 5.11; Hld. 5.13.2; Anon. De obsidione toleranda, 
+                        58), głównie tam, gdzie – jak w Alkibiadesie Drugim – istotna z punktu 
+                        widzenia nadawcy jest informacja o powtarzalności ofiar (D.H. 2.19.4; 
+                        Plut. Quaest. Gr., 301e, De exilio 601b, Paus. 1.42.7; Hld. 5.13.2). Natomiast kiedy mowa o ofierze jako jednorazowym wydarzeniu, czasownik agein bywa zastąpiony innym, na przykład poiein lub epitelein (por. 
+                        dwa passusy w D.H.: θυσίας ἄγουσιν ἀνὰ πᾶν ἔτος, 2.19.4 oraz τάς 
+                        τε θυσίας ἐπετέλεσε, 2.30.4).</p> 
+                    
+                    <p>149a: ἀνάπηρα θύουσιν ἑκάστοτε – „przy każdej okazji składają 
+                        w ofierze ułomne zwierzęta”; poza nielicznymi przypadkami, kiedy 
+                        przepisy kultowe wymagały od ofiarnika złożenia w ofierze zwierzęcia pod jakimś względem ułomnego (np. Artemida Amarynthia domagała się zwierząt okaleczonych, κολοβά, Ael. NA 12.34), regułą było, że 
+                        zabijane zwierzęta były wolne od wad fizycznych (zob. Broulé, Touzé, 
+                        2008). Teofrast przekazał pogląd, że ofiara ze zwierzęcia ułomnego nie 
+                        przynosi bogom czci (De pietate fr. 12.34–37), natomiast Polluksowi 
+                        udało się zgromadzić w Onomastykonie aż jedenaście przymiotników 
+                        określających pożądany stan fizyczny zwierząt nadających się na ofia-rę (Pollux 1.29, zob. obszerny komentarz do hasła Polluksa w Feyel 
+                        2006). Imperatyw, który nakazywał Grekom składać w ofierze zwie-rzęta o jak najlepszych cechach fizycznych, jest zapewne ugruntowany 
+                        w powszechnym rozumieniu ofiary jako daru, który ma sprawić bogu 
+                        radość i przyjemność (charis).
+                        Informacja, że Lacedemończycy składają w ofierze zwierzęta 
+                        ułomne „przy każdej okazji”, nie oznacza, że składają wyłącznie ta-kie zwierzęta, a jedynie dopuszczają ich ofiarowanie także wtedy, gdy 
+                        nie jest to wymóg przepisany prawem konkretnego kultu bądź święta. 
+                        Ekroth (2014: 332) zasugerowała, że praktyka ta mogła mieć motywację natury ekonomicznej, choć są i tacy, którzy odrzucają prawdziwość 
+                        tej wzmianki (np. Broulé, Touzé 2008: 122). Niewątpliwie pasuje ona 
+                        do wizerunku wyidealizowanej spartańskiej pobożności, kreowanego 
+                        przez ateńskich intelektualistów (por. X. Ages. 11.2). Na temat religii 
+                        i religijności spartańskiej zob. Flower (2009), Richer (2012).
+                        
+                    </p>
+                    <p>149b: εὐφημίαν – „zbożne milczenie”; pojęcie euphemia (dosł. 
+                        „dobrze-mówienie”) oznacza stosowanie języka odpowiadającego 
+                        religijnemu charakterowi zgromadzenia (preserving decorum, Naiden 
+                        2013: 149), co często sprowadzało się do powstrzymywania się od wy-powiadania słów nieodpowiednich (Benveniste 1966: 308–314; Pulleyn 
+                        1997: 184; Zeller 2002: 57; Mikalson 2010: 59). Tak więc chociaż euphe-mia bywa tłumaczona na język polski jako „zbożne milczenie”, milcze-nia jednoznacznie nie implikuje i nie należy jej mylić z cichą modlitwą 
+                        (na co zwraca uwagę Trzcionkowski 2004: 512–514).
+                        Sokrates sugeruje, że wyrocznia Ammona posłużyła się słowem 
+                        euphemia jako metaforą, w rzeczywistości mając na myśli modlitwę 
+                        Lacedemończyków. Dokonuje tym samym interpretacji kończącej 
+                        opowiadanie wyroczni tak, aby można ją było odnieść do rozmowy, 
+                        którą prowadził z Alkibiadesem na temat modlitwy. Nie jest to zresz-tą jedyne miejsce w dialogu, w kórym autor przekonuje nas, że do-słowne brzmienie tekstu nie jest tym właściwym – wcześniej (147b–d) 
+                        zreinterpretował on sens kilku wersów przypisywanego Homerowi 
+                        Margitesa. Nie wiadomo, czy w ten sposób anonimowy autor dał wy-raz własnej pasji alegorycznej (na temat alegorezy jako powszechnej 
+                        w starożytności metody lektury zob. Struck 2004), którą zresztą po-dzielałby z wieloma greckimi intelektualistami, czy jedynie uczynił 
+                        zadość pierwowzorowi – Sokrates Platona również często robi użytek 
+                        z tej metody interpretacyjnej. Modlitwa Lacedemończyków, w której 
+                        proszą oni ogólnie o rzeczy piękne i dobre, jest modlitwą na wskroś 
+                        filozoficzną – tradycja doksograficzna przypisała zalecanie takowej już 
+                        Pitagorasowi (Mikalson 2010: 48), a według Ksenofonta w ten sposób 
+                        modlił się historyczny Sokrates (X. Mem. 1.3.2).
+                        W kontekście opowiadania, w którym występuje, wyrocznia Am-mona wydaje się po prostu potwierdzać, że bóg woli ofiary Spartan. 
+                        Nie znaczy to oczywiście, że użyte przez wyrocznię słowo euphemia
+                        nie domaga się interpretacji. Jako ściśle związana z rytuałem forma 
+                        zachowania, euphemia może stanowić metonimię ofiary, zarazem me-taforycznie wskazując na to, co bóg szczególnie upodobał sobie w ofia-rach Lacedemończyków – umiarkowanie. Kontrast zbudowany jest 
+                        dodatkowo przez przeciwstawienie pojedynczego elementu rytuału 
+                        (euphemia), który na dodatek definiuje się jako brak czegoś (brak nieod-powiednich słów), rzeczownikowi zbiorczemu ta hiera, który obejmuje 
+                        wszystkie religijne obrzędy.
+                        Opowiadanie przytoczone przez autora Alkibiadesa Drugiego nie 
+                        jest odosobnione w greckiej tradycji. Na schemacie historii o bogaczu, 
+                        który dowiaduje się od wyroczni w Delfach, że bóg upodobał sobie 
+                        ofiary pobożnych ubogich, zbudowane są opowiastki, które za Teo-frastem (De piet., fr. 7.47–53) i Teopompem (FGrH 115 F 344) przyta-cza Porfiriusz (Porph. Abst. 2.15–16; zob. komentarz Mikalsona 2010: 
+                        63–64). Podania tego rodzaju mogły krążyć wśród Greków, stanowiąc 
+                        naturalne remedium na poczucie nierównych szans w komunikacji 
+                        z bogami opartej na darowaniu. Wydaje się, że również historyczny 
+                        Sokrates otwarcie głosił, że bogowie nie preferują kosztownych ofiar – 
+                        takim przedstawia go Ksenofont w Memorabiliach (Mem. 1.3.3; Neuhau-sen 2010: 152–167; por. też X. Smp. 4.49 – Hermogenes przekonuje, że 
+                        bogowie darzą go szczególną opieką, a zapytany, w jaki sposób to 
+                        osiągnął, odpowiada, że „bardzo tanio”, μάλα εὐτελῶς, mianowicie 
+                        chwaląc ich, dzieląc się z nimi tym, co od nich dostaje, oraz unikając 
+                        krzywoprzysięstwa).
+                        Ponieważ autor dialogu dokonuje reinterpretacji przytoczonego 
+                        opowiadania, wydaje się, że nie on jest jego autorem. Dobór boha-terów i sposób, w jaki przydzielono im role, wskazuje, że powstało 
+                        w środowisku sympatyzującym ze Spartą – być może w samej Akade-mii. Lakońskiego kolorytu dodaje opowiadaniu wyrocznia Ammona, 
+                        zamiast dużo bardziej oczywistej (z punktu widzenia czytelnika ateń-skiego) wyroczni delfickiej (która pojawia się w analogicznych poda-niach). Pauzaniasz, który wspomina o dwóch świątyniach tego boga 
+                        na terenie Lakonii (3.18.3, 3.21.8), stwierdza również, że Lacedemoń-czycy „od początku” (ap’ arches), czyli zapewne odkąd tylko powstała 
+                        (lub po prostu „od zawsze”), konsultują wyrocznię boga w Libii czę-ściej niż inni Grecy. Chociaż pierwsza historycznie poświadczona kon-sultacja, dokonana przez Lizandra, odbyła się dopiero w 405 r. p.n.e., 
+                        polityczne związki Sparty i Libii są na pewno starsze (tak Parke 1967: 
+                        210–211). Opowiadanie o wizycie Ateńczyków w przybytku Ammo-na nie jest nam znane skądinąd, ale istnieje przesłanka, by sądzić, żew czasach współczesnych autorowi krążyły jakieś warianty wyroczni 
+                        rzekomo udzielonej im przez boga – przemawia za tym fakt, że Sokra-tes podkreśla (dwukrotnie), że Ammon powiedział właśnie to, co zo-stało przezeń przytoczone, i nic innego. Można tylko spekulować, czy 
+                        owo „coś innego” (oraz stosowna tego interpretacja) nie pojawiło się 
+                        w nieznanym nam piśmie innego autora, z którym autor dialogu pod-jąłby w tym miejscu polemikę. Byłby to zarazem chwyt dobrze pod-patrzony u samego Platona – zakończenie Fedona, w którym w ostat-nich słowach Sokrates przypomina o kogucie, którego „jesteśmy winni 
+                        Asklepiosowi”, a następnie zapytany, czy chciałby powiedzieć coś 
+                        jeszcze, milczy, mogło służyć właśnie podważeniu prawdziwości krą-żących wówczas wariantów „ostatnich słów Sokratesa” i legitymizacji 
+                        Platona (który był nieobecny z powodu choroby) jako namaszczonego 
+                        sukcesora tradycji sokratycznej (tak Most 1993, zob. też komentarz do 
+                        Fedona). </p>
+                    <p>149b: ἱερά – „obrzędy”; chociaż rzeczownik hiera (dosł. „rzeczy 
+                        święte”) może oznaczać po prostu ofiary, tutaj użyty jest w znaczeniu 
+                        szerokim, obejmującym wszystkie obrzędy i przejawy czci, o których 
+                        mówili Ateńczycy (Trzcionkowski 2004: 512).</p>
+                    <p>149c: χρυσόκερως βοῦς – „złotorogie bydło”; połączenie bydła, 
+                        najdroższego ze zwierząt ofiarnych, i złota, najcenniejszego kruszcu, 
+                        tworzy metonimię kosztownych ofiar, które na próżno składają inni 
+                        Grecy (por. Thphr. De piet., fr. 7.47–53). Bydło dominuje również w ide-alistycznych przedstawieniach ofiary w attyckiej ikonografii wazowej 
+                        (61,7% zachowanych przedstawień). Pozostaje to w rażącym kontra-ście z rzeczywistością kultową Attyki, gdyż zaledwie 7,4% wszystkich 
+                        zwierząt wymienionych w pięciu zachowanych attyckich kalenda-rzach ofiarnych to bydło (dane za: van Straten 1995: 172–174).
+                        βλασφημούντων – „gdy bluźnią”; blasphemia, mówienie rzeczy 
+                        niestosownych i nieodpowiednich (dosłownie „krzywdomówienie”) 
+                        stanowi przeciwieństwo euphemia. Związek obu terminów z języko-wym decorum dobrze widać w ich metaforycznym użyciu u Pseudo-Demostenesa (25.26). Mówca stwierdza tam, że gdyby każdy uważaże wolno mówić i robić, co się chce (λέγειν καὶ ποιεῖν ὅ τι ἂν βούληταί 
+                        τις, 25.25), uznawał swoją wolę za prawo (nomos), obecna euphemia 
+                        i porządek (taksis) zostałyby zastąpione przez blasphemia – w tym 
+                        przypadku oczywiście nie bluźnierstwo, tylko szkodliwy (gr. blabon) 
+                        dla życia społecznego chaos.
+                        Blasphemia popełniona w trakcie rytuału mogła być odczytana jako 
+                        zły omen (tak w E. Ion 1189 i Pl. Lg. 800b–c), ale niekoniecznie, jak tutaj, 
+                        znak odrzucenia ofiary przez bogów.
+                        οὐκ ἀποδέχονται – „nie przyjmują”; nie tylko ofiary, lecz także 
+                        inne formy pobożności konceptualizowane były przez Greków jako 
+                        dary dla bogów – stąd bogowie mogli „nie przyjąć” procesji.</p>
+
+                </div>
+                
+             
+                <div type="textpart" n="Alcibiades_II_149c–150b">
+                    <head>Alkibiades Drugi  149c–150b</head>
+                    <p>Poniższy passus następuje bezpośrednio przed komentowanym 
+                        wyżej, ale dla wygody czytelnika oba ustępy zostały rozdzielone.</p>
+                    <quote>εὑρήσεις δὲ καὶ παρ᾽ Ὁμήρῳ ἕτερα παραπλήσια τούτοις [149d] 
+                        εἰρημένα. φησὶν γὰρ τοὺς Τρῶας ἔπαυλιν ποιουμένους ἔρδειν 
+                        ἀθανάτοισι τεληέσσας ἑκατόμβας, τὴν δὲ κνῖσαν ἐκ τοῦ πεδίου τοὺς 
+                        ἀνέμους φέρειν οὐρανὸν εἴσω ἡδεῖαν· τῆς δ᾽ οὔ τι θεοὺς μάκαρας 
+                        δατέεσθαι, οὐδ᾽ ἐθέλειν· μάλα γάρ σφιν ἀπήχθετο Ἴλιος ἱρὴ [149e] 
+                        καὶ Πρίαμος καὶ λαὸς ἐυμμελίω Πριάμοιο. ὥστε οὐδὲν αὐτοῖς ἦν 
+                        προύργου θύειν τε καὶ δῶρα τελεῖν μάτην, θεοῖς ἀπηχθημένους. οὐ 
+                        γὰρ οἶμαι τοιοῦτόν ἐστι τὸ τῶν θεῶν ὥστε ὑπὸ δώρων παράγεσθαι 
+                        οἷον κακὸν τοκιστήν· ἀλλὰ καὶ ἡμεῖς εὐήθη λόγον λέγομεν, 
+                        ἀξιοῦντες Λακεδαιμονίων ταύτῃ περιεῖναι. καὶ γὰρ ἂν δεινὸν εἴη 
+                        εἰ πρὸς τὰ δῶρα καὶ τὰς θυσίας ἀποβλέπουσιν ἡμῶν οἱ θεοὶ ἀλλὰ 
+                        μὴ πρὸς τὴν ψυχήν, ἄν τις ὅσιος καὶ δίκαιος ὢν [150a] τυγχάνῃ. 
+                        πολλῷ γε μᾶλλον οἶμαι ἢ πρὸς τὰς πολυτελεῖς ταύτας πομπάς 
+                        τε καὶ θυσίας, ἃς οὐδὲν κωλύει πολλὰ μὲν εἰς θεούς, πολλὰ δ᾽ εἰς 
+                        ἀνθρώπους ἡμαρτηκότας καὶ ἰδιώτην καὶ πόλιν ἔχειν ἀν᾽ ἕκαστον 
+                        ἔτος τελεῖν· οἱ δέ, ἅτε οὐ δωροδόκοι ὄντες, καταφρονοῦσιν ἁπάντων 
+                        τούτων, ὥς φησιν ὁ θεὸς καὶ θεῶν προφήτης. κινδυνεύει γοῦν καὶ 
+                        παρὰ θεοῖς καὶ παρ᾽ ἀνθρώποις τοῖς νοῦν ἔχουσι δικαιοσύνη τε 
+                        [150b] καὶ φρόνησις διαφερόντως τετιμῆσθαι· φρόνιμοι δὲ καὶ δίκαιοι οὐκ ἄλλοι τινές εἰσιν ἢ τῶν εἰδότων ἃ δεῖ πράττειν καὶ 
+                        λέγειν καὶ πρὸς θεοὺς καὶ πρὸς ἀνθρώπους</quote>
+                    <quote>Także u Homera znajdziesz wiele podobnych [149d] opowieści. Mówi 
+                        on na przykład, że Trojanie założyli obóz, „gdzie nieśmiertelnym 
+                        w ofierze wnet hekatombę złożyli”, wiatr zaś unosił do nieba dym 
+                        „wonny, lecz bogi nie chcieli podzielić go między siebie, bardzo im 
+                        bowiem niemiły był święty gród Troi [149e] i Priam, lud Priama zbroj-nego we włócznię z drewna jesionu”. Tak więc na nic było im spełniać 
+                        ofiary i składać dary, kiedy bogowie ich nienawidzili. Nie wydaje mi 
+                        się bowiem, żeby bogowie dawali się wodzić z powodu jakichś da-rów, jak pierwszy lepszy lichwiarz. Również i my mówimy głupstwo, 
+                        sądząc, że przy ich pomocy zwyciężymy Lacedemończyków. Byłoby 
+                        bowiem straszne, gdyby bogowie patrzyli na nasze dary i ofiary raczej 
+                        niż na nasze dusze: na to, czy ktoś jest pobożny i sprawiedliwy. [150a] 
+                        Więc raczej na to patrzą niż na kosztowne procesje i ofiary, które lu-dzie prywatni i miasta mogą bez przeszkód spełniać każdego roku, 
+                        pomimo że bardzo zawinili wobec bogów czy ludzi. Bogowie zaś są 
+                        nieprzekupni i gardzą tym wszystkim, jak stwierdził Ammon i jego 
+                        wieszcz. Nie można więc wykluczyć, że zarówno bogowie, jak i lu-dzie rozumni w sposób szczególny cenią sobie sprawiedliwość [150b] 
+                        i mądrość. Bo mądrzy i sprawiedliwi to właśnie ci, którzy wiedzą, co 
+                        należy robić i mówić wobec bogów i ludzi</quote>
+                    <p>Także u Homera znajdziesz wiele podobnych [149d] opowieści. Mówi 
+                        on na przykład, że Trojanie założyli obóz, „gdzie nieśmiertelnym 
+                        w ofierze wnet hekatombę złożyli”, wiatr zaś unosił do nieba dym 
+                        „wonny, lecz bogi nie chcieli podzielić go między siebie, bardzo im 
+                        bowiem niemiły był święty gród Troi [149e] i Priam, lud Priama zbroj-nego we włócznię z drewna jesionu”. Tak więc na nic było im spełniać 
+                        ofiary i składać dary, kiedy bogowie ich nienawidzili. Nie wydaje mi 
+                        się bowiem, żeby bogowie dawali się wodzić z powodu jakichś da-rów, jak pierwszy lepszy lichwiarz. Również i my mówimy głupstwo, 
+                        sądząc, że przy ich pomocy zwyciężymy Lacedemończyków. Byłoby 
+                        bowiem straszne, gdyby bogowie patrzyli na nasze dary i ofiary raczej 
+                        niż na nasze dusze: na to, czy ktoś jest pobożny i sprawiedliwy. [150a] 
+                        Więc raczej na to patrzą niż na kosztowne procesje i ofiary, które lu-dzie prywatni i miasta mogą bez przeszkód spełniać każdego roku, 
+                        pomimo że bardzo zawinili wobec bogów czy ludzi. Bogowie zaś są 
+                        nieprzekupni i gardzą tym wszystkim, jak stwierdził Ammon i jego 
+                        wieszcz. Nie można więc wykluczyć, że zarówno bogowie, jak i lu-dzie rozumni w sposób szczególny cenią sobie sprawiedliwość [150b] 
+                        i mądrość. Bo mądrzy i sprawiedliwi to właśnie ci, którzy wiedzą, co 
+                        należy robić i mówić wobec bogów i ludzi pogląd). Obecnie uważa się, że stanowią one pozostałość jednej z licz-nych Iliad, jakie istniały przed popularyzacją tzw. wulgaty po 150 r. 
+                        p.n.e. (Haslam 1997: 64, 74). Charakterystyczna dla tamtych tekstów 
+                        Iliady była większa względem recenzji Arystarcha objętość, przy czym 
+                        dodatkowe wersy nie wnosiły nowych wątków do akcji eposu i były 
+                        najczęściej zbudowane na wzór wersów, które odnajdujemy w wulga-cie (Lamberton 1997: 34) – przekazany przez autora Alkibiadesa Drugie-go fragment również wykazuje tę prawidłowość (analizę porównaw-czą wersów przeprowadza Kirk 1995: 340). W komentarzu do ósmej 
+                        księgi Iliady Kirk zauważa też, że wersy z Alkibiadesa zawierają obcą 
+                        Homerowi ideę dzielenia przez bogów ofiarnego dymu, jak gdyby 
+                        było to coś materialnego (Kirk 1995: 340, comm. ad loc.; contra: Naiden 
+                        2013: 112, przyp. 171).
+                        Cytowane heksametry mają stanowić egzemplifikację tezy Sokrate-sa, że bogowie nie patrzą na ofiary, lecz na ofiarnika. Z całą pewnością 
+                        autor Alkibiadesa Drugiego nawiązuje w tym miejscu do Państwa, w któ-rym Adejmantos również u Homera znalazł poparcie dla tezy wprost 
+                        przeciwnej (i która w istocie była dla niego czymś strasznym) – że na 
+                        bogów można wpływać ofiarami i modlitwą (R. 364d–e). Nawiązanie 
+                        to uwidocznione jest także na poziomie leksyki – w słowach Sokra-tesa o „człowieku prywatnym i mieście” (ἰδιώτην καὶ πόλιν), którzy 
+                        spełniają ofiary, gdy ciąży na nich przewina (ἡμαρτηκότας), brzmi 
+                        echo cytowanego przez Adejmantosa passusu Homera (ὅτε κέν τις… 
+                        ἁμάρτῃ) i jego własnych słów o „ludziach prywatnych i miastach” 
+                        (ἰδιώτας καὶ πόλεις), którzy za pomocą ofiar oczyszczają się z prze-win (R. 364e–365a).</p>
+                    <p>    149e: τοκιστήν – „lichwiarz”; to jaskrawe i chyba bezprecedenso-we porównanie jest prawdopodobnie aluzją do wypowiedzi Kefalosa 
+                        z pierwszej księgi Państwa, w której Kefalos, zapytany, jaki jest poży-tek z bogactwa, na jednym oddechu wymienia ofiary i pieniądze, któ-re jesteśmy winni bogom i ludziom i które dzięki majątkowi możemy 
+                        słusznie im oddać (R. 331b). Uczciwość w relacjach z innymi ludźmi 
+                        oraz oddawanie bogom i ludziom tego, co im się należy, składają się 
+                        na Kefalosa definicję sprawiedliwości, pierwszą w szeregu definicji 
+                        formułowanych przez rozmówców Sokratesa. Kefalos kończy stwier-dzeniem, że chociaż pieniądze mają również wiele innych zastosowań, 
+                        dla człowieka rozumnego (ἀνδρὶ νοῦν ἔχοντι) właśnie to będzie naj-ważniejsze. Kiedy więc autor Alkibiadesa Drugiego każe Sokratesowi 
+                        stwierdzić, że zarówno bogowie, jak i ludzie rozumni (ἀνθρώποις 
+                        τοῖς νοῦν ἔχουσι, 150a) najwyżej cenią sprawiedliwość, bez wątpienia 
+                        chce polemicznie nawiązać do poglądów Kefalosa. Chociaż postawa 
+                        Kefalosa nie jest ani otwarcie cyniczna, ani prowokacyjna (Kefalos je-dynie zauważa, że bogaci ludzie mogą łatwiej pozwolić sobie na uczci-wość i przyzwoitość), to implikuje istnienie pozytywnej korelacji mię-dzy bogactwem a byciem miłym bogom. W kolejnej księdze Glaukon 
+                        odwoła się do tej korelacji w jej skrajnie cynicznym wariancie – nie-uczciwy łatwo zdobędzie bogactwo i za jego pomocą pozyska przy-chylność bogów. Wydaje się, że o tej właśnie postawie myślał autor 
+                        Alkibiadesa Drugiego. Jego Sokrates, podobnie jak Sokratesowie Platona 
+                        i Ksenofonta, oczywiście zaprzecza, by taka korelacja faktycznie mo-gła istnieć </p>
+                    <p>150b: τῶν εἰδότων ἃ δεῖ πράττειν καὶ λέγειν – „ci, którzy wie-dzą, co należy mówić i robić”; jest to wyraźna aluzja do Eutyfrona 14b, 
+                        gdzie tytułowy wieszczek powiedział, że jeżeli ktoś wie, jak mówić 
+                        i robić rzeczy miłe bogom, to właśnie jest zbożne. Jak przystało na 
+                        człowieka, który uczynił religię swoją profesją, Eutyfron koncentru-je się na wiedzy, jaką musi posiadać ofiarnik, aby jego działania były 
+                        pobożne. W ten sposób z jego pola widzenia znika ta jego właściwość, 
+                        która stanie się najważniejsza dla Platona – moralna czystość (Prawa
+                        716c–717a).
+                        πρὸς τὴν ψυχήν – „na duszę”; por. Prawa 716d–717a.
+                    </p>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

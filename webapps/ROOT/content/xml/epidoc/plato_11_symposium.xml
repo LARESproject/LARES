@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Symposium (Συμπόσιον, Simposio)</title>
+                <title xml:lang="en">Symposium (Συμπόσιον, Symposium)</title>
+                <title xml:lang="pl">Symposium (Συμπόσιον, Uczta)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">plato_11_symposium</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Symposium (Συμπόσιον, Uczta)</title>, in Przemysław Biernat, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Corpus Platonicum. Corpus Hippocraticum</title>, Warszawa 2017, pp. 149-156</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded in XML</change>
+                <change when="2017" who="Przemysław Biernat">written contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text> 
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!--xml:lang="pl"-->
+                <div type="textpart" n="intro">
+                    <p>Dialog zaliczany jest do średniego okresu twórczości Platona i powstał 
+                        po 385 r. p.n.e. (Guthrie 1975: 365; Dover 1980 wskazuje na lata 364–
+                        379 p.n.e.). Składa się z siedmiu dłuższych wypowiedzi wygłaszanych 
+                        kolejno przez uczestników sympozjonu (w tym Sokratesa), mającego 
+                        miejsce w domu Agatona. Przedmiotem tych wypowiedzi był Eros/
+                        eros, rozumiany, w zależności od interlokutora, jako osobowy bóg, 
+                        pociąg erotyczny lub rodzaj siły działającej we wszechświecie.
+                        Nie wszystkie wzmianki o ofiarach, które pojawiają się w tekście, zasługują na osobny komentarz. Nie uwzględniamy więc cytatu z Iliady, który pojawia się na początku dialogu (174c), pomijamy 
+                        również uwagę Arystofanesa, że ludzie wznieśliby Erosowi świątynie i składali największe ofiary, gdyby poznali jego prawdziwą potęgę (189c; kult Erosa w późnej starożytności zaświadcza wzmianka 
+                        u Pauzaniasza, 9.27.1), oraz skądinąd ciekawą wypowiedź Diotymy 
+                        na temat funkcji dajmonów (daimones, zob. Burkert 1985: 179–181; 
+                        Sowa 1995; Timotin 2012), bytów pośrednich między bogami a ludźmi (202e, por. X. Ap. 13).
+                        Przekłady polskie: Witwicki (1909), Zwolski (1993), Serafin (2012; 
+                        przekład wzbogacony o wybór esejów poświęconych dialogowi, autorstwa historyków filozofii i filozofów, często po raz pierwszy tłumaczonych na język polski).</p>
+                        <p>Tekst na podstawie wydania: Burnet (1901)</p>
+              
+                </div>
+                <div type="textpart" n="Symposium_173a">
+                    <head>Symposium 173a:</head>
+                    <p>W opowieści Apollodorosa o sympozjonie ofiara dziękczynna 
+                        Agatona za zwycięstwo w agonie jest punktem orientacyjnym, który 
+                        pozwala umieścić wydarzenie w czasie.</p>
+                    <quote>„εἰπέ μοι πότε ἐγένετο ἡ συνουσία αὕτη.” κἀγὼ εἶπον ὅτι „παίδων 
+                        ὄντων ἡμῶν ἔτι, ὅτε τῇ πρώτῃ τραγῳδίᾳ ἐνίκησεν Ἀγάθων, τῇ 
+                        ὑστεραίᾳ ἢ ᾗ τὰ ἐπινίκια ἔθυεν αὐτός τε καὶ οἱ χορευταί.” „πάνυ,” 
+                        ἔφη, „ἄρα πάλαι, ὡς ἔοικεν.”
+                        
+                    </quote>
+                    <quote>„Powiedz mi, kiedy miało miejsce to spotkanie?” Na co ja: „Kiedy 
+                        jeszcze byliśmy dziećmi, z okazji pierwszego zwycięstwa Agatona 
+                        w agonie tragediowym. To było dzień po tym, jak wspólnie z choreutami składał ofiary dziękczynne za odniesione zwycięstwo”. „To 
+                        chyba musiało być bardzo dawno” – odpowiedział</quote>
+                    <p>τὰ ἐπινίκια – „ofiary dziękczynne za odniesione zwycięstwo”; 
+                        w tym kontekście chodzi o agon poetycki, ale termin ten obejmował 
+                        również ofiary składane przez zwycięzców sportowych (por. And. 4.29) 
+                        oraz ofiary składane po odniesieniu zwycięstwa w bitwie (zob. Szymanski 1908: 63–71). To właśnie w dniu składania epinikiów zwycięzcę 
+                        agonu tragediowego odznaczano specjalnym wieńcem (D. 21.55). Platon wspomina tutaj pierwsze zwycięstwo Agatona odniesione podczas 
+                        Lenajów w 416 r. p.n.e. (Wright 2016: 69–60), które zostaje uczczone tytułowym sympozjonem. Tytuł tragedii nie jest znany.</p>
+                </div>
+                <div type="textpart" n="Symposium_188b–d">
+                    <head>Symposium 188b–d:</head>
+                    <p>Passus pochodzi z mowy lekarza Eryksymachosa (185e–188e; Edelstein 1945; McPherran 2006), który rozwija przedstawioną przez Pauzaniasza koncepcję dwóch erosów, dobrego i złego, przeformułowuje 
+                        jednak wyjściowy koncept erosa – o ile Pauzaniasz mówił o erosie jako 
+                        psychologicznym popędzie, w ujęciu Eryksymachosa jest to właściwy 
+                        nie tylko ludziom, ale wszystkiemu, co istnieje, pociąg do „innych rzeczy” (186a). Swoją teorię erosa Eryksymachos objaśnia na dziedzinie 
+                        sobie najbliższej – medycynie. Poszczególne organy (lub szerzej: to, co 
+                        w ciele; τὰ τοῦ σώματος, 186c) mogą mieć dobrego lub złego erosa, 
+                        a więc pragnąć tego, co dla nich dobre, lub tego, co im szkodzi. Zadaniem lekarza jest rozpoznać, jakiego erosa posiada pacjent, a następnie 
+                        usunąć z jego organizmu złego, a zaaplikować dobrego w taki sposób, 
+                        aby to, co najbardziej sobie wrogie w organizmie (ciepłe – zimne, suche 
+                        – wilgotne itp.) pozostawało w zgodzie i harmonii (186d). Następnie Eryksymachos wykazuje analogię między medycyną a muzyką, która 
+                        również polega na harmonizowaniu przeciwieństw, a także między 
+                        medycyną a mantyką oraz ofiarami.</p>
+                    <quote>ἔτι τοίνυν καὶ αἱ θυσίαι πᾶσαι καὶ οἷς μαντικὴ ἐπιστατεῖ – ταῦτα 
+                        δ᾽ ἐστὶν ἡ περὶ θεούς τε [188c] καὶ ἀνθρώπους πρὸς ἀλλήλους 
+                        κοινωνία – οὐ περὶ ἄλλο τί ἐστιν ἢ περὶ Ἔρωτος φυλακήν τε καὶ 
+                        ἴασιν. πᾶσα γὰρ ἀσέβεια φιλεῖ γίγνεσθαι ἐὰν μή τις τῷ κοσμίῳ 
+                        Ἔρωτι χαρίζηται μηδὲ τιμᾷ τε αὐτὸν καὶ πρεσβεύῃ ἐν παντὶ ἔργῳ, 
+                        ἀλλὰ τὸν ἕτερον, καὶ περὶ γονέας καὶ ζῶντας καὶ τετελευτηκότας 
+                        καὶ περὶ θεούς: ἃ δὴ προστέτακται τῇ μαντικῇ ἐπισκοπεῖν τοὺς 
+                        ἐρῶντας καὶ ἰατρεύειν, καὶ ἔστιν αὖ ἡ [188d] μαντικὴ φιλίας θεῶν 
+                        καὶ ἀνθρώπων δημιουργὸς τῷ ἐπίστασθαι τὰ κατὰ ἀνθρώπους 
+                        ἐρωτικά, ὅσα τείνει πρὸς θέμιν καὶ εὐσέβειαν. οὕτω πολλὴν 
+                        καὶ μεγάλην, μᾶλλον δὲ πᾶσαν δύναμιν ἔχει συλλήβδην μὲν ὁ 
+                        πᾶς Ἔρως, ὁ δὲ περὶ τἀγαθὰ μετὰ σωφροσύνης καὶ δικαιοσύνης 
+                        ἀποτελούμενος καὶ παρ᾽ ἡμῖν καὶ παρὰ θεοῖς, οὗτος τὴν μεγίστην 
+                        δύναμιν ἔχει καὶ πᾶσαν ἡμῖν εὐδαιμονίαν παρασκευάζει καὶ 
+                        ἀλλήλοις δυναμένους ὁμιλεῖν καὶ φίλους εἶναι καὶ τοῖς κρείττοσιν 
+                        ἡμῶν θεοῖς</quote> <quote>Również składanie ofiar i praktyki mantyczne – a więc ta sfera życia, 
+                            w której bogowie [188c] i ludzie obcują ze sobą – to nic innego niż 
+                            pilnowanie i leczenie tego, co podlega erosowi. Każdy bowiem rodzaj 
+                            nieposzanowania, czy to względem rodziców, żyjących bądź zmarłych, czy to względem bogów, lubi pojawiać się wtedy, kiedy ktoś nie 
+                            okazuje wdzięczności wprowadzającemu ład erosowi ani go nie czci 
+                            i nie stawia na pierwszym miejscu w każdym przedsięwzięciu, lecz 
+                            tego drugiego. Zadaniem mantyki jest doglądać i leczyć tych, którzy 
+                            tego wymagają. Tym samym [188d] mantyka odpowiada za wytwarzanie przyjaźni między bogami a ludźmi, ponieważ jest znajomością 
+                            tej dziedziny erosa, która dotyczy sprawiedliwego postępowania i należytego szacunku. Tak więc eros jako całość ma moc wielką i różnorodną, a właściwie można powiedzieć, że totalną. Ten zaś eros, który 
+                            dzięki umiarkowaniu i sprawiedliwości spełnia się w tym, co dobre 
+                            tak wśród ludzi, jak i wśród bogów, on to właśnie ma moc najwi i sprawia, że jesteśmy ludźmi szczęśliwymi, zdolnymi do nawiązywania bliskich relacji i przyjaźni – także z bogami, którzy przewyższają nas potęgą.</quote>
+                    <p>188b: αἱ θυσίαι πᾶσαι καὶ οἷς μαντικὴ ἐπιστατεῖ – „składanie ofiar 
+                        i praktyki mantyczne”; Eryksymachos zestawia składanie ofiar i praktyki mantyczne (wróżbiarstwo; zob. Bouché-Leclercq 1879–1882; Halliday 
+                        1913; Beerden 2013; Trampedach 2015; Struck 2016) jako dwie aktywności, w których bogowie i ludzie komunikują się ze sobą. W dalszej 
+                        części swojej wypowiedzi Eryksymachos mówił będzie o samym wróżbiarstwie, co jest podyktowane wyłącznie leksykalną symetrią między 
+                        mantyką (mantike) a technai analizowanymi wcześniej: medycyną (iatrike) i muzyką (mousike). Nie dochodzi więc do zawężenia przedmiotu 
+                        wypowiedzi, Eryksymachos jedynie go epitomizuje w pojęciu mantike 
+                        techne. Nie ma też powodu sądzić, by Eryksymachos, mówiąc „składanie ofiar i praktyki mantyczne”, myślał wyłącznie o mantyce ofiarniczej, 
+                        a ignorował inne jej rodzaje, związane z wizjami, wewnętrznymi głosami (jak Sokratesowe daimonion), wyroczniami itp. Z powodu swojej 
+                        wypowiedzi Eryksymachos uważany jest przez niektórych badaczy 
+                        dialogu za niekonwencjonalnego hippokratejczyka (zob. McPherran 
+                        2006: 77–78), ci bowiem krytykowali w swoich traktatach działalność 
+                        wieszczków (manteis; zob. komentarz do De morbo sacro). Wydaje się jednak, że Eryksymachos nie tyle aprobuje faktyczną mantike techne, ile projektuje wyidealizowaną koncepcję dywinacji, zgodną z moralnymi standardami intelektualistów – w jego ujęciu służy ona pobożnemu życiu, 
+                        podczas gdy, jak wiemy, w rzeczywistości praktyki mantyczne służyły 
+                        głównie celom przyziemnym, często wręcz trywialnym (zob. Eidinow 
+                        2007, zwłaszcza rozdział Oracles and Daily Life).</p>
+                    <p>188c: Ἔρωτι – „erosowi”; jak zauważył Rowe (1998: 239, przyp. 1), 
+                        słowo „eros” jest w Uczcie właściwie nieprzekładalne. Tutaj właściwy typ erosa jest rozumiany po sokratejsku, czyli jako pragnienie dobra (McPherran 2006: 85). „Zły” eros powiązany jest z bezbożnością, 
+                        bezbożność – z nieoddawaniem czci tym, którym ta cześć się należy 
+                        (wynika z pewnego porządku, kosmos, bytów, por. Lg. 4.717b). Charizetai kosmioi Eroti to chyba tyle, co respektować ten porządek bytów i oddawać należną cześć tym, od których zależymy (bogom, zmarłym 
+                        przodkom, biologicznym rodzicom). Rola ofiar w tym wszystkim jest 
+                        oczywista. Wskazując na mantykę, Eryksymachos ma, być może, na 
+                        myśli te okoliczności/przytpadki, w których zasięgnięcie wyroczni lub 
+                        rady wieszczka w sytuacji kryzysowej pozwala nam rozpoznać, jakiemu bogu należy złożyć ofiarę, aby tę sytuację rozwiązać, oraz jakiego 
+                        rodzaju ma być to ofiara (por. X. An. 7.8.1–6, D. 21 53, 43 66).
+                        μή (...) χαρίζηται – „[nie] okazuje wdzięczności”; czasownik ten 
+                        stanowi echo słów Pauzaniasza o odwdzięczaniu się kochankom 
+                        (182a), do których Eryksymachos nawiązał już na początku swojej wypowiedzi (186b–c). Prawdopodobnie jest to jednocześnie świadome 
+                        nawiązanie do języka, jakim Grecy opisywali swoją relację z bogami 
+                        – dary (wydaje się, że Grecy wszystkie swoje formy pobożności rozumieli jako jakiegoś rodzaju dary dla bogów), które były miłe bogom 
+                        (kecharismena, od charizein), sprawiały im radość (chairein, por. Hipp. 
+                        Aer. 22.10) i budowały relację wzajemności między ludźmi a bogami.
+                        γονέας – „rodziców”; religijna cześć dla zmarłych i żywych przodków jako obowiązek obywatelski pojawia się w Prawach 4.717b–d, 
+                        gdzie również mamy do czynienia z gradacją, tyle że znacznie bardziej 
+                        szczegółową – w pierwszej kolejności bogowie olimpijscy i ci, którzy 
+                        opiekują się państwem, następnie bogowie podziemni, po nich dajmony, herosi, prywatni przodkowie i wreszcie żyjący rodzice. Platon 
+                        przedstawia tam relację dzieci względem rodziców jako analogiczną 
+                        do relacji ludzi względem bogów (Mikalson 2010: 38).
+                    </p>
+                    <p>188d: φιλίας – „przyjaźni”; Aaron Landry (2014: 160–161) mylnie 
+                        uznał, że Eryksymachos, przez odwołanie do toposu przyjaźni między ludźmi a bogami, jaką wytwarzają praktyki religijne, reprezentował pogląd, jakoby ludzie mogli wpływać na bogów za ich sprawą. 
+                        Credo Eryksymachosa wydaje się nieszczególnie kontrowersyjne – religia służy oddawaniu czci tym, którym się ta cześć należy, cel, który 
+                        się w ten sposób osiąga, to przyjaźń ludzi i bogów. Wprost przeciwnie 
+                        do Landry’ego Mark L. McPherran (2006: 86) sądził, że Eryksymachos 
+                        przeciwstawia się tutaj ujmowaniu kultu bogów jako formy emocjonalnie obojętnej wymiany dóbr między nimi a ludźmi, co, zdaniem uczonego, miało charakteryzować tradycyjną grecką religijność. Ton 
+                        polemiki w wypowiedzi Eryksymachosa jest jednak niewyczuwalny. 
+                        Jeżeli nawet wypowiadał się on przeciwko czemuś, to z pewnością 
+                        nie była to „piety of popular fifth-century Greek religion” (McPherran 
+                        2006: 86), zarysowana przez McPherrana we wcześniejszej publikacji 
+                        (McPherran 2002), ponieważ, jak wykazała Anna Lännström (2011), 
+                        trudno uznać rekonstrukcję uczonego za adekwatną. Zob. też krytykę 
+                        pojęcia popular religion przeprowadzoną przez Vinciane Pirenne-Delforge (2008). Na temat przyjaźni w relacji bogów i ludzi zob. Yunis 
+                        (1988: 100–111)
+                    </p>
+                </div>
+                <div type="textpart" n="Symposium_190c">
+                    <head>Symposium 190c:</head>
+                    <p>Poniższy passus pochodzi z mitu opowiedzianego przez Arystofanesa. Zgodnie z zaimprowizowaną przez postać komediopisarza 
+                        opowieścią pierwotni ludzie posiadali podwójną naturę (189e) – mieli 
+                        dwie głowy, podwójne genitalia, dwie pary rąk itp. – i byli na tyle potężni, by, podobnie jak wcześniej giganci, próbować odebrać bogom 
+                        władzę nad światem. Bogowie jednak zwyciężyli uzurpatorów i stanęli przed decyzją o dalszym losie krnąbrnej rasy</p>
+                    <quote>ὁ οὖν Ζεὺς καὶ οἱ ἄλλοι θεοὶ ἐβουλεύοντο ὅτι χρὴ αὐτοὺς ποιῆσαι, 
+                        καὶ ἠπόρουν· οὔτε γὰρ ὅπως ἀποκτείναιεν εἶχον καὶ ὥσπερ τοὺς 
+                        γίγαντας κεραυνώσαντες τὸ γένος ἀφανίσαιεν – αἱ τιμαὶ γὰρ 
+                        αὐτοῖς καὶ ἱερὰ τὰ παρὰ τῶν ἀνθρώπων ἠφανίζετο – οὔτε ὅπως 
+                        ἐῷεν ἀσελγαίνειν.</quote>
+                    <quote>Tak więc Zeus i pozostali bogowie zastanawiali się, co powinni zrobić, nie mogli się jednak zdecydować. Bo ani nie mogli ich pozabijać, 
+                        tak jak wcześniej piorunami unicestwili ród gigantów – w ten sposób 
+                        zniknęłyby również oznaki ich czci i ofiary od ludzi – ani nie mogli 
+                        pozwolić na rozpasanie</quote>
+                    <p>ἱερὰ… ἠφανίζετο – rzeczownik hiera może tutaj oznaczać obrzędy 
+                        religijne sensu largo (por. Alkibiades Drugi 149b) lub po prostu ofiary. 
+                        W drugim przypadku mamy tu do czynienia z nawiązaniem do komediowego toposu bogów, którzy z jakiegoś powodu potrzebują naszy ofiar. Historyczny Arystofanes uczynił ten topos kołem zamachowym 
+                        fabuły Ptaków: bohater komedii, Pejsetajros, dążył do założenia Chmurokukułkowa, by kontrolować przepływ ofiarnego dymu z ziemi do nieba.</p>
+                </div>
+                
+                <div type="textpart" n="Symposium_190c">
+                    <head>Symposium 197d:</head>
+                    <p>W ramach swojej koncepcji Erosa Agaton przenosi go na poziom 
+                        relacji międzyludzkich i więzi społecznych. Posługując się metaforą 
+                        „napełniania” i „opróżniania”, dowcipnie nawiązuje do hippokratejskiego żargonu Eryksymachosa. Pośrednio zwraca uwagę na wspólnototwórczy aspekt rytuałów religijnych, w tym ofiar, który będzie tak 
+                        istotny dla Ateńskiego Nieznajomego, projektującego ustrój państwa 
+                        w Prawach (por. 738d–e, 771d–e).</p>
+                    <quote>οὗτος δὲ ἡμᾶς ἀλλοτριότητος μὲν κενοῖ, οἰκειότητος δὲ πληροῖ […] 
+                        ἐν ἑορταῖς, ἐν χοροῖς, ἐν θυσίαισι γιγνόμενος ἡγεμών</quote>
+                    <quote>[Eros] opróżnia nas z poczucia wyobcowania, napełnia zaś poczuciem bliskości, […] przewodząc podczas świąt, tańców i of</quote>
+                </div>
+                
+                <div type="textpart" n="Symposium_190c">
+                    <head>Symposium 201d</head>
+                    <p>Passus pochodzi z Sokratesowej charakterystyki Diotymy, wieszczki z Mantinei.</p>
+                    <quote>Ἀθηναίοις ποτὲ θυσαμένοις πρὸ τοῦ λοιμοῦ δέκα ἔτη ἀναβολὴν 
+                        ἐποίησε τῆς νόσο</quote>
+                    <quote>Ateńczykom, składającym kiedyś ofiary przed wybuchem zarazy, zapewniła dziesięć lat odroczenia choroby</quote>
+                    <p>Sokrates sytuuje działalność Diotymy (przyjmując, że rzeczywiście 
+                        istniała, zob. Halperin 1990: 119–124) w Atenach w okresie poprzedzającym wybuch zarazy w 429 r. p.n.e. (Thuc. 2.47.3). Wypowiedź 
+                        Sokratesa zdaje się sugerować, że wydarzenie to było w jakiś sposób 
+                        antycypowane, trudno jednak zrozumieć w jaki. Być może przypisanie ofiarom spełnianym w asyście Diotymy efektu odroczenia zarazy 
+                        ma charakter vaticinium ex eventu, a wówczas, kiedy były składane, 
+                        rozumiano jedynie, że przyniosą odroczenie bliżej nieokreślonego nieszczęścia. Ze słów Sokratesa nie wynika też jednoznacznie, czy ofiary 
+                        miały charakter publiczny, czy prywatny. Wydaje się, że pierwsza interpretacja generuje mniej wątpliwości, a dziesięcioletnie odroczenie 
+                        dotyczyło całej polis, a nie pojedynczych jej mieszkańców.
+                        Dlaczego Diotyma, nie-Atenka, w ogóle brała udział w składanych 
+                        przez Ateńczyków ofiarach? Sokrates nie charakteryzuje jej jako kapłanki żadnego kultu, wydaje się więc, że była tzw. rytualną specjalistką (na temat świadectw dotyczących kobiet trudniących się tym fachem zob. Flower 2008: 29–30, 212–215). Dość powszechnie przyjmuje 
+                        się, że Platon, określając ją mianem „kobiety z Mantinei” (γυναικὸς 
+                        Μαντινικῆς), rozgrywa podobieństwo brzmieniowe ze słowami 
+                        mantike i mantis (wieszczek, najpopularniejsze określenie rytualnego 
+                        specjalisty). Co ciekawe, właśnie z Mantinei pochodzi nagrobna stela datowana na 420–410 r. p.n.e., przedstawiająca kobietę dokonującą 
+                        inspekcji wątroby – być może to właśnie nasza Diotyma.
+                        Udział manteis w ofiarach publicznych poświadcza między innymi passus z Ustroju politycznego Aten (Ath. 54), w którym opisywane 
+                        są kompetencje hieropoioi – urzędników odpowiedzialnych za składanie ofiar nakazanych przez wyrocznię. Jak wynika z treści wyroczni 
+                        przytoczonej przez Pseudo-Demostenesa (43.66), ofiary takie składano niekiedy w związku z zaobserwowanymi znakami (semeia, w tym 
+                        przypadku chodziło o jakieś zjawisko na niebie), aby odsunąć możliwe nieszczęście (wyrocznia stanowi bez wątpienia pastisz bądź zlepek 
+                        kilku wyroczni; czy jej część, która dotyczy znaku na niebie, faktycznie 
+                        odnosi się do Aten, pozostaje sporne, zob. Mikalson 2016: 272–273).
+                    </p>
+                </div>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

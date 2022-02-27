@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Pseudo-Platone, Epistula VII (Lettera VII)</title>
+                <title xml:lang="en">Pseudo-Plato, Epistula VII (Letter VII)</title>
+                <title xml:lang="pl">Pseudo-Platon, Epistula VII (List VII)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">plato_13_epistula_vii</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Pseudo-Platon, Epistula VII (List VII)</title>, in Przemysław Biernat, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Corpus Platonicum. Corpus Hippocraticum</title>, Warszawa 2017, pp. 169-170</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded in XML</change>
+                <change when="2017" who="Przemysław Biernat">written contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!--xml:lang="pl"-->
+                <div type="textpart" n="intro">
+                    <p>Autentyczność listu jest przedmiotem kontrowersji. Opowiedział się 
+                        za nią Wilamowitz-Möllendorff (1920: 282–300), a piszący w latach 
+                        sześćdziesiątych Edelstein uznał ją za jeden z pewników w badaniach 
+                        nad Platonem („an axiom of Platonic scholarship”, 1966: 1). Obecnie 
+                        List VII ponownie uważany jest przez wielu uczonych za nieauten-tyczny (ostatnio Burnyeat, Frede 2015), aczkolwiek powstały w kręgu 
+                        Akademii i napisany przez osobę dobrze poinformowaną. Adresa-tami listu są przyjaciele Diona, zamordowanego niedługo wcześniej 
+                        na zlecenie swojego siostrzeńca i tyrana Syrakuz, Dionizjusza II. List, 
+                        chociaż zawiera ekskurs filozoficzny (324a–344d), jest w dużej mierze 
+                        autobiograficzny (lub biograficzny, jeżeli odrzucimy jego autentycz-ność) i opowiada o pobycie Platona na Sycylii, gdzie filozof udał się 
+                        na zaproszenie Diona w 367 r. p.n.e., by wychować jego siostrzeńca 
+                        Dionizjusza na króla-filozofa</p> <p>Przekład polski: Maykowska (1938).
+                            Tekst na podstawie wydania: Moore-Blunt (1985)</p>
+                </div>
+                <div type="textpart" n="EpistulaVII_349c–d">
+                    <head>Epistula VII 349c–d:
+                    </head> 
+                    <p>Autor listu przedstawia intrygę Dionizjusza, która miała na celu 
+                        odsunięcie Platona od machinacji tyrana. Najpierw należało filozofa 
+                        usunąć z pałacu w białych rękawiczkach, by następnie znaleźć pre-tekst do zerwania przyjaźni.</p>
+                    
+                    <quote>πρῶτον μὲν ἐκ τῆς ἀκροπόλεως ἐκπέμπει με, εὑρὼν [349d] 
+                        πρόφασιν ὡς τὰς γυναῖκας ἐν τῷ κήπῳ, ἐν ᾧ κατῴκουν ἐγώ, δέοι 
+                        θῦσαι θυσίαν τινὰ δεχήμερον.
+                    </quote>
+                    <quote>Najpierw usunął mnie z akropolu, podając [349d] jako wymówkę, 
+                        że w ogrodzie, w którym mieszkałem, kobiety będą obchodzić jakieś 
+                        dziesięciodniowe święto..</quote>
+                    <p>349d: θῦσαι θυσίαν – „obchodzić święto”; figura etymologiczna, 
+                        zazwyczaj używana w znaczeniu „złożyć ofiarę”, tutaj jednak ofiara 
+                        musi metonimizować całe święto, ponieważ trudno przyjąć, że kobiety 
+                        składały ją przez dziesięć dni. Autor listu nie precyzuje, o jakie święto 
+                        chodzi – zdaje się, że grecki czytelnik nie potrzebował tej informacji 
+                        i był w stanie sam dokonać koniektury. Powszechnie obchodzonym 
+                        w świecie greckim świętem, z którego obchodów mężczyźni byli wy-łączeni, były poświęcone Demeter Tesmoforia (Nilsson 1906: 313–325; 
+                        Dillon 2002: 110–120; Parker 2005: 270–283). O syrakuzańskich Tesmo-foriach wspominają również Diodor Sycylijski i Atenajos (D.S. 5.4.7; 
+                        Athen. 14.647a; zob. Dillon 2002: 111). Nie jest jasne, dlaczego święto 
+                        w Syrakuzach trwało aż dziesięć dni (w Attyce – trzy) </p>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Cratylus (Κρατύλος, Cratilo)</title>
+                <title xml:lang="en">Cratylus (Κρατύλος, Cratylus)</title>
+                <title xml:lang="pl">Cratylus (Κρατύλος, Kratylos)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">plato_01_cratylus</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Cratylus (Κρατύλος, Kratylos)</title>, in Przemysław Biernat, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Corpus Platonicum. Corpus Hippocraticum</title>, Warszawa 2017, pp. 13-24</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded in XML</change>
+                <change when="2017" who="Przemysław Biernat">written contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text> 
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!--xml:lang="pl"-->
+                <div type="textpart" n="intro">
+                    <p>Dialog Kratylos jest pierwszym (a przynajmniej najstarszym zachowanym) w dziejach filozofii europejskiej dziełem poświęconym w całości 
+                        problematyce językoznawczej (Wolanin 1996: 73), a precyzyjniej: problemowi relacji, w jakiej pozostają do siebie słowa i rzeczy. Rozmówcy 
+                        Sokratesa reprezentują dwa przeciwne stanowiska, jakie można było 
+                        zająć w tej kwestii. Pierwszy z nich, Hermogenes, już na wstępie wyznaje, że „nie może uwierzyć, by istniała inna prawidłowość nazw niż 
+                        konwencja i zgoda” (384d, przekł. Stefański 1990), choć zaznaczyć należy, że przekonanie to nie jest ugruntowane w systemie filozoficznym, 
+                        który sam wypracował. Tytułowy Kratylos jest natomiast świadomym 
+                        heraklitejczykiem, głęboko przekonanym o istnieniu naturalnego 
+                        związku między słowami a desygnowanymi przez nie obiektami. Jego 
+                        zdaniem słowa są pochodnymi rzeczy i jako takie wyrażają ich rzeczywiste właściwości.
+                        Komentowany niżej fragment pochodzi z rozmowy Sokratesa 
+                        z Hermogenesem. Przyjmując właściwą sobie postawę ironiczną, Sokrates przemawia niczym zwolennik teorii o naturalnej poprawności nazw, przekonując Hermogenesa do teorii, którą wkrótce, w rozmowie z Kratylosem, całkowicie odrzuci. Sokrates przedstawia przy 
+                        tym własną teorię poprawności nazw, która – w przeciwieństwie do 
+                        teorii Hermogenesa i Kratylosa – wpisuje rozważania nad językiem 
+                        w perspektywę historyczną. Sokrates przywołuje w tym celu symboliczną postać prawodawcy czy też onomaturga, wytwórcy nazw 
+                        (389a), który dokonał pierwotnego aktu nazywania rzeczy. Następnie, 
+                        przez scharakteryzowanie twórców nazw jako „starożytni”, „pierwsi 
+                        ludzie”, „ten, który nazwał jako pierwszy”, „dawni mieszkańcy Hellady” itp., przedstawił genezę języka jako historyczny fakt społeczny (Wolanin 1996: 93). To, co umknęło rozmówcom Sokratesa, a z czego 
+                        on od początku doskonale zdawał sobie sprawę, to fakt, że żaden z historycznych twórców nazw nie był tym idealnym nomotetą i dialektykiem w jednym, scharakteryzowanym na początku dialogu.
+                        Na podstawie aluzji do śmierci ojca Hermogenesa i Kalliasza 
+                        w 391b–c można stwierdzić, że akcja dramatyczna dialogu toczy się 
+                        po 422 r. p.n.e. (Ademollo 2011: 20). Umiejscowienie dialogu względem pozostałych dzieł Platona jest problematyczne (Guthrie 1978: 
+                        1–2). W kontekście ówczesnej dyskusji nad językiem dialog omówił 
+                        Wolanin (1993).</p> <p>Przekłady polskie: Brzostowska (1990), Stefański (1990).
+                            Tekst na podstawie wydania: Méridier (1931b)</p>
+              
+                </div>
+                <div type="textpart" n="Cratylus_401b–d">
+                    <head>Cratylus 401b–d:</head>
+                    <p>Passus ten jest wyliczeniem obowiązków magejrosa (mageiros) – 
+                        rzeźnika i kucharza w jednym, którego udział w ofierze krwawej wynikał z samego jej charakteru (zob. Berthiaume 1982).</p>
+                    <quote>ΣΩΚΡΑΤΗΣ: ἄλλο τι οὖν ἀφ᾽ Ἑστίας ἀρχώμεθα κατὰ τὸν νόμον;
+                        ΕΡΜΟΓΕΝΗΣ: δίκαιον γοῦν.
+                        ΣΩ.: τί οὖν ἄν τις φαίη διανοούμενον τὸν ὀνομάσαντα Ἑστίαν 
+                        ὀνομάσαι;
+                        ΕΡ.: οὐ μὰ τὸν Δία οὐδὲ τοῦτο οἶμαι ῥᾴδιον εἶναι.
+                        ΣΩ.: κινδυνεύουσι γοῦν, ὠγαθὲ Ἑρμόγενες, οἱ πρῶτοι τὰ ὀνόματα 
+                        τιθέμενοι οὐ φαῦλοι εἶναι ἀλλὰ μετεωρολόγοι καὶ ἀδολέσχαι τινές.
+                        ΕΡ.: τί δή;
+                        ΣΩ.: καταφαίνεταί μοι ἡ θέσις τῶν ὀνομάτων τοιούτων [401c] 
+                        τινῶν ἀνθρώπων, καὶ ἐάν τις τὰ ξενικὰ ὀνόματα ἀνασκοπῇ, οὐχ 
+                        ἧττον ἀνευρίσκεται ὃ ἕκαστον βούλεται. οἷον καὶ ἐν τούτῳ ὃ ἡμεῖς 
+                        ‘οὐσίαν’ καλοῦμεν, εἰσὶν οἳ ‘ἐσσίαν’ καλοῦσιν, οἳ δ᾽ αὖ ‘ὠσίαν.’ 
+                        πρῶτον μὲν οὖν κατὰ τὸ ἕτερον ὄνομα τούτων ἡ τῶν πραγμάτων 
+                        οὐσία ‘Ἑστία’ καλεῖσθαι ἔχει λόγον, καὶ ὅτι γε αὖ ἡμεῖς τὸ τῆς 
+                        οὐσίας μετέχον ‘ἔστιν’ φαμέν, καὶ κατὰ τοῦτο ὀρθῶς ἂν καλοῖτο 
+                        ‘Ἑστία’: ἐοίκαμεν γὰρ καὶ ἡμεῖς τὸ παλαιὸν ‘ἐσσίαν’ καλεῖν τὴν 
+                        οὐσίαν. ἔτι δὲ καὶ κατὰ τὰς θυσίας ἄν τις [401d] ἐννοήσας ἡγήσαιτο 
+                        οὕτω νοεῖν ταῦτα τοὺς τιθεμένους: τὸ γὰρ πρὸ πάντων θεῶν τῇ 
+                        Ἑστίᾳ πρώτῃ προθύειν εἰκὸς ἐκείνους οἵτινες τὴν πάντων οὐσίαν 
+                        ‘ἐσσίαν’ ἐπωνόμασαν.
+                    </quote>
+                    <quote>SOKRATES: Zacznijmy więc może od Hestii, zgodnie z obyczajem.
+                        HERMOGENES: Słusznie.
+                        SO.: Jak sądzisz, co miał na myśli ten, kto nadał imię bogini Hestii?
+                        HER.: Na Zeusa, wydaje mi się, że to wcale nie jest proste.
+                        SO.: Jest więc szansa, mój drogi Hermogenesie, że ci, którzy jako 
+                        pierwsi nadali nazwy rzeczom, nie byli prostaczkami, tylko jakimiś 
+                        uczonymi i wprawnymi mówcami.
+                        HER.: Tak myślisz?
+                        SO.: Wydaje mi się, że nazwy musieli nadać tacy właśnie ludzie [401c] 
+                        i gdyby rozpatrzyć słowa w innych dialektach, ich znaczenie byłoby 
+                        równie oczywiste. Na przykład to, co my wymawiamy οὐσία [istota, 
+                        rzeczywistość], jedni wymawiają ἐσσία, a drudzy ὠσία. Po pierwsze 
+                        więc, biorąc pod uwagę brzmienie drugiego wyrazu [scil. ἐσσία], uzasadnione jest nazywanie οὐσία [istoty rzeczy] Ἑστία [Hestią]. Co więcej, mówimy przecież, że to, co ma udział w οὐσία [bycie], ἔστιν [jest], 
+                        i zgodnie z tym słusznie οὐσία [byt] nazywa się Ἑστία [Hestią]. Wydaje 
+                        się bowiem, że również my dawniej słowo οὐσία wymawialiśmy ἐσσία: 
+                        gdyby zastanowić się nad ofiarami, [401d] należałoby uznać, że właśnie 
+                        w ten sposób myśleli ci, którzy nadali nazwy rzeczom. Bo słusznie składają ofiarę wstępną dla Hestii jako pierwszej z wszystkich bogów ci, 
+                        którzy οὐσίαν [istotę] wszystkiego nazwali ἐσσία.</quote>
+                    <p>401b: ἀφ᾽ Ἑστίας ἀρχώμεθα κατὰ τὸν νόμον – „zacznijmy więc 
+                        może od Hestii, zgodnie z obyczajem”; obyczaj, o którym wspomina 
+                        Sokrates, nie jest dla nas dobrze uchwytny. Przyjmuje się, że chodzi 
+                        o rozpoczynanie modlitw od przywołania bogini. Echem tego zwyczaju mogą być pojedyncze wersy niezachowanej komedii Kratesa 
+                        (ἐξ Ἑστίας ἀρχόμενος εὔχομαι θεοῖς, fr. 44) oraz mimu Sofrona (ἐξ 
+                        Ἑστίας ἀρχόμενος καλέω Δία πάντων ἀρχαγέταν, fr. 41 Rusten = 
+                        fr. 42 Kaibel). Komiczną parafrazą tej modlitewnej (czy raczej metamodlitewnej) frazy jest, być może, wypowiedź bohatera Os Arystofanesa: 
+                        ἀφ᾽ Ἑστίας ἀρχόμενος ἐπιτρίψω τινά (Vesp. 846; może tu jednak chodzić o podobny idiom, patrz niżej). Zarazem zachowane teksty modlitw wskazują, że rozpoczynanie od bogini wcale nie było regułą, jak chce tego Graf („[S]he is addressed first in every prayer”, 2005: 286). 
+                        Być może dotyczyło to wyłącznie wyjątkowo solennych modlitw, towarzyszących najważniejszym ofiarom publicznym lub innym podniosłym wydarzeniom – brakuje nam jednak świadectw na poparcie 
+                        tej tezy. Wezwaniem do Hestii rozpoczyna się co prawda modlitwa 
+                        Pejsetajrosa w Ptakach (864), która z pewnością spełnia wymienione 
+                        kryteria, jednak przyczyny tego wezwania mogą być inne. Modlitwa 
+                        ta wypowiadana jest podczas zakładania nowego miasta. Okoliczności tej towarzyszyło (czy zawsze i na ile ten zwyczaj był uniwersalny, 
+                        pozostaje kwestią sporną) przeniesienie ognia z prytanejonu macierzystej polis do zakładanej kolonii, tak więc rozpoczęcie modlitwy od 
+                        bogini, która była patronką tego ognia, wydaje się uzasadnione bez 
+                        konieczności zakładania jakiejś uniwersalnej reguły rozpoczynania 
+                        modlitw publicznych od Hestii (zob. Malkin 1987: 114 i nn.).</p> <p>chce tego Graf („[S]he is addressed first in every prayer”, 2005: 286). 
+                            Być może dotyczyło to wyłącznie wyjątkowo solennych modlitw, towarzyszących najważniejszym ofiarom publicznym lub innym podniosłym wydarzeniom – brakuje nam jednak świadectw na poparcie 
+                            tej tezy. Wezwaniem do Hestii rozpoczyna się co prawda modlitwa 
+                            Pejsetajrosa w Ptakach (864), która z pewnością spełnia wymienione 
+                            kryteria, jednak przyczyny tego wezwania mogą być inne. Modlitwa 
+                            ta wypowiadana jest podczas zakładania nowego miasta. Okoliczności tej towarzyszyło (czy zawsze i na ile ten zwyczaj był uniwersalny, 
+                            pozostaje kwestią sporną) przeniesienie ognia z prytanejonu macierzystej polis do zakładanej kolonii, tak więc rozpoczęcie modlitwy od 
+                            bogini, która była patronką tego ognia, wydaje się uzasadnione bez 
+                            konieczności zakładania jakiejś uniwersalnej reguły rozpoczynania 
+                            modlitw publicznych od Hestii (zob. Malkin 1987: 114 i nn.).</p> <p>Związek między oddaniem Hestii pierwszeństwa w modlitwie 
+                                a roztropnością modlącego się pojawia się w zachowanym fragmentarycznie Faetonie Eurypidesa, w którym Merops, przygotowując się 
+                                do zaślubin przybranego syna, stwierdza, że „każdy, kto jest mądry, 
+                                zaczyna modlitwy do bogów od niej” (scil. od Hestii, Ἑστίας θ’ ἕδος, 
+                                / ἀφ’ ἧς γε σώφρων πᾶς τις ἄρχεσθαι θεοῖς / εὐχὰς ποεῖσθαι>, 
+                                    w. 248–249 Kannicht). Niewykluczone, że jest ona również adresatką 
+                                    ofiar, o których wspomina wers 261 (zob. comm. ad loc., Diggle 1970: 
+                                    164). Pierwszeństwo Hestii w tym przypadku może jednak wynikać 
+                                    wyłącznie z symboliki domowego ogniska w kontekście zaślubin 
+                                    (zob. Oakley, Sinos 1993: 34–35), a nie z uniwersalnej reguły (pace Diggle 1970: 161). Jeszcze Menander Retor pouczał, by w mowie z okazji 
+                                    zaślubin zalecić panu młodemu modlitwę do Erosa, Hestii i bóstw porodowych (hoi genethlioi), zanim – by posłużyć się eufemizmem autora 
+                                    – „weźmie się do roboty” w noc poślubną (II. 407).</p><p>Idea pierwszeństwa Hestii pojawia się również w kontekście libacji 
+                                        towarzyszących ofierze oraz uczcie. I tak Pindar w jedenastej Odzie nemejskiej pisze o Hestii, że ludzie „czczą ją libacjami jako pierwszą z bogów i tłustym dymem” (πολλὰ μὲν λοιβαῖσιν ἀγαζόμενοι πρώταν 
+                                        θεῶν, / πολλὰ δὲ κνίσσᾳ, 6–7; na temat interpretacji roli Hestii w utworze zob. Faern 2009), natomiast w hymnie do Hestii i Hermesa bog jest wymieniona jako adresatka libacji towarzyszących ucztom: „bo bez 
+                                        ciebie nie ucztują śmiertelni, by rozpoczynając (ἀρχόμενος) nie wylali (σπένδει) wina Hestii jako pierwszej i ostatniej” (h.Hom. 29.4–6; por. 
+                                        też Soph. fr. 726 Radt, gdzie w dla nas cokolwiek dziwnej nautystycznej 
+                                        metaforze Sofokles nazywa Hestię „rufą libacji”). Pierwszeństwo Hestii 
+                                        ugruntowane jest w jej mitologii, według której bogini była pierwszym 
+                                        dzieckiem Kronosa i Rei (Hes. Th. 454), a tym samym jest najstarszą 
+                                        z pierwszej generacji bogów olimpijskich.</p><p>Idea rozpoczynania od bogini, a zarazem paleniska płonącego 
+                                            w ateńskim Prytanejonie, z którym boginię utożsamiano (zob. Miller 
+                                            1978), pojawia się na pochodzących najwcześniej z epoki hellenistycznej inskrypcjach honoryfikacyjnych, upamiętniających opiekunów 
+                                            efebów (κοσμητὴς τῶν ἐφήβων) i ich podopiecznych. Bogini wymieniana jest jako adresatka ofiary złożonej przez kosmetesa w towarzystwie efebów (IG II³ 1313, 175/4 p.n.e., w. 85–86; IG II² 1042, ok. 41/40 
+                                            p.n.e., w. 3), kiedy natomiast to efebowie są podmiotem działań upamiętnionych przez inskrypcję, czytamy o „złożeniu ofiar począwszy 
+                                            od hestia w prytanejonie” (IG II³ 1176, 203/2 p.n.e., w. 6–7; „w towarzystwie kosmetesa”: IG II³ 1313, w. 5–7). Od hestia w Prytanejonie (ἀπὸ 
+                                            τῆς ἑστίας τῆς ἐκκ τοῦ πρυτανείου) rozpoczynała się również procesja podczas Bendidejów – święta trackiej bogini Bendis (Bendydy), 
+                                            której świątynia znajdowała się w Pireusie (IG II2
+                                            1283, w. 7; inskrypcja 
+                                            pochodzi z połowy III w. p.n.e., ale wersy 4–7 dotyczą realiów kultu 
+                                            z końca V w. p.n.e., zob. Platon, Państwo 327a). Trudno powiedzieć, 
+                                            jak wiele podobnych tradycji związanych z paleniskiem Prytanejonu 
+                                            i jego boginią znanych było współczesnym Platona i czy mogą stanowić właściwy kontekst dla słów Sokratesa.</p><p>W Eutyfronie 3a pada idiomatyczne wyrażenie „robić coś af’ hestias” 
+                                                (czyli „jak należy”), które współcześni komentatorzy rozpatrują w całkowitej izolacji od analizowanej tu metamodlitewnej formuły (zob. Burnett 1979 [1924]: 93–94), podczas gdy antyczni scholiaści objaśniają je 
+                                                przez siebie nawzajem. Z idiomem tym możemy mieć również do czynienia w cytowanym wersie z Os (846), o ile nie jest to jakaś gra na idiomie i formule jednocześnie. Idiom ten jest bardzo chętnie używany w literaturze późniejszej niż klasyczna (lubują się w nim zwłaszcza Plutarc i Eliusz Arystydes), kiedy jednocześnie metamodlitewna formuła „rozpoczynać od Hestii” przestaje być stosowana. W pewnym momencie 
+                                                przestała być ona czytelna nawet dla filologów – scholiasta Aratosa, który zacytował przywołane na początku wersy z Kratesa i Sofrona, podał 
+                                                je jako przykład rozpoczynania poezji od wezwania do Zeusa. Wyraźnie 
+                                                więc „od Hestii” znaczyło dlań tyle, co „jak należy”.</p>
+              <p>      410d: τῇ Ἑστίᾳ πρώτῃ προθύειν – „składają ofiarę wstępną dla 
+                    Hestii jako pierwszej”; scholia do Kratylosa przywołują na wyjaśnienie 
+                    tych słów „pewien mit” (mythos tis) na temat bogini, według którego 
+                    poprosiła ona Zeusa o dziewictwo i ἀπαρχαὶ παρὰ τῶν ἀνθρώπων. 
+                    Scholia do Os Arystofanesa przytaczają ten sam mit, tyle że opowiedziany w bardziej szczegółowej formie, co pozwala zrozumieć, o jakie 
+                    właściwie ἀπαρχαί chodzi (Schol. ad Arist. V. 846 = FGrH 493): 
+                    <quote>μῦθον δὲ συνέθηκεν Ἀριστόκριτος οὕτως ἔχοντα· μετὰ γὰρ τὸ 
+                    καταλυθῆναι τὴν τῶν Τιτάνων ἀρχὴν, τὸν Δία δεξάμενον τὴν 
+                    βασιλείαν φασὶν ἐπιτρέπειν Ἑστίᾳ λαβεῖν ὃ τι βούλοιτο. τὴν δὲ 
+                    πρῶτον μὲν παρθενίαν αἰτῆσαι, μετὰ δὲ τὴν παρθενίαν ἀπαρχὰς 
+                    ιῶν θυομένων αὑτῇ νέμεσθαι πρώτῃ παρὰ τῶν ἀνθρώπων. </quote>
+                   <quote> Aristokritos zapisał następującą opowieść: po zakończeniu rządów 
+                    tytanów Zeus zagarnął królestwo i pozwolił Hestii wybrać sobie, cokolwiek zechce. Ona zaś najpierw poprosiła o dziewictwo, a potem, 
+                    żeby jej jako pierwszej przydzielono od ludzi ἀπαρχαί tego, co składane w ofierze.</quote>
+                    O Aristokritosie wiadomo, że żył najpóźniej w I w. p.n.e. i był autorem mitograficznego dzieła poświęconego Miletowi (περὶ Μιλήτου, 
+                    cf. RE s.v. Aristokritos), z którego prawdopodobnie pochodzi sparafrazowana w scholiach opowieść. Pod ἀπαρχαὶ θυομένων kryje się 
+                    zapewne ryt ofiarowania bogom części pokarmu przygotowanego 
+                    ze złożonego w ofierze zwierzęcia, obyczaj znany już Homerowi, 
+                    który choć rzeczownika aparche nie zna, posługuje się w tym kontekście czasownikiem ἀπάρχεσθαι (bez przedrostka apo- użyty jest 
+                    w Hom., Od. 14.428, zob. komentarz Jim 2014: 30; por. też ofiarowanie etymologicznie pokrewnych argmata w Hom. Od. 14.446, z komentarzem Petropoulou 1987: 137–140). Ponieważ Homer wydaje się nie 
+                    znać również bogini Hestii, siłą rzeczy nigdzie nie łączy rytu aparchesthai z jej osobą. Narrację o Hestii, która otrzymuje od Zeusa dziewictwo i specjalny udział w ofiarach, Aristokritos mógł znać z miniaturowego utworu wplecionego w strukturę homeryckiego Hymnu do 
+                    Afrodyty (h.Hom. 5.21–32; zob. też komentarze: Faulkner 2008: 101–
+                    118; Richardson 2010: 227–228; Olson 2012: 146–154). W utworze tym 
+                    pojawiają się cztery idee, które już zawsze będą wiązały się z Hestią 
+                    i niemal wyczerpują teologię bogini – jej starszeństwo (jest pierwszą 
+                    córką Kronosa), dziewictwo, bliski związek z Zeusem (Hestia zasiada „na środku domostwa” Zeusa) oraz jej utożsamienie z paleniskiem i ołtarzem, na którym płoną ofiary przeznaczone dla bogów. 
+                    „Zamiast ślubu” (ἀντὶ γάμοιο, w. 29) Hestia otrzymała od Zeusa dar 
+                    (γέρας) i teraz jest otoczona czcią (τιμάοχός ἐστι, w. 31) w świątyniach wszystkich bóstw, a także zasiada w domostwie Zeusa, gdzie 
+                    „bierze πῖαρ” (πῖαρ ἑλοῦσα, w. 30). Sens tego wyrazu nie jest jasny. 
+                    Etymologicznie chodzi o tłustość – oliwy (A.R. 4.1133), mleka (Plu. Sol. 
+                    16 = Sol. 36.21), urodzajnej ziemi (Od. 9.135, h.Hom. 3.47). W pismach 
+                    medycznych wyraz odnosi się do tłustości owoców figi (Hp. Ulc. 15, 
+                    Mul. II.205), soku drzew, którego brak przekłada się na brak owoców 
+                    (Hp. Nat. Puer. 26), czy wreszcie ogólnej tłustości pokarmów, która 
+                    przez ścianki żołądka przenika do ciała ludzkiego (Hp. Nat. Puer. 21; 
+                    zob. comm. ad loc., Lonie 1981: 207). Chociaż skojarzenie z homeryckimi piona meria nasuwa się samo, rzeczownik piar nigdy w znaczeniu 
+                    tłuszczu zwierzęcego nie występuje. Bliźniacze do πῖαρ ἑλοῦσα sformułowanie πῖαρ ἑλέσθαι pojawia się w Iliadzie w tej samej pozycji 
+                    w obrębie heksametru i użyte jest metaforycznie w znaczeniu „brać 
+                    to, co najlepsze” (Hom. Il. 11.550, 17.659). Wydaje się, że również 
+                    w tekście hymnu πῖαρ zostało użyte metaforycznie w znaczeniu tego, 
+                    co najlepsze. Co przez to rozumiał autor hymnu, trudno powiedzieć. 
+                    Wydaje się jednak, że dla Aristokritosa było jasne, że chodzić musi 
+                    tutaj o aparchai thyomenon</p>
+                   <p> Gdyby przyjąć wyjaśnienie sensu słów z Kratylosa zaproponowane przez scholiastów, należałoby uznać, że pola znaczeniowe czasowników aparchesthai i prothyein częściowo się pokrywały. Jednak 
+                    czasownik prothyein (etymologicznie: „składać-w-ofierze-przed”; zob. 
+                    Casabona 1966: 103–108) zawsze odnosi się do samodzielnej ofiary, 
+                    najczęściej z ciastek lub prosiąt (zob. Mikalson 1972)</p>
+                    <p>Rozważmy więc alternatywną interpretację względem zasugerowanej przez scholiastów: Sokrates ma na myśli właśnie to, co mówi, 
+                    a więc składanie Hestii ofiary wstępnej lub przynajmniej pierwszej 
+                    w szeregu. To na pozór rozsądne podejście rodzi wiele trudności, których uczeni podtrzymujący tezę, iż Hestia była tradycyjnie odbiorcą 
+                    pierwszej ofiary, zdają się nie zauważać (np. Diggle 1970: 161; Graf 
+                    2005; Larson 2007: 161). Wypowiedź Sokratesa ma charakter generalizujący i każe nam sądzić, że odnosi się do wszystkich ofiar Ateńczyków lub przynajmniej znaczącej ich ilości, podczas gdy źródła poświadczające taką ofiarę są raczej skąpe. Do źródeł tych można, być 
+                    może, zaliczyć inskrypcję SEG 40:146 (403–399), która istotnie wskazuje na Hestię jako odbiorcę pierwszej ofiary (z owcy) w szeregu (zob. 
+                    komentarz Clintona do inskrypcji, 1979: 5, polemiczny względem hipotez Healeya, 1990; uczony rozwinął tę interpretację w kolejnej publikacji, zob. Clinton 2008: 35).</p>
+                    <p>fiara z owcy nie jest jednak typową ofiarą wstępną – zwierzęciem, które zazwyczaj składano w takich okolicznościach, było prosię 
+                        (choiros, delphax, galathenos; ostatni termin dotyczy prosiąt, które wciąż 
+                        jeszcze ssą matkę). W kalendarzu demu Erchia ofiarę wstępną z prosięcia regularnie, bo aż pięciokrotnie, otrzymuje bogini Kourotrophos 
+                        (zob. komentarz Pirenne-Delforge do inskrypcji, 2004: 178). Jest ona 
+                        odbiorcą prosiąt i galathenoi także w innych zachowanych kalendarzach – Maratonu i Trykoryntu (LSCG 20 B), Thorikos (Lupu NGSL 1) 
+                        i niezidentyfikowanego ateńskiego genos (IG I³ 234) – chociaż w ich 
+                        przypadku trudno powiedzieć, czy zawsze mamy do czynienia z ofiarą wstępną.</p> <p>Tożsamość ateńskiej Kourotrophos nie jest do końca uchwytna. 
+                            Według większości uczonych (ostatnio Pirenne-Delforge 2004) mamy 
+                            w jej przypadku do czynienia z samodzielnym bóstwem, choć Theodora Hadzisteliou Price (1978, zwł. 107–112) próbowała udowodnić, że 
+                            Ateńczyk epoki klasycznej przez Kourotrophos rozumiał zawsze Ge Kourotrophos (por. IG II² 4869, Ar. Thesm. 300; Austin i Olson usuwają 
+                            jednak imię Ge z tekstu komedii, 2004: 152–153, comm. ad loc.). Wydaje się, że żadnej z badaczek nie udało się przedstawić decydujących 
+                            argumentów na poparcie swoich hipotez. Faktem jest natomiast, że 
+                            późnoantyczni uczeni i leksykografowie nie mieli pojęcia o istnieniu 
+                            samodzielnej bogini Kourotrophos, za którą optuje Pirenne-Delforge. 
+                            Dla autora Księgi Suda to wyłącznie przydomek oznaczający „wychowujący dzieci” (κ 2192), natomiast poświadczony inskrypcyjnie 
+                            obyczaj składania bogini ofiary wstępnej znajduje wyjaśnienie w haśle Kourotrophos Ge (κ 2193) i jest związany z mitem o Erychthoniosie, 
+                            który chciał się w ten sposób odwdzięczyć bogini Ge za wykarmienie. 
+                            Nie wiemy, jak długi był łańcuch recepcji tej informacji, ale jej źródeł należy prawdopodobnie upatrywać w jakiejś późnoklasycznej attydzie (Pirenne-Delforge 2004: 177). Jeżeli więc kiedykolwiek istniała 
+                            samodzielna bogini Kourotrophos, jej tożsamość stosunkowo prędko 
+                            przestała być jednoznaczna także dla samych Greków. Wrażenie to 
+                            potęguje lektura hasła Amphidromia w Etymologicum Magnum, z którego dowiadujemy się, że imieniem Kourotrophos niektórzy określali… 
+                            Hestię (stąd zwyczaj obnoszenia wokół paleniska nowo narodzonych 
+                            dzieci; na temat samego rytuału zob. Furley 1981: 65–70; Hamilton 
+                            1984). Scholiasta do przywołanych wyżej Kobiet na Tesmoforiach, gdzie 
+                            bogini Kourotrophos lub, w zależności od przyjętej lekcji, Ge Kourotrophos, pojawia się w kontekście eleuzyńskim (Ar. Th. 299–300), dopełnia obrazu postępującego z biegiem epok synkretyzmu, stawiając 
+                            znak równości między Ge i Hestią, ponieważ „również tej składano 
+                            w ofierze przed Zeusem” (homoios pro tou Dios thyousin autei). Utożsamienie bogiń było dość powszechne w późniejszej tradycji filozoficznej 
+                            (zob. Filochoros, fr. 185; Kornutus, 28; Plot. 4.4.27), ale jako pierwszy, 
+                            zdaniem Filodemosa, miał go dokonać już Sofokles w Triptolemosie
+                            (fr. 615 Radt).</p> <p>Chociaż tylko jedno późne źródło, Etymologicum Magnum, wprost 
+                                przypisuje Hestii aspekt kurotroficzny (w scholiach do Arystofanesa 
+                                informacja ta jest zawarta jedynie implicite), możemy odnaleźć jego ślady na inskrypcji z Faleronu datowanej blisko 400 r. p.n.e. (editio princeps: Stais 1909: 244). Jej zleceniodawczyni, Ksenokrateja, ufundował ołtarz dla rzecznego boga Kefisosa „i bóstw, które dzielą jego ołtarz” 
+                                (ksymbōmois te theois), w pierwszej kolejności wymieniając Hestię, a dalej – bóstwa o jednoznacznie kurotroficznym charakterze (zob. interpretację inskrypcji u Hadzisteliou Price, 1978: 125–126; kurotroficzny 
+                                aspekt bogów rzek objaśnia Eustacjusz, comm. ad Hom. Il., 1293, 1.1–13), 
+                                co pozostaje w doskonałej zgodzie z intencją fundatorki, która chciała 
+                                w ten sposób odwdzięczyć się za wychowanie syna. Ponieważ trudno 
+                                wyobrazić sobie, by Hestia mogła dzielić ołtarz z Kefisosem w innym 
+                                celu, niż po to, aby składano jej na nim ofiary, i ponieważ na inskrypcji 
+                                wymieniona jest jako pierwsza, należy uznać, że inskrypcja z Faleronu 
+                                poświadcza zwyczaj składania ofiary wstępnej dla Hestii w jej aspekcie kurotroficznym.</p> <p>Powróćmy więc do postawionego problemu: czy rzeczywistość 
+                                    kultowa, o której mówi Sokrates, jest dla nas w ogóle w jakikolwiek 
+                                    sposób uchwytna? Wydaje się, że odpowiedź może być twierdząca, 
+                                    tylko jeśli przyjmiemy, że w czasach Platona tożsamość bogini, która otrzymywała ofiarę wstępną podczas niektórych ateńskich świąt, 
+                                    była przedmiotem spekulacji intelektualistów, a słowa Sokratesa stanowiłyby refleks henoteizującej tradycji, w której Kourotrophos (o ile 
+                                    rzeczywiście kiedykolwiek istniała jako samodzielna bogini), Ge Kourotrophos i Hestia Kourotrophos uważane były za jedną boginię, tradycji, być może, tak starej, jak Triptolemos Sofoklesa (fr. 615 Radt)</p>
+                    <p>Na koniec należy jeszcze zmierzyć się z pytaniem, co w ramach 
+                        ofiary wstępnej mogło być ofiarowane Hestii. Jak już powiedzieliśmy, 
+                        zwierzęciem najczęściej zabijanym w ramach ofiary tego rodzaju było 
+                        prosię, jednak wydaje się, że nie wszystkie wzmianki o ofierze z prosiąt dla Hestii trzeba interpretować jako przykłady prothysis (Eupolis, 
+                        fr. 301 Kassel Austin = Athen. 14.657a; por. też późną inskrypcję spoza 
+                        Aten, Erythrai 61.79–80). W Osach Arystofanesa pojawia się niezupełnie czytelna wzmianka o kojcu dla prosiąt (choirokomeion), opatrzonym 
+                        przydawką dzierżawczą „Hestii” (Ar. V. 844), co mogłoby oznaczać, 
+                        że były one hodowane na ofiarę dla bogini (tak Petropoulou 1987: 148, 
+                        przyp. 48; dla scholiasty były to jednak po prostu prosięta hodowane 
+                        w kojcu blisko paleniska, epi tēs hestias, Schol. ad Arist. V. 844). Mglista 
+                        aluzja u Arystofanesa oraz wyrwana z kontekstu wzmianka u Eupolisa mają, być może, coś wspólnego z przysłowiem Hestiai thyein, przekazanym przez kilku paremiografów i Hezychiusza z podobnym, choć 
+                        nie identycznym wyjaśnieniem (Plutarch Paroemiographus, I.46, Zenobiusz, IV.44, Diogenianus II.40, Hsch. ε 6393). Dzięki Zenobiuszowi wiemy, że to Teopomp w komedii Kapelides (Handlarki) wspomniał 
+                        o ofierze dla Hestii, w której nie dzielono się z innymi. Chodziło więc 
+                        prawdopodobnie o posiłek spożywany w domowym zaciszu (podobnie sądził już Farnell, 1909: 356–357; por. wyjaśnienie u Diogeniana: 
+                        „o tych, którzy robią coś w tajemnicy”), z którego Hestia otrzymywała 
+                        należną sobie część (aparche; być może właśnie to mają na myśli Plutarch, Quaestiones Convivales 703d, i Diodor Sycylijski, 5.68.1). Czy częścią takiego posiłku mogło być mięso prosięcia zabitego w domu, a nie 
+                        przy publicznym ołtarzu, to już kwestia czystej spekulacji.</p> <p>Do ofiar typu prothymata należały również ciastka. Attycka inskrypcja SEG 21:813 poświadcza zwyczaj składania na ołtarzu Hestii 
+                            ofiary z trzech ciastek w kształcie półksiężyców (tzw. boes hebdomoi; 
+                            analogiczna ofiara na ołtarzu Apollona Pytyjskiego: IG II² 4987; na temat tego specyficznego typu ciastek zob. Kearns 2011: 94–97). Uczeni 
+                            łączą tę inskrypcję z szeregiem innych, dotyczących ofiar wstępnych 
+                            z ciastek dla różnych bóstw, składanych w kontekście kultu Asklepiosa (przywołana wyżej IG II2 4962, a także IG II² 4971, IG II² 4987). 
+                            Chociaż kult tego boga wprowadzono w Atenach dopiero w latach 
+                            dwudziestych V w. (zob. na ten temat Garland 1992: 116–135), nie ma 
+                            powodu sądzić, by zwyczaj ofiarowania ciastek Hestii jako prothymata
+                            nie mógł być starszy.</p> <p>Wydaje się, że każde bóstwo kurotroficzne mogło potencjalnie 
+                                domagać się ofiary wstępnej. Atenajos, pozwalając swoim bohaterom 
+                                snuć rozważania o wpływie wina na kobiety, cytuje obszerny fragment z komedii Platona Komika pt. Faon (10.441e–442a = Pl.Com. Kock 
+                                174), w którym jeden z bohaterów (prawdopodobnie Afrodyta, Pirenne-Delforge 2004: 181, a nie sama Kourotrophos, Austin, Olson 2004: 
+                                152) zwraca się do kilku kobiet, informując je, że jeżeli chcą zobaczyć 
+                                tytułowego Faona, muszą złożyć proteleia – to zwyczajowe określenie 
+                                na ofiarę zaślubinową (por. Hsch. π 3974) – kilku bóstwom, inaczej „na 
+                                próżno będą czekać na wydymanie”. Jako pierwszej należy προθύεται samej mówiącej, która uzasadnia to faktem bycia kourotrophos (πρῶτα 
+                                μὲν ἐμοὶ γὰρ κουροτρόφῳ προθύεται, Pl.Com., fr. 174.7 Kock). Wśród 
+                                ofiar, których się domaga, są (niekastrowane) ciastka i lagōia dodek’ episelena, co Olson (2009: 110–111) tłumaczy jako 12 okrawków mięsa zajęczego (zwierzę znane ze swej płodności) w kształcie półksiężyców, 
+                                a więc tym samym, jakie miały ofiarowane Hestii ciastka typu bous 
+                                hebdomos (por. SEG 21:813)
+                            </p>
+                </div>
+                <div type="textpart" n="Cratylus_301e-302a">
+                    <head>Cratylus 301e-302a:</head>
+                    <p>Passus pochodzi z drugiego sofizmatu Dionizodora, wykorzystującego niejednoznaczność zaimków dzierżawczych.</p>
+                    <quote>ἆρ᾽ οὖν, ἔφη, ταῦτα ἡγῇ σὰ εἶναι, ὧν ἂν ἄρξῃς καὶ ἐξῇ [302a] σοι αὐτοῖς χρῆσθαι ὅτι ἂν βούλῃ; οἷον βοῦς καὶ πρόβατον, ἆρ᾽ ἂν ἡγοῖο ταῦτα σὰ εἶναι, ἅ σοι ἐξείη καὶ ἀποδόσθαι καὶ δοῦναι καὶ θῦσαι ὅτῳ βούλοιο θεῶν; ἃ δ᾽ ἂν οὕτως ἔχῃ, οὐ σά;</quote>
+                    <quote>Czy więc te rzeczy – powiada – uważasz za swoje, nad którymi panujesz i z którymi możesz [302a] zrobić, co zechcesz? Weźmy na przykład woła czy owcę. Czy uznasz, że te są twoje, które możesz i sprzedać, i dać, i złożyć w ofierze, któremu bogu zechcesz? A te, których 
+                        nie możesz, za nie swoje?</quote>
+                    <p>W miejscu tym Dionizodoros ustala znaczenie zaimka dzierżawczego, które zwieńczy jego sofizmat: skoro mieć to móc sprzedać et 
+                        cetera, to każdy, kto ma ojczystych bogów, może ich sprzedać et cetera
+                        (302d–303a; por. Parker 2005: 22–23). Co ciekawe, posługuje się przy 
+                        tym przykładem zwierząt hodowlanych, a wyliczenie możliwości, 
+                        przed którymi stoi posiadacz owcy czy wołu, sprawia wrażenie paradygmatycznego: używać własnego zwierzęcia jak się komu podoba to 
+                        zrobić z nim właśnie jedną z tych trzech rzeczy: sprzedać, dać komuś 
+                        lub złożyć w ofierze dowolnemu bogu (Dionizodoros powtarza tę frazę w 302e). Ten ostatni element wyliczenia można uznać za ekwiwalent zabicia zwierzęcia po to, by można je było zjeść – ostatecznie wiele zwierząt hodowano właśnie w tym celu. Detienne uważał, że całe mięso spożywane przez Greków pochodziło z ofiar („toute viand consommable doit venir d’une mise à mort rituelle”, Detienne 1979a: 21), 
+                        wydaje się jednak, że w tak radykalnym brzmieniu teza ta jest nie do 
+                        utrzymania. Zob. Ekroth (2007), Parker (2011: 131).
+                        Interpretując wypowiedź Dionizodora, możemy wziąć pod uwagę sposób, w jaki Platon ujmował kwestie ofiarnicze w innych swoich 
+                        dialogach. Sofista nie wymienia więc wszystkich rzeczy, jakie możemy zrobić z naszą własnością (lista byłaby zbyt długa i nie służyłaby 
+                        niczemu), ale jego przykłady nie są też trzema przypadkowo wybranymi z bezmiaru możliwości. Tym, co podaje Dionizodoros, są trzy 
+                        modalności dawania: można „dawać-jak-towar” (na co wskazuje czasownik ἀποδίδομαι, „sprzedawać”), „dawać-jak-rzecz” (w sposób nienacechowany, stąd ogólne δίδωμι) lub „dawać-jak-dar” (θύω). Takie 
+                        odczytanie tego fragmentu wymaga założenia bezpośredniej asocjacji 
+                        słów θύειν i δώρεισθαι w umysłach Greków i wydaje się, że konsensus, jaki wykształca się wśród uczonych w ostatnich latach, zmierza 
+                        do potwierdzenia tego założenia (zob. Parker 2011; Naiden 2013). </p>
+                        <p>Bez 
+                        wątpienia asocjacja taka istniała w umyśle przynajmniej jednego Greka – Platona. Ślady takiego myślenia o ofierze odnajdujemy w kilku 
+                        dialogach (Eutyfron 14a–15b, Polityk 290c–d), ale z poglądami samego 
+                        Platona możemy je z całą pewnością utożsamiać dopiero w Prawach
+                        (716c–717a), gdzie darowanie staje się metonimią całego kultu bogów. 
+                        Filozof stwierdza tam, że dla człowieka dobrego najlepszą rzeczą jest 
+                        θύειν καὶ προσομιλεῖν ἀεὶ τοῖς θεοῖς εὐχαῖς καὶ ἀναθήμασιν καὶ 
+                        συμπάσῃ θεραπείᾳ θεῶν („składać ofiary i stale obcować z bogami 
+                        za sprawą modlitw, darów wotywnych i całego kultu bogów”, 716d), 
+                        dla złego zaś – wprost przeciwną; ponieważ od człowieka skalanego (μιαρός) ani inny człowiek, ani bóg nie mogą „otrzymać darów” 
+                        w sposób właściwy (716e–717a) </p></div>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Phaedo (Φαίδων, Fedone)</title>
+                <title xml:lang="en">Phaedo (Φαίδων, Phaedo)</title>
+                <title xml:lang="pl">Phaedo (Φαίδων, Fedon)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">plato_07_phaedo</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Phaedo (Φαίδων, Fedon)</title>, in Przemysław Biernat, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Corpus Platonicum. Corpus Hippocraticum</title>, Warszawa 2017, pp. 111-116</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded in XML</change>
+                <change when="2017" who="Przemysław Biernat">written contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!--xml:lang="pl"-->
+                <div type="textpart" n="intro">
+                    <p>Dialog tradycyjnie zaliczany jest do środkowego okresu twórczości 
+                        Platona (Guthrie 1975: 325; Rowe 1993: 11–12). Dramatyczna akcja dia-logu toczy się w 399 r. p.n.e., w dniu śmierci Sokratesa. Przedmiotem 
+                        dyskusji jest wyższość życia filozoficznego nad każdym innym oraz 
+                        nieśmiertelność duszy – na którą zresztą Sokrates ostatecznie nie jest 
+                        w stanie dać przekonującego dowodu (Rowe 1993: 5–6; Arieti 1986: 
+                        131–136). Ten fakt skłonił Jamesa A. Arietiego do przekonania, że Fedon
+                        nie jest, jeżeli już chcemy upierać się przy określaniu tematu dialogu, 
+                        o nieśmiertelności duszy (ponieważ w tej kwestii jest niekonkluzyw-ny), ale o odwadze filozofa – tylko ktoś, kto wie, że nie może wiedzieć, 
+                        co będzie po śmierci, może umrzeć odważnie (ibidem).
+                    </p><p>Przekłady polskie: Witwicki (1925), Legutko (1995).
+                        Tekst na podstawie wydania: Burnet (1901).</p>
+                </div>
+                <div type="textpart" n="Phaedo_61a–b">
+                    <head>Fedon 61a–b:
+                    </head>
+                    <div type="textpart" n="intro">
+                        <p>Sokrates wyjaśnia Cebesowi, dlaczego w obliczu śmierci podjął się 
+                            skomponowania hymnu do Apollona, wykorzystując przy tym jedną 
+                            z bajek Ezopa. Wcześniej Sokrates sądził, że „sztuką Muz”, do której 
+                            nakłaniało go bóstwo, jest filozofia (61a, por. Phdr. 259b–d, R. 584b).</p>
+                    
+                    
+                    <quote>νῦν δ᾽ ἐπειδὴ ἥ τε δίκη ἐγένετο καὶ ἡ τοῦ θεοῦ ἑορτὴ διεκώλυέ 
+                        με ἀποθνῄσκειν, ἔδοξε χρῆναι, εἰ ἄρα πολλάκις μοι προστάττοι 
+                        τὸ ἐνύπνιον ταύτην τὴν δημώδη μουσικὴν ποιεῖν, μὴ ἀπειθῆσαι 
+                        αὐτῷ ἀλλὰ ποιεῖν· ἀσφαλέστερον γὰρ εἶναι μὴ ἀπιέναι πρὶν 
+                        ἀφοσιώσασθαι [61b] (...) οὕτω δὴ πρῶτον μὲν εἰς τὸν θεὸν ἐποίησα 
+                        οὗ ἦν ἡ παροῦσα θυσία.
+                        </quote>
+                    <quote>Teraz zaś, gdy zakończył się proces, a święto boga odsunęło moment 
+                        mojej śmierci, uznałem, że skoro wiele razy otrzymywałem we śnie 
+                        polecenie, by zająć się sztuką Muz w potocznym tego słowa znacze-niu, to trzeba być posłusznym i to zrobić. Nie jest bowiem bezpiecznie 
+                        odchodzić, nim się nie spełni nakazów bóstwa – z tego więc powodu 
+                        ułożyłem hymn na cześć boga, którego święto trwało</quote>
+                    <p>61a: ἀσφαλέστερον γὰρ εἶναι μὴ ἀπιέναι πρὶν ἀφοσιώσασθαι – 
+                        „nie jest bowiem bezpiecznie odchodzić, nim się nie spełni nakazów 
+                        bóstwa”; podobną obawę wyraził stojący u kresu życia Kefalos w Pań-stwie (331a–b). W odróżnieniu od Kefalosa Sokrates nie uważał, by ma-jątek odgrywał w tym jakąś rolę (por. X. Mem. 1.3.3; Phdr. 242c).
+                        ἀφοσιώσασθαι – „spełniać nakazy bóstwa”; stan desygnowany 
+                        przymiotnikiem hosios, obecnym w czasowniku aphosioo, implikuje 
+                        moralną i rytualną czystość, stąd też czasownik aphosioo zwykle tłu-maczony jest jako „oczyścić”. W ten sposób jednak zaciera się różnicę 
+                        między aphosioo i katharoo. Dosłownie aphosioo w stronie zwrotnej (jak 
+                        użyte jest tutaj) należałoby tłumaczyć jako „przywrócić się do stanu re-ligijnej poprawności” (co w tym kontekście jest równoznaczne ze speł-nieniem nakazu ze snu). Owa religijna poprawność, hosiotes, powinna 
+                        być rozumiana w kontekście długoterminowej relacji wzajemności 
+                        między bogami a ludźmi (Peels 2016: 49–55). Rozumienie aphosioo jako 
+                        „przywrócić stan religijnej poprawności” (czyli stan, którego bogowie 
+                        oczekują w relacji z ludźmi) pozwala uniknąć pułapki rzekomej au-toantynomii przymiotnika hosios. Według znanej tezy van der Valka 
+                        (1942) przymiotnik ten desygnował zarówno sacrum, jak i profanum, 
+                        a aphosioomai znaczyło niekiedy tyle, co „uwolnić się od zobowiązań 
+                        wobec bóstwa”. Argumenty przeciwko tezie van der Valka, mocno za-korzenionej w koncepcjach Durkheima, wydają się jednak przeważać. 
+                        Zostały one zebrane przez Saskię Peels (2016: 207–212), która zauważa:</p> 
+                    <quote>  it is not possible to ‘pay off’ all of one’s obligations towards the gods 
+                        or towards humans at any particular moment. People who say of 
+                        themselves or other that they are hosios do not mean that they are free 
+                        of the gods, but rather express their action as part of an ongoing rela-tionship</quote>
+                    
+                    <p>61b: θυσία – „ofiara”, „święto”; ofiara powinna być tutaj rozumiana jako pars pro toto święta (ἑορτή z 61a) Apollona na wyspie De-los, które przypadało na ateński miesiąc Anthesterion (Rowe 1993: 
+                        109). Z pierwszych słów dialogu dowiadujemy się, że Ateńczycy 
+                        co roku wysyłali swoją reprezentację (theoria) na Delos jako wypełnienie zobowiązania złożonego bogu, gdy Tezeusz płynął na Kretę 
+                        (58a), by, jak wiemy skądinąd, zakończyć proceder dokarmiania Minotaura ateńską młodzieżą. W trzydziestodniowym okresie nieobec-ności theorów miasto musiało pozostać rytualnie czyste (καθαρεύειν 
+                        τὴν πόλιν, 58b), dlatego wykonanie wyroku na Sokratesie zostało 
+                        odsunięte w czasie.</p>
+                   
+                </div>
+                <div type="textpart" n="Phaedo_107e–108a">
+                    <head>Fedon 107e–108a:</head>
+                    <p>Passus pochodzi ze wstępu do eschatologicznego mitu, zawierają-cego elementy teorii form (idei), opowiedzianego przez Sokrat</p>
+                    <quote>ἔστι δὲ ἄρα ἡ πορεία οὐχ ὡς ὁ Αἰσχύλου Τήλεφος λέγει· ἐκεῖνος 
+                        [108a] μὲν γὰρ ἁπλῆν οἶμόν φησιν εἰς Ἅιδου φέρειν, ἡ δ᾽ οὔτε ἁπλῆ 
+                        οὔτε μία φαίνεταί μοι εἶναι. οὐδὲ γὰρ ἂν ἡγεμόνων ἔδει· οὐ γάρ πού 
+                        τις ἂν διαμάρτοι οὐδαμόσε μιᾶς ὁδοῦ οὔσης. νῦν δὲ ἔοικε σχίσεις 
+                        τε καὶ τριόδους πολλὰς ἔχειν: ἀπὸ τῶν θυσιῶν τε καὶ νομίμων τῶν 
+                        ἐνθάδε τεκμαιρόμενος λέγω</quote>
+                    <quote>Podróż [w zaświaty] nie jest więc taka, jaką przedstawia Telefos u Aj-schylosa: bo on [108a] mówi, że prosta droga wiedzie do domu Hade-sa, ale mi się zdaje, że ani ona prosta, ani jedna. Bo wtedy nie byłoby 
+                        trzeba przewodników – nikt by przecież nie zbłądził, gdyby droga 
+                        była jedna. Tymczasem zdaje się, że ma ona wiele rozwidleń i roz-droży: mówię to na podstawie dowodów, jakich dostarczają ofiary
+                        i wierzenia ludzi żywych.</quote>
+                    <p>108a: τῶν θυσιῶν – „ofiary”; część manuskryptów przekazu-je w tym miejscu słowo hosion, które w swoich wydaniach preferują 
+                        Rowe (1993) i Gallop (1975). Wyjaśnienie Gallopa, że hosion jest bar-dziej ogólnym (general) terminem i zawiera w sobie thysiai, jest nie-porozumieniem (ibidem: 237, przyp. 78): jeżeli już szukać jakiegoś 
+                        nadrzędnego terminu, byłby nim hiera. Z tego też powodu odchodzi-my w tym miejscu od lektury Rowe’a</p>
+                </div>
+                
+                <div type="textpart" n="Phaedo_118a">
+                    <head>Fedon+ 118a:</head>
+                    <p>Fragment zawiera ostatnie słowa Sokratesa:</p>
+                    <quote>ὦ Κρίτων, ἔφη, τῷ Ἀσκληπιῷ ὀφείλομεν ἀλεκτρυόνα: ἀλλὰ 
+                        ἀπόδοτε καὶ μὴ ἀμελήσητε.</quote>
+                    <quote>„Kritonie”, powiedział, „jesteśmy winni Asklepiosowi koguta – dajcie 
+                        mu więc, a nie zaniedbajcie”</quote>
+                    <p>τῷ Ἀσκληπιῷ ὀφείλομεν ἀλεκτρυόνα; zdanie to doczekało się 
+                        ogromnej tradycji interpretacyjnej (obszernie na ten temat: Most 1993). 
+                        Najpopularniejsza (Gill 1973: 28, przyp. 1; Most 1993: 100, przyp. 25) 
+                        interpretacja słów o kogucie dla Asklepiosa jako alegorii (śmierć 
+                        uzdrowieniem duszy z choroby ciała) została ostatnio poddana kry-tyce przez Glenna W. Mosta (1993), który zaproponował odmienną 
+                        interpretację: słowa Sokratesa miały subtelnie wskazywać na Platona, 
+                        nieobecnego przy śmierci mistrza z powodu choroby (59b), jako fak-tycznego spadkobiercę jego myśli.</p>
+                    <p>O ile historycy filozofii zaprzątnięci byli głównie pytaniem: dla-czego Asklepiosowi?, o tyle historycy religii stawiali sobie w pierw-szej kolejności pytanie: dlaczego koguta? Mabel Lang (1977: 28) wią-że koguta z praktyką leczniczej inkubacji w sanktuariach Asklepiosa 
+                        i widzi tutaj argument za alegorycznym odczytaniem ostatnich słów 
+                        Sokratesa. Emma Stafford (2008: 211–212) jest bardziej prozaiczna 
+                        i, powołując się na mimiamb Herodasa (4.14–16), stwierdza, że ptac-two było po prostu ofiarą ubogich. Skromny charakter ofiary z koguta 
+                        przekłada się, zdaniem uczonej, na nieobecność reprezentacji ofiary 
+                        tego rodzaju na reliefach wotywnych pochodzących z miejsc kultu 
+                        Asklepiosa – widzimy tam wyłącznie świnie i owce (rzadko bydło) 
+                        oraz ofiary bezkrwawe (Stafford 2008: 212–217). Na terenie korync-kiego Asklepionu odnaleziono terakotową figurkę koguta (Roebuck 
+                        1951: 143; fotografia również w Stafford 2008: 211) oraz miskę z wize-runkiem ptaka wyrzeźbionym ostrym przedmiotem w jej dnie (Lang 1977: 30; to jednak z pewnością nie kogut), prawdopodobnie dary wo-tywne zastępujące lub upamiętniające ofiarę krwawą. Świadectwa li-terackie na temat ofiary z koguta dla Asklepiosa również nie są zbyt 
+                        liczne: większość zebranych przez Edelsteinów (Edelstein, Edelstein 
+                        1945: 296–301) testimoniów to komentarze i nawiązania do Fedona, 
+                        z wyjątkiem mimiambu Herodasa (z jakiegoś powodu umieszczone-go pod nagłówkiem Other animals) i fragmentu z Artemidora, o czło-wieku, który obiecał Asklepiosowi koguta, jeżeli będzie zdrowy przez 
+                        cały rok (Onirocritica 5.9).</p>
+                    <p>Przytoczone jak, dotąd świadectwa dotyczą ofiary z koguta lub 
+                        jego ekwiwalentu (jeżeli uznać zań terakotową figurkę koguta) w cha-rakterze prywatnej ofiary wotywnej, a nie publicznej ofiary świątecz-nej. Jules Labarbe (1990, non vidi) wyłącza jednak Fedona ze zbioru tych 
+                        świadectw, formułując hipotezę, jakoby świąteczny kalendarz demu 
+                        Alopeke, do którego należeli Sokrates i Kriton, przewidywał obowią-zek złożenia ofiary z koguta podczas ateńskich Asklepiejów (ósmy 
+                        dzień miesiąca Elafebolion). Hipoteza Labarbe’a zapewne spodobała-by się Wilamowitzowi, który uważał, że ostatnie słowa Sokratesa są ko-lejną apologią przed oskarżeniem o bezbożność (Most 1993: 98, przyp. 
+                        13). Abstrahując od hipotezy belgijskiego uczonego, która nie wydaje 
+                        się szczególnie prawdopodobna, ofiara z koguta (kalais; na temat ety-mologii zob. Fraenkel 1913: 33) jako ofiara świąteczna wymieniona jest 
+                        na inskrypcji z Epidauros z końca V w. p.n.e. (LSCG 60, 18–23), regulu-jącej przebieg odbywających się co cztery lata Asklepiejów. Wydaje się 
+                        jednak, że głównym zwierzęciem składanym wówczas w ofierze jest 
+                        wymieniony w pierwszej kolejności wół. Pozostałe inskrypcje wska-zują, że Asklepios był odbiorcą tych samych zwierząt co inni bogowie 
+                        (z nieregularną prohibicją na kozy, zob. Stafford 2008: 217–221).
+                        
+                    </p>
+                </div>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,1230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Leges (Νόμοι, Leggi)</title>
+                <title xml:lang="en">Leges (Νόμοι, Laws)</title>
+                <title xml:lang="pl">Leges (Νόμοι, Prawa)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">plato_05_leges</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Leges (Νόμοι, Prawa)</title>, in Przemysław Biernat, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Corpus Platonicum. Corpus Hippocraticum</title>, Warszawa 2017, pp. 59-105</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded in XML</change>
+                <change when="2017" who="Przemysław Biernat">written contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!--xml:lang="pl"-->
+                <div type="textpart" n="intro">
+                    <p>Prawa uważane są za ostatni z dialogów Platona. Podjęcie pracy nad 
+                        nimi wiąże się, być może, z porzuceniem rozpoczętej trylogii Timajos – 
+                        Kritiasz – Hermokrates, a tym samym pozostawieniem drugiego z tych 
+                        dialogów niedokończonym, trzeciego – nigdy nierozpoczętym (wydaje 
+                        się, że jego zamierzoną treść oddają w jakimś stopniu Prawa, zob. Nad-daf 1994). Dzieło nie doczekało się ostatecznej redakcji ze strony Pla-tona – filozof zmarł, a Prawa przepisał i opublikował jego uczeń, Filip 
+                        z Opuntu (D.L. 3.37, Guthrie 1978: 321–322; Zygmuntowicz 2017: 14–15).
+                        Główną postacią w dialogu jest Ateński Nieznajomy (dalej: A.N.), 
+                        którego bezpiecznie można uznać za porte-parole Platona (Mayhew 
+                        2008: 1). Rozmowa przedstawiona w dialogu rozgrywa się na Kre-cie, podczas pieszej podróży z Knossos do jaskini i świątyni Zeusa 
+                        (1.625b). Cel podróży ma oczywiście wymiar symboliczny: Zeus był 
+                        bogiem, który pomagał królowi Minosowi ustanowić prawa dla wy-spy (1.624a–b; por. Willey 2016). Ateńczykowi towarzyszą w niej Kre-teńczyk Klejniasz, który ma w niedalekiej przyszłości zostać założy-cielem nowego miasta, i małomówny Megillos ze Sparty (być może 
+                        postać autentyczna, zob. Nails 2002: 197–198).
+                        Przedmiotem rozmowy są prawa, jakie musiałoby posiadać mia-sto, aby zbliżyć się do ustroju wzorcowego (paradeigma politeias, 5.739e; 
+                        w jego krótkim opisie dostrzegamy reminiscencje ustroju Państwa) 
+                        na tyle, na ile pozwala ograniczona ludzka natura. Celem tych praw 
+                        jest uczynienie ludzi szlachetnymi, a przez to szczęśliwymi (por. 
+                        1.631b–d). Chociaż w dialogu nazwa projektowanego miasta nie pada 
+                        (por. 4.704a), wiemy, że miało powstać na terytorium zamieszkiwa-nym wówczas przez Magnezyjczyków (np. 8.848d, 12.946b), stąd w li-teraturze przedmiotu zwyczajowo określa się je Magnezją.
+                    </p>
+                    <p>Wśród obszarów indywidualnego i wspólnotowego życia ludz-kiego, które stanowią przedmiot dyskutowanego prawa, znajduje się 
+                        również religia. A.N. uznaje bezwzględny prymat tradycji i trady-cyjnych autorytetów (zwłaszcza wyroczni, por. 5.738b–c) w zakresie 
+                        form publicznego kultu, postuluje jednak „ufilozoficznienie” wy-obrażeń, jakie ludzie mają na temat bogów. W księdze dziesiątej A.N. 
+                        argumentuje na rzecz tez, które mają stanowić fundament oficjalnej 
+                        teologii projektowanego miasta – bogowie istnieją jako byty niemate-rialne i wszelką materialność poprzedzające oraz bogowie są dobrzy, 
+                        nieobojętni i nieprzekupni (Yunis 1988: 29–58; Mayhew 2008). Jedno-cześnie A.N. wyjmuje spod prawa wszelkie przejawy religii prywat-nej, rozumianej tutaj jako kult bogów praktykowany poza społeczną 
+                        kontrolą, na przykład w domowym zaciszu.
+                        Prawa są wciąż stosunkowo mało obudowanym literaturą na-ukową dialogiem. Z punktu widzenia badań nad religią w pismach 
+                        Platona najważniejsze są, jak się wydaje, następujące publikacje: La 
+                        religion de la cité platonicienne O. Reverdina (1945), Plato’s Cretan City 
+                        G. Morrowa (1960; jeden z rozdziałów tej pozycji poświęcony został 
+                        religii w Magnezji), Popular Greek Religion in Greek Philosophy J.D. Mi-kalsona (2010) oraz komentarz do księgi dziesiątej Praw autorstwa 
+                        R. Mayhew (2008).
+                        Przekłady polskie: Witwicki (1958; księgi I–VII), Maykowska 
+                        (1960), Zygmuntowicz (2017).
+                        Tekst za wydaniem: Burnet (1903).</p>
+                </div>
+                <div type="textpart" n="Leges_642d–e">
+                    <head>Prawa 642d–e:
+                    </head>
+                    <p>Następujący krótki passus pochodzi z księgi pierwszej i zawiera 
+                        chronologię działalności Epimenidesa różną od tej, którą przekazu-je Athenaion Politeia. Zgodnie z tym dziełem Epimenides przybył do 
+                        Aten, by oczyścić miasto ze zmazy, jaką ściągnęli na nie mordercy 
+                        stronników Kylona po nieudanym coup d’État w 632 r. p.n.e. (Ath. 1), 
+                        a nie, jak chce Platon, około 500 r. p.n.e. Przedstawiony przez Klejnia-sza ciąg zdarzeń (kryzys – zasięgnięcie rady wyroczni – złożenie ofiar, 
+                        które miały go zażegnać) stanowił typowy scenariusz postępowania 
+                        w podobnych sytuacjach (por. D. 43.66, Juul 2010: 91–94).
+                    </p>
+                    <quote>[…] τῇδε γὰρ ἴσως ἀκήκοας ὡς Ἐπιμενίδης γέγονεν ἀνὴρ θεῖος, ὃς 
+                        ἦν ἡμῖν οἰκεῖος, ἐλθὼν δὲ πρὸ τῶν Περσικῶν δέκα ἔτεσιν πρότερον 
+                        παρ᾽ ὑμᾶς κατὰ τὴν τοῦ θεοῦ μαντείαν, θυσίας τε ἐθύσατό [642e] 
+                        τινας ἃς ὁ θεὸς ἀνεῖλεν.</quote>
+                    <quote>S[…] Pewnie słyszałeś, że tu się urodził Epimenides, boski mąż, zresztą 
+                        mój krewny, który dziesięć lat przed wojną perską przybył do was [do 
+                        Aten] na polecenie wyroczni boga i złożył [642e] pewne ofiary, które 
+                        bóg nakazał.</quote>
+                  
+                </div>
+                <div type="textpart" n="Leges_716d–717a">
+                    <head>Prawa 716d–717a</head>
+                    <p>A.N. odpowiada na pytanie, w jaki sposób człowiek staje się miły 
+                        bogu. Z punktu widzenia badań nad ofiarą passus jest wart odnoto-wania, ponieważ określa warunek, jaki zdaniem Platona musi spełnić 
+                        człowiek, by wejść w relację z bogami: warunkiem tym jest jego mo-ralna czystość (por. Petrovic i Petrovic 2016). A.N. powołuje się przy 
+                        tym na „starą prawdę” (archaios logos, 716c), będącą de facto nieco zmo-dyfikowanym porzekadłem (por. Hom. Od. 17.218; Pl. Lys. 214b, Sym. 
+                        195b), a która brzmi „podobnemu na miarę miłe jest podobne” (czy-li podobnemu, które jest umiarkowane, miłe jest podobne). Kto więc 
+                        chce być miły (prosphiles) bogu, powiada A.N., ten musi stać się jemu 
+                        podobny, na ile to oczywiście możliwe.</p>
+                    <quote>τῷ μὲν ἀγαθῷ θύειν καὶ προσομιλεῖν ἀεὶ τοῖς θεοῖς εὐχαῖς καὶ 
+                        ἀναθήμασιν καὶ συμπάσῃ θεραπείᾳ θεῶν κάλλιστον καὶ ἄριστον 
+                        καὶ ἀνυσιμώτατον πρὸς τὸν εὐδαίμονα [716e] βίον καὶ δὴ καὶ 
+                        διαφερόντως πρέπον, τῷ δὲ κακῷ τούτων τἀναντία πέφυκεν. 
+                        ἀκάθαρτος γὰρ τὴν ψυχὴν ὅ γε κακός, καθαρὸς δὲ ὁ ἐναντίος, 
+                        παρὰ δὲ μιαροῦ δῶρα οὔτε [717a] ἄνδρ᾽ ἀγαθὸν οὔτε θεὸν ἔστιν 
+                        ποτὲ τό γε ὀρθὸν δέχεσθαι: μάτην οὖν περὶ θεοὺς ὁ πολύς ἐστι 
+                        πόνος τοῖς ἀνοσίοις, τοῖσιν δὲ ὁσίοις ἐγκαιρότατος ἅπασιν.</quote>
+                    <quote>Dla człowieka dobrego składanie ofiar i ciągłe obcowanie z bogami 
+                        za sprawą modlitw, darów wotywnych i całego kultu bogów jest naj-piękniejszą, najlepszą i najskuteczniejszą metodą osiągnięcia szcz śliwego [716e] życia, a także najbardziej odpowiednią. Natomiast dla 
+                        człowieka złego jest wprost przeciwnie. Zły człowiek jest bowiem 
+                        nieczysty na duszy, a jemu przeciwny – czysty. Nie jest zaś właści-we, [717a] by człowiek dobry lub bóg przyjmował dary od skalanego. 
+                        Trud bezbożnych o bogów jest więc daremny, natomiast trud poboż-nych przynosi im wszystkim owoce.</quote>
+                    <p>716e: ἀκάθαρτος… καθαρὸς – „nieczysty… czysty”; w kontekście 
+                        kultowym przymiotnik katharos wskazuje na stan czystości, w jakim 
+                        powinien znajdować się człowiek, który przystępuje do kontaktu z bo-gami. Platon, przez zrównanie człowieka czystego z moralnie dobrym 
+                        (agathos), przenosi tę kultową czystość całkowicie na poziom moralny 
+                        (Mikalson 2010: 65). Chociaż idea wewnętrznej – obok zewnętrznej, 
+                        fizycznej – czystości jako prerekwizytu kontaktu z bóstwem w regu-lacjach kultowych pojawia się dopiero w IV w. p.n.e. (Chaniotis 2012: 
+                        128–129), w literaturze odnajdujemy ją już u Hezjoda (Op. 737–741, zob. 
+                        analizę Petrovic, Petrovic 2016: 41–52). Nakaz przestrzegania czystości 
+                        stroju, ciała i duszy był częścią nauk pitagorejskich prawdopodobnie 
+                        już w IV w. p.n.e., a być może wcześniej (Petrovic, Petrovic 2016: 55–
+                        58; Mikalson 2010: 55–56 widzi u Platona zapożyczenie z nauk Pitago-rasa; na temat pitagoreizmu zob. Burkert 1972 Zhmud 2012). Platon 
+                        idzie więc o krok dalej – nie tylko przemilcza kwestię czystości fizycz-nej, ale również zawłaszcza terminologię, która się zwyczajowo do niej 
+                        odnosi, wykorzystując ją do wyrażenia treści o charakterze moralnym. 
+                        Cel tego zabiegu wydaje się dość oczywisty – rzecz w tym, by dobitnie 
+                        podkreślić, że tylko jeden wymiar czystości ma znaczenie. Dla zrozu-mienia intelektualnego kontekstu, w którym Platon dokonuje swojego 
+                        zabiegu, istotne jest, być może, że Eurypides jako pierwszy grecki au-tor nakazał bohaterom swoich sztuk wyartykułować rozdźwięk mię-dzy czystością zewnętrzną a wewnętrzną (χεῖρες μὲν ἁγναί, φρὴν δ᾽ 
+                        ἔχει μίασμά τι, Hipp. 317, por. Or. 1604; por. Chaniotis 2012: 128).
+                        παρὰ μιαροῦ – „od skalanego”; w odróżnieniu od przymiotnika 
+                        katharos, który jest najmniej nacechowanym określeniem czystości, ja-kim dysponuje greka, przymiotnik miaros używany jest wyłącznie jako 
+                        określenie kultowej bądź moralnej nieczystości i odsyła nas do kon-cepcji zmazy, wyrażonej przez etymologicznie pokrewny rzeczowni miasma (zob. klasyczne studium Parkera 1983 oraz Petrovic, Petrovic 
+                        2016: 25–29). Przyczyną zmazy mógł być kontakt ze śmiercią, ludzką 
+                        krwią (także menstruacyjną) czy stosunek seksualny. Obok tej fizykal-nej zmazy istniała tzw. zmaza metafizyczna (Parker 1983: 145), któ-rą sprowadzało złamanie norm rytualnych (np. poprzez niewłaściwy 
+                        strój lub świętokradztwo). Niezależnie od charakteru zmazy osoba nią 
+                        dotknięta była wyłączona z możliwości udziału w praktykach religij-nych do momentu oczyszczenia, a złamanie tego zakazu mogło unie-ważnić rytuał lub sprowadzić gniew bogów</p>
+                    <p>717a: δῶρα… δέχεσθαι – „przyjmować dary”; przez przyjmowanie 
+                        daru ze strony bogów należy rozumieć tutaj nie tylko akceptowanie 
+                        ofiar sensu stricto, ale też całego kultu, jakim otaczają ich ludzie. Patrząc 
+                        analogicznie, kiedy Platon mówi, że dobry człowiek nie przyjmuje 
+                        daru od złego, nie ma chyba na myśli wyłącznie aktu faktycznej wy-miany darów. Należy przypuszczać, że jest to metonimia wchodzenia 
+                        w relację wzajemności, konstruowanej za pomocą różnych zachowań 
+                        społecznych. Pewna symetria (nie absolutna, ale na pewno konteksto-wa) relacji między człowiekiem a bogiem oraz relacji międzyludzkich 
+                        będzie dodatkowo wzmocniona przez użycie przez Platona terminów 
+                        hosios i anosios (patrz niżej).
+                        ἀνοσίοις… ὁσίοις – „bezbożnych… pobożnych”; terminy hosios 
+                        i anosios zostały tu przełożone, zgodnie z translatorską tradycją i dla 
+                        wygody czytelnika, jako „pobożny” i „bezbożny”. Należy mieć jednak 
+                        na uwadze, że w języku greckim termin hosios i pokrewne opisywały nie 
+                        tylko relację człowiek – bóg, ale również człowiek – człowiek (Connor 
+                        1988: 163), co w komentowanym tu passusie doskonale widać. Saskia 
+                        Peels, autorka ostatniego, metodologicznie najbardziej zaawansowane-go studium semantyki terminu hosios i pokrewnych, zaproponowała, by 
+                        rozumieć je w kontekście długoterminowej relacji wzajemności opartej 
+                        na charis, wytwarzanej przez określone zachowania społeczne zarów-no na poziomie międzyludzkim, jak i między bogami a ludźmi (Peels 
+                        2016: 49–55, podobnie Blok 2017: 64; nie wszystkie konkluzje Peels 
+                        pokrywają się z wnioskami Mikalsona 2010: 140–170; por. też Connor 
+                        1988; Rudhardt 1992: 30–36; Lengauer 1994: 128–129). Terminów hosios i anosios Platon używa jako równoznacznych z katharos i akathartos (por. 
+                        E. IT 1037): anosios, czyli taki, który będąc (tu: moralnie) nieczystym, 
+                        nie może wejśćw relację z bóstwem lub w niej trwać. Przykłady takie-go rozumienia tych terminów odnajdujemy także wśród innych auto-rów. Broniąc się przed zarzutem o morderstwo (które pociągało za sobą 
+                        zmazę), klient Antyfonta powoływał się na fakt, że kiedy anosioi biorą 
+                        udział w ofiarach, nie przebiegają one jak należy (τὰ ἱερὰ μὴ γίγνεσθαι 
+                        τὰ νομιζόμενα, Antipho 5.82; por. Aeschin. 3.111), podczas gdy w jego 
+                        obecności κάλλιστα τὰ ἱερὰ ἐγένετο (co miało stanowić dowód jego 
+                        niewinności). Wyrażenie τὰ ἱερὰ γίγνεσθαι καλά oznaczało, że ofiara 
+                        przebiegła pomyślnie, a tym samym, że została zaakceptowana (przy-jęta, δέχεσθαι, por. Aesch. 3.111; Plu. Quaes. Conv. 632d) przez bogów</p>
+                </div>
+                
+            </div>
+            <div type="textpart" n="Leges_717a–b">
+                <head>Prawa 717a–b</head>
+                <p>W poniższym passusie A.N. przedstawia coś, co można określić 
+                    mianem hierarchii kultu i czci – od bogów po rodziców (Morrow 1960: 
+                    434; Mikalson 2010: 247–248). Z pewnością nie jest to pełne odzwiercie-dlenie popularnych wyobrażeń, które pozbawione były systematyczno-ści ugruntowanej w racjonalnej spekulacji (jej owocem była m.in. sfor-mułowana przez Platona koncepcja uwzględnionych tu dajmonów jako 
+                    istot pośredniczących między bogami a ludźmi; zob. Smp. 202e; Burkert 
+                    1985: 179–181; Timotin 2012). Passus nie zawiera eksplicytnego odnie-sienia do rytuału ofiary, ale jest niekiedy przywoływany w dyskusji nad 
+                    stosowalnością kategorii bóstw i rytuałów „olimpijskich” i „chtonicz-nych” w odniesieniu do realiów kultowych starożytnej Grecji (dyskusja 
+                    ma długą historię, zob. Schlesier 1991–1992; Scullion 1994; Deacy 2015).</p>
+                <quote>πρῶτον μέν, φαμέν, τιμὰς τὰς μετ᾽ Ὀλυμπίους τε καὶ τοὺς τὴν 
+                    πόλιν ἔχοντας θεοὺς τοῖς χθονίοις ἄν τις θεοῖς ἄρτια καὶ δεύτερα 
+                    καὶ ἀριστερὰ νέμων ὀρθότατα τοῦ τῆς [717b] εὐσεβείας σκοποῦ 
+                    τυγχάνοι, τὰ δὲ τούτων ἄνωθεν τὰ περιττὰ καὶ ἀντίφωνα, τοῖς 
+                    ἔμπροσθεν ῥηθεῖσιν νυνδή. μετὰ θεοὺς δὲ τούσδε καὶ τοῖς δαίμοσιν
+                    ὅ γε ἔμφρων ὀργιάζοιτ᾽ ἄν, ἥρωσιν δὲ μετὰ τούτους. ἐπακολουθοῖ 
+                    δ᾽ αὐτοῖς ἱδρύματα ἴδια πατρῴων θεῶν κατὰ νόμον ὀργιαζόμενα, 
+                    γονέων δὲ μετὰ ταῦτα τιμαὶ ζώντων.
+                </quote>
+                <quote>Powiemy, że ten precyzyjnie trafi w cel pobożności, kto po bogach 
+                    olimpijskich i tych, którzy dzierżą polis, bogom chtonicznym przy-dzieli jako formy czci [to, co] parzyste, drugie i lewe, [717b] zaś rzeczy 
+                    wyższe – nieparzyste i przeciwne – tym poprzednio wymienionym. 
+                    Po tych bogach człowiek rozumny zaangażuje się w kult dajmonów, 
+                    a po nich – herosów. W następnej kolejności idą prywatne wizerunki 
+                    bogów rodowych, czczone zgodnie z prawem, wreszcie po nich ozna-ki czci dla żyjących rodziców</quote>
+                <p>717a: μετ᾽ Ὀλυμπίους… τοῖς χθονίοις – „po bogach olimpijskich… 
+                    bogom chtonicznym”; jeszcze na początku XX w. kategorie „olimpij-skie” i „chtoniczne” postrzegano jako jasno zdefiniowane w umysłach 
+                    Greków i wzajemnie się wykluczające (Harrison 1908; Stengel 1910; 
+                    Morrow 1960: 449–451). Sądzono, że charakter bóstwa odpowiadał ry-tuałowi, którym je czczono. Bogowie olimpijscy mieli więc otrzymy-wać ofiarę typu thysia, w której zwierzę o jasnym umaszczeniu zabi-jano przy ołtarzu, odchylając jego głowę w kierunku nieba, i po której 
+                    następował posiłek. Tymczasem bogom chtonicznym zabijano zwie-rzęta czarne, krew tryskała do wykopanego w ziemi dołu, a mięsa nie 
+                    zjadano. Przeciwko jednoznacznemu podporządkowaniu rytuałów 
+                    bóstwom danej kategorii wystąpił Arthur D. Nock (1944), który sfor-mułował nośną (por. Ekroth 2002) koncepcję heilige Handlungen: rytów 
+                    o większej „mocy” niż regularna ofiara typu thysia, mających wywrzeć 
+                    bezpośredni efekt na nadprzyrodzonym odbiorcy (Nock 1944: 158). 
+                    Zdaniem Nocka forma rytuału była wypadkową intencji ofiarnika 
+                    oraz aspektu bóstwa, do którego zwracał się ofiarnik („disposition or 
+                    aspect imputed to the deities”, Nock 1944: 159). Greckie bóstwa nie 
+                    miały bowiem przypisanych olimpijskich i chtonicznych tożsamo-ści, które domagały się jednego typu rytuałów (Nock 1944: 159–161). 
+                    Obrony kategorii „olimpijskie” i „chtoniczne” jako konstytuanty toż-samości bóstwa podjął się niedawno Scullion (1994, zob. też Scullion 
+                    2005), polemizując między innymi z Renate Schlesier (1991–1992), któ-ra przedstawiła ją jako konstrukt nowożytnej nauki.
+                    Robert Parker (2011: 81) wskazał cztery typy istot, które sami Grecy 
+                    nazywali chtonicznymi: zmarli, herosi (będący de facto potężniejszymi 
+                    wersjami zwykłych zmarłych), bogowie świata podziemnego (Hades, 
+                    Hekate itp.) oraz bogowie rolniczy (Demeter, Zeus). Nie ma wątpliwo-ści, że A.N. posługuje się wyrażeniem theoi chthonioi na określenie istot 
+                    z trzeciej wyróżnionej przez Parkera kategorii – bogów świata pod-ziemnego. Gdzie indziej (5.727d) A.N. przekonuje, że nie należy się bać 
+                    tego, co po śmierci (en Haidou), ponieważ od „bogów tam” otrzymamy 
+                    największe dobra (μέγιστα εἶναι πάντων ἀγαθῶν ἡμῖν τὰ περὶ τοὺς 
+                    θεοὺς τοὺς ἐκεῖ). Wydaje się więc, że jeżeli nawet realny kult bóstw 
+                    chtonicznych wyrażał przypisywaną im ambiwalencję i niepokój, jaki 
+                    wzbudzali w Grekach (Scullion 1994: 118; por. Isoc. 5.117), chthonioi
+                    Platona są tej ambiwalencji pozbawieni. Jako bogowie zwyczajnie nie 
+                    mogą być źródłem zła. W 828c A.N. proponuje, by bóstwa chtoniczne 
+                    odbierały cześć kultową w dwunastym miesiącu roku.
+                    τὴν πόλιν ἔχοντας θεούς – „bogów dzierżących polis”; wydaje 
+                    się, że chodzi o bogów-opiekunów wspólnoty politycznej (jak Zeus 
+                    Poliouchos, który pojawia się w takim kontekście w 11.921c). Zob. Mi-kalson 2010: 221–222</p>
+                <p>717b: τοῖς δαίμοσιν – „dajmonom”; w poematach homeryckich ter-min daimon bywa niekiedy używany wymiennie z theos, „bóg”, w więk-szości przypadków odnosi się jednak do nadprzyrodzonej siły pozbawio-nej antropomorficznego charakteru, a tym samym działającej w sposób 
+                    niedający się przewidzieć i często niebezpieczny (Timotin 2012: 15–36; 
+                    Versnel 2011: 410). W Pracach i dniach Hezjoda daimones to dusze ludzi 
+                    żyjących w złotym wieku, które odgrywają rolę duchów opiekuńczych 
+                    (Op. 122–123). W teologii platońskiej dajmony były istotami, które po-średniczyły między bogami a ludźmi (Smp. 202d–203a; Lg. 738d, 771d, 
+                    848d) i, inaczej niż bogowie, mogły być szkodliwe. Koncepcja dajmonów 
+                    rozwijana była przez następne pokolenia platoników (zob. Timotin 2012; 
+                    Sfameni Gasparro 2015; Boys-Stones 2016) oraz zaadaptowana przez sto-ików (Versnel 2011: 410; Sfameni Gasparro 2015: 421).
+                    ἥρωσιν – „herosom”; pochodzenia kultu herosów upatrywano 
+                    dawniej w kulcie zmarłych i utrzymywano, że ofiary dla nich różni-ły się zasadniczo od ofiar dla bogów olimpijskich (zob. Burkert 1985: 
+                    203–208; Ekroth 2002: 13–14, 296–298). Jak się jednak wydaje, wyjątki 
+                    od tej reguły są na tyle częste, że mówienie o regule przestaje mieć 
+                    sens (por. Nock 1944). Ofiary zwierzęce dla herosów obejmowały więc 
+                    nie tylko tzw. enagismata – ofiary krwawe, w których mięsa nie zjada-no, niegdyś uważane za typowe dla istot tej kategorii – ale również 
+                    ofiary typu thysia. Gunnel Ekroth (2002: 294; praca szwedzkiej uczo-nej jest obecnie najpełniejszym opracowaniem zagadnienia kultu he-rosów) odnotowała 44 użycia terminów thysia i thyein w odniesieniu 
+                    do ofiar dla herosów w materiale epigraficznym i tylko 14 wystąpień 
+                    terminów wskazujących na ofiary, po których posiłek nie następował. 
+                    Uczona argumentowała też przeciwko popularnemu założeniu, że thy-ein, jako najbardziej ogólny termin ofiarniczy, może w kontekście kul-tu herosów odnosić się do ofiar typu enagisma (pace Scullion 1994: 117).
+                    ἱδρύματα ἴδια πατρῴων θεῶν – „prywatne wizerunki bogów ro-dowych”; pod rzeczownikiem hidryma kryją się zapewne ołtarze i wize-runki bóstw rodowych, a być może również jakieś przedmioty kultowe 
+                    (por. Lycurg. 25–26). Kategoria patrooi theoi obejmowała bóstwa domowe 
+                    (w Atenach byli to przede wszystkim Hestia, Zeus Ktesios i Zeus Her-kejos, zob. Parker 2005: 9–20) oraz bóstwa opiekuńcze fratrii i, być może, 
+                    demów (Parker 2005: 21). Tutaj jednak A.N. precyzuje, że chodzi mu wy-łącznie o hidrymata bóstw domowych, jedyne, o których można powie-dzieć, że były prywatne (idia). W księdze dziesiątej pojawi się zakaz posia-dania prywatnych hiera, który na pozór stoi w sprzeczności z powyższym 
+                    zaleceniem (10.909d, Mayhew 2008: 206; zob. niżej, comm. ad loc.).
+                    γονέων… ζώντων – „dla żyjących rodziców”; por. Smp. 188c</p>
+            </div>
+            <div type="textpart" n="Leges_738b–e">
+                <head>Prawa 738b–e</head>
+                <p>Passus dotyczy wyznaczania kultów i świąt w Magnezji z zastrze-żeniem, by nie zmieniać niczego, co usankcjonowała tradycja (zob. Mi-kalson 2010: 57)</p>
+                <quote>οὔτ᾽ ἂν καινὴν ἐξ ἀρχῆς τις ποιῇ οὔτ᾽ ἂν παλαιὰν διεφθαρμένην 
+                    ἐπισκευάζηται, περὶ θεῶν γε καὶ ἱερῶν, ἅττα τε ἐν τῇ πόλει ἑκάστοις 
+                    ἱδρῦσθαι δεῖ καὶ ὧντινων ἐπονομάζεσθαι θεῶν ἢ δαιμόνων, 
+                    οὐδεὶς ἐπιχειρήσει κινεῖν νοῦν ἔχων [738c] ὅσα ἐκ Δελφῶν ἢ 
+                    Δωδώνης ἢ παρ᾽ Ἄμμωνος ἤ τινες ἔπεισαν παλαιοὶ λόγοι ὁπῃδή 
+                    τινας πείσαντες, φασμάτων γενομένων ἢ ἐπιπνοίας λεχθείσης 
+                    θεῶν, πείσαντες δὲ θυσίας τελεταῖς συμμείκτους κατεστήσαντο 
+                    εἴτε αὐτόθεν ἐπιχωρίους εἴτ᾽ οὖν Τυρρηνικὰς εἴτε Κυπρίας εἴτε 
+                    ἄλλοθεν ὁθενοῦν, καθιέρωσαν δὲ τοῖς τοιούτοις λόγοις φήμας τε 
+                    καὶ ἀγάλματα καὶ βωμοὺς καὶ ναούς, τεμένη τε τούτων ἑκάστοις 
+                    ἐτεμένισαν: τούτων [738d] νομοθέτῃ τὸ σμικρότατον ἁπάντων
+                    οὐδὲν κινητέον, τοῖς δὲ μέρεσιν ἑκάστοις θεὸν ἢ δαίμονα ἢ 
+                    καί τινα ἥρωα ἀποδοτέον, ἐν δὲ τῇ τῆς γῆς διανομῇ πρώτοις 
+                    ἐξαίρετα τεμένη τε καὶ πάντα τὰ προσήκοντα ἀποδοτέον, ὅπως 
+                    ἂν σύλλογοι ἑκάστων τῶν μερῶν κατὰ χρόνους γιγνόμενοι 
+                    τοὺς προσταχθέντας εἴς τε τὰς χρείας ἑκάστας εὐμάρειαν 
+                    παρασκευάζωσι καὶ φιλοφρονῶνταί τε ἀλλήλους μετὰ θυσιῶν καὶ 
+                    οἰκειῶνται [738e] καὶ γνωρίζωσιν, οὗ μεῖζον οὐδὲν πόλει ἀγαθὸν ἢ 
+                    γνωρίμους αὐτοὺς αὑτοῖς εἶναι.</quote>
+                <quote>Czy to tworząc państwo od podstaw, czy to naprawiając już istniejące, 
+                    w zakresie bogów i miejsc świętych, które należy im wznieść w mie-ście i imionami których bogów lub dajmonów nazwać, żaden człowiek 
+                    rozumny nie będzie zmieniał [738c] tego, co nakazały Delfy, Dodona
+                    lub Ammon, albo też jakieś dawne wyrocznie, które miały pochodzić 
+                    z widzeń czy z natchnienia bogów, przekonawszy zaś ustanowiły ofia-ry zmieszane z innego rodzaju rytami, już to lokalne, już to etruskie, 
+                    cypryjskie czy skądinąd; i zgodnie z tymi podaniami, poświęciły wy-rocznie, wizerunki, ołtarze i wyznaczyły dla wszystkich święte okrę-gi: tego [738d] prawodawcy w ogóle zmieniać nie wolno, każdej zaś 
+                    dzielnicy musi wyznaczyć boga, dajmona lub jakiegoś herosa. Podczas 
+                    podziału ziemi im jako pierwszym musi wyznaczyć najlepsze działki 
+                    i zapewnić dostęp do niezbędnych rzeczy, tak aby, kiedy będą miały 
+                    miejsce cykliczne zgromadzenia dzielnic, ich uczestnicy przygotowali 
+                    zapas wszystkiego, co trzeba, a podczas ofiar byli dla siebie nawzajem 
+                    życzliwi, zaprzyjaźniali się [738e] i poznawali. Nie ma nic lepszego dla 
+                    państwa niż wzajemna znajomość jego obywateli</quote>
+                <p>738b: οὐδεὶς ἐπιχειρήσει κινεῖν – „żaden… nie będzie zmieniał”; 
+                    zachowawczość Platona względem tradycji można do pewnego stop-nia objaśniać ludzką niewiedzą na temat bogów (por. Cra. 400d, 425c; 
+                    R. 427b–c). Nawet jeżeli człowiek posiada już jakąś wiedzę na ich te-mat, to trudno jest ją przekazać innym (Ti. 28c).
+                </p>
+                <p>738c: ἐκ Δελφῶν ἢ Δωδώνης ἢ παρ᾽ Ἄμμωνος – dosł. „z Delf, 
+                    Dodony lub Ammonu”; były to trzy najważniejsze wyrocznie świa-ta greckiego, należące do, jak następuje: Apollona (zob. Fontenrose 
+                    1978), Zeusa (zob. Parke 1967) i egipskiego Ammona (z tą ostatnią byli 
+                    szczególnie związani Spartanie, por. ibidem: 210–211). Do wyroczni od-woływano się, kiedy zaszła potrzeba ustanowienia nowego kultu lub 
+                    zmiany statusu istniejącego (por. IG II2
+                    1283.5–6, Lg. 8:828a), ustano-wienia cyklicznej lub złożenia jednorazowej ofiary (np. w sytuacji kry-zysowej, por. D. 43.66). Ofiary publiczne, które składano na polecenie 
+                    wyroczni, miały nawet własną nazwę – manteumata – a w Atenach ich 
+                    organizacją zajmowali się specjalni urzędnicy państwowi, hieropoioi 
+                    (Arist. Ath. 54; cf. Rhodes 1981: 605–606). Więcej na temat roli wyroczni 
+                    w religii ateńskiej zob. Garland (1984: 80–81).
+                    παλαιοὶ λόγοι – „dawne wyrocznie”; kontekst sugeruje, że A.N. 
+                    ma na myśli logoi mantikoi (por. Phdr. 275b), a nie po prostu jakieś po-dania (słowo „wyrocznia” oznacza tu więc nie osobę lub miejsce, ale 
+                    wypowiedź, akt). Platon obdarza zatem autorytetem nie tylko zinsty-tucjonalizowane wyrocznie, ale również te tradycje, które wzięły swój 
+                    początek z indywidualnych aktów inspiracji, w formie snów lub inne-go rodzaju natchnienia. W Timajosie 69e–71e Platon umiejscawia źró-dło takich inspiracji w ludzkiej wątrobie i objaśnia, w jaki sposób moż-liwe jest autentyczne doświadczenie dywinacyjne (zob. komentarz do 
+                    passusu w: Struck 2016: 79–90).
+                    θυσίας τελεταῖς συμμείκτους – „ofiary zmieszane z innego rodza-ju rytami”; analiza historii słowa telete w epoce archaicznej i klasycz-nej wskazuje, że obok bardzo ogólnego sensu ceremonii religijnej (od 
+                    igrzysk olimpijskich, przez Dipoleja, po misteria eleuzyńskie) istniała 
+                    tendencja, z czasem dominująca, by używać go na oznaczenie nietypo-wego rytuału, niedającego się przypisać do kategorii thysia (Schudde-boom 2009). Wydaje się, że Platon ma na myśli niestandardowe ofiary, 
+                    obejmujące dodatkowe ryty, na przykład oczyszczające. 
+                    Τυρρηνικὰς εἴτε Κυπρίας – „etruskie czy cypryjskie”; nie należy 
+                    przywiązywać przesadnej wagi do rzeczywistych desygnatów tych 
+                    przymiotników: wskazanie na zachodni i wschodni kraniec świa-ta greckiego jest metonimią jego całości. Co znamienne, krańce tego vświata Grecy dzielą z innymi, obcymi ludami (w tym przypadku ital-skimi i semickimi) i Platon ma pełną świadomość, że sąsiedztwo to nie 
+                    pozostaje bez wpływu na praktyki religijne Greków.</p>
+                <p>738d: τὸ σμικρότατον ἁπάντων οὐδὲν κινητέον – „w ogó-le zmieniać nie wolno”; podobną opinię powtórzy autor Epinomis, 
+                    prawdopodobnie Filip z Opuntu (D.L. 3.37): „[prawodawca] nie bę-dzie zabraniał tego, co w kwestii ofiar nakazuje obyczaj przodków, 
+                    ponieważ nie ma w tym zakresie wiedzy – nie jest możliwe, by ktoś 
+                    o śmiertelnej naturze mógł ją mieć” (καὶ μὴν οὐδ᾽ ὧν ὁ πάτριος 
+                    νόμος εἴρηκεν περὶ θυσιῶν ἀποκωλύσει, μηδὲν τὸ παράπαν εἰδώς, 
+                    ὥσπερ οὐδ᾽ ὂν δυνατὸν εἰδέναι τῇ θνητῇ φύσει τῶν τοιούτων πέρι, 
+                    Epin. 985d).
+                    τὰ προσήκοντα – „dostęp do niezbędnych rzeczy” (dosł. „to, co 
+                    ma związek”); chodzi zapewne o takie rzeczy jak dostęp do bieżącej 
+                    wody, wykorzystywanej do ablucji ofiarników oraz jako chernips, miej-sce, w którym można składować odpadki, a może nawet bliskość za-gajnika, w którym można pozyskiwać drewno na ofiarne paleniska.</p>
+            </div>
+            
+            <div type="textpart" n="Leges_741c">
+                <head>Prawa 741c</head>
+                <p>Passus dotyczy nienaruszalności przydziału ziemi w Magnezji: 
+                    cała ziemia rolna podzielona została między 5040 gospodarstw i go-spodarze nie mogą jej sprzedawać ani kupować. Zakaz ma nadprzyro-dzoną sankcję, a ten, kto go złamie, podlega karze</p>
+                <quote>πρῶτον μὲν τῆς γῆς ἱερᾶς οὔσης τῶν πάντων θεῶν, εἶτα ἱερέων 
+                    τε καὶ ἱερειῶν εὐχὰς ποιησομένων ἐπὶ τοῖς πρώτοις θύμασι καὶ 
+                    δευτέροις καὶ μέχρι τριῶν</quote>
+                <quote>Po pierwsze, dlatego, że ziemia jest poświęcona wszystkim bogom, 
+                    następnie dlatego, że kapłani i kapłanki będą zmawiać modlitwy 
+                    przy pierwszej, drugiej i trzeciej ofierze.</quote>
+                <p>Po pierwsze, dlatego, że ziemia jest poświęcona wszystkim bogom, 
+                    następnie dlatego, że kapłani i kapłanki będą zmawiać modlitwy 
+                    przy pierwszej, drugiej i trzeciej ofierze.(stanowiły ich hiera), ziemia należy do nich wszystkich, podobnie jak 
+                    każde palenisko (955e: γῆ καὶ ἑστία ἱερὰ πᾶσι πάντων θεῶν).
+                    μέχρι τριῶν – „przy ... trzeciej ofierze; dosł. aż do trzeciej ofiary”; 
+                    A.N. nie tłumaczy ani dlaczego ofiary mają być trzy, ani w jakich do-kładnie okolicznościach mają być składane. Prawdopodobnie jest to 
+                    nawiązanie do jakiegoś dobrze znanego – niestety, już nie nam – zwy-czaju. Kontekst wydaje się sugerować ofiary towarzyszące nabyciu 
+                    prawa do używania przypisanej każdemu z 5040 gospodarstw ziemi, 
+                    zwykle w wyniku odziedziczenia działki (por. 740b–d). Odbiorcami 
+                    ofiar mogły być bóstwa związane ze sferą oikos, ale czy wyłącznie? 
+                    Punktem zaczepienia dla spekulacji może być trzecia pozycja Zeusa 
+                    Sotera, jednego z bóstw zaliczanych do kategorii Hausgötter, jako od-biorcy libacji podczas sympozjonu, po bogu olimpijskim i herosie 
+                    (Węcowski 2014: 39). W Błagalnicach 26–27 chór przywołuje go nato-miast jako trzeciego po bogach najwyższych (hypatoi, a więc pewnie 
+                    olimpijskich) i chtonicznych. Sugerowałbym więc, że Platon ma na 
+                    myśli bardzo zbliżoną sekwencję, odzwierciedlającą hierarchię kultu 
+                    istot nadprzyrodzonych, przedstawioną przez A.N. w 717a–b (patrz 
+                    wyżej): pierwsza ofiara dla bogów olimpijskich i/lub opiekuńczych 
+                    miasta, druga dla dajmonów i herosów, trzecia dla bogów rodowych</p>
+            </div>
+            
+            <div type="textpart" n="Leges_771e">
+                <head>Prawa 771e</head>
+                <p>Passus dotyczy sposobu, w jaki podzielony ma zostać obszar kon-trolowany przez Magnezję (zob. Morrow 1960: 121–123)</p>
+                <quote>[…] ἑκάστῃ μοίρᾳ θεὸν ἢ θεῶν παῖδα ἐπιφημίσαντες, βωμούς τε 
+                    καὶ τὰ τούτοις προσήκοντα ἀποδόντες, θυσιῶν πέρι συνόδους 
+                    ἐπ᾽ αὐτοῖς ποιώμεθα δύο τοῦ μηνός, δώδεκα μὲν τῇ τῆς φυλῆς 
+                    διανομῇ, δώδεκα δὲ αὐτῷ τῷ τῆς πόλεως διαμερισμῷ, θεῶν μὲν 
+                    δὴ πρῶτον χάριτος ἕνεκα καὶ τῶν περὶ θεούς, δεύτερον δὲ ἡμῶν 
+                    αὐτῶν οἰκειότητός τε πέρι καὶ γνωρίσεως ἀλλήλων, ὡς φαῖμεν ἄν, 
+                    καὶ [771e] ὁμιλίας ἕνεκα πάσης.</quote>
+                <quote>[…] każdej cząstce nadamy imię boga lub dziecka bogów, zbuduje-my im ołtarze i zapewnimy to, co niezbędne, a następnie ustanowim […] każdej cząstce nadamy imię boga lub dziecka bogów, zbuduje-my im ołtarze i zapewnimy to, co niezbędne, a następnie ustanowim</quote>
+                <p>771d:
+                    τὰ προσήκοντα – „to, co niezbędne”; zob. komentarz do 738b–e.
+                    χάριτος ἕνεκα – „okazać wdzięczność”; tu charis zdecydowałem 
+                    się oddać przez „wdzięczność”, która pokrywa tylko część pola se-mantycznego greckiego słowa. W intencji wypowiadającego te słowa 
+                    A.N. chodzi z pewnością nie tylko o okazanie bogom wdzięczności, 
+                    ale również sprawienie im przyjemności i radości. W odpowiedzi, jak 
+                    czytamy gdzie indziej, bogowie będą nam przychylni (803e). W ten 
+                    sposób ofiara buduje między ludźmi a bogami relację analogiczną do 
+                    tej, jaką wspólnie obchodzona uroczystość buduje między ludźmi. 
+                    Twierdzenie to nie jest sprzeczne z tym, co A.N. mówił w 716d–717a: 
+                    zakładamy, że dzięki właściwej edukacji i mądrym prawom ofiarująca 
+                    wspólnota będzie wspólnotą ludzi moralnie dobrych. Na temat tzw. 
+                    charis-based reciprocity zob. Parker (1998), Mikalson (2010: 14–15), Berti 
+                    (2014), Jim (2014: 60–68, komentarz do Eutyfrona 14b)</p><p>771d–e: οἰκειότητός… γνωρίσεως… ὁμιλίας – „zbliżyć nas ze 
+                        sobą… poznać… okazją do spotkania”; Platon ma świadomość, że 
+                        ofiary publiczne pełnią ważną funkcję społeczną. Podczas takich zgro-madzeń ludzie mają okazję się poznać i zadzierzgnąć więzi, co jest klu-czowe dla spójności wspólnoty politycznej.</p>
+            </div>
+            
+            <div type="textpart" n="Leges_772b">
+                <head>Prawa 772b</head>
+                <p>A.N. stwierdza, że prawodawca nie powinien zbyt ściśle dookreślać 
+                    reguł postępowania we wszystkich przedsięwzięciach publicznych, 
+                    lecz powinien zostawić pole manewru ludziom, którzy te wydarzenia 
+                    organizują i mają w nich doświadczenie, tak aby z biegiem lat wypra-cowali najwłaściwszy sposób postępowania</p>
+                <quote>χρόνος μὲν οὖν μέτριος ἅμα καὶ ἱκανὸς γίγνοιτ᾽ ἂν τῆς ἐμπειρίας 
+                    δεκαετηρὶς θυσιῶν τε καὶ χορειῶν.</quote>
+                  <quote>  Wystarczający i odpowiedni czas na rozeznanie się w kwestiach doty-czących ofiar i tańców wynosi zapewne 10 lat.</quote>
+                
+            </div>
+            
+            <div type="textpart" n="Leges_716d–717a">
+                <head>Prawa 716d–717a</head>
+                <p>INTRO TO TEXT</p>
+                <quote>GREEK TEXT</quote>
+                <quote>TRANSLATION</quote>
+                <p>COMMENTARY DIVIDED INTO PARAGRAPHS</p>
+            </div>
+            
+            <div type="textpart" n="Leges_782b–d">
+                <head>Prawa 782b–d</head>
+                <p>Interesujący passus, który zapowiada późniejszą koncepcję ewo-lucji praktyk ofiarniczych, skorelowanej ze zmianami zachodzącymi 
+                    w środowisku naturalnym, którą opracował Teofrast (apud Porph. De 
+                    abst. 2.5.1–9.2, 11.3–15.3, 19.4–31.1, 31.7–32.3; zob. Obbink 1988). A.N. 
+                    przedstawia swoją interpretację prehistorii w sposób bardzo skróto-wy, jak gdyby odwoływał się do czegoś ogólnie znanego. Inaczej niż 
+                    Teofrast A.N. zdaje się przyjmować, że istoty żywe zwróciły się ku zja-daniu siebie nawzajem w okresie poprzedzającym pojawienie się rol-nictwa, i doprawdy trudno znaleźć jakiekolwiek uzasadnienie dla tak 
+                    kontrintuicyjnej tezy, z wyjątkiem jednego – istnienia autorytatywnej 
+                    tradycji, która nakazywałaby tak myśleć.</p>
+                <quote>ΑΘΗΝΑIΟΣ: τί οὖν; πιστεύομεν ἀμπέλους τε φανῆναί πού ποτε 
+                    πρότερον οὐκ οὔσας; ὡσαύτως δὲ καὶ ἐλάας καὶ τὰ Δήμητρός τε 
+                    καὶ Κόρης δῶρα; Τριπτόλεμόν τέ τινα τῶν τοιούτων γενέσθαι 
+                    διάκονον; ἐν ᾧ δὲ μὴ ταῦτα ἦν τῷ χρόνῳ, μῶν οὐκ οἰόμεθα τὰ ζῷα, 
+                    καθάπερ νῦν, ἐπὶ τὴν ἀλλήλων ἐδωδὴν τρέπεσθαι; 
+                    ΚΛΕΙΝΙΑΣ: τί μήν; [782c] 
+                    ΑΘ.: τὸ δὲ μὴν θύειν ἀνθρώπους ἀλλήλους ἔτι καὶ νῦν παραμένον 
+                    ὁρῶμεν πολλοῖς· καὶ τοὐναντίον ἀκούομεν ἐν ἄλλοις, ὅτε οὐδὲ 
+                    βοὸς ἐτόλμων μὲν γεύεσθαι, θύματά τε οὐκ ἦν τοῖς θεοῖσι ζῷα, 
+                    πέλανοι δὲ καὶ μέλιτι καρποὶ δεδευμένοι καὶ τοιαῦτα ἄλλα ἁγνὰ 
+                    θύματα, σαρκῶν δ᾽ ἀπείχοντο ὡς οὐχ ὅσιον ὂν ἐσθίειν οὐδὲ τοὺς 
+                    τῶν θεῶν βωμοὺς αἵματι μιαίνειν, ἀλλὰ Ὀρφικοί τινες λεγόμενοι 
+                    βίοι ἐγίγνοντο ἡμῶν τοῖς τότε, ἀψύχων μὲν ἐχόμενοι πάντων, 
+                    ἐμψύχων δὲ τοὐναντίον [782d] πάντων ἀπεχόμενοι.
+                </quote>
+                <quote>ATEŃSKI NIEZNAJOMY: Czyż nie wierzymy, że winna latorośl po-jawiła się w pewnym momencie dziejów, a wcześniej nie istniała? I że 
+                    to samo dotyczy drzewek oliwnych i darów Demeter i Kore? I że ich 
+                    powiernikiem został niejaki Triptolemos? W czasie zaś, kiedy tych 
+                    roślin nie było, czyż nie uważamy, że istoty żywe zaczęły pożerać się 
+                    nawzajem, jak czynią to teraz? 
+                    KLEJNIASZ: Jakżeby inaczej? 
+                    A.N.: Istotnie, jeszcze i dziś widzimy u wielu ludów zwyczaj składa-nia ludzi w ofierze. O innych zaś słyszymy coś przeciwnego, a mia-nowicie, że nie mieli odwagi skosztować nawet wołu i że ich ofiarami 
+                    dla bogów nie były istoty żywe, lecz placki, ziarna w miodzie i inne 
+                    tego rodzaju czyste ofiary. Ludzie ci powstrzymywali się od mięsa, 
+                    ponieważ uważali, że nie jest zbożnie ani go jeść, ani plamić ołtarzy 
+                    bogów krwią. Wielu z nas żyło wtedy na sposób nazywany orfickim, 
+                    korzystając z tego, co nie ma duszy, i powstrzymując się od tego, co 
+                    duszę ma.</quote>
+                <p>782b: ἐλάας – „drzewek oliwnych”; drzewko oliwne było w Ate-nach uważane za dar bogini Ateny (por. Apollod. 3.14.1). W zakoń-czeniu inskrypcji IG I3
+                    78a zawierającej treść tzw. dekretu pierwocino-wego – uchwały nakazującej wszystkim sprzymierzeńcom składanie 
+                    ofiary pierwocinowej dla Demeter (patrz niżej) – czytamy, że na tym 
+                    samym Zgromadzeniu, na którym uchwalono dekret, Lampon (praw-dopodobnie chodzi o znanego wieszczka, zob. Lengauer 1994: 125–
+                    –126; Flower 2008: 123–124) złożył wniosek o uchwalenie aparche (ofia-ry pierwocinowej) z oliwy, zapewne dla Ateny. Chociaż ostatecznie 
+                    tej aparche nie uchwalono, propozycja Lampona wyraźnie wpisywała 
+                    się w tę samą strategię budowania symbolicznej supremacji Aten nad 
+                    innymi Grekami jako krzewicielki cywilizacji utożsamianej z rolnic-twem. A.N., wymieniając na jednym oddechu oliwę i zboże, niewąt-pliwie odwołuje się do ateńskiej propagandy.
+                    Δήμητρός τε καὶ Κόρης… Τριπτόλεμόν – „Demeter i Kore… 
+                    Triptolemos”; przywołanie postaci Demeter, Kore oraz Triptolemosa 
+                    sugeruje, że źródeł tradycji, do której odwołuje się Platon, powin-niśmy szukać w kompleksie mitologicznym związanym z Eleusis. 
+                    W homeryckim Hymnie do Demeter pogrążona w żałobie bogini 
+                    wstrzymuje wegetację w świecie, w którym ludzie znają już uprawę 
+                    roli (w. 305–309), a Triptolemos wymieniony jest wyłącznie jako jeden 
+                    z kilku eleuzyńskich władców (w. 153, 474). W literaturze ateńskiej 
+                    pojawiają się jednak odniesienia do alternatywnej, lokalnej tradycji, 
+                    w ramach której uprawa zbóż, podobnie jak misteria eleuzyńskie, zo-stała ludzkości – a oryginalnie mieszkańcom Attyki – podarowana 
+                    przez boginię Demeter (Isoc. 4.28). Poetyckim nośnikiem tej tradycji 
+                    mógł być poemat autorstwa Orfeusza, o którego istnieniu informuje 
+                    zachowana fragmentarycznie kronika Marmor Parium, obejmująca hi-storię Greków od rządów mitycznego króla Aten Kekropsa po III w. 
+                    p.n.e. (Jacoby 1904; Rotstein 2016). Wersy 12–14 z zaginionej obec-nie części A monumentu (zob. Rotstein 2016: 3–5) mówiły o przy-byciu Demeter do Attyki, zasianiu (lub zebraniu, jeżeli przyjmiemy 
+                    koniekturę Jacoby’ego) zboża przez Triptolemosa, opublikowaniu 
+                    (eksethēke) przez Orfeusza poematu poświęconego Korze i Demeter 
+                    oraz, jak się wydaje, właśnie wprowadzeniu rolnictwa (zachowały 
+                    się tylko ostatnie słowa: tōn hypodeksamenōn ton karpon, „którzy przy-jęli zboże”, FGrH 239 A14 = OF 379 T, 513 T Bernabé). Orfeusz jako 
+                    twórca lokalnych obrzędów wskazywany jest w źródłach ateńskich 
+                    już w epoce klasycznej (teletai: Ar. Ran. 1032, hagiotatai hemin tele-tai: D. 25.11; aporreta: Eur. Rhes. 943–947; dokładnych desygnatów 
+                    możemy się wyłącznie domyślać, dość powszechnie przyjmuje się, 
+                    że może chodzić o misteria eleuzyńskie, zob. Bernabé 2009: 89–93; 
+                    w grę wchodzą również Tesmoforia, zob. Graf 2008: 685). Ponieważ 
+                    Orfeusz wymieniony jest przez Arystofanesa (Ran. 1032) w szeregu 
+                    innych poetów-nauczycieli, Fritz Graf (2008: 683–687) zasugerował, 
+                    że komediopisarz odwoływał się w tym punkcie do konkretnego 
+                    utworu poetyckiego, znanego ateńskiej publiczności, tego samego, 
+                    który wzmiankowany jest na Marmor Parium. Zdaniem Grafa utwór 
+                    ten stanowił konkurencję dla Hymnu do Demeter i był wehikułem ide-ologii eleuzyńskiej, a zarazem symbolicznej supremacji Aten (por. 
+                    Rotstein 2016: 112–114; Hymn może być młodszy od attyckich po-ematów o Demeter i Kore, zob. Currie 2012). W swojej wcześniejszej 
+                    publikacji poświęconej poezji orfickiej i Eleusis Graf (1974: 161) po-stawił hipotezę, że z paryjskiego poematu orfickiego pochodzą wers cytowane jako orfickie przez Sekstusa Empiryka w Adversus Mathe-maticos (2.31–32 = OF 641–642 Bernabé; passus został przeanalizowa-ny przez Blomqvista, 1990, oczywiście bez uwzględnienia kontekstu 
+                    Praw). Sekstus cytuje łącznie cztery wersy. W dwóch pierwszych Orfe-usz mówi, że był czas, gdy ludzie zjadali się wzajemnie, w kolejnych 
+                    dwóch, przeplecionych parafrazą lub wyjaśnieniem Sekstusa, czytamy 
+                    o zwierzętach, które pożerały się nawzajem, ponieważ nie było między 
+                    nimi dike (te wersy są niemal identyczne z wersami 277–278 Prac i dni
+                    Hezjoda, jednak Sekstus wyraźnie cytuje je jako pochodzące z jednego 
+                    utworu, zob. Blomqvist 1990: 87). Wreszcie, w formie parafrazy, Sek-stus dodaje, że w końcu bóg zesłał ludziom „prawodawcze boginie” 
+                    (thesmophorous theas), jak nazywano w Atenach Demeter i Kore (Ar. 
+                    Th. 83; por. Stallsmith 2008), które zakończyły okres antropofagii i na-uczyły ludzi uprawy zbóż. We fragmentach cytowanych przez Sekstu-sa odnajdujemy te same elementy, które pojawią się w wypowiedzi 
+                    A.N.: pożerające się nawzajem zwierzęta, kanibalizm oraz cywiliza-cyjny przełom związany z wprowadzeniem rolnictwa przez Demeter 
+                    i Kore (por. Isoc. 4.28). Zakładając u Platona i jego czytelników znajo-mość cytowanego przez Sekstusa utworu, możemy wytłumaczyć, dla-czego A.N. nie potrzebował wyjaśnić swojej co najmniej dziwnej tezy, 
+                    jakoby zwierzęta zaczęły pożerać się nawzajem w okresie, gdy ludzie 
+                    nie znali jeszcze uprawy roli.
+                    Przekazana w poemacie wzmiankowanym na Marmor Parium wer-sja mitu o Demeter i początkach rolnictwa miała swój oddźwięk także 
+                    w oficjalnej ideologii Aten. Wyrazem tego było wydanie tzw. dekretu 
+                    pierwocinowego IG I3
+                    78a, datowanego na lata trzydzieste V w. p.n.e. 
+                    (zob. Clinton 2008: 52), w którym wzywano wszystkich Greków 
+                    do udziału w ofierze dla bogini Demeter (w. 30–34). Dekret ten po-wszechnie wiązany jest z imperialną polityką Aten (Hornblower 1992: 
+                    184–186; Cavanaugh 1996: 94; Clinton 2008: 53; Jim 2014: 209, a zwłasz-cza 213–218; jak stwierdza Mikalson 2016: 227, kult Demeter w Eleusis 
+                    był kontrolowany przez instytucje polis w stopniu większym niż ja-kikolwiek inny). Mając na uwadze słowa Peryklesa z epitaphios logos
+                    (Th. 2.41.1), Maureen B. Cavanaugh (1998: 94) zauważyła w podsumo-waniu swojego obszernego komentarza do dekretu</p><quote>[t]he offering of first-fruits to the Eleusinian, indeed Athenian, Dem-eter in recognition of her gift of grain, and thus civilisation, would 
+                        indeed contribute to Pericles’ assessment, and, more importantly, the 
+                        Greek world’s acknowledgement, of Athens as the educator of Greece.</quote>
+                <p>Ponawiam więc pierwotną tezę Grafa (1974: 160–163), że cytowane 
+                    przez Sekstusa wersy pochodzą z tego właśnie utworu. Fakt, że uczo-ny nie powrócił do niej w swojej publikacji z 2008 r. należy, być może, 
+                    wiązać z polemiką Blomqvista (1990: 88–89). Blomqvist zwrócił uwagę, 
+                    że Sekstus mówi niemal wyłącznie o prawodawczej roli bogiń, kwestię 
+                    rolnictwa traktując pobieżnie. Uczony nie zechciał jednak zauważyć, 
+                    że wynika to ze specyfiki kontekstu, w jakim Sekstus cytuje poemat 
+                    Orfeusza – ma on stanowić ilustrację na rzecz tezy, że bez praw nie 
+                    ma szans zaistnieć wspólnota polityczna. Sekstus wybiera więc z tek-stu poematu wersy o pożerających się wzajemnie ptakach, ponieważ 
+                    pada tam kluczowe z jego punktu widzenia wyjaśnienie – robiły to, 
+                    ponieważ „nie było między nimi sprawiedliwości”. Końcowa uwaga, 
+                    że ludzie byli Demeter wdzięczni raczej za zakończenie kanibalizmu 
+                    niż wprowadzenie uprawy roli, może już pochodzić od samego Sek-stusa i wynikać z przyjętej przezeń specyficznej optyki w interpretacji 
+                    utworu.
+                    Chociaż Alberto Bernabé (2008: 406) zestawia komentowany tu 
+                    passus z Praw oraz fragment z Sekstusa w jednym ze swoich licznych 
+                    tekstów poświęconych orfizmowi, to nie zauważa, że łączy je coś wię-cej niż zwykła analogia. Oba passusy służą uczonemu za argument, ja-koby poematy orfickie w epoce klasycznej zawierały zalecenie, by po-wstrzymać się od zabijania i zjadania zwierząt. Bernabé przytacza też 
+                    wersy poematu wybiórczo zacytowane przez Sekstusa jako tekst ciągły 
+                    (2008: 406, 2013: 121) – w efekcie tekst w przekładzie brzmi tak, jakby 
+                    według Orfeusza dar Demeter wprowadził epokę wegetarianizmu. 
+                    Należy jednak zauważyć, że to nie Ateńczycy zaczerpnęli cytowany 
+                    przez Sekstusa utwór ze zbioru fragmentów orfickich przygotowa-nego przez Bernabégo, tylko Bernabé zaczerpnął go od Ateńczyków, 
+                    a dla zrozumienia jego znaczenia ważniejszy jest kontekst pierwotny – 
+                    rekonstruowana przez uczonych doktryna orficka. W tym kontekście 
+                    cytowany przez Sekstusa utwór miał prawdopodobnie charakter pro-pagandowy – promował mit konkurencyjny względem homeryckie-go, który czynił Attykę kolebką cywilizowanego życia politycznego 
+                    i dostarczał Atenom środków do supremacji symbolicznej nad innymi 
+                    Grekami. Trudno znaleźć dobre uzasadnienie dla tezy, że jednocześnie 
+                    utwór ten miał na celu dyskredytować praktykę rytualną, która stała 
+                    w centrum życia społeczno-religijnego Greków, sugerując na dodatek, 
+                    że stoi za tym bogini Demeter.
+                    Natomiast fakt, że Teofrast odmiennie od Platona rekonstruował 
+                    ewolucję ludzkich zwyczajów żywieniowych (najpierw byli oni roślino-żerni, kanibalizm był następstwem braku żywności), można moim zda-niem wiązać z odrzuceniem autentyczności pism, a tym samym auto-rytetu Orfeusza, przez mistrza Teofrasta, Arystotelesa (Arist. fr. 7 = Cic. 
+                    ND 1.107)</p>
+                <p>782c: θύειν ἀνθρώπους – „składania ludzi w ofierze”; składane 
+                    po dziś dzień ofiary z ludzi to, by posłużyć się pojęciem rodem z an-tropologii ewolucyjnej, „przeżytki”, pozostałości praktyk z wczesne-go etapu rozwoju ludzkości. Co znamienne, Platon bez najmniejszej 
+                    trudności przechodzi od wzajemnego zjadania się przez istoty żywe 
+                    do składania ofiar – widocznie korelacja ofiary i mięsożerstwa była 
+                    w umyśle Greka wystarczająco silna, by przejście to nie domagało 
+                    się dodatkowych wyjaśnień. Jedyne ofiary z ludzi, o jakich wspomi-na Platon w swoich pozostałych pismach, to ofiary składane Zeuso-wi Lykajosowi w jego sanktuarium na górze Lykajon w Arkadii (zob. 
+                    komentarz do Państwa 565d–e), chociaż niewykluczone, że podczas 
+                    pobytu na Sycylii usłyszał o kartagińskiej ofierze z dzieci (zob. komen-tarz do Minosa). Platon zapewne wiedział też o wzmiankowanej przez 
+                    Herodota (7.197) ofierze dla Zeusa Lafystyjskiego (zob. komentarz do 
+                    Minosa, 315c).
+                    οὐδὲ βοὸς – „nawet wołu”; wskazanie na konkretne zwierzę suge-ruje, że Platon odnosi się w tym miejscu do podania, w którym się ono 
+                    pojawiało, a nie do ogólnego wyobrażenia o diecie przeszłości. Wal-ter Burkert uznał za oczywiste, że Platona rekonstrukcja starożytnych 
+                    praktyk ofiarniczych musiała się w tym punkcie opierać na przebiegu 
+                    ateńskich Bufoniów (Burkert 1983: 138), chociaż wydaje się, że musi tu 
+                    chodzić raczej o towarzyszący rytuałowi mit aitiologiczny, w którym 
+                    pierwszy wołobójca zakopał swoją ofiarę i dopiero wyrocznia naka-zała Ateńczykom ją powtórzyć i zjeść (Porph. Abst. 2.29.2–3). Bufo-nia były uważane za starożytny rytuał także przez Arystofanesa (Nu. 
+                    984–985) i jako źródło powrócą u Teofrasta (apud Porph. Abst. 2.29–30), 
+                    który przedstawił własną koncepcję rozwoju ludzkich praktyk alimen-tacyjno-ofiarniczych.
+                    Ὀρφικοί… λεγόμενοι βίοι – „sposób nazywany orfickim” (dosł. „tak 
+                    zwane orfickie żywoty”); Platon jest jedynym autorem klasycznym, któ-ry wprost charakteryzuje „orficki styl życia” (por. Trzcionkowski 2013: 
+                    363–373). Jego wyznacznikiem jest powstrzymanie się od empsycha, co 
+                    zbliża współczesnych „tak zwanych orfików” do prehistorycznych Gre-ków, którzy nie jedli mięsa i nie składali zwierząt w ofierze. Z kontekstu 
+                    wynika, że wiedza Platona na temat prehistorycznej diety pochodziła 
+                    z mitu towarzyszącego Bufoniom i z poematu o Demeter wzmiankowa-nego na Marmor Parium. Trudniej wskazać, skąd współcześni Platonowi 
+                    orficy czerpali przekonanie, że nie należy jeść mięsa. Jak przyznaje sam 
+                    Bernabé, wzmianki na ten temat we fragmentach zaliczonych przezeń 
+                    do orfickich są niejednoznaczne (Bernabé 2008: 406, por. OF 629–633 
+                    Bernabé). Zupełnie jednoznacznie i wprost do zaniechania ofiar zwie-rzęcych nawoływał natomiast Empedokles (por. OF 637–640 Bernabé), 
+                    miał tak postępować także Pitagoras (D.L. 8.22, por. OF 634–636 Ber-nabé; temat orfickiej i pitagorejskiej diety podjęła Osek 2015). Już staro-żytni mieli trudności z rozróżnieniem religijnych zaleceń pitagorejczy-ków i orfików: według Iona z Chios (V w. p.n.e.) Pitagoras część swoich 
+                    pism ogłosił pod imieniem Orfeusza (D.L. 8.8), trafność oceny Iona zo-stała jednak podważona przez Leonida Zhmuda (2012: 223). Podobnie 
+                    uwaga Herodota, że zwyczaje orfickie i bakchiczne są w rzeczywistości 
+                    egipskie i pitagorejskie (2.81), jest przez niektórych uczonych uznawana 
+                    za skutek włączenia glossy („są w rzeczywistości egipskie i pitagorej-skie”) do głównego tekstu (zob. Zhmud 2012: 223–225). Na temat relacji 
+                    orfizmu i pitagoreizmu zob. Bernabé (2013).
+                    ἀψύχων… ἐμψύχων – „tego, co nie ma duszy… tego, co duszę 
+                    ma”; terminy z okołopitagorejskiej tradycji filozoficznej. Zdaniem A.N. ludzie prehistoryczni byli wegetarianami (być może nawet we-ganami) i pacyfistami. Ta radykalna postawa zgodna jest z naukami 
+                    Empedoklesa oraz stylem życia pitagorystów (Pythagoristai). To ostat-nie określenie pojawia się w komedii okresu średniego, gdzie chętnie 
+                    wzmiankowano ich rygorystyczną dietę: powstrzymanie się od jedze-nia mięsa i fasoli oraz od picia wina (Alexis, fr. 220–21 Edmonds, An-tiphanes, fr. 135 Edmonds, Aristophon, fr. 13 Edmonds). Dla Jambli-cha pitagoryści to naśladowcy Pitagorasa niebędący pitagorejczykami 
+                    (Iamb. VP 18.80), chociaż jest mocno wątpliwe, by autorzy komediowi 
+                    w IV w. p.n.e. rozumieli to subtelne rozróżnienie. Niemniej rozdźwięk 
+                    między naukami Pitagorasa a poglądami jego naśladowców był dla 
+                    niektórych wyraźny. Przeciwko pitagorystom wystąpił uczeń Ary-stotelesa, Arystoksenos (floruit 335 p.n.e.), autor kilku pism poświę-conych Pitagorasowi, w których dowodził, że składał on ofiary zwie-rzęce (z wyjątkiem wołów roboczych i baranów, Athen. 10.418e, D.L. 
+                    8.20) i nie powstrzymywał się od pokarmów mięsnych. Odzwiercie-dloną w komedii popularyzację idei pitagorejskich w Atenach należy, 
+                    być może, wiązać z publikacją pitagorejskich symbola przez Diodora 
+                    z Aspendos gdzieś w połowie IV w. p.n.e. (Iamb. VP 36.266; Zhmud 
+                    2012: 134–136). Wydaje się, że wystąpienie Arystoksenosa miało cha-rakter konserwatywnej apologii postaci Pitagorasa. Chodziło o to, by 
+                    pokazać, że jego nauki nie były oryginalnie wymierzone w tradycyj-ną grecką religię, z ofiarą zwierzęcą jako jej centralnym (ze względu 
+                    na funkcję społeczną i aspekt komunikacyjny) rytem. Wiarygodność 
+                    przekazu Arystoksenosa bywa odrzucana (tak np. Osek 2015: 33–34), 
+                    ale wśród znanych nam symbola znajduje się zarówno nakaz powstrzy-mania się od empsycha (Symbol 14 Boehm), jak i nakaz spożywania wy-łącznie tego mięsa, które pochodzi z ofiar (Symbol 17 Boehm). Neo-platonicy próbowali tę sprzeczność rozwikłać przez założenie, że oba 
+                    zalecenia kierowane są do różnych grup osób (Iamb. VP 24.10, por. też 
+                    Hieroc., In CA 26.19–20). Należy jednak mieć na uwadze, że pitagorej-skie symbola nie stanowiły pełnej wykładni nauki Pitagorasa, lecz sta-nowiły jedynie hasła, do których właściwego zrozumienia konieczny 
+                    był kontekst właśnie tej nauki</p>
+            </div>
+            
+            <div type="textpart" n="Leges_791a–b">
+                <head>Prawa 791a–b</head>
+                <p>Księga siódma poświęcona jest kwestiom wychowawczym, w tym 
+                    zagadnieniom muzyki, śpiewu i tańca, które poza pedagogicznym mia-ły również wymiar społeczny i religijny (Morrow 1960: 302–318). Taniec 
+                    i śpiew są w tej księdze wielokrotnie zestawione z ofiarami, którym 
+                    towarzyszyły (część tych wzmianek nie wymaga osobnego komenta-rza, np. 798e–799a, 804a). Instrumentem muzycznym najczęściej wy-korzystywanym podczas ofiar był aulos. Jego muzyka rozbrzmiewała 
+                    podczas uroczystej procesji do ołtarza (pompe) i w trakcie spalania por-cji ofiarnych. Na temat tańca i muzyki w greckim kulcie zob. Haldane 
+                    (1966), Zwolski (1978), Nordquist (1992), Naiden (2013: 60–62).
+                    Księga rozpoczyna się od rozważań nad właściwym wychowaniem 
+                    obywateli, które powinno rozpocząć się już w fazie prenatalnej (sic!). 
+                    A.N. wierzy, że ruch ma wpływ na ciała także wtedy, gdy to nie one 
+                    same się poruszają, dlatego jest przekonany, że kobiety powinny dużo 
+                    spacerować w ciąży, a po urodzeniu dziecka często nosić je ze sobą 
+                    (789b–e). Dobroczynność ruchu A.N. ilustruje na przykładzie płaczących 
+                    dzieci oraz ludzi cierpiących, jak się wydaje, na zaburzenia psychicz-ne (790c, zob. Ustinova, Cardeña 2014: 745–746). W obu przypadkach 
+                    czynnikiem wywołującym dany stan jest lęk duszy, konceptualizowany 
+                    jako wewnętrzny ruch (entos kinesis) i w obu przypadkach przezwycięża 
+                    go ruch zewnętrzny: kołysanie matki lub ekstatyczny taniec, zalecany 
+                    przez znachorki (αἱ περὶ τὰ τῶν Κορυβάντων ἰάματα τελοῦσαι, 790d) 
+                    osobom cierpiącym na zaburzenia psychiczne i stany lękowe.</p>
+                <quote>τοὺς μὲν ὕπνου λαγχάνειν ποιεῖ, τοὺς δ᾽ ἐγρηγορότας ὀρχουμένους 
+                    τε καὶ αὐλουμένους μετὰ θεῶν, οἷς ἂν καλλιεροῦντες ἕκαστοι 
+                    θύωσι, κατηργάσατο ἀντὶ μανικῶν [791b] ἡμῖν διαθέσεων ἕξεις 
+                    ἔμφρονας ἔχειν.</quote>
+                <quote>[Ruch] usypia dzieci, a osoby pobudzone, tańczące do dźwięku aulo-sa, wydobywa ze stanu, który w naszych oczach jest obłędem, i przy-wraca im [791b] trzeźwość umysłu z pomocą bogów, którym składają 
+                    ofiary, pozyskując znaki przychylności.
+                </quote>
+                <p>791a: καλλιεροῦντες – „składają ofiary, pozyskując znaki przychyl-ności”; w użyciu absolutnym (bez dopełnień) znaczenie czasownika 
+                    καλλιερέω jest synonimiczne względem wyrażenia καλὰ τὰ ἱερὰ εἶναι 
+                    / γίγνεσθαι (zob. użycie zamienne w Aeschin. 3 131, D. Prooem. 54.1). 
+                    Nie opisuje więc czynności składania ofiary (θύω), lecz podsumowu-je jej przebieg, wskazując, że została ona przez bogów zaakceptowana 
+                    (δέχομαι, por. Plu. Quaes. Conv. 632d). Przypisanie ofierze charakteru 
+                    semiotycznego przełożyło się na jej zastosowanie w procesie podejmo-wania decyzji (zob. ogólne uwagi Flowera na temat dywinacji, 2008: 74–
+                    76, Park 1963). Najczęściej składano ją, aby przekonać się, czy bogowie 
+                    wyrażają zgodę lub obiecują wsparcie w przedsięwzięciu, którego pod-jęciu towarzyszyła ofiara (wymarsz wojsk, rozpoczęcie bitwy, zakłada-nie kolonii, inicjatywa prywatna itp.). Przyjęcie ofiary oznaczało zgodę/
+                    wsparcie, odrzucenie ofiary – brak zgody/wsparcia (por. Hdt. 6.76).
+                    Większość świadectw dotyczących interpretacji ofiar pochodzi 
+                    z opisów działań wojennych (zob. Sloth 2012) i widzimy z nich, że 
+                    ich składanie było wówczas kompromisem między koniecznością po-dejmowania decyzji a świadomością, że w przedsięwzięciu tak ryzy-kownym jak wojna trzeba wiedzieć, że ma się bogów po swojej stronie 
+                    (ἀνάγκη καλλιερεῖν, Onos. 10.27). Dowódcy składali ofiary, ponie-waż chcieli wiedzieć, czy dany moment jest odpowiedni, by zwinąć 
+                    obóz, przekroczyć rzekę lub zaatakować pozycje nieprzyjaciela (Hdt. 
+                    6.76, 9.19, 9.38; X. An. 5.4.22, Cyr. 6.4.12, HG 6.5.17; zaniedbanie pro-cedury: Aeschin. 3.131, Plu. Cam. 18.4). Jeżeli ofiary wypadały niepo-myślnie, zmieniano plany (Hdt. 6.76, D.S. 14.80) lub następnego dnia 
+                    składano kolejną ofiarę (Hdt. 9.93; X. An. 7.1.40, HG 3.1.17; kontekst 
+                    pozamilitarny: X. Vect. 6). Bezskuteczne składanie ofiar mogło trwać 
+                    nawet kilka dni.
+                    Niekiedy ze źródeł wyłania się obraz dowódcy, który nie otrzymał 
+                    od bogów znaku przychylności, ale był zdeterminowany, by podjąć za-mierzone działanie. Wówczas zabijał on kolejne zwierzę, a po nim ko-lejne, aż do skutku. Przykład takiej postawy znajdujemy w opisie walk 
+                    podjazdowych między oddziałami Agezilaosa i Farnabazosa w Helleni-kach (X. HG 4.1.22): gdy jeden ze spartańskich dowódców dowiaduje 
+                    się, gdzie obozują ludzie Farnabazosa, prosi Agezilaosa, by przydzielił 
+                    mu żołnierzy i pozwolił zorganizować wypad; następnie składa ofiary 
+                    i przerywa je dopiero pod wieczór, kiedy w końcu udaje mu się otrzy-mać znak przychylności, po czym zwołuje żołnierzy do wymarszu 
+                    (por. też: X. Cyr. 1.5.6; Plu. Arist. 17; Aem. 17, ciągłe składanie ofiar jako, 
+                    jak się zdaje, próba odwrócenia losów bitwy: Hdt. 7.167; ciągłe składanie 
+                    ofiar w kontekście pozamilitarnym: X. HG 3.3.4). Nie wiemy, jak Grecy 
+                    racjonalizowali sobie takie zachowanie, ale prawdopodobnie postrzega-li tego rodzaju ofiary jako przebłagalne, a zmianę zdania przez bogów 
+                    – jako ulegnięcie prośbie (por. Sloth 2012: 24). Dla greckich intelektu-alistów takie rozumowanie mogło być trudne do przyjęcia, ponieważ 
+                    podważałoby moralną doskonałość bogów. Zdaniem Onasandra bogo-wie, akceptując ofiarę, wskazywali dowódcy odpowiedni moment, by 
+                    podjąć dane działanie. Nie należało więc robić niczego, nie złożywszy 
+                    wprzód ofiary, oraz należało ją ponawiać tego samego dnia (θύεσθαι 
+                    δὲ τῆς αὐτῆς ἡμέρας πολλάκις) tak długo, aż bogowie ją przyjęli, po-nieważ rozpoczęcie jakiegoś działania za wcześnie (bez zgody bogów) 
+                    lub zbyt późno (po otrzymaniu zgodę następnego dnia) mogło zrujno-wać całe przedsięwzięcie (Onos. na wojnie służy pozyskaniu (kupieniu) 
+                    przychylności bogów (pogląd, że bogów można kupić ofiarami, kryty-kowany był m.in. przez Platona w Państwie – dialogu, do którego Ona-sander miał napisać komentarz, zob. Suda ο 386).
+                    Prawdopodobnie cały proces spalania przeznaczonych bogom czę-ści zwierzęcia ofiarnego miał charakter semiotyczny (por. ἐμπύρων 
+                    φλόγα, E. Supp. 155; Hel. 746). W literackim opisie odrzuconej ofiary 
+                    w Antygonie Sofoklesa (1005–1020) ogień nie pali się jak należy i żółć 
+                    pryska na wszystkie strony. Tejrezjasz określa te ofiary jako ἄσημα 
+                    (1113), a więc pozbawione znaków, i na tej podstawie stwierdza, że bo-gowie nie przyjęli (οὐ δέχονται, 1119) ofiar. Znakiem akceptacji ofiary 
+                    mógł więc być po prostu jej standardowy, niezakłócony przebieg (taki 
+                    jest też prawdopodobnie sens czasownika καλλιερέω w Plu. Quaes. 
+                    Conv. 632c–d; por. τὰ ἱερὰ μὴ γίγνεσθαι τὰ νομιζόμενα, Antiph. 5.82).
+                    Znacznie lepiej poświadczoną metodą komunikacji z bogami było 
+                    obserwowanie, w jaki sposób zachowuje się spalana na ołtarzu kość 
+                    krzyżowa z ogonem (całość określano mianem ὀσφύς). Z przedsta-wień ikonograficznych i wzmianki w Pokoju Arystofanesa (1054–1055wiemy, że ogon (κέρκος) miał wygiąć się do góry na znak przychylne-go przyjęcia przez bogów ofiarnego daru (van Straten 1966; van Straten 
+                    1995: 118–134; Ekroth 2009). Podczas przeprowadzonych współcze-śnie rekonstrukcji spalono kilkadziesiąt porcji ofiarnych i za każdym 
+                    razem ogon zachowywał się tak samo, znamionując przyjęcie ofiary 
+                    przez bogów (ogony wołowe: Jameson 1966; ogony świń: Ekroth 2009: 
+                    143; ogony jagnięce: Morton 2015). Wydaje się więc, że tylko wyjątko-wo bogowie sygnalizowali w ten sposób odrzucenie ofiary.
+                    Ostatnią stosunkowo dobrze znaną metodą dywinacji ofiarniczej, 
+                    która miała związek z pozyskiwaniem informacji o zaakceptowaniu 
+                    ofiar przez bogów, jest inspekcja wnętrzności zwierzęcia ofiarnego 
+                    (hieroskopia; zob. Collins 2008b; Furley, Gysembergh 2015; scholia in 
+                    Ar. V. 831). Niewykształcone narządy wewnętrzne lub widoczne zmia-ny chorobowe mogły być odczytane jako znak odrzucenia ofiary przez 
+                    bogów (por. A. Prom. 493–495; X. An. 2.1.9 i 2.2.3). Niekiedy rezultatem 
+                    hieroskopii nie była wiedza o zaakceptowaniu lub odrzuceniu ofiar 
+                    (pace Naiden 2013: 341–342), lecz ujawnienie (φαίνειν, φαίνεσθαι) 
+                    jakiegoś zagrożenia, które do tej pory pozostawało ukryte (X. An. 
+                    5.6.16–29, An. 7.8.1–5, HG. 3.3.4; E. El. 826–829)</p>
+            </div>
+            
+            <div type="textpart" n="Leges_800b–d">
+                <head>Prawa 800b–d</head>
+                <p>A.N. rozważa wprowadzenie praw dotyczących muzyki, pieśni, 
+                    tańca i modlitwy, które towarzyszyły ofierze. Zdając sobie sprawę, 
+                    że w pierwszym odruchu obywatele mogliby uznać takie prawa za 
+                    niedorzeczne w swej drobiazgowości, A.N. buduje analogię między 
+                    niewłaściwą muzyką i tańcem a zachowaniem zgodnie uważanym za 
+                    niestosowne podczas składania ofiar</p>
+                <quote>θυσίας γενομένης καὶ ἱερῶν καυθέντων κατὰ νόμον, εἴ τῴ τις, φαμέν, 
+                    ἰδίᾳ παραστὰς τοῖς βωμοῖς τε καὶ [800c] ἱεροῖς, ὑὸς ἢ καὶ ἀδελφός, 
+                    βλασφημοῖ πᾶσαν βλασφημίαν, ἆρ᾽ οὐκ, ἂν φαῖμεν, ἀθυμίαν καὶ 
+                    κακὴν ὄτταν καὶ μαντείαν πατρὶ καὶ τοῖς ἄλλοις ἂν οἰκείοις φθέγγοιτο 
+                    ἐντιθείς; […] ἐν τοίνυν τοῖς παρ᾽ ἡμῖν τόποις τοῦτ᾽ ἐστὶν ταῖς πόλεσι 
+                    γιγνόμενον ὡς ἔπος εἰπεῖν σχεδὸν ὀλίγου πάσαις· δημοσίᾳ γάρ τινα 
+                    θυσίαν ὅταν ἀρχή τις θύσῃ, μετὰ ταῦτα χορὸς οὐχ εἷς ἀλλὰ πλῆθος χορῶν ἥκει, καὶ στάντες οὐ [800d] πόρρω τῶν βωμῶν ἀλλὰ παρ᾽ 
+                    αὐτοὺς ἐνίοτε, πᾶσαν βλασφημίαν τῶν ἱερῶν καταχέουσιν, ῥήμασί 
+                    τε καὶ ῥυθμοῖς καὶ γοωδεστάταις ἁρμονίαις συντείνοντες τὰς τῶν 
+                    ἀκροωμένων ψυχάς, καὶ ὃς ἂν δακρῦσαι μάλιστα τὴν θύσασαν 
+                    παραχρῆμα ποιήσῃ πόλιν, οὗτος τὰ νικητήρια φέρει.
+                </quote>
+                <quote>Wyobraźmy sobie, że ofiara już się zakończyła i że porcje ofiarne zo-stały spalone zgodnie z obyczajem. Jeśli teraz ktoś stojący przy ołta-rzu i ofiarach, osoba prywatna i nie sam ofiarnik, ale jego syn lub brat, 
+                    zabluźni jakie bądź bluźnierstwo, to czyż nie wprawił ojca i innych 
+                    w przygnębienie, nie wypowiedział złej wróżby, zapowiedzi nie-szczęścia? […] Coś takiego zdarza się w, by tak rzec, bez mała wszyst-kich okolicznych poleis. Bo ilekroć jakiś urzędnik składa publiczną 
+                    ofiarę, przychodzi nie jeden chór, ale całe mnóstwo, stają nie [800d] 
+                    z dala od ołtarzy, ale niekiedy tuż przy nich i wylewają jakie bądź 
+                    bluźnierstwo, słowami, rytmami i najżałośniejszymi harmoniami ści-skają dusze słuchaczy, i który chór wzbudzi w składającym ofiarę 
+                    mieście największy płacz, temu przyznają nagrodę za zwycięstwo.</quote>
+              
+                <p>800b: ἱερῶν – „porcje ofiarne”; tu termin hiera denotuje części zwie-rzęcia spalane bogom na ołtarzu. Do najczęściej spalanych porcji na-leżały kości udowe (μηρία) owinięte w błonę otrzewnej oraz osphys 
+                    – kość udowa wraz z ogonem (kerkos). W innych kontekstach rzeczow-nik hiera może oznaczać wnętrzności zwierzęcia ofiarnego (splanchna).
+                    καυθέντων – „kiedy zostały spalone”; zachowanie się spalanej dla 
+                    bogów części zwierzęcia miało charakter semiotyczny i było podda-wane prostej interpretacji: niezakłócony i spodziewany przebieg pro-cesu spalania był interpretowany jako znak akceptacji ofiary przez 
+                    bogów. I tak podczas spalania osphys oczekiwano, że ogon wygnie 
+                    się do góry na znak przychylnego przyjęcia przez bogów ofiarnego 
+                    daru (Arystofanes, Pokój 1054–1055; Jameson 1966; van Straten 1966; 
+                    van Straten 1995: 118–134; Ekroth 2009; Morton 2015). W literackim 
+                    opisie odrzuconej ofiary w Antygonie Sofoklesa (1005–1020), gdzie 
+                    na ołtarzu spalane były meria, ogień nie palił się jak należy, a kości 
+                    wysunęły się z owiniętego wokół nich płata tłuszczu, który pryskał 
+                    na wszystkie strony. Tejrezjasz określił te ofiary jako ἄσημα (1113), a więc pozbawione znaków, i na tej podstawie stwierdził, że bogowie 
+                    nie przyjęli (οὐ δέχονται, 1119) ofiar</p>
+                <p>800c: ὑὸς ἢ καὶ ἀδελφός – „syn lub brat”; ten wtręt jest Platonowi 
+                    potrzebny wyłącznie do zbudowania bardziej symetrycznej analogii 
+                    między bluźnierstwem a niestosownymi występami chórów: (pry-watny) bluźnierca nie może być tożsamy z (prywatnym) ofiarnikiem, 
+                    musi natomiast reprezentować jeden oikos, ponieważ publiczny urzęd-nik nie jest tożsamy ze złożonym z obywateli chórem, oboje zaś re-prezentują tę samą polis. Obecność najbliższej rodziny podczas ofiary 
+                    była czymś oczywistym – klient Izajosa dowodził, że faktycznie jest 
+                    wnukiem swego dziadka Kirona, powołując się na swój udział w speł-nianych przezeń ofiarach (Is. 8.15).
+                    μαντείαν – „wróżbę”; spalanie porcji zwierzęcia ofiarnego na 
+                    ołtarzu stwarzało sytuację komunikacyjną, w której nie tylko proces 
+                    spalania interpretowany był jako komunikat od bogów. Również inne 
+                    wydarzenia mogły zostać poddane semiozie przez uczestników rytu-ału. W przywołanej wyżej Antygonie Sofoklesa (1005–1020) nieudanej 
+                    ofierze towarzyszyło złowróżbne zachowanie ptaków, zaobserwo-wane przez Tejrezjasza. Tutaj takim zdarzeniem jest blasphemia, wy-powiedzenie słów nieodpowiednich. Blasphemia z definicji jest czymś 
+                    sprzecznym z religijnym decorum, a w sytuacji podwyższonej semiozy, 
+                    związanej ze spalaniem porcji ofiarnej, nabiera charakteru złej wróżby, 
+                    zapowiedzi nieszczęścia</p>
+            </div>
+            
+            <div type="textpart" n="Leges_803e">
+                <head>Prawa803e</head>
+               
+                <quote>παίζοντά ἐστιν διαβιωτέον τινὰς δὴ παιδιάς, θύοντα καὶ ᾁδοντα 
+                    καὶ ὀρχούμενον, ὥστε τοὺς μὲν θεοὺς ἵλεως αὑτῷ παρασκευάζειν
+                    δυνατὸν εἶναι, τοὺς δ᾽ ἐχθροὺς ἀμύνεσθαι καὶ νικᾶν μαχόμενον.</quote>
+                   <quote> Powinniśmy żyć, bawiąc się w czasie do tego przeznaczonym, składa-jąc ofiary, śpiewając i tańcząc, tak aby móc pozyskać sobie przychyl-ność bogów, a przed wrogami obronić się i zwyciężyć w walce</quote>
+                <p>τοὺς… θεοὺς ἵλεως αὑτῷ παρασκευάζειν – „pozyskać sobie przy-chylność bogów”; bardzo podobne wyrażenie pojawia się w księdze 
+                    dziesiątej, gdzie A.N. przedstawia argumenty na rzecz zakazu posia-dania domowych ołtarzy (czy, mówiąc precyzyjniej, hiera – wszelkich 
+                    miejsc i obiektów służących do kontaktu z bóstwem). Bez takiego zakazu 
+                    ludzie robiliby skrycie to, czego nie mogliby robić publiczne – składaliby 
+                    ofiary, wierząc, że z ich pomocą są w stanie uczynić bogów sobie przy-chylnymi (τοὺς θεοὺς ἵλεως οἰόμενοι ποιεῖν, 910b). W pierwszym od-ruchu można sądzić, że jest to niekonsekwencja ze strony Platona, jednak 
+                    w rzeczywistości mówi on o dwóch różnych rzeczach, na co wskazuje 
+                    kontekst. W księdze dziesiątej przychylność bogów próbują dla prywat-nych korzyści pozyskać ludzie, którzy wierzą, że bogowie są przekupni, 
+                    a tym samym postępują bezbożnie. W księdze siódmej mowa jest o całej 
+                    wspólnocie, która angażuje się w kult bogów dla wspólnego dobra, a po-zyskiwanie przychylności bogów (θεοὺς ἵλεως παρασκευάζειν) jest 
+                    później sparafrazowane jako ich przebłagiwanie (ἑκάστοις, scil. theois, 
+                    προσπαίζοντές τε καὶ ἱλεούμενοι, 804b). Platon w Eutyfronie uczulał 
+                    nas, że wychodząc od zbieżnie rozumianych pojęć, możemy dojść do 
+                    przeciwstawnych dyskusji: Eutyfron zgodził się, że ofiarowanie to da-wanie bogom darów, ale przyjął z zaskoczeniem, że Sokrates utożsamił 
+                    je z wymianą handlową (zob. komentarz do dialogu)</p>
+            </div>
+            
+            <div type="textpart" n="Leges_828a–c">
+                <head>Prawa 828a–c</head>
+                <p>Passus dotyczy ustanowienia 365 ofiar na każdy dzień w roku, 
+                    które miały być sprawowane przez różne grupy społeczne (m.in. fyle 
+                    i demy) składające się na obywateli polis (zob. Mikalson 2010: 79).</p>
+                <quote>τούτων μὴν ἐχόμενά ἐστιν τάξασθαι μὲν καὶ νομοθετήσασθαι 
+                    ἑορτὰς μετὰ τῶν ἐκ Δελφῶν μαντειῶν, αἵτινες θυσίαι καὶ θεοῖς 
+                    οἷστισιν ἄμεινον καὶ λῷον θυούσῃ τῇ πόλει γίγνοιντ᾽ ἄν. […] τὸν 
+                    ἀριθμὸν δὴ λέγωμεν πρῶτον: ἔστωσαν γὰρ τῶν [828b] μὲν πέντε 
+                    καὶ ἑξήκοντα καὶ τριακοσίων μηδὲν ἀπολείπουσαι, ὅπως ἂν μία γέ 
+                    τις ἀρχὴ θύῃ θεῶν ἢ δαιμόνων τινὶ ἀεὶ ὑπὲρ πόλεώς τε καὶ αὐτῶν 
+                    καὶ κτημάτων. ταῦτα δὲ συνελθόντες ἐξηγηταὶ καὶ ἱερεῖς ἱέρειαί τε
+                    καὶ μάντεις μετὰ νομοφυλάκων ταξάντων ἃ παραλείπειν ἀνάγκη 
+                    τῷ νομοθέτῃ. […] ὁ μὲν γὰρ δὴ νόμος ἐρεῖ δώδεκα μὲν [828c] 
+                    ἑορτὰς εἶναι τοῖς δώδεκα θεοῖς, ὧν ἂν ἡ φυλὴ ἑκάστη ἐπώνυμος 
+                    ᾖ, θύοντας τούτων ἑκάστοις ἔμμηνα ἱερά, χορούς τε καὶ ἀγῶνας 
+                    μουσικούς, τοὺς δὲ γυμνικούς, κατὰ τὸ πρέπον προσνέμοντας τοῖς 
+                    θεοῖς τε αὐτοῖς ἅμα καὶ ταῖς ὥραις ἑκάσταις, γυναικείας τε ἑορτάς, 
+                    ὅσαις χωρὶς ἀνδρῶν προσήκει καὶ ὅσαις μή, διανέμοντας.</quote>
+                <quote>Następnym zadaniem jest ustanowienie i nakazanie prawem świąt, 
+                    kierując się zaleceniami wyroczni z Delf, która wskaże, jakie ofiary 
+                    i jakim bogom powinno składać miasto na swój większy pożytek. […] 
+                    Ustalmy najpierw liczbę: będzie ich bowiem [828b] 365, nie mniej, tak 
+                    by codziennie jeden urzędnik składał ofiarę bogu lub dajmonowi w in-tencji państwa, ludzi i majątków. W tej sprawie niech się zgromadzą 
+                    objaśniacze, kapłani i kapłanki oraz wieszczkowie i niech w towarzy-stwie strażników praw dookreślą to, co prawodawca z konieczności 
+                    musi opuścić. […] Prawo bowiem głosić będzie, że jest dwanaście [828c] 
+                    świąt dla dwunastu bogów, od których swe nazwy biorą fylai, i że każ-demu z nich składa się miesięczne ofiary, wystawia chóry, organizuje 
+                    zawody muzyczne i sportowe, odpowiadające zarówno charakterowi 
+                    bóstwa, jak i porze roku. Ustanowić należy również, w których świę-tach kobiecych mogą brać udział mężczyźni, a w których ni</quote>
+                <p>828a: μετὰ τῶν ἐκ Δελφῶν μαντειῶν – „kierując się zaleceniami 
+                    wyroczni z Delf”; w 738b–c A.N. mówił o zachowywaniu lokalnych 
+                    kultów, sprawowanych na obszarze przyszłej polis i nakazanych nie-gdyś przez uznane w świecie greckim wyrocznie; teraz mowa jest 
+                    o ustanowieniu nowych świąt dla nowej wspólnoty, tym razem wy-łącznie za wskazaniami delfickiej Pytii. Przy okazji omawiania prawa 
+                    w zakresie bezbożności A.N. w poczet chytrych (δόλου δὲ καὶ ἐνέδρας 
+                    πλήρης) bezbożników zaliczy ludzi, którzy wymyślają własne rytuały 
+                    (τελεταῖς δὲ ἰδίαις ἐπιβεβουλευκότες, 908d).
+                    ἄμεινον καὶ λῷον – dosł. „lepsze i bardziej pożyteczne”; jest to bardzo 
+                    charakterystyczna fraza, stanowiąca częsty element pytania kierowa-nego do wyroczni (por. Eidinow 2007: 50–53, 72–123, IG II² 204.48–51, 
+                    IG II² 333.24–28).
+                </p>
+                <p>828b: 
+                    ἱερεῖς ἱέρειαί τε – „kapłani i kapłanki”; rola kapłanów i kapłanek 
+                    w życiu religijnym projektowanego państwa wydaje się stosunkowo 
+                    ograniczona (zob. Mikalson 2010: 103–105). To nie oni, lecz urzędnicy 
+                    (ἀρχὴ) przewodzą ofiarom publicznym. Kapłani są natomiast zaanga-żowani w ofiary osób prywatnych (por. 741b–c, 909d–e). Kapłaństwo 
+                    miało być urzędem sprawowanym przez jeden rok (759d), a osoby na 
+                    urząd miały być wybierane przez samego boga, a więc metodą loso-wania (759c; wyjątkiem były oczywiście rody kapłańskie). Warunkiem 
+                    sprawowania urzędu miały być odpowiedni wiek (60 lat) oraz rytual-na czystość kandydata i jego rodziców (759c). Zob. też Morrow (1960: 
+                    413–415).
+                    ἐξηγηταὶ – „objaśniacze”; w Atenach były to osoby odpowiedzial-ne za udzielanie porad i wyjaśnień w sprawach religii (Garland 1984: 
+                    82–83), głównie dotyczących rytualnej czystości (Pl. Euthphr. 4c–d; 
+                    D. 47.68–71) i ofiar (Is. 8.39; IG II² 403.19). W Magnezji mieli tworzyć 
+                    kolegium, którego dokładna liczba (trzech wskazywanych przez Del-fy lub sześciu wskazywanych przez Delfy i obywateli) jest przedmio-tem kontrowersji, uczeni nie zgadzają się bowiem co do interpretacji 
+                    passusu 759d (zob. przegląd stanowisk w: Morrow 1960: 496–499). 
+                    Urząd objaśniacza miał być dożywotni (759e). Zadania objaśniaczy 
+                    były zbliżone do tych, jakie mieli ich odpowiednicy w Atenach (por. 
+                    916c, Morrow 1960: 419–427; Mikalson 2010: 108). Poza tym przewo-dzili oni rytuałom pogrzebowym (958d), z których kapłani byli wyłą-czeni (por. 947d), oraz mieli doradzać w sprawie proteleia – ofiar, jakie 
+                    należało złożyć przed ślubem (774e).
+                    μάντεις – „wieszczkowie”; wieszczkowie nie byli urzędnikami 
+                    państwowymi ani w Magnezji, ani – o ile nam wiadomo – w żadnej 
+                    greckiej polis, a tym samym swój autorytet budowali wyłącznie dzięki 
+                    perswazji i skuteczności. Do ich głównych zadań należała interpretacja 
+                    zsyłanych przez bogów znaków, a metodą ich pozyskiwania, z której byli 
+                    szczególnie znani, była hieroskopia – inspekcja wnętrzności (określanych 
+                    w źródłach jako hiera) zabitego na ofiarę zwierzęcia. Platon dostrzegał 
+                    ryzyko związane z niekontrolowaną przez instytucje polis działalnością 
+                    wieszczków: niektórzy z nich mogli posiadać niewłaściwe poglądy ntemat bogów oraz zasiewać w duszach obywateli lęk przed mocą, któ-rą sobie przypisywali (933a–e). Na temat wieszczków zobacz między 
+                    innymi Bremmer (1996), Flower (2008)</p>
+                <p>828c: γυναικείας… ἑορτάς – „święta kobiece”; najpowszech-niejszym świętem kobiecym, znanym w prawie całej Grecji, były Te-smoforia (Thesmophoria), obchodzone ku czci Demeter (Nilsson 1906: 
+                    313–325; Mikalson 1975: 71–72; Detienne 1979b; Simon 1983: 18–22; 
+                    Dillon 2002: 110–120; Parker 2005: 270–283; Stallsmith 2009). W Ate-nach święto trwało trzy dni (nazywane Anodos, Nesteia i Kalligeneia) 
+                    i brały w nim udział prawdopodobnie wyłącznie mężatki. Podczas 
+                    Tesmoforiów zabijano prosięta i wrzucano do dołów ziemnych (mega-ra), skąd je później (kiedy dokładnie, nie wiadomo, zob. Simon 1983: 
+                    19–20; Dillon 2002: 115), gnijące, wyciągano i mieszano z ziarnem, aby 
+                    poprawić wydajność upraw (informacje te przekazują scholia do Lu-kiana, DMeretr. 2.1). Wydaje się, że poza tym rytem spełniano rów-nież regularną ofiarę. Marcel Detienne (1979b: 193–194) sądził, że jej 
+                    ilustrację stanowi scena ofiary w Kobietach na Tesmoforiach Arystofane-sa (689–759). Jednakże, jak przytomnie zauważa Bartłomiej Bednarek 
+                    (2017: 67) w swoim komentarzu do komedii, jej akcja rozgrywa się 
+                    drugiego dnia święta, który w Atenach nosił nazwę Dnia Postnego 
+                    (Nesteia), a scena jest wyraźną parodią Eurypidesowego Telefosa, nie 
+                    należy więc zbyt pochopnie traktować jej jako świadectwa rzeczywi-stego przebiegu Tesmoforiów. Być może ofiara miała miejsca trzeciego 
+                    dnia, podczas Kalligenejów. Zwracając uwagę na odmienność w spo-sobie obchodzenia Tesmoforiów w Eretrii, Plutarch zauważa, że ko-biety gotowały wówczas mięso na słońcu, a nie na ogniu, nie wzywały 
+                    przy tym Kalligenei – co może oznaczać, że składanie ofiary, a tym 
+                    samym spożywanie mięsa trzeciego dnia Tesmoforiów, było w innych 
+                    miejscach normalne. Wskazują na to również świadectwa epigraficz-ne: kalendarz z Eleusis przewidywał pieniądze na drewno na ołtarz 
+                    z okazji święta (SEG 23:80.25–27), a w III w. p.n.e. na Delos składano 
+                    Demeter podczas Tesmoforiów ciężarną świnię (IG XI2
+                    287.69; zob. 
+                    Bremmer 2005; Clinton 2005).
+                    Wśród innych kobiecych świąt attyckich wymienić można Ado-nia (Parker 2005: 283–288; nie było to jednak święto poliadyczne), 
+                    Haloa (Dillon 2002: 120–124), Skira (Mikalson 1975: 170; Simon 1983: 
+                    22–24; Dillon 2002: 124–125; Parker 2005: 480) i Stenia (Mikalson 
+                    1975: 71; Dillon 2002: 109; Parker 2005: 272, 480). Na temat miejsca 
+                    kobiet w greckim kulcie zob. Detienne (1979b), Osborne (1993; pole-mika z Detienne’em), Dillon (2002). O kobietach w Prawach ogólnie 
+                    zob. Samaras (2010).
+                    χωρὶς ἀνδρῶν – „bez mężczyzn”; A.N. nawiązuje tu do faktu, że 
+                    część świąt kobiecych dopuszczała bierny udział mężczyzn, a część, 
+                    jak Tesmoforia, wykluczała ich zupełnie. Niektórzy uczeni uwzględ-niają jednak możliwość, że przynajmniej ubój składanego w ofierze 
+                    zwierzęcia dokonywany był przez mężczyznę, który następnie opusz-czał miejsce zgromadzenia (z poglądem tym polemizuje Dillon 2002: 
+                    115–116). Obchody święta, z którego wyłączeni byli mężczyźni, dały 
+                    tyranowi Syrakuz Dionizjuszowi pretekst, by pozbyć się Platona z pa-łacu na akropolu (Pl. Ep. 394d; por. D.S. 5.4.7).</p>
+            </div>
+            
+            <div type="textpart" n="Leges_841d">
+                <head>Prawa 841d</head>
+                <p>A.N. przedstawia możliwe skutki wprowadzenia prawa o zacho-waniach seksualnych (περὶ ἐρωτικῶν).</p>
+                <quote>μηδένα τολμᾶν μηδενὸς ἅπτεσθαι τῶν γενναίων ἅμα καὶ 
+                    ἐλευθέρων πλὴν γαμετῆς ἑαυτοῦ γυναικός, ἄθυτα δὲ παλλακῶν 
+                    σπέρματα καὶ νόθα μὴ σπείρειν, μηδὲ ἄγονα ἀρρένων παρὰ φύσιν.</quote>
+              <quote>      Nikt nie odważy się dotknąć żadnej kobiety szlachetnej i wolno uro-dzonej z wyjątkiem własnej żony, nie zasieje nieuświęconego ofia-rami bękarciego nasienia w konkubinie ani jałowego w mężczyźnie 
+                    wbrew naturze.</quote>
+                <p>ἄθυτα – „nieuświęcony ofiarami”; zwykle przymiotnik athy-tos oznacza „taki, którego nie złożono w ofierze” (por. E. Hipp. 147; 
+                    Aeschin. 3.131; Lys. 26.6, 30.20), rzadziej „taki, który nie złożył ofiar” 
+                    (X. HG 3.2.22) czy, jak tutaj, „taki, któremu nie towarzyszyły ofiary”.O składaniu ofiar podczas ceremonii zaślubin zdawkowo informuje 
+                    passus 6.784a–b.</p>
+            </div>
+            <div type="textpart" n="Leges_854b–c">
+                <head>Prawa 854b–c</head>
+                <p>Księga dziewiąta poświęcona jest kwestiom prawa karnego, a ko-mentowany passus dotyczy świętokradztwa (hierosylia; przestępstwo 
+                    obejmuje również zabójstwo rodzica, ponieważ jest równoznaczne 
+                    z ograbieniem go z życia, 869b, rodziców zaś, co wiemy z 717b, nale-ży czcić jak bogów). Wprowadzenie do prawa o świętokradztwie ma 
+                    charakter prewencyjno-terapeutyczny: A.N. symuluje wypowiedź, jaką 
+                    ktoś życzliwy powinien skierować do współobywatela, o którym wie, że 
+                    nękają go myśli o popełnieniu czynu zabronionego prawem (na temat 
+                    perswazyjnej roli wstępów do poszczególnych praw zob. Annas 2010b)</p>
+                <quote>ὦ θαυμάσιε, οὐκ ἀνθρώπινόν σε κακὸν οὐδὲ θεῖον κινεῖ τὸ νῦν 
+                    ἐπὶ τὴν ἱεροσυλίαν προτρέπον ἰέναι, οἶστρος δέ σέ τις ἐμφυόμενος
+                    ἐκ παλαιῶν καὶ ἀκαθάρτων τοῖς ἀνθρώποις ἀδικημάτων, 
+                    περιφερόμενος ἀλιτηριώδης, ὃν εὐλαβεῖσθαι χρεὼν παντὶ σθένει· 
+                    τίς δ᾽ ἐστὶν εὐλάβεια, μαθέ. ὅταν σοι προσπίπτῃ τι τῶν τοιούτων 
+                    δογμάτων, ἴθι ἐπὶ τὰς ἀποδιοπομπήσεις, ἴθι ἐπὶ θεῶν ἀποτροπαίων
+                    ἱερὰ ἱκέτης, ἴθι ἐπὶ τὰς τῶν λεγομένων ἀνδρῶν ὑμῖν ἀγαθῶν [854c] 
+                    συνουσίας, καὶ τὰ μὲν ἄκουε, τὰ δὲ πειρῶ λέγειν αὐτός, ὡς δεῖ τὰ 
+                    καλὰ καὶ τὰ δίκαια πάντα ἄνδρα τιμᾶν</quote>
+                <quote>Dobry człowieku, zło, które pcha cię do popełnienia świętokradztwa, 
+                    nie ma natury ani ludzkiej, ani boskiej. To raczej jakiś bodziec wro-dzony z dawnych i nieoczyszczonych przez ludzi przewin, przeklęty 
+                    natręt, którego trzeba się z całych sił wystrzegać. Posłuchaj, co należy 
+                    w tym celu zrobić. Ilekroć przyjdzie ci do głowy myśl tego rodzaju, idź 
+                    spełnić ryty odpędzające, idź jako błagalnik do świątyń bogów odwra-cających nieszczęście, idź, spotkaj się z ludźmi uważanymi za [854c] 
+                    szlachetnych, i tego słuchaj, to sam wciąż powtarzaj, że człowiek musi 
+                    odnosić się z czcią do wszystkiego, co piękne i sprawiedliwe</quote>
+                <p>854b: οἶστρος… ἐμφυόμενος – „bodziec wrodzony”; Bernabé 
+                    (2002: 419) przywołuje ten passus w kontekście orfickiego mituantropogonicznego jako argument na rzecz jego istnienia w epoce kla-sycznej w takiej formie, w jakiej przekazują go źródła późnoantyczne, 
+                    zwłaszcza neoplatonik Olimpiodoros (in Phd. 1.3). Zgodnie z mitem 
+                    ludzie mieli powstać z resztek po spopielonych tytanach, „dawne nie-oczyszczone winy” odnoszą się natomiast do zamordowania Dionizo-sa-dziecka przez tytanów. Mówiąc o bodźcu, który nie jest ani boski, 
+                    ani ludzki, Platon miał, zdaniem uczonego, wskazywać na tytaniczny 
+                    aspekt ludzkiej natury. Interpretacja Bernabégo niesie za sobą cały sze-reg trudnych do przyjęcia implikacji dotyczących orfizmu jako takiego 
+                    (zob. Edmonds 1999, 2013), dlatego poszukiwanie kontekstu dla wy-powiedzi Platona poza doktryną orficką wydaje się rozsądne. Radcliffe 
+                    G. Edmonds (2013: 331–333) zwrócił uwagę, że wiara w dziedziczenie 
+                    winy po przodkach i w istoty nadprzyrodzone, które z jej powodu 
+                    pchały ludzi do niegodziwości (uczony podaje przykład Erynii), była 
+                    na tyle powszechna, że dopatrywanie się tutaj aluzji do mitu orfickiego 
+                    jest zwyczajnie niepotrzebne. Nie wydaje się jednak, by Platon odnosił 
+                    się w tym miejscu do motywu winy rodowej: A.N. nie mówi o przod-kach nękanego natręctwami obywatela, tylko o ludziach w ogóle, nie 
+                    dookreślając ich zbioru żadnym przymiotnikiem (por. dla kontrastu 
+                    Phdr. 244e). Edmonds (2013: 332) ma natomiast rację, stwierdzając, że 
+                    bodziec, który nie jest ani boski, ani ludzki, musiał należeć do katego-rii, którą Platon i platonicy nazywali to daimonion, tym, co dajmoniczne 
+                    (por. Plu. Moralia 996b–c = De esu car.; koncepcja dajmonów jako istot 
+                    ani dobrych, ani złych i pośredniczących między bogami a ludźmi za-rysowana została w Uczcie, 202e; zob. też Timotin 2012). Stwierdzenie 
+                    A.N., że jest on „wrośnięty” w wyniku popełnionych niegdyś czynów, 
+                    wskazuje, że nie był on częścią ludzkiej kondycji od samego począt-ku. Możliwe, że ta diachroniczna perspektywa jest jedynie ukłonem 
+                    w stronę tradycji i twórczym przekształceniem motywu stopniowej 
+                    degeneracji ludzkości, którego najbardziej znanym (przynajmniej obec-nie) poetyckim opracowaniem jest mit o wiekach ludzkości w Pracach 
+                    i dniach Hezjoda. W rzeczywistości element dajmoniczny jest w lu-dziach obecny od zawsze, a mit, w którym przedstawiany jest proces 
+                    poprzedzający obecny stan rzeczy, stanowi alegorię samego stanu. Co 
+                    znamienne, to właśnie u Hezjoda można znaleźć bezpośredni związekmiędzy następstwem wieków ludzkości a genezą dajmonów: poko-lenie złotego wieku po śmierci pełni funkcję opiekuńczych daimones
+                    (Op. 120–122), pokolenie srebrne odbiera cześć jako duchy świata pod-ziemnego (Op. 140–142). Na temat recepcji Hezjodejskiego mitu i jego 
+                    wpływu na platońską demonologię zob. Timotin (2012: 62–75).
+                    τὰς ἀποδιοπομπήσεις – „ryty odpędzające”; sens rzeczownika 
+                    apodiopompesis, który poza tym miejscem pojawia się jeszcze tylko 
+                    w cytacie z Praw u Epikteta, rozjaśnia dobrze poświadczony czasow-nik apodiopompeomai (u późnoantycznych leksykografów także diopom-peomai), oznaczający czynność odpędzania. Używany w kontekście 
+                    rytualnym z reguły występuje w połączeniu z oczyszczeniami i ozna-cza odpędzenie zagrażających człowiekowi złych sił poprzez oczysz-czenie ze zmazy, por. Pl. Cra. 396d–e (metaforycznie i ironicznie), Lg. 
+                    877e; Onos. 5; Hsch. α 6304. Do całego zespołu rytów puryfikacyjnych 
+                    nawiązuje Lizjasz w mowie przeciwko Andokidesowi (6.53), przeko-nując, że jego wygnanie będzie równoznaczne z oczyszczenieniem 
+                    miasta, odpędzeniem zła (nasze ἀποδιοπομπεῖσθαι), wypędzeniem 
+                    kozła ofiarnego i pozbyciem się „grzesznika” (aliterios).
+                    Według późnoantycznych leksykografów adresatem rytów typu 
+                    apodiopompesis był Zeus Prostropajos („Zeus Do-Którego-Się-Zwra-ca”, Suda α 3297) lub Zeus Apotropajos („odwracający zmazę”, apo-tropon ta age, Etymologicum Magnum 125.33). Przypuszczalnie w obu 
+                    przypadkach wyjaśnienie opiera się na przekazanej przez Etymolo-gicum Magnum etymologii, zgodnie z którą człon Dio- pochodzi od 
+                    imienia Zeusa (w dopełniaczu Dios), co nie wydaje się prawdopo-dobne. Eustacjusz (comm. in Od. 22.481), powołując się na wcześniej-sze źródła, objaśnia czasownik diopompesthai w kontekście święta 
+                    Pompaja, obchodzonego ku czci Zeusa Mejlichiosa pod koniec mie-siąca Majmakterion (Eustacjusz jest naszym jedynym źródłem infor-macji o tym święcie, zob. Parker 2005: 479). W ramach ofiary puryfi-kacyjnej (en katharmois) zabijano wówczas barana (hiereion), którego 
+                    runo nazywano dion (jest to forma przymiotnikowa, zob. Suda δ 1210, 
+                    Harrison 1908: 24). Następnie pozostałości po rytuale deponowano 
+                    na rozdrożach, trzymając w rękach pompos – przedmiot tożsamy, we-dług źródeł Eustacjusza, z laską herolda. Stąd czasowniki diopompeini apodiopompein, podsumowuje Eustacjusz, miały oznaczać odpędza-nie zła w imię Zeusa Aleksikakosa. Źródła, z których czerpał Eusta-cjusz, zdradzają wszelkie oznaki spekulacji gabinetowej: czasownik 
+                    używany w literaturze klasycznej w bardzo ogólnym kontekście pu-ryfikacyjnym został objaśniony przez odniesienie do konkretnego 
+                    i skądinąd nieznanego świątecznego rytu; rdzeń pompe- (słać), który 
+                    w dość oczywisty sposób wiąże się z charakterem i przebiegiem ry-tuału, zostaje objaśniony przez wątpliwe odwołanie do laski rzeko-mo zwanej pompos; drugi element wyjaśnienia, dion kodion, nie pełni 
+                    natomiast w rytuale żadnej funkcji. Można się domyślać, że ktokol-wiek był autorem tego wyjaśnienia, musiał słyszeć o samodzielnym, 
+                    jak się zdaje, rytuale puryfikacyjnym, w którym oczyszczana osoba 
+                    stawiała lewą stopę na runie zabitego dla Zeusa barana, zwanym 
+                    Dios kodion (Hsch. δ 1930).
+                    Odpędzenie od siebie dajmonicznego bodźca, które A.N. zaleca lu-dziom nękanym myślą o świętokradztwie, jest formą puryfikacji, nie-zbędnej, by w kolejnym etapie tej swoistej terapii człowiek mógł stanąć 
+                    jako błagalnik przed obliczem bogów odwracających nieszczęście (zła-manie nakazu wewnętrznej czystości uczyniłoby ten gest nieskutecznym 
+                    lub wręcz przeciwskutecznym, narażając błagalnika na gniew bogów).
+                    θεῶν ἀποτροπαίων – „bogów odwracających nieszczęście”; wizy-ta w świątyni bogów apotropaicznych (zwanych też theoi apopompaioi, 
+                    Lengauer 1994: 133) ma zapewne na celu złożenie im ofiary przebła-galnej. Do popularnych przydomków wskazujących na apotropaiczny 
+                    aspekt bóstwa należały: Apotropajos, Aleksikakos, Hikesios, Lysios, 
+                    Katharsios, Phyxios czy Soter (por. Poll. 1.24; Ar. Av. 61, Pl. 359; Paus. 
+                    1.3.4; Farnell 1896: 166, 172–174). Na temat tej kategorii bogów zob. 
+                    Hewitt (1908: 109) i Parker (1983: 220, przyp. 71).
+                    W księdze dziesiątej A.N. przedstawia argumenty przeciwko trzem 
+                    poglądom, które stanowią przyczynę bezbożnych czynów (ἔργον ἀσεβές, 
+                    885b) – przekonaniu, że bogów nie ma, że są, ale nie myślą o ludziach, 
+                    oraz że są i można na nich wpływać ofiarami i modlitwami (ἢ τοῦτο, ὅπερ 
+                    εἶπον, οὐχ ἡγούμενος, ἢ τὸ δεύτερον ὄντας οὐ φροντίζειν ἀνθρώπων, 
+                    ἢ τρίτον εὐπαραμυθήτους εἶναι θυσίαις τε καὶ εὐχαῖς παραγομένους, 
+                    885b, por. 888c; Yunis 1988: 34–37). Robert Mayhew określił te trzy 
+                    stanowiska jako ateizm, deizm i tradycyjny teizm. Ustami wyimagino-wanego młodego ateisty A.N. obarcza „najlepszych spośród naszych 
+                    poetów, retorów, wieszczków i kapłanów” (885d) odpowiedzialnością 
+                    za propagowanie zwalczanych przekonań. Co ciekawe, w odpowiedzi 
+                    wyimaginowanemu młodzieńcowi A.N. zauważa, że przekonanie o nie-istnieniu bogów właściwe jest tylko ludziom młodym (888b–c). Pozostałe 
+                    dwa poglądy co prawda nie znikają z wiekiem, ale dotyczą wyłącznie wą-skiej grupy ludzi (πολλοῖσι μὲν οὔ, μεῖναι δὲ οὖν τισιν, 888c). Ta ostat-nia uwaga Platona jest szczególnie istotna, ponieważ nakazuje ostrożność 
+                    w formułowaniu tez o tradycyjnym czy ludowym charakterze wiary w to, 
+                    że za pomocą darów (ofiar) i perswazji (modlitwy) można pokierować 
+                    (paragein, por. τῆς τῶν θεῶν ὑπ᾽ ἀνθρώπων παραγωγῆς, R. 364d) wolą 
+                    bogów. Jeżeli jakiś pogląd można uznać za traditional theism, to chyba jed-nak nie ten. W rzeczywistości Grecy postrzegali swoją relację z bogami 
+                    w kategoriach długoterminowej relacji zgeneralizowanej wzajemności 
+                    opartej na charis, która jednak nie gwarantowała, że działania bogów sta-ną się w pełni przewidywalne (zob. Yunis 1988: 53; Parker 1998). A.N. nie 
+                    odrzuca tej teologii, tylko ją akceptuje (por. θύοντα… θεοὺς ἵλεως αὑτῷ 
+                    παρασκευάζειν, 803e) i ulepsza (por. 716d–717a). </p>
+            </div>
+            <div type="textpart" n="Leges_887c–d">
+                <head>Prawa 887c–d:</head>
+                <p>Cytowany passus oraz jego kontynuacja zawierają obserwacje Pla-tona dotyczące sposobów socjalizacji religijnej Greków. Jak zauwa-żyła Barbara Kowalzig (2007: 1–2), Platon miał świadomość, że nie 
+                    polega ona jedynie na werbalnym przekazywaniu treści wierzenia 
+                    („mitu”), lecz także na jego inscenizacji poprzez rytuał i praktyki re-ligijne w ogóle. Wydaje się, że Platon wyodrębnia kilka etapów tego 
+                    procesu. Socjalizacja religijna zaczyna się w bardzo młodym wieku, 
+                    od mythoi opowiadanych przez matki i piastunki. Platon porównu-je je do zaklęć, epoidai, wskazując prawdopodobnie na przedracjo-nalny charakter tego poznania. Następnie starsze dzieci towarzyszą 
+                    rodzicom podczas religijnych ceremonii i stają się ich widzami. Sku-teczność tego etapu socjalizacji Platon wiąże z przyjemnością, jaka 
+                    towarzyszy słuchaniu i oglądaniu. Równocześnie dziecko obser-wuje dorosłych, którzy z pełną powagą modlą się do bogów jak distot faktycznie istniejących, a widząc, że robią to również nie-Grecy 
+                    (887e), przekonuje się, że wiara w bogów jest uniwersalna, a przeto 
+                    zapewne niebezprzedmiotowa.</p>
+                <quote>φέρε δή, πῶς ἄν τις μὴ θυμῷ λέγοι περὶ θεῶν ὡς εἰσίν; ἀνάγκη 
+                    γὰρ δὴ χαλεπῶς φέρειν καὶ μισεῖν [887d] ἐκείνους οἳ τούτων ἡμῖν 
+                    αἴτιοι τῶν λόγων γεγένηνται καὶ γίγνονται νῦν, οὐ πειθόμενοι 
+                    τοῖς μύθοις οὓς ἐκ νέων παίδων ἔτι ἐν γάλαξι τρεφόμενοι τροφῶν 
+                    τε ἤκουον καὶ μητέρων, οἷον ἐν ἐπῳδαῖς μετά τε παιδιᾶς καὶ μετὰ 
+                    σπουδῆς λεγομένων καὶ μετὰ θυσιῶν ἐν εὐχαῖς αὐτοὺς ἀκούοντές 
+                    τε, καὶ ὄψεις ὁρῶντες ἑπομένας αὐτοῖς ἃς ἥδιστα ὅ γε νέος ὁρᾷ τε 
+                    καὶ ἀκούει πραττομένας θυόντων</quote>
+                <quote>Jakże powstrzymać złość, gdy trzeba mówić o bogach, że istnie-ją? Z konieczności bowiem z trudem znosimy i nienawidzimy tych, 
+                    [887d] przez których kiedyś i obecnie musimy wypowiadać się na ten 
+                    temat. [Ludzie ci] nie uwierzyli opowieściom, które jeszcze jako małe 
+                    dzieci karmione mlekiem słyszeli od matek i piastunek, szepczących, 
+                    niby w zaklęciach, rzeczy poważne i zabawne. Słuchali tych opowie-ści także w modlitwach wypowiadanych podczas ofiar i oglądali to-warzyszące im widowiska, które młodzież zawsze najchętniej ogląda 
+                    i których słucha przy okazji ofiarnych uroczystości</quote>
+                <p>887d: ὄψεις – „widowiska”; przez brak bezpośredniego dostępu do 
+                    greckich rytuałów starożytnicy w stopniu mniejszym niż antropolodzy 
+                    uwzględniają ich performatywny wymiar. Oliver Pilz (2011) zwrócił też 
+                    uwagę na dominujący w studiach nad greckim rytuałem paradygmat, 
+                    zgodnie z którym rytuał należał przede wszystkim do dziedziny drome-na („tego, co robione”), a nie legomena („tego, co mówione”). Jak jednak 
+                    przekonuje Pilz, mamy dobre powody, by sądzić, że warstwa słowna 
+                    odgrywała istotną rolę w greckim rytuale, niekiedy przybierając formę 
+                    tego, co Inge Nielsen (2002) określiła jako ritual drama. Platon, którego 
+                    świadectwa ani Pilz, ani Nielsen nie przywołują w swoich pracach, po-twierdza słuszność ich przekonania o performatywnym aspekcie grec-kiego rytuału, który wykracza poza sekwencję dobrze znanych dromena 
+                    związanych z ubojem zwierzęcia i spalaniem jego porcji na ołtarzu. 
+                </p>
+            </div>
+            <div type="textpart" n="Leges_906e">
+                <head>Prawa 906e</head>
+                <p>Przedstawiwszy argument przeciwko ateizmowi, A.N. zwraca 
+                    się do wyimaginowanego zwolennika tezy o obojętności bogów na 
+                    sprawy ludzkie (τὸν δὲ ἡγούμενον μὲν θεοὺς εἶναι, μὴ φροντίζειν 
+                    δὲ αὐτοὺς τῶν ἀνθρωπίνων πραγμάτων, 899d), a przekonawszy 
+                    go, że nie może mieć racji, przystępuje do polemiki z ludźmi, którzy 
+                    uważają, że bogowie są przekupni (παραιτητοὺς αὖ θεοὺς εἶναι 
+                    τοῖσιν ἀδικοῦσι δεχομένους δῶρα, 905d). A.N. porównuje takich bo-gów do psów pasterskich, które przyjmują od wilków część ich łupu, 
+                    do woźniców, którzy sprzedają wyścig, oraz do sterników na okręcie. 
+                    To ostatnie (a właściwie drugie w kolejności) porównanie zawiera eks-plicytne odniesienia do rytuału ofiary.</p>
+                <quote>πότερον κυβερνήταις, λοιβῇ τε οἴνου κνίσῃ τε παρατρεπομένοις 
+                    αὐτοῖς, ἀνατρέπουσι δὲ ναῦς τε καὶ ναύτας;</quote>
+             <quote>       Czy [porównamy bogów do] sterników, którzy omamieni winną liba-cją i tłustym dymem gubią okręty i marynarzy</quote>
+                <p>A.N. nawiązuje tutaj do epickiej dykcji i reprezentacji ofiary (por. 
+                    Hom. Il. 4.49, 9.500, 24.70). Jeden z tych passusów (9.500) pochodzi 
+                    z mowy Fojniksa, w której próbował on przekonać Achillesa, by wyba-czył Agamemnonowi i na powrót przyłączył się do walki z Trojanami. 
+                    Fojniks kontrastuje postawę Achillesa ze sposobem postępowania bo-gów, aby uświadomić mu, że przekroczył dozwolone śmiertelnikom 
+                    granice zawziętości. Stary wychowawca zauważa przy tym, że chociaż 
+                    człowiek łamie zasady ustanowione przez bogów i zrywa tym samym 
+                    relację wzajemności, jaka panuje między nim a bogami, to możliwe 
+                    jest jej odtworzenie dzięki ofiarom przebłagalnym. W Państwie 364d 
+                    ten właśnie passus przytoczony jest przez Adejmantosa jako argu-ment, którym religijni specjaliści posługują się, aby przekonać swoich 
+                    klientów, że są w stanie kontrolować bogów. Dopatrywanie się aluzji 
+                    do Homera we wszystkich trzech porównaniach (tak Mayhew 2008: 
+                    190) jest chyba jednak przesadą</p>
+            </div>
+            <div type="textpart" n="Leges_909b">
+                <head>Prawa 909b</head>
+                <p>Po przedstawieniu argumentów przeciwko niewłaściwym opi-niom na temat bogów A.N. przechodzi do omówienia prawa w za-kresie karania za bezbożność. A.N. ma świadomość, że wielu bez-bożników to ludzie o wrodzonym poczuciu sprawiedliwości (ἦθος 
+                    φύσει δίκαιον, 908b) i przewiduje dla nich kary łagodniejsze niż dla 
+                    bezbożników podłych, których dotyczy komentowany ustęp. W wy-powiedzi A.N. pobrzmiewają echa słów Adejmantosa z Państwa
+                    (364b–365a).</p>
+                <quote>ὅσοι δ᾽ ἂν θηριώδεις γένωνται [909b] πρὸς τῷ θεοὺς μὴ νομίζειν ἢ 
+                    ἀμελεῖς ἢ παραιτητοὺς εἶναι, καταφρονοῦντες δὲ τῶν ἀνθρώπων 
+                    ψυχαγωγῶσι μὲν πολλοὺς τῶν ζώντων, τοὺς δὲ τεθνεῶτας 
+                    φάσκοντες ψυχαγωγεῖν καὶ θεοὺς ὑπισχνούμενοι πείθειν, ὡς 
+                    θυσίαις τε καὶ εὐχαῖς καὶ ἐπῳδαῖς γοητεύοντες, ἰδιώτας τε καὶ 
+                    ὅλας οἰκίας καὶ πόλεις χρημάτων χάριν ἐπιχειρῶσιν κατ᾽ ἄκρας 
+                    ἐξαιρεῖν.</quote>
+                <quote>Są również i tacy, którzy stali się podobni do dzikich bestii [909b], po-nieważ nie tylko w bogów nie wierzą albo uważają ich za obojętnych 
+                    lub przekupnych, ale również gardzą ludźmi: zwodzą dusze wie-lu żywych, twierdząc, że wodzą dusze zmarłych, i obiecują bogów 
+                    przekonać, niby zaczarowując ich za pomocą ofiar, modlitw i zaklęć, 
+                    i w ten sposób z chęci zysku przyczyniają się do zupełnego zniszcze-nia osób prywatnych, całych rodzin i państw.</quote>
+                <p>πολλοὺς – „wielu”; wcześniej A.N. twierdził, że niewielu jest lu-dzi, którzy po osiągnięciu pewnego wieku nadal wierzą, że bogowie 
+                    są przekupni, tutaj natomiast mówi, że religijni specjaliści są w stanie 
+                    wielu przekonać, że tak właśnie jest. Być może jest to retoryczna prze-sada, a być może skrót myślowy – religijni specjaliści ukrywają przed 
+                    klientami swoje rzeczywiste poglądy i posługują się tradycyjnym języ-kiem w mówieniu o relacji ludzi i bogów (a tym samym ich klienci nie 
+                    uważają, że to, co robią, jest przekupstwem bogów), a to my, filozofo-wie, nazywamy rzeczy po imieniu</p>
+            </div>
+            <div type="textpart" n="Leges_909d–910b">
+                <head>Prawa 909d–910b</head>
+                <p>W zakończeniu księgi A.N. przedstawia prawo o charakterze pre-wencyjnym, dotyczące zakazu posiadania prywatnych hiera. Dzięki 
+                    temu zakazowi ludzie, którzy niewłaściwie rozumieją, jacy są bogowie, 
+                    będą mieli mniej okazji do bezmyślnego postępowania w relacji z bo-gami (ἀνοήτους ἧττον γίγνεσθαι, διὰ τὸ μὴ ἐξεῖναι θεοπολεῖν παρὰ 
+                    νόμον, 909d). Kto by to prawo złamał, miał być karany śmiercią jak 
+                    ktoś, kto złożył ofiarę, będąc nieczystym (εἴτε ἐν ἰδίοις ἱδρυσάμενος 
+                    εἴτ᾽ ἐν δημοσίοις θύσας ἱερὰ θεοῖς οἱστισινοῦν, ὡς οὐ καθαρὸς ὢν 
+                    θύων θανάτῳ ζημιούσθω, 910c–d).</p>
+                <quote>ἱερὰ μηδὲ εἷς ἐν ἰδίαις οἰκίαις ἐκτήσθω· θύειν δ᾽ ὅταν ἐπὶ νοῦν 
+                    ἴῃ τινί, πρὸς τὰ δημόσια ἴτω θύσων, καὶ τοῖς ἱερεῦσί τε καὶ 
+                    ἱερείαις ἐγχειριζέτω [909e] τὰ θύματα, οἷς ἁγνεῖαι τούτων
+                    ἐπιμελεῖς. συνευξάσθω δὲ αὐτός τε καὶ ὃν ἂν ἐθέλῃ μετ᾽ αὐτοῦ 
+                    συνεύχεσθαι. ταῦτα δὲ γιγνόμενα τῶν τοιῶνδε χάριν ἔστω. ἱερὰ 
+                    καὶ θεοὺς οὐ ῥᾴδιον ἱδρύεσθαι, μεγάλης δὲ διανοίας τινὸς ὀρθῶς 
+                    δρᾶν τὸ τοιοῦτον, ἔθος τε γυναιξί τε δὴ διαφερόντως πάσαις 
+                    καὶ τοῖς ἀσθενοῦσι πάντῃ καὶ κινδυνεύουσι καὶ ἀποροῦσιν, ὅπῃ 
+                    τις ἂν ἀπορῇ, καὶ τοὐναντίον ὅταν εὐπορίας τινὸς λάβωνται, 
+                    καθιεροῦν τε τὸ παρὸν ἀεὶ καὶ θυσίας εὔχεσθαι καὶ ἱδρύσεις [910a] 
+                    ὑπισχνεῖσθαι θεοῖς καὶ δαίμοσιν καὶ παισὶν θεῶν, ἔν τε φάσμασιν 
+                    ἐγρηγορότας διὰ φόβους καὶ ἐν ὀνείροις, ὡς δ᾽ αὕτως ὄψεις πολλὰς 
+                    ἀπομνημονεύοντας ἑκάσταισί τε αὐτῶν ἄκη ποιουμένους, βωμοὺς 
+                    καὶ ἱερὰ πάσας μὲν οἰκίας, πάσας δὲ κώμας ἔν τε καθαροῖς 
+                    ἱδρυομένους ἐμπιμπλάναι καὶ ὅπῃ τις ἔτυχε τῶν τοιούτων. ὧν ἕνεκα 
+                    χρὴ πάντων ποιεῖν κατὰ τὸν νῦν λεγόμενον νόμον· πρὸς τούτοις 
+                    δὲ ἕνεκα τῶν ἀσεβούντων, [910b] ἵνα μὴ καὶ ταῦτα κλέπτοντες ταῖς 
+                    πράξεσιν, ἱερά τε καὶ βωμοὺς ἐν ἰδίαις οἰκίαις ἱδρυόμενοι, λάθρᾳ 
+                    τοὺς θεοὺς ἵλεως οἰόμενοι ποιεῖν θυσίαις τε καὶ εὐχαῖς, εἰς ἄπειρον 
+                    τὴν ἀδικίαν αὐξάνοντες αὑτοῖς τε ἐγκλήματα πρὸς θεῶν ποιῶνται 
+                    καὶ τοῖς ἐπιτρέπουσιν, οὖσιν αὐτῶν βελτίοσιν, καὶ πᾶσα οὕτως ἡ 
+                    πόλις ἀπολαύῃ τῶν ἀσεβῶν τρόπον τινὰ δικαίως</quote>
+                <quote>Niech nikt nie posiada hiera w prywatnym domu. Jeżeli komuś 
+                    przyjdzie do głowy złożyć ofiarę, niech idzie do publicznej świątyni 
+                    powierzy [909e] rzecz do ofiarowania kapłanom i kapłankom, któ-rzy troszczą się o kultową czystość ofiar. On sam oraz osoba przezeń 
+                    wskazana niech modli się wspólnie z nimi. Te zasady mają obowią-zywać z następujących powodów: nie jest łatwo ustanowić hiera i bo-gów i zrobienie tego w sposób prawidłowy wymaga dużego namy-słu. Tymczasem jest to zwyczajem zwłaszcza kobiet i ludzi chorych, 
+                    i tych w niebezpieczeństwie, i w jakim bądź trudnym położeniu, 
+                    i kiedy wprost przeciwnie przytrafia im się coś dobrego, że poświę-cają zawsze to, co mają pod ręką, przyrzekają złożyć ofiary i wznieść 
+                    ołtarze [910a] bogom, dajmonom i dzieciom bogów. Inni zaś przez 
+                    straszne widzenia na jawie i w snach, i podobnie przypominając so-bie liczne widzenia i robiąc na nie lekarstwo, napełniają domy i całe 
+                    wioski, ustanawiając ołtarze i hiera w miejscach czystych i gdzie bądź 
+                    im się to [widzenie] przytrafiło. Ze względu na te zachowania nale-ży ustanowić przedstawione właśnie prawo – a także z powodu lu-dzi nieokazujących bogom należnej czci, [910b] aby uniemożliwić im 
+                    potajemne działanie: wznoszą hiera i ołtarze w prywatnych domach, 
+                    skrycie sądząc, że pozyskają przychylność bogów za sprawą ofiar 
+                    i modlitw, nieskończenie powiększając niesprawiedliwość i sprowa-dzając oskarżenie bogów na siebie i tych, którzy, chociaż lepsi, po-zwalają na to. W ten sposób cała polis w pewnym sensie sprawiedli-wie ponosi konsekwencje bezbożnych czynów</quote>
+                <p>909d:
+                    ἱερὰ (hiera); przez ten termin rozumie się tutaj zazwyczaj prywat-ne ołtarze (tak np. Mayhew 2008: 206), jednak poprawniej jest chyba 
+                    myśleć o wszystkich miejscach i przedmiotach w obrębie domostwa, 
+                    które mogły zostać poświęcone bóstwu i uznane za przestrzeń kontak-tu z nim (por. 910b, gdzie A.N. wymienia hiera i ołtarze). Przedstawio-ny tu zakaz posiadania hiera w obrębie prywatnego domostwa (hiera 
+                    en idiais oikiais) budzi pewne wątpliwości (np. u Mayhew 2008: 206) 
+                    w kontekście wcześniejszych wypowiedzi A.N. I tak w księdze czwar-tej wzmiankowane były prywatne miejsca kultu bogów rodowych 
+                    (ἱδρύματα ἴδια πατρῴων θεῶν κατὰ νόμον ὀργιαζόμενα, 717b), 
+                    a na początku księgi dziesiątej wśród najcięższych przestępstw A.N. wymienił te, które wymierzone są w prywatne (idia, 885a) hiera i gro-bowce. Być może kluczem jest użyte tu wyrażenie „w prywatnych do-mach” – idia hiera, o których mowa była wcześniej, należały istotnie do 
+                    prywatnych osób i nie były miejscem sprawowania publicznego kultu, 
+                    ale jednocześnie były publicznie dostępne, a przynajmniej widoczne 
+                    – każdy mógł przekonać się, czy jego sąsiad czci swoich bogów rodo-wych kata nomon. Hiera ukryte wewnątrz domu nie stwarzały takiej 
+                    możliwości i dlatego musiały zostać zakazane. 
+                    ἱερὰ καὶ θεοὺς οὐ ῥᾴδιον ἱδρύεσθαι – „nie jest łatwo ustano-wić hiera i bogów”; inherentna inkluzywność systemu politeistycz-nego (zob. Gould 2001: 210 [1985: 7–8]; Garland 1992) zostaje przez 
+                    A.N. ograniczona – panteon powinien obejmować bóstwa tradycyjnie 
+                    czczone na obszarze Magnezji oraz te, które w porozumieniu z Delfa-mi wprowadzi do niego Prawodawca. Ograniczenie obejmuje również 
+                    potencjalne miejsca i, co zapewne idzie w parze, formy kultu bogów. 
+                    Można odnieść wrażenie, że A.N. chciał wprowadzić w życie ideał 
+                    polis-religion, scharakteryzowany chyba najdobitniej przez Christine 
+                    Sourvinou-Inwood (2000). Zgodnie ze słowami uczonej (2000: 15, 19), 
+                    [t]he polis anchored, legitimated, and mediated all religious activity. 
+                    […] The polis was the institutional authority that structured the uni-verse and the divine world in a religious system, articulated a panthe-on with certain particular configurations of divine personalities, and 
+                    established a system of cults, particular rituals and sanctuaries, and 
+                    sacred calendar. 
+                    Chociaż wartość modelu jako narzędzia opisu greckiej religii zo-stała ostatnio poddana krytyce (zob. Kindt 2012: 12–35; Kindt 2015), 
+                    wydaje się, że dobrze oddaje ideał, do którego dążył Platon (por. na-kaz udziału w uroczystościach religijnych dla obywateli Magnezji 
+                    w 12.949d)</p>
+                <p>909e: ἁγνεῖαι τούτων – „o kultową czystość ofiar”; kapłani mie-li dopilnować, by ofiara została złożona w sposób zgodny z nakazami 
+                    kultowymi. Mogli zapewne również odmówić złożenia ofiary, jeżeli nie 
+                    spełniała wymogów kultowych (powszechną regułą było, że zabijane 
+                    zwierzęta były wolne od wad fizycznych, zob. Broulé, Touzé 2008)</p>
+            </div>
+            <div type="textpart" n="Leges_947a">
+                <head>Prawa 947a</head>
+                <p>Poniższy passus pochodzi z prawa dotyczącego urzędników zwa-nych euthynoi, pełniących funkcję bliską naszej Najwyższej Izbie Kon-troli (Morrow 1960: 215–229). Euthynoi tworzyli dwunastoosobowe 
+                    kolegium, byli obierani przez głosowanie w świątyni Heliosa i Apol-lona, a ich wybór określony jest mianem akrothionion (946b) – ofiary 
+                    (w sensie ang. offering, nie sacrifice) z tego, co najlepsze (nie, jak chce 
+                    Morrow 1960: 223 i 225, z pierwocin; na temat akrothinia zob. Jim 2014: 
+                    45–46 i passim).</p>
+                <quote>Poniższy passus pochodzi z prawa dotyczącego urzędników zwa-nych euthynoi, pełniących funkcję bliską naszej Najwyższej Izbie Kon-troli (Morrow 1960: 215–229). Euthynoi tworzyli dwunastoosobowe 
+                    kolegium, byli obierani przez głosowanie w świątyni Heliosa i Apol-lona, a ich wybór określony jest mianem akrothionion (946b) – ofiary 
+                    (w sensie ang. offering, nie sacrifice) z tego, co najlepsze (nie, jak chce 
+                    Morrow 1960: 223 i 225, z pierwocin; na temat akrothinia zob. Jim 2014: 
+                    45–46 i passim).</quote>
+                <quote>Poniższy passus pochodzi z prawa dotyczącego urzędników zwa-nych euthynoi, pełniących funkcję bliską naszej Najwyższej Izbie Kon-troli (Morrow 1960: 215–229). Euthynoi tworzyli dwunastoosobowe 
+                    kolegium, byli obierani przez głosowanie w świątyni Heliosa i Apol-lona, a ich wybór określony jest mianem akrothionion (946b) – ofiary 
+                    (w sensie ang. offering, nie sacrifice) z tego, co najlepsze (nie, jak chce 
+                    Morrow 1960: 223 i 225, z pierwocin; na temat akrothinia zob. Jim 2014: 
+                    45–46 i passim).</quote>
+                <p>θεωρίας – „pielgrzymki”; theoria to oficjalna delegacja przedstawi-cieli polis, posyłanych, by wziąć udział w uroczystościach religijnych 
+                    (jak np. igrzyska, zob. 950e) w innej polis lub sanktuarium, a także 
+                    w celu skonsultowania wyroczni (zob. Rutherford 2000).</p>
+                
+            </div>
+            <div type="textpart" n="Leges_948c–d">
+                <head>Prawa 948c–d:</head>
+                <p>W tym miejscu A.N. ponownie wspomina o ludziach, którzy wie-rzą, że bogów można przekupić. Wzmianka jest częścią uzasadnienia 
+                    dla prawa, które zabrania składania przysiąg w sądzie. A.N. przywołu-je przy tym postać mitycznego Radamantysa, który miał wprowadzić 
+                    ten zwyczaj: w jego czasach wszyscy ludzie bez wyjątku wiedzieli, że 
+                    bogowie istnieją, nie byli więc skłonni popełniać krzywoprzysięstwa. 
+                    Przysięga stanowiła więc prosty środek do ustalania prawdy w pro-cesie sądowym. Teraz jednak, skoro opinie ludzi na temat bogów ule-gły zmianie, podobnie musi się stać z prawami (μεταβεβληκυιῶν οὖν 
+                    τῶν περὶ θεοὺς δοξῶν ἐν τοῖς ἀνθρώποις μεταβάλλειν δεῖ καὶ τοὺς 
+                    νόμους, 948c; zob. też Yunis 1988: 50–52).
+                </p>
+                <quote>νῦν δὲ δὴ ὅτε μέρος τι μέν, φαμέν, ἀνθρώπων τὸ παράπαν οὐχ 
+                    ἡγοῦνται θεούς, οἱ δὲ οὐ φροντίζειν ἡμῶν αὐτοὺς διανοοῦνται, 
+                    τῶν δὲ δὴ πλείστων ἐστὶ καὶ κακίστων ἡ δόξα ὡς σμικρὰ δεχόμενοι 
+                    θύματα καὶ θωπείας πολλὰ συναποστεροῦσι χρήματα καὶ 
+                    μεγάλων σφᾶς ἐκλύονται κατὰ πολλὰ ζημιῶν, οὐκέτι δὴ τοῖς 
+                    νῦν ἀνθρώποις ἡ Ῥαδαμάνθυος [948d] ἂν εἴη τέχνη πρέπουσα ἐν 
+                    δίκαις.</quote>
+                    <quote>Współcześnie natomiast pewna część ludzi w ogóle nie uznaje bogów, 
+                    inni sądzą, że bogowie nas ignorują, pogląd zaś najliczniejszej i naj-gorszej grupy jest taki, że bogowie w zamian za drobne ofiary i po-chlebstwa pomagają zawłaszczać wielkie pieniądze i często uwalniają 
+                    ich od wielkich kar – dla ludzi współczesnych metoda Radamantysa 
+                    [948d] nie jest już odpowiednia w procesie sądowym</quote>
+            </div>
+            <div type="textpart" n="Leges_953d–e">
+                <head>Prawa 953d–e:</head>
+                <p>Passus pochodzi z prawa dotyczącego przyjmowania cudzoziem-ców w Magnezji.</p>
+                <quote>τούτοις δὴ τοῖς νόμοις ὑποδέχεσθαί τε χρὴ πάντας ξένους [953e] 
+                    τε καὶ ξένας ἐξ ἄλλης χώρας καὶ τοὺς αὑτῶν ἐκπέμπειν, τιμῶντας 
+                    ξένιον Δία, μὴ βρώμασι καὶ θύμασι τὰς ξενηλασίας ποιουμένους, 
+                    καθάπερ ποιοῦσιν νῦν θρέμματα Νείλου.</quote>
+                <quote>    Zgodnie z tymi prawami należy przyjmować wszystkich gości, [953e] 
+                    mężczyzn i kobiety, przybywających z innego kraju, oraz wysyłać za 
+                    granicę własnych obywateli, czcząc tym samym Zeusa Kseniosa, a nie 
+                    wykluczając cudzoziemców za powodu pokarmów i ofiar, jak dziś 
+                    czynią to dzieci Nilu.</quote>
+                <p>953e: θύμασι – „z powodu ofiar”; wydaje się, że opinia Platona na 
+                    temat Egipcjan może być echem zajść podobnych do tych, jakie miały 
+                    miejsce na położonej na Nilu wyspie Elefantynie w 410 r. p.n.e. (Por-ten 1968: 284–289; Rosenberg 2004: 7–9). Korzystając z nieobecności 
+                    perskiego namiestnika, stanowiący większość mieszkańców Egipcja-nie zdewastowali znajdującą się tam świątynię żydowską. Chociaprzyczyna wybuchu tej agresji nie jest jednoznaczna, uczeni wskazują, 
+                    że mogła ona mieć przynajmniej częściowo podłoże religijne. Wyko-paliska archeologiczne bowiem pokazały, że żydowska świątynia stała 
+                    niedaleko świątyni egipskiego boga Khnuma, wyobrażanego z głową 
+                    barana – zwierzęcia, które żydzi zabijali na ofiarę bogu YHW. Znisz-czony przybytek wkrótce odbudowano, ale z zastrzeżeniem, że nie 
+                    będą w nim składane ofiary zwierzęce (Porten 1968: 291–293). Żydzi 
+                    opuścili Elefantynę po 399 r. p.n.e., w następstwie zrzucenia perskie-go zwierzchnictwa przez Egipt, a ich świątynia, jak się wydaje, zosta-ła przekształcona w oborę (Rosenberg 2004: 9). Jeżeli jakieś echa tych 
+                    wydarzeń dotarły do Greków, co nie wydaje się nieprawdopodobne, 
+                    ostateczne opuszczenie Elefantyny przez Żydów mogło zostać zinter-pretowane w świetle zajść sprzed dekady jako motywowane niechęcią 
+                    Egipcjan do żydowskich zwyczajów ofiarniczych.
+                    Herodot wspomina, że Egipcjanie odmawiali posługiwania się 
+                    greckimi narzędziami ofiarniczo-kuchennymi, ponieważ Grecy jedli 
+                    mięso krów, które dla Egipcjan były święte (tabu nie dotyczyło jednak 
+                    mięsa byków, Hdt. 2.41.3).
+                    
+                </p>
+            </div>
+           
+        </body>
+    </text>
+</TEI>

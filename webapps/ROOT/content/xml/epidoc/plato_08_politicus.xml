@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Politicus (Πολιτικός, Politico)</title>
+                <title xml:lang="en">Politicus (Πολιτικός, Politic)</title>
+                <title xml:lang="pl">Politicus (Πολιτικός, Polityk)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">plato_08_politicus</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Politicus (Πολιτικός, Polityk)</title>, in Przemysław Biernat, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Corpus Platonicum. Corpus Hippocraticum</title>, Warszawa 2017, pp. 117-120</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded in XML</change>
+                <change when="2017" who="Przemysław Biernat">written contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!--xml:lang="pl"-->
+                <div type="textpart" n="intro">
+                    <p>Dialog, pomyślany jako kontynuacja Sofisty, poświęcony jest definicji 
+                        polityka, a więc idealnego przywódcy, który kieruje się wiedzą i spra-wiedliwością (ἐπιστήμῃ καὶ τῷ δικαίῳ, 293d). Uczestnikami dialogu 
+                        są Sokrates, Teodor z Cyreny, Teajtet, Nieznajomy z Elei i Sokrates 
+                        Młodszy, choć większa część rozmowy rozgrywa się między dwoma 
+                        ostatnimi. Wszystkie komentowane passusy pochodzą z wypowiedzi 
+                        Nieznajomego.  </p><p>Przekład polski: Witwicki (1956).
+                        Tekst na podstawie wydania: Burnet 1903..</p>
+                </div>
+                <div type="textpart" n="Politicus_287c">
+                    <head>Polityk 287c:
+                    </head>
+                    
+                    <quote>κατὰ μέλη τοίνυν αὐτὰς οἷον ἱερεῖον διαιρώμεθα, ἐπειδὴ δίχα 
+                        ἀδυνατοῦμεν.</quote>
+                    <quote>Podzielmy je więc na kawałki, jak zwierzę ofiarne, skoro nie możemy 
+                        na dwie części.</quote>
+                    <p>κατὰ μέλη – „na kawałki”; rzeczownik melos oznacza „kończynę”, 
+                        tu jednak musi być użyty w znaczeniu wyodrębnialnej części anato-micznej (czy raczej kulinarnej), ponieważ tuszę zwierzęcia zabitego 
+                        w ofierze istotnie rozbierano. Pokrojenie zwierzęcia oraz, wcześniej, 
+                        zabicie go, należało do obowiązków człowieka określanego mianem 
+                        mageiros, który ponadto mógł jeszcze pełnić funkcje w naszej kulturze 
+                        zarezerwowane dla kucharza (zob. komentarz do Eutydema, 301c–d). 
+                        Metafora dzielenia pojęć niczym mięsa zwierząt ofiarnych pojawia się 
+                        także w Fajdrosie 265e. Jak wynika z Fajdrosa, mageiros respektował bu-dowę anatomiczną zwierzęcia (διατέμνειν κατ᾽ ἄρθρα ᾗ πέφυκεν) a więc postępował w sposób systematyczny i racjonalny (tak np. Rowe 
+                        1995: 231, comm. ad loc.). Rzeźnicza procedura mogła więc stać się mo-delem dla racjonalnej analizy (podziału, rozbioru) pojęć.
+                        Nawiązanie w tym miejscu akurat do uboju zwierząt jest chy-ba nieprzypadkowe: sformułowana wcześniej definicja techne politi-ke to „hodowla zwierząt dwunożnych” (διπόδων ἀγελαιοκομικὴν 
+                        ζῴων, 276e).
+                    </p>
+                </div>
+                <div type="textpart" n="Politicus_290c–d">
+                    <head>Polityk 290c–d:</head>
+                    
+                    <quote>καὶ μὴν καὶ τὸ τῶν ἱερέων αὖ γένος, ὡς τὸ νόμιμόν φησι, παρὰ μὲν 
+                        ἡμῶν δωρεὰς θεοῖς διὰ θυσιῶν ἐπιστῆμόν [290d] ἐστι κατὰ νοῦν 
+                        ἐκείνοις δωρεῖσθαι, παρὰ δὲ ἐκείνων ἡμῖν εὐχαῖς κτῆσιν ἀγαθῶν 
+                        αἰτήσασθαι.</quote>
+                    <quote>Także ród kapłanów, jak głosi obyczaj, wie, jak nasze dary dla bogów 
+                        w ofiarach [290d] dawać im po myśli, a także jak modlitwami prosić 
+                        o pozyskanie dóbr od nich dla nas</quote>
+                    <p>290c: ὡς τὸ νόμιμόν φησι – „jak głosi obyczaj”; Nieznajomy dy-stansuje się w ten sposób od takiego zdefiniowania roli kapłanów (tak 
+                        np. Rowe 1995: 218, comm. ad loc.). Jego celem nie jest odrzucenie tego 
+                        przekonania (pace Rowe 1995: 218), lecz wzięcie w nawias czegoś, co 
+                        staje się punktem odniesienia na czas tej dyskusji, ale już w innej mo-głoby zostać przedmiotem krytycznej analizy. Tak dzieje się w dialogu
+                        Eutyfron, w którym rozmówcom nie udaje się jednak dojść do kon-kluzji. W tłumaczeniu tej frazy idę za Row’em („as custom tells us”), 
+                        a wbrew Fowlerowi („according to law and custom”, Fowler 1921) 
+                        i Naidenowi („custom and law”, Naiden 2013: 200).
+                        δωρεὰς – „dary”; fakt, że Grecy postrzegali swoje ofiary dla bogów 
+                        jako dary dla nich, jest niezaprzeczalny (por. Parker 2011: 137). Także 
+                        Platon, który w Eutyfronie problematyzował takie rozumienie ofiary, 
+                        ostatecznie nie zaproponował innego (por. Lg. 716c–717a), a Sokrate-sowa fraza z Eutyfrona τὸ θύειν δωρεῖσθαί ἐστι τοῖς θεοῖς („składanie 
+                        ofiar to obdarowywanie bogów”), której echo słyszymy w wypowie-dzi Nieznaj Rzeczownik δωρεάς użyty jest tutaj w ramach figury etymologicznej 
+                        δωρεὰς δωρεῖσθαι.
+                        ἐπιστῆμόν ἐστι… δωρεῖσθαι – „wie, jak… dawać” – posiadanie 
+                        wiedzy o właściwym sposobie „darowania bogom” jest kryterium, 
+                        które pozwala Nieznajomemu wyodrębnić kapłanów spośród innych 
+                        ludzi. Nie przeczy to oczywiście temu, że w Grecji każdy miał prawo 
+                        do składania ofiar. Napięcie między wiedzą religijnego specjalisty (ten 
+                        parasolowy termin obejmuje nie tylko kapłanów) a kompetencją laika 
+                        widoczne jest dobrze w ofierze, jaką bogini Eirene (Pokój) składa Try-gajos, bohater komedii Arystofanesa, pod wścibskim okiem wieszcz-ka Hieroklesa (Ar. Pax 1043–1062). Hierokles na próżno próbuje dy-rygować przebiegiem ofiary. Również w innej komedii Arystofanesa, 
+                        Ptakach, pojawia się postać zbieracza wyroczni (chresmologa), który 
+                        twierdzi, że zna wyrocznię Bakisa odnoszącą się do aktu zakładania 
+                        miasta w chmurach (co właśnie ma miejsce), która przewiduje złoże-nie specjalnej ofiary (Ar. Av. 967–973). Wątek wiedzy, która warunku-je pobożność ofiar, pojawia się także w Eutyfronie. Chociaż w Polityku
+                        wzmianka o ofiarach jest powierzchowna, a dialog Eutyfron pozosta-je bez konkluzji, wydaje się, że w świetle Praw (716c–717a) rekuren-cja odniesienia do wiedzy ofiarnika w obu dialogach nabiera sensu. 
+                        Platon za każdym razem dystansuje się od tego poglądu: tutaj przez 
+                        wzięcie go w nawias powszechnej opinii, w Eutyfronie przez ukazanie 
+                        niezdolności tytułowego bohatera do zdefiniowania, czym jest poboż-ność. Zdaniem Platona „prawdziwie darować” może bowiem tylko 
+                        ktoś moralnie czysty – wiedza nie ma tu nic do rzeczy (Lg. 716c–717a). 
+                        O ofiarach jako darach zob. Eutyfron 14a–15b, Eutydem 302a, Prawa
+                        716c–717a; Parker (1998); Naiden (2013).</p>
+                </div>
+                <div type="textpart" n="Politicus_290e">
+                    <head>Polityk 290e:
+                    </head>
+   
+                    <quote>ἔτι δὲ καὶ τῶν Ἑλλήνων πολλαχοῦ ταῖς μεγίσταις ἀρχαῖς τὰ 
+                        μέγιστα τῶν περὶ τὰ τοιαῦτα θύματα εὕροι τις ἂν προσταττόμενα 
+                        θύειν. καὶ δὴ καὶ παρ᾽ ὑμῖν οὐχ ἥκιστα δῆλον ὃ λέγω· τῷ γὰρ
+                        λαχόντι βασιλεῖ φασιν τῇδε τὰ σεμνότατα καὶ μάλιστα πάτρια τῶν 
+                        ἀρχαίων θυσιῶν ἀποδεδόσθαι.
+                    </quote>
+                    <quote>Także pośród Greków w wielu miastach, jak każdy może się przeko-nać, największe ofiary składane są przez najwyższych urzędników. 
+                        Wy, Ateńczycy, wiecie to chyba najlepiej. Przecież twierdzicie, że na 
+                        królu, którego obieracie przez losowanie, spoczywa przewodzenie 
+                        najsolenniejszym i najbardziej rodzimym spośród starych ofiar.</quote>
+                    <p>θύματα… θύειν – „ofiary składane są”; figura etymologica, zob. też 
+                        E. IA 721, Pl. R. 378a, lex sacra z Selinuntu, A 12 (SEG XLIII 630; Jame-son, Jordan, Kotansky 1993; Lupu 2009: 360). Chociaż θῦμα oznacza 
+                        najczęściej zwierzę ofiarne, tutaj musi być użyte w szerokim sensie 
+                        tego, co ofiarowane. Przeważnie w takiej funkcji występuje rzeczow-nik τὰ ἱερά (cf. Antipho 1.16, 1.17; Ar. Pax 1062; X. HG 3.5.5, Cyr. 8.5.26, 
+                        8.7.1; Pl. Lg. 910c; Lys. 26.8; Hp. Aër. 17.1), który Platon zastąpił przez 
+                        thymata, by uzyskać figurę etymologiczną.
+                        λαχόντι βασιλεῖ – „na królu, którego obieracie przez losowanie”; 
+                        Nieznajomy ma na myśli jednego z dziewięciu archontów, urzędni-ków ateńskich, nazywanego Królem, który przewodził misteriom 
+                        eleuzyńskim i Lenajom (Garland 1984: 111–112). O przekonaniu Ateń-czyków, że archont basileus przewodził najstarszym, najbardziej tra-dycyjnym z ofiar, pisze również Pseudo-Arystoteles w Ustroju politycz-nym Aten (Arist. Ath. 57: ὡς δ᾽ ἔπος εἰπεῖν καὶ τὰς πατρίους θυσίας 
+                        διοικεῖ οὗτος πάσας). Wydaje się jednak, że wiedza ta nie była tak 
+                        powszechna, jak można by sądzić: Pseudo-Demostenes uważa za ko-nieczne przypomnieć sędziom historię urzędu Króla, aby lepiej mogli 
+                        osądzić sprawę tak poważną, jak pełnienie funkcji bazylinny (kultowej 
+                        „żony” archonta) przez kobietę niegodną (D. 59.74).
+                    </p>
+                </div>
+             
+            </div>
+            
+        </body>
+    </text>
+</TEI>

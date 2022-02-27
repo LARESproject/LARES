@@ -83,7 +83,11 @@
         <item label="Pseudo-Platon, Epistula VII" match="local-epidoc-display-html" params="plato_13_epistula_vii"/>
         <item label="Pseudo-Platon, Minos" match="local-epidoc-display-html" params="plato_14_minos"/>
       </menu>
-      <item label="Corpus Hippocraticum" match="local-epidoc-display-html" params="hipp_15_corpus"/>
+      <menu label="Corpus Hippocraticum">
+        <item label="De morbo sacro" match="local-epidoc-display-html" params="hipp_01_de_morbo_sacro"/>
+        <item label="De aere aquis et locis" match="local-epidoc-display-html" params="hipp_02_de_aere_aquis_et_locis"/>
+        <item label="De diaeta in morbis acutis" match="local-epidoc-display-html" params="hipp_03_de_diaeta_in_morbis_acutis"/>
+      </menu>
     </menu>
     <menu label="IV. Homer">
       <item label="Introduction" match="local-epidoc-display-html" params="hom_00_intro"/>
