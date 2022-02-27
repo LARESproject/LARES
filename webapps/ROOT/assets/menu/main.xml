@@ -49,6 +49,7 @@
         <item label="Bacchae" match="local-epidoc-display-html" params="trag_30_bacchae"/>
         <item label="Iphigenia Aulidensis" match="local-epidoc-display-html" params="trag_31_iphigenia_aulidensis"/>
       </menu>
+      <item label="Bibliography" match="local-epidoc-display-html" params="trag_32_bibliography"/>
     </menu>
     <menu label="II. Old Attic Comedy">
       <item label="Introduction" match="local-epidoc-display-html" params="com_00_intro"/>
@@ -64,30 +65,32 @@
       <item label="Ecclesiazousae" match="local-epidoc-display-html" params="com_10_ecclesiazousae"/>
       <item label="Plutus" match="local-epidoc-display-html" params="com_11_plutus"/>
       <item label="Fragments" match="local-epidoc-display-html" params="com_12_fragments"/>
+      <item label="Bibliography" match="local-epidoc-display-html" params="com_13_bibliography"/>
     </menu>
     <menu label="III. Corpus Platonicum. Corpus Hippocraticum">
-      <item label="Introduction" match="local-epidoc-display-html" params="plato_00_intro"/>
+      <item label="Introduction" match="local-epidoc-display-html" params="cpch_00_intro"/>
       <menu label="Corpus Platonicum">
-        <item label="Cratylus" match="local-epidoc-display-html" params="plato_01_cratylus"/>
-        <item label="Critias" match="local-epidoc-display-html" params="plato_02_critias"/>
-        <item label="Euthydemus" match="local-epidoc-display-html" params="plato_03_euthydemus"/>
-        <item label="Euthyphro" match="local-epidoc-display-html" params="plato_04_euthyphro"/>
-        <item label="Leges" match="local-epidoc-display-html" params="plato_05_leges"/>
-        <item label="Lysis" match="local-epidoc-display-html" params="plato_06_lysis"/>
-        <item label="Phaedo" match="local-epidoc-display-html" params="plato_07_phaedo"/>
-        <item label="Politicus" match="local-epidoc-display-html" params="plato_08_politicus"/>
-        <item label="Protagoras" match="local-epidoc-display-html" params="plato_09_protagoras"/>
-        <item label="Respublica" match="local-epidoc-display-html" params="plato_10_respublica"/>
-        <item label="Symposium" match="local-epidoc-display-html" params="plato_11_symposium"/>
-        <item label="Pseudo-Platon, Alcibiades II" match="local-epidoc-display-html" params="plato_12_alcibiades_ii"/>
-        <item label="Pseudo-Platon, Epistula VII" match="local-epidoc-display-html" params="plato_13_epistula_vii"/>
-        <item label="Pseudo-Platon, Minos" match="local-epidoc-display-html" params="plato_14_minos"/>
+        <item label="Cratylus" match="local-epidoc-display-html" params="cpch_01_cratylus"/>
+        <item label="Critias" match="local-epidoc-display-html" params="cpch_02_critias"/>
+        <item label="Euthydemus" match="local-epidoc-display-html" params="cpch_03_euthydemus"/>
+        <item label="Euthyphro" match="local-epidoc-display-html" params="cpch_04_euthyphro"/>
+        <item label="Leges" match="local-epidoc-display-html" params="cpch_05_leges"/>
+        <item label="Lysis" match="local-epidoc-display-html" params="cpch_06_lysis"/>
+        <item label="Phaedo" match="local-epidoc-display-html" params="cpch_07_phaedo"/>
+        <item label="Politicus" match="local-epidoc-display-html" params="cpch_08_politicus"/>
+        <item label="Protagoras" match="local-epidoc-display-html" params="cpch_09_protagoras"/>
+        <item label="Respublica" match="local-epidoc-display-html" params="cpch_10_respublica"/>
+        <item label="Symposium" match="local-epidoc-display-html" params="cpch_11_symposium"/>
+        <item label="Pseudo-Platon, Alcibiades II" match="local-epidoc-display-html" params="cpch_12_alcibiades_ii"/>
+        <item label="Pseudo-Platon, Epistula VII" match="local-epidoc-display-html" params="cpch_13_epistula_vii"/>
+        <item label="Pseudo-Platon, Minos" match="local-epidoc-display-html" params="cpch_14_minos"/>
       </menu>
       <menu label="Corpus Hippocraticum">
-        <item label="De morbo sacro" match="local-epidoc-display-html" params="hipp_01_de_morbo_sacro"/>
-        <item label="De aere aquis et locis" match="local-epidoc-display-html" params="hipp_02_de_aere_aquis_et_locis"/>
-        <item label="De diaeta in morbis acutis" match="local-epidoc-display-html" params="hipp_03_de_diaeta_in_morbis_acutis"/>
+        <item label="De morbo sacro" match="local-epidoc-display-html" params="cpch_15_de_morbo_sacro"/>
+        <item label="De aere aquis et locis" match="local-epidoc-display-html" params="cpch_16_de_aere_aquis_et_locis"/>
+        <item label="De diaeta in morbis acutis" match="local-epidoc-display-html" params="cpch_17_de_diaeta_in_morbis_acutis"/>
       </menu>
+      <item label="Bibliography" match="local-epidoc-display-html" params="cpch_18_bibliography"/>
     </menu>
     <menu label="IV. Homer">
       <item label="Introduction" match="local-epidoc-display-html" params="hom_00_intro"/>
@@ -115,28 +118,29 @@
         <item label="Ilias XXIV" match="local-epidoc-display-html" params="hom_21_ilias_xxiv"/>
       </menu>
       <menu label="Odyssea">
-        <item label="Odyssea I" match="local-epidoc-display-html" params="trag_22_odyssea_i"/>
-        <item label="Odyssea II" match="local-epidoc-display-html" params="trag_23_odyssea_ii"/>
-        <item label="Odyssea III" match="local-epidoc-display-html" params="trag_24_odyssea_iii"/>
-        <item label="Odyssea IV" match="local-epidoc-display-html" params="trag_25_odyssea_iv"/>
-        <item label="Odyssea V" match="local-epidoc-display-html" params="trag_26_odyssea_v"/>
-        <item label="Odyssea VII" match="local-epidoc-display-html" params="trag_27_odyssea_vii"/>
-        <item label="Odyssea VIII" match="local-epidoc-display-html" params="trag_28_odyssea_viii"/>
-        <item label="Odyssea IX" match="local-epidoc-display-html" params="trag_29_odyssea_ix"/>
-        <item label="Odyssea X" match="local-epidoc-display-html" params="trag_30_odyssea_x"/>
-        <item label="Odyssea XI" match="local-epidoc-display-html" params="trag_31_odyssea_xi"/>
-        <item label="Odyssea XII" match="local-epidoc-display-html" params="trag_32_odyssea_xii"/>
-        <item label="Odyssea XIII" match="local-epidoc-display-html" params="trag_33_odyssea_xiii"/>
-        <item label="Odyssea XIV" match="local-epidoc-display-html" params="trag_34_odyssea_xiv"/>
-        <item label="Odyssea XV" match="local-epidoc-display-html" params="trag_35_odyssea_xv"/>
-        <item label="Odyssea XVI" match="local-epidoc-display-html" params="trag_36_odyssea_xvi"/>
-        <item label="Odyssea XVII" match="local-epidoc-display-html" params="trag_37_odyssea_xvii"/>
-        <item label="Odyssea XIX" match="local-epidoc-display-html" params="trag_38_odyssea_xix"/>
-        <item label="Odyssea XX" match="local-epidoc-display-html" params="trag_39_odyssea_xx"/>
-        <item label="Odyssea XXI" match="local-epidoc-display-html" params="trag_40_odyssea_xxi"/>
-        <item label="Odyssea XXII" match="local-epidoc-display-html" params="trag_41_odyssea_xxii"/>
-        <item label="Odyssea XXIV" match="local-epidoc-display-html" params="trag_42_odyssea_xxiv"/>
+        <item label="Odyssea I" match="local-epidoc-display-html" params="hom_22_odyssea_i"/>
+        <item label="Odyssea II" match="local-epidoc-display-html" params="hom_23_odyssea_ii"/>
+        <item label="Odyssea III" match="local-epidoc-display-html" params="hom_24_odyssea_iii"/>
+        <item label="Odyssea IV" match="local-epidoc-display-html" params="hom_25_odyssea_iv"/>
+        <item label="Odyssea V" match="local-epidoc-display-html" params="hom_26_odyssea_v"/>
+        <item label="Odyssea VII" match="local-epidoc-display-html" params="hom_27_odyssea_vii"/>
+        <item label="Odyssea VIII" match="local-epidoc-display-html" params="hom_28_odyssea_viii"/>
+        <item label="Odyssea IX" match="local-epidoc-display-html" params="hom_29_odyssea_ix"/>
+        <item label="Odyssea X" match="local-epidoc-display-html" params="hom_30_odyssea_x"/>
+        <item label="Odyssea XI" match="local-epidoc-display-html" params="hom_31_odyssea_xi"/>
+        <item label="Odyssea XII" match="local-epidoc-display-html" params="hom_32_odyssea_xii"/>
+        <item label="Odyssea XIII" match="local-epidoc-display-html" params="hom_33_odyssea_xiii"/>
+        <item label="Odyssea XIV" match="local-epidoc-display-html" params="hom_34_odyssea_xiv"/>
+        <item label="Odyssea XV" match="local-epidoc-display-html" params="hom_35_odyssea_xv"/>
+        <item label="Odyssea XVI" match="local-epidoc-display-html" params="hom_36_odyssea_xvi"/>
+        <item label="Odyssea XVII" match="local-epidoc-display-html" params="hom_37_odyssea_xvii"/>
+        <item label="Odyssea XIX" match="local-epidoc-display-html" params="hom_38_odyssea_xix"/>
+        <item label="Odyssea XX" match="local-epidoc-display-html" params="hom_39_odyssea_xx"/>
+        <item label="Odyssea XXI" match="local-epidoc-display-html" params="hom_40_odyssea_xxi"/>
+        <item label="Odyssea XXII" match="local-epidoc-display-html" params="hom_41_odyssea_xxii"/>
+        <item label="Odyssea XXIV" match="local-epidoc-display-html" params="hom_42_odyssea_xxiv"/>
       </menu>
+      <item label="Bibliography" match="local-epidoc-display-html" params="hom_43_bibliography"/>
     </menu>
   </menu>
   <menu label="Bibliography" match="local-tei-display-html" params="bibliography"/>

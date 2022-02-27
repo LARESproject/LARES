@@ -28,7 +28,7 @@
       <xsl:choose>
         <xsl:when test="$entrytype='lexicon'"><xsl:text>Lexicon entry</xsl:text></xsl:when>
         <xsl:when test="$entrytype='text'"><xsl:text>Text</xsl:text></xsl:when>
-        <xsl:when test="$entrytype='com' or $entrytype='trag' or $entrytype='hom' or $entrytype='plato' or $entrytype='hipp'"><xsl:text>Book chapter</xsl:text></xsl:when>
+        <xsl:when test="$entrytype='com' or $entrytype='trag' or $entrytype='hom' or $entrytype='cpch'"><xsl:text>Book chapter</xsl:text></xsl:when>
         <xsl:otherwise><xsl:value-of select="$entrytype"/></xsl:otherwise>
       </xsl:choose>
     </field>

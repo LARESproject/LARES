@@ -113,7 +113,7 @@
           <xsl:when test="$doctype='com'">Book chapter: Comedy</xsl:when>
           <xsl:when test="$doctype='trag'">Book chapter: Tragedy</xsl:when>
           <xsl:when test="$doctype='hom'">Book chapter: Homer</xsl:when>
-          <xsl:when test="$doctype='hipp' or $doctype='plato'">Book chapter: Corpus Platonicum and Hippocraticum</xsl:when>
+          <xsl:when test="$doctype='cpch'">Book chapter: Corpus Platonicum and Hippocraticum</xsl:when>
           <xsl:when test="$doctype='lexicon'">Lexicon</xsl:when>
           <xsl:when test="$doctype='text'">Text</xsl:when>
         </xsl:choose>
@@ -148,11 +148,10 @@
               <xsl:choose>
                 <xsl:when test="$doctype='com'">1</xsl:when>
                 <xsl:when test="$doctype='trag'">2</xsl:when>
-                <xsl:when test="$doctype='plato'">3</xsl:when>
-                <xsl:when test="$doctype='hipp'">4</xsl:when>
-                <xsl:when test="$doctype='hom'">5</xsl:when>
-                <xsl:when test="$doctype='lexicon'">6</xsl:when>
-                <xsl:when test="$doctype='text'">7</xsl:when>
+                <xsl:when test="$doctype='cpch'">3</xsl:when>
+                <xsl:when test="$doctype='hom'">4</xsl:when>
+                <xsl:when test="$doctype='lexicon'">5</xsl:when>
+                <xsl:when test="$doctype='text'">6</xsl:when>
                 <xsl:otherwise>5</xsl:otherwise>
               </xsl:choose>
               </xsl:variable>

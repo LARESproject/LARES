@@ -13,7 +13,7 @@
         </tr>
       </thead>
       <tbody>
-        <xsl:apply-templates mode="text-index" select="result/doc[contains(str[@name='document_id'], '_')][not(starts-with(str[@name='document_id'], 'com_'))][not(starts-with(str[@name='document_id'], 'trag_'))][not(starts-with(str[@name='document_id'], 'hom_'))][not(starts-with(str[@name='document_id'], 'plato_'))][not(starts-with(str[@name='document_id'], 'hipp_'))]" >
+        <xsl:apply-templates mode="text-index" select="result/doc[contains(str[@name='document_id'], '_')][not(starts-with(str[@name='document_id'], 'com_'))][not(starts-with(str[@name='document_id'], 'trag_'))][not(starts-with(str[@name='document_id'], 'hom_'))][not(starts-with(str[@name='document_id'], 'cpch_'))]" >
           <!-- added [contains(str[@name='document_id'], '_')] to hide other TEI files  -->
           <xsl:sort select="translate(normalize-unicode(lower-case(arr[@name='document_title']/str[1]),'NFD'), '&#x0300;&#x0301;&#x0308;&#x0303;&#x0304;&#x0313;&#x0314;&#x0345;&#x0342;' ,'')"/>
         </xsl:apply-templates>

@@ -4,21 +4,21 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="it">Protagoras (Πρωταγόρας, Protagora)</title>
-                <title xml:lang="en">Protagoras (Πρωταγόρας, Protagoras)</title>
-                <title xml:lang="pl">Protagoras (Πρωταγόρας, Protagoras)</title>
+                <title xml:lang="it">Pseudo-Platone, Minos (Μίνως, Minosse)</title>
+                <title xml:lang="en">Pseudo-Plato, Minos (Μίνως, Minos)</title>
+                <title xml:lang="pl">Pseudo-Platon, Minos (Μίνως, Minos)</title>
             </titleStmt>
             <publicationStmt>
                 <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
                 <date when="2021"/>
-                <idno type="filename">plato_09_protagoras</idno>
+                <idno type="filename">cpch_14_minos</idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <p><title>Protagoras (Πρωταγόρας, Protagoras)</title>, in Przemysław Biernat, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
-                    Corpus Platonicum. Corpus Hippocraticum</title>, Warszawa 2017, pp. 121-126</p>
+                <p><title>Pseudo-Platon, Minos (Μίνως, Minos)</title>, in Przemysław Biernat, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Corpus Platonicum. Corpus Hippocraticum</title>, Warszawa 2017, pp. 171-179</p>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
@@ -47,11 +47,13 @@
                 <div type="textpart" n="intro">
                     <p>Dialog zaliczany jest tradycyjnie do dialogów wczesnych, ale bywa niekiedy określany jako ostatni dialog sokratyczny Platona (Guthrie 1975: 
                         213–214). Jego akcję dramatyczną można umiejscowić blisko 432 r. 
-                        p.n.e., podczas drugiego pobytu Protagorasa w Atenach. Przedmiotem komentarza będzie wyimek z opowiedzianego przez Protagora-sa mitu, który ma stanowić ilustrację tezy, że cnoty można nauczyć 
+                        p.n.e., podczas drugiego pobytu Protagorasa w Atenach. Przedmiotem komentarza 
+                        będzie wyimek z opowiedzianego przez Protagora sa mitu, który ma stanowić ilustrację tezy, że cnoty można nauczyć 
                         (διδακτόν ἐστιν ἡ ἀρετή, 320c). Sofista rozpoczyna swoją narrację 
                         w czasie, w którym bogowie już istnieli, ale nie pojawiły się jeszcze 
                         śmiertelne istoty (320c–d). Gdy miało to nastąpić, Zeus zlecił Epimeteuszowi i Prometeuszowi wyposażenie ich we wszystkie niezbędne 
-                        „moce” (dynameis, 320d). Do dzieła przystąpił Epimeteusz i gdy rozdzielił już pomiędzy zwierzęta takie cechy jak szybkość, gęste owłosie-nie czy posiadanie ostrych pazurów, zorientował się, że dla człowieka 
+                        „moce” (dynameis, 320d). Do dzieła przystąpił Epimeteusz i gdy rozdzielił już pomiędzy zwierzęta takie cechy jak szybkość, 
+                        gęste owłosie nie czy posiadanie ostrych pazurów, zorientował się, że dla człowieka 
                         nic nie zostało (321c). Chcąc pomóc człowiekowi, Prometeusz wykradł 
                         Hefajstosowi i Atenie ten entechnon sophian syn pyri – mądrość praktyczną i umiejętność posługiwania się ogniem (321d), za co spotkała 
                         go później kara (322a).</p>
@@ -62,22 +64,22 @@
                         dialogach, zwłaszcza Polityku i Prawach.
                         Oczywistym punktem odniesienia dla mitu Protagorasa jest Teogonia Hezjoda, a dokładnie – opowieść o podziale wołu na górze Mekone 
                         i jego konsekwencje, niemniej sofista sięga też po inne tradycyjne opowieści (np. o wyjściu pierwszych ludzi z wnętrza ziemi, ἐξιέναι ἐκ γῆς 
-                        εἰς φῶς, 321c; por. D. 60.4; Emp. DK 31 B 62.4; Pl. R. 414d; Mx. 237d – tu  ograniczeniem do Ateńczyków), a także takie rozwiązania kosmolo-giczne jak dualizm kierujących powstawaniem sił, który przejawia się 
-                        w wyborze Prometeusza („Wprzódmysła”) i Epimeteusza („Wstecz-mysła”) na kierowników stworzenia (por. pitagorejskie pary opozycji, 
-                        Kirk, Raven 1977: 238, dualizm kosmologii Parmenidesa, Miłość i Niena-wiść Empedoklesa) oraz podział pierwiastków na dwa główne – ogień 
-                        i ziemię (u Parmenidesa światło i noc, raczej jako zasady niż pierwiast-ki, z ogniem i ziemią utożsamione np. przez Arystotelesa w Metafizyce
+                        εἰς φῶς, 321c; por. D. 60.4; Emp. DK 31 B 62.4; Pl. R. 414d; Mx. 237d – tu  ograniczeniem do Ateńczyków), a także takie rozwiązania kosmologiczne jak dualizm kierujących powstawaniem sił, który przejawia się 
+                        w wyborze Prometeusza („Wprzódmysła”) i Epimeteusza („Wsteczmysła”) na kierowników stworzenia (por. pitagorejskie pary opozycji, 
+                        Kirk, Raven 1977: 238, dualizm kosmologii Parmenidesa, Miłość i Niena wiść Empedoklesa) oraz podział pierwiastków na dwa główne – ogień 
+                        i ziemię (u Parmenidesa światło i noc, raczej jako zasady niż pierwiast ki, z ogniem i ziemią utożsamione np. przez Arystotelesa w Metafizyce
                         A 5.986b 18 = Parmenides A 24) – oraz ich „mikstury” (zapewne wodę 
                         i powietrze, ἐκ γῆς καὶ πυρὸς μείξαντες καὶ τῶν ὅσα πυρὶ καὶ γῇ 
-                        κεράννυται, 320d). Protagoras porusza też inny popularny aspekt grec-kiej antropologii – pokrewieństwo (συγγένεια) ludzi i bogów. Opowia-danie Protagorasa nie wyjaśnia, na czym miałoby polegać to pokrewień-stwo, dlatego kilku dawniejszych wydawców podważyło autentyczność 
+                        κεράννυται, 320d). Protagoras porusza też inny popularny aspekt grec kiej antropologii – pokrewieństwo (συγγένεια) ludzi i bogów. Opowia danie Protagorasa nie wyjaśnia, na czym miałoby polegać to pokrewień stwo, dlatego kilku dawniejszych wydawców podważyło autentyczność 
                         tych słów (cf. Adam, Adam 1962: 112–113, z powołaniem na innych). 
                         Wydaje się jednak, że odbiorcy greckiej poezji byli na tyle zaznajomieni 
                         z ideą wspólnego pochodzenia ludzi i bogów (por. Hes. Op. 108; Pind. N. 
-                        6.1–3; złote listki z Thurioi A1–A3 = OF 488–490), że sofista mógł oczeki-wać od nich zdolności do samodzielnej koniektury. Wraz z pokrewień-stwem dotyka innego problemu greckiej antropologii, a mianowicie po-dobieństwa bogów i ludzi, które zarazem odróżnia ludzi od zwierząt. 
+                        6.1–3; złote listki z Thurioi A1–A3 = OF 488–490), że sofista mógł oczeki wać od nich zdolności do samodzielnej koniektury. Wraz z pokrewień stwem dotyka innego problemu greckiej antropologii, a mianowicie po dobieństwa bogów i ludzi, które zarazem odróżnia ludzi od zwierząt. 
                         To podobieństwo i różnica w jednym to ludzki intelekt, który człowiek 
                         dzieli z bogami (por. Pl. Mx. 237d: człowiek przewyższa inne istoty żywe 
-                        inteligencją i jako jedyny δίκην καὶ θεοὺς νομίζει; X. Mem. 1.4.13: czło-wiek jako jedyne zwierzę zrozumiał, że bogowie istnieją, na podstawie 
+                        inteligencją i jako jedyny δίκην καὶ θεοὺς νομίζει; X. Mem. 1.4.13: czło wiek jako jedyne zwierzę zrozumiał, że bogowie istnieją, na podstawie 
                         obserwacji wielkości i piękna świata; człowiek jako jedyny czci bogów, 
-                        jest również do nich podobny), a który w mitologicznej warstwie opo-wieści Protagorasa reprezentowany jest przez ogień Hefajstosa i prak-tyczną mądrość Ateny.
+                        jest również do nich podobny), a który w mitologicznej warstwie opo wieści Protagorasa reprezentowany jest przez ogień Hefajstosa i prak tyczną mądrość Ateny.
                        </p><p>Przekłady polskie: Witwicki (1923), Regner (1995).
                            Tekst na podstawie wydania: Denyer (2008).</p>
                 </div>
@@ -91,75 +93,75 @@
                         ὀνόματα ταχὺ διηρθρώσατο τῇ τέχνῃ, καὶ οἰκήσεις καὶ ἐσθῆτας καὶ 
                         ὑποδέσεις καὶ στρωμνὰς καὶ τὰς ἐκ γῆς τροφὰς ηὕρετο.</quote>
                     <quote>Skoro zaś człowiekowi przypadła w udziale boska dola, najpierw ze 
-                        względu na pokrewieństwo z bogiem jako jedyne zwierzę uznał bo-gów i zaczął wznosić im ołtarze i wizerunki. Następnie dzięki sztuce 
+                        względu na pokrewieństwo z bogiem jako jedyne zwierzę uznał bo gów i zaczął wznosić im ołtarze i wizerunki. Następnie dzięki sztuce 
                         szybko wyartykułował mowę i słowa oraz wynalazł domy, ubrania, 
                         obuwie, łóżka, a także pożywienie z ziemi.</quote>
                     <p>θείας μετέσχε μοίρας – „przypadła w udziale boska dola”; chodzi 
                         o umiejętność posługiwania się ogniem i mądrość praktyczną (intelekt 
                         i zdolność do wytwarzania narzędzi), która umożliwiła kult bogów 
                         w takiej postaci, jaką znali Grecy – z wykorzystaniem palonych ofiar, 
-                        ołtarzy i boskich wizerunków. Na mitologicznym poziomie opowia-dania sformułowanie to może być jakiegoś rodzaju grą z mitem Pro-meteusza opowiedzianym przez Hezjoda (na temat nawiązań Platona 
+                        ołtarzy i boskich wizerunków. Na mitologicznym poziomie opowia dania sformułowanie to może być jakiegoś rodzaju grą z mitem Pro meteusza opowiedzianym przez Hezjoda (na temat nawiązań Platona 
                         do Hezjoda zob. Boys-Stones, Haubold 2010; interesujący nas passus, 
-                        choć odnotowany dwukrotnie, nie został poddany analizie). U Hezjo-da rzeczownik moira (dola, cząstka, przydział) użyty jest w liczbie 
-                        mnogiej i odnosi się do porcji wołu zabitego przez Prometeusza pod-czas krisis (podziału) na górze Mekone – bogom przypadają tłuszcz 
+                        choć odnotowany dwukrotnie, nie został poddany analizie). U Hezjo da rzeczownik moira (dola, cząstka, przydział) użyty jest w liczbie 
+                        mnogiej i odnosi się do porcji wołu zabitego przez Prometeusza pod czas krisis (podziału) na górze Mekone – bogom przypadają tłuszcz 
                         i kości, ludziom skóra i mięso (Hes. Th. 535–541). Ponieważ Zeus uznał 
                         ten podział za stronniczy (ἑτεροζήλως, Hes. Th. 544), można przyjąć, 
-                        że w jego wyniku ludzie zyskali udział w tych właśnie częściach zwie-rzęcia, które należały się bogom jako ich moirai (Ekroth 2011: 17).
+                        że w jego wyniku ludzie zyskali udział w tych właśnie częściach zwie rzęcia, które należały się bogom jako ich moirai (Ekroth 2011: 17).
                         Na poziomie kosmogonicznym theiai moirai to oczywiście intelekt, 
                         który zbliża ludzi do bogów i oddala ich od zwierząt. Związek ognia, 
-                        intelektu i boskości występuje w tradycji kosmologicznej przynaj-mniej od czasów Parmenidesa. Być może Protagoras przyjął też jego 
+                        intelektu i boskości występuje w tradycji kosmologicznej przynaj mniej od czasów Parmenidesa. Być może Protagoras przyjął też jego 
                         koncepcję doznawania (aisthanesthai), którą Teofrast scharakteryzował 
                         następująco: „[według Parmenidesa] trup nie postrzega (aisthanesthai) 
                         światła, ciepła i głosu z powodu utraty ognia, zimno natomiast, ciszę 
                         i inne przeciwne – postrzega” (Parmenides fr. A 46). Theiai moirai mogą 
-                        stanowić tę krytyczną nadwyżkę ognia w ludzkiej naturze, która spra-wia, że człowiek zdolny jest „postrzegać” bogów, zwierzęta zaś nie.
+                        stanowić tę krytyczną nadwyżkę ognia w ludzkiej naturze, która spra wia, że człowiek zdolny jest „postrzegać” bogów, zwierzęta zaś nie.
                         θεοὺς ἐνόμισεν – „uznał bogów”; właściwe znaczenie wyrażenia 
                         θεοὺς νομίζειν było przez lata przedmiotem kontrowersji, wydaje się 
-                        jednak, że Henk Versnel (2011: 539–559) przedstawił decydujące ar-gumenty przeciwko jego ściśle rytualistycznej interpretacji. Nομίζειν 
+                        jednak, że Henk Versnel (2011: 539–559) przedstawił decydujące ar gumenty przeciwko jego ściśle rytualistycznej interpretacji. Nομίζειν 
                         nie może być tutaj użyte w sensie „‚venerating’, ‚practicing the cult’, 
                         especially by means of prayer and sacrifice” (Giordano-Zecharya 2005: 
                         332), ponieważ niedorzecznie dublowałoby dalszą część wypowiedzi 
-                        Protagorasa. Jego znaczenie jest tutaj kognitywne: „wierzyć w bo-gów”, „uważać, że bogowie istnieją”, „uznawać (kogoś) za bogów”.</p>
+                        Protagorasa. Jego znaczenie jest tutaj kognitywne: „wierzyć w bo gów”, „uważać, że bogowie istnieją”, „uznawać (kogoś) za bogów”.</p>
                     <p>Niektórzy komentatorzy nie potraktowali serio słów agnostyka 
                         Protagorasa o pierwszeństwie wiary i kultu przed mową i polityką, 
                         uznając je za ukłon w stronę teistycznego słuchacza mitu (Guthrie 
                         1957: 88–9; Gera 2003: 128 z przyp. 60; zob. też Havelock 1957: 407–
                         409). Debrah L. Gera zauważa też pewną trudność w rozumowaniu 
                         sofisty. Jej zdaniem</p> 
-                    <quote>it is […] difficult to understand how religious worship and the con-struction of altars and statues could have come before language 
+                    <quote>it is […] difficult to understand how religious worship and the con struction of altars and statues could have come before language 
                         and before the feeling of piety (αἰδώς) which men will acquire only 
                         later, when Zeus bestows the political virtues (Prot. 322c). (Gera 
                         2003: 128)</quote>
-                    <p>Wydaje się jednak, że trudność ta istnieje jedynie zdaniem uczo-nej. Po pierwsze, nieuzasadnione jest rozumienie αἰδώς (najbliższym 
+                    <p>Wydaje się jednak, że trudność ta istnieje jedynie zdaniem uczo nej. Po pierwsze, nieuzasadnione jest rozumienie αἰδώς (najbliższym 
                         polskim odpowiednikiem tego słowa jest „wstyd”) jako pobożności, 
                         zwłaszcza w kontekście, w jakim słowem posługuje się Protagoras. 
-                        Po drugie, błędem jest uznanie aporyczności stwierdzenia Protago-rasa, że kult bogów (religious worship) jest starszy od wykształcenia 
-                        mowy. Uczona wydaje się zakładać, że Grecy widzieli w wąsko ro-zumianej komunikacji z bogami – przedkładaniu próśb i wyraża-niu podziękowań – warunek sine qua non kultu bogów. Tymczasem 
+                        Po drugie, błędem jest uznanie aporyczności stwierdzenia Protago rasa, że kult bogów (religious worship) jest starszy od wykształcenia 
+                        mowy. Uczona wydaje się zakładać, że Grecy widzieli w wąsko ro zumianej komunikacji z bogami – przedkładaniu próśb i wyraża niu podziękowań – warunek sine qua non kultu bogów. Tymczasem 
                         Protagoras, jeżeli potraktować jego słowa serio (a ja mam zamiar tak 
                         właśnie postąpić), mówi, że wystarczy ołtarz i wizerunek. Co przy 
                         pierwszym ołtarzu robił człowiek z mitu Protagorasa, skoro niepotrafił powiedzieć: „do ut des”? Zapewne to, co każdy inny Grek, 
                         kiedy „sprawy szły gładko” (sens tego wyrażenia wyjaśni się niżej) 
-                        – składał ofiary, darował coś bogom. Ofiarowanie to nie miało jed-nak charakteru momentalnego aktu wymiany, zamkniętego w cza-sowych granicach rytuału (tłusty dym palonych udźców w zamian 
-                        za zobowiązanie spełnienia prośby), lecz stanowiło pojedyncze ogni-wo opartej na wdzięczności i życzliwości relacji wzajemności, znanej 
-                        w nauce pod umownym określeniem relacji charis (ang. charis-rela-tionship; zob. Parker 1998; Mikalson 2010: 14–15; Berti 2014; Jim 2014: 
-                        60–68, komentarz do Eutyfrona 14b)</p><p>Większość źródeł ilustrujących rozumienie aktu ofiarowania cze-goś bogom przez Greków pochodzi z inskrypcji dedykacyjnych i wo-tywnych, w których element prośby i podziękowania jest nie tylko 
-                            obecny, ale wręcz uwypuklony, co wynika z charakteru tych świa-dectw. Zarazem nie ulega wątpliwości, że w rozumieniu przynajmniej 
+                        – składał ofiary, darował coś bogom. Ofiarowanie to nie miało jed nak charakteru momentalnego aktu wymiany, zamkniętego w cza sowych granicach rytuału (tłusty dym palonych udźców w zamian 
+                        za zobowiązanie spełnienia prośby), lecz stanowiło pojedyncze ogni wo opartej na wdzięczności i życzliwości relacji wzajemności, znanej 
+                        w nauce pod umownym określeniem relacji charis (ang. charis-rela tionship; zob. Parker 1998; Mikalson 2010: 14–15; Berti 2014; Jim 2014: 
+                        60–68, komentarz do Eutyfrona 14b)</p><p>Większość źródeł ilustrujących rozumienie aktu ofiarowania cze goś bogom przez Greków pochodzi z inskrypcji dedykacyjnych i wo tywnych, w których element prośby i podziękowania jest nie tylko 
+                            obecny, ale wręcz uwypuklony, co wynika z charakteru tych świa dectw. Zarazem nie ulega wątpliwości, że w rozumieniu przynajmniej 
                             niektórych Greków charis realizowała się poprzez wszystkie formy 
                             kultu bogów (por. Lys. 6.33, gdzie pod κεχαρισμένα ποιεῖν kryją się 
                             ofiary, procesje, modlitwy i wyrocznie). Dlatego niezwykle przydatne 
                             jest wprowadzone przez J.G. Platvoeta rozróżnienie między dwiema 
                             formami komunikacji z istotami nadprzyrodzonymi: komunikacją 
                             o niskiej i wysokiej intensywności (low- i high-intensity communication). 
-                            Jak ujął to Jan van Baal (1976: 168), który zapoznał świat angielskoję-zyczny z koncepcją Platvoeta,</p> 
-                         <quote>   [l]ow-intensity communication […] is the ideal form for man’s rela-tions with the supernatural. When things run smoothly and anxie-ty is absent, simple rites suffice to keep up good relations with the 
+                            Jak ujął to Jan van Baal (1976: 168), który zapoznał świat angielskoję zyczny z koncepcją Platvoeta,</p> 
+                         <quote>   [l]ow-intensity communication […] is the ideal form for man’s rela tions with the supernatural. When things run smoothly and anxie ty is absent, simple rites suffice to keep up good relations with the 
                             gods, inspiring confidence in the persistence of their benevolence and 
                             protection. To the contrary, when misfortune or disaster persuade the 
                             faithful that there is something wrong with these relations, other rites 
                             are called for, those of the high-intensity type.</quote>
                     <p>Do rytów o wysokiej intensywności należy więc, według van Baala, 
-                        dar wotywny złożony w podzięce za uzdrowienie, nawet jeżeli bę-dzie to gliniany ptaszek, natomiast do rytów o niskiej intensywności 
+                        dar wotywny złożony w podzięce za uzdrowienie, nawet jeżeli bę dzie to gliniany ptaszek, natomiast do rytów o niskiej intensywności 
                         należy regularna ofiara wpisana w świąteczny kalendarz wspólnoty, 
-                        nawet jeżeli w ofierze będą składane woły. Protagoras Platona uzna-wał więc prymarność komunikacji o niskiej intensywności, w ramach 
+                        nawet jeżeli w ofierze będą składane woły. Protagoras Platona uzna wał więc prymarność komunikacji o niskiej intensywności, w ramach 
                         której relacja wzajemności oparta na obustronnej charis wytwarzana 
                         była i podtrzymywana przez gesty dzielenia się i ofiarowania, którym 
                         nie musiały towarzyszyć sprecyzowane prośby czy podziękowania, 

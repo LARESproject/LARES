@@ -11,7 +11,7 @@
             <publicationStmt>
                 <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
                 <date when="2021"/>
-                <idno type="filename">hom_XXX</idno> <!-- hom_ChapterNumber_LatinWorkTitle, e.g. hom_01_ilias -->
+                <idno type="filename">hom_XXX</idno> <!-- e.g. hom_01_ilias_i -->
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
                 </availability>
