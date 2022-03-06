@@ -17,8 +17,8 @@
       <classDecl>
         <taxonomy xml:id="thesaurus">
           <category xml:id="representation" n="1">
-            <gloss xml:lang="it">1: Rappresentazione</gloss> <!-- Field = Dominio -->
-            <gloss xml:lang="en">1: Representation</gloss>
+            <gloss xml:lang="it">Rappresentazione</gloss> <!-- Field = Dominio -->
+            <gloss xml:lang="en">Representation</gloss>
             <category xml:id="practice" n="1.1">
               <gloss xml:lang="it">Pratica (rito)</gloss> <!-- Ambito = Realm -->
               <gloss xml:lang="en">Practice (rite)</gloss>
@@ -38,8 +38,8 @@
           </category>
           
           <category xml:id="communication" n="2">
-            <gloss xml:lang="it">2: Comunicazione</gloss>
-            <gloss xml:lang="en">2: Communication</gloss>
+            <gloss xml:lang="it">Comunicazione</gloss>
+            <gloss xml:lang="en">Communication</gloss>
             <category xml:id="sign" n="2.1">
               <gloss xml:lang="it">Segno (semiotico)</gloss>
               <gloss xml:lang="en">Sign (semiotics)</gloss>
@@ -56,8 +56,8 @@
           </category>
           
           <category xml:id="fruition" n="3">
-            <gloss xml:lang="it">3: Fruizione</gloss>
-            <gloss xml:lang="en">3: Fruition</gloss>
+            <gloss xml:lang="it">Fruizione</gloss>
+            <gloss xml:lang="en">Fruition</gloss>
             <category xml:id="systems" n="3.1">
               <gloss xml:lang="it">Sistemi</gloss>
               <gloss xml:lang="en">Systems</gloss>

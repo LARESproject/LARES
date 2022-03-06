@@ -31,9 +31,7 @@
         <head>Fields and realms</head>
         <div type="headings">
           <list>
-            <item>Field</item>
-            <item>Realm</item>
-            <!--<item>Type</item>-->
+            <item>Field and realm</item>
             <item>Specific term</item>
             <item>Documents</item>
           </list>
