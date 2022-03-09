@@ -152,9 +152,7 @@
     <item label="Historical figures" match="local-index-display-html" params="epidoc people"/>
     <item label="Places" match="local-index-display-html" params="epidoc places"/>
   </menu>
-  <!--<menu label="Concordances">
-    <item label="Bibliographic" match="local-concordance-bibliography"/>
-  </menu>-->
+  <!--<menu label="Bibliographic concordances" i18n:key="menu-concordance-bibliography" match="local-concordance-bibliography"/>-->
   <menu label="Search" match="local-search"/>
   <menu label="Team" match="local-tei-display-html" params="team"/>
   <menu label="Admin" language="" match="local-admin-home-page" />
