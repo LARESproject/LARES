@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Bibliografia</title>
+                <title xml:lang="en">Bibliography</title>
+                <title xml:lang="pl">Bibliografia</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">com_13_bibliography</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><title>Bibliografia</title>, in Bartłomiej Bednarek, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Stara komedia attycka</title>, Warszawa 2017, pp. 281-292</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-03-11" who="Irene Vagionakis">encoded in XML</change>
+                <change when="2017" who="Bartłomiej Bednarek">written contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>Adkins, A.W.H. (1960): Merit and Responsibility. A Study in Greek Values, Oxford.</bibl>
+                    <bibl>Argyle, A.W. (1970): Χρησμολόγοι and Μάντεις, CR 84: 139.</bibl>
+                    <bibl>Arnott, P. (1962): Greek Scenic Conventions in the 5. Century B.C., Oxford. Aubriot-Sévin, D. (1992): Prière et conceptions religioeuses en Grèce ancienne jusqu’à la fin du Ve siècle av. J.-C., Lyon.</bibl>
+                    <bibl>Austin, C., Olson, S.D., ed. (2004): Aristophanes. Thesmophoriazousae, with Introduction and Commentary, Oxford–New York.</bibl>
+                    <bibl>Bartol, K., Danielewicz, J. (2011): Komedia grecka. Od Epicharma do Menandra. Wybór fragmentów, Warszawa.</bibl>
+                    <bibl>Bednarek, B. (2014): Mélange of Melanaegis and Leukaspis: On the aetiology of Apatouria festival, „Eos” 101: 159–168.</bibl>
+                    <bibl>Bednarek, B. (2017): Aesop Victimized: The Sale of Sacrificial and Non-Sacrificial Meat, „Mnemosyne” 70.1: 58–78.</bibl>
+                    <bibl>Bednarek, B. (2017a): Whole and ground: krithai and alphita, [in:] K. Bielawski (ed.), Animal Sacrifice in Ancient Greece. Proceedings of the First International Workshops in Kraków (12–14.11.2015) (w przygotowaniu redakcyjnym).</bibl>
+                    <bibl>Beekes, R. (2010): Etymological Dictionary of Greek, Leiden–Boston.</bibl>
+                    <bibl>Berg, T. (1838): Commentationum de reliquiis comoediae Atticae antiquae libri duo, Leipzig.</bibl>
+                    <bibl>Bernabé, A. (2005): Poetae epici graeci. Testimonia et fragmenta, II.2, München–Leipzig.</bibl>
+                    <bibl>Berthiaume, G. (1982): Les rôles du mágeiros: Etude sur la boucherie, la cuisine et le sacrifice dans la Grèce ancienne, Leiden.</bibl>
+                    <bibl>Berthiaume, G. (2005): L’aile ou les mēria. Sur la nourriture carnée des dieux grecs, [in:] Georgoudi, Koch Piettre, Schmidt (2005): 241–251.</bibl>
+                    <bibl>Bianchi, F.P. (2016): Cratino. Archilochoi – Empipramenoi (frr. 1-68). Introduzione, Traduzione, Commento, Heidelberg.</bibl>
+                    <bibl>Boissonade, J.-F. (1826): Aristophane, Paris.</bibl>
+                    <bibl>Bonnechère, P. (1998): Orthia et la flagellation des éphèebes apartiates, un souvenir chimérique de sacrifice humain, „Kernos” 6: 11–22.</bibl>
+                    <bibl>Bothe, F.H. (1855): Poetarum Comicorum Graecorum Fragmenta, Paris.</bibl>
+                    <bibl>Bowie, A.M. (1993): Aristophanes: Myth, Ritual and Comedy, Cambridge.</bibl>
+                    <bibl>Bremmer, J.N. (2005): The Sacrifice of Pregnant Animals, [in:] B. Alroth, R. Hägg (ed.), Sacrificial Ritual: Olympian and Chthonian, Gothenburg: 155–165.</bibl>
+                    <bibl>Brommer, F. (1959): Satyrspiele. Bilder griechischer Vasen, II ed., Bonn.</bibl>
+                    <bibl>Brunck, R.F.P., ed. (1783): Aristophanis Comoediae, Strassburg.</bibl>
+                    <bibl>Bühler, W. (1982): Zenobii Athoi proverbia, Göttingen.</bibl>
+                    <bibl>Burkert, W. (1966): Greek Tragedy and Sacrificial Ritual, GRBS 7.</bibl>
+                    <bibl>Burkert, W. (1972): Homo Necans: Interpretationen altergriechischer Opferriten und Mythen, Berlin.</bibl>
+                    <bibl>Burkert, W. (1983): Homo Necans: Interpretations of ancient Greek sacrificial ritual and myth, przeł. P. Bing, Berkeley.</bibl>
+                    <bibl>Burkert, W. (1985): Greek Religion. Archaic and Classical, przeł. J. Raffan, Oxford–Cambridge.</bibl>
+                    <bibl>Burkert, W. (2011): Griechische Religion der archaischen und klassischen Epoche. Zweite, überarbeitete und erweiterte Auflage, Stuttgart.</bibl>
+                    <bibl>Carboni, R. (2015): Dea in limine. Culto, immagine e sincretismi di Ecate nel mondo greco e microasiatico, Tübingen.</bibl>
+                    <bibl>Casabona, J. (1966): Recherches sur le vocabulaire des sacrifices en grec, des origines à la fin de l’époque classique, Aix-en-Provance.</bibl>
+                    <bibl>Cobet, G.C. (1840): Observationes criticae in Platonis comici reliquias, Amsterdam.</bibl>
+                    <bibl>Corbel-Morana, C. (2012): Le Bestiaire d’Aristophane, Paris.</bibl>
+                    <bibl>Csapo, E. (1997): Riding the Phallus for Dionysus: Iconology, Ritual and Gender-Role De/construction, „Phoenix” 51: 253–295.</bibl>
+                    <bibl>Dalby, A. (1996): Siren Feasts. A history of food and gastronomy in Greece, London–New York.</bibl>
+                    <bibl>De Grossi Mazzorin, J. (2008): L’uso dei cani nei riti di fondzione, purificazione e passaggio nel mondo antico, [in:] F. D’Adria, J. De Grossi Mazzorin, G. Fiorentino (ed.), Uomini, piante e animali nella dimensione del sacro, Bari: 71–81.</bibl>
+                    <bibl>De Ste. Croix, G.E.M. (1972): The Origins of the Peloponnesian War, London. Del Corno, D., ed. (1985): Aristofane. Le Rane, Milano.</bibl>
+                    <bibl>Demańczuk, J., ed. (1967): Supplementum Comicum. Comoediae Graecae fragmenta post editiones Kockianam et Kaibelianam reperta vel indicata, Hildesheim.</bibl>
+                    <bibl>Detienne, M. (1979a): Dionysos Slain, przekł. M. Muellner, L. Muellener, Baltimore, London.</bibl>
+                    <bibl>Detienne, M., Vernant, J.-P. (ed.) (1979): La cuisine du sacrifice en pays grec, Paris.</bibl>
+                    <bibl>Deubner, L. (1932): Attische Feste, Berlin.</bibl>
+                    <bibl>Dillon, M. (2002): Girls and Women in Classical Greek Religion, London, New York.</bibl>
+                    <bibl>Dobree, P.P. (1831–1833): Adversaria, Cantabrigiae.</bibl>
+                    <bibl>Dow, S. (2004): Aristotle, the Kleoteria, and the Courts, [in:] P.J. Rhodes (ed.), Athenian Democracy, Oxford: 62–94.</bibl>
+                    <bibl>Dover, K.J., ed. (1968): Aristophanes. Clouds, Oxford.</bibl>
+                    <bibl>Dover, K.J., ed. (1970): Aristophanes. Clouds, Oxford.</bibl>
+                    <bibl>Dover, K.J., ed. (1993): Aristophanes. Frogs, Oxford.</bibl>
+                    <bibl>Ducat, J. (1995): Un rituel samien, BCH 119.1: 339–368.</bibl>
+                    <bibl>Dunbar, N., ed. (1995): Aristophanes. Birds, Oxford.</bibl>
+                    <bibl>Durand, J.-L. (1979): Bêtes grecques. Propositions pour une topologie des corps à manger, [in:] Detienne, Vernant (1979): 133–157.</bibl>
+                    <bibl>Durand, J.-L. (1986): Sacrifice et labour en Grèce ancienne. Essai d’anthropologie religieuse, Paris–Roma.</bibl>
+                    <bibl>Edmonds, J.M. (1957): The Fragments of Attic Comedy after Meineke, Berg, and Kock, Leiden.</bibl>
+                    <bibl>Ehrenberg, V. (1951): The People of Aristophanes. A Sociology of Old Attic Comedy, Oxford.</bibl>
+                    <bibl>Eidinow, E. (2007): Oracles, Curses, and Risk among the Ancient Greeks, Oxford.</bibl>
+                    <bibl>Ekroth, G. (2002): The Sacrificial Rituals of Greek-hero Cults in the Archaic to the Early Hellenistic Periods, Liège.</bibl>
+                    <bibl>Ekroth, G. (2005): Blood on the Altars? On the treatment of blood at Greek sacrifices and the iconographical evidence, „Antike Kunst” 48: 9–29.</bibl>
+                    <bibl>Ekroth, G. (2008): Meat, man and god. On the division of the animal victim at Greek sacrifices, [in:] M.H. Jameson, A. Matthaiou, I. Polanskaya (ed.), ΜΙΚΡΟΣ ΙΕΡΟΜΝΗΜΩΝ: Μέλετες εἰς Μνήμην, Athens: 259–290.</bibl>
+                    <bibl>Ekroth, G. (2009): Thighs or tails? The osteological evidence as source for Greek religious norms, [in:] P. Brulé (ed.), La norme en matière religieuse en Gréce</bibl>
+                    <bibl>ancienne, Liège: 125–151.</bibl>
+                    <bibl>Ekroth, G. (2011): Meat for the gods, [in:] Pirenne-Delforge, Prescendi (2011): 15–41.</bibl>
+                    <bibl>Ekroth, G. (2013): What we would like the bones to tell us: a sacrificial wish list, [in:] Ekroth, Wallenstein (2013): 15–30.</bibl>
+                    <bibl>Ekroth, G. (2014): Castration, cult and agriculture. Perspectives on Greek animal sacrifice, „Opuscula: Annual of the Swedish Institutes at Athens and Rome” 7: 153–174.</bibl>
+                    <bibl>Ekroth, G., Wallenstein, J. (ed.) (2013): Bones, behaviour and belief: The zooarchaeological evidence as a source for ritual practice in ancient Greece and beyond, Stockholm.</bibl>
+                    <bibl>Evans, N. (2002): Sanctuaries, Sacrifices, and the Eleusinian Mysteries, „Numen” 49: 227–254.</bibl>
+                    <bibl>Faraone, C. (1993): Molten wax, spilt wine and mutilated animals: sympathetic magic in near eastern and early Greek oath ceremonies, JHS 113: 60–80.</bibl>
+                    <bibl>Faraone, C.A., Naiden, F.S. (ed.) (2012): Greek and Roman Animal Sacrifice. Ancient Victims, Modern Observers, Cambridge.</bibl>
+                    <bibl>Ferguson, W.S. (1948): Demetrios Poliorketes and the Hellenic League, „Hesperia” 17.2: 112–136.</bibl>
+                    <bibl>Feyel, C. (2006): La dokimasia des animaux sacrifiés, Rev. Phil. 80.1: 33–55.</bibl>
+                    <bibl>Fletcher, J. (2012): Performing Oaths in Classical Greek Drama, Cambridge–New York.</bibl>
+                    <bibl>Flower, M.A. (2008): The Seer in Ancient Greece, Berkeley.</bibl>
+                    <bibl>Forstenpointner, G., Galik, A., Weissengruber, G.E. (2013): The zooarchaeology of cult: Perspectives and pitfalls of an experimental approach, [in:] Ekroth,</bibl>
+                    <bibl>Wallenstein (2013): 233–242.</bibl>
+                    <bibl>Foucart, P. (1914): Les mystères d’Eleusis, Paris.</bibl>
+                    <bibl>Fraenkel, E. (1964): Kleine Beiträge zur klassischen Philologie. I: Zur Sprache der griechischen Literatur, Roma.</bibl>
+                    <bibl>Fritzsche, F.V., ed. (1838): Aristophanis Thesmophoriazousae, Leipzig.</bibl>
+                    <bibl>Frontisi-Ducroux, F. (1984): La bomolochia: autour de l'embuscade à l'autel, Cahiers du Centre Jean-Bérard 9: 29–50.</bibl>
+                    <bibl>Frost, F. (1999): Sausage and meat preservation in antiquity, GRBS 40: 241–252.</bibl>
+                    <bibl>Furley, W., Gysembergh, V. (2015): Reading the liver: papyrological texts on ancient Greek extispicy, Tübingen.</bibl>
+                    <bibl>Gebauer, J. (2002): Pompe und Thysia: Attische Tieropferdarstellungen auf schwartzund rotfigurigen Vasen, Münster.</bibl>
+                    <bibl>Georgoudi, S. (2005): «L’occultation de la violence» dans le sacrifice grec: données anciennes, discours moderns, [in:] Georgoudi, Koch Piettre, Schmidt (2005): 115–147.</bibl>
+                    <bibl>Georgoudi, S., Koch Piettre, R., Schmidt, F. (ed.) (2005): La cuisine et l’autel: les sacrifices en questions dans les sociétés de la méditerranée ancienne, Turnhout.</bibl>
+                    <bibl>Gernet, L. (2011): O symbolice politycznej: ognisko publiczne, [w:] W. Lengauer, P. Majewski, L. Trzcionkowski (red.), Antropologia antyku greckiego. Zagadnienia i wybór tekstów. Warszawa: 114–126.</bibl>
+                    <bibl>Gill, C., Postlethwaite, N., Seaford, R., (ed.) (1998): Reciprocity in Ancient Greece, Oxford.</bibl>
+                    <bibl>Gill, D.H. (1974): Trapezomata: A neglected Aspect of Greek Sacrifice, HthR 67.2: 117–137.</bibl>
+                    <bibl>Gill, D.H. (1991): Greek Cult Tables, New York.</bibl>
+                    <bibl>Girard, R. (1972): La violence et le Sacré, Paris.</bibl>
+                    <bibl>Gödde, S. (2007): Euphêmia: die gute Rede in Kult und Literatur der griechischen Antike, Heidelberg.</bibl>
+                    <bibl>Goff, B. (2004): Citizen Bacchae. Women’s Ritual Practice in Ancient Greece, Berkeley–Los Angeles–London.</bibl>
+                    <bibl>Graf, F. (1985): Nordionische Kulte. Religionsgeschichtliche und epigraphische Untersuchungen zu den Kulten von Chios, Erythai, Klazomenai und Phokaia, Zürich.</bibl>
+                    <bibl>Graf, F. (2012): One generation after Burkert and Girard: where are the great theories?, [in:] Faraone, Naiden (2012): 32–51.</bibl>
+                    <bibl>Griffith, J.C. (1975): Ληκύθιον ἀποώλεσεν: A Postscript, [w:] Newiger (1975): 380–382.</bibl>
+                    <bibl>Habash, M. (1995): Two Complementary Festivals in Aristophanes’ Acharnians, AJPh 116.4: 559–577.</bibl>
+                    <bibl>Halliwell, S. (1991): Comic Satire and the Freedom of Speech in Classical Athens, JHS 111: 48–70.</bibl>
+                    <bibl>Handeley, E.W. (ed.) (1965): The Dyskolos of Menander, London.</bibl>
+                    <bibl>Harrison, J.E. (1914): The Meaning of the Word τελετή, CR 28.2: 36–38.</bibl>
+                    <bibl>Healey, R.F. (1990): Eleusinian Sacrifices in the Athenian Law Code, New York.</bibl>
+                    <bibl>Henderson, J. (1987): Aristophanes. Lysistrata, Oxford.</bibl>
+                    <bibl>Henderson, J. (1991): The Maculate Muse. Obscene Language in Attic Comedy, II ed., New York–Oxford.</bibl>
+                    <bibl>Henrichs, A. (2012): Animal sacrifice in Greek tragedy: ritual, metaphor, problematizations, [in:] Faraone, Naiden (2012): 180–194.</bibl>
+                    <bibl>Hepding, H. (1913): Hieromnemones, [in:] RE 8.2: 1490–1496.</bibl>
+                    <bibl>Herwerden, H. van (1897): Αριστοφάνους Εἰρήνη, Leiden.</bibl>
+                    <bibl>Hitch, S. (2009): King of Sacrifice. Ritual and Royal Authority in the Iliad, Cambridge, Mass., London.</bibl>
+                    <bibl>Hornblower, S. (1997): Commentary on Thucydides. Vol. I, Oxford–New York.</bibl>
+                    <bibl>Hornblower, S. (2005): Commentary on Thucydides. Vol. II, Oxford–New York.</bibl>
+                    <bibl>Hornblower, S. (2008): Commentary on Thucydides. Vol. III, Oxford–New York.</bibl>
+                    <bibl>Jacquemin, A. (2008): La participation in absentia au sacrifice, [in:] V. Mehl,</bibl>
+                    <bibl>P. Brulé (ed.), La sacrifice antique. Vestiges, procédures et stratégies, Rennes: 225–234.</bibl>
+                    <bibl>Jenkins, I. (1994): The Parthenon Frieze, London.</bibl>
+                    <bibl>Jim, T.S.F. (2014): Sharing with Gods: Aparchai and Dekatai in Ancient Greece, Oxford.</bibl>
+                    <bibl>Johnston, S.I. (1989): Hecate Soteira: A Study of Hecate’s roles in the Chaldean Oracles and Related Literature, Atlanta, Ga.</bibl>
+                    <bibl>Kadletz, E. (1984): The Sacrifice of Eumaios the Pig Herder, GRBS 25: 99–105.</bibl>
+                    <bibl>Kassel R., Austin C., ed. (1983–2001): Poetae Comici Graeci, Berlin.</bibl>
+                    <bibl>Kearns, E. (1989): The Heroes of Attica, London.</bibl>
+                    <bibl>Kearns, E. (2011): Ὁ λιβανωτὸς εὐσεβὲς καὶ τὸ πόπανον: the rationale of cakes and bloodless offerings in Greek sacrifice, [in:] Pirenne-Delforge, Prescendi (2011): 89–115.</bibl>
+                    <bibl>Keuls, E. (1985): The Reign of the Phallus: Sexual Politics in Ancient Athens, New York.</bibl>
+                    <bibl>Kidd, S. (2012): The Meaning of bōmolokhos in Classical Attic, TAPhA 142: 239–255. Kirchner, I. (1901): Prosopographia Attica, Berlin.</bibl>
+                    <bibl>Kock, Th., ed. (1880–1888): Comicorum Atticorum Fragmenta, Leipzig.</bibl>
+                    <bibl>Köster, A. (1909): Das Pelargikon; Untersuchungen zur ältsten Befestigung der Akropolis von Athen, Strassburg.</bibl>
+                    <bibl>Lacam, J.-C. (2008): Le sacrifice du chien dans led communautés greques, étrusques, italiques et romaines. Approche comparatiste, MEFRA 120.1: 29–80.</bibl>
+                    <bibl>Lambert, S. (2002): The Sacrificial Calendar of Athens, ABSA 97: 353–399.</bibl>
+                    <bibl>Lambert, S.D. (1993): The Phratries of Attica, Michigan.</bibl>
+                    <bibl>Le Guen-Pollet, B. (1991): Espace sacrificiel et corps des bêtes immolées, [in:] R. Étienne, M.T. Le Dinahet (ed.), L’espace Sacrificiel dans les civilisations méditerranéennes de l’antiquité, Paris: 13–23.</bibl>
+                    <bibl>Lefkovtitz, M. (1996): Women in the Panathenaic and other festivals, [in:] J. Neils (ed.), Worshipping Athena: Panathenaia and Parthenon, Madison, Wis.: 78–91.</bibl>
+                    <bibl>Leeuwen, J.F. van, ed. (1902): Aristophanis Aves, Leiden.</bibl>
+                    <bibl>Leeuwen, J.F. van, ed. (1904): Aristophanis Plutus, Leiden.</bibl>
+                    <bibl>Leutsch, E.L., Schneidewin, F.G., ed. (1839–1851): Paroemiographi Graeci, Göttingen.</bibl>
+                    <bibl>Lewis, D.M. (1955): Notes on Attic inscriptions (2). 23. Who was Lysistrata?, ABSA 50: 1–12.</bibl>
+                    <bibl>Lincoln, B. (2012): From Bergaigne to Meuli. How animal sacrifice become a hot topic, [in:] Faraone, Naiden (2012): 13–31.</bibl>
+                    <bibl>Loraux, N. (1978): Sur la race des femmes et quelques-unes de ses tribus, „Arethusa” 11: 43–87.</bibl>
+                    <bibl>Lowe, J.C.B. (1967): Some Questions of Attribution in Aristophanes, „Hermes” 95: 53–71.</bibl>
+                    <bibl>Marianetti, M.C. (1992): Religion and Politics in Aristophanes’ Clouds, Hildesheim–Zürich–New York.</bibl>
+                    <bibl>Maurizio, L. (1998): The Panathenaic Procession: Athen’s Participatory Democracy on Display?, [in:] D. Boedeker, K.A. Raaflaub (ed.), Democracy, Empire, and the Arts in Fifth-Century Athens, Cambridge Mass.–London: 297–317.</bibl>
+                    <bibl>Mauss, M. (1925): Essai sur le don, forme archaïque de l’échange, Paris.</bibl>
+                    <bibl>Mauss, M., Hubert, H. (1899): Essai sur la nature et fonction du sacrifice, „Année sociologique” 2: 29–138.</bibl>
+                    <bibl>McInerney, J. (2010): The Cattle of the Sun: Cows and Culture in the World of the Ancient Greeks, Princeton, N.J.</bibl>
+                    <bibl>Meineke, A. (1867): Analecta critica ad Athenaei Deipnosophistas, Leipzig.</bibl>
+                    <bibl>Meuli, K. (1946): Griechische Opferbräuche, [in:] O. Gigon, K. Meuli, W. Theiler, F. Wehrli, B. Wyss, Phyllobolia: für Peter von der Mühll zum 60. Geburtstag am 1. August 1945, Basel: 185–288.</bibl>
+                    <bibl>Moulinier, L. (1952): Le pur et l’impur dans la pensée des Greques d’Homère a Aristote, Paris.</bibl>
+                    <bibl>Mylonas, G.E. (1961): Eleusis and the Eleusinian Mysteries, Princeton, N.J.</bibl>
+                    <bibl>Naiden, F.S. (2006): Ancient Supplication, New York.</bibl>
+                    <bibl>Naiden, F.S. (2007): The fallacy of the willing victim, JHS 127: 61–73.</bibl>
+                    <bibl>Naiden, F.S. (2012): Smoke Signals for the Gods: Ancient Greek Sacrifice from the Archaic through Roman Periods, Oxford.</bibl>
+                    <bibl>Neil, R., ed. (1966): Aristophanes. Equites, Hildesheim.</bibl>
+                    <bibl>Neils, J. (2001): The Parthenon Frieze, Cambridge.</bibl>
+                    <bibl>Newiger, H.J. (ed.) (1975): Aristophanes und die alte Komödie, Darmstadt.</bibl>
+                    <bibl>Newman, W.A. (1887): The Politics of Aristotle, Oxford.</bibl>
+                    <bibl>Nilsson, M.P. (1940): Greek Popular Religion, New York.</bibl>
+                    <bibl>Nilsson, M.P. (1941): Geschichte der Griechischen Religion. Band I: Die Religion Griechenlands bis auf die griechischen Weltherrschaft, München.</bibl>
+                    <bibl>O’Neill Jr., E. (1938): The Complete Greek Drama. Vol. 2. Aristophanes. Birds, New York.</bibl>
+                    <bibl>Olson, D.S., ed. (1989): Aristophanes’ Plutus, Bryn Mawr, Pennsylvania.</bibl>
+                    <bibl>Olson, D.S., ed. (1998): Aristophanes. Peace, Oxford.</bibl>
+                    <bibl>Olson, D.S., ed. (2002): Aristophanes. Acharnenses, Oxford.</bibl>
+                    <bibl>Olson, S.D. (2007): Broken Laughter: Select Fragments of Greek Comedy, Oxford–New York.</bibl>
+                    <bibl>Olson, S.D. (2016): Eupolis. Heliotes-Chrysoun Genos (frr. 147-325), Heidelberg.</bibl>
+                    <bibl>Osborne, R. (1993): Women and Sacrifice in Classical Greece, CQ 43.2: 392–405.</bibl>
+                    <bibl>Papazarkadas, N. (2011): Sacred and Public Land in Ancient Athens, Oxford.</bibl>
+                    <bibl>Parke, H.W. (1977): Festivals of the Athenians, London.</bibl>
+                    <bibl>Parker, R. (1983): Miasma. Pollution and Purification in Early Greek Religion, Oxford.</bibl>
+                    <bibl>Parker, R. (1996): Athenian Religion: A History, Oxford–New York.</bibl>
+                    <bibl>Parker, R. (1998): Pleasing Thighs: Reciprocity in Greek Religion, [in:] Gill, Postlethwaite, Seaford (1998): 105–125.</bibl>
+                    <bibl>Parker, R. (2005): Polytheism and Society at Athens, Oxford.</bibl>
+                    <bibl>Parker, R. (2010): Eating Unsacrificed Meat, [in:] P. Carlier, C. Lerouge-Cohen (ed.), Paysage et religion en Grèce antique, Paris: 139–147.</bibl>
+                    <bibl>Parker, R. (2011): On Greek Religion, Ithaca–London.</bibl>
+                    <bibl>Patera, I. (2012): Offrir en Grèce ancienne. Gestes et contextes, Stuttgart.</bibl>
+                    <bibl>Paton, W.R., Hicks, E.L. (1891): The Inscriptions of Cos, Oxford.</bibl>
+                    <bibl>Petropoulou, A. (1987): The Sacrifice of Eumaeus Reconsidered, GRBS 28: 135–149.</bibl>
+                    <bibl>Pickard-Cambridge, A. (1968): The Dramatic Festivals of Athens. II ed. rev. by J.Gould, D.M. Lewis, Oxford.</bibl>
+                    <bibl>Pieters, J.Th.M. (1946): Cratinus, Bijdrage tot de Geschiednis der vroeg-Attische Comedie, Leiden.</bibl>
+                    <bibl>Pirenne-Delforge, V. (2010): Greek priests and “cult statues”: in how far are they necessary?, [in:] J. Mylonopoulos (ed.), Divine Images and Human Imaginations in Ancient Greece and Rome, Leiden: 121–141.</bibl>
+                    <bibl>Pirenne-Delforge, V., Prescendi, F., (ed.) (2011): «Nourrir les dieux?» : sacrifice et représentation du divin, Liège.</bibl>
+                    <bibl>Pirrotta, S. (2016): Plato Comicus. Die fragmentarischen Komödien, Berlin.</bibl>
+                    <bibl>Platnauer, M., ed. (1964): Aristophanes. Peace. Edited with Introduction and Commentary, Oxford.</bibl>
+                    <bibl>Polanyi, K. (1944): The Great Transformation, New York.</bibl>
+                    <bibl>Pope, S., Schultz, P. (2014): The Chryselephantine Doors of the Pantheon, AJA 118.1: 19–31.</bibl>
+                    <bibl>Prescendi, F. (2009): Prométhée fonde-t-il le sacrifice grec? En relisant Jean Rudhardt, [in:] U. Dill, C. Walde (ed.), Antike Mythen. Medien, Transformationen und Konstruktionen, Berlin–New York: 81–95.</bibl>
+                    <bibl>Price, Th.H. (1978): Kourotrophos: Cults and Representations of the Greek Nursing Deities, Leiden.</bibl>
+                    <bibl>Pulleyn, S. (1997): Prayer in Greek Religion, Oxford.</bibl>
+                    <bibl>Puttkammer, F. (1912): Quo modo Graeci victimarum carnes distribuerint, Königsberg.</bibl>
+                    <bibl>Radt, S., ed. (1977): Tragicorum Graecorum Fragmenta. Vol. IV: Sophocles, Göttingen.</bibl>
+                    <bibl>Reden, S. von (1998): The Commodification of Symbols: Reciprocity and its Perversions, [in:] Gill, Postlethwaite, Seaford (1998): 255–278.</bibl>
+                    <bibl>Redfield, J. (2012): Animal sacrifice in comedy: an alternative point of view, [in:] Faraone, Naiden (2012): 167–179.</bibl>
+                    <bibl>Rehm, R. (1988): The Staging of the Suppliant Plays, GRBS 29.3: 263–307.</bibl>
+                    <bibl>Rizza, G. (1959–60): Una nuova pelike a figure rosse e lo ‘spanchoptes’ di Stypax, ASAtene 21–22: 321–345.</bibl>
+                    <bibl>Robertson Smith, W. (1927): Lectures on the Religion of the Semites. The Fundamental Institutions, III ed., New York–London.</bibl>
+                    <bibl>Rogers, B.B., ed. (1906): The Birds of Aristophanes. Acted at Athens at the Great Dionysia B.C. 414, London.</bibl>
+                    <bibl>Rogers, B.B., ed. (1911): The Lysistrata of Aristophanes, London.</bibl>
+                    <bibl>Roscher, W.H. (1884–1937): Ausführliches Lexikon der griechischen und römischen Mythologie, Leipzig.</bibl>
+                    <bibl>Rosivach, V.J. (1987): The Cult of Zeus Eleutherios at Athens, PP 42: 262–285.</bibl>
+                    <bibl>Rosivach, V.J. (1994): The System of Public Sacrifice in Fourth-Century Athens, Atlanta.</bibl>
+                    <bibl>Rotroff, S.I. (1977): The Parthenon Frieze and the Sacrifice to Athena, AJA 81: 379–382.</bibl>
+                    <bibl>Roy, J. (2007): The Consumption of Dog-Meat in Classical Greece, [in:] Ch. Mee, J. Renard (ed.), Cooking up the Past: Food and Culinary Practices in the Neolithic and Bronze Age Aegean, Oxford: 342–353.</bibl>
+                    <bibl>Rudhardt, J. (1958): Notions fondamentales de la pensée religieuse et actes constitutifs du culte dans la Grèce classique. Etude preliminaire pour aider a la comprehension de la piete athenienne au IVme siecle, Genève.</bibl>
+                    <bibl>Rudhardt, J. (1970): Les mythes grecs relatif à l'instauration du sacrifice: les rôles coorrélaifs de Prométhée et son fils Deucalion, MH 27: 1–15.</bibl>
+                    <bibl>Rutherford, W.G., ed. (1896): Scholia Aristophanica, London.</bibl>
+                    <bibl>Scarpi, P. (2002): Le religioni dei misteri. Vol. I: Eleusi, dionisismo, orfismo, Forlì.</bibl>
+                    <bibl>Schachter, A. (1981): Cults of Boeotia, London.</bibl>
+                    <bibl>Schoemann, G.F. (1863): Griechische Alterthümer. Vol. II: Die internationalen Verhältnisse und das Religionswesen, II ed., Berlin.</bibl>
+                    <bibl>Schuddeboom, F.L. (2013): Greek Religious Terminology – Telete &amp; Orgia, Leiden–Boston.</bibl>
+                    <bibl>Scullion, S. (1994): Olympian and Chthonian, CA 13.1: 75–119.</bibl>
+                    <bibl>Scullion, S. (2013): Bones in Greek sanctuaries: answers and questions, [in:] Ekroth, Wallenstein (2013): 243–255.</bibl>
+                    <bibl>Seaford, R. (1994): Reciprocity and Ritual. Homer and Tragedy in the Developing City-State, Oxford.</bibl>
+                    <bibl>Seaford, R. (2004): Money and the Early Greek Mind. Homer, Philosophy, Tragedy, Cambridge.</bibl>
+                    <bibl>Seager, R. (1981): Notes on Aristophanes, CQ 3.1: 244–251.</bibl>
+                    <bibl>Serafini, N. (2015): La dea Ecate nell’antica Grecia: una protettrice dalla quale proteggersi, Ariccia.</bibl>
+                    <bibl>Sharpley, H. (1905): The Peace of Aristophanes, Edinburgh.</bibl>
+                    <bibl>Shear, J.L. (2001): Polis and Panathenaia: the history and development of Athena’s festival, Ann Arbor.</bibl>
+                    <bibl>Simms, R.M. (2003): Agra and Agrai, GRBS 43.3: 219–229.</bibl>
+                    <bibl>Simon, E. (1983): Festivals of Attica: an Archaeological Commentary, Madison, Wis.</bibl>
+                    <bibl>Śmiechowicz, O. (2015): Arystofanes, Warszawa.</bibl>
+                    <bibl>Sommerstein, A.H., ed. (1980): The Comedies of Aristophanes. Vol 1. Acharnians, Warminster.</bibl>
+                    <bibl>Sommerstein, A.H., ed. (1981): The Comedies of Aristophanes. Vol 2. Knights, Warminster.</bibl>
+                    <bibl>Sommerstein, A.H., ed. (1982): The Comedies of Aristophanes. Vol. 3. Clouds, Warminster.</bibl>
+                    <bibl>Sommerstein, A.H., ed. (1983): The Comedies of Aristophanes. Vol 4. Wasps, Warminster.</bibl>
+                    <bibl>Sommerstein, A.H., ed. (1985): The Comedies of Aristophaes. Vol. 5. Peace, Warminster.</bibl>
+                    <bibl>Sommerstein, A.H., ed. (1987): The Comedies of Aristophanes. Vol 6. Birds, Warminster.</bibl>
+                    <bibl>Sommerstein, A.H., ed. (1990): The Comedies of Aristophanes. Vol 7. Lysistrata, Warminster.</bibl>
+                    <bibl>Sommerstein, A.H., ed. (1994): The Comedies of Aristophanes. Vol 8. Thesmophoriazusae, Warminster.</bibl>
+                    <bibl>Sommerstein, A.H., ed. (1996): The Comedies of Aristophanes. Vol. 9. Frogs, Warminster.</bibl>
+                    <bibl>Sommerstein, A.H., ed. (1998): The Comedies of Aristophanes. Vol 10. Ecclesiazusae, Warminster.</bibl>
+                    <bibl>Sommerstein, A.H., ed. (2001): The Comedies of Aristophanes. Vol 11. Wealth, Warminster.</bibl>
+                    <bibl>Sommerstein, A.H., Bayliss, A.J. (2013): Oath and State in Ancient Greece, Berlin–Boston.</bibl>
+                    <bibl>Sommerstein, A.H., Torrance, I.C. (2014): Oaths and Swearing in Ancient Greece, Berlin–Boston.</bibl>
+                    <bibl>Sourvinou-Inwood, C. (2003): Tragedy and Athenian Religion, Lanham–Boulder–New York–Oxford.</bibl>
+                    <bibl>Stählin, F. (1934): Thermopylen, [in:] RE 2.5: 2398–2423.</bibl>
+                    <bibl>Starkie, W.J.M. (1966): The Clouds of Aristophanes, Amsterdam.</bibl>
+                    <bibl>Stengel, P. (1910): Opferbräuche der Griechen, Berlin.</bibl>
+                    <bibl>Stengel, P. (1920): Die griechischen Kultusaltertümer, München.</bibl>
+                    <bibl>Stillwell, R. (1933): Architectural Studies, „Hesperia” 2.2: 110–148.</bibl>
+                    <bibl>Storey, I.C. (2003): Eupolis. Poet of Old Comedy, Oxford.</bibl>
+                    <bibl>Straten, F. van (1995): Hiera kala. Images of Animal Sacrifice in Archaic and Classical Greece, Leiden.</bibl>
+                    <bibl>Svenbro, J. (2005): La thusia et le partage. Remarques sur la «destruction» par le feu dans le sacrifice grec, [in:] Georgoudi, Koch Piettre, Schmidt (2005): 217–225.</bibl>
+                    <bibl>Taplin, O. (1993): Comic Angels and Other Approaches to Greek Drama through Vase-Painting, Oxford.</bibl>
+                    <bibl>Telò, M. (2007): Eupolidis Demi, Firenze.</bibl>
+                    <bibl>Thompson, A.W. d’ (1895): A glossary of Greek Birds, London–New York.</bibl>
+                    <bibl>Thompson, H.A. (1952): Excavations in the Athenian Agora, „Hesperia” 21.2: 83–113.</bibl>
+                    <bibl>Trzcionkowski, L. (2013): Bios – Thanatos – Bios. Semiofory orfickie z Olbii i kultura polis, Warszawa.</bibl>
+                    <bibl>Tsoukala, V. (2009): Honorary Shares of Sacrificial Meat in Attic Vase Painting: Visual Signs of Distinction and Civic Identity, „Hesperia” 78.1: 1–40.</bibl>
+                    <bibl>Ussher, R.G., ed. (1973): Aristophanes. Ecclesiazusae. Edited with Introduction and Commentary, Oxford.</bibl>
+                    <bibl>Vergados, A. (2013): The Homeric Hymn to Hermes. Introduction, Text and Commentary. Berlin–Boston.</bibl>
+                    <bibl>Vernant, J.-P. (1963): Hestia-Hermès. Sur l'expression religieuse de l’ espace et du mouvement chez les Grecs, „L’Homme” 3.3: 12–50.</bibl>
+                    <bibl>Vernant, J.-P. (1979): A la table des hommes. Mythe de fondation du sacrifice chez Hésiode, [in:] Detienne, Vernant 1979: 37–132.</bibl>
+                    <bibl>Versnel, H.S. (2011): Coping with Gods. Wayward Readings in Greek Theology, Leiden.</bibl>
+                    <bibl>Vidal-Naquet, P. (1972): Chasse et sacrifice dans l’Orestie d’Eschyle, [in:] J.-P. Vernant, P. Vidal-Naquet (ed.), Mythe et tragédie en Grèce ancienne, Paris: 133–158.</bibl>
+                    <bibl>Wankel, H. (1976): Demosthenes. Rede für Ktesiphon über den Kranz, Heidelberg.</bibl>
+                    <bibl>Węcowski, M. (2014): The Rise of the Greek Aristocratic Banquet, Oxford.</bibl>
+                    <bibl>Wentzel, G. (1894): Agrotera, [in:] RE 1: 906–907.</bibl>
+                    <bibl>West, M.L., ed. (1966): Hesiod. Theogony. Edited with Prolegomena and Commentary, Oxford.</bibl>
+                    <bibl>West, M.L., ed. (1978): Hesiod. Works and Days. Edited with Prolegomena and Commentary, Oxford.</bibl>
+                    <bibl>Whitehead, D. (1986): The Demes of Attica, 508/7 – ca. 250 B.C.: A Political and Social Study, Princeton, N.J.</bibl>
+                    <bibl>Whitman, C.H. (1975): Ληκύθιον ἀπώλεσεν, [in:] Newiger (1975): 376–379.</bibl>
+                    <bibl>Wieseler, F. (1843): Adversaria in Aeschyli Prometheum et Aristophanis Aves, Göttingen.</bibl>
+                    <bibl>Wilamowitz-Moellendorf, U. von (1935): Kleine Schriften, Berlin.</bibl>
+                    <bibl>Winand, L. (1990): Les Hierothytes. Recherche institutionelle. Bruxelles.</bibl>
+                    <bibl>Winkler, J.J. (1990): The Ephebes’ Song: Tragōidia and Polis, [in:] J.J. Winkler, F.I. Zeitlin (ed.), Nothing to Do with Dionysos?, Princeton, N.J.: 20–62.</bibl>
+                    <bibl>Woodhead, A.G. (1954): Peisander, AJPh 75.2: 131–146.</bibl>
+                    <bibl>Zanetto, G., del Corno, D., ed. (1987): Aristofane. Gli Uccelli, Vicenza.</bibl>
+                    <bibl>Zeitlin, F.I. (1996): Playing the Other: Gender and Society in Classical Greek Literature, Chicago.</bibl>
+                    <bibl>Ziehen, L. (1904): Die Bedeutung von προθύειν, RhM 59: 391–406.</bibl>
+                    <bibl>Zografou, A. (2010): Chemins d’Hécate. Portes, routes, carrefours et autres figures de l’entre-deux, Liège.</bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

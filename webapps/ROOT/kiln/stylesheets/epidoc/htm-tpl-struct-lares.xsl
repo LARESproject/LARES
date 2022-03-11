@@ -132,10 +132,17 @@
     </xsl:if>
     
     <div id="bibliography">
-      <xsl:if test="//t:div[@type = 'bibliography']/t:p/node()"><p>
-        <b><i18n:text i18n:key="epidoc-xslt-lares-bibliography">Bibliography</i18n:text>: </b>
-        <xsl:apply-templates select="//t:div[@type = 'bibliography']/t:p"/>
-      </p></xsl:if>
+      <xsl:if test="//t:div[@type = 'bibliography']/t:p/node()">
+        <p>
+          <b><i18n:text i18n:key="epidoc-xslt-lares-bibliography">Bibliography</i18n:text>: </b>
+          <xsl:apply-templates select="//t:div[@type = 'bibliography']/t:p"/>
+        </p>
+      </xsl:if>
+      <xsl:if test="//t:div[@type = 'bibliography']//t:listBibl//t:bibl/node()">
+        <xsl:for-each select="//t:div[@type = 'bibliography']//t:listBibl//t:bibl">
+          <p><xsl:apply-templates select="."/></p>
+        </xsl:for-each>
+      </xsl:if>
     </div>
 
     <xsl:if test="//t:div[@type = 'commentary']/t:p/node()">

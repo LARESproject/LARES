@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Bibliografia</title>
+                <title xml:lang="en">Bibliography</title>
+                <title xml:lang="pl">Bibliografia</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_43_bibliography</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Bibliografia</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 287-295</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-03-11" who="Irene Vagionakis">encoded in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>Arend, W. (1933): Die Typischen Scenen bei Homer, Berlin.</bibl>
+                    <bibl>Anhalt, E.K. (1997): A Bull for Poseidon: The Bull’s Bellow in Odyssey 21.46–50, CQ 47: 15–25.</bibl>
+                    <bibl>Aubriot-Sévin, D. (1991): Formulations possibles du serment et conceptions religieuses en Grèce ancienne, „Kernos” 4: 91–103.</bibl>
+                    <bibl>Aubriot-Sévin, D. (1992), Prière et conceptions religieuses en Grèce ancienne jusqu’à la fin du Ve siècle av. J.-C., Lyon–Paris.</bibl>
+                    <bibl>Ausfeld, C. (1903): De Graecorum precationibus quaestiones, Jahrb. f. cl. Phil. Suppl. 28: 505–547.</bibl>
+                    <bibl>Bachvarova, M.R. (2016): From Hittite to Homer. The Anatolian Background of Ancient Greek Epic, Cambridge.</bibl>
+                    <bibl>Bakker, E. (1997): The Study of Homeric Discourse, [in:] I. Morris, B. Powell (ed.), A New Companion to Homer, Leiden–New York–Köln: 284–304.</bibl>
+                    <bibl>Bednarek, B. (2017): Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. Stara komedia attycka, Warszawa.</bibl>
+                    <bibl>Bergold, W. (1977): Der Zweikampf des Paris und Menelaos, Bonn.</bibl>
+                    <bibl>Berthiaume, G. (2005): Les rôles du Mageiros. Étude sur la boucherie, la cuisine et le sacrifice dans la Grèce ancienne, Leiden.</bibl>
+                    <bibl>Bowie, A.M., ed. (2013): Homer. Odyssey. Books XIII and XIV, Cambridge.</bibl>
+                    <bibl>Boyer, P. (b.r.w): I człowiek stworzył bogów… Jak powstała religia?, tłum. K. Szeżyńska-Maćkowiak, Warszawa.</bibl>
+                    <bibl>Bremmer, J.N. (1983): Early Greek Concept of the Soul, Berkeley.</bibl>
+                    <bibl>Bremmer, J.N. (1993): Prophets, Seers, and Politics in Greece, Israel, and Early Modern Europe, „Numen” 40: 150–183.</bibl>
+                    <bibl>Broccia G. (1963): Struttura e spirito del libro VI dell’Iliade. Contributo allo studio del problema omerico. Parte prima: dalle androctasie del preludio alla homilia, Sapri 1963. (non vidi)</bibl>
+                    <bibl>Burgess, J. (2017): The Tale of Meleager in the Iliad, „Oral Tradition” 31: 51–76.</bibl>
+                    <bibl>Burkert, W. (1972): Homo Necans. Interpretationen altgriechischer Opferriten und Mythen, Berlin–New York.</bibl>
+                    <bibl>Burkert, W. (1985): Greek Religion. Archaic and Classical, transl. J. Raffan, Cambridge Mass.</bibl>
+                    <bibl>Burkert, W. (1996): Greek Temple-builders: Who, Where and Why? [in:] P. Hellström, B. Alroth (ed.), Religion and Power in the Ancient Greek World. Proceedings of the Uppsala Symposium 1993, Uppsala: 21–29.</bibl>
+                    <bibl>Burkert, W. (1997): From epiphany to cult statue: early Greek theos, [in:] A.B. Lloyd (ed.), What is a God? Studies in the Nature of Greek Divinity, London: 15–34.</bibl>
+                    <bibl>Burkert, W. (1998): Orientalizing Revolution. Near Eastern Influence on Greek Culture in the Early Archaic Age, Cambridge Mass.</bibl>
+                    <bibl>Burkert, W. (2011 [1991]): Antropomorfizm Homera: narracja i obrzęd, [w:] W. Lengauer, L. Trzcionkowski (red.), Antropologia antyku greckiego. Zagadnienia i wybór tekstów, Warszawa: 250–267 [oryg. Burkert W. (1991): Homer’s Anthropomorphism: Narrative and Ritual, in: B. Buitron-Oliver (ed.), New Perspectives in Early Greek Art, Washington: 81–91].</bibl>
+                    <bibl>Casabona, J. (1966): Recherches sur le vocabulaire des sacrifices en grec des origines à la fin de l’époque classique, Aix-en-Provence.</bibl>
+                    <bibl>Casevitz, M. (1992): Mantis: le vrai sens, Rev. Ét. Grec. 105: 1–18.</bibl>
+                    <bibl>Chaniotis A. (2008): Priests and Experts in the Greek World, [in:] B. Dignas, K. Trampedach (ed.), Practitioners of the Divine. Greek Priests and Religious Officials from Homer to Heliodorus, Cambridge Mass.: 17–34.</bibl>
+                    <bibl>Chapot, F., Laurot, B. (2001): Corpus de prières grecques et romaines (textes réunis, traduits et commentés), Turnhout.</bibl>
+                    <bibl>Citron, A. (1965): Semantische Untersuchungen zu σπένδεσθαι – σπένδειν – εὔχεσθαι, Winterthur.</bibl>
+                    <bibl>Clark, M. (2004): Formulas, Metre and Type-Scenes, [in:] R. Fowler (ed.), The Cambridge Companion to Homer, Cambridge: 117–138.</bibl>
+                    <bibl>Cohen, H. (1980): Horkia and horkos in the Iliad, RIDA 27: 49–80.</bibl>
+                    <bibl>Cole, S.G. (1996): Oath Ritual and the Male Community at Athens, [in:] J. Ober, C. Hedrick (ed.), Demokratia: a Conversation on Democracies, Ancient and Modern, Princeton: 227–248.</bibl>
+                    <bibl>Collinge, N.R. (1957): Mycaenian ΔΙ-ΡA and ΔEΠAΣ, BICS 4: 55–59.</bibl>
+                    <bibl>Cook A.B., Zeus. A Study in Ancient Religion, vol. 2. Zeus God of the Dark Sky (Thunder and Lightning), Cambridge 1925, s. 1042-1043</bibl>
+                    <bibl>Coray, M., ed. (2016): Homer’s Iliad the Basel Commentary. Book XIX, transl. S. Strack, Boston–Berlin.</bibl>
+                    <bibl>Corlu, A. (1966): Recherches sur les mots relatifs à l’idée de prière, d’Homère aux Tragiques, Paris.</bibl>
+                    <bibl>Detienne, M. (1977): Dionysos mis à mort, Paris.</bibl>
+                    <bibl>Dickson, K.M. (1995): Nestor: Poetic Memory in Greek Epic, New York–London.</bibl>
+                    <bibl>Dietrich 1965, 195</bibl>
+                    <bibl>Durand, J.-L. (1979): Bêtes grecques. Propositions pour un topologique des corps à manger, [in:] M. Detienne, J.-P. Vernant (ed.), La cuisine du sacrifice en pays grec, Paris: 133–165.</bibl>
+                    <bibl>Edwards, M. (1997): Homeric Style and “Oral Poetics”, [in:] Morris, Powell (1997): 261–283.</bibl>
+                    <bibl>Edwards, M.W. (1991): The Iliad: A Commentary. Volume V: books 17-20, Cambridge.</bibl>
+                    <bibl>Ekroth, G. (2002): The Sacrificial Rituals of Greek Hero–Cults, Liège.</bibl>
+                    <bibl>Ekroth, G. (2008): Burnt, cooked or raw? Divine and human culinary desires at Greek animal sacrifice, [in:] E. Stavrianopoulou, A. Michaels, C. Ambos (ed.), Transformations in Sacrificial Practices. From Antiquity to Modern Times, Berlin: 87–111.</bibl>
+                    <bibl>Erbse, H. (1972): Beiträge zum Verständniss der Odyssee, Berlin.</bibl>
+                    <bibl>Espermann, I. (1980): Antenor, Theano, Antenoriden. Ihre Person und Bedeutung in der Ilias, Meisenheim am Glan.</bibl>
+                    <bibl>Faraone, Ch.A. (1993): Molten Wax, Spilt Wine and Mutilated Animals: Sympathetic Magic in near Eastern and Early Greek Oath Ceremonies, JHS 113: 60–80.</bibl>
+                    <bibl>Faraone, C.A. (2005): Curses and Blessings in Ancient Greek Oaths, „Journal of Near Eastern Religions” 5: 139–156.</bibl>
+                    <bibl>Fehling, D. (1969): Die Wiederhalungsfiguren un ihr Gebrauch bei den Griechen vor Gorgias, Berlin.</bibl>
+                    <bibl>Fernández-Galiano M., Heubeck A., ed. (1986): Omero, Odissea, volume VI (Libri XXI-XXIV), transl. G.A. Privitera, Milano.</bibl>
+                    <bibl>Finkelberg, M. (1995): Patterns of human errors in Homer, JHS 115: 15–28.</bibl>
+                    <bibl>Fränkel, H. (1960): Wege und Formen frühgriechischen Denkens, München.</bibl>
+                    <bibl>Georgoudi, S. (2005): L’occultation de la violence dans le sacrifice grec, [in:] S. Georgoudi, R.K. Piettre, F. Schmidt (ed.), La cuisine et l’autel. Les sacrifices en questions dans les sociétés dans les sociétés de la Méditerranée ancienne, Turnhout: 115–141.</bibl>
+                    <bibl>Gérard-Rousseau, M. (1968): Les mentions religieuses dans les tablettes mycéniennes, Roma.</bibl>
+                    <bibl>Ginouvès, P. (1968): Balaneutikē. Recherches sur le bain dans l’Antiquité grecque, Paris.</bibl>
+                    <bibl>Graf, F. (1980): Milch, Honig und Wein. Zum Verständnis der Libation im griechischen Ritual, [in:] Perennitas. Studi in onore di Angelo Brelich. Promossi della Cattedra di religioni del mondo classico dell’Università degli studi di Roma, Roma.</bibl>
+                    <bibl>Graf, F. (2002): What is New about Greek Sacrifice?, [in:] H.F.J. Horstmanshoff, H.W. Singor, F.T. van Straten (ed.), Kykeon: Studies in Honour of H.S. Versnel, Leiden: 113–125.</bibl>
+                    <bibl>Graf, F. (2005): Eid, [in:] Thesaurus Cultus et Rituum Antiquorum, vol. III.6, Los Angeles: 237–246.</bibl>
+                    <bibl>Gray, D.H. (1954): Metal Working in Homer, JHS 74: 1–15.</bibl>
+                    <bibl>Greene, E.S. (1995): The Critical Element in the Embarkation Scenes of the Odyssey, GRBS 36: 217–230.</bibl>
+                    <bibl>Griffin, J. (1980): Homer on Life and Death, Oxford.</bibl>
+                    <bibl>Hainsworth, J.B. (1993): The Iliad: A Commentary. Volume III: books 9–12, Cambridge.</bibl>
+                    <bibl>Hainsworth, J.B., ed. (1991), Omero, Odissea, volume II (Libri V–VIII), transl. G.A. Privitera, Milano.</bibl>
+                    <bibl>Haubold, J. (2000): Homer’s People. Epic Poetry and Social Formation, Cambridge.</bibl>
+                    <bibl>Heubeck, A., ed. (1983): Omero, Odissea, volume III (Libri IX–XII), transl. G.A. Privitera, Milano.</bibl>
+                    <bibl>Hirzel, R. (1902): Der Eid. Ein Beitrag zu seiner Geschichte, Leipzig.</bibl>
+                    <bibl>Hoekstra, A. (1965): Homeric Modifications of Formulaic Prototypes, Amsterdam.</bibl>
+                    <bibl>Hoekstra, A., ed. (1993): Omero, Odissea, volume IV (Libri XIII–XVI), transl. G.A. Privitera, Milano.</bibl>
+                    <bibl>Immerwahr, H. (1992): New Wine in Ancient Wineskins. Evidence from Attic Vases, Hesp. 61: 121–132.</bibl>
+                    <bibl>Janko, R., ed. (1992): The Iliad: A Commentary. Volume IV: Books 13-16, Cambridge.</bibl>
+                    <bibl>Jones, D.M. (1954): Ethical Themes in the Plot of the Odyssey, London.</bibl>
+                    <bibl>Jong, I. de (1997): Homer and Narratology, [in:] Morris, Powell (1997): 305–325.</bibl>
+                    <bibl>Jong, I. de (2004), A Narratological Commentary on the Odyssey, Cambridge.</bibl>
+                    <bibl>Jörgensen, O. (1904): Das Auftreten des Goetter in den Büchern ι–μ der Odysee, Hermes 39: 357–382.</bibl>
+                    <bibl>Kadletz, E. (1984): The Sacrifice of Eumaios the Pig Herder, GRBS 25: 99–105.</bibl>
+                    <bibl>Karavites, P., Wren, T.E. (1992): Promise-Giving and Treaty-Making: Homer and the Near East, New York–Leiden.</bibl>
+                    <bibl>Kaufman, M.S. (1979): Prophecy in Archaic Greek Epic, (PhD Diss.).</bibl>
+                    <bibl>Kirk, G.S. (1978): The Formal Duels in Books 3 and 7 of the Iliad, [in:] B.C. Fenik (ed.), Homer. Tradition and Invention, Leiden: 18–40.</bibl>
+                    <bibl>Kirk, G.S. (1980): Some Methodological Pitfalls in the Study of Ancient Greek Sacrifice (in particular), [in:] J. Rudhardt, O. Reverdin (ed.), Le sacrifice dans l’Antiquité, Genève: 41–80.</bibl>
+                    <bibl>Kirk, G.S. (1985): The Iliad: A Commentary. Volume I: Books 1–4, Cambridge.</bibl>
+                    <bibl>Kirk, G.S. (1990): The Iliad: A Commentary. Volume II: Books 5–8, Cambridge.</bibl>
+                    <bibl>Kitts, M. (2005): Sanctified Violence in Homeric Society: Oath-making Rituals and Narratives in the Iliad, Cambridge.</bibl>
+                    <bibl>Klingenschmitt, G. (1970): Griechischen ἱλάσκεσθαι, „Münchener Studien zur Sprachwissenschaft”  28: 75–88.</bibl>
+                    <bibl>Koch, P.R. (2005): Précipitations sacrificielles en Grèce ancienne, [in:] S. Georgoudi, R. Koch Piettre, F. Schmidt (ed.), La cuisine et l’autel: Les sacrifices en questions dans les sociétés de la Méditerranée ancienne, Turnhout: 70–100.</bibl>
+                    <bibl>Lamberterie, Ch. de (1978–79): Armeniaca X: une isoglosse gréco-arménienne, „Revue des Études Arméneniennes” 13: 31–39.</bibl>
+                    <bibl>Lang, M. (1989): Unreal Conditions in Homeric Narrative, GRBS 30: 5–26.</bibl>
+                    <bibl>Latacz, J. (1966): Zum Wortfeld ‘Freude’ in der Sprache Homers, Heidelberg.</bibl>
+                    <bibl>Lateiner, D. (1997): Homeric prayer, „Arethusa” 30: 241–272.</bibl>
+                    <bibl>Leitao, D.D. (2003): Adolescent Hair-Growing and Hair-Cutting Rituals in Ancient Greece, [in:] D.B. Dodd, C.A. Faraone (ed.), Initiations and Ancient Greek Rituals and Narratives, London–New York: 109–129.</bibl>
+                    <bibl>Leuman, M. (1950): Homerische Wörter, Basel.</bibl>
+                    <bibl>Loew, O. (1908) ΧΑΡΙΣ, diss. Marburg (non vidi).	</bibl>
+                    <bibl>Lord, A.B. (2010): Pieśniarz i jego opowieść, przekł. P. Majewski, Warszawa.</bibl>
+                    <bibl>Lynn-George, M. (1993): Aspects of Epic Vocabulary of Vulnerability, „Colby Quarterly” 29: 197–221.</bibl>
+                    <bibl>Mazarakis-Ainian, A. (2000): Omiros kai archaiologia, Athina.</bibl>
+                    <bibl>Mazon, P. (1937): Une formule homérique (ἐπαρξάμενοι δεπάεσσιν), [in:] Mélanges offerts à A.-M. Desrousseaux par ses amis et ses élèves en l’honneurs de sa cinquantième année d’enseignement supérieur (1887-1937), Paris: 319–325.</bibl>
+                    <bibl>Morrison, J.V. (1991): The Function and Context of Homeric Prayers: a Narrative Perspective, Hermes 119: 145–157.</bibl>
+                    <bibl>Mossman, J.M., ed. (2011): Euripides. Medea, Oxford.</bibl>
+                    <bibl>Moulinier, L. (1950): Le pur et l’impur dans la pensée et la sensibilité des Grecs jusqu’à la fin du IVème siècle av. J.C., Paris.</bibl>
+                    <bibl>Moussy, C. (1966): Grātia et sa famille, Paris.</bibl>
+                    <bibl>Muellner, L.C. (1976): The meaning of Homeric εὔχομαι through its formulas, Innsbruck.</bibl>
+                    <bibl>Nagy, B. (1979): The Naming of Athenian Girls: a Case in Point, CJ 74: 360–364.</bibl>
+                    <bibl>Nagy, G. (1999): The Best of the Achaeans. Concepts of the Hero in Archaic Greek Poetry, Baltimore.</bibl>
+                    <bibl>Naiden, F.S. (2013): The Smoke for the Gods: Ancient Greek Sacrifice from the Archaic through  Roman Periods, Oxford.</bibl>
+                    <bibl>Nenci, G. (1957–1958): La concezione del miracoloso nei poemi omerici, „Atti della Accademia delle Scienze di Torino” 92: 287–311.</bibl>
+                    <bibl>Nilsson, M.P. (1967): Geschichte der griechische Religion, Band 1. Die Religion Griechenlands bis auf die griechische Weltherrschaft, Münnich.</bibl>
+                    <bibl>O’Nolan, K. (1960): The Proteus Legend, „Hermes” 88: 129–138.</bibl>
+                    <bibl>Ogden, D. (2001): Greek and Roman Necromancy, Princeton–Oxford.</bibl>
+                    <bibl>Parker, R.C.T. (1983): Miasma. Pollution and Purification in Early Greek Religion, Oxford.</bibl>
+                    <bibl>Parker, R.C.T. (2011): On Greek Religion, Ithaca NY.</bibl>
+                    <bibl>Parry, A., ed. (1971): The Making of Homeric Verse: The Collected Papers of Milman Parry, Oxford.</bibl>
+                    <bibl>Petropoulou, A. (1987): The Sacrifice of Eumaeus Reconsidered, GRBS 28: 135–149.</bibl>
+                    <bibl>Pizzani, U. (1997): I monstra nella cultura classica, [in:] I monstra nell’Inferno dantesco: tradizione e simbologie. Atti del 33o Convegno storico internazionale. Todi. 13–16 ottobre 1996, Spoleto: 1–26.</bibl>
+                    <bibl>Pizzani, U. (2000): Qualche osservazione sulla terminologia «teratologica» in Omero, [in:] M. Cannati Fera, S. Grandolini (ed.), Poesia e religione in Grecia: studi in onore di G. Aurelio Privitera, Napoli: 526–539.</bibl>
+                    <bibl>Plass, P. (1969): Menelaus and Proteus, CJ 65.</bibl>
+                    <bibl>Plescia, J. (1970): The Oath and Perjury in Ancient Greece.</bibl>
+                    <bibl>Polignac, F. de (2009): Déposer, dresser, offrir. Vocabulaire et pratiques en Grèce ancienne, [in:] S. Bonnardin, C. Hamon, M. Lauwers (ed.), Du matériel au spirituel. Réalités archéologiques et historiques des « depot » des la Préhistoire à nos jours, Antibes: 353–361.</bibl>
+                    <bibl>Priest, J.F. (1964): Horkia in Iliad and Considerations of Recent Theory, JNES 23: 48–56.</bibl>
+                    <bibl>Pucci, P. (2012): Iterative and Syntactical Units: A Religious Gesture in the Iliad, [in:] F. Montanari et al. (ed.), Homeric Contexts. Neoanalysis and the Interpretations of Oral Poetry, Boston–Berlin: 427–443.</bibl>
+                    <bibl>Pulleyn, S. (1997): Prayer in Greek religion, Oxford.</bibl>
+                    <bibl>Pulleyn, S. (2000): Homer, Iliad. Book One, Edited with an Introduction, Translation and Commentary, Oxford.</bibl>
+                    <bibl>Pulleyn, S. (2006): Homer’s Religion. Philological Perspectives from Indo-European and Semitic, [in:] M.J. Clarke et al. (ed.), Epic Interactions. Perspectives on Homer, Virgil, and the Epic Tradition Presented to Jasper Griffin by Former Pupils, Oxford.</bibl>
+                    <bibl>Rabel, R.T. (1988): Chryses and the Opening of the Iliad, AJPhil. 109: 473–481.</bibl>
+                    <bibl>Richardson, N.J. (1974): The Homeric Hymn to Demeter, Oxford.</bibl>
+                    <bibl>Richardson, N.J., ed. (1993): The Iliad: A Commentary. Volume VI: Books 21-24, Cambridge.</bibl>
+                    <bibl>Robinson, H.S. (1984): Roof Tiles of Early Seventh Century B.C., AM 99: 55–56.</bibl>
+                    <bibl>Rollinger, R. (2004), Die Verschriftlichungvon Normen: Einflüsse und Elemente orientalischer Kulturtechnik in den homerischen Epen, dargestellt am Beispiel des Vertragswesens, [in:] R. Rollinger, C. Ulf (ed.), Griechische Archaik. Interne Entwicklungen – Externe Impulse, Berlin: 369–425.</bibl>
+                    <bibl>Roth, P. (1982): Mantis. The Nature, Function, and Status of a Greek Prophetic Type, Bryn Mawr, Pennsylvania (PhD Dissertation).</bibl>
+                    <bibl>Rothwell, K.S. (2007): Nature, Culture, and the Origins of Greek Comedy, Cambridge.</bibl>
+                    <bibl>Rudhardt, J. (1958): Notions fondamentals de la pensée religieuse et actes constitutifs du culte dans la Grèce classique, Genève.</bibl>
+                    <bibl>Russo, J., ed. (1991): Omero, Odissea, volume V (Libri XVIII-XX), transl. G.A. Privitera, Milano.</bibl>
+                    <bibl>Russo, J. (1997): The Formula, [in:] Morris, Powell (ed.): 238–260.</bibl>
+                    <bibl>Sacco Franco, M.T. di (2000): Les devins chez Homère, „Kernos” 13: 35–46.</bibl>
+                    <bibl>Schmidt, M. (1979): Hom. μῆλα und die Antike Erklärungen, „Glotta” 57: 174–182.</bibl>
+                    <bibl>Schmitt, P. (1992): La Cité au banquet. Histoire des repas publics dans les cités grecques, Paris.</bibl>
+                    <bibl>Schulz, A. (2000): Die Stadtmauern von Neandreia in der Troas, Bonn.</bibl>
+                    <bibl>Scully, S. (1990): Homer and the Sacred City, Ithaca–London.</bibl>
+                    <bibl>Seaford, R. (2011): Sacrifice, [in:] M. Finkelberg (ed.), The Homer Encyclopedia, Oxford: 756–757.</bibl>
+                    <bibl>Segal, C. (1992): Divine Justice in the Odyssey: Poseidon, Cyclops, AJP 113: 483–518.</bibl>
+                    <bibl>Servais, J. (1967): Στεμματ’ έχων εν χερσίν. Iliade, A 14, Ant. Class. 36: 415–456.</bibl>
+                    <bibl>Shipp, G.P. (1972): Studies in the Language of Homer, Cambridge.</bibl>
+                    <bibl>Sommerstein, A.H., Bayliss A.J. (ed.) (2012): Oath and State in Ancient Greece, Berlin–Boston.</bibl>
+                    <bibl>Sommerstein, A.H., Torrance, I.C. (2014): Oaths and Swearing in Ancient Greece,  Berlin–Boston.</bibl>
+                    <bibl>Stengel, P. (1910 [1970]): Opferbräuche der Griechen, Leipzig–Berlin.</bibl>
+                    <bibl>Straten, F.T. van (1995): Hiera Kala. Images of Animal Sacrifice in Archaic and Classical Greece, New York–Leiden.</bibl>
+                    <bibl>Stupperich, R. (1995): Ein archaisches Kriegerrelief aus Gargara, [in:] E. Schwertheim (ed.), Neue Forschungen zu Neandria und Alexandria Troas, t. 1, Bonne: 127–138.</bibl>
+                    <bibl>Suk Fong Jim, Th. (2011): The vocabulary of aparchesthai, aparche and related terms in Archaic and Classical Greece, „Kernos” 24: 39–58.</bibl>
+                    <bibl>Suk Fong Jim, Th. (2012): Naming a Gift: the Vocabulary and Purposes of Greek Religious Offerings, GRBS 52: 310–337.</bibl>
+                    <bibl>Suk Fong Jim, Th. (2014): Sharing with the Gods. Aparchai and dekatai in Ancient Greece, Oxford.</bibl>
+                    <bibl>Taplin, O. (1992): Homeric Soundings: The Shaping of the Iliad, Oxford.</bibl>
+                    <bibl>Thesleff, H. (1981): Man and locus amoenus in Early Greek Poetry, [in:] G. Kurz, D. Mueller W. Nicolai (ed.), Gnomosyne. Menschliches Denken und Handeln in der frühgriechischen Literatur. Festschrift für Walter Marg zum 70. Geburtstag, München: 31–45.</bibl>
+                    <bibl>Thomson, G. (1943): The Greek Calendar, JHS 63: 52–65.</bibl>
+                    <bibl>Thornton, A. (1984): Homer’s Iliad: its composition and the motif of supplication, Göttingen.</bibl>
+                    <bibl>Usener, H. (1896): Götternamen. Versuch einer Lehre von der Religiösen Begriffsbildung, Bonn.</bibl>
+                    <bibl>Valk, M. van der (1949): Textual Criticism of the Odyssey, Leiden.</bibl>
+                    <bibl>Vermeule Towsend, E. (1974): Götterkult, Göttingen.</bibl>
+                    <bibl>Vernant, J.P. (1980): Théorie générale du sacrifice et mise à mort dans la θυσια grecque, [in:] J. Rudhardt, O. Reverdin (ed.), Le sacrifice dans l’antiquité, Vandoeuvres–Genève: 1–2.</bibl>
+                    <bibl>Vidal-Naquet, P. (2003 [1970]): Religijne i mityczne aspekty ziemi i ofiary w „Odysei”, przeł. A. Wolicki, [w:] tegoż, Czarny łowca. Formy myśli i formy życia społecznego w świecie greckim, Warszawa: 37–61.</bibl>
+                    <bibl>Watkins, C. (1977): A propos de μῆνις, „Bulletin de la Société de Linguistique de Paris” 72: 187–209.</bibl>
+                    <bibl>Węcowski, M. (2011): Sympozjon, czyli wspólne picie. Początki greckiej biesiady arystokratycznej (IX–VII wiek p.n.e.), Warszawa.</bibl>
+                    <bibl>West, M.L. (1978): Hesiod. Works and Days. Edited with Prolegomena and Commentary, Oxford.</bibl>
+                    <bibl>West, M.L. (2007): Indo-European Poetry and Myth, Oxford.</bibl>
+                    <bibl>West, M.L. (2008 [1996]): Wschodnie oblicze Helikonu. Pierwiastki zachodnioazjatyckie w greckiej poezji i micie, przekł. M. Fiipczuk, T. Polański, Kraków.</bibl>
+                    <bibl>West, M.L. (2011): Making of the Iliad: Disquisition and Analytical Commentary, Oxford–New York.</bibl>
+                    <bibl>West, S., ed. (2000): Omero, Odissea, volume I (Libri I–IV), transl. G.A. Privitera, Milano.</bibl>
+                    <bibl>Willcock, M.M. (1964): Mythological Paradeigma in the Iliad, CQ 14: 141–154.</bibl>
+                    <bibl>Willcock, M.M. (1976): A Companion to the Iliad, Chicago.</bibl>
+                    <bibl>Williams, A. (2011): Translation, [in:] M. Stausberg, S. Engler (ed.), The Routledge Handbook of Research Methods in the Study of Religion, London–New York: 421–432.</bibl>
+                    <bibl>Wilson, D.F. (2002): Ransom, Revenge, and Heroic Identity in the Iliad, Cambridge.</bibl>
+                    <bibl>Winterbottom, M. (1989): Speaking of the Gods, G&amp;R 36: 33–41.</bibl>
+                    <bibl>Zerhoch, S. (2015): Erinys in Epos, Tragödie und Kult. Fluchbegriff und personale Fluchmacht, Berlin–Boston.</bibl>
+                    <bibl>Ziebarth, E. (1892): De iure iurando in iure Graeco quaestiones, Göttingen.</bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

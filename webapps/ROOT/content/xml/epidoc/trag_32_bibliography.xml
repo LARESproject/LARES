@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Bibliografia</title>
+                <title xml:lang="en">Bibliography</title>
+                <title xml:lang="pl">Bibliografia</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">trag_32_bibliography</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><title>Bibliografia</title>, in Krzysztof Bielawski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. Tragedia attycka</title>, Warszawa 2017, pp. 475-494</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-03-11" who="Irene Vagionakis">encoded in XML</change>
+                <change when="2017" who="Krzysztof Bielawski">written contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>Adler, A. (1921): Kenaios, RE 21: 164–165.</bibl>
+                    <bibl>Ahrensdorf, P.J. (2009): Greek Tragedy and Political Philosophy. Rationalism in Sophocles’ Theban Plays, Cambridge.</bibl>
+                    <bibl>Alexiou, M. (1974): The Ritual Lament in Greek Tradition, Cambridge.</bibl>
+                    <bibl>Allan, W. (2001): Euripides. The Children of Heracles with Introduction, Translation and Commentary, Warminster.</bibl>
+                    <bibl>Allan, W., ed. (2008): Euripides Helen, Cambridge.</bibl>
+                    <bibl>Amandry, P. (1938): Eschyle et la purification d’Oreste, RA 6 ser., 11: 19–27.</bibl>
+                    <bibl>Amandry, P. (1939): Convention religieuse conclue entre Delphes et Skiathos, BCH 63: 183–219.</bibl>
+                    <bibl>Amandry, P. (1950): La mantique Apolliniene à Delphes: essai sur le fonctionnement de l’oracle, Paris.</bibl>
+                    <bibl>Austin, C. (1967): Nova Fragmenta Euripidea in Papyris Reperta, Berlin.</bibl>
+                    <bibl>Austin, N. (2011): Sophocles’ Philoctetes and the Great Soul Robbery, Wisconsin.</bibl>
+                    <bibl>Badham, Ch., ed. (1867): Euripides Ion, London.</bibl>
+                    <bibl>Barlow, S.A., ed. (1996): Euripides Heracles, Warminster.</bibl>
+                    <bibl>Barret, W.S., ed. (1978): Euripides Hippolytos edited with Introduction and Commentary, Oxford.</bibl>
+                    <bibl>Barriger, J.M. (2001): The Hunt in Ancient Greece, Baltimore.</bibl>
+                    <bibl>Bather, A.G. (1894): The Problem of the Bacchae, JHS 14: 244–263.</bibl>
+                    <bibl>Beazley, J.D. (1963): Attic Red-figure Vase-painters, Oxford.</bibl>
+                    <bibl>Becker, J. (1867): De hostiis humanis apud Graecos, Münster.</bibl>
+                    <bibl>Bednarek, B. (2017): Ofiara krwawa w Grecji starożytnej. Stara komedia attycka, Warszawa.</bibl>
+                    <bibl>Beekes, R. (2010): Etymological Dictionary of Greek, vol. 1–2, Leiden.</bibl>
+                    <bibl>Benveniste, É. (1948): Noms d’agent et noms d’action en indo-européen, Paris.</bibl>
+                    <bibl>Benveniste, É. (1966): Problèmes de linguistique générale, Paris.</bibl>
+                    <bibl>Berthiaume, G. (1982): Les rôles du mágeiros: étude sur la boucherie, la cuisine et le sacrifice dans la Grèce ancienne, Leiden (Mnemosyne Supplementum 70).</bibl>
+                    <bibl>Bezdechi, Ş. (1931): La gènese des "Bacchantes” d’Euripide, „L’Acropole”. Revue du Monde Hellénique, Paris.</bibl>
+                    <bibl>Biehl, W., ed. (1989): Euripides Troades, Heidelberg.</bibl>
+                    <bibl>Bielawski, K. (2004): Terminy rytualno­kultowe w tragedii greckiej okresu klasycznego, Kraków.</bibl>
+                    <bibl>Bielawski, K. (2012): Teksty poetyckie greckich fragmentów muzycznych. Komentarz filologiczny, Kraków.</bibl>
+                    <bibl>Bielawski, K. (2017): Animal Sacrifice in Eleusinian Inscriptions of the Classical Period, [in:] K. Bielawski (ed.), Animal Sacrifice in Ancient Greece. Proceedings of the First International Workshops in Kraków (12–14.11.2017), Kraków, 107–144.</bibl>
+                    <bibl>Biernat, B. (2017): Ofiara krwawa w Grecji starożytnej. Corpus Platonicum. Corpus Hippocraticum, Warszawa.</bibl>
+                    <bibl>Blaiklock, E.M. (1952): The Male Characters of Euripides: A Study in Realism, Wellington N.Z.</bibl>
+                    <bibl>Blaydes, F.H.M., ed. (1875): The Ajax of Sophocles, London.</bibl>
+                    <bibl>Blech, M. (1982): Studien zum Kranz bei den Griechen, Berlin.</bibl>
+                    <bibl>Bond, G.W. (1981): Euripides Heracles with Introduction and Commentary, Oxford.</bibl>
+                    <bibl>Bonnechère, P. (1994): Le sacrifice humain en Grèce ancienne, Liège.</bibl>
+                    <bibl>Bonnechère, P. (1998): La notion «d’acte collectif» dans le sacrifice humain grec, “Phoenix” 52: 191–215.</bibl>
+                    <bibl>Bornmann, F. (1968): Callimachi Hymnus in Dianam. Introduzione, testo critico e commento, Firenze.</bibl>
+                    <bibl>Bowen, A.J. (2013): Aeschylus Suppliant Women, Oxford.</bibl>
+                    <bibl>Bowie, A.M. (1997): Tragic Filters for History: Euripides’ Supplices and Sophocles’</bibl>
+                    <bibl>Philoctetes, [in:] Ch. Pelling (ed.), Greek Tragedy and the Historian, Oxford, 39–62.</bibl>
+                    <bibl>Bowie, A.M. (2007): Religion and Politics in the Oresteia, [in:] M. Lloyd (2007): 323–358.</bibl>
+                    <bibl>Bremmer, J.N. (1983): Scapegoat Rituals in Ancient Greece, HSCP 87: 299–320.</bibl>
+                    <bibl>Bremmer, J.N. (2007): Greek Normative Animal Sacrifice, [in:] D. Ogden (ed.), A Companion to Greek Religion, Malden, MA: 132–144.</bibl>
+                    <bibl>Bremmer, J.N. (2013): Human Sacrifice in Euripides’ Iphigenia in Tauris: Greek and Barbarian, [in:] P. Bonnechere, R. Gagné (ed.), Sacrifices humains. Perspectives croisées et representations, Liège: 87–100.</bibl>
+                    <bibl>Bremmer, J.N. (2015): Body Politics: Imaging Human Sacrifice in Euripides’ Iphigeneia in Aulis, [in:] K. Bielawski (ed.), Mantic Perspectives: Oracles, Prophecy and Performance, Gardzienice: 35–56.</bibl>
+                    <bibl>Broadhead, H.D. (1960): The Persae of Aeschylus, Cambridge.</bibl>
+                    <bibl>Brown, A.L. (1984): Eumenides in the Greek Tragedy, CQ 34: 260–281. Brown, A.L., ed. (1987): Sophocles, Antigone, Warminster.</bibl>
+                    <bibl>Brulé, P. (2005): La cite est la somme des maisons. Un commentaire religieux, [in:] V. Dasen, M. Piérart (ed.), Ἰδίᾳ καὶ δημοσίᾳ. Les caders «privés» et «publics» de la religion grecquenantique (Kernos Supplement 15), Liège, 27–53.</bibl>
+                    <bibl>Brumfield, A.C. (1981): The Attic Festivals of Demeter and their Relation to the Agricultural Year, New York.</bibl>
+                    <bibl>Burkert, W. (1966): Greek Tragedy and Sacrificial Ritual, GRBS 7: 89–121 (= Burkert 2007: 1–36).</bibl>
+                    <bibl>Burkert, W. (1983): Homo Necans: The Anthropology of Ancient Greek Sacrificial Ritual and Myth, Berkeley.</bibl>
+                    <bibl>Burkert, W. (1985a): Greek Religion. Archaic and Classical, transl. J. Raffan, Cambridge, Mass.</bibl>
+                    <bibl>Burkert, W. (1985b): Opferritual bei Sophokles: Pragmatik – Symbolik – Theater, „Der altsprachliche Unterricht“ 28: 5–20 = Burkert 2007: 73–91.</bibl>
+                    <bibl>Burkert, W. (2007): Kleine Schriften VII. Tragica et Historica, Göttingen.</bibl>
+                    <bibl>Burkert, W. (2011): Griechische Religion der archaischen und klassischen Epoche, Stuttgart.</bibl>
+                    <bibl>Burton, R.W.B. (1980): The Chorus in Sophocles’ Tragedies, Oxford.</bibl>
+                    <bibl>Calderón Dorda, E. (2011): El sacrificio y su vocabulario en Euripides, [in:] E. Calderón Dorda, A. Morales Ortiz, Eusébeia. Estudios de religión griega, Madrid: 37–74. Cammelli, L. (1932): Euripide, Le Baccanti, Introduzione e Commento, Milano.</bibl>
+                    <bibl>Campbell, L., ed. (1879): Sophocles, vol. 1, Oxford.</bibl>
+                    <bibl>Casabona, J. (1966): Recherches sur le vocabulaire des sacrifices en grec des origines à la fin de l’époque classique, Aix-en-Provance.</bibl>
+                    <bibl>Cavander, K. (1973): Iphigeneia at Aulis. A translation with commentary, London.</bibl>
+                    <bibl>Cazanove de, O. (2011): Naissance et petite enfance. Naissance et petite enfance dans le mond grec, [in:] Thesaurus Cultus et Rituum Antiquorum, vol. 6: 1–16.</bibl>
+                    <bibl>Ceadel, E.B. (1941): Tragic Trimeters in Euripides, CQ 35: 66–89.</bibl>
+                    <bibl>Chantraine, P. (1933): La formation des noms en grec ancient, Paris.</bibl>
+                    <bibl>Chantraine, P. (1968): Dictionnaire étymologique de la langue grecque. Histoire des mots, Paris [avec un Suppléement: 1999].</bibl>
+                    <bibl>Chodkowski, R. (1994): Ajschylos i jego tragedie, Lublin.</bibl>
+                    <bibl>Chodkowski, R., przekł., opr. (2004): Sofokles, Antygona, Warszawa. Chodkowski, R., przekł. (2016): Ajschylos, Tragedie, t. 2, Lublin.</bibl>
+                    <bibl>Clinton, K. (1988): Artemis and the Sacrifice of Iphigenia in Aeschylus’ Agamemnon, [in:] P. Pucci (ed.), Language and the Tragic Hero. Essays on Greek Tragedy in Honor of Gordon M. Kirkwood, Atlanta: 1–24.</bibl>
+                    <bibl>Clinton, K., (2005): Eleusis. The Inscriptions on Stone. Documents of the Sanctuary of the Two Goddesses and Public Documents of the Deme, vol. IA: Text, Athens (The Archaeological Society at Athens Library 236).</bibl>
+                    <bibl>Clinton, K. (2005): Pigs in Greek Rituals, [in:] R. Hägg, B. Alroth (ed.), Greek Sacrificial Ritual, Olympian and Chtchonian. Proceedings of the Sixth International Seminar on Ancient Greek Cult, organized by the Department of Classical Archeology and Ancient History, Göteborg University, 25–27 April 1997, Stockholm: 167–179.</bibl>
+                    <bibl>Cole, S.G. (2000): Landscapes of Artemis, CW 93: 471–481.</bibl>
+                    <bibl>Collard, Ch. (1975): Euripides Supplices edited with Introduction and Commentary, vol. 1: Introduction and Text, vol. 2: Commentary, Groningen.</bibl>
+                    <bibl>Collard, Ch., Cropp, M.J., Lee, K.H., ed. (1995): Euripides Selected Fragmentary Plays, vol. I, Warminster.</bibl>
+                    <bibl>Collard, Ch., Morwood, J., ed. (2017): Euripides. Iphigenia at Aulis, vol. 1: Introduction, Text and Translation, vol. 2: Commentary and Indexes, Liverpool.</bibl>
+                    <bibl>Collins, D. (2008): Mapping the entrails: The practice of Greek hepatoscopy, AJP 129/3, 319–45.</bibl>
+                    <bibl>Collins, J. (1999): Greek ὀλολύζω and Hittite palwai: Exultation in the Ritual Slaughter of Animals, GRBS 36: 319–325.</bibl>
+                    <bibl>Combe de La, P.J. (2001): L’Agamemnon d’Eschyle. Commetaire des dialogues, t. III, Lille.</bibl>
+                    <bibl>Conacher, D.J., ed. (1988): Euripides Alcestis edited with Introduction, Translation and Commentary, Oxford.</bibl>
+                    <bibl>Conomis, N.C. (1961): Notes on the Fragments of Lycurgus, „Klio” 39: 107–120.</bibl>
+                    <bibl>Cook, A.B. (1940): Zeus. A Study in Ancient Religion, vol. III/2, Cambridge.</bibl>
+                    <bibl>Craik, E. (1988): Euripides Phoenician Women, Warminster.</bibl>
+                    <bibl>Croally, N.T. (1994): Euripidean Polemic. The Trojan Women and the Function of Tragedy, Cambridge.</bibl>
+                    <bibl>Cropp, M.J., Fick, G. (1985): Resolutions and Chronology in Euripides: the Fragmentary Tragedies, London.</bibl>
+                    <bibl>Cropp, M.J., ed. (2013): Euripides: Electra, Oxford.</bibl>
+                    <bibl>Czerwińska, J. (1999): Człowiek Eurypidesa wobec zagrożenia życia, namiętnej miłości i ekstazy religijnej, Łódź.</bibl>
+                    <bibl>Czerwińska, J. (2005): Eurypides i jego twórczość dramatyczna oraz mniejsi tragediopisarze, [w:] Literatura Grecji starożytnej. Epika, liryka, dramat, H. Podbielski (ed.), Lublin, 771–876.</bibl>
+                    <bibl>Dale, A.M. (1966): Euripides Alcestis edited with Introduction and Commentary, Oxford.</bibl>
+                    <bibl>Daraki, M. (1980): Aspects du sacrifice dionysiaque, Rev.Hist.Rel. 197: 131–157.</bibl>
+                    <bibl>Daux, G. (1949): Un règlement cultuel d’Andros, „Hesperia” 18: 58–72.</bibl>
+                    <bibl>Dawe, R.D. (1964): The Collation and Investigation of Manuscripts of Aeschylus, Cambridge.</bibl>
+                    <bibl>Dawe, R.D., ed. (1982): Sophocles Oedipus Rex, Cambridge.</bibl>
+                    <bibl>Denniston, J.D., ed. (1968, pierwsze wydanie: 1939): Euripides Electra edited with Introduction and Commentary, Oxford.</bibl>
+                    <bibl>Denniston, J.D., Page, D., ed. (1957): Aeschylus Agamemnon, Oxford.</bibl>
+                    <bibl>Denoyelle, M. (1994): Chefs-d'oeuvre de la céramique grecque dans les collections du Louvre, Louvre.</bibl>
+                    <bibl>Denoyelle, M. (1998): Corpus Vasorum Antiquorum (25), Louvre.</bibl>
+                    <bibl>Detienne, M. (1998): Apollon le couteau à la main: un approche expérimentale du polythéisme grec, Paris.</bibl>
+                    <bibl>Detienne, M., Vernant, J.-P. (ed.) (1989), The cuisine of sacrifice, transl. P. Wissing, Chicago (wyd. francuskie: Paris 1979).</bibl>
+                    <bibl>Deubner, L. (1932): Attische Feste, Berlin.</bibl>
+                    <bibl>Deubner, L. (1952): Die Gebräuche der Griechen nach der Gebur, Rh. Mus, Neue Folge 95 Bd. 4. H.: 374–377.</bibl>
+                    <bibl>DeVito A., (1999): Eteocles, Amphiaraus, and Necessity in Aeschylus’ ›Seven against Thebes‹, “Hermes” 127: 165–171.</bibl>
+                    <bibl>Diggle, J. (1981): Studies on the Text of Euripides, Oxford.</bibl>
+                    <bibl>Diggle, J., ed. (1984): Euripidis Fabulae, vol. 1, Oxford.</bibl>
+                    <bibl>Diggle, J., ed. (2004): Theophrastus Characters, Cambridge.</bibl>
+                    <bibl>Dillon, M. (2002): Girls and Women in Classical Greek Religion, London.</bibl>
+                    <bibl>Distilo, N. (2012): Commento critico-testuale all’ Elettra di Euripide, vol. I–II, Padova.</bibl>
+                    <bibl>Dodds, E.R. (1929): Euripides the Irrationalist, CR 43: 97–104.</bibl>
+                    <bibl>Dodds, E.R. (1940): Maenadism in the Bacchae, HThR 33, 155–176 (częściowo przedrukowane jako appendix 1 w The Greeks and the Irrational, Berkeley (1951): 270–282; wersja polska: Grecy i irracjonalność, przekł. J. Partyka, Bydgoszcz 2002: 210–220).</bibl>
+                    <bibl>Dodds, E.R., ed. (1960): Euripides Bacchae edited with Introduction and Commentary, Oxford.</bibl>
+                    <bibl>Drew-Bear, T. (1972): Some Greek Words. Part I, „Glotta” 50: 61–96.</bibl>
+                    <bibl>Dryer, R.R. (1969): The Evidence for Apolline Purification Rituals at Delphi and Athens, JHS 89: 38–56.</bibl>
+                    <bibl>Easterling, P., ed. (1982): Sophocles Trachiniae, Cambridge.</bibl>
+                    <bibl>Eitrem, S. (1915): Opferritus und Voropfer der Griechen und Römer, Kristiania. Eitrem, S. (1938): Mantis und σφάγια, Symb. Osl. 18: 9–30.</bibl>
+                    <bibl>Eitrem, S. (1946): De Prometheo, „Eranos” 44: 14–19.</bibl>
+                    <bibl>Ekroth, G. (2002): The Sacrificial Rituals of Greek Hero-Cults in the Archaic to the Early Hellenistic Periods, Liège (Kernos Suppl. 12).</bibl>
+                    <bibl>Ekroth, G. (2017): Holocaustic Sacrifices in Ancient Greek Religion: Some Comments on Practice and Theory, [in:] K. Bielawski (ed.), Animal Sacrifice in Ancient Greece. Proceedings of the First International Workshops in Krakow 12–14.11.2015, Warszawa, 53–74.</bibl>
+                    <bibl>Ekroth, G., Wallensten, J. (ed.) (2013): Bones, Behaviour and Belief. The zooarcheological evidence as a Source for Ritual Practice in Ancient Greece and Beyond, Stockholm.</bibl>
+                    <bibl>Ellendt, F. (1872): Lexicon Sophocleum, Berolini.</bibl>
+                    <bibl>England, E.B., ed. (1891): Iphigeneia at Aulis of Euripides, London.</bibl>
+                    <bibl>Faraone, Ch.A. (1993): Molten Wax, Spilt Wine and Mutilated Animals: Sympathetic Magic in near Eastern and Early Greek Oath Ceremonies, JHS 113: 60–80. Farnell, L.R. (1896): The Cults of the Greek States, vol. 1–2, Oxford.</bibl>
+                    <bibl>Fennell, C.A.M., ed. (1893): Pindar: The Olympian and Pythian Odes with Notes Explanatory and Critical, Introductions and Introductory Essays, Cambridge. Finglass, P.J., ed. (2007): Sophocles Electra edited with introduction and commentary, Cambridge.</bibl>
+                    <bibl>Finglass, P.J. (2009): Interpolation and Responsion in Sophocles’ Ajax, CQ 59: 335–352.</bibl>
+                    <bibl>Finglass, P.J., ed. (2011): Sophocles Ajax. Edited with Introduction, Translation and Commentary, Cambridge.</bibl>
+                    <bibl>Fischer-Hansen, T., Poulsen, B. (ed.) (2009): From Artemis to Diana. The Goddess of Man and Beast, Copenhagen.</bibl>
+                    <bibl>Fletcher, J. (2011): Performing Oaths in Classical Greek Tragedy, Cambridge. </bibl>
+                    <bibl>Flower, M.A. (2008), The Seer in Ancient Greece, Los Angeles.</bibl>
+                    <bibl>Foley, H. (1982): Marriage and Sacrifice in Euripideś Ifigeneia in Aulis, „Arethusa” 15, 159–180.</bibl>
+                    <bibl>Foley, H. (1985): Ritual Irony: poetry and sacrifice in Euripides, Ithaca, N.Y. </bibl>
+                    <bibl>Fraenkel, E., ed. (1950): Aeschylus Agamemnon, vol. I–III, Oxford.</bibl>
+                    <bibl>Frazer, J.G., transl. (1898): Pausanias’s Description of Greece, vol. 3, New York. </bibl>
+                    <bibl>Friedrich, R. (2000): Dionysos among Dons: The New Ritualism in Richard Seaford’s Commentary on the “Bacchae”, „Arion: A Journal of Humanities and the Classics”, 7: 115–152.</bibl>
+                    <bibl>Fritze von, H. (1894): Rauchopfer bei den Griechen, Berlin.</bibl>
+                    <bibl>Frostenpointner, G., Galik, A., Weissengruber, G.E. (2013): The Zooarcheology of Cult. Perspectives and Pitfalls of an Experimental Approach, [in:] Ekroth, Wallensten (2013): 233–242.</bibl>
+                    <bibl>Furley, W.D. (1981): Studies in the Use of Fire in Ancient Greek Religion, New York.</bibl>
+                    <bibl>Furley, W.D., Gysembergh, V. (2015): Reading the Liver. Papyrological Texts on Ancient Greek Extispicy, Tübingen.</bibl>
+                    <bibl>Garland, R. (1985): The Greek Way of Death, London.</bibl>
+                    <bibl>Garvie, A.F., ed. (1969): Aeschylus‘ Supplices, Play and Trilogy, Cambridge.</bibl>
+                    <bibl>Garvie, A.F., ed. (1986): Aeschylus Choephori, Oxford.</bibl>
+                    <bibl>Garvie, A.F., ed. (1998): Sophocles Ajax, Warminster.</bibl>
+                    <bibl>Garvie, A.F., ed. (2009): Aeschylus Persae with Introduction and Commentary, Oxford.</bibl>
+                    <bibl>Gebauer, J. (2002): Pompe und Thysia. Attische Tieropferdarstellungen auf schwartzund rotfigurigen Vasen, Münster.</bibl>
+                    <bibl>Geisau, H.J. (1921): Kenaion, RE 21, 163–164.</bibl>
+                    <bibl>Georgoudi, S. (1999): À propos du sacrifice humain en Grèce ancienne: remarques critiques, „Archiv für Religionsgeschichte” 1: 61–82.</bibl>
+                    <bibl>Gernet, L. (1983): Les Grecs sans miracle, Paris.</bibl>
+                    <bibl>Gibert, J. (2003): Apollo’s Sacrifice: The Limits of a Metaphor in Greek Tragedy, HSCP 101: 159–2006.</bibl>
+                    <bibl>Gillies, M.M. (1925): Purification in Homer, CQ 19, 71–74.</bibl>
+                    <bibl>Giordano-Zecharya, M. (2006): Ritual Appropriateness in “Seven against Thebes”. Civic Religion in a Time of War, „Mnemosyne”, Fourth Series, vol. 59, Fasc. 1: s. 53–74.</bibl>
+                    <bibl>Glover, M.R. (1929): The Bacchae, JHS 49: 82–88.</bibl>
+                    <bibl>Gödde, S. (2007): Euphēmia. Die gute Rede in Kult und Literatur der griechischen Antike, Heidelberg.</bibl>
+                    <bibl>Gold, B.K. (1977): ΕΥΚΟΣΜΙΑ in Euripides’ Bacchae, AJPh 98: 3–15.</bibl>
+                    <bibl>Golden, M. (1986): Name and Naming in Athens: Three Studies, EMC 30: 245–269.</bibl>
+                    <bibl>Golden, M. (1990): Childhood in Classical Athens, Baltimore.</bibl>
+                    <bibl>Goldhill, S. (2001): Myth, Ritual, Memory, and Exchange: Essays in Greek Literature and Culture, Oxford.</bibl>
+                    <bibl>Горбунова, К.С., Передольская, А.А. (1961): Мастера гречиских расписных ваз, Ленинград.</bibl>
+                    <bibl>Gow, A.S.F. (1912): On the Meaning of the Word ΘΥΜΕΛΗ, JHS 32: 213–238.</bibl>
+                    <bibl>Graff, F. (1996): Pompeii in Greece. Some Considerations about Space and Ritual in the Greek Polis, [in:] R. Hägg (ed.), The Role of Religion in the Early Greek Polis: Proceedings of the Third International Seminar on Ancient Greek Cult, organized by the Swedish Institute at Athens, 16–18 October 1992, Stockholm: 55–65.</bibl>
+                    <bibl>Graff, F. (2005): Hera. Cult and Myth, [in:] H. Cancik, H. Schneider (ed.), Brill’s New Pauly. Encyclopaedia of the Ancient World, vol. 6, Leiden: 145–148.</bibl>
+                    <bibl>Green, P., ed. (1977): The Argonautika by Apolonios Rhodios, Berkeley.</bibl>
+                    <bibl>Greenwood, L.H.G. (1953): Aspects of Euripidean Tragedy, Cambridge.</bibl>
+                    <bibl>Gregory, J., ed. (1999): Euripides: Hecuba. Introduction, Text, and Commentary, Atlanta.</bibl>
+                    <bibl>Griffith, M., ed., (1983) Aeschylus, Prometheus Bound, Cambridge.</bibl>
+                    <bibl>Griffith, M., ed. (1999): Sophocles, Antigone, Cambridge.</bibl>
+                    <bibl>Groeneboom, P., ed. (1938): Aeschylus’ Zeven tegen Thebe met inleiding, critische noten en commentar, Groningen.</bibl>
+                    <bibl>Grube, G.M.A. (1961): The Drama of Euripides, London.</bibl>
+                    <bibl>Guépin, J.-P. (1968): The Tragic Paradox. Myth and Ritual in Greek Tragedy, Amsterdam.</bibl>
+                    <bibl>Hall, E. (2013): Adventures with Iphigenia in Tauris. A Cultural History of Euripides’ Black Sea Tragedy, Oxford.</bibl>
+                    <bibl>Halleran, M.R., ed. (1995): Euripides Hippolytos with Introduction, Translation and Commentary, Oxford.</bibl>
+                    <bibl>Halliday, W.R. (1913): Greek Divination. A Study of its Methods and Principles, London.</bibl>
+                    <bibl>Halm-Tisserant, M. (2004): Le sparagmos, un rite de magie fécondante, Kernos 17: 119–142.</bibl>
+                    <bibl>Hame, K.J. (2008): Female Control of Funeral Rites in Greek Tragedy: Klytaimestra, Medea, and Antigone, CP 103 (1): 1–15.</bibl>
+                    <bibl>Hamerton-Kelly, R.G. (ed.) (1987): Violent Origins. Walter Burkert, René Girard and Jonathan Z. Smith on Ritual Killing and Cultural Formation, Stanford, Calif. </bibl>
+                    <bibl>Hamilakis, Y. (2003): The sacred geography of hunting: wild animals, social power and gender in early farming societies, „British School at Athens Studies”, vol. 9 (Zooarcheology in Greece: Recent Advances): 239–247.</bibl>
+                    <bibl>Hamilton, R. (1984): Sources for the Athenian Amphidromia, GRBS 25: 243–251.</bibl>
+                    <bibl>Hanson, V.D. (ed.) (1991): Hoplites: The Classical Greek Battle Experience, London.</bibl>
+                    <bibl>Harrison, J.E. (1922; repr. 1955), Prolegomena to the Study of Greek Religion, Cambridge.</bibl>
+                    <bibl>Harry, J.E., ed. (1905): Aeschylus, Prometheus, New York.</bibl>
+                    <bibl>Haves, H.B. (1922): A Gift of Themistocles: The “Ludovisi Throne” and the Boston Relief, AJArch. 24: 278–306.</bibl>
+                    <bibl>Headlam, W. (1906): The Last Scene of the Eumenides, JHS 26: 268–277.</bibl>
+                    <bibl>Henrichs, A. (1978): Greek Maenadism from Olympia to Messalina, HSCP 82: 121–160.</bibl>
+                    <bibl>Henrichs, A. (1981): Human Sacrifice in Greek Religion: Three Case Studies, [in:] J. Rudhardt, O. Reverdin, (ed.), Le Sacrifice dans l’antiquité, Genève: 195–242. Henrichs, A. (1981), Human Sacrifice in Greek Religion: Three Case Studies, [in:] J. Rudhardt and O. Reverdin (eds.), Le sacrifice dans l’antiquité, Entretiens sur l'Antiquité Classique XXVII, Vandœuvres – Geneva, 195–235.</bibl>
+                    <bibl>Henrichs, A. (1983): The “Sobriety” of Oedipus: Sophocles OC 100 Misunderstood, HSCP 87: 87–100.</bibl>
+                    <bibl>Henrichs, A. (1998): Dromena und Legomena: Zum rituellen Selbstverständnis der Griechen, [in:] F. Graf (ed.), Ansichten griechischer Rituale. Geburstags-Symposium für Walter Burkert, Stuttgart: 33–71.</bibl>
+                    <bibl>Henrichs, A. (2000): Drama and Dromena: Bloodshed, Violence, and Sacrificial Metaphor in Euripides, HSCP 100: 173–188.</bibl>
+                    <bibl>Henrichs, A. (2004): “Let the Good Prevail”: Perversions of the Ritual Process in Greek Tragedy, [in:] Yatromanolakis, Roilos (2004): 189–198.</bibl>
+                    <bibl>Henrichs, A. (2012): Animal Sacrifice in Greek Tragedy: Ritual, Metaphor, Problematizations, [in:] Ch.A. Faraone, F.S. Naiden (ed.), Greek and Roman Animal Sacrifice. Ancient Victims, Modern Observers, Cambridge: 180–194.</bibl>
+                    <bibl>Hermary, A., Leguilloux, M. (2004): Les sacrifices dans le mond grec, ThesCRA 1: 60–182.</bibl>
+                    <bibl>Hesk, J. (2003): Sopholes: Ajax, London.</bibl>
+                    <bibl>Himmelmann, N. (1997): Tieropfer in der griechischen Kunst, Düsseldorf.</bibl>
+                    <bibl>Hoekstra, A. (1976): Enallage and the Transferred Epithet. Some Remarks on Condensed effects in Aeschylus, [in:] J.M. Bremer, S. Radt, C.J. Ruijgh (ed.), Miscellanea Tragica in Honorem J.C. Kamerbeek, Amsterdam: 157–171.</bibl>
+                    <bibl>Hogan, J.C. (1984): A Commentary on the Complete Greek Tragedies: Aeschylus, Chicago.</bibl>
+                    <bibl>Högemann P., Prayon F. (1996): Altar, [in:] H. Cancik, H. Schneider (ed.), Der Neue Pauly Enzyklopädie der Antike, t. 1, Stuttgart, kol. 350–355.</bibl>
+                    <bibl>Holwerda, D. (1963): ΤΕΛΟΣ, Mnemos. 16.</bibl>
+                    <bibl>Hubert, H., Mauss, M. (2005, wydanie oryginalne: 1899), Esej o naturze i funkcji ofiary, przekł. L. Trzcionkowski, Kraków.</bibl>
+                    <bibl>Hughes, D.D. (1991): Human Sacrifice in Greek Religion: Three Case Studies, London.</bibl>
+                    <bibl>Hünemörder, C.H. (2006): Myrtle, [in:] Brill’s New Pauly. Encyclopaedia of the Ancient World, vol. 9, Leiden: 423–424.</bibl>
+                    <bibl>Hutchinson, G.O., ed. (1985): Aeschylus Septem contra Thebas, Oxford.</bibl>
+                    <bibl>Jackson, A.H. (1991): Hoplites and the gods: the dedication of captured arms and armour, [in:] V.D. Hanson (1991): 228–249.</bibl>
+                    <bibl>Jameson, M.H. (1956): The Vowing of a Pelanos, AJPh 77(1): 55–60.</bibl>
+                    <bibl>Jameson, M.H (1986): Sophocles, Antigone 1005–1022: An Illustration, [in:] M. Cropp, E. Fantham, S.E. Scully (ed.), Greek and Its Legacy. Essays Presented to D.J. Conacher, Calgary: 59–65 (il. 1–5).</bibl>
+                    <bibl>Jameson, M.H. (1991): Sacrifice before Battle, [in:] Hanson (1991): 197–227.</bibl>
+                    <bibl>Jebb, R.C., ed. (1891): Sophocles. The Plays and Fragments, Part 3: Antigone, Cambridge.</bibl>
+                    <bibl>Jebb, R.C. (2004): Sophocles: Plays. Ajax, ed. P. Easterling, London.</bibl>
+                    <bibl>Jebb, S. (1722–1730): Aelii Aristidis Adrianensis Opera omnia graece et latine, tom. 1-3, Oxonii.</bibl>
+                    <bibl>Jim, Th.S.F. (2014): Sharing with Gods. Aparchai and Dekatai in Ancient Greece, Oxford.</bibl>
+                    <bibl>Johansen, H.J., Whittle, E.W., ed. (1980): Aeschylus, The Suppliants, vol. 1–3: Commentary, Kopenhaga.</bibl>
+                    <bibl>Johnston, S.I. (1999): Restless Dead. Encounters Between the Living and the Dead in Ancient Greece, Berkeley.</bibl>
+                    <bibl>Johnston, S.I. (2008): Ancient Greek Divination, Chichester.</bibl>
+                    <bibl>Jouan, F. (1990–1991): Comment partir en guerre en Grece antique en ayant les dieux pour soi, „Revue de la societe Ernest Renan” 40: 25–42.</bibl>
+                    <bibl>Jouanna, J. (1992): Libations et sacrifices dans la tragédie grecque, REG 105: 406–434.</bibl>
+                    <bibl>Jouanna, J. (2007): Sophocle, Paris.</bibl>
+                    <bibl>Juffras, D.M. (1993): Helen and Other Victims in Euripides’ Helen, „Hermes” 121: 45–57.</bibl>
+                    <bibl>Kadletz, E. (1976): Animal Sacrifice in Greek and Roman Religion, PhD diss., Washington.</bibl>
+                    <bibl>Kalke, Ch.M. (1985): The Making of the Tyrsus, AJPh 106: 409–426.</bibl>
+                    <bibl>Kamerbeek, J.C. (1959): The Plays of Sophocles. Commentaries, part 2, The Trachiniae, Amsterdam.</bibl>
+                    <bibl>Kamerbeek, J.C. (1963): The Plays of Sophocles. Commentaries, part 1, The Ajax, Leiden.</bibl>
+                    <bibl>Kamerbeek, J.C. (1967): The Plays of Sophocles. Commentaries, part 4, The Oedipus Tyrannus, Leiden.</bibl>
+                    <bibl>Kamerbeek, J.C. (1974): The Plays of Sophocles. Commentaries, part 5, Electra, Amsterdam.</bibl>
+                    <bibl>Kamerbeek, J.C. (1978): The Plays of Sophocles. Commentaries, part 3, The Antigone, Leiden.</bibl>
+                    <bibl>Kamerbeek, J.C. (1980): The Plays of Sophocles. Commentaries, part 6, The Philoctetes, Amsterdam.</bibl>
+                    <bibl>Kamerbeek, J.C. (1984): The Plays of Sophocles. Commentaries, part 7, The Oedipus Coloneus, Amsterdam.</bibl>
+                    <bibl>Karavites, P.P. (1992): Promise-Giving and Treaty-Making, Homer and the Near East, Leiden.</bibl>
+                    <bibl>Kells, J.H. (1973): Sophocles Electra, Cambridge.</bibl>
+                    <bibl>Kirk, G.S. (1981): Pitfalls in the Study of Greek Sacrifice, [in:] J. Rudhardt, O. Reverdin (ed.), Le Sacrifice dans l’antiquité, Genève: 41–90.</bibl>
+                    <bibl>Kirk, G.S. (1985): The Illiad: A Commentary, vol. I, Oxford.</bibl>
+                    <bibl>Kitto, H.D.F. (1997): Tragedia grecka. Studium literackie, przekł. J. Margański, Bydgoszcz.</bibl>
+                    <bibl>Kitts, M. (2005): Sanctified Violence in Homeric Society. Oath-making Rituals and Narratives in the Iliad, Cambridge.</bibl>
+                    <bibl>Knoepfler, D. (1993): Les imagiers de l'Orestie. Mille ans d'art antique autour d'un mythe grec, Zürich.</bibl>
+                    <bibl>Knox, B.M.W. (1979): Word and Action: Essays on the Ancient Theater, Balitmore–London.</bibl>
+                    <bibl>Kokkinou, A. (2014): Of Horses, Earthquakes, and the Sea: Poseidon and His Worshippers in Ancient Greece, [in:] S.D. Pevnick (ed.), Poseidon and the Sea. Myth, Cult, and Daily Life, Tampa: 51–64.</bibl>
+                    <bibl>Kott, J. (1986): Zjadanie bogów, Kraków.</bibl>
+                    <bibl>Kovacs, D., ed. (2002): Euripides Bacchae, Iphigenia at Aulis, Rhesus, Cambridge MA.</bibl>
+                    <bibl>Kovacs, D. (2013): Toward a Reconstruction of Iphigenia Aulidensis, JHS 123: 77–103.</bibl>
+                    <bibl>Kovacs, D. (1980): The Andromache of Euripides. An Interpretation, Ann Arbor.</bibl>
+                    <bibl>Krentz, P.M. (2007): The Oath of Marathon, not Plataja?, „Hesperia” 76: 731–742.</bibl>
+                    <bibl>Kurtz, D.C., Boardman, J. (1971): Greek Burial Customs, London.</bibl>
+                    <bibl>Kyriakou, P. (2006): A Commentary on Euripides’ Iphigenia in Tauris, Berlin.</bibl>
+                    <bibl>Lafond, Y. (2007): Le gibier comme victime sacrificielle dans le monde grec antique, referat z konferencji w Poitiers w lutym 2007, [online] https://www.academia.edu/4186086/Le_gibier_comme_victime_sacrificielle [dostęp: listopad 2014].</bibl>
+                    <bibl>Larson, J. (2001): Greek Nymphs. Myth, Cult, Lore, Oxford.</bibl>
+                    <bibl>Larson, J. (2007): Ancient Greek Cults. A Guide, London.</bibl>
+                    <bibl>Lawrence, S.E. (1976): Artemis in the Agamemnon, AJP 97: 97–110.</bibl>
+                    <bibl>Lawrence, S.E. (2007): Eteocles’ Moral Awareness in Aeschylus’ Seven, CW 100: 335–353.</bibl>
+                    <bibl>Lebeck, A. (1963): Image and Idea in Agamemnon of Aeschylus, New York (niewydana dysertacja doktorska).</bibl>
+                    <bibl>Lebeck, A. (1971): The Oresteia. A Study in Language and Structure, Washington.</bibl>
+                    <bibl>Lee, K.H., ed. (1976): Euripides Troades Edited with Introduction and Commentary, London.</bibl>
+                    <bibl>Lee, K.H., ed. (1977): Euripides Ion with Introduction, Translation and Commentary, Warminster.</bibl>
+                    <bibl>Lee, M.M. (2004): ‘Evil Wealth of Raiment’: Deadly πέπλοι in Greek Tragedy, CJ 99, 253–279.</bibl>
+                    <bibl>Lengauer, W. (2004): Wstęp, [w:] Ajschines, Mowy, przekł. W. Lengauer, Warszawa: 11–32.</bibl>
+                    <bibl>Lesky, A. (1952): Zwei Sophokles­Interpretationen, „Hermes“ 80(1): 91–105 (= Lesky A., 1966, Gesammelte Schrifften, Berlin: 176–189).</bibl>
+                    <bibl>Lesky, A. (2006): Tragedia grecka, przekł. M. Weiner, Kraków.</bibl>
+                    <bibl>Lewandowicz, J. (2006): „Bachantki” Eurypidesa: dramat religijny, Łódź.</bibl>
+                    <bibl>Liapis, V. (2012): Oedipus Tyrannus, [in:] K. Ormand (ed.), A Companion to Sophocles, Wiley–Blackwell: 84–97.</bibl>
+                    <bibl>Livrea, E., ed. (1973): Apollonii Rhodii Argonauticon liber quartus, Firenze.</bibl>
+                    <bibl>Lloyd, M., ed. (1994): Euripides Andromache, Warminster.</bibl>
+                    <bibl>Lloyd, M. (ed.) (2007): Oxford Readings in Classical Studies: Aeschylus, Oxford.</bibl>
+                    <bibl>Lloyd-Jones, H. (1953): Aeschylus, Agamemnon 416ff, CQ 3, 96.</bibl>
+                    <bibl>Lloyd-Jones, H. (1971): The Justice of Zeus, Berkeley.</bibl>
+                    <bibl>Lloyd-Jones, H., transl. (1979): Aeschylus: The Oresteia, London.</bibl>
+                    <bibl>Lloyd-Jones, H. (1983): Artemis and Iphigeneia, JHS 103, 87–102.</bibl>
+                    <bibl>Lloyd-Jones, H., ed. (1990): Sophoclis Fabulae, Oxford.</bibl>
+                    <bibl>Lonis, R. (1979) Guerre et religion en Grèce à l'époque classique. Recherches sur les rites, les dieux, l'idéologie de la victoire, Paris.</bibl>
+                    <bibl>Loraux, N. (1977): La 'belle mort’ spartiate, „Ktema” 2: 105–120.</bibl>
+                    <bibl>Loraux, N. (1987): Tragic Ways of Killing a Woman, transl. A. Forster, Cambrid-l ge, Mass.</bibl>
+                    <bibl>Lorimer, H.L. (1931): Two Notes on Agamemnon, CR 45: 211–212.</bibl>
+                    <bibl>Lucas, D.M. (1955): The Greek Tragic Poets, Cambridge.</bibl>
+                    <bibl>Lupaş, L., Petre, Z. (1981): Commentaire aux Sept contre Thèbes d’Eschyle, Paris.</bibl>
+                    <bibl>Lupu, E. (2005): Greek Sacred Law. A Collection of New Documents, Leiden.</bibl>
+                    <bibl>Luschnig, C.A.E., Roisman, H.M., ed. (2003): Euripides’ Alcestis. With Notes and Commentary, Norman, OK.</bibl>
+                    <bibl>Łanowski, J., przekł. (1980): Eurypides Tragedie, Warszawa.</bibl>
+                    <bibl>Łanowski, J., przekł. (2005): Eurypides Tragedie, t. I, Warszawa.</bibl>
+                    <bibl>Łanowski, J., przekł. (2006): Eurypides Tragedie, t. II, Warszawa.</bibl>
+                    <bibl>Maas, P. (1951): Aeschylus, Agam. 231 ff., Illustrated, CQ 45: 94.</bibl>
+                    <bibl>Macleod, C. (2007): Politics and the Oresteia, [in:] Lloyd (2007) 265–301. March, J. (ed.) (2001), Sophocles, Electra, Warminster.</bibl>
+                    <bibl>Mare, W.H. (1961): A Study of the Greek βωμός in Classical Greek Literature, (niewydana dysertacja doktorska University of Pennsylvania), Ann Arbor. Markantonatos, A. (2007): Oedipus at Colonus. Sophocles, Athens, and the World, Berlin.</bibl>
+                    <bibl>Markantonatos, A. (ed.) (2012): Brill’s Companion to Sophocles, Leiden.</bibl>
+                    <bibl>Marshall, C.W. (2009): Sophocles’ Chryses and the Date of Iphigenia in Tauris, [in:] J.R.C. Cousland, J.R. Hume (ed.), The Play of Texts and Fragments, Leiden: 141–156.</bibl>
+                    <bibl>Masaracchia, E. (1983): Il sacrificio nell’Ifigenia in Aulide, „Quaderni Urbinati di Cultura Classica” 14: 43–77.</bibl>
+                    <bibl>Mastronarde, D.J., ed. (1994): Euripides Phoenissae, edited with Introduction and Commentary, Cambridge.</bibl>
+                    <bibl>Mastronarde, D.J., ed. (2002): Euripides Medea, Cambridge.</bibl>
+                    <bibl>Matthiessen, K. (1964): Elektra, Taurische Iphigenie und Helena. Untersuchungen zur Chronologie und zur dramatischen Form im Spätwerk des Euripides, „Hypomnemata” 4: Göttingen.</bibl>
+                    <bibl>Matthiessen, K., ed. (2010): Euripides, Hekabe. Edition und Kommentar, Berlin.</bibl>
+                    <bibl>McCarthy, D.J. (1978): Treaty and Covenant, Analecta Biblia XXI-a, Rome: 193– –196.</bibl>
+                    <bibl>Mehl, V. (2008): Parfums de fêtes. Usage de parfumset sacrifices sanglants, [in:] V. Mehl, P. Brulé (ed.), La sacrifice antique. Vestiges, procédures et stratégies, Renne: 167–186.</bibl>
+                    <bibl>Merklin, H. (1964): Gott Mensch im Hippolytos und den Bakchen des Euripides, Freiburg im Breisgau.</bibl>
+                    <bibl>Meuli, K. (1975): Griechische Opferbräuche, [in:] K. Meuli (ed.), Gesammelte Schriften, vol. 2, Basel: 907–1021.</bibl>
+                    <bibl>Michelakis, P. (2006): Euripides: Iphigenia at Aulis, London.</bibl>
+                    <bibl>Mikalson, J.D. (1972): Prothyma, AJP 93: 577–83.</bibl>
+                    <bibl>Mikalson, J.D. (1975): The Sacred and Civil Calendar of the Athenian Year, Princeton.</bibl>
+                    <bibl>Mikalson, J.D. (1991): Honor Thy Gods: Popular Religion in Greek Tragedy, Chapel Hill.</bibl>
+                    <bibl>Mitchell-Boyask, R.N. (1993): Sacrifice and Revenge in Euripides’ Hecuba, „Ramus” 22: 116–134.</bibl>
+                    <bibl>Mitchell-Boyask, R.N. (2008): Plague and the Athenian Imagination: Drama, History and the Cult of Asclepius, Cambridge.</bibl>
+                    <bibl>Mitchell-Boyask, R.N. (2009): Aeschylus: Eumenides, London.</bibl>
+                    <bibl>Molin de, A. (1884): De ara apud Graecos, Berolini.</bibl>
+                    <bibl>Montiglio, S. (2000): Silence in the Land of Logos, Princeton.</bibl>
+                    <bibl>Morris, I. (1992): Death­Ritual and Social Structure in Classical Antiquity, Cambridge.</bibl>
+                    <bibl>Morwood, J., ed. (2007): Euripides Suppliant Women with Introduction, Translation and Commentary, Oxford.</bibl>
+                    <bibl>Mossman, J. (2009): Wild Justice. A Study of Euripides’ Hecuba, London.</bibl>
+                    <bibl>Müller, C.W. (1984): Zur Datierung des sophokleischen Ödipus, Wiesbaden.</bibl>
+                    <bibl>Murko, M. (1910): Das Grab als Tisch, „Wörter und Sachen“ 2: 79–160.</bibl>
+                    <bibl>Murr, J. (1890): Die Pflanzenwelt in der griechischen Mythologie, Innsbruck.</bibl>
+                    <bibl>Murray, G. (1937): Aeschylus: Septem quae supersunt Tragoediae, Oxford.</bibl>
+                    <bibl>Naiden, F. (2007): The Fallacy of the Willing Victim, JHS 127, 61–73.</bibl>
+                    <bibl>Naiden, F. (2013): Smoke Signals for the Gods. Ancient Greek Sacrifice from Archaic through Roman Periods, Oxford.</bibl>
+                    <bibl>Nancy, C. (1981): Φάρμακον σωτηρίας: Le mécanisme de sacrifice humain chez Euripide, [in:] Théâtre et spectacles dans l’antiquité. Actes du Colloque de Strasbourg, 5–7 novembre 1981, [Amsterdam]: 17–30.</bibl>
+                    <bibl>Nenci, F., ed. (2004): Euripide Ippolito, Milano.</bibl>
+                    <bibl>Nicklin, T., ed. (1936): The Suppliant Women of Euripides with Introduction and Explanatory Notes, Oxford.</bibl>
+                    <bibl>Nihard, R. (1912): Le problème des Bacchantes d’Euripide, Mus. Belge 16: 91–120, 297–375.</bibl>
+                    <bibl>Norwood, G. (1908): The Riddle of Bacchae, Manchester.</bibl>
+                    <bibl>O’Connor-Visser, E.A.M.E. (1987): Aspects of Human Sacrifice in Euripides, Amsterdam.</bibl>
+                    <bibl>Oliveira Pulquério de, M. (1987–1988): Um testamento ideológico: «As Bacantes» de Eurípides, „Humanitas”: 25–41.</bibl>
+                    <bibl>Oranje, H. (1984): Euripides’ Bacchae. The play and its audience, Leiden.</bibl>
+                    <bibl>Orth, F. (1921): Schwein, RE II(3): 801–815.</bibl>
+                    <bibl>Osborne, R. (1993): Women and Sacrifice in Classical Greece, CQ 43: 392–403.</bibl>
+                    <bibl>Owen, A.S., ed. (1939): Euripides Ion edited with Introduction and Commentary, Oxford.</bibl>
+                    <bibl>Page, D.L., ed. (1967): Euripides Medea. Text Edited with Introduction and Commentary, Oxford.</bibl>
+                    <bibl>Parke, H.W. (1967): Greek Oracles, London.</bibl>
+                    <bibl>Parke, H.W. (1969): The Oracles of Zeus. Dodona, Olympia, Ammon, Oxford.</bibl>
+                    <bibl>Parker, L.P.E., ed. (2007): Euripides, Alkestis. Edited with Introduction and Commentary, Oxford.</bibl>
+                    <bibl>Parker, L.P.E., ed. (2016): Euripides, Iphigenia in Tauris. Edited with Introduction and Commentary, Oxford.</bibl>
+                    <bibl>Parker, R. (1983): Miasma. Pollution and Purification in early Greek Religion, Oxford.</bibl>
+                    <bibl>Parker, R. (1996): Athenian Religion. A History, Oxford.</bibl>
+                    <bibl>Parker, R. (2000): Sacrifice and battle, [in:] H. van Wees (ed.), War and violence in ancient Greece, Swansea: 299–314.</bibl>
+                    <bibl>Parker, R. (2004): Dedications. Greek Dedications. Introduction, Literary and Epigraphical Sources, [in:] ThesCRA, vol. I, Los Angeles.</bibl>
+                    <bibl>Parker, R. (2005a): Polytheism and Society in Athens, Oxford.</bibl>
+                    <bibl>Parker R. (2005b): ὡς ἥρωι ἐναγίζειν, [in:] R. Hägg, B. Alroth (ed.), Greek Sacrificial Ritual, Olympian and Chthonian. Proceedings of the Sixth International Seminar on Ancient Greek Cult, organized by the Department of Classical Archaeology and Ancient History, Göteberg University, 25–27 April 1997, Stockholm: 37–45.</bibl>
+                    <bibl>Parker, R. (2009): Τίς ὁ θύων, [in:] L. Bodiou et al., Chemin faisant. Mythes, cultes et societé en Grèce ancienne. Mélanges en l’honneur de Pierre Brulé, Rennes, 167–171.</bibl>
+                    <bibl>Parker, R. (2011): On Greek Religion, Ithaca–London.</bibl>
+                    <bibl>Paton, W.R., Hicks, E.L., ed. (1891): The Inscriptions of Cos, Oxford.</bibl>
+                    <bibl>Patterson, C.B. (ed.) (2006): Antigone’s Answer: Essays on Death and Burial, family and State in Classical Athens, Helios 33 Supplement, Lubbock, Tex.</bibl>
+                    <bibl>Patzer, H. (1958): Die dramatische Handlung in der Sieben gegen Theben, HSPh 63: 97–119.</bibl>
+                    <bibl>Pearson, A.C., ed. (1909): Euripides, The Phoenissae, Cambridge.</bibl>
+                    <bibl>Peirce, S. (1993): Death, Revelry, and Thysia, CA 12: 219–266.</bibl>
+                    <bibl>Peradotto, J.J. (1969): The Omen of the Eagles and ΗΘΟΣ of Agamemnon, „Phoenix” 23: 237–263.</bibl>
+                    <bibl>Peradotto, J.J. (2007): The Omen of the Eagles and the Ethos of Agamemnon, [in:] M. Lloyd (2007): 211–244.</bibl>
+                    <bibl>Petrovic, A., Petrovic, I. (2016): Inner Purity and Pollution in Greek Religion, vol. 1, Early Greek Religion, Oxford.</bibl>
+                    <bibl>Pfeuffer, H. (1940): Die Gnomik in der Tragödie des Aischylos, Würzburg.</bibl>
+                    <bibl>Philippart, H. (1925): A propos de l’enigme des Bacchantes, Bruxelles.</bibl>
+                    <bibl>Podlecki, A.J. (1964): The Character of Eteocles in Aeschylus’ Septem, TAPA 95: 283–299.</bibl>
+                    <bibl>Podlecki, A.J., ed. (1989): Aeschylus: Eumenides, Warminster.</bibl>
+                    <bibl>Podlecki, A.J. ed. (2005): Aeschylus: Prometheus Bound, Oxford.</bibl>
+                    <bibl>Poe, J.P. (1989): The Altar in the Fifth-Century Theater, CA 8: 16–139.</bibl>
+                    <bibl>Pohlenz, M. (1954): Griechische Tragödie, t. 1, Göttingen.</bibl>
+                    <bibl>Powell, J.U., ed. (1911): The Phoenissae of Euripides. Edited with Introduction and Commentary, London.</bibl>
+                    <bibl>Pozzi, D. (1989): The Metaphor of Sacrifice in Sophocles’ 'Antigone' 853–856, „Hermes” 117(4): 500–505.</bibl>
+                    <bibl>Prag, A.J.N.W. (1985): The Oresteia. Iconographic and Narrative Tradition, Warminster.</bibl>
+                    <bibl>Pritchett, W.K. (1971): The Greek State at War, part 1, Berkeley.</bibl>
+                    <bibl>Pritchett, W.K. (1979): The Greek State at War, part 3, Berkeley.</bibl>
+                    <bibl>Prott von, J., ed. (1896): Leges Graecorum Sacrae e Titulis Collectae, fasc. 1, Lipsiae.</bibl>
+                    <bibl>Pucci, P. (1977): Euripides: The Monument and the Sacrifice, „Arethusa” 10: 165–195.</bibl>
+                    <bibl>Pucci, P. (1980): The Violence of Pity in Euripides’ Medea, Ithaca.</bibl>
+                    <bibl>Pucci, P. (1992): Human Sacrifices in the Oresteia, [in:] R. Hexter, D. Selden (ed.), Innovations of Antiquity, New York–London: 513–536.</bibl>
+                    <bibl>Pulleyn, S. (1997): Prayer in Greek Religion, Oxford.</bibl>
+                    <bibl>Raaflaub, K. (2004): The Discovery of Freedom in Ancient Greece, Chicago.</bibl>
+                    <bibl>Rabe, B. (2008): ΤΡΟΠΑΙΑ. Τροπή und σκῦλα – Entstehung, Funktion und Bedeutung des griechischen Tropaions, Tübinger Archäologische Forschungen 5, Rahden.</bibl>
+                    <bibl>Redard, G. (1953): Recherches sur χρή, χρῆσθαι étude sémantique, Paris.</bibl>
+                    <bibl>Reich, H. (1921): Euripides der Mystiker, [in:] K. von Regling, H. Reich (ed.), Festschrift zu C. E Lehmann-Haupts 60. Geburtstage, Vienna: 89–93.</bibl>
+                    <bibl>Rhodes, P.J., Osborne, R. (2003): Greek Historical Inscriptions 404‒323 B.C., Oxford.</bibl>
+                    <bibl>Richer, N. (2012): La religion des Spartiates. Croyances et cultes dans l’Antiquité, Paris.</bibl>
+                    <bibl>Robinson, D.B. (1979): Helen and Persephone, Sparta and Demeter: the “Demeter Ode” in Euripides’ Helen, [in:] G.W. Bowersock, W. Burkert, M.C.J. Putnam (ed.), Arktouros: Hellenic Studies Presented to. B.M.W. Knox, on the Occasion of his 65th Birthday, Berlin: 162–172.</bibl>
+                    <bibl>Roisman, H.M., Luschnig, C.A.E (2011): Euripides Electra. A Commentary, Norman, OK.</bibl>
+                    <bibl>Romilly de, J. (1994): Tragedia grecka, przekł. I. Sławińska, Warszawa.</bibl>
+                    <bibl>Rose, H.J. (1957a): A Commentary on the Surviving Plays of Aeschylus, t. 1, Amsterdam.</bibl>
+                    <bibl>Rose, H.J. (1957b): The Religion of a Greek Household, Euphrosyne 1: 96–115.</bibl>
+                    <bibl>Rose, H.J. (1958): A Commentary on the Surviving Plays of Aeschylus, t. 2, Amsterdam.</bibl>
+                    <bibl>Rosivach, V.J. (1987): Execution by Stoning in Athens, CA 6: 232–248.</bibl>
+                    <bibl>Rougemont, G., ed. (1977): Corpus des Inscriptions de Delphes, t. 1: Lois sacrées et règlements religieux, Paris.</bibl>
+                    <bibl>Rouse, W.H.D. (1902): Greek Votive Offerings. An Essay in the History of Greek Religion, Cambridge.</bibl>
+                    <bibl>Roux, J. (1970–1972): Euripides. Les Bacchantes, vol. 1–2, Commentaire, Paris.</bibl>
+                    <bibl>Rudhardt, J. (1992): Notions fondamentales de la pensée religieuse et actes constituifs du culte dans la Grèce classique, Genève.</bibl>
+                    <bibl>Rudhardt, J. (2008): Essai sur la religion grecque, [in:] Ph. Borgeaud, V. Pirenne-Delforge (ed.), Opera inedita. Essai sur la religion grecque &amp; Recherches sur les Hymnes orphiques, Liège.</bibl>
+                    <bibl>Sandin, P. (2005): Aeschylus’ Supplices. Introduction and Commentary on vv. 1–523, Lund.</bibl>
+                    <bibl>Sansone, D. (1975): The Sacrifice-Motif in Euripides’ IT, TAPA 105: 283–295.</bibl>
+                    <bibl>Sansone, D. (1979): Notes on the Iphigenia in Tauris of Euripides, „Maia” 31: 237–244.</bibl>
+                    <bibl>Schein, S.L., ed. (2013): Sophocles, Philoctetes, Cambridge.</bibl>
+                    <bibl>Schmitt, J. (1921): Freiwilliger Opfertod bei Euripides: Ein Beitrag zu Seiner Dramatischen Technik, Giessen.</bibl>
+                    <bibl>Schneider, S. (1917): Ze studiów mitologicznych i ludoznawczych, Rozprawy Akademii Umiejętności. Wydział Filologiczny, seria III, t. X (55), Kraków: 73–156.</bibl>
+                    <bibl>Schreckenberg, H. (1964): Ananke. Untersuchungen zur Geschichte des Wortgebrauchs, München.</bibl>
+                    <bibl>Schuddeboom, F.L. (2009): Greek Religious Terminology – Telete &amp; Orgia. A Revised and Expanded English Edition of the Studies by Zijderveld and Van der Burg, Leiden.</bibl>
+                    <bibl>Schwenn, F. (1915): Die Menschenopfer bei den Griechen und Römer, Gießen.</bibl>
+                    <bibl>Seaford, R. (1981): Dionysiac Drama and the Dionysiac Mysteries, CQ 31: 252–275.</bibl>
+                    <bibl>Seaford, R. (1984): Last Bath of Agamemnon, CQ 34: 247–254.</bibl>
+                    <bibl>Seaford, R. (1994): Reciprocity and Ritual: Homer and Tragedy in the Developing City­State, Oxford.</bibl>
+                    <bibl>Seaford, R., ed. (1996): Euripides Bacchae with an Introduction, Translation and Commentary, Warminster.</bibl>
+                    <bibl>Seaford, R. (2017): Sacrifice in Drama: the Flow of Liquids, [in:] S. Hitch, I. Rudhardt (ed.), Animal Sacrifice in the Ancient Greek World, Cambridge: 223–236.</bibl>
+                    <bibl>Séchan, L. (1967): Etudes sur la tragédie grecque dans ses rapports avec la ceramique, Paris.</bibl>
+                    <bibl>Segal, Ch. (1997): Dionysiac Poetics and Euripides' Bacchae, Princeton.</bibl>
+                    <bibl>Seidensticker, B. (1979): Sacrificial Ritual in the Bacchae, [in:] G.W. Bowerstock, W. Burkert, M.C.J. Putnam (ed.), Arktouros. Hellenic Studies Presented to B.M.W. Knox, on the Occasion of his 65th Birthday, Berlin: 181–190.</bibl>
+                    <bibl>Shuckburgh, E.S. (1955): The Oedipus Coloneus of Sophocles with a Commentary, Abridged from the Large Edition of Sir Richard C. Jebb, Cambridge.</bibl>
+                    <bibl>Sidwell, K. (1996): Purification and Pollution in Aeschylus’ Eumenides, CQ 46: 44–57.</bibl>
+                    <bibl>Sinko, T. (1931): Literatura grecka, t. 1–2, Kraków.</bibl>
+                    <bibl>Sjövall, H. (1931): Zeus im altgriechischen Hauskult, Lund.</bibl>
+                    <bibl>Smith, J.Z. (1987): The Domestication of Sacrifice, [in:] Hamerton-Kelly (1987): 191–205.</bibl>
+                    <bibl>Smyth, H.W. (1956): Greek Grammar, Cambridge, Mass.</bibl>
+                    <bibl>Snell, B. (1928): Aischylos und das Handeln im Drama, Lepizig 1928.</bibl>
+                    <bibl>Sokolowski, F., ed. (1969): Lois sacrées des cites grecques, Paris (=LSCG).</bibl>
+                    <bibl>Sokolowski, F. (1979): Τὰ ἔμπυρα: On the Mysteries in the Lydian and Phrygian Cults, ZPE 34: 65–69.</bibl>
+                    <bibl>Sommerstein, A.H., ed. (1989): Aeschylus: Eumenides, Cambridge.</bibl>
+                    <bibl>Sommerstein, A.H., ed. (2008) Aeschylus, vol. 1, Cambridge Mass. (Loeb Classical Library).</bibl>
+                    <bibl>Sourvinou-Inwood, Ch. (1988): Studies in Girls' Transitions: Aspects of the Arkteia and Age Representation in Attic Iconography, Athens.</bibl>
+                    <bibl>Stengel, P. (1880): Die pferdeopfer der Griechen, „Philologus“ 39: 182–185.</bibl>
+                    <bibl>Stengel, P. (1890): ΣΦΑΓΙΑ, „Hermes“ 25: 321–324.</bibl>
+                    <bibl>Stengel, P. (1894): ΠΕΛΑΝΟΣ, „Hermes“ 29: 281–289.</bibl>
+                    <bibl>Stengel, P. (1895): Zu den Attischen Ephebenschriften, „Hermes“ 30: 339–346.</bibl>
+                    <bibl>Stengel, P. (1898): Die griechischen Kultusaltertümer, München.</bibl>
+                    <bibl>Stengel, P. (1910a): ΣΦΑΓΙΑ, ARW 13: 85–91.</bibl>
+                    <bibl>Stengel, P. (1910b): Opferbräuche der Griechen, Leipzig.</bibl>
+                    <bibl>Stengel, P. (1920): Die griechischen Kultusaltertümer, München.</bibl>
+                    <bibl>Stengel, P. (1924): Zu den Griechischen Sakralaltertümern, „Hermes“ 59: 307–321.</bibl>
+                    <bibl>Stephani, L. (1869): Die Vasen-Sammlung der keiserlichen Ermitage, St. Petersburg. Stevens, P.T., ed. (1971): Euripides Andromache edited with Introduction and Commentary, Oxford.</bibl>
+                    <bibl>Stockert, W., ed. (1992): Euripides, Iphigenie in Aulis, Bd. 1–2, Wien.</bibl>
+                    <bibl>Strachan, J.C.G. (1976): Iphigenia and Human Sacrifice in Euripides’ Iphigenia Taurica, CPh 71: 131–140.</bibl>
+                    <bibl>Straten van, F.T. (1988): The God’s Portion in Greek Sacrificial Representations: Is the Tail Doing Nicely?, [in:] R. Hägg, N. Marinatos, G. C. Nordquist (ed.), Early Greek Cult Practice, Stockholm.</bibl>
+                    <bibl>Straten van, F.T. (1995): Hiera kala. Images of Animal Sacrifice in Archaic Classical Greece, Leiden.</bibl>
+                    <bibl>Suárez de la Torre, E. (1997): Neoptolemos in Delphi, „Kernos” 10: 153–176.</bibl>
+                    <bibl>Suchier, R. (1848): De victimis humanis apud Graecos, Marburg.</bibl>
+                    <bibl>Szymanski, Th. (1908): Sacrificia Graecorum in bellis militaria, Marpurgi Cattorum.</bibl>
+                    <bibl>Taplin, O. (2007): Pots and Plays. Interactions between Tragedy and Greek Vase-painting of the Fourth Century B.C., Los Angeles.</bibl>
+                    <bibl>Thomson, G., ed. (1932): Aeschylus, The Prometheus Bound, Cambridge. Thomson, G., ed. (1938): The Oresteia of Aeschylus, Cambridge.</bibl>
+                    <bibl>Thönges-Stringaris, R.N. (1965): Das griechische Totenmahl, MDAI(A) 80: 1–99. Torrance, I.C. (2007): Aeschylus: Seven against Thebes, London.</bibl>
+                    <bibl>Torrance, I.C. (2014): Ways to Give Oaths extra Sanctity, [in:] A.H. Sommerstein, I.C. Torrance (ed.), Oaths and Swearing in Ancient Greece, Berlin: 132–155. Torrance, I.C. (2015): Distorted Oaths in Aeschylus, ICS 40(2): 281–295.</bibl>
+                    <bibl>Trendal, A.D., Webster, T.B.L. (1971): Illustrations of Greek Drama, London.</bibl>
+                    <bibl>Treston, H.J. (1923): Poine. A Study in Ancient Greek Blood-Vengeance, London. Tucker, T.G., ed. (1889): The Supplices of Aeschylus. A Revised Text, New York.</bibl>
+                    <bibl>Turasiewicz, R. (1994): W poszukiwaniu koncepcji ideowej dramatu: „Bachantki”</bibl>
+                    <bibl>Eurypidesa, „Meander” 9–10: 475–485.</bibl>
+                    <bibl>Turasiewicz, R. (1995): Między pobożnością a bezbożnością. Studium religii w dramacie Eurypidesa, Prace Komisji Filologii Klasycznej PAU 23: 23–62.</bibl>
+                    <bibl>Vellacott, Ph. (1975): Ironic Drama. A Study of Euripides’ Method and Meaning, Cambridge.</bibl>
+                    <bibl>Verrall, A.W., ed. (1889): The 'Agamemnon' of Aeschylus, London.</bibl>
+                    <bibl>Verrall, A.W., ed. (1890): Ion of Euripides, Cambridge.</bibl>
+                    <bibl>Verrall, A.W. (1895): Euripides the Rationalist: a Study in the History of Art and Religion, Cambridge.</bibl>
+                    <bibl>Vidal-Naquet, P. (1988): Hunting and Sacrifice in Aeschylus’ Oresteia, [in:] J.P. Vernant, P. Vidal-Naquet (ed.), Myth and Tragedy in Ancient Greece, trans. J. Lloyd, New York: 161–179.</bibl>
+                    <bibl>Waanders, F.M.J. (1976): ΤΕΛΟΣ in Tragedy. Some Remarks, [in:] J.M. Bremer, S.L. Radt, C.J. Ruijgh (ed.), Miscellanea Tragica in Honorem J.C. Kamerbeek, Amsterdam: 475–482.</bibl>
+                    <bibl>Waanders, F.M.J. (1983): The History of ΤΕΛΟΣ and ΤΕΛΕΩ in Ancient Greek, Amsterdam.</bibl>
+                    <bibl>Webster, T.L.B., transl. (1967): The Tragedies of Euripides, London.</bibl>
+                    <bibl>Webster, T.L.B. (1970): An introduction to Sophocles, London.</bibl>
+                    <bibl>West, M.L., ed. (1987): Euripides’ Orestes, Warminster.</bibl>
+                    <bibl>West, M.L., ed. (1990): Aeschyli tragoediae, Stuttgart.</bibl>
+                    <bibl>West, M.L., ed. (1991a): Aeschulus. Choephoroe, Stuttgart.</bibl>
+                    <bibl>West, M.L., ed. (1991b): Aeschylus. Persae, Stuttgart.</bibl>
+                    <bibl>West, M.L., ed. (1991c): Aeschylus. Eumenides, Stuttgart.</bibl>
+                    <bibl>West, M.L., ed. (1992a): Aeschylus. Prometheus, Stuttgart.</bibl>
+                    <bibl>West, M.L., ed. (1992b): Aeschylus. Septem contra Thebas, Stuttgart.</bibl>
+                    <bibl>West, M.L., ed. (1998): Aeschyli Tragoediae cum incerti poetae Prometheo, Stuttgart.</bibl>
+                    <bibl>Whallon, W. (1961): Why is Artemis Angry?, AJP, 82: 78–88.</bibl>
+                    <bibl>Wilamowitz-Moellendorff von, U. (1882): Exkurse zu Euripides Herakliden, „Hermes“ 17: 337–364.</bibl>
+                    <bibl>Wilamowitz-Moellendorff von, U. (1914): Aischylos Interpretationen, Berlin.</bibl>
+                    <bibl>Wilamowitz-Moellendorff von, U. (1923): Griechische Tragödie (XIII), [in:] Griechischen Tragödien, übers. von U. Wilamowitz, Bd. 4, Berlin.</bibl>
+                    <bibl>Wilkins, J., ed. (1993): Euripides Heraclidae. With Introduction and Commentary, Oxford.</bibl>
+                    <bibl>Willink, Ch.W. ed. (1986): Euripides: Orestes, Oxford.</bibl>
+                    <bibl>Winnington-Ingram, R.P. (1948): Euripides and Dionysus. An Interpretation of the Bacchae, Cambridge.</bibl>
+                    <bibl>Winnington-Ingram, R.P. (1976): The Delphic Temple in Greek Tragedy, [in:] J.M. Bremer, S.L. Radt, C.J. Ruijgh (ed.), Miscellanea Tragica in Honorem J.C. Kamerbeek, Amsterdam: 483–500.</bibl>
+                    <bibl>Winnington-Ingram, R.P. (1977): Septem contra Thebas, [in:] T.F. Gould, C.J. Herington (ed.), Yale Classical Studies, vol. 25, Greek Tragedy: 39–41.</bibl>
+                    <bibl>Wolff, E. (1958): Die Entscheidung des Eteokles in den Sieben genen Theben, HSPh 63: 89–95.</bibl>
+                    <bibl>Wright, M. (2005): Euripides’ Escape-Tragedies: A Study of Helen, Andromeda, and Iphigenia among the Taurians, Oxford.</bibl>
+                    <bibl>Yatromanolakis, D., Roilos, P. (ed.) (2004): Greek Ritual Poetics, Washington.</bibl>
+                    <bibl>Yavis, C.G. (1949): Greek Altars. Origins and Typology, Including the Minoan-Mycenaean Offertory apparatus. An Archaeological Study in the History of Religion, Saint Louis.</bibl>
+                    <bibl>Zeitlin, F.I. (1965): The Motif of the Corrupted Sacrifice in Aeschylus’ Oresteia, TAPA 96: 463–508.</bibl>
+                    <bibl>Zeitlin, F.I. (1969): Postscript to Sacrificial Imagery in the Oresteia (Ag. 1235–37), TAPA 97: 645–653.</bibl>
+                    <bibl>Zeitlin, F.I. (1970): The Argive Festival of Hera and Euripides’ Electra, TAPA 101: 645–669.</bibl>
+                    <bibl>Ziehen, L. (1904): Die Bedeutung von ΠΡΟΘΥΕΙΝ, Rh. Mus. 59: 391–404.</bibl>
+                    <bibl>Zieliński, T. (1902): Qaestiuncula Euripidea, Księga pamiątkowa na cześć L. Ćwiklińskiego, Leopoli.</bibl>
+                    <bibl>Zieliński, T. (1923): Dionizos w religii i poezji, „Przegląd Współczesny”, R. II, t. IV: 260–280.</bibl>
+                    <bibl>Zieliński, T. (1925): Tragodoumenon: II De Trimetri Euripidei Evolutione, Kraków.</bibl>
+                    <bibl>Zieliński, T. (1991): Religia starożytnej Grecji. Zarys ogólny. Religia hellenizmu, Wrocław (przedruk wydania drugiego poprawionego z roku 1937, wydanie pierwsze 1921).</bibl>
+                    <bibl>Zwolski, E. (1978): Choreia. Muza i bóstwo w religii greckiej, Warszawa.</bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
