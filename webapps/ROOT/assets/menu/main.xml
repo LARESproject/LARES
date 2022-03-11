@@ -149,7 +149,7 @@
     <item label="Fields and realms" match="local-index-display-html" params="epidoc realms"/>
     <item label="Greek and Latin terms" match="local-index-display-html" params="epidoc word"/>
     <item label="Literary and mythological characters" match="local-index-display-html" params="epidoc myth"/>
-    <item label="Historical figures" match="local-index-display-html" params="epidoc people"/>
+    <item label="Historical figures" match="local-index-display-html" params="epidoc persons"/>
     <item label="Places" match="local-index-display-html" params="epidoc places"/>
   </menu>
   <!--<menu label="Bibliographic concordances" i18n:key="menu-concordance-bibliography" match="local-concordance-bibliography"/>-->
