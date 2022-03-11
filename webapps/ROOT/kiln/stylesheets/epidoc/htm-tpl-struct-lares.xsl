@@ -252,5 +252,23 @@
       <xsl:otherwise><br/></xsl:otherwise>
     </xsl:choose>
   </xsl:template>  
+  
+  <xsl:template priority="10" match="t:note">
+    <span class="popup_box">
+      <sup class="footnote">
+        <xsl:text>[</xsl:text>
+        <xsl:choose>
+          <xsl:when test="@n">
+            <xsl:value-of select="@n"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:text>*</xsl:text>
+          </xsl:otherwise>
+        </xsl:choose>
+        <xsl:text>]</xsl:text>
+      </sup>
+      <span class="popup note"><xsl:apply-templates/></span>
+    </span>
+  </xsl:template>
 
 </xsl:stylesheet>

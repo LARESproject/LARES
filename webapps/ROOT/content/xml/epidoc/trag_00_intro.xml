@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Introduzione</title>
+                <title xml:lang="en">Intro</title>
+                <title xml:lang="pl">Wstęp</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">trag_00_intro</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Wstęp</title>, in Krzysztof Bielawski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Tragedia attycka</title>, Warszawa 2017, pp. 9-11</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-03-11" who="Gaia Fanelli">encoded in XML</change>
+                <change when="2017" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"><!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>W słynnym tekście z roku 1966 Walter Burkert ogłosił, że rytuał ofiarny
+                        przenika całą tragedię („sacrificial rite, which still pervades tragedy”),
+                        na wiele lat – po dziś dzień – konstytuując jeden z podstawowych
+                        kierunków badań nad greckim dramatem. Jednak nie powstało dotąd
+                        całościowe studium źródłowe z pełnym zestawieniem rzeczywistych
+                        nawiązań do ofiary krwawej w zachowanych tekstach tragicznych piątego
+                        wieku. Niniejsza monografia ma na celu uzupełnienie tego braku
+                        i stworzenie źródłowej podstawy do ewentualnego krytycznego przeglądu
+                        dotychczasowych interpretacji zjawiska ofiary, które dominują
+                        w nauce od lat sześćdziesiątych. Stanowi ona filologiczną fenomenologię
+                        ofiary w greckiej tragedii, obejmując wszystkie nawiązania do rytu ofiarnego
+                        w zachowanych tekstach dramatycznych – podaje ich tekst oryginalny,
+                        nowy autorski przekład, uwzględniający techniczną terminologię
+                        religijną w sensie ścisłym, oraz szeroki kontekstowy komentarz – filologiczny,
+                        kulturowy, religioznawczy i – tam, gdzie to możliwe i uzasadnione
+                        – historyczny. Jakkolwiek celem tego opracowania nie jest ani
+                        potwierdzanie, ani obalanie istniejących teorii ofiary w ogólności, czy
+                        też koncepcji roli ofiary w tekstach dramatycznych w szczególności, to
+                        jednak nie można uniknąć odniesień do rozległej literatury przedmiotu.</p>
+                    <p>Literaturę naukową ostatniego półwiecza na temat tragedii greckiej
+                        zdominowały trzy najczęściej przywoływane opracowania:</p>
+                    <p>• pierwszym jest przytoczony wyżej artykuł Waltera Burkerta<note n="1">W. Burkert, Greek Tragedy and Sacrificial Ritual (GRBS 7, 1966, 87–121 =
+                        Kleine Schriften VII, 2007, 1–36); polski przekład autorstwa Pawła Majewskiego:
+                        Tragedia grecka i rytuał ofiarny (przekład niepełny, bez przypisów i ikonografii)</note>, w którym
+                        przekonuje on, że tragedia attycka wywodzi się bezpośrednio </p>
+                    <p>• drugi najczęściej cytowany w opracowaniach na temat tragedii
+                        greckiej tekst to artykuł Fromy Zeitlin2, o rok wcześniejszy od pracy
+                        Burkerta, na temat Ajschylosowej Orestei. Autorka przekonuje
+                        w nim, że – po pierwsze – głównym, jeśli nie jedynym, tematem
+                        dramatu jest ofiara, oraz – po drugie – że ofiara ta jest „zepsuta”
+                        (corrupted). Owo „zepsucie” rozumiane jest tutaj jako odstąpienie
+                        od ustalonego, idealnego kształtu ofiary, określanej jako „normalna”,
+                        „doskonała” lub po prostu „dobra”;</p>
+                    <p>• w trzecim natomiast, znacznie późniejszym opracowaniu3, Albert
+                        Henrichs przekonuje, że w niektórych opisach ofiary w tekstach
+                        dramatycznych (chociaż odwołuje się też do opisu śmierci
+                        Agamemnona w Odysei) mamy do czynienia z „odwróceniem”,
+                        „złamaniem” rytu ofiarnego – perversion.</p>
+                    <p>Wymienione teksty stanowią propozycje spójnych koncepcji interpretacyjnych
+                        rytu ofiarnego w tekstach dramatycznych piątego wieku
+                        i wszystkie zawierają ważkie sądy o kluczowej roli ofiary w całości tragedii
+                        greckiej, jej treści, strukturze i języku. Wszystkie jednak zarazem posługują się materiałem tekstowym niesłychanie wybiórczo, cząstkowo,
+                        tracąc z pola widzenia całość zjawiska w postaci, jaka wyłania się
+                        z zachowanych utworów. Skrajnym exemplum jest artykuł Burkerta,
+                        który dla zbudowania swej teorii posłużył się wyborem 3 (słownie:
+                        trzech) passusów, które trudno uznać za reprezentatywne. Podobnie
+                        zresztą postępują i Zeitlin, i Henrichs – pierwsza opierając się na Orestei,
+                        drugi na Ajasie – niemal metonimicznie wyrokują o całości tekstów
+                        dramatycznych. Odpowiedź na pytanie, czy słusznie, jest możliwa
+                        dopiero po uważnej analizie całości materiału źródłowego. Pozostaje
+                        mieć nadzieję, że monografia ta otworzy drogę do takiej odpowiedzi.</p>
+                    <p>Praca ta powstała w ramach projektu „Ofiara krwawa w Grecji
+                        starożytnej w świetle danych filologicznych”, realizowanego w Uniwersytecie
+                        Jagiellońskim, co oznacza, że znaczne jej partie podlegały
+                        seminaryjnym dyskusjom zespołu badawczego i krytycznej recenzji
+                        Nestora projektu, prof. Włodzimierza Lengauera. Jedno i drugie – dyskusja
+                        i recenzja – miały decydujący wpływ na ostateczny kształt komentarza.
+                        Dziękuję Włodzimierzowi Lengauerowi, Lechowi Trzcionkowskiemu,
+                        Bartkowi Bednarkowi i Przemkowi Biernatowi za wspólną
+                        pracę i życzliwy krytycyzm. Dziękuję także naukowemu Wydawnictwu
+                        Sub Lupa w osobie pani Weroniki Sygowskiej-Pietrzyk za podjęcie
+                        się tego wymagającego zadania wydawniczego, merytoryczną
+                        opiekę i prace redakcyjne najwyższej próby.</p>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

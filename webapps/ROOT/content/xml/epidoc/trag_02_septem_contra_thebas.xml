@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Septem contra Thebas (Ἑπτὰ ἐπὶ Θήβας,
+                    I sette contro Tebe)</title>
+                <title xml:lang="en">Septem contra Thebas (Ἑπτὰ ἐπὶ Θήβας,
+                    Seven against Thebes)</title>
+                <title xml:lang="pl">Septem contra Thebas (Ἑπτὰ ἐπὶ Θήβας,
+                    Siedmiu przeciw Tebom)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">trag_02_septem_contra_thebas</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Septem contra Thebas (Ἑπτὰ ἐπὶ Θήβας, Siedmiu przeciw Tebom)</title>, in Krzysztof Bielawski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Tragedia attycka</title>, Warszawa 2017, pp. 21-36</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-03-11" who="Gaia Fanelli">encoded in XML</change>
+                <change when="2017" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Dramat wystawiony był w Atenach w roku 467 jako trzecia część trylogii,
+                        poprzedzały go Laios i Edyp.</p>
+                    <p>W tragedii poświęconej bratobójczej walce dwóch synów Edypa
+                        przeklętych przez ojca Jacqueline de Romilly (1994: 56) dostrzega dwa
+                        dominujące tematy: atmosferę oblężonego miasta, pod którego mury
+                        podchodzi siedem armii zjednoczonych z Polynejkesem, oraz dramat
+                        człowieka idącego na spotkanie z bratem, z którego ręki poniesie
+                        śmierć, samemu ją równocześnie zadając.</p>
+                    <p>W odniesieniu do postawy Eteoklesa wobec własnej śmierci z rąk
+                        brata wielokrotnie podnoszono teorię „heroicznej samoofiary” za
+                        ocalenie miasta (Opfertode). Na ten temat zob. dyskusję, m.in.: Robert
+                        R. Chodkowski (1994: 104); Albin Lesky (2006: 103); Reginald P. Winnington-
+                        Ingram (1977: 39–41). Zgodnie z tą teorią Eteokles ginie z własnej
+                        woli po to, by uratować Teby. Za taką interpretacją opowiadali się
+                        m.in. Ulrich von Wilamowitz-Moellendorff (1914: 67), Max Pohlenz
+                        (1954: 87), Bruno Snell (1928: 83) oraz Roger Dawe (1964: 36). Lesky
+                        w swojej Tragedii greckiej (2006: 103) składa retoryczne podziękowania
+                        Erwinowi Wolffowi (1958: 89) i Haraldowi Patzerowi (1958: 97) za ostateczne
+                        odrzucenie tej teorii, przy czym jednocześnie ubolewa, że Dawe
+                        „walczy o słuszność tego poglądu w swojej wartościowej pracy” (2006,
+                        z odniesieniem do Dawe 1964). Najpełniejsze, krytyczne i podsumowujące
+                        omówienie dyskusji na ten temat podał Anthony Podlecki w apendyksie
+                        do artykułu The Character of Eteocles in Aeschylus’ Septem (1964:
+                        295–299). Teoria „Opfertode” jest kuszącym, ale błędnym kluczem interpretacyjnym
+                        (por. Torrance 2007: 364, przypis 29), ponieważ w tekście
+                        dramatu nie ma żadnej wskazówki, która by ją uzasadniała.</p>
+                    <p>Odwołania do ofiary krwawej nie pojawiają się często w tym tekście,
+                        jednak w kilku wypadkach przynoszą świadectwa szczególnej
+                        wagi – jak w przypadku sceny ofiarnej podczas przysięgi wojennej lub
+                        wtedy, gdy spośród ofiar krwawych wyraźnie wyodrębnia się ofiara
+                        wróżebna – chresterion.</p>
+                    <p>Manuela Giordano-Zecharya sugeruje (2006: 53–74, zwłaszcza 71–72),
+                        że w perspektywie religijnej mamy w tym dramacie do czynienia z wyraźną
+                        opozycją postawy męskiej, rycerskiej, „hoplickiej” – reprezentowanej
+                        przez Eteoklesa oraz kobiecej – reprezentowanej przez chór. Dla
+                        pierwszej z nich właściwa jest ofiara i modlitwa, a dla drugiej błaganie
+                        – hikezja, lament i modlitwy błagalne (litai). Można dodać, że opozycja
+                        ta widoczna jest także w wersie 267, gdzie „męski” pajan jest połączony
+                        z „żeńską” ololyge (zob. komentarz poniżej). Zdaniem Manueli Giordano-
+                        Zecharya konflikt między chórem i Eteoklesem wskazuje na napięcie
+                        między dwiema postaciami religijności: męską i kobiecą, widoczną
+                        w opozycjach: euche – lite, ofiara – błaganie, kontrola – ekspresja emocji.
+                        W tej interesującej propozycji interpretacyjnej ofiara odgrywa kluczową
+                        rolę jako punkt odniesienia religii polis.</p>
+                    <p>Tekst źródłowy według wydania: West (1992b).</p>
+                </div>
+                <div type="textpart" n="Septem_contra_Thebas_14-15">
+                    <head>Septem contra Thebas 14-15</head>
+                    <p>Passus z prologu wypowiadanego przez Eteoklesa, który wzywa
+                        wszystkich mieszkańców miasta Teby do wysiłku i pomocy – w tych
+                        wersach do pomocy miastu i ołtarzom bogów, opiekunów tej ziemi:</p>
+                    <quote><lb/>πόλει τ᾽ ἀρήγειν καὶ θεῶν ἐγχωρίων
+                        <lb n="15"/>βωμοῖσι, τιμὰς μὴ ᾽ξαλειφθῆναί ποτε.</quote>
+                    <quote><lb n="15"/>(Trzeba, by każdy) pomógł i miastu, i bogów miejscowych
+                        <lb/>Ołtarzom, aby nigdy nie zamazana została (ich) cześć.</quote>
+                    <p>„Ołtarze bogów miejscowych” – θεῶν ἐγχωρίων <w>βωμοί</w> – pojawiają
+                        się tutaj jako metonimia najważniejszych wartości lokalnej wspólnoty:
+                        tradycji ojców, ciągłości kultu i świątyń. Zdaniem Manueli Giordano-
+                        -Zecharya (2006: 58) wspomniane przez Eteoklesa ołtarze (<w>βωμοί</w>) stanowią
+                        religijny symbol tożsamości grupy i zarazem – instytucji państwowej.</p>
+                </div>
+                
+                <div type="textpart" n="Septem_contra_Thebas_42-48">
+                    <head>Septem contra Thebas 42-48</head>
+                    <p>Passus z pierwszej mowy posłańca, który przynosi Eteoklesowi wieści
+                        na temat działań siedmiu wodzów i ich wojsk zbliżających się do
+                        murów Teb. Posłaniec donosi o scenie przysięgi, którą oglądał z murów,
+                        składanej przez siedmiu wodzów szykujących się do ataku na Teby:</p>
+                    <quote><lb/>ἄνδρες γὰρ ἑπτά, θούριοι λοχαγέται,
+                        <lb/>ταυροσφαγοῦντες ἐς μελάνδετον σάκος
+                        <lb/>καὶ θιγγάνοντες χερσὶ ταυρείου φόνου,
+                        <lb n="45"/>Ἄρη τ᾽, ᾿Ενυώ, καὶ φιλαίματον Φόβον
+                        <lb/>ὡρκωμότησαν ἢ πόλει κατασκαφὰς
+                        <lb/>θέντες λαπάξειν ἄστυ Καδμείων βίᾳ,
+                        <lb/>ἢ γῆν θανόντες τήνδε φυράσειν φόνῳ.</quote>
+                    <quote><lb/>Bo oto siedmiu mężów, zuchwałych dowódców,
+                        <lb/>Zaszlachtowało byka, [krew zbierając] do tarczy o czarnych brzegach
+                        <lb/>I rękoma dotknęli byczej krwi,
+                        <lb n="45"/>Na Aresa, Enyo i Grozę chciwą krwi
+                        <lb/>Złożyli przysięgę, że albo miastu zgubę
+                        <lb/>Przynosząc, zniszczą miasto Kadmejczyków siłą,
+                        <lb/>Albo ginąc, własną krew zmieszają z tą ziemią.</quote>
+                    <p>Scena ta stanowi fragmentaryczny, niepełny opis ofiary krwawej
+                        składanej podczas wypowiadania przysięgi – fragmentaryczny, ponieważ
+                        koncentruje się wokół samej przysięgi, a nie pełnego procesu ofiarnego,
+                        który przysiędze towarzyszy i ją potwierdza (Fletcher 2011: 10).
+                        Zdaniem Isabelle Torrance (2007: 48) scena ta należy do najbardziej
+                        uroczystych w greckiej literaturze archaicznej i klasycznej („one of the
+                        most solemn pacts in archaic or classical Greek poetry”). Znaczące, że
+                        została sparodiowana w <title>Lizystracie</title> (185–202) przez Arystofanesa (por.
+                        Bednarek 2017: 192–193).</p>
+                    <p>Ofiara typu sphagia towarzyszyła rytuałowi przysięgi, zwłaszcza
+                        w kontekście przysięgi wojennej. Richard Seaford zwraca uwagę
+                        na podobieństwo ofiary towarzyszącej przysiędze i ofiary składanej
+                        przed bitwą, sugerując, że dla obserwatorów tej sceny z murów Teb
+                        była ona i jednym, i drugim (2017: 223–224).</p>
+                    <p>Przykładów dostarcza już <title>Iliada</title>. W księdze trzeciej (w. 103–107 i 268––
+                        313) Menelaos zarządza złożenie przysięgi dotyczącej wyniku jego pojedynku
+                        z Aleksandrem. Trojanie przywodzą białego barana i czarną owcę,
+                        a Grecy – barana (w. 103). Samo złożenie uroczystej przysięgi poprzedzają
+                        ryty wstępne ofiary krwawej: przyprowadzenie zwierząt i ścięcie im sierści
+                        z głów nożem ofiarnym (zob. Kitts 2005: 140–144) oraz rozdanie tej ściętej
+                        sierści uczestnikom obrzędu przysięgi (w. 273–274: ἀρνῶν ἐκ κεφαλέων
+                        <w>τάμνε</w> τρίχας· αὐτὰρ ἔπειτα / κήρυκες Τρώων καὶ Ἀχαιῶν νεῖμαν
+                        ἀρίστοις). Po wypowiedzeniu samej formuły przysięgi przez Menelaosa
+                        (w. 276–291) następuje zarżnięcie przez niego zwierząt i ułożenie ich na
+                        ziemi (w. 292–293). Przysięga staje się tutaj częścią rytuału ofiary krwawej,
+                        która zobowiązania przysięgi potwierdza, umacnia i nadaje im kategoryczny,
+                        religijny wymiar – dzięki niej bogowie, przyzywani w modlitewnej
+                        formule przysięgi, stają się jej „świadkami” (w. 280: ὑμεῖς <w>μάρτυροι</w>
+                        ἔστε, φυλάσσετε δ᾽ <w>ὅρκια</w> πιστά) i gwarantami (por. Burkert 1985a: 251
+                        oraz komentarz Kirka 1985: 304). Modlitwa następująca po akcie ofiary
+                        (w. 298–301) jest de facto klątwą na tych, którzy mieliby przysięgi nie dotrzymać.
+                        Zabite i wykrwawione ofiary po skończonych obrzędach Priam
+                        przenosi na swój rydwan, po czym odjeżdża. Walter Burkert (1985: 252)
+                        sugeruje, że w tym wypadku zwierzęta przeznaczone są na „profane use”
+                        – rozumie przez to zapewne ich zjedzenie, co jest poglądem trudnym do
+                        udowodnienia. Knur (dzik?) zabity w ofierze jako <w>sphagia</w> (19.265: ῏Η, καὶ
+                        ἀπὸ στόμαχον κάπρου <w>τάμε</w> νηλέϊ χαλκῷ) przy przysiędze Agamemnona
+                        w księdze 19 <title>Iliady</title> (w. 265–268) jest wyrzucany do morza. Brakuje
+                        jednoznacznych świadectw na potwierdzenie tezy, że w epoce archaicznej
+                        mięso zwierząt zabijanych w ofierze typu <w>sphagia</w> w okolicznościach
+                        towarzyszących przysiędze było przeznaczane na posiłek, który zresztą
+                        także musiałby być rytualny i nie należał żadną miarą do kategorii „profane
+                        use”, jak chciałby Burkert. Co gorsza, ten sam autor, w Homo Necans
+                        (1983: 36 oraz przypis 9), wygłosił pogląd, że składający przysięgę „muszą
+                        zjeść mięso ofiary albo przynajmniej <w>splanchna</w>” („Those who swear an oath
+                        […] must eat the meat of the victim as well, or at least the <w>σπλάγχνα</w>”).
+                        Przy tym w przypisie odwołał się wyłącznie do jednego passusu z <title>Herodota</title>
+                        (6.67), w którym mowa jest o „trzymaniu na rękach” – ἐσθεὶς ἐς τὰς
+                        <w>χεῖρας</w>. Błąd ten został powtórzony w Greek Religion (1985: 252 oraz 446, przypis 23) – tym zabawniej, że stosowny przypis do opinii o spożywaniu
+                        splanchna ofiary zabitej przy składaniu ofiary odnosi czytelnika wyłącznie
+                        do… wskazanego wyżej miejsca w Homo Necans. Obydwa dowodzenia
+                        przywołują tylko siebie nawzajem i obydwa są błędne<note n="2">Na błąd ten zwróciła też uwagę Torrance (2014: 142, przypis 47).</note>. W źródłach – cytowanym
+                        powyżej passusie z <title>Herodota</title> oraz u <title>Ajschinesa</title> (1.114) – mowa jest
+                        tylko o kładzeniu części zwierzęcia ofiarnego na ręce składających przysięgę
+                        lub o ich braniu (u Ajschinesa – λαβὼν εἰς τὴν ἑαυτοῦ <w>χεῖρα</w> τὰ ἱερά).
+                        W przypadku relacji Herodota są to <w>splanchna</w>, u Ajschinesa – ogólnie <w>hiera</w>,
+                        oddane przez Włodzimierza Lengauera w przekładzie jako „części święte”
+                        (Lengauer 2004: 90, przypis 209). W okresie klasycznym – jak dowodzi
+                        Bartłomiej Bednarek w swoim komentarzu do <title>Lizystraty</title> Arystofanesa
+                        – podczas Apaturiów mięso zwierzęcia, nad którym składano przysięgę,
+                        było zjadane (por. Bednarek 2017: 191 z odniesieniem do Parker 1996: 105).</p>
+                    <p>Trudno więc dowieść, by przysiędze mogła towarzyszyć zwykła
+                        ofiara typu <w>thysia</w>, nawet jeśli szczególną rolę odgrywały podczas tego
+                        rytuału <w>splanchna</w>, kładzione na rękach osoby składającej przysięgę (na
+                        ten temat zob. też Faraone 1993: 66). Trudno oprzeć się wrażeniu, że
+                        w przypadku przysięgi Menelaosa w <title>Iliadzie</title> taką samą funkcję spełniała
+                        sierść zwierząt ofiarnych rozdana uczestnikom obrzędu przed złożeniem
+                        przysięgi. W przypadku przysięgi Siedmiu w tekście Ajschylosa
+                        mamy z kolei dotykanie rękoma krwi (w. 44: <w>θιγγάνοντες</w> <w>χερσὶ</w>
+                        <w>ταυρείου</w> <w>φόνου</w>, zob. komentarz poniżej, por. Seaford 2017: 225). Burkert
+                        określa ten akt jako „physical contact with the sacred” (1985: 252),
+                        który sprawia, że przysięga jeszcze silniej związuje. Christopher Faraone
+                        przekonuje (1993: 65–67), z przywołaniem pracy McCarthy’ego
+                        (1978: 193–196), że łączenie wypowiadania słów przysięgi z kontaktem
+                        fizycznym z zabitym zwierzęciem lub zwłaszcza z jego wnętrznościami
+                        jest rytuałem pochodzącym z Bliskiego Wschodu.</p>
+                    <p>Ryty ofiarne w omawianym passusie dramatu Ajschylosa obejmują
+                        zabicie byka – <w>ταυροσφαγοῦντες</w>, zebranie krwi w tarczy – ἐς
+                        <w>μελάνδετον</w> <w>σάκος</w>, zanurzenie rąk w krwi byka – <w>θιγγάνοντες</w> <w>χερσὶ</w>
+                        <w>ταυρείου</w> <w>φόνου</w>, złożenie przysięgi – ὡρκωμότησαν.</p>
+                    <p>Przysięga w tym wypadku dotyczy obietnicy obrócenia Teb w gruzy
+                        (πόλει <w>κατασκαφὰς</w> / θέντες λαπάξειν ἄστυ Καδμείων βίᾳ) lub –
+                        w razie niepowodzenia – poniesienia śmierci, dosłownie „zmieszania
+                        z ziemią własnej krwi” (γῆν <w>θανόντες</w> τήνδε <w>φυράσειν</w> <w>φόνῳ</w>).</p>
+                    <p>Szczególną cechą takiej ofiary „wojennej” towarzyszącej przysiędze
+                        jest użycie elementów uzbrojenia – tutaj tarczy. Passus z Wyprawy
+                        Cyrusa (2.2.9, przysięga po bitwie pod Kunaksą) zawiera opis
+                        podobnego rytuału, tym razem z użyciem tarczy, mieczy i włóczni:
+                        ταῦτα δ’ ὤμοσαν, <w>σφάξαντες</w> <w>ταῦρον</w> καὶ <w>κάπρον</w> καὶ <w>κριὸν</w> εἰς
+                        <w>ἀσπίδα</w>, οἱ μὲν ῞Ελληνες <w>βάπτοντες</w> <w>ξίφος</w>, οἱ δὲ βάρβαροι <w>λόγχην</w>.
+                        W perspektywie interpretacji omawianego passusu z Ajschylosa
+                        godny uwagi jest fakt, że częścią obrzędu jest zanurzanie broni we
+                        krwi (<w>βάπτοντες</w>). Przed bitwą pod Platejami Grecy złożyli przysięgę,
+                        przykrywając jednocześnie zabite zwierzęta ofiarne (τὰ <w>σφάγια</w>)
+                        swoimi tarczami (w. 46–47): ταῦτα <w>ὀμοσάντες</w> κατα – / <w>κλύψαντες</w>
+                        τὰ <w>σφάγια</w> ταῖς <w>ἀσπίσι</w> (inskrypcja 88 w edycji Rhodesa i Osborne’a
+                        2003, por. też Krentz 2007: 733–734).</p>
+                    <p>Ofiarę wojenną towarzyszącą przysiędze opisaną przez Ajschylosa
+                        i Ksenofonta można by nazwać „ofiarą do tarczy” (Ajschylos:
+                        <w>ταυροσφαγοῦντες</w> […] ἐς <w>σάκος</w>; Ksenofont: <w>σφάξαντες</w> […] εἰς <w>ἀσπίδα</w>),
+                        to znaczy ofiarą (sphagia) zabijaną na potwierdzenie przysięgi w taki sposób,
+                        by jej krew można zebrać w tarczy, a następnie użyć jej do potwierdzenia
+                        przysięgi (por. Torrance 2014: 142 oraz Torrance 2007: 48–51).</p>
+                    <p>Torrance (2015: 282) zwraca uwagę na fakt, że komentowana scena
+                        jest jedynym znanym nam przykładem rytuału zanurzania rąk we krwi
+                        zabitego zwierzęcia ofiarnego, przyznając też, że bezpośredni kontakt
+                        ze zwierzęciem ofiarnym podczas składania przysięgi jest typowy. Podobnie
+                        Seaford (2017: 224) sugeruje, że scena ta pozostaje w związku
+                        z obowiązującym rytuałem ofiarnym, ale ostateczny kształt nadała jej
+                        poetycka wyobraźnia Ajschylosa celem zintensyfikowania emocji widza
+                        i wzmożenia siły oddziaływania obrazu znanego z praktyki życia
+                        codziennego (podobnie Faraone 1993: 67).</p>
+                    <p>43: <w>ταυροσφαγοῦντες</w> ἐς <w>μελάνδετον</w> <w>σάκος</w> – „zaszlachtowało
+                        byka, [krew zbierając] do tarczy o czarnych brzegach” – <w>ταυροσφαγέω</w>:
+                        compositum złożone z ταῦρος i <w>σφάζω</w>: „zabijać byka na ofiarę”, „składać
+                        byka w ofierze”, „zarzynać byka w ofierze”, „wytaczać krew
+                        z byka przez podcięcie mu gardła”. Jak wyjaśnia scholium do Ajschylosa:
+                        <w>ταυροσφαγοῦντες</w> – <w>ταύρους</w> <w>σφάζοντες</w> oraz wers niżej:
+                        θύοντες. Jest to Ajschylosowe hapax legomenon. Należy wobec tego
+                        przyjmować je wraz ze stworzoną przez niego rekcją: <w>ταυροφαγεῖν</w>
+                        ἐς…, która poszerza pierwotny, etymologiczny sens – i rozumieć jako
+                        „zarzynać byka w taki sposób, by móc skierować strumień krwi do
+                        naczynia”. Do tego wyrażenia z przywołaniem cytatu z Ajschylosa
+                        odwołuje się Eliusz Arystydes (mowa 47.317 w edycji Jebba). Cytuje
+                        go też Pseudo-Longinus w traktacie <title>O wzniosłości </title>(15.5) oraz <title>Stobajos</title>
+                        (3.7.10). Czasownik ten nigdzie indziej niepoświadczony (u Arystofanesa,
+                        <title>Lys</title>. 189, występuje jedynie <w>μηλοσφαγέω</w>), w <title>Trachinkach</title> Sofoklesa
+                        (w. 609) oraz w Aleksandrze <title>Lykofrona</title> (w. 47) pojawia się jedynie
+                        przymiotnik ταυροσφάγος (w tym drugim przypadku w użyciu metaforycznym
+                        – jako określenie lwicy).</p>
+                    <p>44: <w>θιγγάνοντες</w> <w>χερσὶ</w> <w>ταυρείου</w> <w>φόνου</w> – „i rękoma dotknęli byczej
+                        krwi”. „Dotknąć ręką” (<w>θιγγάνειν</w> <w>χερί</w> – por. E. <title>Bacch</title>. 1318, gdzie
+                        zwrot ten stanowi element gestu hikezji lub wyraz czułości) – tutaj
+                        to samo co „zanurzyć dłoń w krwi zebranej w tarczy”. Rzeczownik
+                        <w>φόνος</w> w znaczeniu „krew” występuje jedynie w poezji i zawsze oznacza
+                        wyłącznie krew wypływającą z ran powstałych wskutek zabójstwa
+                        (jak np. w <title>Il</title>. 10, 298 lub w S. <title>Aj</title>. 43). Judith Fletcher (2011: 233) proponuje
+                        tutaj rozumienie phonos jako victim, czyli ciało zabitego na ofiarę
+                        zwierzęcia („each man touched the victim”), zapewne jak u Eurypidesa
+                        w <title>Orestesie</title>, gdzie termin ten dotyczy zwłok ludzkich (1357, 1491).
+                        W kontekście opisanego powyżej zwyczaju dotykania lub wprost trzymania
+                        splanchna ofiary podczas składania przysięgi tłumaczenie takie
+                        wydaje się możliwe, z drugiej strony jednak w przytoczonym wyżej
+                        passusie z <title>Anabazy</title> Ksenofonta znajdujemy wyraźny opis zanurzania
+                        mieczy i włóczni we krwi, co jawi się jako element rytuału ofiary
+                        składanej „do tarczy” (εἰς <w>ἀσπίδα</w>). Torrance (2007: 50 oraz 2014: 142)
+                        w geście zanurzenia ręki we krwi dostrzega „najwyższy stopień podniosłości”.</p>
+                </div>
+                
+                <div type="textpart" n="Septem_contra_Thebas_177-180">
+                    <head>Septem contra Thebas 177-180</head>
+                    <p>Ostatnie wersy parodosu chóru, w którym dziewczęta tebańskie
+                        błagają bogów o ocalenie, ratunek i wsparcie w boju wobec wrogich
+                        wojsk już podchodzących do murów miasta.</p>
+                    <quote><lb/>μέλεσθέ θ᾽ ἱερῶν
+                        <lb/>δαμίων, μελόμενοι δ᾽ ἀρήξατε<note n="3">W edycji Page’a lekcja z cruces: μέλεσθέ θ' ἱερῶν δημίων, / † μελόμενοι
+                            δ' ἀρήξατε †.</note>
+                        <lb/>φιλοθύτων δέ τοι πόλεος ὀργίων
+                        <lb n="180"/>μνήστορες ἐστέ μοι.</quote>
+                    <quote><lb/>I miejcie wzgląd na publiczne ofiary,
+                        <lb/>Troskliwie przybądźcie z pomocą.
+                        <lb/>O świętych miasta obrzędach tych, którzy miłują ofiary
+                        <lb n="180"/>Pamiętajcie!</quote>
+                    <p>177–178: <w>μέλεσθέ</w> θ᾽ <w>ἱερῶν</w> / Δαμίων – „publiczne ofiary”.</p>
+                    <p>179: <w>φιλοθύτων</w> δέ τοι πόλεος <w>ὀργίων</w> – „o świętych miasta obrzędach
+                        tych, którzy miłują ofiary”. Według wykładni LSJ: „o świętych miasta
+                        obrzędach, sprawowanych przez gorliwych wyznawców”. Podlecki
+                        (1964: 289) proponuje przekład: „be mindful of the rites of a city which
+                        loves sacrifices”. <w>Φιλόθυτος</w> – compositum złożone z <w>φίλος</w> i <w>θύω</w>: „kochający
+                        ofiary”, „rozmiłowany w ofiarach”, „gorliwy w składaniu ofiar”.
+                        W tym passusie podstawowym pytaniem interpretacyjnym jest to, czy
+                        przymiotnik ten jest wobec rzeczownika <w>ὀργίων</w> (w genetiwie memoriae
+                        po μνήστορες) przydawką, czy też dopełniaczem. Innymi słowy, czy
+                        mamy tu opisaną pamięć o <w>ὄργια</w>, świętych obrzędach, które są <w>φιλόθυτα</w>
+                        – „rozmiłowane w ofiarach”, co wskazywałoby na sens metaforyczny,
+                        czy też są to <w>ὄργια</w>, święte obrzędy tych (domyślnie: sprawowane przez
+                        tych, należące do tych), którzy są <w>φιλόθυτοι</w> – miłośnikami ofiar, wyrażają
+                        swoją miłość do bogów i tradycji ojców przez składanie ofiar.</p>
+                    <p>Arystofanes (w V. 82), w mowie Ksantiasza, używa przymiotnika
+                        φιλόθυτος w zestawieniu z ciągiem analogicznych compositów złożonych
+                        z komponentu <w>φιλό-</w>, jak <w>φιλόξενος</w> (miłujący przybyszów),
+                        <w>φιλοπότης</w> (miłujący picie), <w>φιλόκυβος</w> (miłujący grę w kości),
+                        <w>φιληλιαστής</w> (miłośnik rozpraw sądowych) – zawsze w odniesieniu
+                        do cech osób, a nie rzeczy. Wskazuje na to też podmiotowy charakter
+                        przymiotnika <w>φίλος</w>. Z tych racji właściwy wydaje się sens dzierżawczy,
+                        a nie przydawkowy formy <w>φιλοθύτων</w> w omawianej frazie:
+                        „święte obrzędy sprawowane przez tych, którzy są rozmiłowani
+                        w ofiarach”. Owo „rozmiłowanie w ofiarach”, w składaniu ofiar może
+                        też być metonimicznie rozumiane jako przejaw ogólnie pojmowanej
+                        „pobożności”. Janina Ławińska-Tyszkowska w swoim przekładzie Os
+                        Arystofanesa oddała <w>φιλόθυτος</w> jako „świętofil” (obok „hazardofil”,
+                        „gościofil” i „sądofil”). Taki szeroki i ogólny sens sugeruje też słownik
+                        Montanariego („celebrated with love, of rites”, s.v.).</p>
+                    <p>Z drugiej strony w charakterystyce Ksenofonta z Aten, podanej
+                        przez Diogenesa Laertiosa (2.56.9) czytamy, że był on: <w>εὐσεβής τε</w>
+                        – „pobożny”, καὶ <w>φιλοθύτης</w> – „gorliwie składał ofiary”, καὶ <w>ἱερεῖα</w>
+                        <w>διαγνῶναι</w> <w>ἱκανός</w> – „potrafił czytać święte znaki”, czyli był biegły we
+                        wróżeniu z ofiar. Taka sekwencja cech – między pobożnością a umiejętnością
+                        wróżenia z ofiar – zdaje się jednak potwierdzać nie tylko etymologiczny,
+                        ale też funkcjonalny związek ze składaniem ofiar.</p>
+                </div>
+                
+                <div type="textpart" n="Septem_contra_Thebas_230-231">
+                    <head>Septem contra Thebas 230-231</head>
+                    <quote><lb n="230"/><emph>ΕΤ</emph>.: ἀνδρῶν τάδ᾽ ἐστί, σφάγια καὶ χρηστήρια
+                        <lb/>θεοῖσιν ἔρδειν, πολεμίων πειρωμένους<note n="4">W edycji Page’a: πολεμίων πειρωμένων.</note></quote>
+                    <quote><lb n="230"/>ET.: Do mężów należy ofiary krwawe i wróżebne
+                        <lb/>Bogom składać<note n="5">Por. przekład Srebrnego, w tym wypadku – w przeciwieństwie do przekładów
+                            anglojęzycznych – poprawny i adekwatny („rzeczą mężów ofiary krwawe
+                            i wróżebne / bogom składać”).</note>, by wrogów wypróbować.</quote>
+                    <p>Passus z długiej wymiany zdań między Eteoklesem i chórem,
+                        w której władca upomina kobiety, by nie roztaczały czarnych wizji klęski
+                        i nie przyzywały na pomoc bogów wobec zbliżających się do Teb
+                        wojsk, ponieważ odbiera to ducha walki i stanowi złą wróżbę. W poprzedzającej
+                        strofie chór powołuje się na moc i ratunek boga, które
+                        są większe od ludzkich wysiłków. Eteokles odpowiada przywołanymi
+                        słowami i konkluduje, że sprawą kobiet jest milczeć, nie przemawiać,
+                        oraz siedzieć w domach (σὸν δ᾽ αὖ τὸ <w>σιγᾶν</w> καὶ <w>μένειν</w> <w>εἴσω</w> <w>δόμων</w>).</p>
+                    <p>230: <w>σφάγια</w> καὶ <w>χρηστήρια</w> – „ofiary krwawe i wróżebne”. Zob.
+                        szczegółowy komentarz do S. <title>Aj</title>. wers 220; por. A. <title>Supp</title>. wers 450 oraz
+                        hasło <w>χρηστήρια</w> w leksykonie.</p>
+                    <p>Komentarz Gregory’ego Hutchinsona do tych wersów przekonuje,
+                        że <w>χρηστήρια</w> są tutaj synonimem <w>σφάγια</w> (1985: 82). Podobnie Podlecki
+                        nie zwraca wystarczającej uwagi na różnicę znaczeń tych pojęć,
+                        chociaż ich zastosowanie uważa za „znaczące” – sugeruje on, że zwrot
+                        σφάγια καὶ χρηστήρια należy rozumieć de facto hendiadycznie jako
+                        „ofiary i dary” („sacrifices and offerings”), tyle że akcent spoczywa na
+                        „pytaniach skierowanych do boga” (por. Podlecki 1964: 291 z przypisem
+                        14 i komentarzem Rose’a 1957a: 180). Jest to trafna intuicja, szkoda,
+                        że niepoparta głębszą analizą leksykograficzną. W pełni świadoma
+                        różnic semantycznych tych dwóch rzeczowników jest Giordano-Zecharya
+                        (2006: 67–68 z przypisem 51 i krytyką komentarza Hutchinsona),
+                        jednak nie oddaje ich w proponowanym przekładzie oraz zdaje się
+                        sugerować, że chodzi tu o wróżenie z ofiar – empyroskopię podczas
+                        spalania części zwierząt na ołtarzu.</p>
+                    <p>Jednak to właśnie w tym passusie wyraźnie widać różnicę między
+                        obydwoma określeniami, szczególnie jeśli wziąć pod uwagę przywołane
+                        przez Hutchinsona opracowania (zwłaszcza Pritchett 1971: 109–115).</p>
+                    <p>Ofiara składana bezpośrednio przed bitwą była nazywana σφάγια
+                        (Stengel 1910a; Szymanski 1908) i niekoniecznie, choć to możliwe, była
+                        związana z pozyskaniem znaków wieszczych (Eitrem 1938: 9–30; Pritchett
+                        1971: 110 oraz – szczególnie – Jameson 1991: 200–203). Zazwyczaj
+                        była to ofiara składana w ostatniej chwili przed atakiem, po to,
+                        by pozyskać wiedzę o przychylności (lub nie) bogów. U Ksenofonta
+                        ofiary składane przed bitwą i połączone z wróżeniem z ofiar określane
+                        są za pomocą terminów <w>θύειν</w>, <w>ἱερά</w> i <w>σφάγια</w>, a zmiana z <w>θύειν</w> na
+                        <w>σφαγιάζομαι</w> (jak np. w An. 1.18.15; 6.4.13–6.5.2) wydaje się znacząca
+                        (Pritchett 1971: 111 i, szczegółowo, Rudhardt 1992: 274–276) i może
+                        wskazywać na to, że <w>σφάγια</w> nie wiąże się bezpośrednio z wróżeniem,
+                        a przynajmniej, że pozyskanie wróżb nie stanowi jej podstawowego
+                        celu<note n="6">Rudhardt (1992: 275) twierdzi, że σφάγια jest rytem przebłagalnym, chociaż
+                            może też być rytem mantycznym („C’est donc encore, de ce point de vue, un
+                            rite propitiatoire; mais c’est aussi comme le sacrifice θύεσθαι un rite mantique”).
+                            Por. też Jameson 1991: 203–204.</note>. W omawianym fragmencie z Ajschylosa mowa jest dokładnie
+                        o ofierze przed bitwą i o dwóch odrębnych sytuacjach ofiarnych:
+                        o przebłagalnej σφάγια, składanej, by pozyskać przychylność bogów
+                        oraz o <w>χρηστήρια</w>, połączonej z pozyskaniem wróżby przed bitwą,
+                        o czym zresztą informuje tekst, w którym Eteokles mówi wyraźnie,
+                        że chodzi o „wypróbowanie wrogów” – πολεμίων πειρωμένων (notabene
+                        Hutchinson 1985: 83 uważa te genetiwy za niezrozumiałe i być
+                        może niepoprawne).</p>
+                    <p>Jest możliwe, żeby σφάγια stały się jednocześnie <w>χρηστήρια</w>, ale
+                        to nie tylko nie oznacza, że są one synonimami, ale jeszcze bardziej
+                        uwypukla ich semantyczną, utrwaloną odrębność: <w>σφάγια</w> nie jest
+                        χρηστήρια i jeśli ma funkcjonować jako taka, trzeba to ze szczególną
+                        mocą podkreślić.</p>
+                    <p>231: <w>θεοῖσιν</w> <w>ἔρδειν</w> – „bogom składać (w ofierze)”. Czasownik
+                        <w>ἔρδω</w>, podobnie jak <w>τελέω</w> (por. Holwerda 1963: passim), obok znaczeń
+                        ogólnych związanych ze „spełnianiem”, „dokonywaniem”, „wykonywaniem”
+                        czegoś, występuje w kontekstach jednoznacznie ofiarnych,
+                        oznaczając – jak tutaj – „spełnienie ofiary”, i jako taki należy do terminów
+                        technicznych języka ofiary sensu stricto. Według Jeana Rudhardta
+                        w języku Homerowym czasownik ten opisuje najpełniej – tak samo
+                        jak <w>ῥέζειν</w> (a przeciwnie do <w>θύειν</w>!) – kompletny, złożony z określonej
+                        sekwencji czynności rytuał ofiarny, poddany surowym rygorom
+                        regulacji obrzędowych (Rudhardt 1992: 253). (Por.: <title>Il</title>. 1.315: <w>ἕρδον</w>
+                        δ᾽ Ἀπόλλωνι <w>τεληέσσας</w> <w>ἑκατόμβας</w>; 2.306: <w>ἕρδομεν</w> ἀθανάτοισι
+                        <w>τεληέσσας</w> <w>ἑκατόμβας</w>; 11.707: <w>ἕρδομεν</w> <w>ἱρὰ</w> θεοῖς; Od. 7.203: ἡμῖν,
+                        εὖθ᾽ <w>ἕρδωμεν</w> ἀγακλειτὰς <w>ἑκατόμβας</w>; 11.132: οἴκαδ᾽ ἀποστείχειν
+                        <w>ἕρδειν</w> θ᾽ <w>ἱερὰς</w> <w>ἑκατόμβας</w>; 13.350: <w>ἕρδεσκες</w> Νύμφῃσι <w>τεληέσσας</w>
+                        <w>ἑκατόμβας</w>; 23.279: οἴκαδ᾽ ἀποστείχειν <w>ἕρδειν</w> θ᾽ <w>ἱερὰς</w> <w>ἑκατόμβας</w>;
+                        także u Hezjoda: Theog. 417: <w>ἔρδων</w> <w>ἱερὰ</w> καλὰ κατὰ νόμον ἱλάσκηται;
+                        Op. 136: ἤθελον οὐδ᾽ <w>ἔρδειν</w> μακάρων <w>ἱεροῖς</w> ἐπὶ βωμοῖς; 337: Κὰδ
+                        δύναμιν δ᾽ <w>ἔρδειν</w> <w>ἱέρ</w>᾽ ἀθανάτοισι θεοῖσιν).</p>
+                </div>
+                
+                <div type="textpart" n="Septem_contra_Thebas_267-276">
+                    <head>Septem contra Thebas 267-276</head>
+                    <p>Passus z mowy Eteoklesa kończącej długi spór z chórem na temat
+                        tego, jaką postawę należy przyjąć wobec zbliżających się wojsk nieprzyjaciół.
+                        Domaga się on od chóru tebańskich dziewcząt zaprzestania
+                        zawodzenia, odstąpienia od języka trwogi i obaw, które łamią ducha
+                        przed nadchodzącą bitwą. Zamiast tego wzywa do zanoszenia modlitw
+                        do bogów, wznoszenia pieśni i okrzyków.</p>
+                    <quote><lb n="267"/>ἔπειτα σὺ
+                        <lb/>ὀλολυγμὸν ἱερὸν εὐμενῆ παιώνισον,
+                        <lb/>Ἡλληνικὸν νόμισμα θυστάδος βοῆς,
+                        <lb n="270"/>θάρσος φίλοις, λύουσα πολέμιον φόβον.
+                        <lb/>ἐγὼ δὲ χώρας τοῖς πολισσούχοις θεοῖς,
+                        <lb/>πεδιονόμοις τε κἀγορᾶς ἐπισκόποις,
+                        <lb/>Δίρκης τε πηγαῖς ὕδατί τ᾽ ᾿Ισμηνοῦ λέγω,
+                        <lb/>εὖ ξυντυχόντων καὶ πόλεως σεσωμένης,
+                        <lb n="275"/>μήλοισιν αἱμάσσοντας ἑστίας θεῶν,
+                        <lb/>ταυροκτονοῦντας θεοῖσιν ὧδ᾽ ἐπεύχομαι<note n="7">W edycji Page’a: ταυροκτονοῦντας θ᾽ οἷσιν ὧδ᾽ ἐπεύχομαι.</note></quote>
+                    <quote><lb n="267"/>Następnie ty
+                        <lb/>Wznieś jak pajan, święty, miły zaśpiew,
+                        <lb/>Według greckiego zwyczaju ofiarnego zawołania.
+                        <lb n="270"></lb>Dla przyjaciół – wzmocnienie, które uwalnia od lęku przed wrogiem.
+                        <lb/>Oto ja bogom zamieszkującym w miastach tej krainy,
+                        <lb/>Bogom pól i stróżom agory,
+                        <lb/>Źródłom Dirki i wodom Ismenu powiadam:
+                        <lb/>Jeśli los będzie nam sprzyjać i miasto zostanie ocalone,
+                        <lb n="275"/>Krwią zwierząt zbroczymy ołtarze bogów,
+                        <lb/>I byki złożymy w ofierze bogom, do których te zanoszę modlitwy.</quote>
+                    <p>W odpowiedzi na wezwania modlitewne chóru Eteokles w tych
+                        słowach składa ślub, że złoży liczne ofiary bogom, jeśli los pozwoli
+                        mu odeprzeć atak i ocalić miasto. Dalsze wersy zawierają obietnicę budowania
+                        tropajonów i zwieńczania świątyń wojennymi zdobyczami.
+                        Wzywa chór do wzniesienia okrzyków <w>ὀλολυγμός</w> i <w>βοή</w> – pierwszy
+                        z nich jest par excellence związany z rytuałem ofiarnym, wspomnianym
+                        kilka wersów niżej, drugi natomiast – opatrzony przymiotnikiem
+                        w technicznym, ofiarniczym znaczeniu: <w>θυστάς</w>.</p>
+                    <p>268: <w>ὀλολυγμὸν</w> ἱερὸν εὐμενῆ παιώνισον – tutaj <w>ὀλολυγμός</w> to
+                        okrzyk rytualny towarzyszący ofierze krwawej (Gernet 1983: 247–257;
+                        Pulleyn 1997: 180; J. Collins 1999; Lupaş, Petre 1981: 194; por. też Burkert
+                        1966: 108 z przypisem 48). Razem z thystas boe występuje w dość
+                        oczywistym kontekście zapowiedzi ofiary, która zostanie złożona po
+                        zwycięstwie. W połączeniu jednak z pajanem (<w>παιώνισον</w>) można
+                        uznać tutaj podwójne znaczenie tego terminu: okrzyku towarzyszącego
+                        ofierze i okrzyku wojennego, rozpoczynającego militarne starcie
+                        (por. Lonis 1979: 117 i nn.). Herbert Rose (1957a: 183) sugeruje, że
+                        w tym miejscu pajan należy rozumieć jako „any kind of joyful noise”,
+                        jednak wydaje się, że dzeugmatyczny związek zarówno z obrazem
+                        ofiary, jak i z nadchodzącym starciem wojennym ma tutaj istotne znaczenie,
+                        które zdecydowanie zacieśnia pole semantyczne ku sensom
+                        technicznym, nie ogólnym.</p>
+                    <p>269: <w>θυστάδος</w> <w>βοῆς</w> – „ofiarne zawołanie”, tj. okrzyk towarzyszący
+                        składaniu ofiary. <w>Θυστάς</w> zob. S. Ant. 1019 (por. komentarz
+                        do tego passusu poniżej). (Inne wystąpienia do hasła leksykonu:
+                        E. Fr. 1101.1 [bez kontekstu, pojedynczy wyraz], scholia do Ajschylosa:
+                        θυστάδος· τῆς παρὰ ταῖς <w>θυσίαις</w> γινομένης [269g.2, również
+                        269m.1]; Ἑλληνικὸν νόμισμα <w>θυστάδος</w> <w>βοῆς</w>· ἤγουν κατὰ τὸν
+                        νόμον τὸν Ἑλληνικὸν τῆς <w>βοῆς</w> τῆς περὶ τὰς <w>θυσίας</w> γινομένης,
+                        ἤγουν ὡς νενόμισται τοῖς Ἕλλησι παρὰ ταῖς <w>θυσίαις</w> <w>ὀλολύζειν</w>
+                        [269a.1–3]).</p>
+                    <p>275: <w>μήλοισιν</w> – τὸ <w>μῆλον</w> jest zbiorczym rzeczownikiem stosowanym
+                        na oznaczenie inwentarza, najczęściej mniejszych zwierząt domowych:
+                        owiec i kóz (jakkolwiek nie tylko). W pluralis zwykle oznacza
+                        zbiorczo „owce”, jak np. w <title>Il</title>. 9.406 i <title>Od</title>. 9.438, a także u A. <title>Eu</title>. 943
+                        i S. <title>Aj</title>. 601.</p>
+                    <p>275: <w>αἱμάσσοντας</w> – <w>αἱμάσσω</w>: „plamić krwią”, „brudzić krwią”,
+                        „okrwawić”. Tutaj jako metonimia ofiary znaczy tyle, co „złożyć ofiarę
+                        krwawą” – skrapianie ołtarza krwią stanowi element obrzędu ofiarnego.
+                        Fakt rozlania krwi i skropienia nią ołtarza Burkert uważa za
+                        element kluczowy aktu ofiarnego – ofiara „krwawa” oznacza rozlew
+                        krwi i dotyczy tylko ciepłokrwistych zwierząt, głównie ssaków (por.
+                        Burkert 1985a: 56 i 59; Burkert 1983: 5 z przypisem 20; Stengel 1910b:
+                        18 i nn.; także Burkert 1966: 108 z przypisem 49).</p>
+                    <p>275: <w>ἑστίας</w> θεῶν – „ołtarze bogów”; dosłownie: „paleniska” płonące
+                        na ołtarzach, tutaj: metonimicznie na określenie ołtarza.</p>
+                    <p>276: <w>ταυροκτονοῦντας</w> – <w>ταυροκτονέω</w> = <w>ἀποκτείνειν</w> τοὺς <w>ταύ-
+                        ρους</w>, „zabijać byki” (jak notują scholia do tego miejsca: <w>ταυροκτονοῦντας</w>:
+                        <w>ταύρους</w> <w>σφάττοντας</w>; <w>ταυροκτονοῦντας</w>: <w>θύοντας</w> <w>ταύρους</w>).
+                        Oprócz tego passusu czasownik ten w tekstach z epoki klasycznej
+                        występuje jeszcze tylko raz u S. <title>Trach</title>. (w. 760: <w>ταυροκτονεῖ</w> μὲν
+                        δώδεκ(α) […] / […] βοῦς). W obydwu tych lokalizacjach oznacza zabijanie
+                        byków w kontekście rytuału ofiary.</p>
+                </div>
+                
+                <div type="textpart" n="Septem_contra_Thebas_377-379">
+                    <head>Septem contra Thebas 377-379</head>
+                    <quote><lb/>Τυδεὺς μὲν ἤδη πρὸς πύλαισι Προιτίσιν
+                        <lb/>βρέμει, πόρον δ᾽ Ἰσμηνὸν οὐκ ἐᾷ περᾶν
+                        <lb/>ὁ μάντις· οὐ γὰρ σφάγια γίγνεται καλά.</quote>
+                    <quote><lb/>Tydeus już u bram Projtowych
+                        <lb/>Ryk podnosi, wieszczek jednak nie pozwala mu wód Ismenu przekroczyć:
+                        <lb/>Ofiary bowiem nie wypadły pomyślnie.</quote>
+                    <p>Początek pierwszej mowy posłańca, który donosi Eteoklesowi
+                        o ruchach wojsk podchodzących pod mury miasta. Passus mówi
+                        o wojsku stojącym u bramy od strony koryta Ismenu i relacjonuje
+                        przebieg ofiary przed bitwą – <w>σφάγια</w>, która nie przyniosła pomyślnych
+                        znaków, budząc złość wojska i Tydeusa. Mimo sprzeciwów
+                        wieszczka interpretującego znaki wojsko ostatecznie jednak rusza do
+                        boju i przekracza rzekę, nacierając na mury (w. 794–796). Zastanawiające,
+                        że w swych odpowiedziach ani Eteokles, ani chór nie odnoszą
+                        się do tej wróżby. Eteokles dostrzega jedynie złowróżbny znak
+                        w szaleństwie (w. 402: ἡ ἀνοία) atakujących, jednak zdaje się rozumieć
+                        to szaleństwo raczej jako zadufanie i pychę niż jako nieposłuszeństwo
+                        znakom.</p>
+                    <p>379: οὐ γὰρ <w>σφάγια</w> γίγνεται καλά – „ofiary bowiem nie wypadły
+                        pomyślnie”. Sphagia pojawia się tutaj jednoznacznie jako ofiara składana
+                        przed bitwą, która z jednej strony ma zjednać przychylność bogów,
+                        z drugiej dostarczyć znaków ich życzliwości, bez której nie można rozpocząć
+                        bitwy. Zob. komentarz powyżej do wersu 230.</p>
+                </div>
+                
+                <div type="textpart" n="Septem_contra_Thebas_698-701">
+                    <head>Septem contra Thebas 698-701</head>
+                    <quote><lb/><emph>ΧΟΡΟΣ</emph>:
+                        <lb/>ἀλλὰ σὺ μὴ ᾽ποτρύνου· κακὸς οὐ κεκλή-
+                        <lb/>σῃ βίον εὖ κυρήσας· μελάναιγις ἔξ-
+                        <lb n="700"/>εισι δόμων Ἐρινύς, ὅταν ἐκ χερῶν
+                        <lb/>θεοὶ θυσίαν δέχωνται.</quote>
+                    <quote><lb/><emph>CHÓR</emph>:
+                        <lb/>Jednak się nie spiesz: nikt nie nazwie cię złym,
+                        <lb/>Jeśli zachowasz życie; Erynia z czarną egidą
+                        <lb n="700"/>Odejdzie z domu, jeśli z rąk
+                        <lb/>Bogowie przyjmą ofiarę.</quote>
+                    <p>Passus z kommosu pomiędzy Eteoklesem i chórem. W strofie tej
+                        chór reaguje na słowa Eteoklesa, który zdradza świadomość Edypowej
+                        klątwy i gotowość poniesienia i zła, i hańby, i śmierci w bratobójczej
+                        walce. Chór sugeruje, by bohater starał się odwrócić los przez złożenie
+                        ofiary (por. komentarz DeVito 1999: 166, przypis 5). Podlecki (1964:
+                        298) nazywa tę sugerowaną przez chór ofiarę wprost apotropaiczną –
+                        taką, której celem jest odwrócenie złych sił Erynii.</p>
+                    <p>701: θεοὶ <w>θυσίαν</w> <w>δέχωνται</w> (ἄν) – „bogowie przyjmą ofiarę”. Kategoria
+                        „przyjęcia ofiary” (<w>δέχεσθαι</w> <w>θυσίαν</w>) jest istotnym elementem
+                        teologii ofiary: musi ona zostać przyjęta przez boga (por. Il. 2.420). W niniejszym
+                        passusie jest to szczególnie uwypuklone przez wyobrażenie
+                        przyjęcia ofiary bezpośrednio z rąk – <w>ἐκ χερῶν</w> – Eteoklesa.</p>
+                </div>     
+            </div>
+        </body>
+    </text>
+</TEI>

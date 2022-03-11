@@ -444,6 +444,10 @@ a:link.button, a:visited.button, a:focus.button, a:hover.button, a:active.button
     color: #005471 !important;
 }
 
+.footnote {
+    color: #005471;
+}
+
 
 #toggle_buttons button {
     margin: 5px;
@@ -481,6 +485,11 @@ a:link.button, a:visited.button, a:focus.button, a:hover.button, a:active.button
     color: white;
     background-color: #546979;
     width: 200px;
+}
+
+/* wider popup for footnotes */
+.note {
+    width: 600px;
 }
 
 
