@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Supplices (Ἱκέτιδες, Le Supplici)</title>
+                <title xml:lang="en">Supplices (Ἱκέτιδες, The Suppliants)</title>
+                <title xml:lang="pl">Supplices (Ἱκέτιδες, Błagalnice)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">trag_03_supplices</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Supplices (Ἱκέτιδες, Błagalnice)</title>, in Krzysztof Bielawski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Tragedia attycka</title>, Warszawa 2017, pp.  37-45</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-03-17" who="Gaia Fanelli">encoded document in XML</change>
+                <change when="2017" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p><title>Błagalnice</title> do roku 1952 uchodziły za najstarszą ze sztuk Ajschylosa,
+                        za utwór reprezentujący tragedię liryczną i wczesne stadium rozwoju
+                        gatunku. Opublikowanie w roku 1952 przez Edgara Lobela
+                        w 20 tomie <title>Oxyrynchus Papyri </title>szczątkowych didaskaliów do trylogii
+                        o Danaidach (fr. 2256.3) pozwoliło ustalić ich wystawienie na
+                        rok 463. <note>8 Pełne dane bibliograficzne na ten temat zob. np. Lesky 2006: 83, przypis
+                            32 oraz 106, przypis 69; por. też Chodkowski 1994: 109–111; Garvie 1969: 1–28.</note></p>
+                    <p>Tematem tragedii jest hikesia kobiet uciekających przed braćmi
+                        z Egiptu do Argos, co z jednej strony sytuuje jej tematykę w obszarze
+                        stricte religijnym, a z drugiej zawęża ten obszar tak dalece, że
+                        temat rytualnego błagania staje się nie tylko dominujący, ale w zasadzie
+                        jedyny – wszelkie inne aspekty religijnego obrazowania są
+                        poddane tej jedynej optyce.</p>
+                    <p>W <title>Błagalnicach</title> Ajschylosa temat ofiary krwawej explicite pojawia
+                        się jedynie w dwóch passusach, i to również w funkcjach niejednoznacznych,
+                        metaforycznych. Intrygująca jest niemal całkowita
+                        nieobecność jakiejkolwiek terminologii ofiarniczej w tekście sztuki.
+                        Thyo występuje tylko dwa razy: wersy 450, 981 (por. komentarze
+                        poniżej), thysia, sphagia, sphazo – czy jakiekolwiek ich pochodne –
+                        ani razu.</p>
+                    <p>W sztuce wielokrotnie wzmiankowano o ołtarzach (bomoi: w. 83,
+                        190, 372, 482, 494, 501, 655, 751), jednak zawsze w oderwaniu od
+                        rytów ofiarnych, a jedynie jako miejsca hikezji i azylu.</p>
+                    <p>Tekst grecki według edycji: West (1998, 123–185).</p>
+                </div>
+                <div type="textpart" n="Supplices_190">
+                    <head>Supplices 190</head>
+                    <p>Wers z pierwszej przemowy Danaosa, następującej od razu po parodosie
+                        błagalnic, w którym zachęca swe córki, by były roztropne, odważne
+                        i nie wahały się błagać o azyl.</p>
+                    <quote><lb n="190"/>κρεῖσσον δὲ πύργου βωμός, ἄρρηκτον σάκος.</quote>
+                    <quote><lb n="190"/>Potężniejszy od twierdzy ołtarz, tarcza niezłomna.</quote>
+                    <p><w>Bomos</w>, jakkolwiek związany bezpośrednio z terminologią ofiarniczą
+                        jako miejsce składania ofiary, pojawia się tutaj jedynie jako miejsce
+                        rytualnej hikezji, czyli rytualnego azylu, i stąd bierze się podkreślona
+                        w tym gnomicznym wersie jego siła. Jest metaforycznie porównany do
+                        zdecydowanie militarnych obrazów: twierdzy obronnej i tarczy (na temat
+                        funkcji gnomy w kształtowaniu charakteru Danaosa zob. Pfeuffer
+                        1940: 94–95; zob. też komentarz Johansena, Whittle’a 1980, vol. 1: 152).
+                        361–</p>
+                </div>
+                
+                <div type="textpart" n="Supplices_361-365">
+                    <head>Supplices 361-365</head>
+                    <p>Passus z pieśni chóru, który zwraca się wprost do Pelazgosa, przekonując
+                        go do przyjęcia błagalnic. Król waha się, świadom zagrożenia
+                        dla całego miasta, jakie musi pociągnąć za sobą podążenie za religijnym
+                        prawem.</p>
+                    <quote><lb n="361"/>σὺ δὲ παρ᾽ ὀψιγόνου μάθε γεραιόφρων·
+                        <lb/>ποτιτρόπαιον αἰδόμενος οὐ λιπερ
+                        <lb break="no"/>νὴς ∪ ∪ – ∪ – >
+                        <lb/>† ἱεροδόκα † θεῶν
+                        <lb n="365"/>λήματ᾽ ἀπ᾽ ἀνδρὸς ἁγνοῦ.</quote>
+                    <quote><lb/>Ty zaś od później urodzonej się ucz, chociaż masz mądrość starości,
+                        <lb/>Okazując szczodrze szacunek temu, kto zwraca się ku tobie
+                        [z błaganiem],
+                        <lb/>Niepozbawiony ofiar przyjętych przez bogów
+                        <lb/>Od człowieka o czystym sercu.</quote>
+                    <p>Wersy 363–364 są uszkodzone i ich sens jest niejasny, możliwe interpretacje,
+                        suplementacje i tłumaczenia opierają się wyłącznie na komentarzu
+                        scholiasty, przekazującym ogólny sens całej frazy. Wers 363 nie
+                        zachował się w ogóle. Z całą pewnością passus zawiera obraz człowieka,
+                        który jest „czystego serca” (ἀπ᾽ ἀνδρὸς <w>ἁγνοῦ</w>) i powinien okazać
+                        szacunek tym, którzy się do niego zwracają o pomoc (<w>ποτιτρόπαιον</w>
+                        <w>αἰδόμενος</w>), oraz bogów, którzy przyjmują ofiary († <w>ἱεροδόκα</w> † <w>θεῶν</w>
+                        – na temat innych dyskutowanych możliwych lekcji i suplementacji
+                        tego wersu zob. West 1998: 146 apparatus; Sommerstein 2008: 338 oraz
+                        Johansen, Whittle 1980, vol. 1: 292–293).</p>
+                    <p>364: <w>ἱεροδόκα</w> – <w>ἱεροδόκος</w> to Ajschylosowe hapax legomenon. Oznacza
+                        kogoś, „kto przyjmuje ofiary” (LSJ: receiving sacrifices). Z powodu
+                        złego zachowania tych wersów nie można ustalić rzeczywistej składni
+                        całej frazy, brakuje w niej formy czasownikowej. Objaśnienia scholiastów
+                        do tego miejsca tłumaczą: <w>ἱεροδόκα</w> ἁγνοῦ>] οἱ θεοὶ δέχονται τὰ
+                            ἀπὸ ἀνδρὸς ἁγνοῦ ἱερά: „bogowie przyjmują ofiary od człowieka czystego”.
+                            Złożenia przymiotnikowe z -δόκος, jak <w>θυόδοκος</w> (por. E. I. 511
+                            – jako przydawka do δόμος, w znaczeniu „świątynia wypełniona dymem
+                            [kadzideł]), <w>μηλοδόκος</w> (por. Pi. P. 3.27 – jako przydawka do Delf
+                            [Pytho], które przyjmują ofiary z owiec) występuje zwykle w języku
+                            religijnym w odniesieniu do miejsc, nie do osób (Tucker 1889: 82). W niniejszym
+                            passusie <w>ἱεροδόκος</w> zdaje się określać <w>λήματα</w> <w>θεῶν</w> – to zamysły
+                            bogów, podług swej woli przyjmują ofiary. Większość przekładów
+                            tego passusu, idąc za tą myślą i za sugestią scholiasty, w ogóle pomija
+                            <w>λήματα</w>, pozostawiając ogólny sens: „bogowie przyjmują ofiary od ludzi
+                            czystego serca”. Brak kluczowego wersu, zawierającego zapewne
+                            orzeczenie zdania, uniemożliwia przyjęcie stanowiska, które mogłoby
+                            uchodzić za kategoryczne i ostatecznie rozstrzygające.</p>
+                    <p>365: ἀπ᾽ <w>ἀνδρὸς</w> <w>ἁγνοῦ</w> – „od człowieka czystego”, to znaczy „o czystym
+                        sercu”. Związek „czystości [serca]” i swoistej dyspozycji wewnętrznej
+                        ofiarnika z rytuałem ofiarnym pojawia się u Platona i Ajschinesa (zob.
+                        A. Petrovic i I. Petrovic 2016, passim). Platon, <title>Lg</title>. 716e kładzie nacisk na
+                        „czystość” – lub jej brak – „duszy” (<w>ἀκάθαρτος</w> γὰρ τὴν <w>ψυχὴν</w> ὅ γε
+                        <w>κακός</w>, <w>καθαρὸς</w> δὲ ὁ <w>ἐναντίος</w>) oraz na silny związek samej możliwości
+                        przyjęcia daru (οὔτε <w>θεὸν</w> ἔστιν ποτὲ τό γε <w>ὀρθὸν</w> <w>δέχεσθαι</w>) przez bogów
+                        z tą dyspozycją: <w>ἀκάθαρτος</w> γὰρ τὴν <w>ψυχὴν</w> ὅ γε <w>κακός</w>, <w>καθαρὸς</w>
+                        δὲ ὁ <w>ἐναντίος</w>, παρὰ δὲ <w>μιαροῦ</w> <w>δῶρα</w> οὔτε <w>ἄνδρ</w>᾽ <w>ἀγαθὸν</w> οὔτε <w>θεὸν</w>
+                        ἔστιν ποτὲ τό γε <w>ὀρθὸν</w> <w>δέχεσθαι</w>. Por. też Ajschines 3.121, który mówi
+                        o ludziach oskarżonych o bezbożność (μηδ᾽ ὁσίως, φησί, <w>θύσειαν</w> οἱ
+                        μὴ τιμωροῦντες τῷ Ἀπόλλωνι μηδὲ τῇ Ἀρτέμιδι μηδὲ τῇ Λητοῖ μηδ᾽
+                        Ἀθηνᾷ Προνοίᾳ) i twierdzi, że bogowie mogą nie przyjmować od nich
+                        ofiar (μηδὲ <w>δέξαιντο</w> αὐτῶν τὰ <w>ἱερά</w>).</p>
+                </div>
+                
+                <div type="textpart" n="Supplices_370-372">
+                    <head>Supplices 370-372</head>
+                    <quote><lb n="370"/>σύ τοι πόλις, σὺ δὲ τὸ δήμιον·
+                        <lb/>πρύτανις ἄκριτος ὤν,
+                        <lb/>κρατύνεις βωμόν, ἑστίαν χθονός.</quote>
+                    <quote><lb n="370"/>Ty jesteś miasto, tyś lud!
+                        <lb/>Jako władca niepodległy sądowi
+                        <lb/>Władasz ołtarzem, ofiarnym ogniem [tej] ziemi.</quote>
+                    <p>373<!-- forse 372 -->: <w>κρατύνεις</w> <w>βωμόν</w> – „władasz ołtarzem”. Możliwe, że władza
+                        króla w czasach heroicznych obejmowała także bezpośrednią władzę
+                        religijną i przewodniczenie rytuałom (Johansen, Whittle 1980, vol. 2:
+                        297 z przywołaniem Arist. <title>Pol</title>. 1285b9–11, 1285b22: <w>στρατηγός</w> τε γὰρ
+                        ἦν καὶ <w>δικαστὴς</w> ὁ <w>βασιλεύς</w>, καὶ τῶν πρὸς τοὺς θεοὺς <w>κύριος</w>).</p>
+                    <p>373<!-- forse 372 -->: <w>ἑστίαν</w> <w>χθονός</w> – <w>ἑστία</w> – palenisko ołtarza, tutaj metonimicznie
+                        na określenie ołtarza jako symbolicznego serca całego kraju (<w>χθών</w>).</p>
+                </div>
+                
+                <div type="textpart" n="Supplices_450-451">
+                    <head>Supplices 450-451</head>
+                    <p>Passus z komosu między chórem błagalnic i Pelazgosem, który odpowiada
+                        kobietom na ich wezwanie do namysłu nad tym, co należy czynić
+                        w zaistniałej sytuacji oraz do działania zgodnego z prawami boskimi.</p>
+                    <quote><lb n="450"/>δεῖ κάρτα θύειν καὶ πεσεῖν χρηστήρια
+                        <lb/>θεοῖσι πολλοῖς πολλά, πημονῆς ἄκη.</quote>
+                    <quote><lb n="450"/>Bardzo trzeba składać ofiary i wiele ofiar wróżebnych
+                        <lb/>Dla wielu bogów musi paść, jako ratunek przed klęską.</quote>
+                    <p>Ten niełatwy passus wymaga szczególnej uwagi ze względu na
+                        wyraźne wystąpienie w nim rozróżnienia między ofiarą krwawą
+                        w ogólnym, szerokim znaczeniu tego słowa oraz ofiarą wróżebną –
+                        χρηστήρια, w szczególnym zwrocie <w>πεσεῖν</w> <w>χρηστήρια</w>.</p>
+                    <p>Zob. szczegółowy komentarz do S. <title>Aj</title>., wers 220 oraz A. <title>Th</title>., wers 230;
+                        por. też hasło <w>χρηστήρια</w> w leksykonie.</p>
+                    <p>O ile w przypadku <title>Ajasa i Siedmiu</title> można rozważać połączenia
+                        χρηστήρια ze σφάγια w kategoriach hendiadycznych i uznać (czego
+                        osobiście nie podzielam), że to owe sphagia są równocześnie chresteria,
+                        o tyle w niniejszym passusie takiej możliwości już nie ma. Fraza
+                        <w>δεῖ</w> <w>κάρτα</w> <w>θύειν</w> καὶ <w>πεσεῖν</w> <w>χρηστήρια</w> wyraźnie rozdziela powinność
+                        (<w>δεῖ</w>) składania ofiar (<w>θύειν</w>) od (<w>καί</w>) składania ofiar wróżebnych
+                        (πεσεῖν χρηστήρια).</p>
+                    <p>Istniejące komentarze filologiczne zupełnie pomijają relację między
+                        chresteria a thysia w omawianym kontekście. Pär Sandin (2005: 203) ponownie
+                        opowiada się natomiast za hendiadycznym znaczeniem „sacrifice
+                        in general” w tym miejscu, z przywołaniem Pi. O. 6.70 (gdzie
+                        jednak mamy jednoznaczne wyrażenie <w>χρηστήριον</w> <w>θέσθαι</w>). Proponowane
+                        przez komentarz (Johansen, Whittle 1980, vol. 1: 356) uznanie
+                        <w>χρηστήρια</w> <w>πολλά</w> za dopełnienie do <w>θύειν</w> nie ma sensu, ponieważ
+                        nie wiadomo, jaką funkcję miałoby wtedy pełnić <w>πεσεῖν</w>.</p>
+                    <p>Na marginesie warto odnotować nie bez zdumienia, że w przekładzie
+                        Stefana Srebrnego wersy te nie istnieją, siedemnastowersowy
+                        passus mowy Pelazgosa został oddany w przekładzie przez
+                        zaledwie osiem wersów. Trudno dociec, z jakiego powodu – polski
+                        tłumacz zapewne musiał korzystać z edycji Gilberta Murraya
+                        (Oxford 1937), która wszak nie różni się w tym względzie od wydań
+                        późniejszych.</p>
+                </div>
+                
+                <div type="textpart" n="Supplices_481-483">
+                    <head>Supplices 481-483</head>
+                    <p>Passus z mowy Pelazgosa – ponownie zarysowuje w niej dramat
+                        sytuacji, w której się znalazł, każda podjęta przez niego decyzja
+                        pociągnie za sobą złe konsekwencje: przyjęcie błagalnic – wojnę, odrzucenie
+                        ich – skalanie i gniew Zeusa.</p>
+                    <p>Słowa te są skierowane do Danaosa, z prośbą, by raz jeszcze na
+                        oczach wszystkich mieszkańców Argos podszedł do ołtarza i wykonał
+                        gest błagania, polegający na złożeniu gałęzi oliwnych na ołtarzu. Pelazgos
+                        obawia się gniewu swych obywateli wobec nadchodzącego konfliktu
+                        z Ajgyptiadami i chce wyraźnie pokazać, że wynika on jedynie
+                        z religijnych powinności wobec błagalników.</p>
+                    <quote><lb/>κλάδους τε τούτους αἶψ᾽ ἐν ἀγκάλαις λαβὼν
+                        <lb/>βωμοὺς ἐπ' ἄλλους δαιμόνων ἐγχωρίων
+                        <lb/>θές.</quote>
+                    <quote><lb/>Wziąwszy od razu w ramiona te [oliwne] gałązki,
+                        <lb/>Złóż je na innych ołtarzach bóstw tej ziemi.</quote>
+                    <p>Jakkolwiek wspomniane są tu ołtarze lokalnych bogów, to jednak
+                        ponownie wyłącznie w kontekście rytuału błagalnego, hikezji: τιθῆναι
+                        ἐπὶ βωμούς oznacza tutaj zwyczajnie „położyć na ołtarzu”, a nie „złożyć
+                        na ołtarzu” (Johansen, Whittle 1980, vol. 2: 378–379).</p>
+                </div>
+                
+                <div type="textpart" n="Supplices_652-655">
+                    <head>Supplices 652-655</head>
+                    <p>Trzy kolejne passusy z pieśni chóru, który śpiewa na cześć Argiwów,
+                        chwaląc ich pobożność uwidocznioną w gotowości spełnienia
+                        boskiego prawa, choćby wobec zagrożenia.</p>
+                    <quote><lb/>ἅζονται γὰρ ὁμαίμους
+                        <lb/>ἅζονται Ζηνὸς ἵκτορας ἁγνοῦ.
+                        <lb/>τοιγάρτοι καθαροῖσι βω
+                        <lb break="no" n="655"/>μοῖς θεοὺς ἀρέσονται.</quote>
+                    <quote><lb/>Szanują bowiem swych bliskich
+                        <lb/>Szanują Błagalnice świętego Zeusa.
+                        <lb/>Dzięki czystym ołtarzom
+                        <lb n="655"/>Przebłagują bogów.</quote>
+                    <p>Fraza złożona z ἀρέσκω („ucieszyć, przebłagać, zaspokoić”) w rekcjach
+                        z accusatiwem i datiwem („kogoś czymś”) jest typowa dla języka
+                        Homerowego (por. <title>Il</title>. 19.179; 9.112; <title>Od</title>. 8.396–397; 8.415) – zawsze z odniesieniem
+                        do ludzi, którym można się przypodobać. W omawianym
+                        passusie jedyny raz czasownik ten odnosi się do bogów – „ucieszyć, zaspokoić,
+                        przebłagać” bogów dzięki „czystym ołtarzom” (por. <title>LSJ</title>, s.v.).
+                        Jak sugeruje komentarz Holgera Johansena i Edwarda Whittle’a (1980,
+                        vol. 3: 25), zwrot <w>καθαροῖσι</w> <w>βωμοῖς</w> należy – zgodnie z Homerowym
+                        ususem – rozumieć raczej instrumentalnie niż lokatywnie. Ołtarze Argiwów
+                        są czyste, ponieważ są wolne od zmazy i dlatego ofiary na nich
+                        składane mogą podobać się bogom. Chór nazywa Argiwów „bliskimi”
+                        błagalnic, chociaż de facto są nimi ich prześladowcy – Ajgyptiadzi. Na
+                        swoistą ironię tej sceny zwraca uwagę Bowen (2013: 283).</p>
+                </div>
+                
+                <div type="textpart" n="Supplices_667-669">
+                    <head>Supplices 667-669</head>
+                    <quote><lb/>καὶ γεραροῖσι πρεσ-
+                        <lb/>βυτοδόκοι γέμου-
+                        <lb/>σαι θυμέλαι φλεγόντων.</quote>
+                    <quote><lb/>A starcom czcigodne [?]
+                        <lb/>Ołtarze [thymelai]
+                        <lb/>Ołtarze Pełne płomieni.</quote>
+                    <p>Ołtarz pełen płonących ofiar jest tu symbolem z jednej strony
+                        pobożności ludu, który zdecydował się przyjąć błagające Danaidy,
+                        a z drugiej – znakiem życzliwości i opieki Zeusa (Bowen 2013: 285).</p>
+                    <p>Johansen i Whittle (1980, vol. 1: 108) w swej edycji proponują lekcję
+                        <w>γεμόντων</w> zamiast <w>γέμουσαι</w> i kładą w tym miejscu crux. W ich przekładzie
+                        fragment ten brzmi następująco: „And let the hearths which
+                        receive the elders blaze conspicuous [?] with senior citizens!”</p>
+                    <p>667–668: <w>πρεσβυτοδόκοι</w> – „czcigodne” – hapax legomenon.</p>
+                    <p>669: <w>θυμέλαι</w> – „ołtarze”. <w>Θυμέλη</w> jest derywatem od <w>θύω</w> i oznacza
+                        miejsce, na którym powstaje dym – palenisko (tyle, co <w>ἐσχάρα</w> i <w>ἑστία</w>
+                            w ich podstawowych znaczeniach; por. Gow 1912: 213–238, zwłaszcza
+                            217 oraz 221–222 ze szczegółowym komentarzem do omawianego
+                            passusu). Użycie tego rzeczownika w znaczeniu „ołtarz” jest metonimiczne
+                            i pospolite. Skrajnym przykładem metonimii jest użycie rzeczownika
+                            thymele na określenie całej świątyni Apollona, a może nawet
+                            całego okręgu świątynnego w <title>Jonie</title> (161) Eurypidesa (Johansen, Whittle
+                            1980, vol. 2: 35).</p>
+                    <p>Część komentatorów dopatruje się w tym miejscu wyraźnego odniesienia
+                        do świętego ognia w prytanejonie (Gow 1912: 222 oraz 223
+                        z odniesieniem do wersu 372 <title>Supp</title>. oraz Tucker 1889).</p>
+                </div>
+                
+                <div type="textpart" n="Supplices_694-695">
+                    <head>Suopplices 694-695</head>
+                    <quote><lb/>εὔφημον δ᾽ ἐπὶ βωμοῖς
+                        <lb n="695"/>μοῦσαν θείατ᾽ ἀοιδοί·</quote>
+                    <quote><lb/>Przy ołtarzach niech pieśniarze zanoszą
+                        <lb n="695"/>Świętą pieśń.</quote>
+                    <p>694: <w>εὔφημον</w> – „świętą [pieśń]”; oznacza w tym miejscu taki rodzaj
+                        komunikacji słownej (mówionej lub, jak tutaj, śpiewanej), która
+                        pozwala utrzymać i utrwalić dobre relacje z bogami (Johansen, Whittle
+                        1980, vol. 2: 55; por. Gödde 2007), i jest w naturalny sposób połączona
+                        z religijną czystością (Eu. 287) i przeciwstawiona zmazie (por. Ag.
+                        636–637). <w>Εὔφημος</w> to tyle, co „stosowny”, odpowiedni do rytualnego
+                        kontekstu.</p>
+                </div>
+                
+                <div type="textpart" n="Supplices_750-752">
+                    <head>Supplices 750-752</head>
+                    <p>Wypowiedź chóru z dyskusji z Danaosem, w której opisane jest
+                        nadchodzące zagrożenie starcia z Ajgyptiadami. Chór i przodownica
+                        chóru w tym komosie potęgują wrażenie grozy i własnego przerażenia,
+                        malując jak najgorszy obraz ścigających ich oprawców.</p>
+                    <quote><lb n="750"/>οὐλόφρονες δ᾽ ἐκεῖνοι, δολομήτιδες
+                        <lb/>δυσάγνοις φρεσίν, κόρακες ὥστε, βω-
+                        <lb/>μῶν ἀλέγοντες οὐδέν.</quote>
+                    <quote><lb/>Oni są źli, przebiegli
+                        <lb/>Bezbożnymi myślami, jak kruki,
+                        <lb/>Zupełnie nie dbają o ołtarze.</quote>
+                    <p>Istotą porównania jest przywołanie obrazu drapieżnych ptaków,
+                        które porywają mięso ofiarne z ołtarzy (Johansen, Whittle 1980, vol. 2:
+                        106 z odwołaniem do komentarza Fraenkela do <title>Ag</title>. 1473–1474). Por.
+                        też Ar. <title>Av</title>. 518–519.</p>
+                </div>
+                
+                <div type="textpart" n="Supplices_980-982">
+                    <head>Supplices 980-982</head>
+                    <p>Słowa Danaosa wypowiedziane w chwili, kiedy Pelazgos podjął
+                        decyzję o udzieleniu azylu błagalnicom za cenę wojny z Ajgyptiadami.</p>
+                    <quote><lb n="980"/>ὦ παῖδες, Ἀργείοισιν εὔχεσθαι χρεών,
+                        <lb/>θύειν τε λείβειν θ᾽ ὡς θεοῖς Ὀλυμπίοις,
+                        <lb/>σπονδάς, ἐπεὶ σωτῆρες οὐ διχορρόπως.</quote>
+                    <quote><lb n="980"/>O dzieci, do Argiwów trzeba się modlić,
+                        <lb/>Składać [= spalać] im ofiary i wylewać płynne ofiary, jak bogom
+                        olimpijskim,
+                        <lb/>Ponieważ bez wątpienia są zbawcami.</quote>
+                    <p>W passusie tym ofiary krwawe i płynne oraz modlitwy są tym, co
+                        należy się bogom, ponieważ przynoszą oni ratunek.</p>
+                    <p>981: <w>θύειν</w> τε <w>λείβειν</w> τε – Johansen i Whittle w swej edycji (1980,
+                        vol. 3: 137) sugerują, że zwrot <w>θύειν</w> τε <w>λείβειν</w> τε należy rozumieć hendiadycznie
+                        i przekładają go jako: „[we owe] burnt offerings”. Trudno
+                        znaleźć uzasadnienie dla takiej decyzji – wersy wyliczają trzy formy
+                        kultu należnego bogom olimpijskim: modlitwę (<w>εὔχεσθαι</w>), spalanie
+                        ofiar (<w>θύειν</w>) oraz wylewanie ofiar płynnych (<w>λείβειν</w> <w>σπονδάς</w>).
+                        Przy tym jednocześnie odmiennie do tego zaznaczają w komentarzu
+                        odrębność ofiar spalanych i libacji, które często występują wspólnie
+                        – jednak stanowią odrębne części rytuału. Zwykłej ofierze spalanej
+                        (thysia) towarzyszyły liczne libacje; na temat całej procedury zob.
+                        Stengel 1920: 108–115.</p>
+                </div>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
