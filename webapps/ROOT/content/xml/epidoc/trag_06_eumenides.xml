@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Eumenides (Εὐμενίδες, Le Eumenidi)</title>
+                <title xml:lang="en">Eumenides (Εὐμενίδες, Eumenides)</title>
+                <title xml:lang="pl">Eumenides (Εὐμενίδες, Eumenidy)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">trag_06_eumenides</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Eumenides (Εὐμενίδες, Eumenidy)</title>, in Krzysztof Bielawski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Tragedia attycka</title>, Warszawa 2017, pp. 85-104</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-03-18" who="Gaia Fanelli">encoded document in XML</change>
+                <change when="2017" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Z dwóch głównych tematów ostatniej części trylogii <title>Oresteja</title> – losu
+                        (zmazy i oczyszczenia) Orestesa i sądu nad nim, będącego jednocześnie
+                        ustanowieniem rady na Areopagu – pierwszy dotyka kwestii
+                        związanych z ofiarą krwawą w postaci rytuału oczyszczającego
+                        (καθαρμός). Tematy związane z ofiarą oraz terminologia ofiarnicza
+                        pojawiają się także w związku z Eryniami i należnym im kultem,
+                        zarówno przed ich przybyciem do Aten, jak i po ich pozostaniu
+                        i zamianie na tytułowe Eumenidy. Jednak w przeciwieństwie do
+                        pierwszej części trylogii tematyka ofiary jest w dramacie stosunkowo
+                        słabo reprezentowana.</p>
+                    <p>Tekst według wydania: West (1991c).</p>
+                </div>
+                <div type="textpart" n="Eumenides_100-109">
+                    <head>Eumenides 100-109</head>
+                    <p>Passus z końcowej partii rozbudowanego prologu ze słowami ducha
+                        Klitajmestry skierowanymi do śpiących Erynii. Przyzywa je ona
+                        i budzi, opowiadając o własnej śmierci z rąk bliskich oraz o ofiarach,
+                        które po mordzie spełnionym na swym mężu składała boginiom zemsty,
+                        aby ułagodzić ich gniew.</p>
+                    <quote><lb n="100"/>παθοῦσα δ᾽ οὕτω δεινὰ πρὸς τῶν φιλτάτων—
+                        <lb/>οὐδεὶς ὑπέρ μου δαιμόνων μηνίεται,
+                        <lb/>κατασφαγείσης πρὸς χερῶν μητροκτόνων.
+                        <lb/>ὅρα δὲ πληγὰς τάσδε καρδίᾳ σέθεν·
+                        <lb/>εὕδουσα γὰρ φρὴν ὄμμασιν λαμπρύνεται,
+                        <lb n="105"/>[ἐν ἡμέρᾳ δὲ μοῖρ᾽ ἀπρόσκοπος βροτῶν.]
+                        <lb/>ἦ πολλὰ μὲν δὴ τῶν ἐμῶν ἐλείξατε·
+                        <lb/>χοάς τ᾽ ἀοίνους, νηφάλια μειλίγματα,
+                        <lb/>καὶ νυκτίσεμνα δεῖπν᾽ ἐπ᾽ ἐσχάρᾳ πυρὸς
+                        <lb/>ἔθυον, ὥραν οὐδενὸς κοινὴν θεῶν.</quote>
+                    <quote><lb n="100"/>chociaż wycierpiałam tak straszne rzeczy od najbliższych,
+                        <lb/>Nikt z bogów gniewem nie wybucha nade mną,
+                        <lb/>Zarżniętą matkobójczymi rękami.
+                        <lb/>Zobacz swoim sercem te rany,
+                        <lb/>Bo duch jasnym przenika wzrokiem, kiedy śpi,
+                        <lb n="105"/>[za dnia zaś ludzki los jest niewidoczny].
+                        <lb/>Wieleście wypiły z moich [ofiar],
+                        <lb/>Ofiary płynne bez wina, gniew kojące bez wina,
+                        <lb/>I nocne uroczyście uczty na ołtarzu ognia
+                        <lb/>Składałam w ofierze, w porze właściwej dla żadnego z bogów.</quote>
+                    <p>Słowa z wezwania-modlitwy ducha Klitajmestry do Erynii, śpiących
+                        w adytonie świątyni Apollona w Delfach (zob. Winnington-Ingram
+                        1976: 483–485). Na prośbę Apollona, otaczającego opieką Orestesa, Hermes
+                        wyprowadza matkobójcę ze świątyni i odprowadza do Aten.</p>
+                    <p>Tematyka ofiary, która się tutaj pojawia, dotyczy wprawdzie ofiar
+                        bezkrwawych, jednak użyte słownictwo i zastosowana metaforyka
+                        wymagają uwagi i przywołują kontekst ofiary krwawej.</p>
+                    <p>Duch Klitajmestry robi Eryniom wyrzuty, że nie czynią swej powinności
+                        i nie ścigają Orestesa. Wypomina im ofiary, które im składała,
+                        uznając je za próżne, zmarnowane i nieskuteczne. Zmarli nie
+                        składają ofiar (Zeitlin 1965: 477), Klitajmestra przywołuje dary, które
+                        składała Eryniom za życia, już po zamordowaniu Agamemnona, zawsze
+                        nocą, by je ubłagać i uspokoić (<w>μειλίγματα</w> – por. <title>Ch</title>. 15, S. OC
+                        100). Powoływanie się na złożone ofiary należy do topiki modlitewnej
+                        (Pulleyn 1997: 30–32).</p>
+                    <p>Klitajmestra wymienia typowe ofiary dla zmarłych jako złożone
+                        Eryniom: bezkrwawe choai – ofiary płynne, niezmieszane z winem
+                        – <w>χοάς</w> τ᾽ <w>ἀοίνους</w>, <w>νηφάλια</w> [ <w>μειλίγματα</w>]. Typowe choai zawierały
+                        wino. Składanie ofiar płynnych bez domieszki wina właściwe było
+                        w kulcie herosów i bóstw podziemnych, w tym Erynii, Mojr i Eumenid
+                        (zob. Henrichs 1983: 93–98 oraz Thomson 1938: 259 z odwołaniem do
+                        E. <title>Mel. Vinct</title>. 18–21 = fr. 13.14–17: ἃ δ᾽ εἴς τε <w>Μοίρας</w> τάς τ᾽ <w>ἀνωνύμους</w>
+                        <w>θεὰς</w> <w>ἱερὰ</w> <w>ù</w>, <w>ταῦτ</w>᾽ ἐν <w>ἀνδράσιν</w> μὲν οὐχ <w>ὅσια</w> <w>καθέστηκ</w>᾽, ἐν
+                        <w>γυναιξὶ</w> δ᾽ <w>αὔξεται</w> <w>ἅπαντα</w>).</p>
+                    <p>Klitajmestra uważa złożone ofiary za deipna – uczty, co wyraźnie
+                        stanowi odwołanie, a może wprost analogię do rytuału ofiary krwawej,
+                        w której uczta stanowi stały i niezbędny element.</p>
+                    <p>Płynna ofiara złożona Eryniom jest wprawdzie wylewana na ołtarz
+                        typu eschara, związany z kultem herosów i zmarłych, ale z drugiej
+                        strony czynność składania tej ofiary opisuje w analizowanym passusie
+                        czasownik thyo – <w>ἔθυον</w> (w. 109).</p>
+                    <p>102: <w>κατασφαγείσης</w> – „zarżniętej [jak na ofiarę]”. <w>Κατασφάζω</w>,
+                        „zarżnąć na ofiarę przez podcięcie gardła”. Duch Klitajmestry opisuje
+                        jej śmierć z ręki Orestesa jako krwawy mord, a zastosowany techniczny
+                        termin języka ofiary krwawej wpisuje się w biegnący przez całą
+                        trylogię topos następujących po sobie śmierci rozumianych, interpretowanych
+                        i opisywanych jako należące do porządku ofiarnego (por.
+                        Sommerstein 1989: 102). Występujące na przemian czasowniki <w>σφά-
+                        ζειν</w> i <w>θύειν</w> w opisach mordów przenoszą metaforycznie ich sens na
+                        poziom ofiarny.</p>
+                    <p>Alan Sommerstein (1989: 102) wskazuje na to, że w zależności od
+                        konkretnego przypadku i punktu widzenia postaci opisującej mord,
+                        trzy elementy uprawomocniają odwołanie się do tego ofiarnego toposu:
+                        1. odwołanie się do języka ofiary ukazuje te mordy jako sprawiedliwe
+                        i nieuchronne, konieczne (<title>Ag</title>. 214, <title>Ch</title>. 904); 2. podkreślają niewinność
+                        ofiary (jak w przypadku mordu na Ifigenii w relacji Klitajmestry,
+                        Ag. 1414–1418, lub – jak w tym przypadku – mordu na Klitajmestrze
+                        w relacji jej samej); 3. uwypuklają bestialstwo samego aktu zabójstwa
+                        (np. <title>Ag</title>. 1096, <title>Ch</title>. 242) (por. też Zeitlin 1965: 463–508).</p>
+                    <p>109: <w>ἔθυον</w> – „złożyłam w ofierze”, „na płonącym ołtarzu” (ἐπ᾽
+                        <w>ἐσχάρᾳ</w> <w>πυρός</w>). Zastosowanie tutaj czasownika θύειν zamiast typowego
+                        przy ofierze płynnej bezkrwawej <w>χεῖν</w>, <w>σπένδειν</w> lub λείβειν
+                        Sommerstein w swoim komentarzu nazywa mild zeugma (1989: 104),
+                        chociaż nie bardzo wiadomo, jakie komponenty figura ta miałaby
+                        łączyć. Na ołtarzu właściwym ofiarom dla herosów i zmarłych – eschara
+                        – wylewane na ogień są płynne ofiary pozbawione wina oraz odbywają
+                        się nocne uczty (deipna) (Podlecki 1989: 139). Nic nie wskazuje na
+                        to, że te ostatnie są związane z jakąkolwiek postacią ofiary krwawej,
+                        a czasownik thyein jest tu użyty przenośnie zapewne przez wzgląd na
+                        krwawą naturę samych Erynii, zdaniem Rose’a (1958: 238) zbytecznie.
+                        Sommerstein słusznie zauważa, że thyein nie występuje w połączeniu
+                        ze składaniem ofiar bezkrwawych, wskazując na błędne lokalizacje
+                        w <title>LSJ</title>, s.v.: <title>Od</title>. 14.446 i 15.260.</p>
+                </div>
+                
+                <div type="textpart" n="Eumenides_264-266">
+                    <head>Eumenides 264-266</head>
+                    <p>Słowa Erynii, które domagają się krwi Orestesa jako zapłaty za
+                        krew Klitajmestry. Niezwykle intrygujący passus, w którym Orestes
+                        jest przedstawiony jako ofiara dla Erynii, które wypiją jego krew, chociaż
+                        ofiara ta jest nazwana tu pelanos (Zeitlin 1965: 485). Jako rzeczywiście
+                        krwawa ofiara Orestes zostanie przywołany w wersach 305, 328
+                        (powtórzone w w. 341).</p>
+                    <quote><lb/>ἀλλ᾽ ἀντιδοῦναι δεῖ σ᾽ ἀπὸ ζῶντος ῥοφεῖν
+                        <lb n="265"/>ἐρυθρὸν ἐκ μελέων πέλανον· ἀπὸ δὲ σοῦ
+                        <lb/>βοσκὰν φεροίμαν πώματος δυσπότου.</quote>
+                    <quote><lb/>Ale musisz jeszcze za życia oddać do wyssania
+                        <lb n="265"/>czerwony pelanos z twych członków: bo z ciebie
+                        <lb/>chcemy pozyskać posiłek niemiłego napoju.</quote>
+                    <p>265: <w>ἐρυθρὸν</w> ἐκ <w>μελέων</w> <w>πέλανον</w> – „czerwony pelanos [wytoczony]
+                        ze swych członków”, czyli „krew wylaną na ofiarę z twego ciała”.
+                        Poetycki obraz przyrównuje wypływającą z ciała krew do ofiary płynnej;
+                        Sommerstein (1989: 128) podkreśla podobieństwo konsystencji pelanosu
+                        do na wpół zakrzepłej krwi. Krew Orestesa ma być j a k pelanos.
+                        Bezkrwawa libacja z pelanosu staje się tutaj metaforą ofiary krwawej.
+                        Podobnej metafory użył Ajschylos w <title>Persach</title> (w. 816, por. komentarz),
+                        gdzie mamy <w>πέλανος</w> <w>αἱματοσφαγής</w> – „krwawy, ofiarny pelanos”.
+                        Βοσκή może oznaczać zarówno paszę, jedzenie, posiłek, jak i zwierzę
+                        paszą wykarmione (<title>LSJ</title>, s.v.), co w tym wypadku może zapowiadać
+                        obraz „tuczenia” Orestesa na ofiarę z wersu 304: <w>ἐμοὶ</w> <w>τραφείς</w>.</p>
+                </div>
+                
+                <div type="textpart" n="Eumenides_276-283">
+                    <head>Eumenides 276-283</head>
+                    <p>Słowa Orestesa, który nie odpowiadał chórowi, a teraz zwraca się
+                        do Ateny i mówi o ofierze oczyszczającej, jakiej był poddany w Delfach
+                        przez Apollona.</p>
+                    <quote><lb n="276"/>ἐγὼ διδαχθεὶς ἐν κακοῖς ἐπίσταμαι
+                        <lb/>πολλοὺς καθαρμούς, καὶ λέγειν ὅπου δίκη
+                        <lb/>σιγᾶν θ᾽ ὁμοίως· ἐν δὲ τῷδε πράγματι
+                        <lb/>φωνεῖν ἐτάχθην πρὸς σοφοῦ διδασκάλου·
+                        <lb n="280"/>βρίζει γὰρ αἷμα καὶ μαραίνεται χερός,
+                        <lb/>μητροκτόνον μίασμα δ᾽ ἔκπλυτον πέλει.
+                        <lb/>ποταίνιον γὰρ ὂν πρὸς ἑστίᾳ θεοῦ
+                        <lb/>Φοίβου καθαρμοῖς ἠλάθη χοιροκτόνοις.T</quote>
+                    <quote><lb n="76"/>Ja nauczony w wielu nieszczęściach znam
+                        <lb/>Wiele oczyszczeń oraz gdzie się godzi mówić
+                        <lb/>I podobnie gdzie milczeć. W tej zaś sprawie
+                        <lb n="280"/>Mówić mi kazał mądry nauczyciel.
+                        <lb/>Gaśnie krew i znika z ręki,
+                        <lb/>A zmaza matkobójcy ulega obmyciu.
+                        <lb/>Choć jeszcze świeża u ołtarza boga
+                        <lb/>Feba została przepędzona oczyszczającą ofiarą z zabitej świni.</quote>
+                    <p>277: πολλοὺς <w>καθαρμούς</w> – tutaj „liczne <w>καθαρμοί</w>” odnoszą się
+                        jedynie ogólnie do możliwych form rytuałów oczyszczających, później
+                        wskazanych jednoznacznie w postaci rytuału krwawej ofiary.</p>
+                    <p>282: πρὸς <w>ἑστίᾳ</w> <w>θεοῦ</w> – odwołanie do świętego ognia Apollona
+                        w Delfach, jak w wersach 439–441 (Sommerstein 1989: 131 i 159).</p>
+                    <p>283: <w>καθαρμοῖς</w> […] <w>χοιροκτόνοις</w> – krwawy rytuał oczyszczający,
+                        polegający na tym, że kapłan podcinał żyły szyjne prosięcia, trzymanego
+                        nad głową i rękami osoby poddającej się oczyszczeniu.</p>
+                    <p>Pokropienie osoby lub miejsca krwią z prosięcia stanowiło pospolitą
+                        formę oczyszczenia (zob. Burkert 1985a: 80–81 i Parker 1983:
+                        370–374 – Appendix 6). Eitrem (1915: 177), Burkert (1985: 82) i Parker
+                        (1983: 21) wskazują na pochodzenie tego rytu z prywatnych katartycznych
+                        obrzędów praktykowanych w gospodarstwach domowych.</p>
+                    <p>Jane E. Harrison (1922: 61) dostrzegała w tym rytuale proces identyfikacji
+                        osoby okrytej zmazą ze zwierzęciem ofiarnym i jego krwią:
+                        duch zamordowanej osoby domaga się krwi, żeby ugasić swoje pragnienie
+                        zemsty, krew zwierzęcia zaspokaja to pragnienie, spływając
+                        po oczyszczanym (por. też Zeitlin 1965: 479). Natomiast Rose (1958:
+                        249) sugeruje, że pierwotnie rytuał ten stanowił połączenie typowej
+                        ofiary chtonicznej (prosię) z jakimś substytutem krwi samego ofiarnika,
+                        aby mogła się ona pomieszać z krwią ofiary. Niestety nie podaje
+                        żadnych odniesień bibliograficznych i nikt inny takiej interpretacji
+                        nie podjął.</p>
+                    <p> W opisie Apolloniosa z Rodos takiemu właśnie oczyszczeniu
+                        poddała Kirke Jazona i Medeę (4.700–717) – miejsce to jest najbardziej
+                        szczegółowym opisem tego rytuału w literaturze greckiej (zob.
+                        Green 1977: 322 z komentarzem oraz szerokie omówienie kontekstu
+                        u Parkera 1983: 370). Kirke wzięła „młode od maciory” (to znaczy
+                        to młode, a nie te młode: συὸς τέκος), nacięła mu szyję (<w>ἐπιτμήγου-
+                        σα</w> <w>δέρην</w>), potrzymała je ponad głowami oczyszczanych (<w>τειναμένη</w>
+                        <w>καθύπερθε</w>) oraz krwią umazała czy skropiła ich ręce (<w>αἵματι</w> <w>χεῖρας</w>
+                        <w>τέγγεν</w>) <note>15 Komentarz filologiczny do tego fragmentu zob. Livrea 1973: 215–216.</note>. Z przedstawień w malarstwie wazowym widać, że krew
+                        ofiary powinna była spływać bezpośrednio na głowę i ręce osoby
+                        poddawanej oczyszczeniu (zob. Dryer 1969: 38–45, tabl. 2.1 [Krater
+                        z Luwru K 710]; Séchan 1967: 93–101; Trendal, Webster 1971: 41–49;
+                        Denoyelle 1994: 168; Denoyelle 1998: 61–63; Knoepfler 1993: 72–73
+                        oraz Taplin 2007: 62–64), a następnie zostać zmyta. Oczyszczenie ze
+                        zmazy za mord na człowieku nie było znane w świecie Homeryckim
+                        (zob. Harrison 1922: 152–153; Orth 1921: 812).</p>
+                    <p>W komentowanym passusie Orestes doznaje już oczyszczenia κα-
+                        θαρμοῖς <w>χοιροκτόνοις</w> <note>16 Zob. też fr. 327 Ajschylosa (Nauck3 = 648 Mette) o oczyszczeniu tą metodą
+                            Iksjona przez Zeusa: πρὶν ἂν σταλαγμοῖς αἵματος χοιροκτόνου / αὐτός σε
+                            χράνηι Ζεὺς καταστάξας χεροῖν. Podobnie u Arystofanesa: Ra. 338, Ach. 764,
+                            Pax 374–375. W IT Eurypidesa w wersach 1223–1225 i 1230–1233 do podobnego
+                            oczyszczenia użyto owcy jako zwierzęcia ofiarnego.</note>, co zresztą Amandry (1938: 19–27) uznał za
+                        pomyłkę Ajschylosa lub świadome pomieszanie rytuału delfickiego
+                        ze znanym mu z autopsji rytem eleuzyńskim. Ajschylos rzeczywiście
+                        pochodził z Eleusis. Oczyszczenie w Delfach związane było z wodą
+                        i liśćmi laurowymi. Jednak rozumowanie Amandry’ego opiera się na
+                        dowodach ex silentio, a późniejsza argumentacja Dryera (1969: passim)
+                        każe traktować hipotezę Amandry’ego z ostrożnością. Równie zastanawiające
+                        jest stanowisko van Stratena, który uznał oczyszczenie Orestesa
+                        krwią jedynie za puryfikację „mitologiczną” (1995: 4), jakkolwiek
+                        również przywołuje on ustalenia Dryera (1969).</p>
+                    <p>Opis takiego rytuału znajduje się także w inskrypcji z Kos, datowanej
+                        na pierwszą połowę III w. p.n.e. (<title>LSCG</title> 156A 13–20):</p>
+                    <p>αἰ δέ τί κα τούτων μυσαρῶν τῶι ἱαρῆι συμβᾶι φάγεν, περιταμέσθω
+                        <w>χοίρωι</w> ἔρσενι καὶ <w>καθαράσθω</w> ἀπὸ χρυσίου καὶ προσπερμείσας.</p>
+                    <p>[…] jeśli kapłanowi zdarzy się zjeść coś nieczystego, niech zostanie
+                        nacięty dookoła przez prosię płci męskiej [tak brzmieć musi przekład
+                        dosłowny] oraz oczyszczony [wodą ze] złotego naczynia i zbożowymi
+                        ziarnami. Jeśli natomiast pomyli się w czymś innym, niech skropi
+                        się wodą z morza i [w ten sposób] będzie czysty.</p>
+                    <p>Wyrażenie „nacięty przez prosię” (<w>περιταμέσθω</w> <w>χοίρωι</w>) musi
+                        oznaczać tutaj oczywiście, że okaleczeniu podlega zwierzę, które
+                        następnie obnosi się dookoła (<w>περί</w>) osoby oczyszczanej. Użyty w inskrypcji
+                        czasownik <w>περιτέμνω</w> oznacza „nacięcie wokół”, ale też po
+                        prostu odcięcie – jest to czasownik używany w znaczeniu „obrzezać”
+                        u Herodota (np. 2.104) i w Septuagincie (np. Rdz 17, 10). Kilka linii dalej
+                        (w. 19) znajdujemy zalecenie oczyszczenia przez prosię – <w>καθαίρεται</w>
+                            <w>χοίρωι</w> – w morzu: ἐπὶ <w>θαλάσσαι</w>. Być może – jak sugeruje Clinton
+                            (2005: 169) w kontekście misteriów eleuzyńskich – jest to rytuał, w którym
+                            najpierw skrapiano osobę oczyszczaną krwią prosięcia, a następnie
+                            należało tę krew spłukać morską wodą.</p>
+                    <p>W każdym razie w rytuale oczyszczenia krwią zwierzęcia podrzynano
+                        prosięciu gardło i krwią broczącą z rany spryskiwano oczyszczaną
+                        osobę lub miejsce. Żadne z przywołanych źródeł nie mówi, co
+                        się działo ze zwierzęciem po wykrwawieniu ani, co więcej, czy obrzęd
+                        „spryskiwania” krwią trwał aż do wykrwawienia się na śmierć, czy
+                        też był przerywany, czy zwierzę pozostawiano na śmierć, czy dobijano?
+                        Intrygujące jest także, że praktyczny aspekt tego rytuału umyka
+                        uwadze uczonych i komentatorów. Nawet Parker (1983: 21) mówi
+                        o zabitym prosięciu („a young pig was killed”), którego zwłoki obnoszono
+                        po oczyszczanym miejscu („its corpse carried around”). Opisy
+                        – zarówno literackie, jak i epigraficzne – mówią o podcięciu, nacięciu
+                        gardła zwierzęcia, a nie o zabiciu go. W przywołanym powyżej opisie
+                        Apolloniosa z Rodos Kirke zdaje się trzymać nad głowami Jazona
+                        i Medei prosię z poderżniętym gardłem w sposób, który sugeruje unieruchomienie
+                        konającego, ale szarpiącego się zwierzęcia (τείνω) – jest
+                        ono „rozpięte”, a nie bezwładne. To prawda, że z zabitego zwierzęcia
+                        krew jeszcze jakiś czas wypływa, pytanie jednak, kiedy zwierzę
+                        należy uznać za zabite w przypadku podcinania gardła. Wydaje się
+                        uzasadnione, by sądzić, że oczyszczeń krwią prosiąt dokonywano,
+                        obnosząc konające zwierzęta z podciętym gardłem. (Dalsze uwagi na
+                        temat deponowania ciał zabitych w rytuale zwierząt zob. komentarz
+                        do inskrypcji eleuzyńskich).</p>
+                </div>
+                
+                <div type="textpart" n="Eumenides_303-306">
+                    <head>Eumenides 303-306</head>
+                    <p>Słowa chóru Erynii, które w odpowiedzi Orestesowi nazywają go
+                        „bezkrwawym cieniem” (w. 302: <w>ἀναίματον</w> σκιάν), „bezkrwistym
+                        żerem demonów” (w. 302: <w>βόσκημα</w> <w>δαιμόνων</w>; por. przekład Srebrnego)
+                        oraz „żywą ofiarą” dla Erynii, która ma najpierw zostać odżywiona
+                        i odhodowana (<w>τραφείς</w> – na temat hodowli zwierząt ofiarnych
+                        zob. komentarz Podleckiego 1989: 156 z odniesieniem do Platonowego
+                        Criti. 110D), a następnie przeznaczona na ofiarę (<w>καθιερωμένος</w>)
+                        i wreszcie żywcem (<w>ζῶν</w>) zjedzona – nie zaś zarżnięta na ołtarzu (οὐδὲ
+                        πρὸς <w>βωμῷ</w> <w>σφαγείς</w>). Zeitlin mówi tutaj o przykładzie „corrupted sacrifice”
+                        (1965: passim).</p>
+                    <quote><lb/>οὐδ᾽ ἀντιφωνεῖς, ἀλλ᾽ ἀποπτύεις λόγους
+                        <lb/>ἐμοὶ τραφείς τε καὶ καθιερωμένος;
+                        <lb n="305"/>καὶ ζῶν με δαίσεις οὐδὲ πρὸς βωμῷ σφαγείς·
+                        <lb/>ὕμνον δ᾽ ἀκούσῃ τόνδε δέσμιον σέθεν.</quote>
+                    <quote><lb/>Nie odpowiadasz? Odpluwasz słowa?
+                        <lb/>Choć to dla mnie i żyjesz, i mi jesteś poświęcony?
+                        <lb n="305"/>Jeszcze żywy staniesz się dla mnie ucztą i to nie na ołtarzu
+                        zarżnięty.
+                        <lb/>A ten hymn, który usłyszysz, spęta Cię.</quote>
+                    <p>304: <w>καθιερωμένος</w> – <w>καθιερόω</w> w passivum oznacza „być poświęconym,
+                        konsekrowanym bogu jako ofiara” (dokładnie tak Montanari,
+                        s.v. z błędnym odniesieniem do Dem. 18.149 – czasownik ten
+                        w jednoznacznym kontekście ofiarnym pojawia się najczęściej u Platona,
+                        np. <title>Lg</title>. 813a1, 816c5, a u Plutarcha zazwyczaj stanowi synonim
+                        <w>ἀνατίθημι</w>, np. <title>Sol</title>. 4.6.3; <title>Publ</title>. 8.2.1 etc.; tak też Suda i Hesychios s.v.
+                        <w>καθιεροῖ</w>). Tutaj „być poświęconym bogu” oznacza tyle, co „być przeznaczonym
+                        na ofiarę”, czyli stać się anathema (Rudhardt 1992: 215, 218,
+                        224). Erynie zapowiadają, że Orestes żyje (<w>τραφείς</w> – dosłownie „jest
+                        żywiony”, utrzymywany przy życiu, niemal chciałoby się rzec: „hodowany”
+                        przez Erynie) po to, by stać się dla nich krwawą ofiarą.</p>
+                    <p>305: καὶ <w>ζῶν</w> με <w>δαίσεις</w> οὐδὲ πρὸς <w>βωμῷ</w> <w>σφαγείς</w> – „jeszcze żywy
+                        staniesz się dla mnie ucztą i nie zostaniesz zabity na ołtarzu”. Bomos
+                        jako typowe miejsce składania ofiar dla bóstw olimpijskich (Podlecki
+                        1989: 156) w ogóle nie wchodził tutaj w rachubę – groźba Erynii zdaje
+                        się raczej mówić: „w ogóle na żadnym ołtarzu nie zostaniesz złożony”,
+                        chociaż jesteś dla mnie ofiarą. Obraz ucztowania (<w>δαίνυμι</w>), zabijania
+                        zwierzęcia (<w>σφαγείς</w>) i ołtarza (πρὸς <w>βωμῷ</w>) przywołuje kontekst ofiarny,
+                        podobnie jak hymn z wersu 306. Erynie zapowiadają, że nasycą
+                        się krwią Orestesa, t a k j a k b y b y ł ofiarą dla nich przeznaczoną;
+                        zapowiadają, że zjedzą go – tak jak zjada się mięso zwierząt ofiarnych
+                        – ale żywcem i nie przy ołtarzu. Obraz sycenia się krwią ofiary jeszcze
+                        żywej przywołuje tutaj obrzęd katharmos (zob. powyżej, komentarz
+                        do w. 283), w którym krew ofiarna spływa bezpośrednio z konającego
+                        zwierzęcia na oczyszczanego.</p>
+                </div>
+                
+                <div type="textpart" n="Eumenides_323-333">
+                    <head>Eumenides 323-333</head>
+                    <p>Passus z pieśni chóru, który pomstuje na Apollona do Matki Nocy,
+                        żaląc się, że syn Latony pozbawia Erynie czci (w. 324: μ᾽ <w>ἄτιμον</w>
+                        <w>τίθησιν</w>) i odbiera należne im, skulone z przerażenia zwierzę (w. 325:
+                        <w>πτῶκα</w>), czyli Orestesa, poprzez oczyszczenie go od zmazy. Następnie
+                        chór śpiewa swój hymn do Erynii nad Orestesem, wprost tutaj nazwanym
+                        „tym, który został/jest [prf.] złożony w ofierze” (τῷ <w>τεθυμένῳ</w>).</p>
+                    <quote><lb/>ὁ Λατοῦς γὰρ ἶ
+                        <lb break="no"/>νίς μ᾽ ἄτιμον τίθησιν
+                        <lb n="325"/>τόνδ᾽ ἀφαιρούμενος
+                        <lb/>πτῶκα, ματρῷον ἅγ-
+                        <lb break="no"/>νισμα κύριον φόνου.
+                        <lb/>ἐπὶ δὲ τῷ τεθυμένῳ
+                        <lb/>τόδε μέλος, παρακοπά,
+                        <lb n="330"/>παραφορὰ φρενοδαλής,
+                        <lb/>ὕμνος ἐξ ᾿Ερινύων,
+                        <lb/>δέσμιος φρενῶν, ἀφόρ-
+                        <lb/>μικτος, αὑονὰ βροτοῖς.</quote>
+                    <quote><lb/>Bo oto syn Latony pozbawia mnie czci,
+                        <lb/>Zabierając to tchórzliwe zwierzę,
+                        <lb/>Należny okup za zbrodnię na matce.
+                        <lb/>To nad nim, który jest ofiarą,
+                        <lb/>Ta pieśń, która szałem uderza
+                        <lb/>I do szału prowadzi i rozum odbiera,
+                        <lb/>Hymn Erynii,
+                        <lb/>Który pęta myśli, śpiewany bez liry,
+                        <lb/>Suchy jak wiór dla śmiertelnych.</quote>
+                    <p>326–327: ματρῷον <w>ἅγνισμα</w> κύριονφόνου – „należny okup za
+                        zbrodnię na matce”, dosłownie: „należne oczyszczenie (<w>ἅγνισμα</w>)”.
+                        Rzeczownik ἅγνισμα pochodzi od czasownika <w>ἁγνίζω</w> – „oczyszczać”,
+                        ale też „składać ofiarę [oczyszczającą]” (por. LJS Supplement
+                        s.v.; Rudhardt 1992: 171), i jest Ajschylosowym neologizmem; poza
+                        tym passusem pojawia się tylko jeszcze raz w hymnach orfickich (83.6,
+                        gdzie Okeanos jest nazywany „najlepszym oczyszczeniem bogów”).
+                        Później jedynie w scholiach i u Hesychiosa. Jakkolwiek słowniki tego
+                        nie notują, wydaje się, że tutaj jest to ofiara oczyszczająca, jak chce tego
+                        właśnie Hesychios: <w>ἅγνισμα</w>, <w>θυσία</w> (s.v.: <w>ἄγος</w>). Tak też komentuje
+                        Rose (1958: 251): „A <w>ἅγνισμα</w> is the rite or thing by which someone is
+                        made <w>ἅγνος</w>, ritually pure”.</p>
+                    <p>Wers ten przywołuje ofiarę na obydwu poziomach: zabójstwo
+                        (<w>φόνος</w>) Orestesa na matce jest krwawą ofiarą ekspiacyjną za śmierć
+                        Agamemnona, a on sam jest przez Erynie postrzegany jako ἅγνισμα
+                        – oczyszczenie za śmierć Klitajmestry. Erynie nie pozostawiają wątpliwości,
+                        że ta puryfikacja jest ofiarą z krwi, o czym mówią w wersach
+                        303–305 (zob. komentarz powyżej).</p>
+                    <p>328: ἐπὶ δὲ τῷ <w>τεθυμένῳ</w> – „nad nim, który jest ofiarą”. Erynie nazywają
+                        Orestesa wprost „tym, który jest składany w ofierze” i zapowiadają
+                        śpiew hymnu nad nim, przywołując rytuał zwykły ofiarny, w którym
+                        hymn towarzyszy ofierze – tutaj jednak jest to śpiew „smutny” – bez
+                        akompaniamentu liry (<w>ἀφόρμικτος</w>, por. Sommerstein 1989: 140), bardziej
+                        przypominający lament. Jest to zwieńczenie pewnego klimaksu,
+                        jaki w kolejnych strofach wypowiedzi Erynii dotyczy Orestesa. Najpierw
+                        porównują go do ofiarnego pelanosu (w. 265), potem zapowiadają
+                        jego śmierć opisaną czasownikiem <w>σφάζειν</w> (w. 305), by następnie tutaj
+                        już wprost nazwać go „ofiarą”. We wszystkich tych passusach mamy
+                        do czynienia z pomieszanym i głęboko metaforycznym użyciem języka
+                        ofiarnego: pelanos nie należy do ofiary krwawej, jak to interpretują
+                        Erynie, sphagia jest ofiarą, po której nie następował posiłek, chociaż to
+                        właśnie ucztę po zabiciu Orestesa zapowiadają boginie, wreszcie thysia
+                        w wersie 328 jest po prostu metaforą śmierci, o czym przekonują kolejne
+                        wersy tekstu. W żadnym z tym miejsc nie można mówić o „corrupted
+                        sacrifice” (Zeitlin 1965: passim), ale jedynie o budzeniu silnych skojarzeń
+                        związanych z przemocą, wywołanych za pomocą metaforycznie użytego
+                        języka ofiary. Żadna z tych „ofiar” nie jest „zepsuta”, wszystkie
+                        natomiast występują w całkowicie odwróconym porządku i oderwaniu
+                        od rzeczywistego kontekstu ofiary krwawej.</p>
+                </div>
+                
+                <div type="textpart" n="Eumenides_341-346">
+                    <head>Eumenides 341-346</head>
+                    <p>341–346: – dokładnie powtórzona pieśń z wersów 328–333.</p>
+                </div>
+                
+                <div type="textpart" n="Eumenides_447-452">
+                    <head>Eumenides 447-452</head>
+                    <p>Passus z mowy Orestesa do Ateny, w której przedstawia on swoją
+                        sytuację. W tych słowach przywołuje prawo, według którego człowiek
+                        skalany krwią powinien milczeć do czasu, aż dozna oczyszczenia
+                        przez krew. Sam Orestes już został oczyszczony. Ponownie przywołuje
+                        scenę puryfikacji z Delf, opisaną w wersach 276–283 (zob. komentarz
+                        powyżej), jako dowód na to, że wolno mu przemawiać.</p>
+                    <quote><lb/>τεκμήριον δὲ τῶνδέ σοι λέξω μέγα·
+                        <lb/>ἄφθογγον εἶναι τὸν παλαμναῖον νόμος,
+                        <lb/>ἔστ᾽ ἂν πρὸς ἀνδρὸς αἵματος καθαρσίου
+                        <lb n="450"/>σφαγαὶ καθαιμάξωσι νεοθήλου βοτοῦ.
+                        <lb/>πάλαι πρὸς ἄλλοις ταῦτ᾽ ἀφιερώμεθα
+                        <lb/>οἴκοισι, καὶ βοτοῖσι καὶ ῥυτοῖς πόροις.</quote>
+                    <quote><lb/>Przedstawię ci na to wielki dowód:
+                        <lb/>Istnieje prawo, by winien mordu milczał,
+                        <lb/>Aż ofiary krwawe z młodego (jeszcze ssącego) zwierzęcia,
+                        <lb n="450"/>Spełnione przez męża, który od krwi oczyszcza, krwią go nie
+                        spryskają.
+                        <lb/>Dawno już tych oczyszczeń dostąpiłem gdzie indziej, i w domu,
+                        <lb/>I krwią małych zwierząt, i strumieniami wody.</quote>
+                </div>
+                
+                <div type="textpart" n="Eumenides">
+                    <head>Eumenides</head>
+                    <p>Zmaza za przelaną krew może być oczyszczona tylko przez przelanie
+                        krwi (Sommerstein 1989: 160), por. Ch. 400–474.</p>
+                    <p>449: [<w>ἀνδρὸς</w>] <w>αἵματος</w> <w>καθαρσίου</w> – „który od krwi oczyszcza”
+                        (tak samo jak w w. 63 i 578 – zob. Sidwell 1996: 48). Tutaj <w>καθάρσιος</w>
+                        jako przymiotnik (do <w>ἀνδρὸς</w>) oznacza tego, kto może/potrafi oczyszczać
+                        od zmazy krwi, a nie samą ofiarę oczyszczającą czy też to, co ma
+                        właściwości oczyszczające (zob. Rudhardt 1992: 165).</p>
+                    <p>450: <w>σφαγαὶ</w> […] ἂν […] <w>καθαιμάξωσι</w> – „ofiary […] krwią spryskają”.
+                        Rytualne, oczyszczające skropienie czy pomazanie krwią – wyrażane
+                        przez czasownik <w>καθαιμάσσω</w> – jest tu opisane jako skutek lub
+                        też element składowy ofiary typu sphagia. Krew oczyszcza, kiedy spływa
+                        z zaszlachtowanego zwierzęcia bezpośrednio na skalanego (por.
+                        wyżej komentarz do w. 276–283).</p>
+                    <p>450: <w>νεοθήλου</w> <w>βοτοῦ</w> – „z młodego zwierzęcia”, chodzi o młode
+                        prosię, które jeszcze ssie matkę, typowe w ofiarach katartycznych, jak
+                        w wersie 452: <w>βοτοῖσι</w> (Rose 1958: 259).</p>
+                </div>
+                
+                <div type="textpart" n="Eumenides_538-539">
+                    <head>Eumenides 538-539</head>
+                    <p>Wersy z pieśni chóru, która stanowi swoisty katalog tradycyjnych
+                        wartości. Pośród nich jest szacunek dla Dike – Sprawiedliwości, symbolizowanej
+                        tutaj przez jej ołtarz.</p>
+                    <quote><lb/>ἐς τὸ πᾶν {δέ} σοι λέγω,
+                        <lb/>βωμὸν αἴδεσαι δίκας·</quote>
+                    <quote><lb/>Oto, co Ci powiadam:
+                        <lb/>Czcij ołtarz Sprawiedliwości.</quote>
+                    <p>539: <w>βωμὸν</w> […] <w>δίκας</w> – „ołtarz Sprawiedliwości”. Ołtarz – <w>βωμός</w>
+                        – podkreśla sakralny, boski charakter Sprawiedliwości. Passus nie odwołuje
+                        się w żaden sposób do ofiary krwawej, jednak należy odnotować
+                        wystąpienie terminu technicznego.</p>
+                </div>
+                
+                <div type="textpart" n="Eumenides_578">
+                    <head>Eumenides 578</head>
+                    <p>Wypowiedź Apollona o Orestesie. Bóg oznajmia, że on sam jest
+                        tym, który oczyścił Orestesa z „krwawej zmazy” mordu, jak przekłada
+                        Srebrny: <w>φόνου</w>.</p>
+                    <quote><lb/>[…] φόνου δὲ τῷδ᾽ ἐγὼ καθάρσιος.</quote>
+                    <quote><lb/>Ja jestem dla niego tym, kto go oczyścił od mordu.</quote>
+                    <p>578: <w>καθάρσιος</w> – jak powyżej, wers 449, przymiotnikowo: taki,
+                        który oczyszcza. W postaci neutralnej urzeczownikowionej jest to
+                        sama ofiara oczyszczająca (LSJ, s.v.).</p>
+                </div>
+                
+                <div type="textpart" n="Eumenides_655-656">
+                    <head>Eumenides 655-656</head>
+                    <p>Passus z agonu między Apollonem i Eryniami. Erynie retorycznie
+                        pytają, jak można umknąć przed sprawiedliwością za mord na matce,
+                        w jaki sposób taki zbrodniarz miałby zamieszkiwać w rodzinnym domu
+                        w Argos, i wreszcie – jak ktoś taki miałby sprawować kult bogów.</p>
+                    <quote><lb n="655"/>ποίοισι βωμοῖς χρώμενος τοῖς δημίοις;
+                        <lb/>ποία δὲ χέρνιψ φρατέρων προσδέξεται;</quote>
+                    <quote><lb n="655"/>Jakich miałby używać publicznych ołtarzy?
+                        <lb/>Jaki wspólny obrzęd oczyszczający [chernips] życzliwie go przyjmie?</quote>
+                    <p>655: ποίοισι <w>βωμοῖς</w> χρώμενος τοῖς <w>δημίοις</w>; – „jakich miałby używać
+                        publicznych ołtarzy?”. Człowiek obciążony winą za morderstwo
+                        teoretycznie mógł spełniać ofiary prywatne, o ile nie obawiał się gniewu
+                        bogów, ale nie wolno mu było zbliżać się do żadnych ołtarzy publicznych
+                        (<w>βωμοῖς</w> τοῖς <w>δημίοις</w>).</p>
+                    <p>656: ποία δὲ <w>χέρνιψ</w> φρατέρων προσδέξεται – „jaki wspólny obrzęd
+                        oczyszczający [chernips] życzliwie go przyjmie?”, dosłownie „jaka
+                        święta woda [obmycie?] fratrii [go] przyjmie?”. Lech Trzcionkowski
+                        (hasło <w>χέρνιψ</w> w leksykonie, za Sommersteinem, 1989: 206) sugeruje
+                        przekład: „jaka fratria dopuści go do udziału w rytuałach?” (zob. leksykon:
+                        hasło <w>χέρνιψ</w>). <w>Χέρνιψ</w> to przede wszystkim woda lustralna
+                        używana do oczyszczeń przed obrzędami religijnymi, ale także samo
+                        obmywanie – stąd jako warunek sine qua non staje się ona metonimicznie
+                        określeniem całego rytuału, który poprzedza: jeśli nie wolno
+                        skalanemu nawet dostąpić oczyszczenia wodą lustralną, to tym bardziej
+                        zakazany jest jakikolwiek jego udział w rytuale (por. Rose 1958:
+                        273). Stanowi też istotny element przygotowania i właściwego przebiegu
+                        obrzędu ofiarnego.</p>
+                </div>
+                
+                <div type="textpart" n="Eumenides_689-690">
+                    <head>Eumenides 689-690</head>
+                    <p>Wersy z przemowy Ateny, ustanawiającej trybunał na Areopagu. Atena
+                        wspomina Amazonki i ich obóz rozbity na tym samym wzgórzu oraz
+                        to, że złożyły one ofiarę Aresowi, skąd pochodzi nazwa tego miejsca.</p>
+                    <quote><lb/>Ἄρει δ᾽ ἔθυον, ἔνθεν ἔστ᾽ ἐπώνυμος
+                        <lb n="690"/>πέτρα πάγος τ᾽ Ἄρειος·</quote>
+                    <quote><lb/>[Amazonki] złożyły tu ofiarę Aresowi, skąd pochodzi nazwa:
+                        <lb/>Skała i wzgórze Aresa.</quote>
+                    <p>689: <w>Ἄρει</w> δ᾽ <w>ἔθυον</w> – „złożyły ofiarę Aresowi”. Ofiara Amazonek
+                        na Areopagu jest zapewne pomysłem Ajschylosa, ponieważ nie pojawia
+                        się nigdzie indziej w literaturze. W wizji poety potrzebny był jakiś
+                        dodatkowy element łączący Wzgórze Aresa z Amazonkami. Taka
+                        ofiara, jak komentuje Sommerstein (1989: 214) nie powinna jednak
+                        dziwić, ponieważ według attyckiej tradycji Ares był ojcem Amazonek
+                        (Lys. 2.4; Isoc. 4.68).</p>
+                    <p>Kolejne passusy pochodzą z wystąpień Ateny, która toczy swoisty
+                        agon logon z Eryniami. Bogini odpowiada na powtarzający się refren
+                        Erynii, biadających nad nowym porządkiem nowych bogów i odstąpieniem
+                        od pradawnych praw zemsty, obiecujących Atenom krwawą
+                        zemstę za ułaskawienie Orestesa.</p>
+                    <p>Każde z tych wystąpień Ateny kończy się obietnicą kultu bogiń zemsty
+                        w mieście Ateńczyków oraz w ostatnim z nich – korzyści z niego
+                        płynących (w. 867–869: τοιαῦθ᾽ ἑλέσθαι σοι πάρεστιν ἐξ ἐμοῦ, /
+                        εὖ δρῶσαν, εὖ πάσχουσαν, εὖ <w>τιμωμένην</w> / χώρας μετασχεῖν τῆσδε
+                        θεοφιλεστάτης – „to wszystko możesz otrzymać ode mnie / w tej mojej
+                        ziemi kochanej przez bogów / dobra za dobro doświadczysz w czci
+                        wielkiej”, przekł. Chodkowski). Także na koniec czwartej przemowy
+                        Ateny (w. 881–891) wspomniana jest cześć, jakiej będą doznawać Erynie
+                        po pozostaniu w Atenach (w. 891: δικαίως ἐς τὸ πᾶν <w>τιμωμένῃ</w>
+                        – „cześć wieczystą mieć będziesz zapewnioną prawem”, przekł. Chodkowski).</p>
+                </div>
+                
+                <div type="textpart" n="Eumenides_804-807">
+                    <head>Eumenides 804-807</head>
+                    <p>Atena prosi Erynie, aby pozostały w mieście i obiecuje, że będą tu
+                        doznawać należnej czci.</p>
+                    <quote><lb/>ἐγὼ γὰρ ὑμῖν πανδίκως ὑπίσχομαι
+                        <lb n="805"/>ἕδρας τε καὶ κευθμῶνας ἐνδίκου χθονὸς
+                        <lb/>λιπαροθρόνοισιν ἡμένας ἐπ᾽ ἐσχάραις
+                        <lb/>ἕξειν, ὑπ᾽ ἀστῶν τῶνδε τιμαλφουμένας.</quote>
+                    <quote><lb/>Ja zaś uczciwie obiecuję wam,
+                        <lb n="805"/>Że i siedziby, i sanktuaria [w tej] wiernej ziemi,
+                        <lb/>Położone przy błyszczących tronach ołtarzy,
+                        <lb/>Mieć będziecie, czczone przez to miasto.</quote>
+                    <p>806: <w>λιπαροθρόνοισιν</w> […] ἐπ᾽ <w>ἐσχάραις</w> – „przy błyszczących
+                        tronach ołtarzy”. Atena obiecuje Eryniom, że będą miały w Atenach
+                        swoje ołtarze – escharai. Jednocześnie dopowiada, że będą one „tronobłyszczące”
+                        (<w>λιπαρόθρονοι</w>). Przymiotnik <w>λιπαρόθρονος</w> jest tutaj
+                        przydawką dla ołtarza – <w>ἔσχαρα</w>. Trudno powiedzieć, jak należy
+                        rozumieć tę frazę: czy ołtarze te, niskie, przyziemne, może w formie
+                        świętych kamieni (tak Sommerstein 1989: 244), mają w poetyckim
+                        wyobrażeniu pełnić zarazem funkcję tronów? W takim wypadku należałoby
+                        chyba tłumaczyć „przy ołtarzach błyszczących jak trony”,
+                        ewentualnie „przy ołtarzach takich, jak błyszczące trony”. Czy też
+                        należy uznać, że Erynie zasiądą na błyszczących tronach tuż obok ołtarzy
+                        (tak również Sommerstein, loc. cit., zresztą paradoksalnie w komentarzu
+                        do tego samego miejsca, sic!)? Sommerstein uznaje owe trony,
+                        niezależnie od tego, czy ostatecznie utożsamia je z ołtarzami, czy
+                        też nie – czego nie wiadomo, za święte kamienie w świętym okręgu
+                        bóstw, które regularnie miały być namaszczane oliwą. Przywołuje
+                        <title>Charaktery</title> Teofrasta (16.5), Pauzaniasza (10.24.6) oraz <title>Odyseję</title> 3.406–
+                        –411, gdzie Nestor zasiada na „gładzonych kamieniach (ἕζετ᾽
+                        ἐπὶ ξεστοῖσι <w>λίθοισιν</w>) „błyszczących od oliwy” (<w>ἀποστίλβοντες</w>
+                        <w>ἀλείφατος</w>)”.</p>
+                </div>
+                
+                <div type="textpart" n="Eumenides_834-836">
+                    <head>Eumenides 834-836</head>
+                    <quote><lb/>πολλῆς δὲ χώρας τῆσδε τἀκροθίνια
+                        <lb n="835"/>θύη πρὸ παίδων καὶ γαμηλίου τέλους
+                        <lb/>ἔχουσ᾽ ἐς αἰεὶ τόνδ᾽ ἐπαινέσεις λόγον.</quote>
+                    <quote><lb/>Najlepsze ofiary z tej bogatej krainy,
+                        <lb n="835"/>Ofiary wonne za dzieci i ślubne obrzędy
+                        <lb/>Mieć będziesz i na zawsze moje słowo będziesz chwalić.</quote>
+                    <p>834: <w>τἀκροθίνια</w> – „najlepsze ofiary”; ἀκροθίνια – najlepsze, wybrane
+                        cząstki, pierwociny z owoców i zbiorów, tutaj tyle, co aparchai.</p>
+                    <p>835: <w>θύη</w> – „ofiary wonne”. Rzeczownik τὸ <w>θύος</w> jest poetyzmem
+                        i wbrew narzucającej się intuicji nie występuje w znaczeniu
+                        tożsamym z <w>θυσία</w>. U Ajschylosa pojawia się jeszcze w <title>Ag</title>. 1409.
+                        Poza tym głównie u Homera (<title>Il</title>. 6.270; 9.499; <title>Od</title>. 15.261), Hezjoda
+                        (<title>Op. 338</title>) i raz u Teokryta (2.10). Pozostaje w etymologicznym
+                        związku z czasownikiem <w>θύω</w> i jego pierwotnym znaczeniem: „spalać,
+                        czyli powodować powstanie dymu”. Oznacza „to, co się spala,
+                        żeby uzyskać wonny dym”. Normatywny leksykon <w>LSJ</w> (s.v.) w haśle
+                        głównym podaje „burnt sacrifice”, ale już w <title>Suplemencie</title> każe zastąpić
+                        to znaczenie przez rozbudowaną definicję „a substance producing
+                        a fragrant smell when burnt”. Za takim właśnie znaczeniem,
+                        związanym raczej ze stwarzaniem wonnego dymu niż ze spalaniem
+                        czegokolwiek, opowiada się też Chantraine (s.v. <w>θύω</w> – 2.A.1). Do
+                        tych samych ustaleń doszedł też już w roku 1894 Hans von Fritze
+                        (1894: passim, zwłaszcza 9, 9), analizując wszystkie wystąpienia
+                        tego rzeczownika w literaturze i trudno zrozumieć, skąd błędne
+                        znaczenie znalazło się we wszystkich edycjach <title>LSJ</title>, skorygowane
+                        dopiero w ostatnim Suplemencie (1996). Termin ten nie należy do
+                        języka technicznego ofiary krwawej, jednak należy go tutaj odnotować
+                        z powodu związków etymologicznych, a także ze względu
+                        na istniejące w przekładach błędne interpretacje (tak np. w najnowszym
+                        przekładzie Chodkowskiego 2016 mamy po prostu „ofiary”,
+                        a u Podleckiego 1989: „sacrificial offerings” – tłumacze zwykli niesłusznie
+                        traktować to słowo jako synonim dla <w>θυσία</w>). Na temat
+                        stosowania kadzideł podczas ofiar krwawych (bez odniesienia do
+                        omawianego słowa) zob. Mehl 2008.</p>
+                    <p>Sommerstein (1989: ad loc.) sugeruje czasowe znaczenie przyimka
+                        <w>πρό</w>, co skutkowałoby znaczeniem „wonne ofiary [składane]
+                        przed porodami i zaślubinami”. Uważam jednak (jak Parker 2005a:
+                        441), że πρό znaczy tutaj tyle, co <w>ὑπέρ</w>, a całość frazy odnosi się
+                        do ofiar przedmałżeńskich połączonych z modlitwą za narodziny
+                        dzieci (Parker 2005a: 441 z odniesieniem do <title>FGrH</title> 325 F 6).</p>
+                </div>
+                
+                <div type="textpart" n="Eumenides_916-920">
+                    <head>Eumenides 916-920</head>
+                    <p>Słowa z pieśni chóru Erynii, które ostatecznie przekonane słowami
+                        Ateny przyjmują gościnę w Atenach, podkreślając w nich obecność bogów
+                        i miejsc kultu.</p>
+                    <quote><lb/>δέξομαι Παλλάδος ξυνοικίαν
+                        <lb/>οὐδ᾽ ἀτιμάσω πόλιν,
+                        <lb/>τὰν καὶ Ζεὺς ὁ παγκρατὴς Ἄρης τε
+                        <lb/>φρούριον θεῶν νέμει,
+                        <lb n="920"/>ῥυσίβωμον Ἑλλάνων ἄγαλμα δαιμόνων.</quote>
+                    <quote><lb/>Przyjmę gościnę Ateny,
+                        <lb/>I nie pogardzę miastem,
+                        <lb/>W którym i wszechmocny Zeus, i Ares
+                        <lb/>Posiadają twierdzę bogów
+                        <lb n="920"/>I wspaniałą obronę ołtarzy greckich bóstw.</quote>
+                    <p>920: <w>ῥυσίβωμον</w> – hapax legomenon Ajschylosa; złożenie z <w>βωμός</w>:
+                        „broniący ołtarzy”, tak jak ῥυσίπολις – „broniący miasto” czy <w>ῥυσίδι-
+                        φρος</w> – „ratujący powóz”.</p>
+                </div>
+                
+                <div type="textpart" n="Eumenides_1003-1009">
+                    <head>Eumenides 1003-1009</head>
+                    <p>Słowa z końcowej mowy Ateny w dialogu z chórem Erynii, które
+                        przyjęły gościnę w Atenach.</p>
+                    <quote><lb/>χαίρετε χὐμεῖς· προτέραν δ᾽ ἐμὲ χρὴ
+                        <lb/>στείχειν θαλάμους ἀποδείξουσαν
+                        <lb n="1005"/>πρὸς φῶς ἱερὸν τῶνδε προπομπῶν.
+                        <lb/>ἴτε καὶ σφαγίων τῶνδ᾽ ὑπὸ σεμνῶν κατὰ γῆς σύμεναι
+                        <lb/>τὸ μὲν ἀτηρὸν χωρὶς κατέχειν,
+                        <lb/>τὸ δὲ κερδαλέον πέμπειν πόλεως ἐπὶ νίκῃ.</quote>
+                    <quote><lb/>Także wy się cieszcie. Muszę jako pierwsza
+                        <lb/>Pójść, żeby wskazać wam siedziby
+                        <lb n="1005"/>W świętym ogniu uczestników procesji.
+                        <lb/>Idźcie, pospieszane przez te czcigodne ofiary, pod ziemię,
+                        <lb/>By trzymać [miasto] z dala od zagłady,
+                        <lb/>I słać dobra dla zwycięstwa miasta.</quote>
+                    <p>1006: <w>σφαγίων</w> τῶνδ᾽ ὑπὸ <w>σεμνῶν</w> – „przez te czcigodne ofiary”.
+                        W tym miejscu σφαγία oznaczają ofiary złożone Eryniom w ramach
+                        już ustanowionego kultu. W przekładzie Srebrnego mamy, nie wiadomo
+                        dlaczego, „ofiary z tych jagniąt”, a Sommerstein zastanawia
+                        się, jakie zwierzęta w tym kontekście byłyby najbardziej odpowiednie
+                        i dochodzi do wniosku, że zapewne krowy (1989: 274), ponieważ
+                        bydło uchodziło za najbardziej „zacne” (<w>σεμνά</w>), uszczegółowiając, że
+                        czarne, jako właściwe dla żeńskich bóstw chtonicznych. W tekście nie
+                        ma na ten temat żadnych wskazówek. Z pewnością jest to jedno z niewielu
+                        miejsc w trylogii, gdzie mowa jest o ofierze typu sphagia bez
+                        żadnych odwołań metaforycznych i podwojonych sensów.</p>
+                    <p>Panuje powszechne przekonanie, że jakaś istotna część końcowej
+                        mowy Ateny zaginęła w czasie transmisji tekstu (Sommerstein 1989: 280).
+                        Ponieważ samo imię tytułowych Eumenid nie pojawia się ani razu w zachowanym
+                        tekście tragedii, domniemywa się, że w zaginionym passusie
+                        (Sommerstein 1989: 281 sugeruje, że musiał on być dość obszerny) bogini
+                        ustanawiała kult Eumenid, by później wezwać do następującej potem
+                        procesji, która odprowadzała Erynie zamienione w Eumenidy do miejsca
+                        ich kultu. Lacuna ta, między wersami 1025–1028, mogła obejmować ustanowienie
+                        kultu Eumenid, a także samo nazwanie ich tym imieniem (por.
+                        apparatus w edycji krytycznej Westa: s. 56)<note>17 Pełna dyskusja na ten temat zob.: Mitchell-Boyask 2009: 24 z odniesieniem
+                            do Sommerstein 1989: 11–12 i Podlecki 1989: 6–7. Por. też Brown 1984: 260–281.</note></p>
+                    <p>W przekładzie Srebrnego wersy 1029–1032 (według jego numeracji)
+                        zawierają wiadomość o ustanowieniu ofiar dla Eumenid, z wyszczególnieniem
+                        „jagnięcej krwi ofiarnej” oraz „napoju z miodu, mleka i wody
+                        krynicznej”. Nie udało mi się ustalić, co stanowiło dla Srebrnego podstawę
+                        przekładu, ponieważ wersy te nie pojawiają się w żadnej znanej
+                        mi lekcji tekstu (por. Headlam 1906: 268–277) – ani Nicolausa Weckleina
+                        (Leipzig 1888), ani Wilamowitza-Moellendorffa (Berlin 1914), ani George’a
+                        Thomsona (Cambridge 1938).</p>
+                </div>
+                
+                <div type="textpart" n="Eumenides_1036-1038">
+                    <head>Eumenides 1036-1038</head>
+                    <p>Końcowe słowa Ateny skierowane do Erynii, a zarazem do uczestników
+                        uroczystej procesji odprowadzającej nowe boginie do ich skalnej
+                        siedziby.</p>
+                    <quote><lb/>γᾶς ὑπὸ κεύθεσιν ὠγυγίοισιν,
+                        <lb/>{καὶ} τιμαῖς καὶ θυσίαις περίσεπτα τύχοιτε<note>18 W części rękopisów (M – Laurentinus): περίσεπται τύχαι τε.</note>.
+                        <lb/>– εὐφαμεῖτε δὲ πανδαμεί.</quote>
+                    <quote><lb/>W głębi Ogygosa ziemi
+                        <lb/>Niech spotka was wielki szacunek przez cześć i ofiary.
+                        <lb/>Milczcie wszyscy zbożnie.</quote>
+                    <p>1037: <w>τιμαῖς</w> καὶ <w>θυσίαις</w> – „przez cześć i ofiary”. Atena życzy Eumenidom,
+                        by cieszyły się wielkim szacunkiem (περίσεπτα). Wyrazem
+                        tego szacunku jest cześć (τιμαῖς), czy raczej objawy czci, oraz składanie
+                        ofiar (<w>θυσίαις</w>) – żadna inna wzmianka w tekście nie pozwala rozstrzygnąć,
+                        o jakiego typu ofiary może chodzić.</p>
+                </div>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
