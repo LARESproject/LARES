@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Iliade canto VII</title>
+                <title xml:lang="en">Iliad book VII</title>
+                <title xml:lang="pl">Iliada, pieśń VII</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_07_ilias_vii</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Iliada, pieśń VII</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 102-110</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Pieśń siódma kończy pierwszy dzień walki (22. dzień akcji rozpoczętej przybyciem Chryzesa do obozu Achajów) oraz opowiada wydarzenia dnia 23. (pogrzeb poległych) i 24. (budowa muru). Głównym tematem pieśni jest pojedynek Hektora z Ajasem, który tworzy z wcześniejszym pojedynkiem Parysa z Menelaosem ramy narracyjne opowiadania o pierwszym dniu walki szczegółowo przedstawionym w pieśniach I–VII. Pieśń VII ma następującą strukturę (wytłuszczonym drukiem zaznaczono tematy i motywy ofiarnicze w narracji):</p>
+                    <p>1–16		Powrót Hektora z Parysem na pole walki; Atena i Apollon ustalają, że należy zakończyć bitwę przez pojedynek Hektora z którymś z Achajów. Wieszczek Helenos zrozumiał postanowienie bogów i nakłania brata do zatrzymania Trojan i wyzwania Achajów na pojedynek.</p>
+                    <p>17–312	Pojedynek Hektora z Ajaksem, którego rozstrzygnięcie jest determinowane przysięgą złożoną w pieśni III.</p>
+                    <p>313–344	Ofiara dla Zeusa i narada w namiocie Agamemnona: prośba o rozejm w celu pochowania zmarłych (i wybudowania muru wokół obozu achajskiego).</p>
+                    <p>345–380	Zebranie wojsk trojańskich na Akropolu: przyjęcie prośby achajskiej i złożenie propozycji zwrotu skradzionych skarbów (ale nie Heleny).</p>
+                    <p>381–432	Pogrzeb poległych. Achajowie odrzucają propozycję Trojan.</p>
+                    <p>433–464	Budowa muru wokół obozu.</p>
+                    <p>465–482	Wieczerza w obozie achajskim.
+                    </p>
+                </div>
+                <div type="textpart" n="Iliad_VII_313–325">
+                    <head>Iliada VII 313–325</head>
+                    <p>Scena typowa – uczta królewska – w namiocie Agamemnona została zbudowana z wersów formularnych, z których część występuje w Iliadzie (Il. 7.313 = Il. 9.699; Il. 7.314–315 = Il. 2.402–403), a część w Odysei (Od. 3.316–318 = Od. 19.421–423; 3.321 ≈ Od. 14.437). Scena różni się od innych zogniskowaniem na przygotowaniach do posiłku wyrażonych szczegółowym opisem kolejnych etapów pracy rzeźniczej: oskórowanie, oprawienie, poćwiartowanie, nadzianie na rożny (Hitch 2009: 106). Jednocześnie poeta nie wspomina o kluczowym dla ofiary zwierzęcej spaleniu kości udowych i skosztowaniu pieczonych trzewi. Nieuchronnie zatem powraca pytanie o to, czy każdy ubój miał charakter rytualny. W Odysei brak wzmianek o ofiarnym charakterze nieustannego uboju zwierząt i ich zjadaniu na ucztach celowo podkreśla bezbożny charakter biesiad zalotników. Tutaj czasownik ἱερεύειν z imieniem boga w datiwie wskazuje na sakralny charakter działań.</p>
+                    <quote>
+                        <lb/>Οἳ δ᾽ ὅτε δὴ κλισίῃσιν ἐν Ἀτρεΐδαο γένοντο, 
+                        <lb/>τοῖσι δὲ βοῦν ἱέρευσεν ἄναξ ἀνδρῶν Ἀγαμέμνων 
+                        <lb n="315"/>ἄρσενα πενταέτηρον ὑπερμενέϊ  Κρονίωνι. 
+                        <lb/>τὸν δέρον ἀμφί θ᾽ ἕπον, καί μιν διέχευαν ἅπαντα, 
+                        <lb/>μίστυλλόν τ᾽ ἄρ᾽ ἐπισταμένως πεῖράν τ᾽ ὀβελοῖσιν, 
+                        <lb/>ὄπτησάν τε περιφραδέως, ἐρύσαντό τε πάντα. 
+                        <lb/>αὐτὰρ ἐπεὶ παύσαντο πόνου τετύκοντό τε δαῖτα, 
+                        <lb n="320"/>δαίνυντ᾽, οὐδέ τι θυμὸς ἐδεύετο δαιτὸς ἐΐσης·
+                        <lb/>νώτοισιν δ᾽  Αἴαντα διηνεκέεσσι γέραιρεν 
+                        <lb/>ἥρως  Ἀτρεΐδης εὐρὺ κρείων  Ἀγαμέμνων. 
+                        <lb/>αὐτὰρ ἐπεὶ πόσιος καὶ ἐδητύος ἐξ ἔρον ἕντο, 
+                        <lb/>τοῖς ὁ γέρων πάμπρωτος ὑφαίνειν ἤρχετο μῆτιν 
+                        <lb/>Νέστωρ, οὗ καὶ πρόσθεν ἀρίστη φαίνετο βουλή·
+                    </quote>
+                    <quote>
+                        <lb/>Gdy tylko pojawili się w namiocie Atrydy,
+                        <lb/>dla nich wołu zabił w ofierze pan mężów Agamemnon
+                        <lb n="315"/>samca pięcioletniego dla przemożnego Kronidy.
+                        <lb/>Obdarli go ze skóry i przygotowali, poćwiartowali wszystko,
+                        <lb/>Posiekali zręcznie, nadziali na rożny,
+                        <lb/>Upiekli starannie i zdjęli wszystkie kawałki,
+                        <lb/>kiedy zatem odpoczęli po trudach i przygotowali ucztę,
+                        <lb n="320"/>ucztowali i niczego nie brakowało sercu z równej uczty.
+                        <lb/>Polędwicą zaś w jednym kawałku Ajasa zaszczycił 
+                        <lb/>Heros Atryda szeroko panujący Agamemnon.
+                        <lb/>Gdy już napojem i jadłem głód nasycili,
+                        <lb/>pierwszy starzec rozpoczął przedstawiać swój zamysł
+                        <lb/>Nestor, którego rada okazała się także najlepszą.	
+                    </quote>
+                    <p>313: Οἳ δ᾽ ὅτε δὴ κλισίῃσιν ἐν Ἀτρεΐδαο γένοντο – „gdy tylko pojawili się w namiocie Atrydy”; wers formularny (= 9.699), gdzie służy wprowadzeniu sceny powrotu posłów, którzy udali się do Achillesa z misją nakłonienia go do walki. Warto zauważyć, że w przeciwieństwie do komentowanego miejsca w pieśni IX po tym wprowadzającym heksametrze następuje opis rytualnego picia wina, a nie mięsnej uczty heroicznej. Wydaje się zatem, że heksametr mógł być używany swobodnie jako wprowadzenie do sceny, w której wodzowie przywają do namiotu Agamemnona, niezależnie od charakteru spotkania. Liczbę mnogą κλισίῃσιν (w namiotach) należy tłumaczyć w liczbie pojedynczej – „w namiocie”, gdyż zastąpienie liczby pojedynczej mnogą jest częste w poezji, a z kontekstu wynika, że chodzi o siedzibę wodza. Narada wodzów w namiocie Agamemnona oraz scena – uczta mięsna – poprzedza przemowę Nestora.</p>
+                    <p>314–315: wersy formularne (= Il. 2.402–403). W obu wypadkach wersy wprowadzają scenę ofiary krwawej w namiocie Agamemnona przed posiedzeniem rady złożonej z członków ścisłej elity achajskiej.	</p>
+                    <p>τοῖσι δὲ βοῦν ἱέρευσεν… Κρονίωνι – „dla nich wołu zabił w ofierze… dla Kronidy”; czasownik ἱερεύω z podwójnym datiwem może oznacza „złożyć w ofierze komu” (imię boga w dat.), „na czyjąś cześć” (dat.). Wówczas należałoby przetłumaczyć „na ich cześć wołu zabił w ofierze… dla Kronidy”. Możliwa jest również interpretacja τοῖσι jako „wśród nich, pośrodku nich”.</p>
+                    <p>ἄρσενα πενταέτηρον – „samca pięcioletniego”; w hemistychu Il. 2.403a zamiast wyrażenia ἄρσενα πενταέτηρον – „samca pięcioletniego” mamy πίονα πενταέτηρον – „tłustego, pięcioletniego”. K. Jeżewska tłumaczy ten zwrot przez „buhaja”, jednak słowo to należałoby zarezerwować dla oddania greckiego tauros. Według Jeana Casabona chodzi o scenę zabicia zwierzęcia, w której idea biesiady i posiłku wysuwa się na pierwszy plan, chociaż nie można wykluczyć obecności idei ofiary zwierzęcej (Casabona 1966: 23).</p>
+                    <p>316: τὸν δέρον ἀμφί θ᾽ ἕπον – „obdarli go ze skóry”; wers formularny = Od. 19.421, por. Il. 24.622, Od. 8.6. Wers został także wykorzystany w Il. 23.167, gdzie Achilles zabija barany i wołu przy stosie Patroklosa, zdziera z nich skórę, a następnie wyjmuje tłuste błony otrzewnej i otula nią zwłoki. Schnapp-Goubreillon (1982: 81) dostrzega w tej procedurze ofiarny charakter działań, jednak należy pamiętać o technikach twórczości oralnej, które leżą u podstawy wyborów poety Iliady: opisując oskórowanie zwierząt sięga w pamięci po wers formularny, a ten prototypowo odnosi się do działań ofiarnych, por. Hughes 1991: 219, przyp. 9.</p>
+                    <p>δέρον – „obdarli go ze skóry”; zdjęcie skóry ze zwierzęcia ofiarnego w Iliadzie ściśle łączy się z ofiarą z wołów; złożonym w ofierze świniom opala się szczeć (Od. 14.) lub, podobnie jak barany, piecze na rożnie (Il. 24.623 oraz Od. 19.422. 9.468; 23.33). Zarżnięcie zwierzęcia i oskórowanie może także wyrażać inne wyrażenie formularne, które pojawia się w Il. 1.459 = 2.422; por. Od. 12.359.</p>
+                    <p>καί μιν διέχευαν ἅπαντα – „poćwiartowali wszystko”; czasownik διαχέω oznacza „ćwiartować”, „kroić na kawałki”, „siekać”. Znaczenie prototypowe tematu χε- (i.e. khe-/kheu-) wyraża pojęcie „rozpraszania czegoś, co ma zwartą postać”, stąd „wylewać” (wodę z naczynia) lub „rozsypywać” (zboże trzymane w garści). W przypadku mięsa zwierzęcia ofiarnego, przez siekanie rozdrabnia się zwartą strukturę mięśnia i umożliwia nadzianie kawałków na rożna (souvlaki) lub wrzucenie do kotła (gulasz). Oprócz tego miejsca w Iliadzie, hemistych pojawia się dwukrotnie w scenach ofiary w Odysei (3.447; 14.401).</p>
+                    <p>317: Wers formularny (= Il. 24.623, Od. 19.422) pojawiający się w opisach uczty ofiarnej, w których akcent został przeniesiony z rytuału ofiarnego na ucztę. Chodzi o wariant wersu formularnego Il. 1.465 = 2.428 = Od. 3.462 = 12.462 = 14.430, w którym nawiązuje się do spalenia kości udowych i skosztowania podrobów wyrażonych zaimkiem τἆλλα (a resztę).</p>
+                    <p>318–320: Wersy formularne powtórzone w tym samym układzie w dwóch scenach typowych w Iliadzie (= 1.466–468 = 2.429–431). Ponadto poszczególne heksametry zostały wykorzystane w licznych opisach uczty heroicznej.</p>
+                    <p>318: ὄπτησάν τε περιφραδέως, ἐρύσαντό τε πάντα – upiekli starannie i zdjęli wszystkie kawałki: wers formularny występujący w scenach – ofiara krwawa – przedstawianych w narracji głównej (= Il. 1.466, 2.429, 24.624; Od. 12.463, 14.431).</p>
+                    <p>319: αὐτὰρ ἐπεὶ παύσαντο πόνου τετύκοντό τε δαῖτα – „kiedy zatem odpoczęli po trudach i przygotowali ucztę”; wers formularny (Il. 1.467 = 2.430). W Odysei znajdujemy wariant tego wersu z zaimkiem dostosowanym do kontekstu narracyjnego: οἱ δ᾽ ἐπεὶ οὖν παύσαντο πόνου τετύκοντό τε δαῖτα  (Od. 16.478 = 24.384).</p>
+                    <p>320: δαίνυντ᾽, οὐδέ τι θυμὸς ἐδεύετο δαιτὸς ἐΐσης – „ucztowali, i niczego nie brakowało sercu z równej uczty”; wers formularny (Il. 1.468 = Il. 1.602 = Il. 2.431 = Il. 7.320 = Il. 23.56 = Od. 16.479 = Od. 19.425; por. Il. 4.48 = 24.69).</p>
+                    <p>321: νώτοισιν δ᾽  Αἴαντα διηνεκέεσσι γέραιρεν – „polędwicą zaś w jednym kawałku Ajasa zaszczycił”; wers formularny, por. Od. 14.437 (Eumajos czci Odyseusza). Uhonorowanie Ajasa darem poczesnym, kawałkiem polędwicy wołowej, podkreśla pozycję herosa, któremu pod nieobecność Achillesa przysługuje miano „najlepszego spośród Achajów”, por. Il. 2.761–769. Agamemnon jest najlepszy ze względu na sprawowaną władzę, Achilles i Ajas są najlepszymi wojownikami. Zob. Hitch 2010: 184–185.</p>
+                    <p>322: ἥρως  Ἀτρεΐδης εὐρὺ κρείων Ἀγαμέμνων – „heros Atryda szeroko panujący Agamemnon”; podobnie jak w wersie 314, tak i tutaj wyrażenie formularne podkreśla przywódczą rolę Agamemnona.</p>
+                    <p>323: αὐτὰρ ἐπεὶ πόσιος καὶ ἐδητύος ἐξ ἔρον ἕντο – „gdy napojem pragnienie i jadłem głód nasycili”; wers formularny (Il. 1.469 z komentarzem).</p>
+                </div>
+                <div type="textpart" n="Iliad_VII_446–453">
+                    <head>Iliada VII 446–453</head>
+                    <p>O świcie Achajowie i Trojanie zbierają z pola bitewnego ciała poległych, które palą na stosach pogrzebowych. Achajowie usypali mogiłę na miejscu kremacji, po czym przystąpili do obwarowania swojego obozu. W tym samym czasie bogowie gromadzą się wokół Zeusa i dochodzi do sporu Zeusa z Posejdonem (442–482) . Jako pierwszy zabiera głos Posejdon, który w pytaniu retorycznym mającym skłonić Zeusa do działania wprowadza motyw zaniedbanej hekatomby jako potencjalnej przyczyny gniewu bogów. Zeus w uspokajającej odpowiedzi zapewnia Posejdona, że mur wzniesiony przez Achajów po ich powrocie do Grecji może zostać zburzony. Tłem tego dialogu bogów mogą być cechy krajobrazu kulturowego Troady w czasie powstawania Iliady. Brak widocznych śladów obwarowań obozu Achajów, przy jednoczesnej naoczności ruin Troi, domagał się wyjaśnienia ajtiologicznego (por. 12.3–33). Krytycy aleksandryjscy uznali całą scenę za interpolację (w. 443–464), zob. omówienie problemu z literaturą przedmiotu w Kirk 1984: 288–9. </p>
+                    <quote>
+                        <lb/>Ζεῦ πάτερ,  ἦ ῥά τίς ἐστι βροτῶν ἐπ᾽ ἀπείρονα γαῖαν 		
+                        <lb/>ὅς τις ἔτ᾽ ἀθανάτοισι νόον καὶ μῆτιν ἐνίψει; 
+                        <lb/>οὐχ ὁράᾳς ὅτι δ᾽ αὖτε κάρη κομόωντες  Ἀχαιοὶ 
+                        <lb/>τεῖχος ἐτειχίσσαντο νεῶν ὕπερ, ἀμφὶ δὲ τάφρον 
+                        <lb n="450"/>ἤλασαν, οὐδὲ θεοῖσι δόσαν κλειτὰς ἑκατόμβας;
+                        <lb/>τοῦ δ᾽ ἤτοι κλέος ἔσται ὅσον τ᾽ ἐπικίδναται ἠώς· 
+                        <lb/>τοῦ δ᾽ ἐπιλήσονται τὸ ἐγὼ καὶ  Φοῖβος  Ἀπόλλων 
+                        <lb/>ἥρῳ  Λαομέδοντι πολίσσαμεν ἀθλήσαντε.
+                    </quote>
+                    <quote>
+                        <lb/>Zeusie ojcze, czy wśród śmiertelnych na bezkresnej ziemi		
+                        <lb/>jest kto nieśmiertelnym myśl i zamiar wypowie? 
+                        <lb/>Czyżbyś nie widział, że wznieśli znów kędzierzawi Achajowie
+                        <lb/>mur przy okrętach, wokół zaś rowem,
+                        <lb n="450"/>go opasali, nie dali wszak bogom sławnych hekatomb?
+                        <lb/>Jego sława zaiste będzie, gdzie tylko sięga jutrzenka,
+                        <lb/>z jego powodu zapomną dzieło, które ja z Fojbosem Apollonem
+                        <lb/>dla herosa Laomedonta trudząc się zbudowaliśmy w krąg miasta.
+                    </quote>
+                    <p>446: Ζεῦ πάτερ – „Zeusie ojcze”; zob. 3.276.</p>
+                    <p>ἦ ῥά τίς ἐστι βροτῶν ἐπ᾽ ἀπείρονα γαῖαν – „czy wśród śmiertelnych na bezkresnej ziemi / jest kto”; nieśmiertelnemu bogu, ojcu bogów i ludzi, Zeusowi, którego siedzibą jest niebiański Olimp, są przeciwstawieni śmiertelnicy (βροτοί ) żyjący na „bezkresnej ziemi”, (ἐπ᾽ ἀπείρονα γαῖαν, epitet formularny ἀπείρονα, por. Il. 24.342; Od. 1.98; Od. 5.46; Od. 15.79; Od. 17.386; Od. 17.418; Od. 19.107).</p>
+                    <p>450: Motyw zaniedbanej ofiary krwawej jest jednym z wyjaśnień biegu wydarzeń w eposie, por. Il. 1.65 z komentarzem. Ze słów Posejdona wynika, że przed rozpoczęciem budowli należało złożyć uroczystą ofiarę, hekatombę. Kirk, komentując to miejsce, próbuje racjonalnie wyjaśnić brak ofiar pośpiechem Achajów oraz sugeruje, że nie jest pewne, czy ofiary takie były bezwzględnie wymagane. Jednak ten sam motyw pojawia się na początku pieśni dwunastej (Il. 12.3 i nast.), gdzie główny narrator, poeta, wiąże krótkie istnienie muru Achajów z niezłożeniem hekatomby (zob. komentarz).</p>
+                </div>
+                <div type="textpart" n="Iliad_VII_465–480">
+                    <head>Iliada VII 465–480</head>
+                    <p>Wieczerza Achajów kończy 24. dzień akcji Iliady, który wypełnia budowa muru wokół greckiego obozu. Po krótkim przeniesieniu akcji na Olimp poeta ponownie skupia się na wydarzeniach pod Troją, gdzie przybywają okręty wiozące wino z Lesbos. Wieczerza kończy dzień pracy. Trudno powiedzieć, czy ubój wołów na posiłek ma charakter rytualny. W samym tekście brak wyraźnych oznak wskazujących na poświęcenie bitych wołów dla bogów.</p>
+                    <quote>
+                        <lb/>βουφόνεον δὲ κατὰ κλισίας καὶ δόρπον ἕλοντο. 				
+                        <lb/>νῆες δ᾽ ἐκ  Λήμνοιο παρέσταν οἶνον ἄγουσαι 
+                        <lb/>πολλαί, τὰς προέηκεν  Ἰησονίδης  Εὔνηος, 
+                        <lb/>τόν ῥ᾽ ἔτεχ᾽  Ὑψιπύλη ὑπ᾽  Ἰήσονι ποιμένι λαῶν. 
+                        <lb n="470"/>χωρὶς δ᾽  Ἀτρεΐδῃς  Ἀγαμέμνονι καὶ  Μενελάῳ	
+                        <lb/>δῶκεν  Ἰησονίδης ἀγέμεν μέθυ χίλια μέτρα. 
+                        <lb/>ἔνθεν οἰνίζοντο κάρη κομόωντες  Ἀχαιοί, 
+                        <lb/>ἄλλοι μὲν χαλκῷ, ἄλλοι δ᾽ αἴθωνι σιδήρῳ, 
+                        <lb/>ἄλλοι δὲ ῥινοῖς, ἄλλοι δ᾽ αὐτῇσι βόεσσιν, 
+                        <lb n="475"/>ἄλλοι δ᾽ ἀνδραπόδεσσι· τίθεντο δὲ δαῖτα θάλειαν.
+                        <lb/>παννύχιοι μὲν ἔπειτα κάρη κομόωντες  Ἀχαιοὶ 
+                        <lb/>δαίνυντο,  Τρῶες δὲ κατὰ πτόλιν ἠδ᾽ ἐπίκουροι· 
+                        <lb/>παννύχιος δέ σφιν κακὰ μήδετο μητίετα  Ζεὺς 
+                        <lb/>σμερδαλέα κτυπέων· τοὺς δὲ χλωρὸν δέος ᾕρει· 
+                        <lb n="480"/>οἶνον δ᾽ ἐκ δεπάων χαμάδις χέον, οὐδέ  τις ἔτλη
+                        <lb/>πρὶν πιέειν πρὶν λεῖψαι ὑπερμενέϊ  Κρονίωνι. 
+                        <lb/>κοιμήσαντ᾽ ἄρ᾽ ἔπειτα καὶ ὕπνου δῶρον ἕλοντο.  
+                    </quote>
+                    <quote>
+                        <lb n="465"/>Słońce tymczasem zgasło. Skończone dzieło Achajów.
+                        <lb/>Bili koło namiotów woły i jedli wieczerzę.					
+                        <lb/>Liczne okręty ładowne w tym czasie z Lemnos przybyły
+                        <lb/>z winem od syna Jazona, Euneosa, przysłane;
+                        <lb/>od Hypsipyli wziął życie i władcy ludów Jazona.
+                        <lb n="470"/>Dla Menelaja natomiast Atrydy i Agamemnona
+                        <lb/>najprzedniejszego napoju dał tysiąc miar Jazonida.
+                        <lb/>Zatem ruszyli po wino o bujnych włosach Achaje:
+                        <lb/>jedni za spiż je dostają, drudzy za czarne żelazo,
+                        <lb/>jedni za skóry wołowe, a drudzy za same woły,
+                        <lb n="475"/>inni za jeńców wojennych. I ucztę obfitą szykują.
+                        <lb/>Tak ucztowali noc całą o bujnych włosach Achaje
+                        <lb/>w swym obozie, a w mieście Trojanie i sprzymierzeńcy.
+                        <lb/>Całą noc także Zeus przeciw nim knuł wrogie zamiary,
+                        <lb/>grzmiący straszliwie. I wtedy strach blady wszystkich ogarniał
+                        <lb n="480"/>wino strząsali na ziemię z pucharów i nikt się nie ważył
+                        <lb/>pić, nim ofiary nie złożył wpierw przemożnemy Kronidzie.
+                        <lb/>W końcu spoczęli znużeni i dar snu wszystkich ukoił.
+                    </quote>
+                    <p>466: βουφόνεον – „zabijali woły”; por. Il. 2.399 z komentarzem. Czasownik βουφονέω (hapax legomenon) można powiązać z faktami religijnymi znanymi z późniejszych źródeł, co jeszcze nie daje gwarancji, że miał on konotacje rytualne. Najbardziej znany jest ateński rytuał bufonia odprawiany w czasie święta Dipoleja ku czci Zeusa Polieusa na Akropolu. Jednak rytuał ten miał bardzo szczególny charakter i przebieg i w żaden sposób nie może być brany za wzorzec dla masowego bicia wołów na ucztę połączoną z biesiadą sympozjalną. Święto Bufonia musiało być obchodzone poza Attyką, sądząc po nazwie miesiąca bouphonion w kalendarzach Delos oraz Tenos. Znany jest również przymiotnik βουφόνος (h. hom. Hermes, 436). Komponent φόνος implikuje zabójstwo, morderstwo, w przeciwieństwie do bardziej neutralnego σφάζειν, „zarzynać”, czasownika należącego do języka technicznego ofiary. Możliwe jednak, że użycie nietypowego czasownika βουφονεῖν wynika z kontekstu narracyjnego – wieczerza, którą przygotowują Achajowie rozpoczyna się po zachodzie słońca, a zatem w porze, w której w świecie heroicznym nie godzi się składać ofiar bogom olimpijskim. Dlatego poeta unika w tym miejscu wszelkich znaków odsyłających do ofiary zwierzęcej, a podkreśla, bardziej niż w innych miejscach, elementy sympozjalne. Nie oznacza to jednak, że wieczerza w obozie Achajów jest całkowicie pozbawiona cech rytualnych. Poeta podkreśla bowiem, że nikt nie zaczął pić wina, zanim nie złożył libacji Zeusowi (480–481).</p>
+                    <p>δόρπον ἕλοντο – „przygotowali wieczerzę”; rzeczownik δόρπον oznacza „wieczerzę, posiłek spożywany po zachodzie słońca”. Zgodnie z „heroiczną normą” (określenie Marka Węcowskiego) nocne ucztowanie wykracza poza zwyczajne ramy czasowe biesiadowania, ale nie jest wykluczone, chociaż za każdym razem mamy do czynienia z sytuacją szczególną, zob. Węcowski 2011: 184–187, na temat Il. 7.465–482: ibidem: 185.</p>
+                    <p>467–469: Przybycie licznych okrętów z winem z Lemnos jest jednocześnie odwołaniem się do tradycji wpisującej wyspę w dwa cykle epickie. Z jednej strony Euneos (imię mówiące: Mający-dobry-okręt) jest potomkiem Jazona, którego ten spłodził w czasie postoju Argonautów na Lemnos. Z drugiej Lemnos było miejscem postoju Achajów zmierzających do Troi i złożenia ofiary, w czasie której wąż ukąsił Filokteta, do czego poeta Iliady czyni aluzję dwukrotnie (Il. 8.320–324; Il. 2.727).</p>
+                    <p>475: τίθεντο δὲ δαῖτα θάλειαν – „i ucztę obfitą szykują”; rzeczownik δαίς z epitetem θαλείη – „kwitnący” zamyka w konstrukcji pierścieniowej żywy obraz handlu barterowego winem i wymiany darów. Opis otwierał zwrot δόρπον ἕλοντο w 466.</p>
+                    <p>478: παννύχιος δέ σφιν κακὰ μήδετο μητίετα  Ζεὺς – „całą noc rozważał dla nich zło Zeus doradca”; por. 15.377, gdzie Zeus daje znaki błyskawicami i gromami. Wydaje się, że zaimek σφιν odnosi się nie tylko do Achajów, ale również do Trojan (zob. Leaf, comm. ad loc.). Całonocne biesiadowanie, podobnie jak wyjątkowy charakter wina pitego podczas biesiady, stwarza sytuację szczególną, którą podkreśla boska obserwacja pola bitewnego i znaki przesyłane ludziom.</p>
+                    <p>479: τοὺς δὲ χλωρὸν δέος ᾕρει – „i ogarniał ich blady strach”; trwoga w obliczu znaków zsyłanych przez bóstwo jest normatywnym doświadczeniem religijnym w kulturze greckiej. Odpowiedzią na niepokojące znaki jest próba rytualnego zażegnania zła.</p>
+                    <p>480–481: οἶνον δ᾽ ἐκ δεπάων χαμάδις χέον – „wino z pucharów na ziemię wylewali”; libacja z wina jest tutaj odpowiedzią na znaki dawane przez boga. W czasie nocnej biesiady sympozjalnej lanie ofiary płynnej wydaje się być właściwą formą nawiązywania komunikacji z bogami, jednak czasownik χέω oznacza „wylewać całość płynu”, „chlusnąć”, co sugeruje, że lęk wywołany grzmotem skłaniał biesiadników do wylewania całego wina z czary na ziemię. W przeciwieństwie do χέω czasownik λείβω z następnego wersu oznacza strząsanie lub ulewanie kroplami i jest synonimem σπένδω (Casabona 1966: 279).</p>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

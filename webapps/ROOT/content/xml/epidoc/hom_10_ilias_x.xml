@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Iliade canto X</title>
+                <title xml:lang="en">Iliad book X</title>
+                <title xml:lang="pl">Iliada, pieśń X</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_10_ilias_x</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Iliada, pieśń X</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 132-134</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Pieśń X (Doloneia) przedstawia wydarzenia nocy kończącej 25. dzień akcji Iliady. Niekorzystny wynik bitwy oraz rozbicie obozu Trojan na równinie sprawiają, że główni herosi achajscy nie mogą spać i muszą zebrać się na naradę w celu przedsięwzięcia działań zaradczych. Wzmianki o ofierze pojawiają się dwukrotnie, za każdym razem włączone w wypowiedzi postaci. </p>
+                </div>
+                
+                <div type="textpart" n="Iliad_X_43–51">
+                    <head>Iliada X 43–51</head>
+                    <p>Włączenie ofiary w mowę niezależną wypowiadaną przez Agamemnona umożliwia przedstawienie interpretacji wydarzeń na polu bitwy, opowiedzianych w głównej narracji z perspektywy postaci działającej – aktora. Agamemnon interpretuje klęski Achajów jako odwrócenie przychylności boga, który jest dawcą dobra i zła.</p>
+                    <quote>
+                        <lb/>Τὸν δ᾽ ἀπαμειβόμενος προσέφη κρείων  Ἀγαμέμνων· 				
+                        <lb/>χρεὼ βουλῆς ἐμὲ καὶ σὲ διοτρεφὲς ὦ  Μενέλαε 
+                        <lb n="45"/>κερδαλέης, ἥ τίς κεν ἐρύσσεται ἠδὲ σαώσει
+                        <lb/>Ἀργείους καὶ νῆας, ἐπεὶ  Διὸς ἐτράπετο φρήν. 
+                        <lb/>Ἑκτορέοις ἄρα μᾶλλον ἐπὶ φρένα θῆχ᾽ ἱεροῖσιν· 
+                        <lb/>οὐ γάρ πω ἰδόμην, οὐδ᾽ ἔκλυον αὐδήσαντος 
+                        <lb/>ἄνδρ᾽ ἕνα τοσσάδε μέρμερ᾽ ἐπ᾽ ἤματι μητίσασθαι, 
+                        <lb n="50"/>ὅσσ᾽  Ἕκτωρ ἔρρεξε  Διῒ φίλος υἷας  Ἀχαιῶν 
+                        <lb/>αὔτως, οὔτε θεᾶς υἱὸς φίλος οὔτε θεοῖο.
+                    </quote>
+                    <quote>
+                        <lb/>Na co mu tak odpowiedział władca Agamemnon:					
+                        <lb/>„Potrzeba rady mnie i tobie, przez boga wyhodowany Menelaosie!
+                        <lb n="45"/> pożytecznej, która uratuje i ocali
+                        <lb/>Argiwów i okręty, jeśli Zeus odmienił swoje serce.
+                        <lb/>Bardziej zwraca uwagę na ofiary Hektorowe,
+                        <lb/>gdyż nie widziałem ani nie słyszałem, 
+                        <lb/>by jeden mąż tyle krzywd najstraszliwszych zdołał wyrządzić,
+                        <lb n="50"/>ile ich Hektor, miły Zeusowi, uczynił synom Achajów,
+                        <lb/>sam, chociaż nie jest synem miłym bogini lub boga”.
+                    </quote>
+                    <p>46: Ἑκτορέοις ἄρα μᾶλλον ἐπὶ φρένα θῆχ᾽ ἱεροῖσιν – „bardziej zwraca uwagę na ofiary Hektorowe”; zwrot ἐπιτιθέναι + φρενί oznacza „włożyć myśl w czyjeś serce” (Od. 5.427; Od. 18.158–9; Od. 21.1–2), a zatem „zainspirować”, „natchnąć myślą”, „poddać myśl komu”. Tutaj mamy konstrukcję z accusatiwem φρένα, co może oznaczać „złożyć swoją myśl”, „zaangażować myśl”, „zwracać uwagę”. Wydaje się zatem, że według oceny sytuacji przez Agamemnona, który rozumuje na podstawie sytuacji wojennej, Zeus jest teraz bardziej skłonny zwracać uwagę na ofiary Hektora niż Achajów.</p>
+                    <p>ἱεροῖσιν – „ofiarami”; tłumaczę w tym miejscu τὰ ἱερά jako „ofiary” ze względu na powracający w Iliadzie motyw ofiar zwierzęcych spalanych na ołtarzu przez Hektora (Il. 22.170–2; Il. 24.33–4). Zakorzeniony w tradycji religijnej motyw przyjemności boga czerpanej z ofiar i darów pojawia się zarówno w eposie, jak i hymnach homeryckich: h.hom. 3.348; 273–4. Jean Casabona komentuje, że „bardzo rzeczowy charakter języka skłania do nierozróżniania między „ofiarą (le sacrifice)” a „darami wotywnymi (les offrandes)”, Casabona 1966: 7.</p>
+                </div>
+                
+                <div type="textpart" n="Iliad_X_291–294">
+                    <head>Iliada X 291–294</head>
+                    <p>Modlitwa Diomedesa do Ateny przed wyruszeniem na nocną wycieczkę z Odyseuszem do obozu Trojan.</p>
+                    <quote>
+                        <lb/>ὣς νῦν μοι ἐθέλουσα παρίσταο καί με φύλασσε. 				
+                        <lb/>σοὶ δ᾽ αὖ ἐγὼ ῥέξω βοῦν ἦνιν εὐρυμέτωπον 
+                        <lb/>ἀδμήτην, ἣν οὔ πω ὑπὸ ζυγὸν ἤγαγεν ἀνήρ· 
+                        <lb/>τήν τοι ἐγὼ ῥέξω χρυσὸν κέρασιν περιχεύας.
+                    </quote>
+                    <quote>
+                        <lb/>tak teraz zechciej stanąć przy mnie i strzeż mnie,				
+                        <lb/>ja ci zaś złożę w ofierze jałówkę roczną szerokoczołą
+                        <lb/>nieujarzmioną, której człowiek jeszcze nie prowadził pod jarzmem
+                        <lb/>tę tobie złożę w ofierze pozłociwszy rogi
+                    </quote>
+                    <p>292–295: wersy formularne (= Od. 3.382–384).</p>
+                    <p>292: σοὶ δ᾽ αὖ ἐγὼ ῥέξω βοῦν ἦνιν – „ja ci zaś złożę w ofierze jałówkę”; czasownik ἔρδω, „robić”, „wykonywać” ma tutaj znaczenie religijne: „składać ofiarę”, „odprawiać rytuał” (Casabona 1966: 39–58).</p>
+                    <p>ἢνιν – „jałówkę”; archaiczny rzeczownik u Homera zawsze występujący w accusatiwie (l.poj. lub l.mn.) w kontekście ofiary. Niemal wszystkie rękopisy przekazują formę ἦνιν, którą potwierdza również Herodian, jednak względy metryczne nakazują przyjąć, że w drugiej sylabie mamy długą jotę. Rzeczownik ἢνις najpewniej oznaczał jednoroczne zwierzę, zob. Beeks, EtGrDict, s.v., Chantraine, DEG, s.v.</p>
+                    <p>293: ἀδμήτην – „nieujarzmioną”; znaczenie epitetu wyjaśnia wtrącona glossa: ἣν οὔ πω ὑπὸ ζυγὸν ἤγαγεν ἀνήρ – „której człowiek jeszcze nie prowadził pod jarzmem”.</p>
+                    <p>294: χρυσὸν κέρασιν περιχεύας – „pozłociwszy rogi”; czasownik περιχεύειν w tym kontekście oznacza „powlec”, „otoczyć” (z dopełnieniem χρυσὸν, „złotem”). Zdaje się, że w czasie powstawania eposu czynność sakralno-wotywna złocenia rogów zwierzęcia ofiarnego nie była praktykowana, gdyż w Odysei poeta opisuje ją, sięgając do słownictwa kowalstwa mniej szlachetnych metali (Od. 4.432–8 z komentarzem); Gray 1954: 12–3.</p>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

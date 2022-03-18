@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Iliade canto VI</title>
+                <title xml:lang="en">Iliad book VI</title>
+                <title xml:lang="pl">Iliada, pieśń VI</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_06_ilias_vi</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Iliada, pieśń VI</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 82-101</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Aristeia Diomedesa, która obejmuje całą pieśń V, grozi wycofaniem się Trojan do miasta. Akcja pieśni VI Iliady rozgrywa się 22 dnia wydarzeń opowiedzianych w eposie i kontynuuje narrację wydarzeń pierwszego dnia walki, który rozpoczyna się od kłamliwej mary zesłanej przez Zeusa i podjęcia decyzji o stoczeniu rozstrzygającego starcia, poprzez rozejm i pojedynek, a po złamaniu przysięgi wznowieniem zmagań. Realizacja planu Zeusa, zapowiedzianego w prologu, opóźnia się: prośba Tetydy o uczczenie Achillesa poprzez zesłanie klęsk na Achajów w pierwszym dniu walki nie ziszcza się, gdyż Achajowie zdobywają przewagę dzięki czynom Diomedesa. W istocie, przed aleksandryjskim podziałem na 24. pieśni aristeia Diomedesa obejmowała z pewnością pieśń 6., o czym może świadczyć cytowanie wersów Il. 6.289–292 przez Herodota jako Διομήδεος ἀριστείη (Hdt. 2.116.3). Na temat podziału Iliady na pieśń zob. Jensen 1999: 10; Jensen 2011: 330 i nast.</p>
+                    <p>W pieśni VI scena akcji dzieli się na dwa światy: pole bitwy – miejsce męskich czynów wojennych, oraz miasto, w którym przebywają starcy, kobiety i dzieci. Charakterystyczne, że bez udziału dorosłych mężczyzn w mieście nie składa się ofiar zwierzęcych – kobiety mogą jedynie, na polecenie mężczyzn, ślubować złożenie ofiary w przyszłości, same natomiast składają bogini w darze utkaną przez siebie szatę. Zdaje się, że poeta podkreśla podział ról męskich i żeńskich.
+                    </p>
+                </div>
+                <div type="textpart" n="Iliad_VI">
+                    <head>Iliada VI</head>
+                    <p>Przedwczesnemu z punktu widzenia przebiegu akcji wycofaniu się Trojan do miasta zapobiega przemowa Helenosa, syna Hekuby i Priama, brata Hektora (na temat zdania warunkującego wprowadzającego epizod, zob. Lang 1989: 10–11; Graziosi 2010: 96). W micie trojańskim pełni on rolę wieszczka (podobnie jak córka Priama, Kassandra). W wersie 76. został on określony terminem οἰωνόπολος, który dosłownie oznacza kogoś, kto zabiega, troszczy się o odczytywanie znaków z zachowania ptaków. W eposie termin ma szersze znaczenie „wieszczek” i jest synonimem ogólnego terminu mantis. W taki sam sposób został określony Kalchas w pieśni pierwszej (Il. 1.69). Wydaje się, że właśnie rola wieszczka, jaką pełni Helenos, czyni jego interwencję skuteczną. Tłumaczy ona również treść mowy: po standardowym wezwaniu braci, Hektora i Eneasza, do powstrzymania ucieczki wojska (77–85), Helenos rozkazuje Hektorowi udanie się do Hekuby z wezwaniem do podarowania Atenie peplosu i przyrzeczenia ofiary za ocalenie przed Diomedesem (86–101). Bogini odmawia przyjęcia daru (306–307, 311).</p>
+                    <quote>
+                        <lb/>Ἕκτορ ἀτὰρ σὺ πόλινδε μετέρχεο, εἰπὲ δ᾽ ἔπειτα 
+                        <lb/>μητέρι σῇ καὶ ἐμῇ· ἣ δὲ ξυνάγουσα γεραιὰς 
+                        <lb/>νηὸν Ἀθηναίης γλαυκώπιδος ἐν πόλει ἄκρῃ 
+                        <lb n="90"/>οἴξασα κληῗδι θύρας ἱεροῖο δόμοιο πέπλον, 
+                        <lb/>ὅς οἱ δοκέει χαριέστατος ἠδὲ μέγιστος 
+                        <lb/>εἶναι ἐνὶ μεγάρῳ καί οἱ πολὺ φίλτατος αὐτῇ, 
+                        <lb/>θεῖναι  Ἀθηναίης ἐπὶ γούνασιν ἠϋκόμοιο, 
+                        <lb/>καί οἱ ὑποσχέσθαι δυοκαίδεκα βοῦς ἐνὶ νηῷ 
+                        <lb/>ἤνις ἠκέστας ἱερευσέμεν, αἴ κ᾽ ἐλεήσῃ 
+                        <lb n="95"/>ἄστύ τε καὶ  Τρώων ἀλόχους καὶ νήπια τέκνα, 
+                        <lb/>ὥς κεν  Τυδέος υἱὸν ἀπόσχῃ  Ἰλίου ἱρῆς 
+                        <lb/>ἄγριον αἰχμητὴν κρατερὸν μήστωρα φόβοιο, 
+                        <lb/>ὃν δὴ ἐγὼ κάρτιστον  Ἀχαιῶν φημι γενέσθαι. 
+                        <lb/>οὐδ᾽  Ἀχιλῆά ποθ᾽ ὧδέ γ᾽ ἐδείδιμεν ὄρχαμον ἀνδρῶν, 
+                        <lb n="100"/>ὅν πέρ φασι θεᾶς ἐξέμμεναι· ἀλλ᾽ ὅδε λίην
+                        <lb/>μαίνεται, οὐδέ τίς οἱ δύναται μένος ἰσοφαρίζειν.
+                    </quote>
+                    <quote>
+                        <lb/>Ty natomiast, Hektorze, udaj się do miasta i przekaż tam
+                        <lb/>matce twojej i mojej: ona to wzywając na zgromadzenie starsze kobiety 
+                        <lb/>do świątyni Ateny o błyszczących oczach na wysokim zamku, 
+                        <lb/>niech otworzy kluczem odrzwia świętego domostwa i peplos, 
+                        <lb n="90"/>który jej się wyda najwdzięczniejszy i największy 
+                        <lb/>w megaronie i który jest jej najmilszy, 
+                        <lb/>niech złoży na kolanach Ateny o pięknych włosach, 
+                        <lb/>i niech obieca, że złoży ofiarę z dwunastu jałówek w świątyni, 
+                        <lb/>jednorocznych, nieujarzmionych, w nadziei, że bogini ulituje się 
+                        <lb n="95"/>nad miastem i małżonkami Trojan i małymi dziećmi,
+                        <lb/>aby syn Tydeusa oszczędził święty Ilion, 
+                        <lb/>dzikiego włócznika, potężnego doradcę strachu,
+                        <lb/>o którym ja natomiast mówię, że stał się najpotężniejszym spośród Achajów.
+                        <lb/>Nawet Achilles tak mnie nie trwoży, przywódca mężów,
+                        <lb n="100"/>o którym powiadają, że pochodzi od bogini. Lecz ów tak bardzo
+                        <lb/>szaleje, że nikt mu nie może dorównać pod względem siły. 
+                    </quote>
+                    <p>86: Ἕκτορ ἀτὰρ σὺ πόλινδε μετέρχεο – „ty natomiast, Hektorze, udaj się do miasta”; wszyscy Trojanie mają pozostać na polu bitewnym z wyjątkiem Hektora, który uda się do Troi w celu wypełnienia polecenia brata-wieszczka (ἀτὰρ podkreśla przeciwstwawienie Hektora pozostałym Trojanom). Powrót do miasta oznacza przejście ze męskiej przestrzeni wojny do miejsca pobytu kobiet, starców i dzieci. Na temat polis u Homera, zob. Bravo XXXX.</p>
+                    <p>εἰπὲ: czasownik εἰπεῖν może oznaczać „przekazać rozkaz”, por. m.in. Il. 6.114; Il. 14.501; Il. 15.57; Od. 3.427; Od. 22.431 (LfgrE s.v. 472.32 i nast., 476.59 i nast.). Słowa Helenosa są instrukcją szeregu działań rytualnych, analogiczną do poleceń nakazujących przygotowanie ofiary zwierzęcej (Il. 3.268 i nast., Od. 3.421–427).</p>
+                    <p>87: ἣ δὲ ξυνάγουσα γεραιὰς – „wezwawszy na zgromadzenie starsze kobiety”; Hekabe najpierw ma zgromadzić starsze kobiety (aor. wyraża ξυνάγουσα uprzedniość działania wobec czynności wyrażonych bezokolicznikami θεῖναι i ὑποσχέσθαι, które dokonają się po wejściu kobiet trojańskich do świątyni) w świątyni Ateny, otworzyć odrzwia świątyni (aor. sygmantyczny οἴξασα), a następnie złożyć peplos w darze oraz obiecać złożenie w przyszłości ofiar zwierzęcych.  Warto zauważyć, że w obrazie Troi kreowanym przez poetę w mieście opuszczonym przez wojowników – dorosłych mężczyzn zdolnych do walki, nie składa się ofiar krwawych. W świecie pozbawionym mężczyzn nie wykonuje się rytuału, który stanowi ich wyłączną prerogatywę. To wyjątkowe w eposie zgromadzenie starszych kobiet trojańskich jest wzorowane na opisach typowych zgromadzeń starszyzny (por. Il. 9.574–5; Il. 18.448–9). We wszystkich przypadkach chodzi o zwołanie zgromadzenia dla zażegnania kryzysu. W księdze dziewiątej starszyzna kapłanów etolskich bezskutecznie błaga Meleagra, by powrócił do walki, w księdze osiemnastej Tetyda wspomina błagania starszyzny achajskiej skierowane do Achillesa; w obu wypadkach prośbom towarzyszy obietnica przekazania darów. W tym miejscu natomiast działania podejmą z inicjatywy mężczyzn kobiety, które składając w darze peplos i obiecując złożenie ofiary, zwracają się z prośbą do bogini Ateny, aby ta powstrzymała Diomedesa przed dalszą morderczą walką.</p>
+                    <p>γεραιὰς: rodzaj żeński jest wyjątkiem, gdyż przymiotnik oraz jego urzeczownikowiona forma występuje zazwyczaj w rodzaju męskim; w scholiach znajdujemy bardziej rozpowszechnioną formę rodzaju żeńskiego. Męski odpowiednik γέροντες oznacza starszyznę.</p>
+                    <p>88: νηὸν Ἀθηναίης γλαυκώπιδος – „do świątyni Ateny lśniącookiej”; zgromadzenie kobiet ma odbyć się w świątyni Ateny, patronki miasta.</p>
+                    <p>νηὸν – „do świątyni”; rzeczownik νηός (od czasownika ναίω – „mieszkać”, „zamieszkiwać”) oznacza zarówno świątynię jako miejsce zamieszkiwania bóstwa na ziemi pod postacią posągu kultowego (por. niżej w. 89: ἱεροῖο δόμοιο), jak i całe sanktuarium, to znaczy budynek świątynny i otaczający go okrąg święty, gdzie znajdował się ołtarz, na którym składano ofiary, por. ww. 93–94 (Latacz 2000; Graziosi 2010: 100). Archeologiczne poświadczenie wznoszenia świątyń rozumianych jako mieszkanie bóstwa wyobrażanego pod postacią posągu kultowego datuje się na VIII w. p.n.e.  (Gruben [1966] 2001: 29 i nast.; Coldstream [1977] 2003: 317 i nast.; por. komentarz do Il. 1.39).</p>
+                    <p>ἐν πόλει ἄκρῃ – „na Akropolu”; świątynia Ateny w Troi, podobnie jak w Atenach, znajdowała się na Akropolu, czyli dosłownie „Wyszogrodzie”. W Iliadzie nosi on również nazwę własną Pergamon (Il. 8.512 i nast.). Wyrażenie πόλις ἄκρη, „wysoki gród”, występuje w eposie homeryckim sześciokrotnie; wyjątek stanowi opowiadanie o wprowadzeniu konia trojańskiego i zdobyciu miasta, gdzie znajdujemy rzeczownik złożony akropolis (ἀκρόπολις: Od. 8.494, 504). Wydaje się, że lokalizacja świątyni Ateny na Akropolu jest regułą w okresie archaicznym. Walter Burkert uważa, że początków tego zwyczaju należy szukać w epoce mykeńskiej, gdy Atena była opiekunką pałacu królewskiego (Burkert 1985: 140).</p>
+                    <p>89: οἴξασα κληῗδι θύρας ἱεροῖο δόμοιο – „niech otworzy kluczem odrzwia świętego domostwa”; w późniejszym opisie działań Hekuby i kobiet trojańskich drzwi otwiera kapłanka Teano (zob. w. 298). Na tej podstawie Scholia bT uznają ww. 88–89 za interpolację (zob. app. crit.). Z opinią tą zgadzają się niektórzy komentatorzy (zob. Leaf ad loc.). Odwrotnie postępuje Kirk, który stara się wykazać, że postać kapłanki Ateny Teano jest innowacją mającą na celu utrzymanie uwagi słuchaczy poprzez wzbogacenie wątku o nowe szczegóły. Rozbieżność tę można wytłumaczyć różnicą perspektywy: wskazówki Helenosa skupiają się na matce, której słowa syna przekaże Hektor – mężczyźni mają dostęp do świata kobiet poprzez najbliższe krewne lub powinowate, natomiast kobiety wykonują działania zgodnie z podziałem ról (Graziosi 2010: 30; 100).</p>
+                    <p>κληῗδι – „klucz”; ep. κληΐς, należy do symboliki religijnej. Źródła wskazują, że pełnienie funkcji klucznicy/klucznika świątyni było sprawowane przez głównego/ą kapłana/kę. Na funkcje religijne kluczniczki w epoce mykeńskiej wskazuje tytuł kapłański w  ka-ra-wi-po-ro (klawi-phoros) poświadczony w Pylos (PY Jn 829 oraz Ep 704. Zob. Hitch 2010: 36, przyp. 130).</p>
+                    <p>89–90: πέπλον, / ὅς οἱ δοκέει χαριέστατος ἠδὲ μέγιστος, / εἶναι ἐνὶ μεγάρῳ καί οἱ πολὺ φίλτατος αὐτῇ – „peplos, / który jej się wyda najwdzięczniejszy i największy, / w megaronie i który jest jej najmilszy”; złożenie peplosu towarzyszy wotum złożenia w przyszłości ofiary krwawej. Początków zwyczaju ofiarowywania bóstwu stroju lub szaty należy szukać w Mezopotamii epoki brązu (Romano 1988: 133). Często obdarowywano w ten sposób bóstwa żeńskie: Atenę, Artemidę (zob. Boardman 2004: 296–298; Kauffmann/Szabados 2004).</p>
+                    <p>96: ἱερευσέμεν – „poświęcić w ofierze”; w przeciwieństwie do miejsc, w których czasownik hiereuo wiąże się z ucztą następującą po ofierze, tutaj na pierwszy plan wysuwa się idea oddania czci bogini (Casabona 1966: 22–23). Idea obdarowania bóstwa została podkreślona użyciem zaimka toi w datiwie. </p>
+                </div>
+                <div type="textpart" n="Iliad_VI_110–115">
+                    <head>Iliada VI 110–115</head>
+                    <p>Hektor, przed odejściem z pola walki, wzywa Trojan i ich sprzymierzeńców do dalszej walki oraz podaje przyczynę chwilowego opuszczenia walczących. Chodzi o standardową scenę z zbudowaną z wersów formularnych. Najbliższą paralelą jest scena z pieśni XVII, w której Hektor opuszcza na chwilę wojsko, aby włożyć zbroję Achillesa (Il. 17.186 i nast.). Z punktu widzenia badań nad religią w eposie istotne jest wprowadzenie motywu modlitwy i hekatomby, które mają skłonić bogów do wspomożenia Trojan na polu walki.</p>
+                    <quote>
+                        <lb n="110"/>Ἕκτωρ δὲ Τρώεσσιν ἐκέκλετο μακρὸν ἀΰσας· 
+                        <lb/>Τρῶες ὑπέρθυμοι τηλεκλειτοί τ᾽ ἐπίκουροι 
+                        <lb/>ἀνέρες ἔστε φίλοι, μνήσασθε δὲ θούριδος ἀλκῆς, 
+                        <lb/>ὄφρ᾽ ἂν ἐγὼ βείω προτὶ  Ἴλιον, ἠδὲ γέρουσιν 
+                        <lb/>εἴπω βουλευτῇσι καὶ ἡμετέρῃς ἀλόχοισι 
+                        <lb n="115"/>δαίμοσιν ἀρήσασθαι, ὑποσχέσθαι δ᾽ ἑκατόμβας.  		
+                    </quote>
+                    <quote>
+                        <lb n="110"/>Hektor zaś Trojan przyzwał w dal zawoławszy:
+                        <lb/>„Trojanie odważni i przesławni sprzymierzeńcy!
+                        <lb/>Bądźcie mężami, mili, pamiętajcie o odwadze bojowej,
+                        <lb/>gdy ja pójdę do Ilion i starcom
+                        <lb/>powiem radzącym, a także naszym małżonkom,
+                        <lb n="115"/>żeby pomodliły się do bogów i przyrzekły hekatomby”.  
+                    </quote>
+                    <p>115: δαίμοσιν ἀρήσασθαι – „żeby pomodliły się do bogów”; czasownik ἀρήσασθαι oznacza w eposie „wygłaszać błaganie, prośbę (o dobre lub złe rzeczy) skierowaną do bóstwa” (LfgrE, s.v.). Słownik grecko-polski proponuje tłumaczenie „błagać kogoś”, „modlić się do kogoś”. W późniejszym czasie czasownik częściej zaczyna znaczyć „przeklinać”, „życzyć źle”. Na temat czasownika ἀράομαι u Homera, zob. Aubriot-Sévin 1992: 302–313. Modlitwa błagalna, którą wygłosi Teano, powraca w w. 240 i 304 (zob. komentarz).</p>
+                    <p>δαίμοσιν – „do bogów”; słowo δαίμων u Homera oznacza „bóstwo” i jest używane synonimicznie z θεός, jednak w epice archaicznej nie pojawia się zazwyczaj w kontekście ofiary i modlitwy (Graziosi, Haubold 2010: 108). Stosunkowo rzadkie użycie w liczbie mnogiej oznacza najogólniejsze określenie istot nadprzyrodzonych, bogów (Chantraine 1952: 51). Możliwe, że w tym miejscu poeta gra na etymologii słowa, które podkreślało funkcję bóstwa jako dawcy, siły określającej ludzki los, często w sensie negatywnym – jako sprawcy złej doli (δαίμων wywodzi się od czasownika δαίομαι, „rozdzielać”). Hektor nie wymienia z imienia Ateny, jak to uczynił Helenos, lecz przekazuje polecenie swego brata-wieszczka w ogólniejszej formie, co może podkreślać rozdzielenie sfery kobiecej, w której Trojanki będą postępować zgodnie z regułami rytualnymi, i sfery męskiej nie zajmującej się w tym momencie szczegółami kultu (zob. Broccia, 1963: 56 (non vidi)).</p>
+                    <p>ὑποσχέσθαι δ᾽ ἑκατόμβας – „i przyrzekły hekatomby”; na temat hekatomby, zob. komentarz do Il. 1.65.</p>
+                </div>
+                <div type="textpart" n="Iliad_VI_172–4">
+                    <head>Iliada VI 172–4</head>
+                    <p>Spotkanie Diomedesa i Glaukona, podczas którego herosi opowiadają legendy rodzinne. Glaukon mówi o swoim przodku Bellerofoncie, którego Projtos posłał do Lykii z listem do teścia zawierającym „znak zguby”, czyli prośbę o zgładzenie młodzieńca.</p>
+                    <quote>
+                        <lb/>ἀλλ᾽ ὅτε δὴ Λυκίην ἷξε Ξάνθόν τε ῥέοντα, 
+                        <lb/>προφρονέως μιν τῖεν ἄναξ Λυκίης εὐρείης· 
+                        <lb/>ἐννῆμαρ ξείνισσε καὶ ἐννέα βοῦς ἱέρευσεν.  
+                    </quote>
+                    <quote>
+                        <lb/>Lecz gdy przybył do Lykii i nad wody płynące Ksantosu,
+                        <lb/>życzliwie go uczcił władca szerokiej Lykii – 
+                        <lb/>dziewięć dni gościł i dziewięć wołów złożył w ofierze/poświęcił.
+                    </quote>
+                    <p>174: ἐννῆμαρ ξείνισσε – „dziewięć dni gościł”; liczba dziewięć symbolizuje niekompletność, której dopełnieniała dziesiątka (zob. Il. 2.326–9). Podobną strukturę czasową, ale liczoną w latach, ma wojna trojańska.</p>
+                    <p>ἐννέα βοῦς ἱέρευσεν – „dziewięć wołów złożył w ofierze/poświęcił”; zapewne składając i zjadając jednego wołu każdego dnia. Brak dopełnienia dalszego w datiwie określającego uczestników uczty ofiarnej, dla których zarzyna się zwierzęta, można wytłumaczyć dopełnienie domyślnym – chodzi o Bellerofonta. Chociaż nie występuje tutaj imię boga w datiwie, czasownik ἱέρευσεν zawiera dwa aspekty semantyczne trudne do oddania w językach nowożytnych – oznacza zarazem „ofiarować”, „złożyć w ofierze”, „poświęcić”, jak i „dokonać uboju przed ucztą”, „zabić na ucztę”, zob. Casabona 1966: 24.</p>
+                </div>
+                <div type="textpart" n="Iliad_VI_237–285">
+                    <head>Iliada VI 237–285</head>
+                    <p>Całą scenę pobytu Hektora w Troi przenika atmosfera niepokoju o losy miasta, na który odpowiedzią mogą być modlitwy skierowane do bogów. Bohater udaje się do pałacu Priama. Po drodze otaczają go kobiety trojańskie, wypytując o swoich najbliższych. W odpowiedzi Hektor zachęca je do wznoszenia modlitw. Z kolei Hekuba zachęca syna do wylania libacji dla Zeusa. Ten powstrzymuje się ze względów rytualnych i przekazuje matce zalecenia Hellenosa. Scena, chociaż nie wprowadza bezpośrednio nowych elementów do wcześniejszego polecenia trojańskiego wieszczka, jest istotna z punktu widzenia budowania narracji, której głównym celem jest zbudowanie opowiadania o działaniach rytualnych podjętych przez Trojan, lecz odrzuconych przez Atenę. W sprawie Teano, zob. Espermann 1980: 35–49.</p>
+                    <quote>
+                        <lb/>Ἕκτωρ δ᾽ ὡς  Σκαιάς τε πύλας καὶ φηγὸν ἵκανεν, 				
+                        <lb/>ἀμφ᾽ ἄρα μιν  Τρώων ἄλοχοι θέον ἠδὲ θύγατρες 
+                        <lb/>εἰρόμεναι παῖδάς τε κασιγνήτους τε ἔτας 
+                        <lb n="240"/>τε καὶ πόσιας· ὃ δ᾽ ἔπειτα θεοῖς εὔχεσθαι ἀνώγει
+                        <lb/>πάσας ἑξείης· πολλῇσι δὲ κήδε᾽ ἐφῆπτο.  
+                        <lb/>[…]
+                        <lb/>ἔνθά οἱ ἠπιόδωρος ἐναντίη ἤλυθε μήτηρ, 					
+                        <lb/>Λαοδίκην ἐσάγουσα θυγατρῶν εἶδος ἀρίστην· 
+                        <lb/>ἔν τ᾽ ἄρα οἱ φῦ χειρὶ ἔπος τ᾽ ἔφατ᾽ ἔκ τ᾽ ὀνόμαζε· 
+                        <lb/>τέκνον τίπτε λιπὼν πόλεμον θρασὺν εἰλήλουθας; 
+                        <lb n="255"/>ἦ μάλα δὴ τείρουσι δυσώνυμοι υἷες  Ἀχαιῶν 
+                        <lb/>μαρνάμενοι περὶ ἄστυ· σὲ δ᾽ ἐνθάδε θυμὸς ἀνῆκεν 
+                        <lb/>ἐλθόντ᾽ ἐξ ἄκρης πόλιος  Διὶ χεῖρας ἀνασχεῖν. 
+                        <lb/>ἀλλὰ μέν᾽ ὄφρά κέ τοι μελιηδέα οἶνον ἐνείκω, 
+                        <lb/>ὡς σπείσῃς  Διὶ πατρὶ καὶ ἄλλοις ἀθανάτοισι 
+                        <lb n="260"/>πρῶτον, ἔπειτα δὲ καὐτὸς ὀνήσεαι αἴ κε πίῃσθα.
+                        <lb/>ἀνδρὶ δὲ κεκμηῶτι μένος μέγα οἶνος ἀέξει, 
+                        <lb/>ὡς τύνη κέκμηκας ἀμύνων σοῖσιν ἔτῃσι. 
+                        <lb/>Τὴν δ᾽ ἠμείβετ᾽ ἔπειτα μέγας κορυθαίολος  Ἕκτωρ· 
+                        <lb/>μή μοι οἶνον ἄειρε μελίφρονα πότνια μῆτερ, 
+                        <lb n="265"/>μή μ᾽ ἀπογυιώσῃς μένεος, ἀλκῆς τε λάθωμαι· 
+                        <lb/>χερσὶ δ᾽ ἀνίπτοισιν  Διὶ λείβειν αἴθοπα οἶνον 			
+                        <lb/>ἅζομαι· οὐδέ πῃ ἔστι κελαινεφέϊ  Κρονίωνι 
+                        <lb/>αἵματι καὶ λύθρῳ πεπαλαγμένον εὐχετάασθαι. 
+                        <lb/>ἀλλὰ σὺ γε πρὸς νηὸν  Ἀθηναίης ἀγελείης
+                        <lb n="270"/>ἔρχεο σὺν θυέεσσιν ἀολλίσσασα γεραιάς·
+                        <lb/>πέπλον δ᾽, ὅς τίς τοι χαριέστατος ἠδὲ μέγιστος 			
+                        <lb/>ἔστιν ἐνὶ μεγάρῳ καί τοι πολὺ φίλτατος αὐτῇ, 
+                        <lb/>τὸν θὲς  Ἀθηναίης ἐπὶ γούνασιν ἠϋκόμοιο, 
+                        <lb/>καί οἱ ὑποσχέσθαι δυοκαίδεκα βοῦς ἐνὶ νηῷ 
+                        <lb n="275"/>ἤνις ἠκέστας ἱερευσέμεν, αἴ κ᾽ ἐλεήσῃ
+                        <lb/>ἄστύ τε καὶ  Τρώων ἀλόχους καὶ νήπια τέκνα, 
+                        <lb/>αἴ κεν  Τυδέος υἱὸν ἀπόσχῃ  Ἰλίου ἱρῆς 
+                        <lb/>ἄγριον αἰχμητὴν κρατερὸν μήστωρα φόβοιο. 
+                        <lb/>ἀλλὰ σὺ μὲν πρὸς νηὸν  Ἀθηναίης ἀγελείης 
+                        <lb n="280"/>ἔρχευ, ἐγὼ δὲ  Πάριν μετελεύσομαι ὄφρα καλέσσω
+                        <lb/>αἴ κ᾽ ἐθέλῃσ᾽ εἰπόντος ἀκουέμεν· ὥς κέ οἱ αὖθι 
+                        <lb/>γαῖα χάνοι· μέγα γάρ μιν  Ὀλύμπιος ἔτρεφε πῆμα 
+                        <lb/>Τρωσί τε καὶ  Πριάμῳ μεγαλήτορι τοῖό τε παισίν.
+                        <lb/>εἰ κεῖνόν γε ἴδοιμι κατελθόντ᾽  Ἄϊδος εἴσω 
+                        <lb/>φαίην κε φρέν᾽ ἀτέρπου ὀϊζύος ἐκλελαθέσθαι.	
+                    </quote>
+                    <quote>
+                        <lb/>Gdy Hektor dotarł do skajskiej bramy i dębu,				
+                        <lb/>zaraz wokół niego zbiegły się Trojan żony i córki, 
+                        <lb/>pytając o synów i braci i krewnych
+                        <lb n="240"/>i mężów. A on modły do bogów zanosić rozkazał
+                        <lb/>każdej z kolei. Wielu już żałoba została przypisana.
+                        <lb/>Kiedy już stanął w pięknym domostwie możnego Pryjama 
+                        <lb/>[…]
+                        <lb/>Tam mu naprzeciw wyszła matka szczodra w dary,
+                        <lb/>przybywając z Laodike, najpiękniejszą z jej córek z wyglądu,
+                        <lb/>ujęła mu rękę i wyrzekła słowa zwracając się do niego:
+                        <lb/>„Dziecko, po co przybyłeś porzuciwszy walkę okrutną, 
+                        <lb n="255"/>niechybnie bardzo nas gnębią przeklęci synowie Achajów
+                        <lb/>walczący wokół miasta: thymos cię skłonił, abyś tutaj
+                        <lb/>przyszedł wznieść ręce do Zeusa z wysokiego grodu.
+                        <lb/>Ale zaczekaj – przyniosę ci wina słodkiego jak miód,
+                        <lb/>abyś wylał w ofierze Zeusowi ojcu i innym nieśmiertelnym
+                        <lb n="260"/>najpierw, a potem sam poczujesz się lepiej, jeśli wypijesz.
+                        <lb/>Wino wzmocni wielce siłę męża strudzonego,
+                        <lb/>tak jak ty się utrudziłeś broniąc swych bliskich”.
+                        <lb/>Na to rzekł Hektor potężny o hełmie z wiejącymi kitami:
+                        <lb/>„Nie podawaj mi wina napełniającego serce słodyczą, o pani matko,
+                        <lb n="265"/>nie ogołacaj mnie z siły, zapomnę o zapale bitewnym:
+                        <lb/>nieumytymi rękami ciemne wino wylewać w ofierze Zeusowi 
+                        <lb/>lękam się. Nie godzi się do czarnochmurego Kronidy
+                        <lb/>zbrukanemu posoką i brudem wznosić modlitwy.
+                        <lb/>Lecz ty do świątyni Ateny przewodniczki wojska
+                        <lb n="270"/>zmierzaj z ofiarami dymnymi zgromadziwszy starki.
+                        <lb/>Peplos, który ci się wyda najwdzięczniejszy i największy
+                        <lb/>w megaronie i który jest ci najmilszy, 
+                        <lb/>złóż na kolanach Ateny o pięknych włosach, 
+                        <lb/>i niech obieca, że złoży ofiarę z dwunastu jałówek w świątyni, 
+                        <lb n="275"/>jednorocznych, nieujarzmionych, w nadziei, że bogini ulituje się
+                        <lb/>nad miastem i małżonkami Trojan i małymi dziećmi, 
+                        <lb/>aby syn Tydeusa oszczędzi święty Ilion, 
+                        <lb/>dzikiego włócznika, potężnego doradcę strachu.
+                        <lb/>A więc ty do świątyni Ateny przewodniczki ludu
+                        <lb n="280"/>zmierzaj, ja zas Parysa odnajdę, aby skłonić go do walki,
+                        <lb/>jeśli mnie zechce posłuchać. Oby go 
+                        <lb/>ziemia pochłonęła: na wielkie cierpienia wychował go Olimpijczyk
+                        <lb/>dla Trojan, Priama o wielkim sercu i wszystkich jego dzieci. 
+                        <lb/>Gdybym go ujrzał, jak schodzi w ciemne pieczary Hadesu,
+                        <lb/>może zdołałaby moja dusza o troskach zapomnieć!”.
+                    </quote>
+                    <p>237: Σκαιάς τε πύλας – „do skajskiej bramy”; w epickiej topografii Troi stanowiła ona łącznik między światem oblężonego miasta a polem bitewnym (por. Il. 3.145). Symbolicznie oddzielała ona świat bitwy, domenę dorosłych mężczyzn, wojowników-obywateli, od świata kobiet, starców i dzieci, których chroniły mury miasta (na temat topografii Troi, zob. Scully 1990: 42–4.</p>
+                    <p>φηγὸν – „dębu”; jedno z dwóch drzew charakteryzujących topografię Troi, zob. Il. 5.692–3.</p>
+                    <p>238: ἄλοχοι… θύγατρες – „żony… córki”; zanim Hektor spotka się ze swoją matką, której przekaże polecenie Helenosa, oraz żoną, jest otoczony przez kobiety trojańskie, które zostały określone typową dla tradycji epickiej fokalizacją na dwóch podstawowych rolach społecznych kobiet– żony i córki. Podobnie w słowach przysięgi w pieśni trzeciej herosi przysięgali na życie żon i dzieci.</p>
+                    <p>238–9: εἰρόμεναι παῖδάς τε κασιγνήτους τε ἔτας / τε καὶ πόσιας – „pytając o synów i braci i krewnych / i mężów”; na temat tych terminów, zob. Kirk 1984: 192.</p>
+                    <p>240: ὃ δ᾽ ἔπειτα θεοῖς εὔχεσθαι ἀνώγει – „a on modły do bogów zanosić rozkazał”; czasownik ἄνωγα „rzec, rozkazać, polecić” jest używany w odniesieniu do osób wydających rozkazy, przemawiających z pozycji mocniejszego, który żąda od podwładnych posłuszeństwa. Hektor, otoczony kobietami trojańskimi, poleca każdej z osobna modlić się (εὔχεσθαι) do bogów. </p>
+                    <p>256–7: σὲ δ᾽ ἐνθάδε θυμὸς ἀνῆκεν / ἐλθόντ᾽ ἐξ ἄκρης πόλιος Διὶ χεῖρας ἀνασχεῖν – „thymos cię skłonił, abyś tutaj / przyszedł wznieść ręce do Zeusa z wysokiego grodu”; Hekuba zakłada, że Hektor przybywa do Troi z własnej woli (σὲ… θυμὸς ἀνῆκεν), a celem jego powrotu do miasta jest wzniesienie modlitwy do Zeusa. Sam Hektor wyzna później, że jego θυμὸς nakłania raczej do walki w pierwszym szeregu niźli do pozostania za murami miasta (Il. 6.361 oraz 444).</p>
+                    <p>θυμός; pierwotnie oznacza „oddech” i należy do grupy słów oznaczających życie psychiczne (zob. Clarke 1999: 79–83). Chociaż słowa te są używane wymiennie, widać pewną tendencję do łączenia ich z różnymi aspektami psychiki. W przypadku θυμός chodzi o wzburzenie, silne emocje i mocne postanowienia kierujące ludzkim postępowaniem, stąd często pojawia się w wyrażeniach, które mówią o wyborze określonej drogi postępowania. Stosownie do tego znaczenia również namowa jest skierowana do nakłonienia czyjegoś θυμός do podjęcia określonej decyzji. Słowa Hekuby pokazują, że podjęcie działań rytualnych jest ściśle związane ze swobodnym podejmowaniem decyzji.</p>
+                    <p>257: ἐξ ἄκρης πόλιος Διὶ χεῖρας ἀνασχεῖν – „wznieść ręce do Zeusa z wysokiego grodu”; Hekuba, pełna domysłów, wykazuje się zatem dobrym wyczuciem sytuacji – Hektor istotnie przybywa, aby w sytuacji kryzysowej wznieść modły do bogów, jednak to nie chęć pomodlenia się do Zeusa, lecz potrzeba przekazania polecenia Helenosa, sprowadza go do miasta. Obie modlitwy, tę błędnie przewidywaną przez Hekubę i tę nakazaną przez Helenosa, łączy miejsce obrzędu – trojański Akropol, różni – bóstwo (Zeus vs Atena) i podmiot (Hektor vs kobiety trojańskie).</p>
+                    <p>ἐξ ἄκρης πόλιος – z wysokiego grodu”; wysoki zamek Troi jest centralnym miejscem sakralnym miasta, miejscem, gdzie wznosiła się światynia Ateny oraz pałac Priama, zob. w. 88 z komentarzem. Tutaj dowiadujemy się, że prawdopodobnie znajdował się tam przybytek Zeusa, chociaż nie mówi się o tym wprost. Za taką interpretacją przemawia przyimek, który rozumiem jako wskazanie miejsca na stałe związane z bogiem. Bardzo podobną sytuację znajdujemy w archaicznych Atenach, gdzie obok świątyni Ateny Polias, istniało sanktuarium Zeusa Polieusa, opiekuna polis.</p>
+                    <p>χεῖρας ἀνασχεῖν: formuła epicka odpowiadająca powszechnemu i zgodnemu z normą gestowi rytualnemu, który ma zwrócić uwagę bóstwa na skierowane doń słowa modlitwy (zob. Kelly 2007). Na temat wznoszenia rąk w czasie modlitwy zob. Lateiner 1997; Pulleyn 1997; Thornton 1984.</p>
+                    <p>258: ἀλλὰ μέν᾽ – „lecz zostań”; wszystkie spotkania Hektora z kobietami w Troi łączy pragnienie zatrzymania herosa w mieście (Graziosi, Haubold 2010, por. w. 237–259).</p>
+                    <p>τοι μελιηδέα οἶνον ἐνείκω – „przyniosę ci wina miodnego”; wyrażenie formularne (3x w Iliadzie, 6x w Odysei, 2x w hymnach homeryckich oraz 3x we wczesnej epice). Epitet μελιηδέα, dosłownie „słodki jak miód” za zwyczaj charakteryzuje wino przeznaczone do picia (por. Il. 4.346; Od. 18.151; 426). Propozycja Hekuby łączy dwa możliwe użycia wina – najpierw (πρῶτον) powinno być wylane w libacji dla bogów, a następnie (ἔπειτα δὲ) wypite dla wzmocnienia ciała.</p>
+                    <p>259: ὡς σπείσῃς – „abyś wylał w ofierze”; najpierw Hektor powinien spełnić ofiarę płynną, libację z wina dla Zeusa. Czasownik σπένδω występuje w Iliadzie 9 razy (25 razy w Odysei). Najczęściej chodzi o wylanie libacji przed biesiadą sympozjalnej, podczas której pito wino.</p>
+                    <p>Διὶ πατρὶ καὶ ἄλλοις ἀθανάτοισι – „Zeusowi ojcu i innym nieśmiertelnym”; Hektor istotnie wzniesie później modlitwę do Zeusa ojca i innych bogów trzymając na rękach syna (474–481). Barbara Graziosi i Johannes Haubold zauważają, że modlitwy do „Zeusa ojca i innych bogów” są wznoszone w intencji ogólnych planów, próśb i rozważań, natomiast w przypadku konkretnej prośby i pomyślnie spełnionego rytuału wyrażenie to się nie pojawia, zob. Graziosi, Haubold 2010: 216–7.  Z kolei Adrian Kelly stwierdza, że motyw modlitwy do Zeusa ojca (pater) pojawia się w modlitwach, w których mówca reaguje na niekorzystną sytuację z prośbą o jej odwrócenie i zażegnanie złu (Kelly 2007: 247). Wydaje się, że dodanie do tego zawołania formuły ἄλλοις ἀθανάτοισι modyfikuje jej znaczenie, podkreślając niepewność śmiertelnika w sprawie właściwego adresata modlitwy, zob. Jörgensen 1904.</p>
+                    <p>260: πρῶτον, ἔπειτα δὲ καὐτὸς ὀνήσεαι αἴ κε πίῃσθα – „najpierw, a potem sam poczujesz się lepiej, jeśli wypijesz”; struktura działań rytualnych i posiłku przypomina strukturę uczty ofiarnej, w której najpierw ofiarowuje się bóstwu część dla niego przeznaczoną, a następnie spożywa resztę mięsa, por. Od. 9.231.</p>
+                    <p>263–285: Odpowiedź Hektora zawierająca trzy punkty. Po pierwsze odmawia spełnienia prośby Hekaby o wylanie libacji i wypicie wina (269–278), po drugie przekazuje polecenie Helenosa (280–285), wreszcie wyjawia swoje zamierzenie – pójdzie poszukać Parysa, aby nakłonić go walki.</p>
+                    <p>264–268: Hektor odmawia wypicia wina, argumentując dwojako: najpierw, bezpośrednio nawiązując do słów matki, podkreśla, że wino nie doda sił, a przyniesie zapomnienie zapału bitewnego, potem wyjaśni rytualny powód odmowy – nie godzi się wznosić modlitwy, gdy ręce są skalane brudem pola bitewnego.</p>
+                    <p>266: Por. Hes. Op. 724–5.</p>
+                    <p>χερσὶ δ᾽ ἀνίπτοισιν – „niemytymi rękami”; przymiotnik ἀνίπτοισιν wywodzi się od czasownika nizo/nipto, „myć”, którego używa się również do wyrażenia podstawowego rytuału oczyszczającego cherniptomai, por. pokrewny termin chernips. Obmycie rąk jest podstawowym rytem umożliwiającym wzniesienie modlitwy nie tylko w rytuale ofiary krwawej, ale również w przypadku ofiar płynnych. Por. Il.9.171–8, zwł. 175–7; 16.229–30;  24.299–306.</p>
+                    <p>Διὶ λείβειν: por. Casabona 1966.</p>
+                    <p>267: ἅζομαι: czasownik, spokrewniony z przymiotnikiem hagios – „święty”, wyraża lęk, trwogę religijną przed bogami, osobami pozostającymi pod specjalną opieką bóstwa, np. kapłanami oraz rytuałami religijnymi. Narrator, przypisując to uczucie postaci, zdaje się podkreślać jej zbożne postępowanie. Nie zawsze zasadność tej emocji jest podzielana przez wszystkich uczestników wydarzeń. Agamemnon wbrew powszechnej zgodzie w sprawie uczczenia Chryzesa odmawia uznania jego praw jako błagalnika (Il. 1.20 i nast.). 		οὐδέ πῃ ἔστι: wyrażenie formularne (Il. 24.71, 2 h.Hom., Hes. Op. 105).</p>
+                    <p>268: αἵματι καὶ λύθρῳ πεπαλαγμένον – part. perf. mp. od czasownika παλάσσω, „brudzić, kalać”, często używanego w kontekście wydzielin cielesnych, płynów ustrojowych, w tym przypadku krwi, por. Od. 13.395; Hes. Op. 733.  Rzeczownik λύθρος (w Iliadzie zawsze w datiwie λύθρῳ) występuje wyłącznie jako dopełnienia czasownika παλάσσω (Il. 11.169; Il. 20.503).</p>
+                    <p>εὐχετάασθαι: epicka forma czasownika εὔχομαι rozszerzonego o przyrostek -τα-.</p>
+                    <p>269–78: Hektor przekazuje polecenia Helenosa (86–98), wyjawiając tym samym właściwą przyczynę przybycia do miasta. Wprowadza przy tym kilka zmian, które można wytłumaczyć różnicą perspektywy (jeszcze inną perspektywę uzyskamy w narracji głównej opisującej sam przebieg rytuału (297–311). Tutaj Hektor skupia się na tym, co powinna zrobić sama Hekabe, a zatem opuszcza polecenie otwarcia świątyni, co w trakcie rytuału uczyni kapłanka Ateny Teano. Druga zmiana, wprowadzenie zwrotu σὺν θυέεσσιν bywa interpretowane jako uzupełnienie ze względu na wymagania metryczne.</p>
+                    <p>269: ἀλλὰ σὺ γε: podkreśla kontrast między Hektorem, który ze względów rytualnych nie może wznieść modlitwy do Zeusa, a Hekabe, która powinna wypełnić natchnione przez bóstwo polecenie Helanosa. Z tego względu lepszą lekcją jest γε zamiast przyjmowanego w niektórych wydaniach μὲν (Graziosi, Haubold 2010: 154).</p>
+                    <p>πρὸς νηὸν Ἀθηναίης ἀγελείης – „do świątyni Ateny przewodniczki wojska”; przydomek ἀγελείης w eposie określa wyłącznie Atenę. Już w starożytności toczono spór o jego znaczenie. Nic dziwnego, gdyż często zamierzona niejasność epitetów, a także nieczytelność imion własnych bogów podkreślały trudność w rozumieniu natury bogów (ibidem: 20). O ile pierwszy element jest jasny i należy go łączyć z tematem czasownika ἄγειν – „prowadzić”, „przynosić”, „wieść”. Część przytaczanych przez scholia filologów łączyła drugi element epitetu z rzeczownikiem λεία / ληΐη / ληΐς „łup”, „zdobycz”, a zatem „ta, która przynosi zdobycz”. Inni widzieli w epitecie połączenie z λαός, „lud” – „Przewodniczka ludu”.</p>
+                    <p>270: σὺν θυέεσσιν – „z ofiarami dymnymi”; chodzi prawdopodobnie o ofiary spalane w ogniu i wytwarzające dym, które są przeciwstawione ofiarom płynnym i ofierze zwierzęcej (Il. 9.499–500, Hes. Op. 336–339, LfgrE s.v.). Rzeczownik θύεα jest poświadczony w archiwum mykeńskim w Pylos jako tu-we-a (PY Un 267.3), gdzie ma znaczenie „kadzidło”. W okresie klasycznym oznacza „ciastko ofiarne”. Scholia wyjaśniały znaczenie θύεα poprzez θυμιάματα, „kadzidło”, chociaż nie można wykluczyć, że chodzi o ciastka lub inne produkty roślinne spalane na ołtarzu. Zob. Casabona 1966: 109 i  nast.; Leaf ad loc.; West 1978, ad. 338.</p>
+                    <p>271–278: Wersy niemal dosłownie powtarzają polecenie Helenosa (ww. 90–97) z kilkoma modyfikacjami dostosowującymi je do nowego kontekstu wypowiedzi. Zob. komentarz.</p>
+                    <p>279-280: ἀλλὰ σὺ μὲν… / ἔρχευ – „a więc ty …. / zmierzaj”; ułożona zgodnie z zasadami kompozycji pierścieniowej mowa Hektora zamyka część poświęconą przekazaniu polecenia Helenosa.</p>
+                </div>
+                <div type="textpart" n="Iliad_VI">
+                    <head>Iliada VI</head>
+                    <p>Hekabe, wysłuchawszy Hektora, przystępuje do działania. W scenie procesji przebłagalnej kobiet trojańskich do świątyni Ateny poeta transponuje polecenie Helenosa przekazane Hekabie przez Hektora na opis podjętych działań. Wszystkie elementy nakazu odprawienia rytuału zostają w ten sposób przełożone na narrację główną, która wieńczy cały epizod obejmujący większość pieśni szóstej. Przejście do opisu działań Hekaby wprowadza nas do świata kobiet, co zmienia perspektywę narracji. Słuchacze zostają wprowadzeni w najdalsze komnaty pałacu, wonne sypialnie, które służą za skarbce do przychowywania najbardziej wartościowych przedmiotów, gdzie na samym dnie skrzyń leżą najcenniejsze skarby – dary godne bogini. Po wybraniu stosownego przedmiotu Hekabe, wraz ze zwołanymi kobietami, zmierza w procesji do świątyni Ateny, którą otwiera kapłanka Teano – kolejny element kobiecy w narracji. Hekabe składa dar i wznosi modlitwę, która jednak nie zostanie wysłuchana (311). </p>
+                    <quote>
+                        <lb/>Ὣς ἔφαθ᾽, ἣ δὲ μολοῦσα ποτὶ μέγαρ᾽ ἀμφιπόλοισι 
+                        <lb/>κέκλετο· ταὶ δ᾽ ἄρ᾽ ἀόλλισσαν κατὰ ἄστυ γεραιάς.
+                        <lb/>αὐτὴ δ᾽ ἐς θάλαμον κατεβήσετο κηώεντα, 
+                        <lb/>ἔνθ᾽ ἔσάν οἱ πέπλοι παμποίκιλοι ἔργα γυναικῶν 
+                        <lb n="290"/>Σιδονίων, τὰς αὐτὸς  Ἀλέξανδρος θεοειδὴς
+                        <lb/>ἤγαγε  Σιδονίηθεν ἐπιπλὼς εὐρέα πόντον, 
+                        <lb/>τὴν ὁδὸν ἣν  Ἑλένην περ ἀνήγαγεν εὐπατέρειαν·
+                        <lb/>τῶν ἕν᾽ ἀειραμένη  Ἑκάβη φέρε δῶρον Ἀθήνῃ, 
+                        <lb/>ὃς κάλλιστος ἔην ποικίλμασιν ἠδὲ μέγιστος, 
+                        <lb n="295"/>ἀστὴρ δ᾽ ὣς ἀπέλαμπεν· ἔκειτο δὲ νείατος ἄλλων. 
+                        <lb/>βῆ δ᾽ ἰέναι, πολλαὶ δὲ μετεσσεύοντο γεραιαί. 
+                        <lb/>Αἳ δ᾽ ὅτε νηὸν ἵκανον  Ἀθήνης ἐν πόλει ἄκρῃ, 
+                        <lb/>τῇσι θύρας ὤϊξε  Θεανὼ καλλιπάρῃος 
+                        <lb/>Κισσηῒς ἄλοχος  Ἀντήνορος ἱπποδάμοιο· 
+                        <lb n="300"/>τὴν γὰρ  Τρῶες ἔθηκαν  Ἀθηναίης ἱέρειαν.	 
+                        <lb/>αἳ δ᾽ ὀλολυγῇ πᾶσαι  Ἀθήνῃ χεῖρας ἀνέσχον· 
+                        <lb/>ἣ δ᾽ ἄρα πέπλον ἑλοῦσα  Θεανὼ καλλιπάρῃος 
+                        <lb/>θῆκεν  Ἀθηναίης ἐπὶ γούνασιν ἠϋκόμοιο, 
+                        <lb/>εὐχομένη δ᾽ ἠρᾶτο  Διὸς κούρῃ μεγάλοιο· 
+                        <lb n="305"/>πότνι᾽  Ἀθηναίη ἐρυσίπτολι δῖα θεάων
+                        <lb/>ἆξον δὴ ἔγχος  Διομήδεος, ἠδὲ καὶ αὐτὸν 
+                        <lb/>πρηνέα δὸς πεσέειν  Σκαιῶν προπάροιθε πυλάων, 
+                        <lb/>ὄφρά τοι αὐτίκα νῦν δυοκαίδεκα βοῦς ἐνὶ νηῷ 
+                        <lb/>ἤνις ἠκέστας ἱερεύσομεν, αἴ κ᾽ ἐλεήσῃς 
+                        <lb n="310"/>ἄστύ τε καὶ  Τρώων ἀλόχους καὶ νήπια τέκνα. 
+                        <lb/>Ὣς ἔφατ᾽ εὐχομένη, ἀνένευε δὲ  Παλλὰς  Ἀθήνη. 
+                        <lb/>ὣς αἳ μέν ῥ᾽ εὔχοντο  Διὸς κούρῃ μεγάλοιο, 
+                    </quote>
+                    <quote>
+                        <lb/>Tak rzekł, ona [scil. Hekaba], powróciwszy do komnat, służące
+                        <lb/>wezwała, aby zgromadziły z miasta dostojne kobiety,
+                        <lb/>sama zaś zeszła natychmiast do swej pachnącej komnaty,
+                        <lb/>gdzie były szaty wzorzyste, dzieła kobiet
+                        <lb n="290"/>sydońskich, które sam boski Aleksander 
+                        <lb/>uprowadził z Sydonu, płynąc przez morze szerokie,
+                        <lb/>tą drogą, którą wiódł Helenę szlachetnie urodzoną.
+                        <lb/>Z nich to wzięła Hekabe i niesie jako dar dla Ateny,
+                        <lb/>tę, która była najpiękniejszą pod względem wzorów  i najobszerniejszą – 
+                        <lb n="295"/>lśniącą jak gwiazda – ze wszystkich innych leżącą najgłębiej.
+                        <lb/>Śpiesznie ruszyła Hekaba, a z nią wiele kobiet dostojnych.
+                        <lb/>Gdy dotarły do świątyni Ateny na wysokim grodzie
+                        <lb/>odrzwia otworzyła im Teano o twarzy uroczej
+                        <lb/>córka Kissesa, małżonka Antenora ujarzmiającego konie.
+                        <lb n="300"/>Tę bowiem Trojanie ustanowili kapłanką Ateny.
+                        <lb/>Z jękiem błagalnym wszystkie wznosiły ręce do Ateny,
+                        <lb/>ona zaś Teano pięknolica peplos wzięła, 
+                        <lb/>i złożyła na kolanach pięknowłosej Ateny,
+                        <lb/>głośno wypowiadając słowa modlitwy błagała córkę potężnego Zeusa:
+                        <lb n="305"/>„O Pani! Ateno! Boska opiekunko miasta, 
+                        <lb/>złam włócznię Diomedesa i daj, aby on sam
+                        <lb/>twarzą do ziemi upadł przy skajskiej bramie,
+                        <lb/>za to tobie teraz dwanaście krów w świątyni
+                        <lb/>jednorocznych, nieujarzmionych ofiarujemy, w nadziei, że bogini ulituje się 
+                        <lb n="310"/>nad miastem i małżonkami Trojan i małymi dziećmi”.
+                        <lb/>Tak rzekła modląc się do córki potężnego Zeusa.
+                        
+                    </quote>
+                    <p>286: Ὣς ἔφαθ᾽, ἣ δὲ – „tak rzekł, a ona”; bezzwłoczne przejście do wypełnienia polecenia jest typowe dla narracji epickiej, por. Edwards 1987: 207. W poleceniu Helenosa wyłącznym podmiotem działań jest Hekabe (87: ἣ δὲ ξυνάγουσα γεραιὰς), w opisie realnych działań rozkazuje (κέκλετο) ona służącym (ἀμφιπόλοισι) zwołać kobiety w mieście. Zwoływanie uczestników obrzędu pojawia się również scenach przedstawiających ofiarę krwawą (Il. 2.404–409, Od. 3.417 i nast.). </p>
+                    <p>μολοῦσα ποτὶ μέγαρ᾽ – „powróciwszy do komnat”; Hekabe wydaje polecenia w części domu dostępnym dla gości, megaronie, będącej przestrzenią pośrednią między sferą prywatną a publiczną, a następnie przejdzie do sypialni (thalamos). Charakterystyczne, że Helenos, patrząc z perspektywy świata męskiego, mówi w swoim poleceniu o megaronie jako miejscu, skąd Hekabe ma wziąć peplos dla Ateny (Graziosi, Haubold 2010: 158). </p>
+                    <p>288–295: Scena typowa przedstawiająca wybór przedmiotu ze skarbca należy do zasobów referencjalności tradycyjnej: w domach herosów są gromadzone drogocenne przedmioty, które wykorzystuje się w wymianie towarzyszącej nawiązywaniu i podtrzymywaniu stosunków gościnności. Scena wyboru daru wotywnego dla Ateny stanowi zatem prawdopodobnie innowację odwołującą się do znanych z tradycji aktów wyboru darów dla śmiertelnika. W Il. 24.191–237 Priam wybiera dary dla Achillesa, w Od. 2.337–381 Telemach zabiera wyposażenie i prowiant na podróż do Pylos; w Od. 15.99–108 – Menelaos i Helena wybierają gościniec dla Telemacha oraz w Od. 21.5–65: Penelopa udaje się po łuk Odyseusza. Sceny składają się następujących elementów: [1] wejście do komnaty – skarbca (288), [2] opis skarbca i [3] jego zawartości (288b–292), [4] otwarcie drzwi (tutaj brak tego elementu); [5] wybór przedmiotu/ów (w. 293); [6] historia wybranego przedmiotu i jego wartości (288–295) oraz [7] powrót. Por. de Jong 2001: 506.</p>
+                    <p>288: wers formularny używany w opisach wnętrznych, kobiecych części domów elity jako część sceny typowej – skarbiec (~ Il. 24.191 = Od. 15.288).</p>
+                    <p>ἐς θάλαμον… κηώεντα – „do wonnych skarbców”; przymiotnik κηώεντα charakteryzuje alkowę domów elity poprzez piękny zapach, najpewniej powstały w wyniku spalania kadzideł. Piękny zapach jest znakiem przynależności pomieszczenia do sfery kobiecej domu arystokratycznego. Na temat jego budowy morfologicznej, zob. Hoekstra 1998. W Il. 3.382 przymiotnik jest dookreślony drugim epitetem εὐώδεϊ κηώεντι, „pachnącemu: wonnemu” – „tchnący woniami pachnideł” (K. Jeżewska). W Il. 24.191–2 mamy z kolei κηώεντα κέδρινον, „pachnącej cedrem” sugeruje związek z kadzidłem wykonanym z drewna cedrowego (Graziosi, Haubold 2010: 159).</p>
+                    <p>289: ἔνθ᾽ ἔσάν οἱ πέπλοι παμποίκιλοι – „gdzie były szaty wzorzyste”; hemistych formularny (= Od. 15.105a z komentarzem Kirk 1984: 198–9 oraz Hoekstra 1998). Przymiotnik παμποίκιλοι odnosi się do πέπλοι. W innych miejscach może być epitetem wszelkich pięknie wykonanych przedmiotów, nie tylko tkanych, ale również wyrobów płatnerskich (uzbrojenie) lub snycerskich (meble). Wydaje się, że poeci epiccy używają tego przymiotnika w szczególnych kontekstach. Przymiotnik παμποίκιλος (por. Od. 15.105, h.hom. 5.89), wraz ze spokrewnionym rzeczownikiem ποικίλμα, „haft”, „wzór” (w. 294), czasownikiem ποικίλλω (Il. 18.590) są używane do nazwania przedmiotów wykonanych przez Helenę, naszyjnika Afrodyty uwodzącej Anchizesa oraz taneczni wyobrażonej na tarczy Achillesa. Chodzi zatem o typowe przedmioty należące do rejestru świata heroicznego.</p>
+                    <p>294: Wers formularny (= Od. 15.107).</p>
+                    <p>κάλλιστος… ποικίλμασιν ἠδὲ μέγιστος – „o najpiękniejszych wzorach i najobszerniejszy”; w opisie wyboru peplosu przez Hekabe poeta dokonuje charakterystycznej i najpewniej znaczącej zamiany – o ile Helenos, a następnie Hektor zalecali wybór szaty, która najbardziej spodoba się bogini (χαριέστατος ἠδὲ μέγιστος, zob. ww. 90 i 271), o tyle tutaj zwraca się uwagę na kunsztowność jej wykonania. I chociaż wyrażenie κάλλιστος… ποικίλμασιν podkreśla piękno przedmiotu, nie znalazł on uznania w oczach Ateny, zob. Graziosi, Haubold 2010: 161.</p>
+                    <p>295: Wers formularny (= Od. 15.108).</p>
+                    <p>ἔκειτο δὲ νείατος ἄλλων – „leżał najniżej z wszystkich”; użycie przymiotnika νείατος oznaczającego najniższą, najgłębszą, a zatem najbardziej ukrytą część skarbca (w tym wypadku zapewne skrzyni) podkreśla wartość przedmiotu wybranego przez Hekabe dla bogini, jednak jego pochodzenie – związek z porwaniem Heleny – może być przyczyną odrzucenia daru przez Atenę.</p>
+                    <p>297–311: Opis rytuału odbiega od polecenia przekazanego przez Hektora w dwóch punktach. Po pierwsze poeta wprowadza postać kapłanki Ateny, Teano, która jako klucznica świątynna – standardowa funkcja kapłanki – otworzy świątynię i będzie przewodniczyła w obrzędzie, zastępując w ten sposób Hekabe. Po drugie intencja modlitwy wzniesionej przez Teano różni się od polecenia Helenosa. Zamiast modlić się o osłonę przed włócznią Diomedesa, Teano będzie modliła się o śmierć herosa, która z punktu widzenia tradycyjnego rejestru mitu heroicznego jest niemożliwa do spełnienia. </p>
+                    <p>297: Por. 88. </p>
+                    <p>298: τῇσι θύρας ὤϊξε  Θεανὼ – „im otworzyła drzwi Teano”; postawiony na początku wersu zaimek wskazujący τῇσι, „tym”, podobnie jak użyte w tej samej pozycji zaimki τὴν (300), αἳ (301), ἣ (302) służą wizualizacji całej sceny.</p>
+                    <p>Θεανὼ: kapłanka Ateny, małżonka Agenora, pojawia się również w 5.70–71 oraz 11.221–224, za każdym razem w kontekście powiązań rodzinnych. Wydaje się, że miała stałe miejsce w tradycji o wojnie trojańskiej. Podobnie jak jej mąż, Agenor, który przyjmuje posłów greckich, Odyseusza i Menelaosa przybyłych po Helenę (3.205–208, por. 7.348–353), mogła być spostrzegana przez greckich słuchaczy pozytywnie, por. Nagy 1979: 360–4.</p>
+                    <p>300: τὴν γὰρ  Τρῶες ἔθηκαν Ἀθηναίης ἱέρειαν – „tę bowiem Trojanie ustanowili kapłanką Ateny”; jedyna kapłanka w poezji epickiej jest wybrana przez wspólnotę polityczną. Z punktu widzenia słuchaczy okresu archaicznego można spodziewać się napięcia między działaniami podejmowanymi w sferze domowej przez Hekabe, która wybiera dar dla Ateny, a figurą publiczną – wybraną przez lud kapłanką. Teano reprezentuje wszystkich mieszkańców, stąd jej działania w sferze religijnej są wykonywane w imieniu wspólnoty politycznej. </p>
+                    <p>301: αἳ δ᾽ ὀλολυγῇ πᾶσαι: kobiety wznoszą rytualny krzyk. Interpretacja znaczenia ὀλολυγή jest przedmiotem sporu. Część badaczy skłania się do widzenia w tym okrzyku oznaki żałoby, lamentu, jednak wydaje się, że chodzi raczej o uczucie ulgi, wzniosłej radości. W Iliadzie pojawia się on wyłącznie w tym miejscu, w Odysei wznoszą go kobiety w momencie uboju zwierzęcia ofiarnego (Od. 3.450) oraz po modlitwie (4.767). U Safony okrzyk ten towarzyszy godom Hektora i Andromachy (frg. 44.31 Voigt).</p>
+                    <p>304–310: Modlitwa Teano nie odtwarza polecenia Helenosa, lecz zmienia kolejność elementów oraz istotę prośby skierowanej do Ateny. Helenos polecił bowiem złożyć peplos na kolanach bogini, obiecując złożenie hekatomby z dwunastu jałówek, a następnie wzniesienia prośby o ochronę przed Diomedesem. Teano modli się o śmierć Diomedesa, a następnie obiecuje złożenie ofiary.</p>
+                </div>
+                <div type="textpart" n="Iliad_VI_379–378">
+                    <head>Iliada VI 379–378 </head>
+                    <p>Mówi Hektor do służebnych, nie mogąc znaleźć w swym domu Andromachy, która poszła z synkiem na basztę. </p>
+                    <quote>
+                        <lb/>εἰ δ᾽ ἄγε μοι δμωιαί νημερτέα μυθήσασθε· 
+                        <lb n="375"/>πῇ ἔβη  Ἀνδρομάχη λευκώλενος ἐκ μεγάροιο; 
+                        <lb/>ἠέ πῃ ἐς γαλόων ἢ εἰνατέρων ἐϋπέπλων 
+                        <lb/>ἢ ἐς  Ἀθηναίης ἐξοίχεται, ἔνθά περ ἄλλαι 
+                        <lb/>Τρῳαὶ ἐϋπλόκαμοι δεινὴν θεὸν ἱλάσκονται;  
+                    </quote>
+                    <quote>
+                        <lb/>Nuże, służebne, przekażcie mi pewne wieści
+                        <lb n="375"/>gdzie poszła Andromacha białoramienna z domostwa 
+                        <lb/>czy do sióstr czy bratowych strojnych,
+                        <lb/>czy też wyszła do świątyni Ateny, gdzie inne 
+                        <lb/>Trojanki pięknowarkocze przebłagują straszną boginię.
+                    </quote>
+                    <p>378: Τρῳαὶ ἐϋπλόκαμοι δεινὴν θεὸν ἱλάσκονται – „Trojanki pięknowarkocze przebłagują straszną boginię”; czasownik ἱλάσκεσθαι, „przebłagać” jest terminem technicznym, który oznacza różnego rodzaju rytuały przebłagalne mające na celu odwrócenie skutków gniewu bóstwa, zob. Il. 1.100 z komentarzem. Często środkiem tych obrzędów są ofiary krwawe (Il. 1.147; 444) lub choreia, zwłaszcza pean (Il. 1.472). W eposie zazwyczaj rytuał przebłagalny jest skuteczny, z wyjątkiem dobrze umotywowanego odrzucenia błagań w Od. 21.364–5. Jeśli rytuał zakłada potencjalną skuteczność, w słowach Hektora można dopatrzeć się świadomego położenia nacisku na nadzieję ocalenia. Zamierzony odbiorca narracji wie jednak, że bogini odmówiła pomocy.</p>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

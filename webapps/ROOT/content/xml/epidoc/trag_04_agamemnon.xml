@@ -1,0 +1,1080 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Agamemnon (Ἀγαμέμνων, Agamennone)</title>
+                <title xml:lang="en">Agamemnon (Ἀγαμέμνων, Agamemnon)</title>
+                <title xml:lang="pl">Agamemnon (Ἀγαμέμνων, Agamemnon)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">trag_04_agamemnon</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Agamemnon (Ἀγαμέμνων, Agamemnon)</title>, in Krzysztof Bielawski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Tragedia attycka</title>, Warszawa 2017, pp. 47-76</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-03-17" who="Gaia Fanelli">encoded document in XML</change>
+                <change when="2017" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Forma Zeitlin (1965: 464) uznała motyw ofiary w <title>Agamemnonie</title> (i całej
+                        <title>Orestei</title>) za kluczowy, moglibyśmy powiedzieć „osiowy” i na każdej
+                        płaszczyźnie dramatu znaczący, niezależnie od tego, czy jest widoczny
+                        w konkretnym passusie, czy też nie („either by its presence
+                        or absence”). Porządkuje on strukturę narracji, stanowi de facto temat
+                        wiodący trylogii. Stałymi punktami odniesienia są dwa wydarzenia:
+                        zbrodnia Atreusa i śmierć Ifigenii. Pierwsze stanowi peccatum originis
+                        rodu, drugie – koło zamachowe ciągu mordów, które są równolegle
+                        przedstawiane i interpretowane przez personae dramatis (nie: przez nowożytnych
+                        komentatorów!) jako krwawe zbrodnie i ofiary (w znaczeniu
+                        sacrifices, nie victims) równocześnie. Napięcie między tymi dwiema
+                        interpretacjami stanowi istotę narracji. Kolejne ofiary – Agamemnon
+                        i Klitajmestra – w zamkniętym kole koniecznych odpłat o charakterze
+                        ofiarnym i zaciąganych tym samym zmaz budują dalszą akcję, stanowiąc
+                        jedynie tło dla innych treści utworu: o charakterze politycznym,
+                        prawnym, psychologicznym czy społecznym. Wina Orestesa – rozpięta
+                        w tym samym cyklu między tymi samymi sprzecznościami – także
+                        pozostaje w kręgu oddziaływania klucza ofiarniczego: jego ofiary
+                        domagają się Erynie, a on sam uporczywie powraca do tematu ofiary
+                        oczyszczającej, której się poddał i która ma większe znaczenie niż autorytet
+                        Apollona.</p>
+                    <p>W tej perspektywie może dziwić bardzo nierównomierne rozłożenie
+                        w trylogii terminów technicznych właściwych dla języka ofiary –
+                        w <title>Agamemnonie</title> są one bogate i różnorodne, w <title>Ofiarnicach i Eumenidach</title>
+                        – prawie nieobecne. W przeciwieństwie jednak do np. Sofoklesowego
+                        Ajasa, gdzie słowa pochodzące z języka ofiary często jedynie oddają
+                        odległe echo ściśle rytualnych znaczeń, w <title>Orestei</title> każde pojawienie
+                        się terminów ofiarniczych jest jednoznaczne i pozostające w silnym
+                        związku z innymi miejscami, które wzajemnie się komentują i nieustannie
+                        przypominają o rytualnym wymiarze zdarzeń.</p>
+                    <p>Koncepcja Zeitlin (1965) na temat „zepsutej” ofiary („corrupted sacrifice”)
+                        w <title>Orestei</title> stała się podstawowym i bardzo sprawnym narzędziem
+                        interpretacyjnym – i nadal jest to bodaj najsilniej oddziałujący
+                        na badaczy tekst wyjaśniający znaczenie ofiary w trylogii Ajschylosa.
+                        Należy jednak pamiętać, że interpretacja ta stanowi jedynie współczesną,
+                        anachroniczną wobec realiów V w. p.n.e. strukturę hermeneutyczną,
+                        która pomaga porządkować materiał i godzić wewnętrzne
+                        aporie tekstu. Jego niewątpliwą zasługą jest zwrócenie uwagi na ofiarę
+                        jako motyw wiodący w trylogii. Jednak koncepcja ofiary „zepsutej”
+                        jako zamierzonej przez Ajschylosa i świadomie przezeń zrealizowanej
+                        jest nie do utrzymania. To prawda – „ofiara, która nie jest ofiarą, jest
+                        w istocie swojej świętokradczym bluźnierstwem” – jak pisze Zeitlin
+                        (1965: 498). I dalej: „Zbrodnia postrzegana jako ofiara jest atawistycznym
+                        regresem do prymitywnego bestialstwa, ale jest także bezbożną
+                        profanacją rytualnej komunikacji z bogami” (ibidem). Niemniej to sama
+                        Zeitlin zwróciła baczną uwagę na fakt, że to właśnie same postaci dramatu
+                        interpretują losy swoje własne i innych w kategorii ofiary, świadomie
+                        posługując się rytualnym językiem, który w żadnym wypadku
+                        nie jest konsekwentny ani zgodny z rzeczywistością rytualną, jaką
+                        znamy z epigrafiki – jest emanacją poetyckiej wyobraźni i skutkuje
+                        napięciem dramatycznym między tym, co znane i godziwe a tym, co
+                        nie do pomyślenia. Ofiara krwawa w tej perspektywie rozumiana jest
+                        jako konieczność poświęcania czyjegoś życia dla subiektywnie słusznej
+                        i religijnie uzasadnialnej racji, opartej na prawie odwetu (Treston
+                        1923: 276–302). Jak to ujął Albert Henrichs (1980: 199): „rytualna śmierć
+                        Ifigenii w <title>Agamemnonie</title> jest poetycką koniecznością [poetic necessity],
+                        z punktu widzenia poetyckiej wizji jest szczęśliwą winą, która służy za
+                        kluczowy punkt odniesienia [pivot point] dla dylematów moralnych
+                        Agamemnona”, a „uczeni, którzy czytają mit Ifigenii, jakby był on
+                        zabytkiem greckiego humanizmu [a monument of Greek humanity],
+                        popełniają błąd, ponieważ nie potrafią trafnie ocenić złożoności mitycznych
+                        i rytualnych tradycji” (ibidem: 204). W poetyckiej wizji „ofiara
+                        Ifigenii jest równocześnie normalna i nienormalna, pobożna i bezbożna,
+                        zdrowa i szalona” (Pucci 1992: 525). Fakt, że Agamemnon jest ofiarnikiem
+                        (thyter – w. 224) własnej córki znajduje potępienie w oczach
+                        chóru, ale jednocześnie jest później chwalony przez Orestesa, który
+                        ofiary swojego ojca uważa za normalne rytuały i wyraz pobożności
+                        (Pucci 1992: 525). W <title>Ofiarnicach</title> Agamemnon jest jednocześnie ofiarnikiem
+                        i ofiarą. Dzięki językowi ofiary zastosowanemu do opisu kolejnych
+                        mordów dowiadujemy się, że tragiczna śmierć herosa, nawet jeśli
+                        jest zadana bezprawnie, zawsze wpisuje się w ofiarną perspektywę
+                        (ibidem: 526: „a sacrificial aura”), a dokładniej: „w perspektywę teleologiczną
+                        i horyzont świętych sił, które ostatecznie mimo chaotycznych
+                        sprzeczności utrzymują świat w całości” (ibidem: 526).</p>
+                    <p>Zeitlin zdaje się nie zauważać, że „atawistyczne bestialstwo” Orestesa
+                        przez dwie części trylogii poszukuje teologicznego uzasadnienia
+                        – i trudno uznać, że go nie znalazło. I że „komunikacja” Orestesa
+                        z Apollonem nie wydaje się „zaburzona”. Świat ofiary krwawej, tak jak
+                        świat ludzkich wyborów, jest znacznie bardziej skomplikowany i żadna
+                        figura hermeneutyczna go nie wyczerpuje. „The religious force ascribed
+                        to killing is one of the mysteries at the heart of sacrifice” – zdanie
+                        to, zapisane przez Roberta Parkera (2011: 160) w odniesieniu do ofiar
+                        zwierzęcych, jest w równym stopniu słuszne wobec śmierci opisanych
+                        w <title>Orestei</title>. Nie muszą one pasować ani do ustaleń praw Drakona, ani
+                        tym bardziej do współczesnej wrażliwości. Dlatego w niniejszym komentarzu
+                        koncentruję się jedynie na skatalogowaniu i skomentowaniu
+                        wszystkich miejsc występowania terminologii ofiarniczej, bez ambicji
+                        dopasowywania ich do interpretacyjnych schematów, niezależnie od
+                        tego, jak silnie oddziałują one na innych komentatorów i tłumaczy.</p>
+                    <p>Przekonanie, że niekiedy śmierć może przywrócić zaburzoną równowagę
+                        w relacjach między ludźmi jest wspólne dla religii i prawa.
+                        Nie jest niczym dziwnym, że ludzie – w rzeczywistości czy też w fikcji
+                        literackiej – postrzegają zadanie jej komuś, kogo uważają za winnego,
+                        jako jedyną drogę do odzyskania tej równowagi i że przywołują
+                        w tym kontekście autorytet bogów (Klitajmestra i Orestes). W myśleniu
+                        religijnym możliwość uznania, że bóg domaga się ofiary, nie jest
+                        niczym dziwnym, nawet jeśli staje to w opozycji do innych istotnych
+                        wartości (Agamemnon) lub stoi w sprzeczności z prawem – pisanym
+                        czy niepisanym. Tak samo nie dziwi, że z pełnym uznaniem boskiego
+                        roszczenia śmierć bliskiej osoby budzi sprzeciw i pragnienie odpłaty
+                        (ani Klitajmestra, ani Kasandra nie odmawiają mordowi na Ifigenii statusu
+                        ofiary). Konflikt tych dwóch porządków – boskiego i ludzkiego
+                        – jest istotą dramatycznego napięcia <title>Orestei</title>. Mordy, które są lub mają
+                        być równocześnie ofiarami, nie reprezentują cyklu ofiar „wadliwych”
+                        („corrupted”), ale wpisują się w całej rozciągłości w strukturę systemu
+                        prawnego pozostającego emanacją teodycei i dawnych wierzeń. Stosowanie
+                        wobec tych wydarzeń słownictwa charakterystycznego dla ofiary
+                        nie jest nadużyciem, ale koniecznością i tym samym <title>Oresteja</title> może
+                        najbardziej ze wszystkich świadectw literackich zbliża nas do istoty
+                        problemu ofiary, w której poczucie winy i potrzeba odpłaty mieszają
+                        się z głębokim przekonaniem powinności i konieczności, za którą stoi
+                        podstawa relacji bogów z ludźmi.</p>
+                    <p>Tekst grecki według wydania: West (1990).</p>
+                </div>
+                <div type="textpart" n="Agamemnon_40-263">
+                    <head>Agamemnon 40-263</head>
+                    <p>40–263: pierwsza pieśń chóru
+                        Temat ofiary staje się od pierwszego wejścia chóru na orchestrę tematem
+                        wiodącym dramatu. Pojawia się w trzech planach, kształtując
+                        definitywnie interpretację przedstawianej fabuły:</p>
+                    <p>• jako nieskuteczne narzędzie komunikacji z bogami: losy wojny
+                        i nieobecności króla w domu pozostają w rękach bogów, niezależnie
+                        od tego, jak bardzo ludzie staraliby się ich przekonać ofiarami
+                        do zmiany biegu wydarzeń;</p>
+                    <p>• jako wyraz (fałszywej) radości i wdzięczności za zwycięstwo i powrót
+                        Argiwów – Klitajmestra zarządza składanie ofiar na wieść
+                        o zwycięstwie przekazaną sygnalizacją świetlną;</p>
+                    <p>• jako peccatum originis dramatu w postaci mordu rytualnego na Ifigenii,
+                        konsekwentnie w całym utworze przedstawianego i interpretowanego
+                        przez poetę w kategoriach ofiary krwawej – już to
+                        jako thysia, już to jako sphagia.</p>
+                    <p>Ten ostatni plan, motyw ofiary krwawej z członka rodziny, staje się
+                        w tym miejscu osnową i ramą modalną całej akcji trylogii.</p>
+                </div>
+                
+                <div type="textpart" n="Agamemnon_63-68">
+                    <head>Agamemnon 63-68</head>
+                    <p>Passus z pierwszej pieśni chóru złożonego ze starców Argos, który
+                        śpiewa o przyczynach i konsekwencjach wojny trojańskiej: krwawe
+                        walki Greków z Trojanami nazwane są tutaj proteleia – „ofiarami
+                        wstępnymi”; pierwszy raz w trylogii pojawia się w tym miejscu temat
+                        ofiary.</p>
+                    <quote>
+                        <lb/>πολλὰ παλαίσματα καὶ γυιοβαρῆ,
+                        <lb/>γόνατος κονίαισιν ἐρειδομένου
+                        <lb n="65"/>διακναιομένης τ᾽ ἐν προτελείοις
+                        <lb/>κάμακος, θήσων Δαναοῖσιν
+                        <lb/>Τρωσί θ᾽ ὁμοίως. ἔστι δ᾽ ὅπη νῦν
+                        <lb/>ἔστι· τελεῖται δ᾽ ἐς τὸ πεπρωμένον.
+                    </quote>
+                    <quote>
+                        <lb/>[Zeus] ma zesłać liczne boje i ciężar wielki nogom,
+                        <lb/>Gdy w pyle ugina się kolano,
+                        <lb n="65"/>I gdy łamie się drzewce włóczni
+                        <lb/>W tych wstępnych ofiarach,
+                        <lb/>Jednakowo Danaom i Grekom. A jest teraz tak,
+                        <lb/>Jak jest; spełni się to, co losem pisane.
+                    </quote>
+                    <p>Temat ofiary pojawia się tutaj pierwszy raz w <title>Orestei</title> za sprawą rzeczownika
+                        προτέλεια (w. 65), który odnosi się w tym miejscu do śmierci
+                        ponoszonych przez walczących pod Troją. Proteleia – ofiara wstępna,
+                        poprzedzająca, zwłaszcza przed obrzędem zaślubin, staje się tutaj rytuałem
+                        „poprzedzającym” kolejno: zdobycie Troi i śmierć wielu ludzi,
+                        ukaranie Parysa, ukaranie Agamemnona – wszystkie te wydarzenia
+                        opisywane są za pomocą metaforycznego języka ofiary krwawej (Zeitlin
+                        1969: 465). Mimo iż obydwa wystąpienia tego słowa w parodosie
+                        chóru (drugie: w. 227) pojawiają się w związku z wojną i śmiercią, kontekst
+                        sprawia, że w pamięci mamy zarówno „złe” małżeństwo Heleny,
+                        jak i niespełnialne małżeństwo Ifigenii (MacLeod 2007: 288). Wers ten
+                        staje się tym samym hermeneutycznym kluczem, narzucającym całej
+                        późniejszej narracji interpretacyjną ramę modalną, która wykreślana
+                        jest technicznym językiem ofiary krwawej. Ofiara jest najważniejszym
+                        punktem odniesienia w interpretacji przedstawionych wydarzeń,
+                        niezależnie od tego, czy uznamy ją za „zepsutą” (corrupted), jak chce
+                        Zeitlin
+                        (1969: passim) bądź „wypaczoną” (perverted), jak chce Henrichs
+                        (2004 i 2012: passim), czy też jedynie za stworzony w języku metafory
+                        punkt odniesienia. Eduard Fraenkel twierdzi, że „metaforyczne” stosowanie
+                        języka jest Ajschylosowi nieznane, z czym trudno się dzisiaj
+                        zgodzić, ale że jedynie świadomie stosuje on rozszerzanie (extension
+                        of meaning) znaczeń słów pochodzących z technicznego języka kultu
+                        (Fraenkel 1950, vol. II: 40) lub też ich znaczenie jest w jakimś sensie
+                        „odwrócone” („inverts it and gives it a sinister meaning”, ibidem: 41).
+                        Religijne znaczenie passusu z odwołaniem do ofiarnego kontekstu
+                        uzupełnia i podkreśla czasownik teleo (w. 68), który w całej trylogii ma
+                        jednoznacznie religijne znaczenie i najczęściej wyraża ideę spełnienia
+                        rytuału, a ofiary w szczególności (Lebeck 1963: 103, przywołanie za
+                        Zeitlin 1969: 464–465, Bielawski 2004: 5–83).</p>
+                    <p>65: ἐν <w>προτελείοις</w> – „we wstępnych ofiarach”. Tłumaczenie <title>LSJ</title>
+                        (s.v.) jako po prostu beginnings (w takim znaczeniu mamy jedynie ἐν
+                        <w>βιότου</w> <w>προτελείοις</w> w w. 720), z przywołaniem tłumaczenia tego cytatu
+                        w wersji „in the preliminary conflicts”, czyli „na początku wojny”,
+                        nie ma sensu – od pierwszych słów swej pieśni chór opowiada o tym,
+                        że „dziesiąty rok już mija” (w. 40). W przekładzie Fraenkla (1950, vol. I:
+                        95): „in the initial offering”. Właściwą „ofiarą” jest śmierć, sama walka
+                        na polu bitwy jest jej przygotowaniem (Fraenkel 1950, vol. II: 40–41).</p>
+                </div>
+                
+                <div type="textpart" n="Agamemnon_69-71">
+                    <head>Agamemnon 69-71</head>
+                    <p>Bezpośrednia kontynuacja poprzedniego passusu z parodosu chóru,
+                        który wyjaśnia, że walki trojańskie są konsekwencją pogwałcenia
+                        prawa gościnności i obrazy Zeusa Kseniosa i że żadne ofiary nie są
+                        w stanie ułagodzić jego gniewu. Trzykrotne retoryczne οὔτε podkreśla
+                        ich bezskuteczność. W hermeneutyce ofiary wprowadzonej przez
+                        προτέλεια (w. 65, zob. komentarz powyżej) tylko ofiara z życia może
+                        być odpowiedzią na gniew Zeusa.</p>
+                    <quote>
+                        <lb/>οὔθ᾽ ὑποκαίων οὔτ᾽ ἐπιλείβων
+                        <lb n="70"/>οὔτε δακρύων ἀπύρων ἱερῶν
+                        <lb/>ὀργὰς ἀτενεῖς παραθέλξει.
+                    </quote>
+                    <quote>
+                        <lb/>Ani spalanie ofiar, ani wylewanie libacji,
+                        <lb n="70"/>Ani płacz nad ofiarami składanymi bez ognia
+                        <lb/>Nieprzebłaganych gniewów nie złagodzą.
+                    </quote>
+                    <p>69: <w>ὑποκαίων</w> – „spalanie ofiar”, właściwie „spalając ofiary”, a dosłownie
+                        „podkładając ogień”, jednak w tym kontekście jest to wyraźny
+                        kontrapunkt dla <w>ἐπιλείβων</w> – „wylewając ofiary płynne”. Metonimicznie
+                        podkładanie ognia zastępuje tutaj całość ofiary spalanej na ołtarzu.
+                        Pełen kontekst ofiarny dla czasownika ὑποκαίω opisuje Herodot (4.61:
+                        <w>ὑποκαίοντες</w> τὰ ὀστέα τῶν ἱρηίων, ὑποκαίουσι τὰ ὀστέα).</p>
+                    <p>70: <w>ἀπύρων</w> ἱερῶν – „ofiary składane bez ognia, niespalane”, jak
+                        w <title>Odzie Olimpijskiej</title> Pindara (7.48), czyli wszelkie ofiary bezkrwawe.</p>
+                </div>
+                
+                <div type="textpart" n="Agamemnon_83-91">
+                    <head>Agamemnon 83-91</head>
+                    <p>Słowa przodownika chóru skierowane do Klitajmestry. Wynika
+                        z nich, że królowa zarządziła składanie ofiar na wszystkich ołtarzach miasta.
+                        Jest to inny porządek ofiar od tego, o którym śpiewał chór w poprzedniej
+                        strofie – są to typowe ofiary dziękczynne, rozumiane dosłownie, nie
+                        metaforycznie. Odnoszą się do obrzędów spełnianych w Argos na polecenie
+                        królowej z powodu powrotu Agamemnona. Chór akcentuje nadzieję
+                        z nich płynącą (w. 101–102: ἐκ <w>θυσιῶν</w> <w>ἐλπὶς</w>) – porządek ofiarnego cyklu
+                        kolejnych śmierci w rodzie Atrydów zostaje tą pieśnią przerwany.</p>
+                    <quote>
+                        <lb/>σὺ δέ, Τυνδάρεω
+                        <lb/>θύγατερ, βασίλεια Κλυταιμήστρα,
+                        <lb n="85"/>τί χρέος; τί νέον; τί δ᾽ ἐπαισθομένη,
+                        <lb/>τίνος ἀγγελίας
+                        <lb/>πειθοῖ περίπεμπτα θυοσκεῖς;
+                        <lb/>πάντων δὲ θεῶν τῶν ἀστυνόμων,
+                        <lb/>ὑπάτων, χθονίων,
+                        <lb n="90"/>τῶν τε θυραίων <note n="9">Fraenkel wybiera lekcję οὐρανίων – „bogów niebiańskich”; por. dyskusja
+                            nad tą lekcją Fraenkel 1950: vol. II, 53–54.</note> τῶν τ᾽ ἀγοραίων,
+                        <lb/>βωμοὶ δώροισι φλέγονται·</quote>
+                    <quote>
+                        <lb/>Ty zaś, córko Tyndara,
+                        <lb n="85"/>Królowo Klitajmestro,
+                        <lb/>Co u ciebie? Co nowego? Co zauważyłaś,
+                        <lb/>Z namowy jakich wieści badasz ofiary rozsyłając posłańców?
+                        <lb/>Wszystkich bogów opiekuńczych miasta,
+                        <lb/>Tych w górze i tych podziemnych
+                        <lb n="90"/>I tych poza murami, i tych na agorze,
+                        <lb/>Ołtarze płoną darami.
+                    </quote>
+                    <p>86: <w>θυοσκεῖς</w> – „badasz ofiary”. <w>Θυοσκέω</w> poza tym miejscem pojawia
+                        się jeszcze tylko raz u Hipponaksa, fr. 104.48 (zachowane u Atenajosa
+                        9.9.29, gdzie jest obraz badania znaków w siedmiolistnej kapuście ofiarowanej
+                        Pandorze); pojawiające się w tym miejscu w manuskryptach θυ-
+                        οσκινέω nie występuje nigdzie indziej. U Hesychiosa (s.v.) mamy wyjaśnienie,
+                        że <w>θυοσκεῖν</w> oznacza ἱεροῖς *παρέζεσθαι, ἢ θεοῖς (towarzyszyć
+                        ofiarom lub też [ofiary] bogom [składać]). Natomiast forma rzeczownikowa
+                        <w>θυοσκόος</w> to już w leksykonie wieszczek, który odczytuje przyszłość
+                        z wnętrzności (μάντεως διὰ σπλάγχνων τὸ μέλλον δηλοῦντος)
+                        lub ten, kto rozumie znaki z płonących ofiar (τὸν δι᾽ ἐμπύρων ἱερῶν
+                        τὰ σημαινόμενα νοοῦντα) – jak w <title>Iliadzie</title> 24.221: ἢ οἳ μάντιές εἰσι
+                        θυοσκόοι ἢ ἱερῆες. Tak też każe rozumieć <w>θυοσκεῖν</w> Pierre Chantraine
+                        (1999: 448) – „observer des sacrifices”. Eduard Fraenkel, błędnie i wbrew
+                        własnemu komentarzowi (1950, vol. II: 53), daje przekład „arranges sacrifices”
+                        (1950, vol. I: 95). Podobnie Chodkowski (2016: 38).</p>
+                    <p>91: βωμοὶ <w>δώροισι</w> φλέγονται – „ołtarze płoną darami”; ofiara spalana
+                        na ołtarzu stanowi <w>δῶρον</w> – dar dla bogów. Poetycka omownia dla θύω
+                        – zamiast „spalać dary na ołtarzu”, mamy obraz „darów, które płoną”.</p>
+                </div>
+                
+                <div type="textpart" n="Agamemnon_101-103">
+                    <head>Agamemnon 101-103</head>
+                    <quote>
+                        <lb/>τοτὲ δ᾽ ἐκ θυσιῶν ἀγάν᾽ ἀμφαίνεις
+                        <lb/>ἐλπὶς ἀμύνει φροντίδ᾽ ἄπληστον
+                        <lb/>καὶ θυμοβόρον φρενὶ λύπην.
+                    </quote>
+                    <quote>
+                        <lb/>Teraz z ofiar, które rozpalasz, miła
+                        <lb/>nadzieja usuwa nieukojone zmartwienie
+                        <lb/>i troskę dręczącą serce.
+                    </quote>
+                    <p>101: ἐκ <w>θυσιῶν</w> […] ἀμφαίνεις – „z ofiar, które rozpalasz”. Ἀναφαίνω
+                        w znaczeniu „rozpalać” i odniesieniu do ofiar pojawia się np. w <title>Ifigenii
+                        Aulidzkiej</title> Eurypidesa, wers 466 (πόλις ἥδε τελεῖ, δέξαι <w>θυσίας</w>, / ἃς
+                        ὁ παρ᾽ ἡμῖν νόμος οὐχ ὁσίας / [῞Ελλησι διδοὺς] ἀναφαίνει).</p>
+                </div>
+                
+                <div type="textpart" n="Agamemnon_135-137">
+                    <head>Agamemnon 135-137</head>
+                    <p>Ciąg dalszy pieśni chóru, który przytacza słowa proroctwa Kalchasa
+                        sprzed wyprawy na Troję, kiedy interpretował on znaki płynące
+                        z zachowania orłów Agamemnona. Zapowiadał wówczas zdobycie
+                        grodu Priama, ale wskazał na gniew Artemidy za zabicie zająca przez
+                        orły Agamemnona. Pożarcie zajęczycy wieszczek opisuje jako ofiarę
+                        (<w>θυομένοισι</w>), aby w dalszej części swego proroctwa przejść do „kolejnej
+                        ofiary” (w. 151: <w>θυσίαν</w> ἑτέραν) – ofiary z Ifigenii</p>
+                    <p>Wersy te wraz z wersem 151 są kluczowe w tekście dramatu, ponieważ
+                        ustalają perspektywę ofiarną wszystkich kolejno następujących
+                        po sobie wydarzeń. Zastosowanie terminologii ofiarniczej, zarówno
+                        w płaszczyźnie metaforycznej (zabójstwo zająca), jak i dosłownej (ofiara
+                        z Ifigenii i kolejne zabójstwa z niej wynikające) tworzy interpretacyjną
+                        strukturę utworu.</p>
+                    <quote>
+                        <lb n="135"/>οἴκτῳ γὰρ ἐπίφθονος Ἄρτεμις ἀγνὰ
+                        <lb/>πτανοῖσιν κυσὶ πατρὸς
+                        <lb/>αὐτότοκον πρὸ λόχου μογερὰν πτάκα θυομένοισι.
+                    </quote>
+                    <quote>
+                        <lb n="135"/>Bo z żalu czysta Artemida żywi urazę
+                        <lb/>Do skrzydlatych psów ojca,
+                        <lb/>Które złożyły w ofierze biedną młodą zajęczycę, zanim wydała młode.
+                    </quote>
+                </div>
+                
+                <div type="textpart" n="Agamemnon_151">
+                    <quote><lb/>σπευδομένα θυσίαν ἑτέραν, ἄνομόν τιν᾽, ἄδαιτον…</quote>
+                    <quote><lb/>Dążąc do jakiejś drugiej ofiary, bez muzyki, bez uczty…</quote>
+                    <p>Dalszy ciąg przepowiedni Kalchasa przytaczanej przez chór. Wyżej
+                        wskazał on na gniew urażonej Artemidy i modlił się do Apollona
+                        Uzdrowiciela (<w>Παιᾶνα</w>), by bogini nie zsyłała przeciwnych wiatrów
+                        i nie spowodowała innej ofiary – ofiary Ifigenii, nazwanej tutaj nie
+                        wprost „drugą ofiarą” (<w>θυσίαν</w> ἑτέραν). „Ofiara z zająca” z poprzednich
+                        wersów jest jedynie wytłumaczeniem gniewu bogini (Lloyd-Jones
+                        1983: 87 i 101; Whallon 1961: 78–88; Lawrence 1976: 105–106) oraz zapowiedzią
+                        i wieszczym symbolem rzeczywistej ofiary – rzeczywistej, ale
+                        „pozbawionej muzyki” (<w>ἄνομον</w>) i „uczty” (<w>ἄδαιτον</w>). Sofokles w <title>Elektrze</title>
+                        (w. 565–572) daje inne wyjaśnienie gniewu bogini: Agamemnon
+                        miał podczas polowania na jelenia nie oddać bogini należnej czci i zbyt
+                        chlubić się zdobyczą (<w>ἔλαφον</w>, οὗ κατὰ <w>σφαγὰς</w> / <w>ἐκκομπάσας</w> ἔπος
+                        τι τυγχάνει <w>βαλών</w> – zob. komentarz ibidem).</p>
+                    <p>Ofiara bez towarzyszenia muzyki i śpiewu modlitw oraz bez następującej
+                        po niej uczty jest ofiarą „niepełną” (Lloyd-Jones 1953: 96;
+                        por. też Denniston, Page 1957: 82; MacLeod 2007: 288). „Normalna”
+                        ofiara odbywała się przy akompaniamencie muzyki aulosu i śpiewu
+                        (Lloyd-Jones 1953: 96) – nie dotyczyło to ofiar dla zmarłych i dla bogów
+                        podziemnych oraz ofiar ekspiacyjnych. Na temat gniewu Artemidy
+                        i złych znaków orłów i zająca zob. Peradotto 1969 i 2007.</p>
+                </div>
+                
+                <div type="textpart" n="Agamemnon_206-217">
+                    <head>Agamemnon 206-217</head>
+                    <p>Passus z czwartej antystrofy parodosu, w której chór cytuje słowa
+                        Agamemnona, rozdartego między naciskami dowódców na złożenie
+                        ofiary z Ifigenii, przywracającej pomyślne wiatry, a ojcowskimi uczuciami
+                        („ciężkim sercem”: <w>βαρεῖα</w> <w>κήρ</w> <note n="10">Fraenkel (1950 vol. 2: 120–121) i wszystkie wcześniejsze komentarze sugerują,
+                            by κήρ przyjmować w znaczeniu „ruin, grievous fate”.</note>) do córki.</p>
+                    <quote>
+                        <lb/>‘βαρεῖα μὲν κὴρ τὸ μὴ πιθέσθαι,
+                        <lb/>βαρεῖα δ᾽, εἰ
+                        <lb/>τέκνον δαΐξω, δόμων ἄγαλμα,
+                        <lb/>μιαίνων παρθενοσφάγοισιν
+                        <lb n="210"/>ῥείθροις πατρῴους χέρας πέλας βω<lb 
+                         break="no"/>μοῦ. τί τῶνδ᾽ ἄνευ κακῶν;
+                        <lb/>πῶς λιπόναυς γένωμαι
+                        <lb/>ξυμμαχίας ἁμαρτών;
+                        <lb/>παυσανέμου γὰρ
+                        <lb n="215"/>θυσίας παρθενίου θ᾽ αἵματος ὀργᾷ
+                        <lb/>περιόργως ἐπιθυμεῖν
+                        <lb/>θέμις. εὖ γὰρ εἴη.’</quote>
+                    <quote>
+                        <lb/>Ciężko na sercu nie posłuchać [innych],
+                        <lb/>I ciężko też, jeśli
+                        <lb/>Posiekam dziecko, chwałę mojego domu,
+                        <lb/>Kalając strumieniami krwi z ofiary
+                        <lb n="210"/>Na dziewczynie ojcowskie ręce
+                        <lb/>Przy ołtarzu. Z każdej strony nieszczęście.
+                        <lb/>Jak mam porzucić statki
+                        <lb/>Zawiódłszy sojuszników?
+                        <lb/>Bo przecież jest słuszne, by bardzo pragnąć ofiary,
+                        <lb n="215"/>która uciszy wiatry,
+                        <lb/>I krwi dziewczyny, choćby w gniewie.
+                        <lb/>Niech to będzie dobre!</quote>
+                    <p>208: <w>δαΐξω</w> – „posiekam [na kawałki]”. Δαίζω nie należy wprost do
+                        słownika ofiary krwawej. Opisuje ćwiartowanie mięsa za pomocą noża
+                        lub tasaka. W jednoznacznie ofiarniczym kontekście pojawia się tylko
+                        raz, na inskrypcji z Beocji datowanej na koniec III w. p.n.e. (IG 7, 207, 12):
+                        θυσίας ἃς <w>δαΐζοι</w> ἁ πόλις.</p>
+                    <p>209–210: <w>παρθενοσφάγοισιν</w> ῥείθροις – „strumieniami krwi z ofiary
+                        na dziewczynie”. <w>Παρθενόσφαγος</w> – hapax legomenon Ajschylosa.
+                        Poetyzm, opisujący obydwa aspekty Ifigenii w tym kontekście: jest ona
+                        zarówno młodą dziewczyną (<w>παρθένος</w>), jak i ofiarą (<w>σφάγιον</w>). Ten
+                        trudno przetłumaczalny przymiotnik kontynuuje opis śmierci córki
+                        Agamemnona w kategoriach ofiary krwawej: <w>θυσία</w> <w>ἄδαιτος</w> z wersu
+                        151 to właśnie sphagia – ofiara krwawa, po której nie następuje rytualny
+                        posiłek.</p>
+                    <p>214–215: <w>παυσανέμου</w> […] <w>θυσίας</w> – „ofiara, która uciszy wiatry”.</p>
+                    <p>215: <w>παρθενίου</w> θ᾽ <w>αἵματος</w> – „i krwi dziewczyny”; neutralna „ofiara,
+                        która ucisza wiatry” jest tutaj jasno dookreślona: jest krwawą ofiarą
+                        z dziewczyny.</p>
+                </div>
+                
+                <div type="textpart" n="Agamemnon_224-227">
+                    <head>Agamemnon 224-227</head>
+                    <p>Passus z piątej strofy parodosu. Chór opisuje zmianę Agamemnona,
+                        który ostatecznie poddał się „zbrodniczej zmianie umysłu” (w. 219––
+                        220): φρενὸς […] δυσσεβῆ τροπαίαν / ἄναγνον, ἀνίερον. Konsekwentnie
+                        jednak działanie Agamemnona jest opisywane w kategoriach
+                        ofiary krwawej – staje się on ofiarnikiem (<w>θυτήρ</w>), który składa swoją
+                        córkę jako <w>προτέλεια</w>.</p>
+                    <quote><lb/>ἔτλα δ᾽ οὖν θυτὴρ γενέσθαι
+                        <lb n="225"/>θυγατρός, γυναικοποίνων
+                        <lb/>πολέμων ἀρωγὰν
+                        <lb/>καὶ προτέλεια ναῶν.</quote>
+                    <quote><lb/>Odważył się więc zostać ofiarnikiem
+                        <lb n="225"/>[własnej] córki, przynosząc pomoc dla wojen
+                        <lb/>Z zazdrości o kobietę prowadzonych
+                        <lb/>Oraz ofiarę wstępną dla statków.</quote>
+                    <p>224: <w>θυτήρ</w> – „ofiarnik”. Por. też wers 2240 oraz <title>Ofiarnice</title>, wers
+                        255 (zob. niżej komentarz do tego miejsca), poza tym jeszcze tylko we
+                        fr. 443, 82.</p>
+                    <p>227: <w>προτέλεια</w> – „ofiara wstępna”. Ifigenia jest „ofiarą wstępną,
+                        przygotowawczą” dla wyprawy na Troję. Προτέλεια jako ofiara
+                        typowa p r z e d z a ś l u b i n a m i, bo takie jest podstawowe znaczenie
+                        tej ofiary, staje się w przypadku Ifigenii ofiarą z a m i a s t z a ś l u b i n.</p>
+                    <p>Fraza ta ma swoją kontynuację i interpretację w <title>Ifigenii Aulidzkiej</title>
+                        Eurypidesa (718), gdzie Klitajmestra wyrzuca Agamemnonowi, że zabił
+                        na ofiarę własne dziecko: <w>προτέλεια</w> δ᾽ ἤδη παιδὸς ἔσφαξας θεᾷ.</p>
+                </div>
+                
+                <div type="textpart" n="Agamemnon_231-247">
+                    <head>Agamemnon 231-247</head>
+                    <p>Koniec piątej antystrofy i cała strofa szósta parodosu, w których chór
+                        opisuje przygotowania do ofiary z Ifigenii. Obszerna scena ofiarna, chociaż
+                        uboga w słownictwo techniczne. Agamemnon najpierw się modli,
+                        a następnie nakazuje sługom-ofiarnikom unieść Ifigenię nad ołtarz i zawiązać
+                        jej usta (zob. obszerny komentarz do tej sceny Lebeck 1971: 80–85).</p>
+                    <quote><lb/>φράσεν δ᾽ ἀόζοις πατὴρ μετ᾽ εὐχὰν
+                        <lb/><lb/>δίκαν χιμαίρας ὕπερθε βωμοῦ
+                        <lb/>πέπλοισι περιπετῆ παντὶ θυμῷ
+                        <lb/>προνωπῆ λαβεῖν ἀέρδην,
+                        <lb n="235"/>στόματός τε καλλιπρῴρου
+                        <lb/>φυλακᾷ κατασχεῖν
+                        <lb/>φθόγγον ἀραῖον οἴκοις
+                        <lb/>βίᾳ χαλινῶν δ᾽, ἀναύδῳ μένει.
+                        <lb/>κρόκου βαφὰς [δ᾽] ἐς πέδον χέουσα,
+                        <lb n="240"/>ἔβαλλ᾽ ἕκαστον θυτή-
+                        <lb/>ρων ἀπ᾽ ὄμματος βέλει φιλοίκτῳ,
+                        <lb/>πρέπουσα τὼς ἐν γραφαῖς, προσεννέπειν
+                        <lb/>θέλουσ᾽, ἐπεὶ πολλάκις
+                        <lb/>πατρὸς κατ᾽ ἀνδρῶνας εὐτραπέζους
+                        <lb n="245"/>ἔμελψεν, ἁγνᾷ δ᾽ ἀταύρωτος αὐδᾷ πατρὸς
+                        <lb/>φίλου τριτόσπονδον εὔποτμον
+                        <lb/>παιῶνα φίλως ἐτίμα.</quote>
+                    <quote><lb/>Ojciec, po modlitwie, rozkazał sługom
+                        <lb/>Tak jak koźlę nad ołtarz,
+                        <lb/>Zawiniętą w peplos,
+                        <lb/>Zemdloną, do góry podnieść zdecydowanie,
+                        <lb n="235"/>I pilnować jej pięknych ust,
+                        <lb/>By nie wyrzekła
+                        <lb/>Klątwy nad domem
+                        <lb/>Przemocą i bezgłośną siłą uzdy.
+                        <lb/>Na ziemię zrzucając szafranową szatę,
+                        <lb n="240"/>Na każdego z ofiarników rzuca przeszywające spojrzenie,
+                        <lb/>Budząc litość, wygląda jak na obrazach,
+                        <lb/>Chce przemówić do nich po imieniu, skoro często
+                        <lb/>W męskich komnatach przy ucztach
+                        <lb n="245"/>Śpiewała, dziewica, i czystym głosem
+                        <lb/>Mile czciła szczęśliwy pajan
+                        <lb/>Przy trzeciej libacji drogiego ojca.</quote>
+                    <p>231: μετ᾽ <w>εὐχάν</w> – „po modlitwie”. Modlitwa (<w>εὐχή</w>) pozostaje
+                        w głębokim i nierozerwalnym związku z rytuałem ofiarnym (Pulleyn
+                        1997: 8: „prayer and sacrifice are intimately associated”; Parker 2011:
+                        132: „[Sacrifice] enabled prayers to be made for a return of blessings
+                        […] there were no sacrifices without prayers”). Modlitwa poprzedza
+                        też śmierć w <title>Hekabe</title> Eurypidesa, wers 534. Por. E. <title>Hel</title>. 754–755: τοῖς
+                        θεοῖσι χρὴ / θύοντας αἰτεῖν ἀγαθά („powinniśmy składając ofiary
+                        bogom, prosić ich o dobre rzeczy”).</p>
+                    <p>232: δίκαν <w>χιμαίρας</w> – „jak koźlę”, dosłownie „młoda koza”. <w>Χίμαι-
+                        ρα</w> to dość rzadko stosowane określenie młodej kozy, dosłownie takiej,
+                        która przeżyła tylko jedną zimę (<w>χειμών</w>, <w>χεῖμα</w>, zob. Chantraine 1999:
+                        1251 i 1260). Koza była najbardziej typowym zwierzęciem ofiarnym
+                        dla Artemidy (Fischer-Hansen, Poulsen 2009: 33). W Atenach, Sparcie,
+                        Megarze, Olimpii, Megalopolis i w wielu innych miejscach (pełna lista
+                        źródeł zob. Farnell 1896, vol. 2: 562–563) przed bitwą składano w ofierze
+                        dla Artemidy (Ἄρτεμις <w>Ἀργοτέρα</w>) młode kozy (Larson 2007: 102),
+                        w niektórych źródłach nazywane właśnie chimairai. Artemida Agrotera
+                        jest wspomniana już przez Homera (<title>Il</title>. 21.470–471: <w>πότνια</w> <w>θηρῶν</w> \
+                        Ἄρτεμις <w>ἀγροτέρη</w>). W każdą rocznicę zwycięstwa pod Maratonem
+                        składano w ofierze 500 kóz w ofierze dziękczynnej (X. <title>An</title>. 3.2.12: καὶ
+                        εὐξάμενοι τῇ Ἀρτέμιδι ὁπόσους κατακάνοιεν τῶν πολεμίων το-
+                        σαύτας <w>χιμαίρας</w> καταθύσειν τῇ θεῷ, ἐπεὶ οὐκ εἶχον ἱκανὰς εὑρεῖν,
+                        ἔδοξεν αὐτοῖς κατ᾽ ἐνιαυτὸν πεντακοσίας θύειν, καὶ ἔτι νῦν ἀπο-
+                        θύουσιν; według Klaudiusza Eliana <title>Var. hist</title>. 2.25.5 składano 300 kóz:
+                        Ἀθηναῖοι δὲ τῇ <w>Ἀγροτέρᾳ</w> ἀποθύουσι τὰς <w>χιμαίρας</w> τὰς τριακοσίας,
+                        zob. też Deubner 1932: 209 i Fischer-Hansen, Poulsen 2009: 64–65).
+                        W Sparcie ofiara z kozy była konieczna przed wyprawą wojenną lub
+                        bitwą (X. <title>HG</title> 4.2.20: σφαγιασάμενοι οἱ Λακεδαιμόνιοι τῇ <w>Ἀγροτέρᾳ</w>,
+                        ὥσπερ νομίζεται, τὴν χίμαιραν; <title>Lac. pol.</title> 13.8: ὅταν γὰρ ὁρώντων ἤδη
+                        τῶν πολεμίων <w>χίμαιρα</w> σφαγιάζηται oraz Plut. <title>Lyc</title>. 22.2: ὁ βασιλεὺς
+                        ἅμα τήν τε <w>χίμαιραν</w> ἐσφαγιάζετο). Ateńscy efebi rozpoczynali swą
+                        służbę wojskową od złożenia ofiary dla Artemidy Agrotery (zob. Burkert
+                        1983: 65; Pritchett 1979: 174–175 oraz Cole 2000: 478).</p>
+                    <p>W wersach 140–143 <title>Agamemnona</title> chór mówi o miłości Pięknej Bogini
+                        Artemidy (ἁ <w>καλά</w>) do nieporadnych szczeniąt (<w>δρόσοις</w> <w>ἀέπτοις</w>) i każdego
+                        młodego dzikiego zwierzęcia, jeszcze karmionego mlekiem matki
+                        (πάντων τ' ἀγρονόμων φιλομάστοις / θηρῶν ὀβρικάλοισι τερπνά).
+                        Ifigenia jest ofiarą dla Artemidy i jej porównanie z chimaira nie jest
+                        przypadkowe – jest ona ofiarą przed wyruszeniem na wyprawę wojenną <note n="11">Należy odnotować, że C. Sourvinou-Inwood (1988: 134), a za nią Bowie
+                            (2007: 339–341) argumentowali za związkami sceny śmierci Ifigenii w mowie Kasandry
+                            z rytuałami inicjacyjnymi dziewcząt ateńskich w Brauron: kult Artemidy, ofiara
+                            z chimaira, szafranowa szata i związki z proteleją układają się wprawdzie w ciąg powiązań,
+                            który może zastanawiać, osobiście jednak nie potrafię ocenić go inaczej niż
+                            jako trafny i intrygujący ciąg skojarzeń (zob. też Clinton 1988: 10 z przypisem 26).</note>.</p>
+                    <p>232–234: <w>ὕπερθε</w> <w>βωμοῦ</w> […] <w>λαβεῖν</w> <w>ἀέρδην</w> – „nad ołtarz do góry
+                        podnieść”. Agamemnon nakazuje sługom – współofiarnikom – dosłownie:
+                        trzymać Ifigenię podniesioną nad ołtarzem. Zwyczaj podnoszenia
+                        zwierzęcia ofiarnego przed jego zabiciem jest szeroko dyskutowany
+                        w kontekście przedstawień ikonograficznych, danych epigraficznych
+                        i tekstów literackich, które zdają się potwierdzać taki rytuał (pełen katalog
+                        wszystkich źródeł zob. van Straten 1995: 109–113). Fraenkel w swoim
+                        komentarzu (1950, vol. I: 133) nie podejmuje na ten temat dyskusji,
+                        która została wywołana głównie znaną mu pracą Paula Stengela (1910b:
+                        115), przytacza jedynie komentarz Alfreda C. Pearsona do E. <title>Hel</title>. 1561,
+                        w którym oznajmia, że istniał zwyczaj podnoszenia zwierzęcia ofiarnego
+                        przez ofiarników i trzymania go na barkach, celem uniknięcia jakichś
+                        niestosownych zachowań wywołujących omen, a także po to, by krew na
+                        pewno spływała dokładnie na ołtarz. Nawet gdyby przyjąć, że stosowano
+                        taką praktykę i taki rytuał był sprawowany, to wszystkie dane – ikonograficzne,
+                        epigraficzne i literackie – dotyczą wyłącznie ofiar z byków (van
+                        Straten 1995: 109–113). Żadne poświadczenie nie mówi o takim rytuale
+                        podczas ofiary z kozła, kozy czy koźlęcia. Raczej chodzi w tym miejscu
+                        wyłącznie o położenie nagiej Ifigenii na ołtarzu (zob. M.M. Lee 2004: 263)
+                        i silne trzymanie jej podczas samego zadawania śmierci przez podcięcie
+                        gardła – tak jak na tyrreńskiej wazie ze sceną śmierci Polykseny, na której
+                        trzech zbrojnych trzyma dziewczynę nad ołtarzem, a czwarty podcina
+                        jej gardło (Prag 1985: pl. 41b, opis s. 62) lub na etruskich sarkofagach
+                        z Peruggi i Volterry (Prag 1985: pl. 43a–f, opis s. 64–65 <note n="12">Zob. też Henrichs 1981: 199 z przypisem 2 i pełną literaturą przedmiotu.</note>). Należy chyba
+                        porzucić doszukiwanie się powiązań z kontrowersyjnym rytuałem ofiary
+                        z byków podnoszonych na barkach ofiarników. Rose (1958: 21) w komentarzu
+                        zachowuje tutaj dystans i proponuje przekład: „get her to the altar
+                        with a good hearty lift”. Podobnie Denniston, Page 1957: 89.</p>
+                    <p>240–241: <w>ἕκαστον</w> <w>θυτήρων</w> – „każdy z ofiarników”. Jak przytomnie
+                        zauważa Folkert van Straten (1995: 168), ofiara krwawa to nie jest „zadanie
+                        dla jednego człowieka”. Także ofiara z Ifigenii dokonuje się przy
+                        współpracy głównego ofiarnika (ibidem, 169–170: officiant vs. assistant),
+                        którym jest Agamemnon, i towarzyszących mu współofiarników, rekrutujących
+                        się z jego najbliższych znajomych i przyjaciół. Dowiadujemy
+                        się z pieśni chóru, że Ifigenia znała ich wszystkich po imieniu.</p>
+                    <p>355–485: pierwszy stasimon</p>
+                </div>
+                
+                <div type="textpart" n="Agamemnon_381-384">
+                    <head>Agamemnon 381-384</head>
+                    <p>Pojawia się tu bomos – ołtarz – w metaforycznym obrazie „deptania
+                        [dosłownie kopania] wielkiego ołtarza Sprawiedliwości” (λακτίσαντι
+                        μέγαν Δίκας / <w>βωμόν</w>), bez żadnego odniesienia do rytuału ofiarnego.
+                        Por. komentarz do Eu. 539. Na temat personifikacji Dike jako bogini
+                        zob. Lloyd-Jones 1971: 35–36.</p>
+                    <quote><lb/>οὐ γὰρ ἔστιν ἔπαλξις
+                        <lb/>πλούτου πρὸς κόρον ἀνδρὶ
+                        <lb/>λακτίσαντι μέγαν Δίκας
+                        <lb/>βωμὸν εἰς ἀφάνειαν.</quote>
+                    <quote><lb/>Nie ma obrony
+                        <lb/>Dla człowieka nadmiernie bogatego,
+                        <lb/>Który podeptał wielki ołtarz Sprawiedliwości
+                        <lb/>Doszczętnie.</quote>
+                </div>
+                
+                <div type="textpart" n="Agamemnon_489-680">
+                    <head>agamemnon 489-680</head>
+                    <p>Scena z udziałem Klitajmestry i Posłańca, który wygłasza trzy
+                        mowy, przedzielone mową Klitajmestry, opowiadającej o swojej radości
+                        z powrotu męża.</p>
+                </div>
+                
+                <div type="textpart" n="Agamemnon_527-528">
+                    <head>Agamemnon 527-528</head>
+                    <p>Herold zapowiadający przybycie Agamemnona opowiada o bohaterskich
+                        czynach króla i o karze, która z woli Zeusa spadła na trojańską
+                        ziemię – zniszczone zostały ołtarze i świątynie oraz w ogóle wszystko,
+                        co żyje (σπέρμα πάσης ἐξαπόλλυται χθονός).</p>
+                    <quote><lb/>βωμοὶ δ᾽ ἄιστοι καὶ θεῶν ἱδρύματα,
+                        <lb/>καὶ σπέρμα πάσης ἐξαπόλλυται χθονός.</quote>
+                    <quote><lb/>Nie widać już ołtarzy i świątyń bogów,
+                        <lb/>I nasienie całej ziemi uległo zniszczeniu.</quote>
+                </div>
+                
+                <div type="textpart" n="Agamemnon_594-597">
+                    <head>Agamemnon 594-597</head>
+                    <p>Słowa Klitajmestry po przemowie Posłańca-Herolda, który relacjonuje
+                        trudy dziesięciu lat wojny oraz informuje o zwycięstwie, potwierdzając
+                        wiadomości odczytane ze znaków przekazanych światłem
+                        (technikę tę wyjaśnia Klitajmestra w w. 281–316). Powtarzają one informacje
+                        podane wyżej przez chór (w. 83–96) o tym, że na rozkaz królowej
+                        składano ofiary dziękczynne. Ze słów Klitajmestry wynika, że
+                        ona sama również składała ofiary, nie wynika z nich jednak w żaden
+                        sposób, jakiego rodzaju były to ofiary.</p>
+                    <quote><lb/>ὅμως δ᾽ ἔθυον, καὶ γυναικείῳ νόμῳ
+                        <lb n="595"/>ὀλολυγμὸν ἄλλος ἄλλοθεν κατὰ πτόλιν
+                        <lb/>ἔλασκον εὐφημοῦντες ἐν θεῶν ἕδραις,
+                        <lb/>θυηφάγον κοιμῶντες εὐώδη φλόγα.</quote>
+                    <quote><lb/>A jednak składałam ofiary i zgodnie z kobiecym zwyczajem
+                        <lb n="595"/>Zewsząd po mieście wznosił się okrzyk,
+                        <lb/>W świątyniach zachowywano zbożne milczenie,
+                        <lb/>W ciszy kołysząc płomienie pochłaniające wonne ofiary.</quote>
+                    <p>597: <w>θυηφάγος</w> – „pochłaniający ofiary”; hapax legomenon Ajschylosa,
+                        użyty tutaj jako przydawka do <w>φλόξ</w>. Przymiotnik złożony z tematu
+                        <w>θυ-</w>/<w>θυη-</w> i supletywnego tematu aorystu φαγ- od czasownika <w>ἐσθίω</w>:
+                        „pochłaniający, zjadający ofiary, to, co jest składane w ofierze”. Jak
+                        w scholiach do tego miejsca: <w>θυηφάγον</w> τὴν τὰ θύματα κατεσθίουσαν.
+                        Kontekst wskazuje, że odnosi się on tutaj do kadzideł palonych w świątyni
+                        i pozostaje bez związku z ofiarą krwawą, chociaż jego znaczenie na
+                        to pozwala – każda ofiara spalana jest pochłaniana ogniem.</p>
+                </div>
+                
+                <div type="textpart" n="Agamemnon_1035-1038">
+                    <head>Agamemnon 1035-1038</head>
+                    <p>Słowa Klitajmestry do Kasandry. Królowa, po wprowadzeniu do
+                        pałacu Agamemnona po czerwonym kobiercu, wraca na scenę po
+                        brankę i zaprasza ją do udziału w ofierze składanej Zeusowi opiekunowi
+                        domu.</p>
+                    <quote><lb n="1035"/>εἴσω κομίζου καὶ σύ, Κασσάνδραν λέγω·
+                        <lb/>ἐπεί σ' ἔθηκε Ζεὺς ἀμηνίτως δόμοις
+                        <lb/>κοινωνὸν εἶναι χερνίβων, πολλῶν μέτα
+                        <lb/>δούλων σταθεῖσαν κτησίου βωμοῦ πέλας,</quote>
+                    <quote><lb n="1035"/>Wejdź i ty do środka, do Kasandry mówię,
+                        <lb/>Skoro Zeus łaskawie sprawił, żebyś była w domu
+                        <lb/>Towarzyszem rytualnych obmyć, z wieloma
+                        <lb/>Niewolnikami stanąwszy blisko domowego ołtarza.</quote>
+                    <p>1037: <w>χερνίβων</w> – „rytualnych obmyć”. Obmycie rąk należy do
+                        koniecznych obrzędów przygotowawczych ofiary – dopuszczenie do
+                        tego rytuału jest tożsame z pozwoleniem na uczestnictwo w ofierze.
+                        Por. hasło leksykonu <w>χέρνιψ</w>.</p>
+                    <p>1038: <w>κτησίου</w> <w>βωμοῦ</w> – „domowego ołtarza”, dosłownie „ołtarza
+                        domowego dobytku”, gdyby przymiotnik κτήσιος traktować w oderwaniu
+                        od kultu Zeusa Ktesiosa, opiekuna własności prywatnej, jak
+                        chciał np. Fraenkel w swoim przekładzie („household altar”). Jeśli jednak
+                        przyjąć (zresztą tak w komentarzu Fraenkel 1959, vol. II: 470), że
+                        κτήσιος nie jest pospolitym przymiotnikiem, tylko eponimem Zeusa,
+                        to wówczas przywoływany już ołtarz staje się ołtarzem Zeusa Ktesiosa
+                        (zob. obszerne opracowanie Sjövall 1931: 53–74 oraz najnowsze
+                        i z kompletnym katalogiem świadectw epigraficznych: Brulé 2005:
+                        34–45). Ktesios jest bóstwem domowym, opiekunem dobytku i dobrobytu
+                        w sensie ścisłym (Brulé 2005: 42: „Le Ktèsios, dans sa version oikonomique,
+                        c’est le bon genie de la gestion de l’oikos – de l’économiemau
+                        sens propre”). Zob. mowa Isaiosa (<title>De Cirone</title> [8] 16: τῷ Διί τε θύων τῷ
+                        <w>Κτησίῳ</w>, περὶ ἣν μάλιστ᾽ ἐκεῖνος θυσίαν ἐσπούδαζε καὶ οὔτε δούλους
+                        προσῆγεν οὔτε ἐλευθέρους ὀθνείους, ἀλλ᾽ αὐτὸς δι᾽ ἑαυτοῦ πάντ᾽
+                        ἐποίει, ταύτης ἡμεῖς ἐκοινωνοῦμεν καὶ τὰ ἱερὰ συνεχειρουργοῦμεν
+                        καὶ συνεπετίθεμεν καὶ τἆλλα συνεποιοῦμεν, καὶ ηὔχετο ἡμῖν
+                        ὑγίειαν διδόναι καὶ κτῆσιν ἀγαθήν, ὥσπερ εἰκὸς ὄντα πάππον). De
+                        facto w interpretującej translacji ołtarz ten jest ołtarzem domowym sensu
+                        stricto (tak też pozostawiam w swoim przekładzie).</p>
+                </div>
+                
+                    <div type="textpart" n="Agamemnon_1056-1058">
+                        <head>Agamemnon 1056-1058</head>
+                        <p>Ciąg dalszy słów Klitajmestry kierowanych, na przemian z przodownikiem
+                            chóru, do Kasandry, która siedzi i milczy. Królowa zaprasza
+                            ją do ołtarza, gdzie czekają już zwierzęta ofiarne.</p>
+                        <quote><lb/>τὰ μὲν γὰρ ἑστίας μεσομφάλου
+                            <lb/>ἕστηκεν ἤδη μῆλα πρὸς σφαγὰς πάρος <note n="13">Na temat proponowanej przez niektórych wydawców lekcji πυρός zamiast
+                                πάρος zob. de La Combe 2001: 422–423.</note>.
+                            <lb/>ὡς οὔποτ᾽ ἐλπίσασι τήνδ᾽ ἕξειν χάριν.</quote>
+                        <quote><lb/>Bo już owce przy palenisku w domu
+                            <lb/>Stoją gotowe na ofiarę.
+                            <lb/>Żebym miała tę radość wbrew nadziejom <note n="14">Zob. komentarz Denniston, Page 1957: 162.</note>.</quote>
+                        <p>1056: <w>ἑστίας</w> <w>μεσομφάλου</w> – „przy palenisku w domu”, dosłownie
+                            „w samym środku domu”. ἑστία tutaj to palenisko ołtarza wspomnianego
+                            w wersie 1038 powyżej.</p>
+                        <p>1057: <w>μῆλα</w> πρὸς <w>σφαγάς</w> – „owce gotowe na ofiarę”. Nie wiemy,
+                            jakie ofiary składano dla Zeusa Ktesiosa, trudno jednak przyjąć, by
+                            były to ofiary całopalne – <w>σφαγαί</w>, a nie typowe <w>θυσίαι</w>. Klitajmestra
+                            przemawia ofiarniczym kodem, dokonując substytucji ofiar i pojęć,
+                            zgodnie z przyjętym zamiarem zamordowania i króla, i jego branki.
+                            Dla niej stanowią oni typowe <w>σφαγαί</w> i są jak <w>μῆλα</w>.</p>
+                    </div>
+                    
+                        <div type="textpart" n="Agamemnon_1071-1330">
+                            <head>Agamemnon 1071-1330</head>
+                            <p>1071–1330: scena Kasandry
+                                Obszerna scena rozmowy Kasandry z przodownikiem chóru, w której
+                                dokonuje się jej przemiana od rozpaczy do gotowości poddania się
+                                śmierci. Kolejno mówi ona o domu Atrydów i pierwotnej zbrodni Atreusa
+                                i wspomina Troję, swoją rodzinę, by następnie wystąpić z wielką
+                                przemową przeciwko Klitajmestrze, w której opisuje jej zbrodnię na
+                                Agamemnonie. W końcu przepowiada własną śmierć. Odniesienia do
+                                ofiary otwierają i zamykają tę scenę. Wstępem do niej jest zaproszenie
+                                Klitajmestry skierowane do branki, by wzięła udział w ofiarach w domu
+                                (powyżej w. 1035–1038), kończy się zaś ta scena odniesieniem do tych
+                                samych ofiar, o których mówiła Klitajmestra, lecz i Kasandra, i widzowie
+                                już wiedzą, że ofiarami są: ona sama i Agamemnon (Zeitlin 1965).</p>
+                        </div>
+                
+                <div type="textpart" n="Agamemnon_1090-1092">
+                    <head>Agamemnon 1090-1092</head>
+                    <p>Kasandra mówi o domu Atrydów jako o miejscu licznych zbrodni –
+                        w czym jest i reminiscencja, i proroctwo.</p>
+                    <quote><lb n="1090"/>μισόθεον μὲν οὖν· πολλὰ συνίστορα,
+                        <lb/>αὐτόφονα, † κακὰ κἀρτάναι †
+                        <lb/>ἀνδροσφαγεῖον καὶ † πεδορραντήριον †.</quote>
+                    <quote><lb n="1090"/>Znienawidzony przez bogów: świadom wielu
+                        <lb/>Rodzinnych mordów, nieszczęść i śmierci [?],
+                        <lb/>Krwawa ludzka rzeźnia i ziemia krwią zbroczona.</quote>
+                    <p>1092: <w>ἀνδροσφαγεῖον</w> – „krwawa ludzka rzeźnia” (por. przekład
+                        Srebrnego: „człowiecza rzeźnia”). Σφαγεῖον to naczynie na krew
+                        używane podczas składania ofiary. Ajschylosowe hapax legomenon
+                        oznacza metaforycznie, że dom Atrydów jest jak naczynie, w którym
+                        zbiera się ludzka krew po kolejnych mordach. W pewnym sensie
+                        nawet nie jest to metafora – w wizji Kasandry dom Klitajmestry
+                        i Agamemnona naprawdę napełnia się krwią ofiar kolejnych mordów
+                        (zob. też Seaford 1984).</p>
+                    <p>(Obydwa w. – 1091 i 1092 – są poważnie uszkodzone, ich rekonstrukcja,
+                        uzupełnianie i tłumaczenie zajmuje większość komentarzy
+                        do tego miejsca. Każda lekcja pozostaje i tak hipotezą [zob.
+                        np. Fraenkel 1950, vol. III: 494–495, Denniston, Page 1957: 167–168
+                        oraz apparatus criticus w stosowanej tu edycji Westa; pełna dyskusja
+                        na temat wersji lekcji tych dwóch wersów zob. de La Combe 2001:
+                        438–441]).</p>
+                </div>
+                
+                <div type="textpart" n="Agamemnon_1093-1097">
+                    <head>Agamemnon 1093-1097</head>
+                    <p>Ciąg dalszy sceny z Kasandrą. Chór na poprzednie słowa odpowiada
+                        zdumiony, że wieszczka tak doskonale wyczuwa tajemnice
+                        domowych zbrodni (φόνον). W odpowiedzi, w wieszczej wizji,
+                        Kasandra widzi ucztę Tyestesa – pierwotną zbrodnię domu Atrydów,
+                        którą nazywa σφαγή, kolejny raz odwołując się do metaforyki
+                        ofiarnej.</p>
+                    <quote><lb/><emph>ΧΟΡΟΣ</emph>:
+                        <lb/>ἔοικεν εὔρις ἡ ξένη κυνὸς δίκην
+                        <lb/>εἶναι, ματεύει δ' ὧν ἀνευρήσει φόνον.
+                        <lb/><emph>ΚΑΣΑΝΔΡΑ</emph>:
+                        <lb n="1095"/>μαρτυρίοισι γὰρ τοῖσδ᾽ ἐπιπείθομαι·
+                        <lb/>κλαιόμενα τάδε βρέφη σφαγὰς
+                        <lb/>ὀπτάς τε σάρκας πρὸς πατρὸς βεβρωμένας.</quote>
+                    <quote><lb/><emph>CHÓR</emph>:
+                        <lb/>Ta obca ma chyba węch jak pies doskonały,
+                        <lb/>Szuka zbrodni tych, których znajdzie.
+                        <lb/><emph>KASANDRA</emph>:
+                        <lb n="1095"/>Bo wierzę tym świadectwom:
+                        <lb/>Te niemowlęta opłakujące własną rzeź,
+                        <lb/>I ciała upieczone przez ojca zjedzone.</quote>
+                    <p>Zbrodnia Atreusa, który zabił dzieci Tyestesa i podał mu upieczone
+                        na uczcie, nazwana jest przez chór słowem <w>φόνος</w>, a przez Kasandrę
+                        – <w>σφαγή</w>. Obydwa w tym kontekście akcentują brutalność i przelew
+                        krwi. Kasandra jednak konsekwentnie stosuje język pozostający
+                        w związku z ofiarą krwawą, tworząc wyraźny ciąg interpretacyjny,
+                        w którym kolejne mordy-ofiary pociągają za sobą następne, aż do
+                        oczyszczenia Orestesa w ostatniej części trylogii.</p>
+                </div>
+                
+                <div type="textpart" n="Agamemnon_1116-1118">
+                    <head>Agamemnon 1116-1118</head>
+                    <p>Dalszy ciąg sceny z Kasandrą, która opisuje i interpretuje serię mordów
+                        w domu Atrydów.</p>
+                    <quote><lb/>ἀλλ᾽ ἄρκυς ἡ ξύνευνος, ἡ ξυναιτία
+                        <lb/>φόνου. στάσις δ᾽ ἀκόρετος γένει
+                        <lb/>κατολολυξάτω θύματος λευσίμου.</quote>
+                    <quote><lb/>Ale [jego – Agamemnona] towarzyszka łoża [stała się] siecią,
+                        <lb/>współprzyczyną
+                        <lb/>Zbrodni. Niech nienasycony spór nad tym rodem
+                        <lb/>Wzniesie okrzyk nad ofiarą godną ukamienowania.</quote>
+                    <p>1118: <w>κατολολυξάτω</w> <w>θύματος</w> <w>λευσίμου</w> – dosłownie „wzniesie
+                        okrzyk nad ofiarą zabitą przez ukamienowanie”. Jest przedmiotem
+                        nierozwiązanego sporu komentatorów (por. Fraenkel 1950, vol. III:
+                        506; Rose 1958: 79), kto w tym wersie jest nazwany ofiarą – Agamemnon
+                        czy Klitajmestra – oraz w jakim znaczeniu jest on/ona „ofiarą”
+                        (θῦμα). Jeśli Kasandra ma na myśli Agamemnona i to Klitajmestra
+                        dokonała ofiary, zabiła go jak na ofiarę (jest to „ofiara zabita przez –
+                        lub jakby przez – ukamienowanie”), obraz ten może oznaczać albo
+                        to, że po śmierci jego ciało wyglądało zmasakrowane jak po ukamienowaniu,
+                        albo też, że karą za ten czyn powinno być ukamienowanie
+                        (jest to „ofiara, za którą należy się śmierć przez ukamienowanie”). Jeśli
+                        natomiast wieszczek zapowiada śmierć Klitajmestry, to oznacza,
+                        że to jej śmierć stanie się ofiarą za śmierć męża i znów, że zginie jak
+                        ukamienowana.</p>
+                    <p>Przyjmuję, że ofiarą jest Agamemnon i konsekwentnie, że jego
+                        śmierć musi pociągnąć za sobą karę śmierci na sprawcach. Klitajmestra
+                        musi ponieść karę, którą wymierzy cała społeczność – przez ukamienowanie
+                        (zob. Bremmer 1983: 315; Rosivach 1987: passim). Logika
+                        ciągu ofiarnego Kasandry jest tym samym zachowana – Agamemnon
+                        jest ofiarą (i <w>θῦμα</w>, i <w>σφαγή</w>, por. Rudhardt 1992: 281), a Klitajmestra
+                        jest przestępczynią, którą trzeba ukarać (tak Fraenkel 1950, vol. III:
+                        506 i Rosivach 1987: 243).</p>
+                </div>
+                
+                <div type="textpart" n="Agamemnon_1167-1172">
+                    <head>Agamemnon 1167-1172</head>
+                    <p>Dalszy ciąg sceny z Kasandrą, która wspomina Troję, własnego
+                        ojca i ofiary składane przez Priama w celu ubłagania bogów o ratunek
+                        dla miasta, które jednak nie przyniosły żadnego efektu (<w>ἄκος</w>
+                        οὐδέν).</p>
+                    <quote><lb/>ἰὼ πόνοι πόνοι πόλεος ὀλομένας τὸ πᾶν.
+                        <lb/>ἰὼ πρόπυργοι θυσίαι πατρὸς
+                        <lb/>πολυκανεῖς βοτῶν ποιονόμων· ἄκος δ᾽
+                        <lb n="1170"/>οὐδὲν ἐπήρκεσαν
+                        <lb/>τὸ μὴ πόλιν μὲν ὥσπερ οὖν ἐχρῆν παθεῖν,
+                        <lb/>ἐγὼ δὲ θερμόνους τάχ᾽ ἐν πέδῳ βαλῶ.</quote>
+                    <quote><lb/>O, cierpienia, cierpienia miasta, zgładzonego doszczętnie!
+                        <lb/>O, ofiary ojcowskie złożone przed wieżami
+                        <lb/>Z wielu bestii wykarmionych na pastwiskach.
+                        <lb n="1170"/>Żadne to było lekarstwo,
+                        <lb/>By miasto nie wycierpiało tego, co musiało.
+                        <lb/>Ja też w szaleństwie rychło padnę na ziemię.</quote>
+                    <p>1168: <w>πρόπυργοι</w> <w>θυσίαι</w> – „ofiary złożone przed wieżami”, to znaczy
+                        na równinie pod murami miasta. Obraz takiej ofiary na równinie
+                        jest w <title>Iliadzie</title> 9.548: κνίσην δ᾽ ἐκ πεδίου ἄνεμοι φέρον οὐρανὸν εἴσω.
+                        Możliwe jest też tłumaczenie „ofiary za wieże”, czyli – metonimicznie
+                        – za całe miasto (Fraenkel 1950, vol. III: 532). Jest to też passus,
+                        w którym pierwszy raz Kasandra mówi o własnej śmierci w kategoriach
+                        ofiary – nie wprost, ale oczywista jest paralela między upadkiem
+                        miasta i jej własną śmiercią (Zeitlin 1969: 470, z przyp. 17).</p>
+                    <p>1169: <w>πολυκανεῖς</w> <w>βοτῶν</w> <w>ποιονόμων</w> – „z wielu [zabitych: πολυ-
+                        κανεῖς] bestii wykarmionych na pastwiskach”. Cała fraza opisuje ofiarę
+                        z wielu zwierząt, zapewne hekatombę, chociaż nie zawiera pojęć
+                        z języka ofiary krwawej.</p>
+                </div>
+                
+                <div type="textpart" n="Agamemnon_1235-1236">
+                    <head>Agamemnon 1235-1236</head>
+                    <p>Passus z monologu Kasandry, który jest tyradą przeciwko Klitajmestrze.</p>
+                    <quote><lb n="1235"/>† θύουσαν Ἃιδου μητέρ' † ἄσπονδόν τ' Ἄρη
+                        <lb/>φίλοις πνέουσαν.</quote>
+                    <quote><lb n="1235"/>Oszalała matka Hadesa, nieubłaganym
+                        <lb/>tchnąca na bliskich Aresem.</quote>
+                    <p>1235: <w>θύουσαν</w> Ἃιδου μητέρ᾽ – w tym wypadku mamy do czynienia
+                        z czasownikiem θύω w znaczeniu „szaleć”, „wściekać się” (z krótkim
+                        υ). Klitajmestra jest nazwana przez Kasandrę „oszalałą matką
+                        Hadesa”, czyli śmierci; Chodkowski, dość trafnie: „piekielna jędza”.
+                        Jedynie komentarz Arthura Verralla (1889: 141) bierze pod uwagę nie
+                        tylko znaczenie „składać w ofierze”, ale wprost sugeruje, że można tu
+                        upatrywać świadomego zmieszania obydwu tych znaczeń (z tą wizją
+                        zdaje się sympatyzować do dzisiaj jedynie Lebeck 1971: 183, zob. komentarz
+                        do tej dyskusji w de La Combe 2001: 531–532).</p>
+                </div>
+                
+                <div type="textpart" n="Agamemnon_1262-1263">
+                    <head>Agamemnon 1262-1263</head>
+                    <p>Ciąg dalszy tyrady Kasandry przeciwko Klitajmestrze, która planuje
+                        mord na mężu.</p>
+                    <quote><lb/>θήγουσα φωτὶ φάσγανον,
+                        <lb/>ἐμῆς ἀγωγῆς ἀντιτείσεσθαι φόνον.</quote>
+                    <quote><lb/>Ostrzy na męża nóż,
+                        <lb/>Zbrodnią odpłacając za moje przybycie.</quote>
+                    <p>1262: <w>φάσγανον</w> – „nóż [ofiarny]”, jakim według Odysei 11.424
+                        Agamemnon został zabity (por. Fraenkel 1950, vol. III: 806–809, Appendix
+                        B: On the Weapon with which to the Oresteia, Agamemnon was murdered);
+                        zob. leksykon s.v.</p>
+                </div>
+                
+                <div type="textpart" n="Agamemnon_1277-1278">
+                    <head>Agamemnon 1277-1278</head>
+                    <p>Ponownie Kasandra interpretuje własną śmierć, zapowiadaną
+                        w swojej proroczej wizji, w kategoriach ofiary, co w następnej kwestii podejmuje
+                        również przodownik chóru (w. 1298, zob. komentarz poniżej).</p>
+                    <quote><lb/>βωμοῦ πατρῴου δ᾽ ἀντ᾽ ἐπίξηνον μένει,
+                        <lb/>θερμῷ κοπείσης φοίνιον προσφάγματι.</quote>
+                    <quote><lb/>Zamiast ojcowskiego ołtarza czeka mnie pień katowski,
+                        <lb/>Skrwawiony po śmiertelnym ciosie gorącą jeszcze krwią ofiary zabitej
+                        przed pogrzebem.</quote>
+                    <p>1277: <w>βωμοῦ</w> <w>πατρῴου</w> – „ojcowski ołtarz”, ołtarz w domu Priama.
+                        Kasandra wspomina ołtarze w swojej ojczyźnie, w domu swojego ojca,
+                        przy których powinna składać ofiary.</p>
+                    <p>1278: <w>προσφάγματι</w> – <w>πρόσφαγμα</w> (= <w>προσφάγιον</w>) to przede
+                        wszystkim ofiara krwawa, całopalna, składana zmarłym przed pogrzebem
+                        lub przed obrzędem wyniesienia zwłok (<w>ἐκφορά</w>, tak
+                        Pseudo-Platon, <title>Min</title>. 315c: ἱερεῖά τε <w>προσφάττοντες</w>
+                        πρὸ τῆς ἐκφορᾶς τοῦ νεκροῦ) (zob. szczegółowe dane w Ekroth 2002: 229–230,
+                        256, 253 i Parker 2011: 169–170, tak samo też <title>LSJ Supplement</title>, s.v.) lub
+                        sama libacja z krwi dla zmarłych wylewana przed obrzędami pogrzebowymi
+                        (Fraenkel 1950, vol. III: 594–595 z odniesieniem do Psyche
+                        Rohdego, s. 222, oraz Denniston, Page 195: 186–187). W literaturze
+                        klasycznej poza Ajschylosem <w>πρόσφαγμα</w> występuje tylko w tekstach
+                        Eurypidesa (<title>Alc</title>. 844–845: καί νιν εὑρήσειν δοκῶ / πίνοντα
+                        τύμβου πλησίον <w>προσφαγμάτων</w>; <title>Hec</title>. 41: τύμβῳ φίλον <w>πρόσφαγ-
+                        μα</w> i 265: Ἑλένην νιν αἰτεῖν χρῆν τάφῳ <w>προσφάγματα</w>; <title>IT</title>: 243–244:
+                        θεᾷ φίλον <w>πρόσφαγμα</w> καὶ θυτήριον / Ἀρτέμιδι oraz 457: νέον /
+                        <w>πρόσφαγμα</w> θεᾶς).</p>
+                    <p>Zarówno w komentarzu Fraenkla (1950, vol. III: 594), jak i Rose’a
+                        (1958: 91) pojawiają się sugestie na temat możliwości rozumienia
+                        <w>πρόσφαγμα</w> jako „preliminary sacrifice”, analogicznie do <w>προτέλεια</w>
+                        i <w>πρόθυμα</w>, w nawiązaniu do obrzędów przedślubnych (jak w w. 227
+                        powyżej). <w>Πρόσφαγμα</w> w jakimś sensie jest „ofiarą przygotowawczą,
+                        poprzedzającą, wstępną” – ponieważ poprzedza właściwe obrzędy pogrzebowe.
+                        Jednak nie jest możliwe utrzymanie znaczenia związanego
+                        z obrzędami ślubnymi, ponieważ po prostu takich ofiar w tym kontekście
+                        nie było i wyraz ten nigdy nie pojawia się w takim znaczeniu (przeciwnie
+                        do <w>προτέλεια</w> – jak w w. 65 powyżej).</p>
+                </div>
+                
+                <div type="textpart" n="Agamemnon_1296-1298">
+                    <head>Agamemnon 1296-1298</head>
+                    <p>Chór zwraca się do Kasandry, która w końcowych słowach swojej
+                        przemowy (w. 1289–1294) wyraża rezygnację i gotowość poniesienia
+                        śmierci, z pytaniem, dlaczego zachowuje się jak bezwolne zwierzę prowadzone
+                        na śmierć przy ołtarzu. Kasandra, jak krowa ofiarna (<w>βοὸς</w>
+                        <w>δίκην</w>), śmiało (<w>εὐτόλμως</w>) kroczy (<w>πατεῖς</w>) do ołtarza (πρὸς <w>βωμόν</w>)
+                        jakby wiedziona boską siłą (<w>θεηλάτου</w>). Ofiarny charakter sceny jest
+                        jednoznaczny – już nie tylko sama Kasandra postrzega własną
+                        śmierć jako ofiarę, ale chór także przyjmuje jej punkt widzenia.</p>
+                    <quote><lb/>εἰ δ᾽ ἐτητύμως
+                        <lb/>μόρον τὸν αὑτῆς οἶσθα, πῶς θεηλάτου
+                        <lb/>βοὸς δίκην πρὸς βωμὸν εὐτόλμως πατεῖς;</quote>
+                    <quote><lb/>Jeśli rzeczywiście
+                        <lb/>Znasz swój własny los, to dlaczego jak boską siłą wiedziona
+                        <lb/>Krowa do ołtarza śmiało kroczysz?</quote>
+                    <p>Passus ten bywał przywoływany jako argument za teorią „dobrowolności”
+                        zwierzęcia prowadzonego na ofiarę (Denniston, Page 1957: 188;
+                        Rose 1958: 92 z przywołaniem Plut. Mor. 729f), jako owładniętego boską
+                        siłą (zob. komentarz Henrichsa 2000: 184 oraz – na temat „dobrowolności”
+                        ofiary – Henrichs 1998: 58 i nn. oraz Naiden 2007: passim i 2013: 83–90).</p>
+                </div>
+                
+                <div type="textpart" n="Agamemnon_1309-1312">
+                    <head>Agamemnon 1309-1312</head>
+                    <p>Kasandra twierdzi, że czuje zapach krwi, na co chór odpowiada
+                        przytomnie, że łatwo to wytłumaczyć, ponieważ na ołtarzach właśnie
+                        płoną ofiary. Kasandra jednak odpowiada, że to nie jest zwykły zapach
+                        ofiar, tylko jakiś trupi zaduch. Wydaje się, że obie strony czują co
+                        innego i doświadczają różnych wrażeń – chór mówi o dymie z ołtarzy
+                        zmieszanych z kadzidłami, a Kasandra o zapachu zbrodni i krwi.</p>
+                    <quote><lb/><emph>ΚΑΣΑΝΔΡΑ</emph>:
+                        <lb/>φόνον δόμοι πνέουσιν αἱματοσταγῆ.
+                        <lb/><emph>ΧΟΡΟΣ</emph>:
+                        <lb n="1310"/>καὶ πῶς; τόδ' ὄζει θυμάτων ἐφεστίων.
+                        <lb/><emph>ΚΑ</emph>.: ὅμοιος ἀτμὸς ὥσπερ ἐκ τάφου πρέπει.
+                        <lb/><emph>ΧΟ</emph>.: οὐ Σύριον ἀγλάισμα δώμασιν λέγεις;</quote>
+                    <quote><lb/><emph>KASANDRA</emph>:
+                        <lb/>Z domu zawiewa kroplami krwawej zbrodni.
+                        <lb/><emph>CHÓR</emph>:
+                        <lb n="10"/>Jakżeż to? Przecież to zapach ofiar płonących na ołtarzu!
+                        <lb/><emph>KAS</emph>.: To smród podobny jakby do grobowego zaduchu.
+                        <lb/><emph>CH</emph>.: Chyba nie mówisz o syryjskich w domu kadzidłach?
+                        </quote>
+                    <p>1309: <w>φόνον</w> […] <w>αἱματοσταγῆ</w> – „ociekający krwią”, zob. komentarz
+                        do <title>Pers</title>. 816.</p>
+                    <p>1310: <w>ὄζει</w> <w>θυμάτων</w> <w>ἐφεστίων</w> – „zapach ofiar płonących na ołtarzu”.
+                        <w></w> tutaj to ofiary zwierzęce, których części płoną już na
+                        ołtarzu.</p>
+                    <p>1312: <w>ἀγλάισμα</w> – dosłownie „syryjska ozdoba”, „syryjski przepych”,
+                        czyli przepych „syryjskich kadzideł” (Denniston, Page 1957: 189;
+                        por. E. Bacch. 144).</p>
+                </div>
+                
+                <div type="textpart" n="Agamemnon_1343-1406">
+                    <head>Agamemnon 1343-1406</head>
+                    <p>1343–1406: piąty epeisodion</p>
+                        <p>Rozpoczyna się krzykiem mordowanego Agamemnona spoza skene,
+                        a kończy opowieścią Klitajmestry o przebiegu zabójstwa.</p>
+                </div>
+                
+                <div type="textpart" n="Agamemnon_1388-1390">
+                    <head>Agamemnon 1388-1390</head>
+                    <p>Słowa z mowy Klitajmestry opisującej szczegółowo zabójstwo
+                        spełnione za sceną na Agamemnonie (od w. 1372 do w. 1398).</p>
+                    <quote><lb/>οὕτω τὸν αὑτοῦ θυμὸν ὁρμαίνει πεσών,
+                        <lb/>κἀκφυσιῶν ὀξεῖαν αἵματος σφαγὴν
+                        <lb n="1390"/>βάλλει μ᾽ ἐρεμνῇ ψακάδι φοινίας δρόσου.</quote>
+                    <quote><lb/>Tak upadłszy, ducha swojego wyzionął,
+                        <lb/>I bluznął krwią z rany po ostrym cięciu,
+                        <lb n="1390"/>Czarny deszcz śmierci skropił mnie jak rosą.</quote>
+                    <p>1389: κἀκφυσιῶν ὀξεῖαν αἵματος <w>σφαγήν</w> – „i bluznął krwią
+                        z rany po ostrym cięciu”. Fraenkel w swym komentarzu z rozbrajającą,
+                        choć chyba niezupełnie uzasadnioną bezradnością przyznał,
+                        że „no one as yet, as far as I can see, has explained it satisfactory”
+                        (1950, vol. III: 654). Sam zaproponował korektę na <w>ῥαγήν</w> zamiast
+                        <w>σφαγήν</w>, zastanawiając się rozwlekle nad anatomicznymi konsekwencjami
+                        uszkodzenia płuc Agamemnona po ciosach Klitajmestry,
+                        jakby mowa tej ostatniej była w tragedii raportem z pogotowia
+                        ratunkowego, a nie poezją. Poprawka ta jednak nie została utrzymana
+                        w późniejszych edycjach. <w>Σφαγή</w> oznacza <w>zarówno</w> sam akt
+                        zabijania na ofiarę przez podrzynanie gardła (<w>σφάζειν</w>), a więc cios
+                        lub cięcie, jak i jego efekt, a więc ranę (LSJ, s.v.; Ekroth 2002: 172;
+                        Casabona 1966: 174–178). <w>Σφαγή</w> jako „cięcie” (z adekwatnym przymiotnikiem
+                        ὀξεῖα) jest zrozumiałe. Dopełnienie w genetiwie po
+                        ἐκ-φυσιάω jest możliwe, dając sens „spłynąć krwią”, a biernik σφα-
+                        γήν – musi być w tym wypadku biernikiem względu – „jeśli chodzi
+                        o ranę po cięciu”.</p>
+                </div>
+                
+                <div type="textpart" n="Agamemnon_1407-1577">
+                    <head>Agamemnon 1407-1577</head>
+                    <p>1407–1577: amoibaion</p>
+                        <p>Dialog chóru z Klitajmestrą na temat czynu królowej i jej przyszłości.</p>
+                </div>
+                
+                <div type="textpart" n="Agamemnon_1414-1418">
+                    <head>Agamemnon + 1414-1418</head>
+                    <p>Klitajmestra odpowiada chórowi, który zapowiada, że czeka
+                        ją wygnanie za mord popełniony na mężu. Królowa w gniewnej
+                        odpowiedzi wspomina śmierć Ifigenii, złożonej w ofierze przez
+                        Agamemnona, wyrzucając chórowi, że nikt nie sprzeciwiał się tamtej
+                        zbrodni.</p>
+                    <quote><lb/>οὐδὲν τότ᾽ ἀνδρὶ τῷδ᾽ ἐναντίον φέρων,
+                        <lb n="1415"/>ὃς οὐ προτιμῶν, ὡσπερεὶ βοτοῦ μόρον,
+                        <lb/>μήλων φλεόντων εὐπόκοις νομεύμασιν,
+                        <lb/>ἔθυσεν αὑτοῦ παῖδα, φιλτάτην ἐμοὶ
+                       <lb/> ὠδῖν', ἐπῳδὸν Θρῃκίων ἀημάτων.</quote>
+                    <quote><lb/>Wtedy to nic nie wnieśliście przeciwko temu człowiekowi,
+                        <lb n="1415"/>Który bez litości – jakby [szło o] śmierć jakiegoś zwierzęcia,
+                        <lb/>Spośród niezliczonych stad owiec bogatych w wełnę –
+                        <lb/>W ofierze złożył własne dziecko, najdroższy mi
+                        <lb/>Owoc życia, dla odczarowania trackich podmuchów.</quote>
+                    <p>1417: <w>ἔθυσεν</w> αὑτοῦ παῖδα – „w ofierze złożył własne dziecko”.
+                        Ajschylos każe Klitajmestrze, mimo jej gniewu i działających na
+                        wyobraźnię porównań do zwierząt, nadal interpretować śmierć Ifigenii
+                        jako θυσία, konsekwentnie trzymając się ofiarnej ramy modalnej.</p>
+                </div>
+                
+                <div type="textpart" n="Agamemnon_1431-1433">
+                    <head>Agamemnon 1431-1433</head>
+                    <p>Klitajmestra na groźby chóru, zapowiadającego jej karę, odpowiada
+                        zuchwałą przysięgą, że będzie wolna od strachu, dopóki jest przy
+                        niej Ajgistos. Nazywa Agamemnona wprost ofiarą krwawą zabitą
+                        (<w>ἔσφαξα</w>) dla Dike, Ate i Erynii (<w>Δίκην</w>, <w>Ἄτην</w> <w>Ἐρινύν</w> τε).</p>
+                    <quote><lb/>καὶ τήνδ᾽ ἀκούεις ὁρκίων ἐμῶν θέμιν·
+                        <lb/>μὰ τὴν τέλειον τῆς ἐμῆς παιδὸς Δίκην,
+                        <lb/>Ἄτην Ἐρινύν θ᾽, αἷσι τόνδ᾽ ἔσφαξ᾽ ἐγώ·</quote>
+                    <quote><lb/>Słuchaj wyroku mojej przysięgi,
+                        <lb/>Na Sprawiedliwość, która spełniła się dla mojego dziecka,
+                        <lb/>Na Ate i Erynię, dla których to ja go w ofierze zarżnęłam.</quote>
+                    <p>1433: <w>Ἄτην</w> <w>Ἐρινύν</w> <w>ἔσφαξ</w>᾽ ἐγώ – Klitajmestra zabiła Agamemnona
+                        jako ofiarę σφαγία dla Ate i Erynii. <w>Σφάζειν</w> z datiwem commodi:
+                        αἷσι – „dla”, czyli z wyraźnym wskazaniem adresata ofiary, nie pozostawia
+                        wątpliwości co do jednoznacznie rytualnego objaśnienia, jakie
+                        tutaj przyjmuje. Klitajmestra nie referuje jedynie swojego mordu na
+                        mężu, ale nadaje mu sens ofiary dla Ate i Erynii.</p>
+                </div>
+            </div>
+                
+        </body>
+    </text>
+</TEI>

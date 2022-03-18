@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Iliade canto XVII</title>
+                <title xml:lang="en">Iliad book XVII</title>
+                <title xml:lang="pl">Iliada, pieśń XVII</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_14_ilias_xvii</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Iliada, pieśń XVII</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, p. 144</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="Iliad_XVII_520–524"> 
+                    <head>Iliada XVII 520–524</head>
+                    <quote>
+                        <lb n="520"/>ὡς δ᾽ ὅτ᾽ ἂν ὀξὺν ἔχων πέλεκυν αἰζήϊος ἀνὴρ
+                        <lb/>κόψας ἐξόπιθεν κεράων βοὸς ἀγραύλοιο 
+                        <lb/>ἶνα τάμῃ διὰ πᾶσαν, ὃ δὲ προθορὼν ἐρίπῃσιν, 
+                        <lb/>ὣς ἄρ᾽ ὅ γε προθορὼν πέσεν ὕπτιος· ἐν δέ οἱ ἔγχος 
+                        <lb/>νηδυίοισι μάλ᾽ ὀξὺ κραδαινόμενον λύε γυῖα.  
+                    </quote>
+                    <quote>
+                        <lb n="520"/>Tak jak mąż silny, dzierżąc ostry topór,
+                        <lb/>uderzył poza rogami wołu wypasionego na łąkach,
+                        <lb/>aby przeciąć przez wszystko, on zaś rozciągając się pada,
+                        <lb/>tak drgnął Aretos i runął na wznak na ziemię, a włócznia,
+                        <lb/>grotem nurzając się w trzewiach, kolana mu rozwiązała.
+                    </quote>
+                    <p>520: ὀξὺν ἔχων πέλεκυν – „dzierżąc ostry topór”; por. scenę typową – ofiara krwawa w Od. 3.</p>
+                    <p>521: κόψας ἐξόπιθεν κεράων – „uderza poza rogami”; w porównaniu, a zatem rejestrze poetyckim, w którym poeta ma o wiele większą swobodę przenoszenia doświadczenia życia do obrazowania epickiego, narrator skupia się na momencie uderzenia siekierą w kręgi szyjne. W rejestrze heroicznym ten moment ofiary jest przedstawiony tylko raz, a mianowicie w rozbudowanej scenie ofiary dla Ateny w Pylos. Porównując śmierć herosa na polu bitewnym do uboju zwierzęcia, poeta siłą rzeczy musi podkreślić przemoc. Można zatem przypuszczać, że przemoc związana z ofiarą krwawą była przemilczana w tradycji epickiej w sposób zamierzony.</p>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

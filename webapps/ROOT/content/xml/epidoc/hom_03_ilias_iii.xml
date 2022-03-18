@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Iliade canto III</title>
+                <title xml:lang="en">Iliad book III</title>
+                <title xml:lang="pl">Iliada, pieśń III</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_03_ilias_iii</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Iliada, pieśń III</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 47-70</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Pieśń trzecia wprowadza temat przysięgi, której złamanie, za sprawą bogów, w pieśni czwartej będzie warunkowało przebieg działań do końca dnia walki. Wprowadzenie motywu pojedynku Menelaosa z Parysem obwarowanego przysięgą w pieśni trzeciej z punktu widzenia miejsca wydarzeń w tradycji o wojnie trojańskiej może wydawać się dziwne, zob. West 2011. Pieśń ma strukturę pierścieniową, a rytuał złożenia przysięgi znajduje się w jej centrum, przy czym posłanie po zwierzęta ofiarne i ich przyniesienie między wojska achajskie i trojańskie wypełnia scena spotkania Heleny i Priama (Stanley 1993: 60–61). Chociaż nie chodzi tu o ofiarę w sensie ścisłym, lecz o rytualny ubój zwierząt towarzyszący słowom przysięgi, jestem przekonany, że należy go uwzględnić w niniejszym komentarzu jako świadectwo rytualnego uboju zwierząt.</p>
+                    <p>Pojedynek Parysa i Menelaosa znajduje swój odpowiednik w pojedynku Hektora i Ajasa w pieśni VII, która zamknie ramy dnia pierwszego. 
+                    </p>
+                </div>
+                <div type="textpart" n="Iliad_III_67–75">
+                    <head>Iliada, pieśń III</head>
+                    <p>Parys odpowiada na zarzuty Hektora o uchylenie się przed starciem z Menelaosem (w. 59–75). Po pierwsze stwierdza, że nie można odrzucać darów bogów – Helena jest darem Afrodyty, którego przyjęcie nie zależało od woli człowieka. Z drugiej strony, zawstydzony przez brata, proponuje powstrzymanie walnej bitwy i stoczenie pojedynku z Menelaosem. Wykazuje zatem arystokratyczną cnotę wstydu αἰδώς, która, chociaż nie chroni go całkowicie przed zachowaniami niezgodnymi z etosem heroicznym, pozwala jednak zachowywać się zgodnie z normami społecznymi, które nakładają na niego obowiązek podjęcia walki. Zamiast starcia dwóch wrogich armii dojdzie do zawarcia rozejmu potwierdzonego przysięgą, dwaj przeciwnicy stoczą pojedynek na środku placu otoczonego wojownikami obu stron, którzy przemienią się w widzów. Wyimek ten jest interesujący ze względu na wers formularny φιλότητα καὶ ὅρκια πιστὰ ταμόντες, który w eposie homeryckim oznacza „zawarcie zaprzysiężonego układu przyjaźni”. Chodzi o zawarcie paktu, który staje się szczególnie godny zaufania (pista) sankcjonowane rytualnym zabiciem zwierząt przysiężnych (horkia [domyśl. hiereia]). Pierwotnie zwrot oznaczał przecięcie zwierząt ofiarnych towarzyszących złożeniu przysięgi. </p>
+                    <p>Zwrot ὅρκια τάμνειν ma bezpośredni związek z rytualnym zadaniem śmierci zwierzęciu, które towarzyszyło zawarciu układu, najczęściej publicznego, pomiędzy stronami. Przed jego analizą należy zastanowić się nad znaczeniem każdego z dwóch członów w kontekście religii greckiej.</p>
+                    <p>Czasownik τάμνω jest epicką formą czasownika τέμνω, który wyraża wszelkie działania fizyczne wykonywane na jakimś materiale za pomocą noża, miecza, siekiery, topora lub innego ostrego narzędzia: przecinanie czegoś, dzielenie na części lub oddzielanie od czegoś ostrym narzędziem. Semantyka tego rdzenia jest stabilna w językach indoeuropejskich. Od rekonstruowanego rdzenia *tem- „ciąć” pochodzi psł. *tęti, *tъnǫ, „ciąć”, „siec”, „rąbać” (ostrym narzędziem). Nic dziwnego, że grupa słów pochodząca od tego rdzenia jest używana również w kontekście ofiary krwawej, gdzie użycie ostrych narzędzi jest niezbędne na różnych etapach rytualnego zabicia zwierzęcia. Pierwszym rytem w obrzędzie ofiarniczym opisywanym za pomocą τάμνω jest obcięcie kosmyka sierści zwierzęcia ofiarnego. Badacze odwołujący się do modelu ofiary jako aktu agresji wobec zwierzęcia interpretują to odcięcie jako pierwszy akt agresji ze względu na oczywisty związek „oddzielania czego ostrym narzędziem” z przemocą (zob. Il. 3.273 z komentarzem). Oczywiście, stosując inny model interpretacji, możemy nadać temu rytowi inne znaczenie. Jeśli na przykład uznamy, że jego istotą było ofiarowanie w sensie przekazania daru pierwocin ze zwierzęcia, gest odcięcia kosmyka sierści lub wełny należy interpretować przede wszystkim jako działanie oddzielające część od całości, część poświęcaną istocie nadprzyrodzonej od reszty zwierzęcia, z której po uboju oddzieli się właściwy dar dla bóstwa – kości udowe. Kolejnym rytem denotowanym przez czasownik τέμνω jest rytualne poderżnięcia gardła zwierzęcia. Wydawałoby się, że powinien to być termin najpowszechniej używany w tym kontekście. Rzecz przedstawia się jednak inaczej. Wydaje się bowiem, że w przeciwieństwie do powszechnie używanej w kontekście ofiarniczym rodziny słów utworzonych od rdzenia σφάγ-, czasownik τέμνω ma dość wyspecjalizowane użycie. Pojawia się mianowicie w kontekście ofiar lub uboju rytualnego, w którym akcent pada na obfite wytoczenie krwi. Po pierwsze chodzi o zabicie zwierzęcia przysiężnego, gdzie krew staje się substancją sakralizującą potencjalną karę za złamanie zobowiązania, metaforycznie obrazując przyszły los krzywoprzysięzcy. Drugim kontekstem użycia czasownika τέμνω jest zabicie zwierzęcia podczas rytuału nekromantycznego, gdy krew służy jako narzędzie komunikacji z duszami zmarłych (Od. 11.35). </p>
+                    <p>Jeszcze istotniejszym dla zrozumienia wyrażenia ὅρκια τάμνειν jest przeanalizowanie rzeczownika  ὅρκια (pl. r.n.). Z punktu widzenia morfologii jest on najprawdopodobniej przymiotnikiem, który określał ἱερήια (att. ἱερεῖα) zwierzęta zabijane podczas rytuału przysięgi, „zwierzęta przysiężne” (Casabona 1966: 212). Został on utworzony od rzeczownika ὅρκος. Jest to jeden z fundamentalnych terminów życia prawnego, politycznego i religijnego kultury greckiej. Jego prototypowym znaczeniem jest przedmiot wypełniony świętą mocą i ucieleśniający za sprawą istot nadprzyrodzonych przywołanych podczas obrzędu przysięgi gardłową karę, jaka niechybnie spotka każdego, kto złamie warunki układu. Jako przedmiot sakralizujący słowa przesięgi ὅρκος jest używany często w połączeniu z czasownikiem ὄμνυμι, „przysięgać”, „złożyć przysięgę” w zwrocie ὅρκον ὄμνυμι. Jeśli rację ma Émile Benveniste, pierwotne znaczenie czasownika należy interpretować jako „chwycić mocno”, „trzymać” przedmiot wypełniony mocą sakralną jako porękę przysięgi. Moc wcielona w ὅρκος automatycznie zostanie skierowana przeciwko osobie, która złamie zobowiązanie. W ten sposób wracamy do zwrotu ὅρκια τάμνειν, którego pierwotne znaczenie można zinterpretować jako „poderżnąć gardło ofierze, która została wypełniona świętą mocą za sprawą przywołania istoty nadprzyrodzonej jako świadka i pełni funkcję ὅρκος”. </p>
+                    <quote>
+                        <lb/>νῦν αὖτ᾽ εἴ μ᾽ ἐθέλεις πολεμίζειν ἠδὲ μάχεσθαι, 				
+                        <lb/>ἄλλους μὲν κάθισον Τρῶας καὶ πάντας  Ἀχαιούς, 
+                        <lb/> αὐτὰρ ἔμ᾽ ἐν μέσσῳ καὶ ἀρηΐφιλον Μενέλαον 
+                        <lb n="70"/>     συμβάλετ᾽ ἀμφ᾽  Ἑλένῃ καὶ κτήμασι πᾶσι μάχεσθαι·
+                        <lb/>      ὁππότερος δέ κε νικήσῃ κρείσσων τε γένηται,
+                        <lb/>      κτήμαθ᾽ ἑλὼν εὖ πάντα γυναῖκά τε οἴκαδ᾽ ἀγέσθω· 
+                        <lb/>        οἳ δ᾽ ἄλλοι φιλότητα καὶ ὅρκια πιστὰ ταμόντες 
+                        <lb/>      ναίοιτε Τροίην ἐριβώλακα, τοὶ δὲ νεέσθων 
+                        <lb/>      Ἄργος ἐς ἱππόβοτον καὶ  Ἀχαιΐδα καλλιγύναικα.
+                    </quote>
+                    <quote>
+                        <lb/>Teraz jednak, jeśli chcesz, bym stanął do boju i walczył,
+                        <lb/>    usadź na ziemi pozostałych Trojan i wszystkich Achajów,
+                        <lb/>    w środku zaś mnie i Menelaosa, kochanka Aresa,
+                        <lb n="70"/>    ustawcie, abyśmy bój stoczyli o Helenę i majętność całą:
+                        <lb/>     kto z nas zwycięży i okaże się mocniejszy,
+                        <lb/>          ten wszystkie skarby zabierze i żonę do domu wprowadzi,
+                        <lb/>      pozostali zaś po zawarciu zaprzysiężonego wiarygodnego układu i przyjaźni 
+                        <lb/>      niech mieszkają w Troi, tamtym zaś popłyną
+                        <lb/>       do Argos żywiącego konie i Achai słynnej z piękności kobiet.
+                    </quote>
+                    <p>68:	ἄλλους μὲν κάθισον Τρῶας καὶ πάντας  Ἀχαιούς – „pozostałych Trojan usadź na ziemi i wszystkich Achajów”; wers formularny (= Il. 7.49) używany przez poetę w mowach skierowanych do Hektora przed stoczeniem pojedynku. Tutaj Parys zwraca się do Hektora z prośbą o powstrzymanie marszu obu stron zmierzających do starcia. Cała przemowa Parysa starannie rozróżnia poszczególne role. Hektor jako najmężniejszy heros trojański ma zatrzymać zbliżające się szeregi i nie dopuścić do walki, dlatego czasownik κάθισον, „usadź” jest użyty w liczbie pojedynczej, natomiast liczba mnoga czasownika  συμβάλετ’, „ustawcie” (70) odnosi się do obu stron konfliktu, które powinny ograniczyć się do zorganizowania i obserwacji starcia Parysa i Menelaosa. Skuteczność rozstrzygnięcia wojny w pojedynku zależy od uzgodnienia przez obie strony reguł postępowania. Zostaną utworzone dwa kręgi, w środku (ἐν μέσσῳ) których staną naprzeciw sobie Parys i Menelaos. Ci, którzy będą widzami, a zatem pozostali (οἳ δ᾽ ἄλλοι) Achajowie i Trojanie, powinni zawrzeć układ, aby zagwarantować uznanie wyniku starcia herosów. Innymi słowy, z chwilą zawarcia układu stosować przemoc mogą tylko wyznaczeni do pojedynku herosi, pozostali mają się od niej całkowicie powstrzymać. Pojedyncza walka ma zdecydować, kto weźmie Helenę i majątek, przysięga gwarantuje Trojanom koniec oblężenia, zaś Achajom bezpieczny powrót do domu. Wers jest interesujący dla badań nad rytuałem, gdyż ujmuje zawarcie układu gwarantowanego usankcjonowaną przysięgą w kategoriach widowiska.</p>
+                    <p>73–75:	wersy formularne (= 3.256–258) wykorzystujące tradycyjne wyrażenie ὅρκια πιστὰ ταμόντες, które w różnych formach gramatycznych czasownika τέμνω występuje w Iliadzie sześciokrotnie (3.73 ταμόντες = 3.256;  3.94 τάμωμεν; 3.252 τάμητε; 19.191 τάμωμεν oraz na początku wersu w 2.124a ὅρκια πιστὰ ταμόντες oraz raz w Odysei (24.483a na początku wersu). Już w epoce archaicznej fraza uległa leksykalizacji i w zależności od kontekstu mogła mieć podwójne znaczenie wynikające z jej historii. Pierwotnie oznaczała prawdopodobnie „rozciąć zwierzęta ofiarne podczas rytuału przysięgi” > „zabić zwierzę przysiężne”. Z tego prototypowego znaczenia rozwinęło się ogólniejsze użycie zwrotu w sensie „złożyć przysięgę”, „zawrzeć zaprzysiężony układ” (Casabona 1966: 211–220). Tutaj niewątpliwie zwrot został użyty w tym drugim znaczeniu.</p>
+                    <p>φιλότητα καὶ ὅρκια πιστὰ ταμόντες – „po zawarciu zaprzysiężonego obowiązującego układu przyjaźni”; fraza formularna (Il. 3.73; 94; 256; 323). SGP proponuje przekład „złożywszy przysięgę na wierność i przyjaźni”, natomiast K. Jeżewska tłumaczy: „niech przyjaźń i wierny pakt zawrą”. Przymiotnik πιστὰ, „wierne”, podkreśla zobowiązanie do wypełnienia obietnic, warunków zaprzysiężonego układu. Ponieważ ofiary uosabiają przysięgę, przymiotnik odnosi się ostatecznie do zaprzysiężonego porozumienia – jest ono wiarygodne, gdyż zostało zagwarantowane wezwanie na świadków bogów i kosmicznych mocy obecnych w środowisku otaczającym człowieka. O ile ὅρκια jako dopełnienie czasownika τάμνειν ma za sobą długą tradycję, o tyle drugie dopełnienie – φιλότητα – wymaga krótkiego wyjaśnienia. Leksykalizacja wyrażenia ὅρκια τάμνειν umożliwiła dodanie φιλότητα na zasadzie hendiadys. Uwzględniając powyższe uwagi, proponuję tłumaczyć greckie wyrażenie następująco: „po zawarciu wiarygodnego, zaprzysiężonego układu przyjaźni”, por. Berti 2006: 184. Symbolicznym gestem wskazującym na zawarcie przyjaźni było uściśnięcie prawicy (deksiōsis), o którym narrator w pieśni III milczy, wspomina je natomiast Menelaos w pieśni IV (4.159). Zob. Sommerstein, Torrance 2014: 144.</p>
+                </div>
+                <div type="textpart" n="Iliad_III_101–107">
+                    <head>Iliada, pieśń III 101–107 </head>
+                    <p>Hektor wystąpiwszy na środek powstrzymał natarcie trojańskiej falangi i przedstawił tę propozycję Achajom dowodzonym przez Agamemnona. Menelaos przystaje na takie rozstrzygnięcie, lecz żąda rękojmi pod postacią złożenia przysięgi potwierdzonej przez Priama. Złożenie przysięgi w pieśni trzeciej i dziewiętnastej jest sceną typową, która łączy elementy sceny typowej – składanie ofiary z elementami sceny typowej – złożenie przysięgi. </p>
+                    <quote>
+                        <lb/>ἡμέων δ᾽ ὁπποτέρῳ θάνατος καὶ μοῖρα τέτυκται 				
+                        <lb/>τεθναίη· ἄλλοι δὲ διακρινθεῖτε τάχιστα. 
+                        <lb/>     οἴσετε ἄρν᾽, ἕτερον λευκόν, ἑτέρην δὲ μέλαιναν, 
+                        <lb/>      Γῇ τε καὶ Ἠελίῳ· Διὶ δ᾽ ἡμεῖς οἴσομεν ἄλλον· 
+                        <lb n="105"/>      ἄξετε δὲ  Πριάμοιο βίην, ὄφρ᾽ ὅρκια τάμνῃ 
+                        <lb/>     αὐτός, ἐπεί οἱ παῖδες ὑπερφίαλοι καὶ ἄπιστοι, 
+                        <lb/>     μή τις ὑπερβασίῃ  Διὸς ὅρκια δηλήσηται.  
+                    </quote>
+                    <quote>
+                        <lb/>Komu z nas śmierć i los zostały zgotowane,					
+                        <lb/>     Niech umrze, wy zaś prędko się rozdzielcie.
+                        <lb/>     Przynieście dwa jagnięta: białego baranka i czarną owieczkę,
+                        <lb/>  Dla Gai i Heliosa; my zaś Zeusowi przyniesiemy innego.
+                        <lb n="105"/>   Przyprowadźcie mocnego Priama, aby mógł złożyć przysięgę
+                        <lb/>     Osobiście, skoro jego synowie są gwałtowni i przeniewierczy,
+                        <lb/>  Aby ktoś nie pogwałcił przekroczeniem przysiąg Zeusa.
+                    </quote>
+                    <p>101:	θάνατος καὶ μοῖρα τέτυκται – „śmierć i los zostały zgotowane”; Parys zaproponował zwycięzcy zabranie Heleny i majątku (71–72), Menelaos, wypowiadając słowa ostrzejsze w swej wymowie, zapowiada walkę na śmierć i życie. Zakłada przy tym, że rozstrzygnięcie zależy od losu (na temat μοῖρα, zob. Dietrich 1965: 195). Zestawienie θάνατος καὶ μοῖρα jest formularne i pojawia się 9x w Iliadzie oraz 1x w Ilias parva. Ostateczne porozumienie potwierdzone przysięgą zakłada pojedynek na śmierć i życie, którego zwycięzca zabierze Helenę i majątek (275–291). </p>
+                    <p>102:	ἄλλοι δὲ διακρινθεῖτε τάχιστα – „pozostali zaś prędko się rozdzielcie”; wers formularny – Od. 24.532. W przeciwieństwie do ofiary zwierzęcej związanej z posiłkiem mięsnym, która buduje pozytywną więź społeczną, rytualny ubój towarzyszący ofierze ma potwierdzić rozdzielenie stron. Przemoc na zwierzęciu jest potencjalną zapowiedzią losu jednej ze stron, który ziści się, jeśli postanowienia układu zostaną złamane.</p>
+                    <p>103:	οἴσετε ἄρν᾽, ἕτερον λευκόν, ἑτέρην δὲ μέλαιναν – „przynieście dwa jagnięta: białego baranka i czarną owieczkę”; rytuał złożenia przysięgi poprzedzają rozkazy Menelaosa wzywającego do przyniesienia zwierząt ofiarnych, co zbliża scenę typową – złożenie przysięgi do sceny – ofiara zwierzęca, w której ofiarnik wydaje rozkazy przyprowadzenia zwierzęcia ofiarnego i innych przedmiotów niezbędnych do odprawienia obrzędu. Szereg czasowników οἴσετε… οἴσομεν… ἄξετε można zestawić z rozkazami Nestora w Od. 3.417–429, por. Il. 1.308–317 [tekst 5]).</p>
+                    <p>ἄρν᾽ – „jagnięta”; rodzaj gramatyczny słowa ἀρήν, które w języku greckim oznacza jagnię zarówno męskie (baranka), jak i żeńskie (owieczkę), uniemożliwia bardziej dosłowne tłumaczenie (LfgrE s.v.). W każdym razie rodzaj przymiotnika wskazuje na białego baranka i czarną owieczkę, co wiąże się z płcią bóstw wzywanych podczas rytuału. Biały baranek zapewne przypadał Heliosowi, czarna owieczka – Gai. Związek między płcią zwierzęcia ofiarnego a płcią bóstwa poświadcza zarówno powtarzający się wzorzec w tekstach literackich, dokumentach (normach religijnych), jak i źródła, które bezpośrednio wskazują na tę zasadę, Arnobius, Adversus nationes 7.9, por. van Straten 1995: 181–186. Zwierzę czarnej maści dla Ziemi, Ge, spotykamy również w regulacjach normatywnych kalendarzy obrzędowych, np. LSCG 20, B 17–18 (Maraton, Tetrapolis, Attyka). O maści zwierzęcia jako cesze dystynktywnej, zob. Stengel 1910 [1970]: 187–190. Na temat funkcji zwierząt przysiężnych, zob. Stengel [1890] 1920: 137; Nilsson 1967: 140 i nast.; Burkert 1985: 250 i nast.; Latacz, Nünlist, Stoevesandt 2009: 48–49. </p>
+                    <p>Γῇ – „dla Ziemi”; Ge, Ziemia jest regularnie wzywana w greckich przysięgach. Baza danych Oath in Archaic and Classical Greece odnotowuje 62 przypadki zarówno w materiale inskrypcyjnym, jak i literackim, chociaż należy pamiętać, że odnotowuje ona wielokrotne wzmianki do jednej przysięgi jako odrębne rekordy. Ofiara przysiężna z zasady nie jest rozumiana jako dar dla bóstwa lub działanie wyrażające cześć dla istot nadprzyrodzonych, lecz jako działanie angażujące moc istoty nadprzyrodzonej jako świadka wezwanego przez składającego przysięgę i gwaranta jej dotrzymania.</p>
+                    <p>τε καὶ Ἠελίῳ – „i Heliosa”; Helios, bóg słońca jest przyzywany w przysiędze jako bóstwo wszechwiedne, kosmiczny, widzący wszystko świadek naoczny, zob. Graf 2005: 245, 276–280 (ThesCRA). Szukając religijnego znaczenia zestawienia bóstw, dla których Trojanie mają przyprowadzić zwierzęta przysiężne, badacze podkreślają ich kosmiczny charakter: chodzi o bóstwa prastare (w sensie ich miejsca w genealogii bogów), należące do pierwszych dwóch pokoleń. Ziemia jest Matką bogów i ludzi, kosmiczną podstawą istnienia.</p>
+                    <p>Διὶ δ᾽ ἡμεῖς οἴσομεν ἄλλον – „my zaś Zeusowi przyniesiemy innego”; również jagnię dla Zeusa jest rodzaju męskiego. G.S. Kirk spekuluje, że rozkazy Menelaosa deprecjonują Trojan, którzy mają przyprowadzić zwierzęta dla bóstw niższej rangi, natomiast „cywilizowani” Achajowie przyniosą zwierzę dla najwyższego boga panteonu (ad 103, zob. Kirk 1985: 278). Istotnie, Zeus jest bóstwem uosabiającym władzę i roztacza opiekę nad ładem społecznym i politycznym. Jako Zeus Horkios strzeże dotrzymywania przysiąg, jako Zeus Ksenios – prawa gościnności, które złamał był Parys porywając Helenę. Z punktu widzenia historii religii warto zauważyć, że w Atenach przysięgom publicznym patronowali Zeus, Demeter i Apollon (por. np. IG I3 14.21–45; 37.38–55; IG II2 97.16–26; zob. Mikalson 1991: 81), co może stanowić funkcjonalny odpowiednik triady homeryckiej. Scholion bT interpretuje Heliosa jako symbol życia, o które walczą Trojanie, Ge jako symbol ich ojczyzny, a Zeusa jako Zeusa Kseniosa właściwego Achajom jako cudzoziemcom. Interpretacja ta należy do historii tradycji filologicznej i leksykograficznej, lecz nic nie wnosi do naszego rozumienia tekstu Homera. Z kolei Fritz Graf interpretuje w sposób symboliczny: Ge pełni funkcję fizycznej podstawy ludzkiej egzystencji, Zeus jest gwarantem systemu prawnego, a Helios wszechwidzącym świadkiem (Graf 2005).</p>
+                    <p>105:	ἄξετε δὲ Πριάμοιο βίην – „przyprowadźcie Priama mocnego”; oprócz zwierząt ofiarnych, Hektor nakazuje sprowadzenie Priama, który ze względu na wiek przebywa w mieście z kobietami i dziećmi, jednak ze względu na władzę i autorytet zaprzysięgnie warunki układu. Agamemnon wzywa Priama nie tylko dlatego, że synowie króla Troi, a ma na myśli przede wszystkim Parysa i Hektora, są wiarołomni, lecz również ze względu na oficjalny, publiczny charakter przysięgi. Przysięga dotyczy całych społeczności, dlatego powinna być zawarta przez tych, którzy dzierżą najwyższą władzę. Zob. Berti 2006: 186.</p>
+                    <p>ὄφρ᾽ ὅρκια τάμνῃ / αὐτός – „aby sam złożył przysięgi”; dosłownie: „aby sam zarżnął (zwierzęta) przysiężne”. Wyrażenia nie należy rozumieć dosłownie, gdyż w rzeczywistości zwierzęta przysiężne (ὅρκια) zarżnie Agamemnon. Chodzi zatem o zwrot frazeologiczny, który możnaby przetłumaczyć jako „złożyć przysięgę”.</p>
+                    <p>107:	ὑπερβασίῃ  Διὸς ὅρκια – „przekroczeniem przysiąg Zeusa”; rzeczywistość z dziedziny religijno-prawnej została tutaj wyrażona za pomocą obrazowego języka odwołującego się do konkretnych, fizycznych działań. Agamemnon wyraża obawy, że ktoś może pogwałcić (δηλήσηται) przysięgi, horkia gwarantowane przez Zeusa. Czasownik δηλήσηται wyraża fizyczne zniszczenie bądź uszkodzenie ciała lub własności. Tutaj odnosi się do ὅρκια, które w mogą oznaczać zarówno przedmioty sakralizujące i gwarantujące słowa przysięgi (zwierzę ofiarne, wino), jak i sam układ potwierdzony przysięgą. Komentatorzy tego miejsca opowiadają się za tym drugim znaczeniem: agreements sworn by Zeus – „porozumienia zaprzysiężone na Zeusa”. Jednak sformułowanie ὑπερβασίῃ, „przekroczeniem”, wykorzystuje metaforycznie obraz podeptania, przejścia po przedmiotach gwarantujących przysięgę. Podobną ideę można znaleźć u Archilocha (Benveniste 1969: 169). Wypowiedź Agamemnona pełni funkcję prolepsis, gdyż przysięga w istocie zostanie złamana, acz nie przez synów Priama, lecz sojusznika Trojan, Pandarosa. Opisując efekt strzału Pandarosa poeta używa ponownie czasownika δηλέομαι z ὑπὲρ ὅρκια (4.67 = 72, 4.236 = 271, por. 4.157).</p>
+                </div>
+                
+                <div type="textpart" n="Iliad_III_113–120">
+                    <head>Iliada, pieśń III 113–120 </head>
+                    <p>Po podjęciu decyzji o złożeniu przysięgi następuje jej realizacja. Hektor posyła do Troi dwóch heroldów (kerykes) po zwierzęta ofiarne i Priama, Agamemnon natomiast Taltybiosa do okrętów po jagnięta. Motyw posłania po zwierzę ofiarne jest wspólny dla scen typowych – składanie ofiary oraz zawarcie przymierza i złożenia ofiar przysiężnych.</p>
+                    <quote>
+                        <lb/>καί ῥ᾽ ἵππους μὲν ἔρυξαν ἐπὶ στίχας, ἐκ δ᾽ ἔβαν αὐτοί, 			
+                        <lb/>    τεύχεά τ᾽ ἐξεδύοντο· τὰ μὲν κατέθεντ᾽ ἐπὶ γαίῃ 
+                        <lb n="115"/>   πλησίον ἀλλήλων, ὀλίγη δ᾽ ἦν ἀμφὶς ἄρουρα·
+                        <lb/>    Ἕκτωρ δὲ προτὶ ἄστυ δύω κήρυκας ἔπεμπε 			
+                     <lb/>   καρπαλίμως ἄρνάς τε φέρειν Πρίαμόν τε καλέσσαι· 
+                        <lb/>   αὐτὰρ ὃ Ταλθύβιον προΐει κρείων Ἀγαμέμνων 
+                        <lb/>    νῆας ἔπι γλαφυρὰς ἰέναι, ἠδ᾽ ἄρν᾽ ἐκέλευεν 
+                        <lb/>    οἰσέμεναι· ὃ δ᾽ ἄρ᾽ οὐκ ἀπίθησ᾽  Ἀγαμέμνονι δίῳ.  		
+                    </quote>
+                    <quote><lb/>Konie ustawili w rzędach i z nich zsiedli,					
+                        <lb/>     zbroje zdejmują, kładą na ziemi,
+                        <lb n="115"/>     blisko od siebie. Niewielka była między nimi odległość.
+                        <lb/>    Najpierw Hektor do miasta dwóch keryków posłał,			
+                        <lb/>     aby niezwłocznie jagnięta przynieśli i wezwali Priama,
+                        <lb/>    potem zaś władny Agamemnon posłał Taltybiosa
+                        <lb/>     do wydrążonych okrętów, aby jagnię rozkazał
+                        <lb/>     przynieść. Ten zaś posłuchał boskiego Agamemnona.
+                    </quote>
+                    <p>113:	ἵππους – „konie”; w eposie słowo „konie” w liczbie mnogiej może oznaczać również „zaprzęg, rydwan” (por. LfgrE, s.v. 1215.1 i nast.), dlatego wers ten można przełożyć „rydwany ustawili w jednej linii”. Szeregi równo ustawionych rydwanów stanowią pierwszy krąg otaczający miejsce działań rytualnych i zrytualizowanego pojedynku, drugi będą stanowić sami żołnierze i położone przy nich uzbrojenie.</p>
+                    <p>115:	ὀλίγη δ᾽ ἦν ἀμφὶς ἄρουρα – „niewielka była między nimi odległość”; wojska achajskie i trojańskie tworzą w ten sposób miejsce na działania publiczne, które będą decydować o dalszym losie – złożenie przysięgi i zawarcie układu oraz stoczenie pojedynku. Rzeczownik ἄρουρα, który dosłownie oznacza „ziemię orną”, tutaj ma sens „pole”, w więc miejsce wydzialone kręgiem ludzkim.</p>
+                    <p>116:	Ἕκτωρ δὲ προτὶ ἄστυ δύω κήρυκας ἔπεμπε – „najpierw Hektor do miasta dwóch keryków posłał”; scena typowa – złożenie przysięgi, podobnie jak scena typowa –ofiara zwierzęca, może obejmować element posłania po zwierzęta ofiarne / przysiężne, por. Od. 3.417–429. Hektor jest tutaj przedstawiony jako wódz (por. Il. 2.796–806), odpowiednik Agamemnona w wojsku achajskim.</p>
+                    <p>δύω κήρυκας: heroldowie w Iliadzie służą za pomocników ofiarnika, czasami sami składają ofiary (Il. 18.558). Posłanie dwóch keryków sugeruje przyniesienie przez każdego jednego jagnięcia na miejsce rytuału przysięgi, podobnie jak użycie czasownika φέρειν, „przynieść”, co wzmacnia interpretację, że chodzi o młode zwierzęta, które można wziąć na ramiona.</p>
+                    <p>117:	καρπαλίμως ἄρνάς τε φέρειν Πρίαμόν τε καλέσσαι – „aby niezwłocznie jagnięta przynieśli i wezwali Priama”; przysłówek καρπαλίμως należy łączyć z czasownikiem φέρειν (pace West). Poeta podkreśla nakaz działania w pośpiechu, a nie niezwłoczność samego rozkazu.</p>
+                    <p>ἄρνάς – „jagnięta”; zob. 103 z komentarzem.</p>
+                    <p>118:	Ταλθύβιον – „Taltybiosa”; w tradycji epickiej jeden z osobistych heroldów Agamemnona, który ze względu na pozycję wodza naczelnego służy jednocześnie całej armii. Na temat roli heroldów zob. Il. 1.320–347. Taltybios służył jako herold również w czasie ofiary z Ifigenii, gdy został posłany, aby przyprowadzić do ołtarza córkę Agamemnona z namiotu Klitajmestry. </p>
+                </div>
+                
+                <div type="textpart" n="Iliad_III_245–258">
+                    <head>Iliada, pieśń III 245–258</head>
+                    <p>Rozbudowana scena zawarcia układu potwierdzonego złożeniem ofiar przysiężnych zawiera szereg interesujących z naszego punktu widzenia informacji. W niniejszym komentarzu zostały wydzielone i skomentowane miejsca, w których znajdują się informacje dotyczące osób uczestniczących w rytuale (osoby składające przysięgę, heroldzi organizujący rytuał), zwierząt ofiarnych oraz przedmiotów wykorzystywanych w kulcie. Opis rytuału zawarcia przysięgi wykorzystuje elemetny sceny typowej – ofiara krwawa (1.447–468): [1] przyniesienie zwierząt ofiarnych i niezbędnych przedmiotów rytualnych (245–248); [2] zgromadzenie na miejscu obrzędu zwierząt i przedmiotów rytualnych (269a); [3] zmieszanie wina (269b–270a, por. scena typowa – libacja: 1.469–474); [4] umycie rąk (270b); [5] obcięcie włosów zwierzęcia ofiarnego i rozdanie ich uczestnikom obrzędu (271–274); [6] modlitwa zawierająca warunki umowy (275–274); [7] zarżnięcie zwierząt poprzez przecięcie gardła (292–294); [8] libacja i dodatkowa modlitwa (295–302).</p>
+                    <quote>
+                        <lb n="245"/>Κήρυκες δ᾽ ἀνὰ ἄστυ θεῶν φέρον ὅρκια πιστὰ 
+                        <lb/>ἄρνε δύω καὶ οἶνον ἐΰφρονα καρπὸν ἀρούρης 
+                        <lb/>ἀσκῷ ἐν αἰγείῳ· φέρε δὲ κρητῆρα φαεινὸν 
+                        <lb/>κῆρυξ Ἰδαῖος ἠδὲ χρύσεια κύπελλα· 
+                        <lb/>ὄτρυνεν δὲ γέροντα παριστάμενος ἐπέεσσιν· 
+                        <lb n="250"/>ὄρσεο  Λαομεδοντιάδη, καλέουσιν ἄριστοι 
+                        <lb/>Τρώων θ᾽ ἱπποδάμων καὶ  Ἀχαιῶν χαλκοχιτώνων 
+                        <lb/>ἐς πεδίον καταβῆναι ἵν᾽ ὅρκια πιστὰ τάμητε· 
+                        <lb/>αὐτὰρ  Ἀλέξανδρος καὶ ἀρηΐφιλος  Μενέλαος 
+                        <lb/>μακρῇς ἐγχείῃσι μαχήσοντ᾽ ἀμφὶ γυναικί· 
+                        <lb n="255"/>τῷ δέ κε νικήσαντι γυνὴ καὶ κτήμαθ᾽ ἕποιτο· 	
+                        <lb/>οἳ δ᾽ ἄλλοι φιλότητα καὶ ὅρκια πιστὰ ταμόντες 
+                        <lb/>ναίοιμεν  Τροίην ἐριβώλακα, τοὶ δὲ νέονται 
+                        <lb/>Ἄργος ἐς ἱππόβοτον καὶ  Ἀχαιΐδα καλλιγύναικα.  
+                    </quote>
+                    <quote>
+                        <lb n="245"/>A kerykes przez miasto nieśli jako wierne przedmioty przysiężne bogów	
+                        <lb/>dwa jagnięta i wino, pogodny owoc pól uprawnych
+                        <lb/>w koźlim bukłaku. Niesie też krater błyszczący 
+                        <lb/>keryks Idajos i złote puchary (κύπελλα).
+                        <lb/>Ponaglił słowami starca Priama stanąwszy tuż obok:
+                        <lb n="250"/>„Synu Laomedonta, wzywają ciebie najlepsi
+                        <lb/>spośród Trojan jeźdźców i Achajów spiżozbrojnych, 
+                        <lb/>do zejścia na równinę, abyś złożył wierną przysięgę,
+                        <lb/>bowiem Aleksander i przyjaciel Aresa Menelaos,
+                        <lb/>będą walczyć długimi włóczniami o kobietę:
+                        <lb n="255"/>za tym, który zwycięży, kobieta i majątek podążą;
+                        <lb/>pozostali zaś po zaprzysiężeniu przyjaźni i wiernych układów
+                        <lb/>jedni będą zamieszkiwać Troję, drudzy popłyną
+                        <lb/>do Argos, gdzie łąki skubią konie i Achai znanej z pięknych kobiet”.
+                    </quote>
+                    <p>245a:	wers formularny, = Il. 8.517a. W Od. 20.276 ostatni kolon (φέρον ὅρκια πιστὰ) został zastąpiony przez ἱερὴν ἑκατόμβη, „świętą hekatombę”. Na temat funkcji κήρυκες w obrzędach, zob. wyżej.</p>
+                    <p>ὅρκια πιστὰ – „wiarygodne przedmioty przysiężne”; tłumaczę ὅρκια jako „przedmioty przysiężne”, gdyż chodzi nie tylko o dwa jagnięta, lecz również o wino wspomniane w 246. Co więcej to właśnie wino będzie interpretowane wprost jako symboliczny substytut układających się stron, zob. 270, 292–302, 295 i nast. W mowie Agamemnona odnoszącej się do tego rytuału przysięgi pojawia się natomiast wyrażenie ὅρκιον αἷμά τε ἀρνῶν	, „przysiężna krew jagniąt” (Il. 4.158). Wydaje się zatem, że materią wcielającą naprzyrodzoną, boska moc, która może zniszczyć krzywoprzysięzcę, była krew zabitych rytualnie zwierząt oraz wino niezmieszane z wodą.</p>
+                    <p>θεῶν – „bogów”; genetivus podkreśla fakt, że przedmioty, które zostaną użyte podczas wykonywania obrzędu przysięgi, należą do bogów – gwarantów układu.</p>
+                    <p>246:	ἄρνε δύω – „dwa jagnięta”; użyte w apozycji podkreśla znaczenie słowa ὅρκια – chodzi o przedmioty, z którymi osoby składające przysięgę muszą mieć styczność i na których wykonuje się działania rytualne stanowiące metaforycznie zawieszoną klątwę.</p>
+                    <p>οἶνον ἐΰφρονα καρπὸν ἀρούρης – „pogodny owoc pól uprawnych”; przymiotnik ἐΰφρονα, dosł. „mający dobry φρήν”, tutaj ma znaczenie czynne i określa skutek działania wina. Jako tradycyjny epitet określający wino (4 x Il. 4 x Od.) wskazuje na jego zdolność usuwanie trosk, smutku. Epitet ma charakter konwencjonalny i może być używany niezależnie od kontekstu, jak w tym miejscu, gdzie wino nie będzie służyć piciu, tylko jako  płyn wylany w ofierze. Na temat funkcji wina w rytuale przysiężnym, zob. Il. 3.270; 292–302.</p>
+                    <p>247:	ἀσκῷ ἐν αἰγείῳ – „w koźlim bukłaku”; wers formularny (= Od. 6.78a). Skórzany bukłak wykonany z całej skóry zwierzęcej, służący do przechowywania i przenoszenia wina lub wody, jest wspominany w eposie homerowym (Od. 10.19, por. Od. 5.265; 6.78; 9.196; 9.212) i późniejszych źródłach pisanych i ikonograficznych (Immerwahr 1992).</p>
+                    <p>κρητῆρα φαεινὸν – „krater błyszczący”; (= Od. 15.121) przymiotnik φαεινὸν, „błyszczący”, oznacza wykonanie z metalu, najpewniej srebra (por. Od. 15.121–123). Towarzysząca ofierze krwawej libacja będzie wylana z wina zmieszanego z wodą, w. 270.</p>
+                    <p>248:	κῆρυξ Ἰδαῖος – „keryks Idajos”; w Iliadzie, oprócz pieśni trzeciej, herold Idajos pojawia się w dwóch scenach. Najpierw w pieśni siódmej (7.273–292), w której wraz z achajskim heroldem Taltybiosem przerywają pojedynek Ajasa z Hektorem (z tym, że do walczących przemawia Idajos, 7.276), a następnie negocjuje warunki rozejmu w celu urządzenia pogrzebu poległym (7.372–417a). Następnie towarzyszy Priamowi w drodze do Achillesa w pieśni XXIV, powożąc wozem z darami (322 i nast.). Jego imię wiąże się troadzką górą Idą. Poeta charakteryzuje go jako starego (24.149; 178; 368), mądrego doradcę (7.276; 24.282). Wydaje się, że Idajos jest heroldem Priama, a w każdym razie blisko z Priamem związanym.</p>
+                    <p>χρύσεια κύπελλα – „złote puchary”; użyte w rytuale złote puchary w innych miejscach pojawiają się w kontekście uczty jako naczynia do picia (por. Od. 1.142; Od. 4.58; Od. 10.357).</p>
+                    <p>252:	ἵν᾽ ὅρκια πιστὰ τάμητε – „abyś złożył wierną przysięgę”; por. w. 105 z komentarzem do w. 73. </p>
+                    <p>256–8:	 por. 73–75 z komentarzem.</p>
+                </div>
+                <div type="textpart" n="Iliad_III_259–275">
+                    <head>Iliada, pieśń III 259–275 </head>
+                    <p>Między szeregi Achajów i Trojan przybywa Priam, który złoży przysięgę w imieniu Trojan. Towarzyszy mu Antenor, tak jak po stronie Achajów Agamemnonowi towarzyszy Odyseusz. Obok wodzów i ich towarzyszy, w działanich rytualnych czynny udział biorą heroldzi (kerykes), którzy spełniają ważną rolę w przygotowaniach do ofiary przysiężnej i jej przebiegu: przynoszą zwierzęta, wino, wodę oraz naczynia rytualne, rozdają ucięte runo z głowy zwierząt ofiarnych członkom elity arystokratycznej. Zob. Rollinger 2004.</p>
+                    <p>Scena opisana w wersach 259–301 stanowi wzorcowy przykład struktury rytuału ofiary. Można ją przedstawić następująco (Giorgieri 2001: 426–7; Berti 2006: 189):</p>
+                    <p>A)	Ryty wstępne:</p>
+                    <p>259–266	Przybycie stron zawierających układ i ustawienie się pośrodku.</p>
+                    <p>267–270	Agamemnon i Odyseusz powstają, mieszanie wina, obmycie rąk.</p>
+                    <p>271–275	Obcięcie kosmyków jagniąt i rozdzielenie ich między członków elity.</p>
+                    <p>B)	Zawarcie układu i przysięga:</p>
+                    <p>276–280	Inwokacja bogów jako świadków zaprzysiężonego układu.</p>
+                    <p>281–291	Warunki układu.</p>
+                    <p>292–294	Pierwsza ceremonia klątwy: przecięcie gardła jagniąt = Drohritus: los jagniąt odpowiada losowi krzywoprzysięzcy.</p>
+                    <p>295–301	Druga ceremonia klątwy: wylanie wina i formuła klątwy.</p>
+                    
+                    <quote>
+                        <lb/>Ὣς φάτο ῥίγησεν δ᾽ ὃ γέρων, ἐκέλευσε δ᾽ ἑταίρους 
+                        <lb n="260"/>ἵππους ζευγνύμεναι· τοὶ δ᾽ ὀτραλέως ἐπίθοντο. 
+                        <lb/>ἂν δ᾽ ἄρ᾽ ἔβη  Πρίαμος, κατὰ δ᾽ ἡνία τεῖνεν ὀπίσσω· 
+                        <lb/>πὰρ δέ οἱ  Ἀντήνωρ περικαλλέα βήσετο δίφρον· 
+                        <lb/>τὼ δὲ διὰ  Σκαιῶν πεδίον δ᾽ ἔχον ὠκέας ἵππους. 
+                        <lb/>Ἀλλ᾽ ὅτε δή ῥ᾽ ἵκοντο μετὰ  Τρῶας καὶ  Ἀχαιούς, 
+                        <lb n="265"/>ἐξ ἵππων ἀποβάντες ἐπὶ χθόνα πουλυβότειραν 
+                        <lb/>ἐς μέσσον Τρώων καὶ  Ἀχαιῶν ἐστιχόωντο. 
+                        <lb/>ὄρνυτο δ᾽ αὐτίκ᾽ ἔπειτα ἄναξ ἀνδρῶν  Ἀγαμέμνων, 
+                        <lb/>ἂν δ᾽  Ὀδυσεὺς πολύμητις· ἀτὰρ κήρυκες ἀγαυοὶ 
+                        <lb/>ὅρκια πιστὰ θεῶν σύναγον, κρητῆρι δὲ οἶνον 
+                        <lb n="270"/>μίσγον, ἀτὰρ βασιλεῦσιν ὕδωρ ἐπὶ χεῖρας ἔχευαν. 
+                        <lb/>Ἀτρεΐδης δὲ ἐρυσσάμενος χείρεσσι μάχαιραν, 
+                        <lb/>ἥ οἱ πὰρ ξίφεος μέγα κουλεὸν αἰὲν ἄωρτο, 
+                        <lb/>ἀρνῶν ἐκ κεφαλέων τάμνε τρίχας· αὐτὰρ ἔπειτα 
+                        <lb/>κήρυκες  Τρώων καὶ  Ἀχαιῶν νεῖμαν ἀρίστοις. 
+                        <lb/>τοῖσιν δ᾽  Ἀτρεΐδης μεγάλ᾽ εὔχετο χεῖρας ἀνασχών·	
+                    </quote>
+                    <quote>
+                        <lb/>Tak powiedział. Wzdrygnął się starzec, rozkazał towarzyszom 
+                        <lb n="260"/>zaprzęgnąć konie, ci zaś szybko posłuchali.
+                        <lb/>Wstąpił nań Priam i lejce naprężył ściągając. 
+                        <lb/>Przy nim zaś Antenor wstąpił na piękny pokład rydwanu. 
+                        <lb/>Obu przez skajską równinę poniosły rącze konie. 
+                        <lb/>A gdy dotarli między Trojan i Achajów, 
+                        <lb n="265"/>z wozu konnego zeszli na ziemię w plony obfitą 
+                        <lb/>i przemaszerowali środkiem Trojan i Achajów. 
+                        <lb/>Wówczas powstał natychmiast pan mężów Agamemnon 
+                        <lb/>i Odyseusz o wielkim sprycie. A kerykowie czcigodni 
+                        <lb/>zwierzęta na wierną przysięgę bogów poprowadzili, wino w kraterze 
+                        <lb n="270"/>mieszali i wnet wodę na ręce leją królom. 
+                        <lb/>Atryda zaś wyciągnął rękami nóż ofiarny, 
+                        <lb/>który przy długiej pochwie od miecza zawsze mu wisiał. 
+                        <lb/>Uciął z głów jagniąt wełnę, następnie  
+                        <lb/>heroldzi rozdali ją najlepszym spośród Trojan i Achajów. 
+                        <lb/>Sam zaś Atryda potężny modlił się wznosząc ręce. 	
+                    </quote>
+                    <p>266:	ἐς μέσσον Τρώων καὶ  Ἀχαιῶν ἐστιχόωντο – „przemaszerowali środkiem Trojan i Achajów”; rytuał zawierania układu usankcjonowanego przysięgą odbywa się na widoku publicznym, gdyż chodzi o porozumienie między wspólnotami polityczno-wojskowymi; stąd podkreślenie symetryczności ustawienia wszystkich zainteresowanych poprzez okolicznik miejsca ἐς μέσσον – „środkiem”.</p>
+                   <p> 267: 	ἄναξ ἀνδρῶν  Ἀγαμέμνων – „pan mężów Agamemnon”; zob. Il. 1.449 z komentarzem.</p>
+                    <p>268:	Ὀδυσεὺς πολύμητις – „Odyseusz o wielkim sprycie”; jako pomocnika Agamemnona w wykonaniu czynności rytualnych poeta wybiera Odyseusza, który wcześniej został przedstawiony jako postać komplementarna w stosunku do Agamemnona, zarówno pod względem wyglądu, jak i funkcji (Il. 3.191–224, zwł. 196–198). W charakterze bliskiego towarzysza Agamemnona Odyseusz pojawia się już wcześniej, por. 2.169 i nast., gdzie jest on wybrany przez Atenę do odegrania głównej roli w zgromadzeniu Achajów, które zdecyduje o kontynuowaniu walki. Zdaje się, że Odyseusz został tu wprowadzony dla zapewnienia symetrycznej równowagi dla towarzyszącego Priamowi Antenora (zob. West 2011).</p>
+                    <p>πολύμητις – „wielce obrotny”; przydomek pojawia się również na początku charakterystki Odyseusza w teichoskopii, w. 200.</p>
+                    <p>κήρυκες ἀγαυοί – „kerykowie czcigodni”; chodzi o heroldów obu stron. Epitet ἀγαυοὶ, określający ludzi bądź bogów, tłumaczy się zazwyczaj jako „szlachetny, sławny” i wyprowadza od czasownika ἄγαμαι / ἀγάσσομαι (Chantraine DEG s.v.). Jednak Blanc (2002: 169, 174–176) zaproponował ostatnio nowe wyjaśnienie, zgodnie z którym chodziłoby o pierwotny epitet odnoszący się do heroldów „ten, który donośnie woła” (ἀγα + αϋός od αΰω). Por. Od. 8.418.</p>
+                    <p>269:	ὅρκια πιστά – „na wierną przysięgę”; przedmioty wykorzystywane w rytuale przysięgi, nie tylko zwierzęta na ofiarę przysiężną (w. 103 i nast.), ale również wino przyniesione przez obie strony (w. 247 i nast.).</p>
+                    <p>κρητῆρι δὲ οἶνον / μίσγον – „w kraterze zmieszali wino”; w przeciwieństwie do wykorzystania krateru w sytuacji sympozjalnej, gdzie służy on mieszaniu wody z winem, krater przyniesiony przez heroldów z Troi zostanie wykorzystany do zmieszania wina każdej ze stron. Libacje (spondai) towarzyszące przysiędze były spełniane z wina czystego, bez domieszki wody (Il. 4.149 = 2.341). Zwracał już na to uwagę w swoim komentarzu Arystarch: οὐχ ὕδατι ἔμισγον τὸν οἶνον, ἀλλὰ τὸν τῶν Τρώων καὶ Ἀχαιῶν, „nie mieszają wina z wodą, lecz wino Trojan i Achajów”. Chodzi o symboliczne wymieszanie płynu używanego w ofierze płynnej dla podkreślenia równego zobowiązywania przysięgi. Brak wzmianki o winie przyniesionym przez Achajów należy przypisać specyfice narracji epickiej posługującej się techniką ogniskowania w budowaniu obrazów (Kirk 1984: 302). Skupienie się na przedmiotach ofiarnych przyniesionych przez Trojan wiąże się z wykorzystaniem elementów motywu przyprowadzenia zwierząt ofiarnych i przedmiotów rytualnych towarzyszącego scenie typowej – ofiara zwierzęca. W ofierze zwierzęcej libacja z wina była spełniana w kulminacyjnym momencie rytuału, gdy na ołtarzu spalano kości udowe oraz pieczono na rożnach trzewia (splanchna), zob. Il. 1.462, Od. 3.459 i nast. W ofierze przysiężnej wino pełni funkcję materialnej metafory żywotnej części ciała składających przysięgę – mózgu. Historycy religii interpretują ten ryt jako przykład magii sympatycznej odwołującej się do nieosobowych mocy (zob. Burkert 1985).</p>
+                    <p>270: ἀτὰρ βασιλεῦσιν ὕδωρ ἐπὶ χεῖρας ἔχευαν – „wnet wodę na ręce leją królom”; zwrot formularny (= Il. 9.174, Od. 1.146, Od. 3.338, Od. 21.270, ~ Od. 4.216). Zob. obmycie rąk w scenie typowej – ofiara zwierzęca, gdzie zamiast ogólnego słowa ὕδωρ występuje termin techniczny słownictwa rytualnego χέρνιψ, Il. 1.449 z komentarzem, Od. 3.440, 445. Charakterystyczne, że wodę rytualną leje się wyłącznie na ręce członków elity arystokratycznej określonej słowem basileis w l.mn., czyli „panowie, królowie”, a zatem tych, którzy będą brali bezpośredni udział w odprawianiu rytuału. W przypadku ofiary przysiężnej obmycie rąk ma szczególną wagę, gdyż ręce odgrywają istotną rolę w rytuale. Oprócz wykonywania rytów prowadzących do śmierci zwierzęcia, które są wspólne dla ofiary zwierzęcej typu thysia i dla rytuału horkia temnein, sama przysięga wiąże się z dotykaniem, trzymaniem przedmiotu lub jego części, wypełnionego mocą nadprzyrodzoną; w tym wypadku zwierzęcia. Wreszcie to uściśnięcie prawicy (deksiōsis) ostatecznie zatwierdza układ. Por. Berti 2006: 186.</p>
+                    <p>271–2:	Wersy formularne (= Il. 19.252–3), które podkreślają władzę Agamemnona do sprawowania rytuałów w imieniu całej wspólnoty, władzy wypływającej z jego pozycji w wojsku. W uboższej w szczegóły scenie przysięgi w pieśni dziewiętnastej (Il. 19.250 i nast.) o winie nie wspomina się.</p>
+                    <p>273:	ἀρνῶν ἐκ κεφαλέων τάμνε τρίχας – „uciął z głów jagniąt wełnę”; w Iliadzie ryt obcięcia włosów zwierzęcia pojawia się wyłącznie w scenach ofiary przysiężnej (Il. 19.254). W Odysei jest on stałym elementem sceny typowej – ofiara krwawa, w której odcięte włosy są palone na ołtarzu jako ofiara pierwocinowa (3.446, 14.422 z komentarzem). W przypadku ofiary przysiężnej, w której nie używa się ognia, włosy pełnią inną funkcję. Obcięta wełna jagniąt jest rozdawana członkom elity (ἀρίστοις) uczestniczącym w ofierze. Podczas gdy uczestnicy obrzędu trzymają włosy zwierzęcia w ręku, Agamemnon wznosi modlitwę. Wydaje się zatem, że w tym przypadku wełna pełni analogiczną funkcję, jak jęczmień w ofierze krwawej. W obu wypadkach chodzi o przedmiot, który trzymają w ręku uczestnicy podczas modlitwy lub modlitewnej formuły przysięgi. Większość badaczy interpretuje ryt jako znak utożsamienia losu składających przysięgę z losem zabijanego zwierzęcia. Chodzi o kontakt z częścią żywego zwierzęcia, która metonimicznie symbolizuje całe zwierzę, a jednocześnie utożsamia je ze składającym przysięgę człowiekiem, zob. Kitts 2005: 141–4; Berti 2006: 186. Scholion komentujący to miejsce (Schol. ad Il. 3.273b, Erbse) stwierdza, że wełna/sierść ofiar zabijanych w rytuale enagizein nie była wrzucana do ognia. Jednak antyczny komentator mylnie utożsamia rytualne zabicie zwierzęcia podczas zawierania przysięgi z enagismos, gdyż ofiary nie są palone; na temat rytuałów związanych z włosami, zob. Eitrem 1914: 344–415; Nilsson 1967: 140; Burkert 1985: 56; Rudhardt 1958: 220, 26; Kirk 1981: 63; Berti 2006: 186.
+                </p>
+                    <p> 273–274: αὐτὰρ ἔπειτα / κήρυκες  Τρώων καὶ  Ἀχαιῶν νεῖμαν ἀρίστοις – „następnie / heroldzi rozdali ją najlepszym spośród Trojan i Achajów”; czasownik νεῖμαν (ind. aor. act. od νέμω) wyraża ideę podziału, przede wszystkim mięsa lub wina (LSJ s.v.). Poprzez wzięcie do ręki wełny ὅρκια (ἱερεῖα) członkowie elity odprawiają rytuł przysięgi w jego istocie – trzymają pars pro toto przedmiot, który przez poświęcenie bóstwu, przynależność do sfery boskiej strzegącej zachowywania przysiąg jest sakralną rękojmią zobowiązania. Bezpośredni, fizyczny kontakt z przedmiotem, na który się przysięga, jest stałym elementem przysięgi w eposie: Il. 7.406–412; Il. 14.271–280; Il. 23.439–441; 581–585.</p> 
+                </div>
+                
+                <div type="textpart" n="Iliad_III_276–280">
+                    <head>Iliada, pieśń III 276–280 </head>
+                    <p>Podobnie jak modlitwa towarzyszy ofierze, tak też ofiarom przysiężnym towarzyszą słowa przysięgi wypowiedziane podczas rytuału. Zob. Chapot, Laurot 2001: 37–39 (G5); Aubriot-Sévin 1991: 91 i nast.; Pulleyn 1997: 79–80, 108; Rudhardt 1958: 205–212; Schwenn, Benveniste 1947.</p>
+                    <quote>
+                        <lb/>Ζεῦ πάτερ Ἴδηθεν μεδέων κύδιστε μέγιστε, 					
+                        <lb/>Ἠέλιός θ᾽, ὃς πάντ᾽ ἐφορᾷς καὶ πάντ᾽ ἐπακούεις, 
+                        <lb/>καὶ ποταμοὶ καὶ γαῖα, καὶ οἳ ὑπένερθε καμόντας 
+                        <lb/>ἀνθρώπους τίνυσθον ὅτις κ᾽ ἐπίορκον ὀμόσσῃ, 
+                        <lb/>ὑμεῖς μάρτυροι ἔστε, φυλάσσετε δ᾽ ὅρκια πιστά·  
+                    </quote>
+                    <quote>
+                        <lb/>„Dzeusie ojcze, co władasz Idą, przesławny, mocarny;			
+                        <lb/>i Ty, Heliosie, który wszystko dostrzegasz i słyszysz wszystko;
+                        <lb/>Rzeki i Ziemio; a także wy, co w podziemiach karzecie
+                        <lb/>ludzi nieszczęsnych, tych, którzy nie dotrzymali przysięgi –
+                        <lb/>bądźcie nam teraz świadkami i strzeżcie wiernego przymierza! […]”
+                    </quote>
+                    <p>276:	Ζεῦ πάτερ – „Zeusie ojcze”; por. Il. 2.371–7 z komentarzem; o Zeusie jako bogu umów i przysiąg, zob. West 2007: 171 i nast.</p>
+                    <p>κύδιστε μέγιστε: zob. 2.412 z komentarzem.</p>
+                    <p>277: Ἠέλιός θ᾽ – „i Helios”; archaiczna syntaksa indoeuropejska Voc./Nom. + ca/te, która ma swój odpowiednik w dialekcie wedyjskim. Po serii wezwań wyrażonych w vocativus (Ζεῦ, κύδιστε μέγιστε), następuje zawołanie wyrażone w nominativus z enklityczną partykułą -ca, gr. -te (Householder, Nagy 1972: 43). Na temat boga-Słońca jako świadka przysiąg zob. West 2007: 198-201, a także ibidem: 306 i nast. (w sprawie użycia mianownika); West 1997 [2006], 20; w sprawie wszechwidzącego Słońca, zob. ibidem: 358.</p>
+                    <p> 278:	καὶ ποταμοὶ καὶ γαῖα – „Rzeki i Ziemio”; na temat bliskowschodnich paraleli tego miejsca, zob. West 1997 [2006]: 20 i nast.</p>
+                    <p>278-279: καὶ οἳ ὑπένερθε καμόντας / ἀνθρώπους τίνυσθον – „wy, co w podziemiach karzecie / ludzi nieszczęsnych”; Agamemnon nie wymienia imion bóstw podziemnych, którzy mogą ukarać krzywoprzysięzców. Z Il. I 454–7 wynika, że może chodzić o Zeusa z przydomkiem Katachthonios i Persefonę. W Il. 19.259 i nast. Agamemnon przywołuje również Erynie. Przywołanie bóstw podziemnych na świadków przysięgi przypomina wezwanie Hekate przez Medeę u Eurypidesa (E. Medea, 395–8), zob. Sommerstein, Torrance 2014: 133–134.</p>
+                </div>
+                
+                <div type="textpart" n="Iliad_III_292–302">
+                    <head>Iliada, pieśń III</head>
+                    <quote>
+                        <lb/>ἦ καὶ ἀπὸ στομάχους ἀρνῶν τάμε νηλέϊ χαλκῷ· 				
+                        <lb/>καὶ τοὺς μὲν κατέθηκεν ἐπὶ χθονὸς ἀσπαίροντας 
+                        <lb/>θυμοῦ δευομένους· ἀπὸ γὰρ μένος εἵλετο χαλκός. 
+                        <lb n="295"/>οἶνον δ᾽ ἐκ κρητῆρος ἀφυσσόμενοι δεπάεσσιν
+                        <lb/>ἔκχεον, ἠδ᾽ εὔχοντο θεοῖς αἰειγενέτῃσιν. 
+                        <lb/>ὧδε δέ τις εἴπεσκεν  Ἀχαιῶν τε  Τρώων τε· 
+                        <lb/>Ζεῦ κύδιστε μέγιστε καὶ ἀθάνατοι θεοὶ ἄλλοι 
+                        <lb/>ὁππότεροι πρότεροι ὑπὲρ ὅρκια πημήνειαν 
+                        <lb n="300"/>ὧδέ σφ᾽ ἐγκέφαλος χαμάδις ῥέοι ὡς ὅδε οἶνος 
+                        <lb/>αὐτῶν καὶ τεκέων, ἄλοχοι δ᾽ ἄλλοισι δαμεῖεν. 
+                        <lb/>Ὣς ἔφαν, οὐδ᾽ ἄρα πώ σφιν ἐπεκραίαινε  Κρονίων.  
+                        <lb/>τοῖσι δὲ  Δαρδανίδης  Πρίαμος μετὰ μῦθον ἔειπε· 
+                        <lb/>κέκλυτέ μευ  Τρῶες καὶ ἐϋκνήμιδες  Ἀχαιοί· 
+                        <lb n="305"/>ἤτοι ἐγὼν εἶμι προτὶ  Ἴλιον ἠνεμόεσσαν 
+                        <lb/>ἄψ, ἐπεὶ οὔ πω τλήσομ᾽ ἐν ὀφθαλμοῖσιν ὁρᾶσθαι 
+                        <lb/>μαρνάμενον φίλον υἱὸν ἀρηϊφίλῳ  Μενελάῳ· 
+                        <lb/>Ζεὺς μέν που τό γε οἶδε καὶ ἀθάνατοι θεοὶ ἄλλοι 
+                        <lb/>ὁπποτέρῳ θανάτοιο τέλος πεπρωμένον ἐστίν. 
+                        <lb n="310"/>῏Η ῥα καὶ ἐς δίφρον ἄρνας θέτο ἰσόθεος φώς, 	
+                        <lb/>ἂν δ᾽ ἄρ᾽ ἔβαιν᾽ αὐτός, κατὰ δ᾽ ἡνία τεῖνεν ὀπίσσω· 
+                        <lb/>πὰρ δέ οἱ  Ἀντήνωρ περικαλλέα βήσετο δίφρον. 
+                        <lb/>τὼ μὲν ἄρ᾽ ἄψορροι προτὶ  Ἴλιον ἀπονέοντο·  
+                    </quote>
+                    <quote>
+                        <lb/>rzekł i przeciął gardła jagniąt okrutnym spiżem,				
+                        <lb/>i ułożył je na ziemi obydwa, harczące,
+                        <lb/>łapiące oddech, bo spiż zabrał im siłę.
+                        <lb n="295"/>Potem zebrani czerpali ze dzbana wino w puchary
+                        <lb/>I wylewali, do bogów wiecznych się modląc.
+                        <lb/>I tak przemawiał niejeden spomiędzy Achajów i Trojan:
+                        <lb/>„Zeusie przesławny, mocarny, i inni nieśmiertelni bogowie,
+                        <lb/>tym, którzy pierwsi pogwałcą przysięgi,
+                        <lb n="300"/>niech tak im na ziemię mózg się wypłynie jako oto to wino,
+                        <lb/>im i ich dzieciom, a żony innym niech przypadną jako branki”.
+                        <lb/>Tak mówili, lecz nie chciał Kronida ich modłów wysłuchać.
+                        <lb/>Wtedy potomek Dardana, Pryjam, w te ozwał się słowa:
+                        <lb/>„Teraz, Trojanie i w pięknych nagolenicach Achaje,
+                        <lb n="305"/>słów mych słuchajcie! Powracam do przewiewnego Ilionu,
+                        <lb/>byłoby trudno mi bowiem na własne oczy oglądać
+                        <lb/>syna miłego, jak walczy z Menelaosem, kochankiem
+                        <lb/>boga Aresa. Zeus tylko i nieśmiertelni bogowie
+                        <lb/>wiedzą, któremu z nich obu śmietelny kres”.
+                        <lb n="310"/>Kładąc na wozie jagnięta, rzekł mąż, co bogom był równy, 
+                        <lb/>potem na rydwan sam wstąpił i lejce, wstecz ciągnąc, wyprężył,
+                        <lb/>razem z nim skoczył Antenor na wóz przepiękny bojowy
+                        <lb/>i zawróciwszy rumaki, ruszyli w stronę Ilionu.
+                    </quote>
+                    <p>292–294: Pierwsza ceremonia rzucenia klątwy: zabicie zwierząt przysiężnych zakłada analogię pomiędzy losem zwierzęcia i jego śmiercią, a losem człowieka, który ważyłby się złamać zobowiązania układu. Działania prowadzą do wytoczenia jak największej ilości krwi, której przelanie zapowiada przelanie krwi krzywoprzysięzcy. Chodzi zatem o warunkową klątwę.</p>
+                    <p>292: καὶ ἀπὸ στομάχους ἀρνῶν τάμε – „i przeciął gardła jagniąt”; w najstarszych rękopisach papirusowych mamy wariant z ἐπὶ... τάμε, który został zastąpiony przez Arystarcha obecną formą ἀπὸ… τάμε, co nie zmieniło znaczenia frazy.</p>
+                    <p>νηλέϊ χαλκῷ – „spiżem okrutnym”; por. Il. 19.266 . Fraza formularna (11x Il., 8x Od.) może odnosić się do każdego narzędzia wykonanego ze spiżu. Tutaj chodzi o nóż ofiarny (μαχαίρα), który Agamemnon jako pan i dowódca wyprawy zawsze nosi przy pasie (zob. Il. 2.271).</p>
+                    <p>293–4: Opis gwałtownej śmierci zwierzęcia, pomijany w scenach typowych ofiary przeznaczonej na ucztę, pojawia się w scenie rytualnego zabicia ofiary przysiężnej. Jego funkcją prawdopodobnie jest podkreślenie związku pomiędzy działaniami wykonywanymi wobec przedmiotów rytualnych a warunkową klątwą, którą nakładała na siebie osoba przysięgająca. Jednak o ile w przypadku wina analogia jest wyrażona wprost, w przypadku zwierzęcia możemy ją tylko zakładać.</p>
+                    <p>καὶ τοὺς μὲν κατέθηκεν ἐπὶ χθονὸς – „potem je złożył na ziemi obydwa”; Kirk 1985: ad loc. interpretuje ten wers nie jako dosłowny opis czynności, lecz jako niecodzienny sposób wyrażenia idei upadnięcia zwierząt na ziemię – „pozwolił im upaść na ziemię” (z powołaniem się na analogiczny obraz w Il. 6.473, gdzie na ziemię upada błyszczący hełm Hektora). Jednak gdybyśmy przyjęli, że chodzi o małe zwierzęta ofiarne, wers ten równie dobrze można zinterpretować jako opis sceny, w której Agamemnon podrzyna gardła jagniąt trzymanych w rękach, a następnie kładzie je na ziemię. Wers jest fomularny, z drobnymi wariantami pojawia się w: Il. 4.112, Il. 6.473, Il. 24.271, Od. 6.75, Od. 9.329, Od. 13.20, Od. 13.370, h.Merc. 63, 134.</p>
+                    <p>ἀσπαίροντας – „łapiące oddech”; czasownik oznacza „dyszące, biorące gwałtowny wdech, łapiące oddech”, u Homera zawsze wiąże się z agonią konającego wojownika (Il. 10.521; Il. 13.442). Poeta obrazowo przedstawia powolną śmierć zwierząt z poderżniętymi gardłami, które leżąc na ziemi charczą, co podkreśla kolejne wyrażenie imiesłowowe θυμοῦ δευομένους, „próbujące złapać oddech”. Czasownik δευόμαι z genetiwem oznacza, „brakować czegoś” pojawia się w eposie jeszcze tylko raz w opisie śmierci Trosa, syna Alastora (Il. 20.471–472). Zob. Faraone 1993: 75. Metaforyczne zestawienie śmierci zwierzęcia przysiężnego ze śmiercią wojownika nie jest przypadkowe. Chodzi wszakże o ὅρκια, zwierzęta ucieleśniające potencjalną śmierć krzywoprzysięzcy; ich śmierć antycypuje śmierć tych, którzy zawarli układ dzierżąc przedmiot wypełniony karzącą mocą przez istoty nadprzyrodzone, śmierć, która niechybnie przyjdzie, jeśli zostaną podeptane obietnice. Antropomorfizacji śmierci zwierzęcia nie należy rozpatrywać wyłącznie w kategoriach chwytów literackich; rzecz wydaje się być o wiele głębsza z punktu widzenia wyobrażeń religijnych. Rytualna dramatyzacja przysięgi połączona z przekananiem o przechodniości mocy i działaniu poprzez analogię – w tym miejscu można by za Faraone przywołać koncepcję „magii sympatycznej” – przemieniają śmierć zwierzęcia w antycypację śmierci krzywoprzysięzcy (Faraone 1993: 74–75). Na temat związku śmierci ofiary ze śmiercią wojownika, zob. Kirk 1981: 307–308; Kitts 2003: 27; Berti 2006: 187.</p>
+                    <p>Rzeczownik θυμός zazwyczaj oznacza „siłę życiową, żywotny oddech” (LfgrE s.v. 1080 i nast.). Etymologicznie wywodzi się z i.e. słowa oznaczającego „dym” (por. łac. fumus). To prototypowe znaczenie zostało metaforycznie rozszerzone na „oddech”, „tchnienie” (por. zwrot θυμὸν ἀποπνείων, Il. 4.524, Il. 13.654). Całkowita utrata tchu jest fizyczną zapowiedzią rychłej śmierci (zob. Clarke 1999: 130–133), stąd należy ją rozumieć jako pozbawienie żywotnej siły – śmierć.</p>
+                    <p>ἀπὸ γὰρ μένος εἵλετο χαλκός – „bo spiż zabrał im siłę”; rzeczownik μένος oznacza tutaj „siłę” (zob. LfgrE s.v. 141.29) i pojawia się w kontekście ofiary zwierzęcej w Od. 3.450. W innych kontekstach rzeczownik może oznaczać „umysł > nastawienie umysłu > odwagę”. </p>
+                    <p> 295–301: Druga ceremonia rzucenia klątwy warunkowej: wino jest drugim płynem, który poprzez analogię odzwierciedla możliwy zły los krzywoprzysięzców.</p>
+                    <p>295: οἶνον δ᾽ ἐκ κρητῆρος ἀφυσσόμενοι δεπάεσσιν / ἔκχεον – „potem wino, czerpiąc z mieszalnika pucharami, / wylewali”; imiesłów ἀφυσσόμενοι odnosi się do wodzów, którzy wcześniej (w. 270) obmyli ręce. W Il. 3.292–293 została użyta liczba pojedyncza, gdyż uwaga była zogniskowana na Agamemnonie, zob. Sommerstein, Torrance 2014: 147. 	δεπάεσσιν – „pucharami”; Słownik grecko-polski interpretuje homerycki rzeczownik δέπας jako „kubek”, „kielich, „czara”, jednak nie zawsze chodzi o małe naczynie używane do picia, gdyż często słowo oznacza większe naczynie (Brommer 1942). Słynna czara Nestora (Il. 11.632 i nast.) jest przysłowiowo pokaźnych rozmiarów. Również rzeczownik dipa w inwentarzach mykeńskich oznacza raczej dzban, por. Collinge 1957: 55–59. Tutaj jednak chodzi o naczynia służące do zaczerpnięcia wina z krateru i wylania libacji. 	ἔκχεον – „wylewali”; czasownik χέω oznacza „wylać (obficie) na ofiarę płynną”. Chodzi o stary czasownik używany w kontekście religijnym na oznaczenie ofiar płynnych (i.-e. ĝheu- znajduje swoją kontynuację w irańskim zav- „ofiarować”, zaotar- „ofiarnik”, zaoθra- „ofiara”, skr. hav- (ho-) „wylewać libację”, hotra „ofiara płynna”, hotṛ „kapłan składający ofiarę typu hotra”, zob. Benveniste 1969: 216–217.</p>
+                    <p>296: ἠδ᾽ εὔχοντο θεοῖς αἰειγενέτῃσιν – „do bogów wiecznych się modląc”; w ofierze przysiężnej nie używa się jęczmienia (oulai, oulochytai), który ofiarnicy trzymają w dłoniach podczas wymawiania słów modlitwy. Funkcjonalnym odpowiednikiem tej czynności jest spełnianie ofiary płynnej.</p>
+                    <p>298–301: Słowa przysięgi wypowiadane przez uczestników obrzędu po obu stronach zawieranego układu opierają się na analogii między spełnianą czynnością – wylewaniem wina przysiężnego, a losem krzywoprzysięzcy – wypłynięciem mózgu.</p>
+                    <p>298: Ζεῦ κύδιστε μέγιστε καὶ ἀθάνατοι θεοὶ ἄλλοι – „Zeusie przesławny, mocarny i inni nieśmiertelni bogowie”; heksametr formularny, w którym poeta połączył dwa hemistychy pojawiające się również w innych kontekstach. Pierwszy hemistych jest stosunkowo rzadki (= Il. 2.412; Hes. Th. 548), epitety κύδιστε μέγιστε częściej pojawiają się w na końcu wersu w heksametrze formularnym: Ζεῦ πάτερ Ἴδηθεν μεδέων κύδιστε μέγιστε, którym Agamemnon rozpoczął mowę zawierającą przywołanie bogów na świadków i warunki traktatu (Il. 3.276). Drugi hemistych pojawia się częściej (Il. 3.308; Od. 3.346; Od. 14.53; Od. 14.119; Od. 18.112; Od. 21.365; Hes. Th. 624, por. Il. 18.116; Il. 22.366). W tym miejscu służy prawdopodobnie przywołaniu bogów, którzy w inwokacji Agamemnona zostali wymienieni szczegółowo: Heliosa, Gai, Rzek oraz bogów świata podziemnego (277–280), zob. Pulleyn 1997: 110 i nast. Na tym tle przywołanie Zeusa wiąże się oczywiście z jego funkcją w panteonie – jako naczelny bóg panteonu roztacza szczególną opiekę nad wszelkimi działaniami związanymi z władzą i relacjami między grupami ludzkimi oraz w ich łonie, stąd jest bogiem czuwającym nad przysięgami i traktatami, por. Rollinger 2004: 388, przyp. 149 oraz 392).</p>
+                    <p>299: ὑπὲρ ὅρκια πημήνειαν – „niech zaszkodzi im wykroczenie poza przysięgi”; podobnie jak w zwrocie ὑπὲρ αἶσαν, „ponad los” = niezgodnie z przeznaczeniem, ludzką kondycją (Il. 3.59 = 6.333), ὑπὲρ oznacza tutaj „wykroczenie poza”, „pogwałcenie”. Sądzę, że pojawia się tutaj ponownie metafora przekroczenia granicy lub podeptania przedmiotów, które wcielają karzącą moc przysięgi. Czasownik πημήνειαν (opt. aor. act. od πημαίνω) występuje wyłącznie w mowach postaci w kontekście religijno-prawnym (Il. 15.42; 24.781; Hes. Th. 232, h.Ap. 262). Inny czasownik o zbliżonym znaczeniu używany w kontekście złamania przysięgi to δηλέομαι, zob. 3.107 z komentarzem.</p>
+                    <p>300: ὧδέ σφ᾽ ἐγκέφαλος χαμάδις ῥέοι ὡς ὅδε οἶνος – „niech tak im na ziemię mózg się wypłynie jako oto to wino”; w eposie termin ἐγκέφαλος odnosi się do płynu wylewającego się z pękniętych czaszek ginących herosów. Chodzi zatem o kolejną metaforę łączącą gesty wykonywane podczas ceremonii zaprzysiężenia traktatu z gwałtowną śmiercią wojownika. Według Ch. Carastro libacja symbolizuje boski element klątwy w przysiędze, to znaczy los, który czyha na ewentualnego krzywoprzysięzcę za sprawą mocy przywoływanej w akcie mowy i gestach towarzyszących przysiędze, zob. Carastro 2012: 85; Sommerstein, Torrance 2014: 214. Ciemnoczerwone wino przypomina krew zmieszaną z mózgiem wypływającym z rozbitego czerepu ginących herosów (por. dwuznaczność polskiego słowa czerep oznaczającego zarówno czaszkę, jak i gliniane naczynie).</p>
+                    <p>310–314: Priam kładzie na rydwan zabite jagnięta i powraca do Troi. Ofiary przysiężne nie były zjadane. W Il. 19.267–8 Taltybios wrzuca je do morza rybom na pożarcie. Można zadać pytanie, czy Priam zabiera tylko ofiary przywiezione przez siebie z Troi (Kirk 1985, ad 3.310). Trudno również powiedzieć, co Priam mógł zrobić z zabitymi zwierzętami. Późniejsze źródła sugerują, że spalanie ich stało się popularną metodą usuwania pozbawionych krwi ciał: IG I3 15d 37; Eur. IA 59; Pl. Critias 120a. W tym miejscu równie dobrze można sobie wyobrazić, że Priam kazał zwierzęta zakopać. </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Iliade canto V</title>
+                <title xml:lang="en">Iliad, book V</title>
+                <title xml:lang="pl">Iliada, pieśń V</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_05_ilias_v</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Iliada, pieśń V</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 79-81</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>W pieśni piątej rozpoczyna się Aristeia Diomedesa, w której tematy ofiarnicze będę ściśle wiązać się przesądzonym losem miasta, które, mimo pobożności Priama, Hektora i jej mieszkańców, zostało skazane na zagładę z powodu czynu Parysa. </p>
+                </div>
+                <div type="textpart" n="Iliad_V_174–178">
+                    <head>Iliada V174–178</head>
+                    <p>Eneasz, zachęcając Pandarosa do wypuszczenia strzały w stronę Diomedesa, wprowadza do swej wypowiedzi wątek teologiczny – potężniejszy przeciwnik może być bogiem, z którym śmiertelnik nie powinien walczyć. Pod koniec zachęty pojawia się wzmianka o zaniedbanych lub niewłaściwie złożonych ofiarach jako potencjalnej przyczynie gniewu bóstwa. Chodzi zatem o „ofiarę włączoną (embedded sacrifice)” w wypowiedź postaci (Hitch 2009: 67 przyp. 26, 130).</p>
+                    <quote>
+                        <lb/>ἀλλ᾽ ἄγε τῷδ᾽ ἔφες ἀνδρὶ βέλος Διὶ χεῖρας ἀνασχὼν
+                        <lb n="175"/>ὅς τις ὅδε κρατέει καὶ δὴ κακὰ πολλὰ ἔοργε Τρῶας,
+                        <lb/>ἐπεὶ πολλῶν τε καὶ ἐσθλῶν γούνατ᾽ ἔλυσεν· 
+                        <lb/>εἰ μή τις θεός ἐστι κοτεσσάμενος Τρώεσσιν 
+                        <lb/>ἱρῶν μηνίσας· χαλεπὴ δὲ θεοῦ ἔπι μῆνις.
+                    </quote>
+                    <quote>
+                        <lb/>„Nuże więc, ręce do Zeusa wznieś i wypuść strzałę w tego męża,
+                        <lb n="175"/>który tak przeważa i mnogie zło uczynił Trojanom,
+                        <lb/>gdyż szlachetnym wielu rozwiązał kolana;
+                        <lb/>jeśli to nie jest bóg jakiś, co gniewem pała na Trojan
+                        <lb/>o zaniedbane ofiary. Ciężki jest bowiem gniew boski”.
+                    </quote>
+                    <p>174: ἀλλ᾽ ἄγε τῷδ᾽ ἔφες ἀνδρὶ βέλος Διὶ χεῖρας ἀνασχὼν – „nuże skieruj strzałę w tego męża, wzniósłszy ręce do Zeusa”; podobnie jak w pieśni IV, także i tutaj wypuszczenie celnej strzały wiąże się z modlitwą, jednak tym razem bogiem, do którego ma się pomodlić Pandaros jest Zeus, nie Apollon. Różnica ta może wynikać z kontekstu wypowiedzi. Zeus jako bóstwo, którego dziedziną działania jest panowanie, w tym przewaga na polu bitewnym i zwycięstwo w zmaganiach, jest właściwym adresatem modlitwy, której stawką jest krátos (por. Il. 1.509; Il. 11.192; Il. 11.319; Il. 11.753; Il. 17.205, w sprawie terminu κράτος, zob. Benveniste 1969: 2, 71–83, czasownik κράτειν, s. 77). Jednak w eposie udzielenie krátos herosowi nie jest wyłączną domeną Zeusa, zob. Il. 16.524 (Apollon), Il. 9.254 (Hera lub Atena). W pieśni IV, w której adresata modlitwy wskazuje Pandorosowi Atena, chodzi przede wszystkim o celny strzał.</p>
+                    <p>Διὶ χεῖρας ἀνασχὼν: zwrot formularny, pojawia się również w narracji głównej w opisie ofiary spełnionej w czasie składania przysięgi (Il. 19.254).</p>
+                    <p>175–6:	wersy formularne (= 16.424–5) powtórzone w wypowiedzi Sarpedona o Patroklosie, gdzie dobrze pasują do kontekstu, w którym Patroklos walczy w przebraniu. Zwrot ὅς τις ὅδε κρατέει, „kto(kolwiek) tutaj przeważa”, podkreśla niepewność poznawczą sytuacji na polu bitewnym w ramach wyobrażeń o świecie, w którym istoty nadprzyrodzone współdziałają z ludźmi (herosami).</p>
+                    <p>177–178: εἰ μή τις θεός ἐστι κοτεσσάμενος Τρώεσσιν / ἱρῶν μηνίσας – „jeśli to nie jest bóg jakiś, co gniewem pała na Trojan / o zaniedbaną ofiar”; interwencja boga, jako wynik gniewu z powodu zaniedbanych ofiar pojawia się również mowie Achillesa (1.65: εὐχωλῆς ἐπιμέμφεται ἠδ' ἑκατομβης, por. Casabona 1966: 7). W obu wypadkach nie wskazuje się konkretnej osoby lub grupy ludzkiej, która mogłaby być winna wywołania gniewu (Hitch 2009: 82–83), jednak domyślnym podmiotem są tutaj Trojanie. Nieokreślony jest również bóg (εἰ μή τις θεός ἐστι), który może działać. W pieśni I odpowiedzi na analogiczne pytanie udzielił wieszczek (mantis) Kalchas. W warunkach walki Pandaros roztropnie odpowiada, że nie może mieć pewności, czy nie jest to bóg, ale z wyglądu przeciwnik jest podobny do Diomedesa, który „z boga pomocą jakiegoś tutaj szaleje” (Il. 5.183–185). Miejsce jest interesujące zatem z powodu powiązania kryzysowej sytuacji na polu bitewnym z wykroczeniem przeciwko zasadzie wzajemności w relacja ludzi i bogów (Hitch 2009: 130).</p>
+                    <p>ἱρῶν μηνίσας: czasownik μηνίω „gniewać się” oraz rzeczownik μῆνις w eposie homeryckim odnoszą się przede wszystkim do bogów (Watkins 1971). Wyjątkiem jest Achilles, którego „gniew” jest głównym tematem Iliady (Nagy 1999: 72–74). Zaniedbana ofiara jako przyczyna gniewu bogów: Il. 1.65 z komentarzem. Rzeczownik ἱρῶν oznacza tutaj ofiarę w jej materialnym aspekcie (Casabona 1966: 7), która z perspektywy bogów objawia się jako wytworzenie dymu ze spalenia części im przeznaczonej.</p>
+                </div>
+            
+            </div>
+            
+        </body>
+    </text>
+</TEI>

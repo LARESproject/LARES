@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Iliade canto XX</title>
+                <title xml:lang="en">Iliad book XX</title>
+                <title xml:lang="pl">Iliada, pieśń XX</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_17_ilias_xx</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Iliada, pieśń XX</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, p. 153</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>W pieśni dwudziestej narracja skupia się na postaci Eneasza. Ani w narracji głównej, ani w wypowiedziach postaci nie znajdujemy wzmianek o ofierze. Obraz ofiarniczy pojawia się natomiast w porównaniu.</p>
+                </div>
+                <div type="textpart" n="Iliad_XX_401–406">
+                    <head>Iliada XX 401–406</head>
+                    <quote>
+                        <lb/>Ἱπποδάμαντα δ᾽ ἔπειτα καθ᾽ ἵππων ἀΐξαντα 					
+                        <lb/>πρόσθεν ἕθεν φεύγοντα μετάφρενον οὔτασε δουρί. 
+                        <lb/>αὐτὰρ ὃ θυμὸν ἄϊσθε καὶ ἤρυγεν, ὡς ὅτε ταῦρος 
+                        <lb/>ἤρυγεν ἑλκόμενος  Ἑλικώνιον ἀμφὶ ἄνακτα 
+                        <lb n="405"/>κούρων ἑλκόντων· γάνυται δέ τε τοῖς ἐνοσίχθων·
+                        <lb/>ὣς ἄρα τόν γ᾽ ἐρυγόντα λίπ᾽ ὀστέα θυμὸς ἀγήνωρ·  
+                    </quote>
+                    <quote>
+                        <lb/>Hippodamanta, który z wozu zeskoczył
+                        <lb/>i rzucił się do ucieczki, ugodził włócznią w plecy,
+                        <lb/>ten zaś ducha wyzionął i zaryczał, jak buhaj
+                        <lb/>ryczy, wleczony wokół pana helikońskiego,
+                        <lb n="405"/>chłopcy go wloką: zadowolony jest z nich wstrząsający lądem.
+                        <lb/>Tak i on ryczał, gdy mężny duch opuszczał kości.
+                    </quote>
+                    <p>403: ὡς ὅτε ταῦρος / ἤρυγεν ἑλκόμενος  Ἑλικώνιον ἀμφὶ ἄνακτα – „jak buhaj / ryczy, wleczony wokół pana helikońskiego”; śmierć wojownika jest porównana do śmierci buhaja ciągniętego wokół ołtarza Posejdona Helikoniosa. W rejestrze nieheroicznym, wykorzystywanym w porównaniach, Homer odchodzi od schematycznego i pozbawionego emocji opisu ofiary ze scen typowych. Odwołując się do idei Karla Meuliego, można rzec, że w porównaniach znika komedia niewinności (Burkert 1985: 56). W brutalnym obrazie wleczonego przez młodzieńców buhaja, który ryczy przed śmiercią, trudno dostrzec zakładany ideał dobrowolnego poddania się śmierci.</p>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

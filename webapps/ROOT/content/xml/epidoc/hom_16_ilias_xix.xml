@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Iliade canto XIX</title>
+                <title xml:lang="en">Iliad book XIX</title>
+                <title xml:lang="pl">Iliada, pieśń XIX</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_16_ilias_xix</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Iliada, pieśń XIX</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 147-152</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Pieśń dziewiętnastą rozpoczyna opowiadanie o 27. dniu akcji (4. dniu walki). Jej tematem jest wyrzeczenie się gniewu przez Achillesa. Kulminacyjny moment pojednania Achillesa z Agamemnonem stanowi przysięga Agamemnona, który oświadcza wobec wszystkich Achajów, że nie tknął Bryzejdy. Zgodnie z obyczajem przysiędze towarzyszy rytuał zarżnięcia zwierzęcia, którego krew stanowi horkos, materialny nośnik mocy karzącej krzywoprzysięzcę.</p>
+                </div>
+                <div type="textpart" n="Iliad_XIX_184–197">
+                    <head>Iliada XIX 184–197</head>
+                    <p>Agamemnon wydaje rozkazy, które mają doprowadzić do pojednania z Achillesem poprzez złożenie mu darów oraz zawarcie układu potwierdzonego przysięgą. Nie zwraca się jednak do samego Achillesa, lecz do Odyseusza i Taltybiosa. Mowa ma strukturę A – B – A: najpierw spokojnie odnosi się z aprobatą do słów Odyseusza (185–188a), kończąc słowami pośrednio skierowanymi do Achillesa (188b–189); następnie wydaje rozkaz zgromadzeniu, aby pozostało na miejscu jako świadek pojednania i przysięgi (190–191); po czym ponownie zwraca się do Odyseusza z rozkazem wybrania młodzieńców i przyniesienia darów dla Achillesa oraz zapowiada posłanie Taltybiosa po wieprza na ofiarę przysiężną dla Zeusa i Heliosa. Wyimek jest interesujący dla nas ze względu na podobieństwo ofiary przysiężnej, zarówno rytualnej, jak i w ekspresji poetyckiej, do sceny typowej – ofiara zwierzęca.</p>
+                    <quote>
+                        <lb/>Τὸν δ᾽ αὖτε προσέειπεν ἄναξ ἀνδρῶν  Ἀγαμέμνων· 				
+                        <lb n="185"/>χαίρω σεῦ  Λαερτιάδη τὸν μῦθον ἀκούσας· 
+                        <lb/>ἐν μοίρῃ γὰρ πάντα διίκεο καὶ κατέλεξας. 
+                        <lb/>ταῦτα δ᾽ ἐγὼν ἐθέλω ὀμόσαι, κέλεται δέ με θυμός, 
+                        <lb/>οὐδ᾽ ἐπιορκήσω πρὸς δαίμονος. αὐτὰρ  Ἀχιλλεὺς 
+                        <lb/>μιμνέτω αὐτόθι τεῖος ἐπειγόμενός περ  Ἄρηος· 
+                        <lb n="190"/>μίμνετε δ᾽ ἄλλοι πάντες ἀολλέες, ὄφρά κε δῶρα 
+                        <lb/>ἐκ κλισίης ἔλθῃσι καὶ ὅρκια πιστὰ τάμωμεν. 
+                        <lb/>σοὶ δ᾽ αὐτῷ τόδ᾽ ἐγὼν ἐπιτέλλομαι ἠδὲ κελεύω· 
+                        <lb/>κρινάμενος κούρητας ἀριστῆας  Παναχαιῶν 
+                        <lb/>δῶρα ἐμῆς παρὰ νηὸς ἐνεικέμεν, ὅσσ᾽  Ἀχιλῆϊ 
+                        <lb n="195"/>χθιζὸν ὑπέστημεν δώσειν, ἀγέμεν τε γυναῖκας. 
+                        <lb/>Ταλθύβιος δέ μοι ὦκα κατὰ στρατὸν εὐρὺν  Ἀχαιῶν 
+                        <lb/>κάπρον ἑτοιμασάτω ταμέειν  Διί τ᾽  Ἠελίῳ τε.
+                    </quote>
+                    <quote>
+                        <lb/>Wtedy mu odpowiedział pan mężów Agamemnon:
+                        <lb n="185"/>„Raduję się, gdy wysłuchałem twego słowa Laertijado:
+                        <lb/>stosownie bowiem wszystko przedstawiłeś i wymieniłeś.
+                        <lb/>Chcę to zaprzysiąc, do tego skłania mnie serce,
+                        <lb/>i nie będę krzywoprzysięzcą wobec bogów. Achilleus
+                        <lb/>niech tu pozostanie, chociaż tęskni za Aresem,
+                        <lb n="190"/>Pozostańcie i wy, wszyscy zebrani, ponieważ dary
+                        <lb/>z namiotu przyniosę i zawrzemy wierne przymierze.
+                        <lb/>Tobie natomiast tę rzecz polecam i rozkazuję:
+                        <lb/>wyznacz młodzieńców szlachetnych spośród Panachajów,
+                        <lb/>aby przynieśli dary z mojego okrętu, które 
+                        <lb n="195"/>wczoraj obiecaliśmy dać Achillesowi, sprowadzimy też kobiety. 
+                        <lb/>Taltybios zaś niech przygotuje mi szybko 
+                        <lb/>wieprza do zarżnięcia dla Zeusa i Heliosa”.
+                    </quote>
+                    <p>187: ταῦτα δ᾽ ἐγὼν ἐθέλω ὀμόσαι – „chcę to zaprzysiąc”; czasownik ὀμνύναι, „przysięgać”, „złożyć przysięgę” częściej występuje z biernikiem wewnętrznym ὅρκον „przysięgę” (w znaczeniu przedmiotu wypełnionego mocą, która zadziała przeciwko przysięgającemu w przypadku złamania słowa). Tutaj ταῦτα odnosi się do w. 175–6, gdzie Odyseusz wzywa Agamemnona do złożenia przysięgi, że nie poszedł z Bryzejdą do łoża: ὀμνυέτω δέ τοι ὅρκον / μή ποτε τῆς εὐνῆς ἐπιβήμεναι ἠδὲ μιγῆναι.</p>
+                    <p>188: οὐδ᾽ ἐπιορκήσω πρὸς δαίμονος – „i nie będę krzywoprzysięzcą wobec bogów”; w sprawie czasownika ἐπιορκέω, zob. Il. 3.279. Chodzi o czasownik denominatywny zbudowany na przymiotniku ἐπίορκος, który zgodnie ze swą morfologią oznacza „ten, na którym spoczywa ὅρκος” = „przeciw komu jest (potencjalnie) skierowana moc przedmiotu przysiężnego”. Ponieważ horkos zakłada ideę kary zagrażającej temu, kto złamie potwierdzoną w ten sposób obietnicę, słowa Agamemnona można rozumieć następująco: „i nie skieruję przeciwko sobie niszczycielskiej mocy zawartej w horkos pochodzącej od boga”. Zob. Benveniste 1947: 87–90.</p>
+                    <p>195: κάπρον ἑτοιμασάτω ταμέειν  Διί τ᾽  Ἠελίῳ τε – „[Taltybios] niech przygotuje wieprza do zarżnięcia dla Zeusa i Heliosa”; wezwanie herolda do przygotowania zwierzęcia jako ofiary przysiężnej odpowiada innym miejscom w scenach typowych, w których heros – ofiarnik nakazuje pomocnikom przygotowanie zwierząt ofiarnych. Później Agamemnon wezwie na świadków swojego oświadczenia nie tylko Zeusa i Heliosa, a zatem bogów wszechwidzących z nieba, lecz również Ziemię i Erynie.</p>
+                </div>
+                
+                <div type="textpart" n="Iliad_XIX_249–268">
+                    <head>Iliada XIX 249–268</head>
+                    <quote>
+                        <lb/>καὶ τὰ μὲν ἐν μέσσῃ ἀγορῇ θέσαν, ἂν δ᾽  Ἀγαμέμνων 
+                        <lb n="250"/>ἵστατο·  Ταλθύβιος δὲ θεῷ ἐναλίγκιος αὐδὴν 
+                        <lb/>κάπρον ἔχων ἐν χερσὶ παρίστατο ποιμένι λαῶν. 
+                        <lb/>Ἀτρεΐδης δὲ ἐρυσσάμενος χείρεσσι μάχαιραν, 
+                        <lb/>ἥ οἱ πὰρ ξίφεος μέγα κουλεὸν αἰὲν ἄωρτο, 
+                        <lb/>κάπρου ἀπὸ τρίχας ἀρξάμενος  Διὶ χεῖρας ἀνασχὼν 
+                        <lb n="255"/>εὔχετο· τοὶ δ᾽ ἄρα πάντες ἐπ᾽ αὐτόφιν εἵατο σιγῇ 
+                        <lb/>Ἀργεῖοι κατὰ μοῖραν ἀκούοντες βασιλῆος. 
+                        <lb/>εὐξάμενος δ᾽ ἄρα εἶπεν ἰδὼν εἰς οὐρανὸν εὐρύν·
+                        <lb/>ἴστω νῦν  Ζεὺς πρῶτα θεῶν ὕπατος καὶ ἄριστος 
+                        <lb/>Γῆ τε καὶ  Ἠέλιος καὶ  Ἐρινύες, αἵ θ᾽ ὑπὸ γαῖαν 
+                        <lb n="260"/>ἀνθρώπους τίνυνται, ὅτις κ᾽ ἐπίορκον ὀμόσσῃ, 
+                        <lb/>μὴ μὲν ἐγὼ κούρῃ  Βρισηΐδι χεῖρ᾽ ἐπένεικα, 
+                        <lb/>οὔτ᾽ εὐνῆς πρόφασιν κεχρημένος οὔτέ τευ ἄλλου. 
+                        <lb/>ἀλλ᾽ ἔμεν᾽ ἀπροτίμαστος ἐνὶ κλισίῃσιν ἐμῇσιν. 
+                        <lb/>εἰ δέ τι τῶνδ᾽ ἐπίορκον ἐμοὶ θεοὶ ἄλγεα δοῖεν 
+                        <lb n="265"/>πολλὰ μάλ᾽, ὅσσα διδοῦσιν ὅτίς σφ᾽ ἀλίτηται ὀμόσσας.
+                        <lb/>῏Η, καὶ ἀπὸ στόμαχον κάπρου τάμε νηλέϊ χαλκῷ. 
+                        <lb/>τὸν μὲν  Ταλθύβιος πολιῆς ἁλὸς ἐς μέγα λαῖτμα 
+                        <lb/>  ῥῖψ᾽ ἐπιδινήσας βόσιν ἰχθύσιν·  
+                    </quote>
+                    <quote>
+                        <lb/>i położyli je [dary] pośrodku zgromadzenia. Agamemnon
+                        <lb/>wstał; Taltybios, z głosu do boga podobny
+                        <lb/>wieprza w ręku dzierżąc przystanął przy pasterzu ludów.
+                        <lb/>Atryda zaś wyciągnął rękami nóż ofiarny,
+                        <lb/>który przy długiej pochwie miecza zawsze mu wisiał.
+                        <lb/>Od szczeci wieprza rozpoczynając, wznosząc ręce do góry,
+                        <lb/>modlił się, Argiwowie natomiast rozsiedli się w milczeniu
+                        <lb/>wszyscy stosownie słuchali króla. 
+                        <lb/>Oświadczył, wzrok wznosząc ku szerokiemu niebu:
+                        <lb/>„Patrz teraz Zeusie jako pierwszy, z bogów najwyższy i najlepszy,
+                        <lb/>Ziemio, Heliosie i Erynie, które pod ziemią
+                        <lb/>karzecie ludzi, gdy który przysięgnie krzywo,
+                        <lb/>że ja nie położyłem ręki na dziewczynie Bryzejdzie,
+                        <lb/>aby z nią łoże podzielić, bądź w jakimś innym zamiarze,
+                        <lb/>lecz pozostawała nietknięta w moim namiocie.
+                        <lb/>Jeśli zaś w czymś krzywo przysiągłem, niech bogowie dadzą mi
+                        <lb/>mnogie cierpienia, jakie dają temu, kto przeciw nim wykroczy”.
+                        <lb/>Tak powiedział i przeciął gardło wieprza okrutnym spiżem,
+                        <lb/>Taltybios zaś wieprza w głęboką toń szarego morza
+                        <lb/>rzucił z rozmachem na pastwę ryb.
+                    </quote>
+                    <p>249: καὶ τὰ μὲν ἐν μέσσῃ ἀγορῇ θέσαν – „i położyli je [dary] pośrodku zgromadzenia”; podobnie jak w pieśni III rytuał złożenia przysięgi wymaga teatralizacji sceny – Achajowie siadają, na środek wolnego placu przynosi się dary, herold przyprowadza zwierzę przysiężne, Agamemnon wstaje i rozpoczyna się ceremonia. Widoczność i dobra słyszalność głównego aktora w procesie rytualnym jest tutaj sprawą podstawową.</p>
+                    <p>251: ἔχων ἐν χερσί – „w ręku dzierżąc”; fraza formularna (6x Il., 5x Od. 1x Hes., por. Kelly 2007: 237 i nast., Coray 2016: 116). W przeciwieństwie do pieśni III, gdzie jagnięta są trzymane w ręku, wieprz/odyniec jest przytrzymywany ręką, na co wskazuje instrumentalne znaczenie przedimka ἐν; chodzi o przytrzymywanie zwierzęcia w celu kontroli jego ruchów (por. Il. 21.531).</p>
+                    <p>252–254a: Obcięcie sierści zwierzęcia ofiarnego oznacza początek działań rytualnych prowadzących do uboju (por. Il. 3.273, Od. 3.446, Od. 14.442; por. Eur. El. 810–812). Zazwyczaj gest ten interpretuje się jako antycypację uboju – pierwszy akt przemocy dokonany na zwierzęciu. W przypadku ofiary przysiężnej chodzi o wzmocnienie przysięgi, dlatego obcięta sierść jest wręczana uczestnikom obrzędu jako znak ich zaangażowania (np. w przypadku zbiorowej przysięgi w Il. 3.273 i nast.). Składający przysięgę budują w ten sposób analogię między losem zabitego zwierzęcia a ich losem w przypadku niedotrzymania warunków. Interpretację tę wzmacnia fakt, że w tym przypadku przysięga jest składana przez samego Agamemnona, który bierze do ręki szczeć wieprza (Nilsson [1940] 1967: 140, por. Coray 2016: 116).</p>
+                    <p>ἀπὸ τρίχας ἀρξάμενος – „od szczeci wieprza rozpoczynając”; czasownik ἀπ-/ἐπ-/κατ-άρχομαι jest terminem technicznym używanym na działanie rozpoczynające rytuał (ofiarę lub libację). Por. Il. 3.272 z komentarzem oraz Od. 3.445 z komentarzem. Zob. Rudhardt 1958: 219 i nast.</p>
+                    <p>257: εὐξάμενος – „modlił się”; nie chodzi o modlitwę w ścisłym tego słowa znaczeniu, gdyż Agamemnon nie prosi o żadne dobra, lecz zaklina się, że nie tknął Bryzejdy. Na temat znaczenia εὔχομαι, zob. Benveniste 1969: 233–243; Coray, ed. 2016: 117; Edwards, comm. ad 252–255.</p>
+                    <p>ἰδὼν εἰς οὐρανὸν εὐρύν – „wzrok wznosząc ku szerokiemu niebu”; wzniesienie oczu do nieba wskazuje na osobisty, emocjonalny charakter przysięgi, Pucci 2012: 437–438. Poeta Iliady wprowadza ten hemistych formularny, gdy chce podkreślić dążenie do nawiązania bliskiego kontaktu z bóstwem, które ma wszelkie powody, aby odrzucić modlitwę.</p>
+                    <p> 258: ἴστω νῦν  Ζεύς – „patrz teraz, Zeusie”; wers formularny (= Od. 19.303, Od. 20.230, por. Od. 14.158, Od. 17.155, Il. 10.329, Il. 23.43). Agamemnon, patrząc w stronę nieba, wzywa Zeusa, aby ten spojrzał na ziemię jako świadek przysięgi. Zeus jest gwarantem przysiąg jako naoczny świadek, który z wysokości spogląda na świat ludzi. Czasownik ἴστω nie oznacza tutaj po prostu „patrz”, lecz jednocześnie „wiedz”. Na temat tej formuły oraz związku między wzrokiem, widzeniem i wiedzą, zob. Benveniste 1969: 173–174.</p>
+                    <p>θεῶν ὕπατος καὶ ἄριστος – „z bogów najwyższy i najlepszy”; charakterystyczna dla inwokacji modlitewnych akumulacja epitetów w stopniu najwyższym jest elementem indoeuropejskiej poetyki religijnej, por. Iupitter Optimus Maximus, zob. West 2007: 129 i nast., Coray 2016: 119.</p>
+                    <p>259: Γῆ τε καὶ  Ἠέλιος καὶ  Ἐρινύες; „Ziemio, Heliosie i Erynie”; wezwane bóstwa reprezentują trzy poziomy kosmosu: niebo, ziemię i świat podziemny, Coray 2016: 118. W przysięgach bogów tym trzem wymiarom odpowiada przysięga na ziemię, niebo i wody Styks: Hera (Il. 15.36 i nast.), Kalypso (Od. 5.184 i nast.), por. Leto w h.hymn.Ap. 84 i nast. Helios jest wzywany podczas przysiąg jako bóg wszystkowidzący i wszystkosłyszący, por. Il. 3.277 i nast. Erynie pojawiają się tutaj jako bóstwa chtoniczne, groźne mścicielki wszelkich wykroczeń wobec naturalnego ładu. Imię Erinys (w l.poj.) znane w epoce mykeńskiej z Knossos, w Teogonii Hezjoda Erynie (l.mn.) powstały ze spadłej na Ziemię (Gaję) krwi okaleczonego Uranosa.</p>
+                    <p>Ἐρινύες, αἵ θ᾽ ὑπὸ γαῖαν / ἀνθρώπους τίνυνται, ὅτις κ᾽ ἐπίορκον ὀμόσσῃ – „które pod ziemią / karzecie ludzi, gdy który przysięgnie krzywo”; wersy te sugerują karę pośmiertną, chociaż Il. 3.300 i nast. oraz Il. 4.158 i nast. sugeruje karę za życia (por. Il. 9.454–6; Il. 9.571 i nast.; Il. 19.87. Na ten temat zob. Coray 2016: 119 z bibliografią oraz Zerhoch 2015: 178–180.</p>
+                    <p>266: ῏Η, καὶ ἀπὸ στόμαχον κάπρου τάμε νηλέϊ χαλκῷ – „Tak powiedział i przeciął gardło wieprza okrutnym spiżem”; wers formularny (~ Il. 3.292 z komentarzem). Działanie rytualne wzmacnia akt mowy, Graf 1997.</p>
+                    <p>267–268a: Wrzucenie odyńca do morza jest interesującą informacją z religioznawczego punktu widzenia. W przeciwieństwie do ofiary zwierzęcej, w której dla bogów palono w ofierze części zwierzęcia, w uboju towarzyszącym przysiędze wyrzuca się całe truchło. Zazwyczaj interpretuje się ten gest jako chęć uniknięcia skalania zwierzęciem ofiarnym, na którym ciąży zmaza wywołana rytuałem przysięgi (Coray 2016: 123; Kirk 1985). Inni badacze interpretują ten gest jako symboliczne odrzucenie wrogości, gniewu (mēnis), zob. Burkert 2001 (1991): 88. Z kolei Chris Faraone uznaje go za zapowiedź losu krzywoprzysięzcy – śmierć bez pochówku (Faraone 1993: 75).</p>
+                </div>
+           
+            </div>
+            
+        </body>
+    </text>
+</TEI>

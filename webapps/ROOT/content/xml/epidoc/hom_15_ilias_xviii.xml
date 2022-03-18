@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Iliade canto XVIII</title>
+                <title xml:lang="en">Iliad book XVIII</title>
+                <title xml:lang="pl">Iliada, pieśń XVIII</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_15_ilias_xviii</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Iliada, pieśń XVIII</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 145-146</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="Iliad_XVIII_333–337">
+                    <head>Iliada XVIII 333–337</head>
+                    <p>Lament Achillesa nad zabitym Patroklosem kończy się ślubowaniem zapowiadającym rytuały pogrzebowe. Achilles obiecuje zabicie przy stosie pogrzebowym dwunastu dzieci trojańskich, ale nie chodzi tu o ofiarę w ścisłym tego słowa znaczeniu. Brakuje odniesienia do istot nadprzyrodzonych, do których ofiara mogłaby być skierowana. </p>
+                    <quote>
+                        <lb/>νῦν δ’ ἐπεὶ οὖν Πάτροκλε σεῦ ὕστερος εἶμ’ ὑπὸ γαῖαν, 			
+                        <lb/>οὔ σε πρὶν κτεριῶ πρίν γ’ Ἕκτορος ἐνθάδ’ ἐνεῖκαι
+                        <lb n="335"/>τεύχεα καὶ κεφαλὴν μεγαθύμου σοῖο φονῆος·   
+                        <lb/>δώδεκα δὲ προπάροιθε πυρῆς ἀποδειροτομήσω 
+                        <lb/>Τρώων ἀγλαὰ τέκνα σέθεν κταμένοιο χολωθείς. 
+                    </quote>
+                    <quote>
+                        <lb/>Teraz, Patroklosie, gdy mam zejść w ślad za tobą pod ziemię,		
+                        <lb/>ciebie nie złożę w niej, dopóki Hektora tam nie złożę
+                        <lb n="335"/>zbroi i głowy, twojego zabójcy o duszy wyniosłej.
+                        <lb/>Jeszcze przy stosie płonącym zarżnę dwunastu
+                        <lb/>wspaniałych dzieci Trojan, za twoją śmierć rozgniewany.
+                    </quote>
+                    <p>334–335: Ucięcie głowy jest najpewniej zwyczajowym znakiem zemsty, zob. Il. 18.176 oraz Il. 17.38–40, jednak ta zapowiedź nie zostanie spełniona, gdyż kłóciłaby się ona z koniecznością zwrotu nienaruszonego ciała Hektora ojcu. W Il. 23.21 zemsta zostanie zrealizowana pod postacią wleczenia zwłok Hektora za rydwanem i pozostawienie psom.</p>
+                    <p>336–337: Wersy te zostaną powtórzone w narracji głównej w Il. 23.22–23.</p>
+                    <p>ἀποδειροτομήσω – „zarżnę”;  czasownik ἀποδειροτομέω wyraża brutalność czynności. Etymologicznie jest czasownikiem złożonym z rzeczownika δειρή – „szyja” i czasownika τάμνω – „ciąć, przecinać”, chodzi zatem o całkowite lub niemal całkowicie przecięcie gardła (na temat τάμνω w kontekstach ofiarniczych, zob. Casabona 1966: 211 i nast.). W Odysei odnosi się do czynności zarżnięcia owcy podczas rytuału nekromantycznego, gdy celem rytuału jest wytoczenie jak największej ilości krwi (Od. 11.35 z komentarzem, por. ἀπὸ στομάχους ἀρνῶν τάμε w Il. 3.292 o owcach zabitych jako poręka przysięgi). Bez przedrostka ἀπο- pojawia się 3 x Il. (Il. 21.89; Il. 21.555) i 1 x Od. (22.349). Chociaż czasownik bywa używany również do opisu zgładzenia pokonanego i wziętego do niewoli wojownika na polu bitwy, w tym miejscu zabicie chłopców ma dokonać się w kontekście rytualnym – przy stosie pogrzebowym Patroklosa. Zob.  Bonnechere 1994: 285, przyp. 16.</p>
+                    <p>χολωθείς – „rozgniewany”; gniew Achillesa jest teraz skierowany na Hektora. W tekście heros zabija dzieci powodowany gniewem, a nie wymaganiami rytuału. Nie można jednak wykluczyć, że chodzi o jakąś formę ofiary z człowieka.</p>
+                </div>
+                <div type="textpart" n="Iliad_XVIII_558–560">
+                    <head>Iliada XVIII 558–560</head>
+                    <p>W ekfrazie tarczy Achillesa – polis w czasie pokoju – pojawia się wzmianka o wieczerzy przygotowywanej przez heroldów dla żniwiarzy. Trudno z całą pewnością powiedzieć, czy chodzi o ofiarę krwawą, jednak czasownik ἱερεύω zdaje się na to wskazywać.</p>
+                    <quote>
+                        <lb/>κήρυκες δ᾽ ἀπάνευθεν ὑπὸ δρυῒ δαῖτα πένοντο, 				
+                        <lb/>βοῦν δ᾽ ἱερεύσαντες μέγαν ἄμφεπον· αἳ δὲ γυναῖκες 
+                        <lb/>δεῖπνον ἐρίθοισιν λεύκ᾽ ἄλφιτα πολλὰ πάλυνον.  
+                    </quote>
+                    <quote>
+                        <lb/>obok zaś kerykes pod dębem wieczerzę przygotowywali,			
+                        <lb/>zabiwszy wołu wielkiego sprawiali. Kobiety natomiast
+                        <lb/>posypywały obficie białą mąką posiłek dla robotników.
+                    </quote>
+                    <p>559: βοῦν δ᾽ ἱερεύσαντες μέγαν ἄμφεπον – „zabiwszy wołu wielkiego sprawiali”; w scenie brak wyraźnego wskazania, że chodzi o ofiarę (zwłaszcza brakuje imienia boga, dla którego wół jest poświęcony). Wydaje się, że heroldzi przygotowują po prostu posiłek dla żniwiarzy. Nie można jednak wykluczyć, że dokonano uboju rytualnego z zachowaniem podziału na część przeznaczoną dla ludzi i część przeznaczoną dla bogów. Casabona 1966: 23.</p>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

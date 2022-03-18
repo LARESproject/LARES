@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Iliade canto XI</title>
+                <title xml:lang="en">Iliad book XI</title>
+                <title xml:lang="pl">Iliada, pieśń XI</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_11_ilias_xi</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Iliada, pieśń XI</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 135-139</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Pieśń 11. opowiada wydarzenia 26. dnia fabuły Iliady i otwiera długą narrację trzeciego dnia bitwy. Z wyjątkiem wzmianki narratora głównego o zaniedbanej hekatombie przy wznoszeniu wałów wokół obozu Achajów (Il. 12.3–19), aż do końca opowiadania o wydarzeniach tego dnia walki ofiary pojawiają się wyłącznie w mowach postaci: narracjach włączonych w tekst narracji głównej. W pieśni 11. Nestor opowiada Patroklosowi wydarzenia z własnej młodości oraz z czasu zwoływania wyprawy trojańskiej, wspominając trzykrotnie składane wówczas ofiary. Ofiary krwawe mają tutaj typowe dla eposu funkcje. W opowieściach o wyprawach heroicznych ofiary znaczą istotne momenty fabuły: dokonanie czynu heroicznego, dotarcie do miejsca, które jest etapem wyprawy lub jej celem, lub jako element sceny typowej – przybycie gościa. Gdy Patroklos wysłany przez Achillesa przybywa do Nestora, aby dowiedzieć się o sytuacji w obozie Achajów, stary heros wygłasza długą mowę (656–803). Włącza do niej opowieść o zdarzeniach ze swej młodości, gdy wziął udział w wyprawie rabunkowej przeciwko Elidzie (670–761) oraz przypomnienie polecenia Menojtijosa z czasu zwoływania wyprawy trojańskiej (765–803). Mamy zatem do czynienia, z narracją włączoną w narrację główną. Wzmianki o ofiarach pojawiają się trzykrotnie – dwukrotnie w opowieści o wyprawie rabunkowej [Tekst 42, 43] i raz, gdy Nestor wspomina swoje przybycie do Ftyi [Tekst 44].</p>
+                </div>
+                <div type="textpart" n="Iliad_XI_703–710">
+                    <head>Iliada XI 703–710</head>
+                    <p>W Il. 11.670–761 Nestor opowiada o wyprawie łupieżczej przeciwko Elidzie. Narracja włączona w wypowiedź postaci ma prawdopodobnie swoje źródła w niezależnej tradycji epickiej Pylos i Elidy, która została wykorzystana przez poetę do przedstawienia opowiadania kontrastującego z narracją główną, tzw. Nestoris (Willcock 1976: 132–133; Hainsworth 1993: 296–298; Dikson 1995: 173; 206 przyp. 24). Kurt Raaflaub sugerował nawet, że epos o walce między sąsiadującymi społecznościami oddzielonymi rzeką był jedynym schematem narracyjnym możliwym w okresie Wieków Ciemnych, a epos o wyprawie zamorskiej mógł się pojawić dopiero ze zwiększeniem mobilności na początku epoki archaicznej (Raaflaub 1993). Niezależnie od prehistorii tego motywu, mamy tutaj do czynienia z epickim schematem, zgodnie z którym relacje między Pylos a Elidą opierają się na sekwencji: (1) czyn łamiący normę – (2) zemsta rekompensująca stratę. (1) Augejas, władca Elidy, wykorzystując osłabienie Pylos najazdem Heraklesa, zawłaszczył cztery rumaki i wozy wysłane przez Neleusa na igrzyska. Odpowiadając na przemoc, (2) młodzi wojownicy z Pylos organizują wyprawę łupieżczą, w czasie której zagarniają pięćdziesiąt stad wołów, owiec i kóz oraz sto pięćdziesiąt klaczy. Następnego dnia po powrocie z łupem, o świcie, Neleus rozdziela łup między tych, którym była dłużna Elida. Jako pierwszy otrzymuje swoją rekompensatę Neleus, a następnie dzieli, z pomocą członków elity, między pozostałych. Wieczorem tego samego dnia, mieszkańcy Pylos składają ofiary bogom, które najpewniej mają funkcję podobną, do dziesięciny z łupów znanej z okresu klasycznego. Na temat epizodu, zob. Willcock 1964; Dickson 1995.</p>
+                    <quote>
+                        <lb/>τῶν ὃ γέρων ἐπέων κεχολωμένος ἠδὲ καὶ ἔργων 
+                        <lb/>ἐξέλετ’ ἄσπετα πολλά· τὰ δ’ ἄλλ’ ἐς δῆμον ἔδωκε 
+                        <lb n="705"/>δαιτρεύειν, μή τίς οἱ ἀτεμβόμενος κίοι ἴσης.
+                        <lb/>ἡμεῖς μὲν τὰ ἕκαστα διείπομεν, ἀμφί τε ἄστυ
+                        <lb/>ἕρδομεν ἱρὰ θεοῖς· 	
+                    </quote>
+                    <quote>
+                        <lb/>Starzec więc, zagniewany słowami i czynami,
+                        <lb/>wziął niewysłowione mnóstwo, a resztę dał ludowi
+                        <lb n="705"/>rozdzielić, aby nikt skrzywdzony nie odszedł bez równej doli.
+                        <lb/>My więc dzieliliśmy wszystko, jedno po drugim, a potem w mieście
+                        <lb/>składaliśmy bogom ofiary. 
+                    </quote>
+                    <p>703: ὃ γέρων – „starzec”; scil. Neleus, stary król Pylos, ojciec Nestora.</p>
+                    <p>τῶν… ἐπέων κεχολωμένος ἠδὲ καὶ ἔργων – „zagniewany słowami i czynami”; chodzi o zniewagi, jakich doznali mieszkańcy Pylos oraz sam Neleus ze strony Augajosa i Elidy.</p>
+                    <p>707: ἕρδομεν ἱρὰ θεοῖς – „składaliśmy bogom ofiary”; Jean Casabona (1966: 50–1) przytacza ten passus jako przykład użycia zwrotu ἱρὰ ἔρδω w odniesieniu do wielu ofiar, a nie do „rytów” składających się na obrzęd ofiary, co pozwala przełożyć go jako „złożyć ofiarę”, por. Il. 1.147; Il. 9.357. </p>
+                </div>
+                
+                <div type="textpart" n="Iliad_XI_726–732a">
+                    <head>Iliada XI 726–732a</head>
+                    <p>W tradycji epickiej mieszkańcy Pylos byli przedstawiani jako pobożni, por. Od. 3, Il. 11.753; 761. Ofiara składana przy okazji przekraczania rzeki w okresie klasycznym διαβατήρια (por. Thuk. 5.54 i 116). W okresie klasycznym ofiara ta mogła mieć aspekt wróżebny, którego nie ma u Homera. Na temat διαβατήρια, zob. Rudhardt 1959:</p>
+                    <quote>
+                        <lb/>ἔνδιοι ἱκόμεσθ’ ἱερὸν ῥόον Ἀλφειοῖο. 
+                        <lb/>ἔνθα Διὶ ῥέξαντες ὑπερμενεῖ ἱερὰ καλά, 
+                        <lb/>ταῦρον δ’ Ἀλφειῷ, ταῦρον δὲ Ποσειδάωνι,
+                        <lb/>αὐτὰρ Ἀθηναίη γλαυκώπιδι βοῦν ἀγελαίην,
+                        <lb n="730"/> δόρπον ἔπειθ’ ἑλόμεσθα κατὰ στρατὸν ἐν τελέεσσι,
+                        <lb/>καὶ κατεκοιμήθημεν ἐν ἔντεσιν οἷσιν ἕκαστος
+                        <lb/>ἀμφὶ ῥοὰς ποταμοῖο. 
+                    </quote>
+                    <quote>
+                        <lb/>Nad Alfejosa falami stanęliśmy w samo południe.
+                        <lb/>Tu przemożnemu Dzeusowi złożyliśmy piękne ofiary,
+                        <lb/>Alfejosowi buhaja, buhaja Posejdonowi
+                        <lb/>i jasnookiej Atenie jałówkę należącą do trzody.
+                        <lb n="730"/>W końcu wieczerzę w obozie szeregiem wszyscy spożyli	
+                        <lb/>i ułożyli się do snu, z nas każdy w rynsztunku wojennym,
+                        <lb/>obok łożyska rzecznego.  
+                    </quote>
+                    <p>726: ἔνδιοι – „w południe”; środek dnia, gdy słońce stoi w zenicie, może mieć tutaj znaczenie nie tylko dla chronologii opowiedzianych zdarzeń, ale również ze względu na religijne znaczenie tej części dnia. Por. Od. 4.450, gdzie Proteus wynurza się z morza w samo południe. Hsch. ἔνδια· μεσημβρία – „południowa pora, południe”. Sakralny charakter pory dnia, w której słońce znajduje się w zenicie, zdaje się sugerować rozmowa Fajdrosa z Sokratesem (Fajdros Platona).</p>
+                    <p>ἱερὸν ῥόον Ἀλφειοῖο – „święty nurt Alfejosa”; jedyne miejsce w eposie homeryckim, w którym nurty rzeki są określone jako „święte”. W Troadzie świętą rzeką jest Skamander (Il. 21.130–138), któremu składa się zarówno ofiary krwawe, jak i topi żywe zwierzęta (zob. komentarz).</p>
+                    <p>727: Rzeczownik ἱερὰ w zwrocie ῥέξαντες… ἱερὰ καλά należy rozumieć szerzej jako „przedmiot podarowany, ofiara/obiata w jej materialnej postaci”, gdyż stoi w apozycji z nazwami zwierząt w następnych heksametrach, Casabona 1966: 51. Czasownik ῥέξαντες (part. aor. act.) oznacza tutaj „spełnić (święte obrzędy) lub lepiej „złożyć piękne ofiary” lub lepiej „spełnić”. Można przypuszczać, że Zeus otrzymał w ofierze byka, podobnie jak Alfajos i Posejdon, jednak tekst nie wskazuje tego wprost.</p>
+                    <p>729: ἀγελαίην – „należącą do trzody”; przymiotnik ἀγελαῖος oznacza u Homera „należący do trzody”, „stadny” i jest stosowany jako epitet do βοῦς, por. Od. 17.181 w kontekście zwierząt ze stad Odyseusza zarzynanych przez zalotników na wieczerzę.</p>
+                    <p>730: δόρπον – „wieczerza”; jeśli chodzi o posiłek po złożeniu ofiary, musiało upłynąć kilka godzin od złożenia ofiary do spożycia uczty. To rozłożenie w czasie procesu składania ofiary i spożycia uczty z mięsa ofiarnego jest bardziej realistyczne niż abstrahujące od realnego przebiegu czasu sceny typowe, w których czas potrzebny na wykonanie szeregu czynności od uboju zwierzęcia, przez spalenie w ofierze kości udowych owiniętych tłuszczem, poćwiartowanie mięsa, przyrządzenie potrawy, po posiłek jest ujęte w skondensowanych wersach formularnych. Tutaj narracja ogniskuje się na akcie poświęcenia bogom kosztownych zwierząt w południe, a następnie przenosi się na wieczornej uczcie.</p>
+                </div>
+                
+                <div type="textpart" n="Iliad_XI_770–781">
+                    <head>Iliada XI 770–781</head>
+                    <p>Opowieść o przybyciu Nestora z Odyseuszem do Ftyi łączy elementy sceny typowej –przybycie gościa z elementami sceny typowej – ofiara krwawa. Zob. Arend 1933: 35.</p>
+                    <quote>
+                        <lb n="770"/>λαὸν ἀγείροντες κατ’ Ἀχαιΐδα πουλυβότειραν.
+                        <lb/>ἔνθα δ’ ἔπειθ’ ἥρωα Μενοίτιον εὕρομεν ἔνδον 
+                        <lb/>ἠδὲ σέ, πὰρ δ’ Ἀχιλῆα· γέρων δ’ ἱππηλάτα Πηλεὺς 
+                        <lb/>πίονα μηρία καῖε βοὸς Διὶ τερπικεραύνῳ
+                        <lb/>αὐλῆς ἐν χόρτῳ· ἔχε δὲ χρύσειον ἄλεισον
+                        <lb n="775"/>σπένδων αἴθοπα οἶνον ἐπ’ αἰθομένοις ἱεροῖσι.
+                        <lb/>σφῶϊ μὲν ἀμφὶ βοὸς ἕπετον κρέα, νῶϊ δ’ ἔπειτα
+                        <lb/>στῆμεν ἐνὶ προθύροισι· ταφὼν δ’ ἀνόρουσεν Ἀχιλλεύς, 
+                        <lb/>ἐς δ’ ἄγε χειρὸς ἑλών, κατὰ δ’ ἑδριάασθαι ἄνωγε, 
+                        <lb/>ξείνιά τ’ εὖ παρέθηκεν, ἅ τε ξείνοις θέμις ἐστίν.
+                        <lb n="780"/>αὐτὰρ ἐπεὶ τάρπημεν ἐδητύος ἠδὲ ποτῆτος,  
+                        <lb/>ἦρχον ἐγὼ μύθοιο κελεύων ὔμμ' ἅμ' ἕπεσθαι· 
+                    </quote>
+                    <quote>
+                        <lb n="770"/>Gdy gromadziliśmy wojsko w Achai wielu-żywiącej
+                        <lb/>Tam wówczas herosa Menojtijosa zastaliśmy 
+                        <lb/>i ciebie przy Achillesie: starzec, jeździec Peleus
+                        <lb/>tłuste kości udowe wołu spalał Zeusowi grzmiącemu
+                        <lb/>w zagrodzie podwórca. Wziął złoty kubek
+                        <lb n="775"/>i wino iskrzące wylewał na iskrzące w ogniu ofiary.
+                        <lb/>Wy dwaj szykowaliście z wołu mięsa kawały. My obaj
+                        <lb/>właśnie przed drzwiami domostwa stanęliśmy. Powstał Achilles
+                        <lb/>i poruszony za ręce nas ujął, i powiódł do krzeseł,
+                        <lb/>przygotowując gościnnie to, co się gościom należy.
+                        <lb n="780"/>Gdyśmy napojem pragnienie, a jadłem głód nasycili,
+                        <lb/>mówić zacząłem, wzywając was, byście poszli wraz z nami.
+                    </quote>
+                    <p>773: πίονα μηρία καῖε βοὸς – „spalał tłuste kości udowe wołu”; w narracjach włączonych postaci wspominając ofiary złożone w przeszłości wskazuje na najistotniejszy z punktu widzenia relacji ludzi z bogami ryt – spalanie kości udowych (μηρία), zob. Wprowadzenie.</p>
+                    <p>775: σπένδων αἴθοπα οἶνον ἐπ’ αἰθομένοις ἱεροῖσι – „i wino iskrzące wylewał na iskrzące w ogniu ofiary”; Peleus spełnia libację, wylewając wino na palące się na ołtarzu kości udowe zawinięte w tłuszcz, spełnia zatem identyczną rolę jak Chryzes w I pieśni Iliady (1.462) i Nestor w Odysei (3.459). W Od. 12.362 znajdujemy wariant tego heksametru z odmiennym pierwszym hemistychem.  Por. wyżej.</p>
+                    <p>σπένδων – „wylewał”; czasownik należy do terminologii religijnej i oznacza „wylewać w ofierze”, „spełniać libację” (Casabona 1966: 231 i nast.).</p>
+                    <p>776: σφῶϊ μὲν ἀμφὶ βοὸς ἕπετον κρέα – „wy dwaj szykowaliście z wołu mięsa kawały”; Achilles i Peleus przygotowują mięso ze zwierzęcia ofiarnego. W scenach typowych – ofiara krwawa.</p>
+                </div>
+            
+            </div>
+            
+        </body>
+    </text>
+</TEI>

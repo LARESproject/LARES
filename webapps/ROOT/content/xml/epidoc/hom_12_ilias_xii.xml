@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Iliade canto XII</title>
+                <title xml:lang="en">Iliad book XII</title>
+                <title xml:lang="pl">Iliada, Pieśń XII</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_12_ilias_xii</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Iliada, pieśń XII</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 140-141</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Pieśń 12. kontynuuje opis trzeciego dnia walk przedstawionych w Iliadzie. Jej tematem jest bitwa o mury okalające obóz Achajów (teichomachia), których budowa była tematem pieśni VII. Pieśń otwiera zapowiedź całkowitego zburzenia murów przez Posejdona i Apollona, zapowiedzianego już w pieśni VII.</p>
+                </div>
+                <div type="textpart" n="Iliad_XII_3–9">
+                    <head>Iliada XII 3–9 </head>
+                    <quote>
+                        <lb/>οὐδ᾽ ἄρ᾽ ἔμελλε 			
+                        <lb/>τάφρος ἔτι σχήσειν Δαναῶν καὶ τεῖχος ὕπερθεν 
+                        <lb n="5"/>εὐρύ, τὸ ποιήσαντο νεῶν ὕπερ, ἀμφὶ δὲ τάφρον
+                        <lb/>ἤλασαν· οὐδὲ θεοῖσι δόσαν κλειτὰς ἑκατόμβας· 
+                        <lb/>ὄφρά σφιν νῆάς τε θοὰς καὶ ληΐδα πολλὴν 
+                        <lb/>ἐντὸς ἔχον ῥύοιτο· θεῶν δ᾽ ἀέκητι τέτυκτο 
+                        <lb/>ἀθανάτων· τὸ καὶ οὔ τι πολὺν χρόνον ἔμπεδον ἦεν.  
+                    </quote>
+                    <quote>
+                        <lb/>nie miał
+                        <lb/>już rów bronić Danajów ani mur wzniesiony
+                        <lb n="5"/>szeroki, który wznieśli przy okrętach, wokół zaś rowem
+                        <lb/>go opasali: nie dali wszak bogom sławnych hekatomb,
+                        <lb/>aby im szybkie okręty i obfite łupy wojenne
+                        <lb/>wewnątrz obozu chronili. Wbrew woli bogów zbudowali
+                        <lb/>nieśmiertelnych, a zatem przez krótki czas był przeszkodą.
+                    </quote>
+                    <p>5–6: Wersy powtarzają, z pewnymi modyfikacjami ww. 7.448–9, gdzie wypowiada je Posejdon, kierując skargę do Zeusa.</p>
+                    <p>7: ληΐδα πολλὴν – „obfite łupy wojenne”; najpewniej chodzi o łupy wojenne zdobyte przez Achillesa podczas jego wypadów łupieżczych.</p>
+                    <p>8: θεῶν δ᾽ ἀέκητι τέτυκτο / ἀθανάτων – „wbrew woli bogów zbudowali / nieśmiertelnych”; zwrot θεῶν δ᾽ ἀέκητι podkreśla raz jeszcze brak zgody, która mogłaby zostać wyrażona poprzez przyjęcie ofiary zakładzinowej, trudno jednak powiedzieć, w jaki sposób wyobrażano sobie przekazanie znaku aprobującego, skoro, jak się wydaje, w rzeczywistości przedstawionej przez poetę nie istnieją jeszcze regularne znaki wróżbiarskie towarzyszące ofierze.</p>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

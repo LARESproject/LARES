@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Iliade canto VIII</title>
+                <title xml:lang="en">Iliad book VIII</title>
+                <title xml:lang="pl">Iliada, pieśń VIII</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_08_ilias_viii</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Iliada, pieśń VIII</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 111-120</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Pieśni VIII i IX obejmują drugi dzień walki przedstawionej w eposie (25. dzień akcji). Wśród dni bitewnych przedstawionych w Iliadzie, ten jest najkrótszy, ale zostanie uzupełniony pieśnią IX, w której poeta przedstawi nocną wycieczkę Odyseusza i Diomedesa (Doloneia). Według Martina L. Westa walka przedstawiona w tej pieśni (66–349) jest rozbudowanym uzasadnieniem wysłania poselstwa do Achillesa, która z kolei antycypuje kolejny dzień walki, lecz głównym jej celem jest stworzenie poczucia zagrożenia i klęski wywołanej atakiem Hektora. Wzmianki o ofierze są stosunkowo rzadkie, chociaż pojawiają się w kluczowych dla przebiegu akcji miejscach. Struktura pieśni VIII przedstawia się następująco:</p>
+                    <p>1–52	Narada bogów: bogowie nie biorą udziału w walce, Zeus udaje się na górę Ida do temenosu w Gargaros (mowa postaci: wspomnienie ołtarza).</p>
+                    <p>53–56	Drugi dzień walki</p>
+                    <p>53–67		walki bez rozstrzygnięcia</p>
+                    <p>68–77		Kerostasia: ważenie losów przez Zeusa – przewaga Trojan.</p>
+                    <p>78–197	Atak Trojan dowodzonych przez Hektora; Zeus zatrzymuje Diomedesa.</p>
+                    <p>198–252	Gniew Hery (mowa postaci: wspomnienie ofiar).</p>
+                    <p>228–250	Modlitwa Agamemnona (ofiary włączone – wspomnienie ofiar) i znak Zeusa przy ołtarzu, gdzie Achajowie składają ofiary.</p>
+                    <p>253–315	Atak Achajów.</p>
+                    <p>316–349	Hektor powstrzymuje Achajów.</p>
+                    <p>350–484	Hera i Atena próbują odmienić bieg bitwy; interwencja Zeusa.</p>
+                    <p>485–565	Koniec walki: przygotowanie wieczerzy – Trojanie zostają poza miastem (Trojanie spożywają na wieczerzę mięso z hekatomby).</p>
+                    <p>W analizie pieśni VIII, oprócz komentarzy Leafa i Kirka, bardzo pomocne jest monograficzne opracowanie Adriana Kelly’ego (Kelly 2007). </p>
+                </div>
+                <div type="textpart" n="Iliad_VIII_47–48">
+                    <head>Iliada VIII 47–48</head>
+                    <p>Pieśń rozpoczyna się od przemówienia Zeusa, który ogłasza bezwzględny zakaz ingerowania w przebieg zmagań pod Troją. Milczenie bogów przerywa Atena, która prosi o zgodę na udzielanie rad Achajom. Zeus uspokaja boginię, że nie jest jego zamiarem wygubienie Achajów, po czym przenosi się do swego przybytku na górze Ida. Scena przedstawia przybycie Zeusa z Olimpu na ziemię, do Gargaros, gdzie stoi „ołtarz dymiący”, co należy interpretować jako odniesienie do rytuału spalania kości udowych i tłuszczu.</p>
+                    <quote>
+                        <lb/>Ἴδην δ᾽ ἵκανεν πολυπίδακα μητέρα θηρῶν 
+                        <lb/>Γάργαρον, ἔνθά τέ οἱ τέμενος βωμός τε θυήεις.  
+                    </quote>
+                    <quote>
+                        <lb/>Do Idy dotarł wielostrumiennej, macierzy zwierząt,
+                        <lb/>do Gargarosu, gdzie miał okrąg święty i ołtarz wonny.
+                    </quote>
+                    <p>47: Ἴδην δ᾽ ἵκανεν πολυπίδακα μητέρα θηρῶν – „do Idy dotarł, wielostrumiennej, macierzy zwierząt”; wiersz formularny (Il. 8.47; Il. 14.283; Il. 15.151) wykorzystywany w „scenach przybycia” bogów z Olimpu na górę Ida, która w tradycji epickiej była świętą górą Trojan. W Il. 22.170 i nast. Zeus żali się na Hektora, który „spalił mnogie kości udowe / na szczytach gór Idy”. Charakterystyczne, że w tej samej pieśni Zeus objawi znak dla Agamemnona przy ołtarzu, gdzie czcili go Achajowie. Wers nie służył wyłącznie do opisywania przybycia Zeusa, gdyż w pieśni XIV jest mowa o Herze i Hypnosie, natomiast w 15. o Apollonie i Iris, jednak w obu przypadkach bogowie przychodzą do Zeusa przebywającego w swoim przybytku na Idzie. 	</p>
+                    <p>πολυπῖδαξ – „wielostrunnej”; „posiadający wiele źródeł, obfitujący w źródła” (Il. 8x), oraz jego tematyczny wariant πολυπίδακος (h.hom.Ven. 5.54) stosuje się w eposie wyłącznie jako epitet góry Idy w Troadzie.</p>
+                    <p>48: Γάργαρον – „do Gargarosu”; szczyt Gargaros (w eposie rodzaj męski), na którym Zeus posiadał sanktuarium, jest identyfikowany z Baba Dağ na zachodnim krańcu rozciągającego się na linii wschód – zachód masywu Kaz Dağ (Kirk, comm. ad loc., t. 2, s. 302). W okresie archaicznym na szczycie istniał obwarowany Akropol ze świątynią (zachowały się fundamenty budynku oraz elementy architektoniczne i dekoracji rzeźbiarskiej z VI w. p.n.e., zob. Stupperich 1995; Schulz 2000). Pierwotnie osada została opuszczona (przed V w. p.n.e. lub w okresie hellenistycznych) i przeniesiona na wybrzeże. Zob. An Inventory of Archaic and Classical Poleis, nr 775, Janko (1991) 197 i nast.</p>
+                    <p>ἔνθά τέ οἱ τέμενος βωμός τε θυήεις – „gdzie miał okrąg święty i ołtarz wonny”; wers formularny, którego wariant został użyty w Il. 23.148 ὅθι τοι τέμενος βωμός τε θυήεις. Na temat opisu miejsc świętych w tradycji epickiej, zob. Kelly 2007: 100.</p>
+                </div>
+                
+                <div type="textpart" n="Iliad_VIII_201–207">
+                    <head>Iliada VIII 201–207</head>
+                    <p>Krótki epizod rozgrywający się na Olimpie, w którym Hera, zagniewana chełpieniem się Hektora, zwraca się do Posejdona, proponując złamanie zakazu Zeusa przez bogów wspierających Achajów i odparcie Trojan. Posejdon odrzuci ten pomysł. Hera przywołuje w swej krótkiej mowie mnogie i miłe bogom dary, które Achajowie przynosili Posejdonowi do jego sanktuariów w Helike i Ajgai.</p>
+                    <quote>
+                        <lb/>ὢ πόποι ἐννοσίγαι᾽ εὐρυσθενές, οὐδέ νυ σοί περ 					
+                        <lb/>ὀλλυμένων  Δαναῶν ὀλοφύρεται ἐν φρεσὶ θυμός. 
+                        <lb/>οἳ δέ τοι εἰς  Ἑλίκην τε καὶ  Αἰγὰς δῶρ᾽ ἀνάγουσι 
+                        <lb/>πολλά τε καὶ χαρίεντα· σὺ δέ σφισι βούλεο νίκην. 
+                        <lb n="205"/>εἴ περ γάρ κ᾽ ἐθέλοιμεν, ὅσοι  Δαναοῖσιν ἀρωγοί,
+                        <lb/>Τρῶας ἀπώσασθαι καὶ ἐρυκέμεν εὐρύοπα  Ζῆν, 
+                        <lb/>αὐτοῦ κ᾽ ἔνθ᾽ ἀκάχοιτο καθήμενος οἶος ἐν  Ἴδῃ.  
+                    </quote>
+                    <quote>
+                        <lb/>O miły, Wstrząsający ziemią, szerokopierśny, czy nawet twój			
+                        <lb/>duch w pierśni nie płacze nad ginącymi Danajami,
+                        <lb/>który tobie do Helike i Ajgaj dary przynoszą
+                        <lb/>liczne i wdzięczne: postanów dla nich zwycięstwo.
+                        <lb n="205"/>Gdybyśmy bowiem zechcieli, wszyscy przychylni Danajom,
+                        <lb/>Trojan pognębić, grzmiącemu Zeusowi się przeciwstawić,
+                        <lb/>sam opuszczony by został i smutny na Idy szczycie. 
+                    </quote>
+                    <p>203: Helike pojawia się również w Il. 2.575. W Il. 20.404 Posejdon nosi przydomek Helikonios, który jednak nie jest powiązany etymologicznie z Helike, gdyż oznacza „pochodzący z Helikonu”.</p>
+                    <p>δῶρ᾽ ἀνάγουσι – „dary przynoszą”; trudno z całą pewnością stwierdzić, czy dary, o których tutaj mowa, oznaczają również ofiary krwawe. Jednak sądząc po innych miejscach, w których ofiary krwawe są wymieniane wespół z darami wotywnymi jako równorzędne formy oddawania czci bóstwu, możemy przypuszczać, że pod terminem δῶρα należy rozumieć obie formy czci religijnej.</p>
+                </div>
+                
+                <div type="textpart" n="Iliad_VIII_228–250">
+                    <head>Iliada VIII 228–250</head>
+                    <p>W krytycznym momencie bitwy drugiego dnia walki Agamemnon wygłasza mowę do Achajów, po czym wznosi modlitwę do Zeusa. W mowie skierowanej do towarzyszy broni wspomina ucztę na Lemnos, która najpewniej była połączona z rytuałem ofiarnym (231–232). W modlitwie do Zeusa natomiast wspomina liczne ofiary z wołów składane na mijanych w czasie żeglugi pod Troję sanktuariach Zeusa (238–241).</p>
+                    <quote>
+                        <lb/>αἰδὼς  Ἀργεῖοι, κάκ᾽ ἐλέγχεα, εἶδος ἀγητοί· 					
+                        <lb/>πῇ ἔβαν εὐχωλαί, ὅτε δὴ φάμεν εἶναι ἄριστοι, 
+                        <lb n="230"/>ἃς ὁπότ᾽ ἐν  Λήμνῳ κενεαυχέες ἠγοράασθε,
+                        <lb/>ἔσθοντες κρέα πολλὰ βοῶν ὀρθοκραιράων 
+                        <lb/>πίνοντες κρητῆρας ἐπιστεφέας οἴνοιο, 
+                        <lb/>Τρώων ἄνθ᾽ ἑκατόν τε διηκοσίων τε ἕκαστος 
+                        <lb/>στήσεσθ᾽ ἐν πολέμῳ· νῦν δ᾽ οὐδ᾽ ἑνὸς ἄξιοί εἰμεν 
+                        <lb n="235"/>Ἕκτορος, ὃς τάχα νῆας ἐνιπρήσει πυρὶ κηλέῳ. 
+                        <lb/>Ζεῦ πάτερ, ἦ ῥά τιν᾽ ἤδη ὑπερμενέων βασιλήων 
+                        <lb/>τῇδ᾽ ἄτῃ ἄασας καί μιν μέγα κῦδος ἀπηύρας; 
+                        <lb/>οὐ μὲν δή ποτέ φημι τεὸν περικαλλέα βωμὸν 
+                        <lb/>νηῒ πολυκλήϊδι παρελθέμεν ἐνθάδε ἔρρων, 
+                        <lb n="240"/>ἀλλ᾽ ἐπὶ πᾶσι βοῶν δημὸν καὶ μηρί᾽ ἔκηα 
+                        <lb/>ἱέμενος  Τροίην εὐτείχεον ἐξαλαπάξαι. 
+                        <lb/>ἀλλὰ  Ζεῦ τόδε πέρ μοι ἐπικρήηνον ἐέλδωρ· 
+                        <lb/>αὐτοὺς δή περ ἔασον ὑπεκφυγέειν καὶ ἀλύξαι, 
+                        <lb/>μηδ᾽ οὕτω  Τρώεσσιν ἔα δάμνασθαι  Ἀχαιούς.  
+                        <lb n="245"/>Ὣς φάτο, τὸν δὲ πατὴρ ὀλοφύρατο δάκρυ χέοντα, 
+                        <lb/>νεῦσε δέ οἱ λαὸν σόον ἔμμεναι οὐδ᾽ ἀπολέσθαι. 
+                        <lb/>αὐτίκα δ᾽ αἰετὸν ἧκε τελειότατον πετεηνῶν, 
+                        <lb/>νεβρὸν ἔχοντ᾽ ὀνύχεσσι τέκος ἐλάφοιο ταχείης· 
+                        <lb n="250"/>πὰρ δὲ  Διὸς βωμῷ περικαλλέϊ κάββαλε νεβρόν,
+                        <lb/>ἔνθα πανομφαίῳ  Ζηνὶ ῥέζεσκον  Ἀχαιοί. 
+                        <lb/>οἳ δ᾽ ὡς οὖν εἴδονθ᾽ ὅ τ᾽ ἄρ᾽ ἐκ  Διὸς ἤλυθεν ὄρνις, 
+                        <lb/>μᾶλλον ἐπὶ  Τρώεσσι θόρον, μνήσαντο δὲ χάρμης.  
+                    </quote>
+                    <quote>
+                        <lb n="228"/>Wstyd, Argiwowie, hańba sromotna, tylko z wyglądu wspaniali!
+                        <lb/>Gdzie są te przechwałki, które głosiliśmy, że jesteśmy najlepsi,
+                        <lb n="230"/>które niegdyś na Lemnos pyszałkowaci wypowiadaliście,
+                        <lb/>jedząc obfite mięsiwo krów o prostych rogach,
+                        <lb/>wypijając kratery wina pełne po brzegi, 
+                        <lb/>że każdy z was stu albo dwustu Trojan
+                        <lb/>przeciwstawi się w bitwie. Teraz nawet jednego nie jesteście warci
+                        <lb n="235"/>Hektora, który ogniem podpali okręty:
+                        <lb/>„Zeusie ojcze, czy kogoś spośród królów mocarnych
+                        <lb/>dotknąłeś taką ślepotą i pozbawiałeś tak wielkiej chwały?
+                        <lb/>Mówię, że nigdy obok twojego rozsławionego ołtarza
+                        <lb/>nie przepłynąłem na wielowiosłowym okręcie nieszczęśnie zmierzając w tę stronę,
+                        <lb n="240"/>lecz na wszystkich ołtarzach wołów tłuszcz i kości spalałem,
+                        <lb/>pragnąc Troję obwarowaną zburzyć.
+                        <lb/>Lecz, Zeusie, spełnij dla mnie to jedno życzenie,
+                        <lb/>pozwól uciec przed nimi i nie daj nam zginąć,
+                        <lb/>i nich w ten sposób Trojanie nie wytępią Achajów”.
+                        <lb n="245"/>Tak powiedział, Zeus ojciec użalił się nad nim łzy lejącym,
+                        <lb/>zgodził się, aby lud jego trwał i nie zginął
+                        <lb/>natychmiast orła mu zesłał, najdoskonalsze wśród lotnych stworzeń,
+                        <lb/>jelonka miał w szponach przez rączą łanię zrodzonego,
+                        <lb/>przy ołtarzu Zeusa przepięknym upuścił jelonka,
+                        <lb/>gdzie Achajowie składali ofiary Zeusowi rozgłośnemu. 	
+                    </quote>
+                    <p>228: wers formularny (= Il. 5.787).</p>
+                    <p>229: εὐχωλαί – „przechwałki”; tutaj w znaczeniu świeckim. O użyciu sakralnym rzeczownika, zob. komentarz do Il. 1.65.</p>
+                    <p>230: ἃς ὁπότ᾽ ἐν  Λήμνῳ κενεαυχέες ἠγοράασθε – „które, gdy byliście na Lemnos, pyszałkowaci wypowiadaliście”; postój na Lemnos, połączony z biesiadą, był prawdopodobnie tradycyjnym tematem cyklu epickiego. W Iliadzie wspomina się porzucenie na wyspie Filokteta, prześwietnego łucznika, syna Pojasa (2.772). Filoktet wyruszył pod Troję z 7 okrętami z Tesalii, lecz Achajowie pozostawili go na wyspie Lemnos, gdy ukąsił go wąż podczas składania ofiary na Tenedos. Postój na Lemnos był jednym z tematów eposu Kypria (Cypria p. 41 Bernabé).</p>
+                    <p>231: Wers athetyzowany przez Arystarcha jako redundantny, gdyż przechwałki towarzyszą raczej piciu wina, niż spożywaniu mięsa.</p>
+                    <p>κρέα… βοῶν ὀρθοκραιράων – „krów o prostych rogach”; epitet wołów w kontekście spożywania mięsa jest dość zaskakujący. Zazwyczaj występuje on w odniesieniu do żywych zwierząt obrazowanych w narracji głównej. Por. Kirk, comm. ad loc.</p>
+                    <p>236–244: Modlitwa Agamemnona, zob. Chapot, Laurot 2001: 44–46; retoryka modlitwy zaczyna się od pytania retorycznego (ἦ ῥά) wzywającego boga do podjęcia działania w obronie Achajów, po czym otwiera parentezę (μὲν δή), w której Agamemnon przypomina Zeusowi otrzymane ofiary (da quia dedi), po czym przechodzi do prośby (ἀλλὰ  Ζεῦ, w. 242). Retoryka jest wzmocniona nierówną wymianą: dawałem ci wszędzie wiele – teraz Cię błagam jedynie (τόδε πέρ).</p>
+                    <p>236: Ζεῦ πάτερ – „Zeusie, ojcze”; na temat tej inwokacji, zob. comm. ad loc.</p>
+                    <p>237–341: Agamemnon po raz pierwszy wspomina ofiary składane na każdym ołtarzu Zeusa w czasie żeglugi do Troi w celu jej zdobycia. Podobnie postępuje Nestor w drodze powrotnej, gdy składa ofiary z byków dla Posejdona w przybytku boga na przylądku Gerajstos na Eubei (Od. 3.177 i nast.). Wydaje się, że motyw ofiar składanych przez przywódców wyprawy wojennej na ołtarzach znaczących szlak wędrówki jest stałym motywem epickim. Nie można wykluczyć, że epos dostarcza nam w ten sposób ważnych informacji dotyczących roli sanktuariów nadmorskich w epoce archaicznej.</p>
+                    <p>238: τεὸν περικαλλέα βωμὸν – „obok twojego rozsławionego ołtarza”; ponieważ Agamemnon mówi o ołtarzach, które mógł napotkać w czasie żeglugi z Myken do Troi, można przypuszczać, że chodzi o ołtarze w sanktuariach położonych nad brzegiem morza. Trudno jednak wskazać na konkretne miejsca święte, które słowa te mogły przywołać w wyobraźni słuchaczy.</p>
+                    <p>239: ἐνθάδε ἔρρων – „nieszczęśnie zmierzając w tę stronę”; czasownik ἔρρω, o niepewnej etymologii, oznacza „iść powoli, niechętnie z powodu przeczuwanego nieszczęścia”.</p>
+                    <p>240: ἀλλ᾽ ἐπὶ πᾶσι βοῶν δημὸν καὶ μηρί᾽ ἔκηα – „lecz na wszystkich ołtarzach wołów tłuszcz i kości spalałem”; w eposie zwrot μηρία καίειν + ἐπί może występować z okolicznikiem miejsca „na ołtarzu”: ἱεροῖσ᾽ ἐπὶ βωμοῖς – „na świętych ołtarzach”, Od. 3.273; por. ἐπὶ θινὶ „na brzegu (morza)” Od. 9.550. Ofiara włączona w mowę niezależną często ogniskuje uwagę na najważniejszym z punktu widzenia bogów elemencie rytuału, na spaleniu kości udowych. W wypowiedziach postaci spalenie udźców dla boga jest typowym elementem modlitwy, a jego przypomnienie powiązane z prośbą skierowaną  do istoty nadprzyrodzonej tworzy relację wzajemności. Modlący się członkowie elity mogą przywołać ofiary, które sami niegdyś złożyli. Oprócz kości udowych na ołtarzu płonął również tłuszcz, δημὸν, por. Il. 1.464–5=Il. 2.427–8= Od. 12.364–5. Pobożność Agamemnona ironicznie na swoją paralelę w pobożności Hektora wspomnianej w słowach Zeusa: Ἕκτορος, ὅς μοι πολλὰ βοῶν ἐπὶ μηρί᾽ ἔκηεν (Il. 22.170).</p>
+                    <p>245–250: Znak wróżebny zesłany przez Zeusa w odpowiedzi na modlitwę Agamemnona jest jednym z dwóch przypadków w Iliadzie boskiej zapowiedzi ziszczenia się prośby modlitewnej w przyszłości poprzez natychmiastowy omen (Naiden 2012: 116). Por. Il. 2.305–306. W przeciwieństwie do znaku z Aulidy, który pojawił się podczas obrzędu, tutaj Zeus wykorzystuje do komunikowania się z ludźmi miejsce – ołtarz, na którym w przeszłości składano mu ofiary.</p>
+                    <p>250: ἔνθα πανομφαίῳ Ζηνὶ ῥέζεσκον Ἀχαιοί – „gdzie Achajowie składali ofiary Zeusowi rozgłośnemu”; czasownik ῥέζεσκον użyty w sensie absolutnym, bez dopełnienia bliższego, por. Il. 2.400 z komentarzem.</p>
+                </div>
+                
+                <div type="textpart" n="Iliad_VIII_497">
+                    <head>Iliada VIII 497</head>
+                    <p>Po zakończeniu drugiego dnia walki Trojanie postanawiają obozować po raz pierwszy poza miastem. Jest to wyraz ich siły i przewagi. Hektor, wydając rozkazy, poleca przyprowadzić z miasta woły i przynieść wino oraz rozpalić w obozie ogniska. Polecenie Hektora nawiązuje do motywu przygotowania do złożenia ofiary poprzedzających rozbudowane sceny typowe – ofiara krwawa.</p>
+                    <quote>
+                        <lb/>κέκλυτέ μευ  Τρῶες καὶ  Δάρδανοι ἠδ᾽ ἐπίκουροι· 				
+                        <lb/>νῦν ἐφάμην νῆάς τ᾽ ὀλέσας καὶ πάντας  Ἀχαιοὺς 
+                        <lb/>ἂψ ἀπονοστήσειν προτὶ  Ἴλιον ἠνεμόεσσαν· 
+                        <lb n="500"/>ἀλλὰ πρὶν κνέφας ἦλθε, τὸ νῦν ἐσάωσε μάλιστα 
+                        <lb/>Ἀργείους καὶ νῆας ἐπὶ ῥηγμῖνι θαλάσσης. 
+                        <lb/>ἀλλ᾽ ἤτοι νῦν μὲν πειθώμεθα νυκτὶ μελαίνῃ 		
+                        <lb/>δόρπά τ᾽ ἐφοπλισόμεσθα· ἀτὰρ καλλίτριχας ἵππους 
+                        <lb/>λύσαθ᾽ ὑπὲξ ὀχέων, παρὰ δέ σφισι βάλλετ᾽ ἐδωδήν· 
+                        <lb n="505"/>ἐκ πόλιος δ᾽ ἄξεσθε βόας καὶ ἴφια μῆλα
+                        <lb/>καρπαλίμως, οἶνον δὲ μελίφρονα οἰνίζεσθε 
+                        <lb/>σῖτόν τ᾽ ἐκ μεγάρων, ἐπὶ δὲ ξύλα πολλὰ λέγεσθε, 
+                        <lb/>ὥς κεν παννύχιοι μέσφ᾽ ἠοῦς ἠριγενείης 
+                        <lb/>καίωμεν πυρὰ πολλά, σέλας δ᾽ εἰς οὐρανὸν ἵκῃ, 
+                        <lb n="510"/>μή πως καὶ διὰ νύκτα κάρη κομόωντες  Ἀχαιοὶ	
+                        <lb/>φεύγειν ὁρμήσωνται ἐπ᾽ εὐρέα νῶτα θαλάσσης.
+                    </quote>
+                    <quote>
+                        <lb/>Posłuchajcie mnie, Trojanie, Dardanowie i sprzymierzeńcy!			
+                        <lb/>Teraz sądziłem, że gdy zniszczę okręty i wszystkich Achajów,
+                        <lb/>znów powrócę do Ilionu wietrznego:
+                        <lb n="500"/>lecz wpierw przybył zmierzch, który teraz ocalił 
+                        <lb/>Argiwów i okręty na brzegu morza.
+                        <lb/>Lecz teraz i my posłuchajmy nocy czarnej
+                        <lb/>i przygotujmy wieczerzę, a pięknogrzywe konie
+                        <lb/>uwolnijmy od wędzideł, dajmy im obrok.
+                        <lb n="505"/>Z miasta woły przygnajmy i tłuste stada
+                        <lb/>szybko, dostarczmy wino, co serce weseli,
+                        <lb/>chleb z komnat, nazbierajmy dużo drewna,
+                        <lb/>abyśmy mogli przez całą noc, aż do Jutrzenki wcześnie zrodzonej,
+                        <lb/>palić mnogie ogniska, blask sięgnie nieba.
+                        <lb n="510"/>Aby w ciągu nocy Achajowie o bujnych włosach
+                        <lb/>rzucili się do ucieczki na morze szerokie.
+                    </quote>
+                    <p>505–506: ἐκ πόλιος δ᾽ ἄξεσθε βόας καὶ ἴφια μῆλα / καρπαλίμως – „z miasta woły przygnajmy i tłuste stada”; polecenie przygnania stad zwierząt przypomina polecenia przyprowadzenia zwierząt ofiarnych poprzedzające scenę typową – ofiara krwawa. Z opisu realizacji tego polecenia wynika, że Trojanie będą składali w obozie ofiary dla bogów.</p>
+                    <p>509: σέλας δ᾽ εἰς οὐρανὸν ἵκῃ – „blask sięgnie nieba”; w przeciwieństwie do opisu ofiar składanych w obozie Achajów, gdzie do nieba wzbija się dym, tutaj jest mowa o blasku – σέλας, który nie ma bezpośrednich związków z wyobrażeniami o ofierze krwawej. Dym pojawia się w narracji głównej, zob. niżej.</p>
+                </div>
+                <div type="textpart" n="Iliad_VIII_542–549">
+                    <head>Iliada VIII 542–549 </head>
+                    <p>Natychmiast po mowie Hektora Trojanie przystępują do wypełnienia jego poleceń. W narracji głównej pojawia się opis składania ofiar i wzmianka o odrzuceniu ich przez bogów. Chociaż fragment ten był athetyzowany przez filologów aleksandryjskich jako interpolacja, w najnowszym wydaniu Martina L. West został uznany za autentyczny.</p>
+                    <quote>
+                        <lb/>Ἕκτωρ ἀγόρευ᾽, ἐπὶ δὲ  Τρῶες κελάδησαν. 						
+                        <lb/>οἳ δ᾽ ἵππους μὲν λῦσαν ὑπὸ ζυγοῦ ἱδρώοντας, 
+                        <lb/>δῆσαν δ᾽ ἱμάντεσσι παρ᾽ ἅρμασιν οἷσιν ἕκαστος· 
+                        <lb n="545"/>ἐκ πόλιος δ᾽ ἄξοντο βόας καὶ ἴφια μῆλα
+                        <lb/>καρπαλίμως, οἶνον δὲ μελίφρονα οἰνίζοντο 
+                        <lb/>σῖτόν τ᾽ ἐκ μεγάρων, ἐπὶ δὲ ξύλα πολλὰ λέγοντο·
+                        <lb/>ἔρδον δ'ἀθανάτοισι τεληέσσας ἑκατόμβας· 
+                        <lb/>κνίσην δ᾽ ἐκ πεδίου ἄνεμοι φέρον οὐρανὸν εἴσω
+                        <lb n="550"/>ἡδεῖαν· τῆς δ' οὔ τι θεοὶ μάκαρες δατέοντο,
+                        <lb/>οὐδ' ἔθελον· μάλα γάρ σφιν ἀπήχθετο Ἴλιος ἱρή
+                        <lb/>καὶ Πρίαμος καὶ λαὸς ἐϋμμελίω Πριάμοιο.
+                    </quote>
+                    <quote>
+                        <lb/>Hektor przemówił, Trojanie zakrzyknęli. 			
+                        <lb/>Konie spocone spod jarzma wyprzęgli
+                        <lb/>i każdego przywiązali rzemieniami przy swych wozach.
+                        <lb n="545"/>Z miasta przygnano woły i tłuste stada
+                        <lb/>szybko, i dostarczyli wina, co serca weseli,  
+                        <lb/>chleb z komnat i dużo drewna uzbierali.
+                        <lb/>Składali nieśmiertelnym doskonałe hekatomby,
+                        <lb/>a zapach tłuszczu z równiny wiatry niosły do nieba
+                        <lb n="550"/>słodki. Tego jednak bogowie szczęśni nie przyjęli,
+                        <lb/>nie chcieli: bardzo im bowiem był nienawistny Ilion święty,
+                        <lb/>i Priam i lud Priama o dobrej włóczni.
+                    </quote>
+                    <p>545–547: Wersy stanowią dokładne powtórzenie polecenia Hektora (505–507) z zamianą 2. na 3. osobę liczby mnogiej (ἄξεσθε/ἄξοντο; οἰνίζεσθε /οἰνίζοντο; λέγεσθε/λέγοντο).</p>
+                    <p>548: ἔρδον δ’ ἀθανάτοισι τεληέσσας ἑκατόμβας – „składali nieśmiertelnym doskonałe hekatomby”; zwrot ἔρδω + ἡκατόμβην – „składać hekatombę” pojawia się w eposie homeryckim 24 razy: 12 razy w Iliadzie (1.315; 447; 2.306 (~ 321); 4.102 (= 120); 6.115; 7.450 = {12.6}; 8.548; 9.535-6; 23.146; 23.206, 23.864, 23.873) i 12 razy w Odysei (3.144; 4.352, 478, 582, 5.102, 7.202; 11.132, 12.344; 13.350; 17.51, 60; 23.279), por. Casabona 1966: 52. Składanie hekatomb, najbardziej uroczystych ofiar, podkreśla wagę tego momentu akcji z perspektywy Trojan, którzy niepewni przyszłości starają się zyskać przychylność bogów. Wydaje się, że hekatomba pojawia się w miejscach, w których podkreśla się związek między złożeniem ofiary krwawej a przychylnością bogów lub jej brakiem. W pieśni I zaniedbana hekatomba jest potencjalną przyczyną gniewu Apollona, a jej złożenie ewentualnym środkiem do odwrócenia zagłady. Niezłożenie hekatomby przy budowie murów staje się przyczyną ich zniszczenia [Tekst 29 i 46]. Podobnie w micie o Meleagrze zaniedbanie hekatomby dla Artemidy jest przyczyną zgubnego gniewu bogini i zesłania niszczycielskiego dzika [Tekst 40]. Na temat hekatombe w eposie homeryckim, zob. Kelly 2007: 367–8.</p>
+                    <p>549: κνίσην δ᾽ ἐκ πεδίου ἄνεμοι φέρον οὐρανὸν εἴσω / ἡδεῖαν – „zapach tłuszczu z równiny wiatry niosły do nieba / słodki”; por. 1.317 z komentarzem.</p>
+                    <p>549: τῆς δ’ οὔ τι θεοὶ μάκαρες δατέοντο, / οὐδ’ ἔθελον – „tego jednak bogowie szczęśni nie przyjęli, / nie chcieli”; na temat motywu ofiary odrzuconej przez bogów, zob. Naiden 2013.</p>
+                    <p>551: μάλα γάρ σφιν ἀπήχθετο Ἴλιος ἱρή – „bardzo im bowiem był nienawistny Ilion święty”; nienawiść bogów wobec Troi nie wyraża się bezpośrednią interwencją, lecz powstrzymaniem się przed udzieleniem pomocy (Kelly 2007: 369). </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

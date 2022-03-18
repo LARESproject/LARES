@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Iliade canto XXIII</title>
+                <title xml:lang="en">Iliad book XXIII</title>
+                <title xml:lang="pl">Iliada, pieśń XXIII</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_20_ilias_xxiii</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Iliada, pieśń XXIII</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 160-168</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Pieśń XXIII wypełnia pathos, pełen żalu i gniewu opis pogrzebu Patroklosa. Dopełnia go, już w odmiennym nastroju, opis zmagań herosów podczas igrzysk urządzonych przez Achillesa ku czci zmarłego towarzysza. Wzmianki o ofierze pojawiają się w mowach postaci, za każdym razem w innym kontekście. Najpierw Achilles po raz kolejny zapowiada zamordowanie dwunastu młodzieńców trojańskich na stosie Patroklosa. Gdy stos pogrzebowy został już ułożony, Achilles wspomina ofiary dla Sperchejosa składane po próżnicy przez Peleusa we Ftyi w intencji ocalenia syna. Wreszcie, w kontekście igrzysk, pojawia się formularna modlitwa łucznika ślubującego hekatombę Apollonowi przed oddaniem strzału. </p>
+                </div>
+                <div type="textpart" n="Iliad_XXXIII_18–23">
+                    <head>Iliada XXXIII 18–23</head>
+                    <p>narracji głównej powraca ślubowanie Achillesa włączone do lamentu w pieśni XVIII.</p>
+                    <quote>
+                        <lb/>χαῖρέ μοι ὦ Πάτροκλε καὶ εἰν Ἀΐδαο δόμοισι·
+                        <lb n="20"/>πάντα γὰρ ἤδη τοι τελέω τὰ πάροιθεν ὑπέστην  
+                        <lb/>Ἕκτορα δεῦρ’ ἐρύσας δώσειν κυσὶν ὠμὰ δάσασθαι,  
+                        <lb/>δώδεκα δὲ προπάροιθε πυρῆς ἀποδειροτομήσειν 
+                        <lb/>Τρώων ἀγλαὰ τέκνα σέθεν κταμένοιο χολωθείς.
+                    </quote>
+                    <quote>
+                        <lb/>Bądź pozdrowiony, Patroklosie, w domostwach Hadesu!
+                        <lb n="20"/>Wszystko tobie spełniłem, com wcześniej przyrzekł, 
+                        <lb/>Hektora przywlokłem i dam go psom na pożarcie,
+                        <lb/>Jeszcze przy stosie płonącym zarżnę dwunastu
+                        <lb/>wspaniałych dzieci Trojan, za twoją śmierć rozgniewany.
+                    </quote>
+                    <p>21: Wcześniej (Il. 18.333–337) Achilles obiecywał obcięcie głowy Hektora, teraz grozi rzuceniem jego ciała psom na pożarcie.</p>
+                </div>
+                <div type="textpart" n="Iliad_XXXIII_144–211">
+                    <head>Iliada XXXIII 144–211</head>
+                    <p>Achilles wypowiada pełne żalu słowa skierowane do bóstwa rzeki Sperchajos płynącej we Ftyi. Wspomina modlitwy swojego ojca Peleusa, który przyrzekał bogu dar ze ściętych włosów syna oraz złożenie hekatomby z pięćdziesięciu niekastrowanych baranów. </p>
+                    <quote>
+                        <lb/>Σπερχεί᾽ ἄλλως σοί γε πατὴρ ἠρήσατο Πηλεὺς 					
+                        <lb n="145"/>κεῖσέ με νοστήσαντα φίλην ἐς πατρίδα γαῖαν
+                        <lb/>σοί τε κόμην κερέειν ῥέξειν θ᾽ ἱερὴν ἑκατόμβην, 
+                        <lb/>πεντήκοντα δ᾽ ἔνορχα παρ᾽ αὐτόθι μῆλ᾽ ἱερεύσειν 
+                        <lb/>ἐς πηγάς, ὅθι τοι τέμενος βωμός τε θυήεις. 
+                        <lb/>ὣς ἠρᾶθ᾽ ὃ γέρων, σὺ δέ οἱ νόον οὐκ ἐτέλεσσας. 
+                        <lb n="150"/>νῦν δ᾽ ἐπεὶ οὐ νέομαί γε φίλην ἐς πατρίδα γαῖαν
+                        <lb/>Πατρόκλῳ ἥρωϊ κόμην ὀπάσαιμι φέρεσθαι.  
+                    </quote>
+                    <quote>
+                        <lb/>Sperchajosie, na próżno modlił się do ciebie mój ojciec Peleus,			
+                        <lb n="145"/>że gdy powrócę do miłej ziemi ojczystej,	
+                        <lb/>zetnę dla ciebie włosy i złożę świętą hekatombę,
+                        <lb/>pięćdziesiąt owiec niekastrowanych na miejscu złożę w ofierze, 
+                        <lb/>w twoim nurcie, gdzie masz temenos i ołtarz dymiący.
+                        <lb n="150"/>Tak modlił się starzec, ty zaś zamysłu mu nie spełniłeś.
+                        <lb/>Niech zatem teraz, gdy już nie powrócę do miłej ziemi ojczystej,
+                        <lb/>daruję na drogę Patroklosowi herosowi me włosy”.
+                    </quote>
+                    <p>146–147: σοί τε κόμην κερέειν ῥέξειν θ᾽ ἱερὴν ἑκατόμβην, / πεντήκοντα δ᾽ ἔνορχα παρ᾽ αὐτόθι μῆλ᾽ ἱερεύσειν – „zetnę dla ciebie włosy i złoże świętą hekatombę, / zabijając na miejscu w ofierze pięćdziesiąt owiec niekastrowanych”; struktura zdania jest jasna – dwa czasowniki (κερέειν, ῥέξειν, inf. fut. act.), połączone spójką τε.... τε oznaczają czynności leżące na tym samym poziomie: zgodnie z przyrzeczeniem ojca Achilles zetnie włosy i złoży hekatombę. Partykuła w następnym zdaniu uściśla materialną postać hekatomby, chodzi o ofiarę z pięćdziesięciu niekastrowanych baranów. Czasownik ῥέξειν ma tutaj ogólne znaczenie „składać w ofierze”, „ofiarować”, natomiast czasownik ἱερεύσειν oznacza „zabić zwierzęta w ofierze”, zob. Casabona 1966: 21. Ścięcie włosów przez Achillesa należy interpretować w świetle greckiego rytuału powiązanego z rites de passage: dorastający chłopcy ofiarowywali swoje włosy bóstwu rzeki w podzięce za wychowanie. Czy w tym wypadku chodzi o te samą intencję? Nie mamy pewności, ale taka interpretacja może być się obiecująca ze względu na wiek Achillesa, który zdaje się wyruszać pod Troję jako młodzieniec. Zob. Nilsson 1967: 136–138; Richardson, ed. 1993: 164–165 (z bibliografią); Suk Fong Jim 2012: 315; Leitao 2003.</p>
+                </div>
+                <div type="textpart" n="Iliad_XXXIII_161–183">
+                    <head>Iliada XXXIII 161–183</head>
+                    <p>Opis pogrzebu Patroklosa w narracji głównej zawiera szereg szczegółów, które mogą się łączyć z ofiarami zwierzęcymi, chociaż bezpieczniej byłoby mówić o rytualnym uboju w ramach obrzędów funeralnych. W dyskusji na temat znaczenia zabicia koni i psów przy stosie pogrzebowym wskazuje się na świadectwa archeologiczne poświadczające ten obyczaj, jednak nie wnoszą one wiele do interpretacji znaczenia tych działań. Nie ulega wątpliwości, że w okresie wieków ciemnych oraz w okresie archaicznym członkowie elity byli grzebani ze zwierzętami stanowiącymi oznaki prestiżu. Konie, podobnie jak w Iliadzie, chowano w liczbie parzystej, co wskazuje na ścisły związek z rydwanem. Psy myśliwskie są elementem arystokratycznego stylu życia. Na temat pogrzebu Achillesa, zob. Bonnechere 1994: 281–292, </p>
+                    <quote>
+                        <lb/>Αὐτὰρ ἐπεὶ τό γ’ ἄκουσεν ἄναξ ἀνδρῶν Ἀγαμέμνων, 
+                        <lb/>αὐτίκα λαὸν μὲν σκέδασεν κατὰ νῆας ἐΐσας, 
+                        <lb/>κηδεμόνες δὲ παρ’ αὖθι μένον καὶ νήεον ὕλην, 
+                        <lb/>ποίησαν δὲ πυρὴν ἑκατόμπεδον ἔνθα καὶ ἔνθα, 
+                        <lb n="165"/>ἐν δὲ πυρῇ ὑπάτῃ νεκρὸν θέσαν ἀχνύμενοι κῆρ.
+                        <lb/>πολλὰ δὲ ἴφια μῆλα καὶ εἰλίποδας ἕλικας βοῦς 
+                        <lb/>πρόσθε πυρῆς ἔδερόν τε καὶ ἄμφεπον· ἐκ δ’ ἄρα πάντων
+                        <lb/>δημὸν ἑλὼν ἐκάλυψε νέκυν μεγάθυμος Ἀχιλλεὺς 
+                        <lb/>ἐς πόδας ἐκ κεφαλῆς, περὶ δὲ δρατὰ σώματα νήει.
+                        <lb n="170"/>ἐν δ’ ἐτίθει μέλιτος καὶ ἀλείφατος ἀμφιφορῆας 
+                        <lb/>πρὸς λέχεα κλίνων· πίσυρας δ’ ἐριαύχενας ἵππους
+                        <lb/>ἐσσυμένως ἐνέβαλλε πυρῇ μεγάλα στεναχίζων.
+                        <lb/>ἐννέα τῷ γε ἄνακτι τραπεζῆες κύνες ἦσαν,
+                        <lb/> καὶ μὲν τῶν ἐνέβαλλε πυρῇ δύο δειροτομήσας,
+                        <lb n="175"/>δώδεκα δὲ Τρώων μεγαθύμων υἱέας ἐσθλοὺς 
+                        <lb/>χαλκῷ δηϊόων· κακὰ δὲ φρεσὶ μήδετο ἔργα·
+                        <lb/>ἐν δὲ πυρὸς μένος ἧκε σιδήρεον ὄφρα νέμοιτο.
+                        <lb/>ᾤμωξέν τ’ ἄρ’ ἔπειτα, φίλον δ’ ὀνόμηνεν ἑταῖρον· 
+                        <lb/>χαῖρέ μοι ὦ Πάτροκλε καὶ εἰν Ἀΐδαο δόμοισι·
+                        <lb n="180"/>πάντα γὰρ ἤδη τοι τελέω τὰ πάροιθεν ὑπέστην, 
+                        <lb/>δώδεκα μὲν Τρώων μεγαθύμων υἱέας ἐσθλοὺς 
+                        <lb/>τοὺς ἅμα σοὶ πάντας πῦρ ἐσθίει· Ἕκτορα δ’ οὔ τι
+                        <lb/>δώσω Πριαμίδην πυρὶ δαπτέμεν, ἀλλὰ κύνεσσιν.
+                    </quote>
+                    <quote>
+                        <lb/>Kiedy to usłyszał pan nad mężów Agamemnon,					
+                        <lb/>natychmiast wojsku rozkazał odejść od gładkich okrętów.
+                        <lb/>Tylko grzebiący zmarłego zostali i drwa układali,
+                        <lb/>zbudowali stos ogromny – sto stóp szeroki i długi.
+                        <lb n="165"/>Z sercem żałobnym złożyli zwłoki na stosie wysokim.
+                        <lb/>Mnogie tłuste barany i woły powolnonogie
+                        <lb/>obok przy stosie oskórowali i sprawili, a ze wszystkich
+                        <lb/>tłuszcz zdjął i okrył nim zwłoki wielkoduszny Achilles,
+                        <lb/>od stóp aż do głowy, dookoła mięsa oskórowane ułożył.
+                        <lb n="170"/>Postawił dzbany dwuuszne nalane oliwą i miodem postawił
+                        <lb/>obok przy marach i cztery konie o karkach wyniosłych
+                        <lb/>zabił i rzucił gwałtownie w płomienie z wielkim jękiem.
+                        <lb/>Dziewięć ten władca miał psów hodowanych przy stole,
+                        <lb/>i z nich cisnął w ogień dwa podciąwszy im gardła.
+                        <lb n="175"/>Dwunastu Trojan wielkodusznych synów szlachetnych,
+                        <lb/>spiżem przeszytych – złowrogie w umyśle swym czyny ważył – 
+                        <lb/>dał żelaznemu szaleństwu ognia, by do cna ich strawił,
+                        <lb/>i towarzysza miłego wzywając, rzekł z jękiem te słowa:
+                        <lb/>„Bądź pozdrowiony, Patroklosie, w domostwie Hadesa!
+                        <lb n="180"/>Wszystko ci bowiem spełniłem, co obiecałem w przeszłości.			180
+                        <lb/>dwunastu szlachetnych synów wielkodusznych Trojan 
+                        <lb/>z tobą wraz ogień pożera. Natomiast ciała Hektora,
+                        <lb/>syna Priama, ogniowi nie oddam, lecz psom”.
+                    </quote>
+                    <p>166: πολλὰ δὲ ἴφια μῆλα καὶ εἰλίποδας ἕλικας βοῦς – „mnogie tłuste barany i woły powolnonogie”; wers formularny, zob. 9.466 z komentarzem.</p>
+                    <p>167: πρόσθε πυρῆς ἔδερόν τε καὶ ἄμφεπον – „obok przy stosie oskórowali i sprawili”; por. Il. 24.622, gdzie fraza ἔδερόν τε καὶ ἄμφεπον występuje w kontekście przygotowywania posiłku. Czynności zdjęcia skóry i wykrojenia poszczególnych części mięsa przed ich pokrojeniem na małe kawałki pojawiają się również w kontekście ofiary krwawej, ale nie oznacza to, że ubój zwierząt przy stosie pogrzebowym należy interpretować jako ofiarę dla Patroklosa. Zwraca uwagę brak czasownika wyrażającego ubój zwierzęcia, który w tym kontekście mógłby sugerować rytualny lub inny charakter działań. W warstwie leksykalnej zatem nic nie wskazuje jednoznacznie, że ubój zwierząt przy stosie mógł być konceptualizowany jako złożenie ofiary dla Patroklosa.</p>
+                    <p>168: δημὸν ἑλὼν ἐκάλυψε νέκυν – „tłuszcz zdjął i okrył nim zwłoki”; okrycie tłuszczem zwłok przypomina działania ofiarnicze, podczas których kości udowe owijano w tłustą błonę otrzewną przed położeniem na stosie (Richardson 1993, ed.: 189). Jeśli chodzi o analogiczne działanie, trzeba zastanowić się nad dwiema interpretacjami. Z jednej strony może chodzić o czynność praktyczną – tłuszcz jest znakomitym paliwem ułatwiającym palenie zwłok na stosie. Z drugiej strony spalanie się prowadzi do przemiany statusu przedmiotu – materialne, widoczne zwłoki znikają, pozostają resztki pod postacią kostek zbieranych do płótna, a jednocześnie dusza zmarłego zostaje uwolniona z cielesności i udaje się do Hadesu.</p>
+                    <p>169: ἐς πόδας ἐκ κεφαλῆς, περὶ δὲ δρατὰ σώματα νήει, od stóp aż do głowy, dokoła mięsa oskórowane ułożył: pierwszy hemistych por. 18.353. Położenie oskórowanego mięsa koło zwłok przypomina znów przez analogię układanie kawałków surowego mięsa na kościach zawiniętych w tłuszcz podczas ofiary zwierzęcej. Jeśli nawet ryt ten miał charakter ofiarniczy, został on całkowicie przemilczany w narracji.</p>
+                    <p>173: ἐννέα τῷ γε ἄνακτι τραπεζῆες κύνες ἦσαν – „dziewięć ten władca miał psów hodowanych przy stole”; mimo sugestii Eustatiosa (1294.18), który łączył τῷ γε ἄνακτι z Achilleusem, wydaje się, że chodzi o psy należące do Patroklosa. Epitet  τραπεζῆες wskazuje na karmienie psów podczas uczt heroicznych (por. Il. 22.69). Na temat kości psów znajdowanych w miejscach pochówków z wczesnej epoki archaicznej, zob. Richardson 1993: 188 (z bibliografią).</p>
+                </div>
+                <div type="textpart" n="Iliad_XXXIII_192–211">
+                    <head>Iliada XXXIII 192–211</head>
+                    <p>Gdy stos jest już gotowy, nie może się rozpalić. Achilles wznosi modlitwę błagalną do wiatrów, aby przybyły z pomocą. Słowa Achillesa zanosi boska posłanka Iryda.</p>
+                    <quote>
+                        <lb/>Οὐδὲ πυρὴ Πατρόκλου ἐκαίετο τεθνηῶτος·						
+                        <lb/>ἔνθ’ αὖτ’ ἀλλ’ ἐνόησε ποδάρκης δῖος Ἀχιλλεύς· 
+                        <lb/>στὰς ἀπάνευθε πυρῆς δοιοῖς ἠρᾶτ’ ἀνέμοισι
+                        <lb n="195"/>Βορέῃ καὶ Ζεφύρῳ, καὶ ὑπίσχετο ἱερὰ καλά·   
+                        <lb/>πολλὰ δὲ καὶ σπένδων χρυσέῳ δέπαϊ λιτάνευεν
+                        <lb/>ἐλθέμεν, ὄφρα τάχιστα πυρὶ φλεγεθοίατο νεκροί,
+                        <lb/>ὕλη τε σεύαιτο καήμεναι. ὦκα δὲ Ἶρις
+                        <lb/>ἀράων ἀΐουσα μετάγγελος ἦλθ’ ἀνέμοισιν. 
+                        <lb n="200"/>οἳ μὲν ἄρα Ζεφύροιο δυσαέος ἀθρόοι ἔνδον  
+                        <lb/>εἰλαπίνην δαίνυντο· θέουσα δὲ Ἶρις ἐπέστη 
+                        <lb/>βηλῷ ἔπι λιθέῳ· τοὶ δ’ ὡς ἴδον ὀφθαλμοῖσι 
+                        <lb/>πάντες ἀνήϊξαν, κάλεόν τέ μιν εἰς ἓ ἕκαστος·
+                        <lb/>ἣ δ’ αὖθ’ ἕζεσθαι μὲν ἀνήνατο, εἶπε δὲ μῦθον· 
+                        <lb n="205"/>οὐχ ἕδος· εἶμι γὰρ αὖτις ἐπ’ Ὠκεανοῖο ῥέεθρα
+                        <lb/>Αἰθιόπων ἐς γαῖαν, ὅθι ῥέζουσ’ ἑκατόμβας 
+                        <lb/>ἀθανάτοις, ἵνα δὴ καὶ ἐγὼ μεταδαίσομαι ἱρῶν. 
+                        <lb/>ἀλλ’ Ἀχιλεὺς Βορέην ἠδὲ Ζέφυρον κελαδεινὸν 
+                        <lb/>ἐλθεῖν ἀρᾶται, καὶ ὑπίσχεται ἱερὰ καλά, 
+                        <lb n="210"/>ὄφρα πυρὴν ὄρσητε καήμεναι, ᾗ ἔνι κεῖται 
+                        <lb/>Πάτροκλος, τὸν πάντες ἀναστενάχουσιν Ἀχαιοί.
+                    </quote>
+                    <quote>
+                        <lb/>Stos Patroklosa zmarłego jednakże ogniem się nie palił,
+                        <lb/>taką więc powziął myśl szybkonogi boski Achilles:
+                        <lb/>stanął w pobliżu przy stosie i jął do wiatrów się modlić,
+                        <lb n="195"/>do Boreasza i Zefira, i przyrzekł piękne ofiary;
+                        <lb/>obficie wylewając ofiary płynne z kielichów złotych, wzniósł błaganie,
+                        <lb/>aby powiały potężnym tchem i zmarłego strawiły,
+                        <lb/>stos ogarniając pożarem. Iryda tę prośbę przyjęła
+                        <lb/>i wyruszyła natychmiast do wiatrów jako posłanka.
+                        <lb/>[Iryda przybywa do siedziby wiatrów, których zastaje przy uczcie. Nie przyjmuje jednak ich zaproszenia.]
+                        <lb/>Ale nie chciała siąść przy nich i w takie powiedziała słowo:
+                        <lb n="200"/>„Nie czas na siedzenie, idę do nurtów Okeanosa,
+                        <lb/>do ziemi Etiopów, gdzie składają hekatombę
+                        <lb/> dla nieśmiertelnych, abym i ja swój miała udział w ofiarach.
+                        <lb/>Lecz, Boreaszu i lotny Zefirze, Achilles was błaga,
+                        <lb/>byście przybyli, i za to wam piękne dary przyrzeka,
+                        <lb n="210"/>błaga, by stos mu rozpalić ognisty, na którym złożony,
+                        <lb/>mężny Patroklos, przez wszystkich opłakiwany Achajów”.
+                    </quote>
+                    <p>195: καὶ ὑπίσχετο ἱερὰ καλά, – „i przyrzekł piękne ofiary”; wyrażenie ἱερὰ καλά (por. 209) może oznaczać zarówno ofiary krwawe, a zatem odprawienie rytuału, jak i poświęcenie przedmiotów istotom nadprzyrodzonym (Casabona 1966: 7).</p>
+                    <p>206: ὅθι ῥέζουσ’ ἑκατόμβας – „gdzie składają hekatombę”; na temat hekatomb składanych przez Etiopów, zob. Il. 1.423–4 i Od. 1.22–6 (z komentarzem).</p>
+                    <p>207:	ἵνα δὴ καὶ ἐγὼ μεταδαίσομαι ἱρῶν – „abym i ja miała udział w ofiarach”; trudno powiedzieć dlaczego Casabona (1966: 7) interpretuje rzeczownik ἱρά w zwrocie μεταδαίσομαι ἱρῶν jako dar materialny. Najpewniej przyczyną jest pojęcie „daru” zawarte czasowniku μεταδαίνυμαι – „,mieć udział w uczcie”, czyli uczestniczyć w dais, na której pieczone mięso jest dzielone między uczestników. Każdy biesiadnik otrzymuje kawałek mięsa, a zatem rodzaj materialnego daru. Wydaje się, że w tym wypadku łączą się dwie idee: z jednej strony idea uczty heroicznej, której podstawą jest podział zwierzęcia ofiarnego między bogów, którzy otrzymują knise ze spalanych kości udowych, a ludzi, którym przypada reszta – najpierw trzewia, a następnie mięso dzielone między ucztujących. Jednakże w przypadku uczty u Etiopów podział przebiega w inny sposób – bogowie ucztują wespół z ofiarnikami.</p>
+                    <p>209: καὶ ὑπίσχεται ἱερὰ καλά – „i obiecuje piękne ofiary”; zob. 195 z komentarzem.</p>
+                </div>
+                <div type="textpart" n="Iliad_XXXIII_859–873">
+                    <head>Iliada XXXIII 859–873</head>
+                    <p>W czasie igrzysk powraca typowa dla tradycji epickiej modlitwa łucznika przed oddaniem rozstrzygającego strzału. Od ślubowania hekatomby Apollonowi zależy celność strzału.</p>
+                    <quote>
+                        <lb/>Ὣς ἔφατ’, ὦρτο δ’ ἔπειτα βίη Τεύκροιο ἄνακτος, 
+                        <lb n="860"/>ἂν δ’ ἄρα Μηριόνης θεράπων ἐῢς Ἰδομενῆος.
+                        <lb/>κλήρους δ’ ἐν κυνέῃ χαλκήρεϊ πάλλον ἑλόντες, 
+                        <lb/>Τεῦκρος δὲ πρῶτος κλήρῳ λάχεν· αὐτίκα δ’ ἰὸν 
+                        <lb/>ἧκεν ἐπικρατέως, οὐδ’ ἠπείλησεν ἄνακτι 
+                        <lb/>ἀρνῶν πρωτογόνων ῥέξειν κλειτὴν ἑκατόμβην.
+                        <lb n="865"/>ὄρνιθος μὲν ἅμαρτε· μέγηρε γάρ οἱ τό γ’ Ἀπόλλων· 
+                        <lb/>[…]
+                        <lb n="870"/>σπερχόμενος δ’ ἄρα Μηριόνης ἐξείρυσε χειρὸς
+                        <lb/>τόξον· ἀτὰρ δὴ ὀϊστὸν ἔχεν πάλαι, ὡς ἴθυνεν. 
+                        <lb/>αὐτίκα δ’ ἠπείλησεν ἑκηβόλῳ Ἀπόλλωνι
+                        <lb/>ἀρνῶν πρωτογόνων ῥέξειν κλειτὴν ἑκατόμβην. 
+                    </quote>
+                    <quote>
+                        <lb n="860"/>Tak powiedział. Wówczas wstała siła władcy Teutrosa
+                        <lb/>oraz Merion, szlachetny therapon Idomeneusa.
+                        <lb/>Wzięli swe losy obydwaj, wstrząsnęli je w hełmie spiżowym,
+                        <lb/>Teukrosowi przypadł pierwszy los. Natychmiast strzałę
+                        <lb/>wypuścił z całej swej mocy, lecz nie przyrzekł Władcy,
+                        <lb n="865"/>że złoży sławną hekatombę z baranów pierworodnych.
+                        <lb/>Ptaka trafił, zwyciężyć mu nie pozwolił Apollon.
+                        <lb/>[…]
+                        <lb n="870"/>Zniecierpliwieniem wzburzony Merion z ręki Teukrosa
+                        <lb/>wyrwał łuk, bowiem już strzałę miał dawno w cel wymierzoną.
+                        <lb/>Natychmiast przyrzekł Apollonowi Celnie-strzelającemu
+                        <lb/>złożyć sławną hekatombę z baranów pierworodnych.
+                    </quote>
+                    <p>863–4:	 οὐδ’ ἠπείλησεν ἄνακτι / ἀρνῶν πρωτογόνων ῥέξειν κλειτὴν ἑκατόμβην – „lecz nie przyrzekł Władcy, / że złoży sławną hekatombę z baranów pierworodnych”; w sprawie związku między hekatombą a przychylnością boga, zob. Il. 1.65 z komentarzem. Formularny wers 864 pojawia się w zawsze w identycznym kontekście – łucznik przed oddaniem decydującego strzału przyrzeka Apollonowi złożenie hekatomby (4x Il.: 4.102 – z komentarzem; Il. 4.120; Il. 23.864; Il. 23.873), co sugeruje specyficzną referencjalność tego heksametru (Kelly 2007: 367, przyp. 1).</p>
+                    <p>872: αὐτίκα δ’ ἠπείλησεν ἑκηβόλῳ Ἀπόλλωνι – „Natychmiast przyrzekł Apollonowi Celnie-strzelającemu”; obietnica ofiarowania hekatomby złożona przez Merionesa skutkuje zwycięstwem. Na temat związków między hekatombe dla Apollona a skutecznością strzału, zob. Il. 4.102 z komentarzem.</p>
+                </div>
+               
+            </div>
+            
+        </body>
+    </text>
+</TEI>

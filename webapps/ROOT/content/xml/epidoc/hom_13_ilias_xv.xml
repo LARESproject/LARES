@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Iliade canto V</title>
+                <title xml:lang="en">Iliad book V</title>
+                <title xml:lang="pl">Iliada, pieśń XV</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_13_ilias_xv</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Iliada, pieśń XV</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 142-143</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+               
+                <div type="textpart" n="Iliad_XV367–382">
+                    <head>Iliada XV 367–382 </head>
+                    <p>Modlitwa Nestora przypomina modlitwę wzniesioną przez Agamemnona w podobnej sytuacji zagrożenia w 8.236–244. Epizod należy interpretować pamiętając o roli Nestora w skłanianiu Patroklosa do interwencji u Achillesa, a w konsekwencji do powrotu samego Achillesa na pole bitwy.</p>
+                    <quote>
+                        <lb/>Ὣς οἳ μὲν παρὰ νηυσὶν ἐρητύοντο μένοντες, 					
+                        <lb/>ἀλλήλοισί τε κεκλόμενοι καὶ πᾶσι θεοῖσι 
+                        <lb/>χεῖρας ἀνίσχοντες μεγάλ᾽ εὐχετόωντο ἕκαστος· 
+                        <lb n="370"/>Νέστωρ αὖτε μάλιστα  Γερήνιος οὖρος  Ἀχαιῶν
+                        <lb/>εὔχετο χεῖρ᾽ ὀρέγων εἰς οὐρανὸν ἀστερόεντα· 
+                        <lb/>Ζεῦ πάτερ εἴ ποτέ τίς τοι ἐν  Ἄργεΐ περ πολυπύρῳ
+                        <lb/>ἢ βοὸς ἢ οἰὸς κατὰ πίονα μηρία καίων 
+                        <lb/>εὔχετο νοστῆσαι, σὺ δ᾽ ὑπέσχεο καὶ κατένευσας, 
+                        <lb  />τῶν μνῆσαι καὶ ἄμυνον  Ὀλύμπιε νηλεὲς ἦμαρ,
+                        <lb/>μηδ᾽ οὕτω  Τρώεσσιν ἔα δάμνασθαι  Ἀχαιούς. 
+                        <lb/>Ὣς ἔφατ᾽ εὐχόμενος, μέγα δ᾽ ἔκτυπε μητίετα  Ζεύς, 
+                        <lb/>ἀράων ἀΐων  Νηληϊάδαο γέροντος. 
+                        <lb/>Τρῶες δ᾽ ὡς ἐπύθοντο  Διὸς κτύπον αἰγιόχοιο, 
+                        <lb/>μᾶλλον ἐπ᾽  Ἀργείοισι θόρον, μνήσαντο δὲ χάρμης.  
+                    </quote>
+                    <quote>
+                        <lb/>Tak powstrzymywali trwając przy okrętach,						
+                        <lb/>wzajemnie się nawołując i do wszystkich bogów
+                        <lb/>ręce wznosząc każdy mocno się modlił.
+                        <lb n="370"/>Jednak najmocniej Nestor gereński, obrońca Achajów
+                        <lb/>modlił się, ręce wyciągając do nieba gwieździstego:
+                        <lb/>Zeusie ojcze, jeśli ci w Argos bogatym w pszenicę
+                        <lb/>wołu lub owcy tłuste kości udowe spalając
+                        <lb/>modliłem się o powrót do domu, ty zaś przyrzekłeś skinieniem,
+                        <lb n="375"/>pomnij na nie i ratuj, Olimpijczyku, w tym dniu bezlitosnym,
+                        <lb/>i niech w ten sposób Trojanie nie wytępią Achajów.
+                        <lb/>Tak powiedział modląc się, mocno zagrzmiał Zeus doradca
+                        <lb/>słysząc modlitwy starca Nestora.
+                        <lb/>Trojanie, gdy usłyszeli grzmot Zeusa dzierżącego egidę,
+                        <lb/>mocniej natarli na Argiwów, pamiętali o zapale bitewnym.	
+                    </quote>
+                    <p>368: καὶ πᾶσι θεοῖσι – „i do wszystkich bogów”; por. 9.357.</p>
+                    <p>372–376: Modlitwa Nestora ma typową dla modlitw strukturę: 1) inwokacja; 2) przypomnienie przeszłych zasług; 3) prośba o pomoc.</p>
+                    <p>372: Ζεῦ πάτερ – „Zeusie ojcze”; Il. 3.276; Il. 7.446; Il. 8.236.</p>
+                    <p>373: ἢ βοὸς ἢ οἰὸς κατὰ πίονα μηρία καίων – „wołu lub owcy tłuste kości udowe spalając”; na temat wspomnienia spalania kości udowych (μηρία) w modlitwie, zob. Il. 1.36–43 z komentarzem.</p>
+                    <p>374: σὺ δ᾽ ὑπέσχεο καὶ κατένευσας – „ty zaś przyrzekłeś skinieniem”; w rejestrze heroicznym, mimo nieustannej niepewności odnośnie przyjęcia i odrzucenia modlitwy oraz niezrozumienia znaków zsyłanych przez bogów, zdarza się, że herosi są przekonani o przyjęciu przez bóstwo prośby zawartej w modlitwie.</p>
+                    <p>377–380: Grzmot Zeusa jest przychylną odpowiedzią na modlitwę Nestora, jednak przez Trojan został zinterpretowany jako zachęta do dalszej walki, zob. scholia T, Janko, comm. ad loc., W. Schadewaldt, Iliasstudien, s. 92. W swoim komentarzu Richard Janko zwraca uwagę na wielowarstwową ironię całej sytuacji. Trojanie nie są świadomi słów modlitwy Nestora ani jej związku ze znakiem danym przez Zeusa. Nestor nie wie, że jego modlitwa może być wysłuchana, gdyż przewaga Trojan stanie się przyczyną prośby Patroklosa o możliwość włączenia się do walki w zbroi Achillesa, natomiast Trojanie, źle rozumiejąc znak Zeusa, nabierają jeszcze większego zapału bitewnego (Janko xxxx: 268–9, por. Stockinger 1959: 41-3 non vidi).</p>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

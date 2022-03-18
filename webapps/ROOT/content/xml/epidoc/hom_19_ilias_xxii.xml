@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Iliade canto XXII</title>
+                <title xml:lang="en">Iliad book XXII</title>
+                <title xml:lang="pl">Iliada, pieśń XXII</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_19_ilias_xxii</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Iliada, pieśń XXII</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 156-159</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+              
+                <div type="textpart" n="Iliad_XXII_158–161">
+                    <head>Iliada XXII 158–161</head>
+                    <p>Pościg Achillesa za Hektorem jest odmalowany za pomocą heksametrów używających czasowników w imperfectum (ἔφευγε, δίωκε, ἀρνύσθην, θέον), co umożliwia przedstawienie całej sceny w jej czasowej rozciągłości (de Jong 2012: 99). Widzami sceny są bogowie, na których za chwilę przeniesie się uwaga poety. W analizowanym wyimku mamy do czynienia z ludzką fokalizacją narratora, który wprowadza priamel, porównanie poprzez negację: szybko biegnący herosi walczą o nagrodę, którą może być zwierzę ofiarne lub skóra zwierzęca, Achilles i Hektor walczą o życie Hektora – zwycięski Achilles niechybnie zabije Hektora jako swoją nagrodę w wyścigu. </p>
+                    <quote>
+                        <lb/>πρόσθε μὲν ἐσθλὸς ἔφευγε, δίωκε δέ μιν μέγ᾽ ἀμείνων, 
+                        <lb/>καρπαλίμως, ἐπεὶ οὐχ ἱερήϊον οὐδὲ βοείην 
+                        <lb n="160"/>ἀρνύσθην, ἅ τε ποσσὶν ἀέθλια γίγνεται ἀνδρῶν,
+                        <lb/>ἀλλὰ περὶ ψυχῆς θέον  Ἕκτορος ἱπποδάμοιο.  
+                    </quote>
+                    <quote>
+                        <lb/>Przodem uciekał szlachetny, gonił o wiele lepszy,
+                        <lb/>chyżo, gdyż nie o zwierzę ofiarne ni skórę wołową
+                        <lb n="160"/>grali, a są to nagrody mężów walczących w gonitwie, 
+                        <lb/>lecz ścigali się o duszę Hektora, co ujarzmia konie.
+                    </quote>
+                    <p>159: οὐχ ἱερήϊον οὐδὲ βοείην – „nie o zwierzę ofiarne ni skórę wołową”; zwrot stał się w starożytności przysłowiem (Cic. Ad Att. I 1.14). Niezależnie od tego, czy wyrażenie to było przysłowiem już w czasie powstania poematu, czy też stało się nim w wyniku popularności Iliady, chodzi o oczywiste, zwyczajowe nagrody w wyścigach. Obie łączy idea zwierzęcia ofiarnego, z tym że w pierwszym wypadku jest to zwierzę żywe, w drugim jego część, która pozostaje po spaleniu i spożyciu części przeznaczonych dla bogów i ludzi.</p>
+                    <p>ἱερήϊον – „zwierzę ofiarne”; woły jako prestiżowa nagroda w eposie pojawiają się w opisie igrzysk pogrzebowych ku czci Patroklosa (Il. 23.260). Są drugą nagrodą w wyścigach (750). Rzeczownik ἱερήϊον pojawia się w eposie homeryckim pojawia się 5 x (Il. 22.159; Od. 11.23; Od. 14.94; 250; Od. 16.600). Jego znaczenie można zdefiniować jako „zwierzę, które kapłan-ofiarnik (hiereus) zabija (lub zabije) zgodnie z normami rytualnymi”. Paul Stengel próbował wprowadzić rozróżnienie między „zwierzęciem przeznaczonym na ubój (Schlachttier)” i „zwierzęciem ofiarnym (Opfertier)”, jednak analizy Jeana Casabony (1966: 28–30) pokazały, że nic nie przemawia za taką interpretacją. Francuski badacz sugerował, że ofiary zwierzęce towarzyszyły igrzyskom, które również stanowiły swego rodzaju ryt religijny, a zwycięzca otrzymywał w nagrodę mięso zabitego zwierzęcia. W tym miejscu najpewniej chodzi jednak o zwierzę ofiarne, które jest przeznaczone dla zwycięzcy w zawodach, a dopiero następnie składane w ofierze i spożywane. Zwyczaj nagradzania zwierzęciem ofiarnym w kontekście genezy tragedii omawiał szczegółowo Burkert 1966.</p>
+                    <p>βοείην – „[skórę] wołową”; urzeczownikowiony przymiotnik z domyślnym ῥινόν – „skóra” (r.ż.). Skóry z wołów pochodziły prawdopodobnie z ofiar zwierzęcych i były szeroko wykorzystywane do wytwarzania rzemieni (Il. 22.397; Il. 23.324), tarcz (Il. 17.492), siedzisk (Od. 1.108) lub posłań (Od. 20.2).</p>
+                </div>
+                <div type="textpart" n="Iliad_XXII_166–176">
+                    <head>Iliada XXII 166–176</head>
+                    <p>Scena na Olimpie (166–187) przerywa opowiadanie o pościgu Achillesa, wypełniając czas potrzebny do trzykrotnego okrążenia murów Troi. Technika wypełniania czasu niezbędnego do wykonania jakiejś czynności jest u Homera dość częsta (de Jong 2012: 101). O scenach na Olimpie, zob. komentarz do Il. 4.44–49. Rozważania nad losem Hektora przypominają debatę na losem Sarpedona (Il. 16.431–461). Na temat paraleli między śmiercią Sarpedona, Patroklosa i Hektora, zob. de Jong 2012: 13–15.</p>
+                    <quote>
+                        <lb/>θεοὶ δ᾽ ἐς πάντες ὁρῶντο·							
+                        <lb/>τοῖσι δὲ μύθων ἦρχε πατὴρ ἀνδρῶν τε θεῶν τε· 
+                        <lb/>ὢ πόποι ἦ φίλον ἄνδρα διωκόμενον περὶ τεῖχος 
+                        <lb/>ὀφθαλμοῖσιν ὁρῶμαι· ἐμὸν δ᾽ ὀλοφύρεται ἦτορ 
+                        <lb n="170"/>Ἕκτορος, ὅς μοι πολλὰ βοῶν ἐπὶ μηρί᾽ ἔκηεν
+                        <lb/>Ἴδης ἐν κορυφῇσι πολυπτύχου, ἄλλοτε δ᾽ αὖτε 
+                        <lb/>ἐν πόλει ἀκροτάτῃ· νῦν αὖτέ ἑ δῖος  Ἀχιλλεὺς 
+                        <lb/>ἄστυ πέρι  Πριάμοιο ποσὶν ταχέεσσι διώκει. 
+                        <lb/>ἀλλ᾽ ἄγετε φράζεσθε θεοὶ καὶ μητιάασθε 
+                        <lb n="175"/>ἠέ μιν ἐκ θανάτοιο σαώσομεν, ἦέ μιν ἤδη
+                        <lb/>Πηλεΐδῃ  Ἀχιλῆϊ δαμάσσομεν ἐσθλὸν ἐόντα.  
+                    </quote>
+                    <quote>
+                        <lb/>Wszyscy bogowie patrzyli.
+                        <lb/>Między nimi mówiąc zaczął ojciec bogów i ludzi:
+                        <lb/>„Ojoj, czyż to miłego męża uciekającego wokół muru
+                        <lb/>widzę oczyma? Żali się moje serce
+                        <lb n="170"/>z powodu Hektora, który mi mnogie kości udowe wołów spalał
+                        <lb/>na szczytach Idy wielodolinnej lub kiedy indziej znów
+                        <lb/>na Akropolu: teraz boski Achilles
+                        <lb/>wokół miasta Priamowego szybkimi stopami ściga.
+                        <lb/>Więc uważajcie, bogowie, i radźcie,
+                        <lb n="175"/>czy go od śmierci mam ocalić, czy też
+                        <lb/>chociaż tak szlachetny, mamy go oddać Achillesowi Pelejdzie?
+                    </quote>
+                    <p>166: θεοὶ δ᾽ ἐς πάντες ὁρῶντο – „wszyscy bogowie przyglądali się”; narrator przenosi nas na Olimp, gdzie bogowie patrzą na pościg Achillesa za Hektorem jak widzowie igrzysk patrzą na wyścigi. Strona medialna czasownika (ἐς… ὁρῶντο, tmesis) podkreśla zaangażowanie bogów w spektakl – nieco dalej Zeus powie: ἐμὸν δ᾽ ὀλοφύρεται ἦτορ – „żali się moje serce”.</p>
+                    <p>167: Wers formularny (8 x Il.: 5.420; 7.445; 10.203; 17.628; 21.287; 22.167; 24.103, 6 x Od.)</p>
+                    <p>πατὴρ ἀνδρῶν τε θεῶν τε – „ojciec ludzi i bogów”; hemistych formularny (Il. 1.544; 4.68; 5.426; 8.49; 8.132; 11.182; 15.12; 15.47; 16.458; 20.56; 22.167; 24.103; Od. 1.28; 12.445; 18.137). Zeus ma cechy głowy patriarchalnej rodziny, co przekłada się na jego autorytet wśród bogów i ludzi. Czasami metafora przybiera bardziej konkretną postać, jak na przykład w Odysei (20.202), gdzie jest mowa, że bezwzględną władzę Zeusa nad śmiertelnikami wyjaśnia się tym, że (metaforycznie) spłodził on ludzi; tylko w nielicznych wypadkach chodzi o rzeczywiste ojcostwo (Sarpedon).</p>
+                    <p>168: φίλον ἄνδρα – „miłego męża”; ten wyjątkowy zwrot wyraża stan emocjonalny boga, por. Il. 24.67. Idea miłości boga do ludzi ma swoje korzenie w religijnych wyobrażeniach Bliskiego Wschodu, gdzie bogowie opiekuńczy byli przedstawiani jako bogowie miłujący człowieka i chroniący go przed przeciwnikami (West 2006 [1997]: 194–196). W eposie homeryckim miłość boga nie daje gwarancji ocalenia.</p>
+                    <p>170: ὅς μοι πολλὰ βοῶν ἐπὶ μηρί᾽ ἔκηεν – „który mi mnogie kości udowe wołów spalał”; ofiary jako element relacji opartej na zasadzie wzajemności (do ut des) sprawiają, że w mowach bogowie często wspominają ofiary spalane na ołtarzach (Il. 4.46–49; Il. 20.297–8; Il. 24.33–4; 68–70; Od. 4.763–4; Od. 17.240–2).</p>
+                    <p>ἐπὶ…᾽ ἔκηεν: aoryst od ἐπικαίω (tmeza), por. Od. 3.9; 17.241. Przedrostek ἐπί zakłada domyślny rzeczownik βωμοῖς, ołtarzach. Por. Od. 3.273.</p>
+                    <p>171: Ἴδης ἐν κορυφῇσι πολυπτύχου, na szczytach Idy o wielu jarach: o szczycie góry Ida, i temenosie Zeusa w Gargaros, zob. Il. 8.47–8 z komentarzem.</p>
+                    <p>πολυπτύχου, o wielu jarach: jeden z epitetów świętej góry Ida, por. πολυδῖδαξ, o wielu źródłach (8.47).</p>
+                    <p>172: ἐν πόλει ἀκροτάτῃ: o Akropolu w Troi zob. Il. 6. 88 i 257 z komentarzami.</p>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

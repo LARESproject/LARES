@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Iliade canto IV</title>
+                <title xml:lang="en">Iliad book IV</title>
+                <title xml:lang="pl">Iliada, pieśń IV</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_04_ilias_iv</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Iliada, pieśń IV</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 71-78</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Podczas narady bogów na Olimpie Zeus, realizując swój plan spełnienia obietnicy danej Tetydzie, przewrotnie proponuje rozważyć zakończenie wojny, czym wywołuje gniew Ateny i Hery pragnących zniszczyć Troję. Hera, choć uznaje władzę Zeusa, zapowiada jednocześnie, że nie każdy jego rozkaz zostanie spełniony. W odpowiedzi (Il. 4.31–49) Zeus  podkreśla swoją niezależność i skuteczność w podejmowaniu decyzji o zagładzie miasta, podkreśla swoją przychylność wobec Troi, lecz ostatecznie godzi się na jej upadek. </p>
+                </div>
+                <div type="textpart" n="Iliad_IV_44–50">
+                    <head>Iliada IV 44–50 </head>
+                    <p>Sceny na Olimpie ukazują boskie spojrzenie na wydarzenia rozgrywające się między ludźmi na ziemi i często, choć nie zawsze, są wstępem do interwencji w bieg wypadków. Nie są integralnym elementem mitu, lecz „częścią mechanizmu ubarwiającego lub przyspieszającego akcję” (West 2006 [1997]: 252). Z punktu widzenia narracji są narzędziem podkreślającym wagę epizodu i wzmacniają efekt dramatyczny. Są również okazją do wspomnienia przez bogów ofiar składanych przez śmiertelników. Motyw zgromadzenia bogów epos grecki zapożyczył z epiki Bliskiego Wschodu (ibidem: 171–173 oraz 252–257) i należy do rejestru „olimpijskiego”, w którym poeta ma dość dużą swobodę w kształtowaniu akcji, korzystając przy tym z zasobów zapośredniczonych, pośrednio lub bezpośrednio, z eposu bliskowschodniego i anatolijskiego.</p>
+                    <p>W scenach na Olimpie bogowie czasami wspominają ofiary krwawe składane w przeszłości przez postaci, którym się przyglądają lub o których losie decydują. Tutaj ofiara została wyrażona metonimicznie poprzez κνίση, „tłuszcz”, oraz „równa uczta” (δαὶς ἐΐση) i „libacja” (λοιβή), trzy formy daru zaszczytnego (γέρας) dla bogów. Chodzi o wyrazy czci, które wytwarzają relację wzajemności i czynią zbożne miasto miłym sercu boga. Zgodnie z określeniem Sarah Hitch, chodzi o embedded sacrifice, ofiarę włączoną w wypowiedź postaci. Trzykrotnie mówcą jest Zeus: Il. 4.48–49 (= Il. 24.69–70) oraz Il. 22.170–172. Por. Hitch 2009: 67, 71, 82, 102–103, 108, 122, 131, 142, 201; Taplin 1992; Griffin 1980.</p>
+                    <quote>
+                        <lb/>ἐγὼ σοὶ δῶκα ἑκὼν ἀεκοντί γε θυμῶι					
+                        <lb n="45"/>αἳ γὰρ ὑπ᾽ ἠελίῳ τε καὶ οὐρανῷ ἀστερόεντι
+                        <lb/>ναιετάουσι πόληες ἐπιχθονίων ἀνθρώπων, 
+                        <lb/>τάων μοι περὶ κῆρι τιέσκετο Ἴλιος ἱρὴ 
+                        <lb/>καὶ Πρίαμος καὶ λαὸς ἐϋμμελίω  Πριάμοιο. 
+                        <lb/>οὐ γάρ μοί ποτε βωμὸς ἐδεύετο δαιτὸς ἐΐσης 
+                        <lb/>λοιβῆς τε κνίσης τε· τὸ γὰρ λάχομεν γέρας ἡμεῖς.  
+                    </quote>
+                    <quote>
+                        <lb/>Zgodziłem się dać ci to dobrowolnie, choć w sercu się nie zgadzam.	
+                        <lb n="45"/>Jakie tylko pod słońcem i gwiaździstym niebem
+                        <lb/>są zasiedlone miasta naziemnych ludzi,
+                        <lb/>wśród nich w mym sercu szczególnie jest czczone Ilion święte 
+                        <lb/>i Priam, i lud Priama dzierżącego mocną włócznię,
+                        <lb/>nigdy bowiem mój ołtarz nie był pozbawiony udziału w równej uczcie
+                        <lb/>ani ofiary płynnej lub tłustego dymu: to bowiem otrzymujemy jako dar zaszczytny.
+                    </quote>
+                    <p>44: αἳ γὰρ ὑπ᾽ ἠελίῳ τε καὶ οὐρανῷ ἀστερόεντι – „jakie tylko pod słońcem i gwiaździstym niebem / są zamieszkiwane miasta”; wers zbudowany z modyfikowanych elementów formularnych. Formuła οὐρανοῦ ἀστερόεντος (lub οὐρανὸν ἀστερόεντα) pojawia się w eposie wielekroć (6x Il., 4x Od.), tutaj wyjątkowo pojawia się w datiwie (Kirk, comm. ad loc.). Zeus spogląda na scenę wojny trojańskiej z perspektywy uniwersalnej, obejmującej wszystkie ludy zamieszkujące ziemię. Warto podkreślić, że epos nie wskazuje na różnice w sprawowaniu kultu jako źródła konfliktu, a Troja jest miastem przykładnie pobożnym (Taplin 1992: 112–3). Trudno jednak wnioskować, że wszędzie są czczeni bogowie. W każdym razie w Odysei Kyklopi nie dbają o bogów, a zatem nie składają im również ofiar, co wydaje się jednak znakiem nie-ludzkiego świata.</p>
+                    <p>46:	μοι περὶ κῆρι – „w mym sercu szczególnie”; zwrot można rozumieć dwojako, w zależności od interpretacji leksemu περὶ. Jeśli występuje on w funkcji przyimka, wyrażenie należałoby przetłumaczyć „wokół serca” > „w głębi serca”, jeśli natomiast chodzi o użycie przysłówkowe (LSJ s.v. περὶ, E), „nadzwyczajnie, szczególnie”. Por. „największą czcią (tłum. K.J.)”</p>
+                    <p>τιέσκετο – „jest czczone”; czasownik τίω, „czcić” może oznaczać zarówno cześć oddawaną bogom przez ludzi, jak i uczczenie kogoś z ludzi przez bogów (por. Il. 9.110; Il. 1.508).</p>
+                    <p>48–9:	οὐ γάρ μοί ποτε βωμὸς ἐδεύετο δαιτὸς ἐΐσης / λοιβῆς τε κνίσης τε· τὸ γὰρ λάχομεν γέρας ἡμεῖς – „nigdy bowiem mój ołtarz nie był pozbawiony udziału w uczcie, / ofiary płynnej i tłustego dymu”; to bowiem otrzymujemy jako dar zaszczytny = Il. 24.69–70. Wersy formularne, powtórzone w pieśni XXIV, gdzie Zeus wypowiada je w odniesieniu do Hektora, który był najpobożniejszym spośród Trojan. W ten sposób Zeus dwukrotnie podkreśla pobożność Trojan (oraz ich przywódców – Priama i Hektora) wyrażającą się w spełnianiu ofiar płynnych i zwierzęcych, co jednak nie chroni miasta przed zagładą. Wersy tworzą rodzaj ramy dla akcji Iliady od chwili złamania układu potwierdzonego przysięgą, a nakłonieniem Achillesa do przyjęcia błagań Priama i wydania mu zwłok Hektora. Warto również podkreślić, że w kluczowym momencie akcji, gdy do Achillesa przybywa poselstwo od Agamemnona, aby nakłonić herosa do zaprzestania gniewu i powrotu do walki, Fojniks przeciwstawia trwanie w uporze herosa, możności przebłagania bogów ofiarami płynnymi i tłustym dymem (Il. 9.500).</p>
+                    <p>λοιβῆς τε κνίσης τε – „ofiary płynnej i tłustego dymu”; archaiczny rzeczownik λοιβή występuje w Iliadze trzykrotnie (Il. 4.49; Il.24.70 oraz Il. 9.500), zawsze razem z κνίση (zob. Il. 1.66 z komentarzem) jako metonimia części zaszczytnej ofiar przypadającej bogom. J. Casabona przypuszcza, że właśnie tej formule rzeczownik zawdzięcza przetrwanie (Casabona 1966: 274). Chodzi zatem o wers tradycyjny odziedziczony przez poetę Iliady z tradycji epickiej i odzwierciedlający archaiczny zasób leksykalny. Chodzi o libację, podczas której płyn ulewano z umiarem, kropla po kropli (Benveniste 1969: 2, 216–221). W Odysei λοιβή oznacza część wina, którą Odyseusz chce przeznaczyć dla cyklopa Polifema (Od. 9.349). Użycie w tym miejscu rzeczownika λοιβή doskonale pasuje do kontekstu, Polifem pożarł dwóch towarzyszy Odyseusza, który, aby poskromić gniew cyklopa, przynosi bukłak starego wina: „Weź, Kiklopie, pij wino, kiedy się najadłeś mięsa ludzkiego, abyś wiedział, jaki to napój chowaliśmy na naszym okręcie. Niosłem ci go w ofierze (σοὶ δ᾽ αὖ λοιβὴν φέρον), jeślibyś się zlitował (εἴ μ᾽ ἐλεήσας) i odesłał mnie do domu” (tłum. Jan Parandowski).</p>
+                    <p>τὸ γὰρ λάχομεν γέρας ἡμεῖς – „to bowiem otrzymujemy jako dar zaszczytny”; ofiara płynna i dym ze spalanych kości owiniętych tłuszczem otrzewnej, przeznaczane dla bogów podczas rytualnego uboju zwierząt są określone jako γέρας, „dar zaszczytny”. Chodzi o materialny wyraz przypadającej bogom czci. Na temat γέρας w kontekście ofiary, zob. Rudhardt 1958: 57.</p>
+                </div>
+                
+                <div type="textpart" n="Iliad_IV_100–104">
+                    <head>Iliada IV 100–104 </head>
+                    <p>Ofiara zwierzęca (hekatomba z owiec) włączona w akt mowy postaci (bogini Ateny) – polecenie wzniesienia modlitwy ze ślubowaniem złożenia ofiary w przyszłości. Atena, przybrawszy kształt Laodoka, syna Antenora, mówi do Pandarosa, syna Lykaona, namawiając go do wypuszczenia strzały w stronę Menelaosa. Charakterystyczne, że warunki przysięgi złamie sprzymierzeniec Troi, a nie mieszkaniec miasta. Postać Pandarosa nie jest dobrze osadzona w tradycji epickiej, zdaje się on uosabiać likijskich sąsiadów Troi (Por. Bachvarova 2016: 421; 443, przyp. 93; Benda-Weber 2005: 268–270; na temat możliwej likijskiej etymologii imienia, patrz Yakubovich 2010: 138; Neumann 2007: 278–279). Według Strabona (14.3.5) Pandaros, syn Lykaona, miał kult heroiczny w likijskim mieście Pinara. Zob. Hitch 2009: 67, 86, 100–101, 117.</p>
+                    <quote>
+                        <lb n="100"/>ἀλλ᾽ ἄγ᾽ ὀΐστευσον  Μενελάου κυδαλίμοιο,
+                        <lb/>εὔχεο δ᾽  Ἀπόλλωνι  Λυκηγενέϊ κλυτοτόξῳ 
+                        <lb/>ἀρνῶν πρωτογόνων ῥέξειν κλειτὴν ἑκατόμβην 
+                        <lb/>οἴκαδε νοστήσας ἱερῆς εἰς ἄστυ  Ζελείης.
+                    </quote>
+                    <quote>
+                        <lb n="100"/>Nuże więc, strzel w Menelajosa okrytego chwałą,
+                        <lb/>obiecaj Apollonowi Lykegenesowi, sławnemu łucznikowi,
+                        <lb/>że złożysz w ofierze sławną hekatombę z owiec pierworodnych, 		
+                        <lb/>po powrocie do domu, do miasta świętego, Zelei.
+                    </quote>
+                    <p>101: εὔχεο – „obiecaj”; czasownik εὔχομαι z bezokolicznikiem czasu przyszłego oznacza „ślubować”, „uroczyście obiecywać”, „modlić się obiecując” (LSJ s.v. III vow or promise to do…), por. Od. 17.50; Pl. Phd. 58d. Na temat konstrukcji  εὔχομαι + inf. fut., zob. Muellner 1976: 53–62.	</p>
+                    <p>Ἀπόλλωνι Λυκηγενέϊ κλυτοτόξῳ – „Apollonowi Lykegenesowi, łukiem sławnemu”; Apollon, określony epitetem κλυτοτόξος, „sławny z powodu łuku” (por. Il. 4.119; Il. 15.55) jest opiekunem łuczników, do którego wznosi się modły z prośbą o celny strzał. Skuteczność tej modlitwy pokazuje pojedynek łuczniczy w pieśni XXIII między Teukrosem i Idomeneusem.	Λυκηγενέϊ; przydomek Apollona Lykegenes należy wiązać z Lykią, z której pochodzi Pandaros, syn Lykaona (LfgrE, s.v.). Por. scholia D Δ 110: τῷ ἐν Λυκίᾳ τιμωμένῳ γεγενημένῳ· φασί γὰρ, ὅτι λαθεῖν σπυδάζουσα ἡ Λητὼ τὴν Ἥρας ζηλοτυπίαν, εἰς Λυκίαν ἀπιοῦσα, ἐγέννησεν ἐκεῖ τὸν Ἀπόλλωνα, por. sch. Erbse, Eust. 448.41 i nast., EM 767, 54. Na taką interpretację zdaje się wskazywać wyjątkowość tego przydomka w Iliadzie, który występuje tylko w tym miejscu oraz w w. 119 będącym jego niemal dosłownym powtórzeniem. Sprawa związków bardziej rozpowszechnionych epitetów Apollona Lykejosa/Lykiosa z Lykią jest bardziej złożona. Starożytni wskazywali na związek ze światłem, jednak obecnie etymologia ta jest powszechnie odrzucana. Z kolei związek z rzeczownikiem λύκος „wilk”, był szeroko dysputowany w starożytności (Aristot, HA p. 580 a 14–19, sch. Erbse b1, Eust., oraz we współczesnej literaturze, zob. Leaf, ad. loc., Bowra, Tradition 220,  Nillson, GgrR 505 i nast.). Na temat związków Apollona z Iliadą w kontekście wpływów anatolijskich na uformowanie się tradycji epickiej i jej rozprzestrzenienia, zob. Bachvarova 2016: 447 z przyp. 113 (bibliografia); 449–453; Mouton, Rutherford 2015, por. LfrgE s.v. 1719.39 i nast. (bibliografia).</p>
+                    <p>102:	ἀρνῶν πρωτογόνων ῥέξειν κλειτὴν ἑκατόμβην – „że złożysz w ofierze sławną hekatombę z owiec pierworodnych”; wers formularny (4x Il: 4.102; 4.120; 23.864; 23.873), który zawsze występuje w kontekście ślubowania składanego przez łucznika przed oddaniem strzału. Na temat zwrotu ῥέζειν ἑκατόμβην, zob. Casabona 1966, xx.</p>
+                    <p>ἑκατόμβην; w Iliadzie w aktach mowy postaci (modlitwa) wymienia się szereg zwierząt ofiarnych dla Apollona, por. Il. 1.65 (owce i kozy); Il. 4.101, 120 (owce); Il. 23.864, 873 (owce); Il. 1.41 (byki i kozy).</p>
+                </div>
+                
+                <div type="textpart" n="Iliad_IV_118–121">
+                    <head>Iliada IV 118–121</head>
+                    <p>Namówiony przez Atenę Pandaros mierzy do Menelaosa.</p>
+                    <quote>
+                        <lb/>αἶψα δ᾽ ἐπὶ νευρῇ κατεκόσμει πικρὸν ὀϊστόν, 
+                        <lb/>εὔχετο δ᾽  Ἀπόλλωνι  Λυκηγενέϊ κλυτοτόξῳ 
+                        <lb n="120"/>ἀρνῶν πρωτογόνων ῥέξειν κλειτὴν ἑκατόμβην
+                        <lb/>οἴκαδε νοστήσας ἱερῆς εἰς ἄστυ  Ζελείης.  
+                    </quote>
+                    <quote>
+                        <lb/>Wnet na cięciwie grot ostry ułożył starannie 
+                        <lb/>pomodlił się do Apollona lykijskiego, łukiem sławnego,
+                        <lb n="120"/>ślubując mu z owiec pierworodnych złożyć sławną hekatombę,
+                        <lb/>gdy już do domu powróci, do miasta świętego, Zelei.
+                    </quote>
+                    <p>418–421: Narracyjna transpozycja polecenia wydanego przez postać na narrację główną powtarza, ze zmianami gramatycznymi wymaganymi w nowym kontekście, słowa Ateny</p>
+                </div>
+                
+                <div type="textpart" n="Iliad_IV_155–159">
+                    <head>Iliada IV 155–159</head>
+                    <p>Wystrzelenie strzały w kierunku Menelaosa jest traktowane jako zerwanie przysiąg i pogwałcenie porozumienia. Mowa Agamemnona jest interesująca ze względu na zwroty oddające znaczenie ofiar przysiężnych w greckiej mentalności religijnej. Rytualne przedmioty, horkia, są materialnymi przedmiotami posiadającymi moc. Ich niszczący potencjał zostaje uruchomiony z chwilą złamania układu i skierowany przeciw krzywoprzysięzcy.</p>
+                    <quote>
+                        <lb n="150"/>φίλε κασίγνητε θάνατόν νύ τοι ὅρκι᾽ ἔταμνον
+                        <lb/>οἶον προστήσας πρὸ  Ἀχαιῶν  Τρωσὶ μάχεσθαι, 
+                        <lb/>ὥς σ᾽ ἔβαλον  Τρῶες, κατὰ δ᾽ ὅρκια πιστὰ πάτησαν. 
+                        <lb/>οὐ μέν πως ἅλιον πέλει ὅρκιον αἷμά τε ἀρνῶν 
+                        <lb/>σπονδαί  τ᾽ ἄκρητοι καὶ δεξιαὶ ᾗς ἐπέπιθμεν.  
+                    </quote>
+                    <quote>
+                        <lb n="150"/>Miły bracie, przeciąłem horkia jako śmierć dla ciebie,
+                        <lb/>którego postawiłem w miejsce Achajów do walki przeciw Trojanom,
+                        <lb/>teraz Trojanie strzelili do ciebie, upadły wierne przysięgi.
+                        <lb/>Jednak nie na próżno jest przysiężna krew jagniąt 
+                        <lb/>i libacje z niezmieszanego wina i uścisk prawicy, którym zatwierdziliśmy.
+                    </quote>
+                    <p>155: θάνατόν νύ τοι ὅρκι᾽ ἔταμνον – „przeciąłem przedmioty przysiężne (horkia) jako śmierć dla ciebie”; K. Jeżewska tłumaczy: „na twoją śmierć zaprzysięgłem przymierze”. Obrazowa transpozycja języka przysięgi: „przeciąłem przedmioty przysiężne jako śmierć dla ciebie”, to znaczy „zawarłem układ potwierdzony obrzędem przysięgi, w którym stawką była Twoja śmierć”, zob. Kirk 1985, ad 155.</p>
+                    <p>156: προστήσας – „postawiłem w miejsce”; z punktu widzenia recepcji języka ofiarniczego bardzo ciekawa jest interpretacja tego miejsca w scholiach: „metaforycznie od zwierząt ofiarnych, które ustawia się przy ołtarzu”.</p>
+                    <p>157: Agamemnon wyraża przekonanie, które będzie towarzyszyło herosom aż do końca dnia walki, że przysięga, chociaż złamana, nie poszła na marne;</p>
+                    <p>σπονδαί  τ᾽ ἄκρητοι: w czasie libacji używano wina niezmieszanego z wodą.  Libacje Il. 3.295 i nast., niezmieszane, zob. Il. 3.269–70.</p>
+                    <p>158:	ὅρκιον αἷμά τε ἀρνῶν – „przysiężna krew jagniąt”; w narracji głównej wyrażenie θεῶν… ὅρκια πιστὰ (Il. 3.245) odnosi się to do jagniąt oraz wina. Chodzi o przedmioty będące nośnikiem boskiej mocy zdolnej wymierzyć najwyższą karę za złamanie zobowiązania zawartego przysięgi. Skupienie uwagi na zwierzętach, a nie ich krwi, jest zrozumiałe, gdyż wyrażenie to pojawia się w miejscu, które mówi o przyniesieniu zwierząt na miejsce odprawienia obrzędu, a zatem przed rytualnym ubojem. Agamemnon wspomina ofiary już po zarżnięciu zwierząt, dlatego przenosi akcent na krew. Przywołując trafną uwagę J. Rudhardta można powiedzieć, że wyrażenie ὅρκιον αἷμά τε ἀρνῶν „podkreśla wagę krwi; tego rodzaju ofiara sprowadza się do swoistego rodzaju krwistej libacji” (Rudhardt 1958: 282).</p>
+                    <p>159:	καὶ δεξιαὶ ᾗς ἐπέπιθμεν – „i uścisk prawicy, którym zatwierdziliśmy”; uścisk prawicy (dexiōsis) w kulturze greckiej był znakiem przyjaźni i przymierza. Materiał źródłowy został zebrany i przedyskutowany przez Bayliss 2013: 156–8, por. Herman 1987: 37, 50–2, 134; Cole 1996: 240–241. Znaczenie tego gestu w Iliadzie oraz jego znaczenia w różnych kontekstach omówiła Kitts 2005: 79–84. 
+                    </p>
+                </div>
+                <div type="textpart" n="Iliad_IV_343–348">
+                    <head>Iliada IV 343–348</head>
+                    <p>Agamemnon, w chwili kryzysu na polu bitewnym, wypomina herosom udział w ucztach królewskich. Ofiara krwawa nie pojawia się tutaj bezpośrednio, ale okoliczności wydawania uczty heroicznej przez wodza zakładają uprzednie złożenie ofiary. Ponieważ Agamemnon skierowuje swoje słowa do członków elity trojańskiej, akcent został przeniesiony na ludzki, integracyjny aspekt uczty – jedzenie mięsa i picie wina.</p>
+                    <quote>
+                        <lb/>πρώτω γὰρ καὶ δαιτὸς ἀκουάζεσθον ἐμεῖο, 					
+                        <lb/>ὁππότε δαῖτα γέρουσιν ἐφοπλίζωμεν  Ἀχαιοί. 
+                        <lb n="345"/>ἔνθα φίλ᾽ ὀπταλέα κρέα ἔδμεναι ἠδὲ κύπελλα
+                        <lb/>οἴνου πινέμεναι μελιηδέος ὄφρ᾽ ἐθέλητον· 
+                        <lb/>νῦν δὲ φίλως χ᾽ ὁρόῳτε καὶ εἰ δέκα πύργοι  
+                        <lb/>Ἀχαιῶν ὑμείων προπάροιθε μαχοίατο νηλέϊ χαλκῷ.  
+                    </quote>
+                    <quote>
+                        <lb/>Jako pierwsi bowiem byliście gotowi na moją ucztę,			
+                        <lb/>ilekroć wyprawialiśmy ucztę dla starszyzny, Achajowie,
+                        <lb n="345"/>tam, gdzie zjada się miłe pieczone mięso i pije się
+                        <lb/>kielichy słodkiego wina, ile tylko zapragnie;
+                        <lb/>teraz zaś miło wam patrzeć, chociażby dziesięć oddziałów
+                        <lb/>Achajów przed wami walczyło okrutnym spiżem.
+                    </quote>
+                    <p>343: δαιτὸς… ἐμεῖο – „moją ucztę”; uczta wyprawiana przez Agamemnona jest powtarzającym się elementem tradycji epickiej, por. Il. 2.398–430. Składnia zdania greckiego jest niejasna (zob. Leaf, ad loc.), chociaż została wyjaśniona przez Schippa (1972: 243). Tłumaczę na podstawie interpretacji Arystarcha, który parafrazuje to zdanie (Did/A) w następujący sposób: πρῶτοί μου ἀκούετε περὶ δαιτός – „jako pierwsi dawaliście posłuch w sprawie uczty”. </p>
+                    <p>344: ὁππότε δαῖτα γέρουσιν ἐφοπλίζωμεν Ἀχαιοί – „ilekroć wyprawialiśmy ucztę dla starszyzny, Achajowie”; chodzi o ucztę spożywaną w gronie ścisłej elity arystokratycznej. W Iliadzie mamy dwa przykłady takiej uczty: Il. 2.398–430 oraz Il. 7.313–325. 
+                  </p>
+                    <p>345: ἔνθα φίλ᾽ ὀπταλέα κρέα ἔδμεναι – „gdzie miło było jeść pieczone mięso”; na uczty heroiczne składa się pieczyste i dowolne picie wina (Węcowski 2011).</p>
+                </div>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

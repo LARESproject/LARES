@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Iliade canto XXI</title>
+                <title xml:lang="en">Iliad book XXI</title>
+                <title xml:lang="pl">Iliada, pieśń XXI</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_18_ilias_xxi</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Iliada, pieśń XXI</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 154-155</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Walka nad rzeką i bitwa bogów, które wypełniają treść pieśni XXI, dają tylko jedną sposobność wzmiankowania ofiary zwierzęcej. W wypowiedzi postaci Achillesa znajduje się wzmianka o licznych, choć nieskutecznych ofiarach składanych bogu rzeki Skamander.</p>
+                </div>
+                <div type="textpart" n="Iliad_XXI_130–138">
+                    <head>Iliada XXI 130–138 </head>
+                    <quote>
+                        <lb n="130"/>οὐδ᾽ ὑμῖν ποταμός περ ἐΰρροος ἀργυροδίνης
+                        <lb/>ἀρκέσει, ᾧ δὴ δηθὰ πολέας ἱερεύετε ταύρους, 
+                        <lb/>ζωοὺς δ᾽ ἐν δίνῃσι καθίετε μώνυχας ἵππους. 
+                        <lb/>ἀλλὰ καὶ ὧς ὀλέεσθε κακὸν μόρον, εἰς ὅ κε πάντες 
+                        <lb/>τίσετε  Πατρόκλοιο φόνον καὶ λοιγὸν  Ἀχαιῶν, 
+                        <lb n="135"/>οὓς ἐπὶ νηυσὶ θοῇσιν ἐπέφνετε νόσφιν ἐμεῖο.
+                        <lb/>Ὣς ἄρ᾽ ἔφη, ποταμὸς δὲ χολώσατο κηρόθι μᾶλλον, 
+                        <lb/>ὅρμηνεν δ᾽ ἀνὰ θυμὸν ὅπως παύσειε πόνοιο 
+                        <lb/>δῖον Ἀχιλλῆα, Τρώεσσι δὲ λοιγὸν ἀλάλκοι.   
+                    </quote>
+                    <quote>
+                        <lb n="130"/>„Was rzeka pięknostruga, o nurtach srebrzystych
+                        <lb/>nie ochroni, choć długo mnogie składaliście jej byki w ofierze,
+                        <lb/>i żywe w nurty wrzucaliście konie jednokopytne.
+                        <lb/>Lecz będzie was gubił zły los, zanim wszyscy
+                        <lb/>nie zapłacili za śmierć Patroklosa i klęski Achajów,
+                        <lb n="135"/>których przy lotnych okrętach zabiliście z dala ode mnie”.
+                        <lb/>Tak powiedział, rzeka zaś zagniewała się w sercu bardzo,
+                        <lb/>rozważała w duchu, jak by powstrzymać w trudzie bitewnym
+                        <lb/>boskiego Achillesa i uchronić od zguby Trojan.
+                    </quote>
+                    <p>130: ποταμός περ ἐΰρροος ἀργυροδίνης / ἀρκέσει – „rzeka pięknostruga o nurtach srebrzystych / nie ochroni”; podmiotem czasownika ἀρκέσει (ind. fut. act. od ἀρκέω) jest rzeka, co można interpretować jako typowy przykład przypisywania cech istot żywych elementom przyrody (o zjawiskach nadprzyrodzonych z kognitywnego punktu widzenia, zob. Boyer b.r.w. [2001]). Kult rzek w starożytnej Grecji wiąże się z przypisywaniem im niezwykłych cech poznawczych – zdolności słyszenia i reagowania na prośby. Jest to jedyny przykład w eposie homerowym połączenia – odwołując się do kategorii kognitywnych hasła ontologicznego [rzeka] z kontrintuitywną cechą [świadomość]. Achilles, wspominając ofiary składane w przeszłości rzece, nie wymienia w tym miejscu imienia własnego Skamandra (robi to nieco wcześniej, w. 124), lecz mówi o niej jako podmiocie działającym, który może roztaczać opiekę w zamian za składane ofiary. Jego buńczuczne słowa podważają moc bóstwa rzeki, co wywołuje gwałtowną reakcję urażonego boga.</p>
+                    <p>131: Wydaje się, że Trojanie składali Skamandrowi dwa rodzaje ofiar zwierzęcych – ofiary krwawe z niekastrowanych byków oraz ofiary z topionych żywych koni.</p>
+                    <p>ἱερεύετε – „zabijać w ofierze”; J. Casabona (1966: 20) jako przeciwstawione ζωοὺς… καθίετε.</p>
+                    <p>132: καθίετε – „wrzucaliście”; czasownik καθίημι jest prawdopodobnie terminem technicznym na oznaczenie rytu, którego istota zasadza się na gwałtownym zepchnięciu zwierząt w dół podczas spełniania ofiar. Funkcja rytualnego zatapiania istot żywych lub przedmiotów jest przedmiotem studium Koch 2005. W czasach hellenistycznych na Rodos w miesiącu agrianos odprawiano święto Hippokatesia, w czasie którego składano w ofierze młodego barana. Źródła leksykograficzne mówią natomiast o rytualnym topieniu na Rodos kwadrygi poświęconej słońcu (Festus, s.v. October equus). Greckie rytuały zrzucania ofiary do wody mogą być interpretowane jako ofiary w sensie ścisłym lub rytualne dary (anathemata). Słownictwo używane w tych obrzędach łączy się również z terminami używanymi do oznaczania rytów libacji, dobrowolnym skoku do morza lub wrzuceniu kozła ofiarnego. Niezależnie od tego, czy przedmiotem wrzucanym do wody są ciastka, części przynależne do istoty żywej, jak włosy, zwierzę ofiarne lub człowiek, istota działania pozostaje ta sama: sprawienie, że przedmiot przeznaczany dla bogów spada z góry w dół.</p>
+                </div>
+           
+            </div>
+            
+        </body>
+    </text>
+</TEI>

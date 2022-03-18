@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Iliade canto IX</title>
+                <title xml:lang="en">Iliad book IX</title>
+                <title xml:lang="pl">Iliada, pieśń IX</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_09_ilias_ix</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Iliada, pieśń IX</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 121-131</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Pieśń IX kontynuuje opowieść o wydarzeniach wieczoru (zachód słońca: Il. 8.486) i nocy 25. dnia akcji. Jej tematem jest poselstwo do Achillesa, które ma skłonić herosa do powrotu na pole bitwy. Wzmianki o ofiarach krwawych w tej pieśni mają dwojaki charakter. Z jednej strony chodzi o ofiary wspomniane w głównej narracji w ramach sceny typowej –przybycie w gościnę, połączonej ze sceną – uczta heroiczna [tekst 36], z drugiej strony o ofiary włączone w mowy postaci: Achillesa, który odrzuca propozycję i zapowiada powrót do ojczyzny [tekst 37] oraz w mowę Fojniksa, za pierwszym razem w narracji autobiograficznej postaci [tekst 38], za drugim w moralną przypowieść [tekst 39].</p>
+                </div>
+                
+                <div type="textpart" n="Iliad_IX_202–222">
+                    <head>Iliada IX 202–222</head>
+                    <p>Poselstwo przybyło do namiotu Achillesa i zastaje go w trakcie wykonywania pieśni o „sławie mężów”. Achilles przywitał przybyłych i wydaje polecenia Patroklosowi.</p>
+                    <quote>
+                        <lb/>μείζονα δὴ κρητῆρα  Μενοιτίου υἱὲ καθίστα, 				
+                        <lb/>ζωρότερον δὲ κέραιε, δέπας δ᾽ ἔντυνον ἑκάστῳ· 
+                        <lb/>οἳ γὰρ φίλτατοι ἄνδρες ἐμῷ ὑπέασι μελάθρῳ. 
+                        <lb n="205"/>Ὣς φάτο,  Πάτροκλος δὲ φίλῳ ἐπεπείθεθ᾽ ἑταίρῳ. 
+                        <lb/>αὐτὰρ ὅ γε κρεῖον μέγα κάββαλεν ἐν πυρὸς αὐγῇ, 
+                        <lb/>ἐν δ᾽ ἄρα νῶτον ἔθηκ᾽ ὄϊος καὶ πίονος αἰγός, 
+                        <lb/>ἐν δὲ συὸς σιάλοιο ῥάχιν τεθαλυῖαν ἀλοιφῇ. 
+                        <lb/>τῷ δ᾽ ἔχεν  Αὐτομέδων, τάμνεν δ᾽ ἄρα δῖος  Ἀχιλλεύς. 
+                        <lb n="210"/>καὶ τὰ μὲν εὖ μίστυλλε καὶ ἀμφ᾽ ὀβελοῖσιν ἔπειρε,
+                        <lb/>πῦρ δὲ  Μενοιτιάδης δαῖεν μέγα ἰσόθεος φώς. 
+                        <lb/>αὐτὰρ ἐπεὶ κατὰ πῦρ ἐκάη καὶ φλὸξ ἐμαράνθη, 
+                        <lb/>ἀνθρακιὴν στορέσας ὀβελοὺς ἐφύπερθε τάνυσσε, 
+                        <lb/>πάσσε δ᾽ ἁλὸς θείοιο κρατευτάων ἐπαείρας. 
+                        <lb n="215"/>αὐτὰρ ἐπεί ῥ᾽ ὤπτησε καὶ εἰν ἐλεοῖσιν ἔχευε,
+                        <lb/>Πάτροκλος μὲν σῖτον ἑλὼν ἐπένειμε τραπέζῃ 
+                        <lb/>καλοῖς ἐν κανέοισιν, ἀτὰρ κρέα νεῖμεν  Ἀχιλλεύς. 
+                        <lb/>αὐτὸς δ᾽ ἀντίον ἷζεν  Ὀδυσσῆος θείοιο 
+                        <lb/>τοίχου τοῦ ἑτέροιο, θεοῖσι δὲ θῦσαι ἀνώγει 
+                        <lb/>Πάτροκλον ὃν ἑταῖρον· ὃ δ᾽ ἐν πυρὶ βάλλε θυηλάς.	
+                    </quote>
+                    <quote>
+                        <lb/>Synu Menojtijosa, największy krater ustaw,		
+                        <lb/>wino w nim zmieszaj najlepsze i puchar przygotuj dla każdego.
+                        <lb/>Przecież to mężowie najmilsi pod mym się dachem znajdują”.
+                        <lb n="205"/>Tak powiedział. Patroklos w lot przyjaciela usłuchał.
+                        <lb/>Wielką tacę krajczą ustawił w jasności płomienia,
+                        <lb/>polędwicę położył z owcy i kozy tuczonej,
+                        <lb/>oraz karkówkę karmnego wieprza tłuszczem kwitnącą.
+                        <lb/>Automedon mięsiwo trzymał, a boski Achilles
+                        <lb n="210"/>krajał, a gdy je podzielił dobrze, na rożnach osadził.
+                        <lb/>Wówczas do bogów podobny Menjtijada rozjarzył
+                        <lb/>ogień potężny, a kiedy żar przygasł i uwiądł słup ognia,
+                        <lb/>zgarnął żarzące się głownie i rożny rozstawił nad nimi,
+                        <lb/>solą mięsiwo posypał boską i wsparł na podstawach.
+                        <lb n="215"/>Wreszcie, gdy mięso już było gotowe, na stół je położył;
+                        <lb/>Patroklos chleb wziął i na stole postawił
+                        <lb/>w pięknych koszykach, a mięso Achilles podzielił.
+                        <lb/>Potem naprzeciw boskiego Odysa sam zasiadł za stołem,
+                        <lb/>ścianę miał poza plecami i wezwał Patrokla, by złożył
+                        <lb n="220"/>bogom ofiarę. Ten rzucił część im przeznaczoną w płomienie.
+                        <lb/>Wnet po gotowe potrawy ręce zebranych sięgnęły.
+                        <lb/>Kiedy napojem pragnienie i jadłem głód nasycili.
+                    </quote>
+                    <p>202: μείζονα δὴ κρητῆρα – „większy krater”; naczynie do mieszania wina jest dobrze zadomowione w świecie homeryckim. Dokumenty w piśmie linearnym B wymieniają ka-ra-te-ra (mieszalnik), co świadczy, że zwyczaj mieszania wody z winem mógł mieć swoje korzenie w epoce mykeńskiej (MY Ue 611, por. Ventris, Chadwick, Documents,2 331; 495). O silnym związku picia biesiadnego z mieszaniem płynów świadczy również obraz biesiady bogów, podczas której miesza się nektar (Od. 5.93). Na temat sympozjonu jako biesiady zorganizowanej wokół praktyki rytualne picia wina, odrębnej od uczty mięsnej, zob. Węcowski 2011.</p>
+                    <p>203: ζωρότερον δὲ κέραιε – „zmieszaj je mocniej”; sympozjalny zwyczaj mieszania wina z wodą dopuszczał różne proporcje w zależności od okoliczności. O proporcjach decydował gospodarz lub zgromadzeni biesiadnicy. Zazwyczaj wlewano do krateru więcej wody niż wina. Proporcja 1:20 w Od. 9.209 wynika oczywiście z potrzeby upicia Cyklopa. Słowo zorós tłumaczy się zazwyczaj jako „czysty, niezmieszany”, chociaż jego znaczenie nie jest pewne. Empedokles (31 B35 15 DK) zdaje się rozumieć je na odwrót, zob. Griffin 1995: 100.</p>
+                    <p>δέπας δ᾽ ἔντυνον ἑκάστῳ – „puchar przygotuj dla każdego”; na temat znaczenia rzeczownika depas – „puchar”, zob. Brommer 1942: 357–358. Słowo pojawia się również w tekstach mykeńskich pod postacią di-pa (dipas), zob. Beekes, s.v. Jak większość słów oznaczających naczynia nie ma greckiej etymologii. W Od. 3.46 czarę wręcza się przybyłemu do Pylos Telemachowi, aby ulał wina w ofierze.</p>
+                    <p>206: κρεῖον μέγα – w eposie hapax legomenon – „taca lub stół do krojenia mięsa”.	κάββαλεν ἐν πυρὸς αὐγῇ – „ustawił w świetle ognia”; krojenie mięsa wymaga wprawy i dobrego światła. W rejestrze świata heroicznego czynności, które w rzeczywistości historycznej wykonywali wyspecjalizowani rzeźnicy, mageiroi, wykonują sami herosi, w tym wypadku Achilles z pomocą Automedona. Na temat mageiros, zob. Berthiaume 2005.</p>
+                    <p>207: ἐν δ᾽ ἄρα νῶτον ἔθηκε – „polędwicę położył”; polędwica, „płat z grzbietu” jest częścią przyznawaną wyróżnionym gościom, por. polędwica dla Ajasa przydzielona przez Agamemnona, Il. 7.321. Podział mięsa zwierząt jest ważnym elementem uczty, która następowała po złożeniu ofiary krwawej. Tutaj rzeczywistość w rejestrze heroicznym łączy obyczaje charakterystyczne dla sympozjonu, a zatem arystokratycznym wspólnym piciu wina, z ucztą mięsną. Szczegółowość opisu, wykraczająca poza charakterystyczne dla sceny typowej sformułowania, obrazuje gościnność Achillesa i zapowiada scenę posiłku spożytego z Priamem w pieśni 24.</p>
+                    <p>ὄϊος καὶ πίονος αἰγός – „z owcy i tłustej kozy”; oba gatunki często występują razem, gdyż należą do stad mniejszych zwierząt hodowlanych w przeciwieństwie do bydła, które w gospodarce greckiej miało specjalne miejsce ze względu na swoją wartość i warunki hodowli. Trzoda owiec i kóz była określana słowem μῆλον, μῆλα w przeciwieństwie do βοές – „bydło”.</p>
+                    <p>σιάλοιο, LfgrE, s.v.</p>
+                    <p>208:	ῥάχιν – „karkówkę”; rzeczownik ῥάχις oznacza „grzebiet”, „kręgłosłup” oraz może oznaczać mięso wokół kręgosłupa. 
+                        τεθαλυῖαν ἀλοιφῇ – „bogatą tłustością”; part. pf. act. od θάλλω – „kwitnę”, „rosnę”, „rozwijam się”. Na temat ἀλοιφή – „tłuszcz”, „słonina”, zob. LfgrE s.v.</p> 
+                    <p>209: τῷ δ᾽ ἔχεν Αὐτομέδων, τάμνεν δ᾽ ἄρα δῖος  Ἀχιλλεύς – „jemu [τῷ, tzn. Achillesowi] trzymał Automedon, ciął zaś boski Achilleus”; Achilleus dzieli mięso nożem na tacy korzystając z pomocy Automedona, który w pieśni 16. będzie woźnicą Patroklosa, lecz w pieśni 24 (474, 574, 625) ponownie widzimy go w roli pomocnika przy uczcie. W arystokratycznym świecie eposu funkcja krajczego i jego pomocnika mogą być spełniane również przez herosów wykazujących się aristeia na polu bitewnym (Automendon, 17.426–542).</p>
+                    <p>210–215: Rozbudowany opis opiekania kawałków mięsa na rożnach (souvlaki) został podzielony na dwie części. W pierwszej mięso jest cięte przez Achillesa i Automedona na kawałki i nadziewane na rożny, podczas gdy Patroklos przygotowuje palenisko (rozpala ogień i rozrzuca żarzące się polana), w drugiej znajdujemy opis opiekania mięsa. Por. uwagę J. Griffina: „The meal resembles one of kebabs and pitta bread. Homer never mentions vegetables, no doubt for stylistic reasons: roast meat is heroic, salads are not”. (Griffin 1995: 101).</p>
+                    <p>210: καὶ τὰ μὲν εὖ μίστυλλε καὶ ἀμφ᾽ ὀβελοῖσιν ἔπειρε – „i ciął je na małe kawałki i nadziewał na rożny”; wers jest modyfikacją heksametru formularnego wykorzystywanego w scenach typowych – ofiara krwawa. W obu występują dwa czasowniki μίστυλλε i ἔπειρε, jednak tylko drugi hemistych ma charakter formularny (= Il. 1.465b = 2.428b = Od. 3.462b = 12.462b = 14.430b), pierwszy natomiast stanowi prawdopodobnie innowację, o czym może świadczyć nagromadzenie jednosylabowych spójników, zaimków i partykuł (καὶ τὰ μὲν εὖ) na początku wersu. W scenach typowych przysłówkowi εὖ, „dobrze” semantycznie odpowiada ἐπισταμένως, umiejętnie, zgodnie ze sztuką (Il. 7.317, 24.623 oraz Od. 19.422).</p>
+                    <p>216–217: Πάτροκλος μὲν σῖτον ἑλὼν ἐπένειμε τραπέζῃ / καλοῖς ἐν κανέοισιν, ἀτὰρ κρέα νεῖμεν  Ἀχιλλεύς / – „Patroklos chleb wziął i na stole postawił / w pięknych koszykach, a mięso Achilles rozdzielił”; płaskie placki chlebowe w rodzaju greckiej pity służą za podstawę pod rozdzielane mięso. Zgodnie z heroicznym rejestrem epickim bohaterowie z przeszłości spożywają uczty mięsne, dlatego nie można przekładać konwencji poetyckiej na realia kulinarne. Brak wzmianki o warzywach nie oznacza, że nie spożywano ich w tych okolicznościach.</p>
+                    <p>219: θεοῖσι δὲ θῦσαι ἀνώγει – „wezwał, by złożył ofiarę bogom”; Achilles rozkazuje swojemu towarzyszowi, Patroklosowi złożenie ofiary bogom. Jest to jedyny przypadek użycia czasownika θύω w Iliadzie (ponadto w Odysei mamy cztery przypadki: Od. 10.231; 14.446; 15.222 i 260; h.hom. Apoll. 491 i 509). W przeciwieństwie do normatywnej ofiary publicznej, w której bogom ofiarowuje się wytrybowane kości udowe owinięte w tłustą błonę otrzewnej, w ofierze prywatnej, towarzyszącej uczcie w namiocie Achillesa, ofiara polega na spaleniu odłożonych kawałków mięsa w ogniu, na których przygotowuje się strawę. Najpewniej ryt ten należy wiązać z rytem spalenia ἄργματα przez świniopasa Eumajosa, Od. 14.446–447. Por. Casabona 1966: 71–2.</p>
+                    <p>220: ὃ δ᾽ ἐν πυρὶ βάλλε θυηλάς – „on zaś do ognia wrzucił dymne ofiary”; ofiara dla bogów polega na wrzuceniu θυηλαί („ofiary dymne”) do ognia. Z kontekstu wynika, że chodzi o kawałki mięsa, ale, jak zwraca uwagę Jean Casabona, materialny aspekt nie jest tutaj najistotniejszy. Można przypuszczać, że chodzi o urzeczownikowiony przymiotnik z domyślnym μοῖραι, „(części), które spala się w ofierze”. Chodzi zatem o ofiarę pierwocinową, którą spala się dla bogów w czasie posiłku. W taki sposób wyjaśniają słowo θυηλαί słowniki i gramatycy: ἀπαρχαὶ τῶν θυσιῶν (Etym. Magn. 457.33), τὰς ἐπιθυομένας ἀπαρχάς (Ariston.).</p>
+                </div>
+                
+                <div type="textpart" n="Iliad_IX_356–8">
+                    <head>Iliada IX 356–8</head>
+                    <p>Do Achillesa przybywa poselstwo, w skład którego wchodzą Fojniks, Odyseusz i Ajas, z propozycją Agamemnona zawarcia układu z Achillesem: okup za zniewagę i obietnica małżeństwa z córką wodza w zamian za pomoc w walce. Odyseusz przekazuje Achillesowi propozycję Agamemnona, lecz heros odrzuca ją, zapowiadając rychły powrót do ojczyzny. Wzmianka o ofierze jest włączona do mowy Achillesa jako niespełniona zapowiedź przyszłych działań. Wypowiedź herosa zawiera interesujący z punktu widzenia badań nad ofiarą przykład rytuału odprawianego przed wyruszeniem w niebezpieczną podróż.</p>
+                    <quote>
+                        <lb/>νῦν δ᾽ ἐπεὶ οὐκ ἐθέλω πολεμιζέμεν  Ἕκτορι δίῳ 
+                        <lb/>αὔριον ἱρὰ Διὶ ῥέξας καὶ πᾶσι θεοῖσι 
+                        <lb/>νηήσας εὖ νῆας, ἐπὴν ἅλα δὲ προερύσσω,
+                    </quote>
+                    <quote>
+                        <lb/>teraz nie chcę walczyć z boskim Hektorem
+                        <lb/>jutro złożywszy ofiarę Zeusowi i wszystkim bogom
+                        <lb/>załadowawszy okręty, następnie wypłynę na morze
+                    </quote>
+                    <p>357: αὔριον ἱρὰ Διὶ ῥέξας – „złożywszy ofiarę Zeusowi”; według J. Casabony w tym miejscu przez ἱρὰ należy rozumieć ofiarę jako całokształt czynności związanych z rytuałem ofiary zwierzęcej. Zwrot ten należy dosłownie rozumieć: „po odprawieniu świętych (obrzędów) dla Zeusa”, a nie „po zabiciu zwierząt poświęconych bóstwu” (Casabona 1966: 50).</p>
+                    <p>πᾶσι θεοῖσι – „i wszystkim bogom”; J. Griffin (1995: 117) łączy tę frazę z kultem „wszystkich bogów” w epoce mykeńskej, por. Gérard-Rousseau 1968: 170 i nast.</p>
+                </div>
+                
+                <div type="textpart" n="Iliad_IX_465–469">
+                    <head>Iliada IX 465–469</head>
+                    <p>Po mowie Odyseusza i odmowie Achillesa głos zabiera Fojniks, wychowawca herosa. Wygłasza długą mowę, której podstawową funkcją jest nakłonienie herosa do powrotu do walki. Wprowadza w niej dwukrotnie motyw ofiary. Za pierwszym razem wspomina zwierzęta zarzynane przez przyjaciół i krewnych Fojniksa, aby go nakłonić do porzucenia zamiaru opuszczenia rodzinnej polis. Konflikt z ojcem doprowadził bowiem do rzucenia na Fojniksa klątwy, a ten, chcąc uniknąć skutków przebywania pod jednym dachem w gniewie postanawia opuścić dom. Na temat wzmianki o ofierze, zob. Hitch 2009: 55–56.</p>
+                    <quote>
+                        <lb n="465"/>αὐτοῦ λισσόμενοι κατερήτυον ἐν μεγάροισι, 
+                        <lb/>πολλὰ δὲ ἴφια μῆλα καὶ εἰλίποδας ἕλικας βοῦς 
+                        <lb/>ἔσφαζον, πολλοὶ δὲ σύες θαλέθοντες ἀλοιφῇ 
+                        <lb/>εὑόμενοι τανύοντο διὰ φλογὸς  Ἡφαίστοιο, 
+                        <lb/>πολλὸν δ᾽ ἐκ κεράμων μέθυ πίνετο τοῖο γέροντος.  
+                    </quote>
+                    <quote>
+                        <lb n="465"/>Błagając go zatrzymywali w domu,
+                        <lb/>liczne tłuste owce i woły powolnonogie
+                        <lb/>zarzynali, liczne świnie, spasione tłuszczem
+                        <lb/>osmalając rozciągali nad ogniem Hefajstosa,
+                        <lb/>wiele też wina słodkiego wypito z dzbanów starca.
+                    </quote>
+                    <p>466: πολλὰ δὲ ἴφια μῆλα καὶ εἰλίποδας ἕλικας βοῦς – „liczne tłuste owce i woły powolnonogie”; heksametr formularny, wykorzystany również w opisie pogrzebu Patroklosa, gdzie Achilles rozkazuje zabić mnogie zwierzęta, aby otulić ich tłuszczem zwłoki zmarłego na stosie, zob. Il. 23.166. Wyrażenie formularne βόας καὶ ἴφια μῆλα – „woły i tłuste owce” występuje w Iliadzie wielokrotnie jako symbol bogactwa i przedmiot wypraw łupieżczych, Il. 5.556; Il. 8.505; Il. 8.545; Il. 9.406; Od. 11.108; Od. 12.128; Od. 12.263; Od. 12.322.</p>
+                    <p>467: ἔσφαζον, zarzynali: przerzutnia pozwala poecie swobodnie połączyć heksametr formularny 466 z czasownikiem dostosowanym do potrzeb danego miejsca w narracji. Tutaj czasownik σφάζειν – „zarzynać”, metonimicznie określa cały proces uboju zwierząt od zarżnięcia po przygotowanie uczty mięsnej. W Iliadzie pojawia się pięciokrotnie (Il. 1.459; Il. 2.422; Il. 9.467; Il. 23.167; Il. 24.622). Charakterystyczne, że w Il. 23.167 pojawiające się również po przerzutni słowa πρόσθε πυρῆς ἔδερόν τε καὶ ἄμφεπον, „przed stosem oskórowali i przygotowali”, pomijają gest zarżnięcia, przechodząc do dalszych etapów przygotowywania zwierzęcia do spożycia. Na temat σφάζειν w eposie, zob. Casabona 1966: 155–159.</p>
+                    <p>θαλέθοντες ἀλοιφῇ – „spasione tłuszczem”; por. wyżej.</p>
+                    <p>468: Wers formularny, = Il. 23.33.</p>
+                    <p>φλογὸς  Ἡφαίστοιο – „nad ogniem Hefajstosa”; toczy się dyskusja, czy należy interpretować dosłownie jako imię boga (por. Il. 17.88, Od. 24.71), jednak paralelne miejsce Il. 2.426 sugeruje, że chodzi po prostu o ogień uosobiony przez boga.</p>
+                </div>
+                
+                <div type="textpart" n="Iliad_IX_497–512">
+                    <head>Iliada IX 497–512</head>
+                    <p>Fojniks kończy swoją mową przepowiednią, w której zauważa, że chociaż człowiek łamie zasady ustanowione przez bogów i zrywa tym samym relację wzajemności, jaka panuje między nim a bogami, to możliwe jest jej odtworzenie dzięki ofiarom przebłagalnym. </p>
+                    <quote>
+                        <lb/>οὐδέ τί σε χρὴ
+                        <lb/>νηλεὲς ἦτορ ἔχειν· στρεπτοὶ δέ τε καὶ θεοὶ αὐτοί, 				
+                        <lb/>τῶν περ καὶ μείζων ἀρετὴ τιμή τε βίη τε. 
+                        <lb/>καὶ μὲν τοὺς θυέεσσι καὶ εὐχωλῇς ἀγανῇσι 
+                        <lb n="500"/>λοιβῇ τε κνίσῃ τε παρατρωπῶσ᾽ ἄνθρωποι 
+                        <lb/>λισσόμενοι, ὅτε κέν τις ὑπερβήῃ καὶ ἁμάρτῃ. 
+                        <lb/>καὶ γάρ τε λιταί εἰσι  Διὸς κοῦραι μεγάλοιο 
+                        <lb/>χωλαί τε ῥυσαί τε παραβλῶπές τ᾽ ὀφθαλμώ, 
+                        <lb/>αἵ ῥά τε καὶ μετόπισθ᾽ ἄτης ἀλέγουσι κιοῦσαι. 
+                        <lb n="505"/>δ᾽ ἄτη σθεναρή τε καὶ ἀρτίπος, οὕνεκα πάσας 
+                        <lb/>πολλὸν ὑπεκπροθέει, φθάνει δέ τε πᾶσαν ἐπ᾽ αἶαν 
+                        <lb/>βλάπτουσ᾽ ἀνθρώπους· αἳ δ᾽ ἐξακέονται ὀπίσσω. 
+                        <lb/>ὃς μέν τ᾽ αἰδέσεται κούρας  Διὸς ἆσσον ἰούσας, 
+                        <lb/>τὸν δὲ μέγ᾽ ὤνησαν καί τ᾽ ἔκλυον εὐχομένοιο· 
+                        <lb n="510"/>ὃς δέ κ᾽ ἀνήνηται καί τε στερεῶς ἀποείπῃ,
+                        <lb/>λίσσονται δ᾽ ἄρα ταί γε  Δία  Κρονίωνα κιοῦσαι 
+                        <lb/>τῷ ἄτην ἅμ᾽ ἕπεσθαι, ἵνα βλαφθεὶς ἀποτίσῃ.
+                    </quote>
+                    <quote>
+                        <lb/>Nie powinieneś
+                        <lb/>mieć zatwardziałego serca: sami bowiem bogowie dają się nakłonić,	
+                        <lb/>chociaż większa jest ich cnota, cześć i siła.
+                        <lb/>Jednak ich ofiarami i modlitwami grzecznymi
+                        <lb n="500"/>libacją i tłustym dymem ludzie skierowują w bok,
+                        <lb/>błagając, jeśli ktoś popełni występek lub uchybienie. 
+                        <lb/>Przecież są także i Prośby z wielkiego Zeusa zrodzone
+                        <lb/>chrome, pokryte zmarszczkami i zezem na świat patrzące,
+                        <lb/>te postępują za Ate i bacznie pilnują przewiny.
+                        <lb n="505"/>Ate zaś jest przepotężna i mocne ma nogi, dlatego
+                        <lb/>wszystkie o wiele wyprzedza i śpieszy po całej w krąg ziemi
+                        <lb/>ludziom na zgubę. Lecz Prośby, choć wloką się, zło naprawiają.
+                        <lb/>Kto więc potrafi je uczcić, gdy zbliżą się, córki Zeusa,
+                        <lb/>temu są wielce pomocne i wysłuchają błagania.
+                        <lb n="510"/>Ale kto im się sprzeciwia nieustępliwa odmową,
+                        <lb/>zaraz zjawiają się Prośby ze skargą do Zeusa Kronidy;
+                        <lb/>Ate winnego dosięga, za upór jest ukarany.
+                    </quote>
+                    <p>497: στρεπτοὶ δέ τε καὶ θεοὶ αὐτοί – „sami bowiem bogowie dają się nakłonić”; cecha, którą wykazują się bogowie, jest wyrażona przymiotnikiem στρεπτοὶ (od στρέφω – „obrócić dokoła”, „skierować w bok”). Użyty metaforycznie oznacza kogoś dającego się nakłonić, zmieniającego postanowienie lub sposób postępowania. Naruszenie relacji z bogami wywołuje ich gniew, który może przejawiać się w złu dotykającym ludzi. Rytuały służą odwróceniu działania bogów, zmianie ich stanowiska, złagodzeniu.</p>
+                    <p>498: τῶν περ καὶ μείζων ἀρετὴ τιμή τε βίη τε – „chociaż większa jest ich cnota, cześć i siła”; dopowiedzenie niezbędne dla wzmocnienia retoryki przesłania, które ma nakłonić Achillesa do zaprzestania gniewu, przyjęcia darów jako wyrazu czci i powrotu do współdziałania. Fojniks podkreśla, że cześć (τιμή) i siła fizyczna (βίη) bogów są znacznie większe niż cześć i siła Achillesa, a ten mimo to zachowuje się, jak gdyby wolno mu było więcej niż samym bogom.</p>
+                    <p>499: καὶ μὲν τοὺς θυέεσσι καὶ εὐχωλῇς – „jednak ich ofiarami i modlitwami”; termin θύεα oznacza ofiary spalane w ogniu i wytwarzające dym (por. Il. 6.270; Hes. Op. 336–339, LfgrE s.v.). Rzeczownik θύεα jest poświadczony w archiwum mykeńskim w Pylos jako tu-we-a (PY Un 267.3), gdzie ma znaczenie „kadzidło”. Wydaje się, że w tym miejscu ofiary te są przeciwstawione ofiarom zwierzęcym i płynnym, zob. niżej.</p>
+                    <p>500: λοιβῇ τε κνίσῃ τε – „ofiarą płynną i tłustym dymem”; chodzi o kolejne sposoby przekonywania bogów do odwrócenia zła. Na temat tej archaicznej formuły, zob. Il. 4.48–9.</p>
+                </div>
+                
+                <div type="textpart" n="Iliad_IX_533–540">
+                    <head>Iliada IX 533–540</head>
+                    <p>W fabule mitu pojawia się motyw gniewu bogini w wyniku zaniedbania ofiar jako motyw w narracji mitycznej. Homer wykorzystuje mit o Meleagrze, aby przedstawić opowiadanie analogiczne do fabuły Iliady. Gniew Artemidy i zesłanie przez nią kary na Ojneusa odpowiada gniewowi Apollona w Iliadzie i zesłanie kary na Agamemnona i wojska Achajów. Analizę narratologiczną tego motywu przedstawił Burgess 2017, tam dalsza literatura przedmiotu.</p>
+                    <quote>
+                        <lb/>καὶ γὰρ τοῖσι κακὸν χρυσόθρονος Ἄρτεμις ὦρσε
+                        <lb/>χωσαμένη ὅ οἱ οὔ τι θαλύσια γουνῷ ἀλωῆς
+                        <lb n="535"/>Οἰνεὺς ῥέξ’· ἄλλοι δὲ θεοὶ δαίνυνθ’ ἑκατόμβας,
+                        <lb/>οἴῃ δ’ οὐκ ἔρρεξε Διὸς κούρῃ μεγάλοιο. 
+                        <lb/>ἢ λάθετ’ ἢ οὐκ ἐνόησεν· ἀάσατο δὲ μέγα θυμῷ.
+                        <lb/>ἣ δὲ χολωσαμένη δῖον γένος ἰοχέαιρα 
+                        <lb/>ὦρσεν ἔπι χλούνην σῦν ἄγριον ἀργιόδοντα,
+                        <lb/>ὃς κακὰ πόλλ’ ἕρδεσκεν ἔθων Οἰνῆος ἀλωήν·   
+                    </quote>
+                    <quote>
+                        <lb/>bowiem zło zesłała na nich złototronna Artemida
+                        <lb/>zagniewana, gdyż pierwocinowych ofiar jej nie złożył
+                        <lb/>Ojneus na zboczu winnicy – inni bogowie raczyli się hekatombami,
+                        <lb/>jedynie jej, córce potężnego Zeusa, nie złożył ofiary:
+                        <lb/>albo zapomniał, albo nie pomyślał: zabolało jej mocno serce   
+                    </quote>
+                    <p>533–4: καὶ γὰρ τοῖσι κακὸν χρυσόθρονος Ἄρτεμις ὦρσε / χωσαμένη – „bowiem zło zesłała na nich złototronna Artemida / zagniewana”; o jakie zło chodzi, wyjaśni się nieco dalej, gdy poeta powróci w kompozycji pierścieniowej do gniewu Artemidy (538–540), a mianowicie o zesłanie dzika pustoszącego winnicę Ojneusa. Czasownik χώομαι – „gniewać się” jest również kluczowy w przedstawieniu reakcji Apollona na modlitwę Chryzesa. Motyw gniewu bóstwa w obu przypadkach pełni tę samą funkcję w opowiadaniu. Również w przypadku Apollona diagnoza przedstawiona przez Achillesa, chociaż błędna, zakłada jako najbardziej prawdopodobną przyczynę nieszczęścia gniew bóstwa z powodu zaniedbanych ofiar. Tutaj zaniedbanie ofiar, nawet jeśli nie intencjonalne, jest realną przyczyną wydarzeń.</p>
+                    <p>534–5: ὅ οἱ οὔ τι θαλύσια γουνῷ ἀλωῆς, / Οἰνεὺς ῥέξ’ – „gdyż pierwocinowych ofiar jej nie złożył / Ojneus na zboczu winnicy”; czasownik ἔρδω – „składać ofiarę” został tutaj użyty w połączeniu z przymiotnikiem w rodzaju θαλύσια – „pierwocinowe” (domyślnie ἱερά – „ofiary”), Casabona 1966: 57. W późniejszych źródłach mamy poświadczone święto dożynkowe Thalysia ku czci Artemidy, Nilsson xxxx: 468; Zwolski 1978: xx.  Przymiotnik jest derywatem czasownika θάλλω, „kwitnąć, dojrzewać”, Beekes, s.v.</p>
+                    <p>535: ἄλλοι δὲ θεοὶ δαίνυνθ’ ἑκατόμβας – „inni bogowie raczyli się hekatombami”; czasownik δαίνυμι – „być ugaszczanym”, „ucztować”, „raczyć się”, „spożywać”, jeśli brany dosłownie, sugeruje tutaj udział bogów w uczcie wystawionej przez Ojneusa. Hainsworth zwraca uwagę, że jest to jedyny przypadek w eposie homerowym uczestnictwa bogów w biesiadzie wystawionej przez ludzi, z wyjątkiem wzmianek o ucztowaniu na krańcach ziemi u Etiopów i Feaków, a także dodaje, że czasownik może oznaczać w tym miejscu ogólnie „mieć udział” (Hainsworth 1993: 133). Sugerowano również, że miejsce to jest pozostałością starszej warstwy wierzeń, według której bogowie fizycznie uczestniczyli w ofiarach (Pulleyn 2006). Warto jednak zauważyć, że chodzi o narrację włączoną, a zatem słowa wypowiadane nie przez narratora, lecz jedną z postaci.</p>
+                    <p>536: οἴῃ δ’ οὐκ ἔρρεξε Διὸς κούρῃ μεγάλοιο – „jedynie jej, córce potężnego Zeusa, nie złożył ofiary”; jest to jedno z trzech miejsc, w których czasownik ἔρδω został użyty w sensie absolutnym w znaczeniu „złożyć ofiarę” (por. Il. 2.400; Il. 8.250).</p>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>
