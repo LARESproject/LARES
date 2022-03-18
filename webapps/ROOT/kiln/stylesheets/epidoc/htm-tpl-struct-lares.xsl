@@ -242,13 +242,14 @@
     <xsl:choose>
       <xsl:when test="not(ancestor::t:quote)"><br/></xsl:when>
       <xsl:when test="ancestor::t:quote and (preceding-sibling::node() or normalize-space(string-join(preceding-sibling::text(), ''))!='')"><br/></xsl:when>
+      <xsl:when test="ancestor::t:quote and position()=1"/>
     </xsl:choose>
     <span class="line_number"><xsl:text>(</xsl:text><xsl:value-of select="@n"/><xsl:text>) </xsl:text></span>
   </xsl:template>
   
   <xsl:template priority="10" match="t:quote//t:lb[1][not(@n)]">
     <xsl:choose>
-      <xsl:when test="not(preceding-sibling::node()) or not(normalize-space(string-join(preceding-sibling::text(), ''))!='')"></xsl:when>
+      <xsl:when test="not(preceding-sibling::node()) or not(normalize-space(string-join(preceding-sibling::text(), ''))!='')"/>
       <xsl:otherwise><br/></xsl:otherwise>
     </xsl:choose>
   </xsl:template>  

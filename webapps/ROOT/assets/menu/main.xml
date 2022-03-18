@@ -16,7 +16,7 @@
         <item label="Persae" match="local-epidoc-display-html" params="trag_01_persae"/>
         <item label="Septem contra Thebas" match="local-epidoc-display-html" params="trag_02_septem_contra_thebas"/>
         <item label="Supplices" match="local-epidoc-display-html" params="trag_03_supplices"/>
-        <item label="Agamemnon" match="local-epidoc-display-html" params="trag_04_agamennon"/>
+        <item label="Agamemnon" match="local-epidoc-display-html" params="trag_04_agamemnon"/>
         <item label="Choephori" match="local-epidoc-display-html" params="trag_05_cheophori"/>
         <item label="Eumenides" match="local-epidoc-display-html" params="trag_06_eumenides"/>
         <item label="Prometheus vinctus" match="local-epidoc-display-html" params="trag_07_prometheus_vinctus"/>

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Choephori (Χοηφόροι, Le Coefore)</title>
+                <title xml:lang="en">Choephori (Χοηφόροι, The Choephori)</title>
+                <title xml:lang="pl">Choephori (Χοηφόροι, Ofiarnice)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">trag_05_choephori</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Choephori (Χοηφόροι, Ofiarnice)</title>, in Krzysztof Bielawski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Tragedia attycka</title>, Warszawa 2017, pp. 77-84</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-03-18" who="Gaia Fanelli">encoded document in XML</change>
+                <change when="2017" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Temat ofiary jest w tej tragedii zasadniczy i zawarty już w tytule. Dramat
+                        przekazuje opisy ofiar spełnianych na grobie zmarłego wraz z towarzyszącymi
+                        im modlitwami i obrzędami (w. 124–163). Są to jednak
+                        ofiary typu χοή i jako takie z istoty swej bezkrwawe, nie podpadają
+                        więc pod zakres zainteresowań niniejszego komentarza.</p>
+                    <p>Odnotowane zostały jednak przypadki, w których pojęcia związane
+                        bezpośrednio lub prymarnie z ofiarą krwawą zostały użyte w odniesieniu
+                        do ofiary bezkrwawej w sposób przeniesiony, metaforyczny
+                        lub symboliczny.</p>
+                    <p>Zastanawiające jest, że w odniesieniu do zabójstwa zarówno
+                        Agamemnona przez Klitajmestrę, jak i Klitajmestry przez Orestesa
+                        poeta używa terminów neutralnych, pozbawionych jakiegokolwiek,
+                        choćby metaforycznego powiązania z tematyką ofiary. Agamemnon
+                        został „pozbawiony życia” (w. 492: <w>ἐνοσφίσθης</w>), a Orestes
+                        zapowiada po prostu, że „zabije matkę” (549–550: <w>ἐγὼ</w> / <w>κτείνω</w>
+                        <w>νιν</w>) i „trupem położy” Ajgistosa (575–576: <w>νεκρὸν</w> / <w>θήσω</w>). Po jego
+                        śmierci Sługa woła, że Ajgistosa „już nie ma” (877: <w>Αἴγισθος</w> οὐκέτ'
+                        ἔστιν). Tylko jeden raz Orestes zwraca się do Klitajmestry słowami:
+                        σε <w>σφάξαι</w> <w>θέλω</w>, powracając do metaforyki ofiarnej (zob. komentarz
+                        do w. 904 poniżej).</p>
+                    <p>Tekst według wydania: West (1991a).</p>
+                </div>
+                <div type="textpart" n="Choephori_106">
+                    <head>Choephori 106</head>
+                    <p>Odpowiedź przodownicy chóru na słowa Elektry, która przy grobie
+                        Agamemnona wzywa towarzyszące jej w obrzędzie ofiary dla
+                        zmarłych służące do złożenia na grobie należnej ofiary zgodnie z własnym
+                        przekonaniem.</p>
+                    <quote><lb/>αἰδουμένη σοι βωμὸν ὣς τύμβον πατρὸς</quote>
+                    <quote><lb/>Czczę grób twojego ojca jak ołtarz ofiarny.</quote>
+                    <p>106: <w>βωμὸν</w> ὡς – „jak ołtarz ofiarny”. Apozycja ὥς metri causa, dopełnieniem
+                        do <w>αἰδουμένη</w> jest <w>τύμβον</w> <w>πατρὸς</w>. Porównanie grobu do
+                        ołtarza pojawia się u Eurypidesa w Helenie 64, 547, 798–801. Passus z Kobiet
+                        na święcie Tesmoforiów Arystofanesa (887–888: Κακῶς ἄρ᾽ ἐξόλοιο, —
+                        κἀξολεῖ γέ τοι, — / ὅστις γε τολμᾷς σῆμα τὸν <w>βωμὸν</w> καλεῖν) Garvie
+                        uznaje za parodię tego Eurypidesowego utożsamienia. Natomiast Rose
+                        (1958: 13) z charakterystycznym brakiem wyczucia Arsytofanejskiej ironii
+                        wywodzi kategoryczny wniosek, że samo nazwanie grobu ołtarzem
+                        musiało w czasach Ajschylosa uchodzić za bezbożność. W okresie hellenistycznym
+                        znane są poświadczenia znaczeń słowa <w>βωμός</w> jako „ołtarz
+                        pogrzebowy” („funerary altar”, zob. Drew-Bear 1972: 56–66).</p>
+                </div>
+                
+                <div type="textpart" n="Choephori_242">
+                    <head>Choephori 242</head>
+                    <p>Elektra wylicza swą poczwórną radość na widok brata, Orestesa.
+                        Wspomina miłość do ojca Agamemnona, uczucie do matki, które w całości
+                        przeniosło się na brata, oraz do niego samego i do siostry Ifigenii
+                        – złożonej w ofierze: <w>τυθείσης</w>.</p>
+                    <quote><lb/>καὶ τῆς τυθείσης νηλεῶς ὁμοσπόρου…</quote>
+                    <quote><lb/>I bezlitośnie złożonej w ofierze siostry…</quote>
+                    <p>242: <w>τυθείσης</w> – „złożonej w ofierze”. Niewymieniona z imienia Ifigenia
+                        jest przez Elektrę wspomniana jako po prostu „złożona w ofierze”.
+                        Jest to jedyne w całym utworze odniesienie do śmierci Ifigenii
+                        i w ogóle jedno z nielicznych, które podnoszą kwestię winy Agamemnona.
+                        Nawet w słynnym agon logon między Orestesem i Klitajmestrą
+                        przed jej zamordowaniem nie powołuje się ona na winę męża. Także
+                        w tym passusie Elektra używa wyjątkowo neutralnego czasownika
+                        θύω, zamiast na przykład częstego w pierwszej części trylogii <w>σφάζω</w>,
+                        zaznaczając jedynie, że ofiara ta dokonała się „bezlitośnie” (<w>νηλεῶς</w>).</p>
+                </div>
+                
+                <div type="textpart" n="Choephori_255-257">
+                    <head>Choephori 255-257</head>
+                    <p>Słowa z modlitwy Orestesa, który prosi bogów o opiekę, pomoc
+                        i ocalenie potomstwa Agamemnona, przywołując jego zasługi – cześć
+                        dla bogów i składanie ofiar.</p>
+                    <quote>
+                        <lb n="255"/>καίτοι θυτῆρος καί σε τιμῶντος μέγα
+                        <lb/>πατρὸς νεοσσοὺς τούσδ᾽ ἀποφθείρας πόθεν
+                        <lb/>ἕξεις ὁμοίας χειρὸς εὔθοινον γέρας;
+                    </quote>
+                    <quote>
+                        <lb n="255"/>Jeśli zniszczysz te dzieci ojca,
+                        <lb/>Który składał ofiary i wielce cię czcił,
+                        <lb/>To skąd pozyskasz wspaniałe uczty ofiarne z podobnie hojnej ręki?
+                    </quote>
+                    <p>255: <w>θυτῆρος</w> – „ofiarnika”. Rzeczownik <w>θυτήρ</w> (Chantraine 1999:
+                        449) oznacza personam agentis od czasownika θύω – czyli „ofiarnika”,
+                        „tego, kto spełnia ofiarę”, sacrificateur w tradycji francuskiej (Casabona
+                        1966: 85; dyskusja na ten temat zob. Parker 2009: 168). U Ajschylosa termin
+                        pojawia się jeszcze dwa razy w Ag. (224, 240) – zawsze w odniesieniu
+                        do ofiary spełnianej na Ifigenii. Poza tym jeszcze dwa razy we
+                        fragmentach (fr. 443.82 oraz 36b3.11) w trudnym do określenia kontekście.
+                        U Sofoklesa dwa razy w Trach. (659 i 1192), a w prozie tylko raz
+                        u Dionizjusza z Halikarnasu (1.56.1). Częściej występuje termin θυτής.</p>
+                    <p>257: <w>εὔθοινον</w> <w>γέρας</w> – „wspaniałe uczty ofiarne”, dosłownie „dary
+                        bogate w uczty, okazałe”. Bogowie domagają się ofiar jako wyrazu
+                        okazywanej im czci (Gibert 2003: 173). Ofiara jest <w>γέρας</w> (zob. szczegółowy
+                        komentarz Przemysława Biernata (2017: 57) do Platonowego
+                        Euthphr. 15a) – darem, który musi być okazały, wspaniały, natomiast
+                        <w>εὔθοινος</w> jest złożeniem od <w>θοίνα</w> – posiłek. Wydaje się, że w kontekście
+                        ofiarnym związek tego słowa z posiłkiem, ucztą nie jest przypadkowy.
+                        W tym wypadku ofiara jest „ucztą bogów”</p>
+                </div>
+                
+                <div type="textpart" n="Choephori_260-261">
+                    <head>Choephori 260-261</head>
+                    <p>Dalszy ciąg tej samej modlitwy ze swoistą sanctio: jeśli Zeus nie ocali
+                        dzieci Agamemnona, ołtarze pozostaną puste.</p>
+                    <quote>
+                        <lb n="260"/>οὔτ᾽ ἀρχικός σοι πᾶς ὅδ᾽ αὐανθεὶς πυθμὴν
+                        <lb/>βωμοῖς ἀρήξει βουθύτοις ἐν ἤμασιν.</quote>
+                    <quote>
+                        <lb n="260"/>Wyschnięty do szczętu ten dawny korzeń
+                        <lb/>Nie przyjdzie z pomocą ołtarzom w dni ofiar z wołów.</quote>
+                    <p>260: οὔτ᾽ […] <w>βωμοῖς</w> <w>ἀρήξει</w> – „nie przyjdzie z pomocą ołtarzom”
+                        to tyle, co „otoczyć opieką ołtarze”. Identyczne wyrażenie w Th. 14:
+                        <w>ἀρήγειν</w> […] βωμοῖσι (por. komentarz). Ołtarze pozbawione tych,
+                        którzy mogą troszczyć się o ofiary dla bogów, stają się opuszczone
+                        i akcentowana powyżej postawa Agamemnona ofiarnika nie znajduje
+                        kontynuacji.</p>
+                    <p>261: <w>βουθύτοις</w> ἐν <w>ἤμασιν</w> – „w dni ofiar z wołów”. Przymiotnik
+                        <w>βούθυτος</w> – „wołoofiarny”, „odnoszący się do ofiar z byków”. Zwrot
+                        <w>βουθύτοις</w> ἐν ἤμασιν jest przykładem i apozycji, i enallage; poprawny
+                        szyk ἐν <w>βουθύτοις</w> <w>ἤμασιν</w> – „w dniach wołoofiarnych” wyraża myśl:
+                        „w dniach, w których składa się woły w ofierze”. Zdaniem Hoekstry
+                        takie zastosowanie figury retorycznej w tekstach dramatycznych służy
+                        kondensacji myśli (Hoekstra 1976: 164). Analogicznie zob. u Ar. w Av.
+                        1232: <w>βουθύτοις</w> ἐπ᾽ ἐσχάραις (por. komentarz Bednarka 2017: 66, tam
+                        też inne lokalizacje; nie zgadzam się jednakże z autorem, że „pierwotne”
+                        znaczenie βούθυτος to: „związany z ubojem wołów”).</p>
+                </div>
+             
+                <div type="textpart" n="Choephori_291-294">
+                    <head>Choephori 291-294</head>
+                    <p>Słowa Orestesa, który referuje wyrocznię Apollona, nakazującą
+                        mu pomścić śmierć ojca. Zmaza za niepodjęcie zemsty zapowiedziana
+                        przez delfickiego boga obejmuje wykluczenie z udziału w ucztach
+                        i sympozjonach, a także w ogóle z kultu bogów – z możliwości składania
+                        ofiar i uczestniczenia w nich.</p>
+                    <quote><lb/>καὶ τοῖς τοιούτοις οὔτε κρατῆρος μέρος
+                        <lb/>εἶναι μετασχεῖν, οὐ φιλοσπόνδου λιβός,
+                        <lb/>βωμῶν τ᾽ ἀπείργειν οὐχ ὁρωμένην πατρὸς
+                        <lb/>μῆνιν.</quote>
+                    <quote><lb/>Takich udziałem nie jest ani wspólny kielich,
+                        <lb/>Ani strumień płynnych ofiar.
+                        <lb/>I niewidzialny gniew ojca trzyma ich z dala od ołtarzy.</quote>
+                    <p>293: βωμῶν<w> </w>τ᾽ <w>ἀπείργειν</w> – „trzyma […] z dala od ołtarzy”; „ołtarzy”:
+                        tutaj metonimicznie – zakazuje w ogóle udziału w ofiarach.</p>
+                </div>
+                
+                <div type="textpart" n="Choephori_483-485">
+                    <head>Choephori 483-485</head>
+                    <p>Orestes i Elektra modlą się do Agamemnona na jego grobie, prosząc
+                        o pomoc w spełnieniu zemsty. Orestes obiecuje, że gdy obejmie
+                        należny mu tron ojca, na ołtarzach składane będą właściwe ofiary, sugerując
+                        zarazem, że w innym wypadku tych darów zabraknie. W kolejnych
+                        wersach Elektra także obiecuje liczne ofiary (w. 486: <w>χοάς</w>).</p>
+                    <quote><lb/>οὕτω γὰρ ἄν σοι δαῖτες ἔννομοι βροτῶν
+                        <lb/>κτιζοίατ'· εἰ δὲ μή, παρ' εὐδείπνοις ἔσῃ
+                        <lb n="485"/>ἄτιμος ἐμπύροισι κνισωτοῖς χθονός.</quote>
+                    <quote><lb/>Bo w ten sposób prawem przypisane przez ludzi uczty
+                        <lb/>Mogą być ci wystawione; jeśli zaś nie – będziesz przez zacnych
+                        biesiadników
+                        <lb/>Czci pozbawiony podczas dymów ofiarnych ziemi.</quote>
+                    <p>483: <w>οὕτω</w> – „w ten sposób”, czyli wtedy, kiedy Ajgistos zginie i śmierć
+                        Agamemnona zostanie pomszczona.</p>
+                    <p>483: <w>δαῖτες</w> <w>ἔννομοι</w> <w>βροτῶν</w> – „uczty prawem przypisane przez ludzi”.
+                        Metaforycznie: „ofiary”, w tym wypadku ofiary dla zmarłych, jak
+                        uroczo tłumaczy Srebrny: „na zadusznym święcie”. <w>Ἔννομοι</w> <w>βροτῶν</w> =
+                        <w>νομιζόμεναι</w> <w>ὑπὸ</w> <w>βροτῶν</w>, „takie, jakie według niepisanego prawa wydają
+                        ludzie” (tak Garvie 1986: 176).</p>
+                    <p>485: <w>ἐμπύροισι</w> <w>κνισωτοῖς</w> – „podczas dymów ofiarnych” (przekład
+                        za Srebrnym), czyli „podczas spalania ofiar, z których unosi się dym”.
+                        ῎<w>Εμπυρα</w>, najczęściej związane z procesem wróżenia z ognia i dymu
+                        płonących na ołtarzu ofiar (zob. w komentarzu do Pr. 498), mają tu znaczenie
+                        podstawowe, etymologiczne: „to, co jest spalane”, „płonące ofiary”.
+                        <w>Κνισωτός</w> – „dymny”, przymiotnik od κνῖσα (ep. κνίση) – „dym,
+                        który unosi się ze spalanego mięsa”.</p>
+                </div>
+                
+                <div type="textpart" n="Choephori_577-78">
+                    <head>Choephori 577-78</head>
+                    <p>Orestes w prostych słowach zapowiada, że zabije Ajgistosa, dosłownie
+                        „położy go trupem” i podziurawi jak sito. Następnie jednak
+                        przywołuje Erynię, która ma nasycić się tą krwią, co przywodzi na
+                        myśl ofiarę oczyszczającą z krwi.</p>
+                    <quote><lb/>φόνου δ᾽ Ἐρινὺς οὐχ ὑπεσπανισμένη
+                        <lb/>ἄκρατον αἷμα πίεται τρίτην πόσιν.</quote>
+                    <quote><lb/>Erynii nie brak przelanej krwi,
+                        <lb/>Czystą krew po raz trzeci wypije.</quote>
+                    <p>577: <w>φόνου</w> – „przelanej krwi”. Φόνος to krew przelana gwałtownie.
+                        Ma ona swój odpowiednik w αἷμα z następnego wersu. Erynie piją
+                        krew, a w Eumenidach temat krwi dla Erynii jako ofiary, jakiej one domagają
+                        się dla oczyszczenia z popełnionego mordu, powraca kilkakrotnie.</p>
+                </div>
+                
+                <div type="textpart" n="Choephori_903-904">
+                    <head>Choephori 903-904</head>
+                    <p>Kwestia Orestesa, zwracającego się najpierw do Pyladesa (w. 903),
+                        który zachęca go do dokonania pomsty na matce, a następnie do samej
+                        Klitajmestry (w. 904). Pylades powołuje się na Apollona i jego nakaz,
+                        wygłaszając gnomę, że „lepiej jest mieć za wrogów wszystkich niż bogów”
+                        (w. 902). Orestes przyznaje przyjacielowi rację i oznajmia Klitajmestrze,
+                        że chce ją zabić (<w>σφάξαι</w>).</p>
+                    <quote><lb/>κρίνω σε νικᾶν, καὶ παραινεῖς μοι καλῶς.
+                        <lb/>ἕπου, πρὸς αὐτὸν τόνδε σε σφάξαι θέλω.</quote>
+                    <quote><lb/>Sądzę, że masz rację i dobrze mi radzisz.
+                        <lb/>Chodź za mną, do niego, chcę Cię zarżnąć.</quote>
+                    <p>Jedyny raz w tej tragedii mowa jest o zabójstwie Klitajmestry
+                        z użyciem czasownika <w>σφάζειν</w>, który należy do technicznego języka
+                        ofiary krwawej – „zarzynać na ofiarę”. Tak jak w wielu innych miejscach
+                        tekstów tragicznych (por. np. komentarz do S. <title>Aj</title>.), przedmiotem
+                        sporu może być tutaj to, czy użycie tego czasownika w takim
+                        kontekście jest świadomym nawiązaniem do metaforycznej interpretacji
+                        ciągu mordów w rodzie Atrydów jako ofiar krwawych, właściwych
+                        zwłaszcza dla pierwszej części trylogii Ajschylosa, czy też jedynie
+                        nic nieznaczącym jego zastosowaniem w dalszych, oderwanych
+                        od związku z ofiarą znaczeniach: „zamordować”, „zabić w brutalny
+                        sposób”. Zeitlin (1965: 468 i potem przeciwnie: 485) z wahaniem opowiada
+                        się za tym drugim, argumentując, że kontekst nie dostarcza
+                        żadnych innych danych na temat związku z ofiarą (zob. komentarz
+                        Garviego 1986: 295, który opowiada się za interpretacją „ofiarną”).
+                        Wydaje mi się jednak mało prawdopodobne, by wobec silnego nasycenia
+                        tekstu <title>Agamemnona</title> terminologią ofiarniczą druga część trylogii
+                        mogła pozostać bez związku z pierwszą. Raczej dostrzegam tu
+                        „strukturę powiązań łańcuchowych” w całej trylogii, w której poszczególne
+                        terminy pojawiają się w kolejnych częściach w różnym
+                        nasyceniu, ale w taki sposób, że zachowana zostaje pełna ciągłość
+                        obrazowania. Tak na przykład w ostatnich wersach <title>Ofiarnic</title> spotykamy
+                        katharmos (dwa razy, zob. komentarz poniżej, w. 968 i 1059),
+                        który stanowi kluczowy temat Eumenid Mord jako sphagia, obecny
+                        w <title>Agamemnonie</title>, w <title>Ofiarnicach</title> generalnie zanika, ale w analizowanym
+                        miejscu powraca.</p>
+                </div>
+                
+                <div type="textpart" n="Choephori_965-968">
+                    <head>Choephori 965-968</head>
+                    <p>Ostatnia strofa pieśni chóru przed jego eksodosem. Zapowiada on
+                        przywrócenie czystości w domu skalanym mordem przez odpowiednie
+                        rytuały oczyszczające.</p>
+                    <quote><lb n="965"/>τάχα δὲ παντελὴς χρόνος ἀμείψεται
+                        <lb/>πρόθυρα δωμάτων, ὅταν ἀφ᾽ ἑστίας
+                        <lb/>μύσος ἅπαν ἐλάσῃ
+                        <lb/>καθαρμοῖσιν ἀτᾶν ἐλατηρίοις.</quote>
+                    <quote><lb n="965"/>Wkrótce czas, który wszystko dopełnia, odwróci
+                        <lb/>Drzwi domu, kiedy cały brud z domowego ogniska
+                        <lb/>Zostanie usunięty
+                        <lb/>Oczyszczeniami, które wypędzają zło.</quote>
+                    <p>966: ἀφ᾽ <w>ἑστίας</w> – „z domowego ogniska”. Tutaj ἑστία wyłącznie
+                        jako „ognisko domowe”. Por. komentarz Biernata do Kratylosa 401b
+                        (2017: 15–18).</p>
+                    <p>968: <w>καθαρμοῖσιν</w> <w>ἀτᾶν</w> <w>ἐλατηρίοις</w> – „oczyszczeniami, które wypędzają
+                        zło”. Rytuał oczyszczenia ze zmazy mordu na matce, jakiemu
+                        zostanie poddany Orestes przez Apollona w Delfach; na temat <w>καθαρ-
+                        μοί</w> zob. komentarz do wersów Eu. 276–283. Jest to zapowiedź głównego
+                        tematu ostatniej części trylogii. „Wkrótce” (τάχα, w. 965) odnosi
+                        się w równym stopniu do samej akcji dramatu, jak i do czasu pozascenicznego
+                        – zaraz, czyli w następnej części trylogii, w tym sensie jest
+                        metatekstem.</p>
+                </div>
+                
+                <div type="textpart" n="Choephori_1059-1060">
+                    <head>Choephori 1059-1060</head>
+                    <p>Słowa chóru, skierowane do Orestesa, który już widzi nadchodzące
+                        Erynie. Chór zapowiada, że jest możliwe oczyszczenie od dokonanej
+                        zbrodni, które spełnić może Apollon. Jest to zapowiedź rytuału oczyszczenia
+                        opisanego później w <title>Eu</title>. (w. 276–283 oraz 449, zob. komentarz).</p>
+                    <quote><lb/>εἷς σοι καθαρμός· Λοξίας δὲ προσθιγὼν
+                        <lb n="1060"/>ἐλεύθερόν σε τῶνδε πημάτων κτίσει.</quote>
+                    <quote><lb/>Jedno tylko dla ciebie oczyszczenie: Loksjasz dotknięciem
+                        <lb n="1060"/>Uczyni cię wolnym od tych nieszczęść.</quote>
+                    <p>1059: καθαρμός – „oczyszczenie”, zob. powyżej komentarz do w. 968.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
