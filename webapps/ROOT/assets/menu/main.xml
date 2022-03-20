@@ -8,7 +8,7 @@
     <item label="Polski" language="pl" match="local-language-home-page"/>
   </menu>
   <menu label="Lexicon" match="local-epidoc-index-display" />
-  <menu label="Texts" match="local-tei-index-display"/>
+  <!--<menu label="Texts" match="local-tei-index-display"/>-->
   <menu label="Book chapters">
     <menu label="I. Attic Tragedy">
       <item label="Introduction" match="local-epidoc-display-html" params="trag_00_intro"/>
@@ -67,7 +67,7 @@
       <item label="Fragments" match="local-epidoc-display-html" params="com_12_fragments"/>
       <item label="Bibliography" match="local-epidoc-display-html" params="com_13_bibliography"/>
     </menu>
-    <menu label="III. Corpus Platonicum. Corpus Hippocraticum">
+    <menu label="III. Plato - Hippocrates">
       <item label="Introduction" match="local-epidoc-display-html" params="cpch_00_intro"/>
       <menu label="Corpus Platonicum">
         <item label="Cratylus" match="local-epidoc-display-html" params="cpch_01_cratylus"/>
