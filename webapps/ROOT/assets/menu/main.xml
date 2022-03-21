@@ -22,34 +22,35 @@
         <item label="Prometheus vinctus" match="local-epidoc-display-html" params="trag_07_prometheus_vinctus"/>
       </menu>
       <menu label="Sophocles">
-        <item label="Antigone" match="local-epidoc-display-html" params="trag_08_antigone"/>
-          <item label="Ajax" match="local-epidoc-display-html" params="trag_09_ajax"/>
-        <item label="Trachiniae" match="local-epidoc-display-html" params="trag_10_trachiniae"/>
-        <item label="Oedipus Tyrannus" match="local-epidoc-display-html" params="trag_11_oedipus_tyrannus"/>
-        <item label="Electra" match="local-epidoc-display-html" params="trag_12_electra"/>
-        <item label="Philoctetes" match="local-epidoc-display-html" params="trag_13_philoctetes"/>
-        <item label="Oedipus Coloneus" match="local-epidoc-display-html" params="trag_14_oedipus_coloneus"/>
+        <item label="Introduction" match="local-epidoc-display-html" params="trag_08_sophocles_intro"/>
+        <item label="Antigone" match="local-epidoc-display-html" params="trag_09_antigone"/>
+        <item label="Ajax" match="local-epidoc-display-html" params="trag_10_ajax"/>
+        <item label="Trachiniae" match="local-epidoc-display-html" params="trag_11_trachiniae"/>
+        <item label="Oedipus Tyrannus" match="local-epidoc-display-html" params="trag_12_oedipus_tyrannus"/>
+        <item label="Electra" match="local-epidoc-display-html" params="trag_13_electra"/>
+        <item label="Philoctetes" match="local-epidoc-display-html" params="trag_14_philoctetes"/>
+        <item label="Oedipus Coloneus" match="local-epidoc-display-html" params="trag_15_oedipus_coloneus"/>
       </menu>
       <menu label="Euripides">
-        <item label="Alcestis" match="local-epidoc-display-html" params="trag_15_alcestis"/>
-        <item label="Medea" match="local-epidoc-display-html" params="trag_16_medea"/>
-        <item label="Heraclidae" match="local-epidoc-display-html" params="trag_17_heraclidae"/>
-        <item label="Hippolytus" match="local-epidoc-display-html" params="trag_18_hippolytus"/>
-        <item label="Andromache" match="local-epidoc-display-html" params="trag_19_andromache"/>
-        <item label="Hecuba" match="local-epidoc-display-html" params="trag_20_hecuba"/>
-        <item label="Supplices" match="local-epidoc-display-html" params="trag_21_supplices"/>
-        <item label="Hercules" match="local-epidoc-display-html" params="trag_22_hercules"/>
-        <item label="Ion" match="local-epidoc-display-html" params="trag_23_ion"/>
-        <item label="Troades" match="local-epidoc-display-html" params="trag_24_troades"/>
-        <item label="Electra" match="local-epidoc-display-html" params="trag_25_electra"/>
-        <item label="Iphigenia Taurica" match="local-epidoc-display-html" params="trag_26_iphigenia_taurica"/>
-        <item label="Helena" match="local-epidoc-display-html" params="trag_27_helena"/>
-        <item label="Phoenissae" match="local-epidoc-display-html" params="trag_28_phoenissae"/>
-        <item label="Orestes" match="local-epidoc-display-html" params="trag_29_orestes"/>
-        <item label="Bacchae" match="local-epidoc-display-html" params="trag_30_bacchae"/>
-        <item label="Iphigenia Aulidensis" match="local-epidoc-display-html" params="trag_31_iphigenia_aulidensis"/>
+        <item label="Alcestis" match="local-epidoc-display-html" params="trag_16_alcestis"/>
+        <item label="Medea" match="local-epidoc-display-html" params="trag_17_medea"/>
+        <item label="Heraclidae" match="local-epidoc-display-html" params="trag_18_heraclidae"/>
+        <item label="Hippolytus" match="local-epidoc-display-html" params="trag_19_hippolytus"/>
+        <item label="Andromache" match="local-epidoc-display-html" params="trag_20_andromache"/>
+        <item label="Hecuba" match="local-epidoc-display-html" params="trag_21_hecuba"/>
+        <item label="Supplices" match="local-epidoc-display-html" params="trag_22_supplices"/>
+        <item label="Hercules" match="local-epidoc-display-html" params="trag_23_hercules"/>
+        <item label="Ion" match="local-epidoc-display-html" params="trag_24_ion"/>
+        <item label="Troades" match="local-epidoc-display-html" params="trag_25_troades"/>
+        <item label="Electra" match="local-epidoc-display-html" params="trag_26_electra"/>
+        <item label="Iphigenia Taurica" match="local-epidoc-display-html" params="trag_27_iphigenia_taurica"/>
+        <item label="Helena" match="local-epidoc-display-html" params="trag_28_helena"/>
+        <item label="Phoenissae" match="local-epidoc-display-html" params="trag_29_phoenissae"/>
+        <item label="Orestes" match="local-epidoc-display-html" params="trag_30_orestes"/>
+        <item label="Bacchae" match="local-epidoc-display-html" params="trag_31_bacchae"/>
+        <item label="Iphigenia Aulidensis" match="local-epidoc-display-html" params="trag_32_iphigenia_aulidensis"/>
       </menu>
-      <item label="Bibliography" match="local-epidoc-display-html" params="trag_32_bibliography"/>
+      <item label="Bibliography" match="local-epidoc-display-html" params="trag_33_bibliography"/>
     </menu>
     <menu label="II. Old Attic Comedy">
       <item label="Introduction" match="local-epidoc-display-html" params="com_00_intro"/>

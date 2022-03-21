@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Aias (Αἴας, Aiace)</title>
+                <title xml:lang="en">Aias (Αἴας, Ajax)</title>
+                <title xml:lang="pl">Aias (Αἴας, Ajas)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">trag_10_ajax</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Aias (Αἴας, Ajas)</title>, in Krzysztof Bielawski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Tragedia attycka</title>, Warszawa 2017, pp. 139-160</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaia Fanelli">encoded document in XML</change>
+                <change when="2017" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Dokładne datowanie <title>Ajasa</title> jest niemożliwe. Dotąd dyskutowane propozycje
+                        rozciągały się między latami trzydziestymi a pięćdziesiątymi
+                        V w. p.n.e. Obecnie powszechnie przyjmowaną datą jest rok 440 (szczegółowa
+                        dyskusja i bibliografia na ten temat w: Finglass 2011: 1–11),
+                        w bezpośredniej bliskości <title>Antygony</title> wystawionej najprawdopodobniej
+                        w roku 441. Nie wiadomo też, na którym ze świąt dionizyjskich sztuka
+                        była wystawiona, ponieważ brak na ten temat jakichkolwiek danych.
+                        Mogło to być na Wielkich lub Małych Dionizjach lub podczas Lenajów
+                        (Finglass 2011: 11–12).</p>
+                    <p>Tematyka ofiary w jakimkolwiek bezpośrednim opisie nie występuje
+                        w tym dramacie. Żadna scena ani żadna opowieść nie odnoszą się
+                        wprost do jakiejkolwiek części rytuału ofiarnego. Jednak pojawiające
+                        się w nim słownictwo ofiarne, wprawdzie skąpo reprezentowane, odgrywa
+                        dość istotną rolę w kształtowaniu zasadniczych dla sztuki obrazów:
+                        mordu na zwierzętach i samobójczej śmierci samego Ajasa. Ani
+                        jedno nawiązanie do rytuału ofiarnego nie wychodzi poza język metafory,
+                        metonimii lub personifikacji. Ajas stanowi unikalny i wyjątkowo
+                        konsekwentny przykład funkcjonowania metafory ofiarnej w tekście
+                        dramatycznym. Tragedia ta w być może najwyższym stopniu reprezentuje
+                        to, co Henrichs (2012: 183) nazwał „intertekstualnością ofiarną”
+                        (sacrificial intertextuality): poetykę ofiary, która z istoty rzeczy jest
+                        wieloaspektowa i musi uwzględniać wzajemne powiązania między językiem
+                        ofiary a jej metaforą, między tekstami dramatycznymi i epickimi,
+                        między wreszcie danym tekstem a innymi utworami tego samego
+                        autora (por. ibidem). Z tej perspektywy, mimo nieobecności eksplicytnych
+                        opisów ofiary krwawej, Ajas jawi się jako przykład wyjątkowego
+                        nasycenia treściami ofiarnymi, których oddziaływanie na wyobraźnię
+                        i powstałe emocje jest silniejsze niż w przypadku utworów posługujących
+                        się dosłownością opisu. Willink (1986: 88) w komentarzu do
+                        E. Or. 40 mówi w podobnym kontekście o sacrificial overtones. Przystępując
+                        do komentarza ze świadomością takiej właśnie perspektywy,
+                        uważam za obowiązek badacza uchwycić i wyeksponować wszystkie
+                        możliwe aspekty tej „ofiarnej intertekstualności”, nawet ryzykując zarzut
+                        przesady.</p>
+                    <p>Podstawą poniższego komentarza jest edycja Finglassa (2011),
+                        w analizowanych fragmentach nieróżniąca się zresztą od kanonicznej
+                        edycji Lloyda-Jonesa (1999).</p>
+                </div>
+                <div type="textpart" n="Aias_177-178">
+                    <head>Aias 177-178</head>
+                    <quote><lb/>ἤ ῥα κλυτῶν ἐνάρων
+                        <lb/>ψευσθεῖσ᾽ ἀδώροις εἴτ᾽ ἐλαφαβολίαις;</quote>
+                    <quote><lb/>Czy dlatego [Artemida] jest urażona, że nie dostała słynnych łupów
+                        po bitwie,
+                        Czy też z powodu ubitych jeleni, z których dar jej należny nie został
+                        złożony<note n="35">Por. dawny przekład Morawskiego: „[…] żeś broni jej w darze / ani nie
+                            oddał łani na ołtarze”.</note>.</quote>
+                    <p>Jest to fragment pierwszej pieśni chóru, który zastanawia się nad powodami
+                        szaleństwa i klęski Ajasa i sugeruje, że może bohater zaniedbał
+                        oddanie należnej czci bogini Artemidzie<note n="36">Fragment mowy Elektry do Klitajmestry w <title>Elektrze</title> Sofoklesa (566–569), który
+                            tłumaczy przyczyny gniewu Artemidy wstrzymującej greckie statki przed wyprawą
+                            na Troję, wyjaśnia, że Agamemnon po spłoszeniu krokami (ἐξεκίνησεν ποδοῖν)
+                            jelenia w świętym gaju (κατ᾽ ἄλσος) Artemidy i upolowaniu go (οὗ κατὰ σφαγάς)
+                            przechwalał się i rzucił jakieś, zapewne niepotrzebne, zuchwałe słowo (ἐκκομπάσας
+                            ἔπος τι τυγχάνει βαλών). Zob. komentarz do tego miejsca w tym opracowaniu.</note>. Bogini jest „niezadowolona,
+                        dotknięta i oszukana”, zła po prostu – <w>ψευσθεῖσα</w> (problem gniewu
+                        Artemidy i jego możliwych powodów jest dyskutowany także w przypadku
+                        Agamemnona Ajschylosa, zob. Whallon 1961 i Lawrence 1976).</p>
+                    <p>Możliwe zaniedbania chór znajduje dwa: nieoddanie daru ze spoliów
+                        – broni zdobytej w zwycięskiej walce (<w>κλυτὰ</w> <w>ἔναρα</w>)<note n="37">Na temat darów z broni zdobytej w bitwie por. H. <title>Il</title>. 10.570–571, Hdt.
+                            8.122 oraz zob. Jackson 1991 i Rabe 2008: 15–19.</note> oraz niezłożenie
+                        w ofierze Artemidzie części upolowanych jeleni czy też w ogóle spełnienie
+                        jakiegokolwiek zadośćuczynienia. Myśliwi byli zobowiązani do oddawania
+                        w ofierze bogini łowów części upolowanej zwierzyny. „Dar”,
+                        którego miała domagać się bogini, <w>πότνια</w> <w>θηρῶν</w>, należy do najbardziej
+                        archaicznych typów ofiary zwierzęcej, wywodzącej się z neolitycznych
+                        kultów łowieckich (Meuli 1975: 907 i nn. oraz Lloyd-Jones 1983: 89–90),
+                        być może nadal kultywowanych w epoce klasycznej<note n="38">Na temat różnych antropologiczno-społecznych aspektów polowania
+                            w perspektywie archeologiczno-etnograficznej por. Hamilakis 2003.</note>.</p>
+                    <p>178: ἀδώροις εἴτ᾽ <w>ἐλαφαβολίαις</w> – <w>Ἐλαφηβολία</w> (dor. <w>Ἐλαφαβο-
+                        λία</w>) to złożony rzeczownik abstrakcyjny oznaczający „strzelanie do
+                        jelenia”. Generalnie są to łowy na jelenie. Już w hymnie Homeryckim
+                        (27,2, do Artemidy) występuje epitet bogini <w>ἐλαφηβόλος</w>: „ta, która
+                        zabija jelenie”, „strzela do jeleni”, „łowczyni”. U Kallimacha powtórzony
+                        w formie nietypowej dla przymiotników złożonych, w dodatku
+                        jońskiej – <w>ἐλαφηβολίη</w> (hymn 3, do Artemidy, 366, por. komentarz
+                        Bornmann
+                        1968: 128). Jednak tutaj, w formie pluralnej, oznacza po prostu
+                        łowy na jelenie, które są <w>ἄδωρα</w> w tym sensie, że z upolowanych
+                        zwierząt – bądź za upolowane zwierzęta – nie ofiarowano Artemidzie
+                        należnej części lub należnego daru (ewentualnie innej formy ofiary
+                        dziękczynnej, np. figurek wotywnych, jak sugeruje Rouse 1902: 16).</p>
+                    <p>Brak jest wystarczających greckich danych źródłowych, by można
+                        jasno powiedzieć, na czym polegała ta ofiara myśliwych dla Artemidy.
+                        Pomocy dostarczają jedynie antropologiczne badania porównawcze,
+                        z których wynika, że ofiara dziękczynna za upolowane zwierzę występuje
+                        we wszystkich kulturach łowieckich (zob. Meuli 1975: 991–992
+                        z przypisem 6 oraz 1086, przypis 2), oraz kilka niejasnych wzmianek
+                        w późnoantycznej literaturze i scholiach (pełne zestawienie tych źródeł:
+                        Rouse 1902: 50). Według scholiów do Arystofanesa (<title>Pl</title>. 943) dla
+                        Artemidy myśliwy musiał zawiesić na drzewie głowę lub kopyta zdobyczy:
+                        <quote><lb/>ἔθος ἦν τοὺς θηρῶντάς τινα ἄγραν μέρος τι τοῦ θηρωμένου, ἢ τὴν
+                        κεφαλὴν ἢ πόδα, προσηλοῦν πασσάλῳ ἐπί τινος δένδρου εἰς αὐτὴν
+                        τὴν ὕλην,) πρὸς τιμὴν τῆς Ἀρτέμιδος.</quote>
+                            <quote><lb/>Istniał zwyczaj, że myśliwi jakąś część tego, co upolowali, albo głowę,
+                        albo nogi (kopyta), zawieszali na jakimś drzewie w tym samym lesie
+                        ku czci Artemidy.</quote></p>
+                    <p>Scholium to pozostaje pod wyraźnym wpływem fragmentu z Diodora
+                        Sycylijskiego (4.22.3: ἐν μὲν τοῖς ἔμπροσθεν χρόνοις εἰωθέναι
+                        τῶν ληφθέντων <w>θηρίων</w> τὰς <w>κεφαλὰς</w> καὶ τοὺς <w>πόδας</w> <w>ἀνατιθέναι</w>
+                        τῇ Ἀρτέμιδι καὶ προσηλοῦν τοῖς δένδρεσι), opisującego losy pewnego
+                        bezbożnego myśliwego, który wbrew obowiązującemu obyczajowi
+                        niektóre z przeznaczonych dla bogini części upolowanego zwierzęcia
+                        przeznaczył dla siebie, sobie ofiarował (τὴν <w>κεφαλὴν</w> τοῦ <w>θηρίου</w>
+                        ἑαυτῷ <w>ἀνατίθησι</w>), za co musiał zostać ukarany. Ksenofont w Wyprawie
+                        Cyrusa (5.3.9) opowiada, jak po polowaniu ofiarował bogini Artemidzie
+                        (<w>θυσίαν</w> ἐποίει τῇ θεῷ) dziesiątą część (τὸ λοιπὸν δὲ ἀεὶ
+                        δεκατεύων τὰ ἐκ τοῦ ἀγροῦ) w świętym okręgu, jaki w tym celu zrobił
+                        (ἐποίησε δὲ καὶ <w>βωμὸν</w> καὶ <w>ναὸν</w>).</p>
+                    <p>Związki między polowaniem a ofiarą są przedmiotem wielu studiów
+                        (Barriger 2001: 6; Vidal-Naquet 1998; Lafond 2007; Burkert 1983),
+                        jednak zazwyczaj prowadzonych w kierunku interpretacji antropologicznych
+                        oraz poszukiwań ajtiologii, a nie rekonstrukcji zachowań rytualnych.
+                        W komentowanym fragmencie mamy najprawdopodobniej
+                        do czynienia z nawiązaniem do archaicznego rytuału myśliwych w jego
+                        czystej formie, bez interpretacji, przekształceń i metafor. Kłopot polega
+                        na tym, że nie dysponujemy w zachowanej literaturze greckiej źródłami,
+                        które pozwoliłyby ten rytuał w pełni i wiarygodnie zrekonstruować.</p>
+                    <p>Bezradność wobec pytań interpretacyjnych związanych z tego
+                        rodzaju ofiarą widać także wyraźnie w edycjach komentowanych
+                        i przekładach z naukowym omówieniem. Finglass (2011: 192) mówi
+                        o „jeleniu, z k t ó r e g o bogini nie otrzymała żadnego daru” („a deer
+                        hunt f r o m w h i c h she received no gift”), a Kamerbeek (1963: 55)
+                        z kolei o „zabitych rogaczach, z a k t ó r e bogini nie otrzymała żadnego
+                        daru” („slayings of stags f o r w h i c h she received no gifts” – wyróżn.
+                        K.B.). Neutralnie tłumaczy Richard Jebb (2004: 38, komentarz 37),
+                        mówiąc jedynie o jeleniu zabitym bez ofiary dziękczynnej („a stag had
+                        been slain without a thank-offering”), z równie neutralnym komentarzem.</p>
+                    <p>W omawianym fragmencie nie występuje żaden termin techniczny
+                        języka ofiary krwawej sensu stricto, jednak przywołane jest
+                        najprawdopodobniej ofiarowanie bogini jakiejś części zabitego
+                        zwierzęcia, które należało tutaj uwzględnić, nawet jeśli zwierzę zabite
+                        w polowaniu żadną miarą nie może być uznane za ofiarę w religijnym
+                        i kultowym rozumieniu tego słowa<note n="39">Por. np. Smith 1987: 197: „I know of no unambiguous instance of animal
+                            sacrifice performed by hunters. Animal sacrifice appears to be, universally, the ritual
+                            killing of domesticated animal by agrarian or pastoralist societies” (wyróżn. Smith);
+                            dalej 210: „Sacrifice, in its agrarian or pastoral context, is the artificial (i.e., ritualized)
+                            killing of an artificial (i.e., domesticated) animal” (wyróżn. Smith).</note>.</p>
+                </div>
+                
+                <div type="textpart" n="Aias_218-220">
+                    <head>Aias 218-220</head>
+                    <p>Słowa Tekmessy z rozmowy z chórem, w której opisuje ona
+                        szczegółowo czyn Ajasa.</p>
+                    <quote><lb/>τοιαῦτ᾽ ἂν ἴδοις σκηνῆς ἔνδον
+                        <lb/>χειροδάϊκτα σφάγι᾽ αἱμοβαφῆ,
+                        <lb n="220"/>κείνου χρηστήρια τἀνδρός.</quote>
+                    <quote><lb/>Wewnątrz namiotu możesz zobaczyć
+                        <lb/>Te ręką pomordowane ofiary skąpane we krwi
+                        <lb/>Jako wieszcze znaki nieszczęścia tego człowieka.</quote>
+                    <p>Ten fragment oraz trzy następne stanowią wzorcowy przykład
+                        tego, co Henrichs (2000: 181) nazwał „perverted
+                        ritual” –
+                        „wypaczonym rytuałem” oraz „violation of the sacrificial code”
+                        – „pogwałceniem kodu ofiarnego”. Z jednej strony nagromadzenie
+                        terminologii związanej z ofiarą oraz/lub mordem i przemocą pełni
+                        tu funkcję retoryczną, podkreślającą ogrom grozy i bezmiar przemocy,
+                        których nie można oddać środkami opisu bezpośredniego,
+                        bez uciekania się do metafory. Z drugiej natomiast strony, użyte
+                        w tych fragmentach terminy i wyrażenia zaczerpnięte bezpośrednio
+                        z języka ofiary krwawej, której w tym przypadku sensu stricto
+                        nie opisują (sic!), zdecydowanie przywołują rytualny i religijny
+                        kontekst. Użycie rytualnego słownictwa do opisania aktów z istoty
+                        rzeczy temu rytuałowi przeciwnych wywołuje uczucia ambiwalentne:
+                        opisywanej grozie i przemocy nadaje wymiar religijny, a zarazem
+                        go profanuje.</p>
+                    <p>Nie mamy tutaj do czynienia z jakimkolwiek „opisem” praktyk
+                        ofiarnych, ale raczej ze złamaniem rytualnego kodu, z ofiarą swoiście
+                        „odwróconą”. Henrichs akcentuje<note n="40">Podobnie jak Burkert w analizie porównawczej scen śmierci Agamemnona
+                            w <title>Odysei</title> (4.535 = 11.411) i sztuce Ajschylosa (Burkert 1966: 119–120).</note> zmianę miejsca właściwego
+                        dla spełniania rytuału (zwyczajowo dokonuje się go na zewnątrz
+                        świątyni – tutaj wewnątrz namiotu: <w>σκηνῆς</w> <w>ἔνδον</w>) i zmianę samego
+                        jego przebiegu – z utrwalonego porządku w kierunku niekontrolowanej
+                        rzezi. Uruchamiające wyobraźnię wyrażenia ofiarne oddziałują
+                        jeszcze silniej, ponieważ ich sam w sobie krwawy i okrutny
+                        charakter zostaje zwielokrotniony przez wyraźne pogwałcenie rytualnej
+                        rzeczywistości, do której się odwołują.</p>
+                    <p>219: <w>σφάγι[α] </w>– zob. obszerny komentarz do <title>Antygony</title>, w. 1291.
+                        Techniczny termin języka kultowego pojawia się tu w znaczeniu
+                        zdecydowanie przenośnym, odwołującym się do skojarzeń wzrokowych,
+                        estetycznych, przywołujących obraz zwierzęcia zabitego
+                        i uwalanego we krwi. Cały ten wers jest zbudowany w retoryce
+                        przesady – ofiara krwawa typu sphagion nie może być zabita inaczej
+                        niż „ręką” (<w>χειροδάϊκτα</w>), i oczywiście po uśmierceniu musi być
+                        „skąpana we krwi” (<w>αἱμοβαφῆ</w>).</p>
+                    <p>220: <w>χρηστήρια</w><note n="41">Zob. obszerny i ważny komentarz w: Casabona 1966: 312–315, jakkolwiek
+                        osobiście zdecydowanie nie podzielam jego wniosków końcowych.</note> – „wieszcze znaki nieszczęścia”; dokładniej:
+                        „ofiara jako wieszczy znak nieszczęścia”. Rzeczownik <w>χρηστήριον</w>
+                        może oznaczać siedzibę wyroczni, odpowiedź wyroczni, wreszcie
+                        ofiarę złożoną w wyroczni, a nawet – jak chce <title>LSJ</title> (s.v.), a Finglass za
+                        leksykonem – „samą ofiarę”, „simply sacrifice” (2011: 207), co jest poglądem
+                        nieustannie i konsekwentnie powtarzanym<note n="42">Zob. np. Jim 2012: 328, przypis 74, z dodatkowym jeszcze uściśleniem:
+                            „more general sense of sacrificial victim, without reference to oracular consultations”,
+                            Hutchinson 1985: 82.</note>. Jednak żadna
+                        z przywołanych przez normatywny słownik i komentatorów lokalizacji
+                        (Pi. <title>O</title>. 6.70, <title>IG</title> II2 1126.33, A. <title>Th</title>. 230, A. <title>Supp</title>. 450) nie potwierdza
+                        możliwości pełnej identyfikacji rzeczownika <w>χρηστήριον</w> z ofiarą
+                        krwawą w sposób, który mógłby pozbawić jego znaczenie związków
+                        z kontekstem mantycznym<note n="43">Przeciwnie: Casabona 1966: 312 i 315 z przywołaniem Redard 1953: 107.
+                            Całkowicie się zgadzam, że jeśli <w>χρηστήριον</w> może oznaczać nie tylko wyrocznię,
+                            ale też „zwykłą rzecz codziennego użytku”, to równie dobrze może oznaczać
+                            „ofiarę bez odniesień do wyroczni” („il n’y aucune raison en effet d’y voir une
+                            «réferénce oraculaire»”, Casabona 1966: 315), tylko że nie w żadnym z analizowanych
+                            tutaj i poniżej kontekstów.</note>. „Simply s a c r i f i c e” jest w moim przekonaniu
+                        „simply i m p o s s i b l e”. Błądzi zarówno kanoniczny leksykon,
+                        jak i komentarz. Kamerbeek w swoim komentarzu, powołując się
+                        na kontekst z E. <title>Ion</title> 419, rozumie <w>χρηστήριον</w> w analizowanym fragmencie
+                        Ajasa jako „ofiarę krwawą złożoną przed zapytaniem wyroczni”
+                        (Kamerbeek 1963: 64), co z jednej strony oddaje sprawiedliwość
+                        semantycznemu, mantycznemu rdzeniowi słowa, ale z drugiej pozostaje
+                        w konflikcie z kontekstem. Żadna konsultacja wieszczych znaków
+                        ani nie jest zamierzona przez kogokolwiek, ani się nie odbywa.
+                        Błędnie przywołane przez Finglassa na potwierdzenie własnej wizji
+                        dwa cytaty z Ajschylosa (<title>Supp</title>. 450 i <title>Th</title>. 230–231) zawierające identyczne
+                        (<title>Th</title>.) lub podobne (<title>Supp</title>. – <w>θύειν</w>) zestawienie – <w>χρηστήρια</w>
+                        i <w>σφάγια</w> (<w>θύειν</w>) – należy rozumieć jako ofiary, które są jednocześnie
+                        same w sobie znakami złowróżbnymi<note n="44">Groeneboom 1938: 127, przypis 314 z przywołaniem zwięzłej definicji
+                            z późnego leksykonu cytowanego pod nazwiskiem Ammoniosa (519, s.v.):
+                            <w>χρηστήριον</w> ὁ <w>τόπος</w> καὶ ὁ <w>χρησμὸς</w> καὶ τὸ <w>ἱερόν</w>.</note>, i z takim znaczeniem mamy
+                        też do czynienia w <title>Ajasie</title>.</p>
+                    <p>W VI <title>Odzie Olimpijskiej </title>Pindara (70: Ζηνὸς ἐπ᾽ <w>ἀκροτάτῳ</w> <w>βωμῷ</w>
+                        τότ᾽ αὖ <w>χρηστήριον</w> <w>θέσθαι</w> <w>κέλευσεν</w>) mowa jest o ustanowieniu
+                        instytucji wyroczni (<w>χρηστήριον</w> <w>θέσθαι</w> <w>κέλευσεν</w>) przy (właściwie
+                        na) ołtarzu Zeusa w Olimpii (Ζηνὸς ἐπ᾽ <w>ἀκροτάτῳ</w> <w>βωμῷ</w>).
+                        Wróżenie odbywało się na ołtarzu i było odczytywaniem znaków
+                        podczas spalania udźców zabitych ofiar (empyra, por. Parke 1967:
+                        164; Fennell 1893: 67). Była to więc de facto ofiara, która r ó w n o -
+                        c z e ś n i e była wróżbą – i to właśnie stanowi istotę i podstawę nałożenia
+                        się na siebie tych dwóch znaczeń: ofiarnego i mantycznego.
+                        Powiązanie znaczenia rzeczownika <w>χρηστήριον</w> z ofiarą krwawą ma
+                        tutaj charakter wtórny, wynikający z kontekstu i z faktu, że Herakles
+                        „ustanowił wyrocznię” „na ołtarzu”<note n="45">Szczegółowy opis rekonstrukcji tego ołtarza Zeusa, zrobionego częściowo
+                            z popiołów, a częściowo na popiołach spalonych tam ofiar zob. Parke 1967:
+                            182–183 oraz komentarz do S. <title>Ant</title>. 1007 w tym opracowaniu.</note>. W żadnym wypadku nie
+                        można w tym fragmencie widzieć rozkazu złożenia jakiejkolwiek
+                        p o p r o s t u ofiary, jest to nadal przede wszystkim tekst przywołujący
+                        ustanowienie wyroczni, której praktyczna strona i rzeczywisty
+                        przebieg są tutaj związane z ofiarą. Nie można powiedzieć, że
+                        była to „po prostu ofiara”, ponieważ akcent zdecydowanie padał na
+                        aspekt wieszczy. Χρηστήριον jest tutaj przede wszystkim wyrocznią,
+                        jej techniczny związek z ofiarą nie pozwala na redukcję znaczenia
+                        w kierunku ofiary i pominięcie aspektu mantycznego.</p>
+                    <p>Tekst dekretu amfiktionii delfickiej, datowany na rok 380/379 (<title>IG</title> II2
+                        1126), zawiera regulacje prawne związane z organizacją igrzysk pytyjskich.
+                        Wers 33 zawiera słowo χρηστήριον ponownie w znaczeniu
+                        uznanym przez komentatorów za „s i m p l y sacrifice”:</p>
+                    <quote><lb/>Χρηστήριον αἴ τ[ι]ς κα μ[ὴ] παρέχηι ἑκατὸν στατῆρας ὀφε[ιλέτω<note n="46">Tekst według wydania Rougemont 1977: 90 (par. 10) [= SEG 28.100 = BCH
+                        97(1973), 75–106].</note>.</quote>
+                    <quote><lb/>Kto nie dostarczy ofiary [χρηστήριον], będzie winien kary 100 staterów.</quote>
+                    <p><w>Χρηστήριον</w> oznacza tutaj ofiarę przygotowawczą (<w>προτέλεια</w> sensu
+                        stricto) przed zapytaniem wyroczni (Rougemont 1977: 114: „victime
+                        pour le sacrifice préliminaire à la consultation de l’oracle” z przywołaniem
+                        opracowań: Amandry 1950: 104–114 i Amandry 1939: 203–224).
+                        Praktykę przyprowadzania (nie zabijania samodzielnie, zob. Rougemont
+                        1977: 114 i Amandry 1950: 104–114) na ofiarę tego typu zwierzęcia,
+                        zapewne kozy (Amandry 1939: 204 z przypisem 5), potwierdza
+                        zarówno przywołany fragment <title>Iona</title> Eurypidesa (418), jak i Diodor
+                        (16.26), i Plutarch (<title>Mor</title>. 435bc–437ab)<note n="47">Amandry 1939: 204, przypisy 5 i 6 z bibliografią oraz Amandry 1950:
+                            104–106.</note>. Amandry podaje jeszcze dwie
+                        niecytowane gdzie indziej inskrypcje, w których lokalizuje (w jednym
+                        przypadku wprawdzie suplementowane) użycie słowa <w>χρηστήριον</w>
+                        w omawianym znaczeniu<note n="48">Inskrypcja ze Skiathos, wers 20 oraz inskrypcja z Luwru (nr inwentarzowy
+                            892) datowana na V w. p.n.e.: Amandry 1939: 204, później wydana w: Daux
+                            1949: 59 (w. 29–32).</note>. Amandry zaproponował przekład „sacrifice
+                        oraculaire”, co jest być może najlepszym, bo najogólniejszym
+                        wyjściem, jednak trudno lub w ogóle nieprzekładalnym. Poniżej –
+                        w obydwu fragmentach z Ajschylosa (<title>Supp</title>. 450, <title>Th</title>. 230) – proponuję
+                        przekład „ofiara wróżebna”, ponieważ akcentuje on fakt, że sama
+                        ofiara staje się wróżbą, a nie tylko jej przygotowaniem, co jednak nie
+                        jest sensem współbrzmiącym z propozycją Amandry’ego i związanym
+                        z w y r o c z n i ą, nie z w r ó ż b ą.</p>
+                    <p>Trudno natomiast zrozumieć, dlaczego komentatorzy i tłumacze
+                        Ajschylosowych Siedmiu przeciw Tebom nie dostrzegają w wersie 230
+                        odrębnego sensu tego rzeczownika. Oksfordzki komentarz Hutchinsona
+                        ponownie przekonuje, że χρηστήρια są tutaj synonimem <w>σφάγια</w>,
+                        ponownie przywołując te same lokalizacje (1985: 82). Tymczasem właśnie
+                        w tym fragmencie wyraźnie widać różnicę między obydwoma
+                        określeniami, zwłaszcza jeśli wziąć pod uwagę przywołane przez Hutchinsona
+                        opracowania (głównie Pritchett 1971: 109–115):</p>
+                    <quote><lb/>ἀνδρῶν τάδ᾽ ἐστί, σφάγια καὶ χρηστήρια
+                        <lb/>θεοῖσιν ἔρδειν, πολεμίων πειρωμένων·</quote>
+                    <quote>Do mężów należy ofiary krwawe i wróżebne
+                        Bogom składać, by wrogów wypróbować<note n="49">Por. przekład Srebrnego, w tym wypadku – w przeciwieństwie do przekładów
+                            anglojęzycznych – poprawny i adekwatny („rzeczą mężów ofiary krwawe
+                            i wróżebne / bogom składać”).</note>.</quote>
+                    <p>Z opracowań wyraźnie wynika, że ofiara składana bezpośrednio
+                        przed bitwą była nazywana <w>σφάγια</w> ( Stengel 1910a; Szymanski
+                        1908) i niekoniecznie – choć to możliwe – była związana z pozyskaniem
+                        znaków wieszczych (Eitrem 1938: 9–30; Pritchett 1971: 110 oraz
+                        – szczególnie – Jameson 1991: 200–203). Zazwyczaj była to ofiara
+                        błagalna, często składana w ostatniej chwili przed wymarszem, po
+                        to, by pozyskać przychylność bogów. U Ksenofonta ofiary składane
+                        przed bitwą i połączone z wróżeniem z ofiar określane są za pomocą
+                        terminów <w>θύειν</w> i <w>ἱερά</w>, nigdy <w>σφάγια</w>, a zmiana z <w>θύειν</w> na <w>σφα-
+                        γιάζομαι</w> (jak np. w <title>An</title>. 6.4.13–6.5.2) wydaje się znacząca (Pritchett
+                        1971: 111 i, szczegółowo, Rudhardt 1992: 274–276) i może wskazywać
+                        na to, że <w>σφάγια</w> nie wiąże się bezpośrednio z wróżeniem, a przynajmniej,
+                        że pozyskanie wróżb nie stanowi jej podstawowego celu<note n="50">Rudhardt 1971: 275 twierdzi, że σφάγια jest rytem przebłagalnym, chociaż
+                            może też być rytem mantycznym („C’est donc encore, de ce point de vue, un
+                            rite propitiaoire; mais c’est aussi comme le sacrifice <w>θύεσθαι</w> un rite mantique”).
+                            Por. też Jameson 1991: 203–204.</note>.
+                        W omawianym fragmencie z Ajschylosa mowa jest dokładnie o ofierze
+                        przed bitwą i z całą pewnością o dwóch odrębnych ofiarach:
+                        o przebłagalnej <w>σφάγια</w>, składanej, by pozyskać przychylność bogów
+                        oraz <w>χρηστήρια</w>, połączonej z pozyskaniem wróżby przed bitwą,
+                        o czym zresztą informuje kontekst, w którym Eteokles mówi wyraźnie,
+                        że chodzi o „wypróbowanie wrogów” – <w>πολεμίων</w> <w>πειρωμένων</w>
+                        (notabene Hutchinson 1985: 83 uważa te genetiwy za niezrozumiałe
+                        i być może niepoprawne).</p>
+                    <p>Jest możliwe, że <w>σφάγια</w> stały się jednocześnie <w>χρηστήρια</w>, ale
+                        to nie tylko nie oznacza, że są one synonimami, ale jeszcze bardziej
+                        uwypukla ich semantyczną utrwaloną odrębność: <w>σφάγια</w> nie jest
+                        <w>χρηστήρια</w>, i jeśli ma funkcjonować jako taka, trzeba to ze szczególną
+                        mocą podkreślić (zob. np. Herodot 9.62: ἐγίνετο <w>θυομένοισι</w> τὰ <w>σφά-
+                        για</w> χρηστά).</p>
+                    <p>Owo rozróżnienie jest również wyraźnie widoczne w A. <title>Supp</title>. 450:</p>
+                    <quote><lb/>δεῖ κάρτα θύειν καὶ πεσεῖν χρηστήρια
+                        <lb/>θεοῖσι πολλοῖς πολλά, πημονῆς ἄκη.</quote>
+                    <quote><lb/>Bardzo trzeba składać ofiary i wiele ofiar wróżebnych
+                        <lb/>Dla wielu bogów musi paść, jako ratunek przed klęską.</quote>
+                    <p>Proponowane przez komentarz uznanie <w>χρηστήρια</w> <w>πολλά</w> za dopełnienie
+                        do <w>θύειν</w> nie ma sensu, ponieważ nie wiadomo, jaką funkcję
+                        miałoby wtedy pełnić <w>πεσεῖν</w> (Johansen, Whittle 1980: 356).</p>
+                    <p>220: <w>κείνου</w> […] <w>τἀνδρός</w> – „tego męża”. Ambiwalencja funkcji genetiwu
+                        <w>κείνου</w> […] <w>τἀνδρός</w> podkreśla ten podwójny sens – Ajas jest
+                        zarówno tym, który składa ze zwierząt tę złowróżbną ofiarę, jak i tym,
+                        do którego ten złowróżbny znak jest adresowany. Subiectivus i obiectivus,
+                        jak zauważa w komentarzu Kamerbeek. Ajas swoim postępowaniem
+                        wróży sobie nieszczęście, zagładę.</p>
+                    <p>Podobnie jak powyższy passus, kolejne dwie grupy wersów pochodzą
+                        z wywodu Tekmessy opisującej czyn Ajasa:</p>
+                </div>
+                
+                <div type="textpart" n="Aias_235-236">
+                    <head>Aias 235-236</head>
+                    <quote><lb n="235"/>ὧν τὴν μὲν ἔσω σφάζ᾽ ἐπὶ γαίας,
+                        <lb/>τὰ δὲ πλευροκοπῶν δίχ᾽ ἀνερρήγνυ.</quote>
+                    <quote><lb/>Spośród stada jednej owcy podrzyna gardło od razu w środku na ziemi,
+                        <lb/>Inne zaś, z obu stron waląc po żebrach, rozrywał na kawałki.</quote>
+                    <p>235: <w>σφάζει</w> – „podrzyna gardło”, „zarzyna”. Tekmessa w opowieści
+                        o szaleńczym ataku Ajasa na bydło opisuje, w jaki sposób bohater
+                        mordował poszczególne zwierzęta, dwukrotnie (tutaj oraz poniżej,
+                        w. 299) odwołując się do języka ofiary i używając czasownika
+                        <w>σφάζω</w>.</p>
+                    <p>Tę samą scenę Tekmessa dokładniej opisuje poniżej w wersach 298–
+                        –300, gdzie również używa terminologii właściwej dla rytuału ofiarnego.</p>
+                    <p>236: <w>ἀνερρήγνυ</w> – „rozrywał”. Czasownik ἀναρρήγνυμι nie jest
+                        tutaj – i nigdy nie stał się – związany z kontekstem rytualnym, ale
+                        w tym wypadku stanowi jakby kontrapunkt dla rytualnego σφάζω,
+                        użytego metaforycznie na oznaczenie „perverted sacrifice” (zob.
+                        powyżej). Ἀναρρήγνυμι w Il. (18.582) opisuje zachowanie lwa, który
+                        rozszarpuje zdobycz, a z kolei u Ksenofonta (Cyr. 7.9) – psów.
+                        Połączenie obrazowania krwawego rytuału z opisem zachowania
+                        drapieżników potęguje wrażenie niekontrolowanej przemocy.</p>
+                </div>
+                
+                <div type="textpart" n="Aias_296-299">
+                    <head>Aias 296-299</head>
+                    <quote><lb/>ἔσω δ᾽ ἐσῆλθε συνδέτους ἄγων ὁμοῦ
+                        <lb/>ταύρους, κύνας βοτῆρας, εὔκερών τ᾽ ἄγραν.
+                        <lb/>Καὶ τοὺς μὲν ηὐχένιζε, τοὺς δ᾽ ἄνω τρέπων
+                        <lb/>ἔσφαζε κἀρράχιζε.</quote>
+                    <quote><lb/>Wracał, pędząc spętane razem
+                        <lb/>Byki, psie stada, pięknorogą zdobycz.
+                        <lb/>I jednym ciął karki, innym zaś w górę podnosząc głowy,
+                        <lb/>Gardła podrzynał i przecinał kręgosłupy.</quote>
+                    <p>296: <w>ἄγων</w> – „pędząc”. Czasownik ἄγειν należy do technicznego
+                        słownika ofiary krwawej w znaczeniu „prowadzić zwierzę ofiarne do
+                        ołtarza”.</p>
+                    <p>298: <w>ηὐχένιζε</w><note n="51">Zob. Appendix 4 w Casabona 1966: 311–312.</note> – Kamerbeek w komentarzu (1963: 74) definiuje
+                        znaczenie czasownika <w>αὐχενίζω</w> jako „to hit the <w>αὐχήν</w>, i.e. to cut off
+                        the head by a stroke from above”, co dobrze kontrastuje ze stojącym
+                        obok <w>σφάζω</w> – „podrzynać gardło”, z dookreśleniem <w>ἄνω</w> <w>τρέπων</w>
+                        – obracając, podnosząc [scil. ich głowy] do góry, żeby dostęp do gardła
+                        był łatwy (u Homera czynność tę opisuje czasownik <w>αὐερύειν</w>
+                        – np. <title>Il</title>. 1.459)<note n="52">Propozycja Finglassa (2011: 228) „while others he turned on their backs”
+                            jest moim zdaniem niezrozumiała zarówno z powodów leksykalnych (ἄνω
+                            τρέπειν?), jak i praktycznych.</note>. Tak też tłumaczy ten rzadko występujący czasownik
+                        Suda (s.v.): <w>Ηὐχένιζε</w>: τὸν τράχηλον ἀπέκοπτεν, ἐλαιμοτόμει.
+                        ὅπερ ῞Ομηρος ἀνερύειν φησί. Trudno powiedzieć z pewnością, czy
+                        czasownik <w>αὐχενίζω</w> należy do języka technicznego ofiary, ponieważ
+                        jest używany niezwykle rzadko i nie ma poświadczonych wystąpień,
+                        które jednoznacznie pozwoliłyby na przypisanie mu takiej
+                        funkcji. W literaturze okresu archaicznego i klasycznego nie pojawia
+                        się w ogóle. Jednak omawiany fragment zdaje się zestawiać obok siebie
+                        dwa typy cięcia przy zabijaniu ofiary – z dołu, przy równoczesnym
+                        podniesieniu głowy ofiary do góry, oraz z góry, uderzeniem
+                        w kark<note n="53">Casabona 1966: 312 po długim wywodzie przekonuje, że należy czasownik
+                            ten przekładać jako „étrangler” – „udusić”, ewentualnie „skręcić kark”. Analiza leksykograficzna
+                            i morfologiczna nie jest w tym wywodzie przekonująca, ze względu
+                            na niedostatek danych, a zaproponowany – hipotetyczny – sens kłóci się z całością
+                            omawianej sceny, w której na pierwszy plan wysuwa się krew i miecz. Dlatego sądzę,
+                            że jednak mamy tu do czynienia z opisem dwóch rodzajów uśmiercania mieczem.</note>. Sofokles miesza w opisach szaleństwa Ajasa słowniki pochodzące
+                        z różnych dziedzin życia, by potęgować siłę obrazu, jednak
+                        w tym wypadku kusząca jest myśl, że mamy do czynienia z czasownikami
+                        pochodzącymi z tej samej dziedziny i że obydwa należą do
+                        języka rytuału ofiarnego.</p>
+                    <p>298–299: ἄνω <w>τρέπων</w> / <w>ἔσφαζε</w> – „w górę podnosząc głowy, gardła
+                        podrzynał”. Ponownie kontekst rytualny przywołuje czasownik
+                        <w>σφάζω</w>, ale również cały obraz zwierzęcia dosłownie „obracanego ku
+                        górze”, czyli takiego, któremu podnosi się głowę do góry, by łatwo
+                        było poderżnąć gardło oraz by spełnić wymóg wymuszonego spoglądania
+                        ku górze podczas ofiary dla bogów olimpijskich. Można też
+                        sobie wyobrazić, że w przypadku mniejszych zwierząt, np. kóz lub
+                        owiec, Ajas mógł je podnosić do góry, trzymając za głowy lub rogi,
+                        i w tej pozycji podrzynać gardła. W całej rozciągłości mają tu zastosowanie
+                        uwagi z komentarza do wersów 218–220 powyżej na temat
+                        „ofiary odwróconej” czy złamanego kodu ofiarnego. Ponownie mamy
+                        do czynienia z przywołaniem terminologii ofiarnej i ofiarnego gestu,
+                        z jednoczesnym zaprzeczeniem struktury rytuału. Fragment wymaga
+                        odnotowania, chociaż nie zawiera opisu ofiary, a zastosowane słownictwo
+                        występuje w funkcji metaforycznej.</p>
+                    <p>299: <w>ἐρράχιζε</w> – <w>ῥαχίζω</w> – dosłownie „łamał [przecinał?] kręgosłup”
+                        (Kamerbeek 1963: 30 [dotyczy wersu 56]). Zdaniem Hesychiosa
+                        (s.v.) czasownik ma związek z rytuałem ofiarniczym: <w>ῥαχίζειν</w> –
+                        παίειν τὸ ἱερεῖον (zob. także s.v. <w>ἐρράχιζον</w> – <w>διέκοπτον</w> oraz s.v.
+                        <w>ῥαχίζων</w>· <w>διακόπτων</w>, διὰ τὸ τὴν πρώτην καὶ μεγάλην διακοπὴν
+                        κατὰ τὴν ῥάχιν γίνεσθαι)<note n="54">Podobnie Suda s.v.: <w>Ῥαχίζειν</w>: τὸ διαιρεῖν τὰ νῶτα καὶ μέρη τῆς
+                            <w>ῥάχεως</w>, ἤτοι <w>διακόπτειν</w>· ὥς φησιν Εὐριπίδης. <w>Ῥαχίζων</w>: <w>σφάζων</w>, <w>διακόπτων</w>.
+                            Σοφοκλῆς· κύκλῳ <w>ῥαχίζων</w>. ἀντὶ τοῦ κατὰ τόπον τῆς ἐπαύλεως <w>σφάζων</w>. διὰ τὸ
+                            τὴν πρώτην καὶ μεγάλην <w>διακοπὴν</w> κατὰ τὴν <w>ῥάχιν</w> γίνεσθαι.</note>. Notowane przez leksykografa znaczenia:
+                        „uderzyć ofiarę”, „odciąć pierwszym i silnym uderzeniem
+                        w kręgosłup” czy wreszcie po prostu „odciąć” rzeczywiście zdają
+                        się mieć związek z przebiegiem rytuału ofiarnego. Znaczenie to
+                        potwierdza Filostrat (<title>VA 5.42.7</title>). W zachowanych w całości tekstach
+                        epoki klasycznej czasownik ten nie występuje. Fragmenty z Arystofanesa
+                        (870.1) i Eurypidesa (1104.1) nie pozwalają na określenie jego
+                        znaczeń i funkcji.</p>
+                    <p>Właściwie zwrot <w>ἔσφαζε</w> <w>κἀρράχιζε</w> można czytać jak hendiadys
+                        w znaczeniu „ciął gardła aż po kręgosłup” lub po prostu „odcinał głowy,
+                        tnąc od gardła”.</p>
+                    <p>Kolejny passus to słowa Ajasa z jego rozmowy z Tekmessą:</p>
+                </div>
+                
+                <div type="textpart" n="Aias_545-547">
+                    <head>Aias 545-547</head>
+                    <quote><lb/>Αἶρ᾽ αὐτόν, αἶρε δεῦρο· ταρβήσει γὰρ οὔ,
+                        <lb/>νεοσφαγῆ που τόνδε προσλεύσσων φόνον,
+                        <lb/>εἴπερ δικαίως ἔστ᾽ ἐμὸς τὰ πατρόθεν.</quote>
+                    <quote><lb/>Daj go, daj tutaj, przecież się nie wystraszy,
+                        P<lb/>atrząc na świeżo zarżnięte zwłoki,
+                        <lb/>O ile rzeczywiście to, co ma po ojcu, ze mnie pochodzi.</quote>
+                    <p>546: <w>νεοσφαγῆ</w> […] <w>φόνον</w> – „świeżo zarżnięte zwłoki” / „świeżo
+                        spełniony krwawy mord”. Słowa Ajasa skierowane do jego syna,
+                        dotąd ukrywanego przez Tekmessę w obawie, by nie dotknęło go
+                        szaleństwo ojca. Wyraża on nadzieję, że dziecko nie będzie się bało
+                        widoku zabitych zwierząt, uznając to jednocześnie za objaw dziecięcego,
+                        odziedziczonego po ojcu męstwa. Słowo νεοσφαγής – „świeżo
+                        zarżnięty”, często używane wraz z przysłówkiem ἀρτίως – „właśnie”,
+                        „dopiero co”. Etymologia w sposób oczywisty wskazuje na
+                        związek słowa z rytuałem ofiarnym, jednak, zwłaszcza w tragedii,
+                        występuje niemal wyłącznie w funkcji metaforycznej, zwykle w odniesieniu
+                        do mordów spełnionych na osobach (np. S. <title>Trach</title>. 1130 –
+                        o śmierci Dejaniry, <title>Aj</title>. 898 – także o Ajasie, E. <title>Hec</title>. 894 – w odniesieniu
+                        do Polykseny). W <title>Corpus Hippocraticum</title> ( <title>De mulierum affectibus</title>
+                        113.1) odnosi się do krwawienia miesięcznego kobiet i w ogóle nie
+                        ma żadnych odniesień do krwi z ran lub śmierci. Nie ma więcej wystąpień
+                        tego przymiotnika w tekstach źródłowych epoki klasycznej,
+                        związanego wyłącznie i bezpośrednio z kontekstem ofiary krwawej.</p>
+                    <p>W kolejnym passusie po monologu Ajasa, w którym bohater zapewnia
+                        o odstąpieniu od gniewu i zemsty oraz zapowiada jakieś
+                        swoje działania, skutkiem czego we wszystkim zaprowadzony zostanie
+                        porządek, chór odpowiada modlitwą, wyrażającą radość z postępowania
+                        Ajasa i snuje własne wizje tego, co w swoich słowach
+                        zapowiedział bohater. W końcowej części modlitwy skierowanej do
+                        Zeusa (ὦ <w>Ζεῦ</w>) chór wypowiada prośbę o piękny, jasny dzień (<w>λευκὸν</w>
+                        <w>εὐάμερον</w> <w>πελάσαι</w> <w>φάος</w>), który może nadejść dlatego, że (<w>ὅτι</w>) Ajas
+                        podjął należne działania. Chór zalicza do nich ofiary, okazanie czci
+                        i prawości. Istotne jest to, że chór n i e o p i s u j e konkretnego postępowania
+                        bohatera, ale j e d y n i e interpretuje jego słowa.</p>
+                </div>
+                
+                <div type="textpart" n="Aias_710-713">
+                    <head>Aias 710-713</head>
+                    <quote><lb n="710"/>[…] ὅτ᾽ Αἴας
+                        <lb/>λαθίπονος πάλιν, θεῶν δ᾽ αὖ
+                        <lb/>πάνθυτα θέσμι᾽ ἐξ-
+                        <lb/>ήνυσ᾽ εὐνομίᾳ σέβων μεγίστᾳ.</quote>
+                    <quote><lb/>[ponieważ] Ajas,
+                        <lb/>Z powrotem wolny od smutku,
+                        <lb/>Wypełnił prawa dotyczące wszystkich ofiar dla bogów
+                        <lb/>I okazał cześć, wiedziony wielką prawością.</quote>
+                    <p>711–713: θεῶν […] <w>πάνθυτα</w> θέσμι[α] ἐξήνυσ[ε] – „wypełnił prawa
+                        dotyczące wszystkich ofiar dla bogów”. Na niejednoznaczność sensu
+                        słowa <w>πάνθυτος</w> zwraca słusznie uwagę Kamerbeek (1963: 150), sugerując,
+                        że zamiast ogólnie przyjętego znaczenia „składający się z wszelkiego
+                        rodzaju ofiar” (tak u Kamerbeeka, loc.cit., Liddell-Scott-Jones, s.v.
+                        ma: „celebrated with full sacrifices”), należy tu widzieć „całkowicie
+                        poświęcony w ofierze” („completely sacrificed”), ponieważ powrót
+                        Ajasa do „normalności”, w tym także do normalnego sprawowania
+                        rytuału, nie objawia się w spełnianiu wszystkich możliwych miłych
+                        bogom rytów, lecz w tym, że on sam został ofiarą oczyszczającą własne
+                        winy. Propozycja Kamerbeeka jest hipotezą, która sugeruje ofiarny
+                        charakter śmierci Ajasa. Jednak przeciwko tej koncepcji świadczy
+                        przede wszystkim fakt, że Ajas jeszcze nie popełnił samobójstwa, a nawet
+                        nic jeszcze go nie zapowiada. Nie jest więc jasne, o jakich ofiarach
+                        może być tutaj mowa. Chór zdaje się sugerować, że Ajas, po otrzeźwieniu
+                        z szału, złożył bogom jakieś ofiary, które zgładziły jego winę
+                        i odwróciły hańbę. Interpretacja Kamerbeeka zakłada, że słowa chóru
+                        opisują konieczne działania, które muszą się spełnić, aby porządek został
+                        przywrócony. Można uznać je za prorocze i przyjąć, że konieczna
+                        zdaniem chóru ofiara rzeczywiście zostanie spełniona zgodnie z jego
+                        oczekiwaniem, tyle że będzie nią sam Ajas. Trudno jednak uznać tę
+                        interpretację za jednoznacznie przekonywającą.</p>
+                    <p><w>Πάνθυτος</w> jest Sofoklesowym hapax legomenon, nie występuje w literaturze
+                        nigdzie indziej, jedynie w scholiach do tego miejsca (<w>πάνθυτα</w>/<w>πάνθυτα></w>:
+                            πάνσεπτα) oraz w leksykonie Suda (s.v.: <w>Πάνθυτα</w>: πανσέβαστα.
+                            <w>πάνθυτα</w> θέσμι᾽ ἐξήνυσε. πανσέβαστα νόμιμα ἐξεπλήρωσε). W Trachinkach
+                            pojawia się podobny przymiotnik złożony o porównywalnym
+                            znaczeniu: <w>πολύθυτος</w> (także E. <title>IA</title>. 185).</p>
+                    <p>Czasownik <w>ἐξανύω</w>, w przeciwieństwie do <w>τελέω</w>, nie występuje
+                        w odniesieniu do sprawowania konkretnych rytuałów religijnych,
+                        zwykle dotyczy praw, przepisów, losów.</p>
+                    <p>Gdyby przyjąć sugestie interpretacyjne Kamerbeeka, byłoby to jedyne
+                        miejsce w tej tragedii, gdzie poeta zdaje się sugerować, że śmierć
+                        Ajasa należy rozumieć jako ofiarę, równocześnie przygotowując scenę
+                        śmierci samobójczej, w której te same ofiarne elementy są obecne.</p>
+                    <p>Kolejne dwa passusy to słowa z monologu Ajasa poprzedzającego
+                        jego samobójczą śmierć i stanowiącego jej bezpośredni kontekst.</p>
+                </div>
+                
+                <div type="textpart" n="Aias_816-817">
+                    <head>Aias 816-817</head>
+                    <quote><lb/>Ὁ μὲν σφαγεὺς ἕστηκεν ᾗ τομώτατος
+                        <lb/>γένοιτ᾽ ἄν, εἴ τῳ καὶ λογίζεσθαι σχολή.</quote>
+                    <quote><lb/>Miecz ofiarny stoi już tak, by ciąć najpewniej,
+                        <lb/>Jeśliby kto miał chwilę do namysłu.</quote>
+                    <p>816: <w>σφαγεύς</w> – „ofiarnik”, tutaj: „miecz ofiarny [jako ofiarnik]”. Poetycka
+                        metonimia. Rzeczownik użyty metonimicznie, <w>σφαγεύς</w> to ofiarnik,
+                        który dokonuje <w>σφαγία</w>, wykonuje cięcie nożem ofiarnym. Jest to
+                        rzeczownik należący do słownika technicznego ofiary (Casabona 1966:
+                        178–179; w takim znaczeniu często u Eurypidesa: <title>IT</title> 621–623, <title>Heracl</title>. 451
+                        czy <title>Andr</title>. 1134). W tym fragmencie nóż jest równocześnie ofiarnikiem.
+                        Z jednej strony akcentuje to ofiarny charakter samobójczej śmierci Ajasa,
+                        wskazany powyżej w wersach 710–712, z drugiej ma jakby osłabić
+                        samobójczy wymiar tej śmierci – to nie sam Ajas jest zadającym cios
+                        ofiarnikiem, ale miecz, na który się rzuca. Nie jest on już więcej ofiarnikiem,
+                        ale ofiarą (Finglass 2011: 380). W monologu Ajas posuwa się
+                        jeszcze dalej, przypominając, że ten miecz jest darem Hektora (obszerna
+                        interpretacja sceny samobójstwa zob. Hesk 2003: 97–103).</p>
+                    <p>Finglass (2011: 380) proponuje przekład bez odwoływania się do
+                        metonimii ofiarnik-miecz, co jednak jest interpretacją odchodzącą od
+                        intencji poety, ponieważ τομώτατος – „najostrzejszy” może być tylko
+                        miecz, nie ofiarnik. Poza tym dziwne jest to odejście od rzeczywistego
+                        znaczenia słowa, ponieważ personifikacja broni stanowi pospolity
+                        topos literacki (np. A. <title>Th</title>. 727, S. <title>Phil</title>. 1128, E. <title>Andr</title>. 1134, por. Kamerbeek
+                        1963: 168).</p>
+                </div>
+                
+                <div type="textpart" n="Aias_840-842">
+                    <head>Aias 840-842</head>
+                    <quote><lb n="840"/>ξυναρπάσειαν, ὥσπερ εἰσορῶσ᾽ ἐμὲ
+                        <lb/>αὐτοσφαγῆ πίπτοντα, τὼς αὐτοσφαγεῖς
+                        <lb/>πρὸς τῶν φιλίστων ἐκγόνων ὀλοίατο.</quote>
+                    <quote><lb n="840"/>Jak widzą, że ja padam
+                        <lb/>W samobójczym mordzie, tak samo
+                        <lb/>Niech oni zginą w samozagładzie w obliczu swoich ukochanych dzieci.</quote>
+                    <p>Cytat należy do fragmentu uważanego za interpolację, obecnie jednak
+                        przyjmowanego z kilkoma poprawkami (zob. Finglass 2011: 384;
+                        Blaydes 1875: 190–191 i Garvie 1998: 206–207).</p>
+                    <p>Αὐτοσφαγῆ πίπτοντα, τὼς <w>αὐτοσφαγεῖς</w> (w. 841) – <w>αὐτοσφαγής</w>
+                        występuje w literaturze okresu klasycznego jeszcze tylko raz u Eurypidesa
+                        (Ph. 1316). Porównanie z częściej występującymi wyrazami
+                        o podobnej konstrukcji (<w>αὐτόφονος</w>, <w>αὐτόκτονος</w>, por. np. u Ajschylosa
+                        <title>Supp</title>. 69, <title>Ag</title>. 1582, <title>Th</title>. 681, 734–735, 805, <title>Eu</title>. 212, 323) prowadzi do
+                        wniosku, że może on oznaczać „osobę zabitą własnymi rękami lub też
+                        rękami swoich najbliższych” (Ellendt 1872: 108 [s.v.]; tak też <title>LSJ</title>, s.v.).
+                        Tutaj jednak z pewnością w obydwu przypadkach mamy do czynienia
+                        z określeniem śmierci samobójczej, oczywistej w przypadku Ajasa,
+                        a w przypadku przeklinanych wodzów greckich ich dzieci są przywołane
+                        na świadków tego aktu (πρὸς τῶν φιλίστων <w>ἐκγόνων</w>).</p>
+                    <p>Kolejne wersy to słowa Tekmessy, która informuje chór o śmierci Ajasa.</p>
+                </div>
+                
+                <div type="textpart" n="Aias_898-899">
+                    <head>Aias 898-899</head>
+                    <p>Słowa Tekmessy do chóru, oznajmiające znalezienie zwłok Ajasa.</p>
+                    <quote><lb/>Αἴας ὅδ᾽ ἡμῖν ἀρτίως νεοσφαγὴς
+                       <lb/>κεῖται κρυφαίῳ φασγάνῳ περιπτυχής.</quote>
+                    <quote><lb/>Ajas, dopiero co świeżo zarżnięty,
+                        <lb/>Leży pchnięty mieczem głęboko.</quote>
+                    <p>898: <w>νεοσφαγής</w> – anakolut „dopiero co, świeżo zarżnięty”. Jakkolwiek
+                        raziłby ten zwrot w odniesieniu do zakrwawionych zwłok
+                        samobójcy, należy utrzymać w przekładzie wersję „świeżo zarżnięty”,
+                        ponieważ jest to dokładnie ten sam termin, którym Sofokles opisał powyżej
+                        pomordowane przez Ajasa w szale zwierzęta. Pomordowane
+                        zwierzęta stanowiły rzeczywiście chresterion, wieszczy znak złowróżbny,
+                        którego okropność odsłania się właśnie w tej dosłowności, z jaką
+                        śmierć Ajasa ma naśladować mord spełniony na zwierzętach. Jedne
+                        i drugie są bezsensowne, są pomyłką i nie mają żadnego celu. Tym,
+                        co Sofokles akcentuje, dobierając tak konsekwentnie słownictwo do
+                        opisu paralelnych scen, jest – jak pisałem wyżej – „ofiara odwrócona”,
+                        absurdalna, krwawa śmierć opisana w kluczu rytualnym, zarazem całkowicie
+                        ten rytuał, i jakikolwiek inny, śmierć negująca i przecząca jego
+                        utrwalonym sensom.</p>
+                    <p>899: <w>ρυφαίῳ</w> <w>φασγάνῳ</w> – dosłownie „mieczem ukrytym [głęboko]”,
+                        to znaczy tak mocno zagłębionym w ranie, że stał się „ukryty”,
+                        czyli niewidoczny. Zob. hasło φάσγανον w leksykonie.
+                        W odpowiedzi na powyższe słowa Tekmessy chór odpowiada:</p>
+                </div>
+                
+                <div type="textpart" n="Aias_900-901">
+                    <head>Aias 900-901</head>
+                    <quote><lb n="900"/> Ὤμοι ἐμῶν νόστων·
+                        <lb/>ὤμοι, κατέπεφνες, ἄναξ.</quote>
+                    <quote><lb/>Biada moim powrotom!
+                        <lb/>Biada, zabiłeś, panie!</quote>
+                    <p>Czasownik <w>κατέπεφνες</w> jest formą poetycką, pojawiającą się wyłącznie
+                        w poezji epickiej i liryce (w tym w partiach lirycznych tragedii).
+                        Formalnie jest to forma aorystu tematycznego czasownika <w>θείνω</w>, który
+                        w postaci czasu teraźniejszego nie występuje. Czasownik ten oznacza
+                        „zabić”, „uśmiercić”, „zgładzić”, jego temat związany jest ze znaczeniem
+                        „uderzyć” (zob. Beekes 2010: 536 [s.v. θείνω]). Wydawać by się
+                        mogło, że słowo to powinno należeć do słownika języka technicznego
+                        rytuału ofiarnego. Jednak wbrew tym oczekiwaniom należy stwierdzić,
+                        że ten poetycki wyraz nigdy nie jest używany na określenie uśmiercania
+                        rytualnego zwierząt. Henrichs (2012: 189) zwraca uwagę na fakt,
+                        że Sofokles w opisie działań Ajasa używa na zadawanie śmierci wielu
+                        określeń pochodzących spoza języka rytualnego, które zdają się stanowić
+                        tym bardziej kontrastujące tło dla terminologii ofiarniczej, niefunkcjonującej
+                        w tym utworze, ani w ogóle w dramacie, synonimicznie (por.
+                        Henrichs 2012: 193–194). Z drugiej strony to wymieszanie słowników
+                        i terminologii prowadzi do zatarcia różnic między mordem i ofiarą, akcentując
+                        to, co im ostatecznie wspólne: rozlew krwi i przemoc, a zarazem
+                        – ostatecznie – poszukując w każdej śmierci sensu.</p>
+                    <p>Za pomocą tego czasownika poemat Homerowy opisuje śmierć
+                        Agamemnona, zamordowanego przez Ajgistosa (<title>Od</title>. 4.534). Intrygujące,
+                        że ta sama scena w interpretacji Ajschylosa posługuje się już wyraźnie
+                        i wyłącznie rytualną terminologią. Jako synonim dla <w>κατέπεφνον</w>
+                        pojawia się w metaforze tego mordu czasownik <w>κατακτείνω</w> (<title>Od</title>. 4.535:
+                        ὥς τίς τε <w>κατέκτανε</w> βοῦν ἐπὶ φάτνῃ – „jakby ktoś zabił wołu przy
+                        żłobie”, por. Burkert 1966: 119–120).</p>
+                    <p>W <title>Od</title>. 23.329, w streszczeniu swych doświadczeń, Odyseusz
+                        mówi o zabiciu wołów Heliosa przez jego towarzyszy (<title>Od</title>. 12.361–
+                        –402) i posługuje się tutaj czasownikiem κατέπεφνον: ὡς ᾿Ηελίοιο
+                        βόας <w>κατέπεφνον</w> ἑταῖροι. Jest to chyba jedyne miejsce, w którym
+                        można by się doszukiwać dalekiego echa rytuału ofiarnego, ponieważ
+                        w opowieści z księgi 12 (361–402) jest to tzw. typowa scena
+                        ofiarna (niezależnie od intencji i skutków tej rzezi świętych zwierząt
+                        Heliosa).</p>
+                    <p>Kolejna część opisu Tekmessy, opowiadającej chórowi szczegóły
+                        zajścia i jego wynik:</p>
+                </div>
+                
+                <div type="textpart" n="Aias_916-919">
+                    <head>Aias 916-919</head>
+                    <quote><lb/>ἐπεὶ
+                        <lb/>οὐδεὶς ἂν ὅστις καὶ φίλος τλαίη βλέπειν
+                        <lb/>[φυσῶντ᾽ ἄνω πρὸς ῥῖνας ἔκ τε φοινίας
+                        <lb/>πληγῆς μελανθὲν αἷμ᾽ ἀπ᾽ οἰκείας σφαγῆς].</quote>
+                    <quote><lb/>Bo nikt mu bliski nie może znieść jego widoku,
+                        <lb/>[Gdy czarna krew bucha mu nozdrzami
+                        <lb/>I z krwawej rany od mordu na sobie spełnionego].</quote>
+                    <p>Wersy 918–919 są uznawane za interpolację (Finglass 2011: 406).</p>
+                    <p>919: ἀπ᾽ <w>οἰκείας</w> <w>σφαγῆς</w> – „od mordu na sobie spełnionego”.
+                        To właśnie wyrażenie Finglass uważa za szczególnie dziwne (2009:
+                        335–337). Οἰκεῖος to tutaj tyle, co ἴδιος – „własny”, „osobisty”, „na sobie
+                        samym spełniony”, por. S. <title>Ant</title>. 1176: πρὸς <w>οἰκείας</w> χερός. <w>Σφαγή</w>
+                        to nazwa samej czynności rytualnego zabijania zwierzęcia przez poderżnięcie
+                        mu gardła (Rudhardt 1992: 275; Beekes 2010: 1426 [s.v.]).
+                        Kolejny raz samobójcza śmierć Ajasa jest interpretowana w kategoriach
+                        ofiary krwawej.</p>
+                </div>
+                
+                <div type="textpart" n="Aias_1403-1406">
+                    <head>Aias 1403-1406</head>
+                    <quote><lb/>Ἀλλ᾽ οἱ μὲν κοίλην κάπετον
+                        <lb/>χερσὶ ταχύνετε, τοὶ δ᾽ ὑψίβατον
+                        <lb n="1405"/>τρίποδ᾽ ἀμφίπυρον λουτρῶν ὁσίων
+                        <lb/>θέσθ᾽ ἐπίκαιρον·</quote>
+                    <quote><lb/>Ale jedni z was niech prędko kopią grób
+                        <lb/>Rękami, a drudzy trójnóg do świętych obmyć na ogniu wysoko
+                        <lb/>Niech postawią w odpowiednim czasie.</quote>
+                    <p>Słowa Teukrosa po uzyskaniu przez Odyseusza zgody na pogrzeb
+                        zwłok Ajasa. Teukros zarządza przygotowanie obrzędów pogrzebowych.
+                        Fragment nie zawiera odniesień do języka ofiary krwawej, jest
+                        jednak dobrym przykładem opisu obrzędów pogrzebowych Ajasa,
+                        które domykają cykl ofiarny przenikający cały dramat: bohater najpierw
+                        jest quasi-ofiarnikiem opisywanym przez Sofoklesa słowami
+                        zaczerpniętymi z języka ofiary krwawej, później sam staje się ofiarą
+                        w scenie samobójczej śmierci, aby wreszcie tutaj stać się po prostu
+                        zmarłym, poddanym rytualnym obrzędom: obmyciom ciała w wodzie
+                        naszykowanej w trójnogu.</p>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

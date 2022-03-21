@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Antigone (Ἀντιγόνη, Antigone)</title>
+                <title xml:lang="en">Antigone (Ἀντιγόνη, Antigone)</title>
+                <title xml:lang="pl">Antigone (Ἀντιγόνη, Antygona)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">trag_09_antigone</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Antigone (Ἀντιγόνη, Antygona)</title>, in Krzysztof Bielawski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Tragedia attycka</title>, Warszawa 2017, pp. 115-137</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaia Fanelli">encoded document in XML</change>
+                <change when="2017" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition">  <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p><title>Antygona</title> była wystawiona w Atenach podczas Wielkich Dionizjów
+                        w roku 441 (Griffith 1999: 1–2) i zdobyła pierwszą nagrodę. Przyniosła
+                        autorowi nie tylko sławę i uznanie, ale także nietypową nagrodę w postaci
+                        stanowiska stratega w wyprawie na Samos.</p>
+                    <p>Temat ofiary i słownictwo z nią związane nie są w tym dramacie
+                        bogato reprezentowane. Poza kilkoma wzmiankami istotny jest jedynie
+                        opis ofiary zawarty w mowie Tejrezjasza, który zapowiada Kreonowi
+                        nadchodzące nieszczęścia. Bezpośrednich nawiązań do ofiary
+                        krwawej jest niewiele, a te, które są, niejednokrotnie stanowią jedynie
+                        dalekie echo pierwotnych znaczeń. Niemniej jednak w poniższym komentarzu
+                        starałem się uwzględnić wszystkie możliwe. Klasyczny komentarz
+                        stricte filologiczny z interpretacją poszczególnych wersów był
+                        możliwy tylko w części omówionych tutaj fragmentów sztuki Sofoklesa.
+                        Część z nich wymagała innego rodzaju narracji.</p>
+                    <p>Podstawę poniższego komentarza stanowi edycja krytyczna: Griffith
+                        (1999).</p>
+                </div>
+                <div type="textpart" n="Antigone_194-197">
+                    <head>Antigone 194-197</head>
+                    <p>Słowa Kreona z pierwszego epeisodionu i pierwszej mowy władcy,
+                        w której uzasadnia on swoje decyzje dotyczące pogrzebu Eteoklesa
+                        oraz porzucenia bez pochówku ciała Polynejkesa.</p>
+                    <quote><lb/>Ἐτεοκλέα μέν, ὃς πόλεως ὑπερμαχῶν
+                        <lb n="195"/>ὄλωλε τῆσδε, πάντ᾽ ἀριστεύσας δορί,
+                        <lb/>τάφῳ τε κρύψαι καὶ τὰ πάντ᾽ ἀφαγνίσαι
+                        <lb/>ἃ τοῖς ἀρίστοις ἔρχεται κάτω νεκροῖς.</quote>
+                    <quote><lb/>[Ogłosiłem obywatelom decyzję],
+                        <lb/>Żeby Eteoklesa, który w walce za to miasto
+                        <lb n="195"/>Poległ, włócznią dowodząc swej znakomitości,
+                        <lb/>I w grobie pochować, i spełnić dlań wszystkie należne obrzędy,
+                        <lb/>Które znakomitym zmarłym obywatelom się należą.</quote>
+                    <p>Słowa Kreona obwieszczające obywatelom (<w>κηρύξας</w> […] <w>ἀστοῖσι</w>,
+                        powyżej, w. 192–193) jego wyrok na temat losów ciała Eteoklesa. Zawierają
+                        decyzję o pochowaniu bohatera (<w>τάφῳ</w> τε <w>κρύψαι</w>) oraz o dopełnieniu
+                        wszelkich innych obrzędów (καὶ τὰ πάντ᾽ <w>ἀφαγνίσαι</w>)
+                        należnych uznanym obywatelom (τοῖς <w>ἀρίστοις</w> […] <w>νεκροῖς</w>) w ich
+                        ostatniej podróży (<w>ἔρχεται</w> <w>κάτω</w>).</p>
+                    <p>Ofiara jest tutaj przywołana nie wprost za pomocą czasownika
+                        <w>ἀφαγνίζω</w>, który prymarnie – etymologicznie – powinien odwoływać
+                        się do kategorii rytów oczyszczających (Rudhardt 1992: 171–172), został
+                        tu jednak zastosowany raczej metonimicznie dla przywołania wszelkich
+                        obrzędów pogrzebowych (tak właśnie interpretuje Rudhardt
+                        1992: 171, przyp. 11: „tous les rites funèbres”). Przekład Kazimierza
+                        Morawskiego (być może inspirowany sugestią Lewisa Campbella
+                        w kanonicznym wydaniu brytyjskim cytowanym poniżej) jako „uczcić
+                        ofiarą” stanowi daleko idącą interpretację, jednak chyba słusznie koncentruje
+                        uwagę na obrzędzie ofiarnym.</p>
+                    <p>Jan C. Kamerbeek w swoim komentarzu do tego miejsca opowiada
+                        się – bez silenia się na przekonywające argumenty – za lekcją <w>ἐφαγνί-
+                        σαι</w> („there is no reason why we should prefer <w>ἀφαγνίσαι</w>” – Kamerbeek
+                        1978: 66) i sugeruje sens: „sprawować wszystkie święte obrzędy
+                        na grobie” (ἐπὶ τῷ τάφῳ <w>ἁγνίσαι</w>) lub też – za wyjaśnieniem Campbella:
+                        „to add all sacred offerings” (Campbell 1879: 476. Podobnie Brown
+                        1987: 37 – „all the offerings are to be paid”).</p>
+                </div>
+                
+                <div type="textpart" n="Antigone_245-247">
+                    <head>Antigone 245-247</head>
+                    <quote><lb n="245"/>Καὶ δὴ λέγω σοι· τὸν νεκρόν τις ἀρτίως
+                        <lb/>θάψας βέβηκε κἀπὶ χρωτὶ διψίαν
+                        <lb/>κόνιν παλύνας κἀφαγιστεύσας ἃ χρή.</quote>
+                    <quote><lb/>No przecież już mówię! Trupa ktoś ledwie co
+                        <lb/>Pogrzebał i odszedł, i na ciało sypnął suchej
+                        <lb/>Ziemi, i oddał cześć zmarłemu, jak należy.</quote>
+                    <p>247: <w>κἀφαγιστεύσας</w> ἃ <w>χρή</w> – w kontekście pogrzebu drugiego
+                        z braci, Polynejkesa, w opowieści strażnika w wersie 247 pojawia się
+                        pokrewny czasownik <w>ἐφαγιστεύω</w> (lub też <w>ἀφαγιστεύω</w>, synonimicznie,
+                        w tekście w nagłosie jest krasis z καί: <w>κἀφαγιστεύσας</w><note n="21">Tak w komentarzu Kamerbeeka (1978: 73).</note>, uniemożliwiająca
+                        jednoznaczne określenie formy pierwotnej), stanowiący Sofoklesowe
+                        hapax legomenon i oznaczający po prostu „spełniać należne
+                        obrzędy pogrzebowe”, opisane szczegółowo w drugiej relacji strażnika
+                        (w. 429–431: Καὶ χερσὶν εὐθὺς διψίαν φέρει κόνιν, / ἔκ τ᾽εὐκροτήτου
+                        χαλκέας ἄρδην πρόχου / χοαῖσι τρισπόνδοισι τὸν νέκυν στέφει).
+                        Obrzędy te ograniczają się do posypania zmarłego ziemią oraz wylania
+                        libacji (por. Hame 2008: 9). Kamerbeek sugeruje, żeby widzieć tu
+                        nie tylko libacje, ale też składanie kwiatów, kosmyków włosów czy
+                        wieńców (1978: 73). Czasownik <w>ἐφαγιστεύω</w>/<w>ἀφαγιστεύω</w> może też
+                        więc oznaczać – jeszcze ogólniej – „oddanie czci zmarłemu”, „uczczenie
+                        zmarłego”, być może podobnie, jak w wersach 395–396 <w>τάφον</w><w> κο-
+                        σμεῖν</w> – ozdabiać, porządkować, „gładzić”, jak chce w swoim przekładzie
+                        Morawski? Ten uogólniający charakter omawianego czasownika,
+                        jakby podsumowujący wszystkie rytualne czynności związane z pogrzebem,
+                        podkreśla jeszcze fraza <w>ἃ</w> <w>χρή</w>, z dziwną, akuzatiwową rekcją
+                        bezosobowego eliptycznego wyrażenia χρή, wskazująca chyba na
+                        accusatius respectus: „jeśli chodzi o to, co konieczne” – domyślnie: „konieczne,
+                        aby pogrzeb był skuteczny, aby zostały spełnione obrzędowe
+                        wymagania”.</p>
+                </div>
+                
+                <div type="textpart" n="Antigone_544_545">
+                    <head>Antigone 544-545</head>
+                    <p>Słowa Ismeny z epeisodionu drugiego, skierowane do Antygony,
+                        podczas dyskusji prowadzonej w obecności Kreona. Ismena, przy
+                        konsekwentnym sprzeciwie siostry, usiłuje wziąć na siebie część
+                        odpowiedzialności za złamanie rozkazu władcy i przekonać go o swoim
+                        współudziale w działaniach Antygony.</p>
+                    <quote><lb/>Μήτοι, κασιγνήτη, μ᾽ ἀτιμάσῃς τὸ μὴ οὐ
+                        <lb n="545"/>θανεῖν τε σὺν σοὶ τὸν θανόντα θ᾽ ἁγνίσαι.</quote>
+                    <quote><lb/>Nie wmawiaj mi, siostro, żem niewarta
+                        <lb n="545"/>umrzeć z tobą i zmarłego uczcić.</quote>
+                    <p>545: τὸν θανόντα θ᾽ <w>ἁγνίσαι</w> – szczególny wydźwięk ma zastosowanie
+                        czasownika <w>ἁγνίζω</w> w wersie 545, w kwestii Ismeny, domagającej
+                        się od Antygony udziału w karze za czyn zabroniony, którego sama się
+                        nie dopuściła. Chce, by siostra pozwoliła jej τὸν θανόντα θ᾽ <w>ἁγνίσαι</w>
+                        – „uczcić/poświęcić/uświęcić zmarłego”. Według Chantraine’a czasownik
+                        <w>ἐναγίζω</w> oznacza: „consacrer un sacrifice chthonien aux morts”
+                        (Chantraine, s.v. <w>ἅζομαι</w>; zob. też Kurtz, Boardman 1971: 150), a według
+                        Rudhardta „il signifie sacrifier à un mort ou à un heros sur autel bas du
+                        type <w>ἐσχάρα</w>” (Rudhardt 1992: 238). Kamerbeek w komentarzu sugeruje,
+                        że śmierć Antygony miała spłacić bratu jego „należność”, sprawić, że
+                        dzięki jej poświęceniu stanie się on <w>ἁγωός</w>, czyli dostąpi ostatecznego
+                        oczyszczenia. W takim rozumieniu czyn Antygony (i niespełnione życzenie
+                        Ismeny) staje się sui generis ofiarą – oczyszczającą, krwawą, która
+                        stanowi ostateczne dopełnienie obrzędu pogrzebowego Polynejkesa.
+                        Tego właśnie zdaje się domagać Ismena – nie tyle zgody na udział w obrzędach
+                        pogrzebowych już spełnionych przez Antygonę, ile dopuszczenia
+                        do ich dopełnienia przez ofiarę z życia.</p>
+                    <p>O wyborze śmierci mówi Antygona w wersie 555, przeciwstawiając
+                        swój wybór Ismenie: Σὺ μὲν γὰρ εἵλου ζῆν, ἐγὼ δὲ <w>κατθανεῖν</w> –
+                        „ty wybrałaś życie, ja natomiast – śmierć”. Czasownik <w>καταθνήσκειν</w>
+                        jest poetyzmem należącym do tradycji epickiej (zob. LSJ, s.v.), w której
+                        oznacza po prostu „umierać”. Jako synonimu śmierci ofiary rytuału
+                        użył tego czasownika tylko jeden raz Ajschylos w <title>Agamemnonie</title>,
+                        wers 1290. Jest to scena, w której swą własną śmierć przepowiada
+                        i opisuje Kasandra. W wersie 1278 mówi ona o sobie jako o „gorącej
+                        ofierze” (<w>θερμὸν</w> <w>πρόσφαγμα</w>), a kamienny blok, na którym leży, jest
+                        „skrwawiony” (<w>φοίνιον</w>). Kasandra konkluduje tę wizję własnej ofiarniczej
+                        śmierci dwukrotnie: raz w wersie 1279, a drugi raz w 1290. Za
+                        pierwszym razem posługuje się pospolitym czasownikiem <w>θνήσκειν</w>,
+                        za drugim – poetyckim <w>καταθνήσκειν</w>.</p>
+                    <p>Podobnie Antygona, zarówno w analizowanej scenie, jak i w innych
+                        miejscach opisuje swą śmierć w kategoriach właściwych dla języka
+                        ofiary. Jest ona <w>καλόν</w>/<w>καλῶς</w> – „zacna”, „zacnie spełniona” (w. 72,
+                        97) albo, jak chcą anglojęzyczne komentarze, „noble” (Ahrensdorf
+                        2009: 107) lub „honourable” (Griffith 1999: 138, komentarz do wersów
+                        96–97). Co więcej, ma być ona „przydatna”, „korzystna” dla zmarłych
+                        – τοῖς θανοῦσι <w>ὠφελεῖν</w> (w. 560) – w interpretacji Petera Ahrensdorfa:
+                        „to benefit the dead” (Ahrensdorf 2009: 107)<note n="22">Nb. Brown 1987: 167 sugeruje, moim zdaniem niesłusznie, że Antygona
+                            „pełni służbę” („devoted herself to the service of the dead”) dla zmarłych, co musiałoby
+                            czynić ze śmierci metaforę kapłaństwa.</note>. Antygona wyraźnie interpretuje
+                        swoją decyzję jako „śmierć dla” i postrzega ją w kategoriach
+                        religijnej wyjątkowości, jako odpowiedź na religijne wymagania.</p>
+                </div>
+                
+                <div type="textpart" n="Antigone_601-603">
+                    <head>Antigone 601-603</head>
+                    <p>te wersy z pieśni chóru wymagają w tym miejscu przytoczenia
+                        dwóch wariantów, zależnych od przyjętej lekcji:</p>
+                    <quote><lb/>1. κατ᾽ αὖ νιν φοινία
+                        <lb/>θεῶν τῶν νερτέρων ἀμᾷ κόνις,
+                        <lb/>λόγου τ᾽ ἄνοια καὶ φρενῶν Ἐρινύς.</quote>
+                    <quote><lb/>Krwawy proch podziemnych bogów okrywa je [tj. światło],
+                        Niemądre słowa i Erynie serca.</quote>
+                    <quote><lb/>2. κατ᾽ αὖ νιν φοινία
+                        <lb/>θεῶν τῶν νερτέρων ἀμᾷ κοπίς,
+                        <lb/>λόγου τ᾽ ἄνοια καὶ φρενῶν Ἐρινύς.</quote>
+                    <quote><lb/>Krwawy nóż podziemnych bogów ścina je [tj. najmłodsze odrośle
+                        w domu Edypa],
+                        <lb/>Niemądre słowa i Erynie serca.</quote>
+                    <p>Pod koniec antystrofy drugiej stasimonu pierwszego (w. 601–603)
+                        znajdujemy fragment, który jest związany z tematem ofiary krwawej
+                        tylko pośrednio – i wyłącznie przy wyborze określonej lekcji tekstu, powiedzmy
+                        szczerze: rzadziej uznawanej, zwłaszcza ostatnio. Chór śpiewa
+                        o falach nieszczęść w rodzie Labdakidów, przechodzących ze zmarłych
+                        na następne pokolenia (w. 595: πήματα φθιμένων ἐπὶ πήμασι
+                        πίπτοντ[α]) oraz o tym, że teraz (w. 598: νῦν) ponownie jakiś bóg sprowadza
+                        zagładę na ród (w. 596–597: ἐρείπει / θεῶν τις) i że nie ma wyjścia
+                        z tej sytuacji (w. 597: οὐδ᾽ ἔχει λύσιν). Na takim tle pojawia się obraz
+                        najpierw „światła w domostwie Edypa”, co z pewnością odnosi się
+                        do Antygony (w. 600: φάος ἐν Οἰδίπου δόμοις), a zaraz potem bogów
+                        podziemnych (w. 602: θεῶν τῶν νερτέρων), niemądrych słów (w. 603:
+                        λόγου τ᾽ ἄνοια) i szaleństwa, wyrażonego poetyckim obrazem „Erynii
+                        serca” (φρενῶν Ἐρινύς). W zależności od rekcji podziemni bogowie
+                        związani są w tych wersach albo z „krwawym prochem” (<w>φοινία</w> […]
+                        <w>κόνις</w>), który do nich należy, czyli jest im należny, albo z „krwawym
+                        nożem”, który dzierżą (<w>φοινία</w> […] <w>κοπίς</w>). Większość edycji przyjmuje
+                        – nie bez silnego wahania – lekcję <w>κόνις</w>, argumentując głównie zbieżnością
+                        znaczenia rzeczownika z wybranej lekcji z istotą czynu Antygony
+                        i samej treści dramatu. Wszystkie jednocześnie podnoszą i akcentują
+                        problem czasownika <w>καταμάω</w> (w tmezie), prymarnie związanego
+                        z kontekstem cięcia i żęcia, co z kolei wyraźnie wskazywałoby na lekcję
+                        κοπίς jako uzasadnioną. Oprócz niejasności dotyczącej lekcji w wersie
+                        602 Kamerbeek, podsumowując wieloletnią dyskusję, wylicza jeszcze
+                        sześć dodatkowych problemów związanych z analizowanymi wersami
+                        (1978: 119). Punktem trzecim w tej jego klasyfikacji jest pytanie o to,
+                        do czego odnosi się νιν z wersu 601. Jeśli odnieść ten zaimek do <w>φάος</w>,
+                        to należy przyjąć znaczenie <w>καταμάω</w> jako „przykrywać” – i wówczas
+                        otrzymamy sens: „krwawy proch podziemnych bogów okrywa je
+                        [tj. światło]”. Jeśli natomiast odnieść zaimek do <w>ῥίζας</w>, to <w>καταμάω</w> należy
+                        tłumaczyć jako „ścinać” z podmiotem w lekcji <w>κοπίς</w>, a przekład
+                        odnośnych wersów musiałby brzmieć: „krwawy nóż podziemnych bogów
+                        ścina najmłodsze odrośle w domu Edypa”. Przyjęcie tej ostatniej
+                        wersji tekstu i takiego sensu analizowanych wersów otwiera drogę do
+                        interpretacji, w której za sprawą „noża ofiarnego” (<w>κοπίς</w>) obraz śmierci
+                        Antygony, metaforycznie opisany jako żniwa, staje się – w przeności
+                        i nie wprost – ofiarą. Wystąpienie rzeczownika <w>κοπίς</w> nie czyni automatycznie
+                        z każdego tekstu testimonium ofiarnego, niemniej jednak
+                        w omawianym passusie wymaga odnotowania, ponieważ wpisuje się
+                        w pewną ramę interpretacyjną, obecną w całym utworze, która śmierć
+                        Antygony opisuje w kategoriach ofiary. Jest intrygujące i warte odnotowania,
+                        że obydwa polskie przekłady – Morawskiego i Chodkowskiego
+                        – przyjmują w swych przekładach lekcję <w>κοπίς</w> (natomiast w nadal
+                        kanonicznym przekładzie angielskim Jebba – κόνις: „the blood-stained
+                        dust due to the gods infernal”, por. Jebb 1891: 115 wraz z obszernym
+                        komentarzem do obydwu wersji tekstu).</p>
+                    <p>Być może rozstrzygające byłoby pytanie o to, czego metaforą są
+                        ostatnie słowa antystrofy (w. 603): bezrozumność słów i szaleństwo –
+                        a dosłownie Erynie – serca. W zależności od wyboru lekcji muszą one
+                        odnosić się albo do „krwawego noża”, albo do „krwawego prochu”.
+                        To niemądre, zuchwałe słowa i szał zaślepienia Kreona sprowadza na
+                        Antygonę śmierć, wydaje się więc, że lekcja <w>κοπίς</w> zdecydowanie bardziej
+                        odpowiada kontekstowi. Trudno bowiem znaleźć najbardziej nawet
+                        poetyckie uzasadnienie dla powiązania prochu ziemi z nierozumnymi
+                        słowami, nawet gdyby jedno (proch należny bogom) i drugie
+                        (odpowiedź udzielona Kreonowi) dotyczyło samej Antygony. Interesujące
+                        rozwiązanie proponuje znowu Kamerbeek (1978: 120), sugerując
+                        w tym miejscu słynne double meaning i uznając, że chór wprawdzie
+                        ma na myśli Antygonę i jej zuchwałe słowa do Kreona, natomiast sam
+                        poeta – Kreona i całą jego postawę. Tę podwójność sensów komentator
+                        uważa za zamierzoną przez autora (Kamerbeek 1978: 121 – „the ambiguity
+                        in the wording is clearly the intention of the poet”).</p>
+                </div>
+                
+                <div type="textpart" n="Antigone_853-856">
+                    <head>Antigone 853-856</head>
+                    <p>Pytanie o ofiarny charakter śmierci Antygony powraca w świetle
+                        interpretacji wersów 853–856, zawierających komentarz chóru do postępowania
+                        bohaterki.</p>
+                    <quote><lb/>Προβᾶσ᾽ ἐπ᾽ ἔσχατον θράσους
+                        <lb/>ὑψηλὸν ἐς Δίκας βάθρον
+                        <lb n="855"/>προσέπεσες, ὦ τέκνον, πολύ·
+                        <lb/>πατρῷον δ᾽ ἐκτίνεις τιν᾽ ἆθλον.</quote>
+                    <quote><lb/>Doszedłszy do kresu odwagi,
+                        <lb/>U wysokich stopni [ołtarza] Sprawiedliwości
+                        <lb n="855"/>Upadłaś ciężko, o dziecko,
+                        <lb/>Płacisz za jakieś ojcowskie walki.</quote>
+                    <p>Fragment ten był szeroko dyskutowany, interpretowany na dwa
+                        skrajnie odmienne sposoby i pozostaje wciąż niejasny (Burton 1980:
+                        120–123). Obraz przedstawiony przez chór zdaje się sugerować, że
+                        Antygona z całą świadomością i niezwyczajną odwagą (lub, w odmiennej
+                        interpretacji: zuchwałością, θράσος) płaci za jakąś rodową
+                        klątwę, spłaca dług zaciągnięty przez przodków, zapewne przez
+                        „walkę” (<w>ἆθλον</w>) Edypa. Równocześnie widzimy ją jednak u stóp
+                        (u podstawy, na stopniach: <w>βάθρον</w>) ołtarza (lub posągu) bogini Sprawiedliwości,
+                        Dike. Pytanie stawiane przez interpretatorów, tłumaczy
+                        i komentatorów dotyczy głównie tego ostatniego aspektu omawianej
+                        sceny. Część z nich uznaje, że Antygona jawi się tutaj jako upokorzona
+                        przez obrażoną boginię, a czasownik <w>προσπίπτω</w> z przyimkiem
+                        ἐς (acc.) w tej interpretacji oznacza zderzenie, wpadnięcie na „zbyt
+                        wzniosłą Sprawiedliwość”, której bohaterka nie podołała. Chór widzi
+                        w niej przestępczynię, która weszła w konflikt z prawem (tak
+                        Brown 1987: 194; Griffith 1999: 272; Burton 1980: 121–122; Chodkowski
+                        2004: 131).</p>
+                    <p>Inni komentatorzy, za Leskym (Lesky 1952 = Lesky 1966: 176–184),
+                        przyjmują, że προσπίπτω (wprawdzie z odmienną rekcją) oznacza tutaj
+                        to samo co w S. <title>Trach</title>. 904 i S. <title>O.C.</title> 1157, czyli akt prostracji i objęcia
+                        posągu lub ołtarza w geście hikezji (przekład brzmiałby: „w geście błagania
+                        silnie objęłaś podstawę ołtarza”). W tej perspektywie Antygona
+                        staje się nie przestępcą wobec Sprawiedliwości i Prawa, ale ich protegowaną,
+                        a jej czyn zachowuje jednoznacznie pozytywny wydźwięk,
+                        potwierdzony przez chór.</p>
+                    <p>Wychodząc od tej interpretacji, jeszcze dalej poszła Dora Pozzi
+                        (1989, tam też szczegółowa dyskusja nad możliwymi lekcjami tekstu),
+                        która zaproponowała uznanie tej sceny za metaforę ofiary i tym
+                        samym dostarczyła argumentu za uznaniem całej postawy Antygony
+                        za de facto ofiarę krwawą.</p>
+                    <p>Przekład zaproponowany przez Pozzi brzmi: „You advanced to the
+                        ultimate daring / and falling on your knees before the lofty altar of
+                        Dike / you offered your life. My child, you pay / a grievous toll, one
+                        that comes from your ancestors” (ibidem: 502).</p>
+                    <p>Wątpliwość budzi fraza „you offered your life”, „ofiarowałaś swe
+                        życie”. Pozzi argumentuje, że czasownik <w>προσπίπτω</w> należy do słownika
+                        technicznego ofiary („belongs to the diction of sacrifice”) oraz że
+                        opisuje kluczowy moment, w którym zwierzę upada („the fall of the
+                        victim”). W jej interpretacji Antygona upada na kolana nie po to, żeby
+                        wykonać gest suplikacji lub się modlić, ale jako ofiara gotowa ponieść
+                        śmierć na ołtarzu (ibidem: 503).</p>
+                    <p>Burkert uznaje składanie ofiar krwawych przy grobach zmarłych
+                        oraz w ogóle przy okazji obrzędów pogrzebowych za normę (1985a:
+                        193). Wyróżnia dwa typy krwawej ofiary funeralnej: pierwszy, spełniany
+                        przy grobie jako wyraz żałoby po stracie kogoś bliskiego (tu
+                        por. też Morris 1992: 123), drugi – będący „zwykłą” ofiarą zwierzęcą
+                        poprzedzającą rytualny posiłek, stypę<note n="23">Por. np. A. Ch. 483, Ar. Lys. 599–601. O ucztach funeralnych i ofiarach
+                            z nimi związanych zob. Garland 1985: 110–113; Johnston 1999: 41. Wyczerpujące
+                            opracowanie ikonografii (reliefów) przedstawiającej uczty funeralne zob. Thönges-
+                            Stringaris 1965: passim wraz z ilustracjami 1–30. Zob. też Murko 1910.</note>. W interpretacji zakładającej
+                        ofiarny charakter śmierci Antygony można brać pod uwagę tylko
+                        pierwszy typ ofiary<note n="24">Zob. Kurtz, Boardman 1971: 200–217, rozdział Rites and offerings. Szerokie
+                            opracowanie Antygony w perspektywie wszelkich możliwych aspektów ateńskich
+                            praktyk pogrzebowych zob. Patterson 2006.</note>. Zgromadzone przez Rudhardta (1992: 250–251,
+                        277–278, 285–286) odniesienia do tekstów źródłowych wskazujących
+                        na silny związek ofiary z rytami funeralnymi przekonują, że wszelkie
+                        skojarzenia obrzędów pogrzebu z ofiarą krwawą są więcej niż uzasadnione.
+                        Trudno jednak uznać z tej racji, że śmierć Antygony, czy później
+                        Hajmona lub Eurydyki, wpisana jest w zamierzoną ramę modalną,
+                        zbudowaną w relacji do struktury ofiarnej. Z pewnością jednak per-
+                        spektywę ofiarniczą należy uwzględniać w interpretacjach tej tragedii
+                        i uwypuklać silniej niż dotychczas.</p>
+                    <p>Plutarch w żywocie Solona (29.5) podaje, że zakazał on spełniania
+                        ofiar krwawych z wołu na grobach zmarłych, co wskazuje na istnienie
+                        takiej praktyki wcześniej. Trudno powiedzieć, czy zakaz Solona dotyczył
+                        w ogóle spełniania ofiar krwawych na grobach podczas pogrzebów, czy
+                        też wyłączał jedynie z tej praktyki woły. Intrygujące, że w przekazie Plutarcha
+                        znajdujemy interesujące nas z punktu widzenia tekstu Antygony
+                        słowo <w>ἐναγίζειν</w> (zob. wyczerpujące opracowanie Ekroth 2002: 74–128,
+                        wcześniej Burkert 1966 z przypisem 36, 103–104 = Burkert 2007, 16) w jednoznacznym
+                        sensie „składać na ofiarę” (<w>ἐναγίζειν</w> δὲ βοῦν οὐκ εἴασεν),
+                        tak samo jak w poniżej przytoczonym fragmencie żywota Katona Starszego
+                        (15), gdzie mowa jest o ofierze ku czci zmarłych przodków. Chociaż
+                        źródeł jest niewiele, to jednak można przyjąć, że składanie ofiar krwawych
+                        na grobach było praktykowane. Przekonują o tym regulacje prawne
+                        zachowane na inskrypcjach. Ofiary te składano „zgodnie ze zwyczajem”,
+                        stąd brak jakichkolwiek więcej informacji na ten temat (Lupu 2005: 76). Inskrypcja
+                        z regulacjami funeralnymi z Kos z V w. p.n.e. (von Prott 1896: 260
+                        [SLG 93A] = Sokolowski 1969: 188 [<title>LSCG</title> 97A]) zawiera zdanie (w. 11–12):
+                        προσφαγίωι [ χ]ρέσθαι [ κ]ατὰ ( τ)ὰ π[άτρια – „ofiarę wstępną należy
+                        złożyć zgodnie ze zwyczajem”. Jako zwierzę ofiarne spotykamy w tym
+                        kontekście owce (E. <title>El</title>. 92: πυρᾷ τ᾽ ἐπέσφαξ᾽ αἷμα μηλείου φόνου) oraz
+                        barany i koźlęta (Plu. <title>Cat. Ma.</title>, 15: γονεῦσιν <w>ἐναγίζειν</w> […] ἄρνας […]
+                        ἐρίφους). O składaniu w ofierze zwierzęcia dla zmarłego „tak jakby dla
+                        herosa” (ὡς ἥρωί τε <w>ἐντέμνουσι</w>) pisze Tukidydes (5.11), potwierdzając tę
+                        praktykę (omówienie tego fragmentu zob. Rudhardt 1992: 130). O sposobie
+                        zabijania ofiary dla zmarłych informuje użyty przez niego czasownik
+                        <w>ἐντέμνω</w> (ibidem: 130, a zwłaszcza 285–286), związany wyłącznie z kontekstem
+                        ofiarnym kultów chtonicznych (zob.szczegółową analizę w Parker
+                        2005a). Ofiary składane podczas obrzędów pogrzebowych były w całości
+                        spalane na ołtarzach typu eschara (Alexiou 1974: 8), nie na bomos (zob.
+                        poniżej komentarz do 1016).</p>
+                    <p>Z tekstu dramatu Sofoklesa nie wynika, by Antygona chciała heroizować
+                        zmarłego brata – raczej koncentruje się na swoich uczuciach
+                        względem niego oraz na religijnym obowiązku grzebania zmarłych.
+                        Z drugiej strony jednak z pewnością swoją śmierć postrzega jako
+                        śmierć d l a brata, dla zmarłych, im poświęconą i z całą pewnością nadaje
+                        jej nie tylko dramatyczny, ale też wyraźnie rytualny charakter.
+                        Osobną kwestią pozostaje w tej perspektywie uznanie znaczenia zamiany
+                        rytu małżeństwa na ryt ofiarny, znany z<title> Ifigenii w Aulidzie</title> i <title>Hekabe</title>
+                        Eurypidesa (na ten temat zob. Loraux 1987: 36–37, 78–79). Wszystko
+                        to pozwala – z pewną ostrożnością – przyjąć tezę o metaforze ofiary
+                        jako swoistej ramie modalnej struktury <title>Antygony</title>, co niewątpliwie nie
+                        jest powszechnie przyjętą interpretacją, a domaga się uznania.</p>
+                </div>
+                
+                <div type="textpart" n="Antigone_1005-1020">
+                    <head>Antigone 1005-1020</head>
+                    <p>Początek epeisodionu piątego. Tejrezjasz – w obecności prowadzącego
+                        go chłopca – zapowiada Kreonowi nadchodzące nieszczęścia i opowiada
+                        mu o wynikach przeprowadzonych wróżb podczas spalania ofiary.</p>
+                    <quote><lb/>Εὐθὺς δὲ δείσας ἐμπύρων ἐγευόμην
+                        <lb n="1005"/>βωμοῖσι παμφλέκτοισιν· ἐκ δὲ θυμάτων
+                        <lb/>῞Ηφαιστος οὐκ ἔλαμπεν, ἀλλ᾽ ἐπὶ σποδῷ
+                        <lb/>μυδῶσα κηκὶς μηρίων ἐτήκετο
+                        <lb/>κἄτυφε κἀνέπτυε, καὶ μετάρσιοι
+                        <lb n="1010"/>χολαὶ διεσπείροντο, καὶ καταρρυεῖς
+                        <lb/>μηροὶ καλυπτῆς ἐξέκειντο πιμελῆς.
+                        <lb/>Τοιαῦτα παιδὸς τοῦδ᾽ ἐμάνθανον πάρα,
+                        <lb/>φθίνοντ᾽ ἀσήμων ὀργίων μαντεύματα·
+                        <lb/>ἐμοὶ γὰρ οὗτος ἡγεμών, ἄλλοις δ᾽ ἐγώ.
+                        <lb n="1015"/>Καὶ ταῦτα τῆς σῆς ἐκ φρενὸς νοσεῖ πόλις·
+                        <lb/>βωμοὶ γὰρ ἡμῖν ἐσχάραι τε παντελεῖς
+                        <lb/>πλήρεις ὑπ᾽ οἰωνῶν τε καὶ κυνῶν βορᾶς
+                        <lb/>τοῦ δυσμόρου πεπτῶτος Οἰδίπου γόνου.
+                        <lb/>Κᾆτ᾽ οὐ δέχονται θυστάδας λιτὰς ἔτι
+                        <lb n="1020"/>θεοὶ παρ᾽ ἡμῶν οὐδὲ μηρίων φλόγα […].</quote>
+                    <quote><lb/>Nagle, ogarnięty strachem, spróbowałem w ogniu ofiar poszukać wróżby
+                        <lb/>Na płonących ołtarzach, z darów ofiarnych nie rozbłysnął jednak
+                        <lb/>Boskiego Hefajstosa płomień, ale z udźców sączyła się bulgocząca na
+                        <lb/>popiele ciecz i spływała,
+                        <lb/>I dymiła, i skwierczała, i żółć rozpryskiwała wysoko,
+                        <lb/>Oślizgłe udźce ofiarne wyłaniały się spod okrywającego je tłuszczu.
+                        <lb/>Wszystkiego tego dowiedziałem się od chłopca
+                        <lb/>– Marne to wróżby z milczących obrzędów –
+                        <lb/>Dla mnie on przewodnikiem, tak jak ja dla innych.
+                        <lb/>Twoje serce przyniosło temu miastu chorobę,
+                        <lb/>Bo ołtarze i zupełnie wszystkie ofiarne paleniska
+                        <lb/>Wypełnione są przez ptaki i psy padliną
+                        <lb/>Z przeklętych zwłok potomstwa Edypa.
+                        <lb/>Nie przyjmują bogowie od nas modłów zanoszonych podczas ofiar
+                        <lb/>Ani płomieni ze spalanych udźców […].</quote>
+                    <p>Fragment powyższy należy do najobszerniejszych i najważniejszych
+                        opisów ofiary krwawej w tekstach dramatycznych (Burkert
+                        1985b, 88–90). Zawiera obraz całości rytuału ofiarnego, szereg intrygujących
+                        szczegółów oraz bogate ofiarnicze słownictwo techniczne.</p>
+                    <p>1005: <w>ἐμπύρων</w> ἐγευόμην; <w>ἔμπυρα</w> to zarówno sztuka wróżenia
+                        z ognia (Johnston 2008: 98, 128; Halliday 1913: 185), z płomieni
+                        i iskier (<w>ἔμπυρος</w> τέχνη jak w E. <title>Ph</title>. 954 i scholiach do E. <title>Ph</title>. 1225, zob.
+                        też Pi. <title>O</title>. 6.68–74 i 8.1–7) oraz z reakcji spalanych części zwierzęcia
+                        ofiarnego na ogień, jak i w ogóle spalanie ofiar na ołtarzu, połączone
+                        z wróżbą. Por. A. <title>PV</title> 496–499, gdzie również mamy opis wróżenia
+                        z ognia (<w>φλογωπὰ</w> <w>σήματα</w>). Tutaj kontekst wskazuje właśnie na to, że
+                        Tejrezjasz z jednej strony po prostu chce spalić ofiarę bogom, a z drugiej
+                        szuka w przebiegu tego spalania znaków wieszczych. W zasadzie
+                        każda ofiara przeznaczona do spalenia jest <w>ἔμπυρος</w>. W tym sensie
+                        przymiotnik ten przynależy do języka technicznego ofiary (każdej, ale
+                        też krwawej).</p>
+                    <p>1006: <w>βωμοῖσι</w> παμφλέκτοισιν – metonimia i poetyzm: jak wiadomo
+                        z kolejnych wersów, ofiara nie chciała się palić, więc ołtarz również
+                        nie mógł być „cały ogarnięty płomieniem”. <w>Πάμφλεκτος</w> to raczej
+                        stała cecha ołtarza, epitet miejsca, które zwykle wybucha ogniem. Na
+                        temat <w>βωμοί</w> zob. komentarz poniżej, wers 1016.</p>
+                    <p>1006: ἐκ δὲ <w>θυμάτων</w> – „z ofiar”. <w>Θῦμα</w> to zazwyczaj głównie zwierzę
+                        ofiarne (ang. victim); tutaj jednak jest to część zwierzęcia ofiarnego
+                        złożonego już na ołtarzu i przeznaczonego do spalenia. W zasadzie
+                        jest to tutaj ofiara sensu stricto, czyli to, co należy się bogom po zabiciu
+                        i podziale zwierzęcia ofiarnego. W przekładzie trzeba pozostawić więc
+                        „ofiary” lub „dary ofiarne”.</p>
+                    <p>1007: ἐπὶ <w>σποδῷ</w> – „na popiele”. Rzeczownik σποδός oznacza każdy
+                        popiół w ogóle, ale pojawia się jako terminus technicus w kontekstach
+                        rytualnych, gdy mowa o efekcie spalania ofiar na ołtarzu; np. inskrypcja
+                        z Lebenai, kreteńskiego sanktuarium Asklepiosa położonego na południe
+                        od Gortyny, zawiera regulacje na temat postępowania ze „świętym
+                        popiołem z ołtarza, na którym składa się bogu ofiary”: <w>σποδὸς</w>
+                        ἱερὰ ἡ ἐκ τοῦ <w>βωμοῦ</w>, ὅπου θύουσι τῷ θεῷ (SIG 1171.18). Natomiast
+                        S. OT 21 mówi nawet o μαντεία <w>σποδῷ</w> – wyroczni czy wróżeniu z popiołów
+                        z ofiar. Być może także jest to odniesienie do wyroczni Apollona
+                        Spodeiosa („Popielnego”), w której – zdaniem Pauzaniasza (9.11.7) –
+                        miał znajdować się ołtarz zbudowany z popiołów z ofiar: <w>βωμός</w> ἐστιν
+                        Ἀπόλλωνος ἐπίκλησιν <w>Σποδίου</w>, πεποίηται δὲ ἀπὸ τῆς τέφρας τῶν
+                        ἱερείων<note n="25">Trudno powiedzieć, czym miałby dokładnie być „ołtarz z popiołów”
+                            (ἀπὸ τῆς <w>τέφρας</w>). Najprawdopodobniej jednak był to ołtarz zbudowany na
+                            warstwie popiołów, a nie dosłownie „ulepiony” z popiołów ofiar. Ołtarz Zeusa
+                            w Olimpii według opisu Pauzaniasza mógł być formą kopca, usypanego na kamiennej
+                            podstawie, z popiołów ofiar zmieszanych z krwią i ziemią, utwardzonych
+                            i umożliwiających nie tylko poruszanie się po tym kopcu, ale jeszcze wprowadzanie
+                            i uśmiercanie tam zwierząt (por. Paus. 5.13.8, 5.14.8 i komentarze do tych fragmentów
+                            w: Frazer 1898: 556, 562 oraz interpretacja w: Parke 1967: 182–183). Por.
+                            w opracowaniu Yavisa 1949: 208–213 (rozdział Ash Altars, pkt 82).</note>. Według Herodota natomiast (8.134.5–6) była to wyrocznia
+                        Apollona Ismejskiego i wróżono w niej z <w>ἔμπυρα</w> – płonących ofiar lub
+                        z płomieni (ἐμπύροισι […] χρηστηριάζεσθαι). Z kolei w 4.35 Herodot
+                        opisuje obyczaj składania popiołów (τὴν σποδὸν ταύτην) ze spalonych
+                        na ołtarzu udźców ofiar (τῶν μηρίων καταγιζομένων ἐπὶ τῷ βωμῷ)
+                        na grobie Opis i Argi na Delos.</p>
+                    <p>1007: ῞<w>Ηφαιστος</w> – metonimia Homerycka, zamiast „ogień”,
+                        por. np. <title>Il</title>. 2.426, 9.468, 17.88, 23.33 (zob. też Bielawski 2012: 89).
+                        Wbrew Chodkowskiemu (2004: 139) nie sądzę, by należało tu imputować
+                        Sofoklesowi „sugerowanie udziału sił wyższych”.</p>
+                    <p>1008: μυδῶσα <w>κηκίς</w> – <w>κηκίς</w> – proponuję przekład „bulgocząca
+                        ciecz”, ponieważ jest to (zgodnie z etymologią i prymarnymi znaczeniami
+                        słów pokrewnych: zob. hasło leksykonu) „wszystko, co bulgocze,
+                        wytryskuje, sączy się” (Beekes 2010: 685, s.v.) i może odnosić
+                        się do krwi, smoły, żywicy itp. W kontekście opisywanej sceny są to,
+                        zgodnie z sugerowaną przez <title>LSJ</title> interpretacją, „soki wyciskane przez
+                        ogień ze zwierzęcia ofiarnego”, czyli to, co wycieka z części zwierzęcia
+                        ofiarnego złożonych na ołtarzu, a więc z tłuszczu, kości, kawałków
+                        mięsa i wnętrzności; skład tej „bulgoczącej” czy „syczącej” cieczy buduje
+                        topiący się tłuszcz, ale w równym stopniu resztki zakrzepłej krwi
+                        i osocza oraz wszelkie płyny ustrojowe, jakie mogą znajdować się we
+                        wnętrznościach zwierzęcia (kolejny wers na przykład zwraca uwagę na
+                        żółć). W całości analizowanego opisu na pierwszy plan zdają się wysuwać
+                        tłuszcz i kości udowe (lub udźce), trzeba jednak pamiętać, że na
+                        ołtarzu były również wnętrzności. W makabrycznej wizji z A. <title>Ch</title>. 268
+                        chór napawa się marzeniem ujrzenia zwłok Klitajmestry i Ajgistosa
+                        skwierczących w ogniu, który wydobywa z nich właśnie <w>κηκίς</w>.</p>
+                    <p>Możliwe, że <w>κηκίς</w> zastępuje tutaj κνίση, por. <w>κνίση</w> <w>μερίων</w> u Arystofanesa
+                        (Ar. <title>Av</title>. 1517–8). Mamy tu jakby opozycję: w normalnej ofierze
+                        do góry wzlatuje κνίση <w>μερίων</w>, w tej spływa w dół <w>κηκίς</w> <w>μερίων</w>,
+                        a jedyne, co jest wysoko, to <w>χολαί</w><note n="26">Uwagę tę zawdzięczam Lechowi Trzcionkowskiemu.</note>.</p>
+                    <p>1009–1010: <w>μετάρσιοι</w> / <w>χολαὶ</w> <w>διεσπείροντο</w> – „żółć pryskała wysoko”.
+                        Zaproponowałem przekład zgodny zarówno ze znaczeniami słownikowymi
+                        poszczególnych wyrazów, jak i z ogólnie przyjętą tradycją rozumienia
+                        i translacji tego fragmentu. Jednak Michael H. Jameson (1986:
+                        62) zwrócił uwagę na szereg zbieżności między przedstawieniami sceny
+                        wróżenia w omawianym fragmencie oraz na wazie attyckiej datowanej na
+                        połowę V w. p.n.e. (<title>Antygonę</title> wystawiono najprawdopodobniej w roku
+                        441), pochodzącej ze zbiorów Ermitażu<note n="27">Beazley 1963: 1144 [nr 14(11); Горбунова, Передольская 1961: 93–95 (reprodukcja,
+                            nr 45, s. 94)]. U van Stratena (1995: 232) waza ta jest uwzględniona na
+                            podstawie rysunku opublikowanego przez Haves (1922: 294), a nie reprodukcji
+                            z edycji Gorbunowej, co uniemożliwia poprawną interpretację. Odnotowuje on
+                            wprawdzie, że postać stojąca przy ołtarzu trzyma „a roundish smallish object
+                            over the altar”.</note>. Przeprowadzona przez Jamesona
+                        analiza nie przekonuje – moim zdaniem – że mamy do czynienia
+                        z „przedstawieniem” tej konkretnej sceny z <title>Antygony</title> Sofoklesa na wazie,
+                        ale zawiera cenne sugestie dotyczące użycia żółci i woreczka żółciowego
+                        w procesie wróżenia podczas spalania wnętrzności ofiary. Na przywołanym
+                        przez Jamesona obrazie z wazy centralna postać stojąca przy ołtarzu
+                        (identyfikowana przez autora artykułu jako ślepy Tejrezjasz) trzyma
+                        nad paleniskiem ołtarza wyciągniętą rękę z jakimś okrągłym przedmiotem
+                        w dłoni<note n="28">W interpretacji autora pierwszego publikowanego opisu tej wazy Ludolfa
+                            Stephaniego jest to „eine Frucht oder eine kleine muschelförmige Schale”
+                            (Stephani 1869: 240, nr 1636).</note>. Trudno orzec, jaka część ze splanchna miałaby to być, ale
+                        organoleptyczne badania Jamesona (Jameson 1986: fig. 4) przekonują, że
+                        ofiarnik z wazy rzeczywiście może trzymać nad ogniem woreczek żółciowy
+                        wołu i wyciskać jego zawartość na ołtarz i leżące na nim części
+                        zwierzęcia ofiarnego. Organoleptyczność badań znalazła w publikacji
+                        potwierdzenie w postaci współcześnie wykonanego zdjęcia ludzkiej ręki
+                        trzymającej woreczek żółciowy byka – trudno nie zgodzić się, że podobieństwo
+                        jest więcej niż uderzające<note n="29">Krytyczna, chociaż nie dewastująca ocena eksperymentu Jamesona zob.
+                            Frostenpointner, Galik, Weissengruber 2013: 235–238.</note>. Jeśli propozycja interpretacji zawartości
+                        prawej dłoni postaci z wazy w świetle omawianego opisu z mowy
+                        Tejrezjasza jest słuszna, możliwe, że należy zaproponować zupełnie inną
+                        wersję przekładu tego wersu. W tej interpretacji woreczek żółciowy nie
+                        leży bowiem na ołtarzu i wobec tego jego zawartość – żółć (<w>χολαί</w>) – nie
+                        może rozpryskiwać się (<w>διεσπείροντο</w>) wysoko (<w>μετάρσιοι</w>), ale raczej
+                        trzymana nad ogniem musiałaby pryskać, skapywać „z wysoka”. Zdaje
+                        się to uzasadnione z dwóch innych powodów: 1. jeśli ogień na ołtarzu nie
+                        pali się, trudno oczekiwać, by woreczek żółciowy pękał i pryskał – tak
+                        mógłby się zachowywać chyba tylko w wysokiej temperaturze; 2. przymiotnik
+                        <w>μετάρσιος</w> w żadnym z odnotowanych przez <title>LSJ</title> (s.v.) znaczeń
+                        nie zdaje się odnosić do jakiejkolwiek formy ruchu „w górę”, zwykle opisuje
+                        on obiekty umieszczone wysoko. W każdym razie być może należy
+                        tę propozycję rozważyć jako nową alternatywną możliwość dla istniejących
+                        interpretacji. Nie trzeba dodawać, że opisana przez Jamesona i poddana
+                        nowej interpretacji waza może tutaj stanowić jedynie inspirację,
+                        a nie materiał dowodowy.</p>
+                    <p>1010–1011: καταρρυεῖς / <w>μηροὶ</w> <w>καλυπτῆς</w> <w>ἐξέκειντο</w> <w>πιμελῆς</w> – oślizgłe
+                        (<w>καταρρυεῖς</w>) udźce ofiarne (<w>μηροί</w>) „wyłaniały się” (<w>ἐξέκειντο</w>)
+                        spod okrywającego je (<w>καλυπτής</w>) tłuszczu (<w>πιμελή</w>). Proponuję „oślizgłe”
+                        zamiast „ociekające tłuszczem”, jak sugeruje LSJ (s.v.), ponieważ
+                        płaty tłuszczu, w jakie zawinięte są μηροί, różnią się od łoju, tłustej
+                        cieczy oblepiającej kości (lub kości i mięso) skutkiem częściowego rozpuszczenia
+                        się sadła. Poza tym μηροί „ociekałyby tłuszczem”, gdyby
+                        dobrze się paliły, ale istotą opisywanej sceny jest właśnie to, że się nie
+                        palą. Griffith (1999: 300) słusznie zwraca uwagę na wyjątkowe w tym
+                        wypadku użycie pospolitego rzeczownika <w>πιμελή</w>, który w żadnym
+                        innym dziele poetyckim żadnej epoki nie występuje. Właściwym dla
+                        języka poezji jest rzeczownik κνῖσα. Niezależnie od tego πιμελή w tekstach
+                        prozaicznych występuje na oznaczenie tłuszczu, jakim okrywa
+                        się części ofiar spalanych na ołtarzu (por. np. Herodot 2.47).</p>
+                    <p><w>μηροί</w><note n="30">Znaczną część tego fragmentu komentarza powtarzam za własnym tekstem:
+                        Bielawski 2012: 99–100.</note> – w tym miejscu należałoby się spodziewać rzeczownika
+                        μερία lub μῆρα: części ofiary zwierzęcej przeznaczone do spalenia
+                        na ołtarzu; de facto były to wycięte kości udowe obłożone dwoma płatami
+                        tłuszczu, z kawałkami mięsa położonego na wierzchu. Μηροί to
+                        bardziej po prostu „uda”, tutaj dość wyjątkowo użyte w znaczeniu
+                        technicznym.</p>
+                    <p>Prawdopodobne, że o ile μηρία (<w>μῆρα</w>) należą w sensie ścisłym do
+                        języka technicznego rytuału ofiarnego i odnoszą się do rytualnie spreparowanych
+                        części zwierzęcia przeznaczonych na ofiarę (mogą to być
+                        same kości udowe lub kości z mięsem), o tyle <w>μηροί</w> zazwyczaj, także
+                        w kontekście rytualnym, oznaczają udo lub udziec w całości i wskazuje
+                        to jednoznacznie, że w danym wypadku na ołtarzu znalazła się część
+                        zwierzęcia w całości, bez wypreparowywania kości udowych (zob.
+                        odnośne hasło w leksykonie oraz komentarz do wystąpień tego rzeczownika
+                        w tekstach epickich). Dla właściwego zrozumienia tej sceny
+                        nie ma żadnego znaczenia, czy przez μηροί rozumiemy całe udźce,
+                        razem z mięsem, czy też jedynie wycięte z udźców kości. Wydaje się,
+                        że obydwie wersje są do przyjęcia.</p>
+                    <p>Należy pamiętać, że właściwym celem wróżenia przez ἔμπυρα
+                        było patrzenie w ogień płonących ofiar, tutaj jest to niemożliwe, ponieważ
+                        ogień nie chce zapłonąć (por. Kamerbeek 1978: 174) – dlatego niewidomy
+                        Tejrezjasz podkreśla w kolejnym wersie, że wszystkie znaki
+                        są mu znane z opowieści towarzyszącego mu chłopca.</p>
+                    <p>1013<note n="31">Zob. szczegółowy komentarz do tego wersu w: Bielawski 2004: 127.</note>: φθίνοντ᾽ ἀσήμων <w>ὀργίων</w> μαντεύματα – wieszcze znaki
+                        – μαντεύματα – można poznać dzięki <w>ὄργια</w>: obrzędom, a dokładniej
+                        ofiarom zwierzęcym, z których dokonywano wróżenia (por. Bielawski
+                        2004: 123–124, tam też pełna bibliografia przedmiotu). Tutaj jednak
+                        brak ognia powoduje, że <w>ὄργια</w> spełniają się w taki sposób, że pozostają
+                        ἄσημα – pozbawione znaków (dlatego w przekładzie: „milczące
+                        znaki”), niejasne, milczące. Obrzędy nazywane tutaj <w>ὄργια</w> są działaniem,
+                        aktywnością rytualną, której efekt uwidacznia się w pojawiających
+                        się znakach. Paradoks polega na tym, że także brak znaku sam
+                        w sobie jest znakiem, brak wróżby jest sam w sobie złą wróżbą.</p>
+                    <p>1015: Καὶ ταῦτα τῆς σῆς ἐκ <w>φρενὸς</w> νοσεῖ πόλις – dosłownie „Miasto
+                        cierpi to [wszystko] [tak choruje] z powodu twojego serca [= twoich
+                        decyzji]”.</p>
+                    <p>1016: <w>βωμοὶ</w> […] ἐσχάραι τε <w>παντελεῖς</w> – „ołtarze i wszystkie w zupełności
+                        eschary”, jak zabawnie notuje w swoim komentarzu Campbell
+                        (1879: 541): „<w>παντελεῖς</w> is little more than <w>πᾶσαι</w>” – i podkreśla, że
+                        funkcją tego abundantnego tutaj przymiotnika jest zwrócenie uwagi
+                        na skalanie absolutnie wszystkich miejsc świętych w mieście.</p>
+                    <p><w>βωμοί</w> (w. 1016) oraz powyżej <w>βωμοῖσι</w> (w. 1006) – zdarza się, że
+                        <w>βωμός</w> jest używany jako synonim dla <w>ἐσχάρα</w>. Tak jest np. w <title>Persach</title>
+                        Ajschylosa, gdzie na określenie tego samego ołtarza pojawiają się
+                        obok siebie obydwa rzeczowniki (odpowiednio w. 203 i 205), tak samo
+                        w <title>Heraklesie</title> Eurypidesa (odpowiednio w. 922 i 927). Zwykle jednak
+                        przyjmuje się, że są to nazwy dwóch typów ołtarzy, o różnej budowie
+                        i różnych funkcjach. Βωμός to prostokątny ołtarz ustawiony na bazie<note n="32">Na temat <w>βωμός</w> wraz z etymologią i bibliografią zob. Yavis 1949 oraz
+                            Högemann, Prayon 1996; warte uwagi jest też stare, ale szczegółowe opracowanie
+                            de Molin 1884.</note>,
+                        a <w>ἐσχάρα</w> to bardziej coś na kształt obudowanego paleniska, stojącego
+                        bezpośrednio na ziemi, raczej okrągłego (ale nie tylko, np. eschara
+                        z czasów rzymskich przy wejściu do sanktuarium w Eleusis jest
+                        wgłębieniem na planie prostokąta) i mającego wgłębienie. Na ołtarzu
+                        typu eschara składano ofiary całopalne ku czci herosów i bóstw chtonicznych,
+                        podczas gdy na bomos spalano jedynie części zwierząt ofiarnych
+                        składanych bóstwom olimpijskim. Eschara to także po prostu palenisko,
+                        o czym przekonuje fragment z <title>Fenicjanek</title> Eurypidesa (w. 274),
+                        gdzie jest mowa o <w>βώμιοι</w> <w>ἐσχάραι</w> – „ołtarzowych paleniskach”, czyli
+                        miejscach na ołtarzach typu bomos, na którym pali się ogień.</p>
+                    <p>Zdaniem van Stratena (1995: 166) na podstawie materiału epigraficznego
+                        można stwierdzić, że także ołtarz typu bomos bywał używany
+                        w kulcie herosów lub bóstw chtonicznych. Trudno jednak przyjąć, by
+                        w omawianym fragmencie mowy Tejrezjasza obydwa terminy były
+                        synonimami, raczej należy przypuszczać, że wymienienie obydwu
+                        typów ołtarzy w takim kontekście ma na celu podkreślenia faktu, że
+                        wszystkie możliwe do wyobrażenia miejsca kultowe i święte, o różnych
+                        funkcjach i położeniu, nie ustrzegły się skalania przez zwierzęta
+                        rozwlekające szczątki niepochowanych zwłok Polynejkesa.</p>
+                    <p>1019: <w>θυστάδας</w> <w>λιτάς</w> – <w>θυστάδες</w> <w>λιταί</w> to modlitwy towarzyszące
+                        składaniu ofiary. <w>Θυστάς</w> to przymiotnik niezwykle rzadko występujący.
+                        Poza utworami Sofoklesa pojawia się jedynie w jednym fragmencie
+                        z Eurypidesa (1101.1) oraz w źródłach późniejszych i scholiach. Eurypides
+                        z kolei używa zwrotu ἀμφιβώμιοι λιταί – „modły zanoszone
+                        wokół ołtarza”.</p>
+                    <p>1020: οὐδὲ <w>μηρίων</w> <w>φλόγα</w> – zob. komentarz powyżej do wersu
+                        1011. „Płomień/ogień z μηρία” – metonimia dobrze przyjętej ofiary.
+                        Jest to ogień, jaki podnosi się z ołtarza podczas spalania należnych bogom
+                        części zwierzęcia ofiarnego.</p>
+                </div>
+                
+                <div type="textpart" n="Antigone_1080-1083">
+                    <head>Antigone 1080-1083</head>
+                    <p>Słowa z epeisodionu piątego. Mowa Tejrezjasza, który odpowiada
+                        Kreonowi na zarzuty o obrazę władcy, głupotę i przekupstwo, zapowiadając
+                        mu też utratę syna jako karę za obrazę bogów wywołaną zakazem
+                        pochówku Polynejkesa.</p>
+                    <quote><lb n="1080"/>Ἔχθρᾳ δὲ πᾶσαι συνταράσσονται πόλεις,
+                        <lb/>ὅσων σπαράγματ᾽ ἢ κύνες καθήγνισαν,
+                        <lb/>ἢ θῆρες, ἤ τις πτηνὸς οἰωνὸς φέρων
+                        <lb/>ἀνόσιον ὀσμὴν ἑστιοῦχον ἐς πόλιν.</quote>
+                    <quote><lb n="1080"/>Wrogość porwie wszystkie miasta,
+                        <lb/>Których rozwleczone zwłoki albo psy pochowały,
+                        <lb/>Albo dzikie zwierzęta, albo jakiś ptak skrzydlaty, który niesie
+                        <lb/>Nieświętą woń do miasta bogatego w ołtarze.</quote>
+                    <p>Fragment budzący w komentarzach i przekładach liczne kontrowersje.
+                        <w>Σπαράγματα</w> to porozrywane na kawałki i porzucone zwłoki,
+                        które należą (<w>ὅσων</w>) do miast, z których pochodzili niepochowani
+                        bohaterowie. Tak naprawdę wiemy o jednym takim przykładzie
+                        – Polynejkesie (ale Jebb 1891: 192 przekonuje, że w w. 10 tragedii jest
+                        wskazanie na fakt, że należy domniemywać, iż przykładów tych jest
+                        więcej, a casus Polynejkesa jest ich reprezentacją; zwraca też uwagę na
+                        inne przykłady niepochowanych zmarłych poza Antygoną, np. w Błagalnicach
+                        Eurypidesa, gdzie chór składa się z wdów i matek niepochowanych
+                        żołnierzy). Cały ten passus jednak opiera się na retorycznej
+                        przesadzie, a poza tym wrogość słusznie targa mieszkańcami wszystkich
+                        miast, którzy w starciu wystawili wspólne wojska. Nie do końca
+                        również wiadomo, o jakim mieście „mającym ołtarze” mowa w wersie
+                        1083 – czy chodzi o Teby, które ulegają postępującemu skalaniu, czy
+                        też o każde inne miasto, do którego ptaki, skalane mięsem z niepochowanych
+                        zwłok mogą dolecieć.</p>
+                    <p>Zwłoki, niepochowane i poszarpane na kawałki (<w>σπαράγματα</w>),
+                        są przedmiotem zainteresowania zwierząt, których tekst wymienia
+                        trzy kategorie: psy, dzikie zwierzęta i ptaki. Te ostatnie roznoszą
+                        trupi smród (<w>ὀσμήν</w>), określony tu przymiotnikiem „nieświęty”.
+                        Wszystkie zaś razem dokonują ze zwłokami czynności, określonej
+                        czasownikiem καθαγνίζω – <w>καθήγνισαν</w>. Słowniki i komentarze
+                        konsekwentnie nakazują tłumaczyć ten czasownik w tym miejscu,
+                        i tylko w tym miejscu, jako „pożerają”, co odpowiada pierwszemu
+                        skojarzeniu: daje to prosty w swym surowym wyrazie obraz zwierząt
+                        sycących się zwłokami. Trudno jednak nie dostrzec, że użyty
+                        przez Sofoklesa czasownik należy wyłącznie i kategorycznie do technicznego
+                        języka rytuału ofiarnego (niezależnie od tego, czy przyjąć
+                        lekcję formy jako pochodzącą od <w>καθαγνίζω</w>, czy od <w>καθαγί-
+                        ζω</w>, w zależności od edycji; Jebb 1891: 192 preferuje <w>καθαγνίζω</w> ze
+                        względu na efekt głębokiej ironii związanej z prymarnym znaczeniem
+                        czasownika oraz ze względu na fakt, że jego znaczenia funeralne
+                        są poświadczone dopiero w epoce poklasycznej). Wyodrębnianie
+                        szczególnego znaczenia czasownika, jak czynią słowniki, a za nimi
+                        tłumacze, na użytek interpretacji tego jednego tylko fragmentu, bez
+                        choćby próby odniesienia go do znaczeń pierwotnych, jest wyrazem
+                        dość zrozumiałej bezradności, ale nie ma żadnego uzasadnienia,
+                        a w dodatku pozbawia ten fragment mowy Tejrezjasza szczególnej
+                        wymowy. Zwierzęta nie tylko dokonują tego, czego zabronił Kreon,
+                        czyli spełniają pochówek, ale nawet czynią z niego ofiarę. „Pochłaniają”
+                        one mięso zwłok tak samo jak ogień pochłania ofiarę całopalną.
+                        Mamy tu do czynienia z obrazem wyjątkowo skondensowanym
+                        i z ofiarą całkowicie odwróconą przez gorzką ironię – skalane zwłokami
+                        miasto należałoby oczyścić za pomocą ofiar całopalnych (to
+                        właśnie oznacza czasownik καθαγνίζω, zob. <title>LSJ</title>, s.v., obydwa znaczenia,
+                        jak i <w>καθαγίζω</w>, ibidem; por. też Parker 2005a: 40; Ekroth 2002:
+                        89, którzy podkreślają, że obydwa te czasowniki we właściwym im
+                        kontekście ofiarnym zawsze oznaczają całkowite zniszczenie ofiary),
+                        ale ponieważ nikt tego oczyszczenia nie dokonuje, to zwierzęta stają
+                        się narzędziem spełnienia ofiary. To, co kala, powinno stać się tym,
+                        co oczyszcza, ale tak nie jest – w pewnym sensie próba przypisania
+                        oczyszczającej funkcji zwierzętom, które kalają zwłoki, skutkuje
+                        wzmożeniem skalania. Ironia każe widzieć w profanacyjnym pożeraniu
+                        zwłok przez dzikie zwierzęta odwróconą metaforę pogrzebu,
+                        jak w A. <title>Th</title>. 142 czy w E. <title>El</title>. 1487 (Jebb 1891: 193 przywołuje jeszcze
+                        ten sam topos – dzikiego zwierzęcia jako grobu – Enniusza <title>Ann</title>. 142
+                        i Lukrecjusza 5.993).</p>
+                    <p>Czasownik <w>καθαγνίζω</w>, jeśli w tragedii odnosi się obrzędów pogrzebowych
+                        (jak np. w E. Or. 40: μήτηρ πυρὶ <w>καθήγνισται</w><note n="33">W tym wypadku także wydania biorą pod uwagę obydwie lekcje:
+                            καθαγνίζω i καθαγίζω z bardzo podobnymi konsekwencjami, jak w omawianym
+                            passusie Antygony, zob. Willink 1986: 89.</note> δέμας i E. Supp.
+                        1211 ἵν᾽ αὐτῶν σώματ᾽ <w>ἡγνίσθη</w> πυρί), to zawsze występuje w związku
+                        z instrumentalnym datiwem od czasownika <w>πῦρ</w> – <w>πυρί</w>. Wynika z tego,
+                        że <w>καθαγνίζω</w> nie oznacza po prostu „spalać” ani nawet „spalać zwłoki
+                        w rytuale pogrzebowym”, ale raczej „oczyszczać ogniem”, „uświęcać
+                        przez spalenie”. Willink (1986: 89) mówi w tym wypadku o „funerary
+                        use of ‘purify’”.</p>
+                    <p><w>ἑστιοῦχον</w> – „taki, który posiada ołtarz”: τὴν <w>ἑστίαν</w> <w>ἔχων</w>.</p>
+                </div>
+                
+                <div type="textpart" n="Antigone_1289-1292">
+                    <head>Antigone 1289-1292</head>
+                    <quote><lb/>Τί φῄς, παῖ; τίν᾽ αὖ λέγεις μοι νέον,
+                        <lb n="1290"/>αἰαῖ, αἰαῖ,
+                        <lb/>σφάγιον ἐπ᾽ ὀλέθρῳ
+                        <lb/>γυναικεῖον ἀμφικεῖσθαι μόρον;</quote>
+                    <quote><lb/>Co mówisz, dziecko? O jakiej nowej zbrodni opowiadasz,
+                        <lb/>Która do [tamtego] zniszczenia
+                        <lb/>Dokłada jeszcze śmierć żony?</quote>
+                    <p>1291: <w>σφάγιον</w> – Kreon na wieść o śmierci żony, która zabiła się po
+                        usłyszeniu o samobójstwie syna, nazywa ją z jednej strony <w>γυναικεῖον</w>
+                        <w>μόρον</w> – „śmiertelnym fatum żony”, „fatum sprowadzającym śmierć
+                        na żonę”, a z drugiej <w>σφάγιον</w>, technicznym terminem języka ofiarniczego
+                        oznaczającym zwierzę zabijane w ofierze, zwłaszcza – jeśli nie
+                        wyłącznie – w kulcie herosów, bóstw chtonicznych oraz zmarłych<note n="34">Zob. Rudhardt 1992: 276–277; forma pluralna – σφάγια jest natomiast
+                            typowym określeniem ofiary składanej przed bitwą, zob. Stengel 1910; Szymanski
+                            1908; Pritchett 1981.</note>.
+                        Trudno założyć, żeby Sofokles zamierzał jednoznacznie interpretować
+                        śmierć Eurydyki w kategoriach krwawej ofiary funeralnej, ponieważ
+                        nic innego na to nie wskazuje, przynajmniej z punktu widzenia i ocen
+                        Kreona; poza sporem jednak jest to, że odwołanie się do języka ofiary,
+                        choćby retorycznie i metaforycznie, musiało budzić w widzach
+                        określone skojarzenia i wizje. Znaczący jest fakt, że samobójczyni na
+                        miejsce swego czynu wybrała ołtarz i być może jest tu sugestia, że ta
+                        śmierć, tak samo jak śmierć Antygony (zob. powyżej), z jej punktu
+                        widzenia wpisuje się w schemat ofiary, jednakże w przypadku Eurydyki
+                        danych jest jeszcze mniej niż w przypadku Antygony. W <title>Iliadzie</title>
+                        (23,31) czasownik <w>σφάγεσθαι</w> opisuje ofiarę na grobie Patroklosa. Rzeczownik
+                        <w>σφάγιον</w> pojawia się u Eurypidesa (<title>Hel</title>. 1564) na określenie
+                        ofiary dla zmarłego (<w>σφάγια</w> τῷ τεθνηκότι) oraz ewidentnie ofiary funeralnej
+                        z czarnej owcy na grobie Agamemnona (<title>El. 513–514</title>). Trudno
+                        nie uznać siły skojarzeń, jakie tu wywołuje i z pewnością jego użycie
+                        nie jest przypadkowe. Należy jednak przyjąć, że w omawianym
+                        fragmencie jest przede wszystkim zabiegiem retorycznym, hiperbolą,
+                        kreowaną z jednej strony przez wyobraźnię Kreona, w której zwłoki
+                        żony jawią się jak truchło zarżniętego zwierzęcia, a z drugiej – przez
+                        widok zwłok leżących u stóp ołtarza, na które w kolejnych wersach
+                        wskazuje posłaniec. Krew, ołtarz i zwłoki domagają się takiej właśnie
+                        interpretacji. W dwóch wersach wypowiedzi rozpaczający Kreon pomieścił
+                        trzy określenia śmierci: μόρον, <w>σφάγιον</w> i ὄλεθρος – kondensacja
+                        cierpienia znajduje wyraz w hiperbolicznej retoryce.</p>
+                    <p>Zakrwawione zwłoki Eurydyki leżące przy ołtarzu nie są ofiarą
+                        krwawą typu σφάγιον, one są j a k <w>σφάγιον</w>. Odwołanie do poetyki
+                        ofiary jest sposobem intensyfikacji emocji i siły oddziaływania sceny.
+                        Premedytacja samobójczyni, która jest równocześnie ofiarnikiem i ofiarą,
+                        oraz rytualizacja śmierci, wybór ołtarza na jej spełnienie – wszystko
+                        to czyni ją straszniejszą i silniej oddziaływającą.</p>
+                    <p>W jakimś sensie użycie tych pojęć (<w>μόρον</w> i <w>σφάγιον</w>) opisujących
+                        szczególne aspekty śmierci przenosi śmierć Hajmona i Eurydyki
+                        w sferę religijną, w której chodzi o prawa boskie, zmazy i przekleństwa,
+                        a nie o ludzkie konflikty i ustawodawstwo. To właśnie dogłębnie
+                        uświadamia sobie Kreon i temu też daje wyraz.</p>
+                    <p>Rzeczownik <w>σφάγιον</w> pojawia się u Sofoklesa jeszcze tylko raz: <title>Aj</title>. 219.</p>
+                </div>
+                
+                <div type="textpart" n="Antigone_1301-1302">
+                    <head>Antigone 1301-1302</head>
+                    <quote><lb/>Ἡ δ᾽ ὀξυθήκτῳ βωμία περὶ ξ<supplied reason="lost">ίφει</supplied>
+                        <lb/>λύει κελαινὰ βλέφαρα […].</quote>
+                    <quote><lb/>Jak błagalnica przy ołtarzu
+                        <lb/>Od ostrego miecza ciemne zamknęła powieki.</quote>
+                    <p>1301: <w>Βωμία</w> – przymiotnik, epitet Eurydyki, żony Kreona, w wypowiedzi
+                        drugiego posłańca, który informuje Kreona o jej samobójstwie.
+                        Jest ona tu nazwana βωμία – „związana z ołtarzem, z bomosem”,
+                        „obejmująca ołtarz”. Nie jest to ściśle rzecz biorąc przymiotnik należący
+                        do języka ofiary krwawej, ponieważ najczęściej odnosi się do błagalników
+                        (jak w E. <title>Supp</title>. 93), obejmujących ołtarz, ale pozostaje w etymologicznym
+                        związku z rzeczownikiem <w>βωμός</w>.</p>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

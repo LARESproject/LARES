@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Sofokles</title>
+                <title xml:lang="en">Sofokles</title>
+                <title xml:lang="pl">Sofokles</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">trag_08_sophocles_intro</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Sofokles</title>, in Krzysztof Bielawski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Tragedia attycka</title>, Warszawa 2017, pp. 111-113</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaia Fanelli">encoded document in XML</change>
+                <change when="2017" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Ryty ofiarne w zachowanych tragediach Sofoklesa zajmują zaskakująco – zwłaszcza w porównaniu z dziełami pozostałych dwóch tragików – mało miejsca. W żadnym ze zbiorczych opracowań akademickich twórczości Sofoklesa czy wprowadzeń do studiów nad nim temat ofiary jako odrębny przedmiot badań w ogóle się nie pojawia<note>20 Zob. np. najnowsze Markantonatos 2012: 411–427 (rozdział Ritual in Sophocles).</note>. Ma to swoje uzasadnienie w powszechnie przyjętym przekonaniu, że kwestie religijne w twórczości Sofoklesa zdecydowanie ustępują pola problemom politycznym, społecznym i filozoficznym (Jouanna 2007: passim). Jedynym pozornie monograficznym opracowaniem problematyki ofiary w tekstach Sofoklesa jest niewielki artykuł Burkerta Opferritual bei Sophokles. Pragmatik – Symbolik – Theater (Burkert 1985b = Burkert 2007: 73–91), bierze on jednak pod uwagę tylko trzy tragedie: <title>Edypa króla</title>, <title>Trachinki</title> i <title>Antygonę</title> oraz bardzo wybiórczo omawia pojedyncze sceny. Nie oznacza to jednak, że problemy religijne w twórczości Sofoklesa nie występują. Poniższy komentarz, skoncentrowany wycinkowo na szczegółowym zagadnieniu ofiary krwawej, stanowi – obok podstawowej funkcji poznawczej związanej z opisem rzeczywistości rytualnej w tekstach literatury greckiej – równocześnie propozycję zwrócenia większej uwagi i przywiązania większej wagi do religijnego tła, religijnego słownictwa i obrazowania w dziele Ateńczyka.</p>
+                    <p>Kolejność omawianych poniżej dzieł podyktowana jest porządkiem powszechnie przyjętej chronologii zachowanych tragedii Sofoklesa: <title>Antygona</title> (441), <title>Ajas</title> (441), <title>Trachinki</title> (431), <title>Król Edyp</title> (429), <title>Elektra</title> (411), <title>Filoktet</title> (409), <title>Edyp w Kolonos</title> (407–401).</p>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>
