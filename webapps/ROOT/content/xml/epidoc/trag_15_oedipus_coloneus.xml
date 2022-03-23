@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Oedipus Coloneus (Oἰδίπoυς ἐπὶ Κολωνῷ, Edipo a Colono)</title>
+                <title xml:lang="en">Oedipus Coloneus (Oἰδίπoυς ἐπὶ Κολωνῷ, Oedipus at Colonus)</title>
+                <title xml:lang="pl">Oedipus Coloneus (Oἰδίπoυς ἐπὶ Κολωνῷ, Edyp w Kolonos)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">trag_15_oedipus_coloneus</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Oedipus Coloneus (Oἰδίπoυς ἐπὶ Κολωνῷ, Edyp w Kolonos)</title>, in Krzysztof Bielawski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Tragedia attycka</title>, Warszawa 2017, pp. 189-194</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaia Fanelli">encoded document in XML</change>
+                <change when="2017" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Według starożytnej tradycji sztuka została wystawiona w roku 402/401
+                        (w 3. roku 94. olimpiady), już po śmierci poety (w roku 405), przez jego
+                        wnuka Sofoklesa, syna Aristona, za archontatu Mykona. Przedmiotem
+                        badań i sporów uczonych jest data powstania dramatu, którą sytuuje
+                        się w komentarzach między rokiem 411 a 406 (zob. Markantonatos
+                        2007: 35–39 z pełną bibliografią na ten temat).</p>
+                    <p>Wszystkie (z jednym wyjątkiem: w. 1407–1409) bezpośrednie nawiązania
+                        do ofiary krwawej w tej sztuce mają związek z miejscem kultu
+                        Posejdona i ofiarami dla niego. Pojawiają się dopiero po pierwszym
+                        powrocie na scenę Tezeusza (w. 887).</p>
+                    <p>Wcześniej mamy jedynie szczegółowy opis ofiary płynnej dla Eumenid
+                        i rytualnego oczyszczenia (<w>καθαρμός</w>, w. 466) przed jej składaniem
+                        (w. 466–492). Jest to oczyszczenie wodą ze źródła, tak naprawdę
+                        jest to bardziej <w>χέρνιψ</w> niż <w>καθαρμός</w>. Edyp ma przystroić uchwyty
+                        krateru do mieszania ofiary płynnej za pomocą owczej wełny (w. 475),
+                        wylać ofiarę płynną przygotowaną bez wina i pomodlić się z twarzą
+                        zwróconą na wschód (w. 477, 484). Obmycia i choai wspomniane są
+                        jeszcze w mowie posłańca po śmierci Edypa (w. 1599).</p>
+                    <p>Ołtarz Posejdona stanowi tu ważny punkt topograficzny (Shuckburgh
+                        1955: xxiv) – nie leży w zasięgu wzroku widzów i nie jest bezpośrednio
+                        związany z akcją, ale to od niego przybiega dwukrotnie na scenę Tezeusz,
+                        do niego powraca, stamtąd zwołuje ludzi do pościgu, a całość akcji dzieje
+                        się podczas składania ofiar Posejdonowi lub w wymuszonych przerwach
+                        między nimi (Markantonatos 2007, 25). Święty okrąg Posejdona musiał
+                        przylegać bezpośrednio do świętego gaju Eumenid, w którym toczy się
+                        akcja sztuki – nie dalej niż na odległość głosu: Τίς ποθ᾽ ἡ <w>βοή</w> (w. 887).</p>
+                    <p>W wersach 54–55 Kolonos nazwane jest „świętym krajem Posejdona”.
+                        W Kolonos Posejdon był czczony jako Poseidon Hippios – ojciec
+                        i opiekun koni (Kokkinou 2014: 60–61; Burkert 1985a: 138 z przypisami
+                        31–32 na s. 402–403). Tukidydes mówi, że w Kolonos jest „sanktuarium
+                        [<w>ἱερόν</w>] Posejdona” (w. 8.67.2: ξυνέκλῃσαν τὴν <w>ἐκκλησίαν</w>
+                        ἐς τὸν Κολωνόν [ἔστι δὲ <w>ἱερὸν</w> Ποσειδῶνος ἔξω πόλεως ἀπέχον
+                        σταδίους μάλιστα δέκα]). Jeszcze Pauzaniasz poświadcza istnienie
+                        tego ołtarza w tym miejscu (w. 1.30.4: καὶ <w>βωμὸς</w> Ποσειδῶνος Ἱππίου
+                        καὶ Ἀθηνᾶς Ἱππίας, ἡρῷον δὲ Πειρίθου καὶ Θησέως Οἰδίποδός τε
+                        καὶ Ἀδράστου). W wersie 889 Tezeusz nazywa Posejdona „władcą Kolonos”
+                        (<w>ἐπιστάτης</w> Κολωνοῦ).</p>
+                    <p>O kulcie Posejdona, wyraźnym już u Homera (np. <title>Il</title>. 11.728,
+                        <title>Od</title>. 3.4–9; 3.177–179), rzadko wzmiankowano w inskrypcjach (Hermary,
+                        Leguilloux 2004: 87–88). Typowym zwierzęciem ofiarnym jest
+                        byk (Kokkinou 2014: 61), bywa też wieprz i baran (zob. w leksykonie
+                        hasło τρίττοια <w>βούαρχος</w>). Zwierzęciem szczególnie związanym z Posejdonem
+                        był koń (Hom. <title>Hymni</title> 22.4; zob. Burkert 1985a: 138) – jego
+                        najczęstszym eponimem jest Hippios (Kokkinou 2014: 61). Z Pauzaniasza
+                        (8.7.2; także Apollod. 1.60) wiemy, że składano mu w ofierze
+                        konie, które musiały być topione w rzece (inne ofiary z koni por. np.:
+                        <title>Il</title>. 21.131–132; X. <title>Cyr</title>. 8.3.24 dla Słońca, Polyb. 23.10.17 dla Ksanthosa,
+                        <title>Il</title>. 24.30–34 – ofiara podczas pogrzebu Patroklosa, por. Stengel 1880:
+                        182–185), częste natomiast były figurki wotywne koni i jeźdźców
+                        znajdowane w jego sanktuariach (Kokkinou 2014: 61 z bibliografią).
+                        Kalendarz ofiarny z Thorikos (<title>SEG</title> 33.147) zaleca na ofiarę dla Posejdona
+                        (w. 19–20) jednego młodego barana oraz jedną ofiarę z dorosłego
+                        zwierzęcia (w. 23–24), i wreszcie barana za 20 drachm (w. 56–57).
+                        Kalendarz z Erchii natomiast (<title>LSCG</title> 18) – dwukrotnie ofiarę z barana.</p>
+                    <p>Markantonatos (2007, 134–135) zasugerował, by w ostatnich scenach
+                        sztuki, bezpośrednio poprzedzających śmierć Edypa, widzieć
+                        ukryty przed oczami widzów rytuał ofiarny związany z kultem
+                        zmarłych, wymieniając modlitwę chóru, procesję żałobną, przygotowania
+                        do pogrzebu, momenty pobożnego milczenia i przygotowania
+                        do ablucji. Jest to wizja atrakcyjna, jednak nadal pozostaje jedynie
+                        hipotezą.</p>
+                </div>
+                <div type="textpart" n="Oedipus Coloneus_887-890">
+                    <head>Oedipus Coloneus 887-890</head>
+                    <p>Słowa Tezeusza wbiegającego na scenę w środku kłótni chóru starców
+                        z Kolonos z Kreonem i jego zbrojnymi o Edypa, którego zamierza
+                        porwać do Teb.</p>
+                    <quote><lb/>Τίς ποθ᾽ ἡ βοή; τί τοὔργον; ἐκ τίνος φόβου ποτὲ
+                        <lb/>βουθυτοῦντά μ᾽ ἀμφὶ βωμὸν ἔσχετ᾽ ἐναλίῳ θεῷ
+                        <lb/>τοῦδ᾽ ἐπιστάτῃ Κολωνοῦ; Λέξαθ᾽, ὡς εἰδῶ τὸ πᾶν,
+                        <lb n="890"/>οὗ χάριν δεῦρ᾽ ᾖξα θᾶσσον ἢ καθ᾽ ἡδονὴν ποδός.</quote>
+                    <quote><lb/>Co to teraz za krzyk? Co się dzieje? Ze strachu przed czym
+                        <lb/>Powstrzymaliście mnie przy ołtarzu, kiedy składałem w ofierze byka
+                        morskiemu bogu,
+                        <lb/>Władcy Kolonos? Mówcie! Żebym zrozumiał dokładnie,
+                        <lb n="890"/>Z jakiego powodu biegłem tu szybko, niechętną nogą.</quote>
+                    <p>888: <w>βουθυτοῦντα</w> – „kiedy składałem w ofierze byka”. Zob. komentarz
+                        do A. Ch. 261 (<w>βούθυτος</w>), także poniżej wers 1495. Czasow�-
+                        nik <w>βουθυτέω</w> – „składam w ofierze wołu” rzadko występuję w litera�-
+                        turze (E. <title>El</title>. 785, Ar. <title>Pl</title>. 819) i zaledwie kilka razy na inskrypcjach (np.
+                        <title>IG</title> II, 594, 5: τὰς θυσίας <w>ἐβουθύτησεν</w>). Jak wyraźnie widać z passusu
+                        w Ar. <title>Pl</title>. 819 (zob. komentarz Bednarka 2017: 228–229 do tego miejsca),
+                        mimo oczywistej etymologii mógł on oznaczać także „prestiżową
+                        i kosztowną” ofiarę z innego zwierzęcia.</p>
+                    <p>888: ἀμφὶ <w>βωμὸν</w> […] <w>ἐναλίῳ</w> θεῷ – „przy ołtarzu […] dla morskiego
+                        boga”. Ołtarz Posejdona musiał znajdować się w niedalekiej odległości
+                        od gaju Eumenid – Tezeusz usłyszał krzyki podczas składania
+                        ofiary przy tym ołtarzu.</p>
+                </div>
+                
+                <div type="textpart" n="Oedipus Coloneus_897-901">
+                    <head>Oedipus Coloneus 897-901</head>
+                    <p>Kontynuacja poprzedniej sceny. Tezeusz, który sam odszedł od
+                        ofiar i przybiegł sprawdzić, co się dzieje, teraz wzywa wszystkich innych,
+                        którzy uczestniczyli w ofierze dla Posejdona, by puścili się w pościg
+                        za porwanymi przez Tebańczyków córkami Edypa.</p>
+                    <quote><lb/>Οὔκουν τις ὡς τάχιστα προσπόλων μολὼν
+                        <lb/>πρὸς τούσδε βωμοὺς πάντ᾽ ἀναγκάσει λεὼν
+                        <lb n="900"/>ἄνιππον ἱππότην τε θυμάτων ἄπο
+                        <lb/>σπεύδειν ἀπὸ ῥυτῆρος […].</quote>
+                    <quote><lb/>Więc niech jak najszybciej ktoś ze sług pobiegnie
+                        <lb/>Do tych ołtarzy i wszystkim ludziom nakaże,
+                        <lb n="900"/>Pieszym i konnym, od ofiar
+                        <lb/>Spieszyć, nie ściągając lejców […].</quote>
+                    <p>898: πρὸς <w>τούσδε</w> <w>βωμούς</w> – „do tych ołtarzy”. Komentarz Shuckburgha
+                        (1955: 175) każe widzieć tu poetycką formę pluralną na określenie
+                        jednego ołtarza wspomnianego wyżej w wersie 888. Jednak według
+                        wersów 1070–1071 (tak samo zresztą u Pauzaniasza, zob. wstęp
+                        powyżej) w tym miejscu były dwa ołtarze: Posejdona Hippiosa i Ateny
+                        Hippii. Ponieważ w tym passusie Tezeusz przyzywa ludzi zgromadzonych
+                        w miejscu składania ofiar (Kamerbeek 1984: 132), a nie tylko
+                        odwołuje się do ofiary, którą sam składał, jest oczywiste, że pluralis
+                        odnosi się do tych dwóch ołtarzy.</p>
+                    <p>900: <w>θυμάτων</w> ἀπό – „od ofiar”. <w>Θύματα</w> – tutaj tyle, co <w>θυσίαι</w>.</p>
+                </div>
+                
+                <div type="textpart" n="Oedipus Coloneus_1156-1159">
+                    <head>Oedipus Coloneus 1156-1159</head>
+                    <p>Kwestia Tezeusza, który po powrocie z pościgu za córkami Edypa
+                        informuje go, że przy ołtarzu Posejdona, któremu składał wcześniej
+                        ofiary (w. 887–890 i tutaj w. 1159) siedzi błagalnik, który „jakoś”
+                        (πως – Kamerbeek 1984: 163 sugeruje, że przez owo „jakoś” należy
+                        rozumieć „nagle”, ponieważ nikt się tam Polynejkesa nie spodziewał)
+                        przypadł do ołtarza. Kolejny raz ołtarz Posejdona staje się ważnym
+                        topograficznym punktem odniesienia, ponownie otwierającym nową
+                        sekcję akcji. Ten sam ołtarz wspomina też później kolejny raz, choć nie
+                        wprost, Polynejkes w swej mowie do Edypa (w. 1285–1286).</p>
+                    <quote><lb/>Φασίν τιν᾽ ἡμῖν ἄνδρα, σοὶ μὲν ἔμπολιν
+                        <lb/>οὐκ ὄντα, συγγενῆ δέ, προσπεσόντα πως
+                        <lb/>βωμῷ καθῆσθαι τῷ Ποσειδῶνος, παρ᾽ ᾧ
+                        <lb/>θύων ἔκυρον, ἡνίχ᾽ ὡρμώμην ἐγώ.</quote>
+                    <quote><lb/>Mówią, że jakiś nam człowiek, chociaż nie jest
+                        <lb/>Z twojego miasta, ale twój krewny, przypadł jakoś
+                        <lb/>Do ołtarza Posejdona i przy nim siedzi, przy którym
+                        <lb/>Akurat składałem ofiary, kiedy ruszyłem [w pościg].</quote>
+                </div>
+                
+                <div type="textpart" n="Oedipus Coloneus_1407-1410">
+                    <head>Oedipus Coloneus 1407-1410</head>
+                    <p>Słowa Polynejkesa do sióstr, które błaga, by mimo ojcowskiej klątwy
+                        (w. 1354–1396), pochowały jego ciało i dopełniły pogrzebowych
+                        rytuałów.</p>
+                    <quote><lb/>ἐὰν αἱ τοῦδ᾽ ἀραὶ
+                        <lb/>πατρὸς τελῶνται καί τις ὑμὶν ἐς δόμους
+                        <lb/>νόστος γένηται, μή μ᾽ ἀτιμάσητέ γε,
+                        <lb n="1410"/>ἀλλ᾽ ἐν τάφοισι θέσθε κἀν κτερίσμασιν.</quote>
+                    <quote><lb/>Jeśli te klątwy
+                        <lb/>Ojca się spełnią i któraś z was wróci
+                        <lb/>Do domu, nie odmawiajcie mi czci,
+                        <lb n="1410"/>Ale pogrzebcie mnie w grobie i złóżcie ofiary nagrobne.</quote>
+                    <p>1410: <w>κτερίσμασιν</w> – <w>κτερίσματα</w>: „ofiary, dary nagrobne”. Słowo
+                        w tej formie (tylko pluralis) pojawia się wyłącznie u Sofoklesa (<title>El</title>. 434
+                        i 931 oraz tutaj) i Eurypidesa (<title>Supp</title>. 309, <title>Tr</title>. 1249, <title>Hel</title>. 1391). W przywołanych
+                        passusach z <title>Elektry</title> jest oczywiste, że chodzi o kwiaty i libacje.
+                        W innych kontekstach nie jest to oczywiste i z tego powodu może
+                        oznaczać wszelkie dary dla zmarłych, także krwawe. Nie było nawet
+                        komentowane przez żadnych leksykografów. Pojawia się zawsze
+                        w kontekście ofiar czy darów nagrobnych i odpowiada Homerowemu
+                        <w>κτέρεα</w> – ogólnie „dary dla zmarłych” lub nawet „obrzędy pogrzebowe”
+                        (np. <title>Od</title>. 1.291). Nie można dowieść na podstawie żadnego z zachowanych
+                        wystąpień, czy obrzędy te mogły obejmować także ofiary
+                        krwawe, nie można też tego jednak wykluczyć.</p>
+                </div>
+                
+                <div type="textpart" n="Oedipus Coloneus_1491-1495">
+                    <head>Oedipus Coloneus 1491-1495</head>
+                    <p>Antystrofa chóru z ostatniego epeisodionu, w której zwraca się on
+                        do Tezeusza, przywołując go, by przybył wobec nadchodzącej i zapowiadanej
+                        znakami (grzmoty i błyskawice) śmierci Edypa. Po raz
+                        wtóry Tezeusz jest wzywany podczas składania ofiary dla Posejdona
+                        (w. 887–890).</p>
+                    <quote><lb/>Ἰὼ <del>ἰώ</del>, παῖ, βᾶθι, βᾶθ᾽,
+                        <lb/>εἴτ᾽ ἄκρον ἐπὶ γύαλον
+                        <lb/>ἐναλίῳ Ποσειδαονίῳ θεῷ
+                        <lb n="1495"/>βούθυτον ἑστίαν ἁγίζων, ἱκοῦ.</quote>
+                    <quote><lb/>O! Przyjdź, synu, przyjdź!
+                        <lb/>Jeśli w najdalszym zakątku polany
+                        <lb/>Dla morskiego boga Posejdona
+                        <lb n="1495"/>Poświęcasz w ofierze byka na ołtarzu, przybądź!</quote>
+                    <p>1495: <w>βούθυτον</w> <w>ἑστίαν</w> <w>ἁγίζων</w> – „poświęcasz w ofierze byka na
+                        ołtarzu”, dosłownie „poświęcasz palenisko wołoofiarne” (podobnie,
+                        jako przydawka do ἔσχαρα, zob. Ar. <title>Av</title>. 1232 z komentarzem Bednarka
+                        2017: 66–67 wraz z moim komentarzem do A. <title>Ch</title>. 261). W wersie 94
+                        fragmentarycznego Erechteusa Eurypidesa znajduje się zwrot ἐν φο-
+                        ναῖσι <w>βουθύτοις</w> (zob. Collard, Cropp, Lee 1995: 174 i 193). <w>Ἑστία</w> –
+                        palenisko ołtarza tutaj metonimicznie zamiast <w>βωμός</w>. <w>Ἁγίζω</w> w okresie
+                        klasycznym oznacza „poświęcić”, czyli „oddać, złożyć, w domenie
+                        tego, co święte” (Ekroth 2002: 115: „to place in the domain of the sacred”,
+                        za: Casabona 1966: 198 i Rudhardt 1992, 235–236). W niniejszym
+                        passusie dawałoby to sens „poświęcasz – czyli składasz – woły na ołtarzu”,
+                        jednak – jak sugeruje Gunnel Ekroth (2002: 115) – może też
+                        oznaczać „spalić zupełnie” (za <title>Etym. Magn</title>., s.v. tyle, co <w>ἐναγίζειν</w> i <w>κα-
+                        τακαίειν</w>), co w tym miejscu miałoby uzasadnienie.
+                        1495
+                        1495</p>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

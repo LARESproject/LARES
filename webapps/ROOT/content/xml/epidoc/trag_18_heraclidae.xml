@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Heraclidae (Ἡρακλεῖδαι, Gli Eraclidi)</title>
+                <title xml:lang="en">Heraclidae (Ἡρακλεῖδαι, Children of Heracles)</title>
+                <title xml:lang="pl">Heraclidae (Ἡρακλεῖδαι, Dzieci Heraklesa)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">trag_18_heraclidae</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Heraclidae (Ἡρακλεῖδαι, Dzieci Heraklesa)</title>, in Krzysztof Bielawski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Tragedia attycka</title>, Warszawa 2017, pp. 213-231</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaia Fanelli">encoded document in XML</change>
+                <change when="2017" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body><!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Wiele wskazuje na to, że tekst <title>Heraklidów</title> przekazany przez tradycję
+                        rękopiśmienną jest znacząco uszczuplony w stosunku do postaci pierwotnej,
+                        za czym przemawiają zarówno braki i niekonsekwencje w treści
+                        sztuki (zwłaszcza w odniesieniu do śmierci Makarii), jak i świadectwa
+                        zewnętrzne (przynajmniej pięciu fragmentów zachowanych
+                        u Stobajosa jako pochodzących z tej sztuki nie ma w tekście głównym
+                        – fr. 851–854 i 949).</p>
+                    <p>Z jednej strony dziełu wytykano brak wyraźnie zarysowanych charakterów,
+                        a nawet brak głównego bohatera i uznawano je za zbiór „obrazów
+                        dramatycznych” (Łanowski 2005: 199) czy etiud o chropowatej,
+                        rwanej strukturze. Z drugiej zaś tragedia jest bogata w Eurypidesowe
+                        sentencje, sofistyczne agony i podejmuje znany z innych dzieł poety
+                        temat dobrowolnej śmierci za ojczyznę.</p>
+                    <p>Jej treścią jest los dzieci Heraklesa po śmierci ojca, prześladowanych
+                        przez Eurysteusza. Chronią się one w Attyce, w Maratonie, jako
+                        błagalnicy – wielokrotnie i do znużenia w tekście przywoływany jest
+                        ołtarz, przy którym dzieje się większość akcji. Udzielenie azylu błagalnikom
+                        wywołuje konflikt wojsk attyckich z armią Eurysteusza, zakończony
+                        zwycięstwem Tezeidów. Ceną za zwycięstwo staje się jednak
+                        – wyrokiem wieszczka – śmierć córki Heraklesa, Makarii.</p>
+                    <p>Datowanie sztuki jest przedmiotem sporu. Wilamowitz-Moellendorff
+                        określił ramy czasowe, w których sztuka mogła być wystawiona,
+                        na lata między 430 a 427 rokiem i do dzisiaj dyskusja naukowa rzadko
+                        wychodzi poza te daty (zob. Wilkins 1993: xxxiv–xxxv z odniesieniem
+                        do nielicznych propozycji datowania znacznie późniejszego).</p>
+                    <p>Tematyka ofiarna jest w sztuce reprezentowana głównie za sprawą
+                        problemu ofiary ludzkiej wymuszanej przez bogów wyrocznią jako
+                        warunku koniecznego zapewniającego zwycięstwo w bitwie. Ważną
+                        rolę odgrywa ołtarz – bomos – jako punkt centralny większości akcji.</p>
+                    <p>W pierwszych scenach sztuki, do wersu 380, czyli w prologu,
+                        parodosie, komosie i pierwszym stasimonie, jedynym terminem języka
+                        ofiarnego jest ołtarz, <w>βωμός</w>, oraz różne pochodzące od niego
+                        derywaty przymiotnikowe i czasownikowe (<w>βώμιος</w>, <w>προβώμιος</w>,
+                        <w>ἐπιβωμιοστατέω</w> etc.). Pojawiają się one tam trzynaście razy (dwa
+                        razy jest to <w>ἐσχάρα</w> – w w. 121, 127) albo jako centralne miejsce akcji na
+                        scenie, jako azyl błagalników – dzieci Heraklesa, albo jako punkt odniesienia
+                        w dyskusji nad świętym prawem hikezji. Poniżej uwzględniono
+                        wszystkie te wystąpienia w formie katalogu z podstawowym
+                        komentarzem.</p>
+                    <p>Tekst grecki według wydania: Wilkins (1993).</p>
+                </div>
+                <div type="textpart" n="Heraclidae_33">
+                    <head>Heraclidae 33</head>
+                    <p>Pierwsze wskazanie na centralne miejsce akcji – ołtarz na skene –
+                        przy którym siedzą dzieci Heraklesa jako błagalnicy.</p>
+                    <quote><lb/>ἱκέται καθεζόμεσθα βώμιοι θεῶν.</quote>
+                    <quote><lb/>Siedzimy jako błagalnicy bogów przy ołtarzu.</quote>
+                    <p><w>βώμιοι</w> – przymiotnik βώμιος występuje w epoce klasycznej wyłącznie
+                        w poetyckich tekstach tragicznych (np. u Sofoklesa – <title>Ant</title>. 1301,
+                        <title>OT</title> 183 i Eurypidesa – <title>Ph</title>. 274 i 1740, <title>Supp</title>. 93) i ma znaczenie lokatywne:
+                        „ołtarzowy”, „związany z ołtarzem”, to znaczy „znajdujący
+                        się przy ołtarzu”. Genetivus <w>θεῶν</w> odnosi się do <w>ἱκέται</w>, nie do <w>βώμιοι</w>.
+                        Błagalnicy są błagalnikami bogów, którzy znajdują się przy ołtarzu
+                        (por. Allan 2001: 135). Jest to ołtarz Zeusa, a nie „bogów”, jak wprost
+                        mówi to wers 121 (poniżej). Taka sama fraza – <w>ἱκέται</w> <w>βώμιοι</w> występuje
+                        w wersie 196.</p>
+                </div>
+                
+                <div type="textpart" n="Heraclidae_43-44">
+                    <head>Heraclidae 43-44</head>
+                    <quote><lb/>νέας γὰρ παρθένους αἰδούμεθα
+                        <lb/>ὄχλῳ πελάζειν κἀπιβωμιοστατεῖν.</quote>
+                    <quote><lb/>Bo wstyd nam, że młode dziewczyny
+                        <lb/>Ukazują się tłumowi i stają przy ołtarzu jako błagalnice.</quote>
+                    <p><w>κἀπιβωμιοστατεῖν</w> – złożony czasownik <w>ἐπιβωμιοστατέω</w> (<w>ἐπί</w> +
+                        <w>βωμός</w>/<w>βώμιος</w> + ἵστημι – „stawać przy ołtarzu [jako błagalnik]”, zob.
+                        Wilkins 1993: 55) jest Eurypidesowym hapax legomenon.</p>
+                </div>
+                
+                <div type="textpart" n="Heraclidae_61-62">
+                    <head>Heraclidae 61-62</head>
+                    <p>Słowa Jolaosa w odpowiedzi na wezwanie herolda, który domaga
+                        się od niego i dzieci Heraklesa powrotu do Argos. Jolaos odmawia,
+                        twierdząc, że znalazł obronę przy ołtarzu Zeusa i w Attyce.</p>
+                    <quote><lb/>οὐ δῆτ᾽, ἐπεί μοι βωμὸς ἀρκέσει θεοῦ,
+                        <lb/>ἐλευθέρα τε γαῖ᾽ ἐν ᾗ βεβήκαμεν.</quote>
+                    <quote><lb/>Nie! Ponieważ ołtarz boga mnie umacnia
+                        <lb/>i wolna ziemia, do której przybyliśmy.</quote>
+                </div>
+                
+                <div type="textpart" n="Heraclidae_73-74">
+                    <head>Heraclidae 73-74</head>
+                    <p>Pierwsze słowa parodosu. Chór odnosi się do ostatnich słów Jolaosa
+                        w prologu, który krzykiem przyzywa pomocy Ateńczyków.</p>
+                    <quote><lb/>τίς ἡ βοὴ βωμοῦ πέλας
+                        <lb/>ἕστηκε; ποίαν συμφορὰν δείξει τάχα;</quote>
+                    <quote><lb/>Kto przy ołtarzu krzyk
+                        <lb/>Podnosi? Jakie nieszczęście nam zaraz ukaże?</quote>
+                </div>
+                
+                <div type="textpart" n="Heraclidae_78-79">
+                    <head>Heraclidae 78-79</head>
+                    <p>Jolaos wyjaśnia chórowi swoje zachowanie, wskazując na herolda
+                        (<w>ὅδε</w>), któremu zarzuca pogwałcenie czci bogów przez odrywanie go
+                        przemocą od ołtarza.</p>
+                    <quote><lb/>ὅδ᾽, ὦ ξένοι, με σοὺς ἀτιμάζων θεοὺς
+                        <lb/>ἕλκει βιαίως Ζηνὸς ἐκ προβωμίων.</quote>
+                    <quote><lb/>To on, o przyjaciele, nie szanując waszych bogów,
+                        <lb/>Siłą ściąga mnie ze stopni ołtarza Zeusa.</quote>
+                    <p><w>προβώμιος</w> – przymiotnik oznaczający: to znajduje się przy/przed/
+                        pod ołtarzem. Występuje tylko w poezji (poza Eurypidesem jeszcze
+                        tylko raz u Sofoklesa, fr. 817, 1, dwa razy we fragmentach Pindara – 6a
+                        i 521a), oznaczając albo przestrzeń przy ołtarzu – jak tutaj, albo też to,
+                        co dzieje się przy ołtarzu, stąd w Ionie 376 <w>προβώμια</w> są σφαγαί μή-
+                        λων – ofiary spełniane przy ołtarzu (Wilkins 1993: 63).</p>
+                </div>
+                
+                <div type="textpart" n="Heraclidae_120-122">
+                    <head>Heraclidae 120-122</head>
+                    <p>Pierwsze słowa z pierwszego epeisodionu. Na scenę wchodzi Demofont,
+                        syn Tezeusza i Fedry, władca Aten i zwraca się do przodownika
+                        chóru, który również znajduje się przy ołtarzu – w tym wypadku
+                        występuje tu <w>ἔσχαρα</w> jako synonim dla βωμός (zob. Högemann, Prayon
+                        1996) – wskazany cztery wersy poniżej w odpowiedzi przodownika
+                        chóru.</p>
+                    <quote><lb n="120"/>ἐπείπερ ἔφθης πρέσβυς ὢν νεωτέρους
+                        <lb/>βοηδρομήσας τήνδ᾽ ἐπ᾽ ἐσχάραν Διός,
+                        <lb/>λέξον, τίς ὄχλον τόνδ᾽ ἀθροίζεται τύχη;</quote>
+                    <quote><lb n="120"/>Jeśliś – chociaż jesteś starszy – wyprzedził młodszych
+                        <lb/>Z krzykiem dobiegłszy do tego ołtarza,
+                        <lb/>Powiedz, jakie zrządzenie zgromadziło tutaj ten tłum?</quote>
+                </div>
+                
+                <div type="textpart" n="Heraclidae_123-125">
+                    <head>Heraclidae 123-125</head>
+                    <p>Chór odpowiada Demofontowi, przedstawiając Jolaosa i dzieci
+                        Heraklesa, ponownie wskazując na ołtarz jako miejsce centralne
+                        akcji.</p>
+                    <quote><lb/>ἱκέται κάθηνται παῖδες οἵδ᾽ Ἡρακλέους
+                       <lb/>βωμὸν καταστέψαντες, ὡς ὁρᾷς, ἄναξ,
+                        <lb n="125"></lb>πατρός τε πιστὸς -'Ιόλεως παραστάτης.</quote>
+                    <quote><lb/>Usiadły tu jako błagalnicy dzieci Heraklesa,
+                        <lb/>Ozdobiły ołtarz, jak widzisz, panie,
+                        <lb/>I wierny towarzysz ich ojca, Jolaos.</quote>
+                </div>
+                
+                <div type="textpart" n="Heraclidae_127-128">
+                    <head>Heraclidae 127-128</head>
+                    <p>Na pytanie Demofonta o powód krzyków błagalników, chór udziela
+                        odpowiedzi, wskazując na herolda, który nadal usiłuje siłą odciągnąć
+                        dzieci od ołtarza. Tutaj ponownie <w>ἐσχάρα</w> zamiast <w>βωμός</w>.</p>
+                    <quote><lb/>βίᾳ νιν οὗτος τῆσδ᾽ ἀπ᾽ ἐσχάρας ἄγειν
+                        <lb/>ζητῶν βοὴν ἔστησε.</quote>
+                    <quote><lb/>Siłą on chcąc ich od ołtarza zabrać,
+                        <lb/>Wzniecił krzyk.</quote>
+                </div>
+                
+                <div type="textpart" n="Heraclidae_144-146">
+                    <head>Heraclidae 144-146</head>
+                    <p>Passus z butnej przemowy herolda z Argos, który próbuje groźbami
+                        przekonać Maratończyków do wydania błagalników.</p>
+                    <p>Przekłady i komentarze sugerują, że <w>ἀφιγμένοι</w> odnosi się do błagalników,
+                        którzy mieliby szukać pomocy przy wielu innych ołtarzach
+                        u innych ludów, i zawsze Argiwom udawało się przekonać je do wydania
+                        błagalników (Łanowski 2005: 211: „u wielu innych byli już ołtarzy”;
+                        tak samo komentarz Wilkinsa 1993: 70). Wydaje się jednak, że
+                        jest to nieuzasadnione. Nic nie wiemy o takich innych interwencjach
+                        w sprawie dzieci Heraklesa, które byłyby skuteczne. <w>Ἀφιγμένοι</w> –
+                        jako coniunctum koncesywne – odnosi się raczej do samych Argiwów,
+                        którzy dokądkolwiek i w jakiejkolwiek sprawie przybyli, w pyszałkowatej
+                        interpretacji herolda zawsze dostawali bez oporu to, czego
+                        chcieli. Tutaj zamiast <w>βωμός</w> mamy z kolei <w>ἑστία</w> – „palenisko ołtarza”
+                        jako pars pro toto.</p>
+                    <quote><lb/>πολλῶν δὲ κἄλλων ἑστίας ἀφιγμένοι
+                        <lb n="145"/>ἐν τοῖσιν αὐτοῖς τοισίδ᾽ ἕσταμεν λόγοις,
+                        <lb/>κοὐδεὶς ἐτόλμησ᾽ ἴδια προσθέσθαι κακά.</quote>
+                    <quote><lb/>Chociaż byliśmy u wielu już innych ołtarzy,
+                        <lb n="145"/>Trzymaliśmy się tych samych argumentów
+                        <lb/>I nikt nie odważył się ściągnąć na siebie takich samych nieszczęść.</quote>
+                </div>
+                
+                <div type="textpart" n="Heraclidae_196">
+                    <head>Heraclidae 196</head>
+                    <p>Słowa Jolaosa do herolda, w których przekonuje, że być może z innych
+                        miast Tesalii lub Peloponezu udałoby się przepędzić od ołtarza
+                        dzieci Heraklesa wraz z opiekunem, ale nie może się to stać w Attyce
+                        (na temat funkcji imperfectum w tej frazie zob. Allan 2001: 148 z odniesieniem
+                        do opracowań gramatycznych).</p>
+                    <quote><lb/>ἤλαυνες ἱκέτας βωμίους καθημένους.</quote>
+                    <quote><lb/>Przepędziłbyś błagalników, którzy siedli przy ołtarzu.</quote>
+                </div>
+                
+                <div type="textpart" n="Heraclidae_">
+                    <head>Heraclidae </head>
+                    <p>Demofont w krótkiej (w. 236–249) patetycznej przemowie uzasadnia
+                        swoją decyzję o wzięciu w obronę błagalników, trzykrotnie
+                        wskazując na ołtarz, jako miejsce azylu, którego nikt – zwłaszcza cudzoziemiec
+                        – nie może pogwałcić. Tutaj βώμιος występuje w funkcji
+                        urzeczownikowionej – „ty, jako ten, który siedzi przy ołtarzu jako
+                        błagalnik”.</p>
+                    <quote><lb/>τὸ μὲν μέγιστον Ζεὺς ἐφ᾽ οὗ σὺ βώμιος
+                        <lb/>θακεῖς νεοσσῶν τήνδ᾽ ἔχων πανήγυριν·</quote>
+                    <quote><lb/>Najważniejsze – Zeus, przy którego ołtarzu ty
+                        <lb/>Siedzisz, mając ze sobą tę gromadkę piskląt.</quote>
+                </div>
+                
+                <div type="textpart" n="Heraclidae_243-245">
+                    <head>Heraclidae 243-245</head>
+                    <p>Ciąg dalszy argumentacji Demofonta – szacunek dla błagalników
+                        jest gwarancją i znakiem wolności, a zgoda na porwanie ich od ołtarza
+                        – znakiem hańby zasługującej na śmierć. Porwanie błagalników
+                        jest tutaj przedstawione jako ograbienie i zbezczeszczenie samego
+                        ołtarza.</p>
+                    <quote><lb/>εἰ γὰρ παρήσω τόνδε συλᾶσθαι βίᾳ
+                        <lb/>ξένου πρὸς ἀνδρὸς βωμόν, οὐκ ἐλευθέραν
+                        <lb n="245"/>οἰκεῖν δοκήσω γαῖαν.</quote>
+                    <quote><lb/>Bo jeśli pozwolę, by ten ołtarz siłą
+                        <lb/>Został przez obcego ograbiony, nikt już
+                        <lb/>Nie uzna, że mieszkam w wolnej ziemi.</quote>
+                </div>
+                
+                <div type="textpart" n="Heraclidae_248-249">
+                    <head>Heraclidae 248-249</head>
+                    <p>Demofont zwraca się do Jolaosa z ostatecznym zapewnieniem
+                        o tym, że nikt siłą go od ołtarza nie porwie.</p>
+                    <quote><lb/>καὶ νῦν μὴ τρέσῃς ὅπως σέ τις
+                        <lb/>σὺν παισὶ βωμοῦ τοῦδ᾽ ἀποσπάσει βίᾳ.</quote>
+                    <quote><lb/>I teraz już się nie bój, nikt cię
+                        <lb/>Razem z dziećmi gwałtem od tego ołtarza nie porwie.</quote>
+                </div>
+                
+                <div type="textpart" n="Heraclidae_340">
+                    <head>Heraclidae 340</head>
+                    <p>Pierwsza zapowiedź składania ofiar, co stanie się kluczowym tematem
+                        drugiej części dramatu. Demofont odpowiada tutaj na przestrogę
+                        chóru, który doradza dobrze wszystko rozważyć, zanim wojska
+                        argiwskie z Eurysteuszem staną do walki. Podjąwszy decyzję o niewydawaniu
+                        dzieci Heraklesa i Jolaosa, Demofont postanawia zalecić składanie
+                        ofiar i zasięgnąć rady wróżbitów przed walką z Eurysteuszem.
+                        Należy rozróżnić tutaj badanie ofiar przed podjęciem decyzji o wyruszeniu
+                        na bitwę, jeszcze w mieście, nie na polu walki, od typowej
+                        ofiary przed bitwą – σφάγια – spełnianej już na polu bitwy, tuż przed
+                        atakiem (Pritchett 1971: 109–115). W <title>Heraklidach</title> mamy do czynienia
+                        z obydwiema tymi ofiarami (zob. 399–401 i 819–822).</p>
+                    <quote><lb/>μάντεις δ᾽ ἀθροίσας θύσομαι.</quote>
+                    <quote><lb/>Zgromadzę wróżbitów i polecę składać ofiary.</quote>
+                    <p><w>θύσομαι</w> – medialna strona czasownika <w>θύω</w> wskazuje na to, że
+                        Demofont nie zamierza sam składać ofiar, ale jedynie zaleci ich spełnienie
+                        innym (zob. Smyth § 1725), ewentualnie, że celem tej ofiary jest
+                        pozyskanie znaków (tak LSJ, s.v. II), co potwierdza w tym wypadku
+                        kontekst i fakt, że to wieszczkom polecane jest składanie ofiar.</p>
+                </div>
+                
+                <div type="textpart" n="Heraclidae_340-345">
+                    <head>Heraclidae 340-345</head>
+                    <p>W następnych słowach Demofont poleca Jolaosowi opuścić ołtarz
+                        i wejść do domu, uznając, że już jest bezpieczny i nic się złego nie stanie.
+                        Jolaos jednak odmawia, deklarując, że pozostanie tam aż do szczęśliwego
+                        końca bitwy. Ponownie widoczna jest funkcjonalna tożsamość
+                        dla bomos i eschara – Demofont prosi o opuszczenie ołtarza – <w>ἐσχάραν</w>
+                        <w>λιπών</w>, a Jolaos odpowiada: οὐκ ἂν <w>λίποιμι</w> <w>βωμόν</w>.</p>
+                    <quote><lb/><emph>ΔΕΜΟΦΩΝ</emph>:
+                        (…)
+                        <lb n="340"/>σὺ δ᾽ ἐς δόμους
+                        <lb/>σὺν παισὶ χώρει, Ζηνὸς ἐσχάραν λιπών.
+                        <lb/>εἰσὶν γὰρ οἵ σου, κἂν ἐγὼ θυραῖος ὦ,
+                        <lb/>μέριμναν ἕξουσ᾽. ἀλλ᾽ ἴθ᾽ ἐς δόμους, γέρον.
+                        <lb/><emph>ΙΟΛΑΟΣ</emph>:
+                        <lb/>οὐκ ἂν λίποιμι βωμόν· ἑζώμεσθα δὴ
+                        <lb n="345"/>ἱκέται μένοντες ἐνθάδ' εὖ πρᾶξαι πόλιν·</quote>
+                    <quote><lb/><emph>DEMOFONT</emph>:
+                        <lb/>(…)
+                        <lb n="340"/>Ty do domu
+                        <lb/>Razem z dziećmi idź, opuściwszy ołtarz Zeusa.
+                        <lb/>Razem Bo są tu ci, którzy, nawet jeśli mnie nie będzie,
+                        <lb/>Zatroszczą się o ciebie. Idź do domu, starcze.
+                        <lb/><emph>JOLAOS</emph>:
+                        <lb/>Nie mogę opuścić ołtarza. Usiądźmy
+                        <lb n="345"/>Jako błagalnicy oczekując tutaj, by miastu dobrze się powiodło.</quote>
+                    <p></p>
+                </div>
+                
+                <div type="textpart" n="Heraclidae_398-409">
+                    <head>Heraclidae 398-409</head>
+                    <p>Demofont referuje w tym passusie Jolaosowi wyniki wróżbiarskich
+                        badań, jakie zlecił wcześniej. Informuje go o wszystkich przygotowaniach
+                        poczynionych przed bitwą z Argiwami, najpierw o gotowości militarnej
+                        miasta do starcia z wrogiem. Dalej mówi o dwóch typach ofiar,
+                        o jakie zadbał – jedne właśnie spełniają się w mieście pod opieką wróżbiarzy
+                        (<w>θυσίαι</w>), inne czekają gotowe do złożenia (<w>σφάγια</w>) tuż przed
+                        samą bitwą. Wreszcie opowiada szeroko o badaniach różnych wyroczni,
+                        które zgodnie domagają się ofiary z dziewicy. Jakkolwiek tekst nie
+                        precyzuje, kim by miała ona być – jest nazwana „jakąkolwiek”, byle
+                        ze szlachetnie urodzonego ojca (ἥτις ἐστὶ <w>πατρὸς</w> <w>εὐγενοῦς</w>) – to Demofont
+                        w następnych słowach dochodzi do wniosku, że musi chodzić
+                        o jego córkę i odmawia jej zabicia.</p>
+                    <quote><lb/>καὶ τἀμὰ μέντοι πάντ᾽ ἄραρ᾽ ἤδη καλῶς·
+                        <lb/>πόλις τ᾽ ἐν ὅπλοις, σφάγιά θ᾽ ἡτοιμασμένα
+                        <lb n="400"/>ἕστηκεν οἷς χρὴ ταῦτα τέμνεσθαι θεῶν,
+                        <lb/>τροπαῖά τ᾽ ἐχθρῶν καὶ πόλει σωτήρια,
+                        <lb/>θυηπολεῖται δ᾽ ἄστυ μάντεων ὕπο.
+                        <lb/>χρησμῶν δ᾽ ἀοιδοὺς πάντας εἰς ἓν ἁλίσας
+                        <lb/>ἤλεγξα καὶ βέβηλα καὶ κεκρυμμένα
+                        <lb n="405"></lb>λόγια παλαιά, τῇδε γῇ σωτήρια.
+                        <lb/>καὶ τῶν μὲν ἄλλων διάφορ᾽ ἐστὶ θεσφάτοις
+                        <lb/>πόλλ᾽· ἓν δὲ πᾶσι γνῶμα ταὐτὸν ἐμπρέπει·
+                        <lb/>σφάξαι κελεύουσίν με παρθένον Κόρῃ
+                        <lb/>Δήμητρος, ἥτις ἐστὶ πατρὸς εὐγενοῦς.</quote>
+                    <quote><lb/>Wszystko co do mnie należy dobrze już przygotowałem:
+                        <lb/>I miasto pod bronią, i ofiary przed bitwą gotowe
+                        <lb n="400"/>Stoją dla tych z bogów, dla których trzeba je zarżnąć,
+                        <lb/>I ofiarami za pokonanie wrogów, i za ocalenie państwa
+                        <lb/>Wieszczkowie wypełniają miasto.
+                        <lb/>Zebrawszy razem wszystkich pieśniarzy wróżb
+                        <lb/>Wypytałem ich i o jawne, i o skryte
+                        <lb n="405"/>Dawne wyrocznie, zbawcze dla tej ziemi.
+                        <lb/>I w boskich słowach wiele jest różnic między nimi,
+                        <lb/>Ale we wszystkich jedną i tę samą opinię wyraźnie widać:
+                        <lb/>Domagają się, bym zabił na ofiarę dziewicę dla Kory
+                        <lb/>Córki Demeter, taką, która pochodzi ze szlachetnego ojca.</quote>
+                    <p>399–400: <w>σφάγιά</w> θ᾽ <w>ἡτοιμασμένα</w> / <w>ἕστηκεν</w> – „ofiary przed bitwą
+                        gotowe stoją”. Typowa ofiara przed bitwą – σφάγια – nie wymagała
+                        ani ołtarza, ani ognia, mięso z takiej ofiary nie mogło być zjadane (Stengel
+                        1890; Jameson 1991: 197–227). Ofiarę tego typu spełniał mantis, a nie
+                        urzędujący kapłan (Flower 2008: 159–165). Dla zbadania znaków nie
+                        rozcinano zwierzęcia w celu inspekcji wnętrzności, znaki odczytywano
+                        ze sposobu, w jaki z rany wypływała krew oraz sposobu, w jaki zabite
+                        zwierzę padało na ziemię (Ekroth 2002: 252). W Heraklidach ofiara została
+                        spełniona przed samym atakiem, kiedy zawiódł plan rozstrzygnięcia
+                        sporu w pojedynku dowódców (w. 819–822, zob. poniżej).</p>
+                    <p>400: οἷς χρὴ ταῦτα <w>τέμνεσθαι</w> θεῶν – „dla tych z bogów, dla których
+                        trzeba je zarżnąć”. Czasownik <w>τέμνειν</w> znaczy „ciąć”. <w>Σφάγια</w>
+                        <w>τέμνειν</w> (passivum w komentowanym zdaniu wynika z konieczności
+                        składniowej i nie wywołuje żadnej modyfikacji sensu) to „zabić przez
+                        podcięcie gardła ofiary typu sphagia”. Jean Casabona uznaje ten zwrot
+                        za wyjątkowo rzadki (1966: 399–409 i 211) – faktycznie występuje jeszcze
+                        tylko raz u Eurypidesa Supp. 1196: <w>τέμνειν</w> <w>σφάγια</w> χρή. I rzeczywiście,
+                        jest to raczej abundantny poetyzm odpowiadający – co też notuje
+                        Casabona – znaczeniowo czasownikowi <w>σφαγίζεσθαι</w>. Σφάγιον
+                        to jednoznaczny, techniczny termin języka ofiarnego oznaczający
+                        szczególny typ ofiary krwawej, jednak przez swój związek morfologiczny
+                        z czasownikiem σφάζειν de facto oznacza „to, co ma być zarżnięte
+                        na ofiarę”, „to, czego należy pozbawić życia przez podcięcie
+                        gardła” – w tym znaczeniu fraza <w>σφάγια</w> <w>τέμνειν</w> tworzy swoistą figurę
+                        etymologiczną, zwrot abundantny (zob. też Stengel 1924: 315–316).</p>
+                    <p>Dla j a k i c h bogów „należy je zarżnąć”? Stengel (1924: 17) uważał,
+                        że ofiary typu sphagia nie były adresowane do żadnego z bogów
+                        („bringt man k e i n e n Göttern dar” – wyróżnienie K.B.), ponieważ
+                        stanowiły t y l k o apotropaia i ich funkcją było t y l k o odwrócenie możliwego
+                        nieszczęścia. Możemy powiedzieć jedynie to, że nie wiadomo,
+                        do którego z bogów adresowano taką ofiarę, a nie to, że do żadnego
+                        z nich. Sphagia były składane herosom i bogom podziemnym (Ekroth
+                        2002: 257–259; Diggle 1981: 16; Burkert 1985a: 60). W komentowanym
+                        passusie wprawdzie żaden konkretny bóg nie jest z imienia wskazany,
+                        ale tekst nie pozostawia wątpliwości, że sphagia składa się dla bogów
+                        i w dodatku, że należy je składać określonym bogom. Ponadto w wersie
+                        408 mowa jest o ofierze typu sphagia dla Persefony – oczywiście
+                        nie oznacza to bynajmniej, że ofiary, które przygotował do złożenia
+                        przed samą bitwą Demofont, a o których mówi wers 400, i ofiara, której
+                        domaga się córka Demeter, są tożsame, ale z pewnością nie można
+                        powiedzieć, że sphagia nie składano żadnemu określonemu bogu. Komentarze
+                        (zarówno Wilkins 1993: 103, jak i Allan 2001) z bezpiecznym
+                        i uzasadnionym dystansem odnotowują, że „recipients of military
+                        <w>σφάγια</w> are often not specified” (tak samo Ekroth 2002: 253).</p>
+                    <p>401: <w>τροπαῖά</w> τ᾽ <w>ἐχθρῶν</w> καὶ <w>πόλει</w> <w>σωτήρια</w> – „ofiary za pokonanie
+                        wrogów, i za ocalenie państwa”. Diggle (1981), a za nim Wilkins (1993)
+                        i Allan (2001) przenoszą ten wers po wersie 409 – na zakończenie komentowanego
+                        passusu, argumentując, że wymagana proroctwami ofiara
+                        dziewicy dla Persefony najlepiej spełnia kryteria ofiary „za pokonanie
+                        wrogów i za ocalenie”. Rzeczywiście w pierwotnej lokalizacji wers ten
+                        sprawiał problemy – nie było bynajmniej oczywiste, czy te dwa rodzaje
+                        ofiar odnosiły się do wymienionych wyżej sphagia (jak sugeruje <title>LSJ</title>, s.v.
+                        τροπαῖον), czy też do tych poniżej – thysia. Składnia raczej wskazywałaby
+                        na to, że owe τροπαῖα i σωτήρια są ofiarami, które zapełniają miasto.</p>
+                    <p>402: <w>θυηπολεῖται</w> δ᾽ ἄστυ μάντεων ὕπο – „wieszczkowie wypełniają
+                        miasto ofiarami”. Komentarze sugerują, że czasownik <w>θυηπολέω</w>
+                        jest nieprzechodni i jego użycie w stronie mediopasywnej jest szczególną
+                        cechą języka poetyckiego, podając przekład „the city is filled
+                        with sacrifices” (Allan 2001: 163; Wilkins 1993: 103). Jest to czasownik
+                        złożony z <w>θύω</w> i <w>πολέω</w> ( <w>πέλω</w>), jego morfologia wskazuje na znaczenie
+                        „kręcić się wokół ofiar”, „zajmować się składaniem ofiar/ofiarami”,
+                        ostatecznie „spełniać/składać ofiary”. Nie ma żadnego powodu,
+                        by uznawać, że jest to czasownik nieprzechodni, zatem konstrukcja
+                        (nawet jeśli omawiane miejsce jest jedynym, w którym ma on postać
+                        bierną, co jest prawdą), w której to całe „miasto” jest przez wieszczków
+                        „zajęte ofiarami”, jest jak najbardziej do pomyślenia. Casabona
+                        sugeruje, że w tym miejscu θυηπολέω stanowi poetycki substytut dla
+                        <w>θύω</w> (1966: 121), co nie jest przekonujące składniowo, ponieważ to nie
+                        miasto jest składane w ofierze.</p>
+                    <p>408: <w>σφάξαι</w> <w>κελεύουσίν</w> με παρθένον Κόρῃ – „domagają się, bym
+                        zabił na ofiarę dziewicę dla Kory”. <w>Σφάζειν</w> w tym kontekście należy
+                        jednoznacznie rozumieć i tłumaczyć jako „zabić na ofiarę”.</p>
+                </div>
+                
+                <div type="textpart" n="Heraclidae_488-493">
+                    <head>Heraclidae 488-493</head>
+                    <p>Passus z rozmowy Jolaosa z Makarią, córką Heraklesa. Jolaos wyjaśnia
+                        jej decyzje zarówno wyroczni, która domaga się ofiary z dziewicy,
+                        jak i Demofonta, który nie godzi się na to, by już to samemu
+                        zabić własne czy też cudze dziecko, już to komukolwiek nakazywać to
+                        zrobić. Passus powtarza słowa wyroczni z wersów 407–409, wskazując
+                        jedynie jako typową ofiarę dla Persefony byka i jałówkę. Wprawdzie
+                        najbardziej typowym zwierzęciem ofiarnym dla Persefony była owca,
+                        jednak byki i jałówki także są poświadczone (lista zwierząt ofiarowywanych
+                        Persefonie zob. Kadletz 1976: 163–169).</p>
+                    <quote>lb/>χρησμῶν γὰρ ᾠδούς φησι σημαίνειν ὅδε,
+                        <lb/>χρησμῶν>οὐ ταῦρον οὐδὲ μόσχον, ἀλλὰ παρθένον
+                        <lb n="490"/>σφάξαι Κόρῃ Δήμητρος ἥτις εὐγενής,
+                        <lb/>εἰ χρὴ μὲν ἡμᾶς, χρὴ δὲ τήνδ᾽ εἶναι πόλιν.
+                       <lb/>ταῦτ᾽ οὖν ἀμηχανοῦμεν· οὔτε γὰρ τέκνα
+                        <lb/>σφάξειν ὅδ᾽ αὑτοῦ φησιν οὔτ᾽ ἄλλου τινός.</quote>
+                    <quote><lb/>On [sc. Demofont] twierdzi, że pieśni wyroczni oznaczają,
+                        <lb/>Żeby nie byka ani jałówkę, ale dziewicę
+                        <lb n="490"/>Zarżnąć dla Kory Demetrowej, taką, która jest szlachetnej krwi,
+                        <lb/>Jeśli my i to miasto ma przetrwać.
+                        <lb/>Z tym nie potrafimy sobie poradzić: bo mówi on,
+                        <lb/>Że nie zarżnie ani swoich własnych dzieci, ani cudzych.</quote>
+                </div>
+                
+                <div type="textpart" n="Heraclidae_500-502">
+                    <head>Heraclidae 500-502</head>
+                    <p>Słowa z początku mowy Makarii, która zwracając się do przerażonego
+                        Jolaosa, decyduje się na dobrowolną śmierć.</p>
+                    <quote><lb n="500"/>μή νυν τρέσῃς ἔτ᾽ ἐχθρὸν ᾿Αργεῖον δόρυ·
+                        <lb/>ἐγὼ γὰρ αὐτὴ πρὶν κελευσθῆναι, γέρον,
+                        <lb/>θνῄσκειν ἑτοίμη καὶ παρίστασθαι σφαγῇ.</quote>
+                    <quote><lb n="500"/>Nie bój się już teraz wrogiej argiwskiej włóczni;
+                        <lb/>Bo ja sama zanim mi rozkażą, starcze,
+                        <lb/>Chętna jestem umrzeć i oddać się na zarżnięcie.</quote>
+                    <p>502: <w>θνῄσκειν</w> <w>ἑτοίμη</w> καὶ <w>παρίστασθαι</w> <w>σφαγῇ</w> – „chętna jestem
+                        umrzeć i oddać się na zarżnięcie”. W tym wypadku, jak zazwyczaj –
+                        lub nawet prawie zawsze – w tragedii, <w>σφαγή</w> oznacza nie tylko przecięcie
+                        szyi, samą czynność zarżnięcia, zabicia przez podcięcie gardła,
+                        ale nabiera znaczenia technicznego (Casabona 1966: 176–177). Sphage
+                        jako rzeczownik w pierwszym znaczeniu opisuje sposób uśmiercania
+                        ofiary typu sphagia, jaką ma stać się de facto Makaria. Ma być ona zabita
+                        tak i w taki sposób, w jaki zabija się zwierzę na ofiarę typu sphagia.
+                        Makaria podkreśla dobrowolność swej ofiary (<w>θνῄσκειν</w> <w>ἑτοίμη</w>, zob.
+                        komentarz do wersu 531 poniżej).</p>
+                </div>
+                
+                <div type="textpart" n="Heraclidae_528-532">
+                    <head>Heraclidae 528-532</head>
+                    <p>Końcowe słowa przemowy Makarii, w której oznajmia ona swą gotowość
+                        oddania życia w ofierze za powodzenie nadchodzącej bitwy
+                        zgodnie z wymaganiami wyroczni. Mówi ona o poddaniu się rytuałom
+                        przygotowawczym przed ofiarą: przystrajaniu wstęgami i innych
+                        rytach przygotowawczych (<w>κατάρχεσθαι</w>). Cały passus otwiera
+                        wizja „prowadzenia do ołtarza” (<w>ἡγεῖσθε</w>), tak jak w przypadku zwierząt.
+                        To wyraźne nawiązanie do rytuału ofiary – ostatecznie Makaria,
+                        podkreślająca dobrowolność, mogłaby samodzielnie podejść do miejsca
+                        złożenia ofiary. Jednak „prowadzenie” zwierzęcia ofiarnego do ołtarza
+                        stanowi część rytów przygotowawczych.</p>
+                    <quote><lb/>ἡγεῖσθ᾽ ὅπου δεῖ σῶμα κατθανεῖν τόδε
+                        <lb/>καὶ στεμματοῦτε καὶ κατάρχεσθ᾽, εἰ δοκεῖ·
+                        <lb n="530"/>νικᾶτε δ᾽ ἐχθρούς· ἥδε γὰρ ψυχὴ πάρα
+                        <lb/>ἑκοῦσα κοὐκ ἄκουσα· κἀξαγγέλλομαι
+                        <lb/>θνῄσκειν ἀδελφῶν τῶνδε κἀμαυτῆς ὕπερ.</quote>
+                    <quote><lb/>Prowadźcie [mnie] tam, gdzie trzeba zabić to ciało
+                        <lb/>I ozdabiajcie wstęgami, i przygotujcie na ofiarę, jeśli trzeba;
+                        <lb n="530"/>Zwyciężcie wrogów. Bo ta moja dusza jest
+                        <lb/>Gotowa, nie niechętna. I oświadczam,
+                        <lb/>Że umieram za braci i samą siebie.</quote>
+                    <p>529: καὶ <w>στεμματοῦτε</w> καὶ <w>κατάρχεσθε</w> – „i ozdabiajcie wstęgami,
+                        i przygotujcie na ofiarę”. Στεμματόω – czasownikowe hapax legomenon,
+                        utworzone od rzeczownika στέμμα – „wstążka”; oznacza akt
+                        zdobienia zwierzęcia ofiarnego przed zabiciem. Eurypidesowe κατάρ-
+                        χεσθαι w kontekście rytualnym oznacza rozpoczęcie obrzędu ofiarnego
+                        i obejmuje akt „poświęcenia” ofiary, przez obcięcie włosów (por.
+                        komentarz do E. Alc. 74), obmycie ofiarników, skropienie zwierzęcia
+                        i obrzucenie go krupami (Burkert 1966: 107; Pearson 1907: 93–94).
+                        W wersie 601 poniżej Jolaos mówi, że ciało Makarii „jest poświęcone”
+                        bogini Persefonie: ᾗ σὸν <w>κατῆρκται</w> <w>σῶμα</w> – jest to ciało „poświęcone”,
+                        ponieważ obrzędy wstępne już się rozpoczęły.</p>
+                    <p>531: <w>ἑκοῦσα</w> κοὐκ <w>ἄκουσα</w> – Makaria podkreśla dobrowolność
+                        swej ofiary i chęć, z jaką się jej poddaje. To samo powtarza w wersie
+                        559 poniżej. Odpowiada to właściwej dla teorii „komedii niewinności”
+                        Meuliego/Burkerta (1966: 106–107) koniecznej dyspozycji ofiary, która
+                        musi wyrazić zgodę na własną śmierć, by rytuał był skuteczny (por.
+                        też komentarz Wilkinsa 1993: 118).</p>
+                </div>
+                
+                <div type="textpart" n="Heraclidae_558-563">
+                    <head>Heraclidae 558-563</head>
+                    <p>Odpowiedź Makarii na słowa Jolaosa, w których chwali on szlachetność
+                        córki Heraklesa i podkreśla, że nie może ani nakazać, ani zakazać
+                        jej tej ofiary, ale uznaje ją za zbawienną dla wszystkich. Makaria
+                        ponownie, trzeci już raz, podkreśla dobrowolność swojej śmierci i zapewnia,
+                        że właśnie ze względu na tę dobrowolność jest to śmierć,
+                        która nikomu nie przyniesie zmazy (miasma) (Allan 2001: 174). Prosi
+                        też starca, by po śmierci nakrył jej ciało, o to samo Polyksena prosi
+                        Odyseusza w Hekabe (432, por. też <title>Tr</title>. 627, H<title></title>ipp. 1456). W obydwu
+                        wypadkach jest to raczej akt przygotowujący do pochówku, a nie troska
+                        o kobiecą wstydliwość (Wilkins 1993: 123; por. Seaford 1984: 252
+                        z przypisem 41).</p>
+                    <quote><lb/>σοφῶς κελεύεις· μὴ τρέσῃς μιάσματος
+                        <lb/>τοὐμοῦ μετασχεῖν, ἀλλ᾽ ἐλευθέρως θάνω.
+                        <lb n="560"/>ἕπου δέ, πρέσβυ· σῇ γὰρ ἐνθανεῖν χερὶ
+                        <lb/>θέλω· πέπλοις δὲ σῶμ᾽ ἐμὸν κρύψον παρών·
+                        <lb/>ἐπεὶ σφαγῆς γε πρὸς τὸ δεινὸν εἶμ᾽ ἐγώ,
+                        <lb/>εἴπερ πέφυκα πατρὸς οὗπερ εὔχομαι.</quote>
+                    <quote><lb/>Mądrze mówisz. Nie bój się zmazy
+                        <lb/>Z mojego poświęcenia, bo umieram dobrowolnie.
+                        <lb n="560"/>Pójdź za mną starcze, na twoich rękach umrzeć
+                        <lb/>Pragnę. Szatą moje ciało natychmiast nakryj,
+                        <lb/>Kiedy ja już przejdę okropną rzeź,
+                        <lb/>Skoro jestem córką mojego ojca, z czego się chlubię.</quote>
+                    <p>562: <w>σφαγῆς</w> γε πρὸς τὸ δεινὸν εἶμι – „przejdę okropną rzeź”; τὸ
+                        δεινὸν σφαγῆς – „groza krwawego mordu”. Σφαγή ponownie jako
+                        akt morderstwa przez podcięcie gardła i jednocześnie aktem złożenia
+                        ofiary – sphagia.</p>
+                </div>
+                
+                <div type="textpart" n="Heraclidae_673">
+                    <head>Heraclidae 673</head>
+                    <p>Wers z rozmowy Jolaosa ze sługą na temat przygotowań do bitwy
+                        z Argiwami. Sługa referuje Jolaosowi dane na temat liczebności
+                        wroga i ruchów wojsk, ustawiania szyków, informuje go o tym, że
+                        wojska stoją na tyle blisko siebie, że można już rozpoznać twarze.
+                        Na pytanie starca, czy wojsko już na pewno gotowe jest do starcia,
+                        sługa odpowiada, że tak, czego dowodem ma być fakt, że ofiary
+                        przedbitewne zostały już wyprowadzone przed szyki i gotowe są do
+                        złożenia. <w>Τάξεων</w> <w>ἑκάς</w> wskazuje, że zwierzęta ofiarne razem z tymi,
+                        którzy mieli je złożyć w ofierze, musiały zostać wyprowadzone dość
+                        daleko przed linię wojska, na teren przyszłej bitwy, tak aby zarówno
+                        Achajowie, jak i Argiwowie mogli obserwować ich przebieg (Wilkins
+                        1993: 137 contra Allan 2001: 183 – jednak z komentarza Allana nie
+                        wynika, gdzie w takim razie ofiara miałaby się odbyć i jak należy
+                        interpretować ten wers).</p>
+                    <quote><lb/>καὶ δὴ παρῆκται σφάγια τάξεων ἑκάς.</quote>
+                    <quote><lb/>Także ofiary już są wyprowadzone przed szyki.</quote>
+                </div>
+                
+                <div type="textpart" n="Heraclidae_777-780">
+                    <head>Heraclidae 777-780</head>
+                    <p>Ostatnia strofa trzeciego stasimonu, który w całości jest modlitwą
+                        do Ateny jako opiekunki Attyki, i prośbą o powodzenie w nadchodzącej
+                        bitwie. Większość komentatorów jest zgodna co do tego, że strofa
+                        ta wspomina Wielkie Panatenaje obchodzone w każdym trzecim roku
+                        olimpiady, w ostatnich dniach miesiąca hekatombajon (contra Wilamowitz-
+                        Moellendorff 1882: 356–359, który widział tu odniesienie do
+                        jakiegokolwiek comiesięcznego obrzędu, a samą modlitwę uważał za
+                        kierowaną do matki Ziemi). Na temat przymiotnika <w>πολύθυτος</w> zob.
+                        komentarz do S. <title>Trach</title>. 765.</p>
+                    <quote><lb/>ἐπεί σοι πολύθυτος ἀεὶ
+                        <lb/>τιμὰ κραίνεται, οὐδὲ λά-
+                        <lb/>θει μηνῶν φθινὰς ἁμέρα,
+                        <lb n="780"/>νέων τ᾽ ἀοιδαὶ χορῶν τε μολπαί.</quote>
+                    <quote><lb/>Kiedy tobie wieloofiarna
+                        <lb/>Cześć jest składana, i nie umyka
+                        <lb/>Ostatni dzień miesiąca,
+                        <lb/>I pieśni młodzieńców, i tańce chórów.</quote>
+                </div>
+
+            <div type="textpart" n="Heraclidae_818-822">
+                <head>Heraclidae 818-822</head>
+                <p>Passus z mowy posłańca z epeisodionu czwartego. Przynosi on
+                    wieść o zwycięstwie wojsk ateńskich nad argiwskimi. Alkmena domaga
+                    się informacji o przebiegu bitwy, którą posłaniec opisuje w obszernej
+                    rhesis angelike. Dowódca wojsk ateńskich Hyllos, chcąc uniknąć bitwy,
+                    zaproponował Eurysteuszowi pojedynek, którego wynik miał być
+                    rozstrzygający, na co dowódca wojsk z Argos się nie zgodził i musiało
+                    dojść do regularnej bitwy. Konieczne były zatem ofiary przedbitewne:
+                    sphagia. W wersach 818–822 zawarta jest relacja z przebiegu tej ofiary.</p>
+                <quote><lb/>Ὕλλος μὲν οὖν ἀπῴχετ᾽ ἐς τάξιν πάλιν·
+                    <lb/>μάντεις δ᾽, ἐπειδὴ μονομάχου δι᾽ ἀσπίδος
+                    <lb n="820"/>διαλλαγὰς ἔγνωσαν οὐ τελουμένας,
+                    <lb/>ἔσφαζον, οὐκ ἔμελλον, ἀλλ᾽ ἀφίεσαν
+                    <lb/>λαιμῶν βοείων εὐθὺς οὔριον φόνον.</quote>
+                <quote><lb/>Hyllos więc zawrócił do szeregu.
+                   <lb/>Wieszczkowie, skoro tylko zrozumieli,
+                    <lb n="820"/>Że pojedynek nie dojdzie do skutku,
+                    <lb/>Przystąpili do składania ofiary, nie zwlekali, ale wytoczyli
+                    <lb/>Szybko pomyślną krew z gardzieli wołów.</quote>
+                <p>821: <w>ἔσφαζον</w>, οὐκ <w>ἔμελλον</w> – „przystąpili do składania ofiary, nie
+                    zwlekali”, imperfectum ἔσφαζον, „składali ofiarę” jako inceptivum (Smyth
+                    § 1900). <w>Σφάζειν</w> w tym miejscu oznacza akt rytualny i jest terminus technicus
+                    języka ofiarnego – „poderżnęli gardło składanym ofiarom”.</p>
+                <p>822: ἀλλ᾽ <w>ἀφίεσαν</w> / <w>λαιμῶν</w> <w>βοείων</w> <w>εὐθὺς</w> <w>οὔριον</w> <w>φόνον</w> – „wytoczyli
+                    / szybko pomyślną krew z gardzieli wołów”. <w>Ἀφίεσαν</w> […]
+                    <w>οὔριον</w> <w>φόνον</w> – tj. wytoczyli krew, która była pomyślnym znakiem.
+                    Οὔριος znaczy tutaj tyle, co καλός (Casabona 1966: 319). Oznacza to,
+                    że znaki ze złożonej ofiary były pomyślne.</p>
+                <p>Szeroką dyskusję wywołuje lekcja wersu 822 oraz interpretacja frazy
+                    <w>λαιμῶν</w> <w>βοείων</w>, ponieważ tradycja rękopiśmienna zachowała formę
+                    †<w>βροτείων</w>†, drukowaną do edycji Pearsona (1907) z crux philologorum.
+                    <w>Βρότειος</w> – „śmiertelny”, „ludzki”, odnoszący się do Homerowych
+                    <w>βροτοί</w> – śmiertelników, sugerowałby przekład „ludzkie gardła” i wyraźnie
+                    wskazywał na ofiarę ludzką, którą musiałaby być w tym miejscu
+                    Makaria. Jednak tekst dramatu w żaden inny sposób nie daje do
+                    zrozumienia, że taka ofiara rzeczywiście miała miejsce, co wobec obszernych
+                    wypowiedzi Makarii na temat jej dobrowolnej ofiary budzi
+                    zdumienie i uzasadnione wątpliwości. Pearson znajduje uzasadnienie
+                    dla tej lekcji w <title>Ifigenii w Aulidzie</title> (w. 1083–1084), gdzie rzeczywiście
+                    mamy <w>βρότειον</w> <w>λαιμόν</w>, jednak biorąc pod uwagę brak innych wzmianek
+                    na temat złożenia w ofierze córki Heraklesa – ostatecznie w jakimś
+                    sensie jednej z grona tytułowych bohaterów dramatu – interpretację
+                    tę należy odrzucić. Grube (1961: 170) zaproponował wobec tego, by
+                    widzieć tutaj odniesienie do jakiejś innej ofiary ludzkiej, złożonej z kogoś
+                    innego, co byłoby jeszcze dziwniejsze wobec tak długo przygotowywanej
+                    na śmierć Makarii. Wilkins (1993: 197) słusznie zauważa
+                    ponadto, że trudno sobie wyobrazić, by doniesienie o rytualnym mordzie
+                    na ludziach mogło w mowie posłańca znaleźć tak enigmatyczny
+                    i zdawkowy wyraz. Ponadto Makaria opuszcza scenę po wersie 565,
+                    kiedy odchodzi umrzeć „na rękach kobiet”, a nie „wśród mężczyzn”
+                    przed bitwą. Wydaje się więc, że sugestia Wilamowitza-Moellendorffa
+                    (1882: 83) o interpolacji, przyjęta przez najnowsze wydania, jest w pełni
+                    uzasadniona. Kolejnym problemem staje się jednak sphagia z wołów
+                    – bowiem typowym zwierzęciem ofiarnym była koza (Pritchett 1979:
+                    84; por. X. <title>HG</title>. 4.2.20). Ksenofont sugeruje, że w przypadku wędrownej
+                    armii mogły to być owce (<title>An</title>. 6.4.22), ale zarazem poświadcza, że
+                    w przypadku braku innych zwierząt składano w ofierze woły (por.
+                    Wilkins 1993: 159). Mimo że temat ofiary ludzkiej jest w tej tragedii silnie
+                    obecny w postawie Makarii we wcześniejszych scenach, to jednak
+                    nie znajduje on rekapitulacji w rzeczywistej scenie ofiarnej, jak ma to
+                    miejsce w <title>Ifigenii w Aulidzie</title>.</p>
+            </div>
+        
+            <div type="textpart" n="Heracleidae_877-878">
+                <head>Heracleidae 877-878</head>
+                <p>Słowa Alkmeny do dzieci Heraklesa, która wyraża radość ze zwycięstwa
+                    i poleca dzieciom złożenie ofiar (<w>θύσετε</w>) bogom ojczystym
+                    czy też opiekunom rodu (<w>θεοῖς</w> <w>πατρῴοις</w>).</p>
+                <quote><lb/>καὶ θεοῖς πατρῴοις θύσεθ᾽, ὧν ἀπειργμένοι
+                    <lb/>ξένοι πλανήτην εἴχετ᾽ ἄθλιον βίον.</quote>
+                <quote><lb/>Złożycie ofiary bogom ojczystym, z dala od których
+                    <lb/>Jako obcy wiedziecie marne, tułacze życie.</quote>
+            </div>
+                
+            </div>
+            <div type="textpart" n="Heracleidae_1040-1041">
+                <head>Heracleidae 1040-1041</head>
+                <p>Słowa pojmanego Eurysteusza, który prosi, by na jego grób nie
+                    wylewać ani ofiar płynnych, ani krwi. Rola krwi w kulcie zmarłych
+                    jest dobrze poświadczona u Homera (np. Od. 10.504–540) i w tragedii.
+                    W <title>Elektrze</title> Eurypidesa (w. 91–92) Orestes odwiedza grób swego ojca
+                    w nocy i składa w ofierze łzy, pukiel włosów i krew czarnej owcy.
+                    Zdaniem Ekroth (2002: 254–256) rytuały te nie znajdują potwierdzenia
+                    w rzeczywistej praktyce kultowej Aten epoki klasycznej (wyjątek stanowi
+                    inskrypcja z V wieku z Keos, LS 97A, zob. Ekroth 2002: 256) i stanowią
+                    jedynie poetyckie narzędzie odróżniające bohaterów i herosów
+                    od zwykłych ludzi.</p>
+                <quote><lb n="1040"/>ἀλλὰ μήτε μοι χοὰς
+                    <lb/>μήθ᾽ αἷμ᾽ ἐάσῃς εἰς ἐμὸν στάξαι τόπον.</quote>
+                <quote><lb n="1040"/>Ale ani mi płynnych ofiar,
+                    <lb/>Ani krwi nie pozwalaj wylewać na moje miejsce [pochówku].</quote>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

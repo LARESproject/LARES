@@ -194,6 +194,10 @@
   </xsl:template>
 
   <!-- all the templates below should be named or moved elsewhere -->
+  <xsl:template priority="10" match="t:title[not(ancestor::t:titleStmt)]|t:foreign">
+    <i><xsl:apply-templates/></i>
+  </xsl:template>
+  
   <xsl:template priority="10" match="t:ref[not(@corresp)][starts-with(., 'http')]">
     <a href="{.}" target="_blank"><xsl:apply-templates/></a>
   </xsl:template>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Medea (Μήδεια, Medea)</title>
+                <title xml:lang="en">Medea (Μήδεια, Medea)</title>
+                <title xml:lang="pl">Medea (Μήδεια, Medea)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">trag_17_medea</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Medea (Μήδεια, Medea)</title>, in Krzysztof Bielawski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Tragedia attycka</title>, Warszawa 2017, pp. 209-211</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaia Fanelli">encoded document in XML</change>
+                <change when="2017" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body><!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p><title>Medea</title> Eurypidesa, wystawiona w roku 431, przegrała w agonie tragicznym,
+                        ale stała się jedną z jego najsłynniejszych sztuk dramatycznych
+                        starożytności, niemal znakiem firmowym, ze względu na odważną
+                        innowacyjność w przedstawianiu i kształtowaniu znanego mitu,
+                        pogłębioną psychologię bohaterów i stworzenie typowej eurypidejskiej
+                        postaci kobiecej.</p>
+                    <p>Temat zdrady Medei i krwawej zemsty na greckim herosie za zdradę,
+                        gwałtowna śmierć czterech postaci tragedii i liczne odniesienia do
+                        świata bogów mogłyby sugerować, że temat ofiary i właściwy dla niej
+                        język powinny pojawiać się w tekście stosunkowo często. Tak jednak
+                        nie jest. Jest to jeden z niewielu tekstów dramatycznych, w których
+                        nawet ołtarze lub uroczystości ofiarne jako odległe tło akcji w ogóle się
+                        nie pojawiają. Rzeczywistość rytualna jest w ogóle w <title>Medei</title> całkowicie
+                        nieobecna.</p>
+                    <p>Tekst wg wydania: Diggle (1984).</p>
+                </div>
+                <div type="textpart" n="Medea_1053-1055">
+                    <head>Medea 1053-1055</head><!-- nel libro manca l'intestazione -->
+                    <p>Tylko jeden przejmujący passus przywołuje ofiarę krwawą. W wersach
+                        1053–1055, stanowiących część wielkiej mowy Medei do swych
+                        dzieci tuż przed ich zabójstwem, bohaterka nazywa swój czyn spełniany
+                        na własnych dzieciach ofiarą – θῦμα.</p>
+                    <quote><lb/>χωρεῖτε, παῖδες, ἐς δόμους. ὅτῳ δὲ μὴ
+                        <lb/>θέμις παρεῖναι τοῖς ἐμοῖσι θύμασιν,
+                        <lb n="1055"/>αὐτῷ μελήσει· χεῖρα δ᾽ οὐ διαφθερῶ.</quote>
+                    <quote><lb/>Idźcie, dzieci, do domu. A ten,
+                        <lb/>Komu nie wolno uczestniczyć w moich ofiarach,
+                        <lb/>Niech się raczej sam martwi o siebie. Mnie ręce nie zawiodą.</quote>
+                    <p>Page w swoim komentarzu (1967: 148) nazywa te słowa Medei
+                        „makabryczną metaforą”, uznając za niewyobrażalne, by bohaterka
+                        chciała pozbawić się osobistej odpowiedzialności za mord na dzieciach
+                        przez określenie go jako „ofiarę”.</p>
+                    <p>Odmiennego zdania jest jednak Burkert, który w słowach Medei
+                        dostrzega <w>ἀπόρρητος</w> <w>θυσία</w> – sekretną ofiarę, przywołującą rytuał
+                        w świątyni Hery Akraia w Koryncie (Burkert 1966: 118–119). Zwraca
+                        uwagę na fakt, że w malarstwie wazowym mamy przedstawienia mordu
+                        Medei zazwyczaj na ołtarzu (ibidem z odniesieniem do przykładów
+                        malarstwa). Konkluduje, że metafora ofiary w centralnym punkcie
+                        sztuki „przywołuje rytuał ofiarny, który zawiera tajemnicę śmierci”
+                        (ibidem). Zgodnie z myślą rozwiniętą następnie w <title>Homo necans</title> (idem,
+                        1972: 189–207) istoty ofiary nie stanowi dar dla bogów ani chęć zbliżenia
+                        z nimi, ale mord na zwierzęciu, ponieważ mord implikuje napięcie
+                        między spotkaniem ze śmiercią a afirmacją życia. Intrygujące, że
+                        jedyne trzy wersy w całej <title>Medei</title> zawierające jeden rzeczownik – <w>θῦμα</w>
+                        – stały się niemal koronnym argumentem Burkerta za wszechobecnością
+                        ofiary w dramacie i zarazem rytualno-ofiarniczą genezą tego
+                        ostatniego.</p>
+                    <p>Interpretację Burkerta rozwinął Pietro Pucci w książce <title>The Violence
+                        of Pity in Euripides’ „Medea”</title> (1980). Twierdzi on, że tym, co pozwala
+                        uznać mord na dzieciach za ofiarę, jest kategoria substytucji – niewinne
+                        dzieci Jazona za w rzeczywistości winnego samego Jazona (Pucci 1980:
+                        134). Ta podmiana sprawia, że Medea widzi w dzieciach ofiary sensu
+                        stricto, a rytuał ma na celu przywrócenie utraconej równowagi i zażegnanie
+                        kryzysu. Pucci zwraca też uwagę na związek między omawianą
+                        sceną a słowami Medei z końcowej kłótni z Jazonem w ostatniej
+                        scenie dramatu (w. 1381–1383), gdzie zapowiada ona ustanowienie
+                        święta za „ten bezbożny mord” (<w>ἀντὶ</w> τοῦδε <w>δυσσεβοῦς</w> <w>φόνου</w>), uznając,
+                        że związek ten tworzy rytualną klamrę z ofiarą w centrum (ibidem).
+                        Sama interpretacja sprawia wrażenie z góry przykrojonej na miarę
+                        Burkertowskiej teorii na długo przed czytaniem samego dramatu. Nic,
+                        poza jednym słowem, w całym tekście nie wskazuje na tak znaczącą
+                        rolę rytuału ofiarnego w <title>Medei</title>, nic nie usprawiedliwia budowania
+                        hermeneutyki i retoryki ofiary na tak kruchej podstawie. Obawiam się,
+                        że jednak sir Denys Page miał rację – θῦμα w ustach Medei jest tylko
+                        „makabryczną metaforą”.</p>
+                    <p>Z niechęcią wskazałbym na jeden argument przeoczony przez Pucciego
+                        w niestrudzonym tropieniu ofiarnego sensu <title>Medei</title>: kiedy mówi
+                        ona o ustanowieniu święta za bezbożne zbrodnie (w. 1381–1383), obiecuje
+                        <w>ἑορτήν</w> – „święto” oraz <w>τέλη</w>:</p>
+                    <quote><lb/>γῇ δὲ τῇδε Σισύφου
+                        <lb/>σεμνὴν ἑορτὴν καὶ τέλη προσάψομεν
+                        <lb/>τὸ λοιπὸν ἀντὶ τοῦδε δυσσεβοῦς φόνου.</quote>
+                    <quote><lb/>W tej ziemi Syzyfa
+                        <lb/>Ustanowimy święto i święte obrzędy
+                        <lb/>Na zawsze, za ten bezbożny mord.</quote>
+                    <p>Owe <w>τέλη</w> mogą znaczyć tutaj po prostu uroczyste obrzędy, ale
+                        mogą też znaczyć „ofiary”. Aż dziw, że uwadze tropicieli ofiarnej interpretacji
+                        ta możliwość umknęła. Nawet jednak gdyby tak było, że
+                        Medea obiecuje ustanowienie w Koryncie ofiar za swój czyn, to nie
+                        bardzo może mieć to związek z przypisywaniem i Eurypidesowi,
+                        i Medei uświadomionego przekonania o możliwości interpretowania
+                        mordu na dzieciach jako ofiary.</p>
+                    <p>Słowa Medei stylizowane są na wezwanie poprzedzające rytuał
+                        ofiarny czy jakikolwiek inny obrzęd religijny, w którym nie powinny
+                        uczestniczyć osoby nieodpowiednie, skalane, ponieważ mogłyby spowodować
+                        nieskuteczność rytuału lub nawet wywołać gniew bogów.
+                        Podobne wezwania por. E. <title>IT</title> 1227–1229; S. <title>OT</title> 239–240 czy Ar. <title>Eq</title>.
+                        1288–1289 (zob. Page 1967: 148 oraz Mastronarde 2002: 338–339).</p>
+                    <p>Należy jeszcze tylko odnotować sentencjonalną wypowiedź Medei
+                        z wersu 964, gdzie zwraca się ona do Jazona, prosząc, by zgodził się
+                        przekazać dary Kreusie:</p>
+                    <quote><lb/>πείθειν δῶρα καὶ θεοὺς λόγος.</quote>
+                    <quote><lb/>Jak mówią: nawet bogów dary przekonują.</quote>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

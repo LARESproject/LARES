@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Alcestis (Ἄλκηστις, Alcesti)</title>
+                <title xml:lang="en">Alcestis (Ἄλκηστις, Alcestis)</title>
+                <title xml:lang="pl">Alcestis (Ἄλκηστις, Alkestis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">trag_16_alcestis</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Alcestis (Ἄλκηστις, Alkestis)</title>, in Krzysztof Bielawski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Tragedia attycka</title>, Warszawa 2017, pp. 197-207</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaia Fanelli">encoded document in XML</change>
+                <change when="2017" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body><!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p><title>Alkestis</title> jest najwcześniejszą z zachowanych sztuk Eurypidesa, pokazaną
+                        w roku 438. Jest też sztuką nietypową, ponieważ wystawiona została
+                        jako czwarta część tetralogii tragicznej, w miejsce dramatu satyrowego,
+                        co tłumaczy jej tragikomiczny charakter – powaga śmierci i oddania
+                        życia za kogoś innego miesza się z dość komicznym przedstawieniem
+                        samego Thanatosa, a zwłaszcza podpitego Heraklesa; badacze nie ustają
+                        w sporze nad niespójną naturą i strukturą tego dramatu (por. Lesky
+                        2006: 330–331). W interpretacji Lesky’ego (ibidem: 341) tragedia opowiada
+                        o lubianym przez Eurypidesa motywie poświęcenia życia za kogoś
+                        innego, co – zwłaszcza w perspektywie <title>Ifigenii w Aulidzie</title> i <title>Heraklidów</title> –
+                        przywodzi na myśl kontekst ofiarny. W tym wypadku jednak jest on
+                        tylko nieznacznie zarysowany, pojawia się w niewielu passusach.</p>
+                    <p>Raz jeden (w. 1015) Herakles wspomina, że złożył radosne ofiary
+                        płynne (<w>θεοῖς</w> <w>ἐλειψάμην</w>) w domu Admeta, nieświadom szykowanego
+                        pogrzebu.</p>
+                </div>
+                <div type="textpart" n="Alcestis_74-76">
+                    <head>Alcestis 74-76</head>
+                    <p>Ostatnie słowa prologu, zbudowanego z dialogu między Apollonem
+                        i Thanatosem-Śmiercią. Apollon usiłuje odwieść Thanatosa od
+                        zamiaru zabrania ze sobą Alkestis. W rozmowie tej Thanatos interpretuje
+                        śmierć osoby w kategoriach należnej mu czci, która jest tym większa,
+                        im młodsza jest ofiara śmierci (w. 55). Na pytanie Apollona, czy
+                        Alkestis nie może doczekać starości (w. 53: <w>νέων</w> <w>φθινόντων</w> <w>μεῖζον</w>
+                        <w>ἄρνυμαι</w> <w>γέρας</w>), Thanatos odpowiada: „Nie może. Zrozum, ja też cieszę
+                        się czcią [<w>τιμαῖς</w>]”. Życie młodej osoby jest dla Śmierci „zaszczytnym
+                        darem” – geras (w. 53) – i staje się ona „świętą własnością” boga
+                        (w. 75: <w>ἱερὸς</w> γὰρ οὗτος).</p>
+                    <p>W ostatnich słowach Thanatos ostatecznie zapowiada nieodwołalną
+                        śmierć Alkestis. Zapowiedź ta materializuje się w rytualnym
+                        geście dotknięcia-poświęcenia włosów na jej głowie.</p>
+                    <p>Scena ta zawiera subtelne, ale wyraźne aluzje do tematyki ofiarnej
+                        – tworzy metaforyczną wizję nieistniejącego kultu: Alkestis staje
+                        się w wizji Thanatosa „darem” dla niego i „tym, co jemu poświęcone”;
+                        gest ścinania włosów przypomina znany już w Homeryckich typowych
+                        scenach ofiary akt spełniany na zwierzętach ofiarnych i potwierdzony
+                        przez Eurypidesa w <title>Elektrze</title> (w. 810–812). Sam Thanatos
+                        przemawia jak kapłan-ofiarnik kultu samego siebie. Apollon w wersie
+                        25 nazywa go zresztą „kapłanem zmarłych”, co stanowi jedynie
+                        poetycką metaforę – Śmierć (Thanatos) jest bogiem bez kultu, ofiar,
+                        ołtarzy i świątyń (jakiś wyjątek od tej reguły może stanowić Sparta
+                        z jej posągami Thanatosa i jakąś formą kultu śmierci – kalos thanatos,
+                        zob. Richer 2012: 86–90 i Loraux 1977: 115). Intrygujące jest też użycie
+                        właściwych dla języka ofiary czasowników κατάρχεσθαι i ἁγνίζειν
+                        dla opisania tej rytualnej czynności.</p>
+                    <quote><lb/>στείχω δ᾽ ἐπ᾽ αὐτήν, ὡς κατάρξωμαι ξίφει·
+                        <lb n="75"/>ἱερὸς γὰρ οὗτος τῶν κατὰ χθονὸς θεῶν
+                        <lb/>ὅτου τόδ᾽ ἔγχος κρατὸς ἁγνίσῃ τρίχα.</quote>
+                    <quote><lb/>Idę do niej, żeby mieczem rozpocząć obrzędy,
+                        <lb/>Bo ten jest bogom podziemnym poświęcony,
+                        <lb/>Kogo włosy na głowie poświęci ten miecz.</quote>
+                    <p>74: <w>κατάρξωμαι</w> – „rozpocząć obrzędy”. Czasownik <w>κατάρχεσθαι</w>
+                        oznacza przede wszystkim „rozpocząć”, jednak w większości odnotowanych
+                        wystąpień (por. <title>LSJ</title>, s.v.) kontekst wskazuje na treść jednoznacznie
+                        związaną z rytuałem ofiarnym: „rozpoczynać ofiarę”, „rozpoczynać
+                        obrzędy, ceremonie ofiarne” lub wprost „składać ofiarę”,
+                        jak w <title>Elektrze</title> Eurypidesa w wersie 1222 (φασγάνῳ <w>κατηρξάμαν</w>).
+                        Sens ten jest dobrze poświadczony już u Homera (<title>Od</title>. 3.445: Νέστωρ
+                        / χέρνιβά τ᾽ οὐλοχύτας τε <w>κατήρχετο</w>), Herodota (4.60.103) oraz –
+                        co istotne – kilkakrotnie u samego Eurypidesa: w <title>IT</title> 40, 56 i 1154.
+                        U Arystofanesa (<title>Av</title>. 959) fraza Μὴ <w>κατάρξῃ</w> τοῦ τράγου oznacza „nie
+                        poświęcaj kozła”, to znaczy „nie rozpoczynaj czynności poprzedzających
+                        ofiarę” (zob. wyczerpujący komentarz Bednarka 2017: 61 do tego
+                        passusu). U Homera jako te wstępne obrzędy wskazane są obmycia
+                        i zbożowe krupy. U Herodota to z pewnością to samo, ponieważ
+                        owe „obrzędy wstępne” wyrażone przez czasownik <w>κατάρχεσθαι</w>
+                        wymienione są pomiędzy rozpaleniem ognia na ołtarzu i wylaniem
+                        ofiar płynnych (οὔτε πῦρ ἀνακαύσας οὔτε <w>καταρξάμενος</w>
+                        οὔτ᾽ἐπισπείσας). Por. komentarze: Laetitia Parker (2007: 67), Amy
+                        Dale (1966: 58) i Desmond Conacher (1988: 160).</p>
+                    <p>75: <w>ἱερὸς</w> γὰρ οὗτος τῶν κατὰ χθονὸς θεῶν – „bo ten jest bogom
+                        podziemnym poświęcony”, dosłownie: „bo ten jest poświęconą własnością
+                        (<w>ἱερός</w> z genetiwem possesywnym) bogów podziemnych”;
+                        <w>ἱερός</w> to tutaj „poświęcony”, tj. włączony w sferę należną bogom (sacrum),
+                        wyłączony z normalnego użytku (profanum) w znaczeniu nadanym
+                        przez klasyczną koncepcję Huberta i Maussa (2005).</p>
+                    <p>76: <w>ἁγνίσῃ</w> τρίχα – „[miecz] poświęci włosy”. <w>Ἁγνίζω</w> prymarnie
+                        przynależy do terminologii puryfikacyjnej, oznacza „uczynić coś
+                        ἁγνόν, czystym, należącym wyłącznie do sfery boskiej” (por. Garland
+                        1985: 47). Oczyszczenie to związane jest w niektórych kontekstach
+                        z porządkiem ofiarnym, zwłaszcza jeśli – jak w tym wypadku
+                        – pojawia się w perspektywie obrzędów funeralnych i może oznaczać
+                        po prostu ofiarę złożoną bóstwom chtonicznym, herosom lub
+                        zmarłym (por. Chantraine: s.v. <w>ἅζομαι</w>; Kurtz, Boardman 1971: 150;
+                        Rudhardt 1992: 238). W podobnym znaczeniu występuje w S. <title>Ant</title>. 545
+                        (zob. mój komentarz), gdzie mowa jest o poświęceniu, ostatecznym
+                        oczyszczeniu zmarłego – Polynejkesa – przez śmierć Antygony (oraz
+                        w E. <title>Supp</title>. 1211 i IT 705). W omawianym passusie <w>ἁγνίζω</w> oznacza
+                        jednak akt poświęcenia ścinanych włosów przyszłej ofiary – mówiąc
+                        precyzyjniej, zdaje się ten termin korespondować z czasownikiem
+                        <w>κατάρχεσθαι</w> z wersu 74 powyżej, zatem opisuje dokładnie to, co
+                        stanowi „obrzędy wstępne” ofiary, tutaj sprowadzone do aktu obcinania
+                        włosów.</p>
+                </div>
+                
+                <div type="textpart" n="Alcestis_118-121">
+                    <head>Alcestis 118-121</head>
+                    <p>Ostatnie słowa drugiej strofy parodosu, śpiewanego przez starców
+                        z Feraj. Chór uznaje, że Alkestis już ocalić nie można i nie ma miejsca,
+                        gdzie można by ją wysłać, by uniknęła swego losu – śmierci. Ubolewa
+                        nad tym, że nie można już nawet prosić bogów o pomoc, jest świadomy,
+                        że żadne ofiary nie odwrócą już biegu wydarzeń.</p>
+                    <quote><lb/>μόρος γὰρ ἀπότομος
+                        <lb/>πλάθει· θεῶν δ᾽ ἐπ᾽ ἐσχάραις
+                        <lb n="120"/>οὐκ ἔχω ἐπὶ τίνα
+                        <lb/>μηλοθύταν πορευθῶ.</quote>
+                    <quote><lb/>Bo srogi los
+                        <lb/>Już blisko.
+                        <lb/>Przy ołtarzach bogów
+                        <lb n="120"/>Nie wiem, do jakiego
+                        <lb/>Mam zwrócić się ofiarnika składającego owce w ofierze.</quote>
+                    <p>121: <w>μηλοθύταν</w> – „ ofiarnika składającego owce w ofierze”.
+                        Wbrew komentarzom L.P.E. Parker (2007: 79) i Dale (1966: 63) oraz
+                        przekładowi Jerzego Łanowskiego sądzę, że <w>μηλοθύτης</w> pojawia
+                        się tutaj w swoim prymarnym, rzeczownikowym znaczeniu „tego,
+                        kto składa w ofierze owce”, „ofiarnika”. Chór nie wie, kogo miałby
+                        poprosić o to, aby złożył na ołtarzach bogów owce w ofierze,
+                        żeby odwrócić zły los Alkestis. Złożony rzeczownik <w>μηλοθύτης</w> (od
+                        <w>μῆλον</w> i <w>θύω</w>) występuje w zachowanej literaturze tylko trzy razy,
+                        poza tym miejscem jeszcze raz u Eurypidesa w <title>IT</title> 1116 (βωμούς
+                        τ᾽ οὐ <w>μηλοθύτας</w>) i w ósmej odzie Bakchylidesa (w. 17: Πυθῶνά τε
+                        <w>μηλοθύταν</w> / ὑμνέων). Suffix <w>-της </w>wyraźnie wskazuje na personam
+                        agentis: <w>μηλοθύτης</w> to ten, kto składa owce w ofierze. Komentatorzy
+                        słusznie zauważają, że w <title>Ifigenii</title> i u Bakchylidesa pojawia się on
+                        w funkcji przymiotnikowej (jako „owcoofiarny”) – raz jako epitet
+                        ołtarza („ołtarze owcoofiarne, tj. takie, na których składa się owce”,
+                        raz – Apollona (opiewając Pythona owcoofiarnego, tj. takiego, któremu
+                        składa się owce w ofierze). Nie przesądza to jednak o tym, że
+                        w omawianym passusie nie mógł występować w funkcji rzeczownikowej.</p>
+                </div>
+                
+                <div type="textpart" n="Alcestis_132-135">
+                    <head>Alcestis 132-135</head>
+                    <p>Początek pierwszego epeisodionu, słowa przodownika chóru, który
+                        wypytuje służącą o los Alkestis. W odpowiedzi opisuje ona szczegółowo
+                        zachowanie swej pani przed śmiercią. Najpierw jednak chór
+                        nawiązuje do ostatnich słów pieśni chóru (komentowanych powyżej),
+                        który zastanawiał się, do jakich ołtarzy się zwrócić z prośbą o ocalenie.
+                        Najwyraźniej, zdaniem przodownika chóru, przebłaganie bogów
+                        ofiarami nie jest możliwe także dlatego, że sam Admet spełnił liczne
+                        ofiary, aby uwolnić żonę od smutnej konieczności.</p>
+                    <quote><lb/>πάντα γὰρ ἤδη τετέλεσται βασιλεῦσι,
+                        <lb/>πάντων δὲ θεῶν ἐπὶ βωμοῖς
+                        <lb/>αἱμόρραντοι θυσίαι πλήρεις·
+                        <lb n="135"/>οὐδ᾽ ἔστι κακῶν ἄκος οὐδέν.</quote>
+                    <quote><lb/>Bo już wszystko spełnione przez króla,
+                        <lb/>Na wszystkich ołtarzach bogów
+                        <lb/>Doskonałe ofiary spływają krwią;
+                        <lb n="135"></lb>Nie ma żadnego lekarstwa niedoli.</quote>
+                    <p>133: <w>αἱμόρραντοι</w> <w>θυσίαι</w> <w>πλήρεις</w> – „doskonałe ofiary spływają
+                        krwią”, dosłownie: „ofiary (<w>θυσίαι</w>), które spływają krwią
+                        (<w>αἱμόρραντοι</w>) są pełne, kompletne (<w>πλήρεις</w>)”. „Pełne” (<w>πλήρεις</w>), to
+                        znaczy spełnione tak, jak należy, w takiej ilości, jaka jest odpowiednia,
+                        doskonała. Por. L.P.E. Parker (2007: 82) i Dale (1966: 65) w komentarzu:
+                        „in full measure”. <w>Aἱμόρραντοι</w> – przymiotnik złożony
+                        (<w>αἱμα</w> i <w>ῥαίνω</w>), użyty tylko przez Eurypidesa – tutaj oraz w <title>IT</title> 225;
+                        „spływający krwią”, „taki, po jakim spływa krew”, „krwawy”.</p>
+                </div>
+                
+                <div type="textpart" n="Alcestis_170-172">
+                    <head>Alcestis 170-172</head>
+                    <p>Passus z mowy służącej, która opisuje chórowi zachowania
+                        Alkestis przed śmiercią – jej błądzenie po domu i żegnanie się
+                        z miejscami i przedmiotami – w tym także ołtarzami (wcześniej,
+                        w w. 163, żegnała się z domowym ołtarzem Hestii).</p>
+                    <quote><lb n="170"/> πάντας δὲ βωμούς, οἳ κατ᾽ Ἀδμήτου δόμους,
+                        <lb/>προσῆλθε κἀξέστεψε καὶ προσηύξατο,
+                        <lb/>πτόρθων ἀποσχίζουσα μυρσίνης φόβην.</quote>
+                    <quote><lb n="170"/>Wszystkie ołtarze w domu Admeta
+                        <lb/>Obeszła i ozdobiła wieńcami, i modliła się,
+                        <lb/>Obłamując bukiety młodych gałązek mirtu.</quote>
+                    <p>W <title>Elektrze</title> Eurypidesa (w. 324 i 512) mirt używany jest w obrzędach
+                        funeralnych do zdobienia grobów (Murr 1890: 90–91). Nie
+                        znamy innych przekazów, w których tej właśnie rośliny używano
+                        by do zdobienia ołtarzy, podobnie jak nie zdobili nim głów ofiarnicy
+                        (zob. komentarz do E. <title>El</title>. 778). Alkestis zdaje się ozdabiać ołtarze
+                        domowe, tak jakby jednocześnie widziała w nich własne groby.</p>
+                    <p>O zdobieniu ołtarzy roślinami, gałęziami lub kwiatami źródła
+                        literackie milczą. W zestawieniu van Stratena (1995) tylko dwa
+                        przedstawienia ikonograficzne (nr 43 i 142) wydają się mieć jakieś
+                        nieznaczne roślinne ornamenty, które nie są rzeźbieniami (Mare
+                        1961: 45), zawieszonymi przedmiotami, czaszkami zwierzęcymi
+                        (ibidem: 48–49) lub malunkami na samej bryle ołtarza, ale wyraźnie
+                        dodanym efemerycznym zdobieniem.</p>
+                </div>
+                
+                <div type="textpart" n="Alcestis_228-230">
+                    <head>ALcestis 228-230</head>
+                    <p>Strofa z pieśni chóru lamentującego nad losem Admeta. Chór
+                        wyobraża sobie śmierć Alkestis – jako krwawą, przez podcięcie gardła,
+                        nieporównanie gorszą od powieszenia się.</p>
+                    <quote><lb/>– αἰαῖ· ἄξια καὶ σφαγᾶς τάδε,
+                        <lb/>καὶ πλέον ἢ βρόχῳ δέρην
+                        <lb n="230"/>οὐρανίῳ πελάσσαι.</quote>
+                    <quote><lb/>Ojoj! Godne to poderżnięcia gardła,
+                        <lb/>Bardziej nawet niż na pętli szyję
+                        <lb n="230"/>Wysokiej jak niebo zawiesić.</quote>
+                    <p>Rzeczownik σφαγή, jakkolwiek w tragedii związany z kontekstami
+                        ofiarniczymi, zwłaszcza w <title>Orestei</title> Ajschylosa, tutaj nie ma żadnych
+                        odniesień do rytuału ofiarnego i oznacza po prostu poderżnięcie gardła,
+                        przeciwstawione powieszeniu się.</p>
+                </div>
+                
+                <div type="textpart" n="Alcestis_843-845">
+                    <head>Alcestis 843-845</head>
+                    <p>Słowa Heraklesa, który obiecuje, że przywróci Alkestis do życia.
+                        Deklaruje, że uda się do samej Śmierci (Thanatosa) i pochwyci go
+                        w chwili, kiedy ten będzie pił krew złożonych ofiar.</p>
+                    <quote><lb/>ἐλθὼν δ᾽ ἄνακτα τὸν μελάμπεπλον νεκρῶν
+                        <lb/>Θάνατον φυλάξω, καί νιν εὑρήσειν δοκῶ
+                        <lb n="845"/>πίνοντα τύμβου πλησίον προσφαγμάτων.</quote>
+                    <quote><lb/>Udam się i na władcę trupów w czarnym stroju, Śmierć samą,
+                        <lb/>Zastawię sidła, i myślę, że znajdę go,
+                        <lb n="845"/>Kiedy w pobliżu grobu będzie pił z zabitych ofiar.</quote>
+                    <p>845: <w>προσφαγμάτων</w> – „z zabitych ofiar”. Tekst odwołuje się tutaj
+                        to rytuału krwawej ofiary nagrobnej – προσφάγιον (w tekstach dramatycznych
+                        w poetyckiej formie <w>πρόσφαγμα</w>), spełnianej podczas obrzędów
+                        funeralnych – ofiara była zabijana przed samym pochówkiem
+                        przy grobie i albo grzebana wraz ze zmarłym, albo spalana w całości
+                        na grobie (Ekroth 2002: 229; Casabona 1966: 170–174). Eurypides przywołuje
+                        tutaj rzadki – przynajmniej rzadko poświadczony w źródłach
+                        pisanych i archeologicznych – obrzęd (Burkert 2011: 99–100 i 294).
+                        Zdaniem Ekroth (2002: 256 wraz z przypisem 203) w epoce klasycznej
+                        nie był sprawowany w Attyce.</p>
+                    <p>Picie krwi w kontekście obcowania ze zmarłymi przypomina obrzęd
+                        nekyi z 11. pieśni <title>Odysei</title>, gdzie duchy zmarłych muszą pić krew, aby
+                        mogły przemówić. Tutaj jednak mamy do czynienia jedynie z poetyckim
+                        obrazem Śmierci, a nie zmarłego, która syci się krwią ofiar złożonych na
+                        grobie zmarłego. Ekroth utrzymuje (2002, 256), że w przypadku ofiary
+                        typu prosphagion (w dramacie poetycka wersja: prosphagma) podstawowym
+                        celem było dostarczenie krwi z m a r ł e m u .</p>
+                </div>
+                
+                <div type="textpart" n="Alcestis_850-853">
+                    <head>Alcestis 850-853S</head>
+                    <p>Herakles, który zapowiedział, że spróbuje złapać Śmierć przy grobie
+                        i wymusić na niej powrót Alkestis, w dalszych słowach obiecuje, że
+                        jeśli mu się to nie uda, to zejdzie po nią do Hadesu.</p>
+                    <quote><lb n="850"/>ἢν δ᾽ οὖν ἁμάρτω τῆσδ᾽ ἄγρας, καὶ μὴ μόλῃ
+                        <lb/>πρὸς αἱματηρὸν πέλανον, εἶμι τῶν κάτω
+                        <lb/>Κόρης Ἄνακτός τ᾽ εἰς ἀνηλίους δόμους
+                        <lb/>αἰτήσομαί τε.</quote>
+                    <quote><lb n="850"/>A jeśli jednak nie powiodą mi się te łowy i [Śmierć] nie przyjdzie
+                        <lb/>Do krwawego pelanosu, udam się na dół,
+                        <lb/>Do pozbawionych słońca domostw Kory i Hadesa
+                        <lb/>I będę prosić.</quote>
+                    <p>851: πρὸς αἱματηρὸν <w>πέλανον</w> – „do krwawego pelanosu”. Pelanos
+                        jest gęstą mieszaniną miodu, oliwy i mąki używaną w ofiarach
+                        płynnych (zob. Stengel 1894 i Jameson 1956, por. Pers. 204 z moim
+                        komentarzem ad loc. powyżej). Może też być ciastkiem ofiarnym,
+                        w tym wypadku spryskanym krwią ze zwierzęcia ofiarnego zabitego
+                        w tym samym czasie na grobie zmarłego (tak Owen 1939: 88
+                        w komentarzu do Iona w. 226–229). U Ajschylosa gęsta konsystencja
+                        pelanosu porównywana jest do krzepnącej krwi i wtedy pelanos staje
+                        się już to ἐρυθρὸν <w>πέλανον</w> – „czerwonym pelanosem” (<title>Eu</title>. 265),
+                        już to <w>πέλανος</w> αἱματοσφαγής – „krwawym, ofiarnym pelanosem”
+                        (Pers. 816) (por. komentarze do Ajschylosa ad loc.). Pelanos jest substancją
+                        używaną wyłącznie przy bezkrwawych ofiarach płynnych
+                        i jego przywołanie zawsze wywołuje ofiarne konotacje.</p>
+                    <p>W <title>Eumenidach</title> Erynie zapowiadają, że krew Orestesa będzie się lała
+                        j a k pelanos – bezkrwawa ofiara nagrobna stanie się ofiarą krwawą.
+                        Z podobną sytuacją mamy do czynienia także tutaj. Chodzi tu o sens
+                        metaforyczny odnoszący się do konsystencji krzepnącej krwi (tak
+                        L.P.E. Parker 2007: 221 i Dale 1966: 114).</p>
+                    <p>Identyczna fraza powtarza się w <title>Rezosie</title>, wers 430.</p>
+                </div>
+                
+                <div type="textpart" n="Alcestis_973-975">
+                    <head>Alcestis 973-975</head>
+                    <p>Passus z pieśni chóru, który opiewa Konieczność (Ananke), od
+                        której nie ma nic silniejszego. Jest ona boginią, której nie można wystawiać
+                        ołtarzy, posągów ani też składać ofiar – jest, tak jak Śmierć,
+                        boginią bez kultu.</p>
+                    <quote><lb/>μόνας δ᾽ οὔτ᾽ ἐπὶ βωμοὺς
+                        <lb/>ἔστιν οὔτε βρέτας θεᾶς
+                        <lb n="975"/>ἐλθεῖν, οὐ σφαγίων κλύει.</quote>
+                    <quote><lb/>Do ołtarzy tej jednej bogini
+                        <lb/>Ani do jej drewnianego posągu
+                        <lb n="975"/>Przyjść nie można, ani nie zna ona ofiar krwawych.</quote>
+                    <p>975: οὐ <w>σφαγίων</w> κλύει – „ani nie zna ofiar krwawych”. Konieczności
+                        (Ananke) nie składa się żadnych ofiar, tak samo jak Śmierci (por.
+                        Schreckenberg 1964: 72 i nn.; L.P.E. Parker 2007: 246 i Dale 1966: 121
+                        z odniesieniem do fr. 161 Ajschylosa z niezachowanej <title>Niobe</title>). Oczywiście
+                        te ofiary, których nie można składać Konieczności, to w pieśni
+                        chóru jedynie <w>σφάγια</w>, a nie <w>θυσία</w> – ofiary typowe w kulcie zmarłych
+                        i herosów.</p>
+                </div>
+                
+                <div type="textpart" n="Alcestis_1144-1146">
+                    <head>Alcestis 1144-1146</head>
+                    <p>Na pytanie Admeta, dlaczego przywrócona do życia Alkestis nic
+                        nie mówi, Herakles odpowiada, że przez trzy dni jeszcze nie można
+                        słyszeć jej głosu, ponieważ najpierw musi poddać się oczyszczeniu.
+                        Powraca tu język rytuału, zapoczątkowany mową Thanatosa (w. 74––
+                        76), który przez obcięcie Alkestis włosów miał ją „poświęcić” (ἁγνίσῃ)
+                        sobie i/lub bogom podziemnym; teraz, po jej powrocie z Hadesu konieczny
+                        jest rytuał odwrotny, „od-święcenia”: <w>ἀπο-ἁγνίζειν</w>.</p>
+                    <quote><lb/>οὔπω θέμις σοι τῆσδε προσφωνημάτων
+                        <lb n="1145"/>κλύειν, πρὶν ἂν θεοῖσι τοῖσι νερτέροις
+                        <lb/>ἀφαγνίσηται καὶ τρίτον μόλῃ φάος.</quote>
+                    <quote><lb/>Nie godzi ci się jej głosu
+                        <lb n="1145"/>Słyszeć, zanim ze swego poświęcenia bogom podziemnym
+                        <lb/>Nie oczyści się i trzeci świt nie nadejdzie.</quote>
+                    <p>1145–1146: πρὶν ἂν θεοῖσι τοῖσι νερτέροις / <w>ἀφαγνίσηται</w> – „zanim
+                        ze swego poświęcenia bogom podziemnym / nie oczyści się”. Ciało
+                        zmarłego poddane rytuałom pogrzebowym, kremacji (jak w przypadku
+                        Klitajmestry u Eurypidesa w <title>Or</title>. 40) lub inhumacji (nawet symbolicznej,
+                        jak w <title>Ant</title>. 247) stawało się <w>ἁγνός</w> – poświęconym bogom podziemnym
+                        (Garland 1985: 46–47). Plutarch (<title>Quaes.Rom</title>. 5) mówi, że ludzie, którzy
+                        przeszli przez ryty pogrzebowe, ale powrócili do życia, nie są czyści –
+                        <w>ἁγνοί</w> i trzeba ich poddać oczyszczeniu, o jakim mówi omawiany passus
+                        <title>Alkestis</title>. Żadne źródła nie mówią o nakazie milczenia – zdaje się nim być
+                        wymagana sceniczną konwencją innowacja Eurypidesa.</p>
+                </div>
+                
+                <div type="textpart" n="Alcestis_1154-1156">
+                    <head>Alcestis 1154-1156</head>
+                    <p>Szczęśliwy z powodu odzyskania żony Admet całemu miastu poleca
+                        uczcić to wydarzenie chórami i ofiarami. Śpiew i taniec chórów
+                        oraz uroczyste ofiary składane z wołów mają oddawać podniosły nastrój
+                        radości.</p>
+                    <quote><lb/>ἀστοῖς δὲ πάσῃ τ᾽ ἐννέπω τετραρχίᾳ,
+                        <lb n="1155"/>χοροὺς ἐπ᾽ ἐσθλαῖς συμφοραῖσιν ἱστάναι
+                        <lb/>βωμούς τε κνισᾶν βουθύτοισι προστροπαῖς.</quote>
+                    <quote><lb/>Miastu i całej tetrarchii polecam
+                        <lb n="1155"/>ustanowić chóry przy tej wspaniałej okazji
+                        <lb/>oraz wypełnić ołtarze dymem przy wołoofiarnych modłach.</quote>
+                    <p>1156: βωμούς τε <w>κνισᾶν</w> <w>βουθύτοισι</w> προστροπαῖς – „wypełnić
+                        ołtarze dymem przy wołoofiarnych modłach”. Czasownik <w>κνισάω</w>,
+                        związany z <w>κνίσα</w> (tłusty dym ze spalanych ofiar zwierzęcych), oznacza
+                        zarówno ogólnie „wzniecić dym ze spalanych ofiar”, jak i „wypełnić
+                        dymem i zapachem ofiar” (por. komentarz Bednarka 2017: 67 do
+                        Ar. <title>Av</title>. 1233). Omawiana fraza, zależna od <w>ἐννέπω</w> z wersu powyżej,
+                        oznacza „nakazać, by z ołtarzy podniósł się dym, by ołtarze wypełniły
+                        się dymem”. <w>Bούθυτοι</w> προστροπαί natomiast to uroczyste modlitwy,
+                        inwokacje modlitewne towarzyszące ofiarom z byków (chociaż,
+                        jak twierdzi Bednarek 2017: 67 w swoim komentarzu do <title>Av</title>. 1232,
+                        niekoniecznie lub nie wyłącznie z byków, por. też mój komentarz do
+                        S. <title>OT</title> 1495 i A. <title>Supp</title>. 706).</p>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>
