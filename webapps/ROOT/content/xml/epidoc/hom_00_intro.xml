@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Introduzione</title>
+                <title xml:lang="en">Introduction</title>
+                <title xml:lang="pl">Wstęp</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_01_ilias_i</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Wstęp</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, p. 1</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">Lech Trzcionkowski created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="publication_structure">
+                    <p>Niniejsza monografia została opracowana w ramach projektu badawczego <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych</title>, finansowanego ze środków Narodowego Centrum Nauki (UMO-2013/09/B/HS2/01208) i zrealizowanego w Instytucie Filologii Klasycznej Uniwersytetu Jagiellońskiego w Krakowie.</p>
+                    <p>W projekcie tym uczestniczyli: prof. dr hab. Włodzimierz Lengauer, dr hab. Krzysztof Bielawski (kierownik), dr hab. Lech Trzcionkowski, dr Bartłomiej Bednarek i mgr Przemysław Biernat.</p>
+                    <p>Badania zespołu były poddawane konsultacjom ekspertów: prof. Robert Parker (Oxford), prof. Scott Scullion (Oxford), prof. Richard Seaford (Exeter), prof. Gunnel Ekroth (Uppsala), prof. Vinciane Piren- ne-Delforge (Liège-Paris), prof. Fred Naiden (Chapel Hill), prof. Ioan- na Patera (Kraków), prof. Marek Węcowski (Warszawa), prof. Łukasz Niesiołowski Spanó (Warszawa).</p>
+                    <p>Efektem końcowym pracy projektu jest publikacja następujących monografii:</p>
+                    <p>• K. Bielawski, <title>Ofiara krwawa w Grecji starożytnej. Tragedia attycka</title>.</p>
+                    <p>• B. Bednarek, <title>Ofiara krwawa w Grecji starożytnej. Stara komedia attycka</title>.</p>
+                    <p>• B. Biernat, <title>Ofiara krwawa w Grecji starożytnej. Corpus Platonicum. Corpus Hippocraticum</title>.</p>
+                    <p>• L. Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej. Homer</title>.</p>
+                    <p>Istotną częścią projektu jest także <title>Leksykon terminologii ofiarniczej</title> – zapoczątkowany w trakcie pracy zespołu oraz kontynuowany wyłącz- nie w wersji online, jako work in progress, dostępny pod adresem: <ref corresp="http://www.sacrificium.filg.uj.edu.pl/pl/#/lexicon">http://www.sacrificium.filg.uj.edu.pl/pl/#/lexicon</ref>. Wszelkie odniesienia do haseł słownikowych tego leksykonu w tekście wszystkich monografii dotyczą tej elektronicznej publikacji.</p>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>
