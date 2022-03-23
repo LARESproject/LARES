@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Oedipus Tyrannus (Οἰδίπους Τύραννος, Edipo Re)</title>
+                <title xml:lang="en">Oedipus Tyrannus (Οἰδίπους Τύραννος, Oedipus Rex)</title>
+                <title xml:lang="pl">Oedipus Tyrannus (Οἰδίπους Τύραννος, Król Edyp)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">trag_12_oedipus_tyrannus</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Oedipus Tyrannus (Οἰδίπους Τύραννος, Król Edyp)</title>, in Krzysztof Bielawski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Tragedia attycka</title>, Warszawa 2017, pp. 171-175</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaia Fanelli">encoded document in XML</change>
+                <change when="2017" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Druga z zachowanych tragedii Sofoklesa dotyczących mitu tebańskiego
+                        rodu Labdakidów (obok <title>Antygony</title> i <title>Edypa w Kolonos</title>) i bodaj
+                        najsłynniejszy utwór dramatyczny starożytności w ogóle, podziwiany
+                        już w czasach Arystotelesa (<title>Po</title>. 11.1452a22–6, 29–33). Mimo sławy
+                        niewiele wiemy o okolicznościach jej wystawienia. Nie znamy tytułów
+                        pozostałych części trylogii i dramatu satyrowego. Data wystawienia
+                        również nie jest znana, budzi wiele kontrowersji wśród uczonych i jest
+                        rozciągana od 425 roku (Knox 1979: 112–124 i później Mitchell-Boyask
+                        2008: 56–66) po rok 433 (Müller 1984: 32–38). Najczęściej przyjmuje się
+                        jednak, że Sofokles wystawił <title>Króla Edypa</title> w Atenach podczas Wielkich
+                        Dionizjów między rokiem 429 a 425. Starożytne źródła informują, że
+                        sztuka nie zdobyła pierwszej nagrody (Liapis 2012: 85).</p>
+                    <p>Temat ofiary krwawej jest w <title>Królu Edypie </title>całkowicie nieobecny. Terminologia
+                        ofiarnicza pojawia się sporadycznie, zaledwie kilkakrotnie i bez
+                        żadnego znaczenia, czy to dla rozumienia treści sztuki, czy też krwawej
+                        ofiary. W prologu mamy temat błagania (hikesia), podobnie też na początku
+                        sceny, w której Jokasta rozpoznaje Edypa (w. 911–1072). Królowa dwukrotnie
+                        zapowiada, że jako błagalnik zamierza złożyć Apollonowi ofiary,
+                        ale są to epithymiamata (w. 913) i kateugmata (w. 920) – ofiary kadzielne
+                        i wotywne, nie krwawe. Kwestia oczyszczenia od zmazy – jakkolwiek odnotowana
+                        w komentarzu – również pozbawiona jest tego kontekstu.</p>
+                    <p>Tekst według wydania: Lloyd-Jones (1990).</p>
+                </div>
+                <div type="textpart" n="Oedipus_Tyrannus_14-16">
+                    <head>Oedipus Tyrannus 14-16</head>
+                    <p>Słowa z prologu, skierowane do Edypa przez kapłana, który wypowiada
+                        się w imieniu błagalników siedzących u stóp ołtarzy (<w>βωμοί</w>).</p>
+                    <quote><lb/>Ἀλλ᾽, ὦ κρατύνων Οἰδίπους χώρας ἐμῆς,
+                        <lb n="15"/>ὁρᾷς μὲν ἡμᾶς ἡλίκοι προσήμεθα
+                        <lb/>βωμοῖσι τοῖς σοῖς.</quote>
+                    <quote><lb/>Ależ o Edypie, władco mojego kraju,
+                        <lb n="15"/>Widzisz tu nas, siedzimy w różnym wieku
+                        <lb/>U twoich ołtarzy.</quote>
+                    <p>16: <w>βωμοῖσι</w> τοῖς <w>σοῖς</w> – „u twoich ołtarzy”. „Twoich”, czyli należących
+                        do domu Edypa, przed którym dzieje się akcja prologu sztuki – stojących
+                        przed pałacem (Kamerbeek 1967: 35). Pluralis może wskazywać,
+                        że na orchestrze musiało być ołtarzy więcej niż jeden (Poe 1989: 138 i 128
+                        na temat lokalizacji ołtarzy) i że zapewne do tych samych ołtarzy podchodzi
+                        później Jokasta (w. 919–920) – jeden z nich jest ołtarzem Apollona
+                        Lykejskiego. Kamerbeek uznaje liczbę mnogą w tym miejscu za formę
+                        retoryczną i opowiada się za jednym ołtarzem (Kamerbeek 1967, 35).</p>
+                </div>
+                
+                <div type="textpart" n="Oedipus_tyrannus_21">
+                    <head>Oedipus Tyrannus 21</head>
+                    <p>Wers z tej samej mowy kapłana, który wymienia różne miejsca
+                        święte w Tebach i wokół Teb, między innymi świątynię Apollona Ismeniosa,
+                        w której funkcjonowała wyrocznia (Pi. <title>P</title>. 9.6, Herodot 8.134,
+                        Paus. 9.11.7).</p>
+                    <quote><lb/>[θακεῖ] ἐπ᾽ Ἰσμηνοῦ τε μαντείᾳ σποδῷ.</quote>
+                    <quote><lb/>Siedzą przy popielnej wyroczni Ismenu.</quote>
+                    <p>Na temat wyroczni Apollona Ismeniosa w Tebach i praktyki wróżenia
+                        z ognia spalanych ofiar lub popiołów zob. komentarz do <title>Ant</title>.
+                        1007 oraz Kamerbeek 1967: 36.</p>
+                </div>
+                
+                <div type="textpart" n="Oedipus_Tyrannus_96-101">
+                    <head>Oedipus Tyrannus 96-101</head>
+                    <p>Passus z rozmowy Edypa z Kreonem. Kreon donosi o wyroku
+                        Apollona, który nakazał usunąć z miasta zmazę (miasma). Edyp pyta,
+                        za pomocą jakiego oczyszczenia, jakiego rytuału oczyszczającego
+                        (katharma) należy to zrobić. Kreon odpowiada, że należy miasto oczyścić
+                        (lyein), płacąc śmiercią za śmierć (φόνῳ φόνον). W wersie 1228
+                        mowa jest ponownie o oczyszczeniu domu Labdakidów – tym razem
+                        jednak już jednoznacznie o oczyszczającym obmyciu (νίψαι <w>καθαρμῷ</w>
+                        τήνδε τὴν στέγην), w poetyckiej hiperboli, za pomocą wód dwóch
+                        wielkich rzek, które i tak nie są w stanie usunąć zmazy.</p>
+                    <quote><lb/><emph>ΚΡΕΩΝ</emph>:
+                        <lb/>Ἄνωγεν ἡμᾶς Φοῖβος ἐμφανῶς ἄναξ
+                        <lb/>μίασμα χῶρας ὡς τεθραμμένον χθονὶ
+                        <lb/>ἐν τῇδ᾽ ἐλαύνειν μηδ᾽ ἀνήκεστον τρέφειν.
+                        <lb/><emph>ΟΙΔΙΠΟΥΣ</emph>:
+                        <lb/>Ποίῳ καθαρμῷ; τίς ὁ τρόπος τῆς ξυμφορᾶς;
+                        <lb n="100"/>ΚΡ.: Ἀνδρηλατοῦντας, ἢ φόνῳ φόνον πάλιν
+                        <lb/>λύοντας, ὡς τόδ᾽ αἷμα χειμάζον πόλιν.</quote>
+                    <quote><lb/><emph>KREON</emph>:
+                        <lb/>A więc władca Fojbos wyraźnie [kazał]
+                        <lb/>Zmazę tego kraju, ponieważ trwa w tej ziemi,
+                        <lb/>Wypędzić, żeby nie rosła w siłę, gdyż nie można jej uleczyć.
+                        <lb/><emph>EDYP</emph>:
+                        <lb/>Przez jakie oczyszczenie? I w jaki sposób?
+                        <lb n="100"/><emph>KR</emph>.: Trzeba wygnać sprawcę albo znów śmiercią śmierć
+                        <lb/>Obmyć, ponieważ ta krew pustoszy miasto.</quote>
+                    <p>99: Ποίῳ <w>καθαρμῷ</w> – „przez jakie oczyszczenie?”. <w>Καθαρμός</w> to rytuał
+                        oczyszczenia, ofiara oczyszczająca. Edyp pyta, jaki rytuał puryfikacyjny
+                        należy spełnić. Odpowiedź Kreona – mówiącego o krwi, którą
+                        trzeba zmazać krwią – może sugerować konieczność przeprowadzenia
+                        krwawej ofiary oczyszczającej (na ten temat zob. komentarz do <title>Eu</title>. 276–
+                        283). Kontekst jednak wskazuje, że oczyszczenie może przynieść śmierć
+                        sprawcy i to on ma stać się κάθαρμα – ofiarą oczyszczającą.</p>
+                </div>
+                
+                <div type="textpart" n="Oedipus_Tyrannus_142-143">
+                    <head>Oedipus Tyrannus 142-143</head>
+                    <p>Passus z końca prologu. Edyp po rozmowie z Kreonem podejmuje
+                        decyzję o przeprowadzeniu dochodzenia w sprawie śmierci Lajosa
+                        i ufny w skuteczność swoich działań odsyła błagalników siedzących
+                        na stopniach ołtarzy.</p>
+                    <quote><lb/>Ἀλλ᾽ ὡς τάχιστα, παῖδες, ὑμεῖς μὲν βάθρων
+                        <lb/>ἵστασθε, τούσδ᾽ ἄραντες ἱκτῆρας κλάδους.</quote>
+                    <quote><lb/>Jak najszybciej, dzieci, wstańcie ze stopni [ołtarza],
+                        <lb/>Połamcie błagalne gałązki.</quote>
+                    <p>142: <w>βάθρων</w> – „stopnie [ołtarza]. Βάθρον to podstawa, baza, piedestał,
+                        podwyższenie – w tym wypadku baza ołtarza, słowa te nawiązują
+                        do wersu 16 – gdzie błagalnicy siedzą przy ołtarzach.</p>
+                </div>
+                
+                <div type="textpart" n="Oedipus_Tyrannus_182–184">
+                    <head>Oedipus Tyrannus 182–184</head>
+                    <p>Parodos:
+                        182–184:
+                        Słowa z drugiej antystrofy chóru, który w całym parodosie opisuje
+                        i opłakuje nieszczęścia, jakie dotykają Ateny. W pierwszych
+                        wersach tej antystrofy mamy obraz martwych dzieci leżących na ulicach
+                        miasta, w kolejnych – wizję matek i żon, które szukają ratunku
+                        u bogów.</p>
+                    <quote><lb/>δ᾽ ἄλοχοι πολιαί τ᾽ ἔπι ματέρες
+                       <lb/> ἀκτὰν παρὰ βώμιον ἄλλοθεν ἄλλαι
+                        <lb/>λυγρῶν πόνων ἱκετῆρες ἐπιστενάχουσι.</quote>
+                    <quote><lb/>Dlatego żony i siwiejące już matki
+                        <lb/>Ze wszystkich stron u ołtarzy
+                        <lb/>Zawodzą w bolesnym trudzie jako błagalnice.</quote>
+                    <p>183: <w>ἀκτὰν</w> παρὰ <w>βώμιον</w> – „u ołtarzy”, dosłownie „u brzegu ołtarzy”,
+                        „przy samych ołtarzach”. Kamerbeek (1967: 63) sugeruje sens
+                        metaforyczny: ołtarze są jak wybrzeża lub skały, do których mogą bezpiecznie
+                        cumować statki i znaleźć w nich schronienie.</p>
+                </div>
+                
+                <div type="textpart" n="Oedipus_Tyrannus">
+                    <head>Oedipus Tyrannus</head>
+                    <p>Słowa z mowy Edypa otwierającej pierwszy epeisodion, po wysłuchaniu
+                        rady wyroczni delfickiej przyniesionej przez Kreona. Edyp prosi,
+                        by sprawca mordu na Lajosie sam się zgłosił i odszedł. Równocześnie
+                        nakłada klątwy i zakazy na sprawcę, kimkolwiek jest, i na każdego, kto
+                        odważy się udzielić mu pomocy. Zakazy te obejmują również wyłączenie
+                        ze wspólnych modlitw, ofiar (<w>εὐχαῖσι</w> μήτε <w>θύμασιν</w>) i oczyszczeń
+                        rytualnych (<w>χέρνιβος</w>). <w>Χέρνιψ</w> metonimicznie oznacza tu w ogóle każdy
+                        rytuał wymagający wcześniej obmycia (zob. hasło w leksykonie),
+                        jak w przytoczonym przez Demostenesa (Lept. 158) passusie z prawa
+                        Drakona: γράφων <w>χέρνιβος</w> εἴργεσθαι τὸν ἀνδροφόνον, σπονδῶν,
+                        κρατήρων, ἱερῶν, ἀγορᾶς (zob. Dawe 1982: 119).</p>
+                    <quote><lb/>Τὸν ἄνδρ᾽ ἀπαυδῶ τοῦτον, ὅστις ἐστί, γῆς
+                        <lb/>τῆσδ᾽ ἧς ἐγὼ κράτη τε καὶ θρόνους νέμω
+                        <lb/>μήτ᾽ εἰσδέχεσθαι μήτε προσφωνεῖν τινα,
+                        <lb/>μήτ᾽ ἐν θεῶν εὐχαῖσι μήτε θύμασιν
+                        <lb n="240"/>κοινὸν ποιεῖσθαι, μήτε χέρνιβος νέμειν.</quote>
+                    <quote><lb/>Nie wolno takiego człowieka, kimkolwiek jest,
+                        <lb/>W tej ziemi, na której ja sprawuję władzę i dzierżę trony,
+                        <lb/>Przyjmować w gościnę czy z nim rozmawiać,
+                        <lb/>Czy modlitw do bogów czy ofiar
+                        <lb/>Wspólnie z nim odprawiać, czy dopuszczać do rytualnych obmyć.</quote>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

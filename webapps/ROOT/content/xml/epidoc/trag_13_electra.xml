@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Electra (Ἠλέκτρα, Elettra)</title>
+                <title xml:lang="en">Electra (Ἠλέκτρα, Electra)</title>
+                <title xml:lang="pl">Electra (Ἠλέκτρα, Elektra)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">trag_13_electra</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Electra (Ἠλέκτρα, Elektra)</title>, in Krzysztof Bielawski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Tragedia attycka</title>, Warszawa 2017, pp. 177-186</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaia Fanelli">encoded document in XML</change>
+                <change when="2017" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Datacja powstania i wystawienia <title>Elektry</title> jest bardzo trudna z powodu
+                        braku jakichkolwiek źródeł zewnętrznych. Liczne próby podejmowane
+                        na podstawie analizy samego tekstu sztuki doprowadziły do powstania
+                        wielu hipotez, obejmujących okres od ok. 430 do ok. 410 roku
+                        (zob. Finglass 2007: 1–4 z przedstawieniem głównych głosów w dyskusji).
+                        Najpowszechniej przyjmuje się datę 418 (Webster 1970: 2 i 143;
+                        Kells 1973: 2; ale March 2001: 22 – rok 413).</p>
+                    <p>Bardzo bogate jest w tej tragedii słownictwo ofiarne związane
+                        z obrzędami funeralnymi i ofiarami płynnymi dla zmarłych (w. 53:
+                        <w>λοιβαῖσι</w>; 84: <w>χέοντες</w> <w>λουτρά</w>; 270: <w>σπένδοντα</w> <w>λοιβάς</w>; 326: <w>ἐντάφια</w>,
+                        931: <w>κτερίσματα</w> etc.) jednak niezwykle rzadko, jeśli w ogóle, obejmuje
+                        ono jakikolwiek aspekt ofiary krwawej lub nań wskazuje. Nawet
+                        pojęcia szerokie, jak <w>κτερίσματα</w> (= <w>κτέρεα</w>), <w>ἐντάφια</w> czy <w>λουτρά</w>,
+                        <w>δωρέομαι</w>, które obejmują rozległy zakres obrzędów, nie wykazują
+                        w kontekstach w Elektrze związków z ofiarą zwierzęcą.</p>
+                    <p>Podstawą poniższego komentarza jest edycja Finglassa (2011),
+                        w analizowanych fragmentach nieróżniąca się zresztą od kanonicznej
+                        edycji Lloyda-Jonesa (1999).</p>
+                </div>
+                <div type="textpart" n="Electra_36-37">
+                    <head>Electra 36-37</head>
+                    <p>Orestes w swej pierwszej mowie przytacza słowa wyroczni Apollona,
+                        której zapytał o to, w jaki sposób ma wymierzyć sprawiedliwość
+                        mordercom ojca. Wcześniej, w wersach 11 i 14, wychowawca Orestesa
+                        określa zabójstwo Agamemnona słowem φόνος, a w wersie 34 Orestes
+                        nazywa jego zabójców: <w>φονέυσαντες</w>. Jest to dotąd po prostu mord,
+                        a Klitajmestra i Ajgistos to zwyczajni mordercy. Natomiast w cytowanej
+                        przez Orestesa wyroczni na określenie planowanej zbrodni na
+                        mordercach pojawia się słowo <w>σφαγή</w>. Apollon nazywa ją „słuszną”,
+                        „zgodną z prawem” (ἐνδίκους <w>σφαγάς</w>). Ma zostać dokonana skrycie
+                        (<w>κλέψαι</w>) i własnymi rękami (<w>δόλοισι</w> <w>χειρός</w>).</p>
+                    <quote><lb/>ἄσκευον αὐτὸν ἀσπίδων τε καὶ στρατοῦ
+                        <lb/>δόλοισι κλέψαι χειρὸς ἐνδίκους σφαγάς.</quote>
+                    <quote><lb/>Nieuzbrojony w tarcze i wojska, sam
+                        <lb/>Podstępem własnych rąk skrycie [dokonaj] słusznych mordów
+                        [słusznych ofiar?].</quote>
+                    <p>37: <w>ἐνδίκους</w> <w>σφαγάς</w> – „słusznych mordów”. Żaden z komentarzy
+                        nie odnotowuje i nie komentuje słowa σφαγάς, jedynie March (2001:
+                        138) zwraca uwagę na pluralis, sugerując, że „usprawiedliwione mordy”
+                        będą dwa: Klitajmestry i Ajgistosa. Jednak biorąc pod uwagę fakt,
+                        że są to słowa Apollona, należy chyba uwzględnić nieprzypadkowe
+                        użycie tutaj rzeczownika σφαγή w znaczeniu krwawego rytualnego
+                        mordu odwetowego o charakterze ofiarnym, oczyszczającym. Są to
+                        i mordy, i ofiary równocześnie.</p>
+                </div>
+                
+                <div type="textpart" n="Electra_69-70">
+                    <head>Electra 69-70</head>
+                    <p>Słowa w retorycznym zwrocie skierowanym do ojcowskiego
+                        domu. Orestes nazywa siebie „tym, który dokonuje oczyszczenia
+                        domu” (<w>καθαρτής</w>), wykonawcą sprawiedliwości i posłańcem bogów.
+                        Chociaż temat ten nie jest tutaj szerzej rozwinięty, kontekst wyraźnie
+                        wskazuje, że Orestes ma na myśli krwawą ofiarę oczyszczającą. Na temat
+                        ofiary oczyszczającej – <w>καθαρμός</w> – zobacz wyczerpujące komentarze
+                        do A. <title>Eu</title>. 283.</p>
+                    <quote><lb/>ὦ πατρῷον δῶμα· σοῦ γὰρ ἔρχομαι
+                        <lb n="70"/>δίκῃ καθαρτὴς πρὸς θεῶν ὡρμημένος·</quote>
+                    <quote><lb/>O, domu rodzinny, bo przybywam,
+                        <lb n="70"/>Żeby cię sprawiedliwie oczyścić, zachęcony przez bogów.</quote>
+                    <p>70: <w>καθαρτής</w> – „ten, kto dokonuje oczyszczeń” – określenie ważne
+                        dla zrozumienia roli, jaką w dramacie Orestes odgrywa we własnych
+                        oczach (Kamerbeek 1974: 28). Rzeczownik ten nie występuje nigdzie
+                        indziej u tragików, jeszcze tylko raz u Sofoklesa, fr. 34.1: στρατοῦ
+                        <w>καθαρτὴς</w> κἀπομαγμάτων ἴδρις („ten, kto oczyszcza wojsko i zna
+                        się na oczyszczeniach”). Raz jeden pojawia się u Ar. w V. 1043. Najczęściej
+                        występuje w pismach Hipokratejskich w czysto medycznym
+                        znaczeniu, jeden raz tylko w De morbo sacro 1.23: ci, którzy dokonują
+                        oczyszczeń, wymienieni są w jednym zdaniu obok magów, wędrownych
+                        kapłanów i pyszałków (μάγοι τε καὶ <w>καθάρται</w> καὶ ἀγύρται καὶ
+                        ἀλαζόνες).</p>
+                </div>
+                
+                <div type="textpart" n="Electra_278-281">
+                    <head>Electra 278-281</head>
+                    <p>Elektra w obszernej przemowie (w. 254–309) żali się chórowi na
+                        swój los i pomstuje na Klitajmestrę, która nie tylko nie stara się ukryć
+                        swojej zbrodni, ale nawet ją uroczyście celebruje, składając w jej
+                        rocznice dziękczynne ofiary. Na uwagę zasługuje tutaj zestawione
+                        z obrzędem ofiarnym „wystawianie chórów” (w. 280: <w>χοροὺς</w> <w>ἵστησι</w>)
+                        wykonujących hymny modlitewne podczas ofiary jako stały element
+                        uroczystego rytuału (Zwolski 1978: 15–16).</p>
+                        <p>Elektra konsekwentnie opisuje śmierć swojego ojca, jak i czyn jej
+                            sprawców, w kategoriach zwykłego mordu i zwykłej śmierci (<w>θάνατος</w>,
+                            <w>ἀποθνήσκω</w>, <w>κτείνω</w>, <w>κατακτείνω</w>, <w>φονεύω</w> – np. w. 102, 205, 263, 279,
+                            358, 444, 816 etc., tak samo Klitajmestra: w. 526), bez odwoływania się do
+                            terminologii ofiarniczej.</p>
+                        <quote><lb/>εὑροῦσ᾽ ἐκείνην ἡμέραν ἐν ᾗ τότε
+                            <lb/>πατέρα τὸν ἀμὸν ἐκ δόλου κατέκτανεν,
+                            <lb n="280"/>ταύτῃ χοροὺς ἵστησι καὶ μηλοσφαγεῖ
+                            <lb/>θεοῖσιν ἔμμην᾽ ἱερὰ τοῖς σωτηρίοις.</quote>
+                        <quote><lb/>Wyznaczając ten dzień, w którym kiedyś
+                            <lb/>Ojca naszego podstępnie zabiła,
+                            <lb n="280"/>I w nim chóry wystawia, i składa owce w ofierze
+                            <lb/>Jako miesięczne święte dary dla bogów wybawicieli.</quote>
+                        <p>280: <w>μηλοσφαγεῖ</w> – „składa owce w ofierze”, „zabija owce na ofiarę”
+                            (zob. komentarz Bednarka 2017: 193, do Ar. <title>Lys</title>. 189).
+                            <w>θεοῖσιν</w> […] <w>ἱερὰ</w> τοῖς <w>σωτηρίοις</w> (w. 281) – „jako […] święte dary
+                            dla bogów wybawicieli”. Bogowie wybawiciele (Zeus i Apollon) to
+                            związani głównie z bezpieczeństwem domu i jego mieszkańców
+                            (Kells 1973, 99). W wersie 637 Klitajmestra świętuje rocznicę śmierci
+                            Agamemnona przy ołtarzach tych samych bogów. Ofiary wspomniane
+                            przez Elektrę (<w>ἱερά</w>) były typowymi ofiarami typu thysia, po których
+                            następowała uczta ofiarna (<w>δαίς</w>) – są one nazwane przez nią nieco niżej
+                            (w. 284) „strasznymi” (<w>δυσταλαῖναι</w>).</p>
+                </div>
+                
+                <div type="textpart" n="Electra_405-406">
+                    <head>Electra 405-406</head>
+                    <p>Chrysotemis w rozmowie z Elektrą – siostra przekonuje Elektrę, by
+                        była uległa i szanowała nowych władców niezależnie od popełnionych
+                        przez nich czynów, Elektra zaś pyta, dokąd siostra niesie <w>ἔμπυρα</w> – czyli
+                        ofiary przeznaczone na spalenie. Chrysotemis odpowiada, że idzie na
+                        grób ojca z ofiarami płynnymi (<w>χοάς</w>, tak samo w. 440: χοάς). Nieco dalej
+                        (w. 434) również Elektra wyjaśnia, że są to jedynie <w>κτερίσματα</w> i <w>λουτρά</w>
+                        lub po prostu dary składane na grobie (w. 438: <w>κειμήλια</w>). Termin <w>ἔμπυρα</w>
+                        pojawia się w związku z ofiarą krwawą i dlatego należy go tutaj odnotować,
+                        zwłaszcza że jego znaczenie w połączeniu z choai zastanawia.</p>
+                    <quote><lb/><emph>ΗΛΕΚΤΡΑ</emph>:
+                        <lb n="405"/>Ποῖ δ' ἐμπορεύῃ; τῷ φέρεις τάδ' ἔμπυρα;
+                        <lb/><emph>ΧΡΥΣΟΘΕΜΙΣ</emph>:
+                        <lb/>Μήτηρ με πέμπει πατρὶ τυμβεῦσαι χοάς.</quote>
+                    <quote><lb/><emph>ELEKTRA</emph>:
+                        <lb n="405"/>Dokąd idziesz? Dokąd niesiesz ofiary do spalenia?
+                        <lb/><emph>CHRYSOTEMIS</emph>:
+                        <lb/>Matka mnie posyła, żebym wylała ofiary na grobie.</quote>
+                    <p>405: <w>ἔμπυρα</w> – „ofiary do spalenia”. Znaczenie tego słowa w tym
+                        kontekście budzi wątpliwości i pytania w zestawieniu z choai z kolejnego
+                        wersu. Choai nie były ofiarami spalanymi w ogniu, jedynie wylewanymi
+                        na grobie. Elektra pyta o ofiary spalane, a w odpowiedzi słyszy jedynie
+                        o ofiarach płynnych, co wprawiało część komentatorów w konfuzję
+                        (Kells 1973: 111). Zdaniem innych Chrysotemis mogła nieść na grób
+                        zarówno jakieś ofiary do spalenia, jak i choai, co jest chyba najtrafniejszym
+                        wyjaśnieniem (Kamerbeek 1974: 65; Finglass 2007: 212). Finglass
+                        (2007: 212) przytacza źródła na rzecz komplementarnego połączenia
+                        w kulcie zmarłych obydwu tych typów ofiar (Lucian <title>VH</title> 1.26.22; E. <title>IA</title>
+                        59–60, Suda i Hesychios s.v. <w>ἐναγίζειν</w>). Empyra mogą również oznaczać
+                        naczynie służące do przenoszenia i utrzymywania żarzącego się drewna,
+                        części ofiary do spalenia lub nawet pokarmu (Sokolowski 1979: 66).
+                        Na liście różnych utensyliów ze świątyni Asklepiosa w Atenach (<title>IG</title> II2
+                        1534.94) znajduje się empyron z brązu przyczepiony do trójnogu. Niektórzy
+                        komentatorzy starali się dopatrzeć w analizowanym passusie tego
+                        właśnie znaczenia (March 2001: 166 contra Finglass 2007: 212), co jednak
+                        nie rozwiązuje w żaden sposób problemu (o ile zgodzić się, że taki jest)
+                        sprzeczności między choai a empyra, ponieważ nadal nie wiadomo, po co
+                        Chrysotemis niesie cokolwiek związanego z ogniem.</p>
+                </div>
+                
+                <div type="textpart" n="Electra_530-532">
+                    <head>Electra 530-532</head>
+                    <p>Pierwsza mowa Klitajmestry do Elektry, w której usiłuje ona uzasadnić
+                        i usprawiedliwić swój mord na Agamemnonie, przywołując
+                        ofiarę z Ifigenii złożoną wcześniej przez króla. Jednak Klitajmestra
+                        wprost nazywa śmierć córki „ofiarą dla bogów” (<w>θῦσαι</w> <w>θεοῖσιν</w>).</p>
+                    <quote><lb n="530"/>ἐπεὶ πατὴρ οὗτος σὸς ὃν θρηνεῖς ἀεὶ
+                        <lb/>τὴν σὴν ὅμαιμον μοῦνος ῾Ελλήνων ἔτλη
+                        <lb/>θῦσαι θεοῖσιν.</quote>
+                    <quote><lb n="530"/>Ponieważ ten ojciec twój, którego ciągle opłakujesz,
+                        <lb/>Jedyny spośród Greków odważył się twoją siostrę
+                        <lb/>Bogom złożyć w ofierze.</quote>
+                </div>
+                
+                <div type="textpart" n="Electra_534-538">
+                    <head>Electra 534-538</head>
+                        <p>Ciąg dalszy tej samej mowy, w której Klitajmestra domaga się od
+                            Elektry wyjaśnienia ofiary z Ifigenii. Śmierć Ifigenii królowa nazywa
+                            równocześnie złożeniem ofiary (<w>ἔθυσεν</w>) i zwykłym mordem (<w>κτανεῖν</w>
+                            – w. 536 i <w>κτανών</w> – w. 537), który domagał się odpłaty. W następnych
+                            wersach pyta, dlaczego Menelaos nie zabił zamiast Ifigenii jednego
+                            z własnych dzieci, używając czasownika <w>θνῄσκειν</w> (w. 540).</p>
+                        <quote><lb/>δίδαξον δή με τοῦ χάριν τίνων
+                            <lb n="535"/>ἔθυσεν αὐτήν. Πότερον Ἀργείων ἐρεῖς;
+                            <lb/>ἀλλ᾽ οὐ μετῆν αὐτοῖσι τήν γ᾽ ἐμὴν κτανεῖν,
+                            <lb/>ἀλλ᾽ ἀντ᾽ ἀδελφοῦ δῆτα Μενέλεω κτανὼν
+                            <lb/>τἄμ᾽ οὐκ ἔμελλεν τῶνδέ μοι δώσειν δίκην;</quote>
+                        <quote><lb/>Wyjaśnij mi, z jakich powodów
+                            <lb n="535"/>Złożył ją w ofierze? Czy powiesz, że dla Argiwów?
+                            <lb/>Ale czyż nie żądali śmierci mojej córki?
+                            <lb/>Czyż dla brata Menelaosa ją zabijając,
+                            <lb/>Mógł nie odebrać za to ode mnie kary?</quote>
+                </div>
+                
+                <div type="textpart" n="Electra_568-569">
+                    <head>Electra 568-569</head>
+                    <p>Passus z mowy Elektry wyjaśniający przyczyny gniewu Artemidy
+                        na Agamemnona przed wypłynięciem statków greckich na Troję (na
+                        ten temat zob. komentarz do A. <title>Ag</title>. 151 oraz Whallon 1961). Uraza
+                        bogini wzięła się z jakichś chełpliwych słów rzuconych przez króla po
+                        polowaniu na jelenia. Fragment ten wymaga tutaj odnotowania, ponieważ
+                        zabicie dzikiego zwierzęcia na polowaniu jest tu opisane rzeczownikiem
+                        σφαγή, należącym – w poezji tragicznej (Casabona 1966:
+                        174–188; Rudhardt 1992: 275) – do języka technicznego ofiary, choć
+                        z pewnością tutaj oznacza po prostu „zabił” (Kamerbeek 1974: 85).</p>
+                    <quote><lb/>ἐξεκίνησεν ποδοῖν
+                        <lb/>στικτὸν κεράστην ἔλαφον, οὗ κατὰ σφαγὰς
+                        <lb/>ἐκκομπάσας ἔπος τι τυγχάνει βαλών.</quote>
+                    <quote><lb/>Odgłosem kroków spłoszył
+                        <lb/>Centkowanego i rogatego jelenia, a po zabiciu go
+                        <lb/>Chełpił się i przypadkiem rzucił jakieś słowo.</quote>
+                </div>
+                
+                <div type="textpart" n="Electra_570-573">
+                    <head>Electra 570-573</head>
+                    <p>Ciąg dalszy mowy Elektry – Artemida domaga się złożenia w ofierze
+                        (ὡς πατὴρ <w>ἐκθύσειε</w>) Ifigenii zamiast dzikiego zwierzęcia.</p>
+                    <quote><lb n="570"/>Κἀκ τοῦδε μηνίσασα Λητῴα κόρη
+                        <lb/>κατεῖχ’ Ἀχαιούς, ὡς πατὴρ ἀντίσταθμον
+                        <lb/>τοῦ θηρὸς ἐκθύσειε τὴν αὑτοῦ κόρην.
+                        <lb/>Ὧδ’ ἦν τὰ κείνης θύματ[α].</quote>
+                    <quote><lb n="570"/>I z tego powodu zagniewana Latojska córka
+                        <lb/>Trzymała Achajów, żeby ojciec zamiast zwierzęcia
+                        <lb/>Własną córkę złożył w ofierze.
+                        <lb/>Stąd ta jej ofiara.</quote>
+                    <p>572: <w>ἐκθύσειε</w> – „złożył w ofierze”. Kells uważa ἐκθύσειε za równoznaczne
+                        z <w>θύσειε</w> (1973: 127). Jednak nie jest to zupełnie oczywiste.
+                        Ἐκθύω poza tym passusem występuje jeszcze tylko w Eurypidesowych
+                        <title>Orestesie</title>, wers 191 i <title>Cyklopie</title>, wers 371 oraz trzykrotnie na inskrypcjach
+                        z Kos z III w. p.n.e. (Paton, Hicks 1891: nr 44.2; 382.10; 384.3). W tych
+                        miejscach rzeczywiście trudno wyśledzić różnice semantyczne między
+                        nim a <w>θύω</w>, chociaż trzeba odnotować, że Willink (1986: 191–193) w swoim
+                        komentarzu do <title>Orestesa</title>, wers 191 sugeruje wprost, że <w>ἐκθύω</w> oznacza
+                        tam to samo co <w>σφάζω</w>, z kolei West (1987) – że słowo to sugeruje
+                        „physical slaughter”; obydwa te stanowiska trudno uznać za słuszne;
+                        Gibert (2003: 167) nazywa je taktownie „too casual”. Różnic doszukiwano
+                        się albo w emfazie, wzmocnieniu znaczenia czasownika podstawowego
+                        (tak Jebb w swojej edycji Sofoklesa i Finglass 2007: 270), albo –
+                        wprost przeciwnie – w jego osłabieniu (tak Casabona 1966: 96–97: „dans
+                        <w>ἐκθύω</w>, l’idée de sacrifice n’est pas absente, mais passe au second plan”).
+                        Jednak czasownik złożony <w>ἐκθύω</w> może mieć inne znaczenie niż <w>θύω</w>,
+                        jeśli występuje w stronie zwrotnej (Gibert 2003: 167–172; za nim Finglass
+                        2007: 270) i oznacza wówczas „przebłagać za pomocą ofiary”. W komentowanym
+                        passusie jednak, w stronie czynnej, wydaje się, że jest to
+                        synonim dla <w>θύω</w>. Finglass (2007: 270) upiera się, że prefiks przyimkowy
+                        „wzmacnia” znaczenie czasownika (cokolwiek to znaczy).</p>
+                    <p>573: <w>θύματ[α] </w>– „ofiara”, w tym miejscu: „akt składania ofiary”.
+                        Kells (1973: 127) twierdzi, że to jest to samo co <w>θυσία</w> i można się
+                        z tym zgodzić, ponieważ najczęściej <w>θῦμα</w> oznacza to, co jest składane
+                        w ofierze: zwierzę, części zwierzęcia przeznaczone na spalenie
+                        lub – jak poniżej w wersie 634 – owoce. Tak tłumaczy to Suda (s.v.
+                        βωμολόχος): τὰ ἐν τοῖς βωμοῖς ἐπιτιθέμενα <w>θύματα</w>. W tym miejscu
+                        jest t o jednak ofiara w najszerszym znaczeniu tego słowa: cały
+                        akt składania ofiary.</p>
+                    </div>
+                    
+                    <div type="textpart" n="Electra_575-576">
+                        <head>Electra 575-576</head>
+                        <p>Ciąg dalszy mowy Elektry na temat ofiary Ifigenii. W tekście
+                            zajmującym zaledwie dziesięć wersów Elektra trzykrotnie nazywa
+                            śmierć swej siostry ofiarą. W przeciwieństwie do Klitajmestry, która
+                            chętniej mówi o „śmierci” córki. Przechodząc następnie do zabójstwa
+                            Agamemnona przez Klitajmestrę, Elektra nie mówi już o ofierze, ale
+                            o zabójstwie (w. 579: τούτου <w>θανεῖν</w> / χρῆν αὐτὸν οὕνεκ᾽ ἐκ <w>σέθεν</w>).
+                            Tak samo zresztą jak dalej o prawie odpłacania śmiercią za śmierć
+                            (w. 582–583: εἰ γὰρ <w>κτενοῦμεν</w> ἄλλον ἀν᾽ ἄλλου, σύ τοι / πρώτη
+                            <w>θάνοις</w> ἄν, εἰ δίκης γε τυγχάνοις), którego sama Klitajmestra zostanie
+                            pierwszą sprawiedliwą ofiarą.</p>
+                        <quote><lb n="575"/>Ἀνθ᾽ ὧν, βιασθεὶς πολλὰ κἀντιβάς, μόλις
+                            <lb/>ἔθυσεν αὐτήν, οὐχὶ Μενέλεω χάριν.</quote>
+                        <quote><lb n="575"/>W końcu dla nich, przymuszony, choć bardzo się wzbraniał,
+                            <lb/>Złożył ją w ofierze, nie dla Menelaosa.</quote>
+                    </div>
+
+                    <div type="textpart" n="Electra_630-636">
+                        <head>Electra 630-636</head>
+                        <p>Zakończenie długiej kłótni i wymiany argumentów między Elektrą
+                            i Klitajmestrą, która zamierza modlić się i składać ofiary (<w>θῦσαί</w>) i dlatego
+                            prosi córkę o „zbożne milczenie” (<w>εὐφημία</w>). Kontekst wyraźnie
+                            wskazuje, że Klitajmestra składa Apollonowi ofiary (<w>θύματα</w>) z różnych
+                            owoców (<w>πάγκαρπ</w>[α]), a nie krwawe. <w>Θύω</w> oznacza składanie każdej
+                            ofiary, nie tylko krwawej. Należy jednak to zastosowanie odnotować.</p>
+                        <quote><lb/><emph>ΚΛΥΤΑΙΜΗΣΤΡΑ</emph>:
+                            <lb n="630"/>Οὔκουν ἐάσεις οὐδ᾽ ὑπ᾽ εὐφήμου βοῆς
+                            <lb/>θῦσαί μ᾽, ἐπειδὴ σοί γ᾽ ἐφῆκα πᾶν λέγειν;
+                            <lb/><emph>ΗΛΕΚΤΡΑ</emph>:
+                            <lb/>Ἐῶ, κελεύω, θῦε· μηδ᾽ ἐπαιτιῶ
+                            <lb/>τοὐμὸν στόμ᾽, ὡς οὐκ ἂν πέρα λέξαιμ᾽ ἔτι.
+                            <lb/><emph>ΚΛ</emph>.: Ἔπαιρε δὴ σὺ θύμαθ᾽ ἡ παροῦσά μοι
+                            <lb n="635"/>πάγκαρπ᾽, ἄνακτι τῷδ᾽ ὅπως λυτηρίους
+                            <lb/>εὐχὰς ἀνάσχω δειμάτων ἃ νῦν ἔχω.</quote>
+                        <quote><lb/><emph>KLITAJMESTRA</emph>:
+                            <lb n="630"/>Czy nie pozwolisz mi złożyć ofiar pośród słów stosownych,
+                            <lb/>Skoro ja wszystko pozwoliłam ci już powiedzieć?
+                            <lb/><emph>ELEKTRA</emph>:
+                            <lb/>Pozwalam. Proszę. Składaj ofiary. Nic już nie zarzucaj
+                            <lb/>Moim ustom, ponieważ nic już więcej nie zamierzam mówić.
+                            <lb/><emph>K</emph>.: Podaj mi na ofiary, moja towarzyszko,
+                            <lb n="635"/>Różne owoce, abym wzniosła do tego władcy modlitwy
+                            <lb/>O uwolnienie od obaw, które mam teraz.</quote>
+                    </div>
+                
+                <div type="textpart" n="Electra_1422-1423">
+                    <head>Electra 1422-1423</head>
+                    <p>Antystrofa druga z eksodosu – chór wskazuje na Orestesa i Pyladesa,
+                        którzy wychodzą zza skene po dokonaniu mordu na Klitajmestrze,
+                        zbroczeni krwią. Chór nazywa mord „ofiarą Aresa”.</p>
+                    <quote><lb/>Καὶ μὴν πάρεισιν οἵδε· φοινία δὲ χεὶρ
+                        <lb/>στάζει θυηλῆς Ἄρεος, οὐδ᾽ ἔχω ψέγειν.</quote>
+                    <quote><lb/>Oto oni! Krwawa dłoń
+                        <lb/>Ocieka ofiarną krwią Aresa, ale nie mogę ich ganić.</quote>
+                    <p>1423: <w>θυηλῆς</w> Ἄρεος – „ofiarą Aresa”, dosłownie „z ofiary dla
+                        Aresa”: <w>θυηλῆς</w> partytywnie. <w>Θυηλή</w> – rzeczownik rzadko występujący
+                        w singularis (S. fr. 208.6 oraz Ap. Rhod. 1.420 i 4.247) i w tej formie
+                        stanowiący synonim dla <w>θῦμα</w> – „to, co jest spalane na ofiarę”
+                        (u Hesychiosa s.v. <w>θυηλήν</w> mamy wyjaśnienie: <w>θυσίαν</w>). W pluralis natomiast,
+                        zdniem Casabony (1966: 122), <w>θυηλαί</w> należy traktować jako
+                        przymiotnik z eliptycznym μοῖραι na określenie „części zwierzęcia,
+                        które się spala na ofiarę” (u Hesychiosa s.v. <w>θυηλάς</w> wyjaśnione jest
+                        jako: <w>ἀπαρχάς</w>).</p>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

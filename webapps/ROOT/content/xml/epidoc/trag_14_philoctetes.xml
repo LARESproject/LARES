@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Philoctetes (Φιλοκτήτης, Filottete)</title>
+                <title xml:lang="en">Philoctetes (Φιλοκτήτης, Philoctetes)</title>
+                <title xml:lang="pl">Philoctetes (Φιλοκτήτης, Filoktet)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">trag_14_philoctetes</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Philoctetes (Φιλοκτήτης, Filoktet)</title>, in Krzysztof Bielawski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Tragedia attycka</title>, Warszawa 2017, pp. 187-188</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaia Fanelli">encoded document in XML</change>
+                <change when="2017" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p><title>Filoktet</title> został wystawiony na Wielkich Dionizjach w roku 409, w 22.
+                        roku wojny peloponeskiej. Sofokles podejmuje mit Filokteta, syna Pojasa,
+                        porzuconego przez Greków samotnie na wyspie Lemnos w drodze
+                        do Troi z powodu jątrzącej się i cuchnącej rany na nodze oraz krzyków
+                        chorego, które uniemożliwiały godne składanie ofiar bogom. Od
+                        trojańskiego wieszczka Helenosa Grecy dowiedzieli się, że bez Filokteta
+                        i jego łuku Troja nie może być zdobyta. Dramat Sofoklesa opowiada
+                        o wyprawie na Lemnos Odyseusza, zaprzysięgłego wroga Filokteta,
+                        oraz Neoptolemosa, syna Achillesa, w celu przekonania porzuconego
+                        bohatera do powrotu pod Troję – lub porwania go siłą.</p>
+                    <p>Temat ofiary jest w sztuce całkowicie nieobecny. Tylko dwa razy wspomniane
+                        są ofiary – raz jako <w>θύματα</w> (w. 8), a raz jako <w>ἱερά</w> (w. 1033), zawsze
+                        obok ofiar płynnych – <w>λοιβαί</w> (w. 8) i <w>σπένδειν</w> (w. 1033) (zob. Jouanna
+                        1992: 407). W obydwu wypadkach kontekst jest taki sam i dotyczy powodu
+                        porzucenia Filokteta przez Greków na wyspie, czyli jego krzyków, które
+                        zaburzały porządek ofiar. Obydwa passusy wyszczególniono poniżej.
+                        Tekst według wydania: Schein (2013).</p>
+                </div>
+                <div type="textpart" n="Philoctetes_7-11">
+                    <head>Philoctetes 7-11</head>
+                    <p>Słowa z prologu wypowiadanego przez Odyseusza, który wyjaśnia,
+                        dlaczego Filoktet znalazł się samotnie na Lemnos – jego krzyki powodowane
+                        bólem zakłócały możliwość sprawowania ofiar, budząc gniew
+                        bogów. W wersach 1032–1034 Filoktet sam przypomina tę okoliczność,
+                        by tym razem przekonać Greków do pozostawienia go na wyspie.</p>
+                    <quote><lb/>νόσῳ καταστάζοντα διαβόρῳ πόδα,
+                        <lb/>ὅτ᾽ οὔτε λοιβῆς ἡμὶν οὔτε θυμάτων
+                        <lb/>παρῆν ἑκήλοις προσθιγεῖν, ἀλλ᾽ ἀγρίαις
+                        <lb n="10"/>κατεῖχ᾽ ἀεὶ πᾶν στρατόπεδον δυσφημίαις,
+                        <lb/>βοῶν, στενάζων.</quote>
+                    <quote><lb/>Jego noga jątrzyła się od żrącej choroby,
+                        <lb/>Tak że ani ofiar płynnych, ani spalanych
+                        <lb/>Nie mogliśmy spokojnie się dotknąć, ale
+                        <lb/>Cały obóz ciągle wypełniały
+                        <lb/>Bluźniercze krzyki i jęki.</quote>
+                    <p>8: <w>θυμάτων</w> – <w>θύματα</w>: „ofiary”, tutaj: ofiary spalane, niekoniecznie
+                        krwawe, chociaż zapewne raczej tak, przeciwieństwo ofiar płynnych,
+                        bezkrwawych – <w>λοιβαί</w>.</p>
+                    <p>10: <w>δυσφημίαις</w> – „bluźniercze krzyki”, dosłownie „bluźnierstwo
+                        krzyków” – <w>δυσφημία</w>: przeciwieństwo <w>εὐφημία</w> – pobożnego milczenia
+                        lub słów wypowiadanych w rytualnym kontekście z właściwym
+                        szacunkiem. Stąd sama w sobie dysphemia jest złym omenem, znakiem
+                        złowróżbnym (Schein 2013: 119; Austin 2011: 44–46).</p>
+                </div>
+                
+                <div type="textpart" n="Philoctetes_1032-1034">
+                    <head>Philoctetes 1032-1034</head>
+                    <p>Filoktet, pojmany i zmuszany przez Odyseusza do wejścia na statek
+                        płynący do Troi, prosi, by go pozostawić i odwołuje się do okoliczności,
+                        które były powodem jego porzucenia na wyspie przez Greków –
+                        zakłócania krzykami bólu procesu składania ofiar (<w>ἱερά</w>). Przyczynę tę
+                        wyjaśniał w podobnych słowach w prologu sam Odyseusz (w. 7–11).</p>
+                    <quote><lb/>πῶς θεοῖς ἔξεστ᾽, ἐμοῦ
+                        <lb/>πλεύσαντος, αἴθειν ἱερά, πῶς σπένδειν ἔτι;
+                        <lb/>αὕτη γὰρ ἦν σοι πρόφασις ἐκβαλεῖν ἐμέ.</quote>
+                    <quote><lb/>W jaki sposób bogom będziecie mogli
+                        <lb/>Spalić ofiary, jeżeli z wami popłynę, jak wylać libacje?
+                        <lb/>Przecież taką miałeś wymówkę, by mnie wyrzucić!</quote>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Trachiniae (Τραχίνιαι, Le Trachinie)</title>
+                <title xml:lang="en">Trachiniae (Τραχίνιαι, Women of Trachis)</title>
+                <title xml:lang="pl">Trachiniae (Τραχίνιαι, Trachinki)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">trag_11_trachiniae</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Trachiniae (Τραχίνιαι, Trachinki)</title>, in Krzysztof Bielawski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Tragedia attycka</title>, Warszawa 2017, pp. 161-169</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaia Fanelli">encoded document in XML</change>
+                <change when="2017" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Datowanie powstania <title>Trachinek</title> Sofoklesa jest niemożliwe – nie
+                        zachowało się starożytne streszczenie sztuki, nie ma żadnych innych
+                        zewnętrznych informacji w antycznych źródłach, żadną pomocą
+                        nie służy tradycja rękopiśmienna. Wiele wysiłku poświęcono
+                        na badanie możliwych relacji czasowych między tym utworem
+                        a innymi tragediami Sofoklesa, jak również na porównywanie go
+                        z dziełami Ajschylosa i Sofoklesa. Poszukiwano związków treści
+                        sztuki z ewentualnymi wydarzeniami historycznymi, których śladów
+                        można by się doszukać w tekście. Żaden z tych wysiłków nie
+                        wyszedł poza tworzenie mniej lub bardziej (nie)prawdopodobnych
+                        hipotez (streszczenie badań zob. Easterling 1982: 19–23); nie istnieje
+                        żadna opinio communis w tej sprawie (Kamerbeek 1959: 27). Pozostaje
+                        przyjąć, że <title>Trachinki</title>, obok <title>Antygony</title> i <title>Ajasa</title>, należą do wczesnego
+                        okresu twórczości poety, a ich powstanie lokuje się między 457
+                        a 430 rokiem.</p>
+                    <p>Tematyka ofiary jest w tragedii silnie zaznaczona i obecna wyłącznie
+                        w związku z działaniem Heraklesa, który ogromną większość
+                        sztuki pozostaje nieobecny na scenie. Opisy ofiar spełnianych przez
+                        herosa obecne są głównie w mowach posłańców, heroldów i innych
+                        postaci referujących wydarzenia spoza głównej akcji. Najczęściej dotyczą
+                        one zawsze tych samych ofiar spełnianych przez Heraklesa na
+                        Eubei – dotyczy to także opisu zawartego w mowie Dejaniry, która
+                        marzy, by jej mąż w nowej szacie złożył wielką ofiarę w Kenajon.
+                        Także sam Herakles w eksodosie wspomina te same ofiary. Wielka
+                        scena ofiarna jest wpleciona w opis początku agonii herosa po włożeniu
+                        szaty Dejaniry, tworząc przejmujący obraz cierpienia.</p>
+                    <p>Tekst na podstawie wydania krytycznego: Easterling (1982).</p>
+                </div>
+                <div type="textpart" n="Trachiniae_180-183">
+                    <head>Trachiniae 180-183</head>
+                    <p>Pierwsze słowa posłańca z pierwszego epeisodionu – przynosi on
+                        wiadomość o powrocie zwycięskiego Heraklesa, który wiezie ze sobą
+                        dary ofiarne: <w>ἀπαρχαί</w>.</p>
+                    <quote><lb n="180"/>Δέσποινα Δῃάνειρα, πρῶτος ἀγγέλων
+                        <lb/>ὄκνου σε λύσω· τὸν γὰρ Ἀλκμήνης τόκον
+                        <lb/>καὶ ζῶντ᾽ ἐπίστω καὶ κρατοῦντα κἀκ μάχης
+                        <lb/>ἄγοντ᾽ ἀπαρχὰς θεοῖσι τοῖς ἐγχωρίοις.</quote>
+                    <quote><lb/>Pani Dejaniro, ja pierwszy z posłańców
+                        <lb/>Uwolnię cię od obawy: bo wiem, że syn Alkmeny
+                        <lb/>I żyje, i jest zwycięski, i pierwociny z walki
+                        <lb/>Wiedzie dla bogów ojczystych.</quote>
+                    <p>182–183: μάχης […] <w>ἀπαρχὰς</w> θεοῖσι τοῖς ἐγχωρίοις – „pierwociny
+                        z walki […] dla bogów ojczystych”. <w>Ἀπαρχαί</w> to ofiary stanowiące
+                        pierwocinę, część wyodrębnioną z większej całości: produktów rolnych,
+                        upolowanych zwierząt, żywności, majątku, czy wreszcie – jak
+                        w tym miejscu – łupów wojennych (Jim 2014: 36; Parker 2004: 275:
+                        preliminary offering [niekoniecznie: sacrifice – K.B.] from a greater whole).
+                        Nie muszą one być koniecznie związane z ofiarą krwawą – mogą
+                        mieć charakter anatemy składanej w świątyni, daru wotywnego czy
+                        tropajonu w przypadku aparchai wojennych (w w. 751 mamy: τροπαῖα
+                        κἀκροθίνια, zob. Jim 2014: 176–177). Z wersów 760–761 cytowanych
+                        poniżej wiemy, że łupy wojenne wiezione jako dary przez Heraklesa
+                        obejmowały też stado stu zwierząt domowych, z których wybrana
+                        część – jako aparchai – zostanie przez herosa złożona w ofierze Zeusowi
+                        na Eubei. W komentowanym miejscu raczej wiadomo, że posłaniec
+                        ma na myśli wszystkie łupy wojenne Heraklesa i wszystkie możliwe
+                        aparchai z nich wybierane – także te, które zostaną złożone jako ofiara
+                        krwawa. Wśród łupów Heraklesa są też jeńcy, kobiety, o których Lichas
+                        mówi (w. 244–245), że dla zdobywcy są one łupem (αὑτῷ κτῆμα),
+                        ale też przeznaczoną dla bogów wybraną częścią zdobyczy (καὶ θεοῖς
+                        κριτόν). Passus ten jest ważny jako pierwsza wzmianka o ofierze,
+                        powracającej też w wersach 237–241, 287–288, 608–613, 750–766, 993–
+                        –995 (wszystkie passusy komentowane poniżej).</p>
+                </div>
+                
+                <div type="textpart" n="Trachiniae_237-238">
+                    <head>Trachiniae 237-238</head>
+                    <p>Słowa Lichasa, herolda Heraklesa, który opowiada o tym, co się dzieje
+                        z Heraklesem. Według jego słów heros przebywa na Eubei i oddaje
+                        cześć Zeusowi Kenajskiemu: zamierza budować ołtarze (<w>βωμούς</w>) i składać
+                        ofiary z owoców (<w>τέλη</w> <w>ἔγκαρπα</w>). Ołtarze, o których wzmiankuje się
+                        tutaj po raz pierwszy, staną się miejscem ofiary z byków w późniejszych
+                        scenach. Βωμούς i <w>τέλη</w> tworzą konstrukcję zeugmatyczną z <w>ὁρίζεται</w> –
+                        Herakles „wyznacza” miejsca i na ołtarze, i na składanie ofiar z owoców,
+                        zapewne w jakimś określonym temenosie (Kamerbeek 1959: 76).</p>
+                    <quote><lb/>Ἀκτή τις ἔστ᾽ Εὐβοιίς, ἔνθ᾽ ὁρίζεται
+                        <lb/>βωμοὺς τέλη τ᾽ ἔγκαρπα Κηναίῳ Διί.</quote>
+                    <quote><lb/>Jest gdzieś na wybrzeżu Eubei, gdzie wyznacza miejsca na
+                        <lb/>Ołtarze i ofiary z owoców dla Zeusa Kenajskiego.</quote>
+                    <p>Kenajon leży na najdalej na północny zachód wysuniętym cyplu
+                        Eubei (Geisau 1921: 163–164), miejsce kultu Zeusa Kenaiosa (Adler
+                        1921: 164–165). Por. [Apollod.] 2.7.7 (157).</p>
+                </div>
+                
+                <div type="textpart" n="Trachiniae_287-289">
+                    <head>Trachiniae 287-289</head>
+                    <p>Passus z opowieści Lichasa, który ponownie zapowiada, że Herakles
+                        powróci natychmiast, jak tylko skończy składanie ofiar Zeusowi
+                        (o których mowa powyżej, w. 238).</p>
+                    <quote><lb/>Αὐτὸν δ᾽ ἐκεῖνον, εὖτ᾽ ἂν ἁγνὰ θύματα
+                        <lb/>ῥέξῃ πατρῴῳ Ζηνὶ τῆς ἁλώσεως,
+                        <lb/>φρόνει νιν ὡς ἥξοντα·</quote>
+                    <quote><lb/>On zaś sam, jak tylko czyste ofiary
+                        <lb/>Spełni dla ojca Zeusa za zdobycie miasta,
+                        <lb/>Zobacz go, jak nadchodzi!</quote>
+                    <p>287–288: <w>ἁγνὰ</w> θύματα <w>ῥέξῃ</w> – „czyste ofiary spełni”. Kamerbeek
+                        (1959: 85, za scholiastą, czego nie odnotowuje w komentarzu) sugeruje,
+                        że rozumie tutaj przez <w>ἁγνά</w> ofiary oczyszczające (scholion: ὅταν
+                        διὰ τῆς θυσίας καθάρῃ αὑτὸν ἀπὸ τοῦ φόνου), które są jednocześnie
+                        wotywnymi ofiarami dziękczynnymi za zwycięstwo. Takie znaczenie
+                        <w>ἁγνά</w> jest niemożliwe – przymiotnik ten w takiej funkcji nie występuje
+                        – interpretacja ta jest błędna (Rudhardt 1992: 39–41). Ofiary te mogą
+                        być skutecznymi darami wotywnymi i dziękczynnymi tylko dlatego,
+                        że są <w>ἁγνά</w> – czyste i doskonałe, nie mogą natomiast „stawać się” <w>ἁγνά</w>
+                        dopiero w trakcie ich składania, a tym bardziej nie mogą „czynić kogoś
+                        czystym”. Poza wszystkim Herakles przed wyruszeniem na wyprawę
+                        przeciwko Eurytosowi już dostąpił oczyszczenia od skalania za
+                        mord na Ifitosie (w. 258: ὅθ᾽ <w>ἁγνὸς</w> ἦν). Przymiotnik <w>ἁγνός</w> oznacza
+                        wzniosłość i ponadczasową czystość („une pureté extratemporelle”),
+                        którymi muszą się cechować składający ofiary, ale i same ofiary, żeby
+                        mogły zostać przyjęte przez bogów (Rudhardt 1992: 41; por. też komentarz
+                        do tego passusu u Casabony 1966: 305–306).</p>
+                    <p>Czasownik <w>ῥέζω</w> (lub jako <w>ἔρδω</w>) należy do ścisłego języka technicznego
+                        ofiary krwawej (Rudhardt 2008: 137–138) ustalonego już u Homera
+                        (Casabona 1966: 305); w ogólnym znaczeniu oznacza „spełniać,
+                        robić”, w kontekście ofiarnym przyjmuje znaczenie „spełniać ofiarę”
+                        (tak już u Homera: <title>Od</title>. 1.61; 3.5; 5.102; <title>Il</title>. 23.206; 2.400; 8.250; pełen katalog
+                        wystąpień: Rudhardt 2008: 137–138 z przypisami 194–198).</p>
+                </div>
+                
+                <div type="textpart" n="Trachiniae_604-613">
+                    <head>Trachiniae 604-613</head>
+                    <p>Skierowane do Lichasa słowa Dejaniry, która wręcza heroldowi
+                        szatę (peplos, chociaż w w. 612 Dejanira nazywa go też chitonem) jako
+                        dar dla Heraklesa, zastrzegając, by nikt go wcześniej ani nie wkładał
+                        na siebie, ani nawet nie oglądał. Wyobraża ona sobie męża w nowej
+                        szacie w czasie sprawowania obrzędów ofiarnych.</p>
+                    <quote><lb/>Διδοὺς δὲ τόνδε φράζ᾽ ὅπως μηδεὶς βροτῶν
+                        <lb n="605"/>κείνου πάροιθεν ἀμφιδύσεται χροΐ,
+                        <lb/>μηδ᾽ ὄψεταί νιν μήτε φέγγος ἡλίου
+                        <lb/>μήθ᾽ ἕρκος ἱερὸν μήτ᾽ ἐφέστιον σέλας,
+                        <lb/>πρὶν κεῖνος αὐτὸν φανερὸς ἐμφανῆ σταθεὶς
+                        <lb/>δείξῃ θεοῖσιν ἡμέρᾳ ταυροσφάγῳ.
+                        <lb n="610"/>Οὕτω γὰρ ηὔγμην, εἴ ποτ᾽ αὐτὸν ἐς δόμους
+                        <lb/>ἴδοιμι σωθέντ᾽ ἢ κλύοιμι πανδίκως,
+                        <lb/>στελεῖν χιτῶνι τῷδε καὶ φανεῖν θεοῖς
+                        <lb/>θυτῆρα καινῷ καινὸν ἐν πεπλώματι.</quote>
+                    <quote><lb/>Dając go, powiedz, żeby nikt ze śmiertelnych
+                        <lb n="605"/>Przed nim samym nie przywdziewał go na ciało,
+                        <lb/>By nie oglądał go blask słońca
+                        <lb/>Ani święty okrąg, ani światło domowego ogniska,
+                        <lb/>Zanim on sam widoczny nie stanie na widoku
+                        <lb/>I nie pokaże się w dniu składania bogom ofiar z byków.
+                        <lb n="610"/>Tak ślubowałam, że jeśli kiedyś zobaczę go w domu
+                        <lb/>Ocalonego albo naprawdę o tym usłyszę,
+                        <lb/>To ubiorę go w ten chiton i pokażę go bogom
+                        <lb/>Jako ofiarnika nowego w nowej szacie.</quote>
+                    <p>609: θεοῖσιν ἡμέρᾳ <w>ταυροσφάγῳ</w> – „w dniu składania bogom
+                        ofiar z byków”, dosłownie „w dniu dla bogów byczoofiarnym”.
+                        <w>Ταυροσφαγός</w> – przymiotnik złożony opisujący to, co związane
+                        jest z zabijaniem rytualnym (temat <w>σφαγ-</w>) byków (<w>ταῦρος</w>), występujący
+                        tylko w tym miejscu. U Ajschylosa występuje czasownik
+                        <w>ταυροσφαγέω</w>, zob. szczegółowy komentarz do <title>Th</title>. 43.</p>
+                    <p>613: <w>θυτῆρα</w> – „jako ofiarnik”, tak samo poniżej wers 659; zob. komentarz
+                        do A. <title>Ch</title>. 255.</p>
+                </div>
+                
+                <div type="textpart" n="Trachiniae_655-659">
+                    <head>Trachiniae 655-659</head>
+                    <p>Końcowa antystrofa drugiego stasimonu, w której chór wzywa Heraklesa
+                        do powrotu statkiem z Eubei, gdzie składa ofiary – co podkreślane
+                        jest kolejny już raz.</p>
+                    <quote><lb n="655"/>Ἀφίκοιτ᾽ ἀφίκοιτο· μὴ σταίη
+                        <lb/>πολύκωπον ὄχημα ναὸς αὐτῷ,
+                        <lb/>πρὶν τάνδε πρὸς πόλιν ἀνύσει
+                        <lb break="no"/>ε, νασιῶτιν ἑστίαν
+                        <lb/>ἀμείψας, ἔνθα κλῄζεται θυτήρ·
+                    </quote>
+                    <quote><lb n="655"/>Niech przybywa! Niech przybywa! Niech nie
+                        <lb/>zatrzyma mu się okręt o wielu wiosłach,
+                        <lb/>zanim dotrze do tego miasta!
+                        <lb/>Opuściwszy ołtarz na wyspie,
+                        <lb/>gdzie słynie z tego, że jest ofiarnikiem.</quote>
+                    <p>658: νασιῶτιν <w>ἑστίαν</w> – „ołtarz na wyspie”, dosłownie „wyspiarskie
+                        palenisko [ołtarza]”. <w>Ἑστία</w> tutaj metonimicznie na oznaczenie ołtarza.
+                        θυτήρ – „ofiarnik” (por. Benveniste 1948: 34–35 i 40), tak samo powyżej
+                        wers 659; zob. komentarz do A. <title>Ch</title>. 255.</p>
+                </div>
+                
+                <div type="textpart" n="Trachiniae_752-788">
+                    <head>Trachiniae 752-788</head>
+                    <p>Passus z mowy Hyllosa, który opowiada matce o śmierci ojca z powodu
+                        szaty od niej otrzymanej. Śmierć ta nastąpiła podczas składania
+                        ofiary z byków – stąd obszerny opis obrzędu, w którym kontrastuje
+                        się śmierć herosa ze śmiercią zwierząt ofiarnych. Herakles składał swe
+                        ofiary w nowych szatach Dejaniry jeszcze w Kenajon na Eubei, przy
+                        ołtarzach, które wcześniej już były wspominane. Herakles uprowadził
+                        jako łup stado stu zwierząt, spośród których jako aparchai zabił na
+                        ofiarę dwanaście. Ofierze towarzyszyła uroczysta modlitwa (w. 764:
+                        <w>κατηύχετο</w>), a zwierzęta już zostały położone w płomieniach. <w>Σφα-
+                        γαί</w> z wersu 756 oznaczają akty rytualnego zabicia zwierząt. Ponieważ
+                        jest to ofiara dla Zeusa, należy przypuszczać, że była to typowa ofiara
+                        typu thysia, składana na ołtarzu, który jest konsekwentnie nazywany
+                        w sztuce <w>βωμός</w> (lub metonimicznie: ἑστία).</p>
+                    <quote><lb/>ἀκτή τις ἀμφίκλυστος Εὐβοίας ἄκρον
+                        <lb/>Κήναιον ἔστιν, ἔνθα πατρῴῳ Διὶ
+                        <lb/>βωμοὺς ὁρίζει τεμενίαν τε φυλλάδα·
+                        <lb n="755"/>οὗ νιν τὰ πρῶτ᾽ ἐσεῖδον ἄσμενος πόθῳ.
+                        <lb/>Μέλλοντι δ᾽ αὐτῷ πολυθύτους τεύχειν σφαγὰς
+                        <lb/>ùκῆρυξ ἀπ᾽ οἴκων ἵκετ᾽ οἰκεῖος Λίχας,
+                        <lb/>τὸ σὸν φέρων δώρημα, θανάσιμον πέπλον·
+                        <lb/>ὃν κεῖνος ἐνδύς, ὡς σὺ προυξεφίεσο,
+                        <lb n="760"/>ταυροκτονεῖ μὲν δώδεκ᾽ ἐντελεῖς ἔχων
+                        <lb/>λείας ἀπαρχὴν βοῦς· ἀτὰρ τὰ πάνθ᾽ ὁμοῦ
+                        <lb/>ἑκατὸν προσῆγε συμμιγῆ βοσκήματα.
+                        <lb/>Καὶ πρῶτα μὲν δείλαιος ἵλεῳ φρενὶ
+                        <lb/>κόσμῳ τε χαίρων καὶ στολῇ κατηύχετο·
+                        <lb n="765"/>ὅπως δὲ σεμνῶν ὀργίων ἐδαίετο
+                        <lb/>φλὸξ αἱματηρὰ κἀπὸ πιείρας δρυός,
+                        <lb/>ἱδρὼς ἀνῄει χρωτὶ καὶ προσπτύσσεται
+                        <lb/>πλευραῖσιν ἀρτίκολλος.</quote>
+                    <quote><lb/>Jest na Eubei pewien cypel daleko wysunięty
+                        <lb/>– Kenajon; tam ojcu Zeusowi
+                        <lb/>Ołtarze zakłada i święty gaj.
+                        <lb n="755"/>Tam go pierwszy raz zobaczyłem, szczęśliwy, po długiej tęsknocie.
+                        <lb/>Do niego, kiedy już zamierzał wiele zwierząt zabić na ofiarę,
+                        <lb/>Przyszedł z domu herold rodzinny Lichas,
+                        <lb/>Niosąc twój prezent, śmiertelny peplos;
+                        <lb/>On, kiedy go założył, tak jak poleciłaś,
+                        <lb n="760"/>Zabija dwanaście doskonałych byków,
+                        <lb/>Biorąc woły jako pierwociny z łupów. Wszystkich razem
+                        <lb/>Setkę przyprowadził najróżniejszych zwierząt.
+                        <lb/>Najpierw biedak z pogodnym sercem
+                        <lb/>I ucieszony pięknem szaty, modlił się.
+                        <lb n="765"/>Kiedy płonął świętych ofiar
+                       <lb/> Ogień krwawy na grubych dębowych polanach,
+                        <lb/>Pot wystąpił mu na skórze
+                        <lb/>I wżerał się w żebra.</quote>
+                    <p>756: <w>πολυθύτους</w> τεύχειν <w>σφαγάς</w> – „wiele zwierząt zabić na ofiarę”.
+                        <w>Πολύθυτος</w> – przymiotnik złożony (z <w>θύω</w> i <w>πολύ</w>), występujący
+                        u Sofoklesa tylko w tym miejscu, poza tym jeszcze tylko u Eurypidesa
+                        (<title>Heracl</title>. 777 i <title>IA</title> 185) i Pindara (<title>P</title>. 5, 77 i <title>Nem</title>. 7, 47). Z kontekstów
+                        wynika, że oznacza tyle, co <w>θύειν</w> <w>πολλὰ</w> [<w>σφάγια</w> czy też <w>θυσία</w>] (tak
+                        sugeruje Kamerbeek 1959: 165 w komentarzu do tego miejsca, wskazując
+                        jednak – nietrafnie – na <w>σφάγια</w>), chociaż lepiej byłoby chyba
+                        powiedzieć <w>θύειν</w> <w>πολλὰ</w> <w>θύματα</w>. Jego znaczenie musiało chyba być
+                        oczywiste z powodu przejrzystej etymologii, ponieważ nie występuje
+                        ani w scholiach, ani w leksykonach bizantyjskich.</p>
+                    <p>760: ταυροκτονεῖ μὲν δώδεκ᾽ <w>ἐντελεῖς</w> – „zabija dwanaście doskonałych
+                        byków”; <w>ἐντελής</w>: w odniesieniu do zwierząt ofiarnych oznacza
+                        „doskonały”, „bez skazy”, tutaj – tyle, co najlepszy: Herakles wybrał
+                        na aparchai dwanaście najlepszych sztuk.</p>
+                    <p>761: <w>ἀπαρχὴν</w> βοῦς – „woły jako pierwociny”, zob. komentarz powyżej
+                        do wersu 183.</p>
+                    <p>765–766: σεμνῶν <w>ὀργίων</w> ἐδαίετο φλὸξ αἱματηρά – „płonął świętych
+                        ofiar krwawy ogień”; „krwawy ogień”, poetyzm, to samo, co
+                        „ogień spalający krew”. <w>Ὄργια</w> – tutaj znaczy tyle, co <w>θυσίαι</w>, „ofiary”
+                        (Schuddeboom 2009: 142; Bielawski 2004: 123–124). W tej jednoznacznie
+                        określonej wersji rzeczownik ten występuje w epoce klasycznej tylko
+                        u Sofoklesa (w tym miejscu oraz w <title>Ant</title>. 1013 [zob. komentarz oraz
+                        hasło w leksykonie]).</p>
+                </div>
+                
+                <div type="textpart" n="Trachiniae_904-905">
+                    <head>Trachiniae 904-905</head>
+                    <p>Passus z mowy piastunki opowiadającej o samobójczej śmierci Dejaniry,
+                        która przed zadaniem sobie ciosu mieczem błąka się po domu
+                        i żegna ze sprzętami, w tym także siada przy ołtarzu (<w>βωμοῖσι</w> – tutaj
+                        chyba pluralis jako forma poetycka zamiast singularis), który stanie się
+                        pusty (<w>ἔρημος</w>), ponieważ nie będzie miał kto składać na nim ofiar.</p>
+                    <quote><lb/>βρυχᾶτο μὲν βωμοῖσι προσπίπτουσ᾽ ὅτι
+                        <lb n="905"/>γένοιτ᾽ ἔρημοι.</quote>
+                    <quote><lb/>Jęczała, przypadłszy do ołtarzy,
+                        <lb n="905"/>Że zostaną puste.</quote>
+                </div>
+                
+                <div type="textpart" n="Trachiniae_993-995">
+                    <head>Trachiniae 993-995</head>
+                    <p>Modlitwa konającego Heraklesa z początku eksodosu. Heros wspomina
+                        swoje ofiary dla Zeusa na Eubei i wyrzuca bogu niewdzięczność.</p>
+                    <quote><lb/>Ὦ Κηναία κρηπὶς βωμῶν,
+                        <lb/>ἱερῶν οἵαν οἵων ἐπί μοι
+                        <lb n="955"/><!-- errore nella numerazione: 995 -->μελέῳ χάριν ἠνύσω, ὦ Ζεῦ.</quote>
+                    <quote><lb/>O, kenajska podstawo ołtarzy,
+                        <lb/>Jaką za ofiary wdzięczność
+                        <lb n="955"/><!-- errore nella numerazione: 995 -->Mnie nieszczęśliwemu oddałeś? O Zeusie!</quote>
+                    <p>993: <w>κρηπὶς</w> <w>βωμῶν</w> – „podstawo ołtarzy”, peryfraza dla βωμοί.
+                        <w>Κρηπίς</w> stanowi terminus technicus dla bazy ołtarza.</p>
+                </div>
+                
+                <div type="textpart" n="Trachiniae_1191-1192">
+                    <head>Trachiniae + 1191-1192</head>
+                    <p>Wersy z wymiany zdań między Heraklesem i jego synem Hyllosem
+                        na temat przygotowania do śmierci herosa na szczycie góry Ojta.</p>
+                    <quote><lb/><emph>ΗΡΑΚΛΗΣ</emph>:
+                        <lb/>Οἶσθ' οὖν τὸν Οἴτης Ζηνὸς ὕψιστον πάγον;
+                        <lb/><emph>ΥΛΛΟΣ</emph>:
+                        <lb/>Οἶδ', ὡς θυτήρ γε πολλὰ δὴ σταθεὶς ἄνω.</quote>
+                    <quote><lb/><emph>HERAKLES</emph>:
+                        <lb/>Czy więc znasz najwyższy szczyt Zeusowej Ojty?
+                        <lb/><emph>HYLLOS</emph>:
+                        <lb/>Znam, ponieważ jako ofiarnik często stawałem na górze.</quote>
+                    <p>1192: <w>θυτήρ</w> – „jako ofiarnik”, zob. komentarz powyżej do wersu
+                        659 z odniesieniem do A. <title>Ch</title>. 255.</p>
+                    
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>
