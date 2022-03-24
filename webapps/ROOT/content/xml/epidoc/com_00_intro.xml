@@ -23,7 +23,7 @@
         </fileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2022-03-14" who="Irene Vagionakis">encoded document in XML</change>
+                <change when="2022-03-23" who="Irene Vagionakis">encoded document in XML</change>
                 <change when="2017" who="Bartłomiej Bednarek">created document contents</change>
             </listChange>
         </revisionDesc>
@@ -107,9 +107,9 @@
                     <p>Na istnienie rozgraniczenia wskazują nawet proste wyrażenia, które Redfield cytuje jako świadectwo na rzecz tezy przeciwnej, jak choćby urywek fragmentu 148 Epicharma: ἐκ θυσίας θοῖνα, „ofiara prowadzi do uczty” (cf. Ar. <title>Nu.</title> 309: θυσίαι καὶ θαλίαι: „ofiary i uczty”). Słowa te oczywiście wskazują na istnienie silnego związku pomiędzy rytuałem ofiary krwawej i przyjemnością jedzenia, niemniej, w swoim pierwotnym kontekście (choć fragment jest okaleczony), sugerują one coś innego:</p>
                     <quote>
                         <lb/>†ἐκ μὲν θυσίας θοῖνα, 
-                        <lb/>ἐκ δὲ θοῖνας πόσις ἐγένετο. (B.) χαρίεν, ὧσ γ’ ἐμοὶ <corr>δοκεῖ</corr>.
+                        <lb/>ἐκ δὲ θοῖνας πόσις ἐγένετο. (B.) χαρίεν, ὧσ γ’ ἐμοὶ <supplied reason="omitted">δοκεῖ</supplied>.
                         <lb/>(Α.) ἐκ δὲ πόσιος κῶμος, ἐκ κώμου δ’ ἐγένεθ’ ὑανία,
-                        <lb/>ἐκ δ' ὑανίας δίκα, <corr>’ κ δίκας δ’ ἐγένετο καταδίκα></corr>,
+                        <lb/>ἐκ δ' ὑανίας δίκα, <supplied reason="omitted">’ κ δίκας δ’ ἐγένετο καταδίκα></supplied>,
                         <lb/>ἐκ δὲ καταδίκας πέδαι τε καὶ σφαλὸς καὶ ζαμία.
                     </quote>
                     <quote>
