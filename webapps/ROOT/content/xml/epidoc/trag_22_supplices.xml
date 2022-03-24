@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Supplices (Ἱκέτιδες, Le Supplici)</title>
+                <title xml:lang="en">Supplices (Ἱκέτιδες, The Suppliants)</title>
+                <title xml:lang="pl">Supplices (Ἱκέτιδες, Błagalnice)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">trag_22_supplices</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Supplices (Ἱκέτιδες, Błagalnice)</title>, in Krzysztof Bielawski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Tragedia attycka</title>, Warszawa 2017, pp. 273-281</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaia Fanelli">encoded document in XML</change>
+                <change when="2017" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p><title>Błagalnice</title> są wielką sztuką polityczną, pochwałą Aten i ateńskiej demokracji.
+                        Nie znamy dokładnej daty jej wystawienia, uznając jednak,
+                        że zawiera odniesienia do rzeczywistych wydarzeń z wojny peloponeskiej
+                        – odmowy wydania zwłok poległych Ateńczyków przez Teban
+                        po bitwie pod Delion w roku 424 – przyjmuje się, że powstała między
+                        rokiem 424 a 421 (pełna bibliografia historii badań nad datowaniem
+                        utworu – na lata od 424 do 416 – zob. Collard 1975, vol. 1: 8–14).</p>
+                    <p>Temat pochówku poległych pod Tebami siedmiu wodzów, zwołanych
+                        przez Polynejkesa przeciwko Eteoklesowi, został przez Eurypidesa
+                        opracowany dramatycznie w perspektywie „odwiecznych praw helleńskich”
+                        (w. 524–526: νεκροὺς δὲ τοὺς θανόντας […] θάψαι δικαιῶ,
+                        τὸν Πανελλήνων <w>νόμον</w>, w. 563: <w>νόμος</w> παλαιός, por. w. 538) i politycznej
+                        debaty między demokracją a tyranią. Problematyka religijna
+                        w ogóle nie jest w tej debacie brana pod uwagę.</p>
+                    <p>Słownictwo ofiarne pojawia się w tragedii marginalnie, w pierwszych
+                        scenach reprezentuje je ołtarz przed świątyniami Demeter i Persefony
+                        w Eleusis – miejsce akcji, błagania (hikesia) matek poległych
+                        wodzów. Dwukrotnie wzmiankowane są techniki mantyczne związane
+                        ze składaniem ofiar. Jedyny większy passus pochodzi z eksodosu,
+                        w którym Atena poleca Tezeuszowi spełnić ofiarę w Delfach.</p>
+                    <p>Tekst według wydania: Collard (1975, vol. 1).</p>
+                </div>
+                <div type="textpart" n="Supplices_28-36">
+                    <head>Supplices 28-36</head>
+                    <p>Słowa z prologu wypowiadane przez Ajthrę, matkę Tezeusza, która
+                        przybywa do Eleusis złożyć ofiary i zatrzymuje się przy ołtarzu obu
+                        bogiń przed wejściem do sanktuarium eleuzyńskiego, przyłączając się
+                        do błagalnic – matek poległych dowódców. Okazuje im litość i wysyła
+                        posłańca po Tezeusza, by przedstawić im ich prośbę o odzyskanie
+                        zwłok.</p>
+                    <quote><lb/>τυγχάνω δ᾽ ὑπὲρ χθονὸς
+                        <lb/>ἀρότου προθύουσ᾽, ἐκ δόμων ἐλθοῦσ' ἐμῶν
+                        <lb n="30"/>πρὸς τόνδε σηκόν, ἔνθα πρῶτα φαίνεται
+                        <lb/>φρίξας ὑπὲρ γῆς τῆσδε κάρπιμος στάχυς.
+                        <lb/>δεσμὸν δ᾽ ἄδεσμον τόνδ᾽ ἔχουσα φυλλάδος
+                        <lb/>μένω πρὸς ἁγναῖς ἐσχάραις δυοῖν θεαῖν
+                        <lb/>Κόρης τε καὶ Δήμητρος, οἰκτίρουσα μὲν
+                        <lb n="35"/>πολιὰς ἄπαιδας τάσδε μητέρας τέκνων,
+                        <lb/>σέβουσα δ᾽ ἱερὰ στέμματ'.</quote>
+                    <quote><lb/>Właśnie szłam z mojego pałacu, żeby złożyć
+                        <lb/>Pierwsze ofiary za owoce ziemi,
+                        <lb n="30"/>Do tego świętego kręgu, gdzie pierwszy raz pojawił się
+                        <lb/>Na tej ziemi szorstki owoc kłosa.
+                        <lb/>Dzierżąc luźno związany bukiet liści,
+                        <lb/>Trwam przy ołtarzach obu bogiń
+                        <lb/>Kory i Demeter, żałując
+                        <lb n="35"/>Tych siwych matek pozbawionych dzieci
+                        <lb/>I czczę święte wstęgi.</quote>
+                    <p>29: <w>ἀρότου</w> <w>προθύουσα</w> – „pierwsze ofiary za owoce”. Czasownik
+                        <w>προθύω</w> (jak odpowiadający mu rzeczownik <w>πρόθυμα</w>, zob. Ziehen
+                        1904: passim) odnosi się najczęściej do „ofiar wstępnych”, przygotowawczych,
+                        składanych przed zasadniczą ofiarą podczas jakiejś uroczystości
+                        ofiarnej (preliminary sacrifice), w tym znaczeniu może być
+                        częściowo tożsamy z czasownikiem <w>κατάρχεσθαι</w>, który jednak najczęściej
+                        opisuje rytuały wstępne stanowiące część obrzędu ofiary (Ziehen
+                        1904: 401–403; Mikalson 1972: 577–578). Może też jednak oznaczać
+                        ofiarę z pierwocin w kultach o charakterze agrarnym – akt oddania
+                        bogu pierwszej części zbiorów (Ziehen 1904: 391, 393). I tutaj najprawdopodobniej
+                        mamy do czynienia z tym znaczeniem. Ajthra przybywa
+                        do Eleusis z ofiarami „owoców ziemi”, żeby je prothyein – złożyć jako
+                        pierwsze, dziękując za zbiory i prosząc o dobre plony w przyszłości
+                        (por. Morwood 2007: 147). Najpewniej Eurypides odnosi się tutaj do
+                        święta nazywanego Proerosia, obchodzonego w Eleusis szóstego dnia
+                        miesiąca Pyanopsion, przed jesiennymi zasiewami, około dwanaście
+                        dni po wielkich misteriach eleuzyjskich (Bowie 1997: 53; Mikalson
+                        1975: 67–69; Brumfield 1981; Deubner 1932: 68; Calderón Dorda 2011:
+                        51; Parker 2005a: 479). O ofiarach składanych podczas tego święta leksykon
+                        Suda mówi: <w>Προηροσίαι</w>: αἱ <w>πρὸ</w> τοῦ <w>ἀρότρου</w> γινόμεναι <w>θυσίαι</w>
+                        περὶ τῶν μελλόντων ἔσεσθαι καρπῶν – „ofiary składane za owoce,
+                        w intencji przyszłych zbiorów”.</p>
+                    <p>33: μένω πρὸς <w>ἁγναῖς</w> <w>ἐσχάραις</w> δυοῖν θεαῖν – na temat dokładnej
+                        lokalizacji tych ołtarzy (nie: ołtarza, pluralis w tej frazie nie jest poeticum!,
+                        jak zdaje się rozumieć w swoim przekładzie Łanowski) w strukturze
+                        sanktuarium eleuzyńskiego zob. komentarz do inskrypcji z Eleusis
+                        nr 30 w edycji Clintona, wersy 16–17 (Bielawski 2017: 122–124).</p>
+                </div>
+                
+                <div type="textpart" n="Supplices_63-64">
+                    <head>Supplices 63-64</head>
+                    <p>Druga antystrofa parodosu chóru złożonego z matek poległych
+                        pod Tebami wodzów, które przybyły do ołtarza bogiń w Eleusis jako
+                        błagalnice. Mówią one, że zachowują się „niepobożnie” – <w>ὁσίως</w> οὔχ
+                        (w. 63), co ponownie wskazuje na to, że akcja sztuki dzieje się podczas
+                        uroczystości oficjalnej (zob. komentarz powyżej, w. 33), która wymaga
+                        stosownego stroju, nawet od błagalników; w wersie 97 Tezeusz
+                        zauważa wprost, że kobiety przy ołtarzu nie są odświętnie ubrane:
+                        πεπλώματ' οὐ <w>θεωρικά</w>. Morwood (2007: 150) sugeruje tutaj związek
+                        z prawem znanym z Andokidesa (<title>De mysteriis</title> 110–116), według którego
+                        pozostawienie gałązki błagalnej na ołtarzu w ateńskim Eleuzinionie
+                        podczas trwania misteriów było karane wysoką grzywną lub
+                        nawet śmiercią; w tej interpretacji kobiety zachowują się „nieświęcie”,
+                        ponieważ lamentem i hikezją zaburzają porządek uroczystości skoncentrowanej
+                        na wdzięczności za dary ziemi i błaganiu o dobre plony.</p>
+                    <quote><lb/>ὁσίως οὔχ, ὑπ᾽ ἀνάγκας δὲ προπίπτουσα προσαιτοῦσ᾽
+                        <lb/>ἔμολον δεξιπύρους θεῶν θυμέλας·</quote>
+                    <quote><lb/>Bynajmniej nie z pobożności, ale z konieczności na twarz padając
+                        <lb/>I zanosząc błagania przybyłam
+                        <lb/>Do płonących ołtarzy bogiń.</quote>
+                    <p>64: <w>δεξιπύρους</w> θεῶν <w>θυμέλας</w> – „do płonących ołtarzy bogiń”.
+                        <w>Θυμέλαι</w> odnoszą się tutaj do wspomnianych wyżej (w. 33) <w>ἐσχάραι</w>
+                        dwóch bogiń eleuzyjskich. <w>Δεξίπυρος</w> jest Eurypidesowym hapax legomenon
+                        złożonym z aorystalnego tematu czasowego czasownika <w>δέχομαι</w>
+                        i rzeczownika πῦρ – dosłownie oznacza ołtarz, który „przyjął ogień”.</p>
+                </div>
+                
+                <div type="textpart" n="Supplices_93-94">
+                    <head>Supplices 93-94</head>
+                    <p>Początek pierwszego epeisodionu: Tezeusz wchodzący na scenę
+                        zauważa kobiety siedzące przy ołtarzu, który wyznacza miejsce akcji.</p>
+                    <quote><lb/>μητέρα γεραιὰν βωμίαν ἐφημένην
+                        <lb/>ξένους θ᾽ ὁμοῦ γυναῖκας […]</quote>
+                    <quote><lb/>[Widzę]
+                        <lb/>Matkę staruszkę siedzącą przy ołtarzu
+                        <lb/>Razem z obcymi kobietami.</quote>
+                    <p>93: μητέρα γεραιὰν <w>βωμίαν</w> ἐφημένην – „matkę staruszkę siedzącą
+                        przy ołtarzu”, dosłownie: „matkę staruszkę siedzącą jako ta, która
+                        jest przy ołtarzu”. Na temat przymiotnika <w>βώμιος</w> – jego znaczeń
+                        i funkcji zob. komentarz do Heracl. w. 33.</p>
+                </div>
+                
+                <div type="textpart" n="Supplices_155">
+                    <head>Supplices 155</head>
+                    <p>Wers z pierwszej rozmowy Tezeusza z Adrastosem, który prosi
+                        władcę Aten o pomoc w odzyskaniu ciał poległych wodzów. Tezeusz
+                        surowo wypytuje go o powody, dla których zorganizował niechlubną
+                        wyprawę przeciwko Tebom. Adrastos przyznaje, że racja była po
+                        stronie Eteoklesa, że wyprawa była błędem, że błędnie interpretował
+                        słowa wyroczni, działał w zapalczywości bez namysłu i wreszcie – że
+                        nie zasięgnął rady wieszczków, składając ofiary. To ostatnie uznaje za
+                        swój największy błąd (w. 156: <w>διώκεις</w> μ᾽ ᾗ μάλιστ᾽ ἐγὼ ᾽<w>σφάλην</w>).</p>
+                    <quote><lb/>μάντεις δ᾽ ἐπῆλθες ἐμπύρων τ᾽ εἶδες φλόγα;</quote>
+                    <quote><lb/>Czy udałeś się do wieszczków i patrzyłeś w płomień spalanych ofiar?</quote>
+                    <p>155: <w>ἐμπύρων</w> τ᾽ […] <w>φλόγα</w>: „płomień spalanych ofiar”, dosłownie:
+                        „płomień z tego, co jest włożone do ognia”. Tutaj w znaczeniu technicznym:
+                        <w>ἔμπυρα</w> – „ofiary wróżebne”, wróżenie z dymu i płomienia
+                        części ofiar spalanych na ołtarzu. Zob. komentarz do S. <title>Ant</title>. 1005 oraz
+                        A. <title>Pr</title>. 493–499.</p>
+                </div>
+                
+                <div type="textpart" n="Supplices_211-213">
+                    <head>Supplices 211-213</head>
+                    <p>Passus z mowy Tezeusza, który wygłasza „pochwałę cywilizacji”
+                        i darów bogów, którzy dali ludziom rozum (<w>σύνεσιν</w>), język (<w>γλῶσσαν</w>
+                        <w>λόγων</w>), płody rolne, żywność (<w>τροφήν</w> τε καρποῦ τῇ <w>τροφῇ</w>), wodę
+                        (<w>σταγόνας</w> <w>ὑδρηλάς</w>), odzież, statki, handel (<w>πόντου</w> τε <w>ναυστολήματα</w>)
+                        i wszelkie umiejętności. Także umiejętność składania ofiar i czytania
+                        znaków – wymienione są techniki wieszczenia z dymu i ognia podczas
+                        składania ofiar, z wyglądu wnętrzności ofiar oraz z lotu ptaków.</p>
+                    <p>W <title>Prometeuszu skowanym</title> Ajschylosa (w. 493–499) zasługę nauczenia
+                        ludzi tych umiejętności przypisuje sobie Prometeusz. Tutaj jako dawca
+                        darów i nauczyciel wskazany jest tylko ogólnie „bóg” (w. 208, 214).</p>
+                    <quote><lb/>ἃ δ᾽ ἔστ᾽ ἄσημα κοὐ σαφῶς γιγνώσκομεν,
+                        <lb/>ἐς πῦρ βλέποντες καὶ κατὰ σπλάγχνων πτυχὰς
+                        <lb/>μάντεις προσημαίνουσιν οἰωνῶν τ᾽ ἄπο.</quote>
+                    <quote><lb/>To, co nie jest jasne, i czego wyraźnie nie rozumiemy,
+                        <lb/>Patrząc w ogień i na wygląd wnętrzności,
+                        <lb/>Wieszczkowie wyjaśniają i z lotu ptaków.</quote>
+                    <p>212: ἐς πῦρ <w>βλέποντες</w> καὶ κατὰ <w>σπλάγχνων</w> <w>πτυχάς</w> – „patrząc
+                        w ogień i na wygląd wnętrzności”. Fraza ta dotyczy wróżenia z <w>ἔμπυ-
+                        ρα</w> – odczytywania znaków wieszczych z płomienia i dymu ze spalanych
+                        ofiar oraz badania wyglądu wnętrzności, zob. komentarz powyżej,
+                        wers 155.</p>
+                </div>
+                
+                <div type="textpart" n="Supplices_267-268">
+                    <head>Supplices 267-268</head>
+                    <p>Wypowiedź przodownicy chóru, która z patosem przyłącza się do
+                        próśb Adrastosa, wskazując, że należy wysłuchać błagalnic, ponieważ
+                        nawet „zwierzęta mają swoje jaskinie” i nawet niewolnik ma prawo
+                        schronić się przy ołtarzu (δοῦλος δὲ <w>βωμοὺς</w> θεῶν).</p>
+                    <quote><lb/>ἔχει γὰρ καταφυγὴν θὴρ μὲν πέτραν,
+                        <lb/>δοῦλος δὲ βωμοὺς θεῶν.</quote>
+                    <quote><lb/>Bo nawet dziki zwierz ma skalne schronienie,
+                        <lb/>A niewolnik – ołtarze bogów!</quote>
+                </div>
+                
+                <div type="textpart" n="Supplices_375-376">
+                    <head>Supplices 375-376</head>
+                    <p>Druga strofa pierwszego stasimonu, w którym chór błagalnic zastanawia
+                        się, czy między Argos i Atenami możliwy jest pokój, czy uda
+                        się Tezeuszowi doprowadzić do odzyskania zwłok poległych synów
+                        i pogrzebu.</p>
+                    <quote><lb n="375"/>τί μοι πόλις κρανεῖ ποτ᾽; ἆρα φίλιά μοι<!-- manca numerazione -->
+                        <lb/>τεμεῖ, καὶ τέκνοις ταφὰς ληψόμεσθα;</quote>
+                    <quote>lb n="375"/>Co zdziała dla mnie w końcu miasto? Czy zawrze ze mną przyjaźń<!-- manca numerazione -->
+                    <lb/>I uzyskamy pogrzeby dla dzieci?</quote>
+                    <p>375–376: <w>φίλιά</w> μοι / <w>τεμεῖ</w> – „Czy zawrze ze mną przyjaźń”. Τέμνειν
+                        <w>φίλια</w> – nigdzie indziej niewystępujący, nieprzetłumaczalny zwrot techniczny
+                        oznaczający nawiązanie przyjaźni z Argos (<w>φίλια</w>), potwierdzonej
+                        przez złożenie („zabicie przez poderżnięcie gardła” – <w>τέμνειν</w>, zob.
+                        Rudhardt 1992: 282–284; Ekroth 2002: 271) ofiar. Zwykle dopełnieniem
+                        dla <w>τέμνειν</w> w kontekstach i znaczeniach związanych z ofiarą krwawą
+                        jest <w>σφάγιον</w> czy <w>σφάγια</w>, jak poniżej w wersie 1196, gdzie oznacza po
+                        prostu „zabić przez poderżnięcie gardła zwierzęta ofiarne jako sphagia”
+                        i jest ekwiwalentem dla <w>σφάζειν</w> czy <w>σφαγιάζεσθαι</w> (Casabona 1966:
+                        220). W <title>Iliadzie</title> (3.73) mamy scenę, w której potwierdzenie aktu przysięgi
+                        oraz zawarcia sojuszu dokonuje się przez zabicie ofiary, co wyraża
+                        fraza <w>φιλότητα</w> καὶ <w>ὅρκια</w> <w>πιστὰ</w> <w>ταμόντες</w>.</p>
+                    <p>Rytualne zabicie zwierząt ofiarnych na potwierdzenie ważności
+                        innego uroczystego aktu jest widoczne podczas rytuału składania
+                        przysięgi – <w>ὅρκια</w> <w>τέμνειν</w> – jak u Herodota 6.201.2, por. komentarz do
+                        A. <title>Th</title>. 42–48 na temat rytu składania przysięgi.</p>
+                    <p>Użyty przez Eurypidesa zwrot <w>φίλια</w> <w>τέμνειν</w>, nigdzie indziej niepoświadczony,
+                        jest utworzony per analogiam do homeryckiego <w>ὅρκια</w>
+                        <w>τέμνειν</w>. <w>Φίλια</w> oznaczają tu ofiary składane podczas aktu zawierania
+                        pokoju (jak Homerowe <w>φιλότητα</w> <w>τέμνειν</w>).</p>
+                    <p>W <title>Helenie</title> (w. 1235) pierwotny sens czasownika <w>τέμνειν</w> jest już
+                        całkowicie nieobecny: σπονδὰς <w>τέμωμεν</w> oznacza po prostu „złożyć
+                        ofiary płynne w intencji pokoju i przyjaźni” (Karavites 1992: 64), również
+                        analogicznie do formuły homeryckiej (Casabona 1966: 215).</p>
+                </div>
+                
+                <div type="textpart" n="Supplices_1196-1207">
+                    <head>Supplices 1196-1207</head>
+                    <p>Słowa Ateny – ek mechanes – z eksodosu tragedii. Po zwycięskiej
+                        bitwie Tezeusz zdobył ciała zabitych wodzów, by przekazać je błagalnicom
+                        do pogrzebu. Atena domaga się w swej epifanii spełnienia
+                        dodatkowego warunku wydania zwłok błagalnikom: Adrastos,
+                        w imieniu Argos, ma złożyć uroczystą przysięgę, że jego miasto nigdy
+                        nie wyruszy zbrojnie przeciwko Atenom. Przy tym przysięga
+                        ma zostać potwierdzona szczególną ofiarą (Burkert 1985a: 250–254).
+                        Atena daje Tezeuszowi wskazówki, jak należy tę ofiarę przeprowadzić.
+                        Ma się ona spełnić w Delfach, przy samym ołtarzu pytyjskim
+                        (<w>Πυθικὴν</w> πρὸς <w>ἐσχάραν</w>), na którym należy złożyć trójnóg zdobyty
+                        w Troi przez Heraklesa, z inskrypcją tekstu przysięgi. Ofiarę z trzech
+                        owiec należy spełnić nad tym trójnogiem, a nóż ofiarny zakopać
+                        obok kopców żałobnych siedmiu wodzów. Grób wodzów poległych
+                        pod Tebami miał się według tradycji znajdować w Eleusis, co pierwszy
+                        zapowiedział Ajschylos, a potwierdzał później Pauzaniasz (zob.
+                        Parker 1996: 35). Por. komentarz do wersów 375–376 z dalszymi odniesieniami.</p>
+                    <quote><lb/>ἐν ᾧ δὲ τέμνειν σφάγια χρή σ᾽, ἄκουέ μου.
+                        <lb/>ἔστιν τρίπους σοι χαλκόπους ἔσω δόμων,
+                        <lb/>ὃν ᾿Ιλίου ποτ᾽ ἐξαναστήσας βάθρα
+                        <lb/>σπουδὴν ἐπ᾽ ἄλλην Ἡρακλῆς ὁρμώμενος
+                        <lb n="1200"/>στῆσαί σ᾽ ἐφεῖτο Πυθικὴν πρὸς ἐσχάραν.
+                        <lb/>ἐν τῷδε λαιμοὺς τρεῖς τριῶν μήλων τεμὼν
+                        <lb/>ἔγγραψον ὅρκους τρίποδος ἐν κοίλῳ κύτει,
+                        <lb/>κἄπειτα σῴζειν θεῷ δὸς ᾧ Δελφῶν μέλει,
+                        <lb/>μνημεῖά θ᾽ ὅρκων μαρτύρημά θ᾽ ῾Ελλάδι.
+                        lb n="1205"/>ᾗ δ᾽ ἂν διοίξῃς σφάγια καὶ τρώσῃς φόνον
+                        <lb/>ὀξύστομον μάχαιραν ἐς γαίας μυχοὺς
+                        <lb/>κρύψον παρ᾽ αὐτὰς ἑπτὰ πυρκαιὰς νεκρῶν.</quote>
+                    <quote><lb/>Słuchaj mnie, gdzie musisz zabić zwierzęta ofiarne:
+                        <lb/>Masz w pałacu trójnóg o spiżowych nogach,
+                        <lb/>Który kiedyś po zniszczeniu fundamentów Troi
+                        <lb/>Herakles, podejmując się już innego dzieła,
+                        <lb n="1200"/>Pozostawił ci, byś postawił go przy pytyjskim ołtarzu.
+                        <lb/>Nad nim to przetniesz trzy gardła trzech owiec,
+                        <lb/>Wewnątrz misy trójnogu wyryj słowa przysięgi,
+                        <lb/>A potem oddaj bogu, który ma w opiece Delfy,
+                        <lb/>Na pamiątkę przysięgi i świadectwo dla Hellady.
+                        <lb n="1205"/>A nóż ofiarny, którym rozetniesz ofiary i zadasz śmiertelną ranę,
+                        <lb/>Dobrze wyostrzony, w głębi ziemi
+                        <lb/>Ukryj, przy tych siedmiu stosach pogrzebowych.</quote>
+                    <p>1196: ἐν ᾧ δὲ <w>τέμνειν</w> <w>σφάγια</w> χρή σ[ε] – „nad czym musisz zabić
+                        zwierzęta ofiarne”. Trójnóg opisany w następnych wersach ma
+                        przy zalecanej przez Atenę ofierze służyć jako sphageion – naczynie,
+                        do którego zbierano krew ofiary (Collard 1975, vol. 2: 413). Krew
+                        potwierdzająca złożoną przysięgę wypisaną na naczyniu ma zostać
+                        w tym samym naczyniu zebrana po podcięciu gardła zwierzęciu
+                        (<w>τέμνειν</w> <w>σφάγια</w>, na temat <w>τέμνειν</w> zob. komentarz powyżej do
+                        wersu 376). Ta sama myśl w podobnych słowach jest powtórzona
+                        w wersie 2001: ἐν τῷδε λαιμοὺς τρεῖς τριῶν <w>μήλων</w> <w>τεμών</w>: „nad
+                        nim to przetniesz trzy gardła trzech owiec”; ἐν τῷδε – „nad nim”,
+                        to znaczy nad tym trójnogiem; <w>τέμνειν</w> <w>σφάγια</w> z wersu 1196 znajduje
+                        tutaj obrazowe wyjaśnienie – oznacza to „podciąć (<w>τεμών</w>) gardła
+                        (<w>λαιμούς</w>) owiec (<w>μήλων</w>)”.</p>
+                    <p>1205–1206: ᾗ δ᾽ ἂν <w>διοίξῃς</w> <w>σφάγια</w> καὶ τρώσῃς <w>φόνον</w> / <w>ὀξύστομον</w>
+                        <w>μάχαιραν</w> – „nóż ofiarny, którym rozetniesz ofiary i zadasz śmiertelną
+                        ranę, / dobrze wyostrzony”. <w>Σφάγια</w> διοιγνύναι – poetyzm, dosłownie
+                        „roz-tworzyć”, otworzyć przez rozcięcie, rozciąć nożem zwierzęta
+                        ofiarne, tyle, co <w>σφάζειν</w>. <w>Τιτρώσκειν</w> <w>φόνον</w> – trudny do wyjaśnienia
+                        poetycki zwrot Eurypidesa, <title>LSJ</title> (s.v.) sugeruje przekład „zadać śmiertelną
+                        ranę”, „zranić śmiertelnie”. Christopher Collard (1975, vol. 2:
+                        416) sugeruje, by widzieć w tym zwrocie swoistą figurę etymologiczną,
+                        biernik wewnętrzny, ponieważ φόνος (tu: „śmiertelna rana”) wyraża
+                        tę samą ideę, która jest zawarta w czasowniku <w>τιτρώσκω</w> („zadawać
+                        ranę”). Równocześnie sugeruje przekład „wytoczyć krew [<w>φόνος</w>]
+                        z rany” („let the blood from the wound”). <w>Μάχαιρα</w> jako nóż ofiarny,
+                        zob. hasło słownikowe.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

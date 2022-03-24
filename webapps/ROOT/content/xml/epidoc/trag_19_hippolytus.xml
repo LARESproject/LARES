@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Hippolytus (Ἱππόλυτος, Ippolito)</title>
+                <title xml:lang="en">Hippolytus (Ἱππόλυτος, Hippolytus)</title>
+                <title xml:lang="pl">Hippolytus (Ἱππόλυτος, Hipolit)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">trag_19_hippolytus</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Hippolytus (Ἱππόλυτος, Hipolit)</title>, in Krzysztof Bielawski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Tragedia attycka</title>, Warszawa 2017, pp. 233-235</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaia Fanelli">encoded document in XML</change>
+                <change when="2017" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Eurypides wystawił <title>Hipolita</title> w roku 428, kilka miesięcy po śmierci Peryklesa,
+                        i jest to jedna z niewielu jego sztuk, za które otrzymał pierwszą
+                        nagrodę w agonie tragicznym.</p>
+                    <p><title>Hipolit uwieńczony</title> jest tragedią miłości, w której każda miłość jest
+                        tragiczna i źle się kończy, a za ludzkimi uczuciami i wynikającymi
+                        z nich działaniami zawsze stoją bogowie, którzy „nigdy nie wchodzą
+                        sobie w drogę” i „żaden nie działa wbrew zamiarom drugiego”
+                        (w. 1329–1330). Tragiczne wybory i ludzkie śmierci są w tym dramacie
+                        de facto wynikiem konfliktu bogiń – Afrodyty i Artemidy, pierwsza
+                        otwiera sztukę prologiem, druga – zamyka ją w eksodosie.</p>
+                    <p>Temat ofiary jest w tekście całkowicie nieobecny. Komentarz odnotowuje
+                        tylko dwa passusy, wyłącznie z lirycznych partii chóralnych,
+                        w których pojawiają się subtelne nawiązania do języka ofiarnego, są
+                        one jednak dla treści utworu całkowicie nieistotne.</p>
+                    <p>Tekst według wydania: Barret (1978).</p>
+                </div>
+                <div type="textpart" n="Hippolytus_145-147">
+                    <head>Hippolytus 145-147</head>
+                    <p>Druga strofa parodosu chóru, który lamentuje nad Fedrą i jej złym
+                        stanem – siedzi w zaciemnionych pokojach i odmawia jedzenia. W tej
+                        strofie zastanawia się nad przyczynami postawy Fedry, widząc w niej
+                        objawy szału, zesłanego przez któregoś z bogów w odwecie za potencjalną
+                        obrazę jego czci. Sugeruje, że Fedra mogła zaniedbać należnych
+                        ofiar dla Diktynny, kreteńskiej bogini utożsamianej z Artemidą (por.
+                        <title>Il</title>. 21.470). Ta sama identyfikacja następuje później w wersie 1130.</p>
+                    <quote><lb n="145"/>σὺ δ᾽ ἀμφὶ τὰν πολύθηρον Δί-
+                        <lb/>κτυνναν ἀμπλακίαις ἀνίε<lb 
+                            break="no"/>ρος ἀθύτων πελάνων τρύχῃ;</quote>
+                    <quote><lb n="145"/>Czy też pożera cię
+                        <lb/>Obraza Łowczyni Diktynny
+                        <lb/>Bezbożnością niezłożonych ofiar?</quote>
+                    <p>146–147: ἀνίερος <w>ἀθύτων</w> πελάνων – wprawdzie mowa jest tutaj
+                        o składaniu ofiary bezkrwawej z pelanosu, ale pojawia się przymiotnik
+                        <w>ἄθυτος</w>, który należy odnotować. <w>Ἄθυτος</w> to taki, który nie został
+                        złożony w ofierze lub na ofiarę się nie nadaje. Formalnie jest to
+                        uprzymiotnikowiona i zaprzeczona (α privativum) forma adiectivum
+                        verbale od <w>θύω</w>. Barret (1978: 190), Halleran (1995: 163) i Nenci (2004:
+                        65) sugerują w zwrocie <w>ἀνίερος</w> <w>ἀθύτων</w> pleonazm: „not having performed
+                        the rite of pelanos which have not been offered”, sądząc, że
+                        ἀνίερος tutaj to „taki, który nie spełnił rytów ofiarnych”, nie złożył
+                        nic w ofierze (ibidem) i <w>ἀθύτων</w> jest genetiwem zależnym od ἀνίερος,
+                        zapewne eksplikatywnym; rzeczywiście w takim wypadku powstaje
+                        pleonastyczna fraza: „ta, która nie złożyła w ofierze tego, co nie zostało
+                        złożone w ofierze”. Jednak chór zwraca się do Fedry słowami:
+                        <w>σὺ</w> […] <w>τρύχῃ</w> – „jesteś niszczona”, <w>ἀμπλακίαις</w> – „obrazami”, czyli
+                        obraza cię niszczy, pożera. Jest to obraza <w>ἀθύτων</w> <w>πελάνων</w> – z powodu
+                        ofiary z pelanosu, która nie została złożona. Przez to obraźliwe
+                        dla bogini zaniedbanie Fedra staje się <w>ἀνίερος</w> – „nie-święta”, nie tylko
+                        jest tą, „która nie złożyła ofiary” (jak chce Halleran 1995: 163), staje
+                        się ona tym samym <w>ἄναγνον</w>, w znaczeniu tożsamym z ἀνίερον, tak
+                        jak w <title>Agamemnonie</title> (w. 220) Ajschylosa – nieświęta, skalana, bezbożna,
+                        wykluczona z tego, co jest hieron przez skalanie się obrazą boga.</p>
+                    <p><w>Ἄθυτος</w> nie pojawia się nigdzie indziej w poezji dramatycznej.
+                        W epoce klasycznej używany był tylko w prozie – u Ksenofonta
+                        (<title>HG</title> 3.2.23: <w>ἄθυτος</w> ἀπῆλθεν), Platona (<title>Lg</title>. 841d3) i kilkakrotnie
+                        u mówców (Lizjasz i Ajschines).</p>
+                </div>
+                
+                <div type="textpart" n="Hippolytus_535-540">
+                    <head>Hippolytus 535-540</head>
+                    <p>Antystrofa pieśni chóru z pierwszego stasimonu, który śpiewa
+                        hymn ku czci Erosa. W antystrofie zawarta jest myśl-przestroga – na
+                        nic zdają się ofiary w największych sanktuariach Grecji (Olimpii i Delfach),
+                        gdy nie czcimy Erosa i Afrodyty.</p>
+                    <quote><lb n="535"/>ἄλλως ἄλλως παρά τ᾽ Ἀλφεῷ
+                        <lb/>Φοίβου τ᾽ ἐπὶ Πυθίοις τεράμνοις
+                        <lb/>βούταν φόνον Ἑλλὰς <supplied reason="lost">αἶ᾽</supplied> ἀέξει·
+                        <lb/>Ἔρωτα δέ, τὸν τύραννον ἀνδρῶν,
+                        <lb/>τὸν τᾶς Ἀφροδίτας
+                        <lb n="540"/>φιλτάτων θαλάμων κλῃδοῦχον, οὐ σεβίζομεν.</quote>
+                    <quote><lb n="535"/>Na próżno, na próżno nad Alfejosem
+                        <lb/>I w pytyjskich siedzibach Feba
+                        <lb/>Grecka ziemia mnoży ubój wołów,
+                        <lb/>A Erosa, władcę mężów,
+                        <lb/>Klucznika najmilszych
+                        <lb n="540"/>Komnat Afrodyty, nie czcimy.</quote>
+                    <p>537: <w>βούταν</w> <w>φόνον</w> – „ubój wołów”, dosłownie „wołowy ubój”.
+                        <w>Βούτης</w> oznacza pasterza bydła. Tutaj – jedyny poświadczony raz
+                        w literaturze – rzeczownik ten występuje w przymiotnikowej funkcji
+                        i znaczy tyle, co βοείος – „wołowy, związany z wołami”.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

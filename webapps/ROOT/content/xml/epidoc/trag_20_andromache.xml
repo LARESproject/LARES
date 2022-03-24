@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Andromache (Ἀνδρομάχη, Andromaca)</title>
+                <title xml:lang="en">Andromache (Ἀνδρομάχη, Andromache)</title>
+                <title xml:lang="pl">Andromache (Ἀνδρομάχη, Andromacha)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">trag_20_andromache</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Andromache (Ἀνδρομάχη, Andromacha)</title>, in Krzysztof Bielawski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Tragedia attycka</title>, Warszawa 2017, pp. 237-250</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaia Fanelli">encoded document in XML</change>
+                <change when="2017" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Nie ma żadnych pewnych danych na temat czasu i miejsca wystawienia
+                        <title>Andromachy</title> przez Eurypidesa. Nie zachowały się na ten temat żadne
+                        scholia czy komentarze antyczne. Zawodzą też poszukiwania cytatów
+                        w innych dziełach, które pozwoliłyby ustalić choćby ostateczny terminus
+                        post quem non. Poszukiwania uczonych skupiły się zatem na odnajdywaniu
+                        możliwych aluzji w tekście do współczesnych Eurypidesowi wydarzeń
+                        historycznych, jednak są one bardzo wątłe i na dobrą sprawę, jak
+                        słusznie konkluduje Stevens (1971: 18), większość z nich doskonale pasuje
+                        do jakiejkolwiek daty pomiędzy rokiem 430 a 421. Dużo więcej pewności
+                        przyniosły badania nad strukturą metryczną <title>Andromachy</title>, <title>Błagalnic</title> i <title>Hekabe</title>,
+                        zapoczątkowane przez Zielińskiego (1925) i Ceadela (1941), na podstawie
+                        których można przyjąć, że rokiem wystawienia <title>Andromachy</title> był
+                        425 (Stevens 1971: 19). Miejsce wystawienia sztuki jest jeszcze trudniejsze
+                        do ustalenia, część uczonych opowiada się za Argos, część za Atenami
+                        – tutaj jednak jedynym źródłem są późne scholia, które zresztą też nie
+                        przynoszą ostatecznych rozstrzygnięć. Łanowski nawet stwierdza, że jest
+                        to „p r o d u k c j a na niewysokiej jakości eksport” (2006: 10).</p>
+                    <p>Język ofiarniczy jest reprezentowany przez element scenografii,
+                        którym jest ołtarz, wyznaczający miejsce akcji – zarówno w pierwszej
+                        części, we Ftyi, jak i w drugiej – w Delfach oraz w obszernej scenie
+                        śmierci Neoptolemosa w świątyni w Delfach, którą poprzedza przygotowanie
+                        do złożenia ofiary.</p>
+                    <p>Tekst według wydania: Stevens (1971).</p>
+                </div>
+                <div type="textpart" n="Andromache_129-130">
+                    <head>Andromache 129-130</head>
+                    <p>Antystrofa parodosu, w której chór kobiet z Ftyi doradza Andromasze,
+                        by porzuciła ołtarz, przy którym siedzi jako błagalnica, ponieważ
+                        i tak nic nie może wskórać jako branka i niewolnica.</p>
+                    <quote><lb/>λεῖπε δεξίμηλον
+                        <lb n="130"/>δόμον τᾶς ποντίας θεοῦ.</quote>
+                    <quote><lb/>Porzuć bogaty w ofiary
+                        <lb/>Przybytek pani bogini!</quote>
+                    <p>129–130: <w>δεξίμηλον</w> / <w>δόμον</w> – „bogaty w ofiary przybytek”;
+                        <w>δεξίμηλον</w>. Dosłownie: „taki, który przyjmuje (<w>δέχομαι</w>) owce (<w>μῆλα</w>)”
+                        (w leksykonie Suda, s.v.: ἀπὸ τοῦ <w>δέχεσθαι</w> τὰ θυόμενα <w>μῆλα</w>). Poetyckie
+                        compositum występujące tylko u Eurypidesa (jeszcze tylko raz
+                        poniżej w wersie 1130 i raz w <title>Ph</title>. 632) – retoryczna omownia na określenie
+                        ołtarza (metonimicznie), jako miejsca, gdzie składa się ofiary.
+                        Identyczne znaczenie ma hapax Pindara (P. 3.27): <w>θυοδόκος</w>.</p>
+                </div>
+                
+                <div type="textpart" n="Andromache_162-163">
+                    <head>Andromache 162-163</head>
+                    <p>Słowa z pierwszego epeisodionu, w których Hermiona zwraca się
+                        do Andromachy, chroniącej się przy ołtarzu (<w>βωμός</w>) jako błagalnica.
+                        Ołtarz ten stanowi punkt centralny akcji pierwszej części dramatu. Grozi
+                        jej, przekonując, że nawet ten ołtarz nie uchroni jej przed śmiercią.</p>
+                    <quote><lb/>κοὐδέν σ᾽ ὀνήσει δῶμα Νηρῇδος τόδε,
+                        <lb/>οὐ βωμὸς οὐδὲ ναός, ἀλλὰ κατθανῇ.</quote>
+                    <quote><lb/>I na nic ci się przyda ten pałac Nereidy
+                        <lb/>Ani ołtarz, ani świątynia, bo przecież zginiesz.</quote>
+                </div>
+                
+                <div type="textpart" n="Andromache_260">
+                    <head>Andromache 260</head>
+                    <p>Słowa Andromachy z długiego agon logon z Hermioną. Hermiona
+                        nieustannie grozi Andromasze śmiercią i wylicza jej zbrodnie, na co
+                        ta nie pozostaje jej dłużna, ale pod koniec kłótni w gniewie prowokuje
+                        ją i zachęca wprost do morderstwa. Ponieważ Andromacha jest
+                        błagalnicą siedzącą przy ołtarzu, to wezwanie do mordu na błagalnicy
+                        jest równocześnie wezwaniem do czynu bezbożnego, do splamienia
+                        ołtarza. Andromacha uważa Hermionę za osobę pozbawioną
+                        skrupułów i rozumu. W passusie pojawia się ołtarz – <w>βωμός</w> – jako
+                        miejsce akcji. Czasownik <w>σφάζειν</w> nie ma tutaj żadnego znaczenia
+                        rytualnego, mimo bliskości ołtarza – jest wezwaniem do krwawego
+                        mordu, który może być tylko anty-ofiarą, splamieniem i skalaniem
+                        świętego miejsca. Podobnie czasownik αἱματοῦν, który może oznaczać
+                        skropienie ołtarza krwią podczas obrzędów ofiarnych, w tym
+                        kontekście oznacza jego splamienie, także w sensie rytualnym, a prymarnie
+                        – po prostu schlapanie krwią. Połączenie w jednym wersie –
+                        a także w realizacji scenicznej – ołtarza z terminami przywołującymi
+                        skojarzenia z krwawym rytem ofiarnym wzmaga siłę sceny, akcentując
+                        brutalność mordu, jednak w żadnym stopniu nie tworzy „sceny
+                        ofiarnej” explicite.</p>
+                    <quote><lb/>σφάζ᾽, αἱμάτου θεᾶς βωμόν, ἣ μέτεισί σε.</quote>
+                    <quote><lb/>Morduj! Skrwaw ołtarz bogini, która będzie cię ścigać.</quote>
+                </div>
+                
+                <div type="textpart" n="Andromache_314-315">
+                    <head>Andromache 314-315</head>
+                    <p>Początek drugiego epeisodionu – Menelaos wprowadza na scenę
+                        syna Andromachy i Neoptolemosa jako zakładnika, mówiąc, że jeśli
+                        Andromacha nie opuści ołtarza i nie da się zabić, będzie musiał zginąć
+                        jej syn. Passus nie ma żadnego znaczenia ofiarnego – pojawia się tutaj
+                        j e d y n i e czasownik <w>σφάζειν</w> w odniesieniu do możliwego mordu na
+                        dziecku. <w>Σφάζειν</w> u Homera zawsze odnosi się do podrzynania gardła
+                        zwierząt ofiarnych, w tragedii – zazwyczaj lub bardzo często (Stevens
+                        1971: 135). Menelaos zapowiada, że zostanie on „zarżnięty”. Rzeczownik
+                        πέδον często pojawia się w tekstach tragicznych na określenie
+                        okręgu świętego lub ogólnie przestrzeni sakralnej (por. np. w. 1085
+                        oraz <title>IT</title> 972). Tutaj oznacza miejsce w bezpośredniej bliskości ołtarza –
+                        <w>ἁγνὸν</w> <w>τέμενος</w> z wersu 253 (Stevens 1971: 135).</p>
+                    <quote><lb/>κεἰ μὴ τόδ᾽ ἐκλιποῦσ᾽ ἐρημώσεις πέδον,
+                        <lb n="315"/>ὅδ᾽ ἀντὶ τοῦ σοῦ σώματος σφαγήσεται.</quote>
+                    <quote><lb/>A jeśli nie opuścisz tego miejsca odchodząc [od ołtarza],
+                        <lb n="315"/>To on zamiast twojego ciała zostanie zarżnięty.</quote>
+                </div>
+                
+                <div type="textpart" n="Andromache_355-358">
+                    <head>Andromache 355-358</head>
+                    <p>W odpowiedzi Andromachy na groźby Menelaosa pojawia się przymiotnik
+                        <w>βώμιος</w> (w znaczeniu tego, kto znajduje się przy ołtarzu, czyli
+                        błagalnika) – królowa deklaruje, że chętnie odda się pod sąd Neoptolemosa
+                        i opuści ołtarz jako miejsce schronienia, jeśli rzeczywiście ma być
+                        oskarżana tylko o czar nad Hermioną, która nie może mieć dzieci. Fraza
+                        <w>ἑκόντες</w> οὐκ <w>ἄκοντες</w> przywodzi na myśl słynną Burkertowską koncepcję
+                        dobrowolności ofiary, jednak scena ta nie ma charakteru ofiarniczego.</p>
+                    <quote><lb n="355"/>ἡμεῖς γὰρ εἰ σὴν παῖδα φαρμακεύομεν
+                        <lb/>καὶ νηδὺν ἐξαμβλοῦμεν, ὡς αὐτὴ λέγει,
+                        <lb/>ἑκόντες οὐκ ἄκοντες, οὐδὲ βώμιοι
+                        <lb/>πίτνοντες, αὐτοὶ τὴν δίκην ὑφέξομεν.</quote>
+                        <quote><lb/>Bo jeśli ja nad twoją córką używam czarów
+                            <lb/>I sprawiam, że jej łono jest bezpłodne, jak ona to mówi,
+                            <lb/>To z chęcią i bez sprzeciwu, nie rzucając się
+                            <lb/>Jak błagalnica do ołtarza, sama poddam się sprawiedliwości.</quote>
+                        </div>
+                
+                <div type="textpart" n="Andromache_399-400">
+                    <head>Andromache 399-400</head>
+                    <p>Passus z lamentu Andromachy nad swoim losem i trudnym wyborem,
+                        jaki postawił przed nią Menelaos – śmierci własnej lub własnego dziecka.
+                        Wspomina ona swoje nieszczęścia i zniszczenie Troi. Przywołując śmierć
+                        Hektora, mówi o jego <w>σφαγάς</w> – tutaj w znaczeniu „rany broczące krwią
+                        jak po zarżnięciu”. Stevens (1971: 144) podejmuje w swoim komentarzu
+                        dyskusję nad tradycją na temat śmierci Hektora i zastanawia się, dlaczego
+                        Eurypides mówi o <w>σφαγαί</w>, skoro z <title>Iliady</title> wynika jasno, że heros zginął
+                        wleczony za rydwanem Achillesa, a nie przez zadanie ran ciętych – dyskusja
+                        ta jest całkowicie bezprzedmiotowa, ponieważ Hektor został zabity
+                        włócznią przez Achillesa w pojedynku (<title>Il.</title> 22.361), a dopiero potem jego
+                        zwłoki były wleczone za rydwanem. W niniejszym kontekście jest ona
+                        tym bardziej bezpodstawna, ponieważ owe σφαγαί w wersji Eurypidesa
+                        są właśnie τροχήλατοι – „wleczone za rydwanem”, czyli powstałe podczas
+                        ciągnięcia zwłok. Ciało Hektora jest poranione, jakby było pocięte
+                        i zmasakrowane, skutkiem tej brutalnej tortury, a nie cięcia mieczem.</p>
+                    <quote><lb/>ἥτις σφαγὰς μὲν Ἕκτορος τροχηλάτους
+                        <lb n="400"/>κατεῖδον οἰκτρῶς τ᾽ Ἴλιον πυρούμενον.</quote>
+                    <quote><lb/>Ja, która skrwawione zwłoki Hektora wleczone za rydwanem
+                        <lb n="400"/>Widziałam i bezlitośnie spalony Ilion.</quote>
+                </div>
+                
+                <div type="textpart" n="Andromache_411-412">
+                    <head>Andromache 411-412</head>
+                    <p>Andromacha decyduje się na poświęcenie własnego życia w nadziei,
+                        że zgodnie z obietnicą Menelaosa w ten sposób ocali syna i odchodzi od
+                        ołtarza. W jej krzyku przyzywającym śmierć jest tylko czysta rozpacz –
+                        oddaje się na powieszenie (<w>ἀπαρτῆσαι</w> <w>δέρην</w>), chociaż równocześnie
+                        mówi o zarżnięciu (<w>σφάζειν</w>) i mordzie (<w>φονεύειν</w>). <w>Σφάζειν</w> ponownie,
+                        mimo bliskiego kontekstu ołtarza – przywołuje jedynie okropność śmierci.
+                        <w>Ἀπατᾶν</w> <w>δέρην</w> może, zdaniem Stevensa (1971: 145), oznaczać „obciąć głowę”,
+                        z powołaniem się na leksykon Hesychiosa (który wyjaśnia: <w>χωρίσαι</w>,
+                        s.v.), jednak w zachowanej literaturze nie ma na to potwierdzenia.</p>
+                    <quote><lb/>ἰδοὺ προλείπω βωμὸν ἥδε χειρία
+                        <lb/>σφάζειν φονεύειν, δεῖν, ἀπαρτῆσαι δέρην.</quote>
+                    <quote><lb/>Oto opuszczam ołtarz, i oddaję się w ręce
+                        <lb/>Na zarżnięcie i zabicie, trzeba kark podać pod stryczek.</quote>
+                </div>
+                
+                <div type="textpart" n="Andromache_425-429">
+                    <head>Andromache 425-429</head>
+                    <p>Po odejściu Andromachy od ołtarza Menelaos rozkazuje sługom,
+                        by ją pojmano (<w>λάβεσθέ</w> μοι <w>τῆσδε</w>) i mocno trzymano, ponieważ zamierza
+                        jej powiedzieć, że obietnica ocalenia syna była tylko podstępem
+                        i spodziewa się jej gwałtownej reakcji. Celem podstępu było uśmiercenie
+                        i matki, i syna. Menelaos ponownie odwołuje się do rzeczownika
+                        <w>σφαγή</w> ( εἰς χεῖρας ἐλθεῖν τὰς ἐμὰς ἐπὶ <w>σφαγήν</w>), ponownie w bliskim
+                        kontekście ołtarza, podkreślając brutalność zamierzonego mordu
+                        (por. komentarz do w. 260).</p>
+                    <quote><lb n="425"/>λάβεσθέ μοι τῆσδ᾽, ἀμφελίξαντες χέρας,
+                        <lb/>δμῶες· λόγους γὰρ οὐ φίλους ἀκούσεται.
+                        <lb/>ἐγώ σ᾽, ἵν᾽ ἁγνὸν βωμὸν ἐκλίποις θεᾶς,
+                        <lb/>προύτεινα παιδὸς θάνατον, ᾧ σ᾽ ὑπήγαγον
+                        <lb/>εἰς χεῖρας ἐλθεῖν τὰς ἐμὰς ἐπὶ σφαγήν.</quote>
+                    <quote><lb n="524"/>Chwytajcie mi ją! I mocno trzymajcie rękami,
+                        <lb/>Słudzy! Bo usłyszy niemiłe słowa.
+                        <lb/>Ja ciebie, byś opuściła święty ołtarz bogini,
+                        <lb/>Nastraszyłem śmiercią syna, przez co sprawiłem,
+                        <lb/>Że wpadłaś w moje ręce na rzeź.</quote>
+                </div>
+                
+                <div type="textpart" n="Andromache_504-508">
+                    <head>Andromache 504-508</head>
+                    <p>Passus ze strofy trzeciego epeisodionu, w którym Andromacha,
+                        idąc na śmierć, lamentuje na przemian z synem w lirycznych metrach
+                        nad swoim losem. Andromacha nazywa siebie i swego syna „ofiarą”,
+                        „zwierzęciem ofiarnym” (<w>θῦμα</w>). To jedyny w tym dramacie passus
+                        (implicite jeszcze zob. poniżej, w. 555–558), w którym terminologia
+                        ofiarna jest tak bezpośrednia i wprost przywołana. Nie należy jednak
+                        przeceniać jej znaczenia, słowo to ma tutaj raczej charakter metaforyczny
+                        i podkreśla bezbronność i niewinność mordowanych, są one
+                        jak ofiary (podobnie jak w <title>Heraklesie</title>, w. 995, gdzie <w>θύματα</w> nazywane
+                        są bezbronne i przerażone dzieci Heraklesa, por. Stevens 1971:
+                        160). Takie metaforyczne znaczenie podkreśla przymiotnik <w>δάϊος</w> –
+                        trudny do przełożenia w tym kontekście, ponieważ oznacza przede
+                        wszystkim „wrogi”, „niszczycielski”. Ta ofiara jest „niszczycielska”
+                        w tym znaczeniu, że mord na Andromasze i jej synu jest czystą, bezsensowną
+                        destrukcją, której nie można nadać żadnego innego, wyższego
+                        sensu, nie jest on ani „po coś”, ani „dla kogoś”, jak w przypadku
+                        ofiary klasycznej.</p>
+                    <quote><lb/><emph>ΠΑΙΣ</emph>:
+                        <lb/>μᾶτερ μᾶτερ, ἐγὼ δὲ σᾷ
+                        <lb n="505"/>πτέρυγι συγκαταβαίνω.
+                        <lb/><emph>ΑΝΔΡΟΜΑΧΗ</emph>:
+                        <lb/>θῦμα δάϊον, ὦ χθονὸς
+                        <lb/>Φθίας κράντορες.
+                        <lb/><emph>ΠΑ</emph>.: ὦ πάτερ,
+                        <lb/>μόλε φίλοις ἐπίκουρος.</quote>
+                    <quote><lb/><emph>DZIECKO</emph>:
+                        <lb/>Matko! Matko! Oto i ja pod twoim
+                        <lb n="505"/>Skrzydłem razem z tobą schodzę pod ziemię!
+                        <lb/><emph>ANDROMACHA</emph>:
+                        <lb/>Okrutna to ofiara! O! ziemi
+                        <lb/>Ftyjskiej władcy!
+                        <lb/><emph>DZ</emph>.: O, ojcze!
+                        <lb/>Przybądź z pomocą swoim ukochanym!</quote>
+                </div>
+                
+                <div type="textpart" n="Andromache_555-558">
+                    <head>Andromache 555-558</head>
+                    <p>Pierwsze słowa Peleusa po jego pojawieniu się na scenie, w których
+                        zwraca się do Andromachy z pytaniem, jakim prawem jest pojmana.
+                        Drugi raz – chociaż implicite – przywołana jest tutaj metaforyka ofiary. Peleus
+                        pyta, dlaczego prowadzona jest na zabicie (tutaj całkowicie neutralny
+                        czasownik <w>ἀπόλλυμαι</w>) jak owca z jagnięciem (<w>ὕπαρνος</w> γάρ τις οἶς).</p>
+                    <quote><lb/>εἰπέ, τίνι δίκῃ χέρας
+                        <lb n="555"/>βρόχοισιν ἐκδήσαντες οἵδ᾽ ἄγουσί σε
+                        <lb/>καὶ παῖδ᾽; ὕπαρνος γάρ τις οἶς ἀπόλλυσαι,
+                        <lb/>ἡμῶν ἀπόντων τοῦ τε κυρίου σέθεν.</quote>
+                    <quote><lb/>Powiedz, jakim prawem, ręce
+                        <lb n="555"/>Pętlami związawszy, i dokąd prowadzą ciebie
+                        <lb/>I dziecko? Bo giniesz jak jakaś owca z jagnięciem,
+                        <lb/>Gdy nie ma mnie i twojego pana.</quote>
+                </div>
+                
+                <div type="textpart" n="Andromache_565-567">
+                    <head>Andromache 565-567</head>
+                    <p>Odpowiedź Andromachy na pytania Peleusa, w której opisuje ona
+                        swoją sytuację i opowiada, jak podstępem została odciągnięta od ołtarza
+                        i bez sądu jest prowadzona na śmierć. Kolejny raz tekst wskazuje
+                        na ołtarz Tetydy (<w>βωμὸς</w> <w>Θέτιδος</w>), który do wersu 410 był centralnym
+                        miejscem akcji.</p>
+                    <quote><lb n="565"/>καὶ νῦν με βωμοῦ Θέτιδος, ἣ τὸν εὐγενῆ
+                        <lb/>ἔτικτέ σοι παῖδ᾽, ἣν σὺ θαυμαστὴν σέβεις,
+                        <lb/>ἄγουσ᾽ ἀποσπάσαντες.</quote>
+                    <quote><lb n="565"/>I teraz mnie od ołtarza porwawszy Tetydy, która szlachetnego
+                        <lb/>Zrodziła ci syna i którą ty czcisz godną podziwu,
+                        <lb/>Prowadzą.</quote>
+                </div>
+                
+                <div type="textpart" n="Andromache_624-625">
+                    <head>Andromache 624-625</head>
+                    <p>Słowa z oskarżycielskiej przemowy Peleusa do Menelaosa, którego
+                        obwinia o wszystkie nieszczęścia, poczynając od wywołania wojny
+                        trojańskiej. Wypomina mu także, że zhańbił się (<w>ἐφύβρισας</w>) namawianiem
+                        Agamemnona do strasznego czynu – zabójstwa córki Ifigenii.
+                        Mówiąc o śmierci Ifigenii używa czasownika <w>σφάζειν</w>, co w tym
+                        wypadku jest znaczące, i przywołuje znane od Ajschylosa interpretacje
+                        tego mordu w kategoriach ofiarnych (zob. komentarz do A. <title>Ag</title>.).
+                        Jednocześnie jednak ukazanie Menelaosa jako współwinnego śmierci
+                        Ifigenii (także w <title>IA</title>) – przez wpływanie na Agamemnona z egoistycznych
+                        pobudek – jest pomysłem Eurypidesa, w <title>Orestei</title> nieobecnym
+                        (Stevens 1971: 172).</p>
+                    <quote><lb/>πρὸς τοῖσδε δ᾽ εἰς ἀδελφὸν οἷ᾽ ἐφύβρισας,
+                        <lb n="625"/>σφάξαι κελεύσας θυγατέρ᾽ εὐηθέστατα;</quote>
+                    <quote><lb/>Do tego jeszcze względem brata dopuściłeś się zniewagi,
+                        <lb n="625"/>Każąc mu prostacko zarżnąć córkę.</quote>
+                </div>
+                
+                <div type="textpart" n="Andromache_1024-1026">
+                    <head>Andromache 1024-1026</head>
+                    <p>Słowa antystrofy z czwartego stasimonu, w którym chór lamentuje
+                        nad upadkiem Troi, czego ostatecznym znakiem jest zaprzestanie ofiar
+                        w Ilionie.</p>
+                    <quote><lb/>οὐδ᾽ ἔτι πῦρ ἐπιβώμιον ἐν Τροί
+                        <lb break="no" n="1025"/>ᾳ θεοῖσιν λέλαμ
+                        <lb break="no"/>πεν καπνῷ θυώδει.</quote>
+                    <quote><lb/>Na ołtarzach w Troi już żaden ogień
+                        <lb n="1025"/>Dla bogów nie płonie
+                        <lb/>Słodkim dymem ofiarnym.</quote>
+                    <p>1024: <w>πῦρ</w> <w>ἐπιβώμιον</w> – „ogień na ołtarzach”. Dosłownie „ogień na-
+                        -ołtarzowy” – metonimiczny poetyzm na określenie składania ofiar.
+                        Płonące ołtarze są symbolem czci bogów i powodzenia miasta (por.
+                        <title>Tr</title>. 1071–1073).</p>
+                    <p>1026: <w>καπνῷ</w> <w>θυώδει</w> – „słodki dym ofiarny”. <w>Θυώδης</w> jest przymiotnikiem
+                        złożonym, pochodzącym wprawdzie od θύειν, ale jego znaczenie
+                        jest ograniczone do atrybutów dymu powstającego przy spalaniu ofiar
+                        związanych z zapachem kadzideł – to „słodko pachnący”, „miły” dym.</p>
+                </div>
+                
+                <div type="textpart" n="Andromache_1066-1069">
+                    <head>Andromache 1066-1069</head>
+                    <p>Po ucieczce Hermiony z Orestesem ze strachu przed Neoptolemosem,
+                        Peleus dowiaduje się od przodownicy chóru, że Orestes zamierza
+                        zabić Neoptolemosa w świątyni w Delfach. Na tę wiadomość starzec
+                        wysyła posłańca do Delf, by starał się zapobiec zbrodni. Świątynia
+                        delficka jest tutaj nazwana metonimicznie „pytyjskim ogniskiem”
+                        (<w>Πυθικὴ</w> <w>ἕστια</w>), czyli ogniem na ołtarzu w świątyni.</p>
+                    <quote><lb/>οὐχ ὅσον τάχος
+                        <lb/>χωρήσεταί τις Πυθικὴν πρὸς ἑστίαν
+                        <lb/>καὶ τἀνθάδ᾽ ὄντα τοῖς ἐκεῖ λέξει φίλοις,
+                        <lb/>πρὶν παῖδ᾽ Ἀχιλλέως κατθανεῖν ἐχθρῶν ὕπο;</quote>
+                    <quote><lb/>Niech z wielkim pośpiechem
+                        <lb/>Pędzi ktoś do pytyjskiego ogniska
+                        <lb/>I niech powie tamtejszym przyjaciołom, co tu się dzieje,
+                        <lb/>Zanim syn Achillesa zginie z ręki wrogów.</quote>
+                </div>
+                
+                <div type="textpart" n="Andromache_1100-1103">
+                    <head>Andromache 1100-1103</head>
+                    <p>Passus z mowy posłańca, który donosi Peleusowi o śmierci Neoptolemosa
+                        w Delfach (na temat Neoptolemosa w Delfach i różnych
+                        wersji mitu zob. Suárez de la Torre 1997: passim). Po przybyciu do
+                        Delf wraz z Neoptolemosem dowiadują się, że jest tam już Orestes.
+                        Neoptolemos zmierza do sanktuarium ze sługami, którzy pędzą
+                        owce przeznaczone na ofiarę za jego dawne winy. Posłaniec opisuje
+                        przybycie orszaku Neoptolemosa do świątyni – stają oni przed
+                        ołtarzem i szykują się do modlitwy i ofiary. Interesująca jest w tym
+                        passusie informacja o tym, że przybywając do Delf, Neoptolemos
+                        zaopatrzył się w zwierzęta ofiarne na stokach Parnasu, w pobliżu
+                        sanktuarium. Dla lokalnej ludności musiał to być ważny element
+                        dochodów. Neoptolemos, wchodząc do Delf, prowadzi ze sobą
+                        wieszczków oraz „proksenosów” – Delfijczyków opiekujących się
+                        Ateńczykami w Delfach.</p>
+                    <quote><lb n="1100"/>ἡμεῖς δὲ μῆλα, φυλλάδος Παρνασίας
+                        <lb/>παιδεύματ᾽, οὐδὲν τῶνδέ πω πεπυσμένοι,
+                        <lb/>λαβόντες ᾖμεν ἐσχάραις τ᾽ ἐφέσταμεν
+                        <lb/>σὺν προξένοισι μάντεσίν τε Πυθικοῖς.</quote>
+                    <quote><lb n="1100"/>My zaś biorąc owce, na liściach Parnasu
+                        <lb/>Wychowane, niczego w ogóle nieświadomi,
+                        <lb/>Przyszliśmy i przy ołtarzach stanęliśmy
+                        <lb/>Z naszymi patronami i wieszczkami pytyjskimi.</quote>
+                    <p>1100: <w>μῆλα</w> – „owce” – Stevens (1971: 226) sugeruje, że były to owce
+                        przeznaczone na ofiarę poprzedzającą konsultację wyroczni, jednak –
+                        przynajmniej w wersji mitu przywołanej przez Eurypidesa – nie wiemy
+                        nic o tym, by Neoptolemos chciał zasięgać rady wyroczni (contra:
+                        Suárez de la Torre 1997: 154). Zamierza on oczyścić się z win i doskonale
+                        wie, co należy czynić.</p>
+                    <p>1102: <w>ἐσχάραις</w> τ᾽ <w>ἐφέσταμεν</w> – „przy ołtarzach stanęliśmy”. Owce
+                        mogły być przeznaczone na ofiarę wstępną (prothyma) przy wejściu do
+                        sanktuarium – kolejny wers mówi, że ofiarnicy zatrzymali się przy jakimś
+                        ołtarzu – z pewnością nie jest to ołtarz w świątyni, który staje się
+                        sceną śmierci Neoptolemosa w kolejnych wersach. Komentatorzy zgadzają
+                        się w większości (contra: Winnington-Ingram 1976: 490 i Lloyd
+                        1994: 156), że chodzi o ołtarz z Chios stojący 13,5 metra na wschód od
+                        wejścia do świątyni (Stevens 1971: 226 z bibliografią; na temat lokalizacji
+                        zob. Winnington-Ingram 1976: 488).</p>
+                </div>
+                
+                <div type="textpart" n="Andromache_1121–1123_1132–1134_1136–1140_1156–1157">
+                    <head>Andromache 1121–1123; 1132–1134; 1136–1140; 1156–1157</head>
+                    <p>Passus z dalszego ciągu mowy posłańca z opisem śmierci Neoptolemosa
+                        w sanktuarium delfickim. Zaatakowany już w samej
+                        świątyni przez Orestesa i jego wojsko („gang of conspirators”, jak
+                        obrazowo wyraził się Winnington-Ingram 1976: 487) podczas modlitwy,
+                        kiedy był bezbronny, został zraniony i zaczął zrywać wiszące
+                        na ścianach świątyni wota z oręża (składanie w świątyni wotów
+                        z uzbrojenia było pospolitą praktyką, zob. Pritchett 1979: 240–295).
+                        Wskoczył na ołtarz (<w>ἔστη</w> ᾽πὶ <w>βωμοῦ</w>), gdzie bronił się już w pełnym
+                        uzbrojeniu. Musiał jednak cofać się pod naciskiem wielkiej liczby
+                        atakujących, którzy miotali w niego wszelkie możliwe pociski –
+                        były wśród nich <w>σφαγῆς</w> <w>βουπόροι</w>: włócznie do zabijania byków.
+                        Scena nie jest stylizowana bynajmniej na scenę ofiarną, ale dzieje się
+                        w anaktoron delfickiej świątyni, przy – a także na – samym ołtarzu
+                        i terminologia ofiarnicza jest w niej siłą rzeczy obecna, choć tylko
+                        jako opisująca elementy scenografii. Podkreślanie obecności ołtarza
+                        i świętych przedmiotów ma eksponować zabójstwo Neoptolemosa
+                        jako akt bezbożny i pogwałcenie nietykalności rytualnej miejsca
+                        (Detienne 1998: 184–194). Mord ten nie jest stylizowany ani na ofiarę,
+                        ani na anty-ofiarę, na ofiarę „odwróconą” (perverted w terminologii
+                        Henrichsa) – jest po prostu okrutnym morderstwem na bezbronnym
+                        człowieku, oddanym w tej konkretnie chwili modlitwie.
+                        Nie następuje tu – lubiana przez Eurypidesa – substytucja ofiary
+                        zwierzęcej przez ludzką, opowieść posłańca rozpoczyna się od obrazu
+                        orszaku ofiarnego ze zwierzętami prowadzonymi do ołtarza
+                        w świątyni – ten jednak staje się po prostu miejscem morderczej
+                        akcji. Przygotowywana ofiara staje się jedynie religijnym tłem dla
+                        bezbożnych czynów.</p></div>
+                <div type="textpart" n="Andromache_1121–1123;">
+                    <head>Andromache 1121–1123</head>
+                 <quote><lb/>ἐξέλκει δὲ καὶ παραστάδος
+                        <lb/>κρεμαστὰ τεύχη πασσάλων καθαρπάσας
+                        <lb/>ἔστη ᾽πὶ βωμοῦ γοργὸς ὁπλίτης ἰδεῖν.
+                        <lb/>[…]</quote>
+                    </div>
+                <div type="textpart" n="Andromache_1121–1123;">
+                    <head>Andromache 1132–1134</head>
+                    <quote><lb/>ἀλλ᾽ οὐδὲν ἦνεν· ἀλλὰ πόλλ᾽ ὁμοῦ βέλη,
+                        <lb/>οἰστοί, μεσάγκυλ᾽ ἔκλυτοί τ᾽ ἀμφώβολοι,
+                        <lb/>σφαγῆς ἐχώρουν βουπόροι ποδῶν πάρος.
+                        <lb/>[…]</quote>
+                </div>
+                <div type="textpart" n="Andromache_1136–1140;">
+                    <head>Andromache 1136–1140</head>
+                    <quote><lb/>ὡς δέ νιν περισταδὸν
+                        <lb/>κύκλῳ κατεῖχον οὐ διδόντες ἀμπνοάς,
+                        <lb/>βωμοῦ κενώσας δεξίμηλον ἐσχάραν,
+                        <lb/>τὸ Τρωικὸν πήδημα πηδήσας ποδοῖν
+                        <lb n="1140"/>χωρεῖ πρὸς αὐτούς.
+                        <lb/>[…]</quote>
+                </div>
+                <div type="textpart" n="Andromache_1156–1157;">
+                    <head>Andromache 1156-1157</head>
+                    <quote><lb/>νεκρὸν δὲ δή νιν κείμενον βωμοῦ πέλας
+                        <lb/>ἐξέβαλον ἐκτὸς θυοδόκων ἀνακτόρων.
+                        <lb/>[…]</quote>
+                </div>
+                <div type="textpart" n="Andromache_1121–1123;">
+                    <head>Andromache 1121-1123</head>
+                    <quote><lb/>Zrywając broń zawieszoną
+                        <lb/>W krużgankach na kołkach, chwyta ją
+                        <lb/>I staje na ołtarzu w pełnej zbroi hoplity, aż strach patrzeć.
+                        <lb/>[…]</quote>
+                </div>
+                <div type="textpart" n="Andromache_1132–1134;">
+                    <head>Andromache 1132-1134</head>
+                    <quote><lb/>Ale nic nie zdziałał. Zewsząd liczne pociski,
+                        <lb/>Strzały, oszczepy, lekkie włócznie o dwóch ostrzach,
+                        <lb/>Noże do zabijania byków [wyjęte] z rany spadały mu pod nogi.
+                       <lb/> […].</quote>
+                </div>
+                <div type="textpart" n="Andromache_1136–1140;">
+                    <head>Andromache 1136-1140</head>
+                    <quote><lb/>Gdy otoczyli
+                        <lb/>Go kołem, nie dając odetchnąć,
+                        <lb/>Opuścił palenisko ołtarza bogate w ofiary,
+                        <lb/>Trojańskim skokiem, obiema nogami
+                        <lb n="1140"/>Rzucił się na nich.
+                        <lb/>[…]</quote>
+                </div>
+                <div type="textpart" n="Andromache_1156–1157;">
+                    <head>Andromache 1156-1157</head>
+                    <quote><lb/>Zwłoki leżące obok ołtarza
+                        <lb/>Wyrzucili poza ofiarne przybytki.</quote>
+                </div>
+                <div type="textpart">
+                    <p>1134: <w>σφαγῆς</w> […] <w>βουπόροι</w> – „Noże do zabijania byków [wyjęte]
+                        z rany” – forma σφαγῆς może być albo nominatiwem pluralis rzeczownika
+                        <w>σφαγεύς</w>, albo genetiwem singularis od <w>σφαγή</w>. Obie były
+                        brane pod uwagę w interpretacjach (Stevens 1976: 231). W pierwszym
+                        wypadku należałoby uznać, że Eurypides przyjął tu znaczenie znane
+                        z Sofoklesowego <title>Ajasa</title> (w. 815) – niestety tylko z tego passusu! – „nóż
+                        ofiarny”, co wydaje się bardzo ryzykownym założeniem, ponieważ
+                        w <title>Ajasie</title> możemy mieć do czynienia ze swoistą poetycką personifikacją
+                        miecza (por. komentarz ad loc.), ponadto powstałby zwrot abundantny,
+                        ponieważ βουπόρος samo w sobie jest nazwą narzędzia do
+                        zabijania byków. Dlatego chyba lepiej jest przyjąć, że <w>σφαγῆς</w> to genetivus
+                        separativus dla βουπόροι – „noże do zabijania byków od rany
+                        ciętej”, wyjęte z rany – <w>σφαγή</w>.</p>
+                    <p>1138: <w>δεξίμηλον</w> <w>ἐσχάραν</w> – „palenisko ołtarza, bogate w ofiary”,
+                        zob. komentarz do wersu 129.</p>
+                  </div>
+                
+                
+                <div type="textpart" n="Andromache_1239-1240">
+                    <head>Andromache 1239-1240</head>
+                    <p>Słowa Tetydy – ek mechanes, która nakazuje Peleusowi pochować
+                        Neoptolemosa w Delfach przy ołtarzu pytyjskim (<w>θάψον</w> […] <w>Πυθικὴν</w>
+                        πρὸς <w>ἐσχάραν</w>).</p>
+                    <quote><lb/>τὸν μὲν θανόντα τόνδ᾽ Ἀχιλλέως γόνον
+                        <lb n="1240"/>θάψον πορεύσας Πυθικὴν πρὸς ἐσχάραν.</quote>
+                    <quote><lb/>Tego zmarłego, tego syna Achillesa,
+                        <lb n="1240"/>Udając się [do Delf], pochowaj przy pytyjskim ołtarzu.</quote>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

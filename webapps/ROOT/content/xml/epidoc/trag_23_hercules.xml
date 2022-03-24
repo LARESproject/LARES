@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Hercules (Ἡρακλῆς, Eracle)</title>
+                <title xml:lang="en">Hercules (Ἡρακλῆς, Herakles)</title>
+                <title xml:lang="pl">Hercules (Ἡρακλῆς, Herakles)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">trag_23_hercules</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Hercules (Ἡρακλῆς, Herakles)</title>, in Krzysztof Bielawski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Tragedia attycka</title>, Warszawa 2017, pp. 283-296</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaia Fanelli">encoded document in XML</change>
+                <change when="2017" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Nie istnieją żadne antyczne źródła, które pomogłyby nam datować
+                        wystawienie <title>Heraklesa</title>. Naukowcom pozostają więc badania nad samym
+                        tekstem i poszukiwania w nim odpowiedzi. Analiza metryczna
+                        – skoncentrowana głównie na rozwiązaniach w trymetrach jambicznych
+                        partii dialogowych – doprowadziła do wniosku, że dramat ten
+                        powstał między rokiem 416 a 414 (Bond 1981: xxxi oraz Lesky 2006: 425
+                        z pełną bibliografią na ten temat).</p>
+                    <p>Jak w wielu sztukach Eurypidesa, także tutaj istotnym wyznacznikiem
+                        miejsca akcji pozostaje ołtarz – to przy nim chronią się bohaterowie
+                        i jest on ważnym punktem odniesienia w budowaniu charakterów:
+                        stosunek do ołtarza staje się podstawą ludzkich ocen. Dramat
+                        zawiera ważną, choć niedokończoną scenę ofiarną – to podczas obrzędów
+                        ofiarnych Herakles popada w szaleństwo.</p>
+                    <p>Tekst według wydania: Bond (1981).</p>
+                </div>
+                <div type="textpart" n="Hercules_44-50">
+                    <head>Hercules 44-50</head>
+                    <p>Ołtarz Zeusa Zbawcy (Zeus Soter) przed pałacem Heraklesa w Tebach
+                        jest miejscem akcji dramatu. W tej funkcji powraca w tekście
+                        jeszcze kilkakrotnie – kiedy Lykos nakazuje wznieść wokół niego stos
+                        drewna, by spalić żywcem błagalników (w. 243) i kiedy w trzecim epeisodionie
+                        powraca na scenę (w. 715), a także kiedy powraca do domu
+                        Herakles i kilkakrotnie przywołuje ognisko domowe (hestia – w. 523,
+                        554, 599); ołtarz ten jest też świadkiem szaleństwa Heraklesa i miejscem
+                        mordu na rodzinie (w. 922, 974, 984, 1145). Komentarze (Bond
+                        1981: 74 i za nim Barlow 1996: 127) w dedykacji ołtarza dla Zeusa Sotera
+                        widzą jedynie zabieg retoryczny: z jednej strony błagalnicy uciekają
+                        się pod jego opiekę, ponieważ może ich „zbawić”, z drugiej strony
+                        publiczność odczytuje w tym gorzką ironię, ponieważ należy się spodziewać
+                        od samego prologu, że niekoniecznie jest to ucieczka skuteczna.
+                        Nie wydaje się, że trzeba się tutaj doszukiwać retorycznych czy
+                        poetyckich jedynie zabiegów Eurypidesa, skoro kult Zeusa Sotera jest
+                        dobrze poświadczony, by nie powiedzieć pospolity, zwłaszcza że najprawdopodobniej
+                        dość często utożsamiano go z Eleutheriosem (zob.
+                        Raaflaub 2004: 108–110 oraz 316–317 – przypisy z pełną bibliografią
+                        przedmiotu; wcześniej Farnell 1896, vol. 1: 60–62 i 166 oraz komentarz
+                        Bednarka 2017: 240–241 do Ar. <title>Pl</title>. 1175).</p>
+                    <p>W prologu Amfitrion pierwszy raz wskazuje na to kluczowe miejsce,
+                        w którym siedzi jako błagalnik razem z Megarą i dziećmi Heraklesa.
+                        Znaczenie ołtarza podkreślone jest przez opowieść ajtiologiczną
+                        o jego pochodzeniu.</p>
+                    <quote><lb/>ἐγὼ δέ–λείπει γάρ με τοῖσδ᾽ ἐν δώμασιν
+                        <lb n="45"/>τροφὸν τέκνων οἰκουρόν, ἡνίκα χθονὸς
+                        <lb/>μέλαιναν ὄρφνην εἰσέβαινε, παῖς ἐμός–
+                        <lb/>σὺν μητρί, τέκνα μὴ θάνωσ᾽ ῾Ηρακλέους,
+                        <lb/>βωμὸν καθίζω τόνδε σωτῆρος Διός,
+                        <lb/>ὃν καλλινίκου δορὸς ἄγαλμ᾽ ἱδρύσατο
+                        <lb n="50"/>Μινύας κρατήσας οὑμὸς εὐγενὴς τόκος.</quote>
+                    <quote><lb/>Ja zaś – zostawił mnie bowiem w tym pałacu
+                        <lb n="45"/>Jako opiekuna dzieci i domu, kiedy w ziemi
+                        <lb/>Czarne mroki zstąpił, syn mój –
+                        <lb/>Z matką, by dzieci Heraklesa nie zginęły,
+                        <lb/>Siadłem przy tym ołtarzu Zeusa Zbawcy,
+                        <lb/>Który wystawił na cześć pięknie zwycięskiej włóczni
+                        <lb n="50"/>Po pokonaniu Miniasa mój szlachetny syn.</quote>
+                </div>
+                
+                <div type="textpart" n="Hercules_242-245">
+                    <head>Hercules 242-245</head>
+                    <p>Słowa Lykosa, który zamierza zamordować błagalników – Amfitriona,
+                        Megarę i dzieci Heraklesa. Nie chce ich nawet odrywać od ołtarza,
+                        przy którym się chronią, ale poleca wokół niego wznieść stos z belek
+                        dębowych i podpalić, by spłonęli żywcem. W kolejnych wersach
+                        chór uznaje ten czyn za bezbożny (w. 255–256: τοῦδ᾽ ἀνδρὸς ἀνόσιον
+                        κάρα / <w>καθαιματώσετε</w>), modląc się o to, by głowa Lykosa spłynęła
+                        krwią (tutaj czasownik <w>καθαιματόω</w> = <w>καθαιμάσω</w> – bez ofiarnych konotacji).</p>
+                    <quote><lb/>ἐπειδὰν δ᾽ ἐσκομισθῶσιν πόλει,
+                        <lb/>βωμὸν πέριξ νήσαντες ἀμφήρη ξύλα
+                        <lb/>ἐμπίμπρατ᾽ αὐτῶν καὶ πυροῦτε σώματα
+                        <lb n="245"/>πάντων.</quote>
+                    <quote><lb/>Kiedy zaś już zostaną zwiezione do miasta [dębowe belki],
+                        <lb/>Wokół ołtarza ze wszystkich stron ułożywszy drewno
+                        <lb/>Podłóżcie pod nich ogień i spalcie ciała ich
+                        <lb n="245"/>Wszystkich.</quote>
+                </div>
+                
+                <div type="textpart" n="Hercules_319-320">
+                    <head>Hercules 319-320</head>
+                    <p>Słowa Amfitriona do Lykosa, który wraz z Megarą odstępuje od ołtarza,
+                        nie chce czekać na śmierć, ale prosi o to, by zabito ich najpierw,
+                        przed dziećmi. Amfitrion uderza w patetyczny ton. Podaje szyję pod
+                        uderzenia miecza, który bywał używany podczas zabijania zwierząt
+                        ofiarnych – phasganon – co nie ma tutaj żadnego znaczenia: miecz, zabicie,
+                        mordowanie, zrzucanie ze skały tworzą asyndetyczny klimaks
+                        (Barlow 1996: 137) czy też, jak soczyście notuje Bond (1981: 140) „bloody
+                        tricolon crescendo”. Intrygujące, że Lykos zdaje się odczytywać jednak
+                        w tych wezwaniach jakąś prośbę o rytualizację planowanych mordów
+                        – poleca wszystkim skazanym przebrać się w uroczyste szaty pogrzebowe
+                        (w. 333–335, zob. poniżej), by „dać” ich „bogom podziemnym”.
+                        Histeryczny krzyk o szybką i gwałtowną śmierć Amfitriona znajduje
+                        odpowiedź w poleceniu uporządkowanego, niemal rytualnego przygotowania
+                        się na zabicie, które w dodatku zyskuje ofiarny charakter.</p>
+                    <quote><lb/>ἰδοὺ πάρεστιν ἥδε φασγάνῳ δέρη
+                        <lb n="320"/>κεντεῖν φονεύειν, ἱέναι πέτρας ἄπο.</quote>
+                    <quote><lb/>Oto gotowa szyja pod miecz,
+                        <lb n="320"/>Zabij, zamorduj, zrzuć ze skały.</quote>
+                </div>
+                
+                <div type="textpart" n="Hercules_333-335">
+                    <head>Hercules 333-335</head>
+                    <p>Lykos przyjmuje prośbę Amfitriona i poleca wszystkim przystroić
+                        się na śmierć. Oznajmia, że jak będą gotowi, przyjdzie, by oddać ich
+                        „bogom podziemnym” (<w>νερτέρᾳ</w> <w>χθονί</w>). Podejmując ofiarną retorykę
+                        Amfitriona z poprzedniej kwestii, wyobraża sobie zabitych jako ofiary
+                        dla bóstw podziemnych.</p>
+                    <quote><lb/>κοσμεῖσθ᾽ ἔσω μολόντες· οὐ φθονῶ πέπλων.
+                        <lb/>ὅταν δὲ κόσμον περιβάλησθε σώμασιν,
+                        <lb n="335"/>ἥξω πρὸς ὑμᾶς νερτέρᾳ δώσων χθονί.</quote>
+                    <quote><lb/>Wejdźcie do środka i strójcie się. Nie zazdroszczę peplosów.
+                        <lb/>Kiedy zaś ciała swe przyozdobicie,
+                        <lb n="335"/>Przyjdę do was i dam was podziemnym bogom.</quote>
+                </div>
+                
+                <div type="textpart" n="Hercules_451-453">
+                    <head>Hercules 451-453</head>
+                    <p>Po śpiewie chóru w pierwszym stasimonie, stanowiącym hymn
+                        pochwalny dla Heraklesa i jego bohaterskich czynów, Megara z teściem
+                        i dziećmi wychodzi z pałacu, wszyscy przystrojeni są w uroczyste
+                        szaty. Megara interpretuje to wyjście – za Amfitrionem i Lykosem
+                        z poprzedniej sceny – jako orszak ofiarny zmierzający na śmierć.
+                        Dopytuje się, kto będzie kapłanem (<w>ἱερεύς</w>), ofiarnikiem (<w>σφαγεύς</w>)
+                        i mordercą jednocześnie i zaznacza, że są gotowi (<w>ἕτοιμοι</w>) na śmierć
+                        ofiarną (<w>θῦμα</w>). To Lykos przeniósł planowany mord na poziom rytuału
+                        pogrzebowego przez nakaz przebrania się w odświętne szaty.
+                        Megara idzie dalej i nazywa siebie „zwierzęciem ofiarnym”. Przez to
+                        porównanie nie sugeruje tutaj rzeczywistej substytucji zwierzę-człowiek,
+                        ale usiłuje nadać tej śmierci sens i podkreślić swoją niewinność.
+                        To ona jest przekonana, że jej śmierć jest metaforą ofiary. Zarówno
+                        <w>ἱερεύς</w>, jak i <w>σφαγεύς</w> to termini technici na określenie tych, którzy przeprowadzają
+                        własnoręcznie ofiarę. Megara „mianuje” swego phoneusa
+                        (<w>φονεύς</w> – o ile ten wers nie jest późniejszą interpolacją, zob. Bond
+                        1981: 180) – mordercę kapłanem i ofiarnikiem. <w>Ἱερεύς</w> jest pojęciem
+                        szerszym, może oznaczać tego, kto przeprowadza sam akt zabicia
+                        zwierzęcia na ofiarę, ale także tego, kto nadzoruje także wszystkie ryty
+                        przygotowawcze (Rudhardt 1992: 291–291; Casabona 1966: 178: „une
+                        fonction habituelle”). <w>Σφαγεύς</w> to ten, kto wykonuje σφαγή – cięcie
+                        mieczem (Casabona 1966: 178: „s’applique à qui accomplit occasionnellement
+                        le geste de l’égorgement”). <w>Φονεύς</w> nie pojawia się nigdy
+                        w związku z ofiarą. Rzeczownik <w>σφαγεύς</w>, mimo etymologicznych
+                        związków z czasownikiem <w>σφάζω</w>, jest zwykłym określeniem ofiarnika,
+                        który dokonywał aktu zabicia zwierzęcia, podcięcia mu gardła,
+                        jest – jak mówi Bond (1981) – verbum bonum, stosowanym pospolicie
+                        przy zwykłej ofierze. Zmiana języka opisującego nadchodzącą śmierć
+                        bohaterów jest oczywista i perspektywa rytualna jest zamierzona, jakkolwiek
+                        pozostaje na poziomie metaforycznym.</p>
+                    <quote><lb/>τίς ἱερεύς, τίς σφαγεὺς τῶν δυσπότμων
+                        <lb/>[ἢ τῆς ταλαίνης τῆς ἐμῆς ψυχῆς φονεύς;]
+                        <lb/>ἕτοιμ᾽ ἄγειν τὰ θύματ᾽ εἰς Ἅιδου τάδε.</quote>
+                    <quote><lb/>Kto kapłanem? Kto ofiarnikiem nieszczęśników?
+                        <lb/>Kto mordercą mojej biednej duszy?
+                        <lb/>Żeby prowadzić te gotowe ofiary do Hadesa.</quote>
+                </div>
+                
+                <div type="textpart" n="Hercules_523">
+                    <head>Hercules 523</head>
+                    <p>Pierwsze słowa Heraklesa po przybyciu przed własny pałac. Tutaj
+                        hestia – ognisko ołtarza domowego – metonimicznie zamiast „dom”,
+                        tak samo zresztą jak melathron – dosłownie „dach”.</p>
+                    <quote><lb/>ὦ χαῖρε, μέλαθρον πρόπυλά θ᾽ ἑστίας ἐμῆς.</quote>
+                    <quote><lb/>O witaj, dachu i bramo mojego domowego ogniska!</quote>
+                </div>
+                
+                <div type="textpart" n="Hercules_554">
+                    <head>Hercules 554</head>
+                    <p>Herakles kieruje do Megary pytanie, dlaczego opuszcza dom
+                        (<w>οἶκος</w>) i domowe ognisko (<w>ἑστία</w>) – być może chodzi tutaj metonimicznie
+                        o ołtarz stojący przed pałacem (zob. komentarz do w. 44–50),
+                        ale może też, jak w poprzednim passusie, o metonimię. Bond w swojej
+                        edycji stosuje pisownię z wielkiej litery w słowie <w>ἑστία</w>, równocześnie
+                        jednak cytując w komentarzu (1981: 215) przekonywające słowa Lloyda-
+                        -Jonesa, że zwykle nie ma wielkiej różnicy między boginią i przedmiotem
+                        („no great distinction between god and sacred object”). Nie widzę
+                        żadnego uzasadnienia dla takiej grafii, zwłaszcza że Herakles nazywa
+                        hestię „swoją”, czego komentarz nie uwzględnia.</p>
+                    <quote><lb/>τί δ᾽ ἐξελείπετ᾽ οἶκον ἑστίαν τ᾽ ἐμήν;</quote>
+                    <quote><lb/>Dlaczego opuszczacie dom i moje ognisko?</quote>
+                </div>
+                
+                <div type="textpart" n="Hercules_599-602">
+                    <head>Hercules 599-602</head>
+                    <p>Amfitrion, po powrocie Heraklesa, planuje z nim zemstę na Lykonie.
+                        Zaleca synowi pozdrowić domowy ołtarz i czekać na właściwy
+                        moment. Odnosząc się do planu Lykona ponownie mówi o zamierzonym
+                        przez niego mordzie (<w>φονεύσων</w>), który interpretuje w kategoriach
+                        ofiarnych (<w>ἐπισφάξων</w> – zob. Casabona 1966: 169), jak powyżej Megara.
+                        Tak jak w jej wypowiedzi (por. komentarz powyżej w. 451–453) i mord,
+                        i rytuał ofiarny są równocześnie obecne.</p>
+                    <quote><lb/>παρελθὼν νῦν πρόσειπέ θ᾽ ἑστίαν
+                        <lb n="600"/>καὶ δὸς πατρῴοις δώμασιν σὸν ὄμμ᾽ ἰδεῖν.
+                        <lb/>ἥξει γὰρ αὐτὸς σὴν δάμαρτα καὶ τέκνα
+                        <lb/>ἕλξων φονεύσων κἄμ᾽ ἐπισφάξων ἄναξ·</quote>
+                    <quote><lb/>Podejdź teraz i pozdrów ognisko domowe,
+                        <lb n="600"/>I daj ojcowskiemu pałacowi ujrzeć twoją twarz.
+                        <lb/>On sam przyprowadzi twoją żonę i dzieci,
+                        <lb/>Żeby je zawlec i zamordować i mnie zarżnąć.</quote>
+                </div>
+                
+                <div type="textpart" n="Hercules_715">
+                    <head>Hercules 715</head>
+                    <p>W trzecim epeisodionie Lykos, nieświadom powrotu Heraklesa
+                        i własnej zguby, wchodzi na scenę, szukając Megary i dzieci Heraklesa,
+                        aby je zabić. Amfitrion informuje go, że siedzi ona w domu przy
+                        ołtarzu domowym jako błagalnica. Wydaje się, że tym razem chodzi
+                        nie o ołtarz Zeusa eksponowany od pierwszej sceny, ale rzeczywiście
+                        o ognisko domowe lub wprost ołtarz Hestii. Bond (1981: 250) błędnie
+                        interpretuje <w>βάθρον</w> jako element górnej części ołtarza czy wprost paleniska
+                        – część, w której zbiera się popiół („to contain fire and ashes”,
+                        najwyraźniej pomyłka wynika z podobieństwa do <w>βόθρος</w>, które może
+                        oznaczać zbiornik, jednak również w opisach ołtarzy nie występuje),
+                        jest to jednak nieuzasadnione (zob. <title>LSJ</title>, s.v. wraz z suplementem) – jest
+                        to podstawa ołtarza.</p>
+                    <quote><lb/>ἱκέτιν πρὸς ἁγνοῖς ῾Εστίας θάσσειν βάθροις . . .</quote>
+                    <quote><lb/>Siedzi jako błagalnica u świętych stóp Hestii.</quote>
+                </div>
+                
+                <div type="textpart" n="Hercules_922-941">
+                    <head>Hercules 922-941</head>
+                    <p>Mowa posłańca do chóru, w której opowiada on o szale Heraklesa
+                        i okolicznościach mordu na rodzinie. Tłem dla całego wydarzenia
+                        jest scena ofiarna – pochód i śpiew chóru (w. 925: <w>χορὸς</w> δὲ
+                        <w>καλλίμορφος</w>), obnoszenie kosza ofiarnego (w. 926–927: <w>κύκλῳ</w> δ' <w>ἤδη</w>
+                        <w>κανοῦν</w> / <w>εἵλικτο</w> <w>βωμοῦ</w>), święte milczenie (w. 927: <w>φθέγμα</w> δ' <w>ὅσιον</w>
+                        <w>εἴχομεν</w>) i obmycia rytualne (w. 929: ἐς <w>χέρνιβ</w>' ὡς <w>βάψειεν</w>). Po zabiciu
+                        Lykosa Herakles z żoną i dziećmi szykuje się do złożenia ofiary
+                        Zeusowi; ponownie ołtarz Zeusa Zbawcy (w. 922: <w>ἐσχάρας</w> <w>Διὸς</w>)
+                        z prologu staje się centrum akcji dramatycznej. Ofiara ma charakter
+                        oczyszczający dom (w. 923: <w>οἴκων</w>) po morderstwie (w. 922–923: <w>ἱερὰ</w>
+                        […] <w>καθάρσια</w>).</p>
+                    <p>Opis tych klasycznych przygotowań do ofiary przerywa zmiana
+                        zachowania i wyglądu Heraklesa. Zmienia się wygląd jego oczu i twarzy,
+                        zaczyna toczyć pianę z ust. Próbuje racjonalizować swoje zachowanie
+                        i dość logicznie zwraca się do ojca z pytaniem, po co składać
+                        ofiarę (w. 936: τί <w>θύω</w>), która ma oczyścić dom (w. 923: <w>οἴκων</w>) i ręce
+                        (w. 940: <w>ἁγνιῶ</w> <w>χέρας</w>) z morderstwa, skoro zamierza zabić jeszcze
+                        Eurysteusza – po co dwa razy się trudzić.</p>
+                    <p>Herakles zatrzymuje ostatecznie rytualny przebieg ofiary, nakazuje
+                        wylać wodę oczyszczeń (w. 941: <w>ἐκχεῖτε</w> <w>πηγάς</w>) i odrzucić kosze
+                        rytualne (<w>ῥίπτετ</w>' ἐκ <w>χειρῶν</w> <w>κανᾶ</w>), a następnie w szale rozpoczyna
+                        mordować rodzinę.</p>
+                    <quote><lb n="922"/>ἱερὰ μὲν ἦν πάροιθεν ἐσχάρας Διὸς
+                        <lb/>καθάρσι᾽ οἴκων, γῆς ἄνακτ᾽ ἐπεὶ κτανὼν
+                        <lb/>ἐξέβαλε τῶνδε δωμάτων Ἡρακλέης·
+                        <lb n="925"/>χορὸς δὲ καλλίμορφος εἱστήκει τέκνων
+                        <lb/>πατήρ τε Μεγάρα τ᾽· ἐν κύκλῳ δ᾽ ἤδη κανοῦν
+                        <lb/>εἵλικτο βωμοῦ, φθέγμα δ᾽ ὅσιον εἴχομεν.
+                        <lb/>μέλλων δὲ δαλὸν χειρὶ δεξιᾷ φέρειν,
+                        <lb/>ἐς χέρνιβ᾽ ὡς βάψειεν, Ἀλκμήνης τόκος
+                        <lb n="930"/>ἔστη σιωπῇ. καὶ χρονίζοντος πατρὸς
+                        <lb/>παῖδες προσέσχον ὄμμ᾽· ὁ δ᾽ οὐκέθ᾽ αὑτὸς ἦν,
+                        <lb/>ἀλλ᾽ ἐν στροφαῖσιν ὀμμάτων ἐφθαρμένος
+                        <lb/>ῥίζας τ᾽ ἐν ὄσσοις αἱματῶπας ἐκβαλὼν
+                        <lb/>ἀφρὸν κατέσταζ᾽ εὐτρίχου γενειάδος.
+                        <lb n="935"/>ἔλεξε δ᾽ ἅμα γέλωτι παραπεπληγμένῳ·
+                        <lb/>Πάτερ, τί θύω πρὶν κτανεῖν Εὐρυσθέα
+                        <lb/>καθάρσιον πῦρ, καὶ πόνους διπλοῦς ἔχω;
+                        <lb/>ἔργον μιᾶς μοι χειρὸς εὖ θέσθαι τάδε·
+                        <lb/>ὅταν δ᾽ ἐνέγκω δεῦρο κρᾶτ᾽ Εὐρυσθέως,
+                        <lb n="940"/>ἐπὶ τοῖσι νῦν θανοῦσιν ἁγνιῶ χέρας.
+                        <lb/>ἐκχεῖτε πηγάς, ῥίπτετ᾽ ἐκ χειρῶν κανᾶ.</quote>
+                    <quote><lb n="922"/>Ofiary dom oczyszczające już były przed ołtarzem Zeusa,
+                        <lb/>Władcę tej ziemi, kiedy już go zabił,
+                        <lb/>Wyrzucił z pałacu Herakles.
+                        <lb n="925"/>Piękny chór dzieci stanął,
+                        <lb/>I ojciec, i Megara; kosz ofiarny już wokół
+                        <lb/>Ołtarza krążył, zachowaliśmy święte milczenie.
+                        <lb/>Zamierzał unieść w prawej ręce żagiew,
+                        <lb/>Żeby w wodzie oczyszczeń ją zanurzyć syn Alkmeny,
+                        <lb n="930"/>Stanął w milczeniu. Kiedy ojciec zwlekał,
+                        <lb/>Dzieci zwróciły ku niemu oczy. On zaś już nie był sobą,
+                        <lb/>Przewracał oczami, jak by ginął,
+                        <lb/>Krwią nabiegły mu wytrzeszczone oczy,
+                        <lb/>Piana spływała po gęstej brodzie,
+                        <lb n="935"/>Ze śmiechem szaleńca powiedział:
+                        <lb/>„Ojcze, po co składam w ofierze, zanim zabiję Eurysteusza,
+                        <lb/>Ogień oczyszczający, i trud podwójny sobie zadaję?
+                        <lb/>Dziełem jednej ręki dobrze mogę to spełnić.
+                        <lb/>Gdy tu przyniosę głowę Eurysteusza,
+                        <lb n="940"/> Oczyszczę ręce przy tych teraz martwych!
+                        <lb/>Wylejcie wodę, wyrzućcie z rąk kosze ofiarne!”.</quote>
+                    <p>922–923: <w>ἱερὰ</w> […] <w>καθάρσια</w> – „ofiary oczyszczające”. Celem przygotowywanych
+                        ofiar było oczyszczenie domu (w. 923: <w>οἴκων</w>) po morderstwie
+                        Lykosa. W wersie 940 Herakles mówi też o oczyszczeniu rąk
+                        (<w>ἁγνιῶ</w> <w>χέρας</w>). Nie jest to obrzęd typu katharmos (<w>καθαρμός</w>), znany
+                        z opisu Ajschylosa na początku <title>Eumenid</title> (w. 283, zob. z obszernym komentarzem
+                        i bibliografią), polegający na zabiciu prosięcia nad głową
+                        i rękami obciążonego zmazą mordercy, ale zwykła thysia. Przebieg tej
+                        ofiary został przerwany i nie wiemy, jak miały wyglądać jej dalsze etapy,
+                        ale wszystkie etapy wstępne ofiary wskazują na to, że po zabiciu
+                        zwierzęcia, inspekcji wnętrzności, podziale mięsa, spaleniu części należnych
+                        bogom na ołtarzu miała nastąpić uroczysta uczta ofiarna.</p>
+                    <p>924–925: ἐν <w>κύκλῳ</w> δ᾽ ἤδη <w>κανοῦν</w> / <w>εἵλικτο</w> <w>βωμοῦ</w> – „kosz ofiarny
+                        już wokół / ołtarza krążył”. Kosz ofiarny – κανοῦν – zawierał niezbędne
+                        do złożenia ofiary przedmioty, takie jak wstęgi do zdobienia
+                        zwierząt, krupy czy ziarno, nóż. Dobrze reprezentowany w ikonografii
+                        (van Straten 1995: 14) – gdzie zwykle niesiony jest w uroczystej procesji.
+                        Tutaj jest „obnoszony wokół ołtarza”.</p>
+                    <p>925: <w>φθέγμα</w> δ᾽ <w>ὅσιον</w> <w>εἴχομεν</w> – „zachowaliśmy święte milczenie”,
+                        dosłownie: „zachowaliśmy święte głosy”. Poetycka fraza na euphemia
+                        – „zbożne milczenie”, czyli rytualną postawę szacunku i skupienia,
+                        wyrażającą się rzeczywiście najczęściej w zachowaniu milczenia; euphemia
+                        nie musi jednak koniecznie oznaczać milczenia – może też być
+                        wydawaniem takich głosów, słów czy dźwięków, jakie w danej sytuacji
+                        rytualnej są odpowiednie i nie zaburzają czystości rytuału (Gödde
+                        2007). W Hekabe, przed ofiarą z Polykseny na grobie Achillesa, Taltybios
+                        kilkakrotnie wzywa zgromadzone wojsko do milczenia (zob. komentarz
+                        <title>Hec</title>. 532–533).</p>
+                    <p>928–929: μέλλων δὲ <w>δαλὸν</w> χειρὶ δεξιᾷ φέρειν, / ἐς <w>χέρνιβ</w>᾽ ὡς
+                        βάψειεν – „zamierzał unieść w prawej ręce żagiew, / żeby w wodzie
+                        oczyszczeń ją zanurzyć”. Passus sam w sobie jest zrozumiały, chociaż
+                        nawiązuje do całkowicie niezrozumiałego dla nas rytuału zanurzania
+                        w naczyniu na wodę lustralną (chernips – zob. wyczerpujące hasło
+                        słownikowe autorstwa Trzcionkowskiego) przed spełnieniem ofiary,
+                        poświadczonego też w Ar. <title>Pax</title> 959 (τὸ <w>δαλίον</w> τόδ᾽ ἐμβάψω λαβών,
+                        „wezmę ten patyk i zanurzę go w wodzie” – zob. komentarz Bednarka
+                        2017: 107 do passusu). Herakles zamierzał prawą ręką chwycić żagiew,
+                        polano – zapewne biorąc je z płonącego już ołtarza – żeby zanurzyć je
+                        w <w>χέρνιψ</w>. Znaczenie tego rytuału nie jest znane i nie potrafimy go wyjaśnić.
+                        Jeszcze trudniej interpretować ten passus w świetle wersu 1145,
+                        kiedy to Herakles, przebudzony po szale, wypytuje Amfitriona o to, co
+                        się stało, ponieważ nic nie pamięta. Ten zaś odpowiada, odnosząc się
+                        niewątpliwie do tego samego momentu obrzędu, że szał dopadł herosa
+                        w chwili, „kiedy oczyszczał w ogniu ręce przy ołtarzu” (zob. komentarz
+                        poniżej). Wygląda tak, jakby podczas zanurzania żagwi z ołtarza
+                        w chernips równocześnie dokonywało się oczyszczenie rąk w ogniu.
+                        To jedyny opis takiego rytuału w literaturze, żaden komentarz nie poświęca
+                        nigdzie uwagi tym passusom i próbie ich uzgodnienia.</p>
+                    <p>936–937: τί θύω […] / <w>καθάρσιον</w> <w>πῦρ</w> – „po co składam w ofierze
+                        […] ogień oczyszczający”. Zwrot καθάρσιον πῦρ jest poetyzmem
+                        (zob. też tak samo w E. <title>IA</title> 1112) – składanie „ognia oczyszczającego”
+                        w ofierze oznacza składanie ofiary oczyszczającej (jak u Pauzaniasza
+                        1.34.5: ἔστ<w></w>ι δὲ <w>καθάρσιον</w> τῷ θεῷ θύειν). Nic nie wiemy o cechach
+                        charakterystycznych i ewentualnych rytuałach spełnianych wyłącznie
+                        przy takiej ofierze (Parker 1983: 10, zob. też komentarz do wersów
+                        922–923 powyżej). Gdyby wziąć użyte przez Eurypidesa sformułowanie
+                        dosłownie, można by sądzić, że przy oczyszczaniu domu to
+                        właśnie dym unoszący się z ołtarza odgrywa kluczową rolę. Wówczas
+                        taki rodzaj ofiary – nazywanej tu konsekwentnie thysia – byłby „zwykłą”
+                        ofiarą zakończoną ofiarną ucztą, natomiast kluczowe znaczenie
+                        odgrywałby dym wypełniający oczyszczany dom i odpowiednie formuły
+                        modlitewne. W jakiejś mierze taka interpretacja przywodzi na
+                        myśl scenę oczyszczania domu przez Odyseusza po zabiciu zalotników
+                        w 22 księdze <title>Odysei</title> (490–497), gdzie ogień, siarka i pochodnie są
+                        narzędziami oczyszczenia – chociaż z pewnością nie mamy tu do czynienia
+                        z ceremonią religijną, ale procedurą sanitarną (Gillies 1925: 74).</p>
+                </div>
+                
+                <div type="textpart" n="Hercules_972-974_984-985">
+                    <head>Hercules 972-974; 984-985</head>
+                    <p>W scenie tej Herakles w szale goni swoich bliskich, by ich połapać
+                        i zabić. Synowie chronią się w fałdach szat matki (w. 972–973: ἐς
+                        <w>πέπλους</w> ὁ μὲν / <w>μητρὸς</w> <w>ταλαίνης</w>), za kolumnami (w. 973: ὁ δ᾽ ὑπὸ
+                        <w>κίονος</w> <w>σκιάν</w>) oraz – dwukrotnie – u podstaw ołtarza (w. 974: ἄλλος
+                        δὲ <w>βωμὸν</w> […] <w>ἔπτηξ</w>᾽ ὕπο oraz w. 984–985: ὃς ἀμφὶ <w>βωμίαν</w> / <w>ἔπτηξε</w>
+                        <w>κρηπῖδα</w>).</p>
+                </div>
+                
+                <div type="textpart" n="Hercules_995-996">
+                    <head>Hercules 995-996</head>
+                    <p>Posłaniec, opisując kolejno mord na trzech synach Heraklesa, nazywa
+                        każdego z nich „ofiarą” – <w>θῦμα</w> (w znaczeniu tego, co się składa
+                        na ofiarę). Opis sceny ofiarnej, która otwiera mowę posłańca, zmienia
+                        się gwałtownie w brutalny mord na bezbronnych dzieciach. Eurypides
+                        każe posłańcowi nazywać mordowane dzieci <w>θύματα</w>, które są rytualnie
+                        zarzynane na ofiarę (<w>ἐπισφάζειν</w>). Metafora rytuału ofiarnego nie
+                        pozostawia tutaj żadnych wątpliwości. Barlow (1996: 166) widzi w tym
+                        „gorzką ironię” oraz przykład „perverted sacrifice” w rozumieniu Helen
+                        Foley (1985: 155). Z kolei Godfrey Bond (1981: 318–319) przywołuje
+                        w komentarzu interpretację Fraenkla (z komentarza do w. 1386) do sceny
+                        mordu na Agamemnonie z pierwszej części <title>Orestei</title>, mówiąc o „parodii
+                        języka rytuału, która wzmacnia makabryczny efekt”. Obydwie
+                        interpretacje (może z wyjątkiem „ofiary odwróconej”) są uzasadnione.
+                        Dzieci Heraklesa nie są, nie stają się ofiarami w żadnym sensie. One są
+                        tak jak ofiary, niewinne i nieuchronnie skazane na śmierć oraz mordowane
+                        brutalnie i krwawo. Pierwsze podkreśla θῦμα, drugie – <w>ἐπισφά-
+                        ζειν</w>. Użycie języka ofiarnego jest metaforyczne. Słowa te padają z ust
+                        posłańca i trzeba przyjąć, że to jest jego interpretacja tego, co widział.
+                        Można domniemywać, że w jego przekonaniu to Herakles sądził, że
+                        spełnia jakąś ofiarę – tę, którą rozpoczął przy ołtarzu – ale nic na to nie
+                        wskazuje. Herakles już w szale mówi jedynie, że ma zamiar jeszcze zabić
+                        Eurysteusza i dlatego oczyszczanie się nie ma sensu. Nic nie wskazuje
+                        na to, by sądził, że morduje Eurysteusza. Herakles po prostu i bez żadnego
+                        sensu morduje dzieci i żonę. Narracja posłańca przez wprowadzenie
+                        języka ofiarnego rzeczywiście zyskuje makabryczny dramatyzm.</p>
+                    <quote><lb n="995"/>δεύτερον δὲ παῖδ᾽ ἑλών,
+                        <lb/>χωρεῖ τρίτον θῦμ᾽ ὡς ἐπισφάξων δυοῖν.</quote>
+                    <quote><lb n="995"/>Dorwawszy drugiego,
+                        <lb/>Rusza dalej, by trzecią, obok tych dwóch, zarżnąć ofiarę.</quote>
+                </div>
+                
+                <div type="textpart" n="Hercules_1022-1024">
+                    <head>Hercules 1022-1024</head>
+                    <p>Śpiew chóru z początku trzeciego stasimonu, po opisie mordu
+                        Heraklesa w mowie posłańca. Chór przywołuje mord Danaid na Ajgyptiadach
+                        oraz straszny los Itysa, uznając, że nieszczęścia herosa
+                        przewyższyły wszystko, co dotąd uznawano za najstraszniejsze.</p>
+                    <quote><lb/>μονοτέκνου Πρόκνης φόνον ἔχω λέξαι
+                        <lb/>θυόμενον Μούσαις· σὺ δὲ τέκνα τρίγον᾽, ὦ
+                        <lb/>δάιε, τεκόμενος, λυσσάδι συγκατειργάσω μοίρᾳ.</quote>
+                    <quote><lb/>Mogę powiedzieć, że mord na jedynaku Prokne
+                        <lb/>Był ofiarą dla Muz; ty zaś trójkę dzieci,
+                        <lb/>Okrutny, w jednej zbrodni połączyłeś szalonym losem tknięty.</quote>
+                </div>
+                
+                <div type="textpart" n="Hercules_1144-1145">
+                    <head>Hercules 1144-1145</head>
+                    <p>Wybudzony z szału Herakles wypytuje Amfitriona, co się stało
+                        i jak doszło do zbrodni, z której właśnie zdał sobie sprawę. Pyta
+                        o moment, w którym ogarnęło go szaleństwo. Amfitrion odpowiada,
+                        że stało się to w chwili, kiedy „oczyszczał dłonie w ogniu pochodni”
+                        (<w>χεῖρας</w> <w>ἡγνίζου</w> <w>πυρί</w>). W opisie tego zdarzenia w mowie posłańca
+                        (powyżej, w. 928–934) ten sam moment przedstawiony jest nieco inaczej:
+                        Herakles właśnie „zamierzał unieść w prawej ręce żagiew, / żeby
+                        w wodzie oczyszczeń ją zanurzyć” (w. 928–929: <w>χειρὶ</w> δεξιᾷ φέρειν, /
+                        ἐς <w>χέρνιβ</w>᾽ ὡς <w>βάψειεν</w>, zob. komentarz powyżej).</p>
+                    <p>Wydaje się, że te dwa passusy mogą, lub muszą, odnosić się do
+                        tego samego momentu rytuału ofiarnego – wspólne im są oczyszczenie
+                        (chernips – hagnizo) i ogień (dalon – pyr). W mowie posłańca
+                        szał dotknął Heraklesa w chwili, kiedy dokonywał oczyszczenia,
+                        posługując się chernips. W relacji Amfitriona – kiedy oczyszczał ręce
+                        w ogniu. W jaki sposób może wyglądać oczyszczanie rąk w ogniu,
+                        możemy sobie jedynie wyobrazić – oczyszczanie ogniem polega na
+                        zbliżaniu płomienia do oczyszczanego przedmiotu (Parker 1983:
+                        227). Niestety, nie ma więcej danych źródłowych ani też żadnych
+                        opracowań na temat oczyszczania przez ogień (nie wspomina o tym
+                        ani R. Parker, poza lakoniczną notką przywołaną powyżej, ani Burkert
+                        1885, ani Furley 1981). Herakles mógł więc albo zbliżać dłonie
+                        do ognia na ołtarzu, albo też przesuwać nimi ponad płonącą żagwią
+                        z ołtarza, którą trzymał w dłoniach. Być może obydwa rytuały należy
+                        ze sobą połączyć? Może płonąca żagiew wyjęta z płomieni na
+                        ołtarzu rzeczywiście była wkładana do naczynia z wodą lustralną,
+                        a równocześnie w jej płomieniu należało oczyszczać ręce? Poza tym
+                        wersem nie ma żadnych innych danych – ani literackich, ani ikonograficznych
+                        – które pozwoliłyby na szerszą i bardziej pewną interpretację.
+                        Z całą pewnością omawiany passus jest świadectwem rytuału
+                        oczyszczającego podczas składania regularnej ofiary typu thysia.
+                        O oczyszczeniu rąk po morderstwie mówi jeszcze wers 1324 poniżej
+                        – <w>χέρας</w> <w>σὰς</w> <w>ἁγνίσας</w> <w>μιάσματος</w> – jednak już bez żadnej wskazówki
+                        na temat procedury rytualnej.</p>
+                    <quote><lb/><emph>ΗΡΑΚΛΗΣ</emph>:
+                        <lb/>ποῦ δ᾽ οἶστρος ἡμᾶς ἔλαβε; ποῦ διώλεσεν;
+                        <lb/><emph>ΑΜΦΙΤΡΥΩΝ</emph>:
+                        <lb n="1145"/>ὅτ᾽ ἀμφὶ βωμὸν χεῖρας ἡγνίζου πυρί.</quote>
+                    <quote><lb/><emph>HERAKLES</emph>:
+                        <lb/>Gdzie mnie szał porwał? Gdzie mnie zniszczył?
+                        <lb/><emph>AMFITRION</emph>:
+                        <lb n="1145"/>Kiedy przy ołtarzu ręce oczyszczałeś w ogniu.</quote>
+                </div>
+                
+                <div type="textpart" n="Hercules_1322-1324">
+                    <head>Hercules 1322-1324</head>
+                    <p>W eksodosie Tezeusz zwraca się do Heraklesa, złamanego własną
+                        zbrodnią, proponując mu opuszczenie Teb i wyjazd do Aten,
+                        gdzie ma on oczyścić (w. 1324: ἁγνίσας) ręce (<w>χέρας</w> <w>σάς</w>) od zmazy
+                        (<w>μιάσματος</w>). W następnych wersach oferuje mu dom w Attyce i majątek.
+                        Zob. komentarz powyżej do wesów 929 i 1144–1145.</p>
+                    <quote><lb/>Θήβας μὲν οὖν ἔκλειπε τοῦ νόμου χάριν,
+                        <lb/>ἕπου δ᾽ ἅμ᾽ ἡμῖν πρὸς πόλισμα Παλλάδος.
+                        <lb/>ἐκεῖ χέρας σὰς ἁγνίσας μιάσματος.</quote>
+                    <quote><lb/>Pozostaw Teby i ze względu na prawo
+                        <lb/>Idź ze mną do miasta Pallady.
+                        <lb/>Tam swoje ręce oczyścisz od zmazy.</quote>
+                </div>
+                
+                <div type="textpart" n="Hercules_1331-1333">
+                    <head>Hercules 1331-1333</head>
+                    <p>Ciąg dalszy przemowy Tezeusza do Heraklesa, w której obiecuje
+                        mu, że Ateny po jego śmierci uczczą go ofiarami i pomnikami.</p>
+                    <quote><lb/>θανόντα δ᾽, εὖτ᾽ ἂν εἰς Ἅιδου μόλῃς,
+                        <lb/>θυσίαισι λαΐνοισί τ᾽ ἐξογκώμασι
+                        <lb/>τίμιον ἀνάξει πᾶσ᾽ Ἀθηναίων πόλις.</quote>
+                    <quote><lb/>Kiedy zaś umrzesz i kiedy pójdziesz do Hadesu,
+                        <lb/>Ofiarami i wielkimi pomnikami
+                        <lb/>Do czci cię wyniesie całe miasto Ateńczyków.</quote>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Hecuba (Ἑκάβη, Ecuba)</title>
+                <title xml:lang="en">Hecuba (Ἑκάβη, Hecuba)</title>
+                <title xml:lang="pl">Hecuba (Ἑκάβη, Hekabe)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">trag_21_hecuba</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Hecuba (Ἑκάβη, Hekabe)</title>, in Krzysztof Bielawski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Tragedia attycka</title>, Warszawa 2017, pp. 251-271</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaia Fanelli">encoded document in XML</change>
+                <change when="2017" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Nie znamy daty wystawienia <title>Hekabe</title> w Atenach. Na podstawie aluzji
+                        Arystofanesa zawartej w <title>Chmurach</title> wystawionych w 423 r., najczęściej
+                        przyjmuje się, że dramat Eurypidesa pochodzi z roku 425 lub 424.</p>
+                    <p>Cierpienie królowej Hekabe jako trojańskiej branki nieubłaganie
+                        wzrasta z każdą sceną Eurypidesowej tragedii i rozciąga się od zapowiedzi
+                        śmierci córki Polykseny po odkrycie śmierci syna Polydora,
+                        który w prologu przemawia do publiczności już jako zjawa. Hekabe
+                        odzyskuje królewską siłę jedynie w okrutnym pastwieniu się nad
+                        Polymestorem, mordercą jej syna, i w zemście. Stopniowe zdobywanie
+                        wiedzy o losie i śmierci syna z jednej strony pogrąża matkę w coraz
+                        głębszej rozpaczy, ale też popycha do zemsty – co jest tematem drugiej
+                        części utworu. Jego większa część natomiast poświęcona jest śmierci
+                        Polykseny, która wyrokiem wyższych sił – ducha Achillesa i wróżb
+                        – musi zostać zabita jako ofiara nagrobna, sphagion czy prosphagion. Tematyka
+                        ofiarna w pierwszej części dramatu jest nie tylko silnie zaznaczona,
+                        ale stała się wręcz bazą i centralnym punktem odniesienia.</p>
+                    <p>Tekst według wydania: Matthiessen (2010).</p>
+                </div>
+                <div type="textpart" n="Hecuba_21-24">
+                    <head>Hecuba 21-24</head>
+                    <p>Słowa z pierwszej części prologu, wygłaszane przez zjawę Polydora,
+                        najmłodszego syna Hekabe, która wspomina śmierć Hektora oraz
+                        Priama po upadku Troi – ten drugi miał zostać zabity (<w>σφαγείς</w>) przez
+                        syna Achillesa przy ołtarzu (<w>βωμῷ</w> πρὸς <w>θεοδμήτῳ</w>).</p>
+                    <quote><lb/>ἐπεὶ δὲ Τροία θ᾽ Ἕκτορός τ᾽ ἀπόλλυται
+                        <lb/>ψυχή, πατρῴα θ᾽ ἑστία κατεσκάφη,
+                        <lb/>αὐτὸς δὲ βωμῷ πρὸς θεοδμήτῳ πίτνει
+                        <lb/>σφαγεὶς Ἀχιλλέως παιδὸς ἐκ μιαιφόνου.</quote>
+                    <quote><lb/>Kiedy zaś i Troja, i dusza Hektora
+                        <lb/>Zginęły, i zniszczone zostało ojcowskie ognisko domowe,
+                        <lb/>I on sam [Priam] przy boskim ołtarzu padł,
+                        <lb/>Zarżnięty przez krwią splamionego syna Achillesa.</quote>
+                    <p>23: <w>βωμῷ</w> πρὸς <w>θεοδμήτῳ</w> – „przy boskim ołtarzu”, dosłownie: przy
+                        ołtarzu zbudowanym przez boga, a tutaj dokładniej – bogów: Posejdona
+                        i Apollona, budowniczych murów Troi (Matthiessen 2010: 260).</p>
+                    <p>24: <w>σφαγείς</w> – „zarżnięty”. W tym wypadku czasownik σφάζειν
+                        przede wszystkim oznacza tyle, co „brutalnie zamordował”, jednak
+                        kontekst – wskazanie na ołtarz jako miejsce zbrodni – oraz wszystkie
+                        późniejsze wystąpienia tego słowa i jego derywatów w całym dramacie
+                        nie pozwalają uciec od rytualnych skojarzeń i konotacji. Jak nie bez
+                        słuszności pisze Seaford (1994: 340), „morderstwo w tragedii jest generalnie
+                        przedstawiane jako ofiara”. Słowa prologu nie tylko zapowiadają
+                        treść dramatu, ale wprowadzają kluczowe pojęcia i obrazy: śmierć
+                        przy ołtarzu, ofiarę i zmazę.</p>
+                </div>
+                
+                <div type="textpart" n="Hecuba_40-43">
+                    <head>Hecuba 40-43</head>
+                    <p>Zjawa Polydora przekazuje żądanie Achillesa, który domaga się
+                        ofiarnej śmierci (<w>πρόσφαγμα</w> καὶ <w>γέρας</w>) Polykseny.</p>
+                    <quote><lb/>[Αχιλλεύς]
+                        <lb n="40"/>αἰτεῖ δ᾽ ἀδελφὴν τὴν ἐμὴν Πολυξένην
+                        <lb/>τύμβῳ φίλον πρόσφαγμα καὶ γέρας λαβεῖν.
+                        <lb/>καὶ τεύξεται τοῦδ᾽, οὐδ᾽ ἀδώρητος φίλων
+                        <lb/>ἔσται πρὸς ἀνδρῶν.</quote>
+                    <quote><lb/>[Achilles]
+                        <lb n="40"/>Żąda mojej siostry Polykseny
+                        <lb/>Jako miłej ofiary na grobie i daru.
+                        <lb/>I przygotują mu ją, i daru pozbawiony
+                        <lb/>Nie zostanie przez swoich przyjaciół.</quote>
+                    <p>41: <w>φίλον</w> <w>πρόσφαγμα</w> καὶ <w>γέρας</w> – „miłej ofiary na grobie
+                        i daru”. <w>πρόσφαγμα</w> (zob. też poniżej w. 265) „ofiara na grobie”;
+                        (= <w>προσφάγιον</w>) to przede wszystkim ofiara krwawa, całopalna, składana
+                        dla (pros-) zmarłych, ewentualnie przed pogrzebem czy przed
+                        obrzędem wyniesienia zwłok (<w>ἐκφορά</w>, tak Pseudo-Platon, <title>Min</title>. 315c:
+                        ἱερεῖά τε <w>προσφάττοντες</w> πρὸ τῆς <w>ἐκφορᾶς</w> τοῦ νεκροῦ) (zob. szczegółowe
+                        dane w Ekroth 2002: 229–230, 256, 253 i Parker 2011: 169–170;
+                        tak samo też <title>LSJ Supplement</title>, s.v.) lub sama libacja z krwi dla zmarłych
+                        dokonywana przed obrzędami pogrzebowymi (Fraenkel 1950,
+                        vol. III: 594–595 z odniesieniem do <title>Psyche</title> Rohdego, s. 222 oraz Denniston,
+                        Page 1957: 186–187). Fraenkel (loc. cit.) bierze wprawdzie pod
+                        uwagę znaczenie czasowe prefiksu przyimkowego pros- („przed pogrzebem”),
+                        jednak ostatecznie opowiada się za znaczeniem „dla (sc.
+                        zmarłego)”. Inne wystąpienia E. <title>Alc</title>. 844–845: καί νιν εὑρήσειν δοκῶ
+                        / πίνοντα τύμβου πλησίον <w>προσφαγμάτων</w>; <title>IT</title>: 243–244: θεᾷ φίλον
+                        <w>πρόσφαγμα</w> καὶ θυτήριον / Ἀρτέμιδι oraz 457: νέον / <w>πρόσφαγμα</w>
+                        θεᾶς). Szczegółowy komentarz zob. A. <title>Ag</title>. 1278.</p>
+                    <p>Ofiara jako „zaszczytny dar ofiarny” pojawia się jeszcze poniżej
+                        we śnie Hekabe (w. 94) oraz w relacji chóru o słowach zjawy Achillesa
+                        (w. 115).</p>
+                </div>
+                
+                <div type="textpart" n="Hecuba_90-97">
+                    <head>Hecuba 90-97</head>
+                    <p>Ostatnie wersy prologu ze słowami Hekabe, która mówi o swej
+                        wizji zapowiadającej ofiarną śmierć jednej z Trojanek. Wizja Hekabe
+                        zawiera dwie odsłony: obraz łani zabitej (<w>σφαζομέναν</w>) przez wilka
+                        oraz zjawę Achillesa, który domaga się daru (<w>γέρας</w>) z którejś z Trojanek.
+                        Hekabe modli się – na próżno – by nie była to jej córka Polyksena.
+                        Passus – także na poziomie leksyki – zawiera zapowiedź i otwarcie
+                        ofiarniczych tematów dramatu.</p>
+                    <quote><lb n="90"/>εἶδον γὰρ βαλιὰν ἔλαφον λύκου αἵμονι χαλᾷ
+                        <lb/>σφαζομέναν, ἀπ᾽ ἐμῶν γονάτων σπασθεῖσαν ἀνοίκτως.
+                        <lb/>καὶ τόδε δεῖμά μοι· ἦλθ᾽ ὑπὲρ ἄκρας
+                        <lb/>τύμβου κορυφᾶς
+                        <lb/>φάντασμ᾽ Ἀχιλέως· ᾔτει δὲ γέρας
+                        <lb n="95"/>τῶν πολυμόχθων τινὰ Τρωιάδων.
+                        <lb/>ἀπ᾽ ἐμᾶς ἀπ᾽ ἐμᾶς οὖν τόδε παιδὸς
+                        <lb/>πέμψατε, δαίμονες, ἱκετεύω.</quote>
+                    <quote><lb n="90"/>Zobaczyłam cętkowaną łanię krwawym pazurem wilka
+                        <lb/>Zarżniętą, bez litości od moich kolan odciągniętą.
+                        <lb/>Także taki lęk mnie przejmuje: nadeszła
+                        <lb/>Na sam szczyt mogiły
+                        <lb/>Zjawa Achillesa; żądał on jako daru
+                        <lb n="95"/>Którejś z udręczonych Trojanek.
+                        <lb/>Od mojej, od mojej córki
+                        <lb/>Odsuńcie to, bóstwa, błagam.</quote>
+                    <p>90–91: <w>ἔλαφον</w> […] <w>σφαζομέναν</w> – „łanię zarżniętą”. Ponownie σφά-
+                        ζειν jako „zabić, zamordować, zarżnąć” z bezpośrednim odniesieniem
+                        do kontekstu rytualnego. Ta sama zjawa Achillesa, którą widzi we śnie
+                        Hekabe i o której pojawieniu się później (w. 109–115) opowiada chór,
+                        przywołuje krwawą ofiarę nagrobną oraz zaszczytny dar ofiarny (geras).</p>
+                    <p>94: ᾔτει δὲ <w>γέρας</w> – w wersie 115 zjawa Achillesa oznajmia, że nie
+                        może pozostać ἀγέραστον – pozbawiona daru ofiarnego. Geras jako
+                        ofiara, zob. komentarz do Platonowego <title>Euthphr</title>. 14c–15a, Biernat 2017:
+                        54–57.</p>
+                </div>
+                
+                <div type="textpart" n="Hecuba_107-153">
+                    <head>Hecuba 107-153</head>
+                    <p>Parodos chóru branek trojańskich, który oznajmia Hekabe postanowienie
+                        Greków o konieczności złożenia w ofierze Polykseny (<w>σφάγιον</w>
+                        <w>θέσθαι</w>). Chór opisuje w szczegółach proces podejmowania tej decyzji,
+                        co do której pośród Achajów nie było zgody. Domaga się tej ofiary
+                        jako uroczystego daru (<w>γέρας</w>) zjawa Achillesa, ukazująca się na jego
+                        własnym grobie, ale przeciwstawia się temu Agamemnon. Szalę przeważają
+                        przemowy synów Tezeusza i Odyseusza. Chór doradza matce
+                        Polykseny, by błagała Agamemnona o litość. Obszerny passus zawiera
+                        wiele odniesień do tematyki ofiarnej, która od tego momentu do
+                        sceny odejścia Polykseny na śmierć stanowi oś tematyczną i główny
+                        motyw utworu. Techniczne terminy języka ofiary (<w>σφάγιον</w> – trzy
+                        razy, <w>βωμός</w>, <w>γέρας</w>, <w>αἵμα</w>) mieszają się tutaj z poetyckimi obrazami,
+                        które plastycznie odmalowują przebieg krwawego rytuału. Złoty naszyjnik
+                        zbroczony krwią (w. 150–153) z jednej strony przypomina, że
+                        Polyksena jest nie tylko niewolnicą, ale też szlachetnie urodzoną kobietą,
+                        z drugiej zaś przywołuje znany od Homera zwyczaj zdobienia
+                        zwierząt ofiarnych złotem (<title>Od</title>. 3.425–426, zob. Mossman 2009, 147).</p>
+                    <quote><lb/>ἐν γὰρ Ἀχαιῶν πλήρει ξυνόδῳ
+                        <lb/>λέγεται δόξαι σὴν παῖδ᾽ Ἀχιλεῖ
+                        <lb/>σφάγιον θέσθαι· τύμβου δ᾽ ἐπιβὰς
+                        <lb n="110"/>οἶσθ᾽ ὅτε χρυσέοις ἐφάνη σὺν ὅπλοις,
+                        <lb/>τὰς ποντοπόρους δ᾽ ἔσχε σχεδίας
+                        <lb/>λαίφη προτόνοις ἐπερειδομένας,
+                        <lb/>τάδε θωΰσσων·
+                        <lb/>Ποῖ δή, Δαναοί, τὸν ἐμὸν τύμβον
+                        <lb n="115"/>στέλλεσθ᾽ ἀγέραστον ἀφέντες;
+                        <lb/>πολλῆς δ᾽ ἔριδος συνέπαισε κλύδων,
+                        <lb/>δόξα δ᾽ ἐχώρει δίχ᾽ ἀν᾽ Ἑλλήνων
+                        <lb/>στρατὸν αἰχμητήν, τοῖς μὲν διδόναι
+                        <lb/>τύμβῳ σφάγιον, τοῖς δ᾽ οὐχὶ δοκοῦν.
+                        <lb n="120"/>ἦν δ᾽ ὁ τὸ μὲν σὸν σπεύδων ἀγαθὸν
+                        <lb/>τῆς μαντιπόλου Βάκχης ἀνέχων
+                        <lb/>λέκτρ᾽ Ἀγαμέμνων·
+                        <lb/>τὼ Θησείδα δ᾽, ὄζω Ἀθηνῶν,
+                        <lb/>δισσῶν μύθων ῥήτορες ἦσαν·
+                        <lb n="125"/>γνώμῃ δὲ μιᾷ συνεχωρείτην,
+                        <lb/>τὸν Ἀχίλλειον τύμβον στεφανοῦν
+                        <lb/>αἵματι χλωρῷ, τὰ δὲ Κασάνδρας
+                        <lb/>λέκτρ᾽ οὐκ ἐφάτην τῆς Ἀχιλείας
+                        <lb/>πρόσθεν θήσειν ποτὲ λόγχης.
+                        <lb n="130"/>σπουδαὶ δὲ λόγων κατατεινομένων
+                        <lb/>ἦσαν ἴσαι πως, πρὶν ὁ ποικιλόφρων
+                        <lb/>κόπις ἡδυλόγος δημοχαριστὴς
+                        <lb/>Λαερτιάδης πείθει στρατιὰν
+                        <lb/>μὴ τὸν ἄριστον Δαναῶν πάντων
+                        <lb n="135"/>δούλων σφαγίων εἵνεκ᾽ ἀπωθεῖν,
+                        <lb/>μηδέ τιν᾽ εἰπεῖν παρὰ Φερσεφόνῃ
+                        <lb/>στάντα φθιμένων
+                        <lb/>ὡς ἀχάριστοι Δαναοὶ Δαναοῖς
+                        <lb/>τοῖς οἰχομένοις ὑπὲρ Ἡλλήνων
+                        <lb n="140"/>Τροίας πεδίων ἀπέβησαν.
+                        <lb/>ἥξει δ᾽ Ὀδυσεὺς ὅσον οὐκ ἤδη,
+                        <lb/>πῶλον ἀφέλξων σῶν ἀπὸ μαστῶν
+                        <lb/>ἔκ τε γεραιᾶς χερὸς ὁρμήσων.
+                        <lb/>ἀλλ᾽ ἴθι ναούς, ἴθι πρὸς βωμούς,
+                        <lb n="145"/>ἵζ᾽ Ἀγαμέμνονος ἱκέτις γονάτων,
+                        <lb/>κήρυσσε θεοὺς τούς τ᾽ οὐρανίδας
+                        <lb/>τούς θ᾽ ὑπὸ γαῖαν.
+                        <lb/>ἢ γάρ σε λιταὶ διακωλύσουσ'
+                        <lb/>ὀρφανὸν εἶναι παιδὸς μελέας,
+                        <lb n="150"/>ἢ δεῖ σ᾽ ἐπιδεῖν τύμβου προπετῆ
+                        <lb/>φοινισσομένην αἵματι παρθένον
+                        <lb/>ἐκ χρυσοφόρου
+                        <lb/>δειρῆς νασμῷ μελαναυγεῖ.</quote>
+                    <quote><lb/>Na zgromadzeniu wszystkich Achajów,
+                        <lb/>Powiadają, postanowiono twoją córkę Achillesowi
+                        <lb/>Złożyć w ofierze. Stanąwszy na mogile,
+                        <lb n="110"/>Jak wiesz, ukazał się w złotej zbroi,
+                        <lb/>Płynące po morzu łodzie zatrzymał
+                        <lb/>Z naciągniętymi już na linach żaglami,
+                        <lb/>Zakrzyknął w te słowa:
+                        <lb/>Dokąd to, Danaowie, się wybieracie,
+                        <lb n="115"/>Mój grób pozostawiwszy bez darów?
+                        <lb/>Fala wielkiej niezgody wybuchła,
+                        <lb/>Dwie opinie podzieliły zbrojne we włócznie wojsko
+                        <lb/>Hellenów, jedni chcieli dać ofiarę
+                        <lb/>Na grobie, drudzy zaś nie.
+                        <lb n="120"/>Tym, który za twoim dobrem stanowczo przemawiał,
+                        <lb/>Był Agamemnon, dzielący łoże z natchnioną bachantką.
+                        <lb/>Dwaj Tezeidzi rodem z Aten,
+                        <lb/>Dwie różne wygłosili mowy,
+                        <lb n="125"/>Zgodzili się jednak co do jednego,
+                        <lb/>Żeby świeżą krwią uwieńczyć
+                        <lb/>Achillesowy grobowiec, i powiedzieli,
+                        <lb/>By łoża Kasandry nie przedkładać
+                        <lb/>Nad Achillejską włócznię.
+                        <lb n="130"/>Z równą gwałtownością
+                        <lb/>Obie przemawiały strony, aż wreszcie przebiegły
+                        <lb/>Kłamca o słodkich słowach, książę motłochu,
+                        <lb/>Laertiada, przekonał wojsko,
+                        <lb/>By najlepszego ze wszystkich Danaów,
+                        <lb n="135"/>Dla ofiar z niewolników nie odtrącać,
+                        <lb/>I żeby ktoś ze zmarłych stając przed Persefoną
+                        <lb/>Nie powiedział,
+                        <lb/>Że Danaowie niewdzięczni wobec Danaów
+                        <lb/>Poległych za Grecję
+                        <lb n="140"/>Odeszli z trojańskiej równiny.
+                        <lb/>Więc przyjdzie Odyseusz za chwilę,
+                        <lb/>Żeby źrebię oderwać od twoich piersi
+                        <lb/>I odegnać od twoich starych rąk.
+                        <lb/>Ale idź do świątyń, idź do ołtarzy,
+                        <lb n="145"/>Usiądź jako błagalnik u kolan Agamemnona,
+                        <lb/>I wzywaj bogów, tych na niebie,
+                        <lb/>I tych pod ziemią.
+                        <lb/>I albo prośby uchronią cię
+                        <lb/>Przed utratą nieszczęsnej córki,
+                        <lb n="150"/>Albo musisz patrzeć na powaloną na grobie
+                        <lb/>Dziewicę, czerwieniejącą od krwi [wytoczonej],
+                        <lb/>Ze złotem zdobnej
+                        <lb/>Szyi czarnym strumieniem.</quote>
+                    <p>108–109: Ἀχιλεῖ / <w>σφάγιον</w> θέσθαι – „Achillesowi złożyć w ofierze”,
+                        dosłownie: „położyć jako sphagion dla Achillesa”.</p>
+                    <p>114–115: τὸν ἐμὸν <w>τύμβον</w> / […] <w>ἀγέραστον</w> <w>ἀφέντες</w> – „mój grób
+                        pozostawiwszy bez darów”. Przymiotnik <w>ἀγέραστος</w> („pozbawiony
+                        daru”) przywołuje Homerycką frazę z pierwszej pieśni <title>Iliady</title> (118–
+                        –119: αὐτὰρ ἐμοὶ γέρας αὐτίχ᾽ ἑτοιμάσατ᾽ ὄφρα μὴ οἶος / Ἀργείων
+                        <w>ἀγέραστος</w> ἔω, ἐπεὶ οὐδὲ ἔοικε), gdzie Agamemnon również domaga
+                        się geras jako rekompensaty za utratę Chryzejdy i nie chce
+                        pozostać agerastos. Passus Homerowy jest całkowicie pozbawiony
+                        kontekstu ofiarnego, który u Eurypidesa staje się pierwszoplanowy.
+                        Polyksena jest „zaszczytnym darem” i ofiarą równocześnie.</p>
+                    <p>118–119: <w>διδόναι</w> / <w>τύμβῳ</w> <w>σφάγιον</w> – „dać ofiarę (sphagion) / na
+                        grobie”, tak samo w w. 305: <w>σφάγιον</w> <w>δοῦναι</w>.</p>
+                    <p>126–127: τὸν Ἀχίλλειον <w>τύμβον</w> <w>στεφανοῦν</w> / αἵματι χλωρῷ –
+                        „świeżą krwią uwieńczyć / Achillesowy grobowiec”. Kolejny raz
+                        chór podkreśla miejsce, w którym należy spełnić ofiarę dla herosa –
+                        Achillesa; motyw „zdobienia” kwiatami czy wieńcami (<w>στεφανοῦν</w>)
+                        grobu jest dobrze poświadczony w literaturze – najwcześniej u Ajschylosa
+                        w <title>Persach</title> (w. 618) oraz w malarstwie wazowym (zob. Garland
+                        1985: 116 z odnośnikami). W poetyckim obrazie Eurypidesa
+                        krew ofiary składanej na grobie staje się zarazem jego ozdobą.</p>
+                    <p>135: <w>δούλων</w> <w>σφαγίων</w> εἵνεκ᾽ <w>ἀπωθεῖν</w> – „dla ofiar z niewolników
+                        nie odtrącać”. Trzeci raz w jednej wypowiedzi chóru pojawia
+                        się rzeczownik σφάγιον, który staje się terminem porządkującym
+                        akcję. W tej frazie chór podkreśla fakt, że Polyksena jest niewolnicą
+                        i czci bohatera nie można porównywać z jej śmiercią.</p>
+                </div>
+                
+                <div type="textpart" n="Hecuba_188-190">
+                    <head>Hecuba 188-190</head>
+                    <p>Słowa Hekabe do Polykseny z dialogowanej strofy parodosu,
+                        w których matka oznajmia córce wspólny wyrok Achajów – zapowiada
+                        jej śmierć na grobie Achillesa. Kolejny raz, konsekwentnie,
+                        występuje tu czasownik <w>σφάζειν</w>, tak jak w całym tym dramacie
+                        w technicznym znaczeniu ofiarnym – nie tylko „zarżnąć”, ale „zabić
+                        na ofiarę jako prosphagma” (zob. w. 41). Także kolejny raz, niemal
+                        uporczywie, powraca w tej wypowiedzi grobowiec jako miejsce
+                        tego rytuału.</p>
+                    <quote><lb/>σφάξαι σ᾽ Ἀργείων κοινὰ
+                        <lb/>συντείνει πρὸς τύμβον γνώμα
+                        <lb n="190"/>Πηλείᾳ γέννᾳ.</quote>
+                    <quote><lb/>Wspólny wyrok Argiwów,
+                        <lb/>Naciska, by złożyć cię w ofierze na grobie
+                        <lb n="190"/>Dla Peleusowego syna.</quote>
+                </div>
+                
+                <div type="textpart" n="Hecuba_205-211">
+                    <head>Hecuba 205-211</head>
+                    <p>Końcowe słowa parodosu – odpowiedź Polykseny, która porównuje
+                        swój los do ofiarnej jałówki, złożonej w ofierze przez podcięcie
+                        gardła (<w>λαιμότομόν</w>).</p>
+                    <quote><lb n="205"/>σκύμνον γάρ μ᾽ ὥστ᾽ οὐριθρέπταν
+                        <lb/>μόσχον δειλαία δειλαίαν
+                        <lb/>. . . . . ἐσόψῃ,
+                        <lb/>χειρὸς ἀναρπαστὰν
+                        <lb/>σᾶς ἄπο λαιμότομόν τ᾽ Ἀίδᾳ
+                        <lb n="210"/>γᾶς ὑποπεμπομέναν σκότον, ἔνθα νεκρῶν μέτα
+                        <lb/>τάλαινα κείσομαι.</quote>
+                    <quote><lb n="205"/>Bo mnie jak młodą, w górach wykarmioną
+                        <lb/>Jałówkę, nieszczęsna nieszczęsną,
+                        <lb/>Zobaczysz.
+                        <lb/>Wyrwaną z twojej
+                        <lb/>Ręki i z podciętym gardłem,
+                        <lb n="210"/>Posłaną w ciemność Hadesu pod ziemię, gdzie ze zmarłymi
+                        <lb/>Spocznę, nieszczęsna.</quote>
+                    <p>209: <w>λαιμότομον</w> – „z podciętym gardłem”; słowo stworzone
+                        i chętnie używane przez Eurypidesa, pojawia się jeszcze w: <title>IA</title> 776,
+                        <title>IT</title> 444, <title>El</title>. 459 i <title>Ion</title> 1054, później tylko u hellenistycznego poety Aristona
+                        w <title>Anthologia Graeca</title> 6.306.4.S</p>
+                </div>
+                
+                <div type="textpart" n="Hecuba_220-224">
+                    <head>Hecuba 220-224</head>
+                    <p>Początek pierwszego epeisodionu. Wejście na scenę Odyseusza,
+                        który przynosi informację o postanowieniu Achajów o zabiciu Polykseny
+                        (<w>σφάξαι</w>) na grobie (πρὸς <w>ὀρθὸν</w> […] <w>τάφου</w>) – powtarzaną jak
+                        mantra w każdej kolejnej scenie – i oznajmia, że przyszedł, by ją odprowadzić
+                        na miejsce obrzędu, a Neoptolemos będzie ofierze przewodniczył
+                        i pełnił rolę kapłana (<w>ἐπιστάτης</w> <w>ἱερεύς</w> τε). Odyseusz natomiast
+                        pojawia się jako <w>πομπός</w> i <w>κομιστής</w> – ten, kto prowadzi ofiarę
+                        do ołtarza w uroczystej procesji. Odyseusz ma przewodniczyć obrzędom
+                        wstępnym – aż do doprowadzenia ofiary na miejsce jej złożenia,
+                        a Neoptolemos samemu obrzędowi jej zabicia.</p>
+                    <quote><lb n="220"/>ἔδοξ᾽ Ἀχαιοῖς παῖδα σὴν Πολυξένην
+                        <lb/>σφάξαι πρὸς ὀρθὸν χῶμ᾽ Ἀχιλλείου τάφου.
+                        <lb/>ἡμᾶς δὲ πομποὺς καὶ κομιστῆρας κόρης
+                        <lb/>τάσσουσιν εἶναι· θύματος δ᾽ ἐπιστάτης
+                        <lb/>ἱερεύς τ᾽ ἐπέσται τοῦδε παῖς Ἀχιλλέως.</quote>
+                    <quote><lb n="220"/>Achajowie postanowili twoją córkę Polyksenę
+                        <lb/>Złożyć w ofierze na samym kopcu nagrobnym Achillesa.
+                        <lb/>Wyznaczyli mnie, żebym w procesji przywiódł i doprowadził
+                        dziewczynę.
+                        <lb/>Ofiary nadzorcą i kapłanem
+                        <lb/>Będzie syn samego Achillesa.</quote>
+                    <p>222: <w>πομποὺς</w> καὶ <w>κομιστῆρας</w> – „w procesji przywiódł i doprowadził”.
+                        Odyseusz przychodzi po Polyksenę, żeby zabrać ją na śmierć,
+                        jednak także ta czynność ma charakter rytualny. Doprowadzenie córki
+                        Hekabe na miejsce złożenia ofiary jest ukształtowane na wzór pochodu
+                        rytualnego (<w>πομπή</w>), któremu ma przewodzić Odyseusz (Gebauer
+                        2002: 17–24 i 27–28 oraz Graff 1996: 57). Pompe i thysia stanowią nierozłączne
+                        elementy jednego obrzędu (Graff 1996: 58), na przedstawieniach
+                        w malarstwie wazowym zwierzę ofiarne jest niemal zawsze
+                        odprowadzane do ołtarza w uroczystej procesji (Peirce 1993: 229: „essential
+                        sign of pompe is a victim and its escort”; zob. też van Straten
+                        1995: 13–19). <w>Πομπός</w> i <w>κομιστήρ</w> to w tym kontekście niemal synonimy
+                        – jedno i drugie oznacza tego, kto kroczy na czele, przewodzi
+                        czemuś, jakkolwiek <w>κομιστήρ</w> (lub <w>κομιστής</w>) to równocześnie ktoś,
+                        kto ogólnie czymś się zajmuje lub otacza troską (z rekcją do genetiwu,
+                        tutaj: <w>κόρης</w>); w <title>Supp</title>. (25) Eurypidesa mamy zwrot νεκρῶν <w>κομιστής</w>
+                        na oznaczenie osoby zajmującej się zwłokami zmarłych.</p>
+                    <p>223–224: <w>θύματος</w> δ᾽ <w>ἐπιστάτης</w> / <w>ἱερεύς</w> τε – „ofiary nadzorcą i kapłanem”;
+                        θύματος δ᾽ <w>ἐπιστάτης</w> – Neoptolemos ma być tym, kto będzie
+                        oficjalnie przewodniczył całemu obrzędowi ofiary (w takim znaczeniu
+                        rzeczownik <w>θῦμα</w>); ma on także być <w>ἱερεύς</w> – kapłanem-ofiarnikiem.</p>
+                </div>
+                
+                <div type="textpart" n="Hecuba_260-262">
+                    <head>Hecuba 260-261</head>
+                    <p>Słowa Hekabe, która błaga Odyseusza o litość, przypominając, jak
+                        pomogła mu, kiedy zakradł się do Troi (ten element opowieści znanej
+                        z <title>Iliady</title> jest zapewne inwencją samego Eurypidesa). Apeluje o zaprzestanie
+                        mordów (w. 278: μηδὲ <w>κτάνητε</w>· τῶν <w>τεθνηκότων</w> <w>ἅλις</w>) i nieskładanie
+                        w ofierze ludzi (<w>ἀνθρωποσφαγεῖν</w>) tam, gdzie zwyczaj każe
+                        składać woły (<w>βουθυτεῖν</w> <w>πρέπει</w>).</p>
+                    <quote><lb n="260"/>πότερα τὸ χρῆν σφ᾽ ἐπήγαγ᾽ ἀνθρωποσφαγεῖν
+                        <lb/>πρὸς τύμβον, ἔνθα βουθυτεῖν μᾶλλον πρέπει;</quote>
+                    <quote><lb n="260"/>Czy trzeba ją prowadzić na ludzką ofiarę
+                        <lb/>Na grobie, tam, gdzie raczej wypada składać woły w ofierze?</quote>
+                    <p>260: <w>ἀνθρωποσφαγεῖν</w> – „ludzka ofiara” – dokładnie: infinitivus
+                        czasownika złożonego z <w>ἄνθρωπος</w> i <w>σφάζειν</w> – „zarżnąć człowieka
+                        w ofierze”, hapax legomenon Eurypidesa przeciwstawiony w tej frazie
+                        czasownikowi <w>βουθυτεῖν</w>.</p>
+                </div>
+                
+                <div type="textpart" n="Hecuba_265">
+                    <head>Hecuba 265</head>
+                    <p>W tej samej przemowie, Hekabe sugeruje Odyseuszowi, że Achilles
+                        powinien domagać się raczej śmierci Heleny, a nie Polykseny,
+                        ponieważ to ta pierwsza jest odpowiedzialna za wojnę trojańską
+                        i ostatecznie też za jego śmierć. Eurypides nawiązuje do wersu 41
+                        z prologu (zob. komentarz powyżej), gdzie ofiara z Polykseny jest nazwana
+                        technicznym terminem prosphagma – Hekabe również domaga
+                        się tego, by Helena została złożona w ofierze jako ofiara nagrobna
+                        (<w>τάφῳ</w> <w>προσφάγματα</w>).</p>
+                    <quote><lb n="265"/>῾Ελένην νιν αἰτεῖν χρῆν τάφῳ προσφάγματα.</quote>
+                    <quote><lb n="265"/>Powinien on żądać, by to Helena została zabita na grobie jako ofiara.</quote>
+                </div>
+                
+                <div type="textpart" n="Hecuba_287-290">
+                    <head>Hecuba 287-290</head>
+                    <p>Ciąg dalszy błagalnej mowy Hekabe, która prosi Odyseusza, by
+                        wrócił do Achajów i przekonał ich do odstąpienia od mordu. Przypomina,
+                        że Polyksenę jak wiele innych trojańskich kobiet pojmano przy
+                        ołtarzu (<w>βωμῶν</w> <w>ἀποσπάσαντες</w>) – i wówczas nikt ich nie zabijał, ale
+                        okazywano im litość, której teraz jej odmawiają.</p>
+                    <quote><lb/>ἐλθὼν δ᾽ εἰς Ἀχαιικὸν στρατὸν
+                        <lb/>παρηγόρησον, ὡς ἀποκτείνειν φθόνος
+                        <lb/>γυναῖκας, ἃς τὸ πρῶτον οὐκ ἐκτείνατε
+                        <lb n="290"/>βωμῶν ἀποσπάσαντες, ἀλλ᾽ ᾠκτίρατε.</quote>
+                    <quote><lb/>Idź do achajskiego wojska
+                        <lb/>I przekonaj, że to zbrodnia mordować
+                        <lb/>Kobiety, których wcześniej nie zabiliście,
+                        <lb n="290"/>Chociaż szarpaliście je przy ołtarzach – ale okazaliście litość.</quote>
+                </div>
+                
+                <div type="textpart" n="Hecuba_303-305">
+                    <head>Hecuba 303-305</head>
+                    <p>W odpowiedzi na błaganie Hekabe Odyseusz deklaruje, że może
+                        podjąć próbę ocalenia jej samej, pamiętając o pomocy, jakiej mu kiedyś
+                        udzieliła, ale nie może cofnąć swej obietnicy złożonej wobec wszystkich
+                        Greków, w której zobowiązał się do ofiarowania jej córki temu,
+                        kto po zdobyciu Troi okazał się najdzielniejszy. Powtarza się tutaj
+                        zwrot <w>διδόναι</w> <w>σφάγιον</w> – „dać na/jako ofiarę sphagion” z wersów 117–
+                        –118 (zob. komentarz powyżej).</p>
+                    <quote><lb/>ἃ δ᾽ εἶπον εἰς ἅπαντας οὐκ ἀρνήσομαι,
+                        <lb/>Τροίας ἁλούσης ἀνδρὶ τῷ πρώτῳ στρατοῦ
+                        <lb n="305"/>σὴν παῖδα δοῦναι σφάγιον ἐξαιτουμένῳ.</quote>
+                    <quote><lb/>Nie wyprę się tego, co wobec wszystkich powiedziałem,
+                        <lb/>Że po zdobyciu Troi pierwszemu z mężów z całego wojska
+                        <lb n="305"/>Twoją córkę dam na ofiarę, jeśli tego zażąda.</quote>
+                </div>
+                
+                <div type="textpart" n="Hecuba_345-348">
+                    <head>Hecuba 345-348</head>
+                    <p>Wtrącona odpowiedź Polykseny na dyskusję Hekabe z Odyseuszem.
+                        Deklaruje ona gotowość dobrowolnej śmierci, która jawi jej
+                        się lepsza od niewolniczego życia. Oddaje się Odyseuszowi i prosi,
+                        by nie bał się zemsty Zeusa Opiekuna Błagalników, ponieważ ona nie
+                        szuka jego pomocy – idzie na śmierć wiedziona koniecznością (τοῦ τ᾽
+                        <w>ἀναγκαίου</w> <w>χάριν</w>), ale dobrowolnie (<w>θανεῖν</w> τε <w>χρῄζουσα</w>). „Dobrowolność”
+                        ofiary wiedzionej na śmierć jest częstym tematem w dyskusji
+                        nad rytem ofiarnym, zob. komentarz do <title>Heracl</title>. 531.</p>
+                    <quote><lb n="345"/>θάρσει· πέφευγας τὸν ἐμὸν Ἱκέσιον Δία·
+                        <lb/>ὡς ἕψομαί γε τοῦ τ᾽ ἀναγκαίου χάριν
+                        <lb/>θανεῖν τε χρῄζουσ᾽· εἰ δὲ μὴ βουλήσομαι,
+                        <lb/>κακὴ φανοῦμαι καὶ φιλόψυχος γυνή.</quote>
+                    <quote><lb n="345"/>Nie bój się! Unikniesz mojego Zeusa Błagalników!
+                        <lb/>Ponieważ pójdę za tobą i z konieczności,
+                        <lb/>I pragnąc śmierci. Bo jeśli nie zechcę,
+                        <lb/>Okażę się podła i tchórzliwa.</quote>
+                    <p>W kolejnej scenie (w. 383–431) Hekabe podejmuje ostatnią próbę
+                        przekonania Odyseusza do wstawienia się za jej córką i ofiarowuje siebie
+                        samą zamiast Polykseny, a następnie – kiedy ta prośba nie zostaje
+                        przyjęta – wyraża pragnienie śmierci razem z córką. Obydwie prośby
+                        zostają odrzucone zarówno przez Achillesa, jak i przez Polyksenę.
+                        Ani Hekabe, ani Achilles i Polyksena nie posługują się w tej scenie
+                        językiem ofiary – mówią jedynie o śmierci, mordzie i zabijaniu: ὑμᾶς,
+                        Ὀδυσσεῦ, τήνδε μὲν μὴ <w>κτείνετε</w> (Hekabe – w. 383), οὐ σ᾽, ὦ <w>γεραιά</w>,
+                        <w>κατθανεῖν</w> Ἀχιλλέως […] <w>ᾐτήσατο</w> (Odyseusz – w. 383), ὑμεῖς δέ
+                        μ᾽ ἀλλὰ θυγατρὶ <w>συμφονεύσατε</w> (Hekabe – w. 391), ἅλις κόρης σῆς
+                        <w>θάνατος</w> (Odyseusz – w. 394), πολλή γ᾽ ἀνάγκη θυγατρὶ <w>συνθανεῖν</w>
+                        ἐμέ (Hekabe – w. 396), δούλη <w>θανοῦμαι</w> (Polyksena – w. 420).</p>
+                </div>
+                
+                <div type="textpart" n="Hecuba_432-433">
+                    <head>Hecuba 432-433</head>
+                    <p>Ostatnie słowa Polykseny, która zwraca się do Odyseusza z prośbą,
+                        by już ją zabrał na ofiarę i zakrył jej głowę przed samym cięciem
+                        (πρὶν <w>σφαγῆναι</w>). W tym miejscu, bardziej niż we wszystkich pozostałych
+                        w tym dramacie, czasownik <w>σφάζειν</w> występuje w zawężonym
+                        znaczeniu, nadal technicznym i ofiarniczym, ale wyraźnie wskazującym
+                        na sam akt poderżnięcia ofierze gardła.</p>
+                    <p>Na temat zakrywania ciała, zwłaszcza głowy w kontekstach ofiarnych,
+                        zob. komentarz do <title>Heracl</title>. w. 558–563.</p>
+                    <quote><lb/>κόμιζ᾽, Ὀδυσσεῦ, μ᾽ ἀμφιθεὶς κάρα πέπλοις
+                        <lb/>ὡς πρὶν σφαγῆναι.</quote>
+                    <quote><lb/>Odysie, prowadź! Zakryj mi głowę peplosem,
+                        <lb/>Zanim zostanę zarżnięta.</quote>
+                </div>
+                
+                <div type="textpart" n="Hecuba_505-506">
+                    <head>Hecuba 505-506</head>
+                    <p>Początek drugiego epeisodionu, w którym do Hekabe – już po
+                        śmierci Polykseny – przychodzi posłany przez Agamemnona Taltybios
+                        z wezwaniem do pogrzebu córki. Hekabe w pierwszym odruchu
+                        wyraża nadzieję, że Grecy i ją postanowili złożyć w ofierze nagrobnej
+                        (<w>ἐπισφάξαι</w> <w>τάφῳ</w>), czego pragnie (ὡς <w>φίλ</w>᾽ ἂν <w>λέγοις</w>) i czego pragnienie
+                        wyrażała już w poprzedniej scenie. Wita więc Taltybiosa jak
+                        posłańca dobrych wieści: „mój drogi!”</p>
+                    <quote><lb n="505"/>ὦ φίλτατ᾽, ἆρα κἄμ᾽ ἐπισφάξαι τάφῳ
+                        <lb/>δοκοῦν Ἀχαιοῖς ἦλθες; ὡς φίλ᾽ ἂν λέγοις.</quote>
+                    <quote><lb n="505"/>O drogi, czy przyszedłeś, bo Grecy i mnie na grobie złożyć w ofierze
+                        <lb/>Postanowili? Jak miłe by to były słowa.</quote>
+                    <p>505: <w>ἐπισφάξαι</w> – „złożyć w ofierze”. Czasownik <w>ἐπισφάζειν</w> występuje
+                        w poezji tylko u Eurypidesa i zawsze w znaczeniu rytualnym,
+                        znacząc: „zabić na ofiarę przez poderżnięcie gardła” (por. <title>HF</title> 602 i 995;
+                        <title>El</title>. 281; <title>Or</title>. 1596). Poza tym u Ksenofonta, gdzie znaczy po prostu „zabić”
+                        (<title>An</title>. 8.29; w: <title>Cyr</title>. 7.3.7 jednak już ma kontekst ofiarniczy). Casabona
+                        (1966: 169–170) rozważa możliwość, że <w>ἐπισφάξαι</w> nie ma tutaj
+                        odrębnego znaczenia rytualnego, nie jest autonomicznym czasownikiem
+                        złożonym, lecz jest jedynie formą tmezy w zwrocie wyrazowym:
+                        zamiast <w>ἐπισφάξαι</w> <w>τάφῳ</w> mamy <w>σφάξαι</w> <w>ἐπὶ</w> <w>τάφῳ</w>. Nie dochodzi jednak
+                        do ostatecznych wniosków, ponieważ sens frazy tak czy inaczej
+                        się nie zmienia.</p>
+                </div>
+                
+                <div type="textpart" n="Hecuba_521-582">
+                    <head>Hecuba 521-582</head>
+                    <p>Hekabe wypytuje Taltybiosa o sposób, w jaki zginęła jej córka.
+                        Chce wiedzieć, jak potraktowali ją Achajowie (w. 515: πῶς καί νιν
+                        ἐξεπ<w></w>ράξατε), czy z należnym szacunkiem (w. 515: ἆρ᾽ <w>αἰδούμενοι</w>),
+                        czy też z okrucieństwem, jak wroga (w. 516–517: ἢ πρὸς τὸ <w>δεινὸν</w>
+                        <w>ἤλθεθ</w>᾽ ὡς <w>ἐχθράν</w> […] <w>κτείνοντες</w>).</p>
+                    <p>Taltybios w odpowiedzi opisuje dokładnie całą scenę ofiarnej
+                        śmierci Polykseny. Zawiera ona opis obrzędów wstępnych: ofiar płynnych
+                        (choai: <w>αἴρει</w> […] / <w>χοάς</w>, w. 528–529), rytualnego milczenia (euphemia:
+                        <w>σίγα</w> <w>σιώπα</w>, w. 533) i modlitwy (euche: πᾶς δ᾽ <w>ἐπηύξατο</w> <w>στρατός</w>,
+                        w. 542) Neoptolemosa przeprowadzającego całą ofiarę – jak i samego
+                        aktu zabicia ofiary przez podcięcie szyi. Cały passus jest wielką sceną
+                        ofiarną, w której podkreślone są z przejmującą dokładnością wszystkie
+                        jej elementy składowe – Eurypides opisuje szczegóły miecza i kielicha
+                        używanych w rytuale, koncentruje uwagę na szacie Polykseny
+                        i jej obnażeniu się przed mordem, a zarazem na jej trosce o to, by po
+                        śmierci nie padła nieprzystojnie. Sama Polyksena jest raz nazywana
+                        dziewczyną, raz córką, raz młodą panną, a raz – na początku mowy
+                        Taltybiosa – młodą jałówką (<w>μόσχος</w>, w. 526); to ostatnie określenie
+                        niekoniecznie musi mieć konotacje ofiarne, jest dość pospolitą w poezji
+                        metaforą młodej dziewczyny, chociaż z drugiej strony jednoznaczny
+                        kontekst ofiarny czyni siłę tej metafory wyjątkową (Mossman 2009:
+                        150–151). Ofiara po przyprowadzeniu do ołtarza jest przytrzymywana
+                        (w. 526: <w>καθέξοντες</w> <w>χεροῖν</w>), wszystkie gesty ofiarnika Neoptolemosa
+                        są zrytualizowane i formalne, powoli chwyta rękojeść miecza ofiarnego
+                        (tu phasganon, nie machaira) i wyciąga go z pochwy. Polyksena, która
+                        silnie akcentuje dobrowolność swojej ofiary, poddaje szyję do cięcia.
+                        Samo cięcie opisuje czasownik <w>τέμνειν</w>. Dokładnie opisany jest sposób
+                        cięcia przy zabijaniu ofiary: nastawia ona szyję na miecz (<w>παρέξω</w> γὰρ
+                        <w>δέρην</w>, w. 549), gardło jest odpowiednio odsłonięte (<w>πάρεστι</w> λαιμὸς
+                        <w>εὐτρεπής</w>, w. 565), cięcie mieczem spada na szyję tam, gdzie biegnie
+                        tchawica (<w>τέμνει</w> σιδήρῳ <w>πνεύματος</w> <w>διαρροάς</w>, w. 567). Ofiara pada
+                        na ziemię, a ofiarnicy od razu przygotowują stos do spalenia zwłok.</p>
+                    <quote><lb/>παρῆν μὲν ὄχλος πᾶς Ἀχαιικοῦ στρατοῦ
+                        <lb/>πλήρης πρὸ τύμβου σῆς κόρης ἐπὶ σφαγάς·
+                        <lb/>λαβὼν δ᾽ Ἀχιλλέως παῖς Πολυξένην χερὸς
+                        <lb/>ἔστησ' ἐπ' ἄκρου χώματος, πέλας δ᾽ ἐγώ·
+                        <lb n="525"/>λεκτοί τ᾽ Ἀχαιῶν ἔκκριτοι νεανίαι,
+                        <lb/>σκίρτημα μόσχου σῆς καθέξοντες χεροῖν,
+                        <lb/>ἕσποντο. πλῆρες δ᾽ ἐν χεροῖν λαβὼν δέπας
+                        <lb/>πάγχρυσον αἴρει χειρὶ παῖς Ἀχιλλέως
+                        <lb/>χοὰς θανόντι πατρί· σημαίνει δέ μοι
+                        <lb n="530"/>σιγὴν Ἀχαιῶν παντὶ κηρῦξαι στρατῷ.
+                        <lb/>κἀγὼ καταστὰς εἶπον ἐν μέσοις τάδε·
+                        <lb/>Σιγᾶτ', Ἀχαιοί, σῖγα πᾶς ἔστω λεώς,
+                        <lb/>σίγα σιώπα· νήνεμον δ᾽ ἔστησ᾽ ὄχλον.
+                        <lb/>ὃ δ᾽ εἶπεν· Ὦ παῖ Πηλέως, πατὴρ δ᾽ ἐμός,
+                        <lb n="535"/>δέξαι χοάς μοι τάσδε κηλητηρίους,
+                        <lb/>νεκρῶν ἀγωγούς· ἐλθὲ δ᾽, ὡς πίῃς μέλαν
+                        <lb/>κόρης ἀκραιφνὲς αἷμ᾽, ὅ σοι δωρούμεθα
+                        <lb/>στρατός τε κἀγώ· πρευμενὴς δ᾽ ἡμῖν γενοῦ
+                        <lb/>λῦσαί τε πρύμνας καὶ χαλινωτήρια
+                        <lb n="540"/>νεῶν δὸς ἡμῖν †πρευμενοῦς† τ᾽ ἀπ᾽ Ἰλίου
+                        <lb/>νόστου τυχόντας πάντας ἐς πάτραν μολεῖν.
+                        <lb/>τοσαῦτ᾽ ἔλεξε, πᾶς δ᾽ ἐπηύξατο στρατός.
+                        <lb/>εἶτ᾽ ἀμφίχρυσον φάσγανον κώπης λαβὼν
+                        <lb/>ἐξεῖλκε κολεοῦ, λογάσι δ᾽ Ἀργείων στρατοῦ
+                        <lb n="545"/>νεανίαις ἔνευσε παρθένον λαβεῖν.
+                        <lb/>ἣ δ᾽, ὡς ἐφράσθη, τόνδ᾽ ἐσήμηνεν λόγον·
+                        <lb/>Ὦ τὴν ἐμὴν πέρσαντες Ἀργεῖοι πόλιν,
+                        <lb/>ἑκοῦσα θνῄσκω· μή τις ἅψηται χροὸς
+                        <lb/>τοὐμοῦ· παρέξω γὰρ δέρην εὐκαρδίως.
+                        <lb n="550"/>ἐλευθέραν δέ μ᾽, ὡς ἐλευθέρα θάνω,
+                        <lb/>πρὸς θεῶν, μεθέντες κτείνατ᾽· ἐν νεκροῖσι γὰρ
+                        <lb/>δούλη κεκλῆσθαι βασιλὶς οὖσ᾽ αἰσχύνομαι.
+                        <lb/>λαοὶ δ᾽ ἐπερρόθησαν, Ἀγαμέμνων τ᾽ ἄναξ
+                        <lb/>εἶπεν μεθεῖναι παρθένον νεανίαις.
+                        <lb n="555"/>[οἳ δ᾽, ὡς τάχιστ᾽ ἤκουσαν ὑστάτην ὄπα,
+                        <lb/>μεθῆκαν, οὗπερ καὶ μέγιστον ἦν κράτος.]
+                        <lb/>κἀπεὶ τόδ᾽ εἰσήκουσε δεσποτῶν ἔπος,
+                        <lb/>λαβοῦσα πέπλους ἐξ ἄκρας ἐπωμίδος
+                        <lb/>ἔρρηξε λαγόνας ἐς μέσας παρ᾽ ὀμφαλόν,
+                        <lb n="560"/>μαστούς τ᾽ ἔδειξε στέρνα θ᾽ ὡς ἀγάλματος
+                        <lb/>κάλλιστα, καὶ καθεῖσα πρὸς γαῖαν γόνυ
+                        <lb/>ἔλεξε πάντων τλημονέστατον λόγον·
+                        <lb/>᾿Ιδού, τόδ᾽, εἰ μὲν στέρνον, ὦ νεανία,
+                        <lb/>παίειν προθυμῇ, παῖσον, εἰ δ᾽ ὑπ᾽ αὐχένα
+                        <lb n="565"/>χρῄζεις, πάρεστι λαιμὸς εὐτρεπὴς ὅδε.
+                        <lb/>ὃ δ᾽ οὐ θέλων τε καὶ θέλων οἴκτῳ κόρης,
+                        <lb/>τέμνει σιδήρῳ πνεύματος διαρροάς·
+                        <lb/>κρουνοὶ δ᾽ ἐχώρουν. ἣ δὲ καὶ θνῄσκουσ᾽ ὅμως
+                        <lb/>πολλὴν πρόνοιαν εἶχεν εὐσχήμων πεσεῖν,
+                        <lb n="570"/>κρύπτουσ' ἃ κρύπτειν ὄμματ᾽ ἀρσένων χρεών.
+                        <lb/>ἐπεὶ δ᾽ ἀφῆκε πνεῦμα θανασίμῳ σφαγῇ,
+                        <lb/>οὐδεὶς τὸν αὐτὸν εἶχεν Ἀργείων πόνον·
+                        <lb/>ἀλλ᾽ οἳ μὲν αὐτῶν τὴν θανοῦσαν ἐκ χερῶν
+                        <lb/>φύλλοις ἔβαλλον, οἳ δὲ πληροῦσιν πυρὰν
+                        <lb n="575"/>κορμοὺς φέροντες πευκίνους, ὁ δ᾽ οὐ φέρων
+                        <lb/>πρὸς τοῦ φέροντος τοιάδ᾽ ἤκουεν κακά·
+                        <lb/>Ἕστηκας, ὦ κάκιστε, τῇ νεάνιδι
+                        <lb/>οὐ πέπλον οὐδὲ κόσμον ἐν χεροῖν ἔχων;
+                        <lb/>οὐκ εἶ τι δώσων τῇ περίσσ᾽ εὐκαρδίῳ
+                        <lb n="580"/>ψυχήν τ᾽ ἀρίστῃ; τοιάδ᾽ ἀμφὶ σῆς λέγων
+                        <lb/>παιδὸς θανούσης, εὐτεκνωτάτην τέ σε
+                        <lb/>πασῶν γυναικῶν δυστυχεστάτην θ᾽ ὁρῶ.</quote>
+                    <quote><lb/>Był obecny cały tłum achajskiego wojska
+                        <lb/>Zebrany przy grobie na śmierć ofiarną twojej córki;
+                        <lb/>Syn Achillesa, wziąwszy rękę Polykseny
+                        <lb/>Stanął na szczycie mogiły, a ja tuż obok.
+                        <lb n="525"/>Starannie wybrani młodzieńcy achajscy,
+                        <lb/>Którzy mieli trzymać mocno rękami wierzgania twojej młodej jałówki,
+                        <lb/>Szli za nami. Chwyciwszy w obie ręce wypełniony puchar
+                        <lb/>Cały ze złota, syn Achillesa wznosi dłonią
+                        <lb/>Ofiary płynne dla zmarłego ojca; daje mi znak,
+                        <lb n="530"/>Bym nakazał całemu wojsku ciszę.
+                        <lb/>A ja, stanąwszy pośrodku powiedziałem te słowa:
+                        <lb/>„Milczcie, Achajowie, niech zamilknie całe zgromadzenie!
+                        <lb/>Milczenie, cisza!” Cały tłum stanął jak makiem zasiał.
+                        <lb/>On zaś powiedział: „O synu Peleusa, mój ojcze,
+                        <lb n="535"/>Przyjmij te płynne miłe mi ofiary,
+                        <lb/>Przywołujące zmarłych. I przybądź, by wypić czarną
+                        <lb/>Czystą krew dziewczyny, którą tobie ofiarowujemy
+                        <lb/>– I wojsko, i ja sam. Bądź nam życzliwy
+                        <lb/>I odwiązać rufy i cumy
+                        <lb n="540"/>Statków nam pozwól, byśmy łaskawie od Ilionu
+                        <lb/>Wszyscy w powrotną drogę mogli wyprawić się do ojczyzny”.
+                        <lb/>Tak powiedział, a całe wojsko się modliło.
+                        <lb/>Chwyciwszy za złoconą rękojeść miecza
+                        <lb/>Wyjął go z pochwy, wybranym spośród wojska Argiwów
+                        <lb n="545"/>Skinął, by pochwycili dziewczynę.
+                        <lb/>Ona zaś, gdy to postrzegła, oznajmiła takie słowa:
+                        <lb/>„O wy, Argiwi, którzy zniszczyliście moje miasto,
+                        <lb/>Umrę chętnie! Niech nikt nie dotyka mojej skóry;
+                        <lb/>Bo z niezłomnym sercem podam swoją szyję.
+                        <lb n="550"/>Puśćcie mnie wolno, bo wolna umieram,
+                        <lb/>Na bogów, kiedy mnie zabijacie! Pośród zmarłych bowiem
+                        <lb/>Wstydem się okryję, kiedy nazwą mnie niewolnicą, chociaż jestem
+                        królewną”.
+                        <lb/>Lud odkrzyknął i wódz Agamemnon
+                        <lb/>Powiedział młodzieńcom, by puścili dziewczynę wolno.
+                        <lb n="555"/>Oni zaś, jak najszybciej usłuchali ostatniego słowa
+                        <lb/>Najwyższej władzy i puścili ją wolno.
+                        <lb/>A kiedy usłyszała słowo władców,
+                        <lb/>Chwyciwszy swój peplos na samych ramionach
+                        <lb/>Rozdarła brzegi pośrodku aż po pępek,
+                        <lb n="560"/>I ukazała piersi i tors, jak na posągu,
+                        <lb/>Najpiękniejsza, i gnąc ku ziemi kolano
+                        <lb/>Rzekła najdzielniejsze ze wszystkich słowa:
+                        <lb/>„Oto tutaj, młodzieńcze, jeśli w tors
+                        <lb/>Pragniesz ugodzić, a jeśli w kark
+                        <lb n="565"/>Pragniesz – oto szyja dobrze podstawiona”.
+                        <lb/>On zaś, i nie chcąc, i chcąc zarazem, z żalu nad dziewczyną
+                        <lb/>Tnie żelazem po gardle, gdzie płynie oddech,
+                        <lb/>Trysnęły strumienie. Ona zaś nawet umierając
+                        <lb/>Miała tyle przytomności, by upaść przystojnie,
+                        <lb n="570"/>Zakrywając to, co należało przed męskimi oczami ukryć.
+                        <lb/>Kiedy oddała ducha po śmiertelnym cięciu,
+                        <lb/>Każdy z Argiwów czym innym się zajął:
+                        <lb/>Jedni z nich rękoma na zmarłą
+                        <lb/>Rzucali liście, inni stos pogrzebowy wypełniali,
+                        <lb n="575"/>Znosząc sosnowe bierwiona, a kto ich nie znosił,
+                        <lb/>Od tych, co nosili, takie wyzwiska słyszał:
+                        <lb/>„Czego stoisz, nikczemniku? Dla panny
+                        <lb/>Nie masz w rękach ani peplosu, ani ozdób?
+                        <lb/>Nic nie masz do dania niezwykłemu sercu,
+                        <lb n="580"/>Najlepszej duszy?” Takie rzeczy mówiąc o twojej
+                        <lb/>Zmarłej córce, patrzę na ciebie i widzę, żeś
+                        <lb/>Ze wszystkich kobiet i najszczęśliwsza, i najnieszczęśliwsza zarazem.</quote>
+                    <p>522: ἐπὶ <w>σφαγάς</w> – tutaj: „na śmierć ofiarną przez zarżnięcie”,
+                        a nie tylko: „na zarżnięcie”, na śmierć. Por. Casabona 1966, 174 i 176 –
+                        <w>σφαγή</w> jako nom verbal dla <w>σφάζειν</w>.</p>
+                    <p>532–533: <w>Σιγᾶτ</w>᾽, Ἀχαιοί, <w>σῖγα</w> πᾶς ἔστω λεώς, / <w>σίγα</w> σιώπα –
+                        „Milczcie, Achajowie, niech zamilknie całe zgromadzenie! / Milczenie,
+                        cisza!”. Neoptolemos nakazuje Taltybiosowi, by wezwał wojsko do
+                        zachowania milczenia (w. 530). Rytualne pełne szacunku milczenie –
+                        εὐφημία – jest elementem obrzędów poprzedzających ofiarę, umożliwia
+                        modlitwę i skupienie podczas samej ofiary – podczas samego aktu
+                        ofiary milczenia nie mogą przerwać ani krzyki, ani lament (Burkert
+                        1985a: 199; Burkert 1983: 4; Gödde 2007: 282–283; zob. też komentarz
+                        Doddsa do wersów 68–70 Ba., 1988).</p>
+                    <p>571: <w>θανασίμῳ</w> <w>σφαγῇ</w> – „po śmiertelnym cięciu”; tutaj σφαγή
+                        (inaczej niż na początku mowy, w. 522) oznacza „cięcie”, przecięcie
+                        szyi; w całym kontekście jest to nadal terminus technicus języka ofiary,
+                        opisujący konkretny ofiarny gest rytualny.</p>
+                </div>
+                
+                    <div type="textpart" n="intro">
+                        <p>Tematem drugiej części dramatu – od trzeciego epeisodionu – staje
+                            się rozpacz Hekabe po odkryciu śmierci Polydora, którego ciało wnosi
+                            na scenę służebna. Pojawia się Agamemnon, który ponagla ją do pogrzebu
+                            Polykseny i dowiaduje się o śmierci jej brata.</p>
+                        <p>Pod koniec dialogu Hekabe prosi Agamemnona, by wstrzymał pogrzeb
+                            Polykseny, ponieważ chce pochować oboje dzieci razem.</p>
+            </div>
+            
+                <div type="textpart" n="Hecuba_894-897">
+                    <head>Hecuba 894-897</head>
+                    <quote><lb/>τὸν δὲ τῆς νεοσφαγοῦς
+                        <lb n="895"/>Πολυξένης ἐπίσχες, Ἀγάμεμνον, τάφον,
+                        <lb/>ὡς τώδ' ἀδελφὼ πλησίον μιᾷ φλογί,
+                        <lb/>δισσὴ μέριμνα μητρί, κρυφθῆτον χθονί.</quote>
+                    <quote><lb/>Powstrzymaj,
+                        <lb n="895"/>Agamemnonie, pogrzeb ledwie co zarżniętej Polykseny,
+                        <lb/>Żeby oboje rodzeństwa, w jednym ogniu spalone, blisko siebie,
+                        <lb/>Z podwójną troską matka mogła ukryć w ziemi.</quote>
+                    <p>894: <w>νεοσφαγοῦς</w> – „ledwie co zarżniętej”. Na temat <w>νεοσφαγής</w>
+                        i jego zastosowań w tragedii zob. komentarz do S. <title>Aj</title>. w. 546.</p>
+                </div>
+                
+                <div type="textpart" n="Hecuba_1037">
+                    <head>Hecuba 1037</head>
+                    <p>Okrzyk Polymestora zza skene, gdzie Hekabe wraz z innymi Trojankami
+                        brankami z zemsty za śmierć syna morduje jego dzieci i jego
+                        samego oślepia.</p>
+                    <quote><lb/>ὤμοι μάλ᾽ αὖθις, τέκνα, δυστήνου σφαγῆς.</quote>
+                    <quote><lb/>Biada, dzieci, znowu, nieszczęsny cios!</quote>
+                    <p><w>δυστήνου</w> <w>σφαγῆς</w>: „nieszczęsny cios”. Podobnie jak w wersie 571
+                        powyżej σφαγή oznacza tutaj sam cios, cięcie. To bodaj jedyne miejsce
+                        w całej tej sztuce, gdzie rytualny sens tego rzeczownika jest zupełnie
+                        nieobecny i niewyczuwalny. Hekabe dokonuje śmiertelnej zemsty za
+                        mord na swoim synu, jednak sama nie interpretuje expressis verbis swojego
+                        czynu w kategoriach ofiarnych. To prawda, istnieją podobieństwa
+                        między śmiercią Polymestora i Polykseny – Hekabe też używa noża
+                        typu phasganon (w. 1161), tak samo jak Neoptolemos, Polymestor klęczy
+                        przed atakującą go Hekabe, tak samo jak Polyksena na grobie i jest
+                        tak samo bezbronny (Mitchell-Boyask 1993: 128–129) – są to jednak podobieństwa
+                        raczej w obrazach niż ścisłej terminologii.</p>
+                </div>
+                </div>
+        </body>
+    </text>
+</TEI>
