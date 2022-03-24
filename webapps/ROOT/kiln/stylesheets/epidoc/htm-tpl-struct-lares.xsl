@@ -2,13 +2,14 @@
 <!-- $Id$ -->
 <xsl:stylesheet xmlns:i18n="http://apache.org/cocoon/i18n/2.1"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:t="http://www.tei-c.org/ns/1.0"
+  xmlns:fn="http://www.w3.org/2005/xpath-functions"
   exclude-result-prefixes="t" version="2.0">
   <!-- Contains named templates for lares file structure (aka "metadata" aka "supporting data") -->
 
   <!-- Called from htm-tpl-structure.xsl -->
 
   <xsl:template name="lares-body-structure">
-    
+    <xsl:call-template name="lares-navigation"/>
     <div id="metadata" class="chapter_description">
           <p><b>Original publication: </b> <xsl:apply-templates select="//t:sourceDesc//t:p[1]/node()"/></p>    
       
@@ -274,6 +275,25 @@
       </sup>
       <span class="popup note"><xsl:apply-templates/></span>
     </span>
+  </xsl:template>
+  
+  <xsl:template name="lares-navigation">
+    <!-- if you are running this template outside EFES, change the path to the inscriptions list accordingly -->
+    <xsl:if test="doc-available(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/lists/all_documents.xml')) = fn:true()">
+      <xsl:variable name="list" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/lists/all_documents.xml'))//t:list"/>
+      <xsl:variable name="filename"><xsl:value-of select="lower-case(string(//t:idno[@type='filename'][1]))"/></xsl:variable>
+      <xsl:variable name="prev" select="$list/t:item[substring-before(lower-case(@n),'.xml')=$filename]/preceding-sibling::t:item[1]/substring-before(@n,'.xml')"/>
+      <xsl:variable name="next" select="$list/t:item[substring-before(lower-case(@n),'.xml')=$filename]/following-sibling::t:item[1]/substring-before(@n,'.xml')"/>
+      
+      <div class="row">
+        <div class="large-12 columns">
+          <ul class="pagination">
+            <xsl:if test="$prev"><li class="arrow"><a href="./{$prev}.html">&#171; Previous</a></li></xsl:if>
+            <xsl:if test="$next"><li class="arrow"><a href="./{$next}.html">Next &#187;</a></li></xsl:if>
+          </ul>
+        </div>
+      </div>
+    </xsl:if>
   </xsl:template>
 
 </xsl:stylesheet>

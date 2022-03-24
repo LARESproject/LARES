@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List of documents</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: created in electronic format.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head>LARES documents list</head>
+            <list>
+                <!-- Book chapters -->
+                <item n="trag_00_intro.xml"/>
+                <item n="trag_01_persae.xml"/>
+                <item n="trag_02_septem_contra_thebas.xml"/>
+                <item n="trag_03_supplices.xml"/>
+                <item n="trag_04_agamemnon.xml"/>
+                <item n="trag_05_choephori.xml"/>
+                <item n="trag_06_eumenides.xml"/>
+                <item n="trag_07_prometheus_vinctus.xml"/>
+                <item n="trag_08_sophocles_intro.xml"/>
+                <item n="trag_09_antigone.xml"/>
+                <item n="trag_10_ajax.xml"/>
+                <item n="trag_11_trachiniae.xml"/>
+                <item n="trag_12_oedipus_tyrannus.xml"/>
+                <item n="trag_13_electra.xml"/>
+                <item n="trag_14_philoctetes.xml"/>
+                <item n="trag_15_oedipus_coloneus.xml"/>
+                <item n="trag_16_alcestis.xml"/>
+                <item n="trag_17_medea.xml"/>
+                <item n="trag_18_heraclidae.xml"/>
+                <item n="trag_19_hippolytus.xml"/>
+                <item n="trag_20_andromache.xml"/>
+                <item n="trag_21_hecuba.xml"/>
+                <item n="trag_22_supplices.xml"/>
+                <item n="trag_23_hercules.xml"/>
+                <item n="trag_24_ion.xml"/>
+                <item n="trag_25_troades.xml"/>
+                <item n="trag_26_electra.xml"/>
+                <item n="trag_27_iphigenia_taurica.xml"/>
+                <item n="trag_28_helena.xml"/>
+                <item n="trag_29_phoenissae.xml"/>
+                <item n="trag_30_orestes.xml"/>
+                <item n="trag_31_bacchae.xml"/>
+                <item n="trag_32_iphigenia_aulidensis.xml"/>
+                <item n="trag_33_bibliography.xml"/>
+                <item n="com_00_intro.xml"/>
+                <item n="com_01_aves.xml"/>
+                <item n="com_02_pax.xml"/>
+                <item n="com_03_acharnenses.xml"/>
+                <item n="com_04_equites.xml"/>
+                <item n="com_05_nubes.xml"/>
+                <item n="com_06_vespae.xml"/>
+                <item n="com_07_lysistrata.xml"/>
+                <item n="com_08_thesmophoriazousae.xml"/>
+                <item n="com_09_ranae.xml"/>
+                <item n="com_10_ecclesiazousae.xml"/>
+                <item n="com_11_plutus.xml"/>
+                <item n="com_12_fragments.xml"/>
+                <item n="com_13_bibliography.xml"/>
+                <item n="cpch_00_intro.xml"/>
+                <item n="cpch_01_cratylus.xml"/>
+                <item n="cpch_02_critias.xml"/>
+                <item n="cpch_03_euthydemus.xml"/>
+                <item n="cpch_04_euthyphro.xml"/>
+                <item n="cpch_05_leges.xml"/>
+                <item n="cpch_06_lysis.xml"/>
+                <item n="cpch_07_phaedo.xml"/>
+                <item n="cpch_08_politicus.xml"/>
+                <item n="cpch_09_protagoras.xml"/>
+                <item n="cpch_10_respublica.xml"/>
+                <item n="cpch_11_symposium.xml"/>
+                <item n="cpch_12_alcibiades_ii.xml"/>
+                <item n="cpch_13_epistula_vii.xml"/>
+                <item n="cpch_14_minos.xml"/>
+                <item n="cpch_15_de_morbo_sacro.xml"/>
+                <item n="cpch_16_de_aere_aquis_et_locis.xml"/>
+                <item n="cpch_17_de_diaeta_in_morbis_acutis.xml"/>
+                <item n="cpch_18_bibliography.xml"/>
+                <item n="hom_00_intro.xml"/>
+                <item n="hom_01_ilias_i.xml"/>
+                <item n="hom_02_ilias_ii.xml"/>
+                <item n="hom_03_ilias_iii.xml"/>
+                <item n="hom_04_ilias_iv.xml"/>
+                <item n="hom_05_ilias_v.xml"/>
+                <item n="hom_06_ilias_vi.xml"/>
+                <item n="hom_07_ilias_vii.xml"/>
+                <item n="hom_08_ilias_viii.xml"/>
+                <item n="hom_09_ilias_ix.xml"/>
+                <item n="hom_10_ilias_x.xml"/>
+                <item n="hom_11_ilias_xi.xml"/>
+                <item n="hom_12_ilias_xii.xml"/>
+                <item n="hom_13_ilias_xv.xml"/>
+                <item n="hom_14_ilias_xvii.xml"/>
+                <item n="hom_15_ilias_xviii.xml"/>
+                <item n="hom_16_ilias_xix.xml"/>
+                <item n="hom_17_ilias_xx.xml"/>
+                <item n="hom_18_ilias_xxi.xml"/>
+                <item n="hom_19_ilias_xxii.xml"/>
+                <item n="hom_20_ilias_xxiii.xml"/>
+                <item n="hom_21_ilias_xxiv.xml"/>
+                <item n="hom_22_odyssea_i.xml"/>
+                <item n="hom_23_odyssea_ii.xml"/>
+                <item n="hom_24_odyssea_iii.xml"/>
+                <item n="hom_25_odyssea_iv.xml"/>
+                <item n="hom_26_odyssea_v.xml"/>
+                <item n="hom_27_odyssea_vii.xml"/>
+                <item n="hom_28_odyssea_viii.xml"/>
+                <item n="hom_29_odyssea_ix.xml"/>
+                <item n="hom_30_odyssea_x.xml"/>
+                <item n="hom_31_odyssea_xi.xml"/>
+                <item n="hom_32_odyssea_xii.xml"/>
+                <item n="hom_33_odyssea_xiii.xml"/>
+                <item n="hom_34_odyssea_xiv.xml"/>
+                <item n="hom_35_odyssea_xv.xml"/>
+                <item n="hom_36_odyssea_xvi.xml"/>
+                <item n="hom_37_odyssea_xvii.xml"/>
+                <item n="hom_38_odyssea_xix.xml"/>
+                <item n="hom_39_odyssea_xx.xml"/>
+                <item n="hom_40_odyssea_xxi.xml"/>
+                <item n="hom_41_odyssea_xxii.xml"/>
+                <item n="hom_42_odyssea_xxiv.xml"/>
+                <item n="hom_43_bibliography.xml"/>
+            </list>
+        </body>
+    </text>
+</TEI>
