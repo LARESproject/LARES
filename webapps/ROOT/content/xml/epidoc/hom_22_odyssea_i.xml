@@ -44,190 +44,194 @@
             
             <div type="edition"> <!-- xml:lang="pl" -->
                 <div type="textpart" n="intro">
-                    <p>Pieśń I przedstawia wydarzenia pierwszego dnia fabuły eposu, informując słuchacza o postanowieniu bogów o powrocie Odyseusza na Itakę i przedstawiając sytuację na wyspie. Struktura pieśni jest następująca:
-                        1–10 		Proojmion.
-                        1–26		Początek opowiadania: Odyseusz po utracie towarzyszy przebywa u Kalypso.
-                        26–95		Rada bogów – dezycja o powrocie herosa do domu.
-                        96–324	Atena/Mentes na Itace; rozmowa z Telemachem.
-                        325–424	Telemach konfrontuje się z Zalotnikami.
-                        
-                        Pierwsza aluzja do ofiary pojawia się już w proojmionie, gdzie wspomina się o losie towarzyszy Odyseusza, którzy zginęli z własnej winy po zjedzeniu krów Heliosa [tekst 66]. 
-                    </p>
+                    <p>Pieśń I przedstawia wydarzenia pierwszego dnia fabuły eposu, informując słuchacza o postanowieniu bogów o powrocie Odyseusza na Itakę i przedstawiając sytuację na wyspie. Struktura pieśni jest następująca:</p>
+                    <p>1–10 		Proojmion.</p>
+                    <p>1–26		Początek opowiadania: Odyseusz po utracie towarzyszy przebywa u Kalypso.</p>
+                    <p>26–95		Rada bogów – dezycja o powrocie herosa do domu.</p>
+                    <p>96–324	Atena/Mentes na Itace; rozmowa z Telemachem.</p>
+                    <p>325–424	Telemach konfrontuje się z Zalotnikami.</p>
+                    <p>Pierwsza aluzja do ofiary pojawia się już w proojmionie, gdzie wspomina się o losie towarzyszy Odyseusza, którzy zginęli z własnej winy po zjedzeniu krów Heliosa [tekst 66].</p>
                 </div>
                 <div type="textpart" n="Odyseja_I_6–9">
                     <head>Odyseja I 6–9</head>
-                    <p>Proojmion Odysei zawiera odniesienie do ofiary z krów poświęconych Heliosowi, która stała się przyczyną zguby towarzyszy Odyseusza (Od. 12.260–425). Wyszczególnienie tego epizodu nie jest tak zaskakujące, jak sądzi Stephanie West: śmierć towarzyszy w wyniku gniewu Heliosa nie jest jedyną przyczyną zguby członków wyprawy trojańskiej z Itaki powracających do ojczyzny, gdyż jedenaście z dwunastu okrętów zostało zniszczonych przez Lestrigonów, a wielu członków załogi okrętu Odyseusza zginęło w czasie żeglugi z różnych powodów (Od. 9.290, 311, 344; Od. 10.551–2; Od. 12.245 i nast.). Wprowadzenie epizodu ze stadem Heliosa jest istotne z punktu widzenia całości narracji, gdyż oznacza utratę ostatnich towarzyszy i oznacza początek samotnej podróży Odyseusza (de Jong 2001: 7). Poeta mówiąc o ofierze z wołów Heliosa nie używa terminologii ofiarniczej, skupiając się na fakcie zjedzenie zwierząt, co upodabnia – przynajmniej w warstwie języka opisu – działanie towarzyszy Odyseusz do postępowania zalotników na Itace. </p>
-                    <quote>ἀλλ’ οὐδ’ ὧς ἑτάρους ἐρρύσατο, ἱέμενός περ·	
-                        αὐτῶν γὰρ σφετέρῃσιν ἀτασθαλίῃσιν ὄλοντο, 
-                        νήπιοι, οἳ κατὰ βοῦς Ὑπερίονος Ἠελίοιο 
-                        ἤσθιον· αὐτὰρ ὁ τοῖσιν ἀφείλετο νόστιμον ἦμαρ. 		
+                    <p>Proojmion Odysei zawiera odniesienie do ofiary z krów poświęconych Heliosowi, która stała się przyczyną zguby towarzyszy Odyseusza (Od. 12.260–425). Wyszczególnienie tego epizodu nie jest tak zaskakujące, jak sądzi Stephanie West: śmierć towarzyszy w wyniku gniewu Heliosa nie jest jedyną przyczyną zguby członków wyprawy trojańskiej z Itaki powracających do ojczyzny, gdyż jedenaście z dwunastu okrętów zostało zniszczonych przez Lestrigonów, a wielu członków załogi okrętu Odyseusza zginęło w czasie żeglugi z różnych powodów (Od. 9.290, 311, 344; Od. 10.551–2; Od. 12.245 i nast.). Wprowadzenie epizodu ze stadem Heliosa jest istotne z punktu widzenia całości narracji, gdyż oznacza utratę ostatnich towarzyszy i oznacza początek samotnej podróży Odyseusza (de Jong 2001: 7). Poeta mówiąc o ofierze z wołów Heliosa nie używa terminologii ofiarniczej, skupiając się na fakcie zjedzenie zwierząt, co upodabnia – przynajmniej w warstwie języka opisu – działanie towarzyszy Odyseusz do postępowania zalotników na Itace.</p>
+                    <quote>
+                        <lb/>ἀλλ’ οὐδ’ ὧς ἑτάρους ἐρρύσατο, ἱέμενός περ·	
+                        <lb/>αὐτῶν γὰρ σφετέρῃσιν ἀτασθαλίῃσιν ὄλοντο, 
+                        <lb/>νήπιοι, οἳ κατὰ βοῦς Ὑπερίονος Ἠελίοιο 
+                        <lb/>ἤσθιον· αὐτὰρ ὁ τοῖσιν ἀφείλετο νόστιμον ἦμαρ. 		
                     </quote>
-                    <quote>Ale towarzyszy i tak nie uratował, chociaż pragnął,				
-                        przez własną zuchwałość zginęli, 
-                        głupi, którzy woły Heliosa, Hyperiona
-                        zjedli: on bowiem odebrał im dzień powrotu.
+                    <quote>
+                        <lb/>Ale towarzyszy i tak nie uratował, chociaż pragnął,				
+                        <lb/>przez własną zuchwałość zginęli, 
+                        <lb/>głupi, którzy woły Heliosa, Hyperiona
+                        <lb/>zjedli: on bowiem odebrał im dzień powrotu.
                     </quote>
-                    <p>7:	αὐτῶν γὰρ σφετέρῃσιν ἀτασθαλίῃσιν – „przez własną zuchwałość”; wariant wersu formularnego (Il. 4.409), wyrażającego wyjaśnienie zguby człowieka poprzez wskazanie na nierozumne przekroczenie norm etycznych. W tym wypadku było to zjedzenie wołów Heliosa określone słowem ἀτασθᾰλία – „buta”, „zuchwalstwo, „niegodziwość, „występek”, które zrównuje czyn towarzyszy Odyseusza z „zuchwałym” zachowaniem Ajgistosa i zalotników. Chodzi o ważne dla języka moralnego Odysei słowo, które oznacza postępowanie sprowadzające na ludzi zasłużone cierpienie, a zatem świadome przekroczenie norm społecznych, wywołujące gniewną reakcję bogów (West 1981: 185), por. Chantraine 1968, s.v.; LfgrE, s.v.; Jones 1954; Finkelberg 1995: 15–28. Obarczenie towarzyszy Odyseusza winą za bezbożne zjedzenie stada Heliosa nastręcza trudności w świetle szczegółów narracji w pieśni dwunastej. Jednak w świecie epickim bogowie mogą doprowadzić do sytuacji, w której ludzie dopuszczą się czynu, za który następnie zostaną ukarani. Por. Od. 1.32 i nast. 
-       </p> <p>                7–8:	οἳ κατὰ βοῦς Ὑπερίονος Ἠελίοιο / ἤσθιον – „którzy woły Heliosa, Hyperiona / zjedli”; przyczyną zguby towarzyszy Odyseusza jest zjedzenie wołów Heliosa. Tmeza, κατὰ… ἤσθιον, czyli rozdzielenie przedrostka modyfikującego znaczenie i czasownika, jest charakterystyczna dla dawnych dialektów indoeuropejskich i była używana w eposie homeryckim pomimo zaniknięcia w żywej mowie. Jej obecność stanowi jeden z argumentów dla tezy o nieprzerwanej ciągłości tradycji poetyckiej. Przedrostek κατὰ podkreśla całkowitość działania, jego odpowiednikiem w języku polskim może być przedrostek po- w „pożarli”, jednak czasownik ἤσθιον ma ogólny sens „jeść”, „zjadać”. 
-                        Ὑπερίονος – „Hyperiona”; stały epitet boga Heliosa u Homera, czasami jednak imię Heliosa występuje samodzielnie (Od. 1.24; Il. 19.398). W Teogonii Hezjoda Hyperion należy do pokolenia tytanów i jest ojcem Heliosa (Theog. 374). Podobną funkcję spełnia imię Hyperionidy – „Syn Hyperiona” w Od. 12.176, użyte ze względów metrycznych. Etymologia epitetu jest niejasna, ale najpewniej wyraża on ideę przebywania „na wysokości”, por. łac. superior, zob. Usener 1896: 19–20.
-                </p>      <p>  9:	αὐτὰρ ὁ τοῖσιν ἀφείλετο νόστιμον ἦμαρ – „on bowiem odebrał im dzień powrotu”; archaiczny rzeczownik ἦμαρ jest wykorzystywany w języku epickim ze względu na swoją wygodną strukturę metryczną (w przeciwieństwie do znanego z dialektu jońskiego rzeczownika ἡμέρη). W modyfikującym znaczenie przymiotnikiem (w tym wypadku νόστιμον, „powrotny”) wskazuje na kluczowe dla biegu zdarzeń wypadku, do którego nie doszło w wyniku działań bogów i ludzi (tutaj: dzień powrotu nie nadszedł, gdyż towarzysze Odyseusza zginęli wskutek reakcji bogów na ich czyny). Zob. Fränkel 1960: 5–6.  
-                    </p>
+                    <p>7:	αὐτῶν γὰρ σφετέρῃσιν ἀτασθαλίῃσιν – „przez własną zuchwałość”; wariant wersu formularnego (Il. 4.409), wyrażającego wyjaśnienie zguby człowieka poprzez wskazanie na nierozumne przekroczenie norm etycznych. W tym wypadku było to zjedzenie wołów Heliosa określone słowem ἀτασθᾰλία – „buta”, „zuchwalstwo, „niegodziwość, „występek”, które zrównuje czyn towarzyszy Odyseusza z „zuchwałym” zachowaniem Ajgistosa i zalotników. Chodzi o ważne dla języka moralnego Odysei słowo, które oznacza postępowanie sprowadzające na ludzi zasłużone cierpienie, a zatem świadome przekroczenie norm społecznych, wywołujące gniewną reakcję bogów (West 1981: 185), por. Chantraine 1968, s.v.; LfgrE, s.v.; Jones 1954; Finkelberg 1995: 15–28. Obarczenie towarzyszy Odyseusza winą za bezbożne zjedzenie stada Heliosa nastręcza trudności w świetle szczegółów narracji w pieśni dwunastej. Jednak w świecie epickim bogowie mogą doprowadzić do sytuacji, w której ludzie dopuszczą się czynu, za który następnie zostaną ukarani. Por. Od. 1.32 i nast.</p>
+                    <p>7–8: οἳ κατὰ βοῦς Ὑπερίονος Ἠελίοιο / ἤσθιον – „którzy woły Heliosa, Hyperiona / zjedli”; przyczyną zguby towarzyszy Odyseusza jest zjedzenie wołów Heliosa. Tmeza, κατὰ… ἤσθιον, czyli rozdzielenie przedrostka modyfikującego znaczenie i czasownika, jest charakterystyczna dla dawnych dialektów indoeuropejskich i była używana w eposie homeryckim pomimo zaniknięcia w żywej mowie. Jej obecność stanowi jeden z argumentów dla tezy o nieprzerwanej ciągłości tradycji poetyckiej. Przedrostek κατὰ podkreśla całkowitość działania, jego odpowiednikiem w języku polskim może być przedrostek po- w „pożarli”, jednak czasownik ἤσθιον ma ogólny sens „jeść”, „zjadać”.</p>
+                    <p>Ὑπερίονος – „Hyperiona”; stały epitet boga Heliosa u Homera, czasami jednak imię Heliosa występuje samodzielnie (Od. 1.24; Il. 19.398). W Teogonii Hezjoda Hyperion należy do pokolenia tytanów i jest ojcem Heliosa (Theog. 374). Podobną funkcję spełnia imię Hyperionidy – „Syn Hyperiona” w Od. 12.176, użyte ze względów metrycznych. Etymologia epitetu jest niejasna, ale najpewniej wyraża on ideę przebywania „na wysokości”, por. łac. superior, zob. Usener 1896: 19–20.</p>
+                    <p>9: αὐτὰρ ὁ τοῖσιν ἀφείλετο νόστιμον ἦμαρ – „on bowiem odebrał im dzień powrotu”; archaiczny rzeczownik ἦμαρ jest wykorzystywany w języku epickim ze względu na swoją wygodną strukturę metryczną (w przeciwieństwie do znanego z dialektu jońskiego rzeczownika ἡμέρη). W modyfikującym znaczenie przymiotnikiem (w tym wypadku νόστιμον, „powrotny”) wskazuje na kluczowe dla biegu zdarzeń wypadku, do którego nie doszło w wyniku działań bogów i ludzi (tutaj: dzień powrotu nie nadszedł, gdyż towarzysze Odyseusza zginęli wskutek reakcji bogów na ich czyny). Zob. Fränkel 1960: 5–6.</p>
                 </div>
                 <div type="textpart" n="Odyseja_I_22–6">
                     <head>Odyseja I 22–6</head>
-                    <p>Uczta u Etiopów uzasadnia nieobecność Posejdona, którego gniew jest przyczyną obecnego położenia Odyseusza. W podobny sposób uzasadnia się nieobecność Zeusa na Olimpie w Iliadzie (Il. 1.423–427, por. Il. 23.205–207). Motyw „gniewu boga” powraca w Odysei, będąc zapewne tradycyjnym motywem eposu powrotów herosów do ojczyzny (nostoi). Oprócz gniewu Posejdona wywołanego oślepieniem Polifema, poemat mówi o gniewie Ateny (Od. 1.325–7), Heliosa (12.260–425) oraz Posejdona skierowanym przeciw Ajasowi Lokryjskiemu (4.449–511). Motyw uczty boga na krańcach ziemi umożliwia interwencję Ateny, opiekunki Odyseusza, u Zeusa. </p>
-                    <quote>ἀλλ’ ὁ μὲν Αἰθίοπας μετεκίαθε τηλόθ’ ἐόντας,
-                        Αἰθίοπας, τοὶ διχθὰ δεδαίαται, ἔσχατοι ἀνδρῶν,
-                        οἱ μὲν δυσομένου Ὑπερίονος, οἱ δ’ ἀνιόντος, 
-                        ἀντιόων ταύρων τε καὶ ἀρνειῶν ἑκατόμβης.   			25
-                        ἔνθ’ ὅ γε τέρπετο δαιτὶ παρήμενος· 
+                    <p>Uczta u Etiopów uzasadnia nieobecność Posejdona, którego gniew jest przyczyną obecnego położenia Odyseusza. W podobny sposób uzasadnia się nieobecność Zeusa na Olimpie w Iliadzie (Il. 1.423–427, por. Il. 23.205–207). Motyw „gniewu boga” powraca w Odysei, będąc zapewne tradycyjnym motywem eposu powrotów herosów do ojczyzny (nostoi). Oprócz gniewu Posejdona wywołanego oślepieniem Polifema, poemat mówi o gniewie Ateny (Od. 1.325–7), Heliosa (12.260–425) oraz Posejdona skierowanym przeciw Ajasowi Lokryjskiemu (4.449–511). Motyw uczty boga na krańcach ziemi umożliwia interwencję Ateny, opiekunki Odyseusza, u Zeusa.</p>
+                    <quote>
+                        <lb/>ἀλλ’ ὁ μὲν Αἰθίοπας μετεκίαθε τηλόθ’ ἐόντας,
+                        <lb/>Αἰθίοπας, τοὶ διχθὰ δεδαίαται, ἔσχατοι ἀνδρῶν,
+                        <lb/>οἱ μὲν δυσομένου Ὑπερίονος, οἱ δ’ ἀνιόντος, 
+                        <lb n="25"/>ἀντιόων ταύρων τε καὶ ἀρνειῶν ἑκατόμβης. 
+                        <lb/>ἔνθ’ ὅ γε τέρπετο δαιτὶ παρήμενος· 
                     </quote>
-                    <quote>Lecz  on [scil. Posejdon] udał się właśnie do Etiopów żyjących daleko,
-                        Etiopów, którzy na dwa są podzielni, daleko od ludzi,
-                        jedni, gdzie Hyperion zachodzi, drudzy – gdzie wschodzi,
-                        aby otrzymać hekatombę z byków i baranów. 		25
-                        Tam siedząc weselił się ucztą.
+                    <quote>
+                        <lb/>Lecz  on [scil. Posejdon] udał się właśnie do Etiopów żyjących daleko,
+                        <lb/>Etiopów, którzy na dwa są podzielni, daleko od ludzi,
+                        <lb/>jedni, gdzie Hyperion zachodzi, drudzy – gdzie wschodzi,
+                        <lb n="25"/>aby otrzymać hekatombę z byków i baranów.
+                        <lb/>Tam siedząc weselił się ucztą.
                     </quote>
-                    <p>25:	ἀντιόων – „przychodząc, aby otrzymać”; czasownik ἀντιάω + genetivus w eposie często oznacza przybycie boga na przygotowaną dla niego ucztę lub ofiarę, por. Il. 1.67 z komentarzem. 	
-                        ταύρων τε καὶ ἀρνειῶν ἑκατόμβης – „hekatombę z byków i baranów”; na temat hekatomby zob. komentarz do Il. 1.67.
-                    </p> <p>    26:	τέρπετο δαιτὶ παρήμενος – „siedząc weselił się ucztą”; part. pf. med. παρήμενος od czasownika ἧμαι wskazuje na archaiczny sposób ucztowania na siedząco niezależnie od tego, czy chodzi o ucztę mięsną połączoną z ofiarą zwierzęcą, czy symposion poświęcony piciu wina (por. Od. 3.389, Od. 20.136, Il. 9.199 i nast., Il. 24.472 i nast.). 
-                    </p>
+                    <p>25: ἀντιόων – „przychodząc, aby otrzymać”; czasownik ἀντιάω + genetivus w eposie często oznacza przybycie boga na przygotowaną dla niego ucztę lub ofiarę, por. Il. 1.67 z komentarzem.</p>
+                    <p>ταύρων τε καὶ ἀρνειῶν ἑκατόμβης – „hekatombę z byków i baranów”; na temat hekatomby zob. komentarz do Il. 1.67.</p>
+                    <p>26: τέρπετο δαιτὶ παρήμενος – „siedząc weselił się ucztą”; part. pf. med. παρήμενος od czasownika ἧμαι wskazuje na archaiczny sposób ucztowania na siedząco niezależnie od tego, czy chodzi o ucztę mięsną połączoną z ofiarą zwierzęcą, czy symposion poświęcony piciu wina (por. Od. 3.389, Od. 20.136, Il. 9.199 i nast., Il. 24.472 i nast.).</p>
                 </div>
                 <div type="textpart" n="Odyseja_I_59">
                     <head>Odyseja I 59</head>
-                    <p>Motyw ofiar składanych przez Odyseusza znajduje się w centrum dialogu Ateny z Zeusem. Struktura odpowiedzi Zeusa odzwierciedla strukturę mowy Ateny (de Jong 2004: 15):
-                        Atena		48–62		Odyseusz porzucony na wyspie Kalypso
-                        (dygresja) pochodzenie Kalypso
-                        Odyseusz porzucony
-                        Dlaczego nie pamiętasz jego ofiar?
-                        Zeus		64–75		Jak mógłbym zapomnieć jego ofiary?
-                        Posejdon gniewa się na niego z powodu Polyfema
-                        (dygresja) pochodzenie Polyfema
-                        Posejdon gniewa się na niego
-                        Retoryczną funkcją tej struktury jest podkreślenie związku między wyrzutami Ateny a odpowiedzią Zeusa. Zeus odegrał aktywną rolę w ukaraniu Odyseusza za oślepienie Polifema – wbrew temu, co twierdzi w tym miejscu (por. Od. 9.551–555). Umieszczenie w środku dialogu wspomnienia ofiar Odyseusza podkreśla brak automatycznego związku między składaniem ofiar przez ludzi, a ich losem. Odyseusz jest mężem sprawiedliwym, który nie zaniedbał czci bogów, jednak inne jego czyny – np. oślepienie syna Polifema – sprowadziły nań nieszczęście. 
-                    </p>
-                    <quote>οὐδέ νυ σοί περ 
-                        ἐντρέπεται φίλον ἦτορ, Ὀλύμπιε; οὔ νύ τ’ Ὀδυσσεὺς   		 		60
-                        Ἀργείων παρὰ νηυσὶ χαρίζετο ἱερὰ ῥέζων
-                        Τροίῃ ἐν εὐρείῃ; τί νύ οἱ τόσον ὠδύσαο, Ζεῦ;”
-                        τὴν δ’ ἀπαμειβόμενος προσέφη νεφεληγερέτα Ζεύς· 
-                        “τέκνον ἐμόν, ποῖόν σε ἔπος φύγεν ἕρκος ὀδόντων.
-                        πῶς ἂν ἔπειτ’ Ὀδυσῆος ἐγὼ θείοιο λαθοίμην,   					65
-                        ὃς περὶ μὲν νόον ἐστὶ βροτῶν, περὶ δ’ ἱρὰ θεοῖσιν 
-                        ἀθανάτοισιν ἔδωκε, τοὶ οὐρανὸν εὐρὺν ἔχουσιν;
+                    <p>Motyw ofiar składanych przez Odyseusza znajduje się w centrum dialogu Ateny z Zeusem. Struktura odpowiedzi Zeusa odzwierciedla strukturę mowy Ateny (de Jong 2004: 15):</p>
+                    <p>Atena		48–62		Odyseusz porzucony na wyspie Kalypso</p>
+                    <p>(dygresja) pochodzenie Kalypso</p>
+                    <p>Odyseusz porzucony</p>
+                    <p>Dlaczego nie pamiętasz jego ofiar?</p>
+                    <p>Zeus		64–75		Jak mógłbym zapomnieć jego ofiary?</p>
+                    <p>Posejdon gniewa się na niego z powodu Polyfema</p>
+                    <p>(dygresja) pochodzenie Polyfema</p>
+                    <p>Posejdon gniewa się na niego</p>
+                    <p>Retoryczną funkcją tej struktury jest podkreślenie związku między wyrzutami Ateny a odpowiedzią Zeusa. Zeus odegrał aktywną rolę w ukaraniu Odyseusza za oślepienie Polifema – wbrew temu, co twierdzi w tym miejscu (por. Od. 9.551–555). Umieszczenie w środku dialogu wspomnienia ofiar Odyseusza podkreśla brak automatycznego związku między składaniem ofiar przez ludzi, a ich losem. Odyseusz jest mężem sprawiedliwym, który nie zaniedbał czci bogów, jednak inne jego czyny – np. oślepienie syna Polifema – sprowadziły nań nieszczęście.</p>
+                    <quote>
+                        <lb/>οὐδέ νυ σοί περ 
+                        <lb n="60"/>ἐντρέπεται φίλον ἦτορ, Ὀλύμπιε; οὔ νύ τ’ Ὀδυσσεὺς
+                        <lb/>Ἀργείων παρὰ νηυσὶ χαρίζετο ἱερὰ ῥέζων
+                        <lb/>Τροίῃ ἐν εὐρείῃ; τί νύ οἱ τόσον ὠδύσαο, Ζεῦ;”
+                        <lb/>τὴν δ’ ἀπαμειβόμενος προσέφη νεφεληγερέτα Ζεύς· 
+                        <lb/>“τέκνον ἐμόν, ποῖόν σε ἔπος φύγεν ἕρκος ὀδόντων.
+                        <lb n="65"/>πῶς ἂν ἔπειτ’ Ὀδυσῆος ἐγὼ θείοιο λαθοίμην,
+                        <lb/>ὃς περὶ μὲν νόον ἐστὶ βροτῶν, περὶ δ’ ἱρὰ θεοῖσιν 
+                        <lb/>ἀθανάτοισιν ἔδωκε, τοὶ οὐρανὸν εὐρὺν ἔχουσιν;
                     </quote>
-                    <quote>Czyż nawet teraz w tobie
-                        nie poruszy się miłe serce, o Olympijski? Czyż Odyseusz			60
-                        nie nastrajał cię łaskawie, składając ofiary przy argiwskich okrętach
-                        w Troi szerokiej? Dlaczegóż, Zeusie, jesteś mu tak wrogi?”
-                        Odpowiadając jej rzekł Zeus chmurozbiórca:
-                        „Dziecko moje, jakie ci słowo wymknęło się z zagrody zębów?
-                        Jakże mógłbym zapomnieć boskiego Odyseusza, 				65
-                        który przewyższa rozumem śmiertelnych i więcej dawał ofiar bogom
-                        nieśmiertelnym, którzy dzierżą szerokie niebo?
+                    <quote>
+                        <lb/>Czyż nawet teraz w tobie
+                        <lb n="60"/>nie poruszy się miłe serce, o Olympijski? Czyż Odyseusz
+                        <lb/>nie nastrajał cię łaskawie, składając ofiary przy argiwskich okrętach
+                        <lb/>w Troi szerokiej? Dlaczegóż, Zeusie, jesteś mu tak wrogi?”
+                        <lb/>Odpowiadając jej rzekł Zeus chmurozbiórca:
+                        <lb/>„Dziecko moje, jakie ci słowo wymknęło się z zagrody zębów?
+                        <lb n="65"/>Jakże mógłbym zapomnieć boskiego Odyseusza,
+                        <lb/>który przewyższa rozumem śmiertelnych i więcej dawał ofiar bogom
+                        <lb/>nieśmiertelnym, którzy dzierżą szerokie niebo?
                     </quote>
-                    <p>61: 	Ἀργείων παρὰ νηυσὶ χαρίζετο ἱερὰ ῥέζων – „nie nastrajał cię łaskawie, składając ofiary”; Słownik grecko-polski proponuje przekład „dogodził ofiarami”. Jean Casabona zauważa różnicę między użyciem zwrotu ἱερὰ ἔρδω w Odysei, a tym w Iliadzie, przypisując ją różnicy chronologicznej między obu poematami (por. komentarz do Il. 1.141). To pierwsze wyrażenie nigdy w poemacie nie jest rozdzielane całym słowem, jak w Il. 11.727, co sugeruje ściślejszy związek między częściami wyrażenia, które zaczyna funkcjonalnie oznaczać po prostu„ofiarować”, „złożyć ofiarę”, a nie, jak w Iliadzie: „czynić rzeczy święte”. Ten stan rzeczy zdaje się potwierdzać również użycie nazw zwierząt ofiarnych w apozycji, a nie w genetiwie, zob. Od. 3.5–6 z komentarzem. 
-        </p> <p>                66–7 	περὶ δ’ ἱρὰ θεοῖσιν / ἀθανάτοισιν ἔδωκε – „dawał ofiar bogom / nieśmiertelnym”; przyimek περὶ jest tutaj użyty przysłówkowo w znaczeniu περισσῶς „bardziej niż”, „mocniej niż inni”.  Rzeczownik ἱρὰ, jako dopełnienie czasownika ἔδωκε – „dał”, może oznaczać zarówno rytuał ofiarniczy, ofiarę zwierzęcą, jak i dar materialny, zob. komentarz do Il. 23.195. J. Casabona interpretuje w tym miejscu słowo ἱρὰ jako „przedmioty poświęcone bóstwu” („«les offrandes», au sens matériel de «choses offertes»”, Casabona 1966: 6–7).
-                    </p>
+                    <p>61: Ἀργείων παρὰ νηυσὶ χαρίζετο ἱερὰ ῥέζων – „nie nastrajał cię łaskawie, składając ofiary”; Słownik grecko-polski proponuje przekład „dogodził ofiarami”. Jean Casabona zauważa różnicę między użyciem zwrotu ἱερὰ ἔρδω w Odysei, a tym w Iliadzie, przypisując ją różnicy chronologicznej między obu poematami (por. komentarz do Il. 1.141). To pierwsze wyrażenie nigdy w poemacie nie jest rozdzielane całym słowem, jak w Il. 11.727, co sugeruje ściślejszy związek między częściami wyrażenia, które zaczyna funkcjonalnie oznaczać po prostu„ofiarować”, „złożyć ofiarę”, a nie, jak w Iliadzie: „czynić rzeczy święte”. Ten stan rzeczy zdaje się potwierdzać również użycie nazw zwierząt ofiarnych w apozycji, a nie w genetiwie, zob. Od. 3.5–6 z komentarzem.</p>
+                    <p>66–7: περὶ δ’ ἱρὰ θεοῖσιν / ἀθανάτοισιν ἔδωκε – „dawał ofiar bogom / nieśmiertelnym”; przyimek περὶ jest tutaj użyty przysłówkowo w znaczeniu περισσῶς „bardziej niż”, „mocniej niż inni”.  Rzeczownik ἱρὰ, jako dopełnienie czasownika ἔδωκε – „dał”, może oznaczać zarówno rytuał ofiarniczy, ofiarę zwierzęcą, jak i dar materialny, zob. komentarz do Il. 23.195. J. Casabona interpretuje w tym miejscu słowo ἱρὰ jako „przedmioty poświęcone bóstwu” („«les offrandes», au sens matériel de «choses offertes»”, Casabona 1966: 6–7).</p>
                 </div>
                 <div type="textpart" n="Odyseja_I_88–92">
                     <head>Odyseja I 88–92</head>
                     <p>Mowa Ateny stanowi rodzaj „spisu treści” nadchodzących wydarzeń (de Jong 2012: 15). Jest to typowa dla eposu forma narracji w mowach postaci, zwłaszcza bogów, uprzedzająca słuchacza o biegu wydarzeń (np. mowa Zeusa w Od. 5.29–42 ze streszczeniem wydarzeń z pieśni V–XII lub mowa Ateny w 13.393–415 ze streszczenie pieśni XIV–XV). W tym wypadku Atena przedstawia wypadku z pieśni I–V. Interesujący nas wyimek streszcza zdarzenia z pieśni pierszej (88–89) i drugiej (88–92).</p>
-                    <quote>αὐτὰρ ἐγὼν  Ἰθάκηνδε ἐλεύσομαι, ὄφρα οἱ υἱὸν 				
-                        μᾶλλον ἐποτρύνω καί οἱ μένος ἐν φρεσὶ θείω, 
-                        εἰς ἀγορὴν καλέσαντα κάρη κομόωντας  Ἀχαιοὺς 				90
-                        πᾶσι μνηστήρεσσιν ἀπειπέμεν, οἵ τέ οἱ αἰεὶ 
-                        μῆλ᾽ ἁδινὰ σφάζουσι καὶ εἰλίποδας ἕλικας βοῦς.  
+                    <quote>
+                        <lb/>αὐτὰρ ἐγὼν  Ἰθάκηνδε ἐλεύσομαι, ὄφρα οἱ υἱὸν 				
+                        <lb/>μᾶλλον ἐποτρύνω καί οἱ μένος ἐν φρεσὶ θείω, 
+                        <lb n="90"/>εἰς ἀγορὴν καλέσαντα κάρη κομόωντας  Ἀχαιοὺς
+                        <lb/>πᾶσι μνηστήρεσσιν ἀπειπέμεν, οἵ τέ οἱ αἰεὶ 
+                        <lb/>μῆλ᾽ ἁδινὰ σφάζουσι καὶ εἰλίποδας ἕλικας βοῦς.  
                     </quote>
-                    <quote>ja tymczasem pójdę do Itaki, aby syna jego					
-                        mocniej natchnąć otuchą i złożyć mu w sercu odwagę 
-                        do zwołania na zgromadzenie Achajów długowłosych			90
-                        i przemówił do wszystkich zalotników, którzy mu nieustannie
-                        zarzynają stłoczone trzody i krzywonogie, krzyworogie woły.
+                    <quote>
+                        <lb/>ja tymczasem pójdę do Itaki, aby syna jego					
+                        <lb/>mocniej natchnąć otuchą i złożyć mu w sercu odwagę 
+                        <lb n="90"/>do zwołania na zgromadzenie Achajów długowłosych
+                        <lb/>i przemówił do wszystkich zalotników, którzy mu nieustannie
+                        <lb/>zarzynają stłoczone trzody i krzywonogie, krzyworogie woły.
                     </quote>
-                    <p>91:	πᾶσι μνηστήρεσσιν – „wszystkich zalotników”; pierwsza wzmianka o zalotnikach w Odysei nie podaje żadnych dodatkowych informacji – poeta zakłada zatem wiedzę swoich słuchaczy o wypadkach mających miejsce na Itace. Wydaje się, że temat domu herosa zajętego przez zalotników zjadających dobytek należy do tradycji epickiej dobrze znanej publiczności poety. 	
-                        ἀπειπέμεν – „przemówił”; czasownik ἀπεῖπον znaczy „przemówić”, „wypowiedzieć”, „oznajmić”, często w znaczeniu negatywnym „odmówić”, „zabronić” (LSJ s.v.). W tym wypadku Telemach, zwoławszy zgromadzenie, ma jasno przedstawić swoje stanowisko w publicznym wystąpieniu. 
-              </p> <p>          92:	μῆλ᾽ ἁδινὰ σφάζουσι – „zarzynają stłoczone trzody”; wers formularny = Od. 4.320. Atena ogniskuje uwagę słuchaczy na fakcie zarzynania stad w przeciwieństwie do normalnej praktyki ofiarniczej, w której z punktu widzenia bogów najważniejsze jest otrzymywanie części im przeznaczonej – tłustego dymu ze spalania kości udowych – lub fakt działań w sferze świętości, spełnianie rytuału. Jean Casabona komentując to miejsce zwraca uwagę, że religijna idea rytuału ofiarnego znajduje się tutaj na dalszym planie, co czyni zasadnym pytanie o obecność ofiar w tym kontekście (Casabona 1966: 157). Podobnie jak w przypadku czasownika ἱερεύω, również w tym wypadku nie można zakładać, że brak wyraźnego odniesienia do ofiary zakłada jej brak.	
-                        μῆλα – „trzody”; w eposie rzeczownik ten oznacza małe zwierzęta, owce i kozy. Greckie słowo wywodzi się z języka praindoeuropejskiego *meh1l- „małe zwierzę” i jest spokrewnione z celtyckimi, germańskimi oraz ormiańskimi termianami oznaczającymi małe zwierzęta: stirl. mil (n.) „małe zwierzę”, ukr. mal’ (f.) „owieczka”, orm. mal „owca” (Beekes 2010: 944). Por. Schmidt 1979: 174–179. 
-                    </p>
+                    <p>91: πᾶσι μνηστήρεσσιν – „wszystkich zalotników”; pierwsza wzmianka o zalotnikach w Odysei nie podaje żadnych dodatkowych informacji – poeta zakłada zatem wiedzę swoich słuchaczy o wypadkach mających miejsce na Itace. Wydaje się, że temat domu herosa zajętego przez zalotników zjadających dobytek należy do tradycji epickiej dobrze znanej publiczności poety.</p>
+                    <p>ἀπειπέμεν – „przemówił”; czasownik ἀπεῖπον znaczy „przemówić”, „wypowiedzieć”, „oznajmić”, często w znaczeniu negatywnym „odmówić”, „zabronić” (LSJ s.v.). W tym wypadku Telemach, zwoławszy zgromadzenie, ma jasno przedstawić swoje stanowisko w publicznym wystąpieniu.</p>
+                    <p>92: μῆλ᾽ ἁδινὰ σφάζουσι – „zarzynają stłoczone trzody”; wers formularny = Od. 4.320. Atena ogniskuje uwagę słuchaczy na fakcie zarzynania stad w przeciwieństwie do normalnej praktyki ofiarniczej, w której z punktu widzenia bogów najważniejsze jest otrzymywanie części im przeznaczonej – tłustego dymu ze spalania kości udowych – lub fakt działań w sferze świętości, spełnianie rytuału. Jean Casabona komentując to miejsce zwraca uwagę, że religijna idea rytuału ofiarnego znajduje się tutaj na dalszym planie, co czyni zasadnym pytanie o obecność ofiar w tym kontekście (Casabona 1966: 157). Podobnie jak w przypadku czasownika ἱερεύω, również w tym wypadku nie można zakładać, że brak wyraźnego odniesienia do ofiary zakłada jej brak.</p>
+                    <p>μῆλα – „trzody”; w eposie rzeczownik ten oznacza małe zwierzęta, owce i kozy. Greckie słowo wywodzi się z języka praindoeuropejskiego *meh1l- „małe zwierzę” i jest spokrewnione z celtyckimi, germańskimi oraz ormiańskimi termianami oznaczającymi małe zwierzęta: stirl. mil (n.) „małe zwierzę”, ukr. mal’ (f.) „owieczka”, orm. mal „owca” (Beekes 2010: 944). Por. Schmidt 1979: 174–179.</p>
                 </div>
                 <div type="textpart" n="Odyseja_I_106-112">
                     <head>Odyseja I 106-112</head>
                     <p>Narrator opisuje pojawienie się Penelopy wśród zalotników, ogniskując uwagę na znakach świadczących o ucztach mięsnych. Zalotnicy zabawiają się grą w kości, siedząc na skórach zjedzonych zwierząt, podczas gdy heroldowie przygotowują ucztę heroiczną.</p>
-                    <quote>εὗρε δ᾽ ἄρα μνηστῆρας ἀγήνορας· οἱ μὲν ἔπειτα 				
-                        πεσσοῖσι προπάροιθε θυράων θυμὸν ἔτερπον, 
-                        ἥμενοι ἐν ῥινοῖσι βοῶν, οὓς ἔκτανον αὐτοί. 
-                        κήρυκες δ᾽ αὐτοῖσι καὶ ὀτρηροὶ θεράποντες 
-                        οἱ μὲν ἄρ᾽ οἶνον ἔμισγον ἐνὶ κρητῆρσι καὶ ὕδωρ, 				110
-                        οἱ δ᾽ αὖτε σπόγγοισι πολυτρήτοισι τραπέζας 
-                        νίζον καὶ πρότιθεν, τοὶ δὲ κρέα πολλὰ δατεῦντο.
+                    <quote>
+                        <lb/>εὗρε δ᾽ ἄρα μνηστῆρας ἀγήνορας· οἱ μὲν ἔπειτα 				
+                        <lb/>πεσσοῖσι προπάροιθε θυράων θυμὸν ἔτερπον, 
+                        <lb/>ἥμενοι ἐν ῥινοῖσι βοῶν, οὓς ἔκτανον αὐτοί. 
+                        <lb/>κήρυκες δ᾽ αὐτοῖσι καὶ ὀτρηροὶ θεράποντες 
+                        <lb n="110"/>οἱ μὲν ἄρ᾽ οἶνον ἔμισγον ἐνὶ κρητῆρσι καὶ ὕδωρ,
+                        <lb/>οἱ δ᾽ αὖτε σπόγγοισι πολυτρήτοισι τραπέζας 
+                        <lb/>νίζον καὶ πρότιθεν, τοὶ δὲ κρέα πολλὰ δατεῦντο.
                     </quote>
-                    <quote>Zastała zalotników mężnych, gdy ci						
-                        kamykami przed wrotami serce zabawiali
-                        siedząc na skórach wołów, które sami zarżnęli.
-                        Dookoła krzątali się heroldowie i pomocnicy,
-                        jedni wino mieszali w kraterach z wodą,					110
-                        inni zaś porowatymi gąbkami stoły
-                        myli i zastawiali, inni zaś dzielili mnogie mięsiwo
+                    <quote>
+                        <lb/>Zastała zalotników mężnych, gdy ci						
+                        <lb/>kamykami przed wrotami serce zabawiali
+                        <lb/>siedząc na skórach wołów, które sami zarżnęli.
+                        <lb/>Dookoła krzątali się heroldowie i pomocnicy,
+                        <lb/>jedni wino mieszali w kraterach z wodą,
+                        <lb n="110"/>inni zaś porowatymi gąbkami stoły
+                        <lb/>myli i zastawiali, inni zaś dzielili mnogie mięsiwo
                     </quote>
-                    <p>110:	οἱ μὲν ἄρ᾽ οἶνον ἔμισγον ἐνὶ κρητῆρσι καὶ ὕδωρ – „jedni wino mieszali w kraterach z wodą”; mieszanie wina z wodą w kraterze oznacza przygotowanie sympozjonu, jednak w świecie przedstawionym w eposie herosi jednocześnie piją wino i jedzą mięsiowo.
-             </p> <p>           112:	πρότιθεν – „ustawiali”; w czasie uczty heroicznej przed każdym z biesiadników siedzących pod ścianą megaronu na krzesłach lub tronach ustawia się przenośne stoły. Z opisu wynika, że chodzi o stosunkowo lekkie stoliki (Węcowski 2011: 207, przyp. 67). Stoliki nie stanowią stałego wyposażenia sali, lecz są przynoszone dla gości i zabierane po uczcie. 	
-                        κρέα πολλὰ δατεῦντο – „dzielili mnogie mięsiwo”; słowo κρέα oznacza „mięso”, tutaj zapewne pieczyste. 	
-                        δατεῦντο – „dzielili”: czasownik δατέομαι –„dzielić” (&lt; i.e. *dH2-- „dzielić”, stopień zerowy czasownika *deH2-) wyraża ogólną ideę podziału całości między członków wspólnoty. W eposie istnieje ścisły związek pomiędzy podziałem mięsa a ucztą, δαίς – „porcja”, „przydział”, „posiłek” oraz czasownik δαίομαι (por. δῆμος, „działka, ziemia” > „lud”). 
-                    </p>
+                    <p>110: οἱ μὲν ἄρ᾽ οἶνον ἔμισγον ἐνὶ κρητῆρσι καὶ ὕδωρ – „jedni wino mieszali w kraterach z wodą”; mieszanie wina z wodą w kraterze oznacza przygotowanie sympozjonu, jednak w świecie przedstawionym w eposie herosi jednocześnie piją wino i jedzą mięsiowo.</p>
+                    <p>112: πρότιθεν – „ustawiali”; w czasie uczty heroicznej przed każdym z biesiadników siedzących pod ścianą megaronu na krzesłach lub tronach ustawia się przenośne stoły. Z opisu wynika, że chodzi o stosunkowo lekkie stoliki (Węcowski 2011: 207, przyp. 67). Stoliki nie stanowią stałego wyposażenia sali, lecz są przynoszone dla gości i zabierane po uczcie.</p>
+                    <p>κρέα πολλὰ δατεῦντο – „dzielili mnogie mięsiwo”; słowo κρέα oznacza „mięso”, tutaj zapewne pieczyste.</p>
+                    <p>δατεῦντο – „dzielili”: czasownik δατέομαι –„dzielić” (&lt; i.e. *dH2-- „dzielić”, stopień zerowy czasownika *deH2-) wyraża ogólną ideę podziału całości między członków wspólnoty. W eposie istnieje ścisły związek pomiędzy podziałem mięsa a ucztą, δαίς – „porcja”, „przydział”, „posiłek” oraz czasownik δαίομαι (por. δῆμος, „działka, ziemia” > „lud”).</p>
                 </div>
                 <div type="textpart" n="Odyseja_I_136–146">
                     <head>Odyseja I 136–146</head>
-                   
-                    <quote>χέρνιβα δ᾽ ἀμφίπολος προχόῳ ἐπέχευε φέρουσα 					
-                        καλῇ χρυσείῃ, ὑπὲρ ἀργυρέοιο λέβητος, 
-                        νίψασθαι· παρὰ δὲ ξεστὴν ἐτάνυσσε τράπεζαν. 
-                        σῖτον δ᾽ αἰδοίη ταμίη παρέθηκε φέρουσα, 
-                        εἴδατα πόλλ᾽ ἐπιθεῖσα, χαριζομένη παρεόντων· 					140
-                        δαιτρὸς δὲ κρειῶν πίνακας παρέθηκεν ἀείρας 
-                        παντοίων, παρὰ δέ σφι τίθει χρύσεια κύπελλα, 
-                        κῆρυξ δ᾽ αὐτοῖσιν θάμ᾽ ἐπῴχετο οἰνοχοεύων.  
+                    <quote>
+                        <lb/>χέρνιβα δ᾽ ἀμφίπολος προχόῳ ἐπέχευε φέρουσα 					
+                        <lb/>καλῇ χρυσείῃ, ὑπὲρ ἀργυρέοιο λέβητος, 
+                        <lb/>νίψασθαι· παρὰ δὲ ξεστὴν ἐτάνυσσε τράπεζαν. 
+                        <lb/> σῖτον δ᾽ αἰδοίη ταμίη παρέθηκε φέρουσα, 
+                        <lb n="140"/>εἴδατα πόλλ᾽ ἐπιθεῖσα, χαριζομένη παρεόντων·
+                        <lb/>δαιτρὸς δὲ κρειῶν πίνακας παρέθηκεν ἀείρας 
+                        <lb/>παντοίων, παρὰ δέ σφι τίθει χρύσεια κύπελλα, 
+                        <lb/>κῆρυξ δ᾽ αὐτοῖσιν θάμ᾽ ἐπῴχετο οἰνοχοεύων.  
                     </quote>
-                    <quote>Wodę do rąk służąca z dzbana wylewała niosąc,
-                        pięknego, złotego nad srebrną misą,
-                        aby się obmyli. Obok ustawiła stół gładzony.
-                        Czcigodna klucznica przyniosła jedzenie
-                        rozłożywszy mnogie potrawy, łaskawie darząc dobrami: 				140
-                        krajczy zapełnił i postawił tace mięsiwa
-                        wszelkiego rodzaju, przy nich ustawił złote puchary
-                        herold zaś wciąż podchodził do nich nalewając wino.
+                    <quote>
+                        <lb/>Wodę do rąk służąca z dzbana wylewała niosąc,
+                        <lb/>pięknego, złotego nad srebrną misą,
+                        <lb/>aby się obmyli. Obok ustawiła stół gładzony.
+                        <lb/>Czcigodna klucznica przyniosła jedzenie
+                        <lb n="140"/>rozłożywszy mnogie potrawy, łaskawie darząc dobrami:
+                        <lb/>krajczy zapełnił i postawił tace mięsiwa
+                        <lb/>wszelkiego rodzaju, przy nich ustawił złote puchary
+                        <lb/>herold zaś wciąż podchodził do nich nalewając wino.
                     </quote>
-                    <p>136:	W Odysei rzeczownik χέρνιψ pojawia się w wersach formularnych w accusatiwie l.poj. (χέρνιβα) i niezmiennie odnosi się do wody wylewanej na ręce w celu obmycia. Wszystkie poświadczenia (Od. 1.136 = 4.52 = 7.172 = 10.368 = 17.91) pojawiają się w pierwszej z czterech części sceny typowej – uczta świąteczna, czyli opisie przygotowań: obmycia rąk, przysunięcia stołu (pozostałe części sceny to: (2) podanie do stołu chleba, mięsa i wina; (3) posiłek; (4) zakończenie). Część pierwsza jest najbardziej stabilna pod względem wykorzystania tradycyjnych wersów; znajdujemy w niej rozbudowany opis obmycia rąk przed ucztą: χέρνιβα δ᾽ ἀμφίπολος προχόῳ ἐπέχευε φέρουσα / καλῇ χρυσείῃ, ὑπὲρ ἀργυρέοιο λέβητος, / νίψασθαι· – „wodę do rąk służąca z dzbana wylewała niosąc, / pięknego, złotego nad srebrną misą / aby się obmyli”. Interesujące jest zastosowanie podwójnej etymologicznej figury (χέρνιβα – νίπτομαι, ἐπέχευε – προχόῳ) oraz powtarzalność (wersy pojawiają się nawet wówczas, gdy ucztę świąteczną poprzedza kąpiel uczestnika). Por. τὸ χέρνιβον „naczynie na χέρνιψ” użyte do umycia rąk przed libacją w Il. 24.304, gdzie χέρνιψ jest zastąpiona zwrotem ὕδωρ […] ἀκήρατον. Użycie χέρνιψ podczas uczty (deipnon) poświadcza dystych elegijny zachowany w Korpusie Teognidejskim, w którym koniec uczty wyznacza wezwanie: χέρνιβα δ᾽ αἶψα θύραζε φέροι, στεφανώματα δ᾽ εἴσω / εὐειδὴς ῥαδιναῖς χερσὶ  Λάκαινα κόρη – „niech szybko za drzwi wyniesie chernips i nałoży wieńce / piękna lakońska dziewczyna delikatnymi dłońmi” (Theogn. 1001–2).
-         </p> <p>               141:	πίνακας – „tace”; deski na mięso mogły być wykonane z drewna lub metalu.
-                   </p>
+                    <p>136: W Odysei rzeczownik χέρνιψ pojawia się w wersach formularnych w accusatiwie l.poj. (χέρνιβα) i niezmiennie odnosi się do wody wylewanej na ręce w celu obmycia. Wszystkie poświadczenia (Od. 1.136 = 4.52 = 7.172 = 10.368 = 17.91) pojawiają się w pierwszej z czterech części sceny typowej – uczta świąteczna, czyli opisie przygotowań: obmycia rąk, przysunięcia stołu (pozostałe części sceny to: (2) podanie do stołu chleba, mięsa i wina; (3) posiłek; (4) zakończenie). Część pierwsza jest najbardziej stabilna pod względem wykorzystania tradycyjnych wersów; znajdujemy w niej rozbudowany opis obmycia rąk przed ucztą: χέρνιβα δ᾽ ἀμφίπολος προχόῳ ἐπέχευε φέρουσα / καλῇ χρυσείῃ, ὑπὲρ ἀργυρέοιο λέβητος, / νίψασθαι· – „wodę do rąk służąca z dzbana wylewała niosąc, / pięknego, złotego nad srebrną misą / aby się obmyli”. Interesujące jest zastosowanie podwójnej etymologicznej figury (χέρνιβα – νίπτομαι, ἐπέχευε – προχόῳ) oraz powtarzalność (wersy pojawiają się nawet wówczas, gdy ucztę świąteczną poprzedza kąpiel uczestnika). Por. τὸ χέρνιβον „naczynie na χέρνιψ” użyte do umycia rąk przed libacją w Il. 24.304, gdzie χέρνιψ jest zastąpiona zwrotem ὕδωρ […] ἀκήρατον. Użycie χέρνιψ podczas uczty (deipnon) poświadcza dystych elegijny zachowany w Korpusie Teognidejskim, w którym koniec uczty wyznacza wezwanie: χέρνιβα δ᾽ αἶψα θύραζε φέροι, στεφανώματα δ᾽ εἴσω / εὐειδὴς ῥαδιναῖς χερσὶ  Λάκαινα κόρη – „niech szybko za drzwi wyniesie chernips i nałoży wieńce / piękna lakońska dziewczyna delikatnymi dłońmi” (Theogn. 1001–2).</p>
+                    <p>141: πίνακας – „tace”; deski na mięso mogły być wykonane z drewna lub metalu.</p>
                 </div>
                 <div type="textpart" n="Odyseja_I_221–229">
                     <head>Odyseja I 221–229</head>
                     <p>Wypowiedź Ateny jest istotna ze względu na wartość źródłową dla wiedzy o zwyczajach biesiadnych odzwierciedlonych w podstawowych rejestrach poezji epickiej (225–229). Pojawiają się tutaj kluczowe terminu określające ucztę heroiczną: ogólny termin dais „uczta”, „biesiada” oraz subkategorie: eilapine, gamos, eranos. Zakres ich znaczenia zostanie omówiony w komentarzu, wydaje się jednak, że Atena podkreśla, że zachowanie zalotników wykracza poza normy społeczne związane z każdym z tych zgromadzeń. Związek tego wyimka z ofiarą krwawą jest pośredni, jednak można zakładać, że każdy z nich mógł być okazją do złożenia ofiary.</p>
-                    <quote>τὸν δ᾽ αὖτε προσέειπε θεὰ γλαυκῶπις  Ἀθήνη· 					
-                        ‘οὐ μέν τοι γενεήν γε θεοὶ νώνυμνον ὀπίσσω 
-                        θῆκαν, ἐπεὶ σέ γε τοῖον ἐγείνατο  Πηνελόπεια. 
-                        ἀλλ᾽ ἄγε μοι τόδε εἰπὲ καὶ ἀτρεκέως κατάλεξον· 
-                        τίς δαίς, τίς δὲ ὅμιλος ὅδ᾽ ἔπλετο; τίπτε δέ σε χρεώ; 				225
-                        εἰλαπίνη ἦε γάμος; ἐπεὶ οὐκ ἔρανος τάδε γ᾽ ἐστίν, 
-                        ὥς τέ μοι ὑβρίζοντες ὑπερφιάλως δοκέουσι 
-                        δαίνυσθαι κατὰ δῶμα. νεμεσσήσαιτό κεν ἀνὴρ 
-                        αἴσχεα πόλλ᾽ ὁρόων, ὅς τις πινυτός γε μετέλθοι.’  
+                    <quote>
+                        <lb/>τὸν δ᾽ αὖτε προσέειπε θεὰ γλαυκῶπις  Ἀθήνη· 					
+                        <lb/>‘οὐ μέν τοι γενεήν γε θεοὶ νώνυμνον ὀπίσσω 
+                        <lb/>θῆκαν, ἐπεὶ σέ γε τοῖον ἐγείνατο  Πηνελόπεια. 
+                        <lb/>ἀλλ᾽ ἄγε μοι τόδε εἰπὲ καὶ ἀτρεκέως κατάλεξον· 
+                        <lb n="225"/>τίς δαίς, τίς δὲ ὅμιλος ὅδ᾽ ἔπλετο; τίπτε δέ σε χρεώ; 
+                        <lb/>εἰλαπίνη ἦε γάμος; ἐπεὶ οὐκ ἔρανος τάδε γ᾽ ἐστίν, 
+                        <lb/>ὥς τέ μοι ὑβρίζοντες ὑπερφιάλως δοκέουσι 
+                        <lb/>δαίνυσθαι κατὰ δῶμα. νεμεσσήσαιτό κεν ἀνὴρ 
+                        <lb/>αἴσχεα πόλλ᾽ ὁρόων, ὅς τις πινυτός γε μετέλθοι.’  
                     </quote>
-                    <quote>Odpowiedziała mu bogini, jasnooka Atena:						
-                        „Zaiste bogowie twojego rodu bez sławy
-                        nie zostawią, gdy takiego syna urodziła Penelopa,
-                        lecz teraz powiedz i przedstaw dokładnie:
-                        co to za uczta, jakie zgromadzenie utworzyło się? jaki ci z niego pożytek?	225
-                        jakie święto, jakie gody? widać, że nie jest to uczta składkowa.
-                        I zdaje mi się, że oni zbyt zuchwale wbici w butę
-                        w tym domu ucztują. Każdy człowiek rozsądny,
-                        który by tu przyszedł, oburzyłby się na te bezeceństwa”.
+                    <quote>
+                        <lb/>Odpowiedziała mu bogini, jasnooka Atena:						
+                        <lb/>„Zaiste bogowie twojego rodu bez sławy
+                        <lb/>nie zostawią, gdy takiego syna urodziła Penelopa,
+                        <lb/>lecz teraz powiedz i przedstaw dokładnie:
+                        <lb n="225"/>co to za uczta, jakie zgromadzenie utworzyło się? jaki ci z niego pożytek?
+                        <lb/>jakie święto, jakie gody? widać, że nie jest to uczta składkowa.
+                        <lb/>I zdaje mi się, że oni zbyt zuchwale wbici w butę
+                        <lb/>w tym domu ucztują. Każdy człowiek rozsądny,
+                        <lb/>który by tu przyszedł, oburzyłby się na te bezeceństwa”.
                     </quote>
-                    <p>225:	τίς δαίς, – „co to za uczta”; termin dais – „uczta” łączy się z ideą podziału między uczestników mięsa (Od. 3.66). Wers formularny δαίνυντ᾽, οὐδέ τι θυμὸς ἐδεύετο δαιτὸς ἐΐσης – „ucztowali, i niczego nie brakowało sercu z równej uczty”; wers formularny (Il. 1.468 = Il. 1.602 = Il. 2.431 = Il. 7.320 = Il. 23.56 = Od. 16.479 = Od. 19.425) zakłada równy udział uczestników. Związek dais z ofiarą zwierzęcą i podziałem mięsa zakłada Nagy 1979. 
-         </p>   <p>            226:	εἰλαπίνη – „święto”; podobnie jak wiele innych słów z dziedziny instytucji kultury, rzeczownik nie ma greckiej etymologii, co może wskazywać na pochodzenie z przedgreckiego substratu lub na zapożyczenie (Chantraine, s.v.; Beekes, s.v.). W języku epickim słowo odnosi się do uroczystych biesiad, prawdopodobnie związanych ze świętowaniem, i jest bliskie w znaczeniu do ogólniejszego terminu dais, często ściśle z nim związane (Il. 23.201), por. LfgrE, s.v., Węcowski 2004: 197–8, przyp. 23–5. 
-                        ἐπεὶ οὐκ ἔρανος τάδε γ᾽ ἐστίν – „widać, że nie jest to uczta składkowa”; słowo ἔρανος oznaczające biesiadę składkową, pojawia się rzadko w eposie (por. podobny katalog uroczystości w Od. 11.415), nie będąc terminem technicznym w świecie heroicznym. Odnosi się, jak sugeruje Marek Węcowski, do zjawisk zewnętrznych wobec wydarzeń ujętych w narracji. Innymi słowy o eranos wspomina się w eposie, lecz nigdzie nie jest on opisany ani postaci nie biorą w nim udziału. W późniejszych źródłach istnieje silny związek ideologiczny między eranos a symposion. 
-                 </p>  <p>     227–8: ὥς τέ μοι ὑβρίζοντες ὑπερφιάλως δοκέουσι / δαίνυσθαι κατὰ δῶμα – „I zdaje mi się, że oni zbyt zuchwale wbici w butę / w tym domu ucztują”; na temat hybris zalotników powiązany z ich ucztami w domu Odyseusza, zob. Węcowski 2011: 206–212.</p>
+                    <p>225: τίς δαίς, – „co to za uczta”; termin dais – „uczta” łączy się z ideą podziału między uczestników mięsa (Od. 3.66). Wers formularny δαίνυντ᾽, οὐδέ τι θυμὸς ἐδεύετο δαιτὸς ἐΐσης – „ucztowali, i niczego nie brakowało sercu z równej uczty”; wers formularny (Il. 1.468 = Il. 1.602 = Il. 2.431 = Il. 7.320 = Il. 23.56 = Od. 16.479 = Od. 19.425) zakłada równy udział uczestników. Związek dais z ofiarą zwierzęcą i podziałem mięsa zakłada Nagy 1979.</p>
+                    <p>226: εἰλαπίνη – „święto”; podobnie jak wiele innych słów z dziedziny instytucji kultury, rzeczownik nie ma greckiej etymologii, co może wskazywać na pochodzenie z przedgreckiego substratu lub na zapożyczenie (Chantraine, s.v.; Beekes, s.v.). W języku epickim słowo odnosi się do uroczystych biesiad, prawdopodobnie związanych ze świętowaniem, i jest bliskie w znaczeniu do ogólniejszego terminu dais, często ściśle z nim związane (Il. 23.201), por. LfgrE, s.v., Węcowski 2004: 197–8, przyp. 23–5.</p>
+                    <p>ἐπεὶ οὐκ ἔρανος τάδε γ᾽ ἐστίν – „widać, że nie jest to uczta składkowa”; słowo ἔρανος oznaczające biesiadę składkową, pojawia się rzadko w eposie (por. podobny katalog uroczystości w Od. 11.415), nie będąc terminem technicznym w świecie heroicznym. Odnosi się, jak sugeruje Marek Węcowski, do zjawisk zewnętrznych wobec wydarzeń ujętych w narracji. Innymi słowy o eranos wspomina się w eposie, lecz nigdzie nie jest on opisany ani postaci nie biorą w nim udziału. W późniejszych źródłach istnieje silny związek ideologiczny między eranos a symposion.</p>
+                    <p>227–8: ὥς τέ μοι ὑβρίζοντες ὑπερφιάλως δοκέουσι / δαίνυσθαι κατὰ δῶμα – „I zdaje mi się, że oni zbyt zuchwale wbici w butę / w tym domu ucztują”; na temat hybris zalotników powiązany z ich ucztami w domu Odyseusza, zob. Węcowski 2011: 206–212.</p>
                 </div>
             </div>
         </body>
