@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Odissea canto VII</title>
+                <title xml:lang="en">Odyssey book VII</title>
+                <title xml:lang="pl">Odyseja, pieśń VII</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_27_odyssea_vii</idno> 
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Odyseja, pieśń VII</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 217-218</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-03-24" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Alkinoos, król Feaków, na zakończenie biesiady, która odbywała się w chwili przybycia Odyseusza, zapowiada złożenie ofiar i urządzenie uczty w dniu następnym połączonej z naradą w sprawie powrotu Odyseusza do domu.</p>
+                </div>
+                <div type="textpart" n="Odyseja_VII_186–206">
+                    <head>Odyseja VII 186–206</head>
+                    <quote>
+                        <lb/>‘κέκλυτε,  Φαιήκων ἡγήτορες ἠδὲ μέδοντες, 
+                        <lb/>ὄφρ᾽ εἴπω, τά με θυμὸς ἐνὶ στήθεσσι κελεύει. 
+                        <lb/>νῦν μὲν δαισάμενοι κατακείετε οἴκαδ᾽ ἰόντες, 
+                        <lb/>ἠῶθεν δὲ γέροντας ἐπὶ πλέονας καλέσαντες 
+                        <lb/>ξεῖνον ἐνὶ μεγάροις ξεινίσσομεν ἠδὲ θεοῖσι 
+                        <lb/> ῥέξομεν ἱερὰ καλά, ἔπειτα δὲ καὶ περὶ πομπῆς 
+                        <lb/>μνησόμεθ᾽, ὥς χ᾽ ὁ ξεῖνος ἄνευθε πόνου καὶ ἀνίης 
+                        <lb/>πομπῇ ὑφ᾽ ἡμετέρῃ ἣν πατρίδα γαῖαν ἵκηται 
+                        <lb/>χαίρων καρπαλίμως, εἰ καὶ μάλα τηλόθεν ἐστί, 
+                        <lb/>μηδέ τι μεσσηγύς γε κακὸν καὶ πῆμα πάθῃσι 
+                        <lb/>πρίν γε τὸν ἧς γαίης ἐπιβήμεναι· ἔνθα δ᾽ ἔπειτα 
+                        <lb/>πείσεται, ἅσσα οἱ αἶσα κατὰ  Κλῶθές τε βαρεῖαι 
+                        <lb/>γεινομένῳ νήσαντο λίνῳ, ὅτε μιν τέκε μήτηρ. 
+                        <lb/>εἰ δέ τις ἀθανάτων γε κατ᾽ οὐρανοῦ εἰλήλουθεν, 
+                        <lb/>ἄλλο τι δὴ τόδ᾽ ἔπειτα θεοὶ περιμηχανόωνται. 
+                        <lb/>αἰεὶ γὰρ τὸ πάρος γε θεοὶ φαίνονται ἐναργεῖς 
+                        <lb/>ἡμῖν, εὖθ᾽ ἕρδωμεν ἀγακλειτὰς ἑκατόμβας, 
+                        <lb/>δαίνυνταί τε παρ᾽ ἄμμι καθήμενοι ἔνθα περ ἡμεῖς. 
+                        <lb/>εἰ δ᾽ ἄρα τις καὶ μοῦνος ἰὼν ξύμβληται ὁδίτης, 
+                        <lb/>οὔ τι κατακρύπτουσιν, ἐπεί σφισιν ἐγγύθεν εἰμέν,      
+                        <lb/>ὥς περ  Κύκλωπές τε καὶ ἄγρια φῦλα  Γιγάντων’.  
+                    </quote>
+                    <quote>
+                        <lb n="186"/>„Posłuchajcie, wodzowie i doradcy feaccy,
+                        <lb/>abym powiedział, co mi duch każe w sercu.
+                        <lb/>Teraz, gdy już skończyliście wieczerzać, pójdźcie do domów spać,
+                        <lb/>o świcie, gdy zwołamy w większej liczbie starszyznę,
+                        <lb n="190"/>ugościmy gościa w komnatach i bogom
+                        <lb/>złożymy piękne ofiary i pomówimy o wyprawie,
+                        <lb/>żeby nasz gość bez trudu i przeszkody,
+                        <lb/>odprowadzony przez nas dotarł do swojej ziemi ojczystej,
+                        <lb/>wesoło i szybko, nawet jeśli mieszka bardzo daleko:
+                        <lb n="195"/>żeby po drodze nie zaznał ani zła, ani cierpienia,
+                        <lb/>zanim nie stanie na swojej ziemi. Tam już
+                        <lb/>dozna tego, co mu los i Prządki pełne powagi
+                        <lb/>wyprzędły w dniu, w którym matka go urodziła.
+                        <lb/>Jeśli to ktoś z nieśmiertelnych z nieba zstąpił,
+                        <lb n="200"/>co innego bogowie nam przygotowują.
+                        <lb/>Zawsze bowiem bogowie naocznie nam się objawiają
+                        <lb/>gdy składamy im przesławne hekatomby
+                        <lb/>ucztują z nami, siedząc z nami.
+                        <lb/>A jeśli który z nich zajdzie nam drogę 
+                        <lb n="205"/>jako samotny wędrowiec, nie ukrywają się wcale,
+                        <lb/>jesteśmy przecież krewnymi bogów,
+                        <lb/>tak samo jak Kiklopi i dzikie plemię Gigantów”.
+                    </quote>
+                    <p>190–191a: ξεῖνον ἐνὶ μεγάροις ξεινίσσομεν ἠδὲ θεοῖσι / ῥέξομεν ἱερὰ καλά – „ugościmy gościa w komnatach i bogom / złożymy piękne ofiary”; połączenie gościnności i złożenia ofiar bogom jest stałym motywem w eposie, por. Od. 14.414–456. W sprawie zwrotu ῥέξομεν ἱερὰ καλά, zob. Il. 11.727.</p>
+                    <p>201: θεοὶ φαίνονται ἐναργεῖς / ἡμῖν – „bogowie naocznie nam się objawiają”; naoczne pojawianie się bogów jest przywilejem niektórych herosów (Nestor, Odyseusz, zob. Od. 3.420 z komentarzem) oraz elementem utopijnej wizji społeczności żyjących na krańcach ziemi (Il. 1.423, por. Od.1.23: ἔσχατοι ἀνδρῶν).</p>
+                    <p> 202: εὖθ᾽ ἕρδωμεν ἀγακλειτὰς ἑκατόμβας – „gdy składamy przesławne hekatomby”; zwrot ἔρδω + ἡκατόμβην – „składać hekatombę” pojawia się w eposie homeryckim 24 razy: 12 razy w Iliadzie (1.315; 447; 2.306 (~ 321); 4.102 (= 120); 6.115; 7.450 = {12.6}; 8.548; 9.535–6; 23.146; 23.206, 23.864, 23.873) i 12 razy w Odysei (3.144; 4.352, 478, 582, 5.102, 7.202; 11.132, 12.344; 13.350; 17.51, 60; 23.279), por. Casabona 1966: 52.</p>
+                    <p>203: δαίνυνταί τε παρ᾽ ἄμμι καθήμενοι ἔνθα περ ἡμεῖς – „ucztują u nas siedząc z nami”; ucztowanie bogów razem ze śmiertelnikami należy do mitycznego repertuaru wizji świata sprzed ostatecznego rozdzielenia śmiertelnych i nieśmiertelnych. W eposie homeryckim współbiesiadowanie śmiertelników z bogami jest przywilejem Etiopów i Feaków. Jedynym wyjątkiem od tej reguły jest prawdopodobnie Il. 9.535 (zob. komentarz).</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Odissea canto XVII</title>
+                <title xml:lang="en">Odyssey book XVII</title>
+                <title xml:lang="pl">Odyseja, pieśń XVII</title> 
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_37_odyssea_xvii</idno> 
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Odyseja, pieśń XVII</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 265-272</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-03-24" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Wraz z pieśnią siedemnastą rozpoczyna się trzydziesty dziewiąty dzień opowiadania Odysei, który zakończy się dopiero w pieśni dwudziestej  (20.90). Powolny rytm opowiadania o przybyciu Odyseusza pod przebraniem żebraka do własnego domu jest zbudowany na dwóch schematach narracyjnych: przybycia gościa oraz rozpoznania. Dzień, który rozciąga się od świtu (17.1) do zachodu słońca (18.306), wypełnia powrót Telemacha (17.1–182a) i nierozpoznanego Odyseusza przyprowadzonego pod przebraniem żebraka do pałacu (182–327). Po przybyciu Odyseusza do pałacu opowiadanie rozgrywa się na przemian w dwóch pomieszczeniach: w megaronie, gdzie rozzuchwaleni zalotnicy źle traktują przybysza, i w megaronie (328–491), gdzie Penelopa dowiaduje się o przyjściu żebraka (492–606). W pieśni osiemnastej wzmianki o ofierze pojawiają się w kilku kontekstach. Po raz pierwszy w poleceniu Telemacha, który przybywszy do pałacu poleca matce modlitwę z obietnicą złożenia w przyszłości hekatomby, następnie jako element posiłku, deipnon. Następnie w drodze Eumajosa z Odyseuszem z zagrody świniopasa do pałacu, gdzie koło przybytku Nimf Odyseusz spotyka Melantiosa, koźlarza, który urąga przybłędzie nieświadom, że urąga swemu panu. Wreszcie pod koniec pieśni osiemnastej Telemach poleca Eumajosowi powrót do zagrody i przyprowadzenie nazajutrz zwierząt ofiarnych.</p>
+                </div>
+                <div type="textpart" n="Odyseja_XVII_48–51">
+                    <head>Odyseja XVII 48–51</head>
+                    <p>Wzmianka o ofierze jest włączona w wypowiedź Telemacha, który właśnie został rozpoznany przez Penelopę. Telemach odmawia matce zdania relacji z podróży, gdyż śpieszy się, aby podjąć gościną przybyłego z Pylos wieszczka Teoklymenosa. Zwracając się do matki, Telemach wykazuje samodzielność i oznaki dojrzałości, którą osiągnął dzięki wsparciu Ateny oraz podróży do Pylos i Sparty. Odsyła matkę do części domu przeznaczonej dla kobiet, nakazując modlitwę i obietnicę złożenia hekatomby.</p>
+                    <quote>
+                        <lb/>ἀλλ᾽ ὑδρηναμένη, καθαρὰ χροῒ εἵμαθ᾽ ἑλοῦσα,
+                        <lb n="50"/>εἰς ὑπερῷ᾽ ἀναβᾶσα σὺν ἀμφιπόλοισι γυναιξὶν
+                        <lb/>εὔχεο πᾶσι θεοῖσι τεληέσσας ἑκατόμβας 
+                        <lb/>  ῥέξειν, αἴ κέ ποθι  Ζεὺς ἄντιτα ἔργα τελέσσῃ.   
+                    </quote>
+                    <quote>
+                        <lb/>Lecz wykąpana i odziana w czystą szatę
+                        <lb n="50"/>wejdź na piętro z kobietami służebnymi i
+                        <lb/>pomódl się ślubując wszystkim bogom doskonałe hekatomby
+                        <lb/>złożyć w ofierze, jeśli Zeus dokona odpłaty za czyny. 
+                    </quote>
+                    <p>51: εὔχεο πᾶσι θεοῖσι τεληέσσας ἑκατόμβας / ῥέξειν – „ślubuj wszystkim bogom doskonałe hekatomby / złożyć”; w sprawie zwrotu ῥέζειν + ἑκατόμβας, zob. Il. 1.315 z komentarzem.</p>
+                    <p>52: αἴ κέ ποθι  Ζεὺς ἄντιτα ἔργα τελέσσῃ – „jeśli Zeus dokona odpłaty za czyny”; wypowiedź Telemacha ma schemat modlitewny da quia dem – istoty nadprzyrodzone otrzymają obiecane w modlitwie ofiary, jeśli doprowadzą do pomyślnego zwieńczenia zamierzonego czynu.</p>
+                </div>
+                <div type="textpart" n="Odyseja_XVII_58–60">
+                    <head>Odyseja XVII 58–60</head>
+                    <p>Penelopa, wypełniając polecenie Telemacha, ślubuje złożenie bogom hekatomby.</p>
+                    <quote>
+                        <lb/>ἡ δ᾽ ὑδρηναμένη, καθαρὰ χροῒ εἵμαθ᾽ ἑλοῦσα, 
+                        <lb/>εὔχετο πᾶσι θεοῖσι τεληέσσας ἑκατόμβας 
+                        <lb/>  ῥέξειν, αἴ κέ ποθι  Ζεὺς ἄντιτα ἔργα τελέσσῃ.
+                    </quote>
+                    <quote>
+                        <lb/>Ona wykąpana i odziana w czystą szatę
+                        <lb/>ślubowała wszystkim bogom doskonałe hekatomby
+                        <lb/>złożyć, jeśli Zeus dokona zemsty.	
+                    </quote>
+                    <p>Zob. wyżej.</p>
+                </div>
+                <div type="textpart" n="Odyseja_XVII_170–183">
+                    <head>Odyseja XVII 170–183</head>
+                    <p>Krótka dygresja kontrastująca nienasycenie zalotników i łamanie przez nich norm z wcześniejszą pełną godności troską Penelopy o powrót męża. Na pierwszy plan wysuwa się tutaj postać Medona, który zachęca zalotników do przygotowania posiłku porannego. </p>
+                    <quote>
+                        <lb n="170"/>ἀλλ᾽ ὅτε δὴ δείπνηστος ἔην καὶ ἐπήλυθε μῆλα
+                        <lb/>πάντοθεν ἐξ ἀγρῶν, οἱ δ᾽ ἤγαγον οἳ τὸ πάρος περ, 
+                        <lb/>καὶ τότε δή σφιν ἔειπε  Μέδων· ὃς γάρ ῥα μάλιστα 
+                        <lb/>ἥνδανε κηρύκων καί σφιν παρεγίνετο δαιτί· 
+                        <lb/>‘κοῦροι, ἐπεὶ δὴ πάντες ἐτέρφθητε φρέν᾽ ἀέθλοις, 
+                        <lb n="175"/>ἔρχεσθε πρὸς δώμαθ᾽, ἵν᾽ ἐντυνώμεθα δαῖτα· 
+                        <lb/>οὐ μὲν γάρ τι χέρειον ἐν ὥρῃ δεῖπνον ἑλέσθαι.’ 
+                        <lb/>ὣς ἔφαθ᾽, οἱ δ᾽ ἀνστάντες ἔβαν πείθοντό τε μύθῳ. 
+                        <lb/>αὐτὰρ ἐπεί ῥ᾽ ἵκοντο δόμους ἐῢ ναιετάοντας, 
+                        <lb/>χλαίνας μὲν κατέθεντο κατὰ κλισμούς τε θρόνους τε, 
+                        <lb n="180"/>οἱ δ᾽ ἱέρευον ὄϊς μεγάλους καὶ πίονας αἶγας,
+                        <lb/>ἵρευον δὲ σύας σιάλους καὶ βοῦν ἀγελαίην, 
+                        <lb/>δαῖτ᾽ ἐντυνόμενοι. 
+                    </quote>
+                    <quote>
+                        <lb n="170"/>Lecz gdy nastała pora wieczerzy i wracały stada
+                        <lb/>ze wszystkich pól, spędzali je jak zwykle,
+                        <lb/>i wówczas rzekł do nich Medon, który najbardziej
+                        <lb/>spośród heroldów znajdował upodobanie i brał udział we wspólnych ucztach:
+                        <lb/>„Chłopcy, skoro już wszyscy nacieszyliście się zawodami,
+                        <lb n="175"/> idźcie do domu, byśmy wam przygotowali ucztę:
+                        <lb/>zaprawdę to rzecz niezgorsza zjeść w porę wieczerzę”.
+                        <lb/>Rzekł, oni powstali i poszli, przekonani jego słowem.
+                        <lb/>Gdy już dotarli do ludnego domostwa
+                        <lb/>chlajny położyli na krzesłach i tronach,
+                        <lb n="180"/>rżnęli wielkie owce i tłuste kozy,
+                        <lb/>rżnęli tuczne wieprze i krowę ze stada,
+                        <lb/>ucztę przygotowując.
+                    </quote>
+                    <p>170: δείπνηστος – „pora wieczerzy”; hapax legomenon, rzeczownik odprzymiotnikowy wskazujący na regularność praktyki zalotników, którzy każdego wieczoru schodzą się w domu Odyseusza, dokąd spędza się stada na ucztę. Słowa narratora znajdą swój odpowiednik w zachęcie Medona, który wezwie zalotników na ucztę (dais) przygotowaną „w porę” (ἐν ὥρῃ), w. 176. Na temat δείπνηστος, zob. uwagi Eustatiosa, 1814.36.</p>
+                    <p>μῆλα – „stada”; jak wynika z opowiadania, chodzi o stada złożone z wszelkich zwierząt hodowlanych: kóz, owiec, świń i krów.</p>
+                    <p>172–173: Poeta charakteryzuje Medona jako herolda (keryks), który znajduje największe upodobanie w trybie życia zalotników, przede wszystkim w ich ucztach (dais). Istotnie jego charakterystyka nie jest jednoznaczna. Z jednej strony przystaje z zalotnikami i jest zaliczany przez Telemacha do grupy przeciwników (Od. 16.412), z drugiej strony broni prawa Odyseusza do zemsty (Od. 24.439–450). W czasie rzezi zalotników zostanie ocalony (Od. 22.371–380) i jednocześnie dowiadujemy się, że był opiekunem małego Telemacha (Od. 22.357–358). W sumie jego pozycja jest porównywalna z pozycją Femiosa, zob. de Jong 2004: 117. Wzmianki o heroldzie Medonie są istotne dla badań nad ofiarą krwawą ze względu na rolę heroldów w różnych fazach procesu rytualnego od zwołania uczestników obrzędu we właściwej porze po oprawienie zabitego zwierzęcia.</p>
+                    <p>180–182: Zalotnicy zarzynają zwierzęta na wieczerzę własnoręcznie, chociaż biorąc pod uwagę inne miejsca nie można wykluczyć, że czynią to z pomocą heroldów. Można przypuszczać, że kolejność, w jakiej poeta wymienia zwierzęta, nie jest przypadkowa. Jako pierwsze są wymienione zwierzęta najmniej wartościowe, na końcu zaś najbardziej prestiżowa i najdroższa krowa. Epitety mniejszych zwierząt podkreślają ich wielkość i stosowne spasienie, w przypadku krowy podkreśla się natomiast jej przynależność do stad zwierząt hodowanych, najpewniej na mięso.</p>
+                    <p>ἱέρευον: zob. Od. 14.28 z komentarzem.
+                    </p>
+                </div>
+                <div type="textpart" n="Odyseja_XVII_204–216">
+                    <head>Odyseja XVII 204–216</head>
+                    <p>Kolejne wiejskie sanktuarium Nimf na drodze Odyseusza do miasta staje się okazją do opisania locus amoenus (Larson 2001: 26). Opis ten z punktu widzenia badań nad ofiarą krwawą ma podwójną wartość. Po pierwsze przedstawia interesujące szczegóły dotyczące miejsca odprawiania rytuałów z wykorzystaniem terminologii ofiarniczej. Po drugie jest ciekawym przypadkiem wspomnienia w modlitwie Eumajosa ofiar złożonych w przeszłości przez Odyseusza.</p>
+                    <quote>
+                        <lb/>ἀλλ᾽ ὅτε δὴ στείχοντες ὁδὸν κάτα παιπαλόεσσαν 
+                        <lb n="205"/>ἄστεος ἐγγὺς ἔσαν καὶ ἐπὶ κρήνην ἀφίκοντο
+                        <lb/>τυκτὴν καλλίροον, ὅθεν ὑδρεύοντο πολῖται, 
+                        <lb/>τὴν ποίησ᾽  Ἴθακος καὶ  Νήριτος ἠδὲ  Πολύκτωρ· 
+                        <lb/>ἀμφὶ δ᾽ ἄρ᾽ αἰγείρων ὑδατοτρεφέων ἦν ἄλσος, 
+                        <lb/>πάντοσε κυκλοτερές, κατὰ δὲ ψυχρὸν ῥέεν ὕδωρ 
+                        <lb n="210"/>ὑψόθεν ἐκ πέτρης· βωμὸς δ᾽ ἐφύπερθε τέτυκτο
+                        <lb/>Νυμφάων, ὅθι πάντες ἐπιρρέζεσκον ὁδῖται· 
+                        <lb/>ἔνθα σφέας ἐκίχανεν υἱὸς  Δολίοιο  Μελανθεὺς 
+                        <lb/>αἶγας ἄγων, αἳ πᾶσι μετέπρεπον αἰπολίοισι, 
+                        <lb/>δεῖπνον μνηστήρεσσι· δύω δ᾽ ἅμ᾽ ἕποντο νομῆες. 
+                    </quote>
+                    <quote>
+                        <lb/>kiedy więc idąc stromą drogą 
+                        <lb n="205"/>znaleźli się blisko miasta i dotarli do krynicy
+                        <lb/>ocembrowanej, pięknostrugiej, skąd czerpią wodę obywatele,
+                        <lb/>tę zbudowali Itakos, Neritos i Polyktor,
+                        <lb/>wokół zaś był gaj sokor lubiących wilgoć,
+                        <lb/>otaczający ze wszystkich stron, i z góry spływała zimna woda
+                        <lb n="210"/>ze skały. Powyżej został wzniesiony ołtarz
+                        <lb/>Nimf, gdzie wszyscy wędrowcy składali ofiary.
+                        <lb/>Tam spotkał ich syn Dioniona, Melanteus,
+                        <lb/>pędząc kozy, które wyróżniały się ze wszystkich trzód,
+                        <lb/>na wieczerzę dla zalotników. Podążało z nim dwóch pastuchów.
+                    </quote>
+                    <p>205: ἄστεος ἐγγὺς – „blisko miasta”; niezależnie od tego, czy ten szczegół topograficzny ma swoje zakorzenienie w rzeczywistości, wskazuje na ścisły związek miasta z okolicą. Greckie osiedla miały w najbliższym otoczeniu źródła, które były wykorzystywane między innymi jako źródła wody rytualnej (chernips). Woda bieżąca była niezbędna do odprawiania obrzędów religijnych, w tym także ofiar krwawych.</p>
+                    <p>κρήνην […] τυκτὴν καλλίροον – „krynicy […] ocembrowanej, pięknostrugiej”; źródło jako miejsce sakralne, zob. Il. 2.299–322 z komentarzem.</p>
+                    <p>210b–211a: βωμὸς δ᾽ ἐφύπερθε τέτυκτο / Νυμφάων – „powyżej został wzniesiony ołtarz / Nimf”; Nimfy jako boginie związane z ziemią, źródłami i krajobrazem poza miastem pojawiają się w narracji od momentu przybycia Odyseusza na Itakę. Najpierw jest to grota nimf nad zatoką Forkys (Od. 13.102–112; 345–352), gdzie Feakowie pozostawili Odyseusza. Heros wznosi do nich modlitwy o pomoc w dotarciu do domu (356–360) i powierza ich opiece dary, które otrzymał od Feaków (361–371). Na zatoką znajduje się źródło nimfy Aretuzy, koło skały Kruka (Od. 13.404–410; Od. 14.1–4). Następnie to Nimfom oraz Hermesowi złożył ofiarę Eumajos. W końcu Odyseusz w drodze do domu mija ich ołtarz.</p>
+                    <p>211: ὅθι πάντες ἐπιρρέζεσκον ὁδῖται – „gdzie wszyscy wędrowcy składali ofiary”; zapowiedź modlitwy Eumajosa i wspomnienia ofiar składanych przez Odyseusza w przeszłości.</p>
+                </div>
+                <div type="textpart" n="Odyseja_XVII_240–246">
+                    <head>Odyseja XVII 240–246</head>
+                    <p>Eumajos potępia koźlarza Melantiosa, który naigrawa się z przebranego za żebraka Odyseusza. Melantios jako jedyny z trzech pasterzy trzód Odyseusza współpracuje z zalotnikami. Eumajos łączy modlitwę z reprymendą. Jego mowa ma strukturę charakterystyczną dla sceny typowej – modlitwa: (1) wers wprowadzający wskazujący na przynależność wypowiedzi do modlitwy oraz wykonanie gestu wzniesienia rąk (239); (2) inwokacja do nimf z dodaną genealogią (240a); (3) argumentacja (uzasadnienie prośby) wskazująca na podstawy oczekiwanej charis: ofiary składane w przeszłości przez Odyseusza (240–242a); 4) prośba (242b–243), do której Eumajos dodaje groźbę skierowaną do Melantiosa (244–246). Ostatnie zdanie wypowiedzi świniopasa jest przysłowiem.</p>
+                    <quote>
+                        <lb n="240"/>‘Νύμφαι κρηναῖαι, κοῦραι  Διός, εἴ ποτ᾽  Ὀδυσσεὺς
+                        <lb/>ὔμμ᾽ ἐπὶ μηρί᾽ ἔκηε, καλύψας πίονι δημῷ, 
+                        <lb/>ἀρνῶν ἠδ᾽ ἐρίφων, τόδε μοι κρηήνατ᾽ ἐέλδωρ, 
+                        <lb/>ὡς ἔλθοι μὲν κεῖνος ἀνήρ, ἀγάγοι δέ ἑ δαίμων. 
+                        <lb/>τῶ κέ τοι ἀγλαΐας γε διασκεδάσειεν ἁπάσας, 
+                        <lb n="245"/>τὰς νῦν ὑβρίζων φορέεις, ἀλαλήμενος αἰεὶ
+                        <lb/>ἄστυ κάτ᾽· αὐτὰρ μῆλα κακοὶ φθείρουσι νομῆες’. 
+                    </quote>
+                    <quote>
+                        <lb n="240"/>„Nimfy źródlane, córki Zeusa, jeśli kiedyś Odyseusz
+                        <lb/>dla was spalał kości udowe, przykrywszy błoną tłustą, 			
+                        <lb/>baranów lub koźląt, spełnijcie mi to życzenie:
+                        <lb/>niech wróci ów mąż, niech go sprowadzi bóstwo.
+                        <lb/>On by ci zdmuchnął wszelką nadętość,
+                        <lb n="245"/>którą teraz pyszniąc się obnosisz, włócząc się ciągle
+                        <lb/>po mieście: źli pasterze szkodzą stadom”.
+                    </quote>
+                    <p>240–241: Przypomnienie o kościach udowych spalonych w przeszłości na ołtarzu dla boga jest typowym elementem modlitwy i wiąże się z prośbą skierowaną do istoty nadprzyrodzonej. Słowo przywołuje gest, z którym współtworzy relację wzajemności uogólnionej wyrażanej pojęciem charis. Modlący się mogą przywołać ofiary, które sami niegdyś złożyli: Il. 1.40–41 (Chryzes); Il. 8.240 (Agamemnon); Il. 15.373–374 (Agamemnon). W tym wypadku modlącym jest postać zajmująca niższą pozycję społeczną, która przywołuje ofiary złożone w przeszłości przez prawowitego gospodarza i właściciela stad, Odyseusza. Por. przywołanie ofiar złożonych w przeszłości przez Odyseusza w modlitwie Penelopy, Od. 4.763–765.</p>
+                </div>
+                <div type="textpart" n="Odyseja_XVII_534–538">
+                    <head>Odyseja XVII 534–538</head>
+                    <p>Penelopa prosi Eumajosa o przyprowadzenie żebraka (Odyseusza w przebraniu) do komnaty, aby wypytać go o losy Odyseusza. Eumajos odpowiadając podkreśla oczarowanie mową przybysza, który twierdzi, że pochodzi z Krety i słyszał o Odysie. Na to Penelopa wyraża żal z powodu obecności w domu zalotników i ich życia na koszt nieobecnego króla Itaki.</p>
+                    <quote>
+                        <lb/>οἱ δ’ εἰς ἡμετέρου πωλεύμενοι ἤματα πάντα,
+                        <lb n="535"/>βοῦς ἱερεύοντες καὶ ὄϊς καὶ πίονας αἶγας,
+                        <lb/>εἰλαπινάζουσιν πίνουσί τε αἴθοπα οἶνον
+                        <lb/>μαψιδίως· τὰ δὲ πολλὰ κατάνεται· οὐ γὰρ ἔπ’ ἀνήρ,
+                        <lb/>οἷος Ὀδυσσεὺς ἔσκεν, ἀρὴν ἀπὸ οἴκου ἀμῦναι.
+                    </quote>
+                    <quote>
+                        <lb/>A ci nas nachodzą każdego dnia,						
+                        <lb n="535"/>składają w ofierze woły i owce oraz tłuste kozy,
+                        <lb/>ucztują i piją ciemne wino
+                        <lb/>bez umiarkowania. Ogromne straty. I nie masz męża,
+                        <lb/>jakim był Odyseusz, aby zapobiec upadkowi domu.
+                    </quote>
+                </div>
+                <div type="textpart" n="Odyseja_XVII_599–601">
+                    <head>Odyseja XVII 599–601</head>
+                    <p>Eumajos ustala z Telemachem porządek następnego dnia. Zamierza wrócić do zagrody, aby pilnować świń, natomiast Telemach ma pozostać i uważać na siebie, na co syn Odyseusza odpowiada, wprowadzając lekkie modyfikacje do planu Eumajosa: świniopas musi przed odejściem się posilić i powinien jutro wrócić ze zwierzętami ofiarnymi. Zbliża się święto Apollona i świniopas ma przyprowadzić do miasta wieprze przeznaczone na ofiarę.</p>
+                    <quote>
+                        <lb/>‘ἔσσεται οὕτως, ἄττα· σὺ δ᾽ ἔρχεο δειελιήσας· 
+                        <lb n="600"/>ἠῶθεν δ᾽ ἰέναι καὶ ἄγειν ἱερήϊα καλά.
+                        <lb/>αὐτὰρ ἐμοὶ τάδε πάντα καὶ ἀθανάτοισι μελήσει.’  
+                    </quote>
+                    <quote>
+                        <lb/>„Tak będzie, ojczulku. Po zjedzeniu pójdź,
+                        <lb n="600"/>o świcie przyjdź i przyprowadź piękne zwierzęta ofiarne.
+                        <lb/>Tutaj o wszystko zatroszczę się ja i nieśmiertelni”.
+                    </quote>
+                    <p>600: ἠῶθεν δ᾽ ἰέναι καὶ ἄγειν ἱερήϊα καλά – „o świcie przyjdź i przyprowadź piękne zwierzęta ofiarne”; rzeczownik ἱερήϊα tutaj i w innych miejscach oznacza zwierzęta przeznaczone na ofiarę, zob. Casabona 1966: 29.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

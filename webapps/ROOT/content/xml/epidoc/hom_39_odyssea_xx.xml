@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Odissea canto XX</title>
+                <title xml:lang="en">Odyssey book XX</title>
+                <title xml:lang="pl">Odyseja, pieśń XX</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_39_odyssea_xx</idno> 
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Odyseja, pieśń XX</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 277-280</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-03-24" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Pieśń dwudziestą wypełniają sny, wróżby i znaki zapowiadające rzeź zalotników. Wzmianki o ofierze są związane głównie z przygotowaniami do kolejnej uczty w domu Odyseusza i świętem Apollona. Struktura pieśni przedstawia się następująco:</p>
+                    <p>19.603–604 Atena zsyła sen na Penelopę.</p>
+                    <p>20.1–57 Bezsenność Odyseusza, rozmowa z Ateną.</p>
+                    <p>25–30	Porównanie przewracającego się z boku na bok do opiekania żołądka.</p>
+                    <p>57–91	Przebudzenie Penelopy i modlitwa do Artemidy o śmierć.</p>
+                    <p>91–121 Odyseusz budzi się i prosi Zeusa o znaki dla słuchu i wzroku.</p>
+                    <p>122–162 Nowy dzień. Telemach idzie do miasta.</p>
+                    <p>Rozciągnięte w czasie przygotowania do święta:</p>
+                    <p>122–123 Rozpalenie ognia.</p>
+                    <p>147–162 Mycie domu i sprzętów, przygotowanie drewna i wody.</p>
+                    <p>162–239 Odyseusz spotyka trzech pasterzy przyprowadzających zwierzęta na ucztę: Eumajosa, Melantiosa i Filojtiosa.</p>
+                    <p>250–283 Scena typowa – ofiara krwawa.</p>
+                    <p>284–394 Nadużycia zalotników.</p>
+                </div>
+                <div type="textpart" n="Odyseja_XX_247–256">
+                    <head>Odyseja XX 247–256</head>
+                    <p>Scena typowa – ofiara krwawa wieńczy długie przygotowania do uczty, które zostały wplecione w narracje o zdarzeniach dnia rzezi zalotników.</p>
+                    <quote>
+                        <lb/>ὣς ἔφατ᾽  Ἀμφίνομος, τοῖσιν δ᾽ ἐπιήνδανε μῦθος. 				
+                        <lb/>ἐλθόντες δ᾽ ἐς δώματ᾽  Ὀδυσσῆος θείοιο 
+                        <lb/>χλαίνας μὲν κατέθεντο κατὰ κλισμούς τε θρόνους τε, 
+                        <lb n="250"/>οἱ δ᾽ ἱέρευον ὄϊς μεγάλους καὶ πίονας αἶγας,
+                        <lb/>ἵρευον δὲ σύας σιάλους καὶ βοῦν ἀγελαίην· 
+                        <lb/>σπλάγχνα δ᾽ ἄρ᾽ ὀπτήσαντες ἐνώμων, ἐν δέ τε οἶνον 
+                        <lb/>κρητῆρσιν κερόωντο· κύπελλα δὲ νεῖμε συβώτης. 
+                        <lb/>σῖτον δέ σφ᾽ ἐπένειμε  Φιλοίτιος, ὄρχαμος ἀνδρῶν, 
+                        <lb n="255"/>καλοῖσ᾽ ἐν κανέοισιν, ἐοινοχόει δὲ  Μελανθεύς.
+                        <lb/>οἱ δ᾽ ἐπ᾽ ὀνείαθ᾽ ἑτοῖμα προκείμενα χεῖρας ἴαλλον.
+                    </quote>
+                    <quote>
+                        <lb/>Tak powiedział Amfinomos, im zaś spodobała się mowa.			
+                        <lb/>Weszli do domostwa boskiego Odyseusza
+                        <lb/>chlajny położyli na krzesłach i tronach,
+                        <lb n="250"/>i rżnęli duże owce i tłuste kozy,
+                        <lb/>rżnęli tuczne wieprze i krowę ze stada,
+                        <lb/>następnie upiekli podroby i rozdzielili, wino natomiast
+                        <lb/>w kraterach zmieszali: czary rozdzielał świniopas,
+                        <lb/>chleb przydzielał im Filojtios, przywódca mężów,
+                        <lb n="255"/>w pięknych koszach, nalewał zaś wina Melanteus.
+                        <lb/>A oni zaś ręce wyciągali do zastawionych potraw.
+                    </quote>
+                    <p>251–252: wersy formularne (=17.180–181 z komentarzem).</p>
+                    <p>253: σπλάγχνα δ᾽ ἄρ᾽ ὀπτήσαντες ἐνώμων – „następnie upiekli podroby i rozdzielili”; charakterystyczne, że w scenie typowej – uczta ofiarna narrator nie wspomina o częściach poświęconych bogom. W normalnej scenie typowej pieczenie splanchna jest równoczesne ze spalaniem kości udowych na ołtarzu. Wydaje się, że w przypadku zalotników poeta pomija wszelkie wzmianki, które wpisywałyby dokonywany przez nich ubój zwierząt w normatywny schemat rytuału.</p>
+                </div>
+                <div type="textpart" n="Odyseja_XX_275–283">
+                    <head>Odyseja XX 275–283</head>
+                    <p>W czasie, gdy zalotnicy spożywają swą ucztę w domu Odyseusza, inni Achajowie mieszkający na Itace składają hekatombę Apollonowi zgodnie z panującymi normami.</p>
+                    <quote>
+                        <lb n="275"/>ὣς ἔφατ᾽  Ἀντίνοος· ὁ δ᾽ ἄρ᾽ οὐκ ἐμπάζετο μύθων.
+                        <lb/>κήρυκες δ᾽ ἀνὰ ἄστυ θεῶν ἱερὴν ἑκατόμβην 
+                        <lb/>ἦγον· τοὶ δ᾽ ἀγέροντο κάρη κομόωντες  Ἀχαιοὶ 
+                        <lb/>ἄλσος ὕπο σκιερὸν ἑκατηβόλου  Ἀπόλλωνος. 
+                        <lb/>οἱ δ᾽ ἐπεὶ ὤπτησαν κρέ᾽ ὑπέρτερα καὶ ἑρύσαντο, 
+                        <lb n="280"/>μοίρας δασσάμενοι δαίνυντ᾽ ἐρικυδέα δαῖτα.
+                        <lb/>πὰρ δ᾽ ἄρ᾽  Ὀδυσσῆϊ μοῖραν θέσαν, οἳ πονέοντο, 
+                        <lb/>ἴσην, ὡς αὐτοί περ ἐλάγχανον· ὣς γὰρ ἀνώγει 
+                        <lb/>Τηλέμαχος, φίλος υἱὸς  Ὀδυσσῆος θείοιο.  
+                    </quote>
+                    <quote>
+                        <lb n="275"/>Tak mówił Antinoos, lecz on [scil. Telemach] nie dbał o te słowa.
+                        <lb/>Kerykowie przez miasto świętą hekatombę bogów
+                        <lb/>prowadzili: gromadzili się Achajowie długowłosi
+                        <lb/>w cienistym gaju Apollona Strzelającego z dala.
+                        <lb/>Ci natomiast upiekli mięso z tułowia i ściągnęli z rożnów,
+                        <lb n="280"/>podzieliwszy na części zaczęli wspaniałą ucztę.
+                        <lb/>Przed Odyseuszem część postawili ci, którzy usługiwali,
+                        <lb/>równą tym, które przypadały pozostałym biesiadnikom: tak nakazał
+                        <lb/>Telemach, drogi syn boskiego Odyseusza.
+                    </quote>
+                    <p>276–278: Nagła zmiana sceny, przejście od uczty zalotników do święta Apollona podkreśla bezbożne i nieroztropne postępowanie zalotników. Zamiast dołączyć do procesji i zgromadzenia świątecznego w gaju Apollona oddają się ucztowaniu. Mikroskopijna scena zbudowana z trzech heksametrów przypomina słuchaczom, że nadeszło święto boga. Zalotnicy przypomną sobie o święcie w trakcie zawodów łuczniczych (Od. 21.257–268). Zob. de Jong 2001: 498.</p>
+                    <p>276: θεῶν ἱερὴν ἑκατόμβην – „świętą hekatombę bogów”; ponieważ chodzi o święto Apollona, genetivus θεῶν jest trochę zaskakujący, jednak chodzi najpewniej o epitet podkreślający przynależność hekatomby do świata nadprzyrodzonego – ofiara jest przeznaczona dla jednego spośród bogów. Związek Apollona z hekatombe był szczególnie mocny. W świecie jońskim i ateńskim pierwszy miesiąc roku nosił nazwę Hekatombaion od święta ku czci boga obchodzonego 7. dnia (Hekatombaia). Thomson (1943: 57, przyp. 40) sugeruje, że właśnie do tego święta Homer czyni aluzje: Odyseusz wylądował na wyspie na początku miesiąca (Od. 14.162; 19.306), podczas nowiu (Od. 14.457) i przybywa do miasta pięć dni później. Thomson wysuwa również przypuszczenie, że rzeź 108 zalotników ma symboliczny związek z ofiarą ze stu wołów.</p>
+                </div>
+                <div type="textpart" n="Odyseja_XX_390–394">
+                    <head>Odyseja XX 390–394</head>
+                    <p>Zapowiedź śmierci zalotników (prolepsis) łączy motyw śmiechu zalotników (por. Od. 18.35 i nast.) z zabijaniem mnogich zwierząt i ucztowaniem. Narrator wprowadza tutaj kluczowe pojęcie charis zakładające zasadę wzajemności. Zapłatą za niegodziwe uczty zalotników będzie przygotowywana przez Atenę i Odyseusza uczta pozbawiona charis –„niewdzięczna, niepowabna”.</p>
+                    <quote>
+                        <lb n="390"/>δεῖπνον μὲν γὰρ τοί γε γελώοντες τετύκοντο
+                        <lb/>ἡδύ τε καὶ μενοεικές, ἐπεὶ μάλα πόλλ᾽ ἱέρευσαν· 
+                        <lb/>δόρπου δ᾽ οὐκ ἄν πως ἀχαρίστερον ἄλλο γένοιτο, 
+                        <lb/>οἷον δὴ τάχ᾽ ἔμελλε θεὰ καὶ καρτερὸς ἀνὴρ 
+                        <lb/>θησέμεναι· πρότεροι γὰρ ἀεικέα μηχανόωντο.  
+                    </quote>
+                    <quote>
+                        <lb n="390"/>ucztę bowiem śmiejąc się przyrządzili
+                        <lb/>słodką i sutą: zarżnęli w ofierze mnogie stada.
+                        <lb/>Wieczerzy tak niepowabnej jeszcze nigdy nie było, 
+                        <lb/>jak ta, którą miała im zastawić bogini i mąż potężny:
+                        <lb/>jako pierwsi bowiem zaplanowali niegodziwości.	
+                    </quote>
+                    <p>390–392: δεῖπνον… δόρπου – „uczty… wieczerzy”; narrator starannie prowadzi równoległy opis dwóch wydarzeń – uczty przygotowanej w ciągu dnia i uczty świątecznej ku czci Apollona, wieczerzy, której zalotnicy nigdy już nie zjedzą. Nastrój towarzyszący pierwszej: śmiech (γελώοντες), słodycz (ἡδύ), obfitość (μενοεικές), przeciwstawiony zostaje zagładzie zalotników, która została wyrażona zwrotem: „nie bardziej niewdzięcznego… od wieczerzy” (δόρπου… ἀχαρίστερον).</p>
+                    <p>391: ἐπεὶ μάλα πόλλ᾽ ἱέρευσαν – „ofiarowali mnogie stada”; kolejne użycie czasownika ἱερεύω bez dativus commodi w kontekście uczt zalotników; por. Od. 14.28 z komentarzem.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

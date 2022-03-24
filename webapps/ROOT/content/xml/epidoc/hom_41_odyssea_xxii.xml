@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Odissea canto XXII</title>
+                <title xml:lang="en">Odyssey book XXII</title>
+                <title xml:lang="pl">Odyseja, pieśń XXII</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_41_odyssea_xxii</idno> 
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Odyseja, pieśń XXII</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 283-284</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-03-24" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Pieśń XXII kontynuuje opowiadanie o 40. dniu akcji eposu doprowadzając je do kulminacyjnej sceny rzezi zalotników. Wzmianka o ofierze pojawia się raz, gdy Lejodes przypadł do kolan Odyseusza jako błagalnik.</p>
+                </div>
+                <div type="textpart" n="Odyseja_XXII_318–325">
+                    <head>Odyseja XXII 318–325</head>
+                    <quote>
+                        <lb/>„[…] αὐτὰρ ἐγὼ μετὰ τοῖσι θυοσκόος οὐδὲν ἐοργὼς 				
+                        <lb/>κείσομαι, ὡς οὐκ ἔστι χάρις μετόπισθ᾽ εὐεργέων”. 
+                        <lb n="320"/>τὸν δ᾽ ἄρ᾽ ὑπόδρα ἰδὼν προσέφη πολύμητις  Ὀδυσσεύς·
+                        <lb/>„εἰ μὲν δὴ μετὰ τοῖσι θυοσκόος εὔχεαι εἶναι, 
+                        <lb/>πολλάκι που μέλλεις ἀρήμεναι ἐν μεγάροισι  
+                        <lb/>τηλοῦ ἐμοὶ νόστοιο τέλος γλυκεροῖο γενέσθαι, 
+                        <lb/>σοὶ δ᾽ ἄλοχόν τε φίλην σπέσθαι καὶ τέκνα τεκέσθαι· 
+                        <lb/>τῶ οὐκ ἂν θάνατόν γε δυσηλεγέα προφύγοισθα”.  
+                    </quote>
+                    <quote>
+                        <lb/>Byłem ci wśród nich wieszczkiem baczącym na ofiary, nic nie zrobiwszy,	
+                        <lb/>zginę, czy nie ma wdzięczności za dobre czyny?”
+                        <lb n="320"/>Patrząc nań spode łba, rzekł Odys przemądry:
+                        <lb/>„Jeśli się chlubisz, żeś był wieszczkiem służącym im przy ofiarach, 
+                        <lb/>wielekroć musiałeś modlić się w domu,
+                        <lb/>żebym nie zaznał słodkiego powrotu,
+                        <lb/>i żeby za tobą poszła moja droga małżonka i dzieci rodziła:
+                        <lb/>dlatego nie ujdziesz bolesnej śmierci”.	
+                    </quote>
+                    <p>318: αὐτὰρ ἐγὼ μετὰ τοῖσι θυοσκόος – „byłem ci wśród nich kapłanem obserwującym ofiary”; termin θυοσκόος jest tłumaczony jako „ofiarnik”, jednak w Il. 24.221 wydaje się, że mamy do czynienia z rozróżnieniem między wieszczkiem wróżącym z lotu ptaków lub mającym wiedzę boskiego pochodzenia, kapłanem troszczącym się o kult danego boga lub sprawującym go w imieniu wspólnoty: ἢ οἳ μάντιές εἰσι θυοσκόοι ἢ ἱερῆες. Termin θυοσκόος oznacza zatem wieszczka wyspecjalizowanego w obserwowaniu dymu ofiarnego wydobywającego się ze spalanych na ołtarzu kości udowych owiniętych w tłuszcz. </p>
+                </div>
+                <div type="textpart" n="Odyseja_XXII_330–337">
+                    <head>Odyseja XXII 330–337</head>
+                    <p>Kolejny błagalnik, Femios, był aojdą. Informacja o ofiarach składanych w przeszłości przez Odyseusza pojawia się w kontekście rozważań Femiosa, czy lepiej przypaść do kolan Odyseusza, czy do ołtarza Zeusa.</p>
+                    <quote>
+                        <lb n="330"/>Τερπιάδης δ’ ἔτ’ ἀοιδὸς ἀλύσκανε κῆρα μέλαιναν, 
+                        <lb/>Φήμιος, ὅς ῥ’ ἤειδε παρὰ μνηστῆρσιν ἀνάγκῃ. 
+                        <lb/>ἔστη δ’ ἐν χείρεσσιν ἔχων φόρμιγγα λίγειαν
+                        <lb/>ἄγχι παρ’ ὀρσοθύρην· δίχα δὲ φρεσὶ μερμήριζεν,
+                        <lb/>ἢ ἐκδὺς μεγάροιο Διὸς μεγάλου ποτὶ βωμὸν
+                        <lb n="335"/>ἑρκείου ἕζοιτο τετυγμένον, ἔνθ’ ἄρα πολλὰ  
+                        <lb/>Λαέρτης Ὀδυσεύς τε βοῶν ἐπὶ μηρί’ ἔκηαν, 
+                        <lb/>ἦ γούνων λίσσοιτο προσαΐξας Ὀδυσῆα.
+                    </quote>
+                    <quote>
+                        <lb n="330"/>Terpiada, aojda uciekał przed czarną śmiercią,
+                        <lb/>Femios, który śpiewał z musu wśród zalotników.
+                        <lb/>Stał, w ręku trzymając dźwięczną formingę,
+                        <lb/>przy tylnych drzwiach: na dwoje w sercu rozważał,
+                        <lb/>czy wyjść z megaronu i przy murowanym ołtarzu wielkiego Zeusa
+                        <lb n="335"/>zagrodowego usiąść, gdzie Odyseusz i Laertes
+                        <lb/>mnogie kości udowe wołów spalili,
+                        <lb/>czy przyskoczyć z błaganiem do kolan Odyseusza. 
+                    </quote>
+                    <p>335–336: ponieważ ołtarz Zeusa Herkejosa jest miejscem kultu domowego, odprawianego z pokolenia na pokolenie, narrator wymienia zarówno Laertesa, ojca Odyseusza, jak i samego herosa, pace Fernandez-Galiano, Heubeck, ed. (1986: 254), którzy uważają, że chodzi o jednoczesne składanie ofiar. Składanie ofiar metonimicznie zostało wyrażone poprzez wspomnienie spalania kości udowych: βοῶν ἐπὶ μηρί’ ἔκηαν. Por. Il. 1.39–40 z komentarzem.</p>
+                    <p>ἐπὶ… ἔκηαν; czasownik ἐπικαίειν dosłownie oznacza „palić na” (ołtarzu), tmeza podkreśla znaczenie przedimka ἐπὶ, por. Il. 22.170; Od. 3.9.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Odissea canto XI</title>
+                <title xml:lang="en">Odyssey book XI</title>
+                <title xml:lang="pl">Odyseja, pieśń XI</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_31_odyssea_xi</idno> 
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Odyseja, pieśń XI</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 231-235</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-03-24" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                  <p>Nekyia, czyli wędrówka Odyseusza w zaświaty, do bram Hadesu, ma swoje odpowiedniki w innych epickich katabaseis. W eposie greckim najbardziej oczywistym wzorcem było zstąpienie do Hadesu Heraklesa (zob. Il. 8.366–369). Epizod wiele zawdzęcza eposowi o Gilgameszu. Wędrówka przebiega zgodnie z instrukcją Kirke, chociaż narracja Odyseusza różni się kilkoma szczegółami, przede wszystkim opisem topografii widzianej tutaj z innej perspektywy oraz wprowadzeniem emocji Odyseusza.</p>
+                </div> 
+                <div type="textpart" n="Odyseja_XI_12–50">
+                    <head>Odyseja XI 12–50</head>
+                    <quote>
+                        δύσετό τ᾽ ἠέλιος σκιόωντό τε πᾶσαι ἀγυιαί· 				
+                        <lb/>ἡ δ᾽ ἐς πείραθ᾽ ἵκανε βαθυρρόου  Ὠκεανοῖο. 
+                        <lb/>ἔνθα δὲ  Κιμμερίων ἀνδρῶν δῆμός τε πόλις τε, 
+                        <lb n="15"/>ἠέρι καὶ νεφέλῃ κεκαλυμμένοι· οὐδέ ποτ᾽ αὐτοὺς
+                        <lb/>Ἠέλιος φαέθων καταδέρκεται ἀκτίνεσσιν, 
+                        <lb/>οὔθ᾽ ὁπότ᾽ ἂν στείχῃσι πρὸς οὐρανὸν ἀστερόεντα, 
+                        <lb/>οὔθ᾽ ὅτ᾽ ἂν ἂψ ἐπὶ γαῖαν ἀπ᾽ οὐρανόθεν προτράπηται, 
+                        <lb/>ἀλλ᾽ ἐπὶ νὺξ ὀλοὴ τέταται δειλοῖσι βροτοῖσι. 
+                        <lb n="20"/>νῆα μὲν ἔνθ᾽ ἐλθόντες ἐκέλσαμεν, ἐκ δὲ τὰ μῆλα
+                        <lb/>εἱλόμεθ᾽· αὐτοὶ δ᾽ αὖτε παρὰ ῥόον  Ὠκεανοῖο 
+                        <lb/>ᾔομεν, ὄφρ᾽ ἐς χῶρον ἀφικόμεθ᾽, ὃν φράσε  Κίρκη. 
+                        <lb/>ἔνθ᾽ ἱερήϊα μὲν  Περιμήδης  Εὐρύλοχός τε 
+                        <lb/>ἔσχον· ἐγὼ δ᾽ ἄορ ὀξὺ ἐρυσσάμενος παρὰ μηροῦ 
+                        <lb n="25"/>βόθρον ὄρυξ᾽ ὅσσον τε πυγούσιον ἔνθα καὶ ἔνθα,
+                        <lb/>ἀμφ᾽ αὐτῷ δὲ χοὴν χεόμην πᾶσιν νεκύεσσι, 
+                        <lb/>πρῶτα μελικρήτῳ, μετέπειτα δὲ ἡδέϊ οἴνῳ, 
+                        <lb/>τὸ τρίτον αὖθ᾽ ὕδατι· ἐπὶ δ᾽ ἄλφιτα λευκὰ πάλυνον. 
+                        <lb/>πολλὰ δὲ γουνούμην νεκύων ἀμενηνὰ κάρηνα, 
+                        <lb n="30"/>ἐλθὼν εἰς  Ἰθάκην στεῖραν βοῦν, ἥ τις ἀρίστη, 
+                        <lb/>  ῥέξειν ἐν μεγάροισι πυρήν τ᾽ ἐμπλησέμεν ἐσθλῶν, 
+                        <lb/>Τειρεσίῃ δ᾽ ἀπάνευθεν ὄϊν ἱερευσέμεν οἴῳ 
+                        <lb/>παμμέλαν᾽, ὃς μήλοισι μεταπρέπει ἡμετέροισι. 
+                        <lb/>τοὺς δ᾽ ἐπεὶ εὐχωλῇσι λιτῇσί τε, ἔθνεα νεκρῶν, 
+                        <lb n="35"/>ἐλλισάμην, τὰ δὲ μῆλα λαβὼν ἀπεδειροτόμησα 
+                        <lb/>ἐς βόθρον ῥέε δ᾽ αἷμα κελαινεφές· αἱ δ᾽ ἀγέροντο 
+                        <lb/>ψυχαὶ ὑπὲξ  Ἐρέβευς νεκύων κατατεθνηώτων· 
+                        <lb/>νύμφαι τ᾽ ἠΐθεοί τε πολύτλητοί τε γέροντες 
+                        <lb/>παρθενικαί τ᾽ ἀταλαὶ νεοπενθέα θυμὸν ἔχουσαι, 
+                        <lb n="40"/>πολλοὶ δ᾽ οὐτάμενοι χαλκήρεσιν ἐγχείῃσιν,
+                        <lb/>ἄνδρες ἀρηΐφατοι, βεβροτωμένα τεύχε᾽ ἔχοντες· 
+                        <lb/>οἳ πολλοὶ περὶ βόθρον ἐφοίτων ἄλλοθεν ἄλλος 
+                        <lb/>θεσπεσίῃ ἰαχῇ· ἐμὲ δὲ χλωρὸν δέος ᾕρει. 
+                        <lb/>δὴ τότ᾽ ἔπειθ᾽ ἑτάροισιν ἐποτρύνας ἐκέλευσα 
+                        <lb n="45"/>μῆλα, τὰ δὴ κατέκειτ᾽ ἐσφαγμένα νηλέϊ χαλκῷ, 
+                        <lb/>δείραντας κατακῆαι, ἐπεύξασθαι δὲ θεοῖσιν, 
+                        <lb/>ἰφθίμῳ τ᾽  Ἀΐδῃ καὶ ἐπαινῇ  Περσεφονείῃ· 
+                        <lb/>ὐτὸς δὲ ξίφος ὀξὺ ἐρυσσάμενος παρὰ μηροῦ      
+                        <lb/>ἥμην οὐδ᾽ εἴων νεκύων ἀμενηνὰ κάρηνα 
+                        <lb/>αἵματος ἄσσον ἴμεν πρὶν  Τειρεσίαο πυθέσθαι.  	
+                    </quote>
+                    <quote>
+                        <lb/>Zaszło słońce i pokryły się cieniem wszystkie drogi,			
+                        <lb/>gdy dotarliśmy do kresu głębokich strumieni Okeanosa.
+                        <lb/>Tam jest lud i gród mężów kimmeryjskich,
+                        <lb n="15"/>okrytych mgłą i chmurami. Nigdy na nich
+                        <lb/>Słońce lśniące nie spogląda promieniami,
+                        <lb/>ani gdy wznosi się ku niebu gwiaździstemu,
+                        <lb/>ani gdy z nieba ku ziemi się skłania,
+                        <lb/>lecz noc zgubna rozciąga się nad żałosnymi śmiertelnymi. 
+                        <lb n="20"/>Gdy tam przybyliśmy, wyciągnęliśmy okręt i owce
+                        <lb/>wyprowadziliśmy. I szliśmy wzdłuż nurtu Okreanosa,
+                        <lb/>aż przybyliśmy do miejsca, o którym mówiła Kirke.
+                        <lb/>Tam zwierzęta ofiarne Perimedes i Eurylochos
+                        <lb/>przytrzymali, ja naś dobyłem miecza ostrego, który wisiał przy udzie,
+                        <lb n="25"/>i wykopałem dół na łokieć wzdłuż i wszerz,
+                        <lb/>wokół niego wylałem ofiarę płynną dla wszystkich zmarłych,
+                        <lb/>najpierw z mleka z miodem, następnie ze słodkiego wina,
+                        <lb/>za trzecim razem z wody; posypałem białą mąką jęczmienną.
+                        <lb/>Mocno błagałem bezsilne głowy zmarłych,
+                        <lb n="30"/>że po dotarciu do Itaki jałówkę, która jest najlepsza,
+                        <lb/>złożę w ofierze w komnatach i  zapełnię stos pogrzebowy wybornymi darami,
+                        <lb/>a Tejrezjaszowi, wyłącznie jemu, barana ofiaruję,
+                        <lb/>całego czarnego, który wyróżnia się wśród naszych stad.
+                        <lb/>Gdy modlitwami i błaganiami plemiona zmarłych
+                        <lb n="35"/>przebłagałem, wziąwszy owce podciąłem im gardła,
+                        <lb/>do dołu spłynęła ciemna krew; gromadziły się
+                        <lb/>dusze z Erebu umarłych trupów:
+                        <lb/>kobiety, pacholęta i starcy, którzy wiele wycierpieli,
+                        <lb/>młodzieńcze panny mające świeże cierpienia w sercu,
+                        <lb n="40"/>mnodzy polegli w boju Aresa od mieczów spiżowych,
+                        <lb/>mający na sobie zbroje zbroczone; 	
+                        <lb/>liczni krążyli wokół dołu to tu, to tam,
+                        <lb/>z dziwnym krzykiem: a na mnie padł strach blady.
+                        <lb/>Wtedy ponagliłem towarzyszy i kazałem
+                        <lb n="45"/>owce, które leżały zarżnięte bezlitosnym spiżem
+                        <lb/>obedrzeć ze skóry i spalić i modlić się do bogów
+                        <lb/>– potężnego Hadesa i strasznej Persefony,
+                        <lb/>a sam wydobywszy ostrego miecza, co wisiał u boku,
+                        <lb/>usiadłem i nie dawałem mdłym głowom umrzyków
+                        <lb/>zbliżyć się do krwi, dopóki nie rozpytam Tejrezjasza. 	
+                    </quote>
+                    <p>14–19: Opis krainy Kimmerów, który pojawia się w narracji Odyseusza, nie był zapowiedziany w instrukcji Kirke. Z drugiej strony w opowiadaniu herosa nie pojawią się szczegóły topograficzne wskazujące na miejsce, gdzie znajduje się brama Hadesu. Charakterystyka kraju Kimmerów, mglistego i zachmurzonego, spowitego wiecznym mrokiem odpowiada opisowi przedsionka Hadesa.</p>
+                    <p>24: ἐγὼ δ᾽ ἄορ ὀξὺ ἐρυσσάμενος παρὰ μηροῦ – „ja naś dobyłem miecza ostrego, który wisiał przy udzie”; miecz przy boku Odyseusza pełni analogiczną rolę do machaira, którą nosi Agamemnon, lecz w przeciwieństwie do niego jest wielofunkcyjny i nie wiąże się bezpośrednio ze składaniem ofiar i funkcją ofiarnika. Por. Il. 3.271–272 = 19.252–253 z komentarzem.</p>
+                    <p>23-24: ἔνθ᾽ ἱερήϊα μὲν  Περιμήδης  Εὐρύλοχός τε, / ἔσχον; „tam zwierzęta ofiarne Perimedes i Eurylochos / przytrzymali”; Jean Casabona komentując to miejsce powołuje się na Eustatiosa, który pisze: φασὶν οἱ παλαιοὶ οὐκ ὀρθῶς εἰρῆσθαι τοῦτο· ἐπὶ γὰρ νεκρῶν τόμια φασὶ καὶ ἔντομα, ἐπὶ δὲ θεῶν ἱερεῖα – „starożytni mówią, że niepoprawnie wyraża się w ten sposób: ofiary dla zmarłych nazywa się tomia i entoma, dla bogów – hiereia”.  Casabona stwierdza, że wyjaśnienie Eustatiosa musiało opierać się na świadectwach starożytnych, które odnosiły się do użycia słowa ἱερεῖα w okresie pohomeryckim, zob. Casabona 1966: 29. Wydaje się, że w eposie rzeczownik może oznaczać ogólnie każde zwierzę przeznaczone na rytualny ubój, niezależnie od przebiegu rytuału i charakteru bóstwa, któremu jest poświęcone.</p>
+                    <p>25–33: Powtórzenie ww. 10.517–525 z modyfikacjami związanymi ze zmianą 2 os. l.poj. w instrukcji Kirke na 1 os. w narracji Odyseusza.</p>
+                    <p>34–35: τοὺς δ᾽ ἐπεὶ εὐχωλῇσι λιτῇσί τε… ἐλλισάμην – „gdy modlitwami i błaganiami… przebłagałem”; wariant wyrażenia αὐτὰρ ἐπὴν εὐχῇσι λίσῃ wprowadza dwa rzeczowniki wyrażające ideę głośnego, usilnego wznoszenia próśb o litość. Jedyne w Odysei użycie rzeczownika λιταί, który pojawia się również w Il. 9.502 i nast. w mowie Fojniksa jako personifikacja próśb kierowanych do bogów, które mogą zmienić ich postanowienia. Wydaje się, że chociaż intencja działań Odyseusza nie została jasno wyrażona, nie znamy również treści słów wypowiadanych przez herosa, funkcją działań rytualnych było zażegnanie potencjalnego niebezpieczeństwa ze strony zmarłych.</p>
+                    <p>35: τὰ δὲ μῆλα λαβὼν ἀπεδειροτόμησα / ἐς βόθρον – „wziąwszy owce podciąłem im gardła”; czasownik ἀποδειροτομεῖν wskazuje prawdopodobnie całkowite przecięcie szyi zwierzęcia prowadzące do dekapitacji, zob. Ekroth 2002: 174 (pace Hughes 1991: 52 i 219–220 przyp. 14). W Teogonii Hezjoda ten sam czasownik został użyty na opisanie odcięcia głowy Meduzy (Hes. Th. 280). </p>
+                    <p>36: ἐς βόθρον ῥέε δ᾽ αἷμα κελαινεφές – „do dołu spłynęła ciemna krew”; z rytualnego punktu widzenia wytoczenie krwi jest najważniejszym elementem działań rytualnych, gdyż to ona umożliwi nawiązanie komunikacji ze zmarłymi, a zwłaszcza z Tejrezjaszem.</p>
+                    <p>44–47:	Ofiara całopalna = Od. 10.531–534.</p>
+                    <p>48–50 = Od. 10.535–536.
+                    </p>
+                </div>   
+            </div>
+        </body>
+    </text>
+</TEI>

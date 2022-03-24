@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Odissea canto V</title>
+                <title xml:lang="en">Odyssey book V</title>
+                <title xml:lang="pl">Odyseja, pieśń V</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_26_odyssea_v</idno> 
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Odyseja, pieśń V</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, p. 216</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-03-24" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="Odyseja_V_101–102">
+                    <head>Odyseja V 101–102</head>
+                    <p>W pieśni V narrator powraca do opowiadania o Odyseuszu, który znajduje się na wyspie Kalypso. Do bogini przetrzymującej herosa bogowie posyłają Hermesa. W dialogu między wysłannikiem bogów a Kalypso Hermes przekazuje postanowienie Zeusa o umożliwieniu powrotu Odyseusza do Itaki. Charakterystyka miejsca przebywania herosa jako świata, w którym nie składa się ofiar dla bogów, wpisuje się w antropologię homerycką przeciwstawiającą normatywną religię polis światu zewnętrznemu. </p>
+                    <quote>
+                        <lb/>οὐδέ τις ἄγχι βροτῶν πόλις, οἵ τε θεοῖσιν 
+                        <lb/>ἱερά τε ῥέζουσι καὶ ἐξαίτους ἑκατόμβας.  
+                    </quote>
+                    <quote>
+                        <lb/>nie ma w pobliżu miasta śmiertelnych, którzy bogom
+                        <lb/>składają ofiary i wybrane hekatomby.
+                    </quote>
+                    <p>101–102: οἵ τε θεοῖσιν / ἱερά τε ῥέζουσι καὶ ἐξαίτους ἑκατόμβας – „którzy bogom /  składają ofiary i wybrane hekatomby”; jedno z najważniejszym miejsc przedstawiających koncepcję świata ludzkiego w Odysei. Świat ludzki, w którym panują normy podzielane przez poetę i jego słuchaczy, charakteryzuje się składaniem ofiar krwawych.</p>
+                </div>
+              
+            </div>
+            
+        </body>
+    </text>
+</TEI>

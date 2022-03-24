@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Odissea canto XIV</title>
+                <title xml:lang="en">Odyssey book XIV</title>
+                <title xml:lang="pl">Odyseja, pieśń XIV</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_34_odyssea_xiv</idno> 
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Odyseja, pieśń XIV</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 246-258</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-03-24" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="Odyseja_XIV">
+                    <head>Odyseja XIV</head>
+                    <p>Odyseusz przybywa do zagrody świniopasa Eumajosa i dowiaduje się o ucztach zalotników. </p>
+                    <quote>αὐτὸς δ’ ἀμφὶ πόδεσσιν ἑοῖς ἀράρισκε πέδιλα,
+                        τάμνων δέρμα βόειον ἐϋχροές· οἱ δὲ δὴ ἄλλοι
+                        ᾤχοντ’ ἄλλυδις ἄλλος ἅμ’ ἀγρομένοισι σύεσσιν,    (25)
+                        οἱ τρεῖς· τὸν δὲ τέταρτον ἀποπροέηκε πόλινδε
+                        σῦν ἀγέμεν μνηστῆρσιν ὑπερφιάλοισιν ἀνάγκῃ,
+                        ὄφρ’ ἱερεύσαντες κρειῶν κορεσαίατο θυμόν.
+                    </quote>
+                    <quote>On sam do swoich stóp przymierzał sandały,
+                        tnąc barwną skórę wołu. Inni
+                        w różne strony poszli ze zgromadzonymi świniami,					25
+                        To robili trzej z nich, natomiast czwartego posłał do miasta,
+                        aby zaprowadził wieprza dla zalotników zuchwałych z musu,
+                        gdyż chcieli mięsem nasycić ducha złożywszy ofiarę.
+                    </quote>
+                    <p>28:	ὄφρ’ ἱερεύσαντες κρειῶν κορεσαίατο θυμόν – „gdyż chcieli mięsem nasycić ducha złożywszy ofiarę”; heksametr niezwykle trudny do przekładu ze względu na dwuznaczność czasownika ἱερεύω, który jest czasownikiem odrzeczownikowym utworzonym na bazie hiereus, „kapłan”, a zatem oznacza „pełnić funkcje kapłańskie” > „odprawiać rytuał ofiarny” > „składać ofiarę”. Z drugiej strony opisuje ofiarę krwawą, której elementem był ubój zwierzęcia. Dlatego w eposie często ma znaczenie „dokonać uboju”, zwłaszcza gdy nie towarzyszy mu imię boga w dativus commodi. Takie użycie czasownika jest znane wyłącznie z Odysei: 2.65; 14.28; 74; 94; 16.454; 17.180, 535; 19.198; 20.3, 250, 391; 24.215. Jean Casabona proponuje wówczas tłumaczenie pour l’immoler, jednak francuski czasownik oznacza zarówno „zabić”, „dokonać uboju”, jak i „ofiarować”, „złożyć w ofierze” (Casabona 1966: 24).</p>
+                </div>
+                
+                <div type="textpart" n="Odyseja_XIV_72–80">
+                    <head>Odyseja XIV 72–80</head>
+                    <p>Scena przygotowania posiłku przez Eumajosa wykorzystuje język i wyrażenia charakterystyczne dla opisów ofiar zwierzęcych połączonych z ucztą heroiczną, ale stosownie do kontekstu została uproszczona. Dodatkowy kontrast uzyskuje za sprawą dodania sceny większej ofiary z wieprza złożonej wieczorem (413–456 z komentarzem). Wykorzystane słownictwo mogłoby wskazywać na ofiarniczy charakter posiłku, jednak brakuje kilku ważnych elementów, które upewniłyby nas w tym przekonaniu. Przede wszystkim nie ma informacji o istocie nadprzyrodzonej, dla której ofiara miałaby być poświęcona. Można również zauważyć wyraźne podobieństwa między posiłkiem zaoferowanym Odyseuszowi przebranemu za żebraka, a posiłkiem dla Telemacha (Od. 16.49–53), chociaż w tym drugim wypadku biedny i oszczędny świniopas podaje to, co zostało z uczty ofiarnej dnia poprzedniego. W sprawie tej sceny, zob. komentarz w  Bowie, ed. 2013: 177–181.</p>
+                        <quote>ὣς εἰπὼν ζωστῆρι θοῶς συνέεργε χιτῶνα,
+                            βῆ δ' ἴμεν ἐς συφεούς, ὅθι ἔθνεα ἔρχατο χοίρων.
+                            ἔνθεν ἑλὼν δύ᾽ ἔνεικε καὶ ἀμφοτέρους ἱέρευσεν, 					
+                            εὗσέ τε μίστυλλέν τε καὶ ἀμφ᾽ ὀβελοῖσιν ἔπειρεν. 					75
+                            ὀπτήσας δ᾽ ἄρα πάντα φέρων παρέθηκ᾽  Ὀδυσῆϊ 
+                            θέρμ᾽ αὐτοῖσ᾽ ὀβελοῖσιν, ὁ δ᾽ ἄλφιτα λευκὰ πάλυνεν. 
+                            ἐν δ᾽ ἄρα κισσυβίῳ κίρνη μελιηδέα οἶνον, 
+                            αὐτὸς δ᾽ ἀντίον ἷζεν, ἐποτρύνων δὲ προσηύδα· 
+                            "ἔσθιε νῦν, ὦ ξεῖνε, τά τε δμώεσσι πάρεστι, 						80
+                            χοίρε᾽· ἀτὰρ σιάλους γε σύας μνηστῆρες ἔδουσιν, 
+                            οὐκ ὄπιδα φρονέοντες ἐνὶ φρεσὶν οὐδ᾽ ἐλεητύν. 
+                            οὐ μὲν σχέτλια ἔργα θεοὶ μάκαρες φιλέουσιν, 
+                            ἀλλὰ δίκην τίουσι καὶ αἴσιμα ἔργ᾽ ἀνθρώπων. 
+                            καὶ μὲν δυσμενέες καὶ ἀνάρσιοι, οἵ τ᾽ ἐπὶ γαίης 					85
+                            ἀλλοτρίης βῶσιν καί σφιν  Ζεὺς ληΐδα δώῃ, 
+                            πλησάμενοι δέ τε νῆας ἔβαν οἶκόνδε νέεσθαι, — 
+                            καὶ μὲν τοῖσ᾽ ὄπιδος κρατερὸν δέος ἐν φρεσὶ πίπτει· 
+                            οἵδε δέ τοι ἴσασι, θεοῦ δέ τιν᾽ ἔκλυον αὐδήν, 
+                            κείνου λυγρὸν ὄλεθρον, ὅ τ᾽ οὐκ ἐθέλουσι δικαίως 					90
+                            μνᾶσθαι οὐδὲ νέεσθαι ἐπὶ σφέτερ᾽, ἀλλὰ ἕκηλοι 
+                            κτήματα δαρδάπτουσιν ὑπέρβιον, οὐδ᾽ ἔπι φειδώ. 
+                            ὅσσαι γὰρ νύκτες τε καὶ ἡμέραι ἐκ  Διός εἰσιν,    					93
+                            οὔ ποθ᾽ ἓν ἱρεύουσ᾽ ἱερήϊον οὐδὲ δύ᾽ οἶα· 
+                            οἶνον δὲ φθινύθουσιν ὑπέρβιον ἐξαφύοντες. 
+                            ἦ γάρ οἱ ζωή γ᾽ ἦν ἄσπετος· οὔ τινι τόσση 
+                            ἀνδρῶν ἡρώων, οὔτ᾽ ἠπείροιο μελαίνης 
+                            οὔτ᾽ αὐτῆς  Ἰθάκης· οὐδὲ ξυνεείκοσι φωτῶν 
+                            ἔστ᾽ ἄφενος τοσσοῦτον· ἐγὼ δέ κέ τοι καταλέξω. 
+                            δώδεκ᾽ ἐν ἠπείρῳ ἀγέλαι· τόσα πώεα οἰῶν, 
+                            τόσσα συῶν συβόσια, τόσ᾽ αἰπόλια πλατέ᾽ αἰγῶν 
+                            βόσκουσι ξεῖνοί τε καὶ αὐτοῦ βώτορες ἄνδρες· 
+                            ἐνθάδε τ᾽ αἰπόλια πλατέ᾽ αἰγῶν ἕνδεκα πάντα 
+                            ἐσχατιῇ βόσκοντ᾽, ἐπὶ δ᾽ ἀνέρες ἐσθλοὶ ὄρονται. 
+                            τῶν αἰεί σφιν ἕκαστος ἐπ᾽ ἤματι μῆλον ἀγινεῖ, 
+                            ζατρεφέων αἰγῶν ὅς τις φαίνηται ἄριστος. 
+                            αὐτὰρ ἐγὼ σῦς τάσδε φυλάσσω τε ῥύομαί τε 
+                            καί σφι συῶν τὸν ἄριστον ἐῢ κρίνας ἀποπέμπω.” 
+                            ὣς φάθ᾽· ὁ δ᾽ ἐνδυκέως κρέα τ᾽ ἤσθιε πῖνέ τε οἶνον, 
+                            ἁρπαλέως ἀκέων, κακὰ δὲ μνηστῆρσι φύτευεν. 
+                            αὐτὰρ ἐπεὶ δείπνησε καὶ ἤραρε θυμὸν ἐδωδῇ, 
+                            καί οἱ πλησάμενος δῶκε σκύφος, ᾧ περ ἔπινεν, 
+                            οἴνου ἐνίπλειον· ὁ δ᾽ ἐδέξατο, χαῖρε δὲ θυμῷ,
+                        </quote>
+                    <quote>To mówiąc związał żwawo pasem chiton
+                        i ruszył do chlewów, gdzie było zamknięte plemię prosiąt.
+                        Stamtąd wyniósł dwa prosiaki i oba zabił w ofierze,
+                        osmalił, pokrajał i nadział na rożny.							75
+                        Gdy już upiekł wszystko, przyniósł i podał Odysowi
+                        gorące na rożnach, posypał je białą mąką.
+                        W dzbanie z bluszczowego drzewa zmieszał jak miód słodkie wino,
+                        na koniec siadł naprzeciw i zachęcając go rzekł:
+                        „Jedz teraz, gościu, co przypada służącym,						80
+                        prosiaki: tłuste wieprze jedzą zalotnicy,
+                        którzy pomsty bożej nie mają w sercach ani współczucia.
+                        […]
+                        Każdej bowiem nocy i dnia każdego, które z Zeusa przychodzą,			93
+                        nie składają w ofierze tylko jednej ofiary ani dwóch,
+                        potem zaś wino żłopią do dna bez opamiętania”.
+                    </quote>
+                    <p>74:	καὶ ἀμφοτέρους ἱέρευσεν – „i oba złożył w ofierze”; czasownik ἱερεύω bez imienia boga w dativus commodi można interpretować jako „dokonać uboju w celu przyrządzenia posiłku”. Zob. Od. 14.28 z komentarzem. 
+             </p><p>           75:	εὗσέ: czasownik εὕειν, „piec”, „smażyć” (griller, flamber; to singe) wywodzi się z i.e. *H1eus- „palić”, por. skr. óṣati, „pali”, łac. ūrō „palę” , w grece nastąpiła metateza przydechu, Beekes 2010: 486). W eposie εὕω w znaczeniu „opalać” stosuje się zwłaszcza w kontekście opalania szczeci świni (Od. 14.73; 427–428), co stanowi funkcjonalny odpowiednik skórowania (δέρω), zob. Il. 9.467. W późniejszych źródłach czasownik został zastąpiony przez καίω, por. δαίω, κείρω. W okresie klasycznym rzeczownik εὑστὸν, r.n., „pieczone” (zwierzę ofiarne), zaczął oznaczać zwierzę pieczone bez zdjęcia z tuszy skóry, nieoskórowane zwierzę ofiarne, które po upieczeniu zjadano w przeciwieństwie do ofiar całopalnych ὁλόκαυστος lub καυτός, które spalano w całości, zob. LSCG 11 B (Ateny, ok. 430 p.n.e.). W kilku przypadkach zwierzę określone słowem εὑστὸν przeciwstawia się ofiarom, które oskórowano: SEG LIV 214 (EBGR 2004: 256; 2010: 250–1) Aixone, 399–350 p.n.e. „Dla kapłanki Heroiny, jako wynagrodzenie: 5 drachm; skóry wszystkich zwierząt ofiarowanych podczas święta Heroiny; za zwierzę dojrzałe upieczone (ze skórą):  3 drachmy (rekompensaty)”, por. LSS 19, l. 32–33 (Ateny, ok. 360 p.n.e., genos Salaminioi), LSAM 46, l. 5 (Milet, ok. 300 r. p.n.e.).	
+                            μίστυλλέν τε καὶ ἀμφ᾽ ὀβελοῖσιν ἔπειρεν: – „pokrajał i nadział na rożny”; dwa czasowniki wyrażające techniczne przygotowanie do upieczenia souvlaków: świniopas kroi mięso na kawałki odpowiedniej wielkości, a następnie nadziewa na rożny. 
+                     </p>     <p>  74:	ὀπτήσας δ᾽ ἄρα πάντα – „gdy już upiekł wszystko”; tutaj i w innych miejscach mięso się piecze na rożnie lub ruszcie, a nie gotuje. 
+                      </p>     <p> 75: θέρμ᾽ αὐτοῖσ᾽ ὀβελοῖσιν – „gorące na rożnach”; rodzajnik αὐτοῖσ᾽ podkreśla bezpośrednie przekazanie całości upieczonego mięsa Odyseuszowi (dativus sociativus). Por. Hoekstra, ed. 1993: 204; Bowie, ed. 2013: 117; 177. W innych scenach mięso ściąga się z rożnów i kładzie na cienkich chlebach lub w koszykach.	
+                            ὁ δ᾽ ἄλφιτα λευκὰ πάλυνεν – „posypał je białą mąką”; zdaje się, że posypanie mąką nie ma w tym miejscu znaczenia rytualnego, tylko kulinarne.  
+                      </p>    <p>  80-81:	τά τε δμώεσσι πάρεστι / χοίρε᾽· ἀτὰρ σιάλους γε σύας μνηστῆρες ἔδουσιν: – „co przypada służącym, / prosiaki: tłuste wieprze jedzą zalotnicy”; przeciwstawienie tanich prosiaków, tłustym, wypasionym świniom zjadanym przez zalotników. Eumajos usprawiedliwia się w ten sposób przed gościem, że nie może go poczęstować bardziej „prestiżowym” posiłkiem. 
+                      </p>   <p>   82:	οὐκ ὄπιδα φρονέοντες ἐνὶ φρεσὶν οὐδ᾽ ἐλεητύν – „którzy pomsty bożej nie mają w sercach ani współczucia”; kluczowe słowo ὄπις łączy się z ideą bogów patrzących na działania ludzkie i interweniujących w przypadku przekroczenia norm: rozważni ludzie powinni mieć na uwadze to boskie spojrzenie i uwzględniać je w swoich działaniach. 
+                </p>   <p>         94:	οὔ ποθ᾽ ἓν ἱρεύουσ᾽ ἱερήϊον οὐδὲ δύ᾽ οἶα – „nie składają w ofierze (tylko) jednej ofiary albo dwóch”; liczba ofiar składanych przez zalotników przywyższa zwyczajową normę; wyrażenie podkreśla nadmiar ofiar. A.M. Bowie przywołuje w swoim komentarzu podobne zwroty: Od. 16.245–246; 12.154–155. Wydaje się zatem, że nieustanne, ciągłe ucztowanie zalotników, nawet jeśli łączy się ze składaniem ofiar, jest wykroczeniem w świecie ludzkim, choć może cechować zachowanie istot nadprzyrodzonych. W ten sposób ucztuje na przykład Eol i jego rodzina, Od. 10.8–11.  
+                    </p>
+                </div>
+                <div type="textpart" n="Odyseja_XIV_245–251">
+                    <head>Odyseja XIV 245–251</head>
+                    <p>Wzmianka o ofierze i uczcie, która pojawia się w tej zmyślonej opowieści Odyseusza, jest szczególnie interesująca. Chodzi o narrację włączoną, wykorzystującą elementy tradycyjnej techniki epickiej, lecz jednocześnie zawierającej ważne odniesienia w rejestrze referencyjności nietradycyjnej.  </p>
+                    <quote>αὐτὰρ ἔπειτα    					245
+                        Αἴγυπτόνδε με θυμὸς ἀνώγει ναυτίλλεσθαι,
+                        νῆας ἐῢ στείλαντα, σὺν ἀντιθέοισ’ ἑτάροισιν.
+                        ἐννέα νῆας στεῖλα, θοῶς δ’ ἐσαγείρετο λαός. 
+                        ἑξῆμαρ μὲν ἔπειτα ἐμοὶ ἐρίηρες ἑταῖροι 
+                        δαίνυντ’· αὐτὰρ ἐγὼν ἱερήϊα πολλὰ παρεῖχον   		250
+                        θεοῖσίν τε ῥέζειν αὐτοῖσί τε δαῖτα πένεσθαι. 
+                    </quote>
+                    <quote>wówczas			245
+                        mnie serce skłoniło pożeglować do Egiptu,
+                        wyposażywszy dobrze okręty z podobnymi do bogów towarzyszami.
+                        Wyposażyłem dziewięć okrętów, szybko zgromadziłem załogę.
+                        Przez sześć dni wówczas wierni towarzysze
+                        u mnie ucztowali: a ja mnogie zwierzęta ofiarne dostarczałem	250
+                        i bogom składałem i gotowałem dla nich na ucztę.
+                    </quote>
+                    <p>249:	ἑξῆμαρ … / δαίνυντ’ – „przez sześć dni … / ucztowali”; wers formularny, który pojawia się również innym opowiadaniu Odyseusza, a mianowicie w scenie ofiary z krów Heliosa i przeciągającej się uczty jego towarzyszy (= Od. 12.397–398a). Oba wydarzenia mają pewne cechy wspólne – chodzi o długą ucztę połączoną z ofiarą przed wyruszeniem w daleką drogę, która zakończy się klęską lub katastrofą. Motyw ofiary i uczty przed wyruszeniem w podróż lądową lub morską wydaje się należeć do tradycyjnego repertuaru pieśniarzy, por. Od. 3.418–486; 13.16–62 oraz 15.92–159.
+             </p> <p>           250–251:	αὐτὰρ ἐγὼν ἱερήϊα πολλὰ παρεῖχον / θεοῖσίν τε ῥέζειν αὐτοῖσί τε δαῖτα πένεσθαι – „a ja mnogie zwierzęta ofiarne dostarczałem / i bogom składałem i dla nas samych gotowałem na ucztę”; Odyseusz jako dowódca wyprawy łupieżczej podejmuje swoich towarzyszy ucztą, której w rejestrze heroicznym odpowiada uczta heroiczna. Zgodnie z normą gospodarz podejmuje swoich gości dostarczając zwierzęta, które zostaną złożone w ofierze zgodnie z regułami rytuału religijnego, a ich mięso będzie zjedzone podczas uczty. 	ἱερήϊα – „zwierzęta ofiarne”; mimo zastrzeżeń Paula Stengela (Stengel 1910 [1970]: 1) należy uznać, że chodzi o zwierzęta, które będą składane w ofierze. Składnia ῥέζειν +  ἱερήϊα jest zbudowana na tym samym wzorze ῥέζειν + βοῦν, „złożyć w ofierze wołu” lub ἔρδω + ἡκατόμβην „złożyć hekatombę”. Nie ma zatem potrzeby sugerować, że mamy tu do czynienia z zeugma i należy uzupełnić wers 251 o słowo ἱερά (Casabona 1966: 30). J. Casabona z kolei podkreśla, że w myśli Odyseusza na pierwszym planie znajduje się idea uczty, natomiast ofiary są wzmiankowane dodatkowo, ponieważ są koniecznym wprowadzeniem do uroczystego posiłku. Analiza scen zaokrętowania przeprowadzona przez Elisabeth S. Greene pokazała, że ofiary są ich niezbędnym elementem; od nich bowiem zależy powodzenie wyprawy (Greene 1995). 
+                    </p>
+                </div>
+                <div type="textpart" n="Odyseja_XIV_414–456">
+                    <head>Odyseja XIV 414–456</head>
+                    <p>Ofiara z wieprza złożona przez Eumajosa dla uczczenia gościa, Odyseusza przybyłego w przebraniu żebraka, jest pod wieloma względami nietypowa. Z jednej strony jest to jedyny opis wykorzystujący pewne elementy sceny typowej – ofiara krawawa, w którym zwierzęciem ofiarnym nie jest krowa lub wół. Jednak nie wszystkie modyfikacje sceny typowej można przypisać tej różnicy. Z punktu widzenia zamysłu narracyjnego ofiara Eumajosa jest przeciwstawiona ubojowi zwierząt dokonywanemu na uczty zalotników. Narrator podkreśla roztropność i gościnność świniopasa, jego pragnienie należytego ugoszczenia nawet najbiedniejszego gościa i pamięć o spełnieniu rytów dla bogów. Poeta gra konwencją, wykorzystując w sposób humorystyczny wersy właściwe dla ofiar składanych przez królów w nowym kontekście wiejskiej zagrody. Z punktu widzenia historyka religii najciekawszy jest brak kluczowego rytu dla ofiary typu thysia opisywanej w scenach typowych – spalenia kości udowych owiniętych w tłustą błonę otrzewnej i pieczenia podrobów. Zamiast tego mamy ofiarę pierwocinową z surowego mięsa włożonego w tłustą błonę oraz dwa inne ryty określone jako „pierwociny” – szczeć zwierzęcia wrzucona w ogień na samym początku rytuału podczas pierwszej modlitwy oraz kawałki pieczystego spalone dla bogów przed libacją i nocnym piciem wina. Ponadto Nimfy i Hermes otrzymują jedną z siedmiu części pieczystego w rytuale przypominającym theoksenia z epoki klasycznej. Na temat ofiary Eumajosa, zob. Kadletz 1984; Petropoulou 1987..</p>
+                    <quote>αὐτὰρ ὁ οἷσ᾽ ἑτάροισιν ἐκέκλετο δῖος ὑφορβός· 				413
+                        "ἄξεθ᾽ ὑῶν τὸν ἄριστον, ἵνα ξείνῳ ἱερεύσω 
+                        τηλεδαπῷ· πρὸς δ᾽ αὐτοὶ ὀνησόμεθ᾽, οἵ περ ὀϊζὺν 				415
+                        δὴν ἔχομεν πάσχοντες ὑῶν ἕνεκ᾽ ἀργιοδόντων· 
+                        ἄλλοι δ᾽ ἡμέτερον κάματον νήποινον ἔδουσιν." 
+                        ὣς ἄρα φωνήσας κέασε ξύλα νηλέϊ χαλκῷ· 
+                        οἱ δ᾽ ὗν εἰσῆγον μάλα πίονα πενταέτηρον. 
+                        τὸν μὲν ἔπειτ᾽ ἔστησαν ἐπ᾽ ἐσχάρῃ· οὐδὲ συβώτης 				420
+                        λήθετ᾽ ἄρ᾽ ἀθανάτων· φρεσὶ γὰρ κέχρητ᾽ ἀγαθῇσιν· 
+                        ἀλλ᾽ ὅ γ᾽ ἀπαρχόμενος κεφαλῆς τρίχας ἐν πυρὶ βάλλεν 
+                        ἀργιόδοντος ὑὸς καὶ ἐπεύχετο πᾶσι θεοῖσι 
+                        νοστῆσαι Ὀδυσῆα πολύφρονα ὅνδε δόμονδε. 
+                        κόψε δ᾽ ἀνασχόμενος σχίζῃ δρυός, ἣν λίπε κείων· 				425
+                        τὸν δ᾽ ἔλιπε ψυχή. τοὶ δ᾽ ἔσφαξάν τε καὶ εὗσαν, 
+                        αἶψα δέ μιν διέχευαν· ὁ δ᾽ ὠμοθετεῖτο συβώτης, 
+                        πάντων ἀρχόμενος μελέων, ἐς πίονα δημόν. 
+                        καὶ τὰ μὲν ἐν πυρὶ βάλλε, παλύνας ἀλφίτου ἀκτῇ, 
+                        μίστυλλόν τ᾽ ἄρα τἆλλα καὶ ἀμφ᾽ ὀβελοῖσιν ἔπειρον			430
+                        ὤπτησάν τε περιφραδέως ἐρύσαντό τε πάντα,  
+                        βάλλον δ᾽ εἰν ἐλεοῖσιν ἀολλέα. ἂν δὲ συβώτης 
+                        ἵστατο δαιτρεύσων· περὶ γὰρ φρεσὶν αἴσιμα ᾔδη. 
+                        καὶ τὰ μὲν ἕπταχα πάντα διεμμοιρᾶτο δαΐζων· 
+                        τὴν μὲν ἴαν  Νύμφῃσι καὶ  Ἑρμῇ,  Μαιάδος υἷι, 				435
+                        θῆκεν ἐπευξάμενος, τὰς δ᾽ ἄλλας νεῖμεν ἑκάστῳ· 
+                        νώτοισιν δ᾽  Ὀδυσῆα διηνεκέεσσι γέραιρεν 
+                        ἀργιόδοντος ὑός, κύδαινε δὲ θυμὸν ἄνακτος.  
+                        καί μιν φωνήσας προσέφη πολύμητις Ὀδυσσεύς·
+                        „αἴθ’ οὕτως, Εὔμαιε, φίλος Διὶ πατρὶ γένοιο   				440
+                        ὡς ἐμοί, ὅττι με τοῖον ἐόντ’ ἀγαθοῖσι γεραίρεις.”
+                        τὸν δ’ ἀπαμειβόμενος προσέφης, Εὔμαιε συβῶτα·
+                        “ἔσθιε, δαιμόνιε ξείνων, καὶ τέρπεο τοῖσδε,
+                        οἷα πάρεστι· θεὸς δὲ τὸ μὲν δώσει, τὸ δ’ ἐάσει,
+                        ὅττι κεν ᾧ θυμῷ ἐθέλῃ· δύναται γὰρ ἅπαντα.”    				445
+                        ἦ ῥα, καὶ ἄργματα θῦσε θεοῖσ’ αἰειγενέτῃσι, 
+                        σπείσας δ’ αἴθοπα οἶνον Ὀδυσσῆϊ πτολιπόρθῳ 
+                        ἐν χείρεσσιν ἔθηκεν· ὁ δ’ ἕζετο ᾗ παρὰ μοίρῃ.
+                    </quote>
+                    <quote>„Przyprowadzicie najlepszego wieprza, bym złożył ofiarę dla gościa 
+                        przybyłego z daleka: nadto skorzystamy i my, którzy i udrękę
+                        znosimy z powodu świń srebnokłych, 
+                        a inni zaś nasz trud bezkarnie zjadają”. 
+                        To rzekłszy porąbał drwa bezlitosnym spiżem, 
+                        a ci przywiedli wieprza, bardzo tłustego, pięcioletniego. 
+                        Ustawili go wówczas przy ognisku, świniopas 				420
+                        nie zapomniał o nieśmiertelnych, miał bowiem dobre myśli, 
+                        lecz, zaczynając, rzucił w płomień szczeć 
+                        srebnokływego wieprza i pomodlił się do wszystkich bogów 
+                        o powrót przemyślnego Odyseusa do swego domu. 
+                        Uderzył, wstawszy, dębową szczapą, którą odłożył rąbiąc: 		425
+                        opuściła wieprza dusza. Zarżnęli  go i osmalili, 
+                        szybko poćwiartowali: świniopas wkładał surowe mięso 
+                        jako pierwociny z wszystkich części w tłustą błonę otrzewnej; 
+                        i tę w ogień rzucił posypawszy mąką jęczmienną, 
+                        resztę kroili i nadziewali na rożny, 						430
+                        opiekli i ostrożnie ściągnęli sobie wszystko, 
+                        rzucali wszystko na stoły. Świniopas 
+                        wstał, aby dzielić: znał bowiem w sercu właściwe dole. 
+                        I dzielił wszystko wyznaczając siedem doli, 
+                        jedną dla Nimf i Hermesa, syna Mai, 					435
+                        położył wznosząc modły, inne przyznał każdemu; 
+                        uczcił Odyseusza całą polędwicą 
+                        białokływego wieprza, ucieszył ducha pana. 
+                        Sprytny Odyseusz rzekł do niego mówiąc: 
+                        „Eumajosie, obyś stał się tak miły Zeusowi ojcu 				440
+                        jak mnie, gdyż mnie takiego, jakim jestem, uczciłeś dobrymi rzeczami”. Odpowiedziałeś i ty, świniopasie Eumajosie: 
+                        „Jedz, boski gościu, i ciesz się tym, 
+                        co jest tutaj: bóg to da, to odbierze, 
+                        jak w swym duchu zapragnie: może bowiem wszystko”. 			445
+                        Rzekł. Spłonęły pierwociny dla bogów wiecznie żyjących, 
+                        a on wylawszy na obiatę ciemne wino, 
+                        włożył w ręce Odyseusza grodoburcy kubek ciemnego wina.
+                    </quote>
+                    <p>414:	ἄξεθ᾽ ὑῶν τὸν ἄριστον – „przyprowadźcie z wieprzy najlepszego”; wybór zwierzęcia ofiarnego oraz polecenie przyprowadzenia go do miejsca odprawienia obrzędu należą do częstych motywów w scenach typowych, chociaż zazwyczaj są stosowane do najbardziej uroczystej formy ofiary zwierzęcej składanej z wołu. Tutaj, stosownie do okoliczności, polecenie to odnosi się do wieprzy, które hoduje Eumajos. Ponadto wybór najlepszego zwierzęcia jest motywowany pragnienienim uhonorowania gościa, a nie szczególną czcią dla bóstwa. 
+                        ἄξεθ᾽ – „przyprowadźcie”; na temat formy imperatywu tego czasownika, zob. Hoekstra, ed. 1993: 233; Bowie, ed. 2013: 219. 	
+                        ἵνα ξείνῳ ἱερεύσω – „abym złożył ofiarę dla gościa”; czasownik ἱερεύω z rzeczownikiem lub zaimkiem oznaczającym „gość” w datiwie pojawia się w Odysei dwukrotnie (8.59, 14.414). Jean Casabona proponuje tłumaczenie „zabić [w ofierze] na cześć gościa” („immola [en sacrifice] en l’honneur de l’hôte”; Casabona 1966: 24). Z kolei Petropoulou sądzi, że wieprz nie został złożony w ofierze dla żadnego z bogów, lecz wyłącznie dla gościa. Bogowie natomiast otrzymują ofiary pierwocinowe, czyli należną im część zwierzęcia żywego (szczeć), surowego mięsa oraz mięsa upieczonego. 
+                   </p>   <p>  415:	πρὸς δ᾽ αὐτοὶ ὀνησόμεθ᾽ – „nadto skorzystamy i my”; praktyczne nastawienie Eumajosa i jego zdystansowanie się od praktyk zalotników, pozwala wprowadzić motyw korzyści, jaką ofiara z wieprza przyniesie dla jego hodowców. Zwrot może być także aluzją do zaleceń w tradycyjnym rejestrze heroicznym nakazującym bohaterom spożycie posiłku przed lub po trudach walki. 	
+                        οἵ περ ὀϊζὺν / δὴν ἔχομεν – „którzy udrękę / znosimy”; rzeczownik ὀϊζὺς może odnosić się również do walki na polu bitewnym i zawiera w sobie komponent nieszczęścia, udręki; tutaj został odniesiony do pracy świniopasów, zob. Bowie, ed. 2013: 213.
+                 </p>   <p>    418:	κέασε ξύλα νηλέϊ χαλκῷ – „porąbał drwa bezlitosnym spiżem”; w innych miejscach wyrażenie formularne νηλέϊ χαλκῷ – „bezlitosnym spiżem” odnosi się do mordu lub uboju (w kontekstach ofiarnych, Od. 10.523; Od. 11.45), tutaj wyjątkowo użyta w odniesieniu do przedmiotu nieożywionego, por. Bowie 2013: 213. W opisach ofiary heroicznej składanej przez członków elity zgodnie z konwencją pomija się ten element przygotowań do rytuału.
+                      </p> <p> 419:	οἱ δ᾽ ὗν εἰσῆγον – „a ci przywiedli wieprza”; przyprowadzenie zwierzęcia ofiarnego na miejsce uboju, często tożsame z ołtarzem, jest stałym elementem scenty typowej, zob. Wprowadzenie.	
+                        ὗν… μάλα πίονα πενταέτηρον – „wieprza… tłustego, pięcioletniego”; epitet πενταέτηρος – „pięcioletni” pełni w tym kontekście funkcję humorystyczną. Epitet pojawia się w eposie homeryckim jeszcze trzykrotnie, za każdym razem określając wołu w uroczystych ofiarach składanych przez Agamemnona (Il. 2.403 z komentarzem, Il. 7.315) i Autolykosa (Od. 19.420). Fraza jest z pewnością formularna, lecz jej użycie w tym kontekście zabawne, gdyż o ile pięć lat dla wołu hodowanego na mięso jest właściwe, to w przypadku wieprza czyniłoby mięso praktycznie niejadalnym. Zob. Bowie, ed. 2013: 23.
+                    </p>    <p>420:	τὸν μὲν ἔπειτ᾽ ἔστησαν ἐπ᾽ ἐσχάρῃ – „ustawili go wówczas przy palenisku”; rzeczownik ἐσχάρη – „palenisko” ma podwójną funkcję – jest miejscem, na którym płonie ognisko, lecz może mieć również znaczenie rytualne. Tutaj funkcjonalnie zastępuje ołtarz, przy którym ustawia się zwierzęta ofiarne. Wyraźniej funkcja sakralna związana z paleniskiem uwidacznia się w formularnym wersie przyzywającym Zeusa na świadka Od. 14.158–9 = 17.155.156 = 20.230–231, por. 19.303), gdzie jednak używa się rzeczownika ἱστίη, ognisko. Por. Hainsworth, ed. 1991: 236–237; Petropoulou 1987: 147–148.
+                      </p> <p> 420b–421:	οὐδὲ συβώτης / λήθετ᾽ ἄρ᾽ ἀθανάτων – „świniopas / nie zapomniał o nieśmiertelnych”; pamięć jako warunek podtrzymywania relacji wzajemności między ludźmi i bogami poprzez rytuał. Jeśli A. Petropoulou (ibidem: 136–137) ma rację, aojda podkreśla skrupulatność Eumajosa ze względu na to, że zwierzę ofiarne jest przeznaczone dla gościa, a nie dla bogów. Również zalotnicy zabijają zwierzęta z myślą o nasyceniu mięsem, jednak w przeciwieństwie do nich świniopas pamięta o bogach nieśmiertelnych, ofiarowując im cząstki zwierzęcia jako ofiary pierwocinowe. 
+                   </p>  <p>   422:	ἀλλ᾽ ὅ γ᾽ ἀπαρχόμενος κεφαλῆς τρίχας ἐν πυρὶ βάλλεν – „lecz składając pierwociny rzucił w płomień szczeć”; czasownik ἀπαρχόμενος, dosłownie: „rozpoczynając”, jest technicznym terminem oznaczającym rozpoczęcie procesu rytualnego. Dlatego można go przetłumaczyć przez „składając pierwociny, ofiarę pierwocinową”. Chodzi o ryt, w którym poświęca się bóstwu część całości (Suk Fong Jim 2014: 29–30). W przypadku ofiary krwawej chodzi o poświęcenie części zwierzęcia pod postacią uciętych z głowy włosy i ofiarowanie ich poprzez zniszczenie w ogniu, por. Od. 3.444 z komentarzem. Walter Burkert interpretował ten ryt jako znak końca nietykalności zwierzęcia, pierwszy gest przemocy (Burkert 1972: 13; Burkert 1985: 56, por. Eitrem 1915: 344–372). 
+                     </p> <p>  423b:	ἐπεύχετο πᾶσι θεοῖσι – „pomodlił się do wszystkich bogów”; modlitwa Eumajosa towarzyszy rytowi wrzucenia szczeci do ognia. W scenach typowych ofiara krwawa modlitwa jest wznoszona po wzięciu do ręki krup jęczmiennych, które następnie są wrzucane do ognia. Wydaje się, że oba ryty pełnią podobną funkcję rytów pierwocinowych, chociaż tylko w przypadku ofiary Eumajosa materiałem ofiarowanym jest część zwierzęcia. Na temat określenia πᾶσι θεοῖσι – „do wszystkich bogów”, które zdaje się przeczyć przekonaniu, że cała ofiara była poświęcona Nimfom i Hermesowi, zob. Petropoulou 1987: 136.
+                     </p>   <p>425:	κόψε δ᾽ ἀνασχόμενος σχίζῃ δρυός – „uderzył, wstawszy, dębową szczapą”: włączenie do narracji ciosu zadanego zwierzęciu jest elementem opisu ofiary krwawej w Odysei (por. Od. 3.449), lecz nie w scenach typowych w Iliadzie, gdzie śmierć zwierzęcia wyraża czasownik σφάζειν, zarżnąć, a zatem skupia się na przecięciu tętnic w celu wykrwawienia ofiary.  
+                </p>      <p>  426:	τὸν δ᾽ ἔλιπε ψυχή : – „opuściła wieprza dusza”; wolna dusza ψυχή jest elementem życia w organizmach żywych, zarówno ludziach, jak i zwierzętach. W eposie może swobodnie opuścić ciało podczas utraty świadomości lub śmierci. Charakterystyczne, że podobnie jak θύμος odnosi się bez rozróżnienia do wszystkich istot żywych. Na temat wczesnej koncepcji duszy, zob. Bremmer 1983. 	
+                        τοὶ δ᾽ ἔσφαξάν τε καὶ εὗσαν – „zarżnęli go i osmalili”; na temat czasownika εὕω w znaczeniu „opalać, osmalić”, zob. Od. 14.73 z komentarzem. W przypadku ofiary ze świni opalenie funkcjonalnie odpowiada zdjęciu skóry. 
+                     </p>  <p> 427–429: Poćwiartownie mięsa świni, podobnie jak w przypadku krowy dla Ateny (Od. 3.456) następuje bezpośrednio po uboju i opaleniu skóry, natomiast ryt wytrybowania kości udowych i owinięcie ich w tłuszcz zostaje zastąpiony wycięciem surowych kawałków mięsa ze wszystkich części zwierzęcia i włożenie ich w tłustą błonę otrzewnej, a następnie posypanie mąką i wrzucienie do ognia. 
+                        αἶψα δέ μιν διέχευαν – „szybko go poćwiartowali”; hemistych formularny (= Od. 3.456), jednak dalszy opis procedury jest już dostosowany do okoliczności ofiary świniopasa.	■ ὁ δ᾽ ὠμοθετεῖτο συβώτης / πάντων ἀρχόμενος μελέων – „świniopas wkładał surowe mięso / jako pierwociny z wszystkich części”;  warto zwrócić uwagę, że w ofierze z bydła, surowe kawałki mięsa kładzie się na tłuszcz ukrywający kości udowe, tutaj zaś mięso jest wkładane do środka, a zatem funkcjonalnie odpowiada samym kościom, natomiast na wierzch sypie się mąkę. W sprawie ὠμοθετέω zob. Il. 1.461b z komentarzem, Suk Fong Jim 2014: 30, przyp. 7 (tam dalsza bibliografia). 
+                     </p>   <p>428:	ἐς πίονα δημόν – „w tłustą błonę otrzewnej”; błona otrzewnej jako synonim κνίση. 
+                        </p><p>429:	καὶ τὰ μὲν ἐν πυρὶ βάλλε – „i te w ogień rzucił”; podobnie jak w przypadku kości udowych, również kawałki mięsa z tłuszczem są spalane. 
+                        παλύνας ἀλφίτου ἀκτῇ – „posypawszy mąką jęczmienną”; posypanie ofiary pierwocinowej mąką jęczmienną przed spaleniem upadabnia ją do posiłku ludzkiego, w czasie którego również posypywano mięso mąką, jednak robiono to po usmażeniu, a nie przed. 
+                      </p> <p> 430–431:	Wersy formularne ze sceny typowej ofiara krwawa (= Il. 1.465–466 z komentarzem).  
+                     </p><p>   434:	καὶ τὰ μὲν ἕπταχα πάντα διεμμοιρᾶτο δαΐζων – „i dzielił wszystko wyznaczając siedem doli”; równy podział mięsa był stałą praktyką greckiej ofiary zwierzęcej i uczty heroicznej (por. Od. 20.281–282). Ta ogólna zasada nie stoi w sprzeczności ze zwyczajem przydzielania lepszego kawałka mięsa wyróżnionemu uczestnikowi, zob. niżej 437. 
+                  </p>  <p>    435–436: τὴν μὲν ἴαν Νύμφῃσι καὶ  Ἑρμῇ … / θῆκεν ἐπευξάμενος – „jedną dla Nimf i Hermesa… położył wznosząc modły”; odkładając dla bogów część mięsa przeznaczonego w normatywnym rytuale dla ludzi, Odyseusz postępuje zgodnie z poświadczonym w późniejszym okresie rytuałem theoksenia, z jedną zasadniczą różnicą – w przypadku theoksenii, zwanej w inskrypcjach trapeza – „stół”, część przeznaczoną dla bogów odkładano na specjalnym stole rytualnym, tutaj natomiast Eumajos kładzie część dla Nimf i Hermesa na tym samym meblu, na którym znajdą się porcje przeznaczone dla ludzkich biesiadników, zob. Ekroth 2002: 277. Na temat znaczenia ofiary dla Nimf i Hermesa, zob. Petropoulou 1987: 144–145.
+                 </p> <p>      437:	νώτοισιν δ᾽  Ὀδυσῆα διηνεκέεσσι γέραιρεν – „uczcił Odyseusza całą polędwicą”; podczas uczt heroicznych podanie polędwicy oznacza oddanie szczególnej czci. Niewątpliwie jest to związane z najwyższą wartością smakową tej części zwierzęcia, por. h.hom.Herm. 122. W podobny sposób Odyseusz został uhonorowany na Scherii (Od. 8.475–476), a Telemachos w Sparcie przez Menelaosa (Od. 4.65–66). Por. Il. 7.321–322 z komentarzem. Herodot pisze o polędwicy jako darze zaszczytnym królów Sparty (Hdt 6.56). Przymiotnik διηνεκέεσσι pokreśla, że Odyseusz otrzymał polędwicę w całości, a zatem z nikim jej nie dzieli. 
+              </p>       <p>   446:	καὶ ἄργματα θῦσε θεοῖσ’ αἰειγενέτῃσι – „spłonęły pierwociny dla bogów wiecznie żyjących”: rzeczownik ἄργματα, „pierwociny”, odnosi się tutaj do części upieczonego mięsa wrzuconego do ognia. Petropoulou (1987: 138–139) interpretuje ἄργματα jako kawałki z sześciu części przydzielonych Odyseuszowi i pasterzom. Chodzi zatem o trzecią ofiarę pierwocinową, tym razem z mięsa upieczonego. 
+                    </p>
+                </div>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

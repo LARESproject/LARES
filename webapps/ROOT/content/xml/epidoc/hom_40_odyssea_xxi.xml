@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Odissea canto XXI</title>
+                <title xml:lang="en">Odyssey book XXI</title>
+                <title xml:lang="pl">Odyseja, pieśń XXI</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_40_odyssea_xxi</idno> 
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Odyseja, pieśń XXI</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 281-282</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-03-24" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Pieśń dwudziesta pierwsza opowiada dalszy ciąg wydarzeń 40. dnia akcji Odysei. Jej głównym tematem jest konkurs łuczniczy ogłoszony przez Penelopę. Wzmianka o ofierze pojawia się w mowie Antinoosa, który przypomina o święcie Apollona i proponuje odłożenie dalszej części konkursu na dzień następny, po złożeniu ofiar bogu.</p>
+                </div>
+                <div type="textpart" n="Odyseja_XXI_256–268">
+                    <head>Odyseja XXI 256–268</head>
+                    <p>Antinoos proponuje dokończenie konkursu dnia następnego, po złożeniu ofiar dla Apollona, i spełnienie ofiary płynnej dla tego boga. </p>
+                    <quote>
+                        <lb/>τὸν δ᾽ αὖτ᾽  Ἀντίνοος προσέφη,  Εὐπείθεος υἱός· 					
+                        <lb/>„Εὐρύμαχ᾽, οὐχ οὕτως ἔσται· νοέεις δὲ καὶ αὐτός. 
+                        <lb/>νῦν μὲν γὰρ κατὰ δῆμον ἑορτὴ τοῖο θεοῖο 
+                        <lb/>ἁγνή· τίς δέ κε τόξα τιταίνοιτ᾽; ἀλλὰ ἕκηλοι 
+                        <lb n="260"/> κάτθετ᾽. ἀτὰρ πελέκεάς γε καὶ εἴ κ᾽ εἰῶμεν ἅπαντας
+                        <lb/>ἑστάμεν· οὐ μὲν γάρ τιν᾽ ἀναιρήσεσθαι ὀΐω, 
+                        <lb/>ἐλθόντ᾽ ἐς μέγαρον  Λαερτιάδεω  Ὀδυσῆος. 
+                        <lb/>ἀλλ᾽ ἄγετ᾽, οἰνοχόος μὲν ἐπαρξάσθω δεπάεσσιν, 
+                        <lb/>ὄφρα σπείσαντες καταθείομεν ἀγκύλα τόξα· 
+                        <lb n="265"/>ἠῶθεν δὲ κέλεσθε  Μελάνθιον, αἰπόλον αἰγῶν, 
+                        <lb/>αἶγας ἄγειν, αἳ πᾶσι μέγ᾽ ἔξοχοι αἰπολίοισιν, 
+                        <lb/>ὄφρ᾽ ἐπὶ μηρία θέντες  Ἀπόλλωνι κλυτοτόξῳ 
+                        <lb/>τόξου πειρώμεσθα καὶ ἐκτελέωμεν ἄεθλον”. 
+                    </quote>
+                    <quote>
+                        <lb/>Powiedział mu wówczas Antinoos, syn Eupejthesa,					
+                        <lb/>„Eurymachosie, tak to nie będzie! To wiesz i ty!
+                        <lb/>Teraz bowiem w kraju jest święto tego boga,
+                        <lb/>czcigodne: któżby napinał łuk? Lecz spokojnie
+                        <lb n="260"/>odłóżcie go, także topory, jeśli pozwolimy, aby wszystkie
+                        <lb/>pozostały, nikt ich nie weźmie, jak sądzę,
+                        <lb/>wchodząc do domu Odyseusza, syna Laertesa.
+                        <lb/>Nuże, podczaszy niech zacznie od kielichów,
+                        <lb/>byśmy złożywszy libację odłożyli łuki zakrzywione:
+                        <lb n="265"/>każcie o świcie Melantiosowi, koźlarzowi pasącemu kozy,
+                        <lb/>przyprowadzić kozy, które wyróżniają się we wszystkich stadach,
+                        <lb/>gdyż, kości udowe złożywszy Apollonowi sławnemu łukiem,
+                        <lb/>na nowo podejmiemy próbę łuku i dokończymy zawody”.
+                    </quote>
+                    <p>258–259: νῦν μὲν γὰρ κατὰ δῆμον ἑορτὴ τοῖο θεοῖο / ἁγνή – „teraz bowiem w kraju jest święto tego boga / czcigodne”; chodzi oczywiście o święto Apollona; przymiotnik ἁγνή, emfatycznie użyty po przerzutni na początku heksametru, może charakteryzować sanktuaria, gaje (h.hom.Hermes 186–187), a także przedmioty kultowe. Wskazuje na nienaruszalność czasu świątecznego i konieczność pamiętania o należnych bogu ofiarach.</p>
+                    <p>264: ἠῶθεν – „o świcie”; zalotnicy świtu nie dożyją, ich pycha, przejawiająca się między innymi w zaniedbaniu święta Apollona, stanie się przyczyną zguby. </p>
+                    <p>265–266: koźlarz Melantios dostarcza, podobnie jak inni pasterze strzegący stad, zwierząt na ofiary.</p>
+                    <p>267: ὄφρ᾽ ἐπὶ μηρία θέντες  Ἀπόλλωνι κλυτοτόξῳ – „gdyż, kości udowe złożywszy Apollonowi sławnemu łukiem”; po raz pierwszy zalotnicy mówią o złożeniu ofiary z wymienieniem imienia boga, dla którego rytuał będzie odprawiony, i wspomnieniem kości udowych, czyli części przeznaczonej dla bogów. W pozostałych przypadkach jedynie czasownik ἱερεύω wskazywał na ofiarniczy charakter uboju.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

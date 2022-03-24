@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Odissea canto VIII</title>
+                <title xml:lang="en">Odyssey book VIII</title>
+                <title xml:lang="pl">Odyseja, pieśń VIII</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_28_odyssea_viii</idno> 
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Odyseja, pieśń VIII</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 219-220</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-03-24" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Pieśń VIII otwiera długie opowiadanie o dniu świątecznym u Feaków, podczas którego Odyseusz opowie zgromadzonym o swojej wędrówce. Opowiadanie o 31. dniu akcji zakończy się w pieśni trzynastej (Od. 13.17; zob. de Jong  xxxx). Pieśń rozpoczyna publiczne zaproszenie na zgromadzenie (1–47) i wstępne przygotowania do podróży do domu dla gościa, po czym następuje złożenie ofiar zwierzęcych zapowiedzianych dnia poprzedniego i przyrządzenie posiłku.</p>
+                </div>
+                <div type="textpart" n="Odyseja_VIII_57–64">
+                    <head>Odyseja VIII 57–64</head>
+                    <p>Zgodnie z konwencją epicką narrator opowiada szczegółowo spełnienie rozkazów Alkinoosa. Strunktura tekstu przedstawia się następująco (de Jong 2001: 194):</p>
+                    <p>46–47a		królowie podążają za Alkinoosem do pałacu</p>
+                    <p>47b		wysłanie keryksa po aojdę</p>
+                    <p>48–55a		młodzieńcy przygotowują okręt</p>
+                    <p>55b–56	młodzieńcy przychodzą do pałacu Alkinoosa</p>
+                    <p>57–58		zgromadzenie wszystkich w pałacu</p>
+                    <p>59–60		Alkinoos składa ofiarę</p>
+                    <p>61 		przygotowanie posiłku</p>
+                    <p>62		keryks wraca z aojdą</p>
+                    <p>Samo złożenie ofiary nie jest sceną typową, narrator nie stosuje wersów formularnych. Skupia się raczej na wyliczeniu zwierząt przeznaczonych do uboju, co podkreśla gościnność Alkinoosa i jego życzliwość wobec Odyseusza. Wers formularny pojawia się za to w miejscu, gdzie narrator krótko przedstawia przygotowanie uczty mięsnej (61).</p>
+                    <quote>
+                        <lb/>πλῆντο δ᾽ ἄρ᾽ αἴθουσαί τε καὶ ἕρκεα καὶ δόμοι ἀνδρῶν 
+                        <lb/>[ἀγρομένων· πολλοὶ δ᾽ ἄρ᾽ ἔσαν, νέοι ἠδὲ παλαιοί.] 
+                        <lb/>τοῖσιν δ᾽  Ἀλκίνοος δυοκαίδεκα μῆλ᾽ ἱέρευσεν, 
+                        <lb n="60"/>ὀκτὼ δ᾽ ἀργιόδοντας ὕας, δύο δ᾽ εἰλίποδας βοῦς·
+                        <lb/>τοὺς δέρον ἀμφί θ᾽ ἕπον, τετύκοντό τε δαῖτ᾽ ἐρατεινήν. 
+                        <lb/>κῆρυξ δ᾽ ἐγγύθεν ἦλθεν ἄγων ἐρίηρον ἀοιδόν, 
+                        <lb/>τὸν περὶ  Μοῦσ᾽ ἐφίλησε, δίδου δ᾽ ἀγαθόν τε κακόν τε· 
+                        <lb/>ὀφθαλμῶν μὲν ἄμερσε, δίδου δ᾽ ἡδεῖαν ἀοιδήν.  
+                    </quote>
+                    <quote>
+                        <lb/>Już sienie, podwórce i komnaty wypełniły się mężami
+                        <lb/>[zgromadzonymi: liczni bowiem byli, młodzi i starzy.]
+                        <lb/>Dla nich Alkinoos dwanaście owiec poświęcił,
+                        <lb n="60"/>osiem srebnokławych świń i dwa włókonogie woły:
+                        <lb/>zdjęli z nich już skórę i przyrządzili na upragnioną ucztę.
+                        <lb/>Herold wszedł przyprowadzając dzielnego aojda,
+                        <lb/>którego umiłowała Muza, dała i dobro i zło:
+                        <lb/>odjęła mu wzrok, dała zaś słodką pieśń.
+                    </quote>
+                    <p>59–60: Alkinoos, podejmując mieszkańców Scherii, zabija zwierzęta: dwanaście owiec, osiem świń i dwa woły. Jeśli wziąć wartość zwierząt w okresie klasycznym, zostały one wymienione w kolejności od najtańszych do najdroższych. Trzy gatunki tworzą również klasyczne zestawienie zwierząt hodowlanych zabijanych w regularnej ofierze, czasami, jak w przypadku rzymskiej ofiary lustralnej suovetaurilia, zestawiane rytualnie.</p>
+                    <p>δυοκαίδεκα μῆλ᾽ ἱέρευσεν – „dwanaście owiec poświęcił”; jeden z dwóch przypadków (por. Od. 14.414) użycia czasownika ἱερεύω z rzeczownikiem oznaczającym gościa (ksenos) w datiwie. Bez datiwu, jednak w analogicznej sytuacji, czasownik został użyty w epizodzie Glaukosa i Diomedesa w pieśni VI Iliady. We wszystkich przypadkach chodzi o akt zabicia zwierzęcia w ofierze (na co wskazuje semantyka tematu czasownika), aby uczcić gościa. Jean Casabona zauważa, że użycie czasownika ἱερεύω łączy tutaj dwa znaczenia „złożyć w ofierze” oraz „dokonać uboju dla pozyskania mięsa” (Casabona 1966: 24).</p>
+                    <p>61: τοὺς δέρον ἀμφί θ᾽ ἕπον, τετύκοντό τε δαῖτ᾽ ἐρατεινήν – „zdjęto z nich już skórę i przyrządzono na uprawnioną ucztę”; oskórowanie zwierząt w sensie ścisłym dotyczy wołów i być może owiec. Świnie pieczono po opaleniu szczeci (Il. 9.468; Il. 23.33). Pierwszy hemistych ma charakter formularny, w Od. 19.421, z wariantem uwzględniającym liczbę, dotyczy on wołu sprawionego w domu Odyseusza.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

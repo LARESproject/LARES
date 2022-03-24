@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Odissea canto II</title>
+                <title xml:lang="en">Odyssey book II</title>
+                <title xml:lang="pl">Odyseja, pieśń II</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_23_odyssea_ii</idno> 
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Odyseja, pieśń II</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 185-186</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-03-24" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Druga pieśń obejmuje wydarzenia drugiego dnia, który wypełniają zgromadzenie obywatelskie w Itace zapowiedziane przez Telemacha pierwszego dnia (1–259), przygotowania do podróży Telemacha (260–381) oraz wypłynięcie okrętu do Pylos (382–434). Motyw ofiary zwierzęcej nie pojawia się bezpośrednio, gdyż zgodnie z zamysłem poety ubój zwierząt oraz masowa konsumpcja mięsa przez zalotników nie są ujmowane bezpośrednio w kategoriach religijnych. Z punktu widzenia badań nad ofiarą ważne są miejsca, w których mówi się o zjadaniu mięsa przez zgromadzonych w domu Odyseusza zalotników, co w normalnych okolicznościach powinno być elementem uczty świątecznej lub uroczystości publicznych. </p>
+                </div>
+                <div type="textpart" n="Odyseja_II">
+                    <head>Odyseja II</head>
+                    <p>Przemówienie Telemacha na zgromadzeniu w Itace, na którym syn Odyseusza żali się na swój podwójnie zły los: po pierwsze stracił ojca, po drugie może stracić dom i majątek z powodu buty zalotników.</p>
+                    <quote>
+                        <lb n="55"/>οἱ δ᾽ εἰς ἡμετέρου πωλεύμενοι ἤματα πάντα,
+                        <lb/>βοῦς ἱερεύοντες καὶ ὄϊς καὶ πίονας αἶγας, 
+                        <lb/>εἰλαπινάζουσιν πίνουσί τε αἴθοπα οἶνον 
+                        <lb/>μαψιδίως· τὰ δὲ πολλὰ κατάνεται. οὐ γὰρ ἔπ᾽ ἀνήρ, 
+                        <lb/>οἷος  Ὀδυσσεὺς ἔσκεν, ἀρὴν ἀπὸ οἴκου ἀμῦναι.
+                        <lb/>[…]
+                        <lb/>ἐμοὶ δέ κε κέρδιον εἴη 				
+                        <lb/>ὑμέας ἐσθέμεναι κειμήλιά τε πρόβασίν τε· 
+                    </quote>
+                    <quote>
+                        <lb n="55"/>A ci nas nachodzą każdego dnia,
+                        <lb/>składają w ofierze woły i owce oraz tłuste kozy,
+                        <lb/>ucztują i piją ciemne wino
+                        <lb/>bez umiarkowania. Ogromne straty. I nie masz męża
+                        <lb/>jakim był Odyseusz, aby zapobiec upadkowi domu.
+                        <lb/>[…]
+                        <lb/>Zaiste dla mnie lepiej by było					
+                        <lb/>gdybyście zjadali wasz dobytek i stada	
+                    </quote>
+                    <p>56: βοῦς ἱερεύοντες καὶ ὄϊς καὶ πίονας αἶγας – „składają w ofierze woły i owce oraz tłuste kozy”; czasownik odrzeczownikowy ἱερεύω jest zbudowany na rzeczowniku ἱερεύς, którego znaczenie ściśle wiąże się z przymiotnikiem ἱερός – „święty”. Prototyp semantyczny rzeczownika ἱερεύς można zdefiniować jako „ten, który wykonuje święte obrzędy”. Czasownik wskazuje zatem na wykonywanie konkretnych rytuałów, czyli spełnianie konkretnej funkcji społecznej. Ponieważ najważniejszym rytuałem religii greckiej okresu archaicznego była ofiara krwawa, pole semantyczne czasownika zawiera dwa aspekty trudne do oddania w językach nowożytnych – oznacza zarazem „ofiarować”, „złożyć w ofierze”, „poświęcić”, jak i „dokonać uboju przed ucztą”, „zabić na ucztę”, zob. Casabona 1966: 24.</p>
+                </div>
+                <div type="textpart" n="Odyseja_II">
+                    <head>Odyseja II</head>
+                    <p>Telemach zwraca się do zalotników zgromadzonych w jego domu odwołując się do normy, które w okresie archaicznym będzie charakteryzować bisiadowanie arystokratyczne. Zob. Węcowski 2011: 207.</p>
+                    <quote>
+                        <lb/>ὑμέτερος δ᾽ εἰ μὲν θυμὸς νεμεσίζεται αὐτῶν, 
+                        <lb/>ἔξιτέ μοι μεγάρων, ἄλλας δ᾽ ἀλεγύνετε δαῖτας 
+                        <lb/>ὑμὰ κτήματ᾽ ἔδοντες ἀμειβόμενοι κατὰ οἴκους.
+                    </quote>
+                    <quote>
+                        <lb/>jeśli wasze serce potrafi oburzyć się na niesprawiedliwość,
+                        <lb/>opuśćcie moje komnaty, zatroszczcie się o inne uczty
+                        <lb/>zjadając wasz dobytek, przechodząc z domu do domu.
+                    </quote>
+                    <p>139: ἄλλας δ᾽ ἀλεγύνετε δαῖτας – „zatroszczcie się o inne uczty”; zjadanie podczas uczty heroicznej mięsa zwierząt ofiarnych grozi ruiną gospodarki Odyseusza. Złamanie zasady wzajemności stanowi wykroczenie przeciwko normom społecznym.</p>
+                </div>
+            
+            </div>
+            
+        </body>
+    </text>
+</TEI>

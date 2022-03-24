@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Odissea canto XV</title>
+                <title xml:lang="en">Odyssey book XV</title>
+                <title xml:lang="pl">Odyseja, pieśń XV</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_35_odyssea_xv</idno> 
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Odyseja, pieśń XV</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 259-260</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-03-24" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Pieśń piętnasta opowiada o powrocie Telemacha na Itakę. Wzmianka o ofierze pojawia się w scenie wypłynięcia na morze.</p>
+                </div>
+                <div type="textpart" n="Odyseja_XV_222–223_256–261">
+                    <head>Odyseja XV 222–223; 256–261</head>
+                    <p>Telemach przygotowuje się do wypłynięcia na morze i powrotu na Itakę. Zgodnie ze zwyczajem przed podjęciem podróży morskiej składa ofiary.</p>
+                    <quote>
+                        <lb/>ἦ τοι ὁ μὲν τὰ πονεῖτο καὶ εὔχετο, θῦε δ᾽  Ἀθήνῃ 
+                        <lb/>νηῒ πάρα πρυμνῇ· σχεδόθεν δέ οἱ ἤλυθεν ἀνὴρ  
+                        <lb/>[…]
+                        <lb n="256"/>τοῦ μὲν ἄρ᾽ υἱὸς ἐπῆλθε,  Θεοκλύμενος δ᾽ ὄνομ᾽ ἦεν,
+                        <lb/>ὃς τότε  Τηλεμάχου πέλας ἵστατο· τὸν δ᾽ ἐκίχανε 
+                        <lb/>σπένδοντ᾽ εὐχόμενόν τε θοῇ παρὰ νηῒ μελαίνῃ,  
+                        <lb/>καί μιν φωνήσας ἔπεα πτερόεντα προσηύδα· 
+                        <lb n="260"/>‘ὦ φίλ᾽, ἐπεί σε θύοντα κιχάνω τῷδ᾽ ἐνὶ χώρῳ,
+                        <lb/>λίσσομ᾽ ὑπὲρ θυέων καὶ δαίμονος…’
+                    </quote>
+                    <quote>
+                        <lb/>Przygotowywał [okręt] i modlił się, a ofiary składał Atenie
+                        <lb/>przy rufie okrętu – w pobliżu niego pojawił się mąż
+                        <lb/>[…]
+                        <lb n="256"/>Przybył właśnie jego syn, na imię miał Teoklymenos
+                        <lb/>i stał przed Telemachem. Znalazł go
+                        <lb/>lejącego libacje i modlącego się przy czarnym, chyżym okręcie.
+                        <lb/>Odezwał się i rzekł słowa skrzydlate:
+                        <lb n="260"/>„Przyjacielu, skoro spotykam cię składającego ofiarę w tym miejscu,
+                        <lb/>błagam na ofiary i bóstwa…  
+                    </quote>
+                    <p>222: θῦε δ᾽  Ἀθήνῃ – „a ofiary składał Atenie”; w eposie ofiary składane przed wyruszeniem na morze nie musiały być skierowane do Posejdona. W tym wypadku odbiorcą ofiar jest bogini Atena czuwająca nad całą podróżą Telemacha. Czasownik θύειν w tym miejscu wskazuje na sposób składania ofiary, chodzi mianowicie o spalenie jakiegoś materiału (kości, kadzideł, produktów roślinnych) dla bóstwa, por. 260. Z dalszego opisu dowiadujemy się, że chodzi o złożony rytuał, którego elementami były, oprócz modlitwy i spalania ofiary, libacje (258).</p>
+                    <p>258: σπένδοντ᾽ εὐχόμενόν – „lejącego libacje i modlącego się”; libacja jest ściśle połączona z modlitwą. Czasownik σπένδειν jest tutaj użyty w sensie absolutnym, bez dopełnienia bliższego, jako nazwa rytuału religijnego: „spełniać rytuał ofiary płynnej, spełniać obiaty” (por. Il. 9.712–713: ofiary płynne przed snem; Il. 9.657: ofiary przed wyruszeniem w drogę; Il. 16.253: ofiara Achillesa połączona z modlitwą do Zeusa o ocalenie Patroklosa; Il. 23.196): ofiara płynna i modlitwa Achillesa do wiatrów podczas kremacji ciała Patroklosa.</p>
+                    <p>260: θύοντα – „składającego ofiarę”; por. wyżej 222. Wcześniej narrator opisał tę samą sytuację słowami σπένδοντ᾽ εὐχόμενόν – „lejącego libacje i modlącego się”, co sugeruje złożoność rytuału. Najpewniej podczas spalania części przeznaczonej dla bogini Telemach wylewał ofiary płynne i wznosił modlitwę. Aojda fokalizuje narrację szerzej, jednocześnie podkreśla moment wznoszenia modlitwy. W wypowiedzi postaci uwaga skupia się na ogólnie ujętej czynności składania ofiar, na całości ceremonii (Casabona 1966: 72).</p>
+                    <p>261: λίσσομ᾽ ὑπὲρ θυέων καὶ δαίμονος – „błagam na ofiary i bóstwo”; kontekst wypowiedzi Teoklymenesa nie pozwala nam na wskazanie konkretnej natury ofiar określanych przez rzeczownik θύεα, które stanowią nawiązanie do θύοντα z w. 260. Nie ulega wątpliwości, że ta ogólnikowość jest zamierzona, por. Casabona 1966: 111–112, Hoekstra, comm. ad loc. W okresie mykeńskim słowo th-we-a oznaczało „kadzidła”, zob. Il. 6.270 z komentarzem. Zwrot λίσσομ᾽ ὑπὲρ – „zaklinać na coś, błagać ze względu na coś”, por. Il. 22.338.</p>
+                    <p>δαίμονος – „bóstwo”; z perspektywy Teoklymenosa, który zastał Telemacha w trakcie odprawiania rytuału, trudno określić, dla jakiego boga są składane ofiary, stąd ogólny termin δαίμων, zob. Il. 6.115 z komentarzem [23].</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

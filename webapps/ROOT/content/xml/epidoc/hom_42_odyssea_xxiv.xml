@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Odissea canto XXIV</title>
+                <title xml:lang="en">Odyssey book XXIV</title>
+                <title xml:lang="pl">Odyseja, pieśń XXIV</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_42_odyssea_xxiv</idno> 
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Odyseja, pieśń XXIV</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, p. 285</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-03-24" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Ostatnia, dwudziesta czwarta pieśń Odysei dzieli się na dwie części. W pierwszej dusze zalotników schodzą do świata podziemnego (Od. 24.1–204), w drugiej Odyseusz przychodzi do domu swojego ojca, Laertesa (Od. 24.205–412), i dochodzi do pojednania z rodzinami zalotników (Od. 24.413–548).</p>
+                </div>
+                <div type="textpart" n="Odyseja_XXIV_65–66">
+                    <head>Odyseja XXIV 65–66</head>
+                    <p>W Hadesie dusza Agamemnona mówi do duszy Achillesa i przypomina pogrzeb syna Peleusa, podczas którego zabito liczne zwierzęta przy płonącym stosie pogrzebowym.</p>
+                    <quote>
+                        <lb n="65"/>ὀκτωκαιδεκάτῃ δ’ ἔδομεν πυρί· πολλὰ δ’ ἐπ’ αὐτῷ
+                        <lb/>μῆλα κατεκτάνομεν μάλα πίονα καὶ ἕλικας βοῦς. 
+                    </quote>
+                    <quote>
+                        <lb n="65"/>W osiemnasty dzień oddaliśmy ciebie ogniowi; mnogie dla ciebie
+                        <lb/>zabijaliśmy owce bardzo tłuste i woły krzyworogie.
+                    </quote>
+                    <p>66: μῆλα κατεκτάνομεν μάλα πίονα καὶ ἕλικας βοῦς – „zabijaliśmy owce bardzo tłuste i woły krzywonogie”; por. Il. 23.166–183. </p>
+                </div>
+                <div type="textpart" n="Odyseja_XXIV_214–215">
+                    <head>Odyseja XXIV 214–215</head>
+                    <p>Odyseusz po dotarciu do domu swojego ojca Laertesa poleca Telemachowi i sługom, Eumajosowi i Filojtiosowi, przyrządzić wieczerzę z poświęconego wieprza.</p>
+                    <quote>
+                        <lb/>ὑμεῖς μὲν νῦν ἔλθετ’ ἐϋκτίμενον δόμον εἴσω, 
+                        <lb/>δεῖπνον δ’ αἶψα συῶν ἱερεύσατε ὅς τις ἄριστος·   
+                    </quote>
+                    <quote>
+                        <lb/>Wy teraz wejdźcie do domu dobrze zbudowanego,
+                        <lb/>i na wieczerzę szybko poświęćcie najlepszego z wieprzy
+                    </quote>
+                    <p>215: συῶν ἱερεύσατε ὅς τις ἄριστος – „poświęćcie najlepszego z wieprzy”;  charakterystyczne użycie czasownika ἱερεύω bez datiwu, zob. Od. 14.28.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

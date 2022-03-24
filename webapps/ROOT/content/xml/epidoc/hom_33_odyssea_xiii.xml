@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Odissea canto XIII</title>
+                <title xml:lang="en">Odyssey book XIII</title>
+                <title xml:lang="pl">Odyseja, pieśń XIII</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_33_odyssea_xiii</idno> 
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Odyseja, pieśń XIII</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 242-245</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-03-24" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+               
+                <div type="textpart" n="Odyseja_XIII_17–27">
+                    <head>Odyseja XIII 17–27</head> 
+                    <p>Przed wyprawieniem Odyseusza na okręcie do Itaki Alkinoos składa ofiarę z wołu dla Zeusa i przyrządza ucztę. E.S. Greene zauważa, że sceny zaokrętowania, którym nie towarzyszą ofiary, oznaczają w konwencji epickiej zbliżającą się katastrofę (Greene 1995). Por. ofiary i modlitwy towarzyszące scenom wyjazdu Telemacha z Pylos (Od. 3.418–486) oraz Sparty (Od. 15.92–157). </p>
+                    <quote>
+                        <lb/>ἦμος δ’ ἠριγένεια φάνη ῥοδοδάκτυλος Ἠώς,
+                        <lb/>νῆάδ’ ἐπεσσεύοντο, φέρον δ’ εὐήνορα χαλκόν. 
+                        <lb n="20"/>καὶ τὰ μὲν εὖ κατέθηχ’ ἱερὸν μένος Ἀλκινόοιο,
+                        <lb/>αὐτὸς ἰὼν διὰ νηός, ὑπὸ ζυγά, μή τιν’ ἑταίρων 
+                        <lb/>βλάπτοι ἐλαυνόντων, ὁπότε σπερχοίατ’ ἐρετμοῖς·
+                        <lb/>οἱ δ’ εἰς Ἀλκινόοιο κίον καὶ δαῖτ’ ἀλέγυνον.  
+                        <lb/>τοῖσι δὲ βοῦν ἱέρευσ’ ἱερὸν μένος Ἀλκινόοιο 
+                        <lb n="25"/>Ζηνὶ κελαινεφέϊ Κρονίδῃ, ὃς πᾶσιν ἀνάσσει. 
+                        <lb/>μῆρα δὲ κήαντες δαίνυντ’ ἐρικυδέα δαῖτα
+                        <lb/>τερπόμενοι· 
+                    </quote>
+                    <quote>
+                        <lb/>Znów poranna zjawiła się różanopalca Jutrzenka,
+                        <lb/>ruszyli w stronę okrętu, nieśli spiż, co mężów siłą obdarza.
+                        <lb/>Umieścił starannie te dary mocny duch Alkinoosa,
+                        <lb/>pod ławami, on sam chodził po okręcie, aby nikomu z załogi
+                        <lb/>nie przeszkadzały, gdy przyłoży się do wioseł.
+                        <lb/>Zaczem wszyscy zeszli się do Alkinoosa, gdzie przyrządzono ucztę.
+                        <lb/>Dla nich wołu złożył w ofierze mocny duch Alkinoosa,
+                        <lb/>Zeusowi czarnochmuremu, Kronidzie, który wszystkim panuje.
+                        <lb/>Spaliwszy kości udowe spożyli przesławną ucztę
+                        <lb/>ciesząc się zabawą: 
+                    </quote>
+                    <p>24–25: τοῖσι δὲ βοῦν ἱέρευσ’… Ζηνὶ – „dla nich wołu złożył w ofierze”; czasownik ἱερεύω z accusatiwem i podwójnym datiwem oznacza „złożyć w ofierze co [βοῦν] dla boga [Ζηνὶ] na czyjąś cześć [τοῖσι]”. Wówczas należałoby przetłumaczyć „na ich cześć wołu zabił w ofierze… dla Kronidy”. Możliwa jest również interpretacja τοῖσι jako „wśród nich, pośrodku nich”.  Por. Il. 7.314.</p>
+                    <p>25: Ζηνὶ κελαινεφέϊ Κρονίδῃ – „Zeusowi czarnochmuremu, Kronidzie”; przydomek Zeusa, κελαινεφής („czarnochmury”, forma skrócona od niepoświadczonej *κελαινο-νεφής) wskazuje na funkcję boga burzy, co wydaje się być właściwym adresem modlitw przed wyprawą morską (Bowie 2013: 100). Przydomek pojawia się w analogicznej sytuacji w Od. 9.552, gdzie Zeus odmawia przyjęcia ofiar. Charakterystyczne, że Feakowie nie składają ofiary Posejdonowi, chociaż wydawałoby się, że zważywszy na okoliczności i gniew boga należałoby go zjednać. Na temat przydomka zob. Hoekstra, ed. 1993: 176.</p>
+                    <p>26: μῆρα δὲ κήαντες – „spaliwszy kości udowe”; skrótowe przedstawienie całego procesu rytualnego od uboju po przygotowanie posiłku, wariant używanego w scenie typowej – ofiara krwawa #αὐτὰρ ἐπεὶ κατὰ μῆρε κάη/ (Il. 1.466= Il. 2.427 = Od. 3.461 = Od. 12.364). W sprawie zwrotu καίω + μῆρα, zob. Il. 1.37–38 z komentarzem.</p>
+                    <p>Δαίνυντ’ ἐρικυδέα δαῖτα, spożyli przesławną ucztę: w języku greckim czasownik z dopełnieniem tworzą figurę etymologiczną.</p>
+                </div>
+                <div type="textpart" n="Odyseja_XIII_171–187">
+                    <head>Odyseja XIII 171–187</head>
+                    <quote>
+                        <lb/>τοῖσιν δ᾽  Ἀλκίνοος ἀγορήσατο καὶ μετέειπεν· 			
+                        <lb/>‘ὢ πόποι, ἦ μάλα δή με παλαίφατα θέσφαθ᾽ ἱκάνει 
+                        <lb/>πατρὸς ἐμοῦ, ὃς ἔφασκε  Ποσειδάων᾽ ἀγάσασθαι 
+                        <lb/>ἡμῖν, οὕνεκα πομποὶ ἀπήμονές εἰμεν ἁπάντων. 
+                        <lb n="175"/>φῆ ποτε  Φαιήκων ἀνδρῶν περικαλλέα νῆα
+                        <lb/>ἐκ πομπῆς ἀνιοῦσαν ἐν ἠεροειδέϊ πόντῳ 
+                        <lb/> ῥαισέμεναι, μέγα δ᾽ ἧμιν ὄρος πόλει ἀμφικαλύψειν. 
+                        <lb/>ὣς ἀγόρευ᾽ ὁ γέρων· τὰ δὲ δὴ νῦν πάντα τελεῖται. 
+                        <lb/>ἀλλ᾽ ἄγεθ᾽, ὡς ἂν ἐγὼ εἴπω, πειθώμεθα πάντες· 
+                        <lb n="180"/>πομπῆς μὲν παύεσθε βροτῶν, ὅτε κέν τις ἵκηται
+                        <lb/>ἡμέτερον προτὶ ἄστυ·  Ποσειδάωνι δὲ ταύρους 
+                        <lb/>δώδεκα κεκριμένους ἱερεύσομεν, αἴ κ᾽ ἐλεήσῃ 
+                        <lb/>μηδ᾽ ἥμιν περίμηκες ὄρος πόλει ἀμφικαλύψῃ’. 
+                        <lb/>ὣς ἔφαθ᾽, οἱ δ᾽ ἔδδεισαν, ἑτοιμάσσαντο δὲ ταύρους. 
+                        <lb n="185"/>ὣς οἱ μέν ῥ᾽ εὔχοντο  Ποσειδάωνι ἄνακτι
+                        <lb/>δήμου  Φαιήκων ἡγήτορες ἠδὲ μέδοντες, 
+                        <lb/>ἑσταότες περὶ βωμόν.  
+                    </quote>
+                    <quote>
+                        <lb/>Odpowiadając im Alkinoos powiedział:	
+                        <lb/>„Ojojoj, dosięga mnie starodawna wróżba
+                        <lb/>ojca mego, który mówił, że Posejdon gniewał się
+                        <lb/>na nas, z tego powodu, że jesteśmy niezawodnymi przewoźnikami wszystkich.
+                        <lb/>Mówił, że kiedyś bóg przepiękny okręt Feaków
+                        <lb/>powracający z wyprawy na morzu mglistym
+                        <lb/>rozbije, a zasłoni wielką górą.
+                        <lb/>Tak mówił starzec: teraz wszystko się spełnia.
+                        <lb/>Nuże, uczyńmy wszyscy, co mówię.
+                        <lb/>Zaprzestańcie przewozów śmiertelnych, ktokolwiek przybędzie
+                        <lb/>do naszego miasta; Posejdonowi zaś byków
+                        <lb/>dwanaście wybranych złóżmy w ofierze, by się zmiłował
+                        <lb/>i nie zamykał nam miasta łańcuchem gór”.
+                        <lb/>Tak mówił, ich zaś ogarnął lęk i przygotowali byki.
+                        <lb/>W ten sposób pomodlili się do Posejdona, Pana,
+                        <lb/>przywódcy ludu Feaków i członkowie rady,
+                        <lb/>stojąc wokół ołtarza.
+                    </quote>
+                    <p>181–182: Ποσειδάωνι δὲ ταύρους / δώδεκα κεκριμένους ἱερεύσομεν – „Posejdonowi zaś byków / dwanaście wybranych złóżmy w ofierze”; niekastrowane byki, buhaje, ταύροι są w eposie ofiarą typową dla Posejdona (por. Od. 2.5–8). Liczba zwierząt ofiarnych, dwanaście, wskazuje na jej szczególnie uroczysty charakter (por. dwunastu młodzieńców trojańskich zabitych na stosie Patroklosa, Il. 23.175).</p>
+                    <p>186: δήμου Φαιήκων ἡγήτορες ἠδὲ μέδοντες – „przywódcy ludu Feaków i członkowie rady”; ofiarę w imieniu całej wspólnoty politycznej składają członkowie elity nazwanych dwoma rzeczownikami wskazującymi na ich przywódczą funkcję i rolę w rozważnym podejmowaniu decyzji. Na temat rdzenia *med.- zob. Benveniste 1969: 2, 123–132. W sprawie ἡγήτορες, zob. Benveniste 1969: 1, 10.</p>
+                    <p>187: ἑσταότες περὶ βωμόν – „stojąc wokół ołtarza”; ostatnie zdanie dotyczące Feaków pozostawia słuchaczy w niepewności. Nie wiadomo, czy bogate ofiary zwierzęce wystarczyły do przebłagania Posejdona. Narrator kończy w miejscu, w którym zazwyczaj zaczynała się scena typowa – ofiara krwawa.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

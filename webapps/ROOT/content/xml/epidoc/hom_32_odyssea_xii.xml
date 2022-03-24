@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Odissea canto XII</title>
+                <title xml:lang="en">Odyssey book XII</title>
+                <title xml:lang="pl">Odyseja, pieśń XII</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_32_odyssea_xii</idno> 
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Odyseja, pieśń XII</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 236-241</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-03-24" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Pieśń dwunasta obejmuje koniec opowieści Odyseusza.</p>
+                </div>
+                <div type="textpart" n="Odyseja_XII_340–370_391–395">
+                    <head>Odyseja XII 340–370; 391–395</head>
+                    <p>Zabicie i zjedzenie krów ze stada Heliosa z jednej strony przypomina scenę typową –ofiara krwawa i dzieli z nią część wersów formularnych, częściowo jest jest świadomą modyfikacją. Towarzysze Odyseusza znają reguły działań rytualnych, jednak ze względu na okoliczności muszą je zmodyfikować: zamiast krup jęczmiennych używają liści dębowych, zamiast wina – wody. Dodatkowo, na planie narracji, Odyseusz-narrator wykorzystuje techniki zakłócające normalny, nieprzerwany przebieg działań: technikę „splatania”, łącząc swobodnie narrację główną ze sceną na Olimpie, by następnie wpleść interwencję bogów poprzez objawienie znaków.</p>
+                    <quote>
+                        <lb/>‘κέκλυτέ μευ μύθων, κακά περ πάσχοντες ἑταῖροι·
+                        <lb/>πάντες μὲν στυγεροὶ θάνατοι δειλοῖσι βροτοῖσι,
+                        <lb/>λιμῷ δ’ οἴκτιστον θανέειν καὶ πότμον ἐπισπεῖν. 
+                        <lb/>ἀλλ’ ἄγετ’, Ἠελίοιο βοῶν ἐλάσαντες ἀρίστας 
+                        <lb/>  ῥέξομεν ἀθανάτοισι, τοὶ οὐρανὸν εὐρὺν ἔχουσιν. 
+                        <lb n="345"/>εἰ δέ κεν εἰς Ἰθάκην ἀφικοίμεθα, πατρίδα γαῖαν, 
+                        <lb/>αἶψά κεν Ἠελίῳ Ὑπερίονι πίονα νηὸν
+                        <lb/>τεύξομεν, ἐν δέ κε θεῖμεν ἀγάλματα πολλὰ καὶ ἐσθλά. 
+                        <lb/>εἰ δὲ χολωσάμενός τι βοῶν ὀρθοκραιράων 
+                        <lb/>νῆ’ ἐθέλῃ ὀλέσαι, ἐπὶ δ’ ἕσπωνται θεοὶ ἄλλοι,
+                        <lb n="350"/>βούλομ’ ἅπαξ πρὸς κῦμα χανὼν ἀπὸ θυμὸν ὀλέσσαι
+                        <lb/>ἢ δηθὰ στρεύγεσθαι ἐὼν ἐν νήσῳ ἐρήμῃ.’ 
+                        <lb/>ὣς ἔφατ᾽  Εὐρύλοχος, ἐπὶ δ᾽ ᾔνεον ἄλλοι ἑταῖροι. 
+                        <lb/>αὐτίκα δ᾽  Ἠελίοιο βοῶν ἐλάσαντες ἀρίστας 
+                        <lb/>ἐγγύθεν· —οὐ γὰρ τῆλε νεὸς κυανοπρῴροιο 
+                        <lb n="355"/>βοσκέσκονθ᾽ ἕλικες καλαὶ βόες εὐρυμέτωποι· — 
+                        <lb/>τὰς δὲ περιστήσαντο καὶ εὐχετόωντο θεοῖσι, 
+                        <lb/>φύλλα δρεψάμενοι τέρενα δρυὸς ὑψικόμοιο· 
+                        <lb/>οὐ γὰρ ἔχον κρῖ λευκὸν ἐϋσσέλμου ἐπὶ νηός. 
+                        <lb n="360"/>μηρούς τ᾽ ἐξέταμον κατά τε κνίσῃ ἐκάλυψαν,
+                        <lb/>δίπτυχα ποιήσαντες, ἐπ᾽ αὐτῶν δ᾽ ὠμοθέτησαν. 
+                        <lb/>οὐδ᾽ εἶχον μέθυ λεῖψαι ἐπ᾽ αἰθομένοισ᾽ ἱεροῖσιν, 
+                        <lb/>ἀλλ᾽ ὕδατι σπένδοντες ἐπώπτων ἔγκατα πάντα. 
+                        <lb/>αὐτὰρ ἐπεὶ κατὰ μῆρ᾽ ἐκάη καὶ σπλάγχνα πάσαντο, 
+                        <lb n="365"/>μίστυλλόν τ᾽ ἄρα τἆλλα καὶ ἀμφ᾽ ὀβελοῖσιν ἔπειρον.
+                        <lb/>καὶ τότε μοι βλεφάρων ἐξέσσυτο νήδυμος ὕπνος· 
+                        <lb/>βῆν δ᾽ ἰέναι ἐπὶ νῆα θοὴν καὶ θῖνα θαλάσσης. 
+                        <lb/>ἀλλ᾽ ὅτε δὴ σχεδὸν ἦα κιὼν νεὸς ἀμφιελίσσης, 
+                        <lb/>καὶ τότε με κνίσης ἀμφήλυθεν ἡδὺς ἀϋτμή·  
+                        <lb n="370"/>οἰμώξας δὲ θεοῖσι μετ᾽ ἀθανάτοισι γεγώνευν·
+                        <lb/>[…]
+                        <lb n="391"/>αὐτὰρ ἐπεί ῥ’ ἐπὶ νῆα κατήλυθον ἠδὲ θάλασσαν,
+                        <lb/>νείκεον ἄλλοθεν ἄλλον ἐπισταδόν, οὐδέ τι μῆχος
+                        <lb/>εὑρέμεναι δυνάμεσθα· βόες δ’ ἀποτέθνασαν ἤδη. 
+                        <lb/>τοῖσιν δ’ αὐτίκ’ ἔπειτα θεοὶ τέραα προὔφαινον· 
+                        <lb n="395"/>εἷρπον μὲν ῥινοί, κρέα δ’ ἀμφ’ ὀβελοῖσ’ ἐμεμύκει,
+                        <lb/>ὀπταλέα τε καὶ ὠμά· βοῶν δ’ ὣς γίνετο φωνή. 
+                    </quote>
+                    <quote>
+                        <lb/>„Posłuchajcie moich słów, cierpiący niedole towarzysze!	
+                        <lb/>wszystkie rodzaje śmierci są nienawistne dla nędznych śmiertelnych,
+                        <lb/>najgorzej zaś umrzeć z głodu i ulec niedoli.
+                        <lb/>Lecz chodźcie, wybrawszy najlepsze z wołów Heliosa,
+                        <lb/>złóżmy w ofierze nieśmiertelnym, który dzierżą szerokie niebo.
+                        <lb n="345"/>Jeśli zaś dotrzemy do Itaki, ziemi ojczystej,
+                        <lb/>natychmiast Heliosowi, synowi Hyperiona, okazałą świątynię
+                        <lb/>zbudujemy, w której złożymy liczne i drogie dary wotywne.
+                        <lb/>Jeśli zaś rozgniewamy się z powodu wołów prostorogich,
+                        <lb/>okręt zechciałby zniszczyć, za zgodą innych bogów,
+                        <lb n="350"/>wolę raz jeden rozewrzeć gębę na fale i ducha zgubić,
+                        <lb/>niż czeznąć długo na tej samotnej wyspie”.
+                        <lb/>Tak mówił Euryloch, zgodziła się z nim reszta towarzyszy.
+                        <lb/>Wnet wyłapali najlepsze z krów Heliosa,
+                        <lb/>bo niedaleko od okrętu o dziobie błękitnym
+                        <lb n="355"/>pasły się te gładkie, piękne, szerokoczołe krowy.
+                        <lb/>Otoczyli je kołem i modlili się do bogów. 
+                        <lb/>Z dębu o gęstej grzywie zrywali liście,
+                        <lb/>bo nie było białego jęczmienia na okręcie
+                        <lb/>gdy już pomodlili się i zarżnęli i oskórowali,
+                        <lb n="360"/>wycięli kości udowe i ukryli w tłuszczu
+                        <lb/>z dwóch stron owijając, na nie położyli surowego mięsa.
+                        <lb/>Nie mieli wina, by wylać na płonące ofiary,
+                        <lb/>lecz wodą skropiwszy opiekli wszystkie wnętrzności.
+                        <lb/>Kiedy zaś kości udowe spalili i skosztowali podrobów,
+                        <lb n="365"/>pokrajali resztę i wbili na rożny
+                        <lb/>i wówczas słodki sen odleciał z mych oczu,
+                        <lb/>poszedłem do chyżego okrętu i brzegu morskiego.
+                        <lb/>Lecz gdy byłem już blisko naszego zwrotnego okrętu,
+                        <lb/>obiegła mnie słodka woń tłuszczu.
+                        <lb n="370"/>Z płaczem do bogów nieśmiertelnych podniosłem błaganie:
+                        <lb/>„Zeusie, ojcze, i inni szczęśliwi bogowie wieczni!
+                        <lb/>zaiste zaćmę na mnie zesłaliście kładąc do snu słodkiego,
+                        <lb/>towarzysze zaś pozostawieni uknuli czyn wielki”.
+                        <lb/>[…]
+                        <lb n="391"/>Kiedy dotarłem do okrętu i morza,
+                        <lb/>zacząłem ich łajać, każdego z osobna, i żadnego środka zaradczego
+                        <lb/>nie mogłem już znaleźć: krowy były już zabite,
+                        <lb/>nagle im bogowie zaczęli objawiać znaki wróżebne:
+                        <lb n="395"/>pełzały skóry, mięso zaś na rożnach muczało,
+                        <lb/>pieczone i surowe: jakby głos wołów z nich się wydobywał.
+                    </quote>
+                    <p>343: βοῶν ἐλάσαντες ἀρίστας – „wybrawszy najlepsze z wołów”; wers formularny (= Od. 12.353). Wybór najlepszych krów ze stada Heliosa ma podtekst ironiczny i paradoksalny. Z punktu widzenia pobożności w świecie rzeczywistym wybór najlepszego zwierzęcia z przeznaczeniem go na ofiarę dla bogów wydaje się być oczywisty, jednak na wyspie Heliosa, gdzie wszystkie krowy należą do boga, są zatem jemu poświęcone, zabicie w ofierze najlepszych zwierząt paradoksalnie wywołuje efekt odwrotny – Helios zostanie pozbawiony najlepszej części swojej własności. Co więcej, prawdopodobnie dochodzi tutaj do złamania normy nakazującej składanie bogom męskim samców, podczas gdy stado Heliosa składa się z krów.</p> 
+                    <p>346–347: Ślubowanie wzniesienia świątyni (νηός) jako rekompensata za złożone w ofierze woły jest paradoksalne. W eposie gniew boga może być wywołany zaniedbaniem ofiary. W sytuacji niewiedzy, herosi biorą pod uwagę taką możliwość i potrzebują diagnozy transcendentnej, aby wybadać któremu z bogów należą się ofiary. Tutaj złożenie w ofierze zwierząt poświęconych bóstwu może wywołać jego gniew. Wznoszenie świątyni jako ekwiwalent składania ofiar (lub jego wartościowe uzupełnienie) pojawia się również w modlitwie Chryzesa (Il. 1.39).</p>
+                    <p>Ἠελίῳ Ὑπερίονι πίονα νηὸν / τεύξομεν – „Heliosowi, synowi Hyperiona, tłustą świątynię / zbudujemy”; z wyjątkiem świątyni Ateny na ateńskim Akropolu w katalogu okrętów (Il. 2.549), wszystkie świątynie w eposie homeryckim znajdują się w miastach niegreckich: Atena w Troi (Il. 6.88 i nast.), Apollon w Ilionie (Il. 7.83) i Chryzie (Il. 1.39) oraz świątynie Feaków (Od. 7.10). Możliwe, że chodzi o element konwencji ukształtowanej w Wiekach Ciemnych, w których ofiary w świecie greckim składano w zagrodach członków elity lub w wolnej przestrzeni pozbawionej trwałych elementów architektonicznych z wyjątkiem ołtarzy (por. Heubeck, ed. 1983: 335).</p>
+                    <p>πίονα νηόν: – „okazałą świątynię” A. Heubeck łączy epitet „tłusty” z ἀγάλματα i interpretuje go jako „bogaty”, jednak można go zinterpretować jako metonimiczne przywołanie ofiar, które będą składane w sanktuarium. Epitet został użyty również w Il. 2.549 jako określenie świątyni Ateny w Atenach, gdzie towarzyszy mu informacja o składanych w niej ofiarach.</p>
+                    <p>356: τὰς δὲ περιστήσαντο – „Otoczyli je kołem”; por. Wprowadzenie.</p>
+                    <p>καὶ εὐχετόωντο θεοῖσι – „i pomodlili się do bogów”; modlitwa do niektórych lub wszystkich bogów nie jest wyjątkiem, jednak w przypadku ofiary z krów Heliosa wydaje się być szczególnym nieporozumieniem.</p>
+                    <p>357–358: Towarzysze Odyseusza przystępują do rytów wstępnych. W pełnej wersji sceny typowej zalicza się do nich obmycie rąk w chernips oraz pobranie oulochytai. Tutaj, w nadzwyczajnych warunkach na Wyspie Słońca, ofiarnicy biorą liście dębowe. Znajdują się w krainie, gdzie nie uprawia się zbóż, dlatego muszą wykorzystać części roślin powszechnie związane z pożywieniem dzikich zwierząt roślinożernych. Do braku wzmianki o obmyciu rąk nie należy przywiązywać zbyt dużego znaczenia, gdyż w scenach typowych również hemistych przedstawiający tę czynność bywa pominięty.</p>
+                    <p>358: κρῖ λευκὸν – „biały jęczmień”; zamiast rytualnego terminu oulochytai, oznaczającego krupy jęczminne, poeta używa nazwy samego zboża, κρῖ.</p>
+                    <p>360–363: Po opisaniu rytów wstępnych poeta przechodzi o rytuału ofiarowania bogom części im przynależnej (spalenie kości udowych) połączonego z kosztowaniem opieczonych wnętrzności. Opis jest pospieszny, gdyż poeta nie wykorzystał tradycyjnego heksametru podsumowującego ryty wstępne. W tej części dochodzi do kolejnej substytucji – wino, które ofiarnik, najczęściej kapłan lub osoba przewodząca obrzędowi, wylewa na palące się kości udowe, zostaje zastąpione przez wodę.</p>
+                    <p>360: μηρούς τ᾽ ἐξέταμον κατά τε κνίσῃ ἐκάλυψαν: wers formularny (= Il. 1.460 = 2.423).</p>
+                    <p>361: δίπτυχα ποιήσαντες, ἐπ᾽ αὐτῶν δ᾽ ὠμοθέτησαν: wers formularny (Il. 1.461 = 2.424 = Od. 3.458).</p>
+                    <p>362: οὐδ᾽ εἶχον μέθυ λεῖψαι ἐπ᾽ αἰθομένοισ᾽ ἱεροῖσιν – „nie mieli wina, by wylać na płonące ofiary”; słowo τὰ ἱερά oznacza dosłownie „rzeczy poświęcone”, w tym wypadku chodzi o część zwierzęcia spalaną dla bogów. Z czasem zaczęto oznaczać ofiary jako całość procesu rytualnego. Na temat rytu wylewania wina na płonące kości udowe owinięte w tłuszcz, zob. Il. 1.462–3 = Od. 3.459–460. Wersy formularne używane w scenie typowej – ofiara krwawa zostały tutaj zastąpione wersem inspirowanym Il. 11.775.  Czasownik λείβω jest tutaj użyty synonimicznie z σπένδω, por. Casabona 1966: 235.</p>
+                    <p>363: ἀλλ᾽ ὕδατι σπένδοντες ἐπώπτων ἔγκατα πάντα – „lecz wodą skropiwszy opiekli wszystkie wnętrzności”; kolejny paradoks – wino, które podsyca ogień iskrząc się w czasie libacji, zostaje zastąpione wodą.</p>
+                    <p>364: αὐτὰρ ἐπεὶ κατὰ μῆρ᾽ ἐκάη καὶ σπλάγχνα πάσαντο – „kiedy zaś kości udowe spalili i skosztowali podrobów”; wers formularny (Il. 1.464 = Il. 2.427 = Od. 3.461= Od. 12.364).</p>
+                    <p>365: μίστυλλόν τ᾽ ἄρα τἆλλα καὶ ἀμφ᾽ ὀβελοῖσιν ἔπειρον – „pokrajali resztę i wbili na rożny”; wers formularny (Il. 1.465 = 2.428 = Od. 3.462 = 12.462 = 14.430).</p>
+                    <p>369: καὶ τότε με κνίσης ἀμφήλυθεν ἡδὺς ἀϋτμή – „obiegła mnie słodka woń tłuszczu”; w Iliadzie woń tłuszczu, κνίση, jest materialnym i zmysłowym znakiem świadczącym wobec bogów o złożeniu ofiary zwierzęcej (Il. 1.66 z komentarzem; Il.1.317; Il. 4.50; Il. 8.549), tutaj uświadamia Odyseuszowi czyn towarzyszy. Nie stanowi zatem elementu komunikacji wertykalnej między ludźmi i bogami, lecz oznakę w ramach horyzontalnego świata ludzi. Wyrażenie podobne zostało użyte w odniesieniu do zmysłu słuchu w Od. 6.122. Por. Heubeck 1993: 336.</p>
+                    <p>394: τοῖσιν δ’ αὐτίκ’ ἔπειτα θεοὶ τέραα προὔφαινον – „nagle im bogowie zaczęli objawiać znaki wróżebne”; w eposie znaki wróżebne (τέραα) mogą pojawić się przy okazji składania ofiary, nie ma natomiast śladów systemu dywinacji ofiarniczej, por. Il. 2.299–322 z komentarzem. W scenach typowych przygotowanie mięsa do spożycia i samą ucztę opisują wersy formularne, tutaj następstwo działań zostało nagle przerwane, kiedy Odyseusz się budzi i przychodzi nad morze.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

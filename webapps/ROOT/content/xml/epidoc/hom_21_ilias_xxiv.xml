@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Iliade canto XXIV</title>
+                <title xml:lang="en">Iliad book XXIV</title>
+                <title xml:lang="pl">Iliada, pieśń XXIV</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_21_ilias_xxiv</idno> 
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Iliada, pieśń XXIV</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 169-172</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-03-24" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+               
+                <div type="textpart" n="Iliada_XXIV_33–35">
+                    <head>Iliada XXIV 33–35</head>
+                    <p>Achilles ogarnięty gniewem przez dwanaście dni pastwi się nad zwłokami Hektora. Bogowie przedstawieni jak widzowie spoglądający na czyny ludzi zaczynają żałować poległego herosa z wyjątkiem Hery, Ateny i Posejdona. Wreszcie odzywa się Apollon, zwracając uwagę na niestosowność zachowania Achillesa, który utracił wstyd (aidos). Pierwszym argumentem wysuniętym w obronie Hektora są ofiary, które składał bogom za życia.</p>
+                    <quote>
+                        <lb/>σχέτλιοί ἐστε θεοί, δηλήμονες· οὔ νύ ποθ’ ὑμῖν 
+                        <lb/>Ἕκτωρ μηρί’ ἔκηε βοῶν αἰγῶν τε τελείων; 
+                        <lb/>τὸν νῦν οὐκ ἔτλητε νέκυν περ ἐόντα σαῶσαι   
+                    </quote>
+                    <quote>
+                        <lb/>okrutni jesteście, bogowie, zgubni! Czyż wam
+                        <lb/>Hektor nie palił kości udowych wołów i kóz dojrzałych?
+                        <lb/>O niego teraz nie dbacie, by umarłego ocalić. 	
+                    </quote>
+                    <p>33–34:	οὔ νύ ποθ’ ὑμῖν / Ἕκτωρ μηρί’ ἔκηε – „czyż wam / Hektor nie palił kości udowych”; w ofiarach włączonych w mowy postaci, zarówno herosów, jak i bogów, palenie kości udowych jest metonimią całego procesu rytualnego. W sprawie szczegółów, zob. Wprowadzenie.</p>
+                </div>
+                <div type="textpart" n="Iliada_XXIV_64–70">
+                    <head>Iliada XXIV 64–70</head>
+                    <p>Po Apollonie odzywa się Hera, która przeciwstawia cześć należną śmiertelnemu Hektorowi większej czci należnej półboskiemu Achillesowi. Kolejny głos na zgromadzeniu bogów, Zeusa, powraca do argumentacji łączącej stosunek bogów do śmiertelnika ze składanymi przez niego ofiarami.</p>
+                    <quote>
+                        <lb/>Τὴν δ’ ἀπαμειβόμενος προσέφη νεφεληγερέτα Ζεύς·
+                        <lb n="65"/>Ἥρη μὴ δὴ πάμπαν ἀποσκύδμαινε θεοῖσιν·
+                        <lb/>οὐ μὲν γὰρ τιμή γε μί’ ἔσσεται· ἀλλὰ καὶ Ἕκτωρ 
+                        <lb/>φίλτατος ἔσκε θεοῖσι βροτῶν οἳ ἐν Ἰλίῳ εἰσίν· 
+                        <lb/>ὣς γὰρ ἔμοιγ’, ἐπεὶ οὔ τι φίλων ἡμάρτανε δώρων.
+                        <lb/>οὐ γάρ μοί ποτε βωμὸς ἐδεύετο δαιτὸς ἐΐσης
+                        <lb/> λοιβῆς τε κνίσης τε· τὸ γὰρ λάχομεν γέρας ἡμεῖς.   		
+                    </quote>
+                    <quote>
+                        <lb/>Na to jej głosem donośnym rzekł Zeus, co obłoki gromadzi:
+                        <lb n="65"/>„Hero, zaprzestań na bogów tak bezustannie się dąsać!
+                        <lb/>Czcimy tych dwóch nie tak samo, to przecież pewne, a jednak Hektor
+                        <lb/>najmilszy  jest bogom spośród śmiertelników, którzy są w Ilionie
+                        <lb/>także i mnie, gdyż nie zaniedbał darów miłych.
+                        <lb/>Nigdy bowiem mój ołtarz nie był pozbawiony udziału w równej uczcie
+                        <lb/>ani ofiary płynnej lub tłustego dymu: 
+                        <lb/>to bowiem otrzymujemy jako dar zaszczytny […]”. 
+                    </quote>
+                    <p>69–70:	 wersy formularne, zob. Il. 4.48–9, gdzie Zeus mówi o Priamie, wydając jednocześnie miasto na gniew Hery.</p>
+                </div>
+                <div type="textpart" n="Iliada_XXIV_123–125">
+                    <head>Iliada XXIV 123–125</head>
+                    <quote>
+                        <lb/>εὗρ᾽ ἁδινὰ στενάχοντα· φίλοι δ᾽ ἀμφ᾽ αὐτὸν ἑταῖροι 
+                        <lb/>ἐσσυμένως ἐπένοντο καὶ ἐντύνοντο ἄριστον· 
+                        <lb/>τοῖσι δ᾽ ὄϊς λάσιος μέγας ἐν κλισίῃ ἱέρευτο.		
+                    </quote>
+                    <quote>
+                        <lb/>[Tetyda] znalazła go ciężko wzdychającego. Zaufani przyjaciele wokół niego
+                        <lb/>w pośpiechu krzątali się i przygotowywali posiłek
+                        <lb/>dla nich zaś duża owca wełniasta została w namiocie złożona w ofierze 
+                    </quote>
+                    <p>125: ἱέρευτο – „została złożona w ofierze”; nic nie wskazuje na to, że również w tym miejscu czasownik ἱερεύειν podkreśla fakt, że Achilles wypełnia powinności jako kapłan, ἱερεύς. Zdaje się, że funkcja przyrządzenia posiłku wysuwa się na plan pierwszy.</p>
+                </div>
+                <div type="textpart" n="Iliada_XXIV_619–627">
+                    <head>Iliada XXIV 619–627</head>
+                    <p>Scena przygotowania posiłku w namiocie Achillesa, gdzie heros podejmuje Priama, jest interesująca dla badacza ofiary krwawej pomimo braku odniesień do rytuału religijnego. Nie ulega wątpliwości, że pomimo obecności wersów używanych także w scenach typowych – ofiara krwawa, na pierwszy plan wysuwa się tutaj idea posiłku. Hitch 2009: 17–18; 56–59.</p>
+                    <quote>
+                        <lb/>ἀλλ᾽ ἄγε δὴ καὶ νῶϊ μεδώμεθα δῖε γεραιὲ 					
+                        <lb n="620"/>σίτου· ἔπειτά κεν αὖτε φίλον παῖδα κλαίοισθα
+                        <lb/>Ἴλιον εἰσαγαγών· πολυδάκρυτος δέ τοι ἔσται. 
+                        <lb/>῏Η καὶ ἀναΐξας ὄϊν ἄργυφον ὠκὺς  Ἀχιλλεὺς 
+                        <lb/>σφάξ᾽· ἕταροι δ᾽ ἔδερόν τε καὶ ἄμφεπον εὖ κατὰ κόσμον, 
+                        <lb/>μίστυλλόν τ᾽ ἄρ᾽ ἐπισταμένως πεῖράν τ᾽ ὀβελοῖσιν, 
+                        <lb n="625"/>ὄπτησάν τε περιφραδέως, ἐρύσαντό τε πάντα.
+                        <lb/>Αὐτομέδων δ᾽ ἄρα σῖτον ἑλὼν ἐπένειμε τραπέζῃ 
+                        <lb/>καλοῖς ἐν κανέοισιν· ἀτὰρ κρέα νεῖμεν  Ἀχιλλεύς. 
+                        <lb/>οἳ δ᾽ ἐπ᾽ ὀνείαθ᾽ ἑτοῖμα προκείμενα χεῖρας ἴαλλον.  
+                    </quote>
+                    <quote>
+                        <lb/>„Więc chodź, również i obydwaj pomyślmy, boski starcze,
+                        <lb n="620"/>o jedzeniu. Później możesz opłakać ponownie syna miłego
+                        <lb/>gdy do Ilionu powrócisz. Niemało tam łez wylejesz.”
+                        <lb/>To rzekłszy, szybki Achilles powstał i jagnię srebrzyste
+                        <lb/>zarżnął: towarzysze zaś oskórowali i podzielili sprawnie
+                        <lb/>poćwiartowali umiejętnie i nadziali na rożny
+                        <lb n="625"/>opiekli wokoło i zdjęli wszystkie.
+                        <lb/>Automedon przyniósł chleb i postawił na stole
+                        <lb/>w pięknych koszykach. Achilleus zaś podał mięso.
+                        <lb/>Sięgnęli po dobra przegotowane ręce wyciągnęli.
+                    </quote>
+                    <p>619–620: Wersy podejmują i podsumowują tematy, który pojawiły się w ww. 599–601. Nacisk został położony na konieczność spożycia posiłku, co przekłada się na emfatyczne umieszczenie rzeczownika σίτου – „o jedzeniu” w pierwszym kolonie. Konsekwentnie cała scena, chociaż wykorzystuje heksametry formularne ze sceny typowej – ofiara krwawa, przesuwa akcent z oddania czci bogom na posiłek.</p>
+                    <p>622–623: ὄϊν ἄργυφον ὠκὺς  Ἀχιλλεὺς / σφάξ᾽ – „szybki Achilles powstał i owcę srebrzystą / zarżnął”; rzeczownik ὄϊς z epitetem ἄργυφον, „owcę srebrzystą” występuje wyłącznie w tym miejscu. W Od. 10.85 mamy wyrażenie ἄργυφα μῆλα – „srebrzyste stada”.  	σφάξ’ – „zarżnął”; Casabona słusznie zauważa, że czasownik σφάζω w eposie występuje w kontekście ofiarniczym, zwłaszcza gdy następują po nim czasowniki oznaczające przygotowanie mięsa na ucztę. Tutaj chodzi o ucztę na cześć gości, zob. Casabona 1966: 157.</p>
+                    <p>623–624: = Il. 7.317–318. Por. Od. 19.422–424.</p>
+                    <p>625–626: wersy formularne (= Il. 9.216–217). Wykorzystanie tych wersów przywołuje posiłek, którym Achilles podjął Odyseusza, Ajaksa i Fojniksa. Imię Automedon, pojawiające się emfatycznie na początku wersu zastępuje tutaj imię Patroklosa, który pełnił funkcję pomocnika w pieśni IX.</p>
+                    <p>627–628: wersy formularne (= Il. 9.91–92; 9.221–222).</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

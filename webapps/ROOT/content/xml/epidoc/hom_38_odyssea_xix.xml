@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Odissea canto XIX</title>
+                <title xml:lang="en">Odyssey book XIX</title>
+                <title xml:lang="pl">Odyseja, pieśń XIX</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_38_odyssea_xix</idno> 
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Odyseja, pieśń XIX</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 273-276</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-03-24" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="Odyseja_XIX_194–199">
+                    <head>Odyseja XIX 194–199</head>
+                    <p>Odpowiadając na pytanie o tożsamość, Odyseusz przedstawia się Penelopie jako Ajton z Krety, młodszy brat Idomeneusa, syn Deukaliona. W ramach tej zmyślonej narracji opowiada o rzekomym przybyciu Odyseusza na Kretę, gdzie miał go podjąć jako partnera w związku gościnności.</p>
+                    <quote>
+                        <lb/>τὸν μὲν ἐγὼ πρὸς δώματ’ ἄγων ἐῢ ἐξείνισσα, 
+                        <lb n="195"/>ἐνδυκέως φιλέων, πολλῶν κατὰ οἶκον ἐόντων·
+                        <lb/>καί οἱ τοῖς ἄλλοισ’ ἑτάροισ’, οἳ ἅμ’ αὐτῷ ἕποντο, 
+                        <lb/>δημόθεν ἄλφιτα δῶκα καὶ αἴθοπα οἶνον ἀγείρας 
+                        <lb/>καὶ βοῦς ἱρεύσασθαι, ἵνα πλησαίατο θυμόν. 
+                        <lb/>ἔνθα δυώδεκα μὲν μένον ἤματα δῖοι Ἀχαιοί·
+                    </quote>
+                    <quote>
+                        <lb/>Ja go [Odyseusza] dobrze ugościłem wprowadzając do domu
+                        <lb n="195"/>uprzejmie okazując przyjaźń, bo w domu był dostatek.
+                        <lb/>A i pozostałym towarzyszom, który z nim podążąli,
+                        <lb/>dałem mąkę i ciemne wino zebrawszy je pośród ludu,
+                        <lb/>i woły na zarżnięcie, aby nasycić ich serce.
+                        <lb/>Dwanaście dni tam pozostali boscy Achajowie.
+                    </quote>
+                    <p>198: καὶ βοῦς ἱρεύσασθαι, ἵνα πλησαίατο θυμόν – „i woły na zarżnięcie, aby nasycić ich serce”; w sprawie czasownika ἱερεύω w Odysei zob. Od. 14.28 z komentarzem. ἵνα πλησαίατο θυμόν por. / κρειῶν κορεσαίατο θυμόν (Od. 14.28).</p>
+                    <p>199: δυώδεκα… ἤματα – „dwanaście… dni”; por. 13.181.</p>
+                </div>
+                <div type="textpart" n="Odyseja_XIX_363–369">
+                    <head>Odyseja XIX 363–369</head>
+                    <p>Penelopa nakazuje Euryklei umyć stopy przybysza. W odpowiedzi piastunka herosa wygłasza lament nad losem swojego pana, wspominając ofiary składane w przeszłości.</p>
+                    <quote>
+                        <lb/>ὤ μοι ἐγὼ σέο, τέκνον, ἀμήχανος· ἦ σε περὶ  Ζεὺς 		
+                        <lb/>ἀνθρώπων ἤχθηρε θεουδέα θυμὸν ἔχοντα. 
+                        <lb n="365"/>οὐ γάρ πώ τις τόσσα βροτῶν  Διὶ τερπικεραύνῳ
+                        <lb/>πίονα μηρί᾽ ἔκη᾽ οὐδ᾽ ἐξαίτους ἑκατόμβας, 
+                        <lb/>ὅσσα σὺ τῷ ἐδίδους ἀρώμενος, εἷος ἵκοιο 
+                        <lb/>γῆράς τε λιπαρὸν θρέψαιό τε φαίδιμον υἱόν·
+                        <lb/>νῦν δέ τοι οἴῳ πάμπαν ἀφείλετο νόστιμον ἦμαρ.  
+                    </quote>
+                    <quote>
+                        <lb/>O jakże ja przez ciebie, dziecko, bezsilna: ciebie Zeus
+                        <lb/>spośród ludzi znienawidził, chociaż masz pobożne serce.
+                        <lb n="365"/>Nikt chyba ze śmiertelników Zeusowi piorunnemu tylu
+                        <lb/>tłustych kości udowych nie spalił ani tylu wybranych hekatomb,
+                        <lb/>które ty jemu dałeś modląc się, abyś dotrwał
+                        <lb/>do jasnej starości i żeby chował się twój jasny syn –
+                        <lb/>teraz, jak widzę, Zeus tobie odjął na zawsze dzień powrotu.
+                    </quote>
+                    <p>363–364: Wypowiedź Euryklei jest ważna z punktu widzenia homeryckiej teologii i wyobrażeń o związkach między pobożnością, składaniem ofiar i losem człowieka. Pobożność Odyseusza, podobnie jak Hektora w Iliadzie, jest wyjątkowa i wyraża się jakością i liczbą ofiar, mimo to jego los świadczy o nienawiści Zeusa.</p>
+                    <p>366: πίονα μηρί᾽ ἔκη᾽ οὐδ᾽ ἐξαίτους ἑκατόμβας – „tłustych kości udowych nie spalił ani tylu wybranych hekatomb”; podobnie jak w innych przypadkach, także i tutaj wspomnienie ofiar składanych w przeszłości włączone w wypowiedź postaci przybiera postać wspomnienia spalania kości udowych, a zatem części przeznaczonej wyłącznie dla bogów i będącej znakiem oddania im czci.</p>
+                </div>
+                <div type="textpart" n="Odyseja_XIX_392–398">
+                    <head>Odyseja XIX 392–398</head>
+                    <p>Słynna scena rozpoznania Odyseusza dzięki ranie na udzie, śladzie po wypadku podczas polowania u Autolykosa. Eurykleja, charakteryzując dziadka matecznego Odyseusza, wspomina o ofiarach Autolykosa dla Hermesa. Tym razem ofiary są przyjęte, gdyż bóg obdarza śmiertelnika swoimi łaskami.</p>
+                    <quote>
+                        <lb/>νίζε δ᾽ ἄρ᾽ ἄσσον ἰοῦσα ἄναχθ᾽ ἑόν· αὐτίκα δ᾽ ἔγνω 			
+                        <lb/>οὐλήν, τήν ποτέ μιν σῦς ἤλασε λευκῷ ὀδόντι 
+                        <lb/>Παρνησόνδ᾽ ἐλθόντα μετ᾽  Αὐτόλυκόν τε καὶ υἷας, 
+                        <lb n="395"/>μητρὸς ἑῆς πατέρ᾽ ἐσθλόν, ὃς ἀνθρώπους ἐκέκαστο
+                        <lb/>κλεπτοσύνῃ θ᾽ ὅρκῳ τε· θεὸς δέ οἱ αὐτὸς ἔδωκεν 
+                        <lb/>Ἑρμείας· τῷ γὰρ κεχαρισμένα μηρία καῖεν 
+                        <lb/>ἀρνῶν ἠδ᾽ ἐρίφων· ὁ δέ οἱ πρόφρων ἅμ᾽ ὀπήδει.  
+                    </quote>
+                    <quote>
+                        <lb/>Przystąpiła do niego i myła pana swego. Nagle rozpoznała
+                        <lb/>bliznę, którą niegdyś pozostawił mu dzik białym kłem,
+                        <lb/>gdy wybrał się do Parnasu odwiedzić Autolykosa i synów.
+                        <lb n="395"/>Był to szlachetny ojciec matki jego, który innych ludzi przewyższał
+                        <lb/>złodziejstwem i przysięgami. Sam bóg mu dał to,
+                        <lb/>Hermes, któremu miłe kości udowe palił
+                        <lb/>jagniąt i koźląt, ten zaś był mu życzliwie pomagał.
+                    </quote>
+                    <p>397–398: τῷ γὰρ κεχαρισμένα μηρία καῖεν / ἀρνῶν ἠδ᾽ ἐρίφων – „któremu miłe kości udowe palił / jagniąt i koźląt”; w sprawie zwrotu μηρία καῖεν, zob. Il. 1.39–40 z komentarzem.</p>
+                    <p>κεχαρισμένα – „miłe”; na temat związku między charis a ofiarą, zob. Il. 39–40 z komentarzem.</p>
+                    <p>ἀρνῶν ἠδ᾽ ἐρίφων – „jagniąt i koźląt”; zdaje, że młode owce i kozy składane w ofierze dla Hermesa ma związek z pasterskim, pozamiejskim charakterem kultu tego boga.</p>
+                </div>
+                <div type="textpart" n="Odyseja_XIX_418–427">
+                    <head>Odyseja XIX 418–427</head>
+                    <p>Uczta heroiczna przygotowana przez Autolykosa dla Odyseusza łączy opis ofiary Nestora (rola synów) z formularnym opisem ofiary Agamemnona w pieśni VII Iliady. </p>
+                    <quote>
+                        <lb/>Αὐτόλυκος δ᾽ υἱοῖσιν ἐκέκλετο κυδαλίμοισι 				
+                        <lb/>δεῖπνον ἐφοπλίσσαι· τοὶ δ᾽ ὀτρύνοντος ἄκουσαν. 
+                        <lb n="420"/>αὐτίκα δ᾽ εἰσάγαγον βοῦν ἄρσενα πενταέτηρον·
+                        <lb/>τὸν δέρον ἀμφί θ᾽ ἕπον καί μιν διέχευαν ἅπαντα 
+                        <lb/>μίστυλλόν τ᾽ ἄρ᾽ ἐπισταμένως πεῖράν τ᾽ ὀβελοῖσιν 
+                        <lb/>ὤπτησάν τε περιφραδέως δάσσαντό τε μοίρας. 
+                        <lb/>ὣς τότε μὲν πρόπαν ἦμαρ ἐς ἠέλιον καταδύντα 
+                        <lb n="425"/>δαίνυντ᾽, οὐδέ τι θυμὸς ἐδεύετο δαιτὸς ἐΐσης· 
+                        <lb/>ἦμος δ᾽ ἠέλιος κατέδυ καὶ ἐπὶ κνέφας ἦλθε, 
+                        <lb/>δὴ τότε κοιμήσαντο καὶ ὕπνου δῶρον ἕλοντο.  
+                    </quote>
+                    <quote>
+                        <lb/>Autolykos rozkazał synom sławnym
+                        <lb/>przygotować posiłek: oni posłuchali go śpiesznie. 
+                        <lb n="420"/>Szybko przyprowadzili wołu, samca pięcioletniego.
+                        <lb/>Obdarli go ze skóry i przygotowali, poćwiartowali wszystko,
+                        <lb/>posiekali zręcznie, nadziali na rożny,
+                        <lb/>upiekli starannie i rozdzielili dole.
+                        <lb/>W ten sposób cały dzień, do zachodu słońca
+                        <lb n="425"/>ucztowali i niczego nie brakowało sercu z równej uczty.
+                        <lb/>Zaledwie słońce zaszło i nastał zmrok
+                        <lb/>ułożyli się do łoża i skorzystali z daru snu.
+                    </quote>
+                    <p>421–423: Wersy formularne = Il. 7.316–318.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

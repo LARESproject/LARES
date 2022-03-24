@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Odissea canto XVI</title>
+                <title xml:lang="en">Odyssey book XVI</title>
+                <title xml:lang="pl">Odyseja, pieśń XVI</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_36_odyssea_xvi</idno> 
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Odyseja, pieśń XVI</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 261-264</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-03-24" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Pieśń szesnasta obejmuje 38. dzień fabuły wypełniony przede wszystkim spotkaniem Telemacha i Odyseusza. Poeta wykorzystuje w swoim opowiadaniu motyw „opóźnionego rozpoznania”. Następnie ojciec z synem planują zemstę na zalotnikach. Dla badań nad ofiarą krwawą interesujące wydają się być dwa miejsca. Pierwsze jest transpozycją uczty heroicznej dostosowaną do skromnych warunków chaty Eumajosa (Od. 16.47–55). Drugie stanowi reakcję Telemacha wobec doświadczenia niesamowitości wpisanego w objawienie Odyseusza w jego heroicznej postaci. Greckiemu doświadczeniu religijnemu nie jest obca idea, że nieznajomy o niezwykłym wyglądzie może okazać się bogiem. Objawienie się bóstwa natomiast skłania do złożenia ofiar nawiązujących właściwe relacje z istotą nadprzyrodzoną oparte na charis.</p>
+                    <p>1–153	Scena typowa – przybycie gościa:</p>
+                    <p>4–48		przyjęcie Telemacha przez Eumajosa</p>
+                    <p>49–54		posiłek</p>
+                    <p>55–153	rozmowa.</p>
+                    <p>154–219	Spotkanie Odyseusza z Telemachem. Rozpoznanie.</p>
+                    <p>220–269	Rozmowa Odyseusza z Telemachem.</p>
+                </div>
+                <div type="textpart" n="Odyseja_XVI_47–55">
+                    <head>Odyseja XVI 47–55</head>
+                    <p>Wspólny posiłek Telemacha i Odyseusza jest elementem rozbudowanej sceny typowej przybycie gościa. Wykorzystuje język formularny sceny typowej uczta heroiczna, wprowadzając jednocześnie szereg modyfikacji dostosowanych do skromnego kontekstu chaty świniopasa (Arend 1933: 45–6; Tsagarakis 1982: 70–1; de Jong 2004: 385–6). Por. Od. 1.136.146 z komentarzem.</p>
+                    <quote>
+                        <lb/>τῷ δὲ συβώτης 
+                        <lb/>χεῦεν ὕπο χλωρὰς ῥῶπας καὶ κῶας ὕπερθεν· 
+                        <lb/>ἔνθα καθέζετ᾽ ἔπειτα  Ὀδυσσῆος φίλος υἱός. 
+                        <lb/>τοῖσιν δὲ κρειῶν πίνακας παρέθηκε συβώτης 
+                        <lb n="50"/>ὀπταλέων, ἅ ῥα τῇ προτέρῃ ὑπέλειπον ἔδοντες,
+                        <lb/>σῖτον δ᾽ ἐσσυμένως παρενήεεν ἐν κανέοισιν, 
+                        <lb/>ἐν δ᾽ ἄρα κισσυβίῳ κίρνη μελιηδέα οἶνον· 
+                        <lb/>αὐτὸς δ᾽ ἀντίον ἷζεν  Ὀδυσσῆος θείοιο. 
+                        <lb/>οἱ δ᾽ ἐπ᾽ ὀνείαθ᾽ ἑτοῖμα προκείμενα χεῖρας ἴαλλον. 
+                        <lb/>αὐτὰρ ἐπεὶ πόσιος καὶ ἐδητύος ἐξ ἔρον ἕντο.
+                    </quote>
+                    <quote>
+                        <lb/>dla niego świniopas
+                        <lb/>nasypał zielonych witek i okrył je runem:
+                        <lb/>na nich usiadł wówczas Odyseusza syn miły.
+                        <lb/>Postawił przed nimi tace mięsiwa świniopas,
+                        <lb n="50"/>pieczonego, które pozostawili jedząc wczoraj,
+                        <lb/>chleba żwawo przyniósł w koszykach,
+                        <lb/>zmieszał w stągwi słodkie wino,
+                        <lb/>sam zaś usiadł naprzeciw Odyseusza boskiego.
+                        <lb/>Wyciągnęli ręce do zastawionych potraw.
+                        <lb/>A kiedy pozbyli się głodu i pragnienia,
+                        <lb/>Telemach odezwał się do boskiego pasterza.
+                    </quote>
+                    <p>46–48: Przygotowanie prowizorycznego siedziska z zielonych witek i owczego runa podkreśla skromne warunki życia świniopasa, a zarazem jego gościnność przeciwstawioną postawie zalotników (por. Od. 14.49–51).</p>
+                    <p>49–50: Eumajos stawia przed Telemachem i Odyseuszem mięso wieprza zabitego poprzedniego dnia. Kolejna modyfikacja sceny typowej do okoliczności – zakłada się, że w bogatych ucztach heroicznych całość mięsa upieczonego na rożnach jest zjadana w dniu złożenia ofiary, a w każdym razie każda biesiada jest poprzedzona pełnym lub skróconym opisem złożenia ofiary albo wzmianką o zarżnięciu zwierzęcia (zob. jednak przybycie gości do namiotu Achillesa).</p>
+                    <p>49: πίνακας – „tace”; w przeciwieństwie do uczty heroicznej, gdzie przed uczestnikami stawia się stoły (np. Od. 1.138: παρὰ δὲ ξεστὴν ἐτάνυσσε τράπεζαν – „obok ustawiła stół gładzony”), świniopas kładzie tace być może bezpośrednio na ziemi.</p>
+                    <p>50: ἅ ῥα τῇ προτέρῃ ὑπέλειπον ἔδοντες – „które pozostawili jedząc wczoraj”; kolejny element modyfikujący schemat uczty heroicznej – świniopas podaje resztki pieczonego mięsa, które pozostało po posiłku przygotowanym dla Odyseusza. Jest to jedyny przypadek sięgnięcia w eposie do realiów najpewniej swoiskich w świecie poety i jego słuchaczy i odstąpienie od konwencji rejestru heroicznego.</p>
+                </div>
+                <div type="textpart" n="Odyseja_XVI_181–185">
+                    <head>Odyseja XVI 181–185</head>
+                    <p>Wzmianka o ofierze jako normatywnej odpowiedzi na epifanię bóstwa jest włączona w mowę Telemach w scenie rozpoznania Odyseusza. Sceny rozpoznania są zbudowane z powtarzających się elementów, jednak również w tym miejscu poeta wprowadza modyfikacje. Zmiana wyglądu Odyseusza była rezultatem boskiej interwencji Ateny, teraz, gdy za przyzwoleniem bogini heros ma objawić swoją tożsamość synowi, Atena przywraca mu heroiczną postać, co wywołuje u Telemacha doświadczenie potencjalnej epifanii.</p>
+                    <quote>
+                        <lb/>ἀλλοῖός μοι, ξεῖνε, φάνης νέον ἠὲ πάροιθεν, 				
+                        <lb/>ἄλλα δὲ εἵματ᾽ ἔχεις καί τοι χρὼς οὐκέθ᾽ ὁμοῖος. 
+                        <lb/>ἦ μάλα τις θεός ἐσσι, τοὶ οὐρανὸν εὐρὺν ἔχουσιν· 
+                        <lb/>ἀλλ᾽ ἵληθ᾽, ἵνα τοι κεχαρισμένα δώομεν ἱρὰ 
+                        <lb/>ἠδὲ χρύσεα δῶρα, τετυγμένα· φείδεο δ᾽ ἡμέων.
+                    </quote>
+                    <quote>
+                        <lb/>Jawisz mi się być innym niż pierwej, gościu!				
+                        <lb/>Masz inne szaty i skóra nie taka sama.
+                        <lb/>Zaprawdę jesteś którymś z bogów: oni dzierżą niebo szerokie.
+                        <lb/>Bądź miłościw, byśmy dali ci miłe ofiary
+                        <lb/>albo złote dary, kunsztowne: oszczędź nas!	
+                    </quote>
+                    <p>184–185: ἀλλ᾽ ἵληθ(ι) – „bądź miłościw”; imper. pres. med. 2 sg. czosownika ἵλημι, który występuje wyłącznie w modlitwach, por. Od. 3.380, h.hom. 20.8. Morfologicznie jest to forma reduplikowana wywodząca się od * σι-σλη-θι. Okazanie zmiłowania ze strony boga, który ukazał się w epifanii, umożliwi złożenie ofiar i darów wotywnych.</p>
+                    <p>ἵνα τοι κεχαρισμένα δώομεν ἱρὰ / ἠδὲ χρύσεα δῶρα – „abyśmy dali ci miłe ofiary / albo złote dary”; rzeczownik ἱρὰ oznacza tutaj ofiary zwierzęce z podkreśleniem ich materialnego aspektu (Casabona 1966: 6). Czasownik δώομεν wprowadza tutaj ideę daru pod postacią rzeczy poświęconych bóstwu (ἱρὰ). Z innych miejsc wynika, że chodzi przede wszystkim o części zwierzęcia spalanych na ołtarzu: Il. 11.775 z komentarzem, por. Od. 12.362 (ofiara z krów Heliosa), Hes. Op. 755–766.</p>
+                    <p>χρύσεα δῶρα – „złote dary”; chodzi o przedmioty wotywne składane w świątyni bóstwa. Materialne wyrazy pobożnej czci należnej bóstwu, jak wzniesienie świątyni bądź wyjęcie przedmiotów z ludzkiego użytkowania i przekazania ich bóstwu, są sposobem podrzymywania relacji wzajemności, określanej terminem χάρις. Por. Il. 1.65 z komentarzem.</p>
+                </div>
+                <div type="textpart" n="Odyseja_XVI_452–454">
+                    <head>Odyseja XVI 452–454</head>
+                    <p>Kolejna wzmianka o zabijaniu zwierząt na uczty zalotników pojawia się w chwili przybycia Odyseusza z Eumajosem do domu wieczorem 38. dnia fabuły.</p>
+                    <quote>
+                        <lb/>ἑσπέριος δ’ Ὀδυσῆϊ καὶ υἱέϊ δῖος ὑφορβὸς
+                        <lb/>ἤλυθεν· οἱ δ’ ἄρα δόρπον ἐπισταδὸν ὁπλίζοντο, 
+                        <lb/>σῦν ἱερεύσαντες ἐνιαύσιον. 
+                    </quote>
+                    <quote>
+                        <lb/>Pod wieczór do Odyseusza i jego syna boski świniopas
+                        <lb/>przyszedł: ci właśnie wieczerzę, stojąc, przyrządzali,
+                        <lb/>poświęciwszy wieprza jednorocznego.
+                    </quote>
+                    <p>254: σῦν ἱερεύσαντες ἐνιαύσιον – „poświęciwszy wieprza jednorocznego”; w sprawie czasownika ἱερεύω, zob. Od. 14.28 z komentarzem.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

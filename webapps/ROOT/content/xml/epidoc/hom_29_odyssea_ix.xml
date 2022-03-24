@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Odissea canto IX</title>
+                <title xml:lang="en">Odyssey book IX</title>
+                <title xml:lang="pl">Odyseja, pieśń IX</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_29_odyssea_ix</idno> 
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Odyseja, pieśń IX</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 221-223</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-03-24" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Pieśń IX zawiera początek narracji Odyseusza o swoich przygodach między opuszczeniem wybrzeży Troi a przybyciem na Scherię. Pierwsza wzmianka o ofierze pojawia się w epizodzie na wyspie Polifema. Po dokonaniu rekonansu, Odyseusz składa ofiarę z barana należącego do uprowadzonego stada cyklopa. </p>
+                </div>
+                <div type="textpart" n="Odyseja_IX_543–559">
+                    <head>Odyseja IX 543–559</head>
+                    <p>Złożenie ofiary zwierzęcej przez herosa w podróży należy do toposu epickiego. Wcześniej widzieliśmy wzmianki o ofiarach składanych w czasie wędrówki Menelaosa.</p>
+                    <quote>
+                        <lb/>ἀλλ᾽ ὅτε δὴ τὴν νῆσον ἀφικόμεθ᾽, ἔνθα περ ἄλλαι 				
+                        <lb/>νῆες ἐΰσσελμοι μένον ἁθρόαι, ἀμφὶ δ᾽ ἑταῖροι 
+                        <lb n="545"/>εἵατ᾽ ὀδυρόμενοι, ἡμέας ποτιδέγμενοι αἰεί,
+                        <lb/>νῆα μὲν ἔνθ᾽ ἐλθόντες ἐκέλσαμεν ἐν ψαμάθοισιν, 
+                        <lb/>[ἐκ δὲ καὶ αὐτοὶ βῆμεν ἐπὶ ῥηγμῖνι θαλάσσης.] 
+                        <lb/>μῆλα δὲ  Κύκλωπος γλαφυρῆς ἐκ νηὸς ἑλόντες 
+                        <lb/>δασσάμεθ᾽, ὡς μή τίς μοι ἀτεμβόμενος κίοι ἴσης. 
+                        <lb n="550"/>ἀρνειὸν δ᾽ ἐμοὶ οἴῳ ἐϋκνήμιδες ἑταῖροι
+                        <lb/>μήλων δαιομένων δόσαν ἔξοχα· τὸν δ᾽ ἐπὶ θινὶ 
+                        <lb/>Ζηνὶ κελαινεφέϊ  Κρονίδῃ, ὃς πᾶσιν ἀνάσσει, 
+                        <lb/> ῥέξας μηρί᾽ ἔκαιον· ὁ δ᾽ οὐκ ἐμπάζετο ἱρῶν, 
+                        <lb/>ἀλλ᾽ ὅ γε μερμήριζεν, ὅπως ἀπολοίατο πᾶσαι 
+                        <lb n="555"/>νῆες ἐΰσσελμοι καὶ ἐμοὶ ἐρίηρες ἑταῖροι.
+                        <lb/>ὣς τότε μὲν πρόπαν ἦμαρ ἐς ἠέλιον καταδύντα 
+                        <lb/>ἥμεθα δαινύμενοι κρέα τ᾽ ἄσπετα καὶ μέθυ ἡδύ· 
+                        <lb/>ἦμος δ᾽ ἠέλιος κατέδυ καὶ ἐπὶ κνέφας ἦλθε, 
+                        <lb/>δὴ τότε κοιμήθημεν ἐπὶ ῥηγμῖνι θαλάσσης.
+                    </quote>
+                    <quote>
+                        <lb/>Gdyśmy przybili do wyspy, gdzie inne
+                        <lb/>okręty dobrze pokryte zostały, wkoło towarzysze
+                        <lb n="545"/>siedzili płacząc, ciągle nas wyczekując,
+                        <lb/>gdy tam dobił nasz okręt, wciągnęliśmy go na plażę
+                        <lb/>sami zaś zeszliśmy na brzeg morza,
+                        <lb/>wyprowadziwszy stado Kyklopa z wydrążonego okrętu,
+                        <lb/>rozdzieliliśmy je, aby nikt nie odszedł pozbawiony równej doli.
+                        <lb n="550"/>Barana, mnie jednemu, towarzysze o pięknych nagolennicach
+                        <lb/>dzieląc stado dali osobno: jego na plaży
+                        <lb/>Zeusowi Kronidzie, czarnochmuremu, co wszystkim włada,
+                        <lb/>zabiwszy w ofierze paliłem udźce. On zaś nie przyjął ofiar:
+                        <lb/>lecz rozważał, jakby zniszczyć wszystkie
+                        <lb/>okręty dobrze zbudowane i moich wiernych towarzyszy. 	
+                    </quote>
+                    <p>548–549: Barany należące do stada Kyklopa zostały użyte do ucieczki z jaskini Polifema, gdy Odyseusz i jego ocalali towarzysze przywiązali się pod brzuchami zwierząt (424 i nast.).  Po dotarciu do okrętów Odyseusz nakazał załadować barany na pokład (469–470). Teraz całe stado zostało wyładowane na ląd i podzielone.</p>
+                    <p>δασσάμεθ᾽ – „podzieliliśmy”; podział stad zwierząt jako łupów wojennych jest stałą praktykom świata herosów, co zapewne nie było obce również doświadczaniu słuchaczy eposu w epoce archaicznej.</p>
+                    <p>550: ἀρνειὸν – „barana”; należące do terminologii hodowli zwierząt słowo ἀρνειός w poezji epickiej jest ogólną nazwą barana, czyli samca owcy, por. ἄρσενες οἴες (Od. 9.425); ἀρνειὸν... οἴν θῆλύν τε (Od. 10.572). W przeciwieństwie do rzeczownika κριός, który oznacza „tryka”, czyli barana – przewodnika stada / reproduktora, słowo ἀρνειός oznacza raczej ogólnie „samca”. Jednak późniejsze źródła zdają się wiązać rzeczownik ἀρνειός z określonym wiekiem zwierzęcia. Hesychios wyjaśnia ἀρνειός jako ὁ τριετὴς κριός – „trzyletni tryk”. Poeta używa słowa ἀρνειός jako synonimu κριός: 432, 444, 463 (ἀρνειός) wobec 447 i 461(κριός). Nie można zatem wykluczyć, że Odyseusz otrzymuje, a następnie składa w ofierze ulubionego tryka Polifema, niekastrowanego barana, przewodnika stada, pod którego brzuchem uciekł z jaskini Kiklopa. Złożenie w ofierze zwierzęcia, które odegrało rolę wybawiciela z opresji, jest stałym motywem mitycznym, por. baran o złotym runie w micie o Fryksosie i Helle.</p>
+                    <p>553: 	ῥέξας μηρί᾽ ἔκαιον· – „zabiwszy w ofierze, paliłem kości udowe”; czasownik ῥέζειν / ἔρδω w formie participium aoristi oznacza tutaj akt poprzedzający spalenie kości udowych, zatem w sensie ścisłym nie można go przetłumaczyć jako „złożyć w ofierze”, „ofiarować”. Przedmiotem działania rytualnego jest baran, a jego fizyczną realizacją – ubój. Czasownik ῥέζειν, który sam wystarczyłby do opisania ofiary zwierzęcej, jest uzupełniony zwrotem μηρία καίειν – „palić kości udowe”, a zatem przywołaniem czynności, która stanowiła najistotniejszą z punktu widzenie komunikacji z bogami, część rytuału. Odyseusz wspomina ryt palenia kości, aby podkreślić, że ze swej strony nie zaniedbał niczego w prawidłowym przebiegu obrzędu.</p>
+                    <p>ὁ δ᾽ οὐκ ἐμπάζετο ἱρῶν – „on zaś nie przyjął ofiar”; Odyseusz mówi z perspektywy czasu, który upłynął, wie, że Zeus ostatecznie nie dał bezpiecznej podróży. Dlaczego wszakże twierdzi, że odmowa przyjęcia ofiary wiązała się z obmyślaniem przez boga zguby dla drużyny Odyseusza? Jest kilka możliwych odpowiedzi na to pytanie (de Jong 2001: 249). Po pierwsze, Odyseusz nie jest narratorem głównym, któremu można by przypisać, za sprawą daru Muz, wszechwiedzę. Opowiada ze swojego doświadczenia i sądzi po przebiegu późniejszych wydarzeń, że Zeus przygotowywał zgubę dla jego towarzyszy. Innym rozwiązaniem zagadki prowadzi do podważenia zasadności przekonania herosa, że oślepienie Polifema było zgodne z wolą Zeusa. Trzecie rozwiązanie zakłada inne reguły postępowania bogów w świecie pozaludzkim. Czwartym sposobem rozwiązania tego paradoksu jest uznanie, że ludzka wiara w sprawiedliwość bogów nie odpowiada realnym zasadom ich postępowania, które często jest warunkowane emocjami i przeszłymi decyzjami. W tym wypadku postępowanie Zeusa jest uzależnione od jego braterskich związków z Posejdonem (por. Od. 1.63–79). Z perspektywy Zeusa samo oślepienie Polifema nie jest zbrodnią, ale wywołało gniew Posejdona, który Pan bogów i ludzi musi uwzględnić. Por. Winterbottom 1989: 33–41; Segal 1992: 483–518.</p>
+                    <p>554: ἀλλ᾽ ὅ γε μερμήριζεν – „lecz rozważał”; czasownik odimienny μερμερίζειν (od przymiotnika μέρμερος – „nieszczęsny”, „zgubny”, „straszny”) występuje wyłącznie w eposie homerowym oraz w późniejszych literackich parodiach stylu epickiego. Tutaj w połączeniu z ὅπως + Verb.conj. oznacza „zastanawiać się”, „wahać się, w jaki sposób można by zrobić coś strasznego”.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

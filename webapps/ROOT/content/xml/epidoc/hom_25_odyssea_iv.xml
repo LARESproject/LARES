@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Odissea canto IV</title>
+                <title xml:lang="en">Odissey book IV</title>
+                <title xml:lang="pl">Odyseja, pieśń IV</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">hom_25_odyssea_iv</idno> 
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Odyseja, pieśń IV</title>, in Lech Trzcionkowski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Homer</title>, Warszawa 2017, pp. 212-215</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-03-24" who="Gaetano Spampinato">encoded document in XML</change>
+                <change when="2017" who="Lech Trzcionkowski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Pieśń czwarta obejmuje wydarzenia wieczoru dnia piątego oraz dzień szósty akcji Odysei. Wypełnia je opowieść o pobycie Telemacha u Menelaosa w Sparcie (Od. 4.1–624) oraz wydarzenia na Itace, które rozegrały się na wieść o podróży Telemach (Od. 625–848). W czasie dwóch dni pobytu w domu Menelaosa Telemach dowiaduje się o losie herosów powracających spod Troi i w końcu osiąga cel swojej podróży – zasięga wieści o losie swojego ojca (Od. 4.555–560). Dalszy ciąg pobytu Telemacha znajdzie swój epilog w pieśni piętnastej.</p>
+                </div>
+                <div type="textpart" n="Odyseja_IV_64–65">
+                    <head>Odyseja IV 64–65</head>
+                    <p>Struktura opowiadania o pobycie Telemacha w Sparcie jest zbudowana na schemacie sceny typowej – gościna: przybycie (1–2), zastana sytuacja (3–19), przyjęcie (20–43), kąpiel (48–51), posiłek (52–68), rozmowa gospodarza z gościem (69–295 oraz 311–620), przygotowanie łoża dla gości (296–301) oraz wręczenie gościńca (587–619 i 15.92–134). Komentowany wyimek jest częścią motywu „posiłek”. Chociaż brak bezpośredniego odniesienia do rytuału ofiary, zakłada się, że mięso spożywane przez herosów pochodzi ze zwierząt zabijanych rytualnie. W przypadku uczty u Menelaosa chodzi o gody weselne syna i córki.</p>
+                    <quote>
+                        <lb/>ὣς φάτο, καί σφιν νῶτα βοὸς παρὰ πίονα θῆκεν 
+                        <lb/>ὄπτ᾽ ἐν χερσὶν ἑλών, τά ῥά οἱ γέρα πάρθεσαν αὐτῷ.  
+                    </quote>
+                    <quote>
+                        <lb/>Tak rzekł i podał im tłustą polędwicę wołu,
+                        <lb/>pieczoną biorąc ją do ręki, była to przypadająca mu część zaszczytna. 
+                    </quote>
+                    <p>65: νῶτα βοὸς… πίονα – „tłustą polędwicę wołu”; podczas podziału mięsa ofiarnego pewne części zwierzęcia były traktowane w specjalny sposób. U Homera mamy wzmianki o wydzielaniu polędwicy oraz ozora (Od. 3.332). Polędwica była uważana za dar zaszczytny (γέρα), zob. Il. 7.321–322; Il. 9.207; Od. 8.474–483; Od. 14.437–441. Zwyczaj ten jest nadal praktykowany w epoce klasycznej. W Sparcie polędwica jest częścią przypadającą królom (Hdt 6.56).</p>
+                </div>
+                <div type="textpart" n="Odyseja_IV_471–480">
+                    <head>Odyseja IV 471–480</head>
+                    <p>Motyw zaniedbanej hekatomby pojawia się w opowiadaniu Menelaosa o jego nostos. Podobnie jak w pieśni pierwszej, sekwencja zawiera następujące elementy: przeszkoda – diagnoza – remedium (złożenie ofiary) – usunięcie przeszkody. W tym wypadku jednak nie ma mowy o winie Menelaosa. „Diagonozę transcendentną” stawia postać mityczna, Proteus (gr. péprōtai – „przepowiadać”), którego spotyka powracający spod Troi Menelaos na wyspie Faros u wybrzeży Egiptu. Gdy Menelaos pozostawał na wyspie z powodu zaniedbania hekatomby, zlitowała się nad nim córka Proteusa, Ejdotea („wiedząca bogini”), spełniająca funkcję pomocnika bohatera, i wskazała herosowi sposób, w jaki może pochwycić jej ojca i poznać przyczynę gniewu bogów. Proteus miał zwyczaj wychodzenia z morza po południu i spania w pieczarze wśród stada fok. Menelaos i jego towarzysze zaczaili się pod skórami fok, a gdy Proteus ułożył się do snu, usidlili go, mimo że bóg przemieniał się w lwa, węża, panterę, odyńca, wodę i drzewo. Podkreślany przez Homera związek Proteusa z Egiptem zdaje się świadczyć o innowacji poety (zob. O’Nolan 1960; Plass 1969).</p>
+                    <p>Menelaos zadaje pytanie o przyczynę jego przymusowego pobytu na Faros. Proteusz, nie zwlekając z odpowiedzią, przekazuje instrukcję postępowania będącą wynikiem transcendentnej diagnozy (to znaczy będącą wynikim nie-ludzkiej wiedzy).</p>
+                    <quote>
+                        <lb n="471"/>ὣς ἐφάμην, ὁ δέ μ᾽ αὐτίκ᾽ ἀμειβόμενος προσέειπεν·
+                        <lb/>ἀλλὰ μάλ᾽ ὤφελλες  Διί τ᾽ ἄλλοισίν τε θεοῖσι 
+                        <lb/>  ῥέξας ἱερὰ κάλ᾽ ἀναβαινέμεν, ὄφρα τάχιστα 
+                        <lb/>σὴν ἐς πατρίδ᾽ ἵκοιο πλέων ἐπὶ οἴνοπα πόντον. 
+                        <lb n="475"/>οὐ γάρ τοι πρὶν μοῖρα φίλους τ᾽ ἰδέειν καὶ ἱκέσθαι
+                        <lb/>οἶκον ἐϋκτίμενον καὶ σὴν ἐς πατρίδα γαῖαν, 
+                        <lb/>πρίν γ᾽ ὅτ᾽ ἂν  Αἰγύπτοιο, διιπετέος ποταμοῖο, 
+                        <lb/>αὖτις ὕδωρ ἔλθῃς ῥέξῃς θ᾽ ἱερὰς ἑκατόμβας 
+                        <lb/>ἀθανάτοισι θεοῖσι, τοὶ οὐρανὸν εὐρὺν ἔχουσι· 
+                        <lb/>καὶ τότε τοι δώσουσιν ὁδὸν θεοί, ἣν σὺ μενοινᾷς.  	
+                    </quote>
+                    <quote>
+                        <lb/>Tak mówiłem, on zaś niezwłocznie odpowiadając rzekł:
+                        <lb/>„Ależ powinieneś Zeusowi i innym bogom
+                        <lb/>złożywszy piękne ofiary, wsiąść na okręt, aby jak najszybciej
+                        <lb/>do swojej  ojczyzny dotrzeć, płynąc po morzu ciemnym jak wino,
+                        <lb/>nie jest bowiem twoją dolą zobaczyć bliskich i dotrzeć
+                        <lb/>do domu dobrze zbudowanego i ziemi ojczystej,
+                        <lb/>zanim nie wrócisz do wody Egiptu,
+                        <lb/>rzeki pochodzącej od Zeusa, aby złożyć święte hekatomby
+                        <lb/>nieśmiertelnym bogom, który dzierżą szerokie niebo,
+                        <lb/>i wówczas bogowie dadzą ci drogę, której pragniesz. 
+                    </quote>
+                    <p>472: ἀλλὰ μάλ᾽ ὤφελλες – „ależ powinieneś”; Stephanie West zwraca uwagę, że spójnik ἀλλὰ μάλ᾽ wyraża pewną niecierpliwość, stąd tłumaczenie „ależ”. Proteusz nie odpowiada na pytanie o zdarzenia, które doprowadziły do uwięzienia Menelaosa w Egipcie, lecz wskazuje na działania, które go uwolnią.</p>
+                    <p>472b–473a: Διί τ᾽ ἄλλοισίν τε θεοῖσι / ῥέξας ἱερὰ κάλ᾽ – „Zeusowi i innym bogom / złożywszy piękne ofiary”; możliwe, że wskazanie na Zeusa i innych bogów jako odbiorców ofiar podkreśla konieczność uczczenia wszystkich bogów bez wyjątku. Wyrażenie można zestawić z Il. 9.535, gdzie gniew Artemidy wynika z pominięcia jej w czasie składania hekatomb przez Ojneusa. Por. Il. 9.357: ἔνθα Διὶ ῥέξαντες ὑπερμενεῖ ἱερὰ καλά, gdzie po Zeusie wymienieni są konkretni bogowie (zob. comm. ad loc.).</p>
+                    <p>478:	ῥέξῃς θ᾽ ἱερὰς ἑκατόμβας: zob. wyżej 472b–473a, gdzie jest mowa o ἱερὰ καλά. Najwyraźniej oba wyrażenia są synonimiczne.</p>
+                </div>
+                <div type="textpart" n="Odyseja_IV_581–592">
+                    <head>Odyseja IV 581–592</head>
+                    <p>Po otrzymaniu wyroczni od Proteusa Menelaos wraca na ląd trwały do delty Nilu, aby złożyć hekatombę i uśmierzyć gniew bogów.</p>
+                    <quote>
+                        <lb n="581"/>ἂψ δ᾽ εἰς  Αἰγύπτοιο, διιπετέος ποταμοῖο,
+                        <lb/>στῆσα νέας καὶ ἔρεξα τεληέσσας ἑκατόμβας. 
+                        <lb/>αὐτὰρ ἐπεὶ κατέπαυσα θεῶν χόλον αἰὲν ἐόντων, 
+                        <lb/>χεῦ᾽  Ἀγαμέμνονι τύμβον, ἵν᾽ ἄσβεστον κλέος εἴη. 
+                        <lb n="585"/>ταῦτα τελευτήσας νεόμην, ἔδοσαν δέ μοι οὖρον
+                        <lb/>ἀθάνατοι, τοί μ᾽ ὦκα φίλην ἐς πατρίδ᾽ ἔπεμψαν. 
+                        <lb/>ἀλλ᾽ ἄγε νῦν ἐπίμεινον ἐνὶ μεγάροισιν ἐμοῖσιν,
+                        <lb/>ὄφρα κεν ἑνδεκάτη τε δυωδεκάτη τε γένηται· 
+                        <lb/>καὶ τότε σ᾽ εὖ πέμψω, δώσω δέ τοι ἀγλαὰ δῶρα, 
+                        <lb n="590"/>τρεῖς ἵππους καὶ δίφρον ἐΰξοον· αὐτὰρ ἔπειτα 
+                        <lb/>δώσω καλὸν ἄλεισον, ἵνα σπένδῃσθα θεοῖσιν 
+                        <lb/>ἀθανάτοισ᾽ ἐμέθεν μεμνημένος ἤματα πάντα."  
+                    </quote>
+                    <quote>
+                        <lb/>Ponownie do Egiptu, w rzekę płynącą do Zeusa,
+                        <lb/>wprowadziłem okręty i złożyłem doskonałe hekatomby.
+                        <lb/>Gdy uśmierzyłem gniew bogów wiecznie żyjących,
+                        <lb/>usypałem kurhan Agamemnonowi, aby miał niespożytą sławę.
+                        <lb/>To spełniwszy popłynąłem, dali mi wiatr
+                        <lb/>nieśmiertelni, którzy szybko posłali mnie do miłej ojczyzny.
+                        <lb/>Lecz zostań teraz w moich komnatach,
+                        <lb/>jedynaście albo dwanaście dni
+                        <lb/>i wówczas ciebie poślę, dam mi dary wspaniałe,
+                        <lb/>trzy konie i rydwan z gładzonego drzewa,  i dam jeszcze
+                        <lb/>puchar, byś spełniając obiaty dla bogów
+                        <lb/>nieśmiertelnych wspominał mnie przez wszystkie dni.
+                    </quote>
+              <p>582: ἔρεξα τεληέσσας ἑκατόμβας – „złożyłem doskonałe hakatomby”; por. 477–478. Narracja o wykonaniu zaleceń Proteusza nie jest powtórzeniem słów boga, lecz ich parafrazą.</p>
+                    <p>583: αὐτὰρ ἐπεὶ κατέπαυσα θεῶν χόλον – „gdy uśmierzyłem gniew bogów”; w opowiadaniu Menelaosa akcent zostaje przeniesiony z celu ofiary (powrót herosa do domu) na jej wpływ na działania bogów. O ile wcześniej gniew bogów był zakładaną przyczyną zatrzymania Menelaosa, o tyle teraz jego ustanie zakłada otwarcie możliwości dalszej żeglugi.</p>
+                    <p>584: χεῦ᾽ Ἀγαμέμνονι τύμβον, ἵν᾽ ἄσβεστον κλέος εἴη – „usypałem kurhan Agamemnonowi, aby miał niespożytą sławę”; działania względem bogów uzupełniają działania względem zmarłych. Menelaos, dowiedziawszy się o losie swojego brata, usypuje mu symboliczny grób, nie ma bowiem podstaw sądzić, że w Mykenach heros otrzymał należny pochówek. Tumulus jako materialne upamiętnienie herosa nie tylko w ojczyźnie, ale również poza jej granicami, zob. Il. 2.813; Il. 4.176 i nast.; Il. 7.87 i nast.; Od. 11.75 i nast. oraz Il. 24.80 i nast. Por. West 1981: 382.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
