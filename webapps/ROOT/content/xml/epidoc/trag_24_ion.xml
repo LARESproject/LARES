@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Ion (Ἴων, Ione)</title>
+                <title xml:lang="en">Ion (Ἴων, Ion)</title>
+                <title xml:lang="pl">Ion (Ἴων, Ion)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">trag_24_ion</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Ion (Ἴων, Ion)</title>, in Krzysztof Bielawski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Tragedia attycka</title>, Warszawa 2017, pp. 297-308</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaia Fanelli">encoded document in XML</change>
+                <change when="2017" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body><!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Dokładna data wystawienia <title>Iona</title> nie jest znana. Nie wiemy też, jakie
+                        inne sztuki wchodziły w skład trylogii i jaki był ich los w konkursie tragicznym.
+                        Na podstawie analizy metrycznej, roli trzeciego aktora oraz
+                        trudnych do udowodnienia nawiązań do innych dramatów przyjmuje
+                        się, że tragedia powstała między rokiem 418 a 417.</p>
+                    <p>Tematyka ofiarna nie jest w sztuce silnie obecna. Koncentruje się
+                        głównie wokół ofiar związanych z pozyskiwaniem wyroczni lub też
+                        ofiar i uczt ofiarnych dotyczących celebracji urodzin dziecka.</p>
+                    <p>Wielokrotnie pojawia się w dramacie ołtarz jako punkt (w. 114,
+                        161) odniesienia lub miejsce akcji. Nie odnotowuję w komentarzu tych
+                        miejsc, gdzie ołtarz jest związany z rytuałem błagania (hikesia). W jakimś
+                        sensie dalekim echem kontekstu ofiarnego są dwa miejsca, w których
+                        mowa jest o Ionie i o tym, że żył on w Delfach dzięki pożywieniu
+                        z ołtarzy, że to ołtarze go karmiły: wersy 52–53: <w>νέος</w> μὲν οὖν ὢν ἀμφὶ
+                        <w>βωμίους</w> <w>τροφὰς</w> / <w>ἠλᾶτ</w>᾽ <w>ἀθύρων</w> („kiedy był dzieckiem, w zabawie
+                        kręcił się przy ofiarnych posiłkach”) oraz wers 323: <w>βωμοί</w> μ᾽ <w>ἔφερβον</w>
+                        („ołtarze mnie żywiły”). Wynika z tych passusów, że chłopiec sierota
+                        żywił się przy ucztach ofiarnych, będących częścią ofiarnego obrzędu.</p>
+                    <p>Intrygujące, że rzeczownik σφαγή dwukrotnie występuje w sztuce
+                        w technicznym znaczeniu związanym bezpośrednio z ofiarą krwawą
+                        (w. 377 i 1126), ale też raz na określenie zwykłego zabójstwa (w. 1250:
+                        <w>θανασίμους</w> ἐπὶ <w>σφαγάς</w>).</p>
+                    <p>Tekst według wydania: Diggle (1981).</p>
+                </div>
+                <div type="textpart" n="Ion_226-229">
+                    <head>Ion 226-229</head>
+                    <p>Słowa Iona do chóru służebnych Kreusy, które przybywają do Delf
+                        po radę i chcą wejść do świątyni. Ion im zabrania, nakazując najpierw
+                        złożyć w ofierze owce.</p>
+                    <quote><lb/>εἰ μὲν ἐθύσατε πέλανον πρὸ δόμων
+                        <lb/>καί τι πυθέσθαι χρῄζετε Φοίβου,
+                        <lb/>πάριτ᾽ ἐς θυμέλας· ἐπὶ δ᾽ ἀσφάκτοις
+                        <lb/>μήλοισι δόμων μὴ πάριτ᾽ ἐς μυχόν.</quote>
+                    <quote><lb/>Jeśliście złożyły już ofiarę z pelanosu przed świątynią,
+                        <lb/>I pragniecie zapytać o coś Feba,
+                        <lb/>Podejdźcie do ołtarzy; ale przed zabiciem na ofiarę
+                        <lb/>Owiec dalej do wnętrza świątyni nie wchodźcie!</quote>
+                    <p>Informacje zawarte w tym passusie w pełni zgadzają się z danymi
+                        na temat procedur ofiarnych podczas zasięgania wyroczni w Delfach
+                        (Parke 1967: 83–84): najpierw na ołtarzu przed wejściem do świątyni
+                        składano ofiarę z pelanosu (ciastka ofiarnego lub gęstej mieszaniny
+                        miodu, oliwy i mąki o konsystencji ciasta naleśnikowego, używanej
+                        w ofiarach płynnych, zob. Stengel 1894 i Jameson 1956, por. <title>Pers</title>. 204
+                        z komentarzem ad loc. oraz <title>Alc</title>. 851 z komentarzem ad loc.), a następnie
+                        – już na ołtarzu, gdzie płonął wieczny ogień, w głównej sali świątyni –
+                        ofiarę krwawą z owcy (lub kozy, Parke 1967: 83), nazywaną chresterion
+                        (zob. poniżej w. 419 z komentarzem). Wiele uwagi poświęcono w dyskusjach
+                        naukowych kwestii ceny pelanosu, która była dość wysoka
+                        i służyła jako ekwiwalent minimalnej opłaty za konsultacje wyroczni
+                        (Parke 1967: 83 z odniesieniem do Amandry 1950: 86).</p>
+                    <p>228: ἐς <w>θυμέλας</w> – „do ołtarzy”; nie jest oczywiste, o które ołtarze
+                        chodzi i czy w ogóle liczba mnoga odnosi się w tym miejscu do więcej
+                        niż jednego ołtarza, czy też jest poetycką konwencją. Kontekst zdaje się
+                        wskazywać na jeden ołtarz wewnątrz świątyni, na którym składano
+                        ofiarę krwawą przed wejściem do adyton (w tym passusie mowa jest
+                        o mychos, co zapewne nie jest tożsame z adyton, oznacza dalszą, głębszą
+                        część świątyni przed wejściem do adyton, Lee 1977: 185).</p>
+                    <p>228–229: ἐπὶ δ᾽ <w>ἀσφάκτοις</w> / <w>μήλοισι</w> – „przed zabiciem na ofiarę /
+                        owiec”, dosłownie „z owcami, które nie zostały [jeszcze] zarżnięte na
+                        ofiarę”. Ἄσφακτος: formalnie – aiectivum verbale od <w>σφάζειν</w> z prefiksem
+                        alphae privativae, to znaczy „taki, który nie został zabity/zarżnięty
+                        na ofiarę”. Pierwszy raz poświadczone w tym miejscu u Eurypidesa.
+                        Poza tym – tylko dwa razy u Atenajosa, zawsze w ściśle ofiarnym kontekście
+                        (w. 9, 25, 4 i 9, 26, 13).</p>
+                </div>
+                
+            <div type="textpart" n="Ion_277-278">
+                <head>Ion 277-278</head>
+                <p>Wersy z początku epeisodionu pierwszego – rozmowy Iona z Kreusą,
+                    która opowiada mu swoje dzieje. Tutaj wspomina śmierć swoich
+                    sióstr, które oddały życie jako ofiary za ojczyznę w czasie wojny
+                    z Eumolposem. Temat ofiary z córek <title>Erechteusa</title> Eurypides opracował
+                    w zachowanym tylko we fragmentach dramacie Erechteus, gdzie
+                    centralną rolę odgrywała śmierć jednej córki i patriotyzm jej matki
+                    Praksitheji. Erechteus, za radą wyroczni zresztą, złożył w ofierze swoje
+                    córki (lub córkę – wersje mitu się różnią, zob. Austin 1967: 22, w jednej
+                    z nich Erechteus miał wprawdzie złożyć w ofierze tylko najmłodszą,
+                    Chthonię, ale pozostałe siostry poszły z nią na śmierć dobrowolnie),
+                    aby zapewnić sobie zwycięstwo w walce z Eumolposem, władcą Eleusis.
+                    W wersji Eurypidesa Kreusa jest jedyną ocaloną.</p>
+                <quote><lb/><emph>ΙΩΝ</emph>:
+                    <lb/>πατὴρ Ἐρεχθεὺς σὰς ἔθυσε συγγόνους;
+                    <lb/><emph>ΚΡΕΟΥΣΑ</emph>:
+                    <lb/>ἔτλη πρὸ γαίας σφάγια παρθένους κτανεῖν.</quote>
+                <quote><lb/><emph>ION</emph>:
+                    <lb/>Twój ociec złożył w ofierze twoje siostry?
+                    <lb/><emph>KREUSA</emph>:
+                    <lb/>Odważył się dla ziemi ojczystej zabić panny jako ofiary.</quote>
+                <p>277: <w>ἔθυσε</w> – „złożył w ofierze”. Czasownik <w>θύειν</w> jest tu użyty sensu
+                    largo i nie oznacza, że ofiara z córek Erechteusa była ofiarą typu
+                    thysia. W kolejnym wersie Kreusa wyjaśnia, że były to sphagia – w tym
+                    wypadku zapewne ofiary przedbitewne (Loraux 1987: 31–33). Należy
+                    odnotować, że w przekładzie Łanowskiego (2006: 367) jest w tym miejscu
+                    „pozabijał”, co całkowicie usuwa jakiekolwiek konotacje ofiarne
+                    tak z tego wersu, jak i z następnego.</p>
+                <p>278: πρὸ γαίας <w>σφάγια</w> παρθένους κτανεῖν – „dla ziemi ojczystej
+                    zabić panny jako ofiary”. <w>Σφάγια</w> w kontekście bitewnym mogą oznaczać
+                    jedynie ofiary składane przed starciem celem zapewnienia sobie
+                    zwycięstwa i pozyskania znaków wieszczych (zob. komentarz do
+                    <title>Ph</title>. 147 z odnośnikami).</p>
+                <p>W przekładzie Łanowskiego – ethyse = pozabijał.</p>
+            </div>
+            
+            <div type="textpart" n="Ion_374-377">
+                <head>Ion 374-377</head>
+                <p>Kreusa, zmyślając opowieść o swojej znajomej, opowiada Ionowi
+                    o własnym życiu – o związku z Apollonem i dziecku, które porzuciła
+                    w Delfach. Przychodzi do wyroczni, żeby dowiedzieć się o losy tego
+                    dziecka. Ion odwodzi ją od tego, tłumacząc, że nie można pytać boga
+                    o to, co chce ukryć (w. 373: τῷ γὰρ θεῷ τἀναντί᾽ οὐ <w>μαντευτέον</w> – „nie
+                    można przecież szukać wyroczni przeciwnej bogu!”).</p>
+                <quote><lb/>ἐς γὰρ τοσοῦτον ἀμαθίας ἔλθοιμεν ἄν,
+                    <lb n="375"/>εἰ τοὺς θεοὺς ἄκοντας ἐκπονήσομεν
+                    <lb/>φράζειν ἃ μὴ θέλουσιν, ἢ προβωμίοις
+                    <lb/>σφαγαῖσι μήλων ἢ δι᾽ οἰωνῶν πτεροῖς.</quote>
+                <quote><lb/>Możemy bowiem dojść do takiej głupoty,
+                    <lb n="375"/>Jeśli trudzić będziemy bogów wbrew ich woli,
+                    <lb/>Żeby mówili to, czego nie chcą, czy to z zarzynanych
+                    <lb/>Przy ołtarzach ofiar z owiec, czy też z lotu ptaków.</quote>
+                <p>376–377: <w>προβωμίοις</w> / <w>σφαγαῖσι</w> μήλων – „z zarzynanych / przy ołtarzach
+                    ofiar z owiec”. <w>Προσβώμιος</w> <w>σφαγή</w> to ściśle rzecz biorąc cięcie,
+                    cios, sposób zarżnięcia zwierzęcia stojącego przy ołtarzu / przed ołtarzem.
+                    Chodzi więc o wróżenie z tego, co towarzyszy sphage lub bezpośrednio
+                    po niej następuje: wypływu krwi z rany i ewentualnie sposobu,
+                    w jaki zabite zwierzę upada na ziemię. Naturalnie w tym miejscu, metonimicznie,
+                    fraza ta określa generalnie wróżenie z ofiar krwawych. Nie
+                    można więc mówić tutaj o jakimś rzadkim czy wyjątkowym użyciu rzeczownika
+                    <w>σφαγή</w> w szerokim znaczeniu „ofiary krwawej”, co sugeruje
+                    większość przekładów, ale w najlepszym razie o metonimii.</p>
+            </div>
+            
+            <div type="textpart" n="Ion_418-424">
+                <head>Ion 418-424</head>
+                <p>Słowa Ksuthosa na koniec pierwszego stasimonu. Mąż Kreusy
+                    wchodzi na scenę w dobrym nastroju na koniec rozmowy Iona z Kreusą,
+                    zapewniony przez wyrocznię Trofoniosa, że nie wróci do domu
+                    bezdzietny. Przygotowuje się do konsultacji wyroczni delfickiej.
+                    Ofiary wstępne – przed wejściem do świątyni – wypadły pomyślnie
+                    i Ksuthos rozumie je jako zapowiedź dobrej wróżby na później. Wchodzi
+                    do świątyni i prosi żonę o modlitwę.</p>
+                <quote><lb/>στείχοιμ᾽ ἂν εἴσω· καὶ γάρ, ὡς ἐγὼ κλύω,
+                    <lb/>χρηστήριον πέπτωκε τοῖς ἐπήλυσι
+                    <lb n="420"/>κοινὸν πρὸ ναοῦ· βούλομαι δ᾽ ἐν ἡμέρᾳ
+                    <lb/>τῇδ᾽–αἰσία γάρ–θεοῦ λαβεῖν μαντεύματα.
+                    <lb/>σὺ δ᾽ ἀμφὶ βωμούς, ὦ γύναι, δαφνηφόρους
+                    <lb/>λαβοῦσα κλῶνας, εὐτέκνους εὔχου θεοῖς
+                    <lb/>χρησμούς μ᾽ ἐνεγκεῖν ἐξ Ἀπόλλωνος δόμων.</quote>
+                <quote><lb/>Mogę już wejść do środka, bo – jak słyszę –
+                    <lb/>Ofiarę wróżebną złożyli dla przybyszów
+                    <lb n="420"/>Wspólną przed świątynią. Chcę w tym dniu
+                    <lb/>– Bo znaki są pomyślne – zasięgnąć rady wyroczni.
+                    <lb/>Ty zaś, o żono, przy ołtarzach, laurowe
+                    <lb/>Wziąwszy gałązki, módl się do bogów, żebym dobrego potomstwa
+                    <lb/>Wróżby wyniósł z domu Apollona.</quote>
+                <p>419: <w>χρηστήριον</w> <w>πέπτωκε</w> – „ofiarę wróżebną złożyli”, dosłownie:
+                    „ofiara wróżebna już padła”, <w>χρηστήριον</w> jest podmiotem dla
+                    <w>πίπτειν</w>. Ofiara ta „padła” jako wspólna – κοινόν – dla całej grupy
+                    przybyszów. Jest to ofiara spełniana już w świątyni, została wspomniana
+                    wyżej w wersie 278 (zob. komentarz). <w>Χρηστήριον</w> oznacza
+                    tutaj ofiarę przygotowawczą (προτέλεια sensu stricto) przed zapytaniem
+                    wyroczni (Rougemont 1977: 114: „victime pour le sacrifice préliminaire
+                    à la consultation de l’oracle” z przywołaniem opracowań:
+                    Amandry 1950: 104–114 i Amandry 1939: 203–224). Praktykę przyprowadzania
+                    (nie zabijania samodzielnie, zob. Rougemont 1977: 114
+                    i Amandry 1950: 104–114) na ofiarę tego typu zwierzęcia, zapewne
+                    owcy lub kozy (Amandry 1939: 204 z przypisem 5), potwierdzają
+                    Diodor (16, 26) i Plutarch (<title>Mor</title>. 435bc–437ab)<note>55 Amandry 1939: 204, przypisy 5 i 6 z bibliografią oraz Amandry 1950:
+                        104–106.</note>. Amandry zaproponował
+                    przekład „sacrifice oraculaire”, co jest być może najlepszym, bo
+                    najogólniejszym wyjściem, jednak trudno przekładalnym lub w ogóle
+                    nieprzekładalnym („ofiara dla wyroczni”?). Jest to ofiara bardziej
+                    związana z wyrocznią, a nie z wróżbą – daje ona prawo do przejścia
+                    dalej w sanktuarium, do samej wyroczni (por. też A. <title>Supp</title>. 450,
+                    <title>Th</title>. 230 oraz obszerny komentarz do S. <title>Aj</title>. 220).</p>
+            </div>
+            
+            <div type="textpart" n="Ion_651–655_663–665">
+                <head>Ion 651–655; 663–665</head>
+                <p>Po pierwszej scenie rozpoznania między Ksuthosem i Ionem, na
+                    zakończenie drugiego epeisodionu, Ksuthos zaprasza swego – jak sądzi
+                    po słowach wyroczni – odzyskanego syna na ucztę ofiarną. Chce
+                    ją wydać w Delfach i jest to typowa uczta ofiarna – <w>δαίς</w>, następująca
+                    po złożeniu ofiary i skupiona wokół ołtarza – przymiotnik <w>ἐφέστιος</w>
+                    (w. 664: taki, który zasiada przy tej samej <w>ἑστία</w>, ogniu płonącym na
+                    ołtarzu) nabiera tutaj szczególnego znaczenia: <w>ξένος</w> <w>ἐφέστιος</w> to nie
+                    tylko „przyjaciel domu” (tak Owen 1939: 115), ale też współbiesiadnik
+                    przy ofiarnej uczcie. W zamyśle Ksuthosa ma ona mieć charakter zaległej,
+                    nigdy nie odbytej ofiary z okazji narodzin – <w>γενέθλια</w>. Zamierza
+                    on jednak przedstawiać syna jako przyjaciela, żeby nie sprawiać przykrości
+                    żonie tym, że tylko on „nie wraca bezdzietny”.</p>
+                <quote><lb n="652"/>θέλω γὰρ οὗπέρ σ᾽ ηὗρον ἄρξασθαι, τέκνον,
+                    <lb/>κοινῆς τραπέζης, δαῖτα πρὸς κοινὴν πεσών,
+                    <lb/>θῦσαί θ᾽ ἅ σου πρὶν γενέθλι᾽ οὐκ ἐθύσαμεν.
+                    lb/καὶ νῦν μὲν ὡς δὴ ξένον ἄγων σ᾽ ἐφέστιον
+                    <lb n="655"/>δείπνοισι τέρψω […]
+                    <lb/>ἀλλὰ τῶν φίλων
+                    <lb/>πλήρωμ᾽ ἀθροίσας βουθύτῳ σὺν ἡδονῇ
+                    <lb n="665"/>πρόσειπε, μέλλων Δελφίδ᾽ ἐκλιπεῖν πόλιν.</quote>
+                <quote><lb n="651"/>Chcę, tutaj, gdzie cię znalazłem, rozpocząć, o dziecko,
+                    <lb/>Od wspólnego stołu, wydać ucztę dla wszystkich,
+                    <lb/>I złożyć ofiary, których nie złożyliśmy wcześniej z okazji twoich
+                    narodzin.
+                    <lb/>A teraz, wiodąc cię jako przyjaciela domowego ogniska,
+                    >lb n="655"/>Ucztą będę się cieszył.
+                    <lb/>[…]
+                    <lb/>Ale wszystkich przyjaciół,
+                    <lb/>Zwoławszy radosną ofiarą z wołów,
+                    <lb n="665"/>Pożegnaj, zanim opuścisz delfickie miasto.</quote>
+                <p>653: <w>θῦσαί</w> θ᾽ ἅ σου πρὶν <w>γενέθλι</w>᾽ οὐκ <w>ἐθύσαμεν</w> – „i złożyć ofiary,
+                    których nie złożyliśmy wcześniej z okazji twoich narodzin”. Ksuthos
+                    chce składać ofiary i cieszyć się swoim – jak błędnie mniema – synem.
+                    Deklaruje, że zamierza uczynić to, czego nie zrobił wcześniej (<w>πρίν</w>), to
+                    znaczy złożyć zwyczajowe ofiary z okazji narodzin dziecka: <w>γενέθλια</w>
+                    (wspomniane jeszcze przez chór w w. 805). Trudno wyrokować o precyzyjnym
+                    sensie tej nazwy – może być to ogólnie uroczystość z okazji
+                    narodzin dziecka lub uroczysty posiłek towarzyszący takiej uroczystości
+                    (de Cazanove 2011: 3 łączy genethlia zdecydowanie z obrzędem
+                    amphidromia). Wydaje się jednak, że w omawianym passusie i dwukrotnie
+                    powtórzonym θύειν mowa jest raczej o ofiarach składanych
+                    z okazji narodzin. Jedyną okazją do złożenia takiej ofiary mogła być
+                    uroczystość dekate – obchodzone dziesiątego dnia po urodzinach nadanie
+                    imienia dziecku połączone z ucztą ofiarną i urodzinowymi prezentami
+                    (<w>γενέθλιον</w> δόσιν, do którego odnosi się Ajschylos w <title>Eu</title>. 7).
+                    Eurypides najwyraźniej używa genethlia zamiast dekate (Golden 1986:
+                    255, przyp. 28). Owen (1939: 115) błędnie przypisuje tę ofiarę świętu
+                    amphidromia, zob. komentarz na ten temat do E. <title>El</title>. 1125–1126.</p>
+                <p>664: <w>βουθύτῳ</w> σὺν <w>ἡδονῇ</w> – „radosną ofiarą z wołów”; dosłownie:
+                    <w>βούθυτος</w> <w>ἡδονή</w> to radość, przyjemność ze składania wołów w ofierze.
+                    Na temat <w>βούθυτος</w> zob. komentarz do A. <title>Ch</title>. 261.</p>
+            </div>
+            
+            <div type="textpart" n="Ion_814-807">
+                <head>Ion 804-807</head>
+                <p>Początek trzeciego epeisodionu, w którym Kreusa dowiaduje
+                    się od chóru, w obecności swego dawnego opiekuna, o szczęściu
+                    Ksuthosa z odnalezienia syna. Przodownica chóru odpowiada
+                    na pytania starca i informuje oboje, że jej mąż właśnie udał się do
+                    „świętego namiotu”, czyli szałasów wystawionych dla pielgrzymów
+                    delfickich wokół sanktuarium, gdzie zamierza składać ofiary i wystawić
+                    ucztę (tak jak zapowiedział to Ionowi w w. 651–665, zob. komentarz
+                    powyżej).</p>
+                <quote><lb/>φροῦδος δ᾽ — ἵν᾽ εἰδῇς πάντα τἀπ᾽ ἐμοῦ, γέρον –
+                    <lb n="805"/>παιδὸς προθύσων ξένια καὶ γενέθλια
+                    <lb/>σκηνὰς ἐς ἱερὰς τῆσδε λαθραίως πόσις,
+                    <lb/>κοινὴν ξυνάψων δαῖτα παιδὶ τῷ νέῳ.</quote>
+                <quote><lb/>Odszedł małżonek – żebyś się wszystkiego ode mnie dowiedział, starcze –
+                    <lb n="805"/>Aby w tajemnicy przed [żoną] za syna składać ofiary w dowód
+                    <lb/>przyjaźni i z okazji urodzin,
+                    <lb/>Do świętego namiotu,
+                    <lb/>Razem zasiądzie ze swym nowym synem do wspólnej uczty.</quote>
+                <p>805: παιδὸς <w>προθύσων</w> ξένια καὶ γενέθλια – „aby za syna składać
+                    ofiary w dowód przyjaźni i z okazji urodzin”. <w>Πρόθυειν</w> z genetiwem
+                    oznacza tutaj „składać ofiarę za kogoś”, a nie „przed czymś, przed
+                    – w znaczeniu czasowym – jakimś innym wydarzeniem” (Casabona
+                    1966: 103 i 107). Przodownica chóru wymienia dwa rodzaje ofiar –
+                    ξένια καὶ γενέθλια – oba zapowiedziane wcześniej przez Ksuthosa
+                    (w. 653–654): pierwszy, ksenia, jako oficjalna przykrywka dla ukrywanych
+                    przed żoną rzeczywistych genethlia – ofiar z okazji narodzin
+                    dziecka (zob. komentarz powyżej, w. 653).</p>
+            </div>
+            
+            <div type="textpart" n="Ion_1122-1131">
+                <head>Ion 1122-1131</head>
+                <p>Początek długiej mowy posłańca – sługi – który opowiada o przebiegu
+                    uczty wystawionej przez Ksuthosa na cześć Iona, zakończonej
+                    nieszczęśliwie złowróżbnymi znakami.
+                    805</p>
+                <quote><lb/>ἐπεὶ θεοῦ μαντεῖον ᾤχετ᾽ ἐκλιπὼν
+                    <lb/>πόσις Κρεούσης, παῖδα τὸν καινὸν λαβὼν
+                    <lb/>πρὸς δεῖπνα θυσίας θ᾽ ἃς θεοῖς ὡπλίζετο,
+                    <lb n="1125"/>Ξοῦθος μὲν ᾤχετ᾽ ἔνθα πῦρ πηδᾷ θεοῦ
+                    <lb/>βακχεῖον, ὡς σφαγαῖσι Διονύσου πέτρας
+                    <lb/>δεύσειε δισσὰς παιδὸς ἀντ᾽ ὀπτηρίων,
+                    <lb/>λέξας· Σὺ μὲν νῦν, τέκνον, ἀμφήρεις μένων
+                    <lb/>σκηνὰς ἀνίστη τεκτόνων μοχθήμασι.
+                    <lb n="1130"/>θύσας δὲ Γενέταις Θεοῖσιν ἢν μακρὸν χρόνον
+                    <lb/>μένω, παροῦσι δαῖτες ἔστωσαν φίλοις.
+                    <lb/>λαβὼν δὲ μόσχους ᾤχεθ᾽ [o] […]</quote>
+                <quote><lb/>Kiedy boga wyrocznię opuściwszy wyruszył
+                    <lb/>Mąż Kreusy, biorąc ze sobą nowego syna,
+                    <lb/>Na uczty i ofiary, które szykował dla bogów,
+                    <lb n="1125"/>Ksuthos udał się tam, gdzie migocze ogień
+                    <lb/>Bakchiczny, aby podwójne skały Dionizosa krwią z ofiar
+                    <lb/>Skropić, zamiast podarków za ujrzenie syna
+                    <lb/>I rzekł: A teraz ty, synu, oczekując na mnie, odpowiednie
+                    <lb/>Namioty postaw dzięki wysiłkowi cieślów.
+                    <lb n="1130"/>/>Jeśli zbyt długi czas będę się spóźniał,
+                    <lb/>Ty, złożywszy ofiary dla bogów opiekunów narodzin, wystaw ucztę
+                    <lb/>dla tych przyjaciół, którzy tam będą.
+                    <lb/>Wziąwszy cielaki poszedł.</quote>
+                <p>1124: πρὸς <w>δεῖπνα</w> <w>θυσίας</w> τε – „na uczty i ofiary”. Może słusznie
+                    tłumaczy Łanowski (2006: 408): „na ucztę ofiarną”, traktując ten
+                    zwrot jako hendiadys. Jest to i uczta, i ofiara, które pozostają nierozłączne
+                    – thysia obejmuje także deipnon, a deipnon jest niezbywalną
+                    częścią thysia.</p>
+                <p>1126–1127: ὡς <w>σφαγαῖσι</w> Διονύσου <w>πέτρας</w> / <w>δεύσειε</w> δισσὰς 
+                    παιδὸς ἀντ᾽ ὀπτηρίων – „aby podwójne skały Dionizosa krwią z ofiar /
+                    skropić, zamiast podarków za ujrzenie syna”. Obok ofiar szykowanych
+                    na ucztę z powodu „odzyskania” syna Ksuthos zamierza złożyć
+                    jeszcze inne ofiary. Na „podwójnych skałach Dionizosa”, czyli ogólnie
+                    gdzieś na Parnasie, który ma dwa szczyty, tam gdzie „migocze ogień
+                    bakchiczny”, ma on złożyć ofiary po to, by skropić skały (<w>δεύειν</w> 
+                    <w>πέτρας</w>) krwią z zarżniętych ofiar – σφαγαῖσι. Trudno powiedzieć, jakie
+                    są to ofiary. Wiadomo, że zwierzętami ofiarnymi (pluralis!) mają być
+                    cielaki – <w>μόσχοι</w>. Rzeczownik σφαγή występuje tu w rzadkim, nieodnotowanym
+                    nawet w LSJ (s.v.) znaczeniu – krwi z zabitych ofiar, na co
+                    wyraźnie wskazuje kontekst i składnia: skały mają zostać skropione
+                    <w>σφαγαῖσι</w>.</p>
+                <p>Ta druga ofiara ma w intencji Ksuthosa zastąpić podarki zwyczajowo
+                    dawane dziecku z okazji narodzin, nazywane ὀπτήρια, ponieważ
+                    wręczane były z okazji zobaczenia pierwszy raz nowo narodzonego
+                    dziecka (de Cazanove 2011: 3).</p>
+                <p>1130: <w>θύσας</w> δὲ <w>Γενέταις</w> <w>Θεοῖσιν</w> – „złożywszy ofiary dla bogów
+                    opiekunów narodzin”. Jak słusznie zauważył dawno temu Verrall
+                    (1890: 93), i niestety tylko on, <w>θύσας</w> nie należy łączyć z μένω, jak chcą
+                    wszystkie późniejsze tłumaczenia i komentarze, ale jedynie z <w>ἔστωσαν</w>. 
+                    Wynika to w równym stopniu ze składni zdania (gdyby chodziło
+                    o to, że składanie ofiar zatrzymuje zbyt długo Ksuthosa, powinien być
+                    w tym miejscu imiesłów teraźniejszy, a nie przeszły), jak i z kontekstu:
+                    Ion nie mógłby wystawić gościom uczty ofiarnej bez przeprowadzenia
+                    wcześniej ofiary. Innymi słowy, Ksuthos mówi do Iona: „jeśli będę się
+                    spóźniał, sam złóż ofiarę i przejdź do uczty”. Nie wiadomo, o jakich
+                    bogów opiekunów narodzin (<w>Γενέται</w> θεοί) może tu chodzić – mogą
+                    to być ogólnie <w>θεοὶ</w> <w>πατρῷοι</w> (tak zapewne u Ajschylosa w <title>Supp</title>. 77):
+                    opiekunowie rodziny, bogowie rodowi; może też chodzić o Herę i Artemidę,
+                    ale wtedy nie wiadomo, dlaczego mamy „bogów”, a nie „boginie”
+                    (Badham 1867: 96–97 – późniejsze komentarze w ogóle nie odnotowują
+                    tego problemu).</p>
+            </div>
+            
+            <div type="textpart" n="Ion_1231-1235">
+                <head>Ion 1231-1235</head>
+                <p>Czwarty stasimon chóru przed eksodosem. Chór lamentuje po
+                    nieudanej próbie otrucia Iona przez Kreusę. Śpiewa o truciźnie dodanej
+                    do wina, którą odkryto i która stanie się teraz powodem śmierci
+                    Kreusy – wraz z nią jej służebne staną się „ofiarami dla podziemi”:
+                    <w>θύματα</w> νερτέρων; <w>θύματα</w> należą do języka technicznego ofiary,
+                    oznaczając najczęściej to, co jest składane w ofierze, tutaj jednak jest to
+                    użycie poetyckie – metafora śmierci.</p>
+                <quote><lb/>φανερὰ [γὰρ] φανερὰ τάδ᾽ ἤδη,
+                    <lb/>σπονδᾶς ἐκ Διονύσου,
+                    <lb/>βοτρύων θοᾶς ἐχίδνας
+                    <lb/>σταγόσι μειγνυμένας φόνῳ . . .
+                    <lb n="1135"/>φανερὰ θύματα νερτέρων.</quote>
+                <quote><lb/>Jasne już bowiem, jasne,
+                    <lb/>Że płynne ofiary z Dionizosa
+                    <lb/>Gron, z szybkiej żmii
+                    <lb/>Krwi kroplami pomieszano,
+                    <lb n="1135"/>Jasne, że jesteśmy ofiarami dla podziemi.</quote>
+            </div>
+            
+            <div type="textpart" n="Ion_1306-1309">
+                <head>Ion 1306-1309</head>
+                <p>Passus z rozmowy – kłótni – Iona z Kreusą, która jako błagalnica
+                    chroni się przy ołtarzu w świątyni. Ion usiłuje ją stamtąd wydostać,
+                    żeby mogła ponieść karę za próbę zabójstwa. Kreusa, stojąc na stopniach
+                    ołtarza, wyzywa prowokacyjnie Iona, prosząc, by „zarżnął” ją
+                    w samej świątyni. Czasownik σφάζειν pojawia się tutaj w znaczeniu
+                    „zabić, zamordować”, ale kontekst ołtarza i świątyni wymusza rytualne
+                    skojarzenia: Kreusa gotowa jest zginąć jako błagalnica i usiłuje
+                    nadać tej swojej możliwej śmierci ofiarne znaczenie.</p>
+                <quote><lb/><emph>ΙΩΝ</emph>:
+                    <lb/>ἔκλειπε βωμὸν καὶ θεηλάτους ἕδρας.
+                    <lb/><emph>ΚΡΕΟΥΣΑ</emph>:
+                    <lb/>τὴν σὴν ὅπου σοι μητέρ' ἐστὶ νουθέτει.
+                    <lb/><emph>ΙΩΝ</emph>:
+                    <lb/>σὺ δ' οὐχ ὑφέξεις ζημίαν, κτείνουσ' ἐμέ;
+                    <lb/><emph>ΚΡΕΟΥΣΑ</emph>:
+                    <lb/>ἤν γ' ἐντὸς ἀδύτων τῶνδέ με σφάξαι θέλῃς.</quote>
+                <quote><lb/><emph>ION</emph>:
+                    <lb/>Opuść ołtarz i zbudowane dla boga stopnie!
+                    <lb/><emph>KREUSA</emph>:
+                    <lb/>Wygrażaj swej matce, gdziekolwiek jest!
+                    <lb/><emph>ION</emph>:
+                    <lb/>Więc ty nie poddasz się karze, chociaż chcesz mnie zabić?
+                    <lb/><emph>KREUSA</emph>:
+                    <lb/>Chyba że zechcesz mnie zarżnąć wewnątrz tej świątyni.</quote>
+            </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

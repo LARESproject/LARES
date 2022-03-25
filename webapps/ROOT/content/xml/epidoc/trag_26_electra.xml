@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Electra (Ἠλέκτρα, Elettra)</title>
+                <title xml:lang="en">Electra (Ἠλέκτρα, Electra)</title>
+                <title xml:lang="pl">Electra (Ἠλέκτρα, Elektra)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">trag_26_electra</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Electra (Ἠλέκτρα, Elektra)</title>, in Krzysztof Bielawski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Tragedia attycka</title>, Warszawa 2017, pp. 315-345</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaia Fanelli">encoded document in XML</change>
+                <change when="2017" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Data powstania <title>Elektry</title> Eurypidesa nie budzi wątpliwości uczonych:
+                        wersy 1347–1348 stanowią wyraźne nawiązanie do wyprawy sycylijskiej
+                        z wiosny 413 r. i to właśnie ten rok przyjmuje się za datę powstania
+                        i wystawienia sztuki w Atenach. Wobec braku wystarczających danych
+                        do precyzyjnego datowania <title>Elektry</title> Sofoklesa powstaje pytanie
+                        o to, która ze sztuk była wystawiona jako pierwsza. Uczeni skłaniają
+                        się do opinii, że Eurypides pisał dla publiczności, która wcześniej widziała
+                        już dzieło Sofoklesa (pełne streszczenie dyskusji na ten temat
+                        zob. Denniston 1968: xxxiv–xxxix, nadal aktualne).</p>
+                    <p>Tematyka ofiarna jest w dramacie silnie obecna. Najwięcej uwagi
+                        przyciąga wielka scena ofiary składanej przez Ajgistosa ku czci nimf,
+                        podczas której on sam zostaje zabity przez Orestesa. Poza tym wspomniane
+                        są ofiary związane z rytami okołoporodowymi – przy sfingowanym
+                        połogu Elektry – oraz pogrzebowymi – w związku z grobem
+                        Agamemnona. Dziwić może fakt, że temat centralny: mord odwetowy
+                        na Ajgistosie i Klitajmestrze nie został przez Eurypidesa opracowany
+                        konsekwentnie w metaforycznym ujęciu ofiarnym. Pod koniec sztuki
+                        ofiarny charakter mordu odwetowego staje się wyraźny w odniesieniu
+                        do śmierci Klitajmestry, ale wcześniej taka interpretacja jest niemal
+                        nieobecna. Słownictwo opisujące wszystkie śmierci w tym morderczym
+                        cyklu: Ifigenii, Agamemnona, Ajgistosa i Klitajmestry jest raczej
+                        neutralne. Kiedy na samym początku prologu rolnik przywołuje
+                        śmierć Agamemnona z ręki Klitajmestry (w. 8–9), mówi, że po prostu
+                        „umarł” (ἐν δὲ <w>δώμασι</w> <w>θνῄσκει</w> <w>γυναικὸς</w> πρὸς Κλυταιμήστρας).
+                        Kiedy Orestes w tym samym prologu mówi o zamierzonej zemście
+                        na Ajgistosie i Klitajmestrze, zapowiada mord na mordercach (w. 89:
+                        <w>φόνον</w> <w>φονεῦσι</w> πατρὸς <w>ἀλλάξων</w> ἐμοῦ). Chór w stasimonie trzecim
+                        nazywa Ajgistosa mordercą ojca Orestesa (w. 869: πατρὸς Αἴγισθος
+                        <w>φονεύς</w>) i śpiewa, że „poległ” (πέπτωκεν). Sama Elektra zaś (w. 884–
+                        –885) w rozmowie z chórem, już po zabójstwie Ajgistosa, mówi o „zabiciu”
+                        (ἀλλὰ πολέμιον <w>κτανὼν</w> / Αἴγισθον) tego, kto „zgubił” jej ojca
+                        i brata (ὃς σὸν πατέρα κἀμὸν <w>ὤλεσε</w>). Nawet w swej przejmującej
+                        przemowie do trupa Ajgistosa (w. 909–956) Elektra wypomina mu, że
+                        szpetnie „zabił” Agamemnona: ἄνδρα τ' <w>ἔκτανες</w> (w. 916). Wreszcie
+                        w rozmowie rodzeństwa przed zabójstwem Klitajmestry znowu Orestes
+                        mówi o swym przerażeniu na myśl o „zabiciu” matki (w. 969: πῶς
+                        γὰρ <w>κτάνω</w> νιν), na co Elektra przypomina mu, że to ona „zgubiła” ich
+                        ojca (w. 970: πατέρα […] <w>ὤλεσεν</w>). Słownictwo to jest całkowicie neutralne
+                        i rozpina się między mordem (φόνος, φονεύειν), uśmierceniem
+                        (<w>κτείνειν</w>) i zgonem (<w>θνῄσκειν</w>).</p>
+                    <p>Tekst według wydania: Denniston (1968).</p>
+                </div>
+                <div type="textpart" n="Electra_90-92">
+                    <head>Electra 90-92</head>
+                    <p>Orestes w prologu zapowiada krwawą zemstę na mordercach swojego
+                        ojca, powołując się na wyroki bogów (w. 87, 89). Opowiada o tym,
+                        jak nocą zakradł się na grób ojca i złożył tam w ofierze krew zabitej
+                        owcy i zostawił pukiel włosów.</p>
+                    <quote><lb n="90"/>νυκτὸς δὲ τῆσδε πρὸς τάφον μολὼν πατρὸς
+                        <lb/>δάκρυά τ᾽ ἔδωκα καὶ κόμης ἀπηρξάμην
+                        <lb/>πυρᾷ τ᾽ ἐπέσφαξ᾽ αἷμα μηλείου φόνου.</quote>
+                    <quote><lb n="90"/>Przyszedłszy tej nocy na grób ojca,
+                        <lb/>Wylałem łzy i jako wstępną ofiarę położyłem pukiel włosów,
+                        <lb/>I na ołtarzu złożyłem w ofierze krew zabitej owcy.</quote>
+                    <p>90: κόμης <w>ἀπηρξάμην</w> – „jako wstępną ofiarę położyłem pukiel
+                        włosów”. <w>Ἀπάρχομαι</w> oznacza tutaj albo złożenie ἀπαρχή – „ofiary
+                        pierwocinowej”, „przygotowawczej”, albo też przeprowadzenie rytu
+                        rozpoczynającego ofiarę zasadniczą. W pierwszym przypadku włosy
+                        Orestesa byłyby ofiarą początkową, darem ofiarnym (Jim 2014: 34).
+                        W drugim – byłoby to odniesienie do technicznego znaczenia <w>ἀπάρχομαι</w>
+                        jako: „rozpoczynam składanie ofiary”, co poprzedza inne etapy
+                        rytuału ofiarnego. Zarówno w testach literackich, jak i na inskrypcjach
+                        oznacza czynność składania ofiary z kosmyka włosów lub sierści,
+                        a także z części zabitego zwierzęcia, zwłaszcza wnętrzności. W wielu
+                        wypadkach trudno powiedzieć, dlaczego ten typ ofiary jest opisywany
+                        w kategoriach akcentujących prymarność czynności lub ważność.
+                        W przypadku włosów i sierści jest to najczęściej ofiara prymarna ze
+                        względu na kolejność spełniania czynności – początkowa, otwierająca
+                        rytuał, w przypadku mięsa i wnętrzności – prymarna ze względu na
+                        wartość ofiary.</p>
+                    <p>Aparche – w okresie klasycznym najczęściej związane z kontekstem
+                        ofiar z płodów rolnych – to jest to, co oddaje się bogom n a j p i e r w,
+                        a zarazem to, co jako pierwsze zostało zebrane w postaci plonu i przygotowane
+                        do użycia. Może to jednak również oznaczać „to, co najlepsze”,
+                        prymarność w tym wypadku związana jest z kategorią j a k o ś c i;
+                        niekiedy obydwa te elementy występują jednocześnie (Jim 2014: 19).</p>
+                    <p>Ponieważ po spełnieniu aparche w opowieści Orestesa następuje zabicie
+                        <w>σφάγιον</w> – ofiara krwawa na ołtarzu przy grobie Agamemnona,
+                        bez wątpienia złożenie kosmyka włosów stanowi czynność, którą on
+                        sam interpretuje jako rozpoczęcie rytu ofiarnego (Denniston 1968: 62;
+                        Roisman, Luschnig 2011: 106). Zob. też komentarz do S. <title>Trach</title>. 760–762.</p>
+                    <p>93: <w>πυρᾷ</w> τ᾽ <w>ἐπέσφαξ</w>᾽ αἷμα <w>μηλείου</w> <w>φόνου</w> – „na ołtarzu złożyłem
+                        w ofierze krew zabitej owcy”. <w>Πυρά</w> oznacza każde miejsce, w jakim
+                        podkłada się ogień. Tutaj oznacza to ołtarz – najpewniej dlatego, że stał
+                        on na miejscu kremacji (Roisman, Luschnig 2011: 107), co potwierdza
+                        wers 325: <w>πυρὰ</w> δὲ <w>χέρσος</w> <w>ἀγλαϊσμάτων</w> – na grobie ojca stoi „ołtarz
+                        pozbawiony ozdób”. Być może też dlatego, jak sugeruje Denniston
+                        (1968: 112), że to na nim właśnie spalano ofiary dla zmarłych (zob. też
+                        Distilo 2012, vol. I: 227–228).</p>
+                    <p>Poetycki, abundantny i karkołomny zwrot <w>ἐπισφάζειν</w> αἷμα
+                        <w>μηλείου</w> <w>φόνου</w> – dosłownie: „zarżnąć na ofiarę krew zabitej owcy
+                        [dosłownie: owczego trupa]” jest trudną do wyjaśnienia kumulacją
+                        terminologii ofiarniczej. Samo <w>ἐπισφάζειν</w> αἷμα mogłoby znaczyć
+                        „wytoczyć krew przez poderżnięcie gardła zwierzęciu ofiarnemu”.
+                        Zwierzęciem ofiarnym złożonym przez Orestesa na grobie jest μῆλον
+                        – owca. Całość frazy oznacza, że Orestes złożył na grobie ojca, dokładnie
+                        na ołtarzu stojącym na grobie lub obok niego, w miejscu kremacji,
+                        ofiarę z krwi owcy.</p>
+                    <p>Taki sam zwrot <w>ἐπισφάζειν</w> <w>αἷμα</w>, już bez wyraźnego kontekstu rytualnego,
+                        występuje też poniżej, w wersie 281: αἷμ᾽ <w>ἐπισφάξασα</w> (zob.
+                        komentarz).</p>
+                </div>
+                
+                <div type="textpart" n="Electra_122-124">
+                    <head>Electra 122-124</head>
+                    <p>Śpiew Elektry z pierwszej strofy lirycznej części prologu, w którym
+                        zwraca się ona do swojego będącego w Hadesie ojca, zabitego przez
+                        Klitajmestrę i Ajgistosa. Lekcja σφαγαῖς jest korektą przyjętą przez
+                        wszystkich wydawców – w miejsce występującej zgodnie w rękopisach
+                        formy <w>σφαγείς</w>, z powodu trudności uzgodnienia składni z genetiwem
+                        σᾶς ἀλόχου (Denniston 1968: 65). Κεῖσαι <w>σφαγείς</w> wydaje
+                        się bardziej logiczne: „leżysz zarżnięty” od κεῖσαι <w>σφαγαῖς</w> – „leżysz
+                        z powodu [?] śmiertelnych ciosów”. Należy pamiętać, że jest to passus
+                        z partii lirycznej i może należy jednak uznać możliwość wystąpienia
+                        σᾶς <w>ἀλόχου</w> jako persona agentis w konstrukcji biernej bez przyimka
+                        ἀπό czy ὑπό?</p>
+                    <p>W obu przypadkach tekst w odniesieniu do śmierci Agamemnona
+                        odwołuje się do terminologii krwawego mordu, w której pobrzmiewa
+                        retoryka ofiarna (silnie akcentuje taką interpretację Zeitlin
+                        1970: 652).</p>
+                    <quote><lb/>ὦ πάτερ, σὺ δ᾽ ἐν Ἀΐδα
+                        <lb/>κεῖσαι, σᾶς ἀλόχου σφαγαῖς
+                        <lb/>Αἰγίσθου τ᾽, Ἀγάμεμνον.</quote>
+                    <quote><lb/>O, ojcze, ty w Hadesie
+                        <lb/>Leżysz, [zabity] ciosami swej żony
+                        <lb/>I Ajgistosa, Agamemnonie.</quote>
+                </div>
+                
+                <div type="textpart" n="Electra_160-165">
+                    <head>Electra 160-165</head>
+                    <p>Liryczny opis śmierci Agamemnona. Nie zawiera żadnych bezpośrednich
+                        nawiązań do terminologii ofiarnej, jednak uwagę zwraca
+                        użycie przez morderców topora (który bywał stosowany w rytuale
+                        ofiarniczym: <w>πελέκεως</w> <w>τομᾶς</w>) i noża (<w>ξίφεσι</w>).</p>
+                    <quote><lb n="160"/>πικρᾶς μὲν πελέκεως τομᾶς
+                        <lb/>σᾶς, πάτερ, πικρᾶς δ᾽ ἐκ
+                        <lb/>Τροΐας ὁδίου βουλᾶς· οὐ μίτραισι γυνή σε
+                        <lb/>δέξατ᾽ οὐδ᾽ ἐπὶ στεφάνοις,
+                        <lb/>ξίφεσι δ᾽ ἀμφιτόμοις […]
+                        <lb n="165"/>Αἰγίσθου.</quote>
+                    <quote><lb n="160"/>Okrutne ciosy topora, [jakie spadły] na ciebie,
+                        <lb/>Ojcze, okrutny
+                        <lb/>Po twoim z Troi powrocie plan: Nie diademem żona cię
+                        <lb/>Przyjęła ani wieńcami,
+                        <lb/>Ale dwusiecznym nożem
+                        <lb n="165"/>Ajgistosa.</quote>
+                </div>
+                
+                <div type="textpart" n="Electra_171-174">
+                    <head>Electra 171-174</head>
+                    <p>Pierwsza strofa parodosu chóru, który w pierwszych słowach zaprasza
+                        Elektrę na obchody uroczystości ku czci Hery (Heraia), mające
+                        odbyć się za trzy dni (nadal jak dotąd najobszerniej: Farnell 1896,
+                        vol. I: 186–189; Graff 2005: 147). Uroczystości te odbywały się w świątyni
+                        Hery na górze Euboia, między Argos i Mykenami. Obejmowały
+                        wspomnienie świętych zaślubin – hieros gamos – Hery z Zeusem. Towarzyszyły
+                        im zawody atletyczne i muzyczne. Kapłanka Hery przybywała
+                        w towarzystwie dziewcząt do świątyni w powozie prowadzonym
+                        przez krowy (por. Hdt. 1.31). Uroczystości te nazywane były
+                        też Hekatombaia, ze względu na wielką liczbę ofiar krwawych, jakie
+                        podczas tego festiwalu spełniano (Denniston 1968: 70). Zwierzęciem
+                        ofiarnym był byk (Zeitlin 1970: 659–660; Burkert 1985a: 134).</p>
+                    <quote><lb/>ἀγγέλλει δ᾽ ὅτι νῦν τριταί<lb 
+                        break="no"/>αν καρύσσουσιν θυσίαν
+                        <lb/>Ἀργεῖοι, πᾶσαι δὲ παρ᾽ Ἥ<lb 
+                            break="no"/>ραν μέλλουσιν παρθενικαὶ στείχειν.</quote>
+                    <quote><lb/>[Mykeńczyk] przynosi wiadomość, że od teraz
+                        <lb/>Za trzy dni wzywają na ofiarę
+                        <lb/>Argiwi, i wszystkie do [świątyni] Hery
+                        <lb/>Panny pójść zamierzają.</quote>
+                    <p>172: <w>καρύσσουσιν</w> <w>θυσίαν</w> – „wzywają na ofiarę”. W tym wypadku
+                        „ofiara” (thysia) metonimicznie oznacza całe święto. Hekatomba stanowiła
+                        centralny punkt całości obchodów (zob. powyżej wprowadzenie
+                        do tego passusu).</p>
+                </div>
+                
+                <div type="textpart" n="Electra_198-200">
+                    <head>Electra 198-200</head>
+                    <p>Końcówka lirycznego lamentu Elektry z parodosu, w której żali
+                        się ona na obojętność bogów, którzy nie słyszą ani jej wołania, ani
+                        „zarzynań” jej ojca. <w>Σφαγιασμά</w> <w>πατρός</w> mogą oznaczać: albo krwawy
+                        mord na nim spełniony, a dokładniej – w świetle składni całej frazy
+                        – krzyki podczas jego zabijania, zarzynania (po <w>κλύω</w>, tak Denniston
+                        1968: 200), albo ofiary krwawe przez niego spełniane (tak
+                        Łanowski 2006: 218). Wydaje się, że drugi wariant jest mało prawdopodobny
+                        lub niemal niemożliwy (contra, zdecydowanie: Zeitlin 1970:
+                        652). Przeczy temu przede wszystkim składnia zdania, ale też kontekst
+                        – później Elektra mówi jedynie o jego błąkającym się duchu
+                        i nie przywołuje innych jego czynów spełnionych za życia. Rzeczownik
+                        <w>σφαγιασμός</w> występuje w literaturze rzadko, przed Eurypidesem
+                        zaś nigdy. U Plutarcha (<title>Ages</title>. 6.5.2) opisuje śmierć córki Agesilaosa
+                        złożonej w ofierze na żądanie wieszczków (ὁ τῆς κόρης
+                        <w>σφαγιασμός</w>, ἣν ὁ πατὴρ ἔσφαξε πεισθεὶς τοῖς μάντεσιν) i w rekcji
+                        z genetiwem wyznacza przedmiot, a nie podmiot mordu (poza tym
+                        jeszcze tylko dwa razy – u Eustacjusza w komentarzu do <title>Odysei</title>
+                        1.282.40 i u Kornutusa w <title>De natura deorum</title> 73.4) – zawsze w takiej samej
+                        składni z genetiwem obiektywnym.</p>
+                    <quote><lb/>οὐδεὶς θεῶν ἐνοπᾶς κλύει
+                        <lb/>τᾶς δυσδαίμονος, οὐ παλαι<lb 
+                            break="no" n="200"/>ῶν πατρὸς σφαγιασμῶν.</quote>
+                    <quote><lb/>Żaden z bogów nie słucha głosu
+                        <lb/>nieszczęsnej, ani dawnego
+                        <lb n="200"/>ojca mordu.</quote>
+                </div>
+                
+                <div type="textpart" n="Electra_297-281">
+                    <head>Electra 297-281</head>
+                    <p>Passus z rozmowy Orestesa z Elektrą, odbytej jeszcze przed rozpoznaniem,
+                        w której Elektra wyraża nadzieję na powrót brata i na wspólnie
+                        spełnioną zemstę na mordercach ojca. Deklaruje, że nie zawaha
+                        się własnoręcznie zabić matkę – jako narzędzie swej zbrodni wskazuje
+                        topór (<w>πελέκει</w>), wcześniej (w. 160) opisany jako narzędzie zbrodni
+                        Klitajmestry.</p>
+                    <quote><lb/><emph>ΟΡΕΣΤΗΣ</emph>:
+                        <lb/>ἦ καὶ μετ' αὐτοῦ μητέρ᾽ ἂν τλαίης κτανεῖν;
+                        <lb/><emph>ΗΛΕΚΤΡΑ</emph>:
+                        <lb n="280"/>ταὐτῷ γε πελέκει τῷ πατὴρ ἀπώλετο.
+                        <lb/><emph>ΟΡ</emph>.: λέγω τάδ' αὐτῷ, καὶ βέβαια τἀπὸ σοῦ;
+                        <lb/><emph>ΗΛ</emph>.: θάνοιμι μητρὸς αἷμ' ἐπισφάξασ᾽ ἐμῆς.</quote>
+                    <quote><lb/><emph>ORESTES</emph>:
+                       <lb/> I razem z nim odważyłabyś się zabić matkę?
+                        <lb/><emph>ELEKTRA</emph>:
+                        <lb n="280"/>Tym samym toporem, od którego zginął ojciec.
+                        <lb/><emph>O</emph>: Mam mu powiedzieć, że jesteś na to gotowa?
+                        <lb/><emph>E</emph>: Niech zginę, ale po przelaniu krwi mojej matki.</quote>
+                    <p>281: θάνοιμι μητρὸς αἷμ᾽ <w>ἐπισφάξασ</w>᾽ ἐμῆς – „Niech zginę,
+                        ale po przelaniu krwi mojej matki”. W wersie 93 powyżej ten sam
+                        zwrot <w>ἐπισφάζειν</w> αἷμα dotyczył ofiary z owcy złożonej na grobie
+                        Agamemnona przez Orestesa. Tutaj kontekst rytualny jest nieobecny
+                        – Elektra zapowiada po prostu krwawy mord, „wytoczenie krwi
+                        przez rozcięcie gardła” swojej matki. Jednak bezpośrednia bliskość
+                        tych dwóch wypowiedzi jest uderzająca i trudno pomyśleć, by nie
+                        była zamierzona, zwłaszcza że ten uderzający związek wyrazowy
+                        nie występuje poza tą sztuką. Elektra planuje swój mord i napawa się
+                        jego krwawym charakterem – ma to być mord „jak krwawa ofiara”,
+                        jak zarzynanie krowy czy barana (Roisman, Luschnig 2011: 134–135).
+                        Można więc orzec, że kontekst ofiarniczy jest tutaj jednak metaforycznie
+                        obecny.</p>
+                </div>
+                
+                <div type="textpart" n="Electra_323-325">
+                    <head>Electra 323-325</head>
+                    <p>Elektra żali się chórowi i Orestesowi, że morderca jej ojca panoszy
+                        się w pałacu, choć nadal czuć tam jego czarną krew (w. 318) i że jego
+                        grób oraz ołtarz na grobie (tak samo jak w w. 93: <w>πυρά</w>, zob. komentarz)
+                        jest opuszczony i bez czci. W passusie nie występuje ani terminologia
+                        ofiarnicza, ani żadne bezpośrednie nawiązanie do obrzędu ofiary
+                        krwawej, odnotowujemy go jednak z powodu związku z ołtarzem nagrobnym
+                        i sceną początkową z prologu.</p>
+                    <quote><lb/>Ἀγαμέμνονος δὲ τύμβος ἠτιμασμένος
+                        <lb/>οὔπω χοάς ποτ᾽ οὐδὲ κλῶνα μυρσίνης
+                        <lb n="325"/>ἔλαβε, πυρὰ δὲ χέρσος ἀγλαϊσμάτων.</quote>
+                    <quote>lb/>Agamemnona grób bez czci
+                        <lb/>Agamemnona>Ani ofiar płynnych, gałązek mirtowych
+                        <lb n="325"/>Nie przyjął, i ołtarz bez ozdób.</quote>
+                </div>
+                
+                <div type="textpart" n="Electra_483-486">
+                    <head>Electra 483-486</head>
+                    <p>Epodos pierwszego stasimonu, w którym chór zapowiada śmierć
+                        Klitajmestry, przedstawiając ją jako karę za morderstwo na Agamemnonie,
+                        popełnione dla zachowania kochanka. Jest to raczej tylko poetycki
+                        obraz mordu, a nie jednoznaczna metafora ofiary, jednak –
+                        konsekwentnie, tak jak we wszystkich podobnych passusach w tym
+                        dramacie – przywołuje on na myśl sceny ofiarne przez motyw „wytoczenia
+                        krwi z poderżniętej nożem szyi”.</p>
+                    <quote><lb/>τοιγάρ σέ ποτ᾽ οὐρανίδαι
+                        <lb/>πέμψουσιν θανάτοις· ἦ σὰν
+                        <lb n="485"/>ἔτ᾽ ἔτι φόνιον ὑπὸ δέραν
+                        <lb/>ὄψομαι αἷμα χυθὲν σιδάρῳ.</quote>
+                    <quote><lb/>Tak więc ciebie niebianie
+                        <lb/>Wyślą na śmierć: i z twojej szyi
+                        <lb n="485"/>Jeszcze, jeszcze morderczą
+                        <lb/>Zobaczę krew wytoczoną żelazem.</quote>
+                </div>
+                
+                <div type="textpart" n="Electra_513-515">
+                    <head>Electra 513-515</head>
+                    <p>Fragment rozmowy Elektry ze starcem, który opowiada, jak odwiedził
+                        grób Agamemnona, wylał na nim wino (w. 511–512: <w>σπονδάς</w>
+                        […] <w>ἔσπεισα</w>) i ozdobił go mirtem (w. 512: <w>ἀμφέθηκα</w> <w>μυρσίνας</w>). Na
+                        ołtarzu nagrobnym (w. 513: <w>πυρᾶς</w> δ᾽ ἐπ᾽ αὐτῆς) zauważył jagnię zarżnięte
+                        na ofiarę nagrobną (w. 514: σφάγιον) i rozlaną krew (w. 514:
+                        <w>αἷμά</w> […] <w>χυθέν</w>).</p>
+                    <quote><lb/>πυρᾶς δ᾽ ἐπ᾽ αὐτῆς οἶν μελάγχιμον πόκῳ
+                        <lb/>σφάγιον ἐσεῖδον αἷμά τ᾽ οὐ πάλαι χυθὲν
+                        <lb n="515"/>ξανθῆς τε χαίτης βοστρύχους κεκαρμένους.</quote>
+                    <quote><lb/>Na samym ołtarzu jagnię o ciemnym runie
+                        <lb/>Zabite na ofiarę widzę, i krew niedawno wylaną
+                        <lb n="515"/>I pukle włosów ścięte z jasnej grzywy.</quote>
+                    <p>513: <w>πυρᾶς</w> δ᾽ ἐπ᾽ αὐτῆς – „na samym ołtarzu”. Bardziej dosłownie:
+                        „na stosie ofiarnym na grobie”, zob. komentarz do wersu 93 powyżej.</p>
+                    <p>513: οἶν <w>μελάγχιμον</w> <w>πόκῳ</w> – „jagnię o ciemnym runie”. Ciemna maść
+                        zwierzęcia ofiarnego była typowa dla ofiar dla zmarłych, por. <title>Od</title>. 11.32.</p>
+                    <p>514: <w>σφάγιον</w> – „zabite na ofiarę”. Jagnię jest sphagion sensu stricto:
+                        ofiarą dla zmarłych. W <title>Helenie</title> Eurypidesa (w. 1564) występuje
+                        zwrot <w>σφάγια</w> τῷ <w>τεθνηκότι</w> – ofiara dla zmarłego, chociaż zwrot ten
+                        w tamtym kontekście zawiera dwuznaczność – jest to ofiara „dla zmarłego”
+                        (τῷ <w>τεθνηκότι</w>), tak jaby była sphagion, nie sphagia, a równocześnie
+                        jest typową ofiarą przedbitewną sensu stricto (sphagia). Zob. też komentarz
+                        do S. <title>Ant</title>. 1291.</p>
+                </div>
+                
+                <div type="textpart" n="Electra_627">
+                    <head>Electra 627 </head>
+                    <p>Wers z rozmowy starca z Orestesem, który planuje mord na Ajgistosie
+                        i szuka dogodnej okazji. Starzec opowiada, że widział Ajgistosa,
+                        który szykuje się do złożenia ofiar dla nimf na pastwiskach, w otoczeniu
+                        niewolników. Wers ten zapowiada scenę ofiarną Ajgistosa opisaną
+                        w mowie posłańca (w. 774–829) i samą jego śmierć (w. 838–855).</p>
+                    <quote><lb/>οὐκ οἶδα πλὴν ἕν· βουσφαγεῖν ὡπλίζετο.</quote>
+                    <quote><lb/>Wiem to jedno: szykował się do zarżnięcia wołu.</quote>
+                    <p>627: <w>βουσφαγεῖν</w> – „do zarżnięcia wołu”; hapax legomenon Eurypidesa,
+                        czasownik złożony z rzeczownika <w>βοῦς</w> i czasownika <w>σφάζειν</w>.
+                        W wersach 635 i 805 poniżej w odniesieniu do tej samej ofiary pojawia
+                        się czasownik <w>βουθυτεῖν</w> – „składać woły w ofierze”, opisujący cały
+                        proces rytualny ofiary krwawej z wołu, adekwatny w tym wypadku,
+                        ponieważ nimfom składano ofiary typu thysia (Larson 2001: 131–138,
+                        170, 205). W kontraście do niego <w>βουσφαγεῖν</w>, ściśle rzecz biorąc, opisuje
+                        jedynie techniczną część tego rytuału: sam akt poderżnięcia gardła
+                        zwierzęciu ofiarnemu. Metonimicznie, w rozszerzonym sensie, może
+                        oznaczać „zabić wołu na ofiarę” i bez wątpienia należy do technicznego
+                        języka ofiary.</p>
+                </div>
+                
+                <div type="textpart" n="Electra_634-637">
+                    <head>Electra 634-637</head>
+                    <p>Ciąg dalszy dialogu starca z Orestesem, który podejmuje pomysł
+                        zbliżenia się do Ajgistosa jako nierozpoznany gość podczas tej planowanej
+                        ofiary z wołu dla nimf. Starzec doradza, by Orestes podszedł
+                        do Ajgistosa i oczekiwał zaproszenia na ucztę ofiarną (w. 637: ἰδών σε
+                        δαιτὶ <w>κοινωνὸν</w> καλεῖ) jako gość.</p>
+                    <quote><lb/><emph>ΟΡΕΣΤΕΣ</emph>:
+                        <lb/>πῶς οὖν ἂν αὐτῷ πλησιασθείην ποτέ;
+                        <lb/><emph>ΠΡΕΣΒΥΣ</emph>:
+                        <lb n="635"/>στείχων ὅθεν σε βουθυτῶν ἐσόψεται.
+                        <lb/><emph>ΟΡ</emph>.: ὁδὸν παρ᾽ αὐτήν, ὡς ἔοικ᾽, ἀγροὺς ἔχει;
+                        <lb/><emph>ΠΡ</emph>.: ὅθεν γ᾽ ἰδών σε δαιτὶ κοινωνὸν καλεῖ.</quote>
+                    <quote><lb/><emph>ORESTES</emph>:
+                        <lb/>Jak więc zbliżę się wtedy do niego?
+                        <lb/><emph>STARZEC</emph>:
+                        <lb n="635"/>Podchodząc, kiedy zobaczy cię podczas składania ofiary.
+                        <lb/><emph>O</emph>: Przy tej drodze, jak się zdaje, ma on pola?
+                        <lb/><emph>S</emph>: Jak tam cię zobaczy, przywoła, byś dołączył do uczty.</quote>
+                    <p>635: <w>βουθυτῶν</w> – „podczas składania ofiary”; dosłownie: „składając
+                        ofiarę z wołu”. <w>Βουθυτέω</w> – dość rzadko występujący czasownik
+                        złożony z rzeczownika βοῦς i czasownika <w>θύω</w> w sufiksowanej postaci
+                        tematu. Opisuje cały proces rytualny ofiary krwawej z wołu. Por.
+                        komentarz do S. <title>OC</title> 888 oraz komentarz Bednarka 2017: 228–229, do
+                        Ar. Plut. 819, gdzie dowodzi on, że czasownik ten, mimo oczywistej
+                        i narzucającej się etymologii, mógł opisywać także jakąkolwiek inną
+                        „prestiżową” lub po prostu kosztowną ofiarę.</p>
+                </div>
+                
+                <div type="textpart" n="Electra_663-665">
+                    <head>Electra 663-665</head>
+                    <p>Po podjęciu decyzji o zabiciu Ajgistosa podczas składania ofiary
+                        nimfom do rozmowy wtrąca się Elektra, która zapowiada, że morderstwem
+                        Klitajmestry zajmie się sama i prosi starca, żeby zaprowadził
+                        Orestesa na miejsce, gdzie spotka on Ajgistosa.</p>
+                    <quote><lb/><emph>ΠΡΕΣΒΥΣ</emph>:
+                        <lb/>εἰ γὰρ θάνοιμι τοῦτ᾽ ἰδὼν ἐγώ ποτε.
+                        <lb/><emph>ΗΛΕΚΤΡΑ</emph>:
+                        <lb/>πρώτιστα μέν νυν τῷδ᾽ ὑφήγησαι, γέρον…
+                        <lb n="665"/><emph>ΠΡ</emph>.: Αἴγισθος ἔνθα νῦν θυηπολεῖ θεοῖς;</quote>
+                    <quote><lb/><emph>STARZEC</emph>:
+                        <lb/>O niechbym umarł, w końcu to zobaczywszy!
+                        <lb/><emph>ELEKTRA</emph>:
+                        <lb/>Najpierw jednak teraz, starcze, go zaprowadź…
+                        <lb n="665"/><emph>S</emph>: Tam, gdzie Ajgistos właśnie składa ofiary bogom.</quote>
+                    <p>665: <w>θυηπολεῖ</w> – „składa ofiary”. <w>Θυηπολέω</w> – czasownik złożony
+                        z <w>θύω</w> i <w>πολέω</w> (<w>πέλω</w>), jego morfologia wskazuje na znaczenie „kręcić
+                        się wokół ofiar”, „zajmować się składaniem ofiar/ofiarami”, ostatecznie
+                        „spełniać/składać ofiary” (por. Casabona 1966: 121). Por. komentarz
+                        do <title>Heracl</title>. w. 402.</p>
+                </div>
+                
+                <div type="textpart" n="Electra_674">
+                    <head>Electra 674</head>
+                    <p>Elektra i Orestes, na przemian, zanoszą modlitwy do bogów – najpierw
+                        do Zeusa, potem do Hery, w końcu do Hadesa. Ołtarze – tym
+                        razem agrejskie – których ogień płonął jasno, przyzywa też chór w antystrofie
+                        drugiego stasimonu (w. 715: <w>σελαγεῖτο</w> δ᾽ ἀν᾽ ἄστυ <w>πῦρ</w> /
+                        <w>ἐπιβώμιον</w> Ἀργείων – „w mieście jaśniał ogień na argiwskich ołtarzach”).</p>
+                    <quote><lb/><emph>ΗΛΕΚΤΡΑ</emph>:
+                        <lb/>῞Ηρα τε, βωμῶν ἣ Μυκηναίων κρατεῖς . . .</quote>
+                    <quote><lb/><emph>ELEKTRA</emph>:
+                        <lb/>Oraz Hero, która władasz nad mykeńskimi ołtarzami.</quote>
+                </div>
+                
+                <div type="textpart" n="Electra_757">
+                    <head>Electra 757</head>
+                    <p>Słowa Elektry z początkowych strof epeisodionu trzeciego, w których
+                        najpierw rozmawia ona z przodownicą chóru o odgłosach walki
+                        i krzykach, jakie dochodzą z daleka. Elektra nie wie jeszcze, jaki jest
+                        wynik spotkania Orestesa z Ajgistosem i czy plan jego zabicia się powiódł.
+                        Wchodzi na scenę z mieczem w ręku, ponieważ przysięgła, że
+                        jeśli Orestesowi się nie powiedzie i zginie, ona sama popełni samobójstwo.
+                        Nerwowa wymiana zdań dotyczy strasznych, „śmiertelnych”
+                        krzyków i jęków (w. 747: <w>βοῆς</w> <w>ἠκούσατε</w>; w. 752: <w>φόνιον</w> <w>οἰμωγὴν
+                            <w>κλύω</w>; w. 754: <w>μακρὰν</w> γὰρ <w>ἕρπει</w> <w>γῆρυς</w>; w. 755: ὁ <w>στεναγμός</w>; w. 756:
+                            <w>μείγνυται</w> <w>μέλος</w> <w>βοῆς</w>), które mieszają się ze sobą i tylko zwiększają
+                            niepewność bohaterki. W takiej atmosferze Elektra dochodzi do wniosku,
+                            że plan się nie powiódł i musi zadać sobie śmiertelny cios – <w>σφαγή</w>. 
+                            W tym wypadku znaczenie tego rzeczownika jest ograniczone do
+                            „śmiertelnego cięcia”, „ciosu mieczem”, jednak kontekst ofiarny stanowiący
+                            tło akcji, a także następująca po tych słowach Elektry wielka
+                            mowa posłańca z opisem sceny ofiarnej, obejmującej poziom dosłowny
+                            (opis ofiary składanej przez Ajgistosa) i metaforyczny (śmierć Ajgistosa),
+                            sprawiają, że także nawet tak oczywiste nierytualne sensy słowa
+                            pozostają w jakimś metaznaczeniowym związku z rytualnym kontekstem.</w>
+                        665</p>
+                    <quote><lb/>σφαγὴν ἀυτεῖς τήνδε μοι· τί μέλλομεν;</quote>
+                    <quote><lb/>Wzywasz mnie do [zadania sobie] tego ciosu; na co czekam?</quote>
+                </div>
+                
+                <div type="textpart" n="Electra_778-843">
+                    <head>Electra 778-843</head>
+                    <p>Mowa posłańca, który opowiada Elektrze o okolicznościach
+                        śmierci Ajgistosa. Passus zawiera obszerny, kompletny opis typowej
+                        sceny ofiarnej – obrzędu spełnianego przez Ajgistosa, by następnie
+                        przekształcić się w scenę mordu na ofiarniku. Scena jest wyjątkowa
+                        i nieporównywalna z żadną inną w całej tragedii z powodu ogromnej
+                        liczby szczegółów dotyczących przebiegu ofiary krwawej i dokładności
+                        ich opisu. Przywodzi na myśl jedynie Homeryckie sceny
+                        typowe, na które jest stylizowana. Miejscem akcji jest wewnętrzny
+                        dziedziniec domu Ajgistosa (w. 790: ἐπεὶ δ᾽ ἐν <w>οἴκοις</w> ἦμεν). Scena
+                        obejmuje ryty przygotowawcze: założenie wieńców, przygotowanie
+                        koniecznych sprzętów do samej ofiary i uczty ofiarnej, obmycie
+                        wodą lustralną, przyniesienie koszy i noża, obsypanie ołtarza
+                        krupami, rozpalenie ognia na ołtarzu, następnie opis samej ofiary
+                        – zabicie zwierzęcia ofiarnego – oraz postępowanie z truchłem:
+                        oprawianie, skórowanie, otwieranie wnętrzności, dzielenie mięsa
+                        i wyjmowanie wnętrzności do inspekcji mantycznej. Opis czynności
+                        mantycznych jest również niezwykle szczegółowy. Uczta, zwykle
+                        następująca po ofierze, nie mogła się odbyć, ale jest zapowiadana
+                        kilkakrotnie wcześniej. Wszystko to daje pełny i kompletny opis rytuału
+                        ofiarnego.</p>
+                    <quote><lb/>δρέπων τερείνης μυρσίνης κάρᾳ πλόκους·
+                        <lb/>ἰδών τ᾽ ἀυτεῖ· Χαίρετ᾽, ὦ ξένοι· τίνες
+                        <lb n="780"/>πόθεν πορεύεσθ᾽; ἔστε τ᾽ ἐκ ποίας χθονός;
+                        <lb/>ὁ δ᾽ εἶπ᾽ Ὀρέστης· Θεσσαλοί· πρὸς δ᾽ Ἀλφεὸν
+                        <lb/>θύσοντες ἐρχόμεσθ᾽ Ὀλυμπίῳ Διί.
+                        <lb/>κλύων δὲ ταῦτ᾽ Αἴγισθος ἐννέπει τάδε·
+                        <lb/>Νῦν μὲν παρ᾽ ἡμῖν χρὴ συνεστίους ἐμοὶ
+                        <lb n="785"/>θοίνης γενέσθαι· τυγχάνω δὲ βουθυτῶν
+                        <lb/>Νύμφαις· ἑῷοι δ᾽ ἐξαναστάντες λέχους
+                        <lb/>ἐς ταὐτὸν ἥξετ᾽. ἀλλ᾽ ἴωμεν ἐς δόμους—
+                        <lb/>καὶ ταῦθ᾽ ἅμ᾽ ἠγόρευε καὶ χερὸς λαβὼν
+                        <lb/>παρῆγεν ἡμᾶς—οὐδ᾽ ἀπαρνεῖσθαι χρεών·
+                        <lb n="790"/>[ἐπεὶ δ᾽ ἐν οἴκοις ἦμεν, ἐννέπει τάδε·]
+                        <lb/>λούτρ᾽ ὡς τάχιστα τοῖς ξένοις τις αἰρέτω,
+                        <lb/>ὡς ἀμφὶ βωμὸν στῶσι χερνίβων πέλας.
+                        <lb/>ἀλλ᾽ εἶπ᾽ Ὀρέστης· Ἀρτίως ἡγνίσμεθα
+                        <lb/>λουτροῖσι καθαροῖς ποταμίων ῥείθρων ἄπο.
+                        <lb n="795"/>εἰ δὲ ξένους ἀστοῖσι συνθύειν χρεών,
+                        <lb/>Αἴγισθ᾽, ἕτοιμοι κοὐκ ἀπαρνούμεσθ᾽, ἄναξ.
+                        <lb/>τοῦτον μὲν οὖν μεθεῖσαν ἐκ μέσου λόγον·
+                        <lb/>λόγχας δὲ θέντες δεσπότου φρουρήματα
+                        <lb/>δμῶες πρὸς ἔργον πάντες ἵεσαν χέρας·
+                        <lb n="800"/>οἳ μὲν σφαγεῖον ἔφερον, οἳ δ᾽ ᾖρον κανᾶ,
+                        <lb/>ἄλλοι δὲ πῦρ ἀνῆπτον ἀμφί τ᾽ ἐσχάρας
+                        <lb/>λέβητας ὤρθουν· πᾶσα δ᾽ ἐκτύπει στέγη.
+                        <lb/>λαβὼν δὲ προχύτας μητρὸς εὐνέτης σέθεν
+                        <lb/>ἔβαλλε βωμούς, τοιάδ᾽ ἐννέπων ἔπη·
+                        <lb n="805"/>Νύμφαι πετραῖαι, πολλάκις με βουθυτεῖν
+                        <lb/>καὶ τὴν κατ᾽ οἴκους Τυνδαρίδα δάμαρτ᾽ ἐμὴν
+                        <lb/>πράσσοντας ὡς νῦν, τοὺς δ᾽ ἐμοὺς ἐχθροὺς κακῶς
+                        <lb/>—λέγων Ὀρέστην καὶ σέ. δεσπότης δ᾽ ἐμὸς
+                        <lb/>ἀναντί᾽ ηὔχετ᾽, οὐ γεγωνίσκων λόγους,
+                        <lb n="810"/>λαβεῖν πατρῷα δώματ᾽. ἐκ κανοῦ δ᾽ ἑλὼν
+                        <lb/>Αἴγισθος ὀρθὴν σφαγίδα, μοσχείαν τρίχα
+                        <lb/>τεμὼν ἐφ᾽ ἁγνὸν πῦρ ἔθηκε δεξιᾷ,
+                        <lb/>κἄσφαξ᾽ ἐπ᾽ ὤμων μόσχον ὡς ἦραν χεροῖν
+                        <lb/>δμῶες, λέγει δὲ σῷ κασιγνήτῳ τάδε·
+                        <lb n="815"/>Ἐκ τῶν καλῶν κομποῦσι τοῖσι Θεσσαλοῖς
+                        <lb/>εἶναι τόδ᾽, ὅστις ταῦρον ἀρταμεῖ καλῶς
+                        <lb/>ἵππους τ᾽ ὀχμάζει· λαβὲ σίδηρον, ὦ ξένε,
+                        <lb/>δεῖξόν τε φήμην ἔτυμον ἀμφὶ Θεσσαλῶν.
+                        <lb/>ὁ δ᾽ εὐκρότητον Δωρίδ᾽ ἁρπάσας χεροῖν,
+                        <lb n="820"/>ῥίψας ἀπ᾽ ὤμων εὐπρεπῆ πορπάματα,
+                        <lb/>Πυλάδην μὲν εἵλετ᾽ ἐν πόνοις ὑπηρέτην,
+                        <lb/>δμῶας δ᾽ ἀπωθεῖ· καὶ λαβὼν μόσχου πόδα,
+                        <lb/>λευκὰς ἐγύμνου σάρκας ἐκτείνων χέρα·
+                        <lb/>θᾶσσον δὲ βύρσαν ἐξέδειρεν ἢ δρομεὺς
+                        <lb n="825"/>δισσοὺς διαύλους ἵππιος διήνυσε,
+                        <lb/>κἀνεῖτο λαγόνας. ἱερὰ δ᾽ ἐς χεῖρας λαβὼν
+                        <lb/>Αἴγισθος ἤθρει. καὶ λοβὸς μὲν οὐ προσῆν
+                        <lb/>σπλάγχνοις, πύλαι δὲ καὶ δοχαὶ χολῆς πέλας
+                        <lb/>κακὰς ἔφαινον τῷ σκοποῦντι προσβολάς.
+                        <lb n="830"/>χὣ μὲν σκυθράζει, δεσπότης δ᾽ ἀνιστορεῖ·
+                        <lb/>Τί χρῆμ᾽ ἀθυμεῖς; —Ὦ ξέν᾽, ὀρρωδῶ τινα
+                        <lb/>δόλον θυραῖον. ἔστι δ᾽ ἔχθιστος βροτῶν
+                        <lb/>Ἀγαμέμνονος παῖς πολέμιός τ᾽ ἐμοῖς δόμοις·
+                        <lb/>ὃ δ᾽ εἶπε· Φυγάδος δῆτα δειμαίνεις δόλον,
+                        <lb n="835"/>πόλεως ἀνάσσων; οὐχ, ὅπως παστήρια
+                        <lb/>θοινασόμεσθα, Φθιάδ᾽ ἀντὶ Δωρικῆς
+                        <lb/>οἴσει τις ἡμῖν κοπίδ᾽, ἀπορρήξω χέλυν;
+                        <lb/>λαβὼν δὲ κόπτει. σπλάγχνα δ᾽ Αἴγισθος λαβὼν
+                        <lb/>ἤθρει διαιρῶν. τοῦ δὲ νεύοντος κάτω
+                        <lb n="840"/>ὄνυχας ἐπ᾽ ἄκρους στὰς κασίγνητος σέθεν
+                        <lb/>ἐς σφονδύλους ἔπαισε, νωτιαῖα δὲ
+                        <lb/>ἔρρηξεν ἄρθρα· πᾶν δὲ σῶμ᾽ ἄνω κάτω
+                        <lb/>ἤσπαιρεν ἠλάλαζε δυσθνῄσκων φόνῳ.</quote>
+                    <quote><lb/>Zrywał delikatne gałązki mirtu, by wpleść je we włosy.
+                        <lb/>Spostrzegłszy nas woła: „Bądźcie zdrowi, o, przybysze, kim
+                        <lb n="780"/>Jesteście i skąd przybywacie? Z jakiego jesteście kraju?”
+                        <lb/>Na to powiedział Orestes: „Jesteśmy Tesalczykami. Nad Alfeos
+                        <lb/>Idziemy, aby złożyć ofiarę Zeusowi Olimpijskiemu.
+                        <lb/>Słysząc to Ajgistos odpowiada w te słowa:
+                        <lb/>Teraz więc musicie zostać moimi współbiesiadnikami
+                        <lb n="785"/>Przy uczcie; właśnie składam wołu w ofierze
+                        <lb/>Dla nimf. Wstawszy rankiem z łóżek
+                        <lb/>Przybędziecie w sam raz. Lecz chodźmy do domu!”
+                        <lb/>Kiedy tak przemawiał, chwyciwszy nas za ręce
+                        <lb/>Prowadził nas – „nie można odmawiać!”
+                        <lb n="790"/>Kiedy przyszliśmy do domu, tak powiedział:
+                        <lb/>„Wodę do obmycia jak najszybciej niech ktoś przybyszom przyniesie,
+                        <lb/>Aby przy ołtarzu stanęli blisko naczyń do rytualnych oczyszczeń”.
+                        <lb/>Orestes jednak powiedział: „Właśnie się oczyściliśmy
+                        <lb/>W czystych wodach rzecznego nurtu.
+                        <lb n="795"/>Jeśli jako przybysze mamy razem z mieszkańcami miasta złożyć ofiarę,
+                        <lb/>Ajgistosie, jesteśmy gotowi i nie odmawiamy, panie!”
+                        <lb/>Na tym nagle urwała się rozmowa.
+                        <lb/>Odłożywszy włócznie strzegące władcy
+                        <lb/>Wszyscy słudzy zabrali się do roboty:
+                        <lb n="800"/>Jedni przynieśli naczynie na krew ofiarną, inni wnieśli kosze,
+                        <lb/>Inni jeszcze zapalali ogień i wokół paleniska
+                        <lb/>Ustawiali kotły; cały dom rozbrzmiewał hałasem.
+                        <lb/>Chwyciwszy krupy kochanek twej matki
+                        <lb/>Obrzucił nimi ołtarz, przemawiając w te słowa:
+                        <lb n="805"/>„Nimfy skalne, obym wiele razy jeszcze składał woły w ofierze
+                        <lb/>I ja, i ta moja w domu małżonka, córka Tyndareosa,
+                        <lb/>Postępując jak teraz, a moich wrogów [niech spotka] nieszczęście”
+                        <lb/>– Mówiąc o Orestesie i o tobie. Pan mój natomiast
+                        <lb/>O coś przeciwnego się modlił, nie wypowiadając głośno słów,
+                        <lb n="810"/>Aby odzyskać ojczystą posiadłość. Ajgistos zaś z kosza wyjąwszy
+                        <lb/>Prosty nóż ofiarny, cielęcy włos
+                        <lb/>Ścinając, rzucił go do świętego ognia prawą ręką
+                        <lb/>I ciął cielaka przez gardło, jak tylko słudzy podnieśli go rękami na barki,
+                        <lb/>I mówi do twego brata te słowa:
+                        <lb n="815"/>Spośród różnych zalet u Tesalczyków chwalą te,
+                        <lb/>Że każdy pięknie oprawia byka
+                        <lb/>I kiełzna konie. Bierz żelazo, o przybyszu,
+                        <lb/>I pokaż, że sława ta słuszna u Tesalczyków”.
+                        <lb/>On zaś nóż dorycki dobrze wykuty chwyciwszy rękoma
+                        <lb n="820"/>Piękną pelerynę zrzucił z ramion,
+                        <lb/>Pyladesa wziął za pomocnika w trudzie,
+                        <lb/>Sługi odesłał. I chwyciwszy cielaka za nogę
+                        <lb/>Odsłonił białe mięso wyciągając rękę.
+                        <lb/>Szybciej ściągnął skórę niżby jeździec
+                        <lb n="825"/>Dwakroć stadion przemierzył,
+                        <lb/>I rozpruwa brzuch po bokach. Wziąwszy w ręce części ofiary do
+                        <lb/>pozyskania wróżb
+                        <lb/>Ajgistos patrzy uważnie. Płata wątroby nie było w wnętrznościach,
+                      A żyły i wnęki blisko żółci
+                        <lb />Wskazywały na groźne ataki na tego, kto je badał.
+                        <lb n="830"/>Popadł w rozdrażnienie, a pan mój zapytał:
+                        <lb/>„Co cię niepokoi?” „O przybyszu, obawiam się jakiejś
+                        <lb/>Zasadzki z zewnątrz. Największym z wszystkich ludzi
+                        <lb/>Wrogiem mojego domu jest syn Agamemnona”.
+                        <lb/>A on na to: „Zasadzki zbiega tak bardzo się boisz,
+                        <lb n="835"/>Chociaż władasz miastem? Nie! Abyśmy ucztę z ofiarnych podrobów
+                        <lb/>Mogli świętować, niech ktoś przyniesie tasak z Ftyi,
+                        <lb/>Zamiast tego doryckiego, rozpłatam mostek!”
+                        <lb/>Wziąwszy go, rąbie. Ajgistos zaś wziąwszy trzewia
+                        <lb/>Badał je i rozkładał. A kiedy się do przodu pochylił,
+                        <lb n="840"/>Twój brat stanąwszy na palcach
+                        <lb/>Ugodził w plecy i kręgosłup rozpłatał.
+                        <lb/>Całym ciałem w górę i w dół
+                        <lb/>Się miotał, krzyczał konając we krwi.</quote>
+                    <p>778: <w>δρέπων</w> <w>τερείνης</w> <w>μυρσίνης</w> κάρᾳ <w>πλόκους</w> – „zrywał delikatne
+                        gałązki mirtu, by wpleść je we włosy”. Cały obrzęd ofiarny Ajgistos
+                        rozpoczyna od ozdobienia głowy gałązkami mirtowymi, ścinanymi
+                        osobiście przez ofiarnika w ogrodzie (w. 777: <w>κήποις</w> ἐν <w>καταρρύτοις</w>).
+                        Zwykle wszyscy uczestnicy rytuału ofiarnego mieli wieńce na głowach
+                        (Blech 1982: passim; Rudhardt 1992: 258–259), co potwierdza także materiał
+                        ikonograficzny (van Straten 1995: 161–162). Noszenie wieńca nie
+                        jest cechą wyjątkową obrzędów ofiarnych – noszono je przy niemal
+                        wszystkich innych religijnych okazjach, procesjach, modlitwach, zaślubinach
+                        i pogrzebach, a także podczas sympozjonów czy wystąpień
+                        publicznych. Zastanawiające w omawianej scenie jest to, że Ajgistos
+                        wieńczy swą głowę gałązkami mirtu, który – jakkolwiek występował
+                        w niektórych uroczystościach, np. Panatenajach (Hünemörder
+                        2006: 424) – to jednak zasadniczo związany był z symboliką pogrzebową
+                        i obrzędami funeralnymi (Murr 1890: 86, 90, tak zresztą w E. <title>El</title>. 324
+                        i 512; por. Cropp 2013: 158, 199). W kontekście ofiary pojawia się jeszcze
+                        tylko w E. <title>Al</title>. 172, gdzie użyty jest do zdobienia ołtarzy. Można
+                        odnieść wrażenie, że Eurypides z dramatyczną ironią (ibidem: 199)
+                        odwołuje się do żałobnej funkcji mirtu, a akt Ajgistosa niesie w sobie
+                        zapowiedź własnej śmierci.</p>
+                    <p>782: <w>θύσοντες</w> <w>ἐρχόμεσθ</w>᾽ Ὀλυμπίῳ Διί – „idziemy, aby złożyć
+                        ofiarę Zeusowi Olimpijskiemu”. Orestes i Pylades, zapytani o to, kim
+                        są, odpowiadają jedynie, że przychodzą z Tesalii oraz że zmierzają do
+                        Olimpii, co ma tłumaczyć ich pojawienie się w Argos, leżącym dokładnie
+                        po drodze. Oświadczają, że ich celem jest złożenie ofiary (<w>θύσοντες</w>)
+                        Zeusowi Olimpijskiemu. Jest to jedyna w tym passusie wzmianka
+                        o ofierze innej niż ta, którą opisuje w szczegółach posłaniec.</p>
+                    <p>784–785: χρὴ <w>συνεστίους</w> ἐμοὶ <w>θοίνης</w> <w>γενέσθαι</w>· <w>τυγχάνω</w> δὲ
+                        <w>βουθυτῶν</w> – „musicie zostać moimi współbiesiadnikami / przy
+                        uczcie; właśnie składam wołu w ofierze”. Ajgistos zaprasza przybyszów
+                        na ucztę ofiarną (<w>θοίνη</w>), następującą po obrzędzie ofiarnym.
+                        Zaproszenie do współudziału w uczcie jest tożsame z zaproszeniem
+                        do uczestnictwa w ofierze. Frazę tę można by przetłumaczyć, respektując
+                        funkcję partykuły δέ, następująco: „musicie przyłączyć się do
+                        mojej uczty, bo tak się składa, że właśnie składam ofiarę”. Intrygująca
+                        i trudna w przekładzie jest fraza <w>συνέστιος</w> <w>θοίνης</w> – συνέστιος
+                        to jest ten, kto zasiada, staje z kimś wokół / przy tej samej hestii, tym
+                        samym ogniu, ognisku, palenisku czy ołtarzu. <w>Συνέστιος</w> <w>θοίνης</w>
+                        to zatem ten, kto zasiada razem do uczty wokół jednego paleniska
+                        ofiarnego na ołtarzu – innymi słowy ten, kto uczestniczy jednocześnie
+                        w uczcie i w ofierze, ponieważ są one nierozdzielne w przestrzeni,
+                        czasie i istocie. Na temat czasownika βουθυτέω zob. komentarz
+                        powyżej, do wersu 635.</p>
+                    <p>791–792: <w>λούτρ</w>᾽ ὡς τάχιστα τοῖς <w>ξένοις</w> τις <w>αἰρέτω</w>, / ὡς ἀμφὶ
+                        <w>βωμὸν</w> <w>στῶσι</w> <w>χερνίβων</w> <w>πέλας</w> – „wodę do obmycia jak najszybciej
+                        niech ktoś przybyszom przyniesie, / aby przy ołtarzu stanęli blisko
+                        naczyń do rytualnych oczyszczeń”. Wersy te mówią o oczyszczeniu
+                        koniecznym przed przystąpieniem do rytuału. Intrygujące, że ma
+                        ono dwa etapy. Ajgistos najpierw wzywa sługi, żeby przynieśli wodę
+                        do umycia się – λουτρά; jest to zwykła woda do kąpieli, przybysze
+                        mają po prostu się umyć, może nawet wykąpać, przed uroczystością.
+                        To obmycie dopiero da im możliwość stanięcia w pobliżu (<w>πέλας</w>)
+                        naczyń z wodą lustralną, „święconą” jakbyśmy dziś powiedzieli
+                        (<w>χέρνιβες</w>). Woda, do której przyniesienia wzywa pan domu, nie jest
+                        bynajmniej tą samą wodą, która jest używana podczas samego rytuału.
+                        Jak pisze Trzcionkowski w haśle słownikowym: „chernips służyło
+                        naznaczaniu uczestników, potwierdzaniu ich przynależności do kręgu
+                        ofiarników”. Do rytuału nie można przystąpić, będąc brudnym
+                        lub w jakikolwiek inny sposób zaniedbanym – dlatego kąpiel, loutra,
+                        jest konieczna przed rozpoczęciem obrzędu. Natomiast woda lustralna
+                        w pojemnikach stojących przy ołtarzu (jedno i drugie nazywano
+                        chernips – i wodę, i naczynie) używana była już podczas samego obrzędu
+                        ofiary. Loutra jest warunkiem przystąpienia do obrzędu, chernips
+                        – jego częścią.</p>
+                    <p>793–794: Ἀρτίως <w>ἡγνίσμεθα</w> / <w>λουτροῖσι</w> <w>καθαροῖς</w> <w>ποταμίων</w>
+                        <w>ῥείθρων</w> ἄπο – „właśnie się oczyściliśmy / w czystych wodach rzecznego
+                        nurtu”. Odpowiedź Orestesa na wezwanie Ajgistosa do umycia
+                        się przed obrzędem ofiarnym, z której wynika, że jest on już gotowy do
+                        wzięcia w nim udziału, ponieważ wcześniej umył się w rzece (<w>λουτροῖσι</w>
+                        <w>καθαροῖς</w>). To obmycie opisuje on czasownikiem ἁγνίζειν – „oczyścić
+                        się”, to znaczy stać się <w>ἁγνός</w> – „czystym” w znaczeniu rytualnym,
+                        gotowym do wejścia w sferę rytuału, dziś nazwalibyśmy ją sferą sacrum.
+                        Ἁγνίζειν oznacza bardziej „oczyszczenie do” niż „oczyszczenie
+                        od” (to ostatnie oznacza <w>καθαίρειν</w>, Rudhardt 1992: 170–171).</p>
+                    <p>795: <w>ἀστοῖσι</w> <w>συνθύειν</w> – „razem z mieszkańcami miasta złożyć
+                        ofiarę”. <w>Συνθύειν</w> – składać ofiarę, uczestniczyć w ofierze, wspólnie
+                        z kimś. Zaproszenie obcych (<w>ξένοι</w>) do uczestnictwa w obrzędzie
+                        ofiarnym jest nie tylko gestem gościnności, ale też aktem dopuszczenia
+                        do wspólnoty (zob. Eitrem 1915: 295 i Denniston 1968: 148).
+                        Denniston trafnie zauważa gorzką, tragiczną ironię w tych słowach,
+                        które Orestes, prawowity władca, kieruje jako „obcy” do „miejscowych”.</p>
+                    <p>800–802: οἳ μὲν <w>σφαγεῖον</w> <w>ἔφερον</w>, οἳ δ᾽ <w>ᾖρον</w> <w>κανᾶ</w>, / ἄλλοι δὲ
+                        <w>πῦρ</w> <w>ἀνῆπτον</w> ἀμφί τ᾽ <w>ἐσχάρας</w> / <w>λέβητας</w> <w>ὤρθουν</w> – „jedni przynieśli
+                        naczynie na krew ofiarną, inni wnieśli kosze, / inni jeszcze
+                        zapalali ogień i wokół paleniska / ustawiali kotły”. Passus wylicza
+                        wszystkie przedmioty i czynności potrzebne do przeprowadzenia
+                        ofiary. Denniston (1968: 150) zauważa, że dziwi jedynie brak
+                        wzmianki o zwierzęciu ofiarnym, które wspomniane jest w następnych
+                        wersach już jako poddane wstępnym rytom ofiarnym: ścinaniu
+                        sierści i rzucaniu jej do ognia (w. 811–812). Mając na uwadze
+                        szczegółowość opisu, może też dziwić fakt, że nie ma wzmianki
+                        o znoszeniu drewna na ołtarz. Słudzy przynoszą natomiast: 1.
+                        sphageion – naczynie na krew ofiarną, zbieraną po przecięciu gardła
+                        celem wylania jej na ołtarz (van Straten 1995: 105 z przypisem
+                        8 i odniesieniem do Hom. <title>Od</title>. 3.444); 2. kosze – kana – z innymi
+                        paramentami niewspomnianymi skądinąd, jak nóż (wyjmowany
+                        przez Ajgistosa z tego kosza poniżej, w. 810–811, van Straten 1995:
+                        31–33), stemmata – wstążki do ozdabiania zwierzęcia (nie pojawiają
+                        się w tej scenie) oraz krupy przywołane w następnym wersie; taki
+                        właśnie katalog przedmiotów pomieszczonych w kanoun wylicza
+                        Arystofanes w <title>Pokoju</title> (w. 948) τὸ <w>κανοῦν</w> <w>πάρεστ</w>᾽ <w>ὀλὰς</w> <w>ἔχον</w> καὶ
+                        <w>στέμμα</w> καὶ <w>μάχαιραν</w> (zob. komentarz Bednarka 2017: 104, ad loc.
+                        oraz van Straten 1995: 31–33 i 162–164); 3. kotły – lebetes – konieczne
+                        do przygotowania posiłku na ucztę ofiarną, które ustawiano wokół
+                        (ἀμφί) ołtarza, w jego bezpośredniej bliskości, co silnie wiąże posiłek
+                        ofiarny z samą ofiarą. Mowa jest też o krzesaniu ognia – poniżej
+                        nazywanego „świętym” (w. 812: ἐφ᾽ <w>ἁγνὸν</w> <w>πῦρ</w>); ogień mógł być
+                        albo krzesany – jak tutaj – przy ołtarzu, albo przynoszony w naczyniu
+                        ze świątyni (van Straten 1995: 167).</p>
+                    <p>803–804: <w>λαβὼν</w> δὲ <w>προχύτας</w> […] / <w>ἔβαλλε</w> <w>βωμούς</w> – „chwyciwszy
+                        krupy kochanek twej matki / obrzucił nimi ołtarz”. Krupy zbożowe
+                        były przynoszone w koszu jako ważny pre-rekwizyt do obrzędu
+                        ofiarnego. Rzucanie ich na ołtarz – a dokładniej zapewne w ogień
+                        na ołtarzu – rozpoczynało sam obrzęd ofiary (tak w E. <title>IA</title> 1111–1112
+                        i 1470–1471, por. van Straten 1995: 38). Według scholiów do Arystofanesa
+                        (Nu. 260) krupami obrzucano także same zwierzęta ofiarne,
+                        a w Pokoju 962 mamy nawet wezwanie do obrzucenia krupami widowni
+                        podczas odgrywania sceny ofiarnej.</p>
+                    <p>810–814: ἐκ <w>κανοῦ</w> δ᾽ <w>ἑλὼν</w> / Αἴγισθος <w>ὀρθὴν</w> <w>σφαγίδα</w>, <w>μοσχείαν</w>
+                        <w>τρίχα</w> / <w>τεμὼν</w> ἐφ᾽ <w>ἁγνὸν</w> <w>πῦρ</w> <w>ἔθηκε</w> <w>δεξιᾷ</w>, / <w>κἄσφαξ</w>᾽ ἐπ᾽ <w>ὤμων</w>
+                        <w>μόσχον</w> ὡς <w>ἦραν</w> <w>χεροῖν</w> / <w>δμῶες</w> – „Ajgistos zaś z kosza wyjąwszy / prosty
+                        nóż ofiarny, cielęcy włos / ścinając, rzucił go do świętego ognia
+                        prawą ręką / i ciął cielaka przez gardło, jak tylko słudzy podnieśli go
+                        rękami na barki”. W passusie tym pojawia się pierwszy raz zwierzę
+                        ofiarne – cielak (<w>μοσχείαν</w> <w>τρίχα</w>). Ajgistos ścina mu sierść nożem
+                        ofiarnym (<w>σφαγίς</w>) i wrzuca do ognia (van Straten 1995: 43–44). Jest to
+                        podstawowy gest należący do aparchai – obrzędów wstępnych ofiary
+                        (por. Hom. <title>Od</title>. 3.446); intrygujący jest szczegół, że czynność tę należy
+                        wykonywać prawą ręką. Sam akt zarzynania zwierzęcia opisany jest
+                        lapidarnie czasownikiem w ściśle technicznym w tym miejscu znaczeniu:
+                        <w>σφάζειν</w>.</p>
+                    <p>Istotny jest inny szczegół wyraźnie zarysowany w tym opisie:
+                        uniesienie zwierzęcia ofiarnego na barki sług asystujących przy rytuale.
+                        Zarówno materiał ikonograficzny, jak i epigraficzny potwierdzają
+                        taką niezwykłą praktykę. van Straten (1995: 110–113) przywołuje
+                        sześć inskrypcji – zarówno z V w. p.n.e., jak i II oraz I w. p.n.e., np. <title>IG</title>
+                        II2 1011.8: <w>ἤραντο</w> δὲ καὶ τοὺς <w>βοῦς</w> ἐν Ἐλευςῖνι τῆι <w>θυσίαι</w> – które
+                        opisują taki rytuał. Potwierdzają go też inne dane literackie: Teofrast
+                        (<title>Char</title>. 27.5) i Pauzaniasz (8.19.2), a także scena z <title>Heleny</title> Eurypidesa
+                        (w. 1559–1564), w której trzeba wnieść na pokład statku byka stawiającego
+                        opór. Dwie wazy, szczegółowo omówione przez van Stratena
+                        (1995: 111–112) również przedstawiają scenę unoszenia byka na ramionach
+                        mężczyzn, ewidentnie podczas obrzędu ofiarnego (van Straten
+                        1995: ryc. 114 i 115; Himmelmann 1997: 22–26, ryc. 13). van Straten
+                        zdaje się wątpić, żeby była to często spotykana praktyka rytualna
+                        i wiąże ją raczej ze szczególnego rodzaju uroczystościami, jak święta
+                        ku czci Hefajstosa czy Heraklesa i związane z nimi pokazy męskiej
+                        siły (1995: 112). Omawiana scena z <title>Elektry</title> idzie jednak wyraźnie na
+                        przekór wątpliwościom van Stratena – ewidentnie podczas zwykłej
+                        ofiary dla nimf, bez żadnego towarzyszącego jej święta efebów i żadnych
+                        innych okoliczności mamy opis jednoznaczny w swym wyrazie:
+                        słudzy podnieśli na barki cielaka i w takim położeniu został on
+                        zabity. Osobiście nie szukałbym dodatkowych uzasadnień dla takiej
+                        praktyki rytualnej. Można zgodzić się, nie była to usual practice (ibidem:
+                        113), ale nie ma powodów, by wątpić w jej istnienie. Z materiału
+                        epigraficznego zdaje się wynikać, że czynność ta należała do
+                        obowiązków efebów (na ten temat dokładniej: Stengel 1895: 340 oraz
+                        Stengel 1910b: 105–125 – z jego poglądami van Straten również dość
+                        ironicznie polemizuje, moim zdaniem również niepotrzebnie wylewając
+                        dziecko z kąpielą; Diggle 2004: 480–481 dowodzi, że najwcześniejsze
+                        świadectwo pozwalające wiązać ten rytuał z efebią pochodzi
+                        z II w. p.n.e., por. też Parker 1996: 254).</p>
+                    <p>816: ὅστις <w>ταῦρον</w> <w>ἀρταμεῖ</w> καλῶς – „każdy pięknie oprawia byka”.
+                        Czasownik <w>ἀρταμέω</w> należy do technicznego słownika masarskiego
+                        (Berthiaume 1982: 98, 115). Pochodzący od niego rzeczownik <w>ἄρταμος</w>
+                        może jednak oznaczać w równej mierze rzeźnika, kucharza, jak i ofiarnika,
+                        który zarzyna zwierzę podczas składania ofiary (ibidem: 10). W omawianej
+                        scenie cielak jest już zarżnięty przez Ajgistosa, więc bez wątpienia
+                        w jego słowach do Orestesa chodzi o oprawienie zwierzęcia, a nie
+                        o jego ubicie. Potwierdza to też opis zawarty w następnych wersach,
+                        w których Orestes rozcina zwierzę, wycina mięso, ściąga skórę i wycina
+                        wnętrzności.</p>
+                    <p>819: ὁ δ᾽ <w>εὐκρότητον</w> Δωρίδ᾽ <w>ἁρπάσας</w> <w>χεροῖν</w> – „nóż dorycki dobrze
+                        wykuty chwyciwszy rękoma”. „Nóż [<w>κόπις</w>, jak w wersie 837
+                        poniżej] dorycki” – Biernat (w haśle słownikowym) sugeruje przekład
+                        „doryjka”, wyjaśniając, że jest to masywny nóż (<w>κόπις</w>) – Orestes
+                        chwyta go obiema rękami. W literaturze późniejszej występuje
+                        rzeczownik <w>δορίς</w> (zamiast Δωρίς), który Chantraine (1933: 338) łączył
+                        z <w>δορά</w> i <w>δείρω</w> („zdjęta skóra” i „skórować”), co znakomicie pasowałoby
+                        do kontekstu. Biernat sugeruje (loc. cit.), że możemy mieć tu do
+                        czynienia z etymologizacją wtórną i że Eurypides „mógł podheroizować
+                        dorydę, wtórnie łącząc ją z Dorami w symetrii z kopidą z Ftyi” (z w. 836
+                        poniżej).</p>
+                    <p>822–823: καὶ <w>λαβὼν</w> <w>μόσχου</w> <w>πόδα</w>, / <w>λευκὰς</w> <w>ἐγύμνου</w> <w>σάρκας</w>
+                        <w>ἐκτείνων</w> <w>χέρα</w> – „i chwyciwszy cielaka za nogę / odsłonił białe mięso
+                        wyciągając rękę”. Zabite zwierzę leży na ołtarzu na grzbiecie (van
+                        Straten 1995: 115–153 oraz ryc. 119–158). Orestes nacina skórę, spod
+                        której ukazuje się białe mięso – zwierzę nie jest jeszcze „otwierane”,
+                        rozcinane. Najpierw jest skórowane (w. 824: <w>βύρσαν</w> <w>ἐξέδειρεν</w>), potem
+                        wyjmowane są wnętrzności, splanchna (w. 826–828), które należy
+                        poddać badaniu – serce, płuca, wątroba, śledziona i nerki są następnie
+                        pieczone nad ogniem ofiarnym i zjadane (Pritchett 1979: 74; por. Hom.
+                        Il. 1.464). Dopiero potem tusza jest dzielona na część dla bogów (kości
+                        udowe, kość ogonowa i ogon oraz woreczek żółciowy) i resztę – dla
+                        ludzi. Części na ucztę ofiarną są dzielone i gotowane w kotłach stojących
+                        wokół ołtarza.</p>
+                    <p>826–829: <w>ἱερὰ</w> δ᾽ ἐς <w>χεῖρας</w> <w>λαβὼν</w> / Αἴγισθος <w>ἤθρει</w>. καὶ <w>λοβὸς</w>
+                        μὲν οὐ <w>προσῆν</w> / <w>σπλάγχνοις</w>, <w>πύλαι</w> δὲ καὶ <w>δοχαὶ</w> <w>χολῆς</w> <w>πέλας</w> / 
+                        <w>κακὰς</w> <w>ἔφαινον</w> τῷ <w>σκοποῦντι</w> <w>προσβολάς</w> – „wziąwszy w ręce części
+                        ofiary do pozyskania wróżb / Ajgistos patrzy uważnie. Płata wątroby
+                        nie było w wnętrznościach, / a żyły i wnęki blisko żółci / wskazywały
+                        na groźne ataki na tego, kto je badał”. Szczegółowy opis procedury
+                        mantycznej podczas składania ofiary (Stengel 1920: 60–61; Burkert
+                        1985a: 112–113). Zwierzę ofiarne jest oprawiane przez Orestesa, któremu
+                        asystuje Ajgistos. To on właśnie bierze do rąk wnętrzności
+                        – splanchna z wersu 828 (de facto część wnętrzności, nie wszystkie),
+                        nazywane tutaj hiera – „częściami świętymi”, tymi częściami zwierzęcia,
+                        z których pozyskuje się znaki wieszcze (Pritchett 1979: 74).
+                        Przedmiotem inspekcji jest najpierw wątroba i woreczek żółciowy,
+                        pozostałe wnętrzności – płuca, nerki i śledziona – zostaną wyjęte do
+                        inspekcji dopiero później, po rozcięciu mostka i rozpłataniu zwierzęcia
+                        (poniżej, w. 837–839). Opis ten wskazuje wyraźnie, że splanchna
+                        były badane w dwóch etapach. Wątrobie brakuje jednego „płata” –
+                        lobos (por. X. <title>HG</title> 4.7.7: <w>ἐθύετο</w>· καὶ <w>ἐφάνη</w> αὐτῷ τὰ <w>ἱερὰ</w> <w>ἄλοβα</w>), a na
+                        jej powierzchni w pobliżu woreczka żółciowego znajdują się jakieś
+                        nieokreślone bliżej defekty (Pritchett 1979: 75–76).</p>
+                    <p>835–836: <w>παστήρια</w> / <w>θοινασόμεσθα</w> – „abyśmy ucztę z ofiarnych
+                        podrobów / mogli świętować”. Orestes nazywa ucztę ofiarną słowem
+                        <w>παστήρια</w>. Jest to Eurypidesowe hapax legomenon, nie notują go także
+                        słowniki etymologiczne. Jedynie Hesychios (s.v.) wyjaśnia je jako
+                        <w>σπλάγχνα</w>, τὰ <w>ἐντοσθίδια</w>, κοιλία: wnętrzności i brzuch, zapewne
+                        w znaczeniu „zawartość brzucha”. Leksykograf chciałby więc tutaj widzieć
+                        wezwanie do pieczenia i zjedzenia upieczonych na ogniu ofiarnym
+                        splanchna, co odpowiada kontekstowi, ponieważ Orestes prosi
+                        o tasak, żeby rozpłatać tuszę i wyjąć wszystkie jadalne splagchna.</p>
+                    <p>836–837: <w>Φθιάδ</w>᾽ ἀντὶ Δωρικῆς / <w>οἴσει</w> τις ἡμῖν <w>κοπίδ</w>᾽, <w>ἀπορρήξω</w>
+                        <w>χέλυν</w> – „niech ktoś przyniesie tasak z Ftyi, / zamiast tego doryckiego,
+                        rozpłatam mostek!”. Ciąg dalszy szczegółów masarskich w opisie
+                        oprawiania zwierzęcia. Dopiero po zbadaniu wątroby i woreczka żółciowego
+                        rzeźnik-ofiarnik, tutaj: Orestes, rozcina tuszę na pół, tnąc po
+                        mostku (Berthiaume 1982: 46).</p>
+                    <p>838–839: <w>σπλάγχνα</w> […] <w>λαβὼν</w> / <w>ἤθρει</w> <w>διαιρῶν</w> – „wziąwszy trzewia
+                        / badał je i rozkładał”. Ajgistos tym razem poddaje badaniu pozostałe
+                        wnętrzności – nerki, płuca i śledzionę, dlatego po ich wyjęciu
+                        i chwyceniu (<w>λαβών</w>) należy je porozkładać na stole, żeby były dobrze
+                        widoczne (<w>διαιρῶν</w>).</p>
+                </div>
+                
+                <div type="textpart" n="Electra_1020-1023">
+                    <head>Electra 1020-1023</head>
+                    <p>Kilka wersów niżej (w. 1029) Klitajmestra opisuje śmierć Ifigenii
+                        słowem διώλεσεν – Agamemnon ją „zgubił”, „zabił”. Ponownie nie
+                        pojawia się tutaj żadna próba przeniesienia śmierci Ifigenii na poziom
+                        metafory ofiarnej. Tak samo też Elektra – inaczej niż ma to miejsce
+                        u Ajschylosa – w odpowiedzi mówi matce jedynie o zabiciu jej córki:
+                        σὴν θυγατέρ᾽ <w>ἔκτεινεν</w> πατήρ (w. 1086) czy też kilka wersów dalej,
+                        kiedy swój los przyrównuje do śmierci Ifigenii, uznając ją za podwójne
+                        zabójstwo (w. 1092–1093: δὶς τόσως ἐμὲ / <w>κτείνας</w> ἀδελφῆς ζῶσαν),
+                        wyrok śmierci na matce usprawiedliwia jedynie odwetem mordu za
+                        mord (w. 1094: φόνον δικάζων φόνος, <w>ἀποκτενῶ</w> σε).</p>
+                    <quote><lb n="1020"/>κεῖνος δὲ παῖδα τὴν ἐμὴν Ἀχιλλέως
+                        <lb/>λέκτροισι πείσας ᾤχετ᾽ ἐκ δόμων ἄγων
+                        <lb/>πρυμνοῦχον Αὖλιν, ἔνθ᾽ ὑπερτείνας πυρᾶς
+                        <lb/>λευκὴν διήμησ᾽ Ἰφιγόνης παρηΐδα.</quote>
+                    <quote><lb n="1020"/>On to moją córkę Achillesa
+                        <lb/>Łożu obiecał i wyruszył z pałacu, wiodąc ją
+                        <lb/>Do wstrzymującej okręty Aulidy, gdzie rozciągnąwszy nad ołtarzem
+                        <lb/>Rozciął biały policzek Ifigenii.</quote>
+                    <p>1022: <w>ὑπερτείνας</w> <w>πυρᾶς</w> – „rozciągnąwszy nad ołtarzem”, dosłownie:
+                        „na stosie ofiarnym”. <w>Πυρά</w> jako „ołtarz”, zob. komentarz do
+                        wersów 93 i 513 powyżej. W tym miejscu użycie tego rzeczownika jest
+                        bardziej zaskakujące niż powyżej, w jednoznacznym kontekście ofiar
+                        nagrobnych i ich spalania na stosach położonych na lub przy grobach.
+                        Ifigenia była ofiarą przeznaczoną na dar dla Artemidy, nie dla zmarłych.
+                        Eurypides najwyraźniej używa rzeczownika πυρά jako synonimu
+                        ołtarza w ogóle. Czasownik ὑπερ-τείνειν – „rozciągać ponad” wskazuje
+                        na praktykę unoszenia ofiary nad ołtarzem w momencie jej zabijania,
+                        tak jak powyżej w scenie ofiary spełnianej przez <title>Ajgistosa</title> (w. 813).</p>
+                </div>
+                
+                <div type="textpart" n="Electra_1124-1126">
+                    <head>Electra 1124-1126</head>
+                    <p>Elektra zaprasza Klitajmestrę do swego domu – pod pozorem urodzin
+                        dziecka – by ją zabić. W poniższym passusie prosi ją o złożenie
+                        ofiary za dziecko w dziesiątym dniu od urodzin. <w>Θύω</w> z wersu 1125
+                        – użyte w odniesieniu do zmyślonej ofiary po połogu – zapowiada
+                        śmierć Klitajmestry, w ustach Elektry (w. 1141–1146) staje się rzeczywistą,
+                        prawdziwą ofiarą, z ofiarnika przekształca się w ofiarę.</p>
+                    <quote><lb/>ἤκουσας, οἶμαι, τῶν ἐμῶν λοχευμάτων·
+                        <lb n="1125"/>τούτων ὕπερ μοι θῦσον—οὐ γὰρ οἶδ᾽ ἐγώ–
+                        <lb/>δεκάτῃ σελήνῃ παιδὸς ὡς νομίζεται.</quote>
+                    <quote><lb/>Słyszałaś, jak sądzę, o moim połogu?
+                        <lb n="1125"/>Z tego powodu złóż za mnie ofiarę – bo ja nie umiem –
+                        <lb/>W dziesiątym księżycu dziecka, jak jest zwyczaj.</quote>
+                    <p>1125–1126: τούτων ὕπερ μοι <w>θῦσον</w> […] <w>δεκάτῃ</w> <w>σελήνῃ</w> – „Z tego
+                        powodu złóż za mnie ofiarę […] w dziesiątym księżycu dziecka”. „Dziesiąty
+                        księżyc” (<w>σελήνη</w>) tutaj to – w zależności od interpretacji – albo
+                        „dzień” (tyle, co <w>ἥλιος</w> w analogicznym passusie, w. 654, jak chce Denniston
+                        1968: 188), albo „noc” (tak Cropp 2013: 223). Z całą pewnością nie jest
+                        to tutaj „miesiąc”, jak sugeruje <title>LSJ</title> (s.v. oraz – wysoce nieprzekonywająco
+                        – Hamilton 1984: 246), ponieważ passus odnosi się do obrzędu oczyszczenia
+                        w dziesiątym dniu (lub raczej nocy, jak wskazują komentarze leksykografów,
+                        zob. Denniston 1968: 188) po porodzie. Po porodzie istotne
+                        były dwa rytuały: amphidromia piątego dnia i dekate – dziesiątego (Golden
+                        1990: 23–24; Parker 1983: 51; Deubner 1952: 374–377; Rose 1957a: 110; de
+                        Cazanove 2011: 3 oraz zwłaszcza Kirk 1981: 56–60). Podczas pierwszego
+                        z nich dziecko było obnoszone wokół ogniska domowego celem włączenia
+                        go w strukturę domostwa i kontakt z jego sakralnym centrum. Nie
+                        składano wtedy żadnych ofiar (Golden 1986: 253–254 contra de Cazanove
+                        2011: 3). Tego samego dnia oczyszczenia dostępowały także kobiety asystujące
+                        przy porodzie (Parker 1983: 51; Cropp 2013: 187 z odniesieniem
+                        do w. 654, którzy wspominają wprost o oczyszczeniu położnej: <w>ἁγνεύει</w>
+                        <w>λεχώ</w>), a matka, chociaż sama pozostawała jeszcze nieczysta, obarczona
+                        przez miasma, przestawała jednak nieczystością kontaminować – nie była
+                        już więcej źródłem nieczystości rytualnej. Nieczystość ta była zupełnie
+                        znoszona dopiero podczas drugiego obrzędu – dekate, dziesiątego dnia,
+                        kiedy składano ofiarę za matkę i nadawano dziecku imię (Golden 1986:
+                        255; Zeitlin 1970: 652, przypis 26). O szczegółach tej ofiary nie wiemy nic
+                        więcej – ani z jakiego zwierzęcia była składana, ani jakiemu bóstwu (por.
+                        Ar. <title>Av</title>. 922). Z wersu 1128 poniżej wynika, że ofiarę tę składała położna,
+                        która przyjęła poród, co wydaje się uzasadnione – położna została
+                        oczyszczona po skalaniu związanym z porodem już piątego dnia podczas
+                        obrzędu amphidromia i teraz może pełnić funkcję ofiarniczki przy
+                        obrzędzie oczyszczającym innych. Elektra wyraźnie mówi o ofierze „za
+                        siebie” (<w>ὕπερ</w> <w>μοι</w>), nie za dziecko.</p>
+                </div>
+                
+                <div type="textpart" n="Electra_1132-1144">
+                    <head>Electra 1132-1144</head>
+                    <p>Klitajmestra, po pewnym wahaniu, w odpowiedzi na prośbę Elektry
+                        deklaruje, że złoży ofiarę za dziecko w przepisanym zwyczajem
+                        dniu. Tematyka ofiarna w tym passusie ma jednak jeszcze dwa wymiary
+                        – królowa mówi, że po złożeniu swojej ofiary uda się do męża,
+                        który składa na pastwiskach ofiary nimfom (nie wie jeszcze, że ten już
+                        nie żyje), z kolei w monologu Elektry zamykającym scenę sama staje
+                        się ofiarą. Zamierza spełnić rytuał za dziecko swego dziecka, a tymczasem
+                        sama ponosi śmierć z rąk córki (Golden 1986: 254).</p>
+                    <quote><lb/><emph>ΚΛΥΤΑΙΜΗΣΤΡΑ</emph>:
+                        <lb/>ἀλλ᾽ εἶμι, παιδὸς ἀριθμὸν ὡς τελεσφόρον
+                        <lb/>θύσω θεοῖσι· σοὶ δ᾽ ὅταν πράξω χάριν
+                        <lb/>τήνδ᾽, εἶμ᾽ ἐπ᾽ ἀγρὸν οὗ πόσις θυηπολεῖ
+                        <lb n="1135"/>Νύμφαισιν. ἀλλὰ τούσδ᾽ ὄχους, ὀπάονες,
+                        <lb/>φάτναις ἄγοντες πρόσθεθ᾽· ἡνίκ᾽ ἂν δέ με
+                        <lb/>δοκῆτε θυσίας τῆσδ᾽ ἀπηλλάχθαι θεοῖς,
+                        <lb/>πάρεστε· δεῖ γὰρ καὶ πόσει δοῦναι χάριν.
+                        <lb/><emph>ΗΛΕΚΤΡΑ</emph>:
+                        <lb/>χώρει πένητας ἐς δόμους· φρούρει δέ μοι
+                        <lb n="1140"/>μή σ᾽ αἰθαλώσῃ πολύκαπνον στέγος πέπλους.
+                        <lb/>θύσεις γὰρ οἷα χρή σε δαίμοσιν θύη.
+                        <lb/>κανοῦν δ᾽ ἐνῆρκται καὶ τεθηγμένη σφαγίς,
+                        <lb/>ἥπερ καθεῖλε ταῦρον, οὗ πέλας πεσῇ
+                        <lb/>πληγεῖσα·</quote>
+                    <quote><lb/><emph>KLITAJMESTRA</emph>:
+                        <lb/>Więc wejdę. Za dziecko, gdy liczba dni się wypełnia
+                        <lb/>Złożę ofiarę bogom. Kiedy ci wyświadczę tę łaskę,
+                        <lb/>Pójdę na łąkę, gdzie mój mąż składa ofiary
+                        <lb n="1135"/>Nimfom. Ale powóz ten, słudzy,
+                        <lb/>Odprowadźcie do stajni. A kiedy
+                        <lb/>Zobaczycie, że już skończyłam ofiarę dla bogów,
+                        <lb/>Wróćcie tutaj. Bo muszę mieć wzgląd także na męża.
+                        <lb/><emph>ELEKTRA</emph>:
+                        <lb/>Wejdź do ubogiego domu. A bacz mi,
+                        <lb n="1140"/>Żebyś nie uwalała sobie szaty w zakopconym domu.
+                        <lb/>Złożysz ofiary, jakie trzeba, żebyś złożyła bóstwom.
+                        <lb/>Kosz już wniesiony i nóż ofiarny wyostrzony,
+                        <lb/>Który zarżnął byka, przy nim padniesz
+                        <lb/>Ugodzona.</quote>
+                    <p>1132–1133: <w>παιδὸς</w> <w>ἀριθμὸν</w> ὡς <w>τελεσφόρον</w> / <w><w>θύσω</w></w> θεοῖσι – „za
+                        dziecko, gdy liczba dni się wypełnia / złożę ofiarę bogom”. <w>Ἀριθμὸν</w>
+                        ὡς <w>τελεσφόρον</w> – odnosi się do święta dekate wspominanego wyżej
+                        (zob. komentarz do w. 1125–1126). Intrygujące, że ani tutaj, ani w wersie
+                        1125, ani też w wersie 654 nie pojawia się żadna informacja, jakim
+                        bogom należy składać ofiary – Klitajmestra mówi jedynie o „składaniu
+                        ofiar bogom” (w. 1133: <w>θύσω</w> <w>θεοῖσι</w>), tak samo jak poniżej o „tej ofierze
+                        dla bogów” (w. 1137: <w>θυσίας</w> τῆσδ' […] <w>θεοῖς</w>).</p>
+                    <p>1134: οὗ <w>πόσις</w> <w>θυηπολεῖ</w> – „gdzie mój mąż składa ofiary”. Klitajmestra
+                        używa tego samego słowa, co Elektra w rozmowie ze starcem
+                        (w. 665, zob. komentarz powyżej).</p>
+                    <p>1141–1144: <w>θύσεις</w> γὰρ <w>οἷα</w> χρή σε <w>δαίμοσιν</w> <w>θύη</w>. / <w>κανοῦν</w> δ᾽
+                        <w>ἐνῆρκται</w> καὶ <w>τεθηγμένη</w> <w>σφαγίς</w>, / ἥπερ <w>καθεῖλε</w> <w>ταῦρον</w>, οὗ <w>πέλας</w>
+                        <w>πεσῇ</w> / <w>πληγεῖσα</w>· – „złożysz ofiary, jakie trzeba, żebyś złożyła bóstwom.
+                        / kosz już wniesiony i nóż ofiarny wyostrzony, / który zarżnął byka, przy
+                        nim padniesz / ugodzona”. „Zarżniętym bykiem”, obok którego legnie
+                        Klitajmestra, jest oczywiście Ajgistos, którego zwłoki ukażą się jej oczom
+                        przed śmiercią natychmiast po wejściu do domu. W passusie tym Elektra
+                        odkrywa karty i wprost mówi matce, że jedyną ofiarą, jaką trzeba złożyć
+                        „bóstwom” (<w>δαίμοσιν</w>), jest ona sama. <w>Θύη</w> – zaskakujące i jedyne
+                        w jednoznacznym kontekście ofiary krwawej użycie rzadko występującego
+                        rzeczownika <w>θύος</w>, który oznacza zazwyczaj „wonną ofiarę spalaną”
+                        (zob. A. <title>Eu</title>. 835 z wyczerpującym komentarzem). Wydaje się, że Elektra
+                        chce z tragiczną ironią wyrazić swoje przekonanie, że ofiara, jaka ma się
+                        zaraz dokonać, będzie miłą bogom jak dym kadzidła. Wers 1142 kształtuje
+                        scenę lustrzaną wobec opisu ofiary składanej przez Ajgistosa w wersach
+                        810 i 811 – także tutaj wnoszony jest <w>κανοῦν</w> – kosz ofiarny i <w>σφαγίς</w>
+                        – „nóż ofiarny”. Fraza <w>κανοῦν</w> <w>ἐνάρχεσθαι</w> (występująca jeszcze u Eurypidesa
+                        w <title>IA</title> 435 i 1470 – zob. komentarz) przetłumaczona tutaj jako „kosz
+                        już przyniesiony”, de facto stanowi nieprzetłumaczalny terminus technicus
+                        języka związanego z ofiarą krwawą i oznacza „zacząć obrzęd ofiarny od
+                        koszy / od sięgnięcia do koszy po krupy” (uzasadnienie zobacz w komentarzu
+                        do E. IA<title> </title>435). Śmierć Klitajmestry – inaczej niż śmierć Ajgistosa – jest
+                        opisana w czysto rytualnych terminach, na jej ofiarny charakter wskazuje
+                        kontekst zarysowany ze swoistą gradacją: najpierw Elektra mówi o ofierze,
+                        jaką należy złożyć, potem o przygotowaniach do niej, by w końcu
+                        brutalnie wykrzyczeć matce: „padniesz od ciosu” (<w>πεσῇ</w> <w>πληγεῖσα</w>).</p>
+                </div>
+                
+                <div type="textpart" n="Electra_1160">
+                    <head>Electra 1160</head>
+                    <p>Chór w pierwszej części stasimonu czwartego wspomina mord Klitajmestry
+                        na Agamemnonie w obrazowej wizji rąk z uniesionym toporem.
+                        Passus nie zawiera żadnych nawiązań do terminologii ofiarniczej i nie
+                        usiłuje metaforycznie interpretować tej śmierci. W strofie chór przywołuje
+                        słowa Agamemnona zabijanego w łaźni: „dlaczego mnie, żono, zabijasz?”
+                        (w. 1151: τί με, γύναι, <w>φονεύσεις</w>). Tak samo niżej (w. 1165) Klitajmestra
+                        krzyczy do swych dzieci: „nie mordujcie matki!” (μὴ <w>κτάνητε</w> μητέρα).</p>
+                    <quote><lb n="1160"/>ἔκανεν αὐτόχειρ, πέλεκυν ἐν χεροῖν λαβοῦσ᾽[α].</quote>
+                    <quote><lb n="1160"/>Własnoręcznie zabiła, chwytając w dłonie topór.</quote>
+                </div>
+                
+                <div type="textpart" n="Electra_1121-1129">
+                    <head>Electra 1121-1129</head>
+                    <p>Koniec stasimonu czwartego – Orestes na przemian z Elektrą i chórem
+                        śpiewają o spełnionym na matce mordzie. Dwukrotnie – i Orestes,
+                        i Elektra – mówią o zakrywaniu zwłok szatami (w. 1228 i 1229).
+                        W całym tym passusie nawiązania do języka ofiary są silne – i Elektra,
+                        i Orestes wspominają narzędzia mordu: nóż ofiarny i miecz, Orestes
+                        opisuje swój czyn w kategoriach ofiary (<w>κατηρξάμαν</w>) i opisuje go jako
+                        „zatopienie noża w szyi”, tak samo jak podczas ofiary, rany po ciosach
+                        zadanych matce nazywane są sphagai, co przywodzi na myśl rytualny
+                        mord – <w>σφάζειν</w>; nawet chór, wyrzucając Orestesowi „spełnienie
+                        strasznego czynu”, używa czasownika <w>ρέζειν</w>, należącego do homeryckiego
+                        języka technicznego ofiary krwawej.</p>
+                    <quote><lb/><emph>ΟΡΕΣΤΗΣ</emph>:
+                        <lb/>ἐγὼ μὲν ἐπιβαλὼν φάρη κόραις ἐμαῖς
+                        <lb/>φασγάνῳ κατηρξάμαν
+                        <lb/>ματέρος ἔσω δέρας μεθείς.
+                        <lb/><emph>ΗΛΕΚΤΡΑ</emph>:
+                        <lb/>ἐγὼ δ᾽ ἐπεγκέλευσά σοι
+                        <lb n="1225"/>ξίφους τ᾽ ἐφηψάμαν ἅμα.
+                        <lb/><emph>ΧΟΡΟΣ</emph>:
+                        <lb/>δεινότατον παθέων ἔρεξας.
+                        <lb/><emph>ΟΡ</emph>. λαβοῦ, κάλυπτε μέλεα ματέρος πέπλοις
+                        <lb/><supplied reason="omitted">καὶ</supplied> καθάρμοσον σφαγάς.
+                            <lb/>φονέας ἔτικτες ἆρά σοι.</quote>
+                    <quote><lb/><emph>ORESTES</emph>:
+                       <lb/> Ja więc szatę narzuciwszy na moje oczy
+                        <lb/>Nożem spełniłem ofiarę,
+                        <lb/>Dźgając w szyję matki.
+                        <emph>ELEKTRA</emph>:
+                       <lb/> Ja zaś ci to nakazałam
+                        <lb n="1225"/>I razem z tobą chwyciłam miecz.
+                        <lb/><emph>CHÓR</emph>:
+                        <lb/>Spełniłeś straszliwy czyn.
+                        <lb/><emph>OR</emph>.: Weź, zakryj członki matki peplosem,
+                        <lb/>I połóż go na ranach.
+                        <lb/>Urodziłaś sobie morderców!</quote>
+                    <p>1222: <w>φασγάνῳ</w> <w>κατηρξάμαν</w> – „nożem spełniłem ofiarę”. Jest to
+                        jedyne miejsce, w którym <w>κατάρχεσθαι</w> oznacza po prostu „złożyć
+                        ofiarę”, a nie „spełniać ryty inicjujące ofiarę”, „zaczynać składać ofiarę”
+                        (Denniston 1968: 200 wskazuje jeszcze na Plu. <title>Caes</title>. 66, gdzie czasownik
+                        ten oznacza z kolei po prostu „zabić”).</p>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Troades (Τρῳάδες, Le Troiane)</title>
+                <title xml:lang="en">Troades (Τρῳάδες, The Trojan Women)</title>
+                <title xml:lang="pl">Troades (Τρῳάδες, Trojanki)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">trag_25_troades</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Troades (Τρῳάδες, Trojanki)</title>, in Krzysztof Bielawski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Tragedia attycka</title>, Warszawa 2017, pp. 309-314</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaia Fanelli">encoded document in XML</change>
+                <change when="2017" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p><title>Trojanki</title> zostały wystawione w Atenach w roku 415, jako ostatnia
+                        część trylogii, po <title>Aleksandrze i Palamedesie</title> i zdobyły drugą nagrodę
+                        (Aelian <title>VH</title> 2, 18).</p>
+                    <p>Niewiele jest nawiązań do ofiary krwawej w tym dramacie. Nawet
+                        tematy, które w innych sztukach Eurypidesa mają wyraźnie ofiarniczy
+                        kontekst, tutaj, choćby wzmiankowane, podane są w sposób neutralny.
+                        Śmierć Priama (w. 17 – wprawdzie na stopniach ołtarza, ale zwyczajnie
+                        „padł” – <w>πέπτωκε</w>) czy Polykseny na grobie Achillesa (w. 40: <w>τέθνηκε</w>)
+                        nie mają żadnych metaforycznych odniesień. Same błagalnice – branki
+                        trojańskie – także mówią jedynie o swej „śmierci” (w. 178: μή με <w>κτείνειν</w> /
+                        δόξ᾽ Ἀργείων <w>κεῖται</w> <w>μελέαν</w>) i nie usiłują nadać jej religijnego znaczenia.
+                        Nawet wieszcze słowa Kasandry na temat mordów w domu Agamemnona
+                        – tak dobrze znane z religijnej wizji Ajschylosa – w najmniejszym
+                        stopniu nie próbują nawiązywać do znanej tradycji (w. 361–362: <w>πέλεκυν</w>
+                        οὐχ <w>ὑμνήσομεν</w>, / ὃς ἐς <w>τράχηλον</w> τὸν ἐμὸν εἶσι <w>χἁτέρων</w>).</p>
+                    <p>Tekst według wydania: Diggle (1981).</p>
+                </div>
+                <div type="textpart" n="Troades_25-27">
+                    <head>Troades 25-27</head>
+                    <p>W prologu Posejdon mówi o zniszczeniu Troi, wspomina śmierć
+                        Priama u stóp ołtarza (w. 16–17: πρὸς δὲ <w>κρηπίδων</w> <w>βάθροις</w> /
+                        <w>πέπτωκε</w> Πρίαμος Ζηνὸς <w>ἑρκείου</w> <w>θανών</w>) i zapowiada, że sam też
+                        opuszcza Ilion – ponieważ opustoszałe miasto nie czci już bogów.
+                        Pierwszy raz pojawia się tutaj ołtarz – <w>βωμός</w> – później kilkakrotnie
+                        jeszcze przywoływany jako miejsce oddawania czci bogom, symbol
+                        szczęśliwości miasta (tak w pieśni chóru w stasimonie trzecim,
+                        w. 1060: <w>θυόεντα</w> <w>βω-/μόν</w> i w. 1111: <w>θάλαμον</w> <w>ἑστίας</w>) lub też schronienie
+                        dla błagalników.</p>
+                    <quote><lb n="25"/>λείπω τὸ κλεινὸν Ἴλιον βωμούς τ᾽ ἐμούς·
+                        <lb/>ἐρημία γὰρ πόλιν ὅταν λάβῃ κακή,
+                        <lb/>νοσεῖ τὰ τῶν θεῶν οὐδὲ τιμᾶσθαι θέλει.</quote>
+                    <quote><lb n="25"/>Porzucam słynny Ilion i moje ołtarze,
+                        <lb/>Opuszczone bowiem miasto, kiedy spotka je nieszczęście,
+                        <lb/>Słabnie w tym, co boskie i nie chce już czcić bogów.</quote>
+                </div>
+                
+                <div type="textpart" n="Troades_380-382">
+                    <head>Troades 380-382</head>
+                    <p>Passus z przemowy Kasandry, która pomstuje nad Grekami i opowiada
+                        o skutkach wojny, którą wywołali. Mówi o żonach i dzieciach
+                        pozbawionych mężów i rodziców. Wspomina też o tym, że groby
+                        zmarłych pozostają bez należnej im czci wyrażającej się w „karmieniu
+                        ich krwią” (Ekroth 2002: 255 i Mikalson 1991: 114–123 – oboje przekonują,
+                        że brak jest dowodów na to, by w okresie klasycznym w Atenach
+                        takie rytuały miały miejsce) – nie wprost przywołane są tutaj ofiary
+                        nagrobne z krwi zwierząt ofiarnych dla zmarłych.</p>
+                    <quote><lb n="380"/>χῆραί τ᾽ ἔθνῃσκον, οἳ δ᾽ ἄπαιδες ἐν δόμοις
+                        <lb/>ἄλλοις τέκν᾽ ἐκθρέψαντες· οὐδὲ πρὸς τάφοις
+                        <lb/>ἔσθ᾽ ὅστις αὐτῶν αἷμα γῇ δωρήσεται.</quote>
+                    <quote><lb n="380"/>I [żony] pomarły wdowami, bezdzietni w pałacach,
+                        <lb/>Bo dla innych chowali dzieci. Ani na ich grobach
+                        <lb/>Nie ma nikogo, kto krew ziemi daruje.</quote>
+                </div>
+                
+                <div type="textpart" n="Troades_482-483">
+                    <head>Troades 482-483</head>
+                    <p>Hekabe, lamentująca nad swoim losem, opowiada o tym, że na
+                        własne oczy widziała śmierć Priama – Eurypides używa wprawdzie
+                        czasownika κατασφάζειν, ale nawet tutaj ofiarniczy kontekst jest
+                        zaznaczony subtelnie, Priam ginie „zarżnięty” ἐφ᾽ <w>ἑρκείῳ</w> <w>πυρᾷ</w>, co
+                        może znaczyć „przy ołtarzu Zeusa Herkeiosa”, ale równie dobrze –
+                        przy ogniu na zewnątrz pałacu. Śmierć Priama z rąk Neoptolemosa
+                        przy ołtarzu Zeusa Herkeiosa jest szczegółowo opowiedziana przez
+                        Wergiliusza w <title>Eneidzie</title> 2.506 i nn.</p>
+                    <quote><lb/>[Πρίαμον]
+                        <lb/>τοῖσδε δ᾽ εἶδον ὄμμασιν
+                        <lb/>αὐτὴ κατασφαγέντ᾽ ἐφ᾽ ἑρκείῳ πυρᾷ.</quote>
+                    <quote><lb/>[Priama]
+                        <lb/>Tymi oczami widziałam
+                        <lb/>Sama, jak został zarżnięty przy ogniu na dziedzińcu.</quote>
+                </div>
+                
+                <div type="textpart" n="Troades_560-563">
+                    <head>Troades 560-563</head>
+                    <p>Epoda pierwszego stasimonu chóru Trojanek, które śpiewają lament
+                        nad Troją i wspominają jej zagładę.</p>
+                    <quote><lb n="560"/>λόχου δ᾽ ἐξέβαιν᾽ Ἄρης,
+                        <lb/>κόρας ἔργα Παλλάδος.
+                        <lb/>σφαγαὶ δ᾽ ἀμφιβώμιοι
+                        <lb/>Φρυγῶν.</quote>
+                    <quote><lb n="560"/>Z zasadzki wyszedł Ares –
+                        <lb/>To sprawa dziewicy Ateny.
+                        <lb/>I mordy przy ołtarzach
+                        <lb/>Frygów.</quote>
+                    <p>562: <w>σφαγαὶ</w> δ᾽ <w>ἀμφιβώμιοι</w> – „mordy przy ołtarzach”. Krwawe
+                        morderstwa na Trojanach, mimo iż dokonały się przy ołtarzach (są
+                        <w>ἀμφιβώμιοι</w>), są tylko mordami, krwawą rzeźnią.</p>
+                </div>
+                
+                <div type="textpart" n="Troades_622-623">
+                    <head>Troades 622-623</head>
+                    <p>Andromacha w rozmowie z Hekabe wspomina śmierć Polykseny
+                        – mówiąc o niej najpierw, że „zmarła”, następnie przypomina jednak,
+                        że została zarżnięta w darze, więc jako ofiara, dla Achillesa (Biehl 1989:
+                        262–263; K.H. Lee 1976: 185; Croally 1994: 77).</p>
+                    <p>A chwilę później, w wersie 628, sama Hekabe nazywa śmierć Polykseny
+                        wprost προσφάγματα – ofiarą nagrobną (na ten temat zob. poniżej
+                        oraz szczegółowy komentarz do <title>Hec</title>. 41).</p>
+                    <quote><lb/>τέθνηκέ σοι παῖς πρὸς τάφῳ Πολυξένη
+                        <lb/>σφαγεῖσ᾽ Ἀχιλλέως, δῶρον ἀψύχῳ νεκρῷ.</quote>
+                    <quote><lb/>Umarła ci córka Polyksena, na grobie
+                        <lb/>Achillesa zarżnięta, w darze dla bezdusznego trupa.</quote>
+                </div>
+                
+                <div type="textpart" n="Troades_628-629">
+                    <head>Troades 628-629</head>
+                    <p>Andromacha informuje Hekabe, że sama widziała śmierć Polykseny,
+                        a nawet, że jej zwłoki okryła szatą po śmierci i opłakała zgodnie ze
+                        zwyczajem (w. 626–627). Hekabe w okrzyku rozpaczy nawiązuje do
+                        słów Andromachy (w. 622–623, zob. komentarz powyżej), w których
+                        Polyksena została określona „darem” – ofiarą – dla trupa Achillesa
+                        i nazywa ją wprost „ofiarą nagrobną” – prosphagma (zob. komentarz
+                        powyżej i do <title>Hec</title>. 41).</p>
+                    <quote><lb/>αἰαῖ, τέκνον, σῶν ἀνοσίων προσφαγμάτων·
+                        <lb/>αἰαῖ μάλ᾽ αὖθις, ὡς κακῶς διόλλυσαι.</quote>
+                    <quote><lb/>Ojoj, dziecko, co za bezbożna ofiara nagrobna z ciebie!
+                        <lb/>Ojoj, wciąż od nowa, jak strasznie zginęłaś!</quote>
+                </div>
+                
+                <div type="textpart" n="Troades_1060-1065">
+                    <head>Troades 1060-1065</head>
+                    <p>Pierwsza strofa trzeciego stasimonu, w którym chór modli się do
+                        Zeusa, który wydał Grekom Troję – symbolizują ją tutaj świątynia
+                        i ołtarze. Ofiary wymienione w passusie są bezkrwawe – z pelanosu
+                        i kadzideł. Występujący tutaj przymiotnik <w>θυόεις</w> – jakkolwiek pochodzący
+                        od <w>θύω</w> – nie ma żadnych poświadczonych znaczeń związanych
+                        z ofiarą krwawą, lecz tylko z wonnym dymem kadzideł.</p>
+                    <quote><lb n="1060"/>οὕτω δὴ τὸν ἐν Ἰλίῳ
+                        <lb/>ναὸν καὶ θυόεντα βω<lb 
+                            break="no"/>μὸν προύδωκας Ἀχαιοῖς,
+                        <lb/>ὦ Ζεῦ, καὶ πελάνων φλόγα
+                        <lb/>σμύρνης αἰθερίας τε κα<lb 
+                            break="no" n="1065"/>πνὸν καὶ Πέργαμον ἱερὰν.</quote>
+                    <quote><lb n="1060"/>W ten sposób w Ilionie
+                        <lb/>Świątynię i pachnący ołtarz
+                        <lb/>Wydałeś Achajom,
+                        <lb/>O Zeusie, ogień z pelanosu
+                        <lb/>I mirry wznoszącej się w niebo
+                        <lb n="1065"/>Dym i święty Pergamon.</quote>
+                </div>
+                
+                <div type="textpart" n="Troades_1071-1073">
+                    <head>Troades 1071-1073</head>
+                    <p>Antystrofa tej samej pieśni chóru, który dalej śpiewa te same lamenty
+                        nad upadkiem Troi. Ponownie jako znak upadku miasta wymienia
+                        zaprzestanie ofiar (<w>θυσίαι</w>), śpiewów chóralnych i nocnych modlitw.
+                        Ze słów Hekabe wypowiedzianych dalej (w. 1242) dowiadujemy się, że
+                        ofiary te – dopóki jeszcze były składane – i tak były „na próżno” (zob.
+                        Croally 1994: 82). Na uwagę zasługuje tutaj nietypowe i rzadkie znaczenie
+                        przymiotnika εὔφημος, który najczęściej odnosi się do rytualnego
+                        milczenia i ciszy obrzędowej pełnej skupienia, zwłaszcza podczas modlitwy
+                        czy ofiary, ale – jak tutaj – oznacza również śpiew czy wypowiedź,
+                        która jest stosowna, odpowiednia dla podniosłej atmosfery rytuału
+                        (Gödde 2007: 9–10). Jak pisze Burkert (1985a: 73), „Any wrong, evil,
+                        coarse, or complaining word would be harm, blasphemia, and so good
+                        speech, euphemia, of the participants consists in the first instance in holy
+                        silence” – in the first instance, ale nie wyłącznie (Gödde 2007, 9–10).</p>
+                    <quote><lb/>φροῦδαί σοι θυσίαι χορῶν τ᾽
+                        <lb/>εὔφημοι κέλαδοι κατ᾽ ὄρ<lb 
+                            break="no"/>φναν τε παννυχίδες θεῶν.</quote>
+                    <quote><lb/>Przepadły ci już ofiary i chórów
+                        <lb/>Śpiewy przystojne w ciemnościach
+                        <lb/>Nocnych czuwań dla bogów.</quote>
+                </div>
+                
+                <div type="textpart" n="Troades_1240-1242">
+                    <head>Troades 1240-1242</head>
+                    <p>Bluźnierczy okrzyk lamentu Hekabe, która zarzuca bogom, że nie
+                        słuchają modlitw i nie przyjmują ofiar od Trojan. Czasownik <w>βουθυτέω</w>, 
+                        złożenie od <w>βοῦς</w> i <w>θύω</w>, występuje tylko w tekstach poetyckich
+                        i zgodnie ze swoją morfologią oznacza zazwyczaj „składanie w ofierze
+                        byków”.</p>
+                    <quote><lb n="1240"/>οὐκ ἦν ἄρ᾽ ἐν θεοῖσι πλὴν οὑμοὶ πόνοι
+                        <lb/>Τροία τε πόλεων ἔκκριτον μισουμένη,
+                        <lb/>μάτην δ᾽ ἐβουθυτοῦμεν.</quote>
+                    <quote><lb n="1240"/>U bogów nie ma nic oprócz moich jęków
+                        <lb/>I Troja ze wszystkich miast najbardziej [im] znienawidzona.
+                        <lb/>Na próżno składamy byki w ofierze.</quote>
+                </div>
+                
+                <div type="textpart" n="Troades_1315-1316">
+                    <head>Troades 1315-1316</head>
+                    <p>Passus z eksodosu, w którym Hekabe rozpacza na przemian z chórem.
+                        W tych słowach chór odnosi się do śmierci Priama, o której lamentuje
+                        <title>Hekabe</title> (w. 1312–1314) – że zginął bez grobu i bez przyjaciół.
+                        Na to chór odpowiada poniższą strofą, w której uderza poetyckie zestawienie
+                        „zbożnej”, „świętej” (<w>ὅσιος</w>) ciemności śmierci i bezbożności
+                        (<w>ἀνόσιος</w>) mordu (Biehl 1989: 455 uważa to za oxymoron – śmierć
+                        Priama nie mogła być święta, ponieważ z pogwałceniem wszystkich
+                        boskich praw dokonała się przy ołtarzu). Na określenie mordu na
+                        Priamie chór używa słowa σφαγή – które w tym wypadku jest pozbawione
+                        jakichkolwiek konotacji rytualnych i oznacza krwawy, brutalny
+                        mord (Croally 1994: 77 zauważa, że chór konsekwentnie, kiedy mówi
+                        o śmierci Trojan na ołtarzach, używa słowa <w>σφαγή</w>, w czym jednak
+                        dopatruje się odległych rytualnych znaczeń).</p>
+                    <quote><lb n="1315"/>μέλας γὰρ ὄσσε κατεκάλυψε
+                        <lb/>θάνατος ὅσιος ἀνοσίαις σφαγαῖσιν.</quote>
+                    <quote><lb n="1315"/>Bo święta ciemność śmierci zasnuła mu oczy
+                        <lb/>Nieświętym mordem.</quote>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>
