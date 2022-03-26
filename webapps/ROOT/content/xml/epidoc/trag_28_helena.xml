@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Helena (Ἑλένη, Elena)</title>
+                <title xml:lang="en">Helena (Ἑλένη, Helen)</title>
+                <title xml:lang="pl">Helena (Ἑλένη, Helena)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">trag_28_helena</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Helena (Ἑλένη, Helena)</title>, in Krzysztof Bielawski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Tragedia attycka</title>, Warszawa 2017, pp. 378-400</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaia Fanelli">encoded document in XML</change>
+                <change when="2017" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p><title>Helena</title> Eurypidesa została wystawiona w Atenach w roku 412 razem
+                        z zaginioną <title>Andromedą</title> (Allan 2008: 4; tytułów pozostałych sztuk z tetralogii
+                        nie znamy). Obydwa dramaty podejmowały podobne tematy
+                        i miały podobne zarysy akcji: w obydwu wypadkach postawiona
+                        w centrum para (Menelaos i Helena oraz Perseusz i Andromeda) musiała
+                        uciekać do Grecji (z Egiptu i Etiopii, zob. Wright 2005: rozdz. 1)
+                        przed barbarzyńskim królem (Theoklymenos i Cepheus).</p>
+                    <p>Wzmianki na temat ofiary są w tym dramacie nieliczne. Większość
+                        z nich koncentruje się wokół sfingowanej dla niby poległego na morzu
+                        Menelaosa ofiary pogrzebowej, służącej jedynie jako wymówka do wypłynięcia
+                        w morze statkiem Theoklymenosa i ostatecznie ucieczki.</p>
+                    <p>Tekst według wydania: Allan (2008).</p>
+                </div>
+                <div type="textpart" n="Helena_352-359">
+                    <head>Helena 352-359</head>
+                    <p>Śpiew Heleny z pierwszego stasimonu. Zapowiada ona i rozważa
+                        swoją własną śmierć, pogrążona w nieszczęściu i przekonaniu o śmierci
+                        swego męża, Menelaosa.</p>
+                    <quote><lb/>φόνιον αἰώρημα
+                        <lb/>διὰ δέρης ὀρέξομαι,
+                        <lb/>ἢ ξιφοκτόνον δίωγμα
+                        <lb n="355"/>λαιμορρύτου σφαγᾶς
+                        <lb/>αὐτοσίδαρον ἔσω πελάσω διὰ σαρκὸς ἅμιλλαν,
+                        <lb/>θῦμα τριζύγοις θεαῖσι
+                        <lb/>τῷ τε σήραγγας ᾿Ιδαί-
+                        <lb/>ας ἐνίζοντι Πριαμί-
+                        <lb/>δᾳ ποτ᾽ ἀμφὶ βουστάθμους.</quote>
+                    <quote><lb/>Śmiertelną pętlę
+                        <lb/>Na szyi zwiążę,
+                        <lb/>Albo pchnięciem śmiercionośnego miecza
+                        <lb n="355"/>Cios, który wytoczy krew z szyi,
+                        <lb/>W ciele zatopię, jakby w zawodach na żelazne miecze.
+                        <lb/>Ofiara dla trójcy bogiń
+                        <lb/>I dla syna Priama, który niegdyś
+                        <lb/>W Idyjskich jaskiniach zasiadał
+                        <lb/>Przy zagrodach wołów.</quote>
+                    <p>355: <w>λαιμορρύτου</w> <w>σφαγᾶς</w> – „cios, który wytoczy krew z szyi”.
+                        Jak słusznie zauważa Allan (2008: 191), zwrot ten przywołuje na myśl
+                        sposób zabijania zwierzęcia ofiarnego i stanowi prefigurację śmierci
+                        Heleny jako „ofiary”, co ona sama wprost zapowiada w kolejnym
+                        wersie. Tym samym rzeczownik sphage – neutralnie oznaczający „cios,
+                        uderzenie mieczem” nabiera w tym wersie ofiarniczych konotacji i pozostaje
+                        w ścisłym związku z rzeczownikiem thyma (w. 357).</p>
+                    <p>357: <w>θῦμα</w> <w>τριζύγοις</w> <w>θεαῖσι</w> – „ofiara dla trójcy bogiń” (oraz Parysa).
+                        <w>Θῦμα</w> to przede wszystkim to, co się składa w ofierze – zwykle
+                        zwierzę ofiarne. Helena uważa się za „ofiarę” dla trzech bogiń, które
+                        zwołały sąd Parysa, i dla samego Parysa. Jest to określenie metaforyczne
+                        – jej nieszczęście i ostatecznie jej śmierć są skutkiem wyboru Parysa;
+                        w tym sensie jest ona ich ofiarą – victim. Allan (2008: 191) dostrzega
+                        tu szokujący sarkazm, ponieważ Helena nie ma żadnego powodu, by
+                        czcić jakąkolwiek ofiarą tych, którzy stanowią powód jej upadku. Metafora
+                        ofiary – zdaniem Allana (ibidem) – służy tu jako narzędzie zwielokrotnienia
+                        horroru ludzkiej śmierci (por. też Henrichs 2002: passim),
+                        brutalności mordu oraz niewinności ofiary.</p>
+                </div>
+                
+                <div type="textpart" n="Helena_753-757">
+                    <head>Helena 753-757</head>
+                    <p>Słowa posłańca z czwartego epeisodionu, z rozmowy z Menelaosem.
+                        Cały ten passus jest najsłynniejszą bodaj w całej tragedii greckiej
+                        Eurypidesową tyradą na wróżbiarstwo (ibidem: w. 231–232) – posłaniec
+                        zarzuca wieszczkom i wyroczniom kłamstwa i manipulacje (w. 745: ὡς
+                        <w>φαῦλ</w>᾽ ἐστὶ καὶ <w>ψευδῶν</w> <w>πλέα</w>). Deprecjonuje wróżby z ognia (w. 746:
+                        οὐδ᾽ ἦν ἄρ᾽ ὑγιὲς οὐδὲν <w>ἐμπύρου</w> <w>φλογός</w>) i wróżenie z głosu ptaków
+                        (w. 747: οὐδὲ <w>πτερωτῶν</w> <w>φθέγματα</w>), a w końcu atakuje Kalchasa
+                        i Helenosa (w. 749–751). Wróżbom przeciwstawia ofiary – uważa,
+                        że należy je składać, a wróżb zaprzestać. Jest to konsekwencja wcześniejszych
+                        wywodów: skoro wieszczkowie nie mogą zapewnić żadnej
+                        prawdziwej wiedzy o tym, co boskie ani o boskich wyrokach, lepiej
+                        jest zwracać się do bogów bez pośredników – a to zapewniają modlitwa
+                        i składanie ofiar (ibidem, 233).</p>
+                    <quote><lb/>τί δῆτα μαντευόμεθα; τοῖς θεοῖσι χρὴ
+                        <lb/>θύοντας αἰτεῖν ἀγαθά, μαντείας δ᾽ ἐᾶν·
+                        <lb n="755"/>βίου γὰρ ἄλλως δέλεαρ ηὑρέθη τόδε,
+                        <lb/>κοὐδεὶς ἐπλούτησ᾽ ἐμπύροισιν ἀργὸς ὤν·
+                        <lb/>γνώμη δ᾽ ἀρίστη μάντις ἥ τ᾽ εὐβουλία.</quote>
+                    <quote><lb/>Po co zatem zasięgamy rad wróżb? Od bogów trzeba
+                        <lb/>Wypraszać dobra, składając ofiary, a wróżenia zaprzestać.
+                        <lb n="755"/>Bo to na próżno wymyślone jako wabik życia,
+                        <lb/>I nikt nie wzbogacił się od wróżb z płomieni, jeśli jest próżniakiem.
+                        <lb/>Najlepszym wieszczkiem jest rozum i roztropność.</quote>
+                    <p>753–754: τοῖς <w>θεοῖσι</w> <w>χρὴ</w> / <w>θύοντας</w> <w>αἰτεῖν</w> <w>ἀγαθά</w> – „od bogów
+                        trzeba / wypraszać dobra, składając ofiary”. W wersach tych godne
+                        uwagi są dwie kwestie: powiązanie aktu składania ofiary z wypowiadaniem
+                        prośby, czyli modlitwą, oraz konieczność modlitwy o „rzeczy
+                        dobre” (<w>ἀγαθά</w> – zob. Pulleyn 1997: 7–8). Ludzką powinnością (<w>χρή</w>)
+                        jest prosić o dobro (<w>αἰτεῖν</w> <w>ἀγαθά</w>) – należy jednak czynić to wraz ze
+                        składaniem ofiar (<w>θύοντας</w> – participium coniunctum o aspekcie czasowym).
+                        W Platonowym Euthphr. (14c) modlitwa (τὸ <w>εὔχεσθαι</w>) jest
+                        zdefiniowana jako „błaganie bogów” (<w>αἰτεῖν</w> τοὺς <w>θεούς</w>), a ofiara (τὸ
+                        <w>θύειν</w>) jako ich obdarowywanie (<w>δωρεῖσθαί</w> <w>ἐστι</w> <w>τοῖς</w> <w>θεοῖς</w>)<note>Zob. komentarz Biernata 2017:54–55, ad loc.</note>. Tutaj,
+                        zgodnie z homerycką tradycją, modlitwa pozostaje nierozerwalnie
+                        związana z ofiarą, a skuteczność błagania nie leży w nim samym, ale
+                        w jakości prośby i ofierze.</p>
+                    <p>756: <w>ἐμπύροισιν</w> – „od wróżb z płomieni”, dosłownie: „od wróżb
+                        z tego, co jest spalane, co jest w ogniu”. Ta technika mantyczna obejmuje
+                        obserwację procesu spalania części ofiary na ołtarzu ofiarnym
+                        – zachowania ognia, iskier, dymu, kształtu i koloru płomieni oraz ich
+                        siły oraz sposobów reakcji spalanych części na ogień (Johnston 2008:
+                        98, 128; Halliday 1913: 185). Zob. komentarze do: A. <title>Pr</title>. 498, S. <title>Ant</title>.
+                        1008–1009 i 1020, E. <title>Ph</title>. 1255.–</p>
+                </div>
+                
+                <div type="textpart" n="Helena_777-778">
+                    <head>Helena 777-778</head>
+                    <p>Słowa Heleny skierowane do Menelaosa tuż po scenie rozpoznania
+                        małżonków na początku epeisodionu czwartego. Menelaos opowiada
+                        o swoich losach od dnia wyruszenia pod Troję i wylicza, że
+                        ostatni raz widział żonę siedemnaście lat temu. Helena odpowiada
+                        krzykiem rozpaczy, jakby ocalały na wojnach mąż miał po jej odnalezieniu
+                        zginąć z rąk Egipcjan – zapowiada, że przybył do niej „na
+                        śmierć”. W tym kontekście i w tym znaczeniu pojawia się tutaj rzeczownik
+                        σφαγή, w tragedii często lub zazwyczaj związany z bezpośrednim
+                        lub metaforycznym odniesiem do ofiary. W tym passusie
+                        bez wątpienia jego prymarne znaczenie jest dalekie od tych konotacji
+                        – oznacza on tutaj „śmiertelny cios” jako metaforę śmierci: ἐνθάδ᾽
+                        <w>ἦλθες</w> <w>ἐς</w> <w>σφαγάς</w> – „przybyłeś tu na śmierć”. Można jednak też
+                        przyjąć, że w słowach Heleny jest swoiste proroctwo i słyszalna dla
+                        publiczności dwoistość sensu: Menelaos przybył do Egiptu rzeczywiście
+                        <w>ἐς</w> <w>σφαγάς</w> – to znaczy, aby wymierzyć ciosy, złożyć ofiary
+                        i zabić wrogów (w. 1554 i 1594).</p>
+                    <quote><lb/>φεῦ φεῦ· μακρόν γ᾽ ἔλεξας, ὦ τάλας, χρόνον
+                        <lb/>σωθεὶς δ᾽ ἐκεῖθεν ἐνθάδ᾽ ἦλθες ἐς σφαγάς.</quote>
+                    <quote><lb/>Biada, biada! To długi czas, który wymieniłeś, o nieszczęsny,
+                        <lb/>Tam zostałeś ocalony, a tu przybyłeś na śmierć.</quote>
+                </div>
+                
+                <div type="textpart" n="Helena_1255-1258">
+                    <head>Helena 1255-1258</head>
+                    <p>Passus z rozmowy Theoklymenosa z nierozpoznanym przez niego
+                        Menelaosem, przedstawionym przez Helenę jako towarzysz Menelaosa,
+                        który miał widzieć jego śmierć na morzu. Helena prosi Theoklymenosa,
+                        aby pozwolił jej wypłynąć w morze i odprawić pogrzeb
+                        według greckich zwyczajów – składając w morzu ofiary zwierzęce.
+                        Menelaos uzgadnia z królem, jakie to będą ofiary.</p>
+                    <quote><lb/><emph>ΜΕΝΕΛΕΩΣ</emph>:
+                        <lb n="1255"/>προσφάζεται μὲν αἷμα πρῶτα νερτέροις.
+                        <lb/><emph>ΘΕΟΚΛΥΜΕΝΟΣ</emph>:
+                        <lb/>τίνος; σύ μοι σήμαινε, πείσομαι δ᾽ ἐγώ.
+                        <lb/><emph>ΜΕ</emph>.: αὐτὸς σὺ γίγνωσκ'· ἀρκέσει γὰρ ἃν διδῷς.
+                       <lb/> <emph>ΘΕ</emph>.: ἐν βαρβάροις μὲν ἵππον ἢ ταῦρον νόμος.</quote>
+                    <quote><lb/><emph>MENELAOS</emph>:
+                        <lb/>Najpierw tym, co pod ziemią, przelewa się w ofierze krew.
+                        <lb/><emph>THEOKLYMENOS</emph>:
+                        <lb/>Czyją? Ty mi wskaż, a ja posłucham.
+                        <lb/><emph>M</emph>.: Ty sam zdecyduj. To, co dasz, wystarczy.
+                        <lb/><emph>TH</emph>.: U barbarów zwyczaj taki: konia lub byka.</quote>
+                    <p>1255: <w>προσφάζεται</w> μὲν <w>αἷμα</w> <w>πρῶτα</w> <w>νερτέροις</w> – „najpierw tym,
+                        co pod ziemią, przelewa się w ofierze krew”. Czasownik προσφάζειν
+                        w technicznym znaczeniu „złożyć ofiarę pogrzebową” występuje w corpus
+                        tragedii tylko w tym miejscu. Częściej występuje forma rzeczownikowa:
+                        <w>πρόσφαγμα</w> (= <w>προσφάγιον</w>) – ofiara krwawa, całopalna, składana
+                        zmarłym przed pogrzebem lub tuż przed obrzędem wyniesienia zwłok
+                        – <w>ἐκφορά</w> (zob. komentarz do A. <title>Ag</title>. 1278 z odniesieniem do szczegółowej
+                        bibliografii). Znaczenie czasownika dobrze ilustruje zdanie z 
+                        Pseudo-Platona Min. (315c): <w>ἱερεῖά</w> τε <w>προσφάττοντες</w> πρὸ τῆς <w>ἐκφορᾶς</w> τοῦ
+                        <w>νεκροῦ</w> – „składając ofiary pogrzebowe przed wyniesieniem zwłok”.</p>
+                    <p>1258: ἐν <w>βαρβάροις</w> μὲν <w>ἵππον</w> ἢ <w>ταῦρον</w> <w>νόμος</w> – „u barbarów
+                        zwyczaj taki: konia lub byka”. Theoklymenos, dając Menelaosowi na
+                        ofiarę konia i byka, powołuje się wprawdzie na zwyczaj barbarzyńców
+                        – nie-Greków, jednak obydwa te zwierzęta są znane jako ofiary
+                        nagrobne także w świecie greckim. Konie – raczej rzadko (zob. Burkert
+                        1983: 51, 53; Burkert 1985a: 34). Obydwa zwierzęta podkreślają
+                        zamożność i rozrzutność Theoklymenosa – należą do najdroższych
+                        (Allan 2008: 290).</p>
+                </div>
+                
+                <div type="textpart" n="Helena_1333-1334">
+                    <head>Helena 1333-1334</head>
+                    <p>Słowa pieśni chóru z pierwszej antystrofy stasimonu czwartego,
+                        który w całości opowiada o eleuzyńskim micie Demeter, poszukującej
+                        córki. Cała ta pieśń chóru stanowi nierozwikłaną zagadkę na temat
+                        związków Demeter z Heleną i w ogóle Sparty z Eleuzis (na ten temat
+                        zob. Robinson 1979: passim; Juffras 1993: 52) – trudno znaleźć uzasadnienie
+                        dla związku tej dytyrambicznej, religijnie synkretycznej ody
+                        z treścią lub problematyką dramatu (Allan 2008: 292–295).</p>
+                    <p>Antystrofa opisuje rozpacz Demeter oraz jej skutki w przyrodzie
+                        i świecie ludzi: ustanie wegetacji w świecie roślin i zwierząt oraz zanik
+                        życia w miastach. Najwyraźniejszym znakiem tego ostatniego jest
+                        ustanie składania wszelkich ofiar – tych spalanych, zarówno krwawych,
+                        jak i bezkrwawych (w. 1333: <w>θυσίαι</w>), oraz niespalanych, symbolizowanych
+                        przez aphlektos pelanos. Pelanos zwykle był wylewany
+                        (jeśli miał konsystencję ciasta naleśnikowego) lub kładziony (jeśli miał
+                        kształt ciastka) do ognia – w A. <title>Pers</title>. 203 mamy zwrot <w>θῦσαι</w> πέλανον:
+                        „spalić pelanos w ofierze” (zob. komentarz). W tym passusie <w>θυσίαι</w>
+                        tworzą szeroką kategorię ofiar spalanych wszelkiego rodzaju.</p>
+                    <quote><lb/>οὐδ᾽ ἦσαν θεῶν θυσίαι,
+                        <lb/>βωμοῖς δ᾽ ἄφλεκτοι πέλανοι·</quote>
+                    <quote><lb/>Nie było już ofiar dla bogów,
+                        <lb/>I na ołtarzach – nie płonął już pelanos.</quote>
+                </div>
+                
+                <div type="textpart" n="Helena_1355-1357">
+                    <head>Helena 1355-1357</head>
+                    <p>W drugiej antystrofie chór zwraca się do Heleny, zarzucając jej
+                        brak czci dla Bogini Matki i zaniechanie właściwych ofiar, przez co
+                        wzbudziła gniew bogini. Także w tym wypadku trudno dociec, jakiego
+                        rodzaju zaniedbanie rytuału religijnego miałaby mieć na sumieniu
+                        Helena. Doszukiwano się tutaj, trudnego do udowodnienia w świetle
+                        danych historycznych, zarzutu wobec Spartan o brak czci dla Demeter
+                        (Robinson 1979: 168–170), ewentualnie śladów aitiologii kultu Wielkiej
+                        Macierzy w Sparcie (ibidem, 169 z argumentami contra). Tak czy
+                        inaczej, nie potrafimy wyjaśnić „winy Heleny” wspomnianej w pieśni,
+                        dowiadujemy się jedynie, że zaniechała ona składania ofiar.</p>
+                    <quote><lb n="1355"/>μῆνιν δ᾽ ἔχεις μεγάλας
+                        <lb/>ματρός, ὦ παῖ, θυσίας
+                        <lb/>οὐ σεβίζουσα θεᾶς.</quote>
+                    <quote><lb n="1355"/>Gniew wzbudzasz Wielkiej
+                        <lb/>Matki, o dziecko, ofiarami
+                        <lb/>Nie czcząc bogini.</quote>
+                    <p>1356: <w>θυσίας</w> – „ofiarami”; z kontekstu nie wynika, o jakie ofiary
+                        może chodzić – jednak typowymi ofiarami dla Demeter i Kory są
+                        ofiary krwawe (zob. Bielawski 2017); najpewniej należy je tutaj rozumieć
+                        sensu largo jako wyraz zaniechania czci należnej bogini w ogóle.
+                        W wersach pobrzmiewa echo Homeryckiego hymnu do Demeter
+                        (w. 367–369), zapowiadającego karę dla tych, którzy nie czczą bogini
+                        ofiarami. Intrygująca jest składnia zdania z nietypową rekcją do biernika
+                        (<w>θυσίας</w>) i dopełniacza (<w>θεᾶς</w>) – pierwszy z nich może stanowić
+                        jedynie accusativus Graecus: „jeśli chodzi o ofiary” z genetiwem przedmiotu:
+                        „ofiary bogini = dla bogini”.</p>
+                </div>
+                
+                <div type="textpart" n="Helena_1390-1391_1403-1404">
+                    <head>Helena 1390-1391; 1403-1404</head>
+                    <p>Wersy z czwartego epeisodionu, który dotyczy przygotowań do realizacji
+                        planu ucieczki Heleny z Menelaosem – zamierzają oni oszukać
+                        Theoklymenosa, przekonując go, że Helena musi wypłynąć w morze
+                        z przybyszem z Grecji – nierozpoznanym Menelaosem – aby złożyć
+                        ofiary pośmiertne w żałobie po Menelaosie. Theoklymenos na prośbę
+                        Heleny, która obiecuje mu małżeństwo, udostępnia im okręt z załogą.</p>
+                    <p>Terminologia ofiarnicza związana z tym wydarzeniem nie jest jednoznaczna
+                        – tylko w szerszym kontekście wiadomo, że chodzi o ofiary ze
+                        zwierząt – wołów i koni. Poniższe wersy pochodzą z partii Theoklymenosa
+                        (pierwszy), który ponagla sługi, by wyruszali na morze oraz prosi
+                        Helenę, by sama została na lądzie, oraz (drugi) z partii Heleny, która
+                        przekonuje, że musi sama złożyć ofiary na morzu w żałobie po mężu.</p>
+                    <quote><lb n="1390"/>χωρεῖτ᾽ ἐφεξῆς, ὡς ἔταξεν ὁ ξένος,
+                        <lb/>δμῶες, φέροντες ἐνάλια κτερίσματα.</quote>
+                    <quote><lb n="1390"/> więc, porządnie, jak nakazał ten przybysz,
+                        <lb/>Słudzy, niosąc ofiary pogrzebowe do złożenia w morzu.</quote>
+                    <quote><lb n="1403"/>ἔα δέ με
+                        <lb/>αὐτὴν μολοῦσαν ἐντάφια δοῦναι νεκρῷ.</quote>
+                    <quote><lb n="1403"/>Pozwól mnie
+                        <lb/>Samej podążyć, bym zmarłemu dała nagrobne ofiary.</quote>
+                    <p>1391: <w>ἐνάλια</w> <w>κτερίσματα</w> – „ofiary pogrzebowe do złożenia w morzu”.
+                        Rzeczownik <w>κτερίσματα</w> jest poetyckim wariantem formy <w>κτέ-
+                        ρεα</w> (obydwa tylko w pluralis) oznaczającym „dary pogrzebowe”,
+                        spalane na grobie lub do grobu składane – przedmioty codziennego
+                        użytku i pokarmy, wszystko to, co jest grzebane razem ze zmarłym;
+                        z tejże racji kterismata określają zawartość grobów także w nowożytnej
+                        archeologii. Biorąc pod uwagę możliwość składania ofiar nagrobnych
+                        i możliwość chowania ich resztek w grobach, kterismata mogą obejmować
+                        także ofiary i zwierzęta ofiarne, nigdy jednak termin ten nie jest
+                        używany – ani metonimicznie, ani metaforycznie – na określenie ofiar.
+                        Zwrot ἐνάλια κτερίσματα jest ujęty w tym komentarzu ze względu
+                        na kontekst – wiemy, że de facto słowa Theoklymenosa dotyczą właśnie
+                        danych Menelaosowi i Helenie na ofiarę zwierząt ofiarnych.</p>
+                    <p>1404: <w>ἐντάφια</w> <w>δοῦναι</w> <w>νεκρῷ</w> – „bym zmarłemu dała nagrobne
+                        ofiary”. Podobnie jak w poprzednim passusie dotyczącym kterismata,
+                        tak samo tutaj entaphia obejmują lub mogą obejmować bardzo szeroki
+                        wachlarz znaczeń, opisujący to, co się składa/ofiaruje/spala/kładzie
+                        na grobie zmarłego podczas obrzędów pogrzebowych. To, co jest
+                        entaphion, jest lub może stać się kterismata – znaleźć się w grobowcu
+                        jako to, co na nim podczas obrzędów pogrzebowych zostało złożone.
+                        W omawianym wersie chodzi jednak na pewno o <w>ἐντάφια</w> <w>ἱερά</w> – ofiary
+                        składane na grobie zmarłego (w tym konkretnie wypadku o ofiary
+                        składane do morza za zmarłego, który zginął i zaginął w morzu) – jak
+                        u S. <title>El</title>. 326 (passus niekomentowany, ponieważ mowa jest tam o ofiarach
+                        bezkrawawych). Podobnie jak w wypadku kterismata z wersów
+                        powyżej, brak jest jakichkolwiek poświadczeń, które pozwalałyby
+                        utożsamić entaphion z ofiarą krwawą, nawet jeśli jest ona składana na
+                        grobie, chociaż nie można takiego utożsamienia wykluczyć w szerokim
+                        znaczeniu słowa. Entaphia tutaj wspomniane wymienia wcześniej
+                        Menelaos w rozmowie z Theoklymenosem (w. 1255–1265), rozpoczynając
+                        od ofiarnych zwierząt (w. 1255–1258, zob. komentarz powyżej),
+                        przez mary (w tym wypadku puste, w. 1261: <w>λέκτρα</w> <w>σώματος</w> <w>κενά</w>),
+                        uzbrojenie (w. 1262: <w>χαλκήλαθ</w>᾽ <w>ὅπλα</w>) i najlepsze płody wszystkich
+                        zbiorów (w. 1265: τἄλλ᾽ <w>ὅσα</w> <w>χθὼν</w> <w>καλὰ</w> <w>φέρει</w> <w>βλαστήματα</w>).</p>
+                </div>
+                
+                <div type="textpart" n="Helena_1471-1475">
+                    <head>Helena 1471-1475</head>
+                    <p>Passus z antystrofy piątego stasimonu, w którym chór przywołuje
+                        do pomocy czczone w Sparcie córki Leukipposa (Fojbe i Hilajrę, żony
+                        Dioskurów) oraz wspomina jedno z trzech najważniejszych lakońskich
+                        świąt ku czci Apollona – Hyacynthia – połączone z obrzędem składania
+                        ofiar z wołów.</p>
+                    <quote><lb/>ὃν ἐξαμιλλησάμενος
+                        <lb/>τροχὸν ἀτέρμονα δίσκου
+                        <lb/>ἔκανε Φοῖβος, τᾷ Λακαί-
+                        <lb/>νᾳ γᾷ βούθυτον ἁμέραν·
+                        <lb n="1474"/>ὁ Διὸς δ᾽ εἶπε σέβειν γόνος·</quote>
+                    <quote><lb/>Którego w zawodach
+                        <lb/>Dalekim rzutem dysku
+                        <lb/>Zabił Fojbos, ziemia
+                        <lb/>Lakońska [czci go] dniem ofiar z wołów.
+                        <lb n="1475"/>Syn Zeusa nakazał tę cześć.</quote>
+                    <p>1474: <w>βούθυτον</w> <w>ἁμέραν</w> – „dniem ofiar z wołów”, dosłownie:
+                        „dniem wołoofiarnym”, dniem, w którym składa się ofiary z wołów.
+                        Przymiotnik <w>βούθυτος</w> – „wołoofiarny”, „odnoszący się do ofiar z byków”,
+                        tutaj: „związany ze składaniem ofiar” (zob. komentarz Bednarka
+                        2017: 66–67, do Ar. <title>Av</title>. 1232 oraz mój do A. <title>Ch</title>. 261 i S. <title>OC</title> 888 – czasownikowa
+                        forma <w>βουθυτέω</w>).</p>
+                </div>
+                
+                <div type="textpart" n="Helena_1547-1549">
+                    <head>Helena 1547-1549</head>
+                    <p>Passus z mowy posłańca do Theoklymenosa – w której donosi on
+                        o wydarzeniach na statku i jego porwaniu przez Menelaosa i Helenę. Opisuje
+                        przygotowania do wypłynięcia w morze, ładowanie zwierząt ofiarnych
+                        na statek, a następnie – w dalszych passusach – przebieg ofiary spełnianej
+                        na pokładzie, która przekształca się w rzeź sług Theoklymenosa.</p>
+                    <quote><lb/>οἳ δ' ἐκβαλόντες δάκρυα ποιητῷ τρόπῳ,
+                        <lb/>ἐς ναῦν ἐχώρουν Μενέλεῳ ποντίσματα
+                       <lb/> φέροντες.</quote>
+                    <quote><lb/>Oni zaś, wylewając udawane łzy,
+                        <lb/>Na okręt pospieszyli, dla Menelaosa
+                        <lb/>Niosąc dary do wrzucenia w morze.</quote>
+                    <p>1548: <w>ποντίσματα</w> – „dary do wrzucenia w morze”, dosłownie: „to,
+                        co morskie, co należy do morza”. <w>Πόντισμα</w> – Eurypidesowe hapax
+                        legomenon, utworzone od rzeczownika <w>πόντος</w> – „morze”. Z kontekstu
+                        wiadomo, że obejmuje tutaj dary ofiarne dla zmarłego składane
+                        w czasie morskiego pogrzebu, więc także ofiary krwawe z byka i konia
+                        (zob. wyżej komentarz do w. 1390–1391 i 1403–1404) – wszystko to,
+                        co należy podczas pogrzebu wrzucić do morza. W kolejnych wersach
+                        (w. 1555–1556) zawarta jest informacja, że dary te były w większości
+                        łatwe do wniesienia (<w>ῥᾳδίως</w> <w>ἔσω</w> <w>νεὼς</w> / <w>ἐθέμεθα</w> <w>κουφίζοντα</w>), ale też
+                        obejmowały byka, którego należało wprowadzić na pokład.</p>
+                </div>
+                
+                <div type="textpart" n="Helena_1554-1566">
+                    <head>Helena 1544-1566</head>
+                    <p>Ciąg dalszy mowy posłańca, który informuje króla o tym, w jaki
+                        sposób przebiegało przygotowanie okrętu do wypłynięcia w morze na
+                        udawany pogrzeb Menelaosa. Na pokład statku wnoszone są entaphia
+                        – dary ofiarne dla zmarłego i wprowadzane zwierzęta ofiarne. Passus
+                        nic nie mówi o koniu, który został przeznaczony przez Theoklymenosa
+                        na ofiarę dla zmarłego, natomiast drugie zwierzę – byk – przyciąga
+                        uwagę posłańca, ponieważ zapierając się, odmówiło ono dobrowolnego
+                        wejścia na pokład i musiało zostać tam wniesione przez sługi.</p>
+                    <p>Passus zawiera tylko dwa terminy techniczne związane z ofiarą
+                        krwawą i tylko jedno bezpośrednie do niej nawiązanie (w. 1563–
+                        –1564): <w>ἐμβαλεῖτε</w> (<w>φάσγανόν</w> θ᾽ <w>ἅμα</w> / <w>πρόχειρον</w> <w>αἴρει</w>) <w>σφάγια</w> τῷ
+                        <w>τεθνηκότι</w> – „wrzućcie [byka] (dobył równocześnie miecza / podręcznego)
+                        jako ofiarę na zabicie dla zmarłego”.</p>
+                    <p>Wymaga on jednak przywołania i omówienia, ponieważ bywa
+                        wskazywany w dyskusji nad sposobem zabijania ofiary n a d ołtarzem.
+                        Słowa Menelaosa – przytoczone przez posłańca – nawiązują do
+                        jakiegoś „greckiego obyczaju” (w. 1561: <w>Ἑλλήνων</w> <w>νόμῳ</w>) podnoszenia
+                        byka (w. 1561: <w>ἀναρπάσαντες</w> i 1565: <w>ἐξανήρπασαν</w>) na ramionach
+                        młodzieńców (w. 562: <w>νεανίαις</w> <w>ὤμοισι</w>). Allan (2008: 332) słusznie
+                        zauważa, że scena ta musiała wśród publiczności w ateńskim teatrze
+                        wywoływać jednoznaczne skojarzenia z powszechnie znanym obrzędem
+                        czy praktyką, jednoznacznie związaną z rytuałem ofiarnym.
+                        W <title>Elektrze</title> Eurypidesa (w. 810–814, zob. komentarz) Ajgistos składa
+                        ofiarę dla nimf i jego słudzy podnoszą na barki cielaka, który w tej
+                        pozycji jest zabijany. Dwie wazy, szczegółowo omówione przez van
+                        Stratena (1995: 111–112), również przedstawiają scenę unoszenia byka
+                        na ramionach mężczyzn ewidentnie podczas obrzędu ofiarnego (zob.
+                        ibidem, ryc. 114 i 115; Himmelmann 1997: 22–26, ryc. 13). Praktykę taką
+                        potwierdzają też zapisy epigraficzne (pełen katalog zob. van Straten
+                        1995: 110–113) i inne źródła literackie (Teofrast Charaktery 27.5 i Pauzaniasz
+                        8.19.2). Obszerniejszy komentarz zob.: E. <title>El</title>. 810–814.></p>
+                    <quote><lb/>καὶ τἄλλα μὲν δὴ ῥᾳδίως ἔσω νεὼς
+                      <lb n="1555"/>ἐθέμεθα κουφίζοντα· ταύρειος δὲ ποὺς
+                        <lb/>οὐκ ἤθελ᾽ ὀρθὸς σανίδα προσβῆναι κάτα,
+                        <lb/>ἀλλ᾽ ἐξεβρυχᾶτ᾽ ὄμμ᾽ ἀναστρέφων κύκλῳ
+                        <lb/>κυρτῶν τε νῶτα κἀς κέρας παρεμβλέπων
+                        <lb/>μὴ θιγγάνειν ἀπεῖργεν. ὁ δ᾽ Ἑλένης πόσις
+                        <lb n="1560"/>ἐκάλεσεν· Ὦ πέρσαντες Ἰλίου πόλιν,
+                        <lb/>οὐκ εἶ᾽ ἀναρπάσαντες Ἑλλήνων νόμῳ
+                        <lb/>νεανίαις ὤμοισι ταύρειον δέμας
+                        <lb/>ἐς πρῷραν ἐμβαλεῖτε (φάσγανόν θ᾽ ἅμα
+                        <lb/>πρόχειρον αἴρει) σφάγια τῷ τεθνηκότι;
+                        <lb n="1565"/>οἳ δ᾽ ἐς κέλευσμ' ἐλθόντες ἐξανήρπασαν
+                        <lb/>ταῦρον φέροντές τ᾽ εἰσέθεντο σέλματα.</quote>
+                    <quote><lb/>Inne rzeczy z łatwością na okręt
+                        <lb n="1555"/>Wnieśliśmy, ponieważ były lekkie; byk natomiast
+                        <lb/>Nie chciał prosto postawić nogi na kładce,
+                        <lb/>Ale ryczał rozglądając się dookoła,
+                        <lb/>Wyginał grzbiet i nastawiał rogi,
+                        <lb/>Nie dawał się dotykać. Mąż Heleny
+                        <lb n="1560"/>Zawołał: O wy, którzy spaliliście miasto Ilionu,
+                        <lb/>Dlaczego, dźwignąwszy greckim zwyczajem
+                        <lb/>Bycze cielsko na młodzieńcze ramiona,
+                        <lb/>Na dziób okrętu nie rzucicie go (dobył równocześnie miecza
+                        <lb/>Podręcznego) jako ofiarę na zabicie dla zmarłego?
+                        <lb n="1565"/>Oni zaś na rozkaz podszedłszy, dźwignęli byka
+                        <lb/>I zanieśli złożyć go na pokładzie.</quote>
+                    <p>1564: <w>σφάγια</w> τῷ <w>τεθνηκότι</w> – „jako ofiarę na zabicie dla zmarłego”.
+                        Fraza ta zawiera intrygującą dwuznaczność dotąd niepodniesioną
+                        w żadnym z komentarzy: Menelaos wzywa swoich towarzyszy, by
+                        wnieśli na pokład byka na ofiarę, którą nazywa sphagia. Allan (2008:
+                        332) w komentarzu wyjaśnia tę frazę jako „as a sacrificial offering to
+                        the dead man”. Rzeczywiście – Menelaos precyzuje, że jest to ofiara
+                        τῷ <w>τεθνηκότι</w> „dla zmarłego”, jednak taka ofiara nazywałaby się raczej
+                        sphagion lub prosphagion. Sphagia natomiast jest w ścisłym sensie
+                        ofiarą przedbitewną (Pritchett 1971: 109–115; Jameson 1991), składaną
+                        już na polu walki tuż przed starciem (zob. komentarze do E. <title>Ion</title> 277–
+                        –278 i <title>Ph</title>.174 z odnośnikami i bibliografią). Można odnieść wrażenie,
+                        że użyte tutaj słowo jest jedynie frazą poetycką i przerzutnią, w której
+                        sens techniczny słowa pozostaje bez większego znaczenia, a byk
+                        jest zwierzęciem, które po prostu ma zostać zaszlachtowane. Jednak
+                        de facto w intencji Menelaosa, zlekceważonej przez Egipcjan Theoklymenosa,
+                        jest on dokładnie tym, czym nazywa go grecki wódz: ofiarą
+                        przeznaczoną na zabicie dosłownie przed bitwą, jest r ó w n o c z e ś n
+                        i e i sphagion dla zmarłego, i sphagia przed bitwą. Jej złożenie stanie
+                        się wstępem do ataku na sługi Theoklymenosa i bitwy o okręt, jaka
+                        rozegra się na pokładzie. W dalszym opisie przebiegu ofiary posłaniec
+                        zwraca uwagę na to, że w momencie składania ofiary Menelaos
+                        nie wspomniał ani słowa o zmarłych (w. 1583: <w>νεκρῶν</w> μὲν <w>οὐδενὸς</w>
+                        <w>μνήμην</w> <w>ἔχων</w>) – w tym momencie staje się jasne, że ofiara ta miała być
+                        ofiarą przedbitewną, a nie pogrzebową, a słowa τῷ <w>τεθνηκότι</w> były
+                        kłamstwem, które miało uśpić czujność Egipcjan.</p>
+                </div>
+                
+                <div type="textpart" n="Helena_1581-1595">
+                    <head>Helena 1581-1595</head>
+                    <p>Ciąg dalszy opowieści posłańca, który opisuje przebieg składania
+                        zapowiedzianej ofiary i następującej po niej bitwy, skutkiem której
+                        Menelaos i Helena przejmują okręt, by ostatecznie zbiec z Egiptu. Po
+                        odpłynięciu na odpowiednią odległość od brzegu Menelaos nakazuje
+                        sługom Theoklymenosa zatrzymać okręt i przechodzi na dziób, by tam
+                        spełnić ofiarę. W wersie 1564 jest ona zapowiedziana uczestnikom wyprawy
+                        jako <w>σφάγια</w> τῷ <w>τεθνηκότι</w> – ofiara sphagia dla zmarłego (zob.
+                        komentarz powyżej na temat dwuznaczności tej nazwy). Scena ofiarna
+                        opisana w tym passusie obejmuje: wydobycie miecza (w. 1581: <w>ἑλὼν</w>
+                        <w>ξίφος</w>), modlitwę towarzyszącą ofierze (ηὔχετo), cios w szyję zwierzęcia
+                        ofiarnego (<w>ταυρείῳ</w> <w>σφαγῇ</w>) i wytoczenie krwi prosto do morza
+                        (<w>αἵματος</w> δ' <w>ἀπορροαὶ</w> / ἐς <w>οἶδμα</w>), odczytanie znaków wróżebnych ze
+                        strumieni krwi tryskającej z zabijanej ofiary (<w>οὔριοι</w>).</p>
+                    <quote><lb/>δεξιᾷ δ᾽ ἑλὼν ξίφος
+                        <lb/>ἐς πρῷραν εἷρπε κἀπὶ ταυρείῳ σφαγῇ
+                        <lb/>σταθεὶς νεκρῶν μὲν οὐδενὸς μνήμην ἔχων,
+                        <lb/>τέμνων δὲ λαιμὸν ηὔχετ᾽· Ὦ ναίων ἅλα
+                        <lb n="1585"/>πόντιε Πόσειδον Νηρέως θ᾽ ἁγναὶ κόραι,
+                        <lb/>σώσατέ μ᾽ ἐπ᾽ ἀκτὰς Ναυπλίας δάμαρτά τε
+                        <lb/>ἄσυλον ἐκ γῆς. αἵματος δ᾽ ἀπορροαὶ
+                        <lb/>ἐς οἶδμ᾽ ἐσηκόντιζον οὔριοι ξένῳ.
+                        <lb/>καί τις τόδ' εἶπε· Δόλιος ἡ ναυκληρία.
+                        <lb n="1590"/>πάλιν πλέωμεν· ἀντίαν κέλευε σύ,
+                        <lb/>σὺ δὲ στρέφ᾽ οἴακ᾽. ἐκ δὲ ταυρείου φόνου
+                        <lb/>Ἀτρέως σταθεὶς παῖς ἀνεβόησε συμμάχους·
+                        <lb/>Τί μέλλετ᾽, ὦ γῆς Ἑλλάδος λωτίσματα,
+                        <lb/>σφάζειν φονεύειν βαρβάρους νεώς τ᾽ ἄπο
+                        <lb n="1595"/>ῥίπτειν ἐς οἶδμα;</quote>
+                    <quote><lb/>Prawą ręką chwyciwszy miecz,
+                        <lb/>Powoli przeszedł na dziób i do zarżnięcia byka
+                        <lb/>Stanął, nie czyniąc żadnej wzmianki o zmarłych,
+                        <lb/>Podrzynając gardło, tak się modlił: „O zamieszkujący morze
+                        <lb n="1585"/>Władco Posejdonie i czyste córy Nereusa,
+                        <lb/>Dajcie bezpieczne ocalenie mnie i mojej żonie na brzegach Nauplionu
+                        <lb/>Z tej ziemi”. Strumienie krwi
+                        <lb/>Trysnęły w wale jako znaki pomyślne dla przybysza.
+                        <lb/>Potem ktoś zawołał: „Ta żegluga jest podstępem!
+                        <lb n="1590"/>Płyńmy z powrotem! Ty wydaj rozkaz nawrotu,
+                        <lb/>A ty zwróć stery!” Od zabitego byka
+                        <lb/>Syn Atreusa stając, krzyknął do towarzyszy:
+                        <lb/>„Czemu się ociągacie, kwiecie ziemi greckiej,
+                        <lb/>Rżnąć! Mordować barbarzyńców i ze statku
+                        <lb n="1595"></lb>rzucać w fale!”</quote>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
