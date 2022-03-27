@@ -23,7 +23,7 @@
         </fileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2022-02-10" who="NAME">encoded document in XML</change>
+                <change when="2022-02-10" who="Gaia Fanelli">encoded document in XML</change>
                 <change when="2017" who="Krzysztof Bielawski">created document contents</change>
             </listChange>
         </revisionDesc>
@@ -204,8 +204,8 @@
                         do teksu jest zwyczajnie niemożliwe. Dlatego zamieszczam poniżej jedynie
                         skrótowe objaśnienie tej teorii.</p>
                     <p>Bernd Seidensticker i Janusz Lewandowicz zwracają uwagę na następujące
-                        elementy procesu ofiarnego w tekście Eurypidesa:
-                        • przystrajanie ofiary, mające swoje odbicie w scenie przebierania
+                        elementy procesu ofiarnego w tekście Eurypidesa:</p>
+                    <p>• przystrajanie ofiary, mające swoje odbicie w scenie przebierania
                         Penteusza (821–836, 857–859, 928–934, 1116–1117, 1139–1142);
                         w interpretacji „ofiarnej” Penteusz przeistacza się „z potężnego
                         prześladowcy w bezsilną ofiarę” (Kalke 1985: 411; zob. też Kott
@@ -232,28 +232,28 @@
                         używa technicznego języka ofiary, jest nie do obronienia. „Dobrowolność”
                         Penteusza jako ofiary dostrzega Seidensticker (1979:
                         184; por. Lewandowicz 2006: 284) także w jego chęci wspięcia się
-                        na jodłę.
-                        • prowadzenie ofiary w procesji z odniesieniem do wersów 1043–
+                        na jodłę.</p>
+                    <p>• prowadzenie ofiary w procesji z odniesieniem do wersów 1043–
                         –1047 i drogą Penteusza na Kitajron, interpretowany jako „ołtarz”
                         (Lewandowicz 2006: 283) pod przewodnictwem Dionizosa, który
-                        jest <w>πομπὸς</w> <w>σωτήριος</w> (w. 965);
-                        • odmówienie modlitwy, zachowanie ciszy, rzucanie krup jęczmiennych
+                        jest <w>πομπὸς</w> <w>σωτήριος</w> (w. 965);</p>
+                    <p>• odmówienie modlitwy, zachowanie ciszy, rzucanie krup jęczmiennych
                         z odniesieniem odpowiednio do wersów 1078–1081 (modlitwa),
                         1084–1087 (cisza i skupienie), 1088–1100 (obrzucanie ofiary
                         – tu: tyrsami, kamieniami, gałęziami). Interpretatorzy zwracają też
                         uwagę na współudział wszystkich menad w składaniu „ofiary”
                         (Seidensticker 1979: 186) oraz na związek ofiary z polowaniem jako
-                        „najstarszą formą rytuału” (Lewandowicz 2006: 284–285);
-                        • odprawienie obrzędów wstępnych ofiary z odwołaniem do wersu
+                        „najstarszą formą rytuału” (Lewandowicz 2006: 284–285);</p>
+                    <p>• odprawienie obrzędów wstępnych ofiary z odwołaniem do wersu
                         1114 (<w>πρώτη</w> δὲ <w>μήτηρ</w> <w>ἦρξεν</w> <w>ἱερέα</w> <w>φόνου</w>, zob. komentarz poniżej),
                         który przypomina obrzęd katarche przez liczebnik <w>πρώτη</w>
-                        i czasownik <w>ἄρχεσθαι</w>;
-                        • wzniesienie rytualnego okrzyku ololoyge (w. 1133: <w>ἠλάλαζον</w>);
-                        • podział ofiary i uczta z odniesieniem do sparagmosu <title>Penteusza</title>
-                        w wersach 1125–1139;
-                        • przyniesienie głowy ofiary z odniesieniem do wersów 1212–1215
-                        i 1238–1240;
-                        • poszukiwanie „winnego” mordu na ofierze po wybudzeniu się
+                        i czasownik <w>ἄρχεσθαι</w>;</p>
+                    <p>• wzniesienie rytualnego okrzyku ololoyge (w. 1133: <w>ἠλάλαζον</w>);</p>
+                    <p>• podział ofiary i uczta z odniesieniem do sparagmosu <title>Penteusza</title>
+                        w wersach 1125–1139;</p>
+                    <p>• przyniesienie głowy ofiary z odniesieniem do wersów 1212–1215
+                        i 1238–1240;</p>
+                    <p>• poszukiwanie „winnego” mordu na ofierze po wybudzeniu się
                         Agaue z szału.</p>
                     <p>Wszystkie te dane uporządkowane zostały przez interpretatorów
                         w taki sposób, by kolejne sceny <title>Bachantek</title> odpowiadały dokładnie teorii
@@ -414,7 +414,6 @@
                         U Hesychiosa <w>καταβολή</w> (s.v.) jest utożsamione z <w>θυσία</w> i <w>τελετή</w>.</p>
                 </div>
             </div>
-            
         </body>
     </text>
 </TEI>
