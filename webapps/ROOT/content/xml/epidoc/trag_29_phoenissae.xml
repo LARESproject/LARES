@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Phoenissae (Φοίνισσαι, Le Fenicie)</title>
+                <title xml:lang="en">Phoenissae (Φοίνισσαι, The Phoenician Women)</title>
+                <title xml:lang="pl">Phoenissae (Φοίνισσαι, Fenicjanki)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">trag_29_phoenissae</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Phoenissae (Φοίνισσαι, Fenicjanki)</title>, in Krzysztof Bielawski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Tragedia attycka</title>, Warszawa 2017, pp. 401-414</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaia Fanelli">encoded document in XML</change>
+                <change when="2017" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p><title>Fenicjanki</title> należą bez wątpienia do późnych sztuk Eurypidesa.
+                        Wprawdzie brakuje zewnętrznych danych do datowania sztuki i jej
+                        wystawienia, ale uczeni są zgodni, że zarówno technika dramatyczna,
+                        konstrukcja sztuki z długimi mowami posłańców i dytyrambicznymi
+                        partiami chóralnymi, jak i – przede wszystkim – jej struktura metryczna
+                        (por. Cropp, Fick 1985: 60–61) stanowią w tej kwestii wystarczające
+                        dowody. Przyjmuje się, że <title>Fenicjanki</title> powstały między 411 a 409
+                        rokiem (Mastronarde 1994: 14, tam też szczegółowa dyskusja nad datowaniem,
+                        s. 11–14).</p>
+                    <p>Tematyka ofiarnicza nie jest w dramacie silnie obecna, koncentruje
+                        się niemal wyłącznie wokół kategorii związanych z pojęciami sphagia
+                        i sphazein, co czyni ją interesującą i godną uwagi. Dwukrotnie wspomniane
+                        są sphagia jako klasyczna ofiara przedbitewna w połączeniu
+                        z opisem technik empyromantycznych. Tematem centralnym staje się
+                        zaś śmierć syna Kreona, wyraźnie stylizowana i opisywana przez postaci
+                        dramatu jako śmierć ofiarna, również jako sphagia (zob. Henrichs
+                        1980: 208–224 oraz O’Connor-Visser 1987: 190–195).</p>
+                    <p>Same Fenicjanki w parodosie nazywają się <w>ἀκροθίνια</w> <w>Λοξίᾳ</w>
+                        (w. 203, 282) – „najlepszą cząstką dla Loksjasza”, wybraną mu na
+                        służbę (zob. Jim 2014: 45–46). W przekładach mamy tu zwykle „ofiarę
+                        dla Loksjasza” (tak Łanowski) czy „offering for Loxias” (tak Craik),
+                        co jednak nie wskazuje na jakiekolwiek związki z rzeczywistą ofiarą
+                        (krwawą czy nie) w rytualnym znaczeniu. Bez wyraźnego kontekstu
+                        ofiarnego pojawia się także w tekście jeszcze χέρνιψ – woda oczyszczenia,
+                        woda lustralna (w. 662). Te wyrażenia jednak – jako pozbawione
+                        kontekstu ofiarnego – zostały w komentarzu pominięte.</p>
+                    <p>Tekst według wydania: Mastronarde (1994).</p>
+                </div>
+                <div type="textpart" n="Phoenissae_173-174">
+                    <head>Phoenissae 173-174</head>
+                    <p>Wersy z drugiej części prologu – rozmowa Antygony z Wychowawcą,
+                        który pokazuje jej z murów Teb zbliżające się wojska pod wodzą
+                        Polynejkesa. Wskazuje i opisuje poszczególnych dowódców. Antygona
+                        dostrzega też wśród wojsk zgromadzonych pod Tebami inną
+                        postać, która krocząc, prowadzi biały zaprzęg (w. 171–172: οὗτος δ',
+                        ὦ <w>γεραιέ</w>, τίς <w>κυρεῖ</w>, / ὃς <w>ἅρμα</w> <w>λευκὸν</w> <w>ἡνιοστροφεῖ</w> <w>βεβώς</w>). Wychowawca
+                        wyjaśnia, że jest to argiwski wieszczek Amfiaraos, który prowadzi
+                        sphagia – ofiary przedbitewne.</p>
+                    <quote><lb/>ὁ μάντις Ἀμφιάραος, ὦ δέσποιν᾽, ὅδε·
+                        <lb/>σφάγια δ᾽ ἅμ᾽ αὐτῷ, γῆς φιλαίματοι ῥοαί.</quote>
+                    <quote><lb/>Oto jest, o pani, wieszczek Amfiaraos,
+                        <lb/>Ma z sobą ofiary, miłe dla ziemi krwi potoki.</quote>
+                    <p>174: <w>σφάγια</w> δ᾽ ἅμ᾽ αὐτῷ, γῆς <w>φιλαίματοι</w> <w>ῥοαί</w> – „ma z sobą ofiary,
+                        miłe dla ziemi krwi potoki”. Wieszczek ma ze sobą <w>σφάγια</w> – zwierzęta
+                        ofiarne, które zamierza złożyć w ofierze przed starciem oddziałów
+                        tuż przed linią wroga, w tym wypadku – tuż przed murami Teb, które
+                        będą atakowane. <w>Σφάγια</w> występuje tutaj w technicznym znaczeniu
+                        ofiary krwawej ze zwierzęcia, składanej przed samą bitwą („Sacrifice
+                        before Battle”, zob. Pritchett 1971: 109–115; Jameson 1991) w celu
+                        zapewnienia sobie zwycięstwa w bitwie (Pritchett 1971: 110: „supplicatory
+                        and propitiatory nature”). Ofiara ta mogła, ale nie musiała być
+                        związana z pozyskiwaniem znaków wróżebnych (Pritchett 1971: 110;
+                        ale też, przeciwnie, Pritchett 1979: 83–90). Por. też komentarz np. do
+                        A. <title>Th</title>. 377–379.</p>
+                    <p>Krew ofiar zabijanych jako sphagia tuż przed bitwą jest wchłaniana
+                        przez ziemię. Ziemia – Ge – jest w Fenicjankach przedstawiana jako
+                        spragniona krwi (por. w. 674, 1152, 1172), co sprawia, że śmierć zwierząt
+                        ofiarnych zdaje się jedynie zapowiadać krwawe potoki, miłe ziemi,
+                        z tych, którzy mają zginąć w nadchodzącej bitwie (por. Craik 1988:
+                        180). Ziemia (Ge, tutaj z wielkiej litery) jest przedstawiona jako adresat
+                        ofiary typu sphagia, jako ten, kto ją przyjmuje. Mastronarde (1994: 200)
+                        sugeruje, że dzieje się tak nie tylko dlatego, że krew ofiar jest wylewana
+                        na ziemię, ale też dlatego, że Argiwi zamierzają przejąć tebańską
+                        ziemię.</p>
+                    <p>Z tekstu nie wynika, jakie zwierzęta i w jaki sposób były przez
+                        wieszczka przywiedzione na miejsce ich rytualnego zabicia. Prowadził
+                        on powóz lub zaprzęg (<w>ἅρμα</w>), trzymając w lejcach białe konie
+                        (<w>ἅρμα</w> <w>λευκὸν</w> <w>ἡνιοστροφεῖ</w>). Trudno przyjąć, by miał zamiar złożyć
+                        w ofierze przedbitewnej konie z tego zaprzęgu. Zwierzęciem najczęściej
+                        używanym jako sphagia była koza (Pritchett 1979: 84). Pearson
+                        w swoim komentarzu przekonuje, że zwierzęta ofiarne były dopiero
+                        co zabite w ofierze i obwożone na powozie w celu oczyszczenia całego
+                        obszaru zbliżającej się bitwy (Pearson 1909: 89 i 210). Jameson z kolei
+                        podobnie sugeruje, że już wcześniej zabite ofiary były wywożone
+                        przed stojące wobec siebie oddziały, a nie wypędzane na przyszłe pole
+                        bitwy w celu zabicia, powołując się na passus z Tukidydesa (6.69.2):
+                        <w>μάντεις</w> τε <w>σφάγια</w> <w>προύφερον</w> τὰ <w>νομιζόμενα</w>. Jednak np. w Heraklidach
+                        819–822 (zob. komentarz) zwierzęta ofiarne są trzymane w gotowości
+                        przed bitwą. W omawianym passusie jednak Amfiaraos pojawia
+                        się pośród oblegających żołnierzy w czasie trwania rozejmu i wobec
+                        tego trudno wyobrazić sobie, by sphagia były już zabite. Może je raczej
+                        wieźć na powozie lub też prowadzić przytroczone do zaprzęgu. Tak
+                        czy inaczej obecność wieszczka razem ze zwierzętami ofiarnymi jest
+                        wyraźnym znakiem zbliżającego się starcia – w takim samym stopniu,
+                        jak są nim opisywani Antygonie przez Wychowawcę dowódcy
+                        oddziałów, w pełnym uzbrojeniu stojący przed murami.</p>
+                    <p>Rutynowe, zgodne ze zwyczajem i obowiązkami wieszczka zachowanie
+                        Amfiaraosa jest w tej scenie w znaczącym kontraście z utrwaloną tradycją
+                        o jego sprzeciwie wobec ataku na Teby (tak np. w A. <title>Th</title>. 568 i nn.).</p>
+                </div>
+                
+                <div type="textpart" n="Phoenissae_274-275">
+                    <head>Phoenissae 274-275</head>
+                    <p>W monologu otwierającym pierwszy epeisodion Polynejkes wchodzi
+                        na scenę – obrazującą dziedziniec przed pałacem w Tebach – jako
+                        wróg zaproszony przez Jokastę na mocy rozejmu. Odczuwa lęk i niepewność,
+                        nie ufa nawet matce. Rozpoznaje miejsca i przedmioty
+                        (por. w. 367–368, gdzie wymienia on obok ołtarzy dom, place i źródła).
+                        Wyraźną ulgę, przypływ siły i poczucie bezpieczeństwa (<w>ἀλκή</w>) odczuwa
+                        na widok ołtarza domowego stojącego przed pałacem (<w>βώμιοι</w> γὰρ
+                        <w>ἐσχάραι</w>) – zapewne jako ewentualnego miejsca ucieczki i suplikacji.
+                        Te same ołtarze wymienia ze wzruszeniem Polynejkes w wersie 368:
+                        <w>βωμοὺς</w> <w>θεῶν</w>.</p>
+                    <quote><lb/>ἀλλ᾽ ἐγγὺς ἀλκή· βώμιοι γὰρ ἐσχάραι
+                        <lb n="275"/>πέλας πάρεισι.</quote>
+                    <quote><lb/>Ale oto blisko pomoc: bo ogniska ołtarzy
+                        <lb n="275"/>Są tuż obok.</quote>
+                    <p>274: <w>βώμιοι</w> […] <w>ἐσχάραι</w> – „ogniska ołtarzy”, dosłownie: „paleniska
+                        ołtarzowe”, zob. kom. do E. <title>Heracl</title>. 33. Przymiotnik <w>βώμιος</w> występuje
+                        w tym dramacie jeszcze tylko raz, w ostatniej scenie, jako przydawka
+                        błagań, w słowach Edypa do Antygony: σὺ δ᾽ <w>ἀμφὶ</w> <w>βωμίους</w>
+                        <w>λιτάς</w> (w. 1749).</p>
+                </div>
+                
+                <div type="textpart" n="Phoenissae_572-573">
+                    <head>Phoenissae 572-573</head>
+                    <p>Jokasta w długiej przemowie do obydwu synów (w. 528–585) zarzuca
+                        najpierw Eteoklesowi chorą ambicję, brak poszanowania dla
+                        prawa i próżność, a Polynejkesowi – bezbożność. Retorycznie pyta
+                        Polynejkesa o jego zachowanie po ewentualnym zdobyciu Teb: jako
+                        kto i w jaki sposób wystawi tropaiony oraz w jakiej dyspozycji przystąpi
+                        do składania ofiar.</p>
+                    <quote><lb/>τρόπαια πῶς ἀναστήσεις Διί;
+                        <lb/>πῶς δ᾽ αὖ κατάρξῃ θυμάτων, ἑλὼν πάτραν;</quote>
+                    <quote><lb/>Jak wystawisz Zeusowi trofea?
+                        <lb/>Jak wreszcie rozpoczniesz ofiary po podbiciu ojczyzny?</quote>
+                    <p>573: <w>πῶς</w> δ᾽ αὖ <w>κατάρξῃ</w> <w>θυμάτων</w>; – „jak wreszcie rozpoczniesz
+                        ofiary?”. <w>Κατάρχεσθαι</w> <w>θυμάτων</w> oznacza tutaj przewodzenie rytom
+                        wstępnym ofiary krwawej, zastrzeżone dla władcy lub innej osoby
+                        reprezentującej najwyższy autorytet: króla, dowódcy czy kapłana. Po
+                        – niechcianym przez Jokastę – możliwym zwycięstwie Polynejkesa
+                        stanie się on władcą Teb i to jemu będą przysługiwać prawa rozpoczynania
+                        obrzędów ofiarnych jako reprezentantowi całej społeczności
+                        (Mastronarde 1994: 316). Obrzędy wstępne obejmowały skropienie
+                        wodą, obrzucenie krupami i ścięcie włosów zwierzęciu (por.
+                        elementy sceny typowej u Homera, np. <title>Od</title>. 3.430–463 lub u E. w <title>IT</title>
+                        40, 56, 1154).</p>
+                </div>
+                
+                <div type="textpart" n="Phoenissae_604">
+                    <head>Phoenissae 604</head>
+                    <p>Po przemowie Jokasty następuje długi agon logon między Polynejkesem
+                        i Eteoklesem, którzy obrzucają się obelgami i inwektywami.
+                        Po deklaracji Eteoklesa, że nie wycofa się z pałacu i nie powróci
+                        do respektowania umowy między braćmi, Polynejkes wzywa bogów
+                        swoich ojców przez wskazanie na ich ołtarze. Eteokles natychmiast
+                        zarzuca mu bezbożność, wskazując na intencję ich zniszczenia w ataku
+                        na Teby:</p>
+                    <quote><lb/><emph>ΠΟΛΥΝΕΙΚΗΣ</emph>:
+                        <lb/>ὦ θεῶν βωμοὶ πατρῴων . . .
+                        <lb/><emph>ΕΤΕΟΚΛΗΣ</emph>:
+                        <lb/>οὓς σὺ πορθήσων πάρει.</quote>
+                    <quote><lb/><emph>POLYNEJKES</emph>:
+                        <lb/>O, ołtarze bogów ojczystych!
+                        <lb/><emph>ETEOKLES</emph>:
+                        <lb/>Które ty przychodzisz zniszczyć!</quote>
+                    <p>Ołtarze bogów czczonych przez ojców to zapewne w retorycznej hiperboli
+                        wszystkie możliwe ołtarze miasta, obejmujące także te widoczne
+                        na scenie i wspomniane przez Polynejkesa już wyżej w wersach 274 i 368.</p>
+                </div>
+                
+                
+                <div type="textpart" n="Phoenissae_913-914">
+                    <head>Phoenissae 913-914</head>
+                    <p>Wersy te wprowadzają kluczowy dla drugiej części dramatu temat
+                        śmierci Menojkeusa, syna Kreona. Jej interpretacja w kategoriach
+                        ofiarnych nie jest oczywista i jednoznaczna, opiera się raczej na metaforycznym
+                        zastosowaniu słownictwa technicznego i podobieństwach
+                        do innych dobrowolnych śmierci u Eurypidesa: Makarii,
+                        Polykseny czy Ifigenii. Z drugiej strony jednak nie ulega wątpliwości,
+                        że wszystkie trzy postaci w tej scenie – Tejrezjasz, Kreon i sam
+                        Menojkeus – konsekwentnie odwołują się do kategorii daru dla Ziemi
+                        (słowa Tejrezjasza – w. 933: <w>σφαγέντα</w> <w>φόνιον</w> <w>αἷμα</w> <w>γῇ</w> <w>δοῦναι</w>
+                        <w>χοάς</w>), położenia życia za miasto (słowa Kreona – w. 964: σφαγέ-
+                        ντα<w></w> <w>παῖδα</w> <w>προσθεῖναι</w> <w>πόλει</w>) czy wreszcie oddania duszy Ziemi
+                        (słowa Menojkeusa – w. 998: <w>ψυχήν</w> τε <w>δώσω</w> τῆσδ᾽ <w>ὑπερθανεῖν</w>
+                        <w>χθονός</w>). W wersach 947–948 Tejrezjasz ponownie mówi o oddaniu
+                        życia za miasto celem jego ocalenia (οὗτος δὲ <w>πῶλος</w> τῇδ᾽ <w>ἀνειμένος</w>
+                        <w>πόλει</w> / <w>θανὼν</w> <w>πατρῴαν</w> <w>γαῖαν</w> <w>ἐκσώσειεν</w> <w>ἄν</w>). Z kolei Kreon także
+                        w końcu mówi (w. 964) i o zabiciu syna na ofiarę (<w>σφαγέντα</w> <w>παῖδα</w>),
+                        i o oddaniu go za miasto (<w>προσθεῖναι</w> <w>πόλει</w>). W tym świetle wszystkie
+                        warianty – wyszczególnione poniżej – użycia czasownika <w>σφά-
+                            ζειν</w> nabierają znaczenia technicznego i oznaczają „zabić na ofiarę”,
+                        „przelać krew w ofierze”, „przeciąć gardło w rytualnym mordzie”.
+                        Menojkeus jest w tej scenie stylizowany na typową przedbitewną
+                        ofiarę typu sphagia, która ma odwrócić złe losy i skutki bitewnego
+                        starcia. Jego krew jest „oddawana ziemi”, tak samo jak krew zwierząt
+                        ofiarnych wiedzionych przez argiwskiego wieszczka Amfiaraosa
+                        w wersie 174 (zob. komentarz powyżej). Sphagia Argiwów jest
+                        przygotowana – zwierzęta ofiarne oczekują pod murami, o czym
+                        wiemy od pierwszej sceny i rozmowy Antygony z Wychowawcą.
+                        Sphagia Teban pojawia się dopiero teraz jako wynik wróżby Tejrezjasza.</p>
+                    <p>Trzeci epeisodion, w którym Kreon domaga się od wieszczka Tejrezjasza
+                        rady, co należy czynić, aby ocalić miasto wobec narastającego
+                        konfliktu braci (w. 864: τί <w>δρῶντες</w> ἂν <w>μάλιστα</w> <w>σώσαιμεν</w> <w>πόλιν</w>). Tejrezjasz
+                        niechętnie wyjawia wróżbę, według której dla ocalenia miasta
+                        należy zabić Menojkeusa.</p>
+                    <quote><lb/>σφάξαι Μενοικέα τόνδε δεῖ σ᾽ ὑπὲρ πάτρας,
+                        <lb/>σὸν παῖδ᾽, ἐπειδὴ τὴν τύχην αὐτὸς καλεῖς.</quote>
+                    <quote><lb/>Musisz zarżnąć tego Menojkeusa na ofiarę za ojczyznę,
+                        <lb/>Twego syna, skoro sam przyzywasz los.</quote>
+                    <p>913: <w>σφάξαι</w> – „zarżnąć na ofiarę”. Przekład zgodnie z uwagami
+                        powyżej: słowa te wprowadzają wizję śmierci Menojkeusa rozumianą
+                        przez wszystkie dramatis personae jako konieczna ofiara krwawa. W świetle
+                        późniejszych słów Tejrezjasza (zwłaszcza w. 930–933) syn Kreona nie
+                        jest przedstawiany jakby był sphagion, ale po prostu jako sphagion<note n="57">Na marginesie należy odnotować odosobnione stanowisko zaprezentowane
+                            przez Elizabeth Craik w jej komentarzu (1988: 221), zdecydowanie obalone
+                            przez Mastronarde’a (1994: 409), według którego Menojkeus jest nie tylko sphagion,
+                            ale przede wszystkim pharmakos – ofiarą przebłagalną składaną za społeczność,
+                            „kozłem ofiarnym” (z odniesieniem do w. 893: <w>φάρμακον</w> <w>σωτηρίας</w>, zob.
+                            Nancy 1981: 17–30, zwłaszcza 20). Stanowisko to wynika z błędnego odczytania
+                            i błędnej edycji formy φάρμακον w jej wydaniu. Interpretuje je ona jako acc. sing.
+                            rzeczownika <w>φαρμακός</w>, który rzeczywiście takie ma znaczenie. Jednak nigdy nie
+                            występuje w tragedii greckiej, a tutaj jest po prostu „lekarstwem ocalenia”.</note>.</p>
+                </div>
+
+                <div type="textpart" n="Phoenissae_931-939">
+                    <head>Phoenissae 931-939</head>
+                    <p>Słowa Tejrezjasza z mowy do Kreona i Menojkeusa, w której wyjaśnia
+                        on powody i szczegóły wymaganej wróżbą ofiary z życia syna
+                        Kreona. Wskazuje na jej miejsce – grotę, w której żył smok, zabity
+                        przez Kadmosa. Wyjaśnia, że ofiary domaga się zarówno Ares, zagniewany
+                        na Kadmosa za mord na smoku, jak i Ziemia, której był on dzieckiem
+                        (Craik 1988: 222–223). Menojkeus ma – po swej ofiarnej śmierci
+                        (<w>σφαγέντα</w>) – dać Ziemi własną krew jako płynne ofiary (<w>χοάς</w>)<note n="58">Na temat innych wariantów interpretacji podwójnego genetiwu (<w>Κάδμου</w>
+                            – <w>Ἄρεος</w>) w tej frazie zob. Mastronarde 1994: 415–416. Osobiście uważam je wszystkie
+                            za niemożliwe do przyjęcia i niewymagające komentarza</note>.
+                        Właściwy dla bezkrwawych ofiar płynnych rzeczownik χοαί staje się
+                        tutaj elementem krwawego rytuału, a zwykła libacja – pojeniem krwią
+                        spragnionej mordu Ziemi. Podobnie (poniżej, w. 1574–1576) Antygona,
+                        gdy opowiada Edypowi o bratobójczej śmierci jego synów i nazywa
+                        ją „stygnącą już ofiarą płynną z przelanej krwi” (<w>αἵματος</w> / <w>ἤδη</w>
+                        <w>ψυχρὰν</w> <w>λοιβὰν</w> <w>φονίαν</w>).</p>
+                    <p>W całym passusie nie występuje wiele terminów związanych wprost
+                        z ofiarą krwawą, jednak to właśnie χοαί dają podstawę do ofiarnej interpretacji
+                        śmierci Menojkeusa.</p>
+                    <quote><lb/>δεῖ τόνδε θαλάμαις, οὗ δράκων ὁ γηγενὴς
+                        <lb/>ἐγένετο Δίρκης ναμάτων ἐπίσκοπος,
+                        <lb/>σφαγέντα φόνιον αἷμα γῇ δοῦναι χοὰς,
+                        <lb/>Κάδμου παλαιῶν Ἄρεος ἐκ μηνιμάτων,
+                        <lb n="935"/>ὃς γηγενεῖ δράκοντι τιμωρεῖ φόνον.
+                        <lb/>καὶ ταῦτα δρῶντες σύμμαχον κτήσεσθ᾽ Ἄρη.
+                        <lb/>χθὼν δ᾽ ἀντὶ καρποῦ καρπὸν ἀντί θ᾽ αἵματος
+                        <lb/>αἷμ᾽ ἢν λάβῃ βρότειον, ἕξετ᾽ εὐμενῆ
+                        <lb/>γῆν […].</quote>
+                    <quote><lb/>Trzeba, by on [sc. Menojkeus], w grocie, gdzie zrodzony z Ziemi smok
+                        Był stróżem wód Dirki,
+                       <lb/> Zabity na ofiarę dał wytoczoną z rany krew jako ofiarną libację dla Ziemi,
+                        <lb/>Z powodu dawnego gniewu Aresa na Kadmosa,
+                        <lb n="935"/>Który wziął na zrodzonym z Ziemi smoku krwawy odwet.
+                        <lb/>I tak czyniąc, zyskacie Aresa jako sprzymierzeńca.
+                        <lb/>Kiedy ziemia weźmie płód za płód i za krew
+                        <lb/>Krew śmiertelną, zyskacie Ziemię życzliwą.</quote>
+                    <p>933: <w>σφαγέντα</w> <w>φόνιον</w> <w>αἷμα</w> <w>γῇ</w> <w>δοῦναι</w> <w>χοάς</w> – „[żeby] zabity na
+                        ofiarę dał wytoczoną z rany krew jako ofiarną libację dla Ziemi”. Ponownie,
+                        jak w passusie powyżej, czasownikiem opisującym oczekiwaną
+                        śmierć Menojkeusa jest <w>σφάζειν</w> w postaci imiesłowowej. Syn
+                        Kreona ma dać krew Ziemi (<w>αἷμα</w> <w>γῇ</w> <w>δοῦναι</w>) po poniesieniu ofiarnej
+                        śmierci, jako zabity na ofiarę – <w>σφαγείς</w>.</p>
+                </div>
+                
+                <div type="textpart" n="Phoenissae_963-964">
+                    <head>Phoenissae 963-964</head>
+                    <p>W odpowiedzi na słowa Tejrezjasza Kreon najpierw milczy w osłupieniu,
+                        tak samo jak chór (w. 960–961), a następnie oświadcza, że
+                        nigdy nie zgodzi się na wydanie syna na śmierć. Dwukrotnie mówi
+                        o wydaniu go po prostu „na zabicie” (w. 966 i 967: οὐδ᾽ ἂν τὸν αὑτοῦ
+                        <w>παῖδά</w> τις <w>δοίη</w> <w>κτανεῖν</w>. / μή μ᾽ <w>εὐλογείτω</w> <w>τἀμά</w> τις <w>κτείνων</w> <w>τέκνα</w>),
+                        ale w komentowanych wersach wyraźnie interpretuje tę śmierć jak Tejrezjasz
+                        – jako śmierć ofiarną za miasto.</p>
+                    <quote><lb/>ἐγὼ γὰρ οὔποτ᾽ ἐς τόδ' εἶμι συμφορᾶς,
+                        <lb/>ὥστε σφαγέντα παῖδα προσθεῖναι πόλει.</quote>
+                    <quote><lb/>Ja przecież nigdy nie dojdę do tego,
+                        <lb/>Żeby syna złożonego w ofierze oddać za miasto.</quote>
+                    <p>964: ὥστε <w>σφαγέντα</w> <w>παῖδα</w> <w>προσθεῖναι</w> <w>πόλει</w> – „żeby syna złożonego
+                        w ofierze oddać za miasto”. Kreon rozumie, że śmierć Menojkeusa
+                        ma być spełniona dla dobra miasta (<w>προσθεῖναι</w> <w>πόλει</w>) oraz że
+                        należy ją spełnić rytualnie, jako ofiarę typu sphagia (<w>σφαγέντα</w>). Ofiara
+                        i dar stają się jednym i tym samym (Mastronarde 1994: 422).</p>
+                </div>
+                
+                <div type="textpart" n="Phoenissae_1009-1012">
+                    <head>Phoenissae 1009-1012</head>
+                    <p>Menojkeus, który w obecności ojca stara się go utwierdzić w przekonaniu,
+                        że zdoła uniknąć swego losu, ratując się ucieczką, po wyjściu
+                        Kreona oświadcza chórowi, że dobrowolnie podda się wyrokom wyroczni
+                        i nie tylko chętnie poniesie śmierć, ale nawet że sam sobie ją
+                        zada, zgodnie z wszystkimi zaleceniami Tejrezjasza.</p>
+                    <quote><lb/>ἀλλ᾽ εἶμι καὶ στὰς ἐξ ἐπάλξεων ἄκρων
+                        <lb n="1010"/>σφάξας ἐμαυτὸν σηκὸν ἐς μελαμβαθῆ
+                        <lb/>δράκοντος, ἔνθ᾽ ὁ μάντις ἐξηγήσατο,
+                        <lb/>ἐλευθερώσω γαῖαν· εἴρηται λόγος.</quote>
+                    <quote><lb/>Ale pójdę i stanąwszy na wysokich szańcach
+                        <lb n="1010"/>Sam z siebie wytoczę ofiarną krew do ciemnej nory
+                        <lb/>Smoka, tam, gdzie nakazał wieszczek,
+                        <lb/>I uwolnię ziemię. Tak postanowiłem.</quote>
+                    <p>1010: <w>σφάξας</w> <w>ἐμαυτὸν</w> <w>σηκὸν</w> ἐς <w>μελαμβαθῆ</w> – „sam z siebie wytoczę
+                        ofiarną krew do ciemnej nory”. W tym passusie uwidacznia
+                        się znaczenie czasownika <w>σφάζειν</w>: nie można „z a b i ć d o k ą d ś”.</p>
+                    <p><w>Σφάζειν</w> oznacza „zabić przez poderżnięcie gardła” lub „zabić przez
+                        wytoczenie krwi z poderżniętego gardła” (por. też komentarz do
+                        A. <title>Th</title>. 43 z obrazem wytaczania krwi do tarczy). Menojkeus zapowiada
+                        samobójczą śmierć według wskazań Tejrezjasza. Przyjmuje jego
+                        wskazówki dotyczące i miejsca, i sposobu spełnienia ofiary. Deklaruje
+                        też, że ma świadomość, iż celem ofiary jest ocalenie (dosłownie tutaj:
+                        „uwolnienie” w znaczeniu „przywrócenie wolności” od wrogów i najeźdźców
+                        z jednej strony, od gniewu Aresa i Ziemi – z drugiej, zob.
+                        Mastronarde 1994: 430) miasta. W wersach niżej (w. 1013–1014) nazywa
+                        on swą ofiarę „darem śmierci” (sc. „darem ze śmierci”: <w>θανάτου</w>
+                        <w>δῶρον</w>) danym miastu (<w>πόλει</w> <w>δώσων</w>).</p>
+                </div>
+                
+                <div type="textpart" n="Phoenissae_1090-1092">
+                    <head>Phoenissae 1090-1092</head>
+                    <p>Opis śmierci Menojkeusa z mowy posłańca skierowanej do Jokasty
+                        na początku kolejnego epeisodionu. Niezmiennie pojawia się w nim
+                        motyw ocalenia miasta (τῇδε γῇ <w>σωτήριον</w>). Nie występuje w nim
+                        żaden czasownik związany z rytualnym zabijaniem, ale opis w pełni
+                        odpowiada treści czasownika σφάζειν, w poprzednim akcie określającego
+                        sposób śmierci – przecięcie gardła mieczem (λαιμῶν διῆκε – na
+                        temat rekcji czasownika διήκω do genetiwu zob. Mastronarde 1994:
+                        452).</p>
+                    <quote><lb n="1090"/>ἐπεὶ Κρέοντος παῖς ὁ γῆς ὑπερθανὼν
+                        <lb/>πύργων ἐπ᾽ ἄκρων στὰς μελάνδετον ξίφος
+                        <lb/>λαιμῶν διῆκε τῇδε γῇ σωτήριον.</quote>
+                    <quote><lb n="1090"/>Kiedy syn Kreona, umierając za ziemię,
+                        <lb/>Stanął na szczycie wieży i czarnym mieczem
+                        <lb/>Gardło przeszył na ocalenie dla tego miasta.</quote>
+                    <p>COMMENTARY DIVIDED INTO PARAGRAPHS</p>
+                </div>
+                
+                <div type="textpart" n="Phoenissae_1109-1111">
+                    <head>Phoenissae 1109-1111</head>
+                    <p>W tej samej mowie posłańca znajduje się opis działań poszczególnych
+                        oddziałów i dowódców, symetryczny wobec struktury prologu.
+                        Obok wojowników znajduje się też ponownie obraz wieszczka Amfiaraosa
+                        – ponownie z wozem i ponownie ze zwierzętami ofiarnymi.</p>
+                    <quote><lb/>ἐς δὲ Προιτίδας
+                        <lb n="1110"/>πύλας ἐχώρει σφάγι᾽ ἔχων ἐφ᾽ ἅρματι
+                        <lb/>ὁ μάντις Ἀμφιάραος […].</quote>
+                    <quote><lb/>Do projtydzkiej
+                        <lb n="1110"/>Bramy zmierzał, ofiary mając na wozie,
+                        <lb/>Wieszczek Amfiaraos.</quote>
+                    <p>1110: <w>σφάγι</w>᾽ <w>ἔχων</w> ἐφ᾽ <w>ἅρματι</w> – „ofiary mając na wozie”. „Ofiary”,
+                        które ma ze sobą Amfiaraos, to sphagia. Tak samo jak w wersie 174 (zob.
+                        komentarz powyżej) wiadomo, że wieszczek „ma ze sobą” ofiary, nie
+                        wiadomo natomiast, co to dokładnie oznacza. Są to te same sphagia,
+                        które podczas rozejmu widziała z murów Teb Antygona (w. 174). Czy
+                        są to zwierzęta ofiarne przeznaczone na ofiarę przedbitewną, czy też –
+                        wobec toczącej się już walki – zwierzęta już zabite? Dlaczego znajdują
+                        się „na wozie”? Z wersów powyżej będących mową posłańca wiemy,
+                        że wojska już ruszyły na siebie, że zabrzmiały trąby i rozległ się pajan
+                        – znaki rozpoczęcia ataku (Mastronarde 1994: 461). Wszystko wskazuje
+                        na to, że ofiary tutaj wspomniane muszą już być zabite. Stengel
+                        (1910b: 99) przekonująco wskazał, że tak naprawdę nie wiemy, co działo
+                        się z truchłami zabitych jako sphagia zwierząt – najpewniej były po
+                        prostu pozostawiane tam, gdzie zostały zabite. Mastronarde (1994: 461)
+                        każe widzieć w tym passusie przede wszystkim nieuwagę już to samego
+                        Eurypidesa, już to interpolatora – wersy te z jednej strony są silnie
+                        stylizowane na podobieństwo do <title>Siedmiu</title> Ajschylosa, z drugiej zdają
+                        się jedynie nieudolnie powtarzać obraz z wersu 174. Tak czy inaczej –
+                        obraz wieszczka z wozem pełnym zabitych ofiar pośród wrzawy ataku
+                        wojsk pośrodku pola bitwy, jaki wyłania się z tych wersów, nie pozwala
+                        na wyciąganie jakichkolwiek technicznych wniosków.</p>
+                </div>
+                
+                <div type="textpart" n="Phoenissae_1255-1258">
+                    <head>Phoenissae 1255-1258</head>
+                    <p>Posłaniec informuje Jokastę o tym, że jej synowie żyją, ale zarazem,
+                        że walka rozstrzygnie się nie w regularnym starciu wojsk, ale w starciu
+                        między nimi. Obydwaj bracia stają do pojedynku. Obydwie strony
+                        zaprzysięgają rozejm na czas walki dowódców, co potwierdzają
+                        składane przysięgi, którym towarzyszą ofiary płynne (w. 1240: ἐπὶ
+                        τοῖσδε δ᾽ <w>ἐσπείσαντο</w>). Towarzysze broni zagrzewają do boju obydwu
+                        walczących okrzykami. Jednocześnie wieszczkowie przeprowadzają
+                        wróżby z ofiar – dokładniej: ze spalania zabitych zwierząt ofiarnych.
+                        Nie znamy innych poświadczeń praktykowania mantyki przed pojedynkiem.
+                        Jest to standardowa procedura przed starciem bitewnym,
+                        ale nie przed pojedynkiem. Wydaje się, że jest to inwencja poetycka
+                        Eurypidesa – wskazuje ona na zwłokę przed rozpoczęciem pojedynku
+                        i daje czas Jokaście na dalsze próby pojednania obydwu braci. Ta
+                        scena przypomina centralną scenę z <title>Siedmiu przeciw Tebom</title> Ajschylosa
+                        (w. 379), gdzie znaki przed bitwą nie wypadają pomyślnie i wieszczek
+                        nie pozwala ruszyć do boju (Mastronarde 1994: 496).</p>
+                    <p>Passus dość trudny do wyjaśnienia, ponieważ z jednej strony zdaje
+                        się, że wieszczkowie zabijają zwierzęta przygotowane na ofiary przedbitewne
+                        – sphagia, które z zasady nie były ani spalane na ołtarzach, ani
+                        tym bardziej jedzone, z drugiej zaś – że właśnie je spalają, aby z płomieni
+                        odczytywać znaki wróżebne. Albo mamy tu do czynienia ze złamaniem
+                        zwyczaju wobec niespodziewanego rozwoju akcji – spodziewana
+                        wcześniej
+                        bitwa między wojskami zmienia się w indywidualny pojedynek
+                        i już nie ma potrzeby składania typowej ofiary przedbitewnej,
+                        albo też wieszczkowie wróżą ze spalania innych zwierząt ofiarnych,
+                        przeznaczonych na zwykłą ofiarę alimentacyjną typu thysia. Na rzecz
+                        drugiej tezy przemawia też to, że zwierzętami składanymi tu w ofierze
+                        są najprawdopodobniej owce (<w>μῆλα</w>), a nie kozy. W typologii Jamesona
+                        (1991: 208–209) byłyby to przedbitewne ἱερά, które w przeciwieństwie
+                        do typowych <w>σφάγια</w> mogły być spalane. Celem obydwu typów ofiar
+                        przedbitewnych było pozyskanie znaków – w przypadku sphagia przez
+                        obserwowanie sposobu, w jaki tryska krew z rany lub w jaki pada ciało
+                        zwierzęcia, w przypadku hiera – przez empyromancję (por. też komentarz
+                        do S. <title>Ant</title>. 1005–1011).</p>
+                    <quote><lb n="1255"/>μάντεις δὲ μῆλ᾽ ἔσφαζον, ἐμπύρους τ᾽ ἀκμῆς
+                        <lb/>ῥήξεις τ᾽ ἐνώμων ὑγρότητ᾽ ἐναντίαν
+                        <lb/>ἄκραν τε λαμπάδ᾽, ἣ δυοῖν ὅρους ἔχει,
+                        <lb/>νίκης τε σῆμα καὶ τὸ τῶν ἡσσωμένων.</quote>
+                    <quote><lb n="1255"/>Wieszczkowie zarzynali owce, siłę ognia ze spalanych ofiar
+                        <lb/>I jego załamania obserwowali i migotanie w różne strony,
+                        <lb/>I cały płomień, który na dwoje się rozdziela,
+                        <lb/>I znak zwycięstwa, i porażki.</quote>
+                    <p>1255: <w>μάντεις</w> δὲ <w>μῆλ</w>᾽ <w>ἔσφαζον</w> – „wieszczkowie zarzynali owce”.
+                        W tym jednym wypadku w całym dramacie czasownik σφάζειν nie
+                        oznacza składania przedbitewnej ofiary typu sphagia.</p>
+                    <p>1255–1257: <w>ἐμπύρους</w> τ᾽ <w>ἀκμῆς</w> / <w>ῥήξεις</w> τ᾽ <w>ἐνώμων</w> <w>ὑγρότητ</w>᾽<w>ἐναντίαν</w>
+                        / <w>ἄκραν</w> τε <w>λαμπάδ</w>᾽, ἣ <w>δυοῖν</w> <w>ὅρους</w> <w>ἔχει</w> – „siłę ognia ze spalanych
+                        ofiar / i jego załamania obserwowali i migotanie w różne strony, / i cały
+                        płomień, który na dwoje się rozdziela”. Opis praktyk empyromantycznych
+                        niezwykle trudny do objaśnienia i przełożenia. Mastronarde (1994:
+                        499) inteligentnie konkluduje obszerny przegląd możliwych interpretacji
+                        (ibidem: 496–499) uwagą, że nasze trudności w rozumieniu tego tekstu
+                        wynikają z nieznajomości tych praktyk, które dla publiczności ateńskiej
+                        były w pełni zrozumiałe same przez się. Poza sporem jest, że wieszczkowie
+                        „obserwowali” płomienie – pojawia się tutaj czasownik νωμάω,
+                        który stanowi terminus technicus mantyki (<title>LSJ</title>, s.v. II, 4, por. A. <title>Th</title>. 25,
+                        S. <title>OT</title> 300). Przedmiotem ich obserwacji jest pięć cech płomienia:
+                        1. <w>ἐμπύρους</w> τ᾽ <w>ἀκμῆς</w> – raczej „intensywność” niż „wysokość” płomienia
+                        z płonących ofiar (Mastronarde 1994: 499: „vigorous sacrificial flame
+                        rather than tip, Edge of sacrificial flame”, por. też Stengel 1910b: 97–98);
+                        2. <w>ῥήξεις</w> τ᾽ […] – „załamania” płomienia (całkowicie i zdecydowanie
+                        nie podzielam stanowisk, które – zapewne pod wpływem sceny empyromancji
+                        z <title>Antygony</title> Sofoklesa – koniecznie chcą w tym słowie widzieć
+                        nawiązanie do pęknięć woreczka żółciowego, zob. Mastronarde 1994:
+                        498–499); 3. <w>ὑγρότητ</w>᾽ <w>ἐναντίαν</w> – „migotanie” płomieni w różne strony;
+                        4. <w>ἄκραν</w> τε <w>λαμπάδα</w> – „wysokość” płomienia; 5. ἣ <w>δυοῖν</w> <w>ὅρους</w> <w>ἔχει</w> –
+                        to, w jaki sposób języki ognia się rozdzielają, rozdwajają.</p>
+                </div>
+                
+                <div type="textpart" n="Phoenissae_1456-1459">
+                    <head>Phoenissae 1456-1459</head>
+                    <p>Obraz śmierci Jokasty przedstawiony w opowieści posłańca jest
+                        wyraźnie stylizowany na podobieństwo do samobójstwa ofiarnego
+                        Menojkeusa w wersach 1090–1092 (zob. komentarz powyżej). Nic –
+                        ani słownictwo, ani kontekst – nie wskazuje na jakiekolwiek związki
+                        z ofiarą samobójstwa Jokasty. Można odnieść wrażenie, że Jokasta nie
+                        chciała i nie mogła powtarzać czy naśladować samoofiary swego syna,
+                        ale pragnęła pójść za nim w tym, w czym mogła – w powtórzeniu sposobu
+                        uśmiercenia się: przez przebicie sobie gardła mieczem. Passus nie
+                        zawiera terminologii ofiarniczej i nie wymaga komentarza. Jest tutaj
+                        przywołany jedynie jako dalekie echo sceny śmierci Menojkeusa.</p>
+                    <quote><lb/>ἥρπασ᾽ ἐκ νεκρῶν ξίφος
+                        <lb/>κἄπραξε δεινά· διὰ μέσου γὰρ αὐχένος
+                        <lb/>ὠθεῖ σίδηρον, ἐν δὲ τοῖσι φιλτάτοις
+                        <lb/>θανοῦσα κεῖται περιβαλοῦσ᾽ ἀμφοῖν χέρας.</quote>
+                    <quote><lb/>Wyrwała miecz zmarłym
+                        <lb/>I spełniła rzecz straszną: przez sam środek szyi
+                        <lb/>Pchnęła żelazo, i wśród umiłowanych
+                        <lb/>Konając, padła, obejmując obydwu rękami.</quote>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

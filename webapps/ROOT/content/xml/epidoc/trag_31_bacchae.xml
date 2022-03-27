@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Bacchae (Βάκχαι, Le Baccanti)</title>
+                <title xml:lang="en">Bacchae (Βάκχαι, The Bacchae)</title>
+                <title xml:lang="pl">Bacchae (Βάκχαι, Bachantki)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">trag_31_bacchae</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Bacchae (Βακχαι, Bachantki)</title>, in Krzysztof Bielawski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Tragedia attycka</title>, Warszawa 2017, pp. 427-438</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="NAME">encoded document in XML</change>
+                <change when="2017" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Po wystawieniu <title>Orestesa</title> w 408 r. Eurypides opuścił Ateny. Ostatnie
+                        trzy lata tworzył na dworze <title>Archelaosa</title> w Macedonii. Napisał tam
+                        Archelaosa – poświęconą przodkowi swego gospodarza sztukę, która
+                        mogła być wystawiona w Dionie w nowo wybudowanym teatrze. Po
+                        śmierci w 406 r. pozostały po nim trzy sztuki: <title>Bachantki</title>, <title>Alkmeon</title> w <title>Koryncie</title>
+                        (dziś zaginiona) oraz niedokończona <title>Ifigenia w Aulidzie</title>. Wystawił
+                        je w Atenach syn (lub siostrzeniec) poety i – według leksykonu
+                        Suda (s.v. Εὐριπίδης) – zdobyły one pierwszą nagrodę.</p>
+                    <p>Interpretacja sztuki – jej koncepcja ideowa – nieustannie wywołuje
+                        polemiki i pozostaje w silnym związku z badaniami nad dionizyzmem,
+                        religią w ogóle i kultem (w tym także teorią i praktyką ofiary)<note n="59">Kompletną historię interpretacji <title>Bachantek</title> do roku 1964 podaje Merklin
+                            (1964: 30–39); późniejszy rozwój interpretacji zob Oranje (1984) i Turasiewicz
+                            (1994: 475–485).</note>. Trudność
+                        odnalezienia koncepcji ideowej <title>Bachantek</title> wiąże się bezpośrednio
+                        z dionizyjskim charakterem sztuki i jej związków z rytuałem. Zdaniem
+                        Romualda Turasiewicza (1994: 475) „element dionizyjski czyni z utworu
+                        swoisty kryptogram”. Kryptogram ten wywołuje pytania: „czy Eurypides
+                        był racjonalistą, czy irracjonalistą, realistą czy mistykiem, czy
+                        zmienił swą postawę z racjonalnej na irracjonalną, czy się nawrócił na
+                        bakchizm, czy był wierzącym, czy niewierzącym, czy temat theomachii
+                        – walki śmiertelnika z bogiem traktował poważnie czy niepoważnie,
+                        czy napisał tragedię wolną od wszelkich tendencji, a realizującą jedynie
+                        zamysł czysto artystyczny?” (ibidem, 476).</p>
+                    <p>Zagadkowość <title>Bachantek</title> podniósł już w 1908 r. Gilbert Norwood
+                        w książce o znaczącym tytule <title>The Riddle of Bacchae</title>. Praca ta kontynuuje
+                        zapoczątkowany już wcześniej przez Verralla (1895) pogląd o racjonalistycznym
+                        podejściu poety do opisywanej w dramacie rzeczywistości.
+                        Pogląd ten sugeruje, że Eurypides przekazał w swym utworze odbicie
+                        rzeczywistości wolne od interpretacji i subiektywnych sądów. Stanowisko
+                        takie prezentują też M.R. Glover (1929: 82–88), Edward M. Blaiklock
+                        (1952) i Donald Lucas (1955). Konsekwencją podejścia racjonalistycznego
+                        jest akcentowanie przez część badaczy krytycznego lub
+                        ironicznego stosunku poety do religii. Przekonanie takie prezentują
+                        prace Ştefana Bezdechiego (1931), Reginalda P. Winningtona-Ingrama
+                        (1948) oraz Leonarda Greenwooda (1953).</p>
+                    <p>Stanowisko przeciwne – akcentujące element irracjonalny w twórczości
+                        Eurypidesa – zajęli późniejsi badacze, wśród których szczególne
+                        miejsce należy przyznać Ericowi Doddsowi (1929: 97–104; 1940 i 1960).
+                        Uznał on Eurypidesa za „głównego przedstawiciela irracjonalizmu
+                        V wieku” (ibidem: 90). Próbę pogodzenia stanowisk racjonalistów i irracjonalistów
+                        stanowi praca Wilamowitza-Moellendorffa (1923). Uznał
+                        on, że poeta krytykował nie tyle bogów w ogóle, ile bogów tradycyjnych
+                        oraz że nie rezygnując bynajmniej z wolności rozumu, dawał wyraz
+                        wierze w istnienie irracjonalnych sił w ludzkiej duszy. Podobnie
+                        twierdził Hermann Reich (1921: 89–93), w dionizyjskim zainteresowaniu
+                        Eurypidesa dostrzegając owoc długotrwałej ewolucji jego wewnętrznej
+                        postawy. W ostatnim czasie stanowisko takie przedstawił
+                        Manuel de Oliveira Pulquéro (1987–1988: 25–41). Zdecydowanie odrzucił
+                        on tradycyjną „teologię” palinodii, teorię racjonalizmu oraz ideę
+                        „sztuki dla sztuki” w <title>Bachantkach</title>. Przyjął natomiast tezę nieustannego
+                        doskonalenia myśli religijnej u Eurypidesa i jej ewolucję skierowaną ku
+                        coraz czystszej koncepcji bóstwa. Podobnie Jeanne Roux (1970, vol. 1:
+                        71) uważa, że sztuka akcentuje napięcie między sophon – intelektualną
+                        wiedzą a dionizyjską sophia i tym samym skłania się ku interpretacjom
+                        rytualistycznym. Kontynuatorem skrajnie rytualistycznej interpretacji
+                        <title>Bachantek</title> Doddsa pozostaje dzisiaj Seaford (1981: 252–275; 1996: passim),
+                        a na gruncie polskim – Janusz Lewandowicz (2006).</p>
+                    <p>Nie zabrakło uczonych dystansujących się całkowicie od powyższych
+                        sporów i utrzymujących, że <title>Bachantki</title> są jedynie skutkiem czysto artystycznych
+                        zabiegów poety. Takie – ostatecznie bardzo redukcjonistyczne
+                        – stanowisko zajęli w swych pracach René Nihard (1912), Hubert Philippart
+                        (1925) i Lorenzo Cammelli (1932).</p>
+                    <p>Wbrew oczekiwaniom i wbrew powszechnej opinii o ważności
+                        i wyjątkowym miejscu <title>Bachantek</title> w twórczości Eurypidesa stosunkowo
+                        niewiele uwagi poświęcają temu dramatowi autorzy monografii
+                        o nim (np. Grube 1961 czy Vellacott 1975), jak i twórcy syntez dotyczących
+                        tragedii greckiej w ogóle, ograniczając się zazwyczaj do streszczenia
+                        jej fabuły (np. Sinko 1931; Kitto 1997; de Romilly 1994; Segal
+                        1997; Lesky 2006 czy Webster 1967).</p>
+                    <p>Obszerne i szczegółowe badania nad <title>Bachantkami</title> i dionizyzmem
+                        przeprowadził Hans Oranje (1984). Zwrócił uwagę, że dotychczasowe
+                        badania skupiały się raczej nad Dionizosem niż nad Penteuszem
+                        (1984: 7). Jego praca uzupełnia zaistniałą lukę, nie pomniejszając bynajmniej
+                        znaczenia boga w dramacie. Pierwszych pięć rozdziałów poświęca
+                        on postaci Penteusza, następne trzy – Dionizosowi, a pozostałe
+                        innym zagadnieniom.</p>
+                    <p>Ważny głos w dyskusji, tak nad ideą główną dramatu, jak i nad stosunkiem
+                        jego autora do religii i wiary przypada Turasiewiczowi, który
+                        syntezę dotychczasowych badań oraz ich oryginalne rozwiązanie zawarł
+                        w dwóch opracowaniach: <title>Między pobożnością a bezbożnością. Studium
+                        religii w dramacie Eurypidesa</title> (1995) oraz: <title>W poszukiwaniu koncepcji
+                        ideowej dramatu: „Bachantki” Eurypidesa </title>(1994). Obszerne omówienie historii
+                        badań nad <title>Bachantkami</title> daje też monografia Czerwińskiej (1999:
+                        183–207) oraz opracowanie Janusza Lewandowicza (2006: passim).
+                        Znakomitą interpretację bakchizmu i Eurypidesowych <title>Bachantek</title> dał
+                        Jan Kott w zbiorze esejów <title>Zjadanie bogów</title> (1986: 190–234)<note n="60">Wcześniej, kiedy przez naukę przetaczała się dyskusja nad <title>Bachantkami</title>,
+                            dramat Eurypidesa tylko w niewielkiej mierze przyciągał uwagę polskich uczonych,
+                            najwięcej uwagi poświęcił im Tadeusz Zieliński (1902, 1923 i 1937). Wiele
+                            miejsca poświęcił też tym zagadnieniom Stanisław Schneider w pracy: <title>Ze studiów
+                            mitologicznych i ludoznawczych </title>(1917: 110–127: rozdział <title>Religia Dionizosa</title>).</note>. Wszystkie
+                        te opracowania koncentrują się głównie na poszukiwaniu odpowiedzi
+                        na pytanie o związki tekstu Eurypidesa z rzeczywistym rytuałem religijnym
+                        i grecką religią w ogóle. O ile wszystkie podejmują pytanie
+                        o jego religijność i formy współczesnego mu życia religijnego, o tyle
+                        problematyka ofiary w <title>Bachantkach</title> pozostaje w nich marginalna, stanowi
+                        część religijnego tła, nawet skrajnie rytualistycznych interpretacji,
+                        pozostając pod przemożnym wpływem wstępu Doddsa do jego
+                        edycji dramatu. Intrygujące, że mimo skrajnie rytualistycznej interpretacji
+                        – z rytualnymi sparagmos i omophagia w centrum – termin „ofiara”
+                        (sacrifice) nie występuje w indeksie rzeczowym, interpretacja „ofiarna”
+                        jest jakby ramą modalną wszelkiej hermeneutyki aplikowanej do
+                        badań nad utworem, jest jednocześnie wszechobecna, jak i nieobecna,
+                        nieuchwytna. Bernd Seidensticker (1979: 190) trafnie uchwycił ten
+                        problem, mówiąc o „wzorcu ofiarnym” („sacrifice-pattern”) obecnym
+                        „poza akcją dramatyczną” („behind the dramatic action”). Jego zdaniem
+                        – w wizji zależnej w swej istocie od koncepcji Burkerta – Eurypides
+                        wskazuje na „istotę tragedii jako zrytualizowanej ofiary” („the
+                        essence of tragedy as ritualized sacrifice”).</p>
+                    <p>„Ofiarną” interpretację <title>Bachantek</title> zaproponował już w roku 1894
+                        A.G. Bather (1894: 258). Penteusz według niego jest składany w ofierze
+                        „za lud” jako kozioł ofiarny – pharkmakos – i tej koncepcji podporządkowane
+                        są wszystkie inne elementy obrzędowe tak w sztuce, jak
+                        i w rekonstruowanej na jej podstawie postaci „rzeczywistego” kultu
+                        Dionizosa (zob. Daraki 1980 i Halm-Tisserant 2004).</p>
+                    <p>W komentowanym wydaniu Seaforda indeks rzeczowy notuje
+                        167 wersów z odniesieniem do hasła „sacrifice” (Seaford 1996:
+                        269). W niektórych przypadkach jest ono całkowicie niezrozumiałe,
+                        a problem ofiary nie pojawia się nawet w komentarzu do wskazanych
+                        wersów (jak w w. 112, 723–724), w innych – niejasne i niewyjaśnione
+                        (jak np. w w. 139 z nawiązaniem do omofagii i picia krwi
+                        kozła czy w w. 746–747 z chybionym porównaniem rozrywania skór
+                        przez bachantki do sprawności Orestesa w skórowaniu zabitej ofiary
+                        w E. El. 824–825), w jeszcze innych – niejednoznaczne i budzące bardzo
+                        odległe skojarzenia ufundowane na przedmyślanej ramie hermeneutycznej,
+                        w której centralną strukturą interpretacyjną jest rytuał ofiarny
+                        (jak np. w. 493–494 z odniesieniem do obcinania włosów i ich układania
+                        w w. 934). Rytualizująca niemal każdy aspekt dramatu Eurypidesa
+                        praktyka interpretacyjna Seaforda doczekała się obszernej krytycznej
+                        odpowiedzi Rainera Friedricha (2000: 115–152), który przekonująco
+                        podkreśla, że nie należy stosować rytuału jako struktury do nierytualnych
+                        fenomenów (ibidem: 149: „ritual as structure to non-ritual phenomena”).
+                        Zestawienie indeksów i komentarza Seaforda z rzeczywistym
+                        zastosowaniem leksyki ofiarniczej wzmacnia to krytyczne stanowisko.</p>
+                    <p>Jak wynika z zamieszczonego poniżej komentarza, bezpośrednich
+                        leksykalnych odniesień do ofiary krwawej jest w dramacie zdumiewająco
+                        mało – obejmuje on zaledwie pięć passusów, łącznie szesnaście
+                        wersów, w których zaledwie dziewięć słów można zaklasyfikować do
+                        leksykonu technicznego języka ofiary. To bardzo zastanawiająca statystyka.
+                        Ofiara jest w <title>Bachantkach</title> równocześnie osią, kanwą i podstawową
+                        metaforą interpretacyjną (nawet jeśli nie sympatyzować w pełni
+                        z przesadzoną wizją Seaforda), jak i bodaj najsłabiej ze wszystkich Eurypidesowych
+                        tekstów obecną w warstwie leksykalnej rzeczywistością.</p>
+                    <p>Obecność „rytuału ofiarnego” w <title>Bachantkach</title> opracował szczegółowo
+                        Seidensticker (1979: 181–190; zob. też omówienie i znaczne rozszerzenie
+                        tego tekstu w: Lewandowicz 2006: 275–293). Przedstawiam to
+                        opracowanie poniżej, w formie opisowej jako element wstępu do komentowanej
+                        sztuki, a nie w samym komentarzu, ponieważ jest to interpretacja
+                        polegająca na zestawieniu narracji sztuki z określoną, z góry
+                        przyjętą wizją rytuału ofiarnego w wersji Meuliego i Burkerta i akcentowaniu
+                        występujących w tych dwóch planach p o d o b i e ń s t w. Istotą
+                        tej interpretacji jest przyjęcie zamierzonego przez poetę wywoływania
+                        u publiczności ciągu skojarzeń i podobieństw między losem Penteusza
+                        i rytem ofiarnym. U jej podstaw leży też zaproponowana przez Doddsa
+                        we wprowadzeniu do edycji <title>Bachantek</title> (1960: xi–xxv) rekonstrukcja
+                        religii dionizyjskiej z rytami sparagmosu i omofagii. Ogromna większość
+                        tych wyjaśnień nie znajduje żadnego potwierdzenia w materiale
+                        leksykalnym dramatu i ich uwzględnienie w strukturze komentarza
+                        do teksu jest zwyczajnie niemożliwe. Dlatego zamieszczam poniżej jedynie
+                        skrótowe objaśnienie tej teorii.</p>
+                    <p>Bernd Seidensticker i Janusz Lewandowicz zwracają uwagę na następujące
+                        elementy procesu ofiarnego w tekście Eurypidesa:
+                        • przystrajanie ofiary, mające swoje odbicie w scenie przebierania
+                        Penteusza (821–836, 857–859, 928–934, 1116–1117, 1139–1142);
+                        w interpretacji „ofiarnej” Penteusz przeistacza się „z potężnego
+                        prześladowcy w bezsilną ofiarę” (Kalke 1985: 411; zob. też Kott
+                        1986: 195). Lewandowicz (2006: 280) sugeruje wprost, że użyty
+                        w wersie 934 (<w>ἰδού</w>, <w>σὺ</w> <w>κόσμει</w>· <w>σοὶ</w> γὰρ <w>ἀνακείμεσθα</w> δή – „oto
+                        ty przyozdabiaj, a ja oddaję się tobie”) czasownik ἀνακεῖμαι
+                        (w funkcji passivum dla <w>ἀνατίθημι</w>) stanowi „termin techniczny
+                        na oznaczenie czynności ofiarniczej” (2006: 280; na temat <w>κοσμεῖν</w>
+                        w <title>Bachantkach</title> wraz z komentarzem do tego wersu zob. Gold 1977:
+                        3–15, zwłaszcza 11) i że kontekst „określa właśnie to znaczenie”
+                        i że wraz z tą deklaracją Penteusz staje się „ofiarą poświęconą Dionizosowi
+                        za całe miasto” (ibidem). Seaford (1996: 224) idzie jeszcze
+                        dalej i słowa Penteusza uznaje za deklarację stania się „dobrowolną”
+                        ofiarą (na temat teorii „dobrowolności” i „skinień” zob. komentarz
+                        do E. <title>IA</title> 1547–1556 wraz z krytyką powszechnie przyjmowanych
+                        stanowisk Meuliego i Burkerta). Trudno jednak nie
+                        zwrócić uwagi, że w scenie tej nic, co mówi i robi Penteusz, nie
+                        jest „dobrowolne”, ponieważ jest on pozbawiony woli i w ogóle
+                        możliwości oceny rzeczywistości. W wersie tym zwyczajnie powierza
+                        się on nieznajomemu, z którym rozmawia, aby uzyskać
+                        jak najlepszy wygląd. Dostrzegane przez komentatorów double
+                        meaning może stanowić dalekie echo języka ofiarnego, do którego
+                        ἀνακεῖμα oczywiście należy, jednak klucz, według którego Penteusz
+                        używa technicznego języka ofiary, jest nie do obronienia. „Dobrowolność”
+                        Penteusza jako ofiary dostrzega Seidensticker (1979:
+                        184; por. Lewandowicz 2006: 284) także w jego chęci wspięcia się
+                        na jodłę.
+                        • prowadzenie ofiary w procesji z odniesieniem do wersów 1043–
+                        –1047 i drogą Penteusza na Kitajron, interpretowany jako „ołtarz”
+                        (Lewandowicz 2006: 283) pod przewodnictwem Dionizosa, który
+                        jest <w>πομπὸς</w> <w>σωτήριος</w> (w. 965);
+                        • odmówienie modlitwy, zachowanie ciszy, rzucanie krup jęczmiennych
+                        z odniesieniem odpowiednio do wersów 1078–1081 (modlitwa),
+                        1084–1087 (cisza i skupienie), 1088–1100 (obrzucanie ofiary
+                        – tu: tyrsami, kamieniami, gałęziami). Interpretatorzy zwracają też
+                        uwagę na współudział wszystkich menad w składaniu „ofiary”
+                        (Seidensticker 1979: 186) oraz na związek ofiary z polowaniem jako
+                        „najstarszą formą rytuału” (Lewandowicz 2006: 284–285);
+                        • odprawienie obrzędów wstępnych ofiary z odwołaniem do wersu
+                        1114 (<w>πρώτη</w> δὲ <w>μήτηρ</w> <w>ἦρξεν</w> <w>ἱερέα</w> <w>φόνου</w>, zob. komentarz poniżej),
+                        który przypomina obrzęd katarche przez liczebnik <w>πρώτη</w>
+                        i czasownik <w>ἄρχεσθαι</w>;
+                        • wzniesienie rytualnego okrzyku ololoyge (w. 1133: <w>ἠλάλαζον</w>);
+                        • podział ofiary i uczta z odniesieniem do sparagmosu <title>Penteusza</title>
+                        w wersach 1125–1139;
+                        • przyniesienie głowy ofiary z odniesieniem do wersów 1212–1215
+                        i 1238–1240;
+                        • poszukiwanie „winnego” mordu na ofierze po wybudzeniu się
+                        Agaue z szału.</p>
+                    <p>Wszystkie te dane uporządkowane zostały przez interpretatorów
+                        w taki sposób, by kolejne sceny <title>Bachantek</title> odpowiadały dokładnie teorii
+                        ofiary w wersji Burkerta, a Seidensticker (1979: 188) wprost stwierdza
+                        po przeprowadzeniu swojej analizy, że Eurypides „świadomie
+                        i nieustannie wzywa publiczność” („deliberately and constantly calls
+                        upon the audience”) „do dostrzeżenia i zrozumienia” („to see and understand”),
+                        że jego tragedia jest w wymiarze dramatycznym i emocjonalnym
+                        „ofiarą” („as sacrifice”).</p>
+                    <p>Widoczna w przekładach i interpretacjach kategoria ofiary
+                        w <title>Bachantkach</title> nie zawsze odnosi się do ofiary krwawej związanej
+                        z Dionizosem. Na przykład w wersie 313 Tejrezjasz wzywa Penteusza
+                        do składania ofiar Dionizosowi (<w>σπένδε</w>), ale mówi o ofiarach
+                        płynnych – spondai – zapewne z wina, co wynika z wersu 284, gdzie
+                        mowa jest o tym, że to sam Dionizos pod postacią wina jest składany
+                        (wylewany) innym bogom na ofiarę (<w>οὗτος</w> <w>θεοῖσι</w> <w>σπένδεται</w>
+                        <w>θεὸς</w> <w>γεγώς</w>).</p>
+                    <p>Tekst według wydania: Dodds (1960).</p>
+                </div>
+                <div type="textpart" n="Bacchae_255-257">
+                    <head>Bacchae 255-257</head>
+                    <p>Słowa z mowy Penteusza, skierowane do Tejrezjasza, który ukazuje
+                        się na scenie w towarzystwie Kadmosa. Penteusz obarcza odpowiedzialnością
+                        Tejrezjasza za szaleństwo i dziwne zachowanie swego
+                        dziadka, Kadmosa, który – zdaniem Penteusza – reprezentuje „starość
+                        bezrozumną” (τὸ <w>γῆρας</w> […] <w>νοῦν</w> <w>οὐκ</w> <w>ἔχον</w>), oddając się dziwnym
+                        praktykom w kulcie nowego boga. Zarzuca wieszczkowi działanie powodowane
+                        wyłącznie interesem i nadzieją na zyski z wróżenia – z ofiar
+                        płynnych i ze spalania ofiar (<w>ἔμπυρα</w>). Empyra są związane z ofiarą
+                        krwawą i stanowią część procedury ofiarnej – polegają na pozyskiwaniu
+                        znaków wróżebnych z zachowania ognia na ołtarzu i sposobu
+                        spalania części zwierząt ofiarnych. Penteusz sugeruje, że nowy kult
+                        domaga się takich ofiar (więcej zob. komentarz do S. <title>Ant</title>. 1008–1009
+                        i 1020 oraz A. <title>Pr</title>. 498).</p>
+                    <quote><lb n="255"/>σὺ ταῦτ᾽ ἔπεισας, Τειρεσία· τόνδ᾽ αὖ θέλεις
+                        <lb/>τὸν δαίμον᾽ ἀνθρώποισιν ἐσφέρων νέον
+                        <lb/>σκοπεῖν πτερωτοὺς κἀμπύρων μισθοὺς φέρειν.</quote>
+                    <quote><lb n="255"/>Ty go do tego namówiłeś, Tejrezjaszu! Chcesz,
+                        <lb/>Przynosząc to nowe bóstwo ludziom,
+                        <lb/>Odnosić zyski z badania lotu ptaków i spalania ofiar.</quote>
+                </div>
+                
+                <div type="textpart" n="Bacchae_794-797">
+                    <head>Bacchae 794-797</head>
+                    <p>Wymiana zdań między Penteuszem i nierozpoznanym nadal
+                        przez niego Dionizosem z epeisodionu trzeciego, po wysłuchaniu
+                        opowieści posłańca na temat zachowania bachantek w górach i rozdarcia
+                        na strzępy stada krów. Reakcją króla jest nakaz zbrojnego
+                        wyruszenia przeciwko szalejącym kobietom. Dionizos przekonuje
+                        go delikatnie, by odstąpił od tego planu i raczej złożył ofiarę nowemu
+                        bogu, na co Penteusz odpowiada zapowiedzią złożenia ofiary na
+                        zboczach Kitajronu z krwi bachantek oddających cześć Dionizosowi.
+                        Pierwszoosobowa wypowiedź Dionizosa w optatiwach (<w>θύοιμ</w>᾽
+                        ἂν αὐτῷ) jest formą subtelnej perswazji. Dionizos sugeruje złożenie
+                        ofiary, używając neutralnego czasownika <w>θύειν</w>, który może odnosić
+                        się w równym stopniu do ofiary krwawej, jak i płynnej (por. w. 313)
+                        czy jakiejkolwiek innej bezkrwawej. Penteusz, odpowiadając, również
+                        używa tego samego czasownika, ale natychmiast precyzuje,
+                        że spełni <w>πολὺν</w> <w>φόνον</w> <w>θῆλυν</w> – „obfitą, kobiecą zbrodnię”. Swoją
+                        zemstę na szalejących kobietach – ich zamordowanie – interpretuje
+                        w kategoriach ofiary krwawej. Trudno sądzić, żeby taka religijna
+                        interpretacja była zamierzona, raczej jest to butna odpowiedź na wezwanie
+                        Dionizosa do złożenia ofiary i posłużenie się w odpowiedzi
+                        takim samym językiem (Dodds 1960: 173: „Sacrifice? Yes, of women’s
+                        blood, as they deserve”).</p>
+                    <quote><lb/><emph>ΔΙΟΝΥΣΟΣ</emph>:
+                        <lb/>θύοιμ᾽ ἂν αὐτῷ μᾶλλον ἢ θυμούμενος
+                        <lb n="795"/>πρὸς κέντρα λακτίζοιμι θνητὸς ὢν θεῷ.
+                        <lb/><emph>ΠΕΝΘΕΥΣ</emph>:
+                        <lb/>θύσω, φόνον γε θῆλυν, ὥσπερ ἄξιαι,
+                        <lb/>πολὺν ταράξας ἐν Κιθαιρῶνος πτυχαῖς.</quote>
+                    <quote><lb/><emph>DIONIZOS</emph>:
+                        <lb/>Raczej złożyłbym mu ofiarę, niż w gniewie
+                        <lb n="795"/>Wierzgał przeciwko ościeniowi, jako śmiertelnik – bogu.
+                        <lb/><emph>PENTEUSZ</emph>:
+                        <lb/>Złożę ofiarę, krwi kobiecej, jak na to zasługują,
+                        <lb/>Mnóstwo wyleję, na zboczach Kitajronu.</quote>
+                    <p>COMMENTARY DIVIDED INTO PARAGRAPHS</p>
+                </div>
+                
+                <div type="textpart" n="Bacchae_857-859">
+                    <head>Bacchae 857-859</head>
+                    <p>Słowa Dionizosa zamykające epeisodion trzeci i zapowiadające
+                        śmierć Penteusza z rąk Agaue. Passus zawiera dwie kwestie istotne
+                        z punktu widzenia ofiary krwawej. Pierwszą jest zapowiedziane przebranie
+                        Penteusza przed wyprawą do bachantek, o którym tutaj Dionizos
+                        mówi w kategoriach „zdobienia” (<w>κόσμον</w>), co kieruje uwagę na ryty
+                        przygotowawcze ofiary: ozdabianie zwierzęcia ofiarnego tasiemkami
+                        i wieńcami. Penteusz jest od tej chwili traktowany przez Dionizosa jak
+                        ofiara. Po drugie: w tej perspektywie szczególnego znaczenia nabiera
+                        też użyty przez Dionizosa czasownik <w>κατασφάζειν</w> (w aorystalnej formie
+                        imiesłowowej: <w>κατασφαγείς</w>). Czasownik ten oznacza w pierwszej
+                        kolejności „powalić na ziemię przez poderżnięcie gardła”, „zabić”, jednak
+                        jest związany z językiem ofiary krwawej, gdyż opisuje precyzyjnie
+                        proces zabijania zwierzęcia ofiarnego (zob. komentarze do A. <title>Eu</title>. 102
+                        i E. <title>Tr</title>. 483<note n="61">Poza tymi miejscami czasownik ten występuje w tragedii jeszcze tylko
+                            w Edypie królu, w. 730 w odniesieniu do zabójstwa Lajosa, bez jakichkolwiek konotacji
+                            ofiarnych.</note>). Jest to bez wątpienia użycie terminu związanego z ofiarą
+                        krwawą w ten sposób, że obydwa poziomy sensu – ogólny, neutralny
+                        („zabić”) i techniczny („zabić na ofiarę”) – wzajemnie się przenikają.</p>
+                    <quote><lb/>ἀλλ᾽ εἶμι κόσμον ὅνπερ εἰς Ἅιδου λαβὼν
+                        <lb/>ἄπεισι μητρὸς ἐκ χεροῖν κατασφαγείς,
+                        <lb/>Πενθεῖ προσάψων· γνώσεται δὲ τὸν Διός.</quote>
+                    <quote><lb/>Lecz idę, wziąwszy ze sobą ubiór, którym odziany do Hadesu
+                        <lb/>odejdzie zarżnięty rękami matki
+                        <lb/>Penteusz. I wtedy pozna syna Zeusa.</quote>
+                    <p>COMMENTARY DIVIDED INTO PARAGRAPHS</p>
+                </div>
+                
+                <div type="textpart" n="Bacchae_1114-1115">
+                    <head>Bacchae 1114-1115</head>
+                    <p>Słowa z opisu śmierci Penteusza w mowie posłańca, z których
+                        wynika, że Agaue, matka Penteusza, jako pierwsza przystąpiła jako
+                        „kapłanka” (<w>ἱερέα</w>) do mordu (<w>φόνου</w>) – tutaj, i tylko tutaj nazwanego
+                        „morderczą ofiarą”.</p>
+                    <quote>lb/>πρώτη δὲ μήτηρ ἦρξεν ἱερέα φόνου
+                        <lb n="1115"/>καὶ προσπίτνει νιν·</quote>
+                    <quote><lb/>Matka jako pierwsza rozpoczęła mord jako kapłanka
+                        <lb n="1115"/>I skoczyła na niego.</quote>
+                    <p>1114: <w>ἦρξεν</w> <w>ἱερέα</w> <w>φόνου</w> – „rozpoczęła mord jako kapłanka”.
+                        <w>Ἱερέα</w> = <w>ἱέρεια</w> (zob. Dodds 1960: 216 z podaniem wystąpień analogicznych).
+                        Posłaniec relacjonuje mord na Penteuszu w kategoriach rytuału
+                        i ofiary oraz przedstawia Agaue jako kapłankę, tutaj wyraźnie
+                        w znaczeniu tego, kto dokonuje aktu zabicia ofiary. „Kapłan/kapłanka”
+                        w kontekście ofiary może oznaczać albo tego, kto zabija zwierzę,
+                        albo tego, kto przewodniczy obrzędowi ofiarnemu; w terminologii
+                        Detienne’a i Vernanta (1989: 11) są to odpowiednio francuskie sacrificateur
+                        (w przywołanym przekładzie angielskim: sacrificer) oraz sacrifiant
+                        (angielskie sacrifier). Seaford (1996: 238) zwraca uwagę na fakt, że aktu
+                        zabijania ofiary dokonywał „prawie zawsze” mężczyzna i że w tym
+                        passusie spełnienie ofiary przez kobietę zwielokrotnia „anormalność
+                        tej zaburzonej ofiary” („belongs to the multiple anomaly of this disordered
+                        sacrifice”), co jednak pozostaje w sprzeczności z ustaleniami
+                        Osborne’a (1993: 392–405) i Henrichsa (1978: 148–150) – ofiary spełniane
+                        przez kobiety nie były w świecie greckim „anormalne”, zwłaszcza
+                        w kontekście menadyzmu. Zarówno w przekonaniu samej Agaue,
+                        jak i w relacji posłańca, matka Penteusza rzeczywiście j e s t kapłanką
+                        w rytuale ofiarnym, a Penteusz j e s t ofiarą.</p>
+                </div>
+                
+                <div type="textpart" n="Bacchae_1244-1237">
+                    <head>Bacchae 1244-1247</head>
+                    <p>Słowa Kadmosa z eksodosu, skierowane do Agaue, która – nadal
+                        w szale – z dumą z udanych łowów zaprasza wszystkich na ucztę ofiarną,
+                        nie rozpoznając jeszcze głowy własnego syna we własnych rękach.</p>
+                    <quote><lb/>ὦ πένθος οὐ μετρητὸν οὐδ᾽ οἷόν τ᾽ ἰδεῖν,
+                        <lb n="1245"/>φόνον ταλαίναις χερσὶν ἐξειργασμένων.
+                        <lb/>καλὸν τὸ θῦμα καταβαλοῦσα δαίμοσιν
+                        <lb/>ἐπὶ δαῖτα Θήβας τάσδε κἀμὲ παρακαλεῖς.</quote>
+                    <quote><lb/>O bólu niezmierzony i straszny dla oczu,
+                        <lb n="1245"/>Zbrodnio, spełniona nieszczęsnymi rękami!
+                        <lb/>Piękną ofiarę złożywszy bóstwom
+                        <lb/>Na ucztę zwołujesz Teby i mnie.</quote>
+                    <p>1246: τὸ <w>θῦμα</w> <w>καταβαλοῦσα</w> – „złożywszy ofiarę”, dosłownie „powaliwszy
+                        na ziemię zwierzę ofiarne”. <w>Καταβάλλειν</w> – „powalić”, „rzucić
+                        na ziemię”. Taka sama fraza zob. E. <title>Or</title>. 1603. Seaford (2001: 246; podobnie:
+                        Dodds 1960: 228) zastanawia się nad znaczeniem tej frazy, proponując
+                        albo „to strike down”, albo „to pay”. Ta druga propozycja wydaje
+                        mi się w tym jednoznacznym kontekście zupełnym nieporozumieniem.
+                        U Hesychiosa <w>καταβολή</w> (s.v.) jest utożsamione z <w>θυσία</w> i <w>τελετή</w>.</p>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Orestes (Ὀρέστης, Oreste)</title>
+                <title xml:lang="en">Orestes (Ὀρέστης, Orestes)</title>
+                <title xml:lang="pl">Orestes (Ὀρέστης, Orestes)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">trag_30_orestes</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Orestes (Ὀρέστης, Orestes)</title>, in Krzysztof Bielawski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Tragedia attycka</title>, Warszawa 2017, pp. 415-425</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaia Fanelli">encoded document in XML</change>
+                <change when="2017" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p><title>Orestes</title> jest ostatnią sztuką Eurypidesa wystawioną przez niego osobiście
+                        w Atenach przed ich opuszczeniem. Według scholium do wersu
+                        371 została wystawiona w roku 408 i należy do najpopularniejszych
+                        i najczęściej wystawianych po jego śmierci dzieł poety (West 1997: 26;
+                        Lesky 2006: 529; Webster 1967: 247). Zdaniem Westa (1987: 27) sztuka
+                        stanowi „kulminację artystycznego rozwoju Eurypidesa”.</p>
+                    <p>Śmierć przenika niemal każdy wers tej sztuki. Wszyscy bohaterowie
+                        albo mają umrzeć – jak Orestes i Elektra, albo radzą nad czyjąś
+                        śmiercią – jak rada miasta Argos, albo planują czyjąś śmierć – jak Pylades
+                        z Orestesem, albo wreszcie wspominają inne śmierci – jak chór
+                        i wszystkie po kolei postaci dramatu. Najczęściej pojawiają się terminy
+                        <w>θάνατος</w> i <w>θνήσκειν</w> (dziewięćdziesiąt razy), <w>φονεύειν</w> i <w>φόνος</w> (siedemdziesiąt
+                        dziewięć razy) <w>κτείνει</w> (trzydzieści siedem razy) oraz ich
+                        pochodne, we wszystkich możliwych formach.</p>
+                    <p>Kiedy Elektra w prologu mówi o śmierci Agamemnona z rąk
+                        Klitajmestry, używa czasownika <w>κτείνειν</w> (w. 25–26: ἣ <w>πόσιν</w> […] /
+                        <w>ἔκτεινεν</w>), tak samo – o mordzie Orestesa na Klitajmestrze (w. 29–30:
+                        Ὀρέστην <w>μητέρ</w>᾽ ἥ σφ᾽ ἐγείνατο / <w>κτεῖναι</w>). Ale już kilka wersów niżej
+                        mówi, że matka zmarła od „ciosów” i tutaj występuje rzeczownik
+                        <w>σφαγαί</w> (w. 39–40: ἐξ ὅτου <w>σφαγαῖς</w> / <w>θανοῦσα</w> <w>μήτηρ</w>). Orestes
+                        w monologu po przebudzeniu wspomina wyrocznię Apollona i ponownie
+                        mówi tylko o „zabijaniu” (w. 289: μητέρ᾽ εἰ <w>κτεῖναι</w> <w>χρεών</w>),
+                        a Menelaos – o „śmierci” (w. 361: <w>θάνατον</w>) Agamemnona oraz „mordzie”
+                        na Klitajmestrze (w. 374: <w>φόνον</w>).</p>
+                    <p>Helena w rozmowie z Elektrą w prologu nazywa Orestesa „mordercą”
+                        matki (w. 74: <w>φονεύς</w>), tak samo nazywa sam siebie Orestes
+                        (w. 392). Elektra w parodosie (w. 164–165) określa jego czyn
+                        „straszliwym mordem” (<w>ἀπόφονος</w> <w>φόνος</w>). W mowie Tyndareosa
+                        każdy z ciągu mordów jest nazywany <w>φόνος</w> (w. 510–517).</p>
+                    <p>W tej perspektywie terminologia związana ze śmiercią ofiarną
+                        i metaforyką ofiary występuje w tekście niezwykle rzadko. Interpretacje
+                        śmierci Agamemnona, Klitajmestry – czy też spodziewanej
+                        śmierci Orestesa i Elektry – jako „ofiar” pojawiają się akcydentalnie.
+                        Jednak w kilku miejscach bardzo jednoznacznie i bezpośrednio, z tej
+                        też racji odnotowania wymagają wszystkie „nierytualne” użycia słów
+                        związanych z ofiarą krwawą, zwłaszcza pochodzących od czasownika
+                        σφάζειν, lub też przywołujących opisowo rytuał ofiarny i związane
+                        z nim przedmioty, takie jak miecz ofiarny.</p>
+                    <p>Tekst kilkakrotnie wspomina obrzędy nagrobne, bez ofiary krwawej
+                        (Helena o grobie swojej siostry Klitajmestry, w. 96: <w>κόμης</w> <w>ἀπαρχὰς</w>
+                        καὶ <w>χοὰς</w> <w>φέρουσ</w>' ἐμάς; 113: καὶ <w>λαβὲ</w> <w>χοὰς</w> τάσδ᾽ ἐν <w>χεροῖν</w> <w>κόμας</w>
+                        τ᾽ ἐμάς; 124–125: <w>σπεῦδε</w> καὶ <w>χοὰς</w> <w>τάφῳ</w> / <w>δοῦσ</w>᾽; Menelaos o tym samym
+                        grobie, 471–472; 1187 – o Hermionie na grobie matki).</p>
+                    <p>Tekst według wydania: West (1987).</p>
+                </div>
+                <div type="textpart" n="Orestes_51">
+                    <head>Orestes 51</head>
+                    <p>Elektra w prologu opowiada o losie matkobójców – swoim i Orestesa,
+                        czekających na wyrok rady Argos decydującej o ich losie. Zastanawia
+                        się, czy zostaną skazani na ukamienowanie, czy też zabici ciosem miecza.
+                        Passus ten nie zawiera bezpośredniego nawiązania do terminologii
+                        ofiarniczej – wykorzystuje odległe i metaforyczne skojarzenia z krwawym
+                        rytuałem przez przywołanie miecza używanego przy ofiarach
+                        (<w>φάσγανον</w>) i cięcia szyi (ἐπ᾽ <w>αὐχένος</w>, por. komentarz do S. <title>Aj</title>. 298).</p>
+                    <quote><lb/>[…] ἢ φάσγανον θήξαντ᾽ ἐπ᾽ αὐχένος βαλεῖν […]</quote>
+                    <quote><lb/>[…] Czy też miecz wyostrzony spadnie na kark […]</quote>
+                </div>
+                
+                <div type="textpart" n="Orestes_191-193">
+                    <head>Orestes 191-193</head>
+                    <p>Słowa Elektry z drugiej antystrofy parodosu, w której rozpacza
+                        nad losem swego brata i swoim, przewiduje śmierć Orestesa, który odmawia
+                        przyjmowania pokarmu od sześciu dni (w. 39). Po raz kolejny
+                        też (wcześniej: w. 29, 76, 121 i 164–165, później: w. 276, 285–286, 416,
+                        594, 955–956; zob. Gibert 2003: 160) przypomina wyrocznię Apollona,
+                        który nakazał mord Klitajmestry. W tych słowach parodosu Elektra
+                        przedstawia siebie i Orestesa jako tych, których Apollon expressis verbis
+                        „złożył w ofierze” – <w>ἐξέθυσε</w>.</p>
+                    <quote><lb/>ἐξέθυσ᾽ ὁ Φοῖβος ἡμᾶς
+                        <lb/>μέλεον ἀπόφονον αἷμα δοὺς
+                        <lb/>πατροφόνου ματρός.</quote>
+                    <quote><lb/>Złożył nas w ofierze Fojbos,
+                        <lb/>Dawszy [nam przelać] żałosną, zbrodniczą krew
+                        <lb/>Ojcobójczej matki.</quote>
+                    <p>191: <w>ἐξέθυσ</w>᾽ ὁ <w>Φοῖβος</w> <w>ἡμᾶς</w> – „złożył nas w ofierze Fojbos”. Znaczenie
+                        złożonego czasownika <w>ἐκθύειν</w> (zwłaszcza w stronie czynnej,
+                        jak tutaj) nie jest oczywiste i (zob. obszerny komentarz do S. <title>El</title>. 572)
+                        można nawet dyskutować, czy w ogóle jest ono możliwe do precyzyjnego
+                        określenia wobec ubóstwa źródeł (zob. Gibert 2003, zwłaszcza
+                        rozdział The Meaning of <w>ἐκθύειν</w>, 167–172). Czasownik nie występuje
+                        często, poza omawianym passusem jeszcze tylko w E. <title>Cyc</title>. 371
+                        i w S. <title>El</title>. 572 oraz trzykrotnie na inskrypcjach z Kos z III w. p.n.e. (Paton,
+                        Hicks 1891: nr 44.2; 382.10; 384.3). We wszystkich tych miejscach
+                        trudno wyśledzić jakiekolwiek różnice semantyczne między nim a nieprefiksowanym
+                        θύειν. Jednak z komentarza Willinka (1986: 191–193)
+                        do tego wersu wynika, że <w>ἐκθύειν</w> oznacza tutaj dokładnie to samo, co
+                        czasownik <w>σφάζειν</w>, podobnie zresztą jak z komentarza Westa (1987:
+                        194) – że słowo to sugeruje physical slaughter; obydwa te stanowiska
+                        trudno uznać za przekonywające (Gibert 2003: 167 uznaje je taktownie
+                        za „too casual”). Różnic semantycznych między <w>θύειν</w> i <w>ἐκθύειν</w>
+                        doszukiwano się albo w emfazie, wzmocnieniu znaczenia czasownika
+                        podstawowego (tak Jebb w swojej edycji Sofoklesa oraz Finglass 2007:
+                        270), albo – wprost przeciwnie – w jego osłabieniu (tak Casabona 1966:
+                        96–97: „dans <w>ἐκθύω</w>, l’idée de sacrifice n’est pas absente, mais passe au
+                        second plan”). Czasownik złożony ἐκθύειν może mieć inne znaczenie
+                        niż θύειν, jeśli występuje w stronie zwrotnej (Gibert 2003: 167–172;
+                        za nim Finglass 2007: 270) i oznacza wówczas „przebłagać za pomocą
+                        ofiary”. W komentowanym passusie jednak występuje w stronie
+                        czynnej i wydaje się, że jest to synonim dla <w>θύειν</w>, którego nie można
+                        jednak brać dosłownie, ponieważ – jak zauważa Gibert (2003: 172) –
+                        „bogowie nie składają ofiar”.</p>
+                    <p>Czy mimo to ta poetycka strofa może zawierać jakikolwiek realnie
+                        ofiarny sens i kontekst? Czy jest czymś więcej niż metaforą śmierci?
+                        Wydaje się, że nie. „Złożył w ofierze”, czyli „przeznaczył nas na ofiarę”,
+                        to znaczy – po prostu wydał, skazał nas na śmierć. Tym, co łączy
+                        los zwierzęcia zabijanego na ofiarę z losem Elektry i Orestesa – jest
+                        sama śmierć. Są oni tak samo „zakazani” i „przeznaczeni” na śmierć,
+                        jak zwierzę, którego los jest przesądzony w chwili wskazania go na
+                        ofiarę.</p>
+                </div>
+                
+                <div type="textpart" n="Orestes_291">
+                    <head>Orestes 291</head>
+                    <p>Orestes w rozmowie z Elektrą – ponownie spycha winę za swój
+                        czyn matkobójcy na Apollona i jego wyrocznię oraz wyobraża sobie
+                        rozmowę z ojcem, Agamemnonem, przekonany, że ten błagałby syna,
+                        żeby nie zabijał matki.</p>
+                    <quote><lb/>[…] μήποτε τεκούσης ἐς σφαγὰς ὦσαι ξίφος.</quote>
+                    <quote><lb/>[…] Żebym nigdy nie pchnął miecza w gardło matki.</quote>
+                    <p>291: ἐς <w>σφαγὰς</w> <w>ὦσαι</w> <w>ξίφος</w> – „pchnąć miecz w gardło”. Fraza jest
+                        intrygująca i wymaga odnotowania, ponieważ rzeczownik <w>σφαγή</w>
+                        w znaczeniu „gardło” (zawsze w pluralis) pojawia się tylko w kontekście
+                        brutalnej śmierci – sphagai to jest gardło, które jest podcinane. West
+                        (1987: 201) wyjaśnia precyzyjnie, że anatomicznie rzecz biorąc sphagai
+                        to zagłębienie nad obojczykiem, gdzie tuż pod skórą przebiega tętnica
+                        podklinowa. Locus classicus – z identyczną frazą: ἐς τὰς <w>σφαγάς</w> – stanowi
+                        Tukidydes 4.48.3, gdzie jest mowa o Korkyrejczykach popełniających
+                        samobójstwo przez wbicie sobie w gardło strzały (<w>πολλοὶ</w> <w>σφᾶς</w>
+                        <w>αὐτοὺς</w> <w>διέφθειρον</w>, <w>οἰστούς</w> τε <w>οὓς</w> <w>ἀφίεσαν</w> <w>ἐκεῖνοι</w> ἐς τὰς <w>σφαγὰς
+                            <w>καθιέντες</w>). Gardło – czyli <w>λαιμός</w>, <w>αὐχήν</w> lub <w>δέρη</w> – może być nazwane
+                            σφαγαί tylko dlatego, że jest przedmiotem śmiertelnego ciosu.
+                            W tym znaczeniu rzeczownik ten pozostaje w związku nie tylko
+                            z krwawą przemocą, ale też z krwawą ofiarą – oznacza i cios, którym
+                            uśmierca się zwierzę, i ranę w ten sposób powstałą.</w></p>
+                </div>
+                
+                <div type="textpart" n="Orestes_561-563">
+                    <head>Orestes 561-563</head>
+                    <p>Passus z mowy Orestesa do Tyndareosa, ojca zamordowanej Klitajmestry,
+                        w odpowiedzi na jego oskarżycielską tyradę, w której zarzucił
+                        mu bezbożność i działanie poza prawem. Orestes przyznaje, że zabił
+                        Ajgistosa, a w odniesieniu do mordu na matce używa czasownika
+                        <w>θύειν</w>.</p>
+                    <quote><lb/>Αἴγισθος ἦν ὁ κρυπτὸς ἐν δόμοις πόσις.
+                        <lb/>τοῦτον κατέκτειν᾽, ἐπὶ δ᾽ ἔθυσα μητέρα,
+                        <lb/>ἀνόσια μὲν δρῶν, ἀλλὰ τιμωρῶν πατρί.</quote>
+                    <quote><lb/>Ajgistos był w domu ukrytym małżonkiem.
+                        <lb/>Zabiłem go, a potem złożyłem w ofierze matkę,
+                        <lb/>Czyniąc bezbożnie, ale w zemście za ojca.</quote>
+                    <p>562: ἐπὶ δ᾽ <w>ἔθυσα</w> <w>μητέρα</w> – „a potem złożyłem w ofierze matkę”.
+                        Opisując mord na Klitajmestrze, Orestes używa czasownika <w>θύειν</w>
+                        w metaforycznym znaczeniu. Trudno dopatrzyć się tutaj jakiejś intencji
+                        sakralizacji rytualnej matkobójstwa (tak sugeruje West 1987: 221).
+                        Wprawdzie Orestes wielokrotnie powołuje się na nakaz wyroczni
+                        Apollona (ibidem: 221: „it was almost a ritual duty”), jednak nigdzie
+                        poza tym miejscem nie usiłuje tłumaczyć swego czynu, powołując się
+                        na „dar dla bogów” – ofiarę. Dlatego należy przyjąć tutaj, że – ponownie
+                        (jak w w. 191, zob. powyżej) ofiara jest tylko metaforą śmierci.</p>
+                </div>
+                
+                <div type="textpart" n="Orestes_658-659">
+                    <head>Orestes 658-659</head>
+                    <p>Orestes w drugim epeisodionie domaga się od Menelaosa pomocy,
+                        a równocześnie Tyndareos – potępienia Orestesa i jego śmierci. Do
+                        wahającego się króla przemawia w swej sprawie ponownie Orestes.
+                        Przypomina mu śmierć swojej siostry, Ifigenii, złożonej w ofierze za
+                        powodzenie wyprawy. Orestes przywołuje ją jako retoryczny argument
+                        – nie domaga się od Menelaosa śmierci jego córki, tylko ocalenia
+                        siebie.</p>
+                    <quote><lb/>ἃ δ᾽ Αὐλὶς ἔλαβε σφάγι᾽ ἐμῆς ὁμοσπόρου,
+                        <lb/>ἐῶ σ᾽ ἔχειν ταῦθ᾽· Ἑρμιόνην μὴ κτεῖνε σύ.</quote>
+                    <quote><lb/>Aulida zabrała w krwawej ofierze moją siostrę,
+                        <lb/>Zgadzam się, że tak musiało być; ty jednak nie zabijaj swojej siostry.</quote>
+                    <p>658: <w>Αὐλὶς</w> <w>ἔλαβε</w> <w>σφάγια</w> – „Aulida zabrała w krwawej ofierze”,
+                        dosłownie „zabrała/wzięła [jako] sphagia”. Orestes nazywa śmierć
+                        swojej siostry „ofiarą przedbitewną” – sphagia.</p>
+                </div>
+                
+                <div type="textpart" n="Orestes_812-818">
+                    <head>Orestes 812-818</head>
+                    <p>Strofa drugiego stasimonu chóru, który śpiewa o początkach ciągu
+                        zbrodni w domu Atrydów, poczynając od sporu o złote runo i uczty Tyestesa.
+                        Od tej pory „zbrodnia idzie za zbrodnią”. Zbrodnie na własnych
+                        dzieciach (<w>γενναίων</w> <w>τεκέων</w>) nazwane są w wersie 816 <w>σφάγια</w> – „krwawymi
+                        mordami”. Użyty tu rzeczownik zazwyczaj określa ofiarę krwawą
+                        spełnianą przed bitwą, jednak w tym kontekście – nawet jeśli ciąg zbrodni
+                        obejmowałby ofiarę z Ifigenii – oznacza po prostu „krwawe zbrodnie”,
+                        tylko w dalekim echu odwołując się do skojarzeń ofiarniczych.</p>
+                    <quote><lb/>ὁπότε χρυσείας ἔρις ἀρνὸς
+                        <lb/>ἤλυθε Τανταλίδαις,
+                        <lb/>οἰκτρότατα θοινάματα καὶ
+                        <lb n="615"/>σφάγια γενναίων τεκέων·
+                        <lb/>ὅθεν φόνῳ φόνος ἐξαμεί-
+                        <lb/>βων δι᾽ αἵματος οὐ προλεί-
+                        <lb/>πει δισσοῖσιν Ἀτρείδαις.</quote>
+                    <quote><lb/>Kiedy spór o złote runo
+                        <lb/>Spadł na Tantalidów,
+                        <lb n="615"/>Najstraszniejsze uczty
+                        <lb/>I krwawe mordy na własnych dzieciach.
+                        <lb/>I odtąd zbrodnia idzie za zbrodnią,
+                        <lb/>Przez krew, nie opuszcza
+                        <lb/>Obydwu Atrydów.</quote>
+                </div>
+                
+                <div type="textpart" n="Orestes_819-822">
+                    <head>Orestes 819-822</head>
+                    <p>Antystrofa drugiego stasimonu chóru, który najpierw zawodzi nad
+                        zbrodnią matkobójstwa – związane z terminologią ofiarniczą pojęcia:
+                        ξίφος oraz ἐς αὐγάς korespondują z przedostatnim wersem pieśni,
+                        gdzie ta sama zbrodnia jest już nazwana wprost złożeniem w ofierze.
+                        Obraz podcinania gardła powraca jeszcze w scenie mordu na Helenie
+                        w eksodosie (w. 1471–1472), a przykładania miecza do gardła w końcowej
+                        mowie Apollona (w. 1653).</p>
+                    <quote><lb/>τὸ καλὸν οὐ καλόν, τοκέων
+                        <lb n="820"/>πυριγενεῖ τεμεῖν παλάμᾳ
+                        <lb/>χρόα μελάνδετον δὲ φόνῳ
+                        <lb/>ξίφος ἐς αὐγὰς ἀελίοιο δεῖξαι·</quote>
+                    <quote><lb/>Co piękne niepiękne, żeby rodziców
+                        <lb n="820"/>W ogniu wykutym żelazem dłoń przecinać
+                        <lb/>Skórę i czarną krwią od zbrodni zbroczony
+                        <lb/>Miecz słońcu ukazywać [godzący] w gardło.</quote>
+                </div>
+                
+                <div type="textpart" n="Orestes_839-843">
+                    <head>Orestes 839-843</head>
+                    <p>Koniec antystrofy drugiego stasimonu – chór przypomina scenę
+                        mordu na Klitajmestrze, przywołując obraz matczynej piersi wysuwającej
+                        się z szarpanego gwałtem peplosu. Konkluzja chóru jest jasna:
+                        mord na matce był sphagion – ofiarą krwawą.</p>
+                    <quote><lb/>ὦ μέλεος, ματρὸς ὅτε
+                        <lb n="840"/>χρυσεοπηνήτων φαρέων
+                        <lb/>μαστὸν ὑπερτέλλοντ᾽ ἐσιδὼν
+                        <lb/>σφάγιον ἔθετο ματέρα, πατρῴ-
+                        <lb/>ων παθέων ἀμοιβάν.</quote>
+                    <quote><lb/>O nieszczęsny, kiedy matczyną
+                        <lb n="840"/>Spośród złotem tkanych szat
+                        <lb/>Pierś wystającą zobaczyłeś,
+                        <lb/>Matka została zabita w ofierze
+                        <lb/>W odpłacie za cierpienia ojca.</quote>
+                    <p>842: <w>σφάγιον</w> <w>ἔθετο</w> <w>ματέρα</w> – „matka została zabita w ofierze”.
+                        Dosłownie: „została położona jako sphagion”.</p>
+                </div>
+                
+                <div type="textpart" n="Orestes_946-949">
+                    <head>Orestes 946-949</head>
+                    <p>Słowa z mowy posłańca, dawnego sługi Agamemnona, który donosi
+                        Elektrze o przebiegu sądu nad nią i Orestesem, opisując wystąpienia
+                        kolejnych obrońców i oskarżycieli oraz słowa samego Orestesa
+                        po ogłoszeniu wyroku skazującego go na ukamienowanie. Orestes
+                        wobec takiego wyroku składa obietnicę, że rodzeństwo samo odbierze
+                        sobie życie. Pojawia się tutaj słowo <w>σφαγή</w> (opatrzone przymiotnikiem
+                        αὐτόχειρος – „własnoręczny”), jednak nie ulega wątpliwości, że oznacza
+                        tutaj „własną ręką zadanie sobie śmiertelnej rany”.</p>
+                    <quote><lb/>μόλις δ᾽ ἔπεισε μὴ πετρουμένους θανεῖν
+                        <lb/>τλήμων Ὀρέστης· αὐτόχειρι δὲ σφαγῇ
+                        <lb/>ὑπέσχετ᾽ ἐν τῇδ᾽ ἡμέρᾳ λείψειν βίον
+                        <lb/>σὺν σοί.</quote>
+                    <quote><lb/>Z trudem przekonał [ich], żeby zginęli nie od kamienowania,
+                        <lb/>Biedny Orestes; ale obiecał, że od własnoręcznie zadanego ciosu
+                        <lb/>Tego samego dnia opuści życie
+                        <lb/>Razem z tobą.</quote>
+                </div>
+                
+                <div type="textpart" n="Orestes_1105-1107">
+                    <head>Orestes 1105-1107</head>
+                    <p>W rozmowie z Orestesem Pylades deklaruje, że umrze razem ze swoim
+                        przyjacielem, ale najpierw namawia go do zemsty na Menelaosie.
+                        840
+                        Wpada na pomysł, że największą karą będzie dla niego śmierć Heleny.
+                        Orestes podejmuje pomysł zabicia (<w>κτάνωμεν</w>) żony Menelaosa i zastanawia
+                        się, w jaki sposób to zrobić. Na co Pylades zwięźle odpowiada, że
+                        powinni ją „zarżnąć” (<w>σφάξαντες</w>). Tym razem także – mimo wszelkich
+                        skojarzeń z rytualnym ubojem wywołanych przez czasownik <w>σφάζειν</w> –
+                        nie występuje tu odwołanie do żadnych kategorii ofiarnych i mowa jest
+                        po prostu o krwawym mordzie.</p>
+                    <quote><lb/><emph>ΠΥΛΑΔΗΣ</emph>:
+                        <lb n="1105"/>Ἑλένην κτάνωμεν, Μενέλεῳ λύπην πικράν.
+                        <lb/><emph>ΟΡΕΣΤΗΣ</emph>:
+                        <lb/>πῶς; τὸ γὰρ ἕτοιμον ἔστιν, εἴ γ᾽ ἔσται καλῶς.
+                        <lb/><emph>ΠΥ</emph>.: σφάξαντες. ἐν δόμοις δὲ κρύπτεται σέθεν.</quote>
+                    <quote><lb/><emph>PYLADES</emph>:
+                        <lb n="1105"/>Zabijmy Helenę, to dla Menelaosa największy ból.
+                        <lb/><emph>ORESTES</emph>:
+                        <lb/>Jak? Bo jest na to ochota, jeśli to się uda.
+                        <lb/><emph>PY</emph>.: Zarżnąwszy ją. Ukrywa się w twoim pałacu.</quote>
+                </div>
+                
+                <div type="textpart" n="Orestes_1198-1199">
+                    <head>Orestes 1198-1199</head>
+                    <p>Po podjęciu planu zabicia Heleny rodzeństwo razem z Pyladesem
+                        planuje wziąć jako zakładniczkę Hermionę, córkę Menelaosa,
+                        aby zapewnić sobie powodzenie. Elektra w tym passusie radzi Orestesowi,
+                        żeby – jeśli Menelaos mimo groźby utraty córki – zechce
+                        ich zabić, zarżnął Hermionę. Używa tutaj w imperatiwie czasownika
+                        <w>σφάζειν</w>: καὶ σὺ <w>σφάζε</w> <w>παρθένου</w> <w>δέρην</w> – „a ty poderżnij
+                        dziewczynie gardło”.</p>
+                    <quote><lb/>ἢν δ᾽ ὀξυθύμου μὴ κρατῶν φρονήματος
+                        <lb/>κτείνῃ σε, καὶ σὺ σφάζε παρθένου δέρην.</quote>
+                    <quote><lb/>Jeśli zaś, nie panując nad swą gniewną myślą,
+                        <lb/>Będzie chciał cię zabić, ty poderżnij dziewczynie gardło.</quote>
+                </div>
+                
+                <div type="textpart" n="Orestes_1284-1285">
+                    <head>Orestes 1284-1285</head>
+                    <p>Wezwanie przodownicy chóru do Elektry w czwartym stasimoni,
+                        przed planowanym zabójstwem Heleny w pałacu. Chór się niecierpliwi
+                        i informuje rodzeństwo, że w pałacu – miejscu zbrodni – spokój
+                        i cisza oraz wzywa do działania.</p>
+                    <quote><lb/>τί μέλλεθ᾽ οἱ κατ᾽ οἶκον ἐν ἡσυχίᾳ
+                        <lb n="1285"/>σφάγια φοινίσσειν;</quote>
+                    <quote><lb/>Czego zwlekacie w spokoju, wy tam w domu?
+                        <lb n="1285"/>Skrwawcie ofiary!</quote>
+                    <p>1285: <w>σφάγια</w> <w>φοινίσσειν</w> – „skrwawcie ofiary”; infinitivus imperativus.
+                        Abundantny zwrot poetycki z metaforycznym odwołaniem do
+                        rytu ofiarnego, jednak tylko na płaszczyźnie wizualizacji krwawego
+                        mordu, bez konotacji religijnych (West 1987: 271).</p>
+                </div>
+
+                <div type="textpart" n="Orestes_1596">
+                    <head>Orestes 1596</head>
+                    <p>Słowa Orestesa skierowane do Menelaosa szturmującego pałac
+                        Atrydów w eksodosie sztuki. Orestes grozi Menelaosowi, że – jeśli
+                        ten nie odstąpi od zdobywania pałacu – Hermiona zostanie zarżnięta
+                        (<w>ἐπισφάξας</w>) w płomieniach podpalonego miasta.</p>
+                    <quote><lb/>ὡς μή γ᾽ ἔχῃς σύ, τήνδ᾽ ἐπισφάξας πυρί.</quote>
+                    <quote><lb/>Żebyś ty [jej] nie miał, poderżnę jej gardło w płomieniach.</quote>
+                </div>            
+            
+                <div type="textpart" n="Orestes_1602-1604">
+                    <head>Orestes 1602-1604</head>
+                    <p>Kolejny passus z eksodosu i kłótni między Menelaosem i Orestesem.
+                        Orestes domaga się śmierci Menelaosa, grozi mu zabiciem jego
+                        córki Hermiony i żąda władzy nad Argos. Menelaos niespodziewanie
+                        zadaje mu pytania, czy odważy się zbliżyć do wody lustralnej
+                        (<w>θίγοις</w> ἂν <w>χερνίβων</w>) – czyli w ogóle do składania ofiar, sugerując,
+                        że jest skalany mordem – oraz czy zamierza złożyć ofiarę przedbitewną
+                        (<w>σφάγια</w>). Oświadcza, że sam nie musi składać żadnej ofiary,
+                        ponieważ ma czyste ręce (<w>ἁγνὸς</w> γάρ <w>εἰμι</w> <w>χεῖρας</w>). Na temat kategorii
+                        „wewnętrznej” czystości w tym passusie zob. obszerny komentarz
+                        w Petrovic, Petrovic 2016: 216–228.</p>
+                    <quote><lb/><emph>ΜΕΝΕΛΑΩΣ</emph>:
+                        <lb/>εὖ γοῦν θίγοις ἂν χερνίβων . . .
+                        <lb/><emph>ΟΡΕΣΤΗΣ</emph>:
+                        <lb/>τί δὴ γὰρ οὔ;
+                        <lb/><emph>ΜΕ</emph>.: καὶ σφάγια πρὸ δορὸς καταβάλοις.
+                        <lb/><emph>ΟΡ</emph>.: σὺ δ᾽ ἂν καλῶς;
+                        <lb/><emph>ΜΕ</emph>.: ἁγνὸς γάρ εἰμι χεῖρας.
+                        <lb/><emph>ΟΡ</emph>.: ἀλλ᾽ οὐ τὰς φρένας.</quote>
+                    <quote><lb/><emph>MENELAOS</emph>:
+                        <lb/>Czyli możesz nawet dotknąć wody oczyszczeń jak należy?
+                        <lb/><emph>ù</emph>:
+                        <lb/>A dlaczego nie?
+                        <lb/><emph>M</emph>.: I możesz złożyć przedbitewną ofiarę przed bramą?
+                        <lb/><emph>OR</emph>.: A ty możesz to zrobić dobrze?
+                        <lb/><emph>M</emph>.: Ja mam czyste ręce.
+                        <lb/><emph>OR</emph>.: Ale nie serce!</quote>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,1214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Iphigenia Aulidensis (Ἰφιγένεια ἡ ἐν Αὐλίδι, Ifigenia in Aulide)</title>
+                <title xml:lang="en">Iphigenia Aulidensis (Ἰφιγένεια ἡ ἐν Αὐλίδι, Iphigenia in Aulis)</title>
+                <title xml:lang="pl">Iphigenia Aulidensis (Ἰφιγένεια ἡ ἐν Αὐλίδι, Ifigenia w Aulidzie)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">trag_32_iphigenia_aulidensis</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Iphigenia Aulidensis (Ἰφιγένεια ἡ ἐν Αὐλίδι, Ifigenia w Aulidzie)</title>, in Krzysztof Bielawski, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Tragedia attycka</title>, Warszawa 2017, pp. 439-473</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaia Fanelli">encoded document in XML</change>
+                <change when="2017" who="Krzysztof Bielawski">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Ze scholion do 67 wersu Żab Arystofanesa dowiadujemy się, że <title>Ifigenię
+                        w Aulidzie</title> (razem z <title>Bachantkami</title> i zaginionym <title>Alkmeonem</title>) wystawił
+                        w Atenach po śmierci poety jego syn lub też – jak chce księga Suda
+                        (pod hasłem „Eurypides”) – jego siostrzeniec o tym samym imieniu.
+                        Datacja powstania sztuki jest niemożliwa, a wokół transmisji tekstu,
+                        interpolacji i autentyczności – zwłaszcza prologu – toczą się nieustające
+                        dyskusje (Lesky 2006: 546–548). Collard obliczył nawet (2017, vol. 1:
+                        ix i 56), że tylko 200 z wszystkich 1629 wersów nie było w taki czy
+                        inny sposób kwestionowanych co do autorstwa, zmian i interpolacji
+                        (Bremmer 2015: 37–38). Sztuka została wystawiona w Atenach w roku
+                        405, rok po śmierci poety w Macedonii. Przyjmuje się, że nie została
+                        przez niego osobiście dokończona i kiedy ją wystawiano, zapewne liczyła
+                        nie więcej niż 1577 wersów. Wersy 1578–1629 niemal na pewno
+                        są dziełem późnoantycznego, chrześcijańskiego pisarza, który miał
+                        w pamięci zarówno opis ofiary Abrahama, jak i wniebowzięcie Marii
+                        (Kovacs 2013: 77–103, Bremmer 2015: 37–38). Stosowane w komentarzu
+                        utożsamianie autora całości tekstu z Eurypidesem jest z pewnością
+                        i uproszczeniem, i nadużyciem, ale mimo to – wobec toczących się nadal
+                        sporów oraz z powodów czysto praktycznych – poważę się tutaj
+                        na to. Rzucającą się w oczy konsekwencją interpolacji i uzupełnień jest
+                        duża powtarzalność nie tylko motywów, ale też słów i całych fraz –
+                        z tego powodu komentarz zawiera wyjątkowo dużo odnośników wewnętrznych.</p>
+                    <p>Tematem głównym dramatu jest przygotowanie i spełnienie ofiary
+                        z człowieka – Ifigenii (Masaracchia 1983: 43). Temat ofiary ludzkiej,
+                        obecny w nauce przynajmniej od połowy XIX w. (Suchier 1848;
+                        Becker 1867) doczekał się wielu opracowań (Schwenn 1915; Henrichs
+                        1981: 195–242; Hughes 1991; Bonnechère 1994; Bonnechère 1998: 191–
+                        215; Georgoudi 1999: 61–82). Aktualnie przyjmuje się, że „prawdopodobieństwo
+                        praktykowania w Grecji ofiary z ludzi pozostaje niewielkie”
+                        (Bremmer 2015: 36). Przedstawianie zaś tej praktyki w tekstach
+                        dramatycznych epoki klasycznej, stosowany tam język techniczny
+                        i funkcja tych opisów są nadal przedmiotem dyskusji i interpretacji
+                        (Henrichs 2000). Podobną funkcję pełni także niniejszy komentarz.</p>
+                    <p><title>Ifigenia w Aulidzie</title> to jeden z niewielu dramatów epoki klasycznej
+                        (obok <title>Bachantek</title> i <title>Ifigenii w kraju Taurów</title>), który doczekał się dwóch monograficznych
+                        opracowań zawartej w nim tematyki ofiary (Bremmer
+                        2015 i Masaracchia 1983), co odnotowujemy z satysfakcją, jednakże żaden
+                        z tych obszernych tekstów nie stanowi systematycznego komentarza
+                        do treści sztuki, jak również nie zawiera szczegółowych analiz
+                        leksykograficznych. Bremmer koncentruje się na opisie ofiary, a Masaracchia
+                        na micie i relacji z innymi dramatami Eurypidesa (podobnie
+                        zresztą jak praca Foley 1982).</p>
+                    <p>Temat ofiary Ifigenii rzeczywiście jest osią akcji i można powiedzieć,
+                        że niezależnie od tego, co dzieje się na scenie i kto uczestniczy w dialogach,
+                        zdaje się on nadawać rytm wszystkim słowom i działaniom. Foley
+                        mówi wprost, że „struktura sztuki opiera się na spełnieniu rytuału
+                        ofiarnego” (1982: 159). W odniesieniu do śmierci Ifigenii w tekście znajdujemy
+                        trzy różne kategorie grup terminologicznych: pierwsza to pojęcia
+                        związane z czasownikiem <w>θύειν</w> i jego pochodnymi, nawiązujące do
+                        kategorii ofiary typu <w>θυσία</w>, druga – związane z czasownikiem <w>σφάζειν</w>
+                        i jego pochodnymi, nawiązujące do ofiary typu σφάγια lub do brutalnego
+                        sposobu uśmiercania (tu także można zaklasyfikować słowa związane
+                        z czasownikiem <w>φονεύειν</w> i jego pochodnymi) oraz trzecia, stosująca
+                        całkowicie neutralne ἀποκτείνειν i jemu podobne. To pojęciowe pomieszanie
+                        ma swoje konsekwencje. Bremmer (2015: 41–43) koncentruje się
+                        na różnicach w użyciu przez dramatis personae kategorii pierwszej i drugiej
+                        grupy (całkowicie ignorując trzecią) i podkreśla, że thyein (i jego pochodne)
+                        stosowane jest w dialogach wtedy, kiedy chodzi o z jakichś racji
+                        eufemistyczne przedstawienie śmierci Ifigenii (jak w większości wypowiedzi
+                        Agamemnona: w. 91, 93, 530, 673, 721, 1270–1271).</p>
+                    <p>Nie zawsze w odniesieniu do śmierci Ifigenii Eurypides stosuje język
+                        ofiarny. W kłótni z bratem Menelaos (przywołując słowa samego
+                        Agamemnona) nazywa go mordercą (w. 364: ὡς <w>φονεὺς</w> <w>οὐκέτι</w>
+                        <w>θυγατρὸς</w> σῆς ἔσῃ), a sam Agamemnon wyznaje, że nie zabije swych
+                        dzieci (w. 396: <w>τἀμὰ</w> δ᾽ <w>οὐκ</w> <w>ἀποκτενῶ</w> ᾽<w>γὼ</w> <w>τέκνα</w>), tak samo wyobraża
+                        on sobie okrzyk Ifigenii (w. 463: <w>ἀποκτενεῖς</w> <w>με</w>;). Menelaos,
+                        widząc rozdarcie brata, prosi również, by „nie zabijał” (w. 481: <w>μήτ</w>'
+                        <w>ἀποκτείνειν</w> <w>τέκνον</w>) córki.</p>
+                    <p>Ofiara Ifigenii nie jest ani σφάγιον, ani <w>θυσία</w> – jest poetycką kombinacją
+                        jednego i drugiego: przedbitewnej (lub poprzedzającej wyprawę
+                        czy też przeprawę przez morze, zob. X. <title>An</title>. 4.5.4 oraz opracowania:
+                        Bremmer 2015: 44; Jouan 1990–1991: 25–42; Parker 2000: 299–314) ofiary
+                        nazywanej σφάγια oraz typowej <w>θυσία</w>, z silnym akcentem położonym
+                        na poprzedzającej małżeństwo ofierze <w>προτελεία</w>.</p>
+                    <p>Tekst według wydania: Stockert (1992).</p>
+                </div>
+                <div type="textpart" n="Iphigenia_Aulidensis_89-93">
+                    <head>Iphigenia Aulidensis 89-93</head>
+                    <p>Kluczowe słowa z pierwszej przemowy Agamemnona z prologu
+                        do sztuki, w których oznajmia on wyrok wieszczka Kalchasa dotyczący
+                        konieczności złożenia w ofierze Ifigenii. Zasadniczy dla dramatu temat
+                        ofiary z córki Agamemnona jest tu lapidarnie opisany trzykrotnie
+                        powtórzonym czasownikiem <w>θύειν</w>.</p>
+                    <quote><lb/>Κάλχας δ᾽ ὁ μάντις ἀπορίᾳ κεχρημένοις
+                        <lb n="90"/>ἀνεῖλεν Ἰφιγένειαν ἣν ἔσπειρ᾽ ἐγὼ
+                        <lb/>Ἀρτέμιδι θῦσαι τῇ τόδ᾽ οἰκούσῃ πέδον,
+                        <lb/>καὶ πλοῦν τ᾽ ἔσεσθαι καὶ κατασκαφὰς Φρυγῶν
+                        <lb/>[θύσασι, μὴ θύσασι δ᾽ οὐκ εἶναι τάδε.]</quote>
+                    <quote><lb/>Wieszczek Kalchas, kiedy mierzyliśmy się z tą niemożnością,
+                        <lb n="90"/>Wskazał, żeby Ifigenię, którą spłodziłem,
+                        <lb/>Złożyć w ofierze Artemidzie, tej, która zamieszkuje tę równinę,
+                        <lb/>I że popłyniemy, i że nastąpi zniszczenie Frygów,
+                        <lb/>O ile złożymy ofiarę, jeśli nie złożymy – tak nie będzie.</quote>
+                    <p>91: Ἀρτέμιδι <w>θῦσαι</w> – „złożyć w ofierze Artemidzie”. Agamemnon,
+                        wprowadzając temat śmierci Ifigenii, używa najbardziej ogólnego
+                        i najszerszego znaczeniowo czasownika <w>θύειν</w>.</p>
+                    <p>93: <w>θύσασι</w>, μὴ <w>θύσασι</w> – „o ile złożymy ofiarę, jeśli nie złożymy”;
+                        dosłownie: „po złożeniu przez nas ofiary, nie wtedy, kiedy jej nie złożymy”.
+                        Jak zauważają w komentarzu Collard i Morwood (2017: 10–11
+                        i 269), Agamemnon w całej sztuce uporczywie posługuje się pojęciem
+                        thysia, unikając słów akcentujących brutalność mordu, związanych
+                        z czasownikiem sphazein.</p>
+                </div>
+          
+                <div type="textpart" n="Iphigenia_Aulidensis_133-135">
+                    <head>Iphigenia Aulidensis 133-135</head>
+                    <p>Słowa Starca z prologu, w odpowiedzi na mowę Agamemnona,
+                        w której zdradza on swe plany zabicia na ofiarę córki.</p>
+                    <quote><lb/>δεινά γ᾽ ἐτόλμας, Ἀγάμεμνον ἄναξ,
+                        <lb/>ὃς τῷ τῆς θεᾶς σὴν παῖδ᾽ ἄλοχον
+                        <lb n="135"/>φατίσας ἦγες σφάγιον Δαναοῖς.</quote>
+                    <quote><lb/>Na straszne rzeczy się ważysz, władco Agamemnonie,
+                        <lb/>Który synowi bogini swoją córkę jako narzeczoną
+                        <lb n="135"/>Obiecawszy, przywiodłeś Danaom ofiarę na zarżnięcie.</quote>
+                    <p>135: ἦγες <w>σφάγιον</w> Δαναοῖς – jedno z dwóch miejsc w tekście dramatu
+                        (drugie to słowa Klitajmestry do Agamemnona, w. 1200), gdzie Ifigenia
+                        jest wprost nazwana sphagion – ofiarą przeznaczoną na zabicie przez
+                        poderżnięcie gardła (por. komentarze do E. <title>Hec</title>. 109, 118, <title>Supp</title>. 375–376).</p>
+                </div>
+                
+                <div type="textpart" n="Iphigenia_Aulidensis_185-186">
+                    <head>Iphigenia Aulidensis 185-186</head>
+                    <p>Pierwsze słowa z antystrofy parodosu chóru kobiet z Chalkidy,
+                        w których przywołuje on miejsce akcji dramatu: święty gaj Artemidy
+                        w Aulidzie.</p>
+                    <quote><lb n="185"/>πολύθυτον δὲ δι᾽ ἄλσος Ἀρ<lb 
+                        break="no"/>τέμιδος ἤλυθον ὀρομένα.</quote>
+                    <quote><lb n="185"/>Przez gaj Artemidy, w którym wiele składa się ofiar,
+                        <lb/>Przybyłam w pośpiechu.</quote>
+                    <p>185: <w>πολύθυτον</w> – „gaj […], w którym wiele składa się ofiar” (por.
+                        Collard, Morwood 2017: 298). <w>Πολύθυτος</w> – przymiotnik złożony (z <w>θύω</w>
+                        i <w>πολύ</w>); występuje w tragedii jeszcze tylko raz u Eurypidesa (<title>Heracl</title>.
+                        777) i raz u Sofoklesa (<title>Trach</title>. 756), a gdzie indziej tylko u Pindara (<title>P</title>. 5.77
+                        i <title>Nem</title>. 7.47). Tutaj – jak zauważa w swym komentarzu England (1891:
+                        22) – jest to słowo niemal złowieszcze: nie tylko mówi o tym, że w gaju
+                        Artemidy składa się wiele ofiar, ale także, że to właśnie tutaj odbędzie
+                        się kolejna ofiara, z Ifigenii. Zob. komentarz do S. <title>Trach</title>. 756.</p>
+                </div>
+                
+                <div type="textpart" n="Iphigenia_Aulidensis_358-360">
+                    <head>Iphigenia Aulidensis 358-360</head>
+                    <p>Słowa Menelaosa z kłótni z Agamemnonem. Menelaos wyrzuca bratu
+                        małoduszność, pychę, krętactwo i niestałość. W odniesieniu do wymaganej
+                        wyrocznią śmierci Ifigenii stwierdza natomiast, że najpierw chętnie,
+                        bez przymusu (w. 360–361: <w>πέμπεις</w> <w>ἑκών</w>, / οὐ <w>βίᾳ</w>) posłał po Klitajmestrę,
+                        by przywiodła córkę, aby następnie całkowicie zmienić zdanie i wykręcać
+                        się (w. 363: <w>ὑποστρέψας</w> <w>λέληψαι</w> <w>μεταβαλὼν</w> <w>ἄλλας</w> <w>γραφάς</w>).
+                        Ponownie przywołana jest tutaj wróżba Kalchasa i ponownie dwukrotnie
+                        powtórzone słowo <w>θύειν</w> (zob. komentarz do w. 93 powyżej).</p>
+                    <quote><lb/>κᾆτ᾽, ἐπεὶ Κάλχας ἐν ἱεροῖς εἶπε σὴν θῦσαι κόρην
+                        <lb/>Ἀρτέμιδι, καὶ πλοῦν ἔσεσθαι Δαναΐδαις, ἡσθεὶς φρένας
+                        <lb n="360"/>ἄσμενος θύσειν ὑπέστης παῖδα.</quote>
+                    <quote><lb/>Później, skoro Kalchas ze znaków wróżebnych powiedział, żeby
+                        twoją córkę w ofierze złożyć
+                        <lb/>Artemidzie, a Danaowie będą mogli wypłynąć, serce skoczyło ci
+                        z radości,
+                        <lb n="360"/>Z radością przysiągłeś, że złożysz dziecko w ofierze.</quote>
+                </div>
+                
+                <div type="textpart" n="Iphigenia_Aulidensis_433-436">
+                    <head>Iphigenia Aulidensis 433-436</head>
+                    <p>Słowa posłańca, który zawiadamia wszystkich o przybyciu do Aulidy
+                        Ifigenii wraz z matką i bratem. Posłaniec referuje powszechne
+                        przekonanie zgromadzonego wojska, że Agamemnon sprowadza córkę
+                        po to, by wydać ją za mąż. Passus nie zawiera żadnych bezpośrednich
+                        nawiązań do ofiary krwawej, jednak wymaga odnotowania ze względu
+                        na dwuznaczność występującego tylko tutaj czasownika <w>προτελίζω</w>
+                        (oznaczającego to samo, co częściej występujące <w>προτελέω</w>, zob. England
+                        1891: 47): oznacza on z jednej strony „poświęcać bogini w ceremonii
+                        przedślubnej”, „odbywać ceremonię przedślubną”, ale z drugiej
+                        strony jego etymologia i związki z rzeczownikiem <w>προτέλεια</w> (Stockert
+                        1992: 325) pozwalają widzieć w nim „przygotowanie do ofiary wstępnej”,
+                        swoistą zapowiedź ofiary, jaką Ifigenia się stanie (na temat proteleia
+                        zob. komentarz poniżej do w. 718). Słowo to przypomina bezpośrednio
+                        frazę z Ajschylosowego <title>Agamemnona</title> (w. 224–227, zob. komentarz),
+                        gdzie Ifigenia jest wprost nazwana <w>προτέλεια</w> <w>ναῶν</w> (Collard, Morwood
+                        2017: 357). Obrzędowi temu towarzyszą czynności zwyczajowo związane
+                        z szykowaniem ofiary krwawej: zwieńczanie głów liśćmi i przygotowywanie
+                        koszy ofiarnych (κανᾶ). Uwagę komentatorów przyciąga
+                        też czasownik <w>ἐνάρχεσθαι</w> (w. 435), który również należy do języka
+                        technicznego ofiary krwawej, czy raczej do języka obrzędów taką ofiarę
+                        przygotowujących, przywodzi też na myśl <w>ἀπάρχεσθαι</w> i <w>κατάρχεσθαι</w>
+                        – które zawsze w kontekstach ofiarnych oznaczają rytuały wstępne:
+                        sięganie do kosza ofiarnego po krupy, rzucanie krupami czy skrapianie
+                        ofiary wodą (por. niżej, w. 1470; Hom. <title>Od</title>. 3.445 dla <w>κατάρχεσθαι</w>;
+                        Stockert 1992: 326). Fraza κανᾶ <w>ἐνάρχεσθαι</w> (powtórzona też w w. 1470,
+                        zob. tam komentarz) oznacza więc „zacząć obrzęd ofiarny od koszy / od
+                        sięgnięcia do koszy po krupy”. Foley (1982: 161) notuje, że wymienione
+                        w tej scenie elementy rytualne są wspólne dla ofiary i wstępnych rytuałów
+                        obrzędu zawierania małżeństwa.</p>
+                    <quote><lb/>Ἀρτέμιδι προτελίζουσι τὴν νεάνιδα,
+                        <lb/>Αὐλίδος ἀνάσσῃ. τίς νιν ἄξεταί ποτε;
+                        <lb n="435"/>ἀλλ᾽ εἶα, τἀπὶ τοισίδ᾽ ἐξάρχου κανᾶ,
+                        <lb/>στεφανοῦσθε κρᾶτα […].</quote>
+                    <quote><lb/>W przedślubnej ceremonii poświęcają pannę Artemidzie,
+                        <lb/>Władczyni Aulidy. Któż ją teraz poślubi?
+                        <lb n="435"/>Hejże! Sięgnij przy tym do koszy ofiarnych!
+                        <lb/>Zwieńczcie głowy!</quote>
+                </div>
+                
+                <div type="textpart" n="Iphigenia_Aulidensis_493-494">
+                    <head>Iphigenia Aulidensis 493-494</head>
+                    <p>Wersy z mowy Menelaosa do Agamemnona. Wzruszony rozterkami
+                        brata i powodowany wyrzutami z powodu konieczności poświęcenia
+                        cudzej córki dla własnej żony (ἣ τῶν <w>ἐμῶν</w> <w>ἕκατι</w> <w>θύεσθαι</w> <w>γάμων</w>)
+                        prosi brata, by odstąpił od ofiary z córki. Bierze pod uwagę własne
+                        pokrewieństwo z Ifigenią i porównuje ją z Heleną – z której gotów jest
+                        zrezygnować, byle ocalić siostrzenicę.</p>
+                    <quote><lb/>ἣ τῶν ἐμῶν ἕκατι θύεσθαι γάμων
+                        <lb/>μέλλει.</quote>
+                    <quote><lb/>To ją z powodu mojego małżeństwa
+                        <lb/>Trzeba będzie złożyć w ofierze.</quote>
+                </div>
+                
+                <div type="textpart" n="Iphigenia_Aulidensis_511-512">
+                    <head>Iphigenia Aulidensis 511-512</head>
+                    <p>W odpowiedzi Agamemnon jednak odrzuca ofertę brata i zapowiada,
+                        że musi zabić córkę (nie pojawia się tutaj jednoznaczna terminologia
+                        ofiarnicza: <w>αἱματηρὸν</w> <w>ἐκπρᾶξαι</w> <w>φόνον</w>) popchnięty koniecznością
+                        (w. 511: <w>ἀναγκαίας</w> <w>τύχας</w>), presją wojska (w. 515: <w>ἅπας</w>
+                        <w>Ἀχαιῶν</w> <w>σύλλογος</w> <w>στρατεύματος</w>) i wróżbami (w. 518: <w>Κάλχας</w> <w>ἐρεῖ</w>
+                        <w>μαντεύματ</w>᾽ <w>Ἀργείων</w> <w>στρατῷ</w>).</p>
+                    <quote><lb/>ἀλλ᾽ ἥκομεν γὰρ εἰς ἀναγκαίας τύχας,
+                        <lb/>θυγατρὸς αἱματηρὸν ἐκπρᾶξαι φόνον.</quote>
+                    <quote><lb/>Doszliśmy już jednak do konieczności losu,
+                        <lb/>Żeby spełnić na córce krwawy mord.</quote>
+                </div>
+                
+                <div type="textpart" n="Iphigenia_Aulidensis_528-531">
+                    <head>Iphigenia Aulidensis 528-531</head>
+                    <p>Ostatecznym argumentem Agamemnona na rzecz ofiary z Ifigenii
+                        staje się obawa przed knowaniami Odyseusza i buntem wojska.
+                        Wyobraża on sobie, że Odyseusz – odkrywszy wyroki wróżb i ich
+                        niespełnienie przez Agamemnona (κἄμ᾽ ὡς <w>ὑπέστην</w> <w>θῦμα</w>) – podburzy
+                        wojsko i pozabija wszystkich (jak się zresztą później rzeczywiście
+                        dzieje, w. 1362).</p>
+                    <quote><lb/>οὐκ οὖν δοκεῖς νιν στάντ᾽ ἐν Ἀργείοις μέσοις
+                        <lb/>λέξειν ἃ Κάλχας θέσφατ᾽ ἐξηγήσατο,
+                        <lb n="530"/>κἄμ᾽ ὡς ὑπέστην θῦμα, κᾆτ᾽ ἐψευδόμην,
+                        <lb/>Ἀρτέμιδι θύσειν;</quote>
+                    <quote><lb/>Czy nie wydaje ci się, że on stanąwszy pośród Greków
+                        <lb/>Powie, co Kalchas z boskich wróżb wyrozumiał
+                        <lb n="530"/>I że ja odstąpiłem od ofiary, i skłamałem,
+                        <lb/>Że złożę ofiarę Artemidzie?</quote>
+                </div>
+
+                <div type="textpart" n="Iphigenia_Aulidensis_672-676">
+                    <head>Iphigenia Aulidensis 672-676</head>
+                    <p>Wymiana zdań z drugiego epeisodionu, z rozmowy pomiędzy
+                        Agamemnonem i Ifigenią po jej przybyciu do Aulidy i czułym przywitaniu.
+                        Agamemnon zapowiada, że przed wyjazdem do Troi i szczęśliwym
+                        szybkim powrotem, jakiego domaga się córka, musi złożyć
+                        „pewną ofiarę”.</p>
+                    <quote><lb/><emph>ΙΦΙΓΕΝΕΙΑ</emph>:
+                        <lb/>σπεῦδ᾽ ἐκ Φρυγῶν μοι, θέμενος εὖ τἀκεῖ, πάτερ.
+                        <lb/><emph>ΑΓΑΜΕΜΝΩΝ</emph>:
+                        <lb/>θῦσαί με θυσίαν πρῶτα δεῖ τιν᾽ ἐνθάδε.
+                        <lb/><emph>ΙΦ</emph>.: ἀλλὰ ξὺν ἱεροῖς χρὴ τό γ᾽ εὐσεβὲς σκοπεῖν.
+                        <lb n="675"/><emph>ΑΓ</emph>.: εἴσῃ σύ· χερνίβων γὰρ ἑστήξῃ πέλας.
+                        <lb/><emph>ΙΦ</emph>.: στήσομεν ἄρ᾽ ἀμφὶ βωμόν, ὦ πάτερ, χορούς;</quote>
+                    <quote><lb/><emph>IFIGENIA</emph>:
+                        <lb/>Wracaj mi szybko od Frygów, dobrze się tam sprawiwszy, ojcze!
+                        <lb/><emph>AGAMEMNON</emph>:
+                        <lb/>Najpierw muszę tutaj pewną ofiarę złożyć w ofierze.
+                        <lb/><emph>IF</emph>.: Trzeba, żeby ten, kto pobożny, przyglądał się ofierze.
+                        <lb/><emph>AG</emph>.: Będziesz. Staniesz przecież blisko naczyń z wodą do oczyszczeń.
+                        <lb/><emph>IF</emph>.: Staniemy wokół ołtarza, ojcze, jako chóry?</quote>
+                    <p>673: <w>θῦσαί</w> […] <w>θυσίαν</w> [τινα] – „pewną ofiarę złożyć w ofierze”.
+                        Figura etymologiczna, retoryczny zwrot abundantny. Agamemnon
+                        mówi do córki półsłówkami, zwrotami pełnymi niedomówień i dwuznaczności
+                        – „p e w n a ofiara”, którą trzeba złożyć, odnosi się ostatecznie
+                        do rozmówczyni. Z drugiej strony nadużywa ofiarniczej terminologii
+                        fachowej, by dodać swej mowie powagi.</p>
+                    <p>674: ἀλλὰ <w>ξὺν</w> <w>ἱεροῖς</w> <w>χρὴ</w> τό γ᾽ <w>εὐσεβὲς</w> <w>σκοπεῖν</w> – „trzeba, żeby
+                        ten, kto pobożny, przyglądał się ofierze”. Wers trudny w interpretacji
+                        i bardzo różnie przekładany. Łanowski (1980: 525) proponuje: „Chcemy
+                        ofiarę widzieć, gdy się godzi”, co stanowi znaczące odejście od tekstu
+                        oryginalnego, zapewne pod wpływem odpowiedzi Agamemnona
+                        w następnym wersie – nie bardzo wiadomo bowiem, czego ma dotyczyć
+                        występujące tam „zobaczysz” (εἴσῃ). Wydaje się jednak, że τό
+                        <w>εὐσεβές</w> należy rozumieć jako „pobożność”, cechę człowieka pobożnego,
+                        a σκοπεῖν przyjmować w pierwszym znaczeniu – „patrzeć na coś”,
+                        z nietypową rekcją do datiwu (inaczej England 1891: 71). <w>Ξύν</w> natomiast
+                        należy chyba rozumieć przysłówkowo („razem”), co dałoby sens „powodowani
+                        pobożnością powinniśmy razem przyglądać się ofiarom”.
+                        W takim wypadku pozostaje przyjąć, że <w>ἱερά</w> z tego wersu oznaczają
+                        cały obrzęd składania ofiary, to samo co θυσία w wersie wyżej. Collard
+                        i Morwood (2017: 416) z kolei sugerują znaczenie: „przy religijnych
+                        obrzędach [with religious rites] trzeba baczyć na zbożność [for what is
+                        holy]”, akcentując związek czasownika σκοπεῖν z mantycznymi praktykami
+                        odczytywania znaków wieszczych.</p>
+                    <p>675: <w>χερνίβων</w> γὰρ <w>ἑστήξῃ</w> <w>πέλας</w> – „staniesz przecież blisko naczyń
+                        z wodą do oczyszczeń”. <w>Χέρνιβες</w> to naczynie z wodą lustralną
+                        używaną podczas ofiary do obmyć rytualnych, stojące przy samym
+                        ołtarzu (na temat chernips zob. komentarz do E. <title>El</title>. 792 oraz poniżej
+                        w.: 1478, 1515 i 1520 z komentarzem).</p>
+                    <p>676: <w>στήσομεν</w> ἄρ᾽ <w>ἀμφὶ</w> <w>βωμόν</w>, ὦ <w>πάτερ</w>, <w>χορούς</w>; – „staniemy
+                        wokół ołtarza, ojcze, jako chóry?”. Ifigenia myśli ciągle, że będzie jednym
+                        z ofiarników asystujących przy ofierze, stojąc przy samym ołtarzu
+                        (<w>ἀμφὶ</w> <w>βωμόν</w>). Jednocześnie wers ten wskazuje na ważną funkcję chóru
+                        podczas składania ofiary – chór podczas ofiary śpiewał hymny modlitewne.</p>
+                </div>
+                
+                <div type="textpart" n="Iphigenia_Aulidensis_718-722">
+                    <head>Iphigenia Aulidensis 718-722</head>
+                    <p>Passus z rozmowy Agamemnona z Klitajmestrą, która dotąd –
+                        podczas wymiany zdań między ojcem i córką – stała milcząca z boku.
+                        Klitajmestra dopytuje się o szczegóły planowanego ślubu. Agamemnon
+                        brnie w kłamstwa i podobnie jak w rozmowie z Ifigenią mówi
+                        półsłówkami i półprawdami.</p>
+                    <quote><lb/><emph>ΚΛΥΤΑΙΜΗΣΤΡΑ</emph>:
+                        <lb/>προτέλεια δ᾽ ἤδη παιδὸς ἔσφαξας θεᾷ;
+                        <lb/><emph>ΑΓΑΓΜΕΜΝΩΝ</emph>:
+                        <lb/>μέλλω· ᾽πὶ ταύτῃ καὶ καθέσταμεν τύχῃ.
+                        <lb n="720"/><emph>ΚΛ</emph>.: κἄπειτα δαίσεις τοὺς γάμους ἐς ὕστερον;
+                        <lb/><emph>ΑΓ</emph>.: θύσας γε θύμαθ᾽ ἃ ἐμὲ χρὴ θῦσαι θεοῖς.
+                        <lb/><emph>ΚΛ</emph>.: ἡμεῖς δὲ θοίνην ποῦ γυναιξὶ θήσομεν;</quote>
+                    <quote><lb/><emph>KLITAJMESTRA</emph>:
+                        <lb/>Czy już zarżnąłeś ofiarę wstępną dla bogini?
+                        <lb/><emph>AGAMEMNON</emph>:
+                        <lb/>Mam taki zamiar. W taki los się zapadłem.
+                        <lb n="720"/><emph>KL</emph>.: A potem, później, wydasz wesele?
+                        <lb/><emph>AG</emph>.: Po tym, jak złożę w ofierze ofiary, jakie muszę bogom złożyć.
+                        <lb/><emph>KL</emph>.: A my gdzie wydamy ucztę dla kobiet?</quote>
+                    <p>718: <w>προτέλεια</w> δ᾽ ἤδη <w>παιδὸς</w> <w>ἔσφαξας</w> <w>θεᾷ</w>; – „czy już zarżnąłeś
+                        ofiarę wstępną dla bogini?” (Collard, Morwood 2017: 426).
+                        Proteleia, zgodnie ze swą etymologią i morfologią, stanowi ofiarę,
+                        złożoną przed (pro) jakimś ważnym wydarzeniem, przed spełnieniem,
+                        dokonaniem (telos) jakiegoś ważnego czynu. Według Hesychiosa(
+                        s.v.: <w>προτέλεια</w>· ἡ <w>πρὸ</w> τῶν <w>γάμων</w> <w>θυσία</w>, καὶ <w>ἑορτή</w>. <w>τέλος</w>
+                        γὰρ ὁ <w>γάμος</w> – „proteleia: ofiara składana przed zaślubinami oraz
+                        uroczystość, ponieważ spełnieniem [telos] są zaślubiny”), wg leksykonu
+                        Suda (s.v.: <w>Προτέλεια</w>: <w>ἡμέραν</w> <w>οὕτως</w> <w>ὀνομάζουσιν</w>, ἐν ᾗ
+                        εἰς τὴν <w>ἀκρόπολιν</w> τὴν <w>γαμουμένην</w> <w>παρθένον</w> <w>ἄγουσιν</w> οἱ <w>γονεῖς</w>
+                        εἰς τὴν <w>θεὸν</w> καὶ <w>θυσίας</w> <w>ἐπιτελοῦσι</w><note n="62">Nb. Suda s.v. podaje dwie definicje, jedną zbieżną z Hesychiosem, drugą
+                            – identyczną z Harpokrationem, z przywołaniem tego samego cytatu z Likurga
+                            z Aten, o czym poniżej (<w>Προτέλεια</w>. <w>Πρωτόλεια</w> δέ. <w>Λυκοῦργος</w> ἐν τῷ <w>Περὶ</w> <w>τῆς</w>
+                            <w>ἱερείας</w>. τὰ <w>πρὸ</w> τοῦ <w>τελεσθῆναί</w> τι τῶν εἰς τὸ <w>θεῖον</w> <w>ἀναφερομένων</w> <w>γιγνόμενα</w>
+                            ἢ <w>διδόμενα</w>).</note> – „proteleia: w ten sposób nazywają
+                        dzień, w którym rodzice prowadzą na akropol dziewczynę
+                        wydawaną za mąż i spełniają ofiary”), wg Polluksa (3.38: ἡ δὲ <w>πρὸ</w>
+                        <w>γάμου</w> <w>θυσία</w> <w>προτέλεια</w> – „proteleia to jest ofiara składana przed
+                        zaślubinami”) i Focjusza (<title>Bibl</title>. 367a29) pierwotnym sensem technicznym
+                        słowa była „ofiara przygotowawcza, poprzedzająca, składana
+                        w związku z obrzędem zaślubin” (por. Conomis 1961: 117).
+                        W takim też znaczeniu pojawia się w omawianym passusie, a także
+                        później u Platona (<title>Lg</title>. 774e9: <w>προτέλεια</w> <w>γάμων</w>). Jednak Harpokration,
+                        powołując się na fragmentarycznie zachowaną mowę Likurga
+                        z Aten O kapłance ( Conomis 1961: 107–108 oraz 117), rozszerza
+                        to znaczenie na każdy rytuał ofiarny o charakterze przygotowującym
+                        do jakiegoś ważnego wydarzenia lub jeszcze innego obrzędu
+                        (s.v.): <w>Προτέλεια</w>: <w>Λυκοῦργος</w> ἐν <w>τῷ</w> <w>περὶ</w> τῆς <w>ἱερείας</w>. τὰ <w>πρὸ</w>
+                        τοῦ <w>τελεσθῆναί</w> <w>τι</w> τῶν <w>εἰς</w> τὸ <w>θεῖον</w> <w>ἀναφερομένων</w> <w>γινόμενα</w> ἢ
+                        <w>διδόμενα</w> <w>καλεῖται</w> <w>προτέλεια</w> („Proteleia: Jak mówi Likurg w dziele
+                        O kapłance: ofiara dokonywana czy składana przed spełnieniem czegoś,
+                        co odnosi się do tego, co boskie, nazywana jest proteleia”) (tak
+                        samo zresztą już u A. <title>Ag</title>. 277, a później np. u <title>Atenajosa</title>, 10.58.7).
+                        Zob. A. <title>Ag</title>. 227 z komentarzem.</p>
+                    <p><w>Ἔσφαξας</w>: w tym jednoznacznie rytualnym kontekście – w znaczeniu
+                        technicznym: „zabiłeś/zarżnąłeś na ofiarę / tak jak ofiarę”.</p>
+                    <p>721: <w>θύσας</w> γε <w>θύμαθ</w>᾽ ἃ ἐμὲ <w>χρὴ</w> <w>θῦσαι</w> <w>θεοῖς</w> – „po tym, jak złożę
+                        w ofierze ofiary, jakie muszę bogom złożyć”. Retorycznie abundantny
+                        wers z silną anaforyczną instrumentacją dźwiękową <w>θύσας</w> […] <w>θύμα-
+                        τα</w> […] <w>θῦσαι</w> <w>θεοῖς</w>.</p>
+                </div>
+                
+                <div type="textpart" n="Iphigenia_Aulidensis_873-875">
+                    <head>Iphigenia Aulidensis 873-875</head>
+                    <p>Passus z rozmowy Klitajmestry z oddanym jej starym sługą, który
+                        wysyłany był przez Agamemnona z listami do żony i – dobrze znając
+                        jego prawdziwe intencje – donosi o nich swej pani. Sługa wyjawia,
+                        że ojciec zamierza zabić córkę. Używa przy tym zwykłego, nienacechowanego
+                        czasownika <w>κτείνειν</w>, ale w kolejnym wersie dokonuje
+                        już opisu tej zapowiedzianej śmierci w sposób, który nie pozostawia
+                        wątpliwości co do jej ofiarnego charakteru – przecięcie nożem
+                        (<w>φασγάνῳ</w>) białej szyi (<w>λευκὴν</w> […] <w>δέρην</w>) odpowiada mordowi
+                        rytualnemu, a dokładniej s p o s o b o w i pozbawiania życia ofiary:
+                        <w>σφαγή</w>.</p>
+                    <quote><lb/><emph>ΠΡΕΣΒΥΤΗΣ</emph>:
+                        <lb/>παῖδα σὴν πατὴρ ὁ φύσας αὐτόχειρ μέλλει κτενεῖν.
+                        <lb/><emph>ΚΛΥΤΑΙΜΗΣΤΡΑ</emph>:
+                        <lb/>πῶς; ἀπέπτυσ᾽, ὦ γεραιέ, μῦθον· οὐ γὰρ εὖ φρονεῖς.
+                        <lb n="875"/><emph>ΠΡ</emph>.: φασγάνῳ λευκὴν φονεύων τῆς ταλαιπώρου δέρην.</quote>
+                    <quote><lb/><emph>STARZEC</emph>:
+                        <lb/>Twoją córkę ojciec, który ją spłodził, własną ręką zamierza zabić.
+                        <lb/><emph>KLITAJMESTRA</emph>:
+                        <lb/>Jak? Wypluj, starcze, to słowo! Bo nie jesteś przy zdrowych
+                        zmysłach!
+                        <lb n="875"/><emph>S</emph>.: Mieczem białą szyję nieszczęsnej podetnie.</quote>
+                </div>
+                
+                <div type="textpart" n="Iphigenia_Aulidensis_935">
+                    <head>Iphigenia Aulidensis 935</head>
+                    <p>Wers z buńczucznej przemowy Achillesa do Klitajmestry, w której
+                        zaklina się on, że nigdy nie dopuści do śmierci Ifigenii. Kontekst
+                        słów i ich związek z wersami 718 i 875 powyżej nie pozostawiają wątpliwości,
+                        że w tym miejscu σφαγήσεται oznacza: „zostanie zarżnięta
+                        na ofiarę” (por. Casabona 1966: 174 i 176 – <w>σφαγή</w> jako nom verbal dla
+                        <w>σφάζειν</w>, tak samo w w. 1361 i 1463).</p>
+                    <quote><lb/>κοὔποτε κόρη σὴ πρὸς πατρὸς σφαγήσεται.</quote>
+                    <quote><lb/>I nigdy twoja córka nie będzie przez ojca zarżnięta na ofiarę.</quote>
+                </div>
+                
+                <div type="textpart" n="Iphigenia_Aulidensis_955">
+                    <head>Iphigenia Aulidensis 955</head>
+                    <p>Ciąg dalszy tyrady Achillesa, w której zwraca się tym razem przeciwko
+                        Kalchasowi, zarzucając mu kłamstwo. Ironicznie prorokuje, że
+                        jego ofiarne krupy i lustralna woda rytualna raczej ulegną zepsuciu,
+                        niż uda mu się spełnić swoje proroctwo o śmierci Ifigenii. Krupy ofiarne
+                        (<w>προχύτας</w>) i woda lustralna (<w>χέρνιβας</w>) stanowią konieczne elementy
+                        rytuału ofiarnego, do którego odwołuje się nie wprost Achilles.
+                        Na temat prochytai i chernibes zob. poniżej w. 1110–1114 i 1470–1471
+                        oraz komentarz do E. <title>El</title>. 800.</p>
+                    <quote><lb/>πικροὺς δὲ προχύτας χέρνιβάς τ᾽ ἀνάξεται.</quote>
+                    <quote><lb/>Krupy ofiarne i woda lustralna zgorzknieją.</quote>
+                    <p>COMMENTARY DIVIDED INTO PARAGRAPHS</p>
+                </div>
+                
+                <div type="textpart" n="Iphigenia_Aulidensis_1080-1084">
+                    <head>Iphigenia Aulidensis 1080-1084</head>
+                    <p>Epodos trzeciego stasimonu chóru, który zwraca się w niej bezpośrednio
+                        do Ifigenii, zapowiadając jej ofiarniczą śmierć i porównując ją
+                        do jałówki (<w>μόσχον</w> <w>ἀκήρατον</w>) wiedzionej do ołtarza ofiarnego. Poetycki
+                        obraz zwierzęcia ofiarnego, do którego przyrównana jest Ifigenia. Tak
+                        jak zwierzęciu ofiarnemu zaplata się na głowie ozdobne tasiemki – stemmata,
+                        tak samo Ifigenia zostanie ozdobiona wieńcem z liści (<w>ἐπὶ</w> <w>κάρα</w>
+                        <w>στέψουσι</w>). Ifigenia j e s t ofiarą, a przygotowanie jej śmierci ma wszystkie
+                        cechy obrzędów wstępnych. Istotną zmianą jest wskazanie na kolektywny
+                        charakter przygotowywanej ofiary: to „Argiwi” ją spełniają, nie
+                        tylko sam Agamemnon (Collard, Morwood 2017: 509).</p>
+                    <quote><lb n="1080"/>σὲ δ᾽ ἐπὶ κάρα στέψουσι καλλικόμαν
+                        <lb/>πλόκαμον Ἀργεῖοι, βαλιὰν
+                        <lb/>ὥστε πετραίων ἀπ᾽ ἄντρων
+                        <lb/>† ἐλθοῦσαν ὀρέων †
+                        <lb/>μόσχον ἀκήρατον, βρότειον
+                        <lb/>αἱμάσσοντες λαιμόν.</quote>
+                    <quote><lb n="1080"/>Tobie na głowę i piękny warkocz włosów
+                        <lb/>Włożą wieniec Argiwi, jak łaciatej
+                        <lb/>Z jaskiń skalnych
+                        <lb/>Z gór schodzącej
+                        <lb/>Jałówce bez rogów, ludzką
+                        <lb/>Szyję zbroczą krwią.</quote>
+                    <p>1083–1084: <w>βρότειον</w> / <w>αἱμάσσοντες</w> <w>λαιμόν</w> – „ludzką / szyję zbroczą
+                        krwią”. Komentarze zwracają uwagę na przymiotnik <w>βρότειος</w> –
+                        „ludzki” jako środek unaocznienia z jednej strony brutalności mordu,
+                        a z drugiej – nietypowego charakteru ofiary (Wilkins 1993; Collard,
+                        Morwood 2017: 510).</p>
+                </div>
+                
+                <div type="textpart" n="Iphigenia_Aulidensis_1110-1114">
+                    <head>Iphigenia Aulidensis 1110-1114</head>
+                    <p>Początek epeisodionu czwartego, passus z rozmowy Agamemnona
+                        z Klitajmestrą. Agamemnon nie wie jeszcze, że jego żona i córka już
+                        znają cały plan i misternie knute oszustwa i nadal udaje, że przygotowania
+                        do ofiary mają związek ze ślubem Ifigenii, a nie z poświęceniem
+                        jej na ołtarzu. Wymienia cały ciąg rytów przygotowawczych ofiary
+                        krwawej (zob. szczegółowy komentarz do E. <title>El</title>. 802–814): przygotowanie
+                        naczyń z wodą do oczyszczeń (<w>χέρνιβες</w> πάρεισιν, zob. komentarz
+                        do w. 675), krupy zbożowe (<w>προχύται</w> τε <w>βάλλειν</w>), święty ogień
+                        (<w>πῦρ</w> <w>καθάρσιον</w> – na ten temat zob. komentarz do E. <title>HF</title> 1144–1145
+                        i 936–937) i zwierzęta ofiarne (<w>μόσχοι</w>).</p>
+                    <quote><lb n="1110"/>ἔκπεμπε παῖδα δωμάτων πατρὸς μέτα·
+                        <lb/>ὡς χέρνιβες πάρεισιν εὐτρεπισμέναι,
+                        <lb/>προχύται τε βάλλειν πῦρ καθάρσιον χεροῖν,
+                        <lb/>μόσχοι τε, πρὸ γάμων ἃς θεᾷ πεσεῖν χρεών.
+                        <lb/>[Ἀρτέμιδι, μέλανος αἵματος φυσήματα.]</quote>
+                    <quote><lb n="1110"/>Odeślij córkę z domu razem z ojcem,
+                        <lb/>Ponieważ naczynia z wodą do oczyszczeń już są przygotowane,
+                        <lb/>I krupy do wrzucenia w oczyszczający ogień rękami,
+                        <lb/>I jałówki, jakie trzeba złożyć bogini przed ślubem.
+                        <lb/>Dla Artemidy, wybroczyny czarnej krwi.</quote>
+                </div>
+                
+                <div type="textpart" n="Iphigenia_Aulidensis_1185-1186">
+                    <head>Iphigenia Aulidensis 1185-1186</head>
+                    <p>Słowa z wielkiego monologu Klitajmestry do Agamemnona: systematycznego
+                        katalogu wszystkich jego przewin i występków. Monolog
+                        emocjonalny, rozchwiany – od srogich gróźb do błagań i wzruszeń.
+                        Pośród argumentów za odstąpieniem od powziętego planu
+                        zabicia Ifigenii Klitajmestra wskazuje także na bezbożność jego czynu
+                        (jak w w. 1318) i pyta, jak można składać ofiarę z własnego dziecka
+                        i równocześnie modlić się do boga. Modlitwa stanowiła element
+                        niezbywalny procedury ofiarnej, poprzedzała ją i jej towarzyszyła
+                        (Pulleyn 1997: 7 z przypisem 17 i bibliografią oraz 8 z komentarzem
+                        do omawianego passusu). Grek postrzegał modlitwę jako prośbę
+                        o „dobre rzeczy” (ibidem, 8).</p>
+                    <quote><lb n="1185"/>θύσεις † δὲ παῖδ᾽, ἔνθα † τίνας εὐχὰς ἐρεῖς;
+                        <lb/>τί σοι κατεύξῃ τἀγαθόν, σφάζων τέκνον;</quote>
+                    <quote><lb n="1185"/>Złożysz ofiarę z dziecka, jakie tam wzniesiesz modlitwy?
+                       <lb/> Jakie dobro wyprosisz, zażynając własne dziecko?</quote>
+                    <p>1186: <w>σφάζων</w> <w>τέκνον</w> – „zażynając własne dziecko”. W tym miejscu
+                        widoczny jest znakomicie techniczny sens słowa: nie oznacza ono
+                        tutaj p o p r o s t u „zabijać”, ale jest technicznym elementem procedury
+                        ofiary – thysia – i oznacza „wykonać cięcie na szyi ofiary celem zabicia
+                        jej na ofiarę”. W ustach Klitajmestry, która mówi jednak o śmierci
+                        swojego dziecka, czasownik σφάζειν, pozostając w kręgu języka ofiary,
+                        równocześnie odsłania całą swoją grozę przez odwołanie do rytuału
+                        krwawego, brutalnego i okrutnego.</p>
+                </div>
+                
+                <div type="textpart" n="Iphigenia_Aulidensis_1200">
+                    <head>Iphigenia Aulidensis 1200</head>
+                    <p>Kontynuując myśl z poprzednich wersów, Klitajmestra powraca
+                        do tematu ofiary typu sphagia, jaką ma się stać w zamiarze Agamemnona
+                        Ifigenia. Jest to drugie miejsce w tekście dramatu, w którym pojawia
+                        się ten rzeczownik – w obydwu wypadkach mowa jest o sphagion
+                        z córki dla Danaów (zob. komentarz do w. 135).</p>
+                    <quote><lb/>σφάγιον παρασχεῖν Δαναΐδαισι παῖδα σήν […]</quote>
+                    <quote><lb/>Dać Danaom własną córkę jako ofiarę na zarżnięcie</quote>
+                </div>
+                
+                <div type="textpart" n="Iphigenia_Aulidensis_1259-1263">
+                    <head>Iphigenia Aulidensis 1259-1263</head>
+                    <p>Passus z przemowy Agamemnona do Klitajmestry i Ifigenii w odpowiedzi
+                        na ich błagania. Wskazuje on na wojska gotowe do drogi na
+                        Troję i przywołuje autorytet Kalchasa. Pojawia się tu kolejny raz czasownik
+                        θύειν (w. 1262) w połączeniu z wróżbą Kalchasa. Agamemnon
+                        konsekwentnie unika używania czasownika <w>σφάζειν</w> ( Collard, Morwood
+                        2017: 10–11), kiedy mówi o śmierci Ifigenii.</p>
+                    <quote><lb/>ὁρᾶθ᾽ ὅσον στράτευμα ναύφρακτον τόδε,
+                        <lb n="1260"/>χαλκέων θ᾽ ὅπλων ἄνακτες Ἑλλήνων ὅσοι,
+                        <lb/>οἷς νόστος οὐκ ἔστ᾽ Ἰλίου πύργους ἔπι,
+                        <lb/>εἰ μή σε θύσω, μάντις ὡς Κάλχας λέγει,
+                        <lb/>οὐδ᾽ ἔστι Τροίας ἐξελεῖν κλεινὸν βάθρον.</quote>
+                    <quote><lb/>Zobaczcie, jakie tu wojsko na okrętach,
+                       <lb n="1260"/> I jacy władcy Greków w spiżowych zbrojach,
+                        <lb/>Dla których nie ma drogi na wieże Ilionu,
+                        <lb/>Jeśli nie złożę ciebie w ofierze, jak mówi Kalchas,
+                        <lb/>I nie ma zdobycia słynnych podstaw Troi.</quote>
+                </div>
+                
+                <div type="textpart" n="Iphigenia_Aulidensis_1270-1272">
+                    <head>Iphigenia Aulidensis 1270-1272</head>
+                    <p>Zakończenie przemowy Agamemnona, który przywołuje argumenty
+                        z patriotyzmu i przekonuje, że ofiara Ifigenii jest potrzebna nie
+                        żadnemu z wodzów, tylko całej Grecji.</p>
+                    <quote><lb n="1270"/>οὐδ᾽ ἐπὶ τὸ κείνου βουλόμενον ἐλήλυθα,
+                        <lb/>ἀλλ᾽ Ἑλλάς, ᾗ δεῖ, κἂν θέλω κἂν μὴ θέλω,
+                        <lb/>θῦσαί σε.</quote>
+                    <quote><lb n="1270"/>I to nie jego [sc. Menelaosa] woli się poddaję,
+                        <lb/>Ale Grecji, dla której trzeba, czy chcę, czy nie chcę,
+                        <lb/>Złożyć ciebie w ofierze.</quote>
+                </div>
+                
+                <div type="textpart" n="Iphigenia_Aulidensis_1311-1312">
+                    <head>Iphigenia Aulidensis 1311-1312</head>
+                    <p>Wersy z pieśni Ifigenii, która godzi się ze swoim losem i jest świadoma,
+                        że jej imię przyniesie sławę Grekom (w. 1310–1311: <w>ὄνομα</w> […]
+                        <w>Δαναΐδαισιν</w>) i nazywa siebie samą „ofiarą wstępną” (<w>πρόθυμα</w>).</p>
+                    <quote><lb/>ὦ κόραι, πρόθυμα δ᾽
+                        <lb/>ἔλαβεν Ἄρτεμις πρὸς Ἴλιον.</quote>
+                    <quote><lb/>O panny! Jako wstępną ofiarę
+                        <lb/>Wzięła mnie Artemida za Ilion.</quote>
+                    <p>1311: <w>πρόθυμα</w> – „ofiara wstępna”. Ifigenia nazywa sama siebie prothyma
+                        (zob. Stockert 1992: 568), ponieważ jest ofiarą, jaką należy złożyć
+                        przed wyprawą. Prothyma oznacza bowiem – w przytłaczającej większości
+                        wystąpień – „ofiarę złożoną p r z e d”, zgodnie z podstawową,
+                        czasową funkcją prefiksu przyimkowego πρό, i poprzedza albo jakieś
+                        inne wydarzenie (takie jak uroczystość religijna, igrzyska, zawody, uczta
+                        – zob. Mikalson 1972: 579 i 583; zob. też Casabona 1966: 103 i 105), albo też
+                        inną ofiarę, najczęściej przeznaczoną dla jakiegoś innego bóstwa. Z tego
+                        względu – poza kontekstem literackim – najlepszy byłby techniczny przekład
+                        jako „ofiara poprzedzająca”, a nie (jak w zaproponowanym powyżej
+                        przekładzie passusu) „wstępna” lub „przygotowawcza”, ponieważ częstokroć
+                        akcent spoczywa jedynie na precedencji czasowej, bez żadnych
+                        dodatkowych elementów wartościujących. W literaturze klasycznej,
+                        w tekstach literackich termin ten występuje rzadko (częściej w materiale
+                        epigraficznym, zob. Mikalson 1972: passim), poza tym miejscem tylko
+                        raz u Arystofanesa (<title>Pl</title>. 660). Później użył go Plutarch (<title>Pyrrh</title>. 18.6.1, <title>Arat</title>.
+                        25.5.1), Dionizjusz z Halikarnasu (6.6.3), Porfiriusz (<title>Quaest. Hom. </title>13.18),
+                        Pauzaniasz (4.16.2) i Appian (<title>BC</title> 2, 21, 151). Często powracał w komentarzach
+                        scholiastów (w scholiach do Homera, Ajschylosa, Arystofanesa).</p>
+                </div>
+                
+                <div type="textpart" n="Iphigenia_Aulidensis_1315-1318">
+                    <head>Iphigenia Aulidensis 1315-1318</head>
+                    <p>W tej samej pieśni, w której Ifigenia godzi się ze swoim losem, równocześnie
+                        jednak wskazuje na Helenę jako przyczynę nieszczęść i wypomina
+                        ojcu jego zamierzony czyn – nazywa go bezbożnym.</p>
+                    <quote><lb n="1315"/>ὦ δυστάλαιν᾽ ἐγώ, πικρὰν
+                        <lb/>πικρὰν ἰδοῦσα δυσελέναν,
+                        <lb/>φονεύομαι διόλλυμαι
+                        <lb/>σφαγαῖσιν ἀνοσίοισιν ἀνοσίου πατρός.</quote>
+                    <quote><lb n="1315"/>O ja nieszczęśliwa! Gorzką,
+                        <lb/>Gorzką zobaczywszy złą Helenę,
+                        <lb/>Mordują mnie, ginę
+                        <lb/>Od bezbożnych ciosów bezbożnego ojca.</quote>
+                    <p>1318: <w>ù</w> – „od […] ciosów”. W tym wypadku rzeczownik
+                        σφαγή oznacza przede wszystkim uderzenie mieczem lub nożem,
+                        morderczy cios. Nie można jednak nie zauważyć – jak we wszystkich
+                        innych wypadkach w tym dramacie – immanentnej dwuznaczności
+                        tego terminu, który jednocześnie pozostaje w związku z terminologią
+                        ofiarną: Ifigenia j e s t sphagion (w. 130, 1200).</p>
+                </div>
+                
+                <div type="textpart" n="Iphigenia_Aulidensis_1345-1348">
+                    <head>Iphigenia Aulidensis 1345-1348</head>
+                    <p>Po dramatycznej wymianie zdań i mów między Agamemnonem,
+                        Klitajmestrą i Ifigenią na scenę wpada Achilles z wiadomością, że ofiary
+                        z Ifigenii domagają się – zgodnie z przewidywaniami Agamemnona
+                        (zob. w. 524–525) – wszyscy Grecy pod wodzą Odyseusza. Odyseusz
+                        nie domaga się bezsensownego mordu, tylko wypełnienia rozkazu
+                        bogini i złożenia stosownej ofiary – w tym wypadku z pewnością wers
+                        <w>ὡς</w> <w>χρεὼν</w> <w>σφάξαι</w> <w>νιν</w> (w. 1348) oznacza „że trzeba ją złożyć/zabić/zarżnąć 
+                        w ofierze”, a nie po prostu „zabić”.</p>
+                    <quote><lb/><emph>ΑΧΙΛΛΕΥΣ</emph>:
+                        <lb n="1345"/>ὦ γύναι τάλαινα, Λήδας θύγατερ . . .
+                        <lb/><emph>ΚΛΥΤΑΙΜΗΕΣΤΡΑ</emph>:
+                        <lb/>οὐ ψευδῆ θροεῖς.
+                        <lb/><emph>ΑΧ</emph>.: δείν᾽ ἐν Ἀργείοις βοᾶται . . .
+                        <lb/><emph>ΚΛ</emph>.: τίνα βοήν; σήμαινέ μοι.
+                        <lb/><emph>ΑΧ</emph>.: ἀμφὶ σῆς παιδός . . .
+                        <lb/><emph>ΚΛ</emph>.: πονηρὸν εἶπας οἰωνὸν λόγον.
+                        <lb/><emph>ΑΧ</emph>.: ὡς χρεὼν σφάξαι νιν.</quote>
+                    <quote><lb/><emph>ACHILLES</emph>:
+                        <lb n="1345"/>O nieszczęsna kobieto! Córko Ledy!
+                        <lb/><emph>KLITAJMESTRA</emph>:
+                        <lb/>Nie mówisz nieprawdy…
+                        <lb/><emph>A</emph>: Straszne wśród Argiwów krzyki…
+                        <lb/><emph>KL</emph>.: Co za krzyki? Wyjaśnij mi!
+                        <lb/><emph>A</emph>: O twoją córkę…
+                        <lb/><emph>KL</emph>.: Złe słowa złej wróżby powiedziałeś.
+                        <lb/><emph>A</emph>: Że trzeba ją zarżnąć w ofierze.</quote>
+                </div>
+                
+                <div type="textpart" n="Iphigenia_Aulidensis_1361">
+                    <head>Iphigenia Aulidensis 1361</head>
+                    <p>Ciąg dalszy wymiany zdań między Klitajmestrą i Achillesem,
+                        który nadal utrzymuje, wbrew wszystkiemu, że ocali Ifigenię, mimo
+                        buntu wojska, które domaga się tej ofiary. Achilles butnie obiecuje, że
+                        dopóki „nie zabraknie mu woli” (w. 1361: <w>ἐμοῦ</w> γ᾽ <w>ἑκόντος</w>) i dopóki
+                        tylko będzie w pobliżu (w. 1360: <w>ἀλλ</w>᾽ <w>ὀνησόμεσθα</w>), będzie stawał
+                        w jej obronie. Te obietnice są dla Klitajmestry światłem nadziei na to,
+                        że jej córka nie zostanie „zabita/zarżnięta na ofiarę” (<w>σφαγήσεται</w>).</p>
+                    <quote><lb/>παῖς ἄρ᾽ οὐκέτι σφαγήσεται;</quote>
+                    <quote><lb/>Czyli córka już nie zostanie zabita?</quote>
+                </div>
+                
+                <div type="textpart" n="Iphigenia_Aulidensis_1368-1401">
+                    <head>Iphigenia Aulidensis 1368-1401</head>
+                    <p>Mowa Ifigenii, w której dokonuje się jej przemiana – od lęku
+                        przed śmiercią, do dobrowolnej i chętnej ofiary. Poza jednym wersem
+                        (w. 1398: <w>θύετ</w>᾽, <w>ἐκπορθεῖτε</w> <w>Τροίαν</w> – „złóżcie w ofierze, spalcie
+                        Troję”) terminologia ofiarnicza nie pojawia się wprost w tym
+                        ważnym passusie. Z tej też racji nie jest on poniżej tłumaczony i komentowany.
+                        Nie można jednak go tutaj pominąć – śmierć Ifigenii
+                        stanowi w nim temat kluczowy. Intrygujące, że Ifigenia mówi tylko
+                        o swojej śmierci, nie o ofierze (w. 1375: <w>κατθανεῖν</w> <w>μέν</w> <w>μοι</w> <w>δέδοκται</w>,
+                        1383: <w>κατθανοῦσα</w>, 1389: <w>θανεῖν</w>). W kontekście Artemidy i jej żądań
+                        także unika słowa „ofiara” lub jakichkolwiek z nim powiązanych.
+                        Z retoryczną omownią oświadcza, że odda swoje ciało, jeśli
+                        bogini chce je sobie wziąć (w. 1395: βεβούληται<note n="63">W edycji Stockerta (1992: 143) lekcja δ᾽ <w>ἐβουλήθη</w> w cruces, tak samo
+                            w edycji Diggle’a.</note> δὲ <w>σῶμα</w> <w>τοὐμὸν</w>
+                        <w>Ἄρτεμις</w> <w>λαβεῖν</w> – „Artemida zechciała sobie wziąć moje ciało”).
+                        Dwa wersy dalej natomiast mówi, że oddaje swoje ciało Helladzie,
+                        nie Artemidzie (w. 1397: <w>δίδωμι</w> <w>σῶμα</w> <w>τοὐμὸν</w> <w>Ἑλλάδι</w>). W tym miejscu
+                        trzeba powrócić jeszcze do wspomnianego już wyżej wersu 1398
+                        (<w>θύετ</w>᾽, <w>ἐκπορθεῖτε</w> <w>Τροίαν</w> – „złóżcie w ofierze, spalcie Troję”) i jego
+                        kontynuacji: <w>ταῦτα</w> <w>γὰρ</w> <w>μνημεῖά</w> <w>μου</w> – „to [dosłownie: te rzeczy]
+                        są bowiem moim pomnikiem”. W świetle tych wersów śmierć Ifigenii
+                        i zwycięstwo nad Troją stają się jednym, nierozłącznym „pomnikiem”,
+                        „upamiętnieniem sławy”. <w>Θύετε</w> zapewne odnosi się do
+                        poprzedniego wersu i „oddania ciała”, budując frazę: „oddaję ciało
+                        Helladzie – złóżcie je w ofierze”. W pewnym sensie można chyba
+                        mówić o radykalnej desakralizacji własnej śmierci przez bohaterkę –
+                        wyraźnie punkt ciężkości z bycia ofiarą (ang. victim, gr. thyma) na bycie
+                        męczenniczką za dobrą sprawę, patriotką (ang. martyr, por. Michelakis
+                        2006: 38–39). Z tej właśnie racji, wobec braku jakichkolwiek
+                        nawiązań bezpośrednich do ofiarnego charakteru śmierci Ifigenii
+                        może należałoby zmienić interpunkcję, usunąć przecinek i związać
+                        θύετε z Τροίαν? „Złóżcie w ofierze, spalcie Troję”? Pomnikiem i znakiem
+                        zwycięstwa Ifigenii będzie spalona Troja i to ona ma być rzeczywistą
+                        ofiarą dla bogów. Ostatecznym celem Ifigenii jest „zbawienie
+                        Grecji” (w. 1420: <w>σῷσαί</w> μ᾽ <w>Ἑλλάδ</w>᾽), nie „tylko” – „zniszczenie Troi”.</p>
+                </div>
+                
+                <div type="textpart" n="Iphigenia_Aulidensis_1426-1430">
+                    <head>Iphigenia Aulidensis 1426-1430</head>
+                    <p>Po przemowie Ifigenii, Achilles jest pełen podziwu i niemal przekonany
+                        do słuszności jej racji, ale mimo to nadal deklaruje chęć jej
+                        ocalenia – tym razem już podczas samej procedury ofiarnej. Nadal
+                        buńczucznie oświadcza, że przyjdzie do świątyni pod bronią (w. 1431:
+                        <w>ἐλθὼν</w> δὲ <w>σὺν</w> <w>ὅπλοις</w> <w>τοῖσδε</w> <w>πρὸς</w> <w>ναὸν</w> <w>θεᾶς</w>), stanie blisko ołtarza
+                        i w momencie samego mordu – zainterweniuje.</p>
+                    <p>Passus ponownie przywołuje obraz śmierci ofiarnej przy ołtarzu
+                        (<w>βωμοῦ</w> <w>πέλας</w>) jedynie przez opis nie wprost: wizję miecza, używanego
+                        podczas ofiary (<w>φάσγανον</w>), zbliżającego się do szyi, czyli cięcia
+                        – <w>σφαγή</w>, które w tekście się nie pojawia.</p>
+                    <quote><lb/>ἐλθὼν τάδ᾽ ὅπλα θήσομαι βωμοῦ πέλας,
+                        <lb/>ὡς οὐκ ἐάσων σ᾽ ἀλλὰ κωλύσων θανεῖν.
+                        <lb/>χρήσῃ δὲ καὶ σὺ τοῖς ἐμοῖς λόγοις τάχα,
+                        <lb/>ὅταν πέλας σῆς φάσγανον δέρης ἴδῃς.
+                        <lb n="1430"/>οὔκουν ἐάσω σ᾽ ἀφροσύνῃ τῇ σῇ θανεῖν.</quote>
+                    <quote><lb/>Przyjdę i położę broń blisko ołtarza,
+                        <lb/>Żeby nie pozwolić ci umrzeć, ale w tym przeszkodzić.
+                        <lb/>A ty szybko ze słów moich zrobisz użytek,
+                        <lb/>Kiedy ujrzysz miecz blisko swojej szyi.
+                        <lb n="1430"/>Ja więc nie pozwolę ci w tym twoim szaleństwie umrzeć.</quote>
+                </div>
+                
+                <div type="textpart" n="Iphigenia_Aulidensis_1444">
+                    <head>Iphigenia Aulidensis 1444</head>
+                    <p>W dość długim dialogu Ifigenia przekonuje matkę, by nie przeżywała
+                        jej śmierci w żałobie – nie przywdziewała żałobnych szat, nie
+                        ścinała włosów. Przekonuje, że nie będzie miała ona przecież nawet
+                        grobu, a jej jedynym grobowcem – μνῆμα – będzie ołtarz bogini. Także
+                        nieco wyżej (w. 1442) Ifigenia mówi, że nie będzie miała grobowca:
+                        <w>ἐπεί</w> <w>μοι</w> <w>τύμβος</w> <w>οὐ</w> <w>χωσθήσεται</w>. Wszystko to zdaje się implicite wskazywać
+                        na to, że ofiara Ifigenii – shagia – ma być jednocześnie holokaustos:
+                        ofiarą całopalną, jak w kulcie herosów (Ekroth 2002: 289, 328–329
+                        oraz Ekroth 2017: passim).</p>
+                    <quote><lb/>βωμὸς θεᾶς μοι μνῆμα τῆς Διὸς κόρης.</quote>
+                    <quote><lb/>Grobem dla mnie – ołtarz bogini, córy Zeusa.</quote>
+                </div>
+                
+                <div type="textpart" n="Iphigenia_Aulidensis_1462-1463">
+                    <head>Iphigenia Aulidensis 1462-1463</head>
+                    <p>Słowa ze sceny pożegnalnej Klitajmestry i Ifigenii. Córka niezmiennie
+                        podtrzymuje matkę na duchu i prosi, by ktoś ze sług zaprowadził
+                        ją na miejsce składania ofiary – łąkę Artemidy. Ifigenia tym razem nazywa
+                        swoją śmierć wprost, po imieniu, łąkę Artemidy nazywa miejscem,
+                        w którym zostanie zarżnięta na ofiarę – <w>σφαγήσομαι</w>. Przejście
+                        od języka zabijania i umierania (w. 1375: <w>κατθανεῖν</w> μέν μοι <w>δέδοκται</w>,
+                        1383: <w>κατθανοῦσα</w>, 1389: <w>θανεῖν</w>) do <w>σφάζειν</w> obrazuje kolejny raz
+                        przemianę Ifigenii, która posługuje się już konsekwentnie językiem
+                        ofiary krwawej, a nie neutralnej śmierci (Collard, Morwood 2017: 11
+                        i 609).</p>
+                    <quote><lb/>πατρὸς δ᾽ ὀπαδῶν τῶνδέ τίς με πεμπέτω
+                        <lb/>Ἀρτέμιδος ἐς λειμῶν᾽, ὅπου σφαγήσομαι.</quote>
+                    <quote><lb/>Niech ktoś ze sług ojca zaprowadzi mnie
+                        <lb/>Na łąkę Artemidy, gdzie zostanę zarżnięta na ofiarę.</quote>
+                </div>
+                
+                <div type="textpart" n="Iphigenia_Aulidensis_1467-1487">
+                    <head>Iphigenia Aulidensis 1467-1487</head>
+                    <p>Koniec ostatniego epeisodionu, który przechodzi w amoibaion Ifigenii.
+                        Po rozmowie z matką zwraca się ona do chóru dziewcząt, prosząc
+                        o podjęcie przygotowań do ofiary, dając szczegółowe wskazania
+                        fachowym językiem, co mają robić – wypowiedź ta przekształca się
+                        w śpiew.</p>
+                    <quote><lb/>ὑμεῖς δ᾽ ἐπευφημήσατ᾽, ὦ νεάνιδες,
+                        <lb/>παιᾶνα τἠμῇ συμφορᾷ Διὸς κόρην
+                        <lb/>Ἄρτεμιν· ἴτω δὲ Δαναΐδαις εὐφημία.
+                        <lb n="1470"/>κανᾶ δ᾽ ἐναρχέσθω τις, αἰθέσθω δὲ πῦρ
+                        <lb/>προχύταις καθαρσίοισι, καὶ πατὴρ ἐμὸς
+                        <lb/>ἐνδεξιούσθω βωμόν· ὡς σωτηρίαν
+                        <lb/>Ἕλλησι δώσουσ᾽ ἔρχομαι νικηφόρον.
+                        <lb/>ἄγετέ με τὰν Ἰλίου
+                        <lb n="1475"/>καὶ Φρυγῶν ἑλέπτολιν.
+                        <lb/>στέφεα περίβολα δίδοτε, φέρετε
+                        <lb/>—πλόκαμος ὅδε καταστέφειν—
+                        <lb/>χερνίβων τε παγάς.
+                        <lb/>ἑλίσσετ᾽ ἀμφὶ ναὸν
+                        <lb n="1480"/>ἀμφὶ βωμὸν Ἄρτεμιν,
+                        <lb/>τὰν ἄνασσαν Ἄρτεμιν,
+                        <lb/>τὰν μάκαιραν· ὡς ἐμοῖσιν, εἰ χρεών,
+                        <lb/>αἵμασι θύμασί [τε]
+                        <lb/>θέσφατ᾽ ἐξαλείψω.
+                        <lb n="1485"/>ὦ πότνια πότνια μᾶτερ, οὐ δάκρυά γέ σοι
+                        <lb/>δώσομεν ἁμέτερα·
+                        <lb/>παρ᾽ ἱεροῖς γὰρ οὐ πρέπει.</quote>
+                    <quote><lb/>Wy, dziewczęta, zaintonujcie pięknie
+                        <lb/>Pajan Zeusowej córze z mojej okazji,
+                        <lb/>Artemidzie, niech na Danaów zstąpi zbożne milczenie.
+                        <lb n="1470"/>Niech ktoś od koszy rozpocznie obrzędy, ogień niech zabłyśnie
+                        <lb/>Od oczyszczających krup, i ojciec mój
+                        <lb/>Niech obejdzie z prawej strony ołtarz, abym ocalenie
+                        <lb/>Dała Hellenom i osiągnęła zwycięstwo!
+                        <lb/>Prowadźcie mnie, Ilionu
+                        <lb n="1475"/>I Frygów zdobywczynię.
+                        <lb/>Dajcie mi wieńce na głowę. Przynieście
+                        <lb/>– Oto pukle pod wieniec –
+                        <lb/>Oraz zdroje oczyszczającej wody.
+                        <lb/>Uczcijcie tańcem wokół świątyni,
+                        <lb n="1480"/>Wokół ołtarza, Artemidę,
+                        <lb/>Władczynię Artemidę,
+                        <lb/>Tę szczęśliwą, abym, jeśli trzeba, moją
+                        <lb/>Krwią i ofiarą
+                        <lb/>Wypełniła boskie wyroki.
+                        <lb n="1485"/>O pani, pani matko, łez ci
+                        <lb/>Naszych nie damy:
+                        <lb/>Nie przystoi to bowiem przy ofiarach.</quote>
+                    <p>1469: <w>ἴτω</w> δὲ <w>Δαναΐδαις</w> <w>εὐφημία</w> – „niech na Danaów zstąpi zbożne
+                        milczenie”. Rytualne, pełne szacunku milczenie – <w>εὐφημία</w> – jest
+                        elementem obrzędów poprzedzających ofiarę, umożliwia modlitwę
+                        i skupienie w czasie samej ofiary – podczas samego aktu ofiary
+                        milczenia nie mogą przerwać ani krzyki, ani lament (Burkert 1983: 4;
+                        Burkert 1985a: 199; Gödde 2007: 282–283; Montiglio 2000: 16; zob. też
+                        komentarz Doddsa do w. 68–70 Ba., 1988). Zob. też komentarz poniżej,
+                        wers 1564.</p>
+                    <p>1470–1471: <w>κανᾶ</w> δ᾽ <w>ἐναρχέσθω</w> τις, <w>αἰθέσθω</w> δὲ <w>πῦρ</w> / <w>προχύταις</w>
+                        <w>καθαρσίοισι</w> – „Niech ktoś od koszy rozpocznie obrzędy, ogień niech
+                        zabłyśnie / od oczyszczających krup”. Κανᾶ ἐνάρχεσθαι występuje
+                        już w wersie 435 (tam też zob. obszerny komentarz) i oznacza „zacząć
+                        obrzęd ofiarny od koszy / od sięgnięcia do koszy po krupy”. Z passusu
+                        wynika, że krupy na początku obrzędu rzucano na ołtarz (także
+                        na zwierzę ofiarne, zob. van Straten 1995: 38, zob. też Burkert 1966:
+                        107 z przypisem 46), a tutaj – dokładniej, na ogień płonący na ołtarzu.
+                        Przymiotnik καθάρσιοι zdaje się mówić, że obrzęd obrzucania
+                        krupami należał do rytuałów oczyszczających (tak Stengel 1910b: 14).
+                        Ogień ma od nich rozbłysnąć i wydaje się, że to właśnie krupy mają
+                        oczyszczać ogień.</p>
+                    <p>1472: <w>ἐνδεξιούσθω</w> <w>βωμόν</w> – „niech obejdzie z prawej strony ołtarz”.
+                        <w>Ἐνδεξιούσθαι</w> jest Eurypidesowym hapax legomenon ( Stockert
+                        1992: 609). W Pokoju Arystofanesa (w. 956, zob. komentarz Bednarka
+                        2017: 106–107) mamy frazę <w>περίιθι</w> τὸν <w>βωμὸν</w> <w>ταχέως</w> <w>ἐπιδέξια</w>
+                        – „obejdź szybko ołtarz z prawej strony”. Według ustaleń Bednarka
+                        (w komentarzu ad loc. ibidem) przysłówek <w>ἐπιδέξια</w> opisuje ruch po
+                        okręgu na prawo, zaczynając od lewej, to znaczy z lewa na prawo
+                        (przeciwnie do ruchu wskazówek zegara). A zatem, pozostawiając tłumaczenie
+                        czasownika <w>ἐνδεξιούσθαι</w> jako „obchodzić z prawej strony”,
+                        należałoby wyjaśniać zarazem, że jest to ruch w prawą stronę od lewej.
+                        Wszystko wskazuje na to, że takie obejście ołtarza stanowiło utrwalony
+                        rytuał podczas obrzędów wstępnych ofiary krwawej (zob. też komentarz
+                        do E. <title>HF</title> 926–927). Obchodzenie – a dokładniej obiegnięcie
+                        – ołtarza przed ofiarą jest też opisane poniżej w wersach 1568–1569.</p>
+                    <p>1476: <w>στέφεα</w> <w>περίβολα</w> <w>δίδοτε</w> – „dajcie mi wieńce na głowę”.
+                        Wszyscy uczestnicy obrzędu ofiarnego zdobili głowy wieńcami
+                        (zob. komentarz do E. <title>El</title>. 778). Zwierzęta ofiarne zdobione były albo
+                        wstążkami, albo także wieńcami lub kwiatami (van Straten 1995:
+                        161–162). Ifigenia w tej scenie prosi o wieniec jako ofiara, nie jako
+                        ofiarnik.</p>
+                    <p>1476–1478: <w>φέρετε</w> / […] / <w>χερνίβων</w> τε <w>παγάς</w> – „Przynieście / […]
+                        / oraz zdroje oczyszczającej wody”. <w>Χέρνιψ</w> może oznaczać i wodę lustralną,
+                        i naczynie na taką wodę, stojące przy ołtarzu. Tutaj mowa jest
+                        raczej o doniesieniu samej wody (<w>παγάς</w>) do naczyń (zob. komentarz
+                        do E. <title>El</title>. 792).</p>
+                    <p>1479–1480: <w>ἑλίσσετ</w>᾽ <w>ἀμφὶ</w> <w>ναὸν</w> / <w>ἀμφὶ</w> <w>βωμὸν</w> <w>Ἄρτεμιν</w> – „uczcijcie
+                        tańcem wokół świątyni, / wokół ołtarza, Artemidę”. Na temat nietypowej
+                        rekcji czasownika <w>ἑλισσειν</w> do biernika (<w>Ἄρτεμιν</w>) razem ze
+                        zwrotem przyimkowym (<w>ἀμφὶ</w> <w>ναόν</w> / <w>ἀμφὶ</w> <w>βωμόν</w>) zob. komentarze
+                        Englanda (1891: 146–147) i Stockerta (1992: 613), którzy zwracają
+                        uwagę na analogię do χορεύειν w znaczeniu „uczcić kogoś tańcem”
+                        (por. E. <title>HF</title> 687). Obrzęd ofiarny rozpoczyna się procesyjnym pochodem
+                        wokół świątyni, a następnie wokół samego ołtarza.</p>
+                    <p>1483–1484: <w>αἵμασι</w> <w>θύμασί</w> [ τε] / <w>θέσφατ</w>᾽ <w>ἐξαλείψω</w> – dosłownie:
+                        „krwią i ofiarą / wypełniła boskie wyroki”. Wers sprawia trudność
+                        komentatorom, ponieważ czasownik <w>ἐξαλείφειν</w> wymusza
+                        pejoratywny obraz – zmywa się winę lub hańbę. Willamowitz zaproponował
+                        interpretację, w której dominuje koncepcja „spełnienia
+                        obowiązku, jaki wynika z proroctwa” („Gemeint muß sein, daß die
+                        Verpflichnung tilgt, die der Spruch des Kalchas geoffenbart hatte”
+                        – cytat za Stockert 1992: 614, tam też bibliografia). <w>Αἵμασι</w> <w>θύμασί</w>
+                        [τε] – hendiadys, tyle co „krwawą ofiarą” (Collard, Morwood 2017:
+                        615).</p>
+                    <p>1487: <w>παρ</w>᾽ <w>ἱεροῖς</w> γὰρ οὐ <w>πρέπει</w> – „nie przystoi to bowiem przy
+                        ofiarach”. Τὰ <w>ἱερά</w> w tym miejscu to tyle, co ogólnie „ofiary”, „święte
+                        obrzędy składania ofiar”. Płacz i lament stanowiłby zaburzenie euphemia
+                        (zob. kom. do w. 1469 powyżej z odniesieniami).</p>
+                </div>
+                
+                <div type="textpart" n="Iphigenia_Aulidensis_1512-1522">
+                    <head>Iphigenia Aulidensis 1512-1522</head>
+                    <p>Passus z krótkiego, ledwie trzydziestowersowego stasimonu
+                        czwartego. Chór śpiewa pieśń na cześć Artemidy, w którym opisuje
+                        ofiarę Ifigenii, a raczej jej przystąpienie do ołtarza ofiarnego. Wszystkie
+                        wymienione tutaj elementy rytuałów wstępnych ofiary krwawej
+                        zostały już wcześniej wyjaśnione i skomentowane, dlatego komentarz
+                        ograniczy się do wyjaśnienia poetyckich modyfikacji, w których nie
+                        brakuje zresztą informacji ważnych. Poetycka wizja koncentruje się na
+                        oczyszczeniu, wodzie i krwi, które mieszają się tu ze sobą i przejmują
+                        od siebie wzajemnie metaforyczne sensy.</p>
+                    <quote><lb/>ἴδεσθε τὰν Ἰλίου
+                        <lb/>καὶ Φρυγῶν ἑλέπτολιν
+                        <lb/>στείχουσαν, ἐπὶ κάρα στέφη
+                        <lb n="1515"/>βαλουμέναν χερνίβων τε παγάς,
+                        <lb/>βωμόν γε δαίμονος θεᾶς
+                        <lb/>ῥανίσιν αἱματορρύτοις
+                        <lb/>χρανοῦσαν εὐφυῆ τε σώματος δέρην
+                        <lb/>σφαγεῖσαν. εὔδροσοι παγαὶ
+                        <lb n="1520"/>πατρῷαι μένουσι χέρνιβές τέ σε
+                        <lb/>στρατός τ᾽ Ἀχαιῶν θέλων
+                        <lb/>Ἰλίου πόλιν μολεῖν.</quote>
+                    <quote><lb/>Widziałyście tę Ilionu
+                        <lb/>I Frygów zdobywczynię,
+                        <lb/>Jak kroczyła, z wieńcem na głowę
+                        <lb n="1515"/>Zarzuconym i skropiona lustralną wodą,
+                        <lb/>Ołtarz boskiej bogini,
+                        <lb/>Kroplami tryskającej krwi
+                        <lb/>Ma być zbryzgany i szyję pięknego ciała
+                        <lb/>Rozciętą. Obfite zdroje
+                        <lb n="1520"/>Z ojcowskiej ręki na ciebie czekają i woda oczyszczeń,
+                        <lb/>I wojsko Achajów, które chce
+                        <lb/>Na miasto Ilionu się wyprawić.</quote>
+                    <p>Chór opisuje Ifigenię, która kroczy do ołtarza (<w>στείχουσαν</w>), z zarzuconym
+                        na głowę wieńcem (w. 1514: <w>ἐπὶ</w> <w>κάρα</w> <w>στέφη</w> <w>βαλουμέναν</w>)
+                        i z głową skropioną strumieniem wody zaczerpniętej z naczyń na wodę
+                        lustralną (w. 1515: <w>χερνίβων</w> <w>παγάς</w>). Z tych wersów zdaje się wynikać,
+                        że ofiara, podchodząc do ołtarza, była schlapywana wodą (<w>παγάς</w> jest
+                        oczywiście poetyckie, ale wskazuje raczej na strumień wody niż jej krople),
+                        zaczerpniętą z chernibes stojących blisko ołtarza (genetivus <w>χερνίβων</w>
+                        – separatywny). Po obrazie wody spływającej po głowie Ifigenii następuje
+                        obraz ołtarza, który ma zostać zbroczony, splamiony (w. 1518:
+                        <w>χρανοῦσαν</w>) z jednej strony kroplami (w. 1517: <w>ῥανίσιν</w>), z drugiej –
+                        gwałtownym strumieniem krwi (<w>αἱματορρύτοις</w>); poetycki obraz tych
+                        niemal oksymoronicznych wyrazów zestawionych ze sobą w tej samej
+                        frazie wywołuje wyobrażenie z jednej strony gwałtownego wybuchu
+                        krwi z rozciętego gardła, z drugiej – kropel ledwie sięgających samego ołtarza.
+                        Kolejnym obrazem, o jakim śpiewa chór, jest brutalnie poderżnięte
+                        gardło (w. 1518–1519: <w>δέρην</w> <w>σφαγεῖσαν</w>), znów skontrastowane wizją
+                        pięknego ciała (<w>εὐφυῆ</w> τε <w>σώματος</w> <w>δέρην</w>). Obydwa te obrazy – płynącej
+                        wody i płynącej krwi łączą się w niejednoznacznej wizji „obfitych ojcowskich
+                        zdrojów” (w. 1519–1520: <w>εὔδροσοι</w> <w>παγαὶ</w> / <w>πατρῷαι</w>) i „wody
+                        oczyszczeń” (ponownie <w>χέρνιβες</w>), które czekają na Ifigenię – to ojciec
+                        jest ofiarnikiem i to on spełni ofiarę, obmywając córkę i wodą, i krwią.</p>
+                </div>
+                
+                <div type="textpart" n="Iphigenia_Aulidensis_1522-1526">
+                    <head>Iphigenia Aulidensis 1522-1526</head>
+                    <p>Ciąg dalszy tej samej pieśni chóru, zawierający metatekst zapowiadający
+                        modlitwę i początek samej modlitwy zanoszonej do Artemidy.
+                        Chór wspomina „ofiarę krwi ludzkiej” (w. 1524: <w>θύμασιν</w> <w>βροτησίοις</w>),
+                        która raduje boginię (<w>χαρεῖσα</w>). Collard i Morwood (2017: 626) zastanawiają
+                        się w tym miejscu, czy wspomniana radość bogini z ludzkich
+                        ofiar może być gorzką ironią i krytyką takiej praktyki, pozostawiając
+                        swoje pytanie bez odpowiedzi. Jednak kontekst frazy i konsekwentnie
+                        powtarzany przez wszystkie postaci dramatu ofiarniczy charakter
+                        śmierci Ifigenii czynią to pytanie bezpodstawnym.</p>
+                    <quote><lb/>κλῄσωμεν Ἄρτεμιν,
+                        <lb/>θεῶν ἄνασσαν, ὡς ἐπ᾽ εὐτυχεῖ πότμῳ.
+                        <lb/>ὦ πότνια, πότνια, θύμασιν βροτησίοις
+                        <lb n="1525"/>χαρεῖσα, πέμψον ἐς Φρυγῶν
+                        <lb/>γαῖαν Ἑλλάνων στρατόν […].</quote>
+                    <quote><lb/>Wysławiajmy Artemidę,
+                        <lb/>Wśród bogów władczynię, jakby szczęścił los,
+                        <lb/>O pani, pani, ofiarą krwi ludzkiej
+                        <lb n="1525"/>Uradowana, wyślij do Frygów
+                        <lb/>Ziemi wojsko Hellenów.</quote>
+                </div>
+                
+                <div type="textpart" n="Iphigenia_Aulidensis_1547-1556_1560">
+                    <head>Iphigenia Aulidensis 1547-1556;1560</head>
+                    <p>Mowa posłańca z eksodosu. Zawiera w sobie opis wydarzeń i czynności
+                        zmierzających do złożenia ofiary, jak również jej przebiegu z zaskakującym
+                        finałem, a także referuje cztery przemowy: jedną Ifigenii,
+                        jedną Achillesa i dwie Kalchasa (ta ostatnia już po niespodziewanej
+                        interwencji bogini i zastąpieniu Ifigenii łanią). Całość zawiera wiele
+                        szczegółowych odniesień do przebiegu rytuału, wcześniej jednak już
+                        komentowanych.</p>
+                    <p>Agamemnon widzi córkę, która idzie <w>ἐπὶ</w> <w>σφαγάς</w> (w. 1548) – co
+                        w tej scenie zachowuje całą dwuznaczność rzeczownika <w>φσαγή</w>: Ifigenia
+                        idzie „na zabicie”, na „krwawe ciosy”, co jest bez wątpienia sensem
+                        prymarnym, ale też na „śmierć ofiarną przez podcięcie gardła”.
+                        Ifigenia „oddaje się na ofiarę” (w. 1555: <w>θῦσαι</w> <w>δίδωμι</w>) i czyni to dobrowolnie,
+                        z własnej woli, może nawet chętnie – ἑκοῦσα – dając się prowadzić
+                        do ołtarza bogini (<w>πρὸς</w> <w>βωμὸν</w> <w>θεᾶς</w>). Passus ten, tak jak wiele
+                        innych „dobrowolnych” śmierci ofiarnych (Polykseny, Makarii) przywoływany
+                        bywa przez zwolenników Burkertowskiej teorii „skinień”
+                        (Burkert 1983: 4; Burkert 1985a: 56) wyrażających zgodę przy ofierze,
+                        której błędność wykazał jednak przekonująco Fred Naiden (2007: passim
+                        oraz 2013: 83–90).</p>
+                    <quote><lb/>ὡς δ᾽ ἐσεῖδεν Ἀγαμέμνων ἄναξ
+                        <lb/>ἐπὶ σφαγὰς στείχουσαν εἰς ἄλσος κόρην,
+                        <lb/>ἀνεστέναξε, κἄμπαλιν στρέψας κάρα
+                        <lb n="1550"/>δάκρυε, πρόσθεν ὀμμάτων πέπλον προθείς.
+                        <lb/>ἣ δὲ σταθεῖσα τῷ τεκόντι πλησίον
+                        <lb/>ἔλεξε τοιάδ᾽· Ὦ πάτερ, πάρειμί σοι·
+                        <lb/>τοὐμὸν δὲ σῶμα τῆς ἐμῆς ὑπὲρ πάτρας
+                        <lb/>καὶ τῆς ἁπάσης ῾Ελλάδος γαίας ὕπερ
+                        <lb n="1555"/>θῦσαι δίδωμ᾽ ἑκοῦσα πρὸς βωμὸν θεᾶς
+                        <lb/>ἄγοντας, εἴπερ ἐστὶ θέσφατον τόδε.
+                        <lb/>[…]
+                        <lb n="1560"/>σιγῇ παρέξω γὰρ δέρην εὐκαρδίως.</quote>
+                    <quote><lb/>Skoro zobaczył władca Agamemnon
+                       <lb/> Idącą do gaju na zabicie córkę,
+                        <lb/>Zajęczał, i odwróciwszy głowę
+                        <lb n="1550"/>Płakał, zarzuciwszy sobie peplos na oczy.
+                        <lb/>Ona zaś, stanąwszy blisko rodzica,
+                        <lb/>Rzekła te słowa: „Ojcze, oto jestem przy tobie,
+                        <lb/>Moje ciało za moją ojczyznę
+                        <lb/>I za ziemię całej Hellady
+                        <lb n="1555"/>Oddaję na ofiarę chętnie, żeby do ołtarza bogini
+                        <lb/>Mnie zaprowadzili, jeśli taka wola wyroczni.
+                        <lb/>[…]
+                        <lb n="1560"/>W milczeniu, z niezłomnym sercem, nastawię szyję.</quote>
+                </div>
+                
+                <div type="textpart" n="Iphigenia_Aulidensis_1563-1579">
+                    <head>Iphigenia Aulidensis 1563-1579</head>
+                    <p>Ciąg dalszy mowy posłańca z eksodosu sztuki, z dalszym opisem
+                        obrzędów wstępnych ofiary, pierwszą mową Kalchasa i modlitwą
+                        Achillesa, która poprzedza sam akt zabicia ofiary.</p>
+                    <quote><lb/>στὰς δ᾽ ἐν μέσῳ Ταλθύβιος, ᾧ τόδ᾽ ἦν μέλον,
+                        <lb/>εὐφημίαν ἀνεῖπε καὶ σιγὴν στρατῷ·
+                        <lb n="1565"/>Κάλχας δ᾽ ὁ μάντις ἐς κανοῦν χρυσήλατον
+                        <lb/>ἔθηκεν ὀξὺ χειρὶ φάσγανον σπάσας
+                        <lb/>κολεῶν ἔσωθεν, κρᾶτά τ᾽ ἔστεψεν κόρης.
+                        <lb/>ὁ παῖς δ᾽ ὁ Πηλέως ἐν κύκλῳ βωμὸν θεᾶς
+                        <lb/>λαβὼν κανοῦν ἔθρεξε χέρνιβάς θ᾽ ὁμοῦ,
+                        <lb n="1570"/>ἔλεξε δ᾽· Ὦ παῖ Ζηνός, ὦ θηροκτόνε,
+                        <lb/>τὸ λαμπρὸν εἱλίσσουσ᾽ ἐν εὐφρόνῃ φάος,
+                        <lb/>δέξαι τὸ θῦμα τόδ᾽ ὅ γέ σοι δωρούμεθα
+                        <lb/>στρατός τ᾽ Ἀχαιῶν † Ἀγαμέμνων ἄναξ θ᾽ ὁμοῦ, †
+                        <lb/>ἄχραντον αἷμα καλλιπαρθένου δέρης,
+                        <lb n="1575"/>καὶ δὸς γενέσθαι πλοῦν νεῶν ἀπήμονα
+                        <lb/>Τροίας τε πέργαμ' ἐξελεῖν ἡμᾶς δορί.
+                        <lb/>ἐς γῆν δ᾽ Ἀτρεῖδαι πᾶς στρατός τ᾽ ἔστη βλέπων.
+                        <lb/>ἱερεὺς δὲ φάσγανον λαβὼν ἐπεύξατο,
+                        <lb/>λαιμόν τ᾽ ἐπεσκοπεῖθ᾽, ἵνα πλήξειεν ἄν.</quote>
+                    <quote><lb/>Stanąwszy pośrodku Taltybios, taki był jego obowiązek,
+                        <lb/>Nakazał wojsku zbożne milczenie i ciszę;
+                        <lb n="1555"/>Kalchas zaś wieszczek do złotego kosza
+                        <lb/>Włożył ręką ostry miecz wydobyty
+                        <lb/>Z pochwy, i głowę dziewczyny wieńcem ozdobił.
+                        <lb/>Syn Peleusa ołtarz bogini dookoła obiegł,
+                        <lb/>Wziąwszy kosz, razem z naczyniami ze świętą wodą.
+                        <lb n="1560"/>I powiedział: „O córko Zeusa, Łowczyni dzikich zwierząt,
+                        <lb/>Która miłą nocą pogodnym światłem migoczesz,
+                        <lb/>Przyjmij tę ofiarę, którą ci darowujemy,
+                        <lb/>Wojsko Achajów razem z wodzem Agamemnonem,
+                        <lb/>Krew nieskalaną z pięknodziewiczej szyi,
+                        <lb n="1565"/>I daj okrętom bezpieczną żeglugę,
+                        <lb/>A nam zdobycie włócznią zamków Troi”.
+                        <lb/>Atrydzi i całe wojsko stali, patrząc w ziemię.
+                        <lb/>A kapłan chwyciwszy za miecz, modlił się
+                       <lb/> I oglądał szyję, gdzie by tu uderzyć.</quote>
+                    <p>1564: <w>εὐφημίαν</w> <w>ἀνεῖπε</w> καὶ <w>σιγὴν</w> <w>στρατῷ</w> – „nakazał wojsku
+                        zbożne milczenie i ciszę”. Zob. komentarz do wersu 1469 powyżej.
+                        W tym wersie widać wyraźnie, że euphemia nie oznacza po prostu
+                        milczenia – sige. W tym wersie Taltybios nakazuje wojsku i jedno,
+                        i drugie. Milczenie, powstrzymanie się od mówienia jest tylko jednym
+                        z elementów składowych euphemia, która jest bardziej całościową postawą
+                        wyrażającą szacunek wobec świętości rytuału. „Milczenie jest
+                        celem samym w sobie” (Montiglio 2000: 16), jego ostatecznym celem
+                        jest wypowiedzenie modlitwy. Euphemia oznacza mowę i milczenie
+                        jednocześnie: powstrzymanie się od „złych”, złowróżbnych słów
+                        oraz wypowiadanie takich, które mogą przynieść dobry znak lub
+                        skutek. Na taki właśnie sens wskazuje Benveniste (1966: 308–314).
+                        Euphemia może oznaczać wypowiadanie słów, ale tylko takich, które
+                        przystoją rytualnemu kontekstowi. Głośna modlitwa nie łamie nakazu
+                        euphemia, chociaż łamie zakaz milczenia (Burkert 1985a: 73).
+                        Znakomicie definiuje, czym jest euphemia (dokładniej: <w>γλῶσσαν</w>
+                        <w>εὔφημον</w>) Ajschylos w Ofiarnicach, wers 582: <w>σιγᾶν</w> θ᾽ <w>ὅπου</w> <w>δεῖ</w> καὶ
+                        <w>λέγειν</w> τὰ <w>καίρια</w> – oznacza ona: „milczeć, kiedy trzeba i mówić to, co
+                        odpowiednie w danej chwili”.</p>
+                    <p>1565–1567: ὁ <w>μάντις</w> ἐς <w>κανοῦν</w> <w>χρυσήλατον</w> / <w>ἔθηκεν</w> <w>ὀξὺ</w> <w>χειρὶ</w>
+                        <w>φάσγανον</w> <w>σπάσας</w> / <w>κολεῶν</w> <w>ἔσωθεν</w> – „wieszczek do złotego kosza
+                        / włożył ręką ostry miecz wydobyty / z pochwy”. Kosz (<w>κανοῦν</w>)
+                        zawierał paramenty do przeprowadzenia ofiary (wstążki, nóż, krupy,
+                        zob. komentarz do E. <title>El</title>. 800). Z passusu wynika, że miecz ofiarny nie
+                        musiał znajdować się w koszu przed przyniesieniem go do ołtarza.
+                        Wieszczek przynosi go umieszczony w pochwie, dopiero przy ołtarzu
+                        wyjmuje z pochwy i umieszcza w koszu.</p>
+                    <p>1567: <w>κρᾶτά</w> τ’ <w>ἔστεψεν</w> <w>κόρης</w> – „głowę dziewczyny wieńcem
+                        ozdobił”. Na temat wieńczenia głowy przed ofiarą zob. komentarz
+                        do E. <title>El</title>. 778 oraz powyżej do wersu 1476. Wieniec zakładał nie tylko
+                        ofiarnik i uczestnicy obrzędu – także głowa ofiary była zdobiona
+                        kwiatami, tasiemkami lub wieńcem (van Straten 1995: 161–162). Zob.
+                        powyżej wers 1476 oraz komentarz do E. <title>El</title>. 778.</p>
+                    <p>1568–1569: ἐν <w>κύκλῳ</w> <w>βωμὸν</w> <w>θεᾶς</w> / <w>λαβὼν</w> <w>κανοῦν</w> <w>ἔθρεξε</w> χ<w>έρ-
+                        νιβάς</w> θ᾽ <w>ὁμοῦ</w> – „ołtarz bogini dookoła obiegł, / wziąwszy kosz,
+                        razem z naczyniem ze świętą wodą” (na temat różnych egzotycznych
+                        koniektur tych wersów zob. Stockert 1992: 628–629<note n="64">Za najczęściej akceptowaną poprawką w wersie 1569 (<w>ἔβρεξε</w> – skropił,
+                            zmoczył, zamiast <w>ἔθρεξε</w>) idzie przekład Cavandera (1973: 167): „The son
+                            of Peleus took another basket, shook it around the altar of the goddess, and sprinkled holy water”. Popularność tej poprawki bierze się z przekonania, że
+                            dosłownie rozumiany „bieg” wokół ołtarza nie przystoi powadze ofiary (zob.
+                            Stockert 1992: 628).</note>). Obrzęd
+                        obejścia ołtarza dookoła z koszem w ręku jest też opisany powyżej
+                        w wersie 1472 (zob. komentarz). Trudność w tym passusie wiąże
+                        się ze znaczeniem i funkcją chernibes – naczyń z wodą lustralną lub
+                        samej wody lustralnej – w tym obrzędzie (w przekładzie przyjmujemy
+                        formę mnogą za poetycką). W passusie mamy trzy rzeczowniki
+                        w biernikach: <w>βωμόν</w>, <w>κανοῦν</w> i <w>χέρνιβας</w> oraz dwa czasowniki
+                        z rekcją do bierników właśnie: <w>λαμβάνειν</w> i <w>τρέχειν</w> (w rzadko występującej,
+                        poetyckiej formie słabego aorystu). Nie ulega wątpliwości,
+                        że <w>τρέχειν</w> dotyczy ołtarza i tworzy zwrot „obiegać ołtarz” (ἐν
+                        <w>κύκλῳ</w> – „w kółko”). Również nie ulega wątpliwości, że <w>λαμβάνειν</w>
+                        dotyczy kosza (<w>κανοῦν</w>), tworząc zwrot: „wziąwszy kosz”. Nie jest
+                        jednak oczywiste, w jaki sposób, a nawet z którym z czasowników
+                        należy łączyć <w>χέρνιβας</w>. Kovacs (2002: 337) w swoim przekładzie tłumaczy
+                        <w>χέρνιβες</w> jako „lustral basin” i łączy z <w>λαμβάνειν</w>, uzyskując
+                        zdanie: „The son of Peleus took the basket and the lustral basin and
+                        sped in a circle about the altar”. Trzcionkowski natomiast w haśle
+                        słownikowym na temat chernips proponuje przekład: „syn Peleusa
+                        wkoło ołtarza bogini, trzymając koszyk, pobiegł z chernibes”, co jest
+                        zgodne z interpretacją Kovacsa, przez chernibes rozumie on wodę
+                        w znaczeniu „naczynia z wodą” (jak w pozostałych dwóch passusach
+                        analizowanych w tym samym miejscu hasła słownikowego –
+                        z Ptaków, w. 958 i Pokoju, w. 956 Arystofanesa: „weź/bierz wodę”).
+                        Z tych interpretacji wynika, że ofiarnik podczas obchodzenia ołtarza
+                        musiał w jednej ręce trzymać kosz ofiarny, w drugiej – naczynie
+                        z wodą. Tak samo opisuje to Arystofanes (<title>Pax</title>, w. 956): τὸ <w>κανοῦν</w>
+                        <w>λαβὼν</w> σὺ καὶ τὴν <w>χέρνιβα</w> <w>περίιθι</w> τὸν <w>βωμόν</w> – „bierz kosz i naczynie
+                        na wodę, i obejdź ołtarz”. Taką możliwość zdaje się też potwierdzać
+                        ikonografia – na malarstwie wazowym w zbiorze van Stratena
+                        (1995) znajduje się siedem przedstawień postaci z koszem ofiarnym
+                        w lewej ręce i naczyniem na wodę w prawej: ryc. 27 (opis 215 katalogowy),
+                        30 (opis 216), 31–32 (opis 217), 33 (opis 216) 34–35 (opis 218).</p>
+                    <p>W tych wypadkach naczynia zostały zidentyfikowane przez van
+                        Stratena (wraz z bibliografią do każdego z przedstawień przy opisach
+                        katalogowych) jako chernibes (w wypadku ryc. 27 w opisie jest
+                        phiale – miska, która jednak kształtem przypomina wszystkie pozostałe
+                        reprezentacje). Tylko na jednym z nich – nr 27 – można by się
+                        dopatrzeć obchodzenia ołtarza (dokładnie w tym wypadku hermy,
+                        przy której ma zostać złożona ofiara z kozła) z obiema rękami zajętymi
+                        – przez kosz i chernips. Postać w lewej ręce, na wysokości piersi,
+                        trzyma kosz, a w prawej, na wysokości głowy, miskę – chernips.
+                        We wszystkich tych przedstawieniach naczynia na wodę lustralną
+                        mają kształt dość głębokich mis (zob. Himmelmann 1997: też 11,
+                        ryc. 2) – takich, w których można zanurzyć obie dłonie podczas obmywania.
+                        Niektóre z nich, jak np. z reprodukcji nr 35, mają nawet
+                        wielkość pokaźnego garnka. Połączenie tych danych ikonograficznych
+                        z omawianym passusem prowadzi do pytania, czy interpretacja,
+                        przyjęta przez Kovacsa, Trzcionkowskiego, a także Collarda
+                        i Morwooda (2017: 227 i 633) jest jedyną możliwą. Słowo <w>ὁμοῦ</w>, które
+                        w funkcji przyimkowej nigdy nie łączy się z biernikiem, występuje
+                        tutaj w znaczeniu przysłówkowym „razem”, „równocześnie”,
+                        „w tym samym czasie”. Powracając do problemów składniowych
+                        zarysowanych powyżej, można postawić pytanie, czy równocześnie
+                        trzymał (i kosz, i naczynie), czy też równocześnie obiegał (i ołtarz,
+                        i naczynie/a)? Być może należałoby przyjąć możliwość obchodzenia
+                        ołtarza, przy którym / pod którym / na którym stoją naczynia (jedno,
+                        czy więcej?) z wodą lustralną.</p>
+                    <p>Wypada jeszcze tylko odnotować, że z przekładu Łanowskiego
+                        woda w ogóle dosłownie wyparowała: „obszedł ołtarz wokoło, z koszykiem
+                        w ręku, sypiąc krupy ofiar” (1980, 567).</p>
+                    <p>1572: <w>δέξαι</w> τὸ <w>θῦμα</w> τόδε – „przyjmij tę ofiarę”. Jest to standardowa
+                        formuła modlitewna przy składaniu ofiary – modlitwa obejmowała
+                        konkretną intencję, w jakiej ofiarnik składa bogu dar (w tym wypadku
+                        w intencji bezpiecznej żeglugi i zdobycia Troi: δὸς <w>γενέσθαι</w> <w>πλοῦν</w>
+                        <w>νεῶν</w> <w>ἀπήμονα</w> etc.) oraz prośbę o przyjęcie daru (Naiden 2013: 52–54;
+                        Pulleyn 1997: 7–8 z przypisem 17 na s. 7).</p>
+                    <p>1578–1579: <w>ἱερεὺς</w> δὲ <w>φάσγανον</w> <w>λαβὼν</w> <w>ἐπεύξατο</w>, / <w>λαιμόν</w> τ᾽
+                        <w>ἐπεσκοπεῖθ</w>᾽, <w>ἵνα</w> <w>πλήξειεν</w> <w>ἄν</w> – „a kapłan chwyciwszy za miecz, modlił
+                        się / i oglądał szyję, gdzie by tu uderzyć”. Modlitwa towarzyszy
+                        całemu przebiegowi ofiary, a nie tylko ją poprzedza (Pulleyn 1997: 8).</p>
+                </div>
+                
+                <div type="textpart" n="Iphigenia_Aulidensis_1591-1597">
+                    <head>Iphigenia Aulidensis 1591-1597</head>
+                    <p>Ciąg dalszy opowieści posłańca na temat wydarzeń wokół ofiary z Ifigenii.
+                        Po przygotowaniach do ofiary, przemowie Kalchasa i modlitwie
+                        Achillesa, kapłan dokonujący ofiary – hiereus – zadaje cios, dla wszystkich
+                        dobrze słyszalny (w. 1582: <w>πληγῆς</w> <w>κτύπον</w> γὰρ <w>πᾶς</w> τις <w>ᾔσθετ</w>᾽ ἂν
+                        <w>σαφῶς</w>). Poeta pisze o „odgłosie” uderzenia mieczem, a zarazem o tym,
+                        że już w tym momencie nikt z uczestników nie widział dziewczyny,
+                        która znikła. Na jej miejscu znalazła się łania (w. 1586–1587: „zjawa od
+                        jakiegoś boga”: ἐκ <w>θεῶν</w> <w>τινος</w> / <w>φάσμ</w>᾽), leżąca na ziemi (w. 1587 <w>ἐπὶ</w>
+                        <w>χθονί</w>), której krew bryzgała na ołtarz (w. 1589: ἧς <w>αἵματι</w> <w>βωμὸς</w> <w>ἐραί-
+                        νετ᾽</w>). W tej sytuacji ponownie zabiera głos Kalchas.</p>
+                    <quote><lb/>Ὦ τοῦδ᾽ Ἀχαιῶν κοίρανοι κοινοῦ στρατοῦ,
+                        <lb/>ὁρᾶτε τήνδε θυσίαν, ἣν ἡ θεὸς
+                        <lb/>προύθηκε βωμίαν, ἔλαφον ὀρειδρόμον;
+                        <lb/>ταύτην μάλιστα τῆς κόρης ἀσπάζεται,
+                        <lb n="1595"/>ὡς μὴ μιαίνοι βωμὸν εὐγενεῖ φόνῳ.
+                        <lb/>ἡδέως τε τοῦτ᾽ ἐδέξατο, καὶ πλοῦν οὔριον
+                        <lb/>δίδωσιν ἡμῖν Ἰλίου τ᾽ ἐπιδρομάς.</quote>
+                    <quote><lb/>O dowódcy wspólnego wojska Achajów,
+                        <lb/>Patrzcie na tę ofiarę, którą bogini
+                        <lb/>Położyła przy ołtarzu, na biegającą po górach łanię;
+                        <lb/>To nią bardziej od dziewczyny się cieszy,
+                        <lb n="1595"/>Żeby ołtarza nie skalać szlachetną krwią.
+                        <lb/>I chętnie ją przyjęła, i żeglugę przy pomyślnych wiatrach
+                        <lb/>Nam daje i zdobycie Ilionu.</quote>
+                    <p>1592–1593: <w>ὁρᾶτε</w> <w>τήνδε</w> <w>θυσίαν</w> […] / <w>βωμίαν</w> – „patrzcie na tę ofiarę
+                        […] przy ołtarzu”. W tym miejscu – jak wynika z kontekstu – „ofiara”
+                        (thysia) – znaczy tyle, co thyma: zwierzę ofiarne, to, co jest zabijane
+                        w ofierze. Kalchas wskazuje na łanię, którą bogini położyła (dosłownie
+                        „podstawiła”, zamieniła, postawiła zamiast: <w>προ-τίθημι</w>) jako <w>βωμίαν</w>
+                        – „taką, która znajduje się przy ołtarzu”.</p>
+                    <p>1596: <w>ἡδέως</w> τε <w>τοῦτ</w>᾽ <w>ἐδέξατο</w> – „i chętnie ją przyjęła”. Por.
+                        wers 1572 powyżej: <w>δέξαι</w> τὸ <w>θῦμα</w> τόδε.</p>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>
