@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Thesmophoriazousae (Θεσμοφοριάζουσαι, Le donne alle Tesmoforie)</title>
+                <title xml:lang="en">Thesmophoriazousae (Θεσμοφοριάζουσαι, Thesmophoriazousae)</title>
+                <title xml:lang="pl">Thesmophoriazousae (Θεσμοφοριάζουσαι, Kobiety na święcie Tesmoforiów, Thesmoforie)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">com_08_thesmophoriazousae</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Thesmophoriazousae (Θεσμοφοριάζουσαι, Kobiety na święcie Tesmoforiów, Thesmoforie)</title>, in Bartłomiej Bednarek, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Stara komedia attycka</title>, Warszawa 2017, pp. 201-209</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaia Fanelli">encoded document in XML</change>
+                <change when="2017" who="Bartłomiej Bednarek">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Komedia wystawiona w czasie Dionizjów Miejskich w 411 r. p.n.e.
+                        Akcja rozgrywa się w Atenach w drugim dniu ekskluzywnie kobiecego
+                        święta Thesmoforiów (cf. e.g. Burkert 2011: 364–370; Burkert 1985:
+                        242–246). Problematyka utworu związana jest przede wszystkim z teatrem
+                        i twórczością poetycką, performatyką i odgrywaniem ról społecznych,
+                        w szczególności zaś – genderowych. Choć ram czasowych
+                        i ideowych dostarczył Arystofanesowi rytuał, kwestie religijne nie stanowią
+                        zasadniczego przedmiotu zainteresowania poety. O ofierze pojawiają
+                        się tutaj wzmianki, przy czym najobszerniejszy passus, który
+                        (z pewnymi zastrzeżeniami) można nazwać sceną ofiary, stanowi pastisz
+                        tragedii. Utwór stanowi zatem wartościowe źródło do interesującej
+                        nas problematyki, jednak jego interpretacja wymaga dużej dozy
+                        ostrożności i zrozumienia dla gier intertekstualnych.</p>
+                    <p>Tekst cytuję za wydaniem Austin, Olson (2004).</p>
+                </div>
+                <div type="textpart" n="Thesmophoriazousae_36-45">
+                    <head>Thesmophoriazousae 36-45</head>
+                    <p>Pod dom poety tragicznego Agatona przybywają Eurypides wraz
+                        z Krewnym w chwili, gdy przed drzwi wychodzi sługa w celu odbycia
+                        rytuału prothyma, złożenia jakiegoś rodzaju ofiary, prawdopodobnie
+                        nie ze zwierzęcia. Cytowany passus zawiera początek jego
+                        manierycznej (przypuszczalnie naśladującej styl Agatona) wypowiedzi,
+                        zawierającej wezwanie do zachowania euphemia i modlitwę. Jakkolwiek
+                        prawdopodobnie nie ma tu mowy o ofierze krwawej, passus
+                        przyczynia się do zrozumienia związanych z niej kwestii: czym były
+                        euphemia i prothyma.</p>
+                    <quote><lb/><emph>ΕΥΡΙΠΙΔΗΣ</emph>:
+                        <lb n="836"/>Ἀλλ’ ἐκποδὼν πτήξωμεν, ὡς ἐξέρχεται
+                        <lb/>θεράπων τις αὐτοῦ πῦρ ἔχων καὶ μυρρίνας,
+                        <lb/>προθυσόμενος, ἔοικε, τῆς ποήσεως.
+                        <lb/><emph>ΘΕΡΑΠΩΝ</emph>:
+                        <lb/>εὔφημος πᾶς ἔστω λαός,
+                        <lb n="40"/>στόμα συγκλήισας· ἐπιδημεῖ γὰρ
+                        <lb/>θίασος Μουσῶν ἔνδον μελάθρων
+                        <lb/>τῶν δεσποσύνων μελοποιῶν.
+                        <lb/>᾿Εχέτω δὲ πνοὰς νήνεμος αἰθήρ,
+                        <lb/>κῦμα δὲ πόντου μὴ κελαδείτω
+                        <lb n="50"/>γλαυκόν—
+                        <lb/><emph>ΚΗΔΕΣΤΗΣ</emph>:
+                        <lb/>Βομβάξ.
+                        <lb/><emph>ΕΥ</emph>.: Σίγα. Τί λέγει;</quote>
+                    <quote><lb/><emph>EURYPIDES</emph>:
+                        <lb/>Usuńmy się z drogi, bo wychodzi jakiś jego [Agatona] sługa
+                        z ogniem i wieńcem mirtowym. Zdaje się, że chce złożyć ofiarę
+                        w intencji poezji.
+                        <lb/><emph>SŁUGA</emph>:
+                        <lb/>Lud cały niech zachowa zbożną ciszę, niech usta zamknie. Pod
+                        tym dachem gości bowiem chór Muz, władczyń śpiewających
+                        pieśni. Niech nieruchome powietrze wstrzyma dech, morska
+                        fala niech nie chlupie modra...
+                        <lb/><emph>KREWNY</emph>:
+                        <lb/>Bum!
+                        <lb/><emph>EU</emph>.: Cicho! Co on mówi?</quote>
+                    <p>38: <w>προθυσόμενος</w> τῆς <w>ποήσεως</w> – „chce złożyć ofiarę w intencji
+                        poezji”; od lat toczą się spory na temat znaczenia czasownika
+                        <w>προ-θύω</w> („składać ofiarę pewnego typu lub w pewien sposób”)
+                        i pochodzących od niego rzeczowników <w>πρόθυμα</w> („ofiara pewnego
+                        rodzaju”), <w>προθύτης</w> („składający ofiarę pewnego rodzaju”).
+                        Prefiks pro- modyfikuje znaczenie czasownika, przydając aspektu
+                        uprzedniości w czasie, lokalizując czynność w przestrzeni przed
+                        czymś (takich wystąpień omawianych wyrazów chyba nie ma) lub
+                        wyrażając ideę czynienia czegoś w imieniu kogoś albo w intencji czegoś/
+                        kogoś. Zdecydowana większość przypadków użycia wyrazów
+                        z rodziny προ-θύω należy do pierwszej z wymienionych kategorii
+                        (Ziehen 1904 twierdził, że wszystkie, wynikało to jednak z bardzo
+                        jednostronnej interpretacji przypadków granicznych i niewzięcia
+                        pod uwagę części materiału). Casabona (1966: 103–108) wyodrębnia
+                        tu następujące podgrupy:
+                        1) ofiary składane jednemu bóstwu (niejako pomocniczemu) przed
+                        przystąpieniem do ofiar dla bóstwa o centralnym w danym kontekście
+                        znaczeniu (e.g. Pl. <title>Cra</title>. 401d; Pl. Com. 174.5–8; Schol. A.R.
+                        1.1126/31a; <title>LSS</title> 132);
+                        2) ofiary składane przed jakimś wydarzeniem: inkubacją w Asklepejonie
+                        (Ar. <title>Plut</title>. 660–661; LSS 22), wyprawą wojenną (E. <title>IA</title> 1311),
+                        a także np. oczyszczeniem rytualnym (LSCG 115. 36–37). Ta podkategoria,
+                        rzecz jasna, nie zawsze jest w sposób oczywisty możliwa
+                        do odróżnienia od poprzedniej.</p>
+                    <p>Odrębną kategorię stanowią ofiary składane „na rzecz kogoś, w intencji
+                        czegoś”. Ponieważ jednak działa tu zasada „post hoc ergo propter
+                        hoc”, najczęściej nie ma dobrego powodu, by sądzić, że prothyma
+                        „przed” inkubacją nie jest jednocześnie zabiegiem przeprowadzonym
+                        „w intencji” jej powodzenia. Prawdopodobnie sami starożytni najczęściej
+                        nie dokonywali tu ścisłego rozgraniczenia. Należy jednak zaznaczyć,
+                        że kilkakrotnie wyrazy z omawianej rodziny poświadczone są
+                        w ramach struktur, które wskazują ewidentnie na to, że autor słów
+                        koncentrował się na celu rytuału. Do tej kategorii należą jego wystąpienia
+                        u Eurypidesa w <title>Błagalnicach</title> (29): <w>τυγχάνω</w> δ’ <w>ὑπὲρ</w> <w>χθονὸς</w>/
+                        <w>ἀρότου</w> <w>προθύουσ</w>’(α) („akurat znalazłam się tutaj, by złożyć ofiarę za
+                        to, by ziemia obrodziła”) i w <title>Hypsipyle</title> (I.IV.36) <w>[στρ]ατοῦ</w> <w>πρ[ο]θῦσαι</w>
+                        <w>βουλόμεσθα</w> <w>Δαν[α]ϊδῶ[ν]</w> („chcemy złożyć ofiary w imieniu/ w intencji
+                        wojska Danajów”. Mniej jednoznaczne jest E. <title>Ion</title> 805).</p>
+                    <p>Omawiany tu passus najbardziej przypomina właśnie Eurypidesową
+                        <title>Hypsipyle</title> (I.IV.36), gdzie rzeczownik w genetiwie określa to,
+                        w czego intencji/ imieniu dokonywany jest rytuał. Sugeruje to znaczenie:
+                        „w intencji poezji”. Zdawać by się zatem mogło, że mają rację
+                        Austin i Olson (2004), stwierdzając, że τῆς <w>ποήσεως</w> nie należy interpretować
+                        jako partitivus (w znaczeniu „chce złożyć w ofierze trochę
+                        poezji”). Pozostaje jednak rzeczą niejasną, co w takim razie niewolnik
+                        zamierzał złożyć w ofierze. Źródła wskazują, że jako <w>πρόθυμα</w>
+                        wykorzystywano najczęściej różnego rodzaju produkty zbożowe
+                        (e.g. <title>scholia ad</title> Ar. <title>Plut</title>. 660), czasami jednak były to i zwierzęta (<title>LSS</title>
+                        132). Innymi słowy, raczej chodziłoby tu o ofiarę niezbyt kosztowną
+                        i prestiżową, jednak niekoniecznie tanią. W omawianym miejscu jest
+                        mowa o tym, że sługa wychodzi z atrybutami ofiary, jakimi są zarzewie
+                        i wieńce. Ponieważ bohater wspomina o poezji, można podejrzewać,
+                        że i jej atrybut, np. tabliczki, znajdował się w rękach niewolnika.
+                        Tekst nie zawiera niestety dobrych przesłanek, by orzec, co się
+                        z nimi działo. Podkreślając hipotetyczny charakter takiej interpretacji,
+                        można wyrazić przypuszczenie, że recytacji poezji towarzyszyło
+                        tu spalanie jej pierwocin w postaci tabliczek, które aktor mógł kłaść
+                        na przydomowym ołtarzu.</p>
+                    <p>39: <w>εὔφημος</w> <w>πᾶς</w> <w>ἔστω</w> <w>λαός</w> – „lud cały niech zachowa zbożną
+                        ciszę”; jest to jedno z wielu miejsc u Arystofanesa (omawiany wyraz
+                        i jego derywaty pojawiają się u tego autora dwadzieścia razy, w tym
+                        <title>Ach</title>. 237, <title>Av</title>. 959, tam także komentarz), w których pojawia się formuła
+                        (jedna z kilku) wzywająca do zachowania euphemia (<title>εὐφημία</title>), czyli
+                        do powstrzymania się od zachowań werbalnych, które mogłyby zakłócić
+                        proces komunikacji z bogami. Omawiane miejsce zawiera przykład
+                        pogwałcenia normy. <title>Βομβάξ</title> z kwestii krewnego (w. 45) to chyba
+                        pozbawiona znaczenia onomatopeja, wykorzystana tutaj wyłącznie
+                        w celu zburzenia nastroju powagi.</p>
+                </div>
+                <div type="textpart" n="Thesmophoriazousae_558-559">
+                    <head>Thesmophoriazousae 558-559</head>
+                    <p>Krewny Eurypidesa w komicznej scenie wyliczania przykładów
+                        bezczelności kobiet i ich złego prowadzenia się wspomina o sprzeniewierzaniu
+                        mięsa ofiarnego. Kontekst wskazuje na to, że nie tylko nie
+                        mamy tu do czynienia z opisem rzeczywistych praktyk, ale z oczywistą
+                        dla widza hiperbolizacją negatywnego stereotypu.</p>
+                    <quote><lb/>Ὥς τ’ αὖ τὰ κρέ’ ἐξ Ἀπατουρίων ταῖς μαστροποῖς διδοῦσαι
+                        ἒπειτα τὴν γαλῆν φαμεν...</quote>
+                    <quote><lb/>A gdy mięso z Apaturii oddamy stręczycielkom, mówimy, że to
+                        łasica [sc. je ukradła].</quote>
+                    <p>Apaturia to obchodzone w świecie jońsko-attyckim w miesiącu
+                        pyanepsion święto fratrii, w czasie którego przyjmowano do tych archaicznych
+                        stowarzyszeń nowych członków, młodych synów obywateli,
+                        którzy wkrótce sami mieli stać się obywatelami (Deubner 1932:
+                        232–234; Parke 1977: 88–92; Burkert 2011: 394; Burkert 1985: 255–256;
+                        Winkler 1990: 35–37; Lambert 1993: 143–189; Parker 2005: 458–461).
+                        W tym ważnym dla młodzieńca momencie ojciec składał ofiarę przy
+                        ołtarzu fratrii, jednocześnie przysięgając, że przyprowadzony przez
+                        niego nastolatek jest jego synem pochodzącym z legalnego związku.
+                        W tym kontekście wzmianka Arystofanesa o cudzołożnej matce
+                        może się wydać brutalnym żartem. Z drugiej strony, wydaje się, że
+                        poecie chodziło o coś jeszcze, co trudno uchwycić. Charakterystyczne,
+                        że w <title>Acharnejczykach</title> 145–146 Arystofanes wspomina o „kiełbasach
+                        ze święta Apaturii” (<w>ἀλλᾶντες</w> <w>ἐξ</w> <w>Ἀπατουρίων</w>) jako o swego
+                        rodzaju symbolu zyskiwania obywatelstwa przez cudzoziemca.
+                        W obu przypadkach poeta posłużył się wyrażeniem przyimkowym <w>ἐξ</w>
+                        <w>Ἀπατουρίων</w>, w którym przyimek <w>ἐξ</w> (z) zdaje się wskazywać, że chodzi
+                        o mięso lub kiełbasy spożywane nie w czasie samych obchodów,
+                        ale pochodzące ze świątecznej ofiary i przyniesione do domu.</p>
+                </div>
+
+                <div type="textpart" n="Thesmophoriazousae_689-759">
+                    <head>Thesmophoriazousae 689-759</head>
+                    <p>Passus stanowi parodię Eurypidesowego <title>Telephosa</title>, tragedii wystawionej
+                        w 338 r. p.n.e. na Dionizjach Miejskich (aluzję do tej samej
+                        sceny zawierają także <title>Acharnejczycy</title> Arystofanesa 325–366; cf. Austin,
+                        Olson 2004: LVI–LVIII). Ten fragmentarycznie zachowany utwór zawierał
+                        typowy dla gatunku motyw „pogwałcenia kodu rytualnego”
+                        (termin Henrichsa 2012) – bohater, starając się wymusić posłuch na
+                        Agamemnonie, schwytał jego syna, Orestesa, i groził, że zabije go przy
+                        ołtarzu jak zwierzę ofiarne. Passus u Arystofanesa zawiera szereg odwołań
+                        do leksyki tragedii, a także – najprawdopodobniej, choć trudno
+                        o konkretne dane – do jej warstwy performatywnej. W omawianym
+                        miejscu przebrany za kobietę krewny Eurypidesa, w chwili gdy został
+                        zdemaskowany jako mężczyzna, wyrwał jednej z obecnych coś,
+                        co zdawało się być dzieckiem. Wkrótce okazuje się, że nie jest to istota
+                        ludzka, ale podobny do niej bukłak wina. Wbrew tragediowemu
+                        pierwowzorowi i całej tradycji teatru greckiego, na scenie dojdzie do
+                        pozornego zabójstwa o silnym ładunku komicznym, a jednocześnie
+                        głęboko zakorzenionego we wzorcach, jakich dostarcza rytualny ubój.</p>
+                    <quote><lb/><emph>ΓΥΝΕ Α′</emph>:
+                        <lb/>ποῖ <del>ποῖ</del> σὺ φεύγεις; Οὗτος οὗτος οὐ μενεῖς;
+                            <lb n="690"/>Τάλαιν' ἐγὼ τάλαινα· καὶ τὸ παιδίον
+                            <lb/>ἐξαρπάσας μοι φροῦδος ἀπὸ τοῦ τιτθίου.
+                            <lb/><emph>ΚΗΔΕΣΤΗΣ</emph>:
+                            <lb/>Κέκραχθι. Τοῦτο δ' οὐδέποτε σὺ ψωμιεῖς,
+                            <lb/>ἢν μή μ’ ἀφῆτ’· ἀλλ’ ἐνθάδ’ ἐπὶ τῶν μηρίων
+                            <lb/>πληγὲν μαχαίραι τῆιδε φοινίας φλέβας
+                            <lb n="695"/>καθαιματώσει βωμόν.
+                            <lb/>[…]
+                            <lb n="749"/><emph>ΚΗ</emph>.: Πάνυ γ’· ἐμπίμπρατε.
+                            <lb n="750"/>Αὕτη δ’ ἀποσφαγήσεται μάλ’ αὐτίκα.
+                            <lb/><emph>ΓΥ</emph>. Α′: Μὴ δῆθ’, ἱκετεύω σ’· ἀλλ’ ἔμ’ ὅ τι χρήιζεις πόει
+                            <lb/>ὑπέρ γε τούτου.
+                            <lb/><emph>ΚΗ</emph>.: Φιλότεκνός τις εἶ φύσει.
+                            <lb/>Ἀλλ’ οὐδὲν ἧττον ἥδ' ἀποσφαγήσεται.
+                            <lb/>ΓΥ. Α′: Οἴμοι, τέκνον. Δὸς τὸ σφαγεῖον, Μανία,
+                            <lb n="755"/>ἵν’ οὖν τό γ' αἷμα τοῦ τέκνου τοὐμοῦ λάβω.
+                            <lb/><emph>ΚΗ</emph>.: ῞Υπεχ’ αὐτό· χαριοῦμαι γὰρ ἕν γε τοῦτό σοι.
+                            <lb/><emph>ΓΥ</emph>. Α′: Κακῶς ἀπόλοι’. Ὡς φθονερὸς εἶ καὶ δυσμενής.
+                            <lb/><emph>ΚΗ</emph>.: Τουτὶ τὸ δέρμα τῆς ἱερέας γίγνεται.
+                            <lb/><emph>ΓΥ</emph>. Β′: Τί τῆς ἱερέας γίγνεται;
+                            <lb/><emph>ΚΗ</emph>.: Τουτί. Λαβέ.</quote>
+                    <quote><lb/><emph>KOBIETA I</emph>:
+                        <lb/>Dokąd to uciekasz? Tutaj, tu masz zostać. O, ja nieszczęśliwa!
+                        Od piersi oderwał mi dziecko i uciekł!
+                        <lb/><emph>KREWNY</emph>:
+                        <lb/>Krzycz sobie! Nie będziesz już go karmić, chyba że mi pozwolicie
+                        odejść. Tu, na tych udźcach, gdy tym nożem uderzę jego
+                        krwiste żyły – krwią zaleje ołtarz.
+                        <lb/>[...]
+                        <lb/>Kobiety otaczają krewnego Eurypidesa przy ołtarzu, znoszą
+                        chrust i grożą podpaleniem. Zawiniątko okazuje się nie dzieckiem,
+                        lecz bukłakiem wina.
+                        <lb/><emph>KR</emph>.: Bardzo proszę, spalcie mnie, ale ono natychmiast zostanie zarżnięte.
+                        <lb/><emph>K. I</emph>: Błagam, nie! Ze mną zrób cokolwiek zechcesz, tylko nie z nim!
+                        <lb/><emph>KR</emph>.: Dobra z ciebie matka! Ale i tak je zarżnę.
+                        <lb/><emph>K. I</emph>: O, moje dziecko! Daj, Manio, misę, żebym zebrała krew swojego
+                        dziecka.
+                        <lb/><emph>KR</emph>.: Podłóż tutaj. Na to jedno jestem gotów ci pozwolić.
+                        <lb/><emph>K. I</emph>: Obyś sczezł! Taki chytry i niedobry!
+                        <lb/><emph>KR</emph>.: Ta skóra przypada kapłance.
+                        <lb/><emph>K. II</emph>: Co przypada kapłance?
+                        <lb/><emph>KR</emph>.: To. Masz.</quote>
+                    <p>693–695: <w>ἐνθάδ</w>’... <w>μαχαίραι</w> <w>τῆιδε</w> – „tu … tym nożem”; użycie zaimków
+                        wskazujących pozwala wyciągnąć pewne wnioski na temat performatyki.
+                        Dodatkowe źródło stanowi przedstawienie w malarstwie
+                        wazowym (apulijski krater czerwonofigurowy, Martin von Wagner Museum
+                        der Universität Würzburg, Antikensammlung, H 5697), które powszechnie
+                        traktowane jest jako rodzaj ilustracji tego miejsca (podejście
+                        takie może się wydawać niebezpieczne ze względów metodologicznych,
+                        jednak ten konkretnie obraz w sposób naprawdę uderzający pasuje do
+                        omawianej sceny). Zawiera ono wyobrażenie dwóch aktorów komicznych
+                        w strojach kobiet, z których jeden trzyma naczynie na wino, a drugi
+                        stoi przy ołtarzu z nożem w jednej ręce i rozciętym antropomorficznym
+                        bukłakiem w drugiej. Na ołtarzu widać czerwone zacieki. Jak słusznie
+                        zauważają Austin i Olson (2004: ad loc.), trudno wyobrażać sobie, żeby
+                        nóż, który bohater ewidentnie trzyma w ręku, wygłaszając swoją kwestię,
+                        stanowił element jego kobiecego stroju. Wyraźnie zatem znalazł go
+                        w pobliżu ołtarza. Zastanawiające jest również sformułowanie <w>ἐπὶ</w> <w>τῶν</w>
+                        <w>μηρίων</w> („nad udźcami”). Byłoby ono jak najbardziej na miejscu, gdyby
+                        w omawianej chwili składano ofiarę, której części płonęłyby właśnie lub
+                        leżały przygotowane do spalenia. Ponieważ akcja rozgrywa się w drugim
+                        dniu Tesmoforiów (cf. 80), a zatem w czasie postu, można się domyślać,
+                        że zarówno nóż, jak i udźce stanowią w tym kontekście nierealistyczny
+                        dodatek, prawdopodobnie zapożyczony przez Arystofanesa
+                        z tragediowego pierwowzoru sceny.</p>
+                    <p>694–695: <w>πληγὲν</w>… <w>φοινίας</w> <w>φλέβας</w> <w>καθαιματώσει</w> <w>βωμόν</w> –
+                        „gdy… uderzę jego krwiste żyły – krwią zaleje ołtarz”; widzowie
+                        prawdopodobnie jeszcze nie wiedzą, że rekwizyt w rękach aktora –
+                        w ramach konwencji – okaże się bukłakiem a nie dzieckiem. Niemniej
+                        w tym kontekście doskonale zrozumiała wydaje się uwaga, jaką bohater
+                        przywiązuje do krwi. Fakt, że mamy tu do czynienia z parodią makabrycznej
+                        sceny w tragedii, stanowi dodatkowy czynnik. Niezależnie
+                        od tego warto odnotować, że krew zwierząt ofiarnych stanowiła jeden
+                        z punktów fokalnych rytuału (o czym szerzej poniżej, a także Ar. <title>Pax</title>
+                        1019–20 wraz z komentarzem).</p>
+                    <p>750–753: <w>ἀποσφαγήσεται</w> – „zostanie zarżnięte”; znaczenie czasownika
+                        z prefiksem apo- wydaje się dosyć oczywiste: chodzi o poderżnięcie
+                        gardła lub metonimicznie – o zarżnięcie, zabicie. Warto podkreślić,
+                        że wyraz nigdzie nie jest poświadczony w kontekście ofiary
+                        ze zwierząt, lecz mordu na ludziach (e.g. Hdt. 4.84) lub ofiary z ludzi
+                        (Hdt. 4.62).</p>
+                    <p>754: τὸ <w>σφαγεῖον</w> – „misa na krew”; u Homera (<title>Od</title>. 3.444) takie lub
+                        podobne naczynie określane jest nazwą ἀμνίον. Malarstwo wazowe
+                        (van Straten 1995: fig. 53, 115, 119, 157) wskazuje, że chodzi o szeroką
+                        misę, którą umieszczano pod ciałem zwierzęcia w czasie, gdy je zarzynano
+                        i ćwiartowano w celu zebrania jego krwi. Pewną jej część wykorzystywano
+                        czysto rytualnie, znacząc nią ołtarz, resztę (przynajmniej
+                        w czasie zwyczajnej ofiary typu thysia) zużywano do przygotowania
+                        podrobów (szerzej: ad Ar. <title>Pax</title> 1119–1120).</p>
+                    <p>758: na scenę wchodzi kolejna bohaterka, która ewidentnie nie wie,
+                        co zaszło. Stąd pytanie w kolejnym wersie. Nie jest jasne, dlaczego została
+                        ona nazwana kapłanką. Wymiana zdań pozwala jednak z pewnością
+                        stwierdzić, że krewny Eurypidesa podał lub rzucił jej rozcięty
+                        i opróżniony bukłak. Jest to o tyle ciekawe, że scena odzwierciedla
+                        chyba typowy w tym okresie podział ról: „matka” dostarczyła „zwierzę”,
+                        krewny jako mageiros, „rzeźnik” dokonał fizycznego aktu uboju.
+                        Żadne z dwojga nie jest tożsame z kapłanką, czyli przedstawicielką
+                        wyższego personelu świątynnego. Na temat różnych części zwierzęcia
+                        jako typowych darów czy też formy wynagrodzenia kapłanów e.g.
+                        Puttkammer (1912), Le Guen-Pollet (1991: 15–17), van Straten (1995:
+                        154–155), Pirenne-Delforge (2010: 134). Skóra dla kapłana/kapłanki:
+                        Ar. <title>Pax</title> 1122–1124.</p>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

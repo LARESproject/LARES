@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Vespae (Σφῆκες, Le Vespe)</title>
+                <title xml:lang="en">Vespae (Σφῆκες, The Wasps)</title>
+                <title xml:lang="pl">Vespae (Σφῆκες, Osy)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">com_06_vespae</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Vespae (Σφῆκες, Osy)</title>, in Bartłomiej Bednarek, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Stara komedia attycka</title>, Warszawa 2017, pp. 175-182</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaia Fanelli">encoded document in XML</change>
+                <change when="2017" who="Bartłomiej Bednarek">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Komedia wystawiona na Lenajach w 422 r. p.n.e., gdzie otrzymała
+                        drugą nagrodę. Bohaterami są dwaj Ateńczycy, ojciec (Filokleon) i syn
+                        (Bdelykleon), z których pierwszy uzależniony jest od uczestnictwa
+                        w trybunałach sądowych, drugi próbuje go z tego nałogu wyleczyć.</p>
+                    <p>Z punktu widzenia badań nad ofiarą krwawą fabuła utworu i system
+                        bohaterów nie zawiera niczego istotnego. Godne uwagi są natomiast
+                        trzy dość lakoniczne wzmianki zawierające cenne informacje na
+                        temat rytuału.</p>
+                    <p>Tekst cytuję za wydaniem Sommerstein (1983).</p>
+                </div>
+                <div type="textpart" n="Vespae_81-82">
+                    <head>Vespae 81-82</head>
+                    <p>Kwestia pochodzi z passusu poświęconego potencjalnym diagnozom
+                        choroby Filokleona. Wzmianka o ofierze krwawej pojawia się tu
+                        w nieoczekiwanym kontekście.</p>
+                    <quote><lb/>Νικόστρατος δ’ αὖ φησιν ὁ Σκαμβωνίδης
+                        <lb/>εἶναι φιλοθύτην αὐτὸν ἢ φιλόξενον.</quote>
+                    <quote><lb/>Nikostratos, syn Skambonidesa mówi, że on [chory] cierpi na uzależnienie
+                        od ofiar i gościnności.</quote>
+                    <p>Wcześniejsze wersy wymieniają uzależnienie od gry w kości i alkoholu.
+                        W tym miejscu skłonność do składania ofiar i gościnności wymieniona
+                        jest w sposób całkowicie zdawkowy, przez co sprawia ona
+                        wrażenie kanonicznej pozycji na liście społecznych chorób świata komedii.
+                        W takim kontekście trudno wyobrażać sobie, że chodzi tu o formę
+                        pobożności. Czynnikiem uzależniającym jest ewidentnie przyjemność
+                        konsumpcji wnętrzności i mięsa zwierząt ofiarnych, na tych
+                        bowiem hedonistycznych elementach praktyki rytualnej Arystofanes
+                        konsekwentnie skupia się w swoich utworach.</p>
+                </div>
+                
+                <div type="textpart" n="Vespae_654">
+                    <head>Vespae 654</head>
+                    <p>Filokleon grozi synowi śmiercią.</p>
+                    <quote><lb/>οὐκ ἔστιν ὅπως οὐχὶ τεθνήσει, κἂν χρῆι σπλάγχνων μ’ ἀπέχεσθαι.</quote>
+                    <quote><lb/>Nie zdoła uniknąć śmierci, choćbym musiał trzymać się z dala od
+                        wnętrzności.</quote>
+                    <p>Scholia (ad loc.) zawierają przekonujące wyjaśnienie, że w passusie
+                        mowa o wykluczeniu z ofiar, którym obciążeni byli zabójcy przynajmniej
+                        do czasu oczyszczeń. Kosztowanie trzewi zwierzęcia ofiarnego
+                        stanowiło jeden z ważniejszych momentów procesu rytualnego, a jednocześnie
+                        – co istotne z punktu widzenia starej komedii – mogło wiązać
+                        się z przyjemnością. Lakoniczność wzmianki wskazuje na to, że
+                        obszerne wyjaśnienia były zbędne, a co za tym idzie, prawne/religijne
+                        ograniczenia rytuału były doskonale wszystkim znane. Być może nie
+                        jest dziełem przypadku, że Demostenes (20.158), nawiązując do tych
+                        samych praw i eksplicytnie przypisując je Drakonowi, co innego czyni
+                        pars pro toto rytuału ofiary: <w>χέρνιβος</w> <w>εἴργεσθαι</w> τὸν <w>ἀνδροφόνον</w>,
+                        <w>σπονδῶν</w>, <w>κρατήρων</w>, <w>ἱερῶν</w>, <w>ἀγορᾶς</w> – „zabójca nie jest dopuszczony
+                        do wody rytualnej [= ofiar], a także libacji, kratera [= sympozjonu],
+                        świątyni, agory [= życia politycznego]”. W odróżnieniu od poważnego
+                        mówcy, bohater komiczny zainteresowany jest przede wszystkim
+                        podrobami.</p>
+                </div>
+                
+                <div type="textpart" n="Vespae_844-846">
+                    <head>Vespae 844-846</head>
+                    <p>W celu oderwania ojca od udziału w procesach karnych Bdelykleon
+                        zapewnił mu rozrywkę w postaci fikcyjnego sądu, którego poszczególne
+                        elementy wyposażenia mają zostać zastąpione podobnymi
+                        do nich sprzętami domowymi. Humor sceny polega między innymi
+                        na tym, że dwóch dojrzałych mężczyzn naśladuje tu zachowanie
+                        dzieci, symbolicznie przeobrażając oswojony mikrokosmos domu
+                        w makrokosmos „świata dorosłych”. Zważywszy na to, że widzowie
+                        znali z autopsji obie te sfery, podczas gdy my mamy do nich bardzo
+                        ograniczony dostęp, passus jest kopalnią danych cennych, a zarazem
+                        niezbyt jasnych. Cytowane wersy zawierają realizację postanowienia
+                        z 830, gdzie Bdelykleon stwierdza, że w jego sądzie-na-niby brakuje
+                        przegrody zwanej δρύφακτος. Z punktu widzenia badań nad ofiarą
+                        krwawą passus jest o tyle ważny, że zawiera aluzję do praktyki rytualnej
+                        ku czci Hestii, a także informacje dotyczące hodowli zwierząt
+                        przeznaczonych na rytualny ubój.</p>
+                    <quote><lb/><emph>ΒΔ</emph>:. τουτὶ τί ἐστι;
+                        <lb/><emph>ΦΙ</emph>.: χοιροκομεῖον ῾Εστίας.
+                        <lb/><emph>ΒΔ</emph>.: εἶθ’ ἱεροσυλήσας φέρεις;
+                        <lb/><emph>ΦI</emph>.: οὔκ, ἀλλ’ ἵνα
+                        <lb/>ἀφ’ ῾Εστίας ἀρχόμενος ἐπιτρίψω τινά.</quote>
+                    <quote><lb/><emph>BD</emph>.: A to co?
+                        <lb/><emph>FI</emph>.: Kojec z chlewika Hestii.
+                        <lb /><emph>BD</emph>.: Dopuściłeś się świętokradztwa?
+                        <lb/><emph>FI</emph>.: Nie, po prostu niszczenie kogoś chcę zacząć od Hestii.</quote>
+                    <p>Zawarty w passusie żart polega na spostrzeżeniu, że przedmiot określany
+                        jako <w>χοιροκομεῖον</w> („kojec dla prosiąt”) może zastąpić <w>δρύφακτος</w>
+                        („barierka w sądzie”). Co do natury obiektów nazywanych tymi dwoma
+                        rzeczownikami istnieją pewne niejasności. <w>Δρύφακτος</w> to ewidentnie
+                        wykonana z drewna ażurowa przegroda wyznaczająca centralny
+                        punkt sądu ateńskiego. Nie jest w pełni oczywiste, czy chodzi o balustradę,
+                        która oddzielała sędziów od publiczności pozbawionej prawa
+                        głosu, czy też o taką, która wyznaczała samo miejsce „akcji”, gdzie
+                        znajdował się archont, mówcy i urny do głosowania (dyskusja w Dow
+                        2004: 82–83, sam uczony przychyla się do drugiego wariantu). Nie jest
+                        również jasne, jaki kształt miało to ogrodzenie. Możliwe, że składały
+                        się na nie trzy boki prostokąta, który domykała murowana ściana.
+                        Z drugiej strony niewykluczone, że chodzi o płotek, który ze wszystkich
+                        stron otaczał przestrzeń pośrodku (cf. Plu. <title>Arist</title>. 7.5: ἔφερεν εἰς
+                        ἕνα τόπον τῆς ἀγορᾶς περιπεφραγμένον ἐν κύκλωι <w>δρυφάκτοις</w>,
+                        „zaniósł w pewne miejsce na Agorze zewsząd otoczone płotkiem”).</p>
+                    <p>Kwestia wyglądu obiektu określanego jako <w>δρύφακτος</w> o tyle jest
+                        istotna, że <w>χοιροκομεῖον</w> to ewidentnie coś bardzo podobnego. Nie licząc
+                        omawianego miejsca w Osach oraz scholiów i leksykonów, wyraz
+                        ten pojawia się wyłącznie w jednym, niezbyt jasnym passusie u Arystofanesa
+                        (<title>Lys</title>. 1074). Uczone teksty starożytnych i bizantyjskich erudytów
+                        przekazują dwa warianty wyjaśnień: χοιροκομεῖον to może być
+                        kołek, do którego przywiązywano świnie lub rodzaj kojca, ogrodzenia
+                        z plecionki, za którym trzymano małe prosiaczki. Pierwsze spośród
+                        cytowanych stwierdzeń przekazane jest przez mniejszą ilość tekstów
+                        (Σ Ar. <title>Lys</title>. 1074; <title>V</title>. 844; <title>Suda</title>: s.v.), za każdym razem z zaznaczeniem,
+                        że chodzi o znaczenie, jakie wyrazowi należy przypisać w <title>Lizystracie</title>
+                        (1074). Niemal z całą pewnością stanowi ono wynik dociekań jakiegoś
+                        starożytnego czytelnika komedii, jednak trudne jest do utrzymania,
+                        zważywszy na to, że χοιροκομεῖα mieli nosić bohaterowie komedii
+                        umieszczone „wokół ud” (<w>περὶ</w> τοῖς <w>μηροῖσιν</w>), co w przypadku palika
+                        wydaje się niewykonalne (cf. e.g. Rogers 1911: ad loc ). Pozostaje zatem
+                        drugi wariant znaczenia (Σ Ar. <title>Lys</title>. 1074; <title>V</title>. 844; <title>Suda</title>: s.v.; Poll. 1.251;
+                        7.187; 10.159; Hes.: s.v.), który ma sporo sensu zarówno w kontekście
+                        <title>Lizystraty</title>, jak i w omawianym tu miejscu w Osach. Ewidentnie chodzi
+                        o niski płotek z plecionki, stanowiący kojec dla prosiąt, podobnie jak
+                        δρύφακτος, stawiany pod ścianą i ograniczający przestrzeń z trzech
+                        pozostałych stron lub formujący pełny prostokąt.</p>
+                    <p>Ponieważ w Osach Bdelykleonowi bardzo zależy na tym, żeby zatrzymać
+                        ojca w domu, można uznać za pewne, że bohater przynosi
+                        χοιροκομεῖον z jego wnętrza. Oznacza to, że mamy tu do czynienia
+                        z elementem wyposażenia gospodarstwa miejskiego. Trzymanie świń
+                        było powszechne, jak sugeruje passus w <title>Plutosie</title> (1106). Problematyczne
+                        wydaje się za to znaczenie wzmianki o Hestii.</p>
+                    <p>Słowa ἵνα ἀφ’ ῾<w>Εστίας</w> <w>ἀρχόμενος</w> <w>ἐπιτρίψω</w> <w>τινά</w> („niszczenie
+                        kogoś chcę zacząć od Hestii”) ewidentnie są pointą, dla której Arystofanes
+                        zbudował cały skecz. Wypowiedź stanowi wariację na temat
+                        wyrażenia <w>ἀφ</w>’ <w>Ἑστίας</w> <w>ἄρχειν</w> („zaczynać od Hestii”), które najprawdopodobniej
+                        już w czasach powstania Os miało charakter przysłowia
+                        (w takim użyciu poświadczone poza tym najwcześniej w Pl. <title>Cra</title>. 401B;
+                        cf. Hes. s.v.) i oznaczało „zacząć od samego początku”. Filokleon, który
+                        chce się okazać srogim sędzią, zamierza wydawać wyroki skazujące,
+                        wyrządzając ludziom krzywdę (<w>ἐπιτρίβω</w>), a pierwszą pokrzywdzoną
+                        ma być Hestia.</p>
+                    <p>Źródła przysłowia ewidentnie wiążą się z kultem, choć podobnie
+                        jak natura samej bogini łatwo wymykają się zrozumieniu. O Hestii
+                        jako o nieśmiertelnej (zestawienie źródeł: Burkert 2011: 262; Burkert
+                        1985: 170) pierwszy wspomina Hezjod (<title>Op</title>. 453–454), mówiąc wyłącznie
+                        tyle, że była najstarszą córką Kronosa i Rei. Nie licząc frywolnej
+                        opowiastki, której drugoplanową bohaterką uczynił boginię Owidiusz
+                        (<title>Fasti</title> 6.319–48), istnieje o niej właściwie tylko jedno podanie, przekazane
+                        w kilku wersjach przez greckich poetów począwszy prawdopodobnie
+                        od okresu archaicznego. W <title>Hymnie homeryckim do Afrodyty </title>(21–
+                        33) jest mowa o tym, że jako jedyna z bogiń i śmiertelniczek (nie licząc
+                        Ateny i Artemidy) Hestia jest odporna na moc miłości. Choć zalecali
+                        się do niej Apollo i Posejdon, postanowiła pozostać na zawsze dziewicą.
+                        Zamiast małżeństwa otrzymała od Zeusa wspaniały dar (<w>γέρας</w>):
+                        „zasiada w środku domostwa i spija tłuszcz” (<w>μέσωι</w> <w>οἴκωι</w> <w>κατ</w>' <w>ἄρ</w>'
+                        <w>ἕζετο</w> <w>πῖαρ</w> <w>ἑλοῦσα</w>). Podobną treść miał wyrażać utwór hellenistycznego
+                        autora Aristokritosa streszczony w scholiach do omawianego tu
+                        passusu w <title>Osach</title> (846).</p>
+                    <p>Opowieść ta stanowi oczywisty mit aitiologiczny, wyjaśniający
+                        początki tego, co określano rzeczownikiem pospolitym <w>ἑστία</w>, odnoszącym
+                        się do paleniska, stanowiącego centralny (przestrzennie i symbolicznie)
+                        punkt domostwa, a także (w czasach istnienia polis) budynków
+                        publicznych, przede wszystkim prytanejów. Przy zastosowaniu
+                        takiego klucza należy rozumieć, że bogini „otrzymuje” tłuszcz, który
+                        kapie z opiekanego nad ogniem mięsa. Stałe przywiązanie paleniska
+                        do przestrzeni domowej w ramach personifikacji wyraża się „dziewictwem”
+                        bogini. Ponieważ rodzina grecka, przynajmniej na poziomie
+                        normatywnym, miała charakter patrylokalny, a centralnym punktem
+                        zaślubin było przejście panny młodej do domu małżonka, niechęć Hestii
+                        do małżeństwa staje się oczywistym znakiem pozostania na zawsze
+                        w domu (Vernant 1963; cf. Hes. <title>Op</title>. 519–525).</p>
+                    <p>Powyższe stwierdzenia wskazują na to, że całość mitologii Hestii
+                        na dobrą sprawę można uznać za wynik procedury aitiologicznej.
+                        W takim ujęciu bogini zdaje się niewiele więcej niż tylko personifikacją
+                        paleniska, obiektu o wyjątkowo istotnej roli zarówno pragmatycznej,
+                        jak i symbolicznej (Homer).</p>
+                    <p>Do podobnych wniosków skłania analiza ikonografii. Najstarsze
+                        przedstawienie Hestii to część dekoracji Krateru François (ok.
+                        570 p.n.e.) z procesją ślubną Peleusa i Tetydy. Bogini idzie tu wraz
+                        z Demeter i Chariklo w zwartym szeregu, przy czym wydaje się, że
+                        wszystkie trzy okryte są jednym płaszczem. Umieszczenie ich w jednej
+                        grupie w dość oczywisty sposób wskazuje na wspólnotę ich funkcji
+                        jako patronek centralnych sfer działalności (w ramach greckiej ideologii)
+                        zamężnej kobiety: opieki nad paleniskiem, przygotowywania do
+                        spożycia produktów zbożowych i tkania. W późniejszym od Krateru
+                        François malarstwie wazowym Hestia nie występuje jako samodzielny
+                        przedmiot przedstawienia. Pojawia się włącznie, choć i to stosunkowo
+                        rzadko, w obrazach całej grupy bogów, w której ramach nie pełni innej
+                        funkcji niż „widza” lub „uczestnika spotkania”. Charakterystyczne, że
+                        przeważnie ukazywana jest jako kobieta dojrzała z atrybutami dziewicy,
+                        co czyni ją figurą, anachronicznie rzecz ujmując, „starej panny”,
+                        stanowiąc wyraźne nawiązanie do mitycznego dziewictwa bogini.</p>
+                    <p>Do rzadkości należą posągi kultowe Hestii, niewiele jest także informacji
+                        o nich w źródłach pisanych (m.in. autorstwa Skopasa na Paros:
+                        D.C. 55.9.6; Plin. <title>HN</title> 36.25; w Atenach: Paus. 1.18.3). Jeszcze mniej
+                        danych starożytne teksty przekazują o jej świątyniach (znane są tylko
+                        dwie: w Olimpii – X. <title>HG</title> 7.4.31; w Pireusie – CIA 2.589). Nieco więcej
+                        jest materiału poświadczającego istnienie w niektórych miejscach specjalnych
+                        ołtarzy Hestii, choć wiele wskazuje na to, że taką funkcję pełniły
+                        przede wszystkim paleniska w centralnych dla poleis budynkach,
+                        takich jak Prytanejon w Atenach (Poll. 1.7; Sch. Aristid. 47–48). Kilka inskrypcji
+                        mówi także o składaniu jej ofiar, przy czym za każdym razem
+                        jest ona wymieniana jako jedno z kilkorga bóstw, czczonych w danej
+                        sekwencji rytualnej (inskrypcje wylicza Healey 1990: 213–215). Hestia
+                        za każdym razem jest pierwszą adresatką ofiary, otrzymując osobne
+                        zwierzę, przynajmniej niekiedy o wyraźnie mniejszej wartości niż to,
+                        które otrzymają inni bogowie. Ewidentnie zatem mamy tu do czynienia
+                        z jakiegoś rodzaju ofiarą wstępną.</p>
+                    <p>Powyższe stwierdzenia pozwalają przypuszczać, że przysłowie, do
+                        którego Arystofanes nawiązuje w omawianym miejscu <title>Os</title> (<w>ἀφ</w>’ <w>Ἑστίας</w>
+                        <w>ἄρχειν</w>, „zaczynać od Hestii”) wywodzi się z praktyki rytualnej. Takie
+                        z grubsza rozumienie sugerują scholia (ad loc.), choć pojawiają się tu
+                        dwie, w pewnej mierze konkurencyjne interpretacje: (1) że Hestia jako
+                        pierwsza z bogów otrzymuje libacje lub (2) dostaje <w>ἀπαρχαί</w>, „pierwociny”
+                        ofiar. Istnieje wreszcie i trzeci wariant wyjaśnienia, zgodnie
+                        z którym istniał zwyczaj rozpoczynania modlitw od apostrofy do tej
+                        bogini. To ostatnie, choć potwierdzone źródłowo (E. <title>Phaeth</title>. 248–250;
+                        Ar. <title>Av</title>. 865) zdaje się odnosić wyłącznie do pewnych specyficznych
+                        modlitw, większość bowiem zachowanych przykładów nie potwierdza
+                        istnienia takiej reguły.</p>
+                    <p>W kontekście coraz powszechniejszej w ostatnich latach tendencji
+                        do opisywania rytuału ofiarnego w kategoriach aktów komunikacji
+                        pomiędzy ludźmi i nieśmiertelnymi wydaje się, że wszystkie trzy
+                        warianty wyjaśnień pochodzenia przysłowia należy uznać za komplementarne.
+                        Jeśli modlitwy i towarzyszące im gesty służą wyrażeniu
+                        czegoś, rzeczą zrozumiałą staje się, że uwaga nadawcy w pierwszej
+                        kolejności kieruje się ku temu, co umożliwia otwarcie kanału komunikacyjnego.
+                        Jeśli zatem spalenie pokarmów zwierzęcych lub roślinnych
+                        stanowić ma akt przekazania ich bogom pod postacią dymu, oczywista
+                        wydaje się fokalizacja we wstępnej fazie rytuału spoczywająca na
+                        tym, co ten przekaz umożliwia, czyli na palenisku i ogniu.</p>
+                    <p>Jakkolwiek dostępny materiał nie pozwala na bardzo ścisłe rozgraniczenia,
+                        wydaje się, że można wskazać pewną dychotomię w obrębie
+                        obrzędów ku czci Hestii. Niektóre inskrypcje wskazują bowiem na to,
+                        że bywała ona adresatką samodzielnego rytuału, otrzymując przed
+                        innymi bogami osobne zwierzę. Z drugiej strony, wydaje się niemal
+                        całkiem jasne, że niekiedy nie przeznaczano osobnej ofiary dla Hestii.
+                        Wówczas (żartobliwie lub nie) można było zinterpretować wylewane
+                        do ognia libacje i spadające do niego krople tłuszczu jako przypadającą
+                        jej część. Ponieważ następowało to siłą rzeczy jeszcze zanim spalane
+                        na palenisku (także palenisku ołtarza) części mięsa i kości uległy
+                        zniszczeniu, łatwo o konceptualizację zjawiska jako <w>ἀπαρχαί</w> („dar
+                        z pierwocin”)</p>
+                    <p>Omawiany passus prawdopodobnie nawiązuje do praktyki składania
+                        Hestii osobnych ofiar. Jest tu bowiem mowa o „kojcu dla prosiąt”
+                        przynależącym do bogini lub paleniska (<w>χοιροκομεῖον</w> ῾<w>Εστίας</w>),
+                        które stanowi jej materialny substytut. Ponieważ bohater wyniósł ów
+                        przedmiot z domu (nie zaś np. z Prytanejonu), wynika stąd sugestia,
+                        że czymś normalnym było trzymanie małych świnek przeznaczonych
+                        na ofiary dla bogini. Do praktyki hodowania zwierząt z zamiarem zabicia
+                        ich dla Hestii prawdopodobnie nawiązuje także wers Kallimacha
+                        (<title>Cer</title>. 108), gdzie w podobnym kontekście jest mowa o jałówce (cf. Wilamowitz
+                        1935: 337 przyp. 1). O rytuałach tego rodzaju wiemy skądinąd
+                        bardzo niewiele i nic w tym dziwnego. Zgodnie ze stwierdzeniami
+                        paremiografów (Zen. 4.44; Diogenian. 2.40; 4.68), istniał przysłowiowy
+                        zwrot „składać ofiarę Hestii” (<w>Ἱστίαι</w>/ <w>Ἑστίαι</w> <w>θύειν</w>), oznaczający
+                        z grubsza tyle, co „niechętnie dzielić się z innymi” lub „czynić coś po
+                        kryjomu”. Mimo oczywistej różnicy w wydźwięku tych dwóch interpretacji
+                        dają się one ze sobą pogodzić, zwłaszcza w świetle jednomyślnego
+                        wyjaśnienia, jakie podają starożytni erudyci: prywatne ofiary dla
+                        Hestii składano w domu i nie wynoszono z nich mięsa. Niezależnie od
+                        tego, czy był to ścisły przepis kultowy, czy też niezbyt sztywna reguła
+                        dająca się zaobserwować w życiu codziennym, mamy tu do czynienia
+                        z rodzajem zachowań, które cementują kohezję grupy rodzinnej,
+                        odbywając się w centrum przestrzeni prywatnej. Nie powinno zatem
+                        dziwić, że praktycznie nie znajdujemy śladów tego rodzaju działań
+                        w formie inskrypcji regulujących kulty większych grup, w wysokiej
+                        poezji czy w jakichkolwiek tekstach dotyczących życia publicznego.</p>
+                </div>    
+            </div>
+        </body>
+    </text>
+</TEI>
