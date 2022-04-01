@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Equites (ἱππεῖς, Cavalieri)</title>
+                <title xml:lang="en">Equites (ἱππεῖς, Knights) </title>
+                <title xml:lang="pl">Equites (ἱππεῖς, Rycerze)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">com_04_equites</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Equites (ἱππεῖς, Rycerze)</title>, in Bartłomiej Bednarek, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Stara komedia attycka</title>, Warszawa 2017, pp. 145-158</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Giuseppina Paola Viscardi">encoded document in XML</change>
+                <change when="2017" who="Bartłomiej Bednarek">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Komedia wystawiona przez Arystofanesa na Lenajach w 424 r. p.n.e., gdzie otrzymała pierwszą nagrodę. Tytuł pochodzi od chóru, na który składali się hippeis, grupa młodych ludzi z najzamożniejszej warstwy społeczeństwa ateńskiego (cf. de Ste. Croix 1972: 360).</p>
+                    <p>W prologu dwaj słudzy starca o znaczącym imieniu Demos, będącego personifikacją ateńskiego ludu (wyraz przyjmuje rozmaite zabarwienia w rodzaju LS II: common people, ale i LS III: the sovereign people), narzekają na swojego kolegę, Paflagona, niewolnika barbarzyńskiego pochodzenia, który dzięki pochlebstwu zdołał całkowicie zapanować nad swoim właścicielem. Niemal od razu staje się jasne dla publiczności, że jego pierwowzorem był demagog Kleon. Patologiczny stosunek pan-sługa stanowi oczywistą alegorię relacji, jaka zdaniem Arystofanesa zachodziła pomiędzy ludem i Kleonem. Ostrze krytyki zwrócone jest przeciwko samemu politykowi, jednocześnie jednak poeta nie szczędzi wyrzutów samemu ludowi (Demosowi), przedstawiając go jako ogłupiałego starca. W ramach akcji komedii cudownym lekiem na opłakaną sytuację państwa i społeczeństwa stanowi pomoc osoby, która swym niskim pochodzeniem i nędzą moralną przewyższa samego Paflagona. Kimś takim okazuje się Kiełbaśnik, ubogi człowiek wyrabiający i sprzedający kiełbasy. Zanim zostanie przyjęty na służbę, biedak przechodzi szereg prób i komicznych starć z Paflagonem, zktórych nieodmiennie wychodzi zwycięsko. Wkońcu Kiełbaśnik zajmuje miejsce swojego rywala, okazując się wbrew pozorom dobrym i wiernym sługą.</p>
+                    <p>Z punktu widzenia badań nad ofiarą krwawą utwór zawiera kilka interesujących passusów. Nie bez znaczenia jest także całość konstrukcji postaci Kiełbaśnika, która wskazuje na istnienie szeregu negatywnych stereotypów dotyczących osób handlujących mięsem i jego produktami, a zatem towarami, które mogły pochodzić (i być może w przeważającej mierze pochodziły) z ofiar. Poniższe zestawienie nie zawiera wszystkich passusów, w których mowa o kiełbasie, jelitach, podrobach, etc., ponieważ z materią rytualną wiążą się one wyłącznie pośrednio.</p>
+                    <p>Tekst cytuję za wydaniem Sommerstein (1981).</p>
+                </div>
+                
+                <div type="textpart" n="Equites_157–161">
+                    <head>Equites 157–161</head>
+                    <p>Kierując się przepowiednią, sługa Demosa odnajduje Kiełbaśnika i zwraca się do niego w uroczystych słowach. Ten, sądząc, że to żart, z pokorą wyjaśnia, że pragnie wrócić do swoich czynności zawodowych.</p>
+                    <quote>
+                        <lb/><emph>ΟΙΚΕΤΕΣ:</emph>
+                        <lb/>Ὦ μακάρι’, ὦ πλούσιε, 
+                        <lb/>ὦ νῦν μὲν οὐδείς, αὔριον δ’ ὑπέρμεγας,
+                        <lb/>ὦ τῶν Ἀθηνῶν ταγὲ τῶν εὐδαιμόνων.
+                        <lb/><emph>ΑΛΛΑΝΤΟΠΩΛΗΣ:</emph>
+                        <lb/>Τί μ’, ὦγάθ’, οὐ πλύνειν ἐᾶις τὰς κοιλίας 
+                        <lb/>πωλεῖν τε τοὺς ἀλλᾶντας, ἀλλὰ καταγελᾶις;
+                    </quote>
+                    
+                    <quote>
+                        <lb/><emph>SŁUŻĄCY:</emph>
+                        <lb/>O szczęsny, wspaniały, który dziś jesteś nikim, lecz jutro będziesz prześwietnym przywódcą znakomitych Aten!
+                        <lb/><emph>KIEŁBAŚNIK:</emph>
+                        <lb/>Czemu, dobry człowieku, wyśmiewasz mnie, nie pozwolisz oczyścić jelit i zająć się sprzedawaniem kiełbas?
+                    </quote>
+                    
+                    <p>Passus nie wiąże się w sposób oczywisty i bezpośredni z ofiarą krwawą. Zawiera za to przesłanki dotyczące podziału ról pomiędzy osobami zaangażowanymi w ubój i przetwarzanie części zwierząt. Można się domyślać, że poecie w tym miejscu zależało na uwypukleniu kontrastu pomiędzy świetlaną przyszłością Kiełbaśnika, a jego obecną nędzą. W tym kontekście mycie jelit przeznaczonych na osłonki do kiełbas, czynność z pewnością brudna i mało przyjemna, okazuje się zarezerwowane dla osób o szczególnie niskim statusie. Do podobnych wniosków skłania passus w Plutosie Arystofanesa (1168–1169). Cf. 300–302 infra.</p>
+                </div>
+               
+                 <div type="textpart" n="Equites_300-302">
+                    <head>Equites 300-302</head>
+                     <p>Urywek wymiany obelg i gróźb pomiędzy Paflagonem i Kiełbaśnikiem. Ten pierwszy grozi przeciwnikowi donosem. Charakter przestępstwa, być może całkowicie fantastycznego, podobnie jak powyżej przytoczony passus wiąże się z wykorzystaniem jelit ubitych zwierząt, tym razem jednak kontekst religijny, a zatem i ofiarny jest wyraźnie obecny.</p>
+                     
+                     <quote>
+                         <lb/><emph>ΠΑΦΛΑΓΩΝ:</emph> 
+                         <lb/>Καὶ φανῶ σε τοῖς πρυτάνεσιν 
+                         <lb/>ἀδεκατεύτους τῶν θεῶν ἱε<lb 
+                             break="no"/>ρὰς ἔχοντα κοιλίας.
+                     </quote>
+                     
+                     <quote>
+                         <lb/><emph>PAFLAGON:</emph>
+                         <lb/>Ja na ciebie doniosę do prytanów, że masz jelita święte, za które nie złożyłeś bogom dziesięciny.
+                     </quote>
+                     
+                     <p>Scholia (ad loc.) zawierają wyjaśnienia dwojakiego rodzaju. Według jednego przekazu rzeźnicy (μάγειροι) mieli zwyczaj oddawania prytanom dziesiątej części składanych przez siebie ofiar. Stwierdzenie to można skojarzyć z faktem, że jelita i inne części przewodu pokarmowego zwierząt traktowano jako cenny materiał, służący m.in. jako osłonki na kiełbasy. Przepisy kultowe niekiedy regulują ich wykorzystanie, nakazując oddawać je personelowi świątynnemu (e.g. LSCG 151 A 50). Wiadomo także, że prytani w Atenach otrzymywali niekiedy specjalne porcje mięsa ofiarnego, np. w czasie Panatenajów (LSCG 33.11). Nic jednak nie wskazuje na to, żeby chodziło tu o dziesiątą część, a tym bardziej o jej przekazywanie prytanom w innych sytuacjach niż obchody wielkich świąt poliadycznych. Dlatego wyjaśnienia scholiasty należy potraktować raczej jako wynik jego domysłu, wynikającego z literalnego odczytania passusu. Bardziej prawdopodobna wydaje się alternatywna interpretacja zawarta w scholiach, zgodnie z którą cytowana wypowiedź zawiera żart, polegający na zastąpieniu oczekiwanego w tym kontekście wyrazu οὐσίας („posiadłość”) przez κοιλίας („jelita”). W takim kontekście mielibyśmy do czynienia z parodią typowego zarzutu o zaniechanie wniesienia opłaty za dzierżawę ziemi określonej przymiotnikiem ἱερά, który w takim kontekście oznacza „będąca własnością bóstw/ sanktuarium/ świątyni” (Papazarkadas 2011; cf. X. An. 5.3.13). Niewielką modyfikację w stosunku do tej interpretacji stanowi preferowana przez komentatorów wersja (Sommerstein 1981: ad loc.; Neil 1966: ad loc.; Jim 2014: 265), zgodnie z którą nie chodzi o dziesięcinę od dzierżawy ziemi, ale o rodzaj podatku od nabycia własności, zwłaszcza drogą podboju. Zarzuty niezłożenia dziesięciny od łupów nie należały do rzadkości (Lys. 20.24; Dem. 24.120,128). To oznacza, że passus, choć może wywoływać skojarzenia z ofiarą krwawą, wskazuje raczej na to, że określenie ἱερὰ κοιλία uważano za oczywiście niedorzeczne, a przez to komiczne.</p>    
+                </div>
+                
+                <div type="textpart" n="Equites_409-410">
+                    <head>Equites 409-410</head>
+                    <p>Wymiana pomiędzy Paflagonem i Kiełbaśnikiem przerodziła się w swoistą konkurencję w bezczelności. Tu pada kwestia nawiązująca do rytuału ofiary krwawej.</p>
+                    
+                    <quote>
+                        <lb/><emph>ΠΑΦΛΑΓΩΝ:</emph>
+                        <lb/>Οὔτοί μ’ ὑπερβαλεῖσθ’ ἀναιδείαι μὰ τὸν Ποσειδῶ,
+                        <lb/>ἢ μήποτ’ Ἀγοραίου Διὸς σπλάγχνοισι παραγενοίμην.
+                    </quote>
+                    
+                    <quote>
+                        <lb/><emph>PAFLAGON:</emph>
+                        <lb/>Na Posejdona, nie przewyższysz mnie swą bezczelnością, albo już nigdy nie będę miał dostępu do trzewi Zeusa Agorajosa!    
+                    </quote>
+                    
+                    <p>Wykopaliska na Agorze ateńskiej w 1931 r. (Stillwell 1933: 140–148) doprowadziły do odkrycia ołtarza, który niemal z całą pewnością należy wiązać z kultem Zeusa Agorajosa (związanego z Agorą lub przemawianiem). Obiekt został przeniesiony tam w I w. p.n.e. z miejsca wcześniejszych spotkań eklezji na Pnyksie, gdzie zachowały się ślady wcześniejszego usytuowania ołtarza, postawionego tam w okresie reform Likurga w drugiej połowie IV w. p.n.e. (cf. Thompson 1952: 92–93). Pozostaje to w zgodzie z przekazem scholiów (ad loc.), według których Zeus Agorajos miał otrzymywać cześć zarówno na Agorze, jak i w miejscu zgromadzeń. Choć sam obiekt jest niemal o cały wiek późniejszy od Rycerzy, wydaje się bardzo prawdopodobne, że i w czasach Arystofanesa na Pnyksie składano ofiary Zeusowi Agorajosowi. Użyte przez Paflagona wyrażenie Ἀγοραίου Διὸς σπλάγχνοισι παραγίγνεσθαι („mieć dostęp do trzewi Zeusa Agorajosa”) należy zatem najprawdopodobniej odczytać jako metonimię aktywnego uczestnictwa w życiu politycznym Aten. Problematyczna w tym kontekście jest interpretacja czasownika παραγίγνεσθαι. Pierwotnie oznacza on „znaleźć się przy czymś” w sensie fizycznym, powszechne jednak było jego użycie w wyrażeniach oznaczających „wziąć udział w uczcie, spotkaniu, wydarzeniu” (e.g. Od. 17.173. Atrakcyjne znaczenie LS I.4, „wziąć udział w ofierze” postulowali dla tego czasownika Paton i Hicks (1891: 292), jednak na podstawie wątłych przesłanek). Jeśli w omawianym wyrażeniu czasownikowi przypisać drugie ze znaczeń, należy rozumieć, że chodzi o bycie dopuszczonym do ścisłego kręgu ofiarników, którzy po dokonaniu uboju zwierzęcia spalali jego udźce dla bogów, opiekali w płomieniu nad ołtarzem trzewia i kosztowali ich. Kontekst wskazuje na to, że składanie takich ofiar ku czci Zeusa Agorajosa dokonywało się na Pnyksie, stanowiąc ważny, bo rozpoznawalny dla publiczności Arystofanesa, element życia społecznego. Zgadywać można, że takie ofiary rozpoczynały obrady eklezji. Jeśli przypisać czasownikowi jego pierwotne, przestrzenne znaczenie, sens wyrażenia ulegnie modyfikacji. Ponieważ kilka dobrych źródeł wskazuje na to, że fizyczny kontakt z wnętrznościami zwierząt ofiarnych stanowił element rytuału składania przysięgi (vide ad Ar. Lys. 186 / 192), wydaje się możliwe, że (niektórzy?) mówcy, zabierający głos na ateńskim zgromadzeniu (w pewnych sprawach?) zobowiązani byli w sensie dosłownym „znaleźć się przy wnętrznościach [zwierzęcia złożonego w ofierze dla] Zeusa Agorajosa”. Ten drugi wariant wyjaśnienia jest, rzecz jasna, wyłącznie hipotetyczny, a wobec braku silnych argumentów na jego rzecz pierwsza z proponowanych tu interpretacji wydaje się bardziej prawdopodobna.</p>
+                </div>
+            
+                <div type="textpart" n="Equites_652-663">
+                    <head>Equites 652-663</head>
+                    <p>Kiełbaśnik zdaje relację ze swojego wystąpienia przed radą, w czasie którego konkurował z Paflagonem o sympatię zgromadzonych. Jednym ze sposobów zyskiwania sobie poklasku okazuje się postulowanie wielkich ofiar. Jakkolwiek mamy tu do czynienia z hiperbolą, można się domyślać, że Arystofanes przedstawia jedno z typowych narzędzi demagogów, tyle tylko, że w rzeczywistej praktyce z pewnością stosowane z większą finezją maskującą oczywisty w parodii populizm. Ofiary ze znacznej ilości zwierząt oznaczały dystrybucję mięsa, koszty zaś ponosiło państwo (cf. X. Ath. 2.9–10). W wersach poprzedzających cytowane poniżej Kiełbaśnik przekonał do siebie tłum, przekazując jako dobrą nowinę, że ceny drobnych rybek osiągnęły najniższy poziom od początku wojny peloponeskiej.</p>
+                    
+                    <quote>
+                        <lb/><emph>ΑΛΛΑΝΤΟΠΩΛΗΣ:</emph>
+                        <lb/> ̔Ο δ’ ὑπονοήσας, ὁ Παφλαγών, εἰδὼς ἄρα 
+                        <lb/>οἷς ἥδεθ’ ἡ βουλὴ μάλιστα ῥήμασιν, 
+                        <lb/>γνώμην ἔλεξεν· Ἄνδρες, ἤδη μοι δοκεῖ
+                        <lb n="655"/>ἐπὶ συμφοραῖς ἀγαθαῖσιν εἰσηγγελμέναις 
+                        <lb/>εὐαγγέλια θύειν ἑκατὸν βοῦς τῆι θεῶι. 
+                        <lb/>̓Επένευσεν εἰς ἐκεῖνον ἡ βουλὴ πάλιν.
+                        <lb/>Κἄγωγ' ὅτε δὴ 'γνων τοῖς βολίτοις ἡττημένος,
+                        <lb/>διηκοσίησι βουσὶν ὑπερηκόντισα,
+                        <lb n="660"/>τῆι δ’ Ἀγροτέραι κατὰ χιλίων παρήινεσα
+                        <lb/>εὐχὴν ποήσασθαι χιμάρων εἰς αὔριον, 
+                        <lb/>αἱ τριχίδες εἰ γενοίαθ’ ἑκατὸν τοὐβολοῦ. 
+                        <lb/> ̓Εκαραδόκησεν εἰς ἔμ’ ἡ βουλὴ πάλιν.
+                    </quote>
+                    
+                    <quote>
+                        <lb/><emph>KIEŁBAŚNIK:</emph>
+                        <lb/>Wtedy Paflagon, wiedząc co rada najbardziej lubi słyszeć, wpadł na pomysł, by rzec: „Mężowie, sądzę, [655] że po tym, jak usłyszeliśmy o korzystnym obrocie wypadków, wypada złożyć bogini ofiarę dziękczynną ze stu wołów”. Rada znów mu zaczęła przytakiwać, a ja, widząc, że mnie swym krowim łajnem pokonał, przebiłem go dwustu wołami [660] i jeszcze zachęcałem, żeby ślubować Agroterze, że jej tysiąc kóz jutro złożymy, jeśli sardele potanieją do stu za obol. Znów rada ku mnie zwróciła swe oczy.
+                    </quote>
+                    
+                    <p>656: εὐαγγέλια – „ofiara dziękczynna”; wyraz εὐαγγέλιον wdialekcie attyckim funkcjonujący jako plurale tantum oznacza: (1) nagrodę, którą otrzymuje ktoś, kto przekazuje dobre wieści (e.g. Od. 14.152), (2) ofiarę składaną dla uczczenia tych wieści i wreszcie</p>
+                    <p>(3) w późniejszych tekstach (od Septuaginty 2 Sam. 4.10) – przez metonimiczne przesunięcie znaczenia – samą „dobrą nowinę”. Stąd jego specyficzne użycie uautorów chrześcijańskich: „ewangelia”. W interesującym nas tutaj znaczeniu (2) słowo najczęściej pojawia się w odniesieniu do ofiar składanych po otrzymaniu wieści o militarnym sukcesie (e.g. X. HG 4.3.14). Wyjątek stanowi wystąpienie terminu u Ajschinesa (3.160) i Plutarcha (Dem. 22.3) w kontekście opisów radości wrogów Filipa Macedońskiego po jego śmierci. W Żywocie Fokiona (16.8) Plutarch stwierdza, że mówca ten sprzeciwił się wówczas składaniu εὐαγγέλια, ponieważ, jak to dowcipnie ujął, „nieszlachetnie jest radować się, a siły przeciw nim wystawione pod Cheroneją uszczuplone zostały tylko o jednego człowieka” (Φιλίππου δ’ ἀποθανόντος εὐαγγέλια θύειν τὸν δῆμον οὐκ εἴα· καὶ γὰρ ἀγεννὲς εἶναι τὸ ἐπιχαίρειν, καὶ τὴν ἐν Χαιρωνείαι παραταξαμένην πρὸς αὐτοὺς δύναμιν ἑνὶ σώματι μόνον ἐλάττω γενέσθαι). Passus ten może zawierać sugestię, że złożenie publicznych εὐαγγέλια w innej sytuacji niż po odniesieniu zwycięstwa na polu bitwy mogło stanowić nadużycie. Tak też należy chyba rozumieć słowa Paflagona, który obniżenie ceny ryb traktuje jak wiadomość o wygranej bitwie. Należy jednak zaznaczyć, że w kontekście kultu prywatnego wyraz poświadczony jest u Menandra (Pk. 993), gdzie aspekt militarny jest całkowicie nieobecny. Ważne wystąpienie zawiera tabliczka z zaklęciem IG III App. 109.7: ὑμῖν ἐγὼ Πραξιδίκαι καὶ  ̔Ερμῆ κάτοχε Μανο[ῦς] κακῶς πράξαντος εὐαγγέλια θύσω („kiedy/jeśli Manes dozna przeciwności, ja wam, Praksidikaj i Hermesie zsyłający opętanie, złożę εὐαγγέλια”). Ponieważ wcześniej w tekście te same istoty nadprzyrodzone zostały wezwane do szkodzenia (nieznanemu skądinąd) Manesowi, można rozumieć, że εὐαγγέλια stanowić mają dla nich rodzaj nagrody, którą otrzymają, gdy autor dowie się, że jego życzenie spełniło się (szerzej: Eidinow 2007: 138–155). Wydaje się znaczące, że w kontekście wzmianek o εὐαγγέλια bardzo często jest także mowa o ucztach i mięsie pochodzącym z ofiar (X. HG 1.6.37; 4.3.14; D.S.15.74.2; Plu. 799f; Ages. 17.3; Phoc. 23.6). Nie ma w tym zresztą nic dziwnego, ponieważ rytuał, będąc wyrazem wdzięczności wobec bóstw, stanowił także okazję do przeżywania radości przez ludzi.</p>
+                    <p>ἑκατὸν βοῦς – „sto wołów”; nie licząc największych świąt kalendarza attyckiego, takich jak Panatenaje i Dionizje Miejskie, ofiary tak obfite i kosztowne jak ze stu wołów składano wyłącznie sporadycznie. Ewidentnie zatem mamy tu do czynienia z hiperbolą posuniętą do jeszcze wyraźniejszego absurdu, gdy Kiełbaśnik proponuje podwoić liczbę zwierząt. Przesadna wspaniałość ofiary kontrastuje z błahym wydarzeniem, które bohaterowie chcą świętować. Warto odnotować, że ponad pół wieku później Izokrates (7.10) zarzuci swoim współczesnym, że w trudnej dla państwa sytuacji dwukrotnie składali εὐαγγέλια, choć nie mieli dobrych powodów do świętowania.</p>
+                    <p>τῆι θεῶι – „bogini”; zastanawiająca na pierwszy rzut oka formacja (rodzajnik żeński + rzeczownik rodzaju męskiego) używana była w wielu kontekstach na określenie różnych bogiń zarówno w poezji jak i w prozie (S. Aj. 401; Pl. Ti. 21a). Ponieważ bohater nie wymienia tu imienia adresatki ofiary, należy się domyślać, że jest nią najważniejsza opiekunka miasta, Atena.</p>
+                    <p>660: Ἀγροτέραι – „Agroterze”; Agrotera to przydomek Artemidy łowczyni, pod którym bogini otrzymywała cześć w różnych miejscach świata greckiego (m.in. w Sparcie i w Olimpii, cf. Wentzel 1894). W Attyce bogini miała swój przybytek na przedmieściu Aten w Agrai (lub Agra, cf. Simms 2003). Według przekazanej przez Ksenofonta (An. 3.2.12) opowieści, przed bitwą pod Maratonem Ateńczycy ślubowali Agroterze, że złożą jej w ofierze po jednej kozie za każdego Persa, którego uda im się zabić w walce. Ponieważ liczba poległych wrogów okazała się zbyt wielka, po odejściu nieprzyjaciela postanowiono corocznie ofiarowywać Artemidzie po pięćset kóz szóstego dnia miesiąca boedromion (Aelian VH 2.25 podaje, że zwierząt było trzysta, co jest sprzeczne z innymi danymi, w tym również z omawianym passusem). Obyczaj ten przetrwał przynajmniej do czasów Plutarcha (De Her. malign. 862a). Jakkolwiek nie jest do końca jasne, dlaczego akurat ta bogini miała być adresatką rytuału, informacje o jego pochodzeniu nie budzą poważnych wątpliwości (cf. Parker 2005: 400–401). Omawiane miejsce zawiera parodię opowieści o wotum maratońskim, wskazując na to, że była ona dobrze znana publiczności Arystofanesa. Liczba zwierząt wykorzystywanych w rzeczywistym rytuale została tu podwojona, a powód podjęcia czynności kultowych skrajnie strywializowany.</p>           </div>
+           
+                <div type="textpart" n="Equites_1121–1140">
+                    <head>Equites 1121-1140</head>
+                    <p>Passus, w którym Demos wyjaśnia, że choć sprawia wrażenie naiwnego, demagogami posługuje się w sposób cyniczny. Odpowiedź chóru zawiera metaforę, której domenę źródłową w dużej mierze stanowi sfera uboju zwierząt. Kwestią otwartą pozostaje, w jakim stopniu passus wiąże się z rytuałem ofiary krwawej. Zdaniem scholiasty – w wysokim.</p>
+                    
+                    <quote>
+                        <lb/><emph>ΔΗΜΟΣ:</emph>
+                            <lb/>Νοῦς οὐκ ἔνι ταῖς κόμαις 
+                        <lb/>ὑμῶν, ὅτε μ’ οὐ φρονεῖν 
+                        <lb/>νομίζετ’· ἐγὼ δ' ἑκὼν 
+                        <lb/>ταῦτ’ ἠλιθιάζω.
+                        <lb n="1125"/>Αὐτός τε γὰρ ἥδομαι 
+                        <lb/>βρύλλων τὸ καθ' ἡμέραν,
+                        <lb/>κλέπτοντά τε βούλομαι 
+                        <lb/>τρέφειν ἕνα προστάτην· 
+                        <lb/>τοῦτον δ’, ὅταν ἦι πλέως,
+                        <lb n="1130"/>ἄρας ἐπάταξα. 
+                        <lb/><emph>ΧΟΡΟΣ:</emph>
+                            <lb/>Οὕτω μὲν ἂν εὖ ποιοῖς, 
+                        <lb/>εἴ σοι πυκνότης ἔνεστ’ 
+                        <lb/>ἐν τῶι τρόπωι, ὡς λέγεις, 
+                        <lb/>τούτωι πάνυ πολλή,
+                        <lb n="1135"/>εἰ τούσδ' ἐπίτηδες ὥσ<lb 
+                            break="no"/>περ δημοσίους τρέφεις
+                            <lb/>ἐν τῆι πυκνί, κἆιθ’ ὅταν 
+                        <lb/>μή σοι τύχηι ὄψον ὄν, 
+                        <lb/>τούτων ὃς ἂν ἦι παχύς,
+                        <lb n="1140"/>1140 θύσας ἐπιδειπνεῖς.
+                    </quote>
+                    
+                    <quote>
+                        <lb/><emph>DEMOS:</emph>
+                        <lb/>Nie ma rozumu pod waszymi czuprynami, skoro sądzicie, że jestem bezmyślny. A ja sobie pozwalam na te niedorzeczności celowo. Sam wołam o papu na co dzień i jednego naraz złodzieja-przywódcę pragnę żywić, a gdy się nażre, obalam go i zabijam.
+                        <lb/><emph>CHÓR:</emph>
+                        <lb/>Dobrze zatem czynisz, jeśli, jak mówisz, naprawdę sporo w tym sprytu, że celowo utrzymujesz ich na Pnyksie, jakby należeli do ludu, a gdy zabraknie ci przekąski, zarzynasz takiego, który się już upasł, by go zjeść na obiad.
+                    </quote>
+                    
+                    <p>1129–1130: sposób postępowania Demosa z demagogami przypomina to, co robiono ze zwierzętami tucznymi. Jednak użyte tu słownictwo (πλεώς, „napełniony”, ἀείρω, „obalić”, πατάσσω, „zabić”) raczej nie przynależy do terminologii hodowlano-rzeźniczo-ofiarniczej. Dopiero następująca potem kwestia chóru odwołuje się do tej sfery, przynosząc nieoczekiwaną metaforę.</p>
+                    <p>1136: δημοσίους – „jakby należeli do ludu”; scholia (ad loc.) zawierają dwa warianty wyjaśnień. Może chodzić albo o zwierzęta przeznaczone na publiczne ofiary, albo o przestępców, których na koszt państwa trzymano w więzieniach, aby w czasie jakiegoś rodzaju nieszczęścia, np. klęski nieurodzaju, wykorzystać ich do oczyszczeń jako tzw. φαρμακοί (znaczenie LS IIb, niepoświadczone nigdzie poza omawianym passusem). Jakkolwiek brutalnie traktowano wyrzutków społecznych, wydaje się oczywiste, że ich nie zjadano. Dlatego przy założeniu, że Arystofanes nie popada w tym miejscu w nietypową dla siebie makabrę i że zachowuje ciągłość obrazowania w ramach wypowiedzi jednej postaci, należy potraktować drugie spośród wyjaśnień scholiasty jako mniej prawdopodobne. Wariant pierwszy również wydaje się problematyczny. Przymiotnik δημόσιος („należący do państwa”, „należący do ludu”) jest nieźle poświadczony w kontekście zwierząt ofiarnych, np. w inskrypcji LSCG 11A, gdzie kilkakrotnie występuje w opozycji do ἰδίος („prywatny”). Kłopotliwy jest fakt, że w omawianym miejscu scholiasta dopatruje się elipsy, gdzie domyślnym terminem byłby rzeczownik oznaczający woły lub byki (λείπει βοῦς ἢ ταύρους). Bardziej prawdopodobne w tym kontekście byłoby wystąpienie generycznego wyrazu oznaczającego jakiekolwiek zwierzę ofiarne (e.g. ἱερά, θύματα), to zaś wymagałoby użycia przymiotnika w rodzaju nijakim, a nie w męskim. Dlatego prawdopodobna wydaje się interpretacja, według której przymiotnik pozostaje w zgodzie nie z rzeczownikiem (który uległ elipsie) lecz z zaimkiem τοῦσδε („ich”). W tej sytuacji tłumaczenie zaproponowane przez Sommersteina (1981: ad loc.) „like public victims” zawierałoby element nadinterpretacji, zważywszy na to, że na poziomie figury słowa „oni”, czyli demagodzy, zachowują swoją ludzką tożsamość, mimo że traktowani są jak zwierzęta przeznaczone na ofiary.</p>
+                    <p>τρέφεις – „utrzymujesz”; czasownik ten ma bardzo szerokie pole semantyczne i odnosić się może zarówno do żywienia, karmienia, tuczenia zwierząt, jak i do karmienia, wychowywania dzieci oraz do utrzymywania kogoś na służbie. Aż do tego miejsca zatem nic jednoznacznie nie sugeruje, że demagodzy utrzymywani przez lud traktowani są jak zwierzęta tuczne.</p>
+                    <p>1140: θύσας ἐπιδειπνεῖς – „zarzynasz, by go zjeść na obiad”; użyty tu czasownik θύω pierwotnie wiąże się nierozerwalnie ze sferą kultu. Tutaj jednak został użyty w swym późniejszym znaczeniu: „zarżnąć”. O tym, czy ewokuje on konotacje religijne, decydować tu powinien kontekst, a przede wszystkim interpretacja przymiotnika δημόσιος (vide supra). Non liquet.</p>     
+            </div>
+            
+                <div type="textpart" n="Equites_1166–1167">
+                    <head>Equites 1166-1167</head>
+                    <p>>Paflagon, starając się zyskać sympatię Demosa, przynosi mu smakowity placek, jednocześnie czyniąc aluzję do militarnego sukcesu Ateńczyków odniesionego pod Pylos. Wydarzenie to stanowiło jeden z ważniejszych tytułów do chwały demagoga Kleona, pierwowzoru Paflagona. Passus zawiera językowe nawiązanie do sfery ofiary krwawej.</p>
+                
+                <quote>
+                    <lb/><emph>ΠΑΦΛΑΓΩΝ:</emph>
+                    <lb/> ̓Ιδοὺ φέρω σοι τήνδε μαζίσκην ἐγὼ
+                    <lb/>ἐκ τῶν ὀλῶν τῶν ἐκ Πύλου μεμαγμένην.
+                </quote>
+                
+                <quote>
+                    <lb/><emph>PAFLAGON:</emph>
+                    <lb/>Oto przynoszę placek ulepiony z ziaren jęczmiennych spod Pylos.
+                </quote>
+                    
+                    <p>ἐκ τῶν ὀλῶν – „z ziaren jęczmiennych”; oὐλαί (w dialekcie attyckim ὀλαί) to ziarna jęczmienia, prawdopodobnie zmieszanego z solą, które rzucano na zwierzę ofiarne i/lub ołtarz po wypowiedzeniu modlitwy, a przed dokonaniem uboju. Ponieważ termin ten nie pojawia się w kontekstach niezwiązanych ze sferą religii, omawiane miejsce mogłoby stanowić wyjątek, nic bowiem nie wiemy o wypieku placków z οὐλαί czy o ich konsumpcji w jakiejkolwiek postaci. Wyjątek jest jednak pozorny. W kolejnych wersach bohaterowie oferują Demosowi skórki chleba zagniecione przez Atenę, zupę wymieszaną przez tę boginię i inne potrawy przygotowane przez bogów. Ewidentnie zatem wyraz οὐλαί wpisuje się w kontekst właśnie dzięki swym religijnym konotacjom, czyniąc ze zwykłego placka placek niezwykły, nacechowany jakiegoś rodzaju „świętością”. Szerzej: Bednarek (2017a).</p>
+            </div>
+            
+                <div type="textpart" n="Equites_1395–1399">
+                    <head>Equites 1395-1399</head>
+                    <p>Po tym jak Demos postanowił pozbyć się Paflagona, a na jego miejsce przyjąć Kiełbaśnika, ten ostatni zapowiada odwrócenie ról. Pojawia się tu żart odwołujący się do sfery tabu żywieniowych, pośrednio wiążąc się z normami ofiary krwawej.</p>
+                    <quote>
+                        <lb/><emph>ΔΗΜΟΣ:</emph>
+                            <lb/>Τὸν δὲ Παφλαγόνα, 
+                        <lb/>ὃς ταῦτ’ ἔδρασεν, εἴφ’ ὅ τι ποήσεις κακόν.
+                        <lb/><emph>ΑΛΛΑΝΤΟΠΩΛΗΣ:</emph>
+                        <lb/>Οὐδὲν μέγ’ ἀλλ’ ἢ τὴν ἐμὴν ἕξει τέχνην· 
+                        <lb/>ἐπὶ ταῖς πύλαις ἀλλαντοπωλήσει μόνος, 
+                        <lb/>τὰ κύνεια μειγνὺς τοῖς ὀνείοις πράγμασιν.
+                    </quote>
+                    
+                    <quote>
+                        <lb/><emph>DEMOS:</emph>
+                        <lb/>A co zrobisz z Paflagonem za to, że w tym wszystkim zawinił?
+                        <lb/><emph>KIEŁBAŚNIK:</emph>
+                        <lb/>Nic specjalnego, poza tym, że odtąd zajmie się moim rzemiosłem. Sprzedawać będzie w bramie kiełbasy i mieszać psie z oślim.
+                    </quote>
+                    
+                    <p>Typowymi zwierzętami ofiarnymi były woły, owce, kozy i świnie. Psy składano w ofierze niektórym bóstwom (w szczególności Hekate; szerzej: komentarz ad Ar. fr. 209), nic jednak nie wskazuje na to, żeby przy tej okazji jedzono ich mięso. Literatura medyczna (cf. Dalby 1996: 60) sugeruje, że mięso psów i osłów jadano wyłącznie w szczególnych okolicznościach, tzn. w przypadku głodu lub ze względu na ich rzekomo lecznicze właściwości. Cytowany passus przekonuje, że klienci rzeźników i kiełbaśników z pewnym (znanym i dzisiaj) niepokojem myśleli o składzie kiełbas, podejrzewając, że zawierają one mięso bardzo nędznej jakości lub – z jakiegoś powodu – nisko cenionego rodzaju. Wygląda na to, że do tej kategorii zaliczano właśnie mięso psa i osła. Należy jednak zaznaczyć, że można tu mówić raczej o preferencji niż ścisłym tabu, co wydaje się szczególnie ewidentne w świetle badań archeozoologicznych, które wykazują obecność niewielkiej ilości kości psów ze śladami wykorzystania kulinarnego przez starożytnych Greków w różnych okresach i w wielu miejscach (cf. Roy 2007; Lacam 2008).</p>
+              </div>
+            </div>
+        </body>
+    </text>
+</TEI>
