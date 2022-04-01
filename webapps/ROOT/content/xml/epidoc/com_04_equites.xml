@@ -4,9 +4,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="it">Equites (ἱππεῖς, Cavalieri)</title>
-                <title xml:lang="en">Equites (ἱππεῖς, Knights) </title>
-                <title xml:lang="pl">Equites (ἱππεῖς, Rycerze)</title>
+                <title xml:lang="it">Equites (Ἱππεῖς, Cavalieri)</title>
+                <title xml:lang="en">Equites (Ἱππεῖς, Knights) </title>
+                <title xml:lang="pl">Equites (Ἱππεῖς, Rycerze)</title>
             </titleStmt>
             <publicationStmt>
                 <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
@@ -17,7 +17,7 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <p><title>Equites (ἱππεῖς, Rycerze)</title>, in Bartłomiej Bednarek, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                <p><title>Equites (Ἱππεῖς, Rycerze)</title>, in Bartłomiej Bednarek, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
                     Stara komedia attycka</title>, Warszawa 2017, pp. 145-158</p>
             </sourceDesc>
         </fileDesc>
