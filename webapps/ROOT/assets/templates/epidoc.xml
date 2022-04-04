@@ -40,10 +40,7 @@
     <kiln:block name="content">
       <div class="row">
         <div class="large-12 columns">
-          <p>
-            <br/>
-            <a href="{kiln:url-for-match('local-epidoc-display-xml', ($language, $filename), 0)}">EpiDoc XML file</a>
-          </p>
+          <p><br/><a href="{kiln:url-for-match('local-epidoc-display-xml', ($language, $filename), 0)}">XML</a> | <a href="javascript:window.print()">PDF</a></p>
         </div>
       </div>
     </kiln:block>
