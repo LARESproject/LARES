@@ -1,0 +1,1273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Frammenti di opere di Aristofane e di altri autori dell'antica commedia attica</title>
+                <title xml:lang="en">Fragments of works by Aristophanes and other authors of the old Attic comedy</title>
+                <title xml:lang="pl">Fragmenty dzieł Arystofanesa i innych autorów starej komedii attyckiej</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">com_12_fragments</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Fragmenty dzieł Arystofanesa i innych autorów starej komedii attyckiej</title>, in Bartłomiej Bednarek, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Stara komedia attycka</title>, Warszawa 2017, pp. 245-280</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Gaia Fanelli">encoded document in XML</change>
+                <change when="2017" who="Bartłomiej Bednarek">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Fragmenty podano za normatywnym wydaniem Kassel, Austin (1983–2001), 
+                        przestrzegając numeracji ustalonej w tej edycji. W nawiasie
+                        znajdują się numery wydania Kocka (1880–1888) wraz z suplementem
+                        Demańczuka (1967), wykorzystywane m.in. w systemie adresów
+                        bibliograficznych <title>LS</title>. Zgodnie ze zwyczajem obowiązującym w nowszych
+                        wydaniach, poetów zestawiono w kolejności alfabetycznej łacińskich
+                        wersji ich imion. Na końcu znalazły się fragmenty nieznanych
+                        autorów (adespota).</p>
+                </div>
+                <div type="textpart" n="Ameipsias_Konnos_7">
+                    <head>Ameipsias Konnos 7</head>
+                    <p>Komedia wystawiona na Dionizjach Miejskich
+                        w 421 r. p.n.e., na których konkurowała z <title>Chmurami</title> Arystofanesa.</p>
+                    <quote><lb/>ἐντευθενὶ δίδοται μάλισθ’ ἱερώσυνα,
+                        <lb/>κωλῆ, τὸ πλευρόν, ἡμίκραιρ’ ἀριστερά</quote>
+                    <quote><lb/>przede wszystkim kapłanowi daje się należną część: szynkę, żeberka,
+                        lewą połowę głowy</quote>
+                    <p>Kock (1880) wyraża atrakcyjne, lecz niczym niepoparte przypuszczenie,
+                        że słowa te wypowiadał religijny specjalista w rodzaju Hieroklesa
+                        z <title>Pokoju</title> Arystofanesa, który domagał się dla siebie wynagrodzenia
+                        w postaci części mięsa. Pewne jest to, że zestawione tu elementy w niczym
+                        nie zaskakują, gdy porównać je z inskrypcyjnymi katalogami,
+                        wyliczającymi należne kapłanom i personelowi sanktuariów kawałki
+                        zwierzęcia. Ἱερόσυνα to typowy w tym kontekście wyraz, oznaczający
+                        „część kapłana”. Szerzej: e.g. Puttkammer 1912; Le Guen-Pollet 1991.</p>
+                </div>
+                
+                <div type="textpart" n="Archippos_Incertae_Fabulae_47">
+                    <head>Archippus Incertae Fabulae 46 (6 Dem)</head>
+                    <quote><lb/>Πειθοῦς γὰρ οὐκ ἦν οὔτε βωμὸς οὔτε πῦρ,
+                        <lb/>οὔτ’ ἐν γυναιξὶν οὔτ’ ἐν ἀνδρείαι φύσει</quote>
+                    <quote><lb/>Peitho nie ma ołtarza ani ognia ni w kobietach, ni w męskiej naturze</quote>
+                    <p>Passus jest oczywistą trawestacją Eurypidesowego dystychu (fr. 170):
+                        <w>οὐκ</w> <w>ἔστι</w> <w>Πειθοῦς</w> <w>ἱερὸν</w> <w>ἄλλο</w> <w>πλὴν</w> <w>λόγος</w>, / <w>καὶ</w> <w>βωμὸς</w> <w>αὐτῆς</w> <w><w>ἐστ</w></w>’ ἐν
+                        <w>ἀνθρώπου</w> <w>φύσει</w> („Peitho nie ma innego przybytku niż słowo, a ołtarz
+                        jej jest w ludzkiej naturze”). Obserwacja dotycząca personifikowanej
+                        „namowy” wydaje się bardzo naturalna i zgrabnie wyrażona.
+                        Interesujące jest wykorzystanie atrybutów związanych z ofiarą (ołtarz,
+                        ogień) jako metonimii kultu.</p>
+                </div>
+                
+                <div type="textpart" n="Aristophanes_Amphiaraos_25">
+                    <head>Aristophanes Amphiaraos 25</head>
+                    <p>komedia wystawiona na Lenajach
+                        w 414 r. p.n.e.:</p>
+                    <quote><lb/>ταυτὶ τὰ κρέ’ αὐτῶι παρὰ γυναικός του φέρω</quote>
+                    <quote><lb/>Niosę mu to mięso od pewnej kobiety.</quote>
+                    <p>Tytułowy Amphiaraos to mityczny wieszczek, który zginął w wyprawie
+                        siedmiu przeciw Tebom. Jako heros otrzymywał cześć w Oropos
+                        na granicy Attyki z Beocją, gdzie znajdowała się jego wyrocznia i gdzie
+                        przybywali chorzy pielgrzymi (szerzej: Schachter 1981: 1.17–26; Kearns
+                        1989: 147; Ekroth 2002: 75–76). Niewykluczone, że wymienione w tekście
+                        mięso stanowi dar dla herosa przysłany za pośrednictwem osoby
+                        wypowiadającej cytowane słowa (niewolnika?) przez kobietę, która
+                        pragnęła in absentia zasięgnąć rady wyroczni. Możliwa jest także alternatywna
+                        interpretacja, zgodnie z którą obdarowany jest śmiertelnikiem,
+                        a mięso stanowi prezent lub swojego rodzaju łapówkę (cf. <title>Th</title>. 558–559).
+                        W obu przypadkach nie chodzi zatem o ofiarę krwawą w ścisłym znaczeniu
+                        tego terminu, lecz o dar dla herosa lub człowieka. Na temat tej
+                        kategorii piszą m.in. Jim 2014, Jacquemin 2008; Ekroth 2008.S</p>
+                </div>
+                
+                <div type="textpart" n="Aristophanes_Geras_143">
+                    <head>Aristophanes Geras 143 (138)</head>
+                    <p>143 (138) <title>Γῆρας</title>, <title>Starość</title>, data nieznana, ok. 420 r. p.n.e.:</p>
+                    <quote><lb/>κοπίδι τῶν μαγειρικῶν</quote>
+                    <quote><lb/>Tasakiem z tych rzeźniczych.</quote>
+                </div>
+                
+                <div type="textpart" n="Arstophanes_Gerytades_167">
+                    <head>Aristophanes Gerytades 167 (171)</head>
+                    <p>Hesych. α 8417</p>
+                    <quote><lb/>αὐτοὶ θύομεν· ἀντὶ τοῦ αὐτοὶ πίνομεν ἐνηλλαγμένως,
+                        παρόσον οἱ καλούμενοι εἰς ἑστιασιν λέγουσι „καὶ αὐτοὶ
+                        θύομεν”. ἐπὶ γὰρ τῶν καλουμένων ὑπό τινων λέγεται.</quote>
+                    <quote><lb/>My składamy ofiarę – dowcipnie, zamiast „my pijemy”, jako że
+                        zaproszeni na ucztę mówią „i my składamy ofiarę”. Bo to jest
+                        powiedziane o zaproszonych przez kogoś.</quote>
+                    <p>Objaśnienia Hesychiosa są dosyć zawiłe i niejednoznaczne. Kock (ad
+                        loc.) wyraził przypuszczenie, że wyrażenie dotyczy wykluczenia kogoś
+                        z grupy ucztujących, jak to ma miejsce w przypadku Hieroklesa
+                        w <title>Pokoju</title> (922–1126). Fritzsche (1838: 172) zasugerował, że może chodzić
+                        o typ ofiary <w>οὐ</w> <w>φορά</w>/ <w>οὐκ</w> <w>ἐκφορά</w>, czyli takiej, po której nie wolno
+                        było wynosić mięsa z miejsca jej złożenia (cf. <title>Pl</title>. 1138 wraz z komentarzem).</p>
+                </div>
+                
+                <div type="textpart" n="Aristophanes_Daitales_209">
+                    <head>Aristophanes Δαιταλῆς 209 (204)</head>
+                    <p>Najstarsza komedia Arystofanesa, wystawiona w 427 r. p.n.e., prawdopodobnie
+                        na Lenajach, zdobyła drugą nagrodę.</p>
+                    <quote><lb/>τί δαί; κυνίδιον λευκὸν [λεπτὸν: Kock] ἐπρίω τῆι θεῶι
+                        εἰς τὰς τριόδους;</quote>
+                    <quote><lb/>Cóż to? Białego [małego] psiaka kupiłeś dla bogini na rozdrożach?</quote>
+                    <p>Passus pojawia się w scholiach do Teokryta (2.11/12d), cytowany
+                        przez starożytnego komentatora jako dowód na to, że bogini Hekate
+                        otrzymywała ofiary z psów. Praktyka jest skądinąd nieźle poświadczona
+                        i w innych źródłach (Sophr. <title>fr</title>. 4a; 8; Paus. 3.14.9; <title>Orph. A.</title> 934–
+                        –987). Problematyczny jest w tym miejscu kolor zwierzęcia, oczywiście,
+                        jeśli odrzucić koniekturę Kocka, ponieważ w kontekście kultu dla
+                        Hekate oczekiwalibyśmy raczej ofiary czarnej. Być może zdziwienie
+                        bohatera komedii wynika właśnie stąd, że ktoś kupił ofiarę niewłaściwej
+                        barwy (Kassel, Austin ad loc.; Serafini 2015: 139–142). Należy zaznaczyć,
+                        że pies nie jest typowym zwierzęciem ofiarnym (jak woły,
+                        owce, kozy i świnie), a jego wykorzystanie w tym charakterze w kulcie
+                        Hekate w sposób oczywisty kojarzy się z niezwykłym charakterem
+                        tej ambiwalentnej bogini, czczonej na rozdrożach, w miejscach par
+                        excellence liminalnych (cf. Carboni 2015; Serafini 2015; Zografou 2010;
+                        Johnston 1989). Z drugiej strony, jak słusznie zwraca uwagę Serafini
+                        (2015: 143), ofiary z psów i konsumpcja psiego mięsa, choć prawdopodobnie
+                        naładowana sporą dawką znaczeń, nie stanowiła zupełnego
+                        wyjątku, a Hekate nie była jedyną boginią, w której kulcie wykorzystywano
+                        to zwierzę. Poza nią ofiary tego rodzaju otrzymywała m.in.
+                        Afrodyta na przylądku Kolias w Attyce, w Locri Epizephyri i w Gravisca
+                        w Italii, a także Kybele w Sardes (ibidem). Na temat wykorzystania
+                        psów w kulcie (regularnie nacechowanym pewną niezwykłością/liminalnością)
+                        i w kuchni, por. De Grossi Mazzorin (2008); Lacam (2008);
+                        Roy (2007) z dalszą bibliografią.</p>
+                </div>
+                
+                <div type="textpart" n="Aristophanes_Daitales_236">
+                    <head>Aristophanes Δαιταλῆς 236 (224)</head>
+                    <quote><lb/>καὶ δελφακίων ἁπαλῶν κωλαῖ καὶ χναυμάτια πτερόεντα</quote>
+                    <quote><lb/>Szynki delikatnych prosiaczków i skrzydlate plasterki</quote>
+                    <p>Edmonds 1957 (ad loc.) chyba zbyt skwapliwie stwierdził, że rzeczownik
+                        <w>κωλαῖ</w> oznacza tutaj część zwierzęcia ofiarnego, którą otrzymywał
+                        kapłan (priestly share). Jakkolwiek taka interpretacja jest dopuszczalna,
+                        nic nie wskazuje w sposób jednoznaczny na ofiarny kontekst passusu.
+                        Ze względu na brak kontekstu, można jedynie domniemywać, kto wypowiadał
+                        tę kwestię i dlaczego tak pozytywnie (z nostalgią?) wyrażał
+                        się o mięsie. Jednym z możliwych skojarzeń jest wypowiedź Hermesa
+                        z <title>Pokoju</title> (1128), w której bóg wspomina szynki, które zjadał w przeszłości,
+                        a które ewidentnie otrzymywał jako dar (trapezoma? cf. ad loc.).
+                        Użycie przymiotnika <w>ἁπαλός</w> („delikatny”) w odniesieniu do mięsa
+                        prosięcia: <title>Lys</title>. 1162. Należy zaznaczyć, że w obu przypadkach zwierzę
+                        określone jest diminutivum <w>δελφάκιον</w>, co wskazuje na jego młody
+                        wiek i czyni wzmiankę o delikatności jego mięsa doskonale zrozumiałą.
+                        Na temat rytualnego wykorzystania prosiąt: <title>Ach</title>. 784–796; <title>Pax</title> 374–
+                        –375; Ra. 378 wraz z komentarzami. Sens użycia przymiotnika πτερόεις
+                        („skrzydlaty”) jest niejasny. Może chodzić o to, że na ucztę, o której
+                        wspomina tu bohater komiczny, składał się również i drób. Możliwe
+                        także, że, jak twierdzi Meineke (1867: 162), wyrazowi należy przypisać
+                        znaczenie figuratywne: „wyjątkowo delikatny”.</p>
+                </div>
+                
+                <div type="textpart" n="Aristophanes_Dramata_299">
+                    <head>Aristophanes Δράματα 299 (286)</head>
+                    <p>Schol. <title>Ra</title>. 798:</p>
+                    <quote><lb/>μεῖον λέγουσι τοὺς ὑπὲρ τῶν υἱῶν εἰς τὰ Ἀπατούρια οἶς ὑπὸ τῶν
+                        πατέρων εἰσφερομένους, διὰ τὸ ἐπιφωνεῖν τοὺς φράτορας ἐπὶ τοῦ
+                        σταθμοῦ τοῦ ἱερείου· μεῖον, μεῖον. ὅτι δὲ ἵσταντο Ἀριστοφάνης
+                        ἐν Δράμασι δεδήλωκεν. τοῦτο δὲ κέκληται κουρεῖον ἀπὸ τῶν
+                        κούρων ὑπὲρ ὧν ἐθύετο. μεῖον δὲ διὰ τὴν προειρημένην αἰτίαν.
+                        καὶ ἐπιζήμιόν τι τοῖς ἧττον εἰσάγουσιν ἀποδέδοτο, καθάπερ αὐτός
+                        φησιν Ἀριστοφάνης·
+                        <lb/>ἀλλ’ εὔχομαι ‘γωγ’ ἑλκύσαι σε τὸν σταθμόν,
+                        <lb/>ἵνα μή με προσπράττωσι γραῦν οἱ φράτερες.</quote>
+                    <quote><lb/>Meion to określenie owiec/baranów, składanych przez ojców za synów
+                        w czasie Apaturii. Nazwa wywodzi się od okrzyku członków fratrii
+                        w czasie ważenia zwierzęcia: meion, meion [za lekkie]. O ważeniu informuje
+                        Arystofanes w Dramatach. Używa się określenia koureion od
+                        kouroi, chłopców, za których składano ofiarę, a meion z powodu podanego
+                        powyżej. Jeśli ktoś przyprowadził za małe zwierzę, spotykała go
+                        kara, jak powiada sam Arystofanes:
+                        <lb/>Proszę, tylko naciągnij wagę, żeby członkowie fratrii nie domagali się
+                        ode mnie śmietany.</quote>
+                    <p>Apaturia to święto obchodzone we fratriach (w Attyce i w jońskiej części
+                        świata greckiego, a może nie tylko), w czasie którego przyjmowano
+                        do tych stowarzyszeń dorastających synów ich członków i rejestrowano
+                        synów narodzonych w poprzedzającym roku (szerzej na ten temat: Burkert
+                        2011: 383–384; Burkert 1985: 255; Parke 1977: 88–92; Deubner 1932:
+                        232–234, a także Bednarek 2014). W obu przypadkach ojciec zobowiązany
+                        był złożyć ofiarę za dziecko (w omawianym scholium wskazuje na
+                        to składnia: <w>ὑπὲρ</w> <w>ὧν</w>). Podana przez scholiastę etymologia nazwy zwierzęcia
+                        ofiarnego μεῖον, jak wiele innych ludowych etymologii znanych
+                        ze źródeł antycznych, wydaje się nieco wymuszona, jednak przekazane
+                        tu szczegóły znajdują niezłe potwierdzenie w przekazie Harpokrationa
+                        (200.15–201.7), który zestawia passusy z kilku dawniejszych autorów
+                        (Is. 124; Eratosth. 91; Apollod. fr. 108 (Jac.); Eup. 130). Nigdzie nie jest
+                        powiedziane, od czego konkretnie zwierzę ofiarne miało być cięższe,
+                        wydaje się jednak jasne, że żartobliwie zawsze określano je jako za małe.
+                        Pewną alternatywę w stosunku do tej wersji proponuje (cytowany przez
+                        Harpokrationa ibid.) Apollodoros, który twierdził, że nie tyle zwierzę,
+                        ile porcje mięsa przeznaczone dla członków fratrii (<w>μερίδες</w>) poddawano
+                        ważeniu i dowcipnie krytykowano jako zbyt skąpe.</p>
+                    <p>Passus zawiera pewne niejasności na poziomie leksykalnym.
+                        Przede wszystkim problematyczne jest słowo <w>γραῦς</w>, które odnosić
+                        się może (m.in.) do starej kobiety, „baby”, co nie ma w tym miejscu
+                        większego sensu lub do „kożucha na mleku”, ewentualnie „śmietany”.
+                        To drugie znaczenie wydaje się dopuszczalne, lecz nie całkiem
+                        zrozumiałe (cf. Kock 1880: ad loc.: „quid sit <w>γραῦν</w> nescio”). Jak zwykle,
+                        prawdopodobnie sens passusu zależał od nieznanego nam kontekstu.</p>
+                </div>
+                
+                <div type="textpart" n="Aristophanes_Lemniai_381">
+                    <head>Aristophanes Lemniai 381 (365)</head>
+                    <quote><lb/>τὴν κρατίστην δαίμον’, ἧς νῦν θερμός ἐσθ’ ὁ βωμός</quote>
+                    <quote><lb/>...najpotężniejszą z bogiń, której ołtarz jest teraz gorący.</quote>
+                    <p>Passus, jakkolwiek brutalnie wyrwany z kontekstu, na pierwszy rzut
+                        oka wydaje się doskonale zrozumiały. Ciepło ołtarza wskazuje na jego
+                        niedawne użycie, a zatem na składanie ofiary. <title>Suda</title> (ω 125), wyraźnie
+                        traktując zwrot <w>νῦν</w> <w>θερμοί</w> <w>βωμοί</w> jako utarty frazeologizm, objaśnia,
+                        że odnosił się on do czegoś/kogoś przyjmowanego z zapałem (<w>ἐπὶ</w> <w>τῶν</w>
+                        <w>διὰ</w> <w>σπουδῆς</w> <w>τυγχανόντων</w>). Wers Arystofanesa według tego leksykonu
+                        odnosi się do typowej dla Ateńczyków tendencji do zapożyczania
+                        obcych kultów.</p>
+                </div>
+                
+                <div type="textpart" n="Aristophanes_Pelargoi_449">
+                    <head>Aristophanes Πελαργοί 449 (434)</head>
+                    <p>Data nieznana, wiadomo, że komedię wystawiono w tym samym roku
+                        co Edypeidę Meletosa.</p>
+                    <quote><lb/>κεφαλάς τ’ ἀρνῶν κωλᾶς <supplied reason="omitted">τ’</supplied> ἐρίφων</quote>
+                        <quote><lb/>głowy baranie, szynki koźle</quote>
+                    <p>Jakkolwiek trudno stwierdzić, o co chodzi we fragmencie, wywołuje
+                        on oczywiste skojarzenia z częściami zwierząt ofiarnych, które otrzymywali
+                        kapłani.</p>
+                </div>
+                
+                <div type="textpart" n="Aristophanes_Proagon_478">
+                    <head>Aristophanes Προάγων 478 (461)</head>
+                    <p>Komedia najprawdopodobniej została wystawiona na Lenajach
+                        w 422 r. p.n.e.</p>
+                    <quote><lb/>ἐγευσάμεν χορδῆς ὁ δύστηνος τέκνων·
+                        <lb/>πῶς ἐσίδω ῥύγχος περικεκαυμένον;</quote>
+                    <quote><lb/>Ja, nieszczęsny, skosztowałem kiszki dziecka, więc jakże mam teraz
+                        spojrzeć na pozbawiony włosów świński ryjek?</quote>
+                    <p>Passus zawiera parodię tragedii i tragediowego stylu, w którym przypuszczalnie
+                        przemawia aktor, grający rolę Tyestesa, mitycznego bohatera,
+                        który nie wiedząc, co mu podano, zjadł mięso własnych dzieci
+                        (Kassel, Austin 1984: ad loc.). Fakt, że we fragmencie wzmiankowana
+                        jest „kiszka” (<w>χορδή</w>, „jelito” lub jakaś forma kiełbasy, kaszanki, którą
+                        nadziewano jelita) wskazuje na to, że nie mamy tu do czynienia z ucztą
+                        ofiarną. Bezpośrednio bowiem po ubiciu zwierzęcia i spaleniu „części
+                        boskiej” na ołtarzu, kosztowano trzewi (<w>σπλάγχνα</w>), do których nie
+                        zaliczano jelit (cf. Ar. <title>Pax</title> 1040; <title>Pl</title>. 1168–1169).</p>
+                </div>
+                <div type="textpart" n="Aristoiphanes_Tagenistai_504">
+                    <head>Aristophanes Ταγηνισταί 504.12–15 (488)</head>
+                    <p>Passus zawiera komiczne wyjaśnienie, dlaczego zmarli mają się dużo
+                        lepiej niż żywi. Ostatni z argumentów dotyczy ofiar.</p>
+                    <quote><lb/>καὶ θύομεν † αὐτοῖσι τοῖς ἐναγίσμασιν
+                        <lb/>ὥσπερ θεοῖσι, καὶ χοάς γε χεόμενοι
+                        <lb/>αἰτούμεθ’ αὐτοὺς δεῦρ’ ἀνιέναι τἀγαθά</quote>
+                    <quote><lb/>I składamy im w ofierze żałobną żertwę jak bogom i wylewamy libacje,
+                        prosząc, by na górę posłali dobra.</quote>
+                    <p>Fragment jest niepokojący ze względów czysto filologicznych. Jeśli
+                        czasownik <w>θύω</w> łączy się z rzeczownikiem w datiwie, rzeczownik ten
+                        określa adresata ofiary. <title>LS</title> ( s.v. <w>θύω</w>) notuje tylko jeden przypadek,
+                        w którym dativus w takim kontekście mógłby pełnić funkcję instrumentalną,
+                        a nie dopełnienia dalszego, miejsce to jednak (Hdt. 1.50)
+                        niemal z całą pewnością należy uznać za zepsute, jak czynią to właściwie
+                        wszyscy wydawcy. Dlatego, chociaż sens sformułowania θύομεν
+                        αὐτοῖσι τοῖς ἐναγίσμασιν może się wydawać oczywisty: „czcimy ich
+                        przy pomocy żertwy dla zmarłych”, z punktu widzenia gramatycznego
+                        byłoby to wysoce anomalijne. Dlatego Kassel, Austin (1984) umieszczają
+                        w tym miejscu crux.</p>
+                    <p><w>Ἐνάγισμα</w> („żałobna żertwa”) to ofiara krwawa lub bezkrwawa
+                        dla zmarłych lub herosów, która zasadniczo miała ulec całkowitej
+                        eliminacji ze sfery żywych ludzi poprzez spalenie lub np. zakopanie.
+                        Po takiej ofierze, inaczej niż w przypadku rytuałów ku czci bóstw
+                        olimpijskich, normalnie nie następowała uczta. Więcej na ten temat:
+                        Ekroth (2002: 74–128); Svenbro (2005). Zestawienie tego rzeczownika
+                        z czasownikiem <w>θύω</w> (problematyczne pod względem gramatycznofilologicznym)
+                        chyba miało na celu wydobycie szczególnego aspektu
+                        tych ofiar, czyniąc je bardziej podobnymi do tych, które składano
+                        bogom.</p>
+                    <p><w>ἀνιέναι</w> <w>τἀγαθά</w> („by na górę posłali dobra”). Według Focjusza
+                        (α 1993) jest to typowa formuła w modlitwach do zmarłych. Szerzej:
+                        Pulleyn 1997: 116–131.</p>
+                </div>
+                
+                <div type="textpart" n="Aristophanes_Telmesses_554">
+                    <head>Aristophanes Τελμησσῆς 554 (540)</head>
+                    <p>Hesych. π 4340</p>
+                    <quote><lb/>πύλαι· Ἀριτοφάνης Τελμισσεῦσιν ἀπὸ (ἐπὶ: Heinsius) τῶν θυτῶν
+                        λέγει. ἐκεῖνοι γὰρ ἐπισκέπονται τὰς ἐκτροπὰς καὶ τὰς φλέβας.</quote>
+                    <quote><lb/>Wrota: Arystofanes w Telmeseńczykach od (o) ofiarnikach, bo oni badają
+                        kanały i żyły.</quote>
+                    <p>Fragment problematyczny z punktu widzenia filologicznego. Podejrzana
+                        jest przede wszystkim lemma. Dobree (1831–1833 II: 255) zasugerował,
+                        żeby ją usunąć i tym samym przyłączyć tekst do poprzedzającego
+                        go artykułu hasłowego. Wówczas terminem objaśnianym, czyli
+                        słowem użytym przez Arystofanesa stałoby się <w>πυλαγόροι</w>, „celnicy”.
+                        Miałoby to więcej sensu w kontekście osób badających wątrobę zwierzęcia,
+                        której najważniejsza żyła (nota bene zwana wrotną) nosiła grecką
+                        nazwę <w>πύλαι</w> („wrota”). Szerzej na temat hepatoskopii, praktyce
+                        czytania znaków z wątroby zwierząt ofiarnych: Furley, Gysembergh
+                        (2015); Flower (2008: 153–210); van Straten (1995: 156–157).</p>
+                </div>
+                
+                <div type="textpart" n="Aristophanes_Incertae_Fabulae_591">
+                    <head>Aristophanes Incertae Fabulae 591.84–86 (26 Dem)</head>
+                    <quote><lb/>φέρε νυν ἐ<lb 
+                        break="no"/>γὼ] τὴν δαίμον’ ἣν ἀνήγαγον, ἐς τὴν
+                        <lb/>ἀ]γορὰν ἄγων ἱδρύσωμαι βοΐ</quote>
+                    <quote><lb/>dalej, ja teraz bogini, którą wprowadziłem, zaprowadzę wołu na agorę,
+                        by jej złożyć ofiarę inauguracyjną</quote>
+                    <p>Passus wywołuje oczywiste skojarzenie z <title>Pokojem</title> Arystofanesa, w którym
+                        jest mowa o wprowadzeniu nowej bogini i o złożeniu jej z tej okazji
+                        ofiary. Także i tam (923) pojawia się termin ἱδρύομαι + accusativus
+                        bóstwa + dativus rzeczy wykorzystanej w ceremonii. W cytowanym tu
+                        fragmencie ewidentnie chodzi o ważną boginię, zważywszy na to, że
+                        przeznacza się jej tak cenne zwierzę jak wół. Jej przybytek lub posąg
+                        (w ramach fikcji komediowej) musiał się znajdować na agorze, skoro
+                        tam miała się odbyć ceremonia inauguracyjna.</p>
+                </div>
+                
+                <div type="textpart" n="Aristophanes_Incertae_Fabulae_705">
+                    <head>Aristophanes Incertae Fabulae 705 (684)</head>
+                    <quote><lb/>ἀλλ’ ὦ Δελφῶν πλείστας ἀκονῶν
+                        <lb/>Φοῖβε μαχαίρας
+                        <lb/>καὶ προδιδάσκων τοὺς σοὺς προπόλους</quote>
+                    <quote><lb/>Febie, który tak liczne ostrzysz noże Delfijczyków i przyuczasz swoje
+                        sługi</quote>
+                    <p>Atenajos (173d) cytuje ten fragment w kontekście innych passusów
+                        wskazujących na łakomstwo Delfijczyków i ich skłonność do korzystania
+                        z mięsa zwierząt zarżniętych w ofierze w sanktuarium przez
+                        pielgrzymów. Obraz Apollona Fojbosa, boga czczonego w Delfach,
+                        który ostrzy noże (<w>μάχαιρα</w>), podstawowe narzędzie ofiarnicze, dla
+                        swoich sług wydaje się doskonale pasować do tego kontekstu. Atenajos
+                        prawdopodobnie jednak przemilcza fakt, że passus nawiązuje do
+                        (a może stoi u początków) żartobliwego zwrotu <w>Δελφικὴ</w> <w>μάχαιρα</w>
+                        („nóż delficki”). Jego precyzyjne znaczenie jest niejasne. Arystoteles
+                        (<title>Pol</title>. 1252a.34, cf. Newman 1887: ad loc.) wspomina o takim przedmiocie,
+                        określając go jako wykonany nędznie (<w>πενιχρῶς</w>), w przeciwieństwie
+                        do naturalnych tworów stworzonych specjalnie do określonego
+                        celu. Czy świadczy to o wielofunkcyjności noża delfickiego, czy o jego
+                        przysłowiowo kiepskiej jakości? Z drugiej strony, zgodnie z objaśnieniem
+                        zawartym w tomie <title>Paroemiographi Graeci</title> (Leutsch, Schneidewin,
+                        1829–1851: 1.393), Delfijczycy słynęli ze zdzierstwa, nie tylko sami
+                        uczestnicząc w ofiarach cudzoziemców, lecz jeszcze każąc sobie płacić
+                        za noże. Pozostaje to w zasadniczej zgodności z wymową fragmentu
+                        Arystofanesa, lecz trudne jest do pogodzenia z passusem Arystotelesa.</p>
+                </div>
+                
+                <div type="textpart" n="Aristophanes_Incertae_Fabulae_714">
+                    <head>Aristophanes Incertae Fabulae 714 (693)</head>
+                    <quote><lb/>οὐκ ἔσθω κενέβρειον· ὅταν θύηις τι, κάλει με</quote>
+                    <quote><lb/>Nie jem padliny, daj znać, kiedy złożysz ofiarę.</quote>
+                    <p>Passus jest cenny, ponieważ zdaje się explicite zestawiać dwie kategorie
+                        mięsa. <w>Κενέβρειον</w>, jak stwierdza Erotianos (κ 12; cf. Phot. κ 561) to mięso
+                        zdechłych zwierząt (<w>τὰ</w> <w>νεκριμαῖα</w> <w>κρέα</w>), a także rodzaj targowiska,
+                        gdzie je sprzedawano. Może to świadczyć o istnieniu ostrej opozycji pomiędzy
+                        mięsem pochodzącym z ofiar a padliną (Naiden 2013: 237–238).
+                        Różnica mogłaby wynikać z jakiegoś rodzaju sakralizacji tego pierwszego.
+                        Nie należy jednak, jak sądzę, przeceniać wartości tego źródła ze
+                        względu na brak wiadomości o kontekście i sensie wypowiedzi bohatera
+                        komicznego. Słowo <w>κενέβρειον</w>, skądinąd bardzo rzadkie, mogło zostać
+                        użyte figuratywnie, jak w polskim „nie zjem tego ścierwa”, wskazując
+                        nie tyle na jakiś techniczny aspekt uboju lub przechowywania mięsa, ile
+                        na niesmak, jaki wzbudza ono w mówiącym. Jeśli dodatkowo przyjąć, że
+                        kwestię mógł wygłaszać bóg, jego większe zainteresowanie składaniem
+                        ofiary niż mniej czy bardziej świeżym mięsem okaże się wręcz naturalne.
+                        Istotne jest to, że passus potwierdza istnienie kategorii κενέβρειον już
+                        w czasach Arystofanesa (cf. Parker 2010; Bednarek 2017) .</p>
+                </div>
+                
+                <div type="textpart" n="Crates_Theria_19">
+                    <head>Crates Θηρία 19 (17)</head>
+                    <p>Komedia wystawiona po <title>Πλοῦτοι</title> Kratinosa,
+                        a zatem prawdopodobnie po 429 r. p.n.e. Tytuł pochodzi od zwierząt,
+                        które reprezentował chór.</p>
+                    <quote><lb/><emph>(Α.)</emph> καὶ τῶν ῥαφάνων ἕψειν χρὴ
+                        <lb/>ἰχθῦς τ’ ὀπτᾶν τούς τε ταρίχους, ἡμῶν δ’ ἄπο χεῖρας ἔχεσθαι.
+                        <lb/><emph>(Β.) </emph>οὐκ ἄρ’ ἔτ’ οὐδὲν κρέας, ὡς ὑμεῖς λέγετ’, οὐδ’ ὁτιοῦν ἐδόμεσθα,
+                        <lb/>οὐδ’ ἐξ ἀγορᾶς, οὐδὲ τάκωνας ποιησόμεθ’ οὐδ’ ἀλλᾶντας;</quote>
+                    <quote><lb/><emph>(A.)</emph> Kapusty powinniście sobie nagotować, ryby świeże i wędzone
+                        upiec, a od nas ręce trzymać z dala.
+                        <lb/><emph>(B.) </emph>Nie mamy jeść żadnego mięsa, jak mówcie, nawet z agory, nawet
+                        siekanego, ani kiełbas?</quote>
+                    <p>Passus rozpisał na dwa głosy Berg (1838: 279), prawdopodobnie słusznie
+                        przypisując pierwszą kwestię zwierzętom, a drugą człowiekowi.
+                        Jest to kolejny passus świadczący o tym, że Ateńczycy jadali kupowane
+                        mięso (cf. Ecphantides 1). Jest to zarazem jedyny znany mi przykład
+                        „oddania głosu samym zwierzętom”. Jednocześnie wskazuje on
+                        na istnienie wyraźnych rozgraniczeń między kategoriami: ryba to nie
+                        mięso.</p>
+                </div>
+                
+                <div type="textpart" n="Crates_Incertae_Fabulae_44">
+                    <head>Crates Incertae Fabulae 44 (52)</head>
+                    <quote><lb/>ἐξ Ἑστίας ἀρχόμενος εὔχομαι θεοίς</quote>
+                    <quote><lb/>zaczynając od Hestii do bogów wznoszę modlitwę</quote>
+                    <p>Passus cytowany w scholiach do Aratosa (1.44.9) na potwierdzenie
+                        tezy, że niekiedy (choć zdaniem scholiasty nie zawsze) zaczynano modlitwy
+                        od Hestii. Podwójna natura Hestii jako bogini i paleniska łączy
+                        modlitwy do niej w sposób bliski (a może i nierozerwalny z ofiarą).
+                        Szerzej: kom. do Ar. V. 844–846.</p>
+                </div>
+                
+                <div type="textpart" n="Cratinus_Bousiris_23">
+                    <head>Cratinus Βούσιρις 23 (21)</head>
+                    <quote><lb/>ὁ βοῦς ἐκεῖνος χἠ μαγὶς καὶ τἄλφιτα</quote>
+                    <quote><lb/>tamten wół, stolnica i mąka</quote>
+                    <p>Meineke (1839: ad loc.) stwierdził, że wół wzmiankowany we fragmencie
+                        przeznaczony jest na ofiarę, a Pietres (1946: 165) wyraził przypuszczenie,
+                        że określenie to może się odnosić do Heraklesa jako substytutu
+                        zwierzęcia. Król Egiptu Bousiris miał zwyczaj składania w ofierze
+                        przybyszów z obcych krain. Kiedy usiłował w ten sposób uśmiercić
+                        Heraklesa, bohater uwolnił się i zabił przy ołtarzu niedoszłego oprawcę.
+                        Motyw doczekał się wielu opracowań w komedii i dramacie satyrowym,
+                        a także w malarstwie wazowym, które kładzie duży nacisk na
+                        rytualną oprawę mordu (bibliografia: Bianchi 2016: 144–145). Polluks
+                        (10.81–82) cytuje passus w kontekście omówienia znaczenia wyrazu
+                        μαγίς, który mógł się odnosić do ciasta i do tego, na czym to ciasto
+                        wyrabiano. W interesującym nas kontekście, zdaniem leksykografa,
+                        chodzi o znaczenie bliższe temu drugiemu, o przedmiot, na którym
+                        składano pokarmy, którymi dzielono się z bogami i potrzebne do ofiary
+                        akcesoria (<w>ἐπὶ</w> <w>τῆς</w> <w>τὰ</w> <w>ἱερὰ</w> <w>δεῖπνα</w> <w>ἢ</w> <w>τὰ</w> <w>πρὸς</w> <w>θυσίαν</w> <w>φερούσης</w>).
+                        Mąka lub drobna kaszka jęczmienna ἄλφιτα mogła mieć zastosowanie
+                        w rytuale ofiary jako składnik placków wypiekanych w czasie obrzędu
+                        (θυλήματα: cf. Ar. <title>Pax</title> 1040; Telecl. 35; Pherecr. 28).</p>
+                </div>
+                
+                <div type="textpart" n="Cratinus_Drapetides_66">
+                    <head>Cratinus Δραπέτιδες 66 (62)</head>
+                    <p>Komedia wystawiona między 444/3 a 423 r. p.n.e.</p>
+                    <quote><lb/>ἀγερσικύβηλις ... ἀγύρτην ... κυβηλιστήν</quote>
+                    <quote><lb/>toporkołazęga [lub toporko-wędrowny wieszczek]… wędrowny
+                        wieszczek… toporkowiec</quote>
+                    <p>Fragment pojawia się w kilku źródłach leksykograficznych (Hes. <title>α</title>
+                        461; <title>Suda</title> κ 2595; Phot. <title>α</title> 146; <title>Et. Gen. α</title> 22; <title>EM</title> 8,9; <title>Et. Sym. α</title> 49). Komiczny
+                        neologizm cytowany jest jako określenie Lampona, wpływowego
+                        wieszczka epoki Peryklesa. Wyrazy stanowiące jego podstawę
+                        słowotwórczą są rzadkie. Κυβηλίς to, jak twierdzi Hesychios (Hes. <title>α</title>
+                        461), toporek (<w>πέλεκυς</w>), narzędzie, którym zadawano cios zwierzęciu
+                        ofiarnemu przed podcięciem mu gardła (cf. <title>Od</title>. 3.442–443). Łatwo
+                        zrozumieć, dlaczego Kratinos uczynił ten obiekt atrybutem wieszczka
+                        (<w>μάντις</w>), specjalisty religijnego, którego działalność polegała na odczytywaniu
+                        znaków między innymi z ofiar zwierzęcych, a także na
+                        składaniu ofiar. Ἀγύρτης to jedno z możliwych określeń wieszczków,
+                        etymologicznie związane z wędrownym trybem życia przynajmniej
+                        niektórych z nich. Jego użycie dosyć wyraźnie miewa wydźwięk pejoratywny
+                        (S. <title>OT</title> 388; Pl. <title>R</title>. 364b). Szerzej: Bianchi (2016: ad loc.).</p>
+                </div>
+                
+                <div type="textpart" n="Cratinus_Incertae_Fabulae_341">
+                    <head>Cratinus Incertae Fabulae 341 (361)</head>
+                    <quote><lb/>σφάττε δεῖρε κόπτε</quote>
+                    <quote><lb/>zarżnij, obedrzyj ze skóry, bij</quote>
+                    <p>Scholia do <title>Ptaków</title> Arystofanesa (365) przywołują ten passus w kontekście
+                        wykrzyknień bohaterów komedii padających w czasie bezładnej
+                        bijatyki. Fragment Kratinosa prawdopodobnie miał podobny
+                        wydźwięk, choć należy zaznaczyć, że każdy z użytych tu wyrazów
+                        pojawia się w kontekście ofiary krwawej, choć tutaj powinny się one
+                        pojawić w innej kolejności: czynność określana czasownikiem <w>κόπτω</w>
+                        (<title>LS</title> s.v. I.3), ogłuszenie i powalenie zwierzęcia przy pomocy toporka,
+                        poprzedzała bowiem poderżnięcie mu gardła (<w>σφάττω</w>).</p>
+                </div>
+                
+                <div type="textpart" n="Cratinus_Incertae_Fabulae_458">
+                    <head>Cratinus Incertae Fabulae 458 (417)</head>
+                    <quote><lb/>θεόθυτα</quote>
+                    <quote><lb/>złożone w ofierze</quote>
+                    <p>Wyraz pojawia się u gramatyka Frynichosa (<title>PS</title> 74.7) z adnotacją, że Kratinos
+                        używał go jako synonimu <w>ἱερόθυτα</w>, słowa, które, jak wyjaśnia ten
+                        sam autor, oznaczało „ofiary składane bogom” (<w>τὰ</w> <w>τοῖς</w> <w>θεοῖς</w> <w>θυόμενα</w>
+                        <w>ἱερεῖα</w>). Stosunkowo niska frekwencja przymiotnika <w>ἱερόθυτος</w> sprawia,
+                        że dość trudno doprecyzować jego znaczenie. Prawdopodobnie ma rację
+                        Winand (1990: 21–27), stwierdzając, że można go uznać za odpowiednik
+                        nieistniejącego adiectivum verbale czasownika <w>θύω</w>, a zatem pokrywałby
+                        on dosyć szerokie pole semantyczne w rodzaju „składany w ofierze”,
+                        „przeznaczony na ofiarę” (o zwierzęciu), „pochodzący z ofiary” (o mięsie).
+                        Cf. Ar. <title>Av</title>. 1265. Trudno powiedzieć, jaki sens miała innowacja Kratinosa
+                        polegająca na zastąpieniu pierwszego członu wyrazu hiero, członem
+                        theo, która sprowadza się do podkreślenia, że adresatem ofiary był
+                        bóg. Czy było w tym coś komicznego? Frynichos (nie wiadomo na jakiej
+                        podstawie) stwierdza, że forma poświadczona u Kratinosa jest bardziej
+                        poprawna. Wykorzysta ją św. Paweł (<title>Cor</title>. I. 8.7.2), a za nim znaczna
+                        liczba autorów chrześcijańskich, dalej przekształcając wyraz, człon theozastępując
+                        eidolo-, określając tym samym ofiary składane bogom pogańskim
+                        mianem <w>εἰδωλόθυτα</w> („poświęcone bałwanom”).</p>
+                </div>
+                
+                <div type="textpart" n="Ecphantides_Satyroi_1">
+                    <head>Ecphantides Σάτυροι 1 (1)</head>
+                    <quote><lb/>πόδας ἐπεὶ δέοι πριάμενον καταφαγεῖν ἑφθοὺς ὑός</quote>
+                    <quote><lb/>ilekroć muszę jeść pieczone nóżki świńskie, które kupuję</quote>
+                    <p>Passus stanowi cenne, choć wcale nie jedyne potwierdzenie, że mięsem
+                        powszechnie handlowano już w okresie klasycznym. To oznacza,
+                        że jego konsumpcja nie musiała w sposób bezpośredni wiązać się
+                        z kontekstem sakralnym. Czy jednak stosowano ubój nierytualny? Nie
+                        wiadomo. Szerzej: Parker 2010; Bednarek 2017.</p>
+                </div>
+                
+                <div type="textpart" n="Eupolis_Aiges_14">
+                    <head>Eupokis Αἶγες 14 (15)</head>
+                    <p>Komedia wystawiona przed 424 r. p.n.e.</p>
+                    <quote><lb/>αὐτοῦ τὴν χερνίβα παύσεις</quote>
+                    <quote><lb/>Nie dopuścisz go do wody oczyszczeń.</quote>
+                    <p><w>Χέρνιψ</w> to woda, której używano do obmycia w różnych sytuacjach,
+                        przede wszystkim przed przystąpieniem do czynności rytualnych,
+                        w tym do ofiary krwawej (cf. Ar. <title>Av</title>. 850 wraz z komentarzem). Ze
+                        wzmianki w <title>Lizystracie</title> (1128) wynika, że wspólne korzystanie z jednego
+                        naczynia z wodą w sanktuarium mogło stanowić wyraz wspólnoty.
+                        Z drugiej strony niedopuszczenie kogoś do chernipsu bardzo wyraźnie
+                        sygnalizowało jego wykluczenie (S. <title>OT</title> 240) i mogło wynikać
+                        z niebezpieczeństwa przeniesienia zmazy (D. 20.158). Jak zwykle brak
+                        kontekstu nakazuje daleko posuniętą ostrożność, wydaje się jednak
+                        bardzo prawdopodobne, że taki właśnie może być sens przytoczonego
+                        fragmentu.</p>
+                </div>
+                
+                <div type="textpart" n="Eupolis_Demoi_99">
+                    <head>Eupolis Δῆμοι 99.41–44 (130)</head>
+                    <p>Najlepiej zachowana (choć we fragmentach) komedia stara, nie licząc
+                        dzieł Arystofanesa. Wystawiona została między 417 a 411 r. p.n.e. Opowiadała
+                        o sprowadzeniu z Hadesu czterech zmarłych mężów stanu
+                        (Solona, Miltiadesa, Arystydesa i Peryklesa) w celu uporządkowania
+                        spraw państwa ateńskiego. Szerzej: Telò 2007; Storey 2003: 111–174.</p>
+                    <quote><lb/>τὸ χαλκίον
+                        <lb/>θέρμαινέ θ’ ἡμῖν καὶ θύη πέττειν τινὰ
+                        <lb/>κέλευ’, ἵνα σπλάγχνοισι συγγενώμεθα.</quote>
+                    <quote><lb/>Podgrzej nam kocioł i każ komuś upiec placki, żebyśmy się wzięli za
+                        podroby.</quote>
+                    <p>Jeden z bohaterów o wyższym statusie (prawdopodobnie Arystydes)
+                        wydaje to polecenie komuś, kto pełni rolę służącego. Wzmianka o trzewiach
+                        (<w>σλπάγχνα</w>) niemal z całą pewnością odwołuje się do kontekstu
+                        ofiarnego, wbrew temu, co zasugerował ostatnio Telò (2007: ad loc.), interpretując
+                        passus jako opis przygotowań do bardzo skromnego posiłku,
+                        który miałby sprawić przyjemność „trzewiom” jedzących. Wprawdzie
+                        związek frazeologiczny <w>σπλάγχνοισι</w> <w>συγγίγνεσθαι</w> nie jest nigdzie indziej
+                        potwierdzony, jednak dosyć bliską analogię stanowi <w>σπλάγχνοισι</w>
+                        <w>παραγίγνεσθαι</w> (Ar. <title>Eq</title>. 410), przy czym znaczenie wyrażenia miałoby
+                        wyraźnie metaforyczny wydźwięk „spotkać się, zaprzyjaźnić, obcować
+                        z trzewiami”. Takie wyrażenie mogło odwoływać się do rytu polegającego
+                        na kosztowaniu wnętrzności zwierzęcia, upieczonych w ogniu
+                        buchającym ze spalanych na ołtarzu kości przeznaczonych dla bogów
+                        (cf. Ar. <title>Pax</title> 1040–1124; <title>Av</title>. 975). Rzadki wyraz τὰ <w>θύη</w> (sg. <w>Θύος</w>) według
+                        Hesychiosa (θ 817) miał u Eupolisa oznaczać rodzaj ciastka ofiarnego
+                        (<w>πέμμα</w>). Wykorzystanie placków, być może pieczonych tuż przed ich
+                        użyciem, w kontekście kosztowania wnętrzności zwierzęcia ofiarnego
+                        potwierdza <title>Pokój</title> Arystofanesa (1140). Problematyczna pozostaje
+                        wzmianka o kotle. Na pierwszy rzut oka wydaje się oczywiste, że może
+                        chodzić o naczynie, w którym gotowano mięso zwierzęcia ofiarnego,
+                        które konsumowano w czasie uczty następującej po zakończeniu rytuału.
+                        Telò (2007: ad loc.) słusznie zwraca uwagę, że taka interpretacja nie
+                        zgadza się ze stwierdzeniami Atenajosa (123a) i Polluksa (9.69), którzy
+                        odwołują się do tego fragmentu, twierdząc, że jest on dowodem na to,
+                        że dawniej pijano w czasie uczt ciepłą wodę (domieszaną do wina). O ile
+                        zatem dwaj starożytni erudyci poprawnie zrozumieli passus, wzmianka
+                        ta nie odwołuje się bezpośrednio do rytuału ofiary.</p>
+                </div>
+                <div type="textpart" n="Eupolis_Demoi_130">
+                    <head>Eupolis Δῆμοι 130 (116)</head>
+                    <quote><lb/>τοιγαροῦν στραηγὸς ἐξ ἐκείνου τοῦ χρόνου οὐδεὶς δύναται ὥσπερ
+                        <lb/>μειαγωγὸς ἑστιῶν τῆς τοῦδε νίκης πλείονα ἑλκύσαι σταθμόν.</quote>
+                    <quote><lb/>Od tego czasu, podobnie jak ten, kto organizuje ucztę jako meiagogos,
+                        żaden wódz nie może położyć na szali bardziej ważkiego zwycięstwa.</quote>
+                    <p>Różne propozycje podziału passusu na wersy: Kassel, Austin 1986:
+                        ad loc. Ważenie zwierzęcia ofiarnego lub mięsa w czasie Apaturii: Ar.
+                        fr. 299 z komentarzem.</p>
+                    <p><w>Μειαγωγός</w> to ewidentnie członek fratrii, który w czasie rejestracji
+                        swojego syna podczas Apaturii zobowiązany był przyprowadzić
+                        zwierzę ofiarne, które poddawano ważeniu i żartobliwie krytykowano
+                        jako za małe. Omawiany passus ewidentnie nawiązuje do tego zwyczaju.
+                        Punktem odniesienia jest tutaj najprawdopodobniej bitwa pod
+                        Maratonem (Eup. 106), od której żaden strateg nie osiągnął większego
+                        zwycięstwa. Podobnie na metaforycznej lub rzeczywistej szali wagi do
+                        ważenia zwierząt ofiarnych wyraźnie kładziono przedmiot, którego
+                        nie dało się przeważyć. Szczegóły nie są znane.</p>
+                </div>
+                
+                <div type="textpart" n="Eupolis_Marikas_196">
+                    <head>Eupolis Μαρικᾶς 196 (183)</head>
+                    <p>Komedia wystawiona na Lenajach w 421 r. p.n.e.</p>
+                    <quote><lb/>ἀλλ’ εὐθὺ πόλεως εἶμι· θῦσαι γάρ με δεῖ
+                        <lb/>κριὸν Χλόηι Δήμητρι</quote>
+                    <quote><lb/>Idę prosto na Akropol, bo muszę złożyć barana w ofierze Demeter
+                        Chloe.</quote>
+                    <p>Passus przekazany został w scholiach do <title>Edypa w Kolonos</title> (1600)
+                        w kontekście wyjaśnień, że przybytek Demeter Chloe znajdował się
+                        tuż pod wejściem na Akropol <w>πρὸς</w> <w>τῇ</w> <w>ἀκροπόλει</w>; cf. Philoch. <title>FGH</title>
+                        328F61; Paus. 1.22.3; Ar. <title>Lys</title>. 835; Corn. <title>ND</title> 55.12–16; Semus <title>FGH</title>
+                        396F23). Stosunkowo niewiele wiadomo o jej kulcie, poza tym, że regularnie
+                        otrzymywała ofiary w miesiącu thargelionie. Inskrypcyjne
+                        kalendarze (<title>LSCG</title> 20.B49; 28.16; 96.11) przekazują dalsze informacje,
+                        między innymi o rzadkiej skądinąd praktyce składania jej w ofierze
+                        ciężarnych świń (cf. Bremmer 2005). Rytuał, o którym mowa w tym
+                        miejscu, wydaje się nie przynależeć do kategorii tych przewidzianych
+                        w kalendarzu liturgicznym, na co wskazuje użycie przysłówka εὐθύ,
+                        który ewokuje pośpiech mówiącego (Olson 2016: ad loc.). To z kolei
+                        sugeruje, że osoba wypowiadająca kwestię podjęła decyzję o złożeniu
+                        ofiary nagle, przypuszczalnie reagując na dobre lub złe wieści, które
+                        otrzymała. Wybór barana (<w>κριός</w>) jako ofiary dla Demeter może dziwić,
+                        ponieważ najczęściej płeć zwierzęcia odpowiadała płci bóstwa.
+                        Ze względu na brak kontekstu trudno stwierdzić, czy jest to znaczący
+                        błąd lub nadużycie ze strony bohatera komicznego, czy też odzwierciedlenie
+                        nieco niezwykłej (lecz przez to wcale nie zaskakującej) praktyki
+                        rytualnej ku czci bogini.</p>
+                </div>
+                
+                <div type="textpart" n="Eupolis_Chrysoun_Genos_301">
+                    <head>Eupolis Χρυσοῦν Γένος 301 (281)</head>
+                    <p>Komedia wystawiona przed 422, prawdopodobnie po 426 r. p.n.e.</p>
+                    <quote><lb/>οὐκ ἀλλ’ ἔθυον δέλφακ’ ὠιδὸν (ἔνδον: Kock) θἠστίαι
+                        <lb/>καὶ μάλα καλήνT</quote>
+                    <quote><lb/>Nie, ale wewnątrz świnię składałem (składali) w ofierze Hestii i to
+                        całkiem niezłą.</quote>
+                    <p>Tradycja rękopiśmienna przekazuje absurdalne δελφακαωδον.
+                        Propozycja Meinekego, którą podtrzymują Kassel i Austin (1986),
+                        przydaje świni jako apozycję wyraz oznaczający śpiewaka, aojdę.
+                        Zważywszy na możliwe obsceniczne konotacje potwierdzone dla
+                        zdrobnienia <w>δελφάκιον</w> (δ 599, pudenda muliebria), koniektura wydaje
+                        się możliwa do obrony, jednak sens passusu byłby co najmniej dziwaczny,
+                        chodziłoby tu bowiem chyba o kurtyzanę, śpiewaczkę, „złożoną
+                        w ofierze”. Propozycja Kocka wydaje się dużo bardziej naturalna,
+                        zważywszy na to, co wiadomo o zwyczaju składania ofiar dla
+                        Hestii przy palenisku wewnątrz domostwa. Świnia prawdopodobnie
+                        była w tym przypadku typowym zwierzęciem ofiarnym. Szerzej: komentarz
+                        do Ar. <title>V</title>. 844–846.</p>
+                </div>
+                
+                <div type="textpart" n="Euthykles_Atalante_2">
+                    <head>Euthykles Ἀταλάντη 2 (2)</head>
+                    <quote><lb/>βοῦς ἕβδομος</quote>
+                    <quote><lb/>siódmy wół</quote>
+                    <p>Focjusz (β 239 = <title>Suda</title> β 458) stwierdza, że termin ten użyty przez poetę
+                        komicznego określał rodzaj ciastka ofiarnego z rogami, które dołączano
+                        do sześciu innych. Szerzej: Kearns (2011).</p>
+                </div>
+                
+                <div type="textpart" n="Hermippos_Artopolides_8">
+                    <head>Hermippos Ἀρτοπώλιδες 8 (8)</head>
+                    <p>Komedia wystawiona w 420 lub 419 r. p.n.e.</p>
+                    <quote><lb/>φέρε νῦν ἀγήλω τοὺς θεοὺς ἰοῦσ’ ἐγώ
+                        <lb/>καὶ θυμιάσω τοῦ τέκνου σεσωσμένου</quote>
+                    <quote><lb/>Dalej, pójdę teraz uczcić bogów i spalę im ofiarę za uratowanie dziecka.</quote>
+                    <p>Fragment cytowany jest przez kilka leksykonów (e.g. <title>Suda</title> α 217) jako
+                        egzemplifikacja wystąpienia rzadkiego czasownika <w>ἀγήλαι</w>, który ma
+                        oznaczać „oddać cześć” (<w>τιμῆσαι</w>). Użyty w kolejnym wersie czasownik
+                        <w>θυμιάω</w> odnosi się do spalania czegoś w celu wytworzenia dymu,
+                        najczęściej w kontekście kultowym. Przedmiotem spalanym zwykle
+                        jest kadzidło, a nie ofiara zwierzęca, dlatego passus najprawdopodobniej
+                        łączy się z interesującą nas materią wyłącznie pośrednio. Warto
+                        odnotować dziękczynny charakter czynności kultowych.</p>
+                </div>
+                
+                <div type="textpart" n="Hermippos_Theoi_25">
+                    <head>Hermippos Θεοί 25 (26)</head>
+                    <p>Komedia wystawiona prawdopodobnie w 429 r. p.n.e.</p>
+                    <quote><lb/><emph>(Α)</emph> ὥσπερ αἱ κανηφόροι
+                        <lb/>λευκοῖσιν ἀλφίτοισιν ἐντετριμμένος.
+                        <lb/><emph>(Β)</emph> ἐγὼ δ’ ἐνέκαψα λανθάνων τὴν διφροφόρον</quote>
+                    <quote><lb/><emph>A:</emph> ...jak dziewczęta z koszykami pokryty białą mąką.
+                        <lb/><emph>B:</emph> A ja, nie zauważony przez dziewczynę ze stołkiem pożarłem...</quote>
+                    <p>Passus jest bardzo niejasny, a przy tym nieodparcie uroczy, dzięki
+                        czemu doczekał się sporej ilości, siłą rzeczy rozbieżnych, interpretacji
+                        (Cf. Kassel, Austin 1986 ad loc.). Mowa tu ewidentnie o procesji,
+                        prawdopodobnie panatenajskiej, w której szły dziewczęta z koszykami
+                        z krupami i przyborami ofiarnymi (kanephoroi) i z taboretami
+                        (diphrophoroi). Szerzej na ten temat: komentarz do Ar. <title>Av</title>. 1549–1552;
+                        <title>Ec</title>. 734.</p>
+                </div>
+                
+                <div type="textpart" n="Hermippos_Kerkopes_36">
+                    <head>Hermippos Κέρκωπες 36 (35)</head>
+                    <p>Komedia wystawiona prawdopodobnie w 417 r. p.n.e. lub niedługo
+                        wcześniej.</p>
+                    <quote><lb/>νῦν γὰρ πενόμενοι
+                        <lb/>ἀνάπηρά σοι θύουσιν ἤδη βοίδια,
+                        <lb/>Λεωτροφίδου λεπτότερα καὶ Θουμάντιδος</quote>
+                    <quote><lb/>bo teraz biedacy składają ci w ofierze wołki kalekie i chudsze od Leotrofidesa
+                        i Thoumantisa.</quote>
+                    <p>Atenajos, który cytuje fragment (551a), zaznacza, że słowa te skierowane
+                        były do Dionizosa. Nie wiemy, kto je wypowiadał ani w jakim stopniu
+                        krytyka zwierząt ofiarnych odnosi się do rzeczywistości fikcyjnej, na ile
+                        zaś dotyczy rzeczywistości dionizyjskiego święta (Dionizjów lub Lenajów),
+                        na którym wystawiono sztukę. W tym drugim przypadku możliwe,
+                        że słowa mają wydźwięk ironiczny, zważywszy na to, że ofiary w czasie
+                        Dionizjów w żadnym razie nie należały do skromnych (cf. e.g. Rosivach
+                        1994: 70). W pseudo-Platońskim <title>Alkibiadesie</title> (149a wraz z komentarzem
+                        Biernata) pojawia się wzmianka o tym, że Spartanie mieli zwyczaj
+                        składać w ofierze zwierzęta kalekie (także i tu pojawia się przymiotnik
+                        <w>ἀνάπηρα</w>), co kłóciło się z praktyką typową dla Aten i większości Grecji,
+                        gdzie na ofiary starano się wybierać zwierzęta możliwie najwspanialsze,
+                        a na pewno najzdrowsze. Szerzej: komentarze ad Ar. <title>Ach</title>. 784, <title>Lys</title>. 78–84.</p>
+                </div>
+                
+                <div type="textpart" n="Hermippos_Phormophoroi_63">
+                    <head>Hermippos Φορμοφόροι 63 (63)</head>
+                    <p>Komedia wystawiona nie później niż w 424 r. p.n.e.</p>
+                    <quote><lb/>ἔσπετε νῦν μοι, Μοῦσαι Ὀλύμπια δώματ’ ἔχουσαι,
+                        <lb/>ἐξ οὗ ναυκληρεῖ Διόνυσος ἐπ’ οἴνοπα πόντον,
+                        <lb/>ὅσσ’ ἀγάθ’ ἀνθρώποις δεῦρ’ ἤγαγε νηὶ μελαίνηι.
+                        lb/>ἐκ μὲν Κύρηνης καυλόν καὶ δέρμα βόειον
+                        <lb n="%"/>ἐκ δ’ Ἑλλησπόντου σκόμβπους καὶ πάντα ταρίχη,
+                        <lb/>ἐκ δ’ αὖ Θετταλίας χώνδρον καὶ πλευρὰ βόεια·
+                        <lb/>καὶ παρὰ Σιτάλκου ψώραν Λακεδαιμόνιοισι,
+                        <lb/>καὶ παρὰ Πεδίκκου ψεύδη ναυσὶν πάνυ πολλαῖς.
+                        <lb/>αἱ δὲ Συράκουσαι σῦς καὶ τυρὸν παρέχουσαι
+                        <lb/>[...]
+                        <lb n="17"/>αὐτὰρ ἀπ’ Εὐβοίας ἀπίους καὶ ἴφια μῆλα</quote>
+                    <quote><lb/>Powiedzcie mi teraz, Muzy, mieszkanki Olimpu, jakich dóbr ludziom
+                        dostarczył Dionizos czarnym okrętem, odkąd wyruszył na morze
+                        o barwie wina. Z Hellespontu makrele i wszelkie wędzonki, [5] z Tesalii
+                        kaszę i żeberka wołowe, od Sitalkosa świerzb na Lacedemończyków,
+                        a od Perdikosa fałszywe obietnice wielkiej floty. Syrakuzy dają
+                        świnie i ser, [… 17] Eubea zaś gruszki i tłuste owce.</quote>
+                    <p>Cytowany tu wyłącznie częściowo długi katalog dowcipnie nawiązuje
+                        do tradycji epickiej. Poeta zestawia elementy stylu wysokiego z banalną
+                        treścią, łącząc także różne kategorie przedmiotów, pomiędzy
+                        zwykłe towary wplatając i rzeczy abstrakcyjne, takie jak kłamstwa. To
+                        oznacza, że do wyliczenia jako źródła dotyczącego historii kontaktów
+                        handlowych należy podejść z ostrożnością, lecz jednocześnie można
+                        przyjąć, że pewne elementy wymienione przez poetę znalazły się na
+                        liście nie dlatego, że są same w sobie zabawne, lecz z tego powodu,
+                        że zaskakiwały swoją banalnością. Tym samym stanowią odzwierciedlenie
+                        rzeczywistości gospodarczej. Na uwagę zasługują wzmianki
+                        o handlu (prawdopodobnie) żywymi zwierzętami: świniami i owcami
+                        oraz produktami takimi jak skóry i „żeberka wołowe” (często wymieniane
+                        na inskrypcyjnych listach części przeznaczonych dla personelu
+                        świątynnego, e.g. <title>LSCG</title> 19.5,7; 28.4). <w>Ταρίχη</w> (w. 4) to różnego rodzaju
+                        solona lub wędzona żywność. Może tu chodzić o ryby, lecz także
+                        i mięso, np. w formie kiełbas. Na temat konserwacji mięsa w starożytności:
+                        Frost 1989. Możliwość importu tego rodzaju produktów w sposób
+                        znaczący rzutuje na wartość rozpowszechnionych w poprzednich
+                        dekadach modeli (przede wszystkim Detienne, Vernant 1979; Burkert
+                        1983), zgodnie z którymi przyjmowano, że całość lub większość mięsa
+                        spożywanego w Atenach pochodziła z ofiar (cf. e.g. Rosivach 1994).</p>
+                </div>
+                
+                <div type="textpart" n="Hermippos_Incertae_Fabulae_76">
+                    <head>Hermippos Incertae Fabulae 76 (53)</head>
+                    <quote><lb/>ὥρα μάττειν ἐπὶ τοῖς ἱεροῖς καὶ τὴν ὤιαν περιδεῖσθαι
+                        <lb/>περὶ τὴν ὀσφύν</quote>
+                    <quote><lb/>czas zagnieść ciasto na wnętrznościach i zawinąć skórę owczą wokół
+                        grzbietu</quote>
+                    <p>Passus jest zarówno frapujący, jak i frustrujący. Jego związek z ofiarą
+                        krwawą wydaje się bardzo prawdopodobny, lecz niejasny. Urzeczownikowiony
+                        przymiotnik ἱερά może się odnosić (między innymi)
+                        do żywych lub zabitych zwierząt ofiarnych, ich części (zwłaszcza
+                        wnętrzności), do czynności rytualnych i do miejsc, w których czynności
+                        te wykonywano (np. świątynia). Przyimek <w>ἐπί</w> (między innymi)
+                        określa miejsce: „na”, czas: „podczas”, okoliczności: „z przyczyny”,
+                        „w celu”, „ze względu na”. Podsumowując: wyrabianie, zagniatanie
+                        ciasta, o którym tu (na szczęście: niewątpliwie) mowa, przywołane
+                        jest w jakiegoś rodzaju związku z czymś świętym. Z kolei <w>ὀσφύς</w> to
+                        „lędźwie”, „okolice krzyżowe” człowieka i zwierzęcia. W kontekście
+                        ofiarniczym powinno chodzić o „kość krzyżową zwierzęcia z ewentualnymi
+                        przyległościami”, którą spalano na ołtarzu jako część boską
+                        (szerzej: kom. Ar. <title>Pax</title> 1054–5). Ponieważ w tym samym czasie, na tym
+                        samym ogniu opiekano wnętrzności zwierzęcia (jedno z możliwych
+                        znaczeń słowa <w>ἱερά</w>), by je później podzielić pomiędzy uczestników
+                        obrzędu, czemu towarzyszyło pieczenie i/lub spalanie placków prawdopodobnie
+                        z surowego ciasta (<w>θυλήματα</w>, cf. Ar. <title>Pax</title> 1040), passus
+                        może dotyczyć tego właśnie momentu procedury rytualnej. Jaką rolę
+                        miała tu odgrywać owcza skóra? Trudno powiedzieć. Forma medialna
+                        czasownika <w>περιδεῖσθαι</w> sugeruje, że chodzi o owinięcie nią swoich
+                        lędźwi przez wykonawcę czynności, nie zaś lędźwi martwego zwierzęcia.
+                        Edmonds w tym miejscu drukuje wariant <w>περιθεῖσθαι</w>, który
+                        pozwoliłby problem rozwiązać, jednak żaden inny wydawca zdaje się
+                        nie wiedzieć o tej lekcji, a sam Edmonds nie wyjaśnia jej nawet w aparacie
+                        krytycznym (czyżby to była pomyłka?). Jak zwykle w takiej sytuacji
+                        pozostaje stwierdzić, że sens passusu z pewnością stawał się jasny
+                        dzięki kontekstowi.</p>
+                </div>
+                
+                <div type="textpart" n="Pherecrates_Automoloi_28">
+                    <head>Pherecrates Αὐτόμολοι 28 (23)</head>
+                    <p>Komedia wystawiona między 428 a 421 r. p.n.e.</p>
+                    <quote><lb/>ὅ τι τοῖσι θεοῖς θύετε, πρώτιστ’ ἀποκρίνετε _ vv _ _
+                        <lb/>τὸ νομιζόμενον † ὑμῶν αἰσχύνηι· τῶ κατ’ εἰπεῖν †
+                        <lb/>εὖ τὼ μηρὼ περιλέψαντες {κομιδῆι} μέχρι βουβώνων vv _ _
+                        <lb/>καὶ τὴν ὀσφὺν κομιδῆι ψιλήν, λοιπὸν τὸν σφόνδυλον αὐτὸν
+                        <lb n="5"/>† ὥσπερ ῥινήσαντες νέμεθ’ ὥσπερ καὶ τοῖς κυσὶν ἡμῖν
+                        <lb/>εἶτ’ ἀλλήλους αἰσχυνόμενοι θυλήμασι κρύπτετε πολλοῖς</quote>
+                    <quote><lb/>Kiedy składacie bogom ofiary, najpierw wydzielacie [5 sylab brakuje]
+                        to, co ustalone † ku waszemu zawstydzeniu – obwiniać. † Ogałacacie
+                        kości udowe {całkiem} aż do pachwin [4 sylab brakuje], całkiem gołą
+                        kość krzyżową i sam ogon wydajecie nam, † jakby je trzymając przed
+                        nosem, jak psom. A że wstyd wam przed sobą nawzajem, pokrywacie
+                        to licznymi plackami.</quote>
+                    <p>Klemens Aleksandryjski (<title>Strom</title>. 6.30.3) przekazuje ten passus, stwierdzając,
+                        że wyraża on skargę bogów. Pomimo poważnych problemów
+                        filologicznych fragment jest niezwykle cenny, stanowiąc jeden z doskonalszych
+                        przykładów komicznej teologii, wbrew pozorom bardzo
+                        rzadko wyrażanej explicite. Jest to oczywiste nawiązanie do tradycji,
+                        która widoczna jest już u Hezjoda (<title>Th</title>. 535–616; cf. Prescendi 2009; Vernant
+                        1979; Rudhardt 1970), zgodnie z którą nierówny podział zwierzęcia
+                        ofiarnego pomiędzy ludźmi i bogami stanowił poważny problem
+                        teologiczny. Nie licząc złośliwej interpretacji, przedstawione tu czynności
+                        doskonale odpowiadają rzeczywistości rytualnej. Pierwszym
+                        spośród wymienionych elementów są uda (<w>τὼ</w> <w>μηρώ</w> – zwraca uwagę
+                        użycie dualis, liczby podwójnej), obecne już w tradycji epickiej jako
+                        synonim boskiej części (cf. <title>Il</title>. 1.464 wraz z komentarzem Trzcionkowskiego).
+                        <w>Ὀσφύς</w> to kość krzyżowa, ewentualnie z przylegającymi do
+                        niej częściami szkieletu i mięsa – tu wymieniony jest dodatkowo ogon,
+                        określony rzadkim w tym kontekście wyrazem <w>σφόνδυλος</w> (częściej
+                        występuje <w>κέρκος</w>) szerzej: komentarz do Ar. <title>Pax</title> 1054–1055. Interesujące
+                        jest porównanie bogów do psów, szczególnie użycie czasownika
+                        <w>ῥίνω</w> („wodzić za nos”), który z jednej strony w sposób oczywisty
+                        kojarzy się z zabawą polegającą na przesuwaniu apetycznego kąska
+                        przed nosem zwierzęcia, a z drugiej chyba nawiązuje do faktu, że
+                        bogom wysyłano należną im część ofiary w postaci wonnego oparu
+                        (<w>κνῖσα</w>). Cf. Ar. <title>Av</title>. 193. Na temat placków typu <w>θυλήματα</w>: komentarz
+                        do Ar. <title>Pax</title> 1040.</p>
+                </div>
+                <div type="textpart" n="Pherecrates_Automoloi_33">
+                    <head>Pherecrates Αὐτόμολοι 33 (28)</head>
+                    <quote><lb/>οὐ γαλαθηνὸν ἄρ’ ὗν θύειν μέλλεις</quote>
+                    <quote><lb/>nie zamierzasz chyba ssącej świnki złożyć w ofierze</quote>
+                    <p>Atenajos (396c) cytuje passus jako przykład wykorzystania przymiotnika
+                        <w>γαλαθηνός</w> („ssący mleko”) na określenie wieku zwierzęcia. Brak
+                        kontekstu nie pozwala niczego więcej powiedzieć.</p>
+                </div>
+                
+                <div type="textpart" n="Pherecrates_Ipnos_Pannuchis_70">
+                    <head>Pherecrates Ἰπνὸς ἢ Παννυχίς 70.4–5 (64)</head>
+                    <p>Komedia sprzed 415 r. p.n.e.</p>
+                    <quote><lb/>αὐτίκ’ οὐδεὶς οὔτε μαγείραιναν εἶδε πώποτε
+                        <lb/>οὔτε μὴν οὐδ’ ἰχθυοπώλαιναν</quote>
+                    <quote><lb/>Nikt nigdy nie widział rzeźniczki ani sprzedawczyni ryb.</quote>
+                    <p>Kontekst, w jakim Atenajos (612a) cytuje passus, wskazuje na to, że
+                        chodzi w nim o rozróżnienie pomiędzy zawodami wykonywanymi
+                        przez osoby różnej płci. Wonnościami handlują kobiety, mięsem i rybami
+                        mężczyźni. Passus jest ciekawy, ponieważ μάγειρος to rodzaj
+                        specjalisty zajmującego się nie tylko handlem mięsem, ale i podziałem
+                        tuszy i ubojem ofiarnym / rytualnym / nierytualnym, jeśli taki istniał.
+                        Wygląda na to, że rolę tę spełniali wyłącznie mężczyźni, co może wynikać
+                        nie tylko ze względów kultowych i kulturowych, ale i z czysto
+                        praktycznych: do pracy tego rodzaju potrzeba sporo siły fizycznej. Szerzej:
+                        Berthiaume (1982); Osborne (1993); komentarz Ar. <title>Pax</title> 1017–1018.</p>
+                </div>
+                
+                <div type="textpart" n="Pherecrates_Petale_145">
+                    <head>Pherecrates Πετάλη 145 (137)</head>
+                    <p>Komedia wystawiona przypuszczalnie po 421 r. p.n.e.</p>
+                    <quote><lb/>πρόσαιρε τὸ κανοῦν, εἰ δὲ βούλει, πρόσφερε</quote>
+                    <quote><lb/>podaj koszyk ofiarny, lub, jeśli wolisz, przynieś go</quote>
+                    <p>Fragment zawiera dwa warianty wyrażenia tej samej treści. Widocznie
+                        ktoś z bohaterów miał wątpliwości co do zasadności użycia czasownika
+                        <w>προσαίρω</w>. Prawdopodobnie mamy tu do czynienia ze sceną ofiary,
+                        skoro jest mowa o koszyku ofiarnym (κανοῦν). Na temat tego przedmiotu:
+                        kom. do Ar. <title>Av</title>. 863.</p>
+                </div>
+                
+                <div type="textpart" n="Pherecrates_Tyrannis_150">
+                    <head>Pherecrates Τυραννίς 150 (141)</head>
+                    <quote><lb/>Κἄπειθ’ ἵνα μὴ πρὸς τοῖσι βωμοῖς πανταχοῦ
+                        <lb/>ἀεὶ λοχῶντες βωμολόχοι καλώμεθα,
+                        <lb/>ἐποίησεν ὁ Ζεὺς καπνοδόκην μεγάλην πάνυ</quote>
+                    <quote><lb/>Następnie Zeus wykonał niezmiernie wielki otwór na dym, żeby nas
+                        nie nazwano bomolochoi dlatego, że czaimy się z każdej strony ołtarza.</quote>
+                    <p>Nie wiadomo, kto wypowiadał te słowa. Dobree (1831–1833: 586) zasugerował,
+                        że mógł to być jakiś bóg przemawiający w imieniu innych
+                        bogów, którzy pierwotnie (w ramach wizji komicznej) mieli zasiadać
+                        wokół ołtarzy. Ta ciekawa koncepcja cieszy się sporym powodzeniem,
+                        lecz trudno zaprzeczyć, że nie opiera się na niczym więcej niż
+                        błyskotliwy domysł (Kock 1880: ad loc.). Passus doczekał się obszernej
+                        dyskusji w nauce przede wszystkim ze względu na kontekst, w jakim
+                        cytuje go Harpokration (76.9), twierdząc, że wyraz <w>βωμολόχος</w> pierwotnie
+                        oznaczał zgodnie ze swoją etymologią „osoby czające się przy
+                        ołtarzu”, różnego rodzaju pasożytów i specjalistów religijnych, którzy
+                        starali się wyłudzić mięso ofiarne. Nowożytna nauka uznała to wyjaśnienie
+                        za przekonujące, przy czym Frontisi-Ducroux (1984) poszła
+                        o krok dalej, dopatrując się rytualnych korzeni obyczaju polowania na
+                        mięso ofiarne, mających swoje odzwierciedlenie w zwyczajach spartańskiej
+                        młodzieży (dalsze rozwinięcie w Ducat 1995). Koncepcja została
+                        ostatnio skrytykowana przez Kidda (2012), który moim zdaniem
+                        bardzo przekonująco argumentuje, że takie odczytanie passusu komedii
+                        nie zdaje sprawy z zawartego w nim żartu. Tylko przy założeniu,
+                        że słowo <w>βωμολόχος</w> w wyobrażeniach publiczności Ferekratesa
+                        oznaczało coś innego niż w sposób oczywisty sugeruje podana przez
+                        poetę etymologia (<w>πρὸς</w> <w>τοῖσι</w> <w>βωμοῖς</w> <w>λοχῶντες</w>), istniało między nimi
+                        napięcie, które mogło wywołać śmiech. Rzeczywiście, wyraz przed
+                        okresem drugiej sofistyki nie jest poświadczony w innym znaczeniu,
+                        niż „błazen”, „głupek”, a także: „kawka” (Arist. <title>HA</title> 617b.18). Kidd
+                        wyraził (słuszne, jak sądzę) przypuszczenie, że ewolucja semantyczna
+                        przebiegała od nazwy ptaka, który rzeczywiście mógł często czaić się
+                        przy ołtarzach, do kategorii osób, które zachowują się w niedorzeczny
+                        sposób, wydając niezrozumiałe dźwięki.</p>
+                </div>
+                
+                <div type="textpart" n="Pherecrates_Cheiron_162">
+                    <head>Pherecrates Χείρων 162 (152,3)</head>
+                    <quote><lb/>μηδὲ σύ γ’ ἄνδρα φίλον καλέσας ἐπὶ δαῖτα θάλειαν
+                        <lb/>ἄχθου ὁρῶν παρεόντα· κακὸς γὰρ ἀνὴρ τόδε ῥέζει·
+                        <lb/>ἀλλὰ μάλ’ εὔκηλος τέρπου φρένα τέρπε τ’ ἐκεῖνον
+                        <lb/>[brakuje przynajmniej jednego wersu]
+                        <lb/>ἡμῶν δ’ ἤν τινά τις καλέσηι θύων ἐπὶ δεῖπνον,
+                        <lb n="5"/>ἀχθόμεθ’ ἢν ἔλθηι καὶ ὑποβλέπομεν παρεόντα
+                        <lb/>χὤττι τάχιστα θύραζ’ ἐξελθεῖν βουλόμεθ’ αὐτόν.
+                        <lb/>εἶτα γνούς πως τοῦθ’ ὑποδεῖται, κἆιτά τις εἶπε
+                        <lb/>τῶν ξυμπινόντων “ἤδη σύ; τί οὐχ ὑποπίνεις;
+                        <lb/>οὐχ ὑπολύσεις αὐτόν;” ὁ δ’ ἄχθεται αὐτὸς ὁ θύων
+                        <lb n="10"/>τῶι κατακωλύωντι καὶ εὐθὺς ἔλεξ’ ἐλεγεῖα·
+                        <lb/>“μηδένα μήτ’ ἀέκοντα μένειν κατέρυκε παρ’ ἡμῖν
+                        <lb/>μήθ’ εὕδοντ’ ἐπέγειρε, Σιμωνίδη.” οὐ γὰρ ἐπ’ οἴνοις
+                        <lb/>τοιαυτὶ λέγομεν δειπνίζοντες φίλον ἄνδρα;</quote>
+                    <quote><lb/>Jeśli zaprosisz miłego człowieka na wspaniałą ucztę, nie narzekaj,
+                        kiedy przyjdzie. Tak bowiem czyni ktoś nikczemny. Beztrosko ciesz
+                        swoje serce, zabawiaj go
+                        […]
+                        <lb/>Gdy ktoś z nas składa ofiarę i zaprasza kogoś na ucztę, [5] denerwujemy
+                        się, kiedy przyjdzie, patrzymy na niego spode łba i chcemy, żeby
+                        jak najszybciej zniknął za drzwiami. Kiedy on już to zrozumie i wiąże
+                        buty, ktoś spośród biesiadników mówi „co ty, już? Nie napijesz się
+                        troszeczkę? Nie zdejmiesz butów?” Wówczas ten, który składa ofiarę
+                        [10] złości się na tego, który zatrzymuje wychodzącego i natychmiast
+                        cytuje elegię: „Nie zatrzymuj przy nas nikogo wbrew jego woli ani
+                        śpiącego nie budź, Symonidesie”. Bo czyż przy winie nie mówimy
+                        takich rzeczy, goszcząc kogoś miłego?</quote>
+                    <p>Passus pojawia się u Atenajosa (364a–c) w kontekście opisu zepsucia
+                        obyczajów. Jest pewna niezamierzona przez starożytnego erudytę ironia
+                        w fakcie, że narzekając na sobie współczesnych i kontrastując ich
+                        z dawnymi ideałami (reprezentowanymi przez Homera), pisarz powołuje
+                        się na obraz niepoprawnego zachowania, jaki przekazał autor
+                        wcześniejszy od niego o sześćset lat. Sam Pherekrates zresztą, jak sugeruje
+                        tytuł komedii, prawdopodobnie umieścił jej akcję w czasach poprzedzających
+                        o parę lat akcję <title>Iliady</title>. Osobą mówiącą, jak stwierdza Olson
+                        (2007: 319 uczony podkreśla hipotetyczny charakter rekonstrukcji),
+                        mógł być sam Chiron, „kulturalny” centaur. Pozostali przedstawiciele
+                        jego gatunku dostarczali modelu pogwałcenia norm biesiadnych. Użyte
+                        w passusie słownictwo (ξυμπίνω, ὑποπίνω) i nacisk, jaki pada na wino,
+                        wskazuje na to, że opisana sytuacja ma miejsce w czasie sympozjonu,
+                        czyli części biesiady, która następowała po treściwym posiłku (δεῖπνον
+                        w wąskim znaczeniu terminu), w czasie której uczestnicy pili wino, jedząc
+                        drobne przekąski (Węcowski 2014, tam także bibliografia). Wersy
+                        1 i 4 zawierają wzmiankę o zaproszeniu na ucztę, określoną odpowiednio:
+                        homeryzmem <w>ἐπὶ</w> <w>δαῖτα</w> <w>θάλειαν</w> (<title>Il</title>. 7.475; <title>Od</title>. 3.420), a następnie
+                        neutralnym słowem <w>δεῖπνον</w> (w szerszym znaczeniu). Ofiara dwa razy
+                        wzmiankowana we fragmencie musiała poprzedzać całość uczty, przy
+                        czym użycie czasownika <w>θύω</w> w formie participium praesentis, która ewokuje
+                        jednoczesność czynności, wskazuje na to, że mamy tu do czynienia
+                        z jego znaczeniem <title>LS</title> I.4: „świętować coś (np. urodziny) ofiarą”.</p>
+                </div>
+                
+                <div type="textpart" n="Plato_Comicus_Heortai_27">
+                    <head>Plato Comicus Ἑορταί 27 (28)</head>
+                    <p>Komedia mniej więcej współczesna Ptakom Arystofanesa, powstała
+                        w 414 r. p.n.e.</p>
+                    <quote><lb/>τῶν γὰρ τετραπόδων οὐδὲν ἀποκτείνειν ἔδει
+                        <lb/>ἡμᾶς τὸ λοιπόν, πλὴν ὑῶν. τὰ γὰρ κρέα
+                        <lb/>ἥδιστ’ ἔχουσιν, κοὐδὲν ἀφ’ ὑὸς γίγνεται
+                        <lb/>πλὴν ὑστριχὶς καὶ πηλὸς ἡμῖν καὶ βοή</quote>
+                    <quote>Nie powinniśmy odtąd zabijać żadnych czworonogów poza świniami,
+                        bo one mają pyszne mięso i niczego innego nam nie dają poza
+                        szczeciną, błotem i odgłosami.</quote>
+                    <p>Drobna zmiana zaproponowana przez Cobeta (1840: 91) polegająca na
+                        zastąpieniu zaimka osobowego pierwszej osoby liczby mnogiej (<w>ἡμᾶς</w>)
+                        na analogiczny zaimek drugiej osoby (<w>ὑμᾶς</w>) pozwoliła przypuszczać,
+                        że podmiotem wypowiadającym cytowane słowa był chór zwierząt, protestujący
+                        przeciwko ofierze, podobnie jak we fr. 19 Kratesa. Większość
+                        wydawców (e.g. Pirrotta 2016) odrzuca tę atrakcyjną, lecz słabo ugruntowaną
+                        koniekturę, przyjmując, że ktoś inny (np. ktoś reprezentujący punkt
+                        widzenia wegetariańskiej mniejszości w rodzaju Pitagorejczyków) wyraża
+                        tu zastrzeżenia wobec uboju zwierząt użytkowych, czyli takich, które
+                        dają wełnę, mleko, nadają się pod wierzch, juki albo do pracy na roli.
+                        W odniesieniu do uboju zwierząt roboczych (wołów) ewidentnie istniały
+                        przesłanki, również natury emocjonalnej i symbolicznej, sprawiające, że
+                        mniej chętnie składano je w ofierze (cf. Ael. <title>VH</title> 5.14), choć nie można tu
+                        mówić o istnieniu ścisłego zakazu, jakiego dopatrywali się autorzy jeszcze
+                        z lat osiemdziesiątych XX w. Szerzej: Rosivach 1994: 161–163. Cf. e.g.
+                        Schoemann 1863: 225; Berthiaume 1982: 85; McInerney 2010: 171–172 Na
+                        temat hodowli świń: komentarz do Ar. <title>V</title>. 844–846; <title>Ach</title>. 784–796; <title>Pl</title>.1106.</p>
+                </div>
+                
+                <div type="textpart" n="Plato_Comicus_Zeus_Kakoumenos_51">
+                    <head>Plato Comicus Ζεὺς Κακούμενος 51 (51)</head>
+                    <p>Komedia wystawiona w 427 r. p.n.e. lub nieco wcześniej.</p>
+                    <quote><lb/>καίτοι φορεῖτε γλῶτταν ἐν ὑποδήμασιν,
+                        <lb/>στεφανοῦσθ’ ὑπογλωττίσιν, ὅταν πίνητέ που·
+                        <lb/>κἂν καλλιερῆτε, γλῶτταν ἀγαθὴν πέμπετε</quote>
+                    <quote><lb/>nosicie język w butach i z języczków ruszczyka zakładacie wieńce,
+                        kiedy pijecie, a gdy otrzymacie dobre znaki, składając ofiarę, rozsyłacie
+                        wieści na językach.</quote>
+                    <p>Passus bardzo trudny do przełożenia ze względu na zawartą w nim
+                        grę słów, która sprowadza się do wszechobecności lub członu glott-
+                        („język”). Ostatni wers zawiera nawiązanie do ofiary zwierzęcej, z której
+                        odczytywano znaki na różnych etapach jej składania. Typowymi
+                        elementami, które poddawano lekturze, był wygląd wnętrzności,
+                        zachowanie ogona i innych części spalanych dla bogów, a także być
+                        może to, co działo się z dymem etc. Szerzej: hasło καλλιερέω, a także
+                        komentarz do Ar. <title>Pax</title> 1054–1055. Wyrażenie <w>γλῶτταν</w> <w>ἀγαθὴν</w>
+                        <w>πέμπετε</w>, dosł. „wysyłacie dobry język” może oznaczać „rozsyłać wieści”
+                        (cf. S. <title>Tr</title>. 323; <title>El</title>. 596), lecz jednocześnie kojarzy się ze zwyczajem
+                        oddawania języka kapłanowi lub wieszczkowi, który asystował przy
+                        ofierze. Cf. Ar. <title>Pax</title> 1060; <title>Pl</title>. 1110.</p>
+                </div>
+                
+                <div type="textpart" n="Plato_Comicus_Io_56">
+                    <head>Plato Comicus Ἰώ 56 (55)</head>
+                    <quote><lb/>πρόσφερε δεῦρο δὴ τὴν κεφαλὴν τῆς δέλφακος</quote>
+                    <quote><lb/>przynieś tu głowę świni</quote>
+                    <p>Atenajos (657a) cytuje passus na potwierdzenie, że wyraz δέλφαξ, oznaczający
+                        „świnię”, był rodzaju żeńskiego. Kontekst ofiarniczy nie jest tu
+                        bynajmniej pewny, choć bardzo możliwy (Pirrotta 2016: ad loc.). Głowa
+                        zwierzęcia często przypadała w udziale kapłanowi. Cf. Amips. 7.</p>
+                </div>
+                
+                <div type="textpart" n="Plato_Comicus_Meneleos_76">
+                    <head>Plato Comicus Μενέλεως 76 (74)</head>
+                    <quote><lb/>εἰπέ μοι,
+                        <lb/>ὡς ὀλίγα λοιπὰ τῶν ἐπιτραπεζωμάτων.
+                        <lb/><emph>(Β)</emph> ὁ γὰρ θεοῖσιν ἐχθρὸς αὐτὰ κατέφαγεν</quote>
+                    <quote><lb/>powiedz, jak mało pozostało jedzenia na stole. <emph>(B)</emph> Wróg bogów je wyjadł.</quote>
+                    <p>Rzadki wyraz ἐπιτραπέζωμα poświadczony jest w znaczeniu „przekąski
+                        zastawione na stole” i nic nie wskazuje, żeby był używany w odniesieniu
+                        do posiłków przeznaczonych dla bogów. Z drugiej strony,
+                        trudno oprzeć się skojarzeniu z trapezomata, czyli z mięsem zwierząt
+                        ofiarnych zastawianym na specjalnych stołach przed posągami kultowymi.
+                        Szerzej: Gill (1974), Gill (1991); Ekroth (2008), Ekroth (2011);
+                        Patera (2012: 113–127).</p>
+                </div>
+                
+                <div type="textpart" n="Plato_Comicus_Paidarion_98">
+                    <head>Plato Comicus Παιδάριον 98 (91)</head>
+                    <p>Komedia wystawiona prawdopodobnie między 410 a 420 r. p.n.e.</p>
+                    <quote><lb/>φέρε τοῦτ’ ἐμοὶ
+                        <lb/>δεῖξον τὸ κανοῦν μοι δεῦρο· πῆι μάχαιρ’ ἔνι;</quote>
+                    <quote><lb/>Dalej, pokaż koszyk. Gdzie tu w środku nóż?</quote>
+                    <p>Z punktu widzenia historii badań nad ofiarą passus niesłychanie istotny.
+                        Scholiasta, komentując wers 948 <title>Pokoju</title> Arystofanesa („jest koszyk
+                        z krupami, wstęgą i nożem”), stwierdził, że starożytni mieli zwyczaj
+                        ukrywać nóż w koszyku i na potwierdzenie tych słów przytoczył cytowany
+                        tu wers Platona. Przekaz ten stał się jedną z podstaw sformułowania
+                        teorii „komedii niewinności” (Meuli 1946), zgodnie z którą
+                        czynności rytualne miały na celu ukrycie faktu, że ubój ofiarny stanowił
+                        akt przemocy wobec zwierzęcia. Szerzej: komentarz do Ar. <title>Pax</title>
+                        948.</p>
+                </div>
+                
+                <div type="textpart" n="Plato_Comicus_Poietes_121">
+                    <head>Plato Comicus Ποιητής 121 (113)</head>
+                    <quote><lb/>μόνος δ’ ἄγευστος,
+                        <lb/>ἄσπλαγχνος ἐνιαυτίζομαι, απλάκουντος, ἀλιβάνωτος</quote>
+                    <quote><lb/>jako jedyny niczego w ustach nie miałem, nie próbowałem trzewi, ciastek,
+                        kadzidła.</quote>
+                    <p>Kock (1880: ad loc.) wyraził przypuszczenie, że osobą mówiącą jest
+                        bóg, który skarży się, że z jakiegoś (niemożliwego do określenia) powodu
+                        od dawna nie otrzymuje należnych sobie wyrazów czci. Hipoteza
+                        ta nie została nigdy odrzucona, lecz równolegle z nią funkcjonuje
+                        alternatywna interpretacja, zgodnie z którą fragment zawiera narzekania
+                        człowieka, który od dawna nie uczestniczył w uczcie (Pirrotta
+                        2016: ad loc.). W obu przypadkach kontekst ofiarny wydaje się niemal
+                        oczywisty, zważywszy na użycie przymiotnika <w>ἄσπλαγχνος</w>. Jest to
+                        jedyne jego poświadczenie w (łatwym do odczytania z jego struktury)
+                        znaczeniu „taki, który nie otrzymał trzewi zwierzęcia”. Dzielenie się
+                        wnętrznościami upieczonymi nad ogniem, w którym płonęła część boska
+                        ofiary stanowiło ewidentnie centralny moment rytuału (cf. Stengel
+                        1910: 74–75; Meuli 1946: 268–274; Rudhardt 1958: 255; Detienne 1979a:
+                        74–77; Ekroth 2011: 272–273; Parker 2011: 151–152). Trudno powiedzieć,
+                        czy również bogowie otrzymywali jakąś część trzewi na tym
+                        etapie procesu rytualnego. Wiadomo natomiast, że przynajmniej niekiedy
+                        dzielono się z nimi podrobami, między innymi dawanymi jako
+                        trapezomata (cf. Athenio comicus 1.18–19; Ar. <title>Pax</title> 1074, <title>Plut</title>. 1130).</p>
+                </div>
+                
+                <div type="textpart" n="Plato_Comicus_Phaon_188">
+                    <head>Plato Comicus Φάων 188 (174)</head>
+                    <p>Komedia wystawiona w 391 r. p.n.e., konkurowała
+                        z Ecclesiazousae Arystofanesa</p>
+                    <quote><lb/>εἶἑν, γυναῖκες _v ὡς ὑμῖν πάλαι
+                        <lb/>οἶνον γενέσθαι τὴν ἄνοιαν εὔχομαι.
+                        <lb/>ὑμῖν γὰρ οὐδέν, καθάπερ ἡ παροιμία,
+                        <lb/>ἐν τῶι καπήλωι νοῦς ἐνεῖναί μοι δοκεῖ.
+                        <lb n="5"/>εἰ γὰρ Φάωνα δεῖσθ’ ἰδεῖν, προτέλεια δεῖ
+                        <lb/>ὑμᾶς ποιῆσαι πολλὰ πρότερον τοιαδί·
+                        <lb/>πρῶτα μὲν ἐμοὶ γὰρ Κουροτρόφωι προθύεται
+                        <lb/>πλακοῦς ἐνόρχης, ἄμυλος ἐγκύμων, κίχλαι
+                        <lb/>ἑκκαίδεχ’ ὁλόκληροι μέλιτι μεμιγμέναι,
+                        <lb n="10"/>λαγῶια δώδεκ’ ἐπισέληνα. Τἆλλα δὲ
+                        <lb/>ἤδη †ταῦτ’ εὐτελέστατα·† ἄκουε δή.
+                        <lb/>βολβῶν μὲν Ὀρθάννηι τρί’ ἡμιέκτεα,
+                        <lb/>Κονισάλωι δὲ καὶ παραστάταιν δυοῖν
+                        <lb/>μύρτων πινακίσκος χειρὶ παρατετιλμένων·
+                        <lb n="15"/>λύχνων γὰρ ὀσμὰς οὐ φιλοῦσι δαίμονες.
+                        <lb/>†πυργης τετάρτης† Κυσί τε καὶ Κυνηγέταις,
+                        <lb/>Λόρδωνι δραχμή, Κυβδάσωι τριώβολον,
+                        <lb/>ἥρωι Κέλητι δέρμα καὶ θυλήματα.
+                        <lb/>ταῦτ’ ἐστι τἀναλώματ’. εἰ μὲν οὖν τάδε
+                        <lb/>προσοίσετ’, εἰσέλθοιτ’ ἄν· εἰ δὲ μή, μάτην
+                        <lb/>ἔξεστιν ὑμῖν διὰ κενῆς βινητιᾶν.</quote>
+                    <quote><lb/>Otóż, kobiety, … od dawna modlę się, żeby bezmiar waszej głupoty
+                        zamienił się w wino. Wy zaś, jak głosi przysłowie, wcale nie macie
+                        rozumu w knajpie. [5] Jeśli zależy wam na tym, by zobaczyć Faona,
+                        musicie najpierw złożyć następującą ofiarę wstępną: najpierw mnie,
+                        Kourotrophos, poświęcicie niewykastrowane ciastko, ciężarny placek,
+                        nieskazitelne rybki wargaczowate zmieszane z miodem i dwanaście
+                        zajęczych rogali. Pozostałe rzeczy †są również tanie†. Posłuchaj:
+                        trzy hemiekty bulw hiacyntu dla Orthannesa, dla Konisalosa i jego
+                        jąder talerzyk mirtu zerwanego rękami. Nieśmiertelni bowiem nie lubią
+                        zapachu lampy. †Kwartę pyrgi† psom i łowcom, Lordonowi jedna
+                        drachma, Kybdasowi trzy obole, herosowi Kelesowi skóra i placki.
+                        Takie są koszty. Jeśli to przyniesiecie, możecie wejść, w przeciwnym
+                        razie próżne okaże się wasze pożądanie.</quote>
+                    <p>Atenajos (441e) cytuje passus, omawiając skutki picia nadmiaru
+                        wina przez kobiety. Komentatorzy (Pirrotta 2016: ad loc.; Kassel,
+                        Austin 1989: ad loc.) zasadniczo przyjmują, że wygłaszająca tyradę
+                        bogini jest pijana i stąd wynika groteskowa konfuzja pojęć i kategorii.
+                        Niezależnie od przyczyn tego stanu rzeczy, tekst zawiera
+                        przykład rzadkiego w starożytnej komedii humoru ocierającego się
+                        o purnonsens, który sprawia, że jest on bardzo trudny do przełożenia
+                        i do skomentowania, a co więcej, od zawsze musiał być kłopotliwy
+                        dla wydawców i skrybów. Tym można tłumaczyć częściowe
+                        zepsucie tekstu, które czyni go jeszcze bardziej zawiłym. Niezależnie
+                        od problematycznych szczegółów wydaje się jasne, że fragment
+                        zawiera parodię instrukcji rytualnych, znanych nam z inskrypcji
+                        w rodzaju tych zawartych w tomie <title>LSCG</title>. Nie jest łatwo doprecyzować
+                        tożsamość osoby mówiącej. Przedstawia się ona jako bogini,
+                        której należy się cześć, przy czym określa siebie jako <title>Kourotrophos</title>.
+                        Jest to przydomek bardzo wielu bogiń (a także bogów i herosów. Lista
+                        zestawiona przez Price 1978: 189–95 obejmuje 56 pozycji) w ich
+                        aspekcie związanym z opieką nad dziećmi, ich wzrastaniem i dojrzewaniem.
+                        Jakkolwiek sfera ta w sposób oczywisty może kojarzyć
+                        się z reprodukcją i z seksem, nie jest z nimi tożsama. Tymczasem
+                        przedstawiony w passusie fikcyjny kult ma charakter jednoznacznie
+                        erotyczny. Wszyscy wymienieni adresaci ofiar (z wyjątkiem
+                        Kourotrophos) to istoty (być może po części zmyślone na potrzeby
+                        passusu) o imionach lub cechach związanych z seksem, np. Orthannes
+                        wywołuje skojarzenia z erekcją.</p>
+                    <p><w>Προτέλεια</w> to zgodnie z etymologią coś, czego dokonywano
+                        przed inną, ważniejszą czynnością rytualną (<w>τέλος</w>), przy czym materiał
+                        (cf. Bielawski ad IG I2 5) wskazuje na to, że regularnie chodzi
+                        o ofiarę, którą składano przed wydarzeniem w rodzaju ślubu lub
+                        inicjacji w kult misteryjny. Oba warianty wydają się tutaj na miejscu.
+                        To, co ma zastąpić zwierzęta ofiarne, jest wynikiem pomieszania
+                        kategorii: <w>πλακοῦς</w> i <w>ἄμυλος</w> to dwa rodzaje pieczywa. Ciastka
+                        ofiarne często miewały cechy zwierząt, np. rogi i nosiły nazwy
+                        zwierząt (e.g. <w>βοῦς</w> <w>ἕβδομος</w>, cf. Euthycl. 2), co sugeruje, że mogły
+                        w pewnych kontekstach stanowić substytut ofiary krwawej (szerzej:
+                        Kearns 2011: 94–96). Charakterystyka wspomnianych tu ciastek pasuje
+                        do tego schematu, eksploatując jednocześnie sferę skojarzeń
+                        erotycznych: przymiotniki <w>ἐνόρχης</w> („niekastrowany”, cf. Ar. <title>Av</title>.
+                        569 z komentarzem) i <w>ἐγκύμων</w> („ciężarna”, cf. <title>LSCGS</title> 19.93; Bremmer
+                        2005) pojawiają się niekiedy w instrukcjach rytualnych, rzecz
+                        jasna, wyłącznie w odniesieniu do zwierząt. Wyraz <w>ὁλόκληρος</w>
+                        („cały”, „doskonały”) w kontekście ofiary może określać zwierzę
+                        zdrowe, nieułomne (w przeciwieństwie do <w>κολοβός</w>, cf. Arist. <title>HA</title>
+                        585b.36, <title>LSCG</title> 85.1, etc.). <title>LS</title> (s.v.) notuje także znaczenie „niekastrowany”,
+                        jednak wyłącznie z odniesieniem do cytowanego tu miejsca,
+                        które (pomijając ogólną atmosferę erotyzmu) nie skłania w żaden
+                        sposób do przyjęcia tej interpretacji. Żart w tym miejscu polega
+                        chyba wyłącznie na tym, że termin zastosowano w odniesieniu do
+                        małych rybek zamiast do zwierząt ofiarnych. <w>Ἐπισέληνα</w> to, jak wyjaśnia
+                        Hezychiusz (s.v.), typ ciastek w kształcie księżyca. Tutaj mają
+                        być one wykonane z mięsa zajęczego lub nadziane nim. Wersy 17
+                        i 18 zawierają zupełnie zwyczajne rozporządzenia: inskrypcje często
+                        zawierają regulacje dotyczące przekazywania pieniędzy, skór
+                        zwierząt i ciastek personelowi świątynnemu, bóstwom i herosom,
+                        normalna jest także składnia wyliczeń: nominativus nazwy przedmiotu
+                        + dativus otrzymującego. W tym miejscu żart polega na tym,
+                        że zwyczajne dary otrzymują istoty o obscenicznych imionach.</p>
+                </div>
+                
+                <div type="textpart" n="Telekleides_Sterrhoi_35">
+                    <head>Telekleides Στερροί 35 (33)</head>
+                    <quote><lb/>ὦ δέσποθ’ Ἑρμῆ, κάπτε τῶν θυλημάτων</quote>
+                    <quote><lb/>Hermesie, władco, połknij kluski</quote>
+                    <p>Passus pojawia się w scholiach do <title>Pokoju</title> Arystofanesa (1040, por. komentarz),
+                        w kontekście wyjaśnień, że <w>θυλήματα</w> to ciasto z jęczmiennej
+                        mąki (lub kaszy) zmieszanej z winem i oliwą. Najprawdopodobniej kulki
+                        z takiego surowego ciasta wrzucano do ognia, w którym płonęły kości
+                        dla bogów. Versnel (2011: 363) zwraca uwagę na to, że zachowanie,
+                        którego mówiący oczekuje po Hermesie, bardzo niewiele ma wspólnego
+                        z tym, jak wyobrażano sobie reakcję bogów na ofiary, które dostarczały
+                        im wyłącznie apetycznego oparu (κνῖσα). Jest to zarazem typowy
+                        przykład „uczłowieczania” Hermesa, boga bardzo blisko związanego
+                        z ludzką sferą. Zwraca uwagę kontrast pomiędzy poważną formułą modlitewną
+                        otwierającą wers i tym, co następuje po niej.</p>
+                </div>
+                
+                <div type="textpart" n="Theopompos_Penelope_49">
+                    <head>Theopompos Πηνελόπη 49 (48)</head>
+                    <quote><lb/>καὶ τὴν ἱερὰν σφάττουσιν ἡμῶν δέλφακα</quote>
+                    <quote><lb/>i naszą świnię poświęconą zarzynają</quote>
+                    <p>Ze względu na brak kontekstu trudno powiedzieć cokolwiek pewnego
+                        na temat passusu. Bothe (1855: ad loc.) wyraził przypuszczenie, że chodzi
+                        tu o zachowanie zalotników, którzy zarzynali i zjadali trzody Odyseusza.
+                        Możliwe. Dlaczego świnia określona jest przymiotnikiem ἱερά („święta”/
+                        „poświęcona”)? Być może chodzi o zwierzę przeznaczone dla konkretnego
+                        bóstwa, najprawdopodobniej (jeśli już) dla Hestii (cf. Ar. <title>V</title>. 844–846).</p>
+                </div>
+                
+                <div type="textpart" n="Theopompos_Incertae_Fabulae_71">
+                    <head>Theopompos Incertae fabulae 71 (70)</head>
+                    <quote><lb/>εἴσω δραμὼν αἴτησον. <emph>(Β)</emph> ἀλλ’ οὐκ ἐκφορά</quote>
+                    <quote><lb/>pędź do środka i poproś. <emph>(B)</emph> Ale to nie na wynos.</quote>
+                    <p>Fragment cytowany jest w scholiach do <title>Plutosa</title> Arystofanesa (1138,
+                        tam także obszerniejszy komentarz). Prawdopodobnie mamy tu do
+                        czynienia z analogiczną sytuacją: ktoś nakazuje (lub prosi) drugiemu,
+                        by wszedł do budynku lub temenosu, w którym odbywa się uczta
+                        ofiarna i przyniósł mu mięso. W odpowiedzi pada stwierdzenie, że
+                        typ ofiary nie pozwala na wynoszenie niczego z sanktuarium/domu.</p>
+                </div>
+                
+                <div type="textpart" n="Adespota_80">
+                    <head>Adespota 80 (34)</head>
+                    <quote><lb/>ἀλλὰ θῦε τοῦ κέδρου</quote>
+                    <quote><lb/>zapal olejek cydrowy</quote>
+                    <p>Gramatyk Frynichos cytuje fragment (<title>PS</title> 74.3) dla zilustrowania twierdzenia,
+                        że czasownik <w>θύω</w> pierwotnie używany bywał jako synonim
+                        <w>θυμιᾶσαι</w> („spalać np. kadzidło w celu wytworzenia dymu”).</p>
+                </div>
+                
+                <div type="textpart" n="Adespota_483">
+                    <head>Adespota 483 (47 Dem.)</head>
+                    <quote><lb/>αἰγὸς τρόπον μάχαιραν ἐσκάλευσα <supplied reason="omitted">μοι</supplied></quote>
+                    <quote><lb/>jak koza zaprosiłem nóż</quote>
+                    <p>Focjusz (α 531) cytuje passus jako przysłowie, które miało się stosować
+                        do osób, które same na siebie ściągały nieszczęścia. Koza z nożem
+                        w starożytnej Grecji spotykała się chyba wyłącznie raz w życiu, sens
+                        powiedzenia nie budzi zatem wątpliwości. Interesujące jest natomiast
+                        wyjaśnienie, które podaje Focjusz i Zenobiusz, który przekazuje nieco
+                        inny wariant przysłowia (2. 40 <w>οἶς</w> <w>τὴν</w> <w>μάχαιραν</w>), oraz inni starożytni
+                        erudyci (zestawienie i omówienie obszernej bazy źródłowej:
+                        Bühler 1982: 233–245). Mianowicie miało ono nawiązywać do rytuału
+                        ofiary krwawej w Koryncie, gdzie co roku wpuszczano do świątyni
+                        Hery kozę (lub owcę), która sama miała wykopać ukryty tam nóż, by
+                        następnie zostać nim zarżnięta. Bühler (1982: 233–245) wyraził słuszne,
+                        moim zdaniem, zastrzeżenia wobec takiego wyjaśnienia źródeł
+                        powiedzenia, które bardziej prawdopodobnie wywodzi się z jakiegoś
+                        rodzaju ludowej opowiastki/bajki (zestawienie kilku przykładów: ibidem).
+                        To jednak nie oznacza, że dane przekazywane przez starożytnych
+                        komentatorów dotyczące rytuału w Koryncie należy uznać za bezwartościowe.
+                        Szczególnie wyraźna jest analogia między tym zwyczajem
+                        a znanym z Aten (a także z Kos) obrzędem bufonii, którego dokonywano
+                        ku czci bóstwa poliadycznego (Zeusa, tę funkcję w Koryncie
+                        sprawowała Hera) i który polegał na przesunięciu odpowiedzialności
+                        za zabicie zwierzęcia na nie samo, przy czym szczególną rolę przypisywano
+                        tu narzędziu, którym je zabijano. Szerzej: ad Ar. <title>Nu</title>. 984–95.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
