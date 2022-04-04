@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Nubes (Νεφέλαι, Nuvole)</title>
+                <title xml:lang="en">Nubes (Νεφέλαι, Clouds) </title>
+                <title xml:lang="pl">Nubes (Νεφέλαι, Chmury)</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">com_04_equites</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><title>Nubes (Νεφέλαι, Chmury)</title>, in Bartłomiej Bednarek, <title>Ofiara krwawa w Grecji starożytnej w świetle danych filologicznych. 
+                    Stara komedia attycka</title>, Warszawa 2017, pp. 159-173</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-02-10" who="Giuseppina Paola Viscardi">encoded document in XML</change>
+                <change when="2017" who="Bartłomiej Bednarek">created document contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--<div type="edition" xml:lang="it">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="intro">
+                    <p>...</p>
+                </div>
+            </div>-->
+            <div type="edition"> <!-- xml:lang="pl" -->
+                <div type="textpart" n="intro">
+                    <p>Komedia wystawiona na Dionizjach Miejskich w 423 r. p.n.e., gdzie otrzymała trzecią nagrodę – ostatnie miejsce w konkursie. Dostępna nam wersja jest efektem zmian, jakie Arystofanes wprowadzał do tekstu w kolejnych latach, lecz nie później niż do 415 r. p.n.e.</p>
+                    <p>Bohaterami utworu są Strepsjades, starzejący się sympatyczny prostak, Fejdippides, jego aspirujący do wyższych sfer syn, oraz Sokrates, częściowo wzorowany na postaci historycznej, hiperbolicznie cyniczny nauczyciel różnych niepotrzebnych mądrości. Na chór składają się wprowadzone przez fikcyjnego Sokratesa boginie-chmury.</p>
+                    <p> Komedia zawiera sporo elementów parodii współczesnej Arystofanesowi dyskusji na tematy teologiczne. W kilku miejscach pojawiają się dość zwięzłe, lecz wartościowe wzmianki dotyczące ofiary krwawej.</p>
+                    <p>Tekst cytuję za wydaniem Dover (1970).</p>
+                </div>
+                
+                <div type="textpart" n="Nubes_254–262">
+                    <head>Nubes 254–262</head>
+                    <p>Strepsjades przybywa do szkoły Sokratesa, by zostać jego uczniem. Tam dowiaduje się, że tradycyjne wierzenia są już nieaktualne, jedynymi bowiem bogami są zjawiska atmosferyczne. Na potwierdzenie swych słów Sokrates szykuje się do wezwania chmur (których chór zaraz potem pojawi się, śpiewając parodos), a nowemu uczniowi nakazuje odpowiednio się do tego przygotować.</p>
+                    <p>Passus zawiera aluzje do dwóch rytuałów: inicjacji i ofiary krwawej. Ten pierwszy stanowi osnowę całej sceny – Arystofanes przedstawił przyjęcie Strepsjadesa do szkoły filozoficznej jako swojego rodzaju wtajemniczenie w misteria czy też włączenie do thiasos wyznawców ezoterycznego kultu. Aluzja do tej sfery pojawia się już w wersie 140, w którym jeden z uczniów Sokratesa oznajmia, że nie wolno rozpowszechniać informacji o tym, co dzieje się w szkole (cf. Marianetti 1992: 44). Skojarzenie nie wydaje się zresztą przypadkowe, jako że stowarzyszenia filozofów (np. pitagorejczyków czy Akademia Platońska) często miewały charakter religijny. Aluzja do rytuału ofiary krwawej ma wymiar przede wszystkim metaliteracki, Strepsjadesowi bowiem wydaje się, że zostanie złożony w ofierze jak bohater tragedii.</p>
+                    <quote>
+                        <lb/><emph>ΣΩΚΡΑΤΗΣ:</emph>
+                        <lb n="254"/>κάθιζε τοίνυν ἐπὶ τὸν ἱερὸν σκίμποδα. 
+                        <lb/><emph>ΣΤΡΕΨΙΑΔΗΣ:</emph>
+                        <lb/>ἰδού, κάθημαι.
+                        <lb/><emph>ΣΩ:</emph>τουτονὶ τοίνυν λαβὲ
+                        <lb/>τὸν στέφανον.
+                        <lb/><emph>ΣΤ:</emph>ἐπὶ τί στέφανον; οἴμοι, Σώκρατες,
+                        <lb/>ὥσπερ με τὸν Ἀθάμανθ' ὅπως μὴ θύσετε.
+                        <lb/><emph>ΣΩ:</emph>οὔκ, ἀλλὰ ταῦτα πάντα τοὺς τελουμένους 
+                        <lb/>ἡμεῖς ποιοῦμεν.
+                        <lb/><emph>ΣΤ:</emph>εἶτα δὴ τί κερδανῶ;
+                        <lb/><emph>ΣΩ:</emph>λέγειν γενήσει τρῖμμα, κρόταλον, παιπάλη.
+                        <lb/>ἀλλ’ ἔχ’ ἀτρεμεί.
+                        <lb/><emph>ΣΤ:</emph>μὰ τὸν Δί’ οὐ ψεύσει γέ με 
+                        <lb/>καταπαττόμενος γὰρ παιπάλη γενήσομαι.
+                    </quote>
+                    
+                    <quote>
+                        <lb/><emph>SOKRATES:</emph>
+                        <lb/>Usiądź więc na świętym tapczanie.
+                        <lb/><emph>STREPSJADES:</emph>
+                        <lb/>No, siedzę.
+                        <lb/><emph>SO.:</emph>Teraz weź ten wieniec.
+                        <lb/><emph>ST.:</emph>Na co wieniec? Ojej, Sokratesie, tylko mnie nie złóżcie w ofierze jak Atamasa!
+                        <lb/><emph>SO.:</emph>Ależ skąd? Zawsze to robimy wtajemniczanym.
+                        <lb/><emph>ST.:</emph>A co mi z tego przyjdzie?
+                        <lb/><emph>SO.:</emph>W mówieniu będziesz zręczny, głośny, otrzaskany. Tylko siedź spokojnie.
+                        <lb/><emph>ST.:</emph>Na Zeusa, to nie kłamstwo! Od tego obrzucania się otrzaskam [lub: od tego obsypywania sam stanę się mąką].
+                    </quote>
+                    <p>254: ἐπὶ τὸν ἱερὸν σκίμποδα – „na świętym tapczanie”; θρόνωσις, czyli zasiadanie inicjowanego na krześle to jeden z rytów, które Platon (Euthyd. 277d) wymienia jako element wtajemniczeń stosowanych przez Korybantów (Dio Chrysostom 12.33 w podobnym kontekście używa słowa θρονιμός). Niemal na pewno mamy tu do czynienia z parodią tego gestu, przy czym, jak sugeruje Sommerstein (1982: ad loc.), θρόνος, czyli „ozdobne krzesło”, „tron”, został tu zastąpiony bez porównania nędzniejszym meblem, licującym z ubóstwem komediowej szkoły Sokratesa.</p>
+                    <p>256: τὸν στέφανον – „wieniec”; wieńcami otaczano głowy, ołtarze, rogi i szyje zwierząt ofiarnych, a także np. naczynia z winem w wielu różnych uroczystych sytuacjach. W tym kontekście może dziwić, że to właśnie wieniec katalizuje przerażenie Strepsjadesa, ponieważ równie dobrze jak ofiarę czy wtajemniczenie mógłby on zapowiadać sympozjon. Należy zatem przypuszczać, że użyty w teatrze rekwizyt, czy też sposób operowania nim posiadał jakąś dodatkową, nieuchwytną dla nas charakterystykę, którą łatwo było skojarzyć z ofiarą.</p>
+                    <p>257: τὸν  ̓Αθάμανθ’ – „Atamasa”; pierwszą żoną tego mitycznego bohatera (cf. e.g. Roscher 1884–1937: s.v. Athamas) była bogini Nephele („Chmura”), co w kontekście przywoływania bogińchmur może stanowić początkowe ogniwo całego łańcucha asocjacji. Z tego pierwszego małżeństwa Atamasa narodzili się Fryksos i Helle. Zakochany w śmiertelnej kobiecie, imieniem Ino, bohater odsunął od siebie boginię. Knowania macochy omal nie doprowadziły do złożenia dzieci w ofierze, lecz uciekły one do Kolchidy na baranie o złotym runie. Scholia do passusu przekazują dosyć niejasną informację o tym, że w ramach jakiegoś rodzaju ekspiacji sam Atamas miał następnie zostać złożony w ofierze (dla swej byłej żony Nefele?), czego uniknął wyłącznie dzięki interwencji Heraklesa. Dwie tragedie na ten temat miał stworzyć Sofokles (Radt 1977: 99). Strepsjades ewidentnie odwołuje się w tym miejscu do tego znanego publiczności tekstu.</p>
+                    <p>258: τοὺς τελουμένους – „wtajemniczanym”; to, co się działo na scenie, ewidentnie przypominało liminalną fazę van Gennepowskiego rytuału przejścia, z czego publiczność czerpała sadystyczną przyjemność. Seaford (1994: 282–283) wykorzystuje omawiany passus, by wykazać, że rytuał ofiary krwawej i wtajemniczenia w kulty misteryjne dzielą wspólną strukturę. Zdaniem uczonego silne oddziaływanie misteriów na emocje miało się wiązać z przeświadczeniem inicjowanego, że dokonywane na nim czynności, podobne do tych, którym poddawano zwierzę ofiarne, skończą się dla niego równie źle, jak dla zwierzęcia. Właściwy moment inicjacji, w ramach tej koncepcji, miał się wiązać z radosnym odkryciem, że obawy były płonne, bo w ostatnim momencie wtajemniczany przestawał być obiektem, a stawał się uczestnikiem rytuału. Niekiedy zamiast niego uśmiercano zwierzę, jak to rzekomo miało miejsce w przypadku misteriów eleuzyńskich, gdzie ofiara z prosięcia – według koncepcji, do której przychyla się Seaford – stanowiła substytut człowieka (na temat słabych punktów tej koncepcji, cf. komentarz do Żab Arystofanesa 337–339). Jakkolwiek omawiany passus wymownie świadczy o tym, że Arystofanes i współcześni mu widzowie byli skłonni dostrzegać podobieństwa pomiędzy ofiarą zwierzęcą i wtajemniczeniami, nic nie wskazuje na to, żeby te związki były bardzo silne i żeby je percypowano poza przestrzenią groteskowego zniekształcenia rzeczywistości. Pozytywistyczne odczytanie tego źródła ze strony Seaforda, choć prowadzi do wyjątkowo ciekawych wniosków, ignoruje niestety to, co w omawianym tekście najistotniejsze, a mianowicie, że utożsamienie ofiary i wtajemniczenia stanowiło źródło komizmu.</p>
+                    <p>260: λέγειν γενήσει τρῖμμα, κρόταλον, παιπάλη – „w mówieniu będziesz zręczny, głośny, otrzaskany”; Strepsjadesowi zależy na tym, by stać się zręcznym mówcą. W tekście pojawiają się potoczne określenia retora.</p>
+                    <p>262: καταπαττόμενος – „od obrzucania”; scholia zawierają konkurencyjne wyjaśnienia, których jeden wariant łączy się z ofiarą krwawą. Znajdujemy tu mianowicie stwierdzenie, że wygłaszając swoją kwestię, Sokrates miał nad głową Strepsjadesa pocierać o siebie kamienie i obsypywać inicjowanego powstałymi w ten sposób okruchami. Tu pojawia się porównanie: καθάπερ τὰ ἱερεῖα ταῖς οὐλαῖς οἱ θύοντες („tak jak ofiarnicy obrzucają jęczmieniem zwierzęta ofiarne”). Do przekazu scholiów dotyczącego performatywnej warstwy dzieła scenicznego trzeba, rzecz jasna, podchodzić z umiarkowanym zaufaniem. Nie wiemy bowiem, w jakim stopniu ich autorzy dysponowali rzetelnymi informacjami, a na ile opierali się na spekulacjach. W omawianym przypadku należy zaznaczyć, że stwierdzenie dotyczące obsypywania Strepsjadesa okruchami kamieni, choć zaskakujące, nieźle pasuje do kontekstu, a przy tym trudno sobie wyobrazić, żeby zostało z niego wydedukowane przez jakiegoś starożytnego intelektualistę. Dlatego można je uznać za dosyć prawdopodobne. Sens takiego działania scenicznego ujawniałby się na dwóch poziomach. (1) Dopełniałby obrazu inicjacji, przynajmniej jeśli za model uznamy wtajemniczenia w misteria Sabazjosa, w których zgodnie ze słowami Demostenesa (18.259, cf. Wankel 1976: ad loc.) Ajschines miał asystować w oczyszczeniach z twarzą pomazaną gliną i plewami (cf. Dover 1968: ad loc.; Sommerstein 1982: ad loc.). (2) Jednocześnie pokrycie twarzy pyłem z kruszonych kamieni uczyniłoby Strepsjadesa białym, a tym samym podobnym do innych uczniów szkoły Sokratesa, scharakteryzowanych wielokrotnie w tekście jako całkowicie pozbawionych opalenizny. Z drugiej strony, ten sam efekt gry na alternatywnych znaczeniach można było sięgnąć, po prostu obsypując Strepsjadesa drobną mąką, co w gruncie rzeczy jego słowa (καταπαττόμενος παιπάλη γενήσομαι) zdają się w sposób precyzyjny sygnalizować, można je bowiem przetłumaczyć jako „od tego obsypywania [sam] stanę się mąką”. Kluczowe dla nas stwierdzenie scholiasty, zgodnie z którym Strepsjadesa czymś obsypywano, tak jak zwierzę ofiarne jęczmieniem, wydaje się bardzo mało wnosić do zrozumienia tego miejsca. Przed ubojem ofiary obsypywano jęczmieniem określanym w takim kontekście jako οὐλαί lub οὐλοχύται, niemniej starożytne źródła kładą duży nacisk na fakt, że ziarna miały być całe (e.g. Porph. Abst. 2.5; Sch. Il. 1.449; Suda o 907), a tym samym zasadniczo różne od tego, co określa użyte tu słowo παιπάλη („drobne krupy” lub „mąka”). Jest zatem możliwe, że wzmianka o analogii pomiędzy tą fazą wtajemniczenia Strepsjadesa a ofiarą zwierzęcą jest wyłącznie efektem skojarzeń scholiasty, który miał w pamięci wcześniejszy przestrach bohatera przed śmiercią na ołtarzu. W ramach takiej interpretacji obsypywanie bohatera białym proszkiem nie miało w zamierzeniu Arystofanesa wywoływać asocjacji z ofiarą.</p>
+                </div>
+            </div>
+            
+            <div type="textpart" n="Nubes_274">
+                <head>Nubes 274</head>
+                <p>W kontekście modlitwy do chmur Sokrates wzywa boginie do przyjęcia ofiary:</p>
+                
+                <quote>
+                    <lb/>ὑπακούσατε δεξάμεναι θυσίαν καὶ τοῖς ἱεροῖσι χαρεῖσαι.
+                </quote>
+                
+                <quote>
+                    <lb/>Wysłuchajcie modlitwy, przyjmując ofiarę iciesząc się zoddanej wam czci.
+                </quote>
+                                    
+                <p>δεξάμεναι θυσίαν – „przyjmując ofiarę”; Sokrates kończy modlitwę serią uroczystych formuł, które mogłyby towarzyszyć ofierze krwawej (cf. e.g. Lys. 204). Użyte przez niego słowo θυσία zdaje się takie znaczenie sugerować, jednak w omawianym miejscu nic nie wskazuje na to, żeby chodziło o zarzynane dla bogiń zwierzę (tej roli najprawdopodobniej nie odgrywa także Strepsjades wbrew temu, co mogłoby sugerować komiczne nieporozumienie z wersu 257). Komentatorzy (Sommerstein 1982: ad loc.; Dover 1968: ad loc.) słusznie stwierdzają, że w tym miejscu wyrazowi należy przypisać nieco inne z całego spektrum jego znaczeń. Możliwe, że odnosi się ono do spalanego w czasie modlitwy kadzidła. Z drugiej strony, nie sposób wykluczyć, że akcja sceniczna wprowadzała w tym miejscu komizm wynikający z tego, że aktor składał boginiom dar z jakiegoś przedmiotu, który kompletnie się do tego nie nadawał.</p>
+            </div>
+            
+            <div type="textpart" n="Nubes_305-310">
+                <head>Nubes 305-310</head>
+                <p>Passus pochodzący z pieśni chóru w sposób dość standardowy opisujący pobożność Ateńczyków. Dover (1968: ad loc.) zaznacza, że mamy tu do czynienia z toposem literatury ateńskiej okresu klasycznego, zgodnie z którym ilość świąt obchodzonych w Attyce stanowić miała dowód pobożności jej mieszkańców, a zatem i powód do chluby (cf. S. OC 1006–1007; Th. 2.38.1; X. Ath. 3.2, 3.8; Isocr. 4.43–46, etc.).</p>
+                
+                <quote>
+                    <lb n="305"/>οὐρανίοις τε θεοῖς δωρήματα,
+                    <lb/>ναοί θ' ὑψερεφεῖς καὶ ἀγάλματα,
+                    <lb/>καὶ πρόσοδοι μακάρων ἱερώταται 
+                    <lb/>εὐστέφανοί τε θεῶν θυσίαι θαλίαι τε 
+                    <lb/>παντοδαπαῖσιν ὥραις.
+                </quote>
+                
+                <quote>
+                    <lb/>Dary dla bogów niebiańskich, świątynie o wysokich dachach i posągi, pochody odświętne ku czci szczęsnych bóstw, zdobne w wieniec obrzędy ofiarne i uczty we wszystkich porach roku.
+                </quote>
+                
+                <p>οὐρανίοις τε θεοῖς – „dla bogów niebiańskich”; w odróżnieniu od Demeter i Persefony, których misteria zostały wymienione we wcześniejszej partii tekstu.</p>
+                <p>δωρήματα – „dary”; tekst wymienia sześć form oddawania bogom czci, przy czym wyraźnie przynależą one do dwóch odrębnych kategorii: dary, świątynie, posągi to materialne przejawy kultu, rzeczy dawane bogom. Pochody, ofiary, uczty to trzy typy działań składające się na podstawowy program święta (które mogło obejmować dodatkowe elementy, takie jak zawody sportowe lub muzyczne). Użyty tu rzeczownik δωρήματα jest rzadszym synonimem wyrazu δῶρα. Można się domyślać, że ta obszerna kategoria obejmuje rozmaite wota, takie jak peplos, który Ateńczycy dawali Atenie w czasie Panatenajów.</p>
+                <p>ναοί θ’ ὑψερεφεῖς – „świątynie o wysokich dachach”; chociaż formuła taka nie pojawia się u Homera, można ją uznać za wyraźne nawiązanie do tradycji epickiej. Sam przymiotnik ὑψερεφής poza eposem, w którym reprezentowany jest dosyć obficie (dwa razy w Iliadzie, jedenaście w Odysei), występuje wyłącznie sporadycznie. Całość obrazu świątyni o wysokim dachu wywołuje skojarzenie z modlitwą Chryzesa z Iliady (1.39): εἴ ποτέ τοι χαρίεντ’ ἐπὶ νηὸν ἔρεψα („jeśli kiedyś miłą tobie świątynię przykryłem dachem”).</p>
+                <p>πρόσοδοι, θυσίαι, θαλίαι – „pochody, ofiary, uczty”; ponieważ chór podkreśla wielość działań, jakie Ateńczycy podejmowali ku czci bogów, wymieniono tu z osobna trzy elementy, które w ramach bardziej ekonomicznego przekazu opisano by jednym słowem: θυσίαι. Πρόσοδος to uroczysta procesja, w której prowadzono zwierzęta do ołtarza, a także niesiono potrzebne do przeprowadzenia rytuału przedmioty, częściej określana bywa rzeczownikiem πομπή (cf. ad Ar. Av. 809–1060, 849; Ach. 237–279; Ec. 730–745). Θυσία, czyli ofiara sensu stricto, jak narzuca to obecny kontekst, to część święta rozgrywająca się przy ołtarzu, od chwili gdy procesja do niego dotrze, aż do momentu gdy spalone zostaną udźce oraz (przynajmniej niekiedy) kość krzyżowa z ogonem. Nad nimi opiekano σπλάγχνα, czyli trzewia zwierzęcia, których skosztowanie zamykało proces rytualny (cf. e.g. Il. 1.464). Kolejnym elementem typowego święta ku czci bogów olimpijskich była θαλία, czyli uczta, na którą składało się mięso uprzednio ubitych ofiar i/lub ugotowana na tym mięsie zupa (ζωμός). Demetrios Triclinios w swoim komentarzu do Chmur (ad 386) z XIII w. stwierdza, że w czasie Panatenajów zamożni jedli mięso, a ubodzy wywar. Jakkolwiek jest to możliwe, trudno powiedzieć, czy bizantyński erudyta opiera to stwierdzenie na czymkolwiek więcej niż własna intuicja. Trudno je w każdym razie pogodzić z faktem, że inskrypcyjnie poświadczony jest podział mięsa wśród ogółu obywateli (LSCG 33B 25–27; cf. Parker 2005: 266–268).</p>
+            </div>
+            
+            <div type="textpart" n="Nubes_425-426">
+                    <head>Nubes 425-426</head>
+                <p>Swój wywód na temat nieistnienia tradycyjnych bogów Sokrates kończy pytaniem, czy Strepsjades będzie uznawał jakiekolwiek bóstwo poza zjawiskami, które wyznają jego uczniowie. Prostoduszny Strepsjades udziela odpowiedzi, którą uważa za właściwą, jednocześnie zdradzając, jak mało zrozumiał z wykładu filozofa. O ile bowiem komediowemu Sokratesowi chodziło o to, że Zeus i jemu podobni nieśmiertelni nigdy nie istnieli, zatem wiara w nich powinna należeć do przeszłości, jego rozmówca sądzi, że niebianie jak istnieli, tak istnieją, lecz niedawno stracili władzę na rzecz innych istot.</p>
+                    
+                <quote>
+                    <lb/><emph>ΣΤΡΕΨΙΑΔΗΣ:</emph>
+                    <lb/>οὐδ’ ἂν διαλεχθείην γ’ ἀτεχνῶς τοῖς ἄλλοις οὐδ’ ἂν ἀπαντῶν, 
+                    <lb/>οὐδ’ ἂν θύσαιμ’ οὐδ’ ἂν σπείσαιμ’ οὐδ’ ἐπιθείην λιβανωτόν.
+                </quote>
+                
+                    <quote>
+                        <lb/><emph>STREPSJADES:</emph>
+                        <lb/>Nawet bym się nie odezwał, gdybym któregoś z tych innych [bogów] spotkał, ani bym mu ofiary nie złożył, ani nie wylał libacji, ani kadzidła nie spalił.
+                    </quote>
+                    
+                <p>O ile cytowany wcześniej passus (305–310) wylicza typowe formy kultu publicznego, Strepsjades wymienia (po partykułach przeczących) trzy rodzaje zachowań rytualnych o charakterze prywatnym. Ofiara krwawa, jak widać, przynależy do obu porządków.</p>
+                </div>
+            
+            <div type="textpart" n="Nubes_577–579">
+                <head>Nubes 577–579</head>
+                <p>Chmury wyliczają dobrodziejstwa, jakie spływają na ludzi dzięki zsyłanym przez nie deszczom i stwierdzają, że Ateńczycy nie okazują im wdzięczności.</p>
+                    
+                <quote>
+                    <lb/>πλεῖστα γὰρ θεῶν ἁπάντων ὠφελούσαις τὴν πόλιν 
+                    <lb/>δαιμόνων ἡμῖν μόναις οὐ θύετ' οὐδὲ σπένδετε, 
+                    <lb/>αἵτινες τηροῦμεν ὑμᾶς.     
+                </quote>
+                
+                    <quote>
+                        <lb/>Choć najbardziej spośród bogów pomagamy temu miastu i troszczymy się o was, nam jednym nie składacie ofiar i nie wylewacie libacji.
+                    </quote>
+                
+                <p>Miejsce to ma wartość trojakiego rodzaju:
+                    1) wskazuje na to, że w czasach Arystofanesa nie oddawano w Atenach boskiej czci chmurom;
+                    2) stanowi ilustrację dość oczywistego skądinąd stwierdzenia, że jednym z celów odbywania rytuałów było odwzajemnienie dobra, jakiego ludzie doświadczali od bogów;
+                    3) składanie ofiar i wylewanie libacji postrzegano jako przejaw uznawania kogoś za boga. Znamienne, że Ksenofont w swoich Memorabiliach (1.1.2) zaczyna odpieranie zarzutów o bezbożność Sokratesa właśnie od stwierdzenia, że widywano go w czasie składania ofiar publicznych i prywatnych.</p>
+                </div>
+            
+            <div type="textpart" n="Nubes_610-626">
+                <head>Nubes 610-626</head>
+                <p>Wypowiedź stanowi część parabazy, w której chór (wciąż zachowując swoją fikcyjną tożsamość chmur) przekazuje wiadomości od bogini Księżyca, Selene. W tym miejscu mamy do czynienia z interesującą grą kategoriami teologicznymi: negatywny bohater komedii (którego poglądy są ukazane jako niedorzeczne), Sokrates, okazuje się bezbożny, ponieważ nie uznaje tradycyjnych bóstw, wprowadzając w ich miejsce ubóstwione zjawiska meteorologiczne i atmosferyczne. W ramach komediowej fikcji część spośród tych istot (chmury) okazuje się jednak rzeczywiście boska. W omawianym passusie chór implicite zwraca uwagę publiczności również na to, że pewne ciała niebieskie, takie jak Księżyc przynależą także do tradycyjnego panteonu. Choć Arystofanes był poetą, a nie filozofem, wydaje się jasne, że w sposób celowy wprowadził do utworu te trzy poziomy rzeczywistej i rzekomej boskości, tworząc łamigłówkę bez rozwiązania.</p>
+                
+                <quote>
+                    <lb n="610"/>δεινὰ γὰρ πεπονθέναι 
+                    <lb/>ὠφελοῦσ’ ὑμᾶς ἅπαντας οὐ λόγοις ἀλλ’ ἐμφανῶς· 
+                    <lb/>πρῶτα μὲν τοῦ μηνὸς εἰς δᾶιδ’ οὐκ ἔλαττον ἢ δραχμήν, 
+                    <lb/>ὥστε καὶ λέγειν ἅπαντας ἐξιόντας ἑσπέρας
+                    “μὴ πρίηι, παῖ, δᾶιδ’, ἐπειδὴ φῶς Σεληναίης καλόν.” 
+                    <lb n="615"/>ἄλλα τ’ εὖ δρᾶν φησιν, ὑμᾶς δ’ οὐκ ἄγειν τὰς ἡμέρας
+                    <lb/>οὐδὲν ὀρθῶς, ἀλλ’ ἄνω τε καὶ κάτω κυδοιδοπᾶν, 
+                    <lb/>ὥστ’ ἀπειλεῖν φησιν αὐτῆι τοὺς θεοὺς ἑκάστοτε, 
+                    <lb/>ἡνίκ’ ἂν ψευσθῶσι δείπνου κἀπίωσιν οἴκαδε
+                    <lb/>τῆς ἑορτῆς μὴ τυχόντες κατὰ λόγον τῶν ἡμερῶν.
+                    <lb n="620"/>κἆιθ’ ὅταν θύειν δέηι, στρεβλοῦτε καὶ δικάζετε, 
+                    <lb/>πολλάκις δ’ ἡμῶν ἀγόντων τῶν θεῶν ἀπαστίαν,
+                    <lb/>ἡνίκ’ ἂν πενθῶμεν ἢ τὸν Μέμνον’ ἢ Σαρπηδόνα, 
+                    <lb/>σπένδεθ’ ὑμεῖς καὶ γελᾶτ’· ἀνθ’ ὧν λαχὼν  ̔Υπέρβολος 
+                    <lb/>τῆτες ἱερομνημονεῖν κἄπειθ’ ὑφ’ ἡμῶν τῶν θεῶν
+                    <lb n="625"/>τὸν στέφανον ἀφηιρέθη· μᾶλλον γὰρ οὕτως εἴσεται 
+                    <lb/>κατὰ σελήνην ὡς ἄγειν χρὴ τοῦ βίου τὰς ἡμέρας.
+                </quote>
+                
+                    <quote>
+                        <lb/>[Selene mówi], że wiele przez was cierpi, choć wszystkim wam pomaga i to nie w słowach, lecz tak, że to widać gołym okiem. Przede wszystkim, nie mniej niż drachmę oszczędzacie na świetle, bo gdy wychodzicie co wieczór, mówicie do niewolnika, „nie kupuj pochodni, skoro tak piękny jest księżyc”. Powiada także, że wyświadcza wam i inne przysługi, lecz wy nie liczycie dni jak trzeba [615] i robicie zamieszanie, skutkiem czego bogowie wygrażają jej, ilekroć nie trafią na posiłek i odchodzą do domu, po tym, jak święto nie odbywa się w wyznaczonym dniu. I znowu, gdy trzeba składać ofiary, wy torturujecie świadków i sądzicie się. [620] Gdy my, bogowie, odbywamy post w żałobie po Memnonie czy Sarpedonie, wy śmiejecie się wśród libacji. To dlatego Hyperbolos, gdy został wyznaczony na stanowisko hieromnemona, my odebraliśmy mu wieniec. Będzie teraz wiedział,[625] jak żyć w zgodzie z rytmem Księżyca.
+                    </quote>
+                
+                <p>Kilkanaście lat po wystawieniu Chmur do ateńskiego kalendarza liturgicznego wprowadzono szereg zmian i poprawek. Lambert (2002: 354) podaje, że odbyło się to w dwóch etapach, zawierających się w zakresie dat 410/409–405/404 i 403/402–400/399. Efekt stanowi kalendarz fragmentarycznie zachowany jako inskrypcja z ateńskiej Agory (kanoniczne wydanie: Lambert 2002). Reprezentuje ona dobrze znany typ piśmiennictwa. Korpus CGRN zawiera 26 podobnych tekstów z obszaru całego świata greckiego, datowanych na okres już od pierwszej ćwierci VI w. W Atenach wcześniejszej kodyfikacji kalendarza rytualnego mieli dokonać legendarni prawodawcy, Drakon i Solon (Lambert 2002: 354; Parker 1996: 43–55). Charakterystyczną cechą greckich kalendarzy (odróżniającą je np. od analogicznych dokumentów z Babilonu) jest ich lakoniczność. Najczęściej obok imienia bóstwa figuruje tu tylko gatunek zwierzęcia składanego w ofierze, czasami pojawiają się dodatkowe dane, dotyczące np. użycia wina, czy podziału ciała zwierzęcia. Regularnie i obligatoryjnie pojawiają się za to kwoty pieniężne przeznaczone na zakup ofiary i – ewentualnie – różnych materiałów, np. drewna. Kalendarz z Erchii (LSCG 18), co więcej, w całości podzielony jest na pięć kolumn, zestawionych w taki sposób, by pozycje uwzględnione w każdej z nich dawały równą sumę. To, jak sugeruje Parker (1996: 53), wskazuje na to, że zasadnicza funkcja dokumentów sprowadzała się do regulowania publicznych wydatków. Nie stanowiły one zatem w ścisłym sensie instrukcji dla osób przeprowadzających obrzędy. Problem, na który zwraca uwagę Arystofanes, być może zatem nie ma charakteru ściśle religijnego. Z jednej bowiem strony znamienne wydaje się, że uwagi dotyczące nieporządku w kalendarzu liturgicznym pojawiają się w parabazie, a zatem w tej części utworu, w której chór zwraca uwagę publiczności na istotne kwestie społeczne. Widocznie problem wydawał się poecie poważny. Z drugiej strony, zawarte w passusie uzasadnienie teologiczne, zgodnie z którym skrajnie antropomorficzni bogowie złoszczą się, ponieważ nie trafiają na świąteczne posiłki, wydaje się wyłącznie komicznym dodatkiem, który tylko odwraca uwagę od sedna sprawy. Być może centralne znaczenie ma tu końcowa partia cytowanego passusu, w którym mowa o nieszczęściu, jakie słusznie dotknęło Hyperbolosa. Wzmianka ta jest niestety niejasna, o czym poniżej.</p>
+                <p>620: στρεβλοῦτε καὶ δικάζετε – „torturujecie świadków i sądzicie się”; chodzi o tortury, przy pomocy których uzyskiwano zeznania od niewolników. Normalnie w czasie świąt sądy nie zbierały się (cf. X. Ath. 3.8).</p>
+                <p>621: ἡμῶν ἀγόντων τῶν θεῶν ἀπαστίαν – „gdy my, bogowie, odbywamy post”; Starkie (1966: ad loc.) zwraca uwagę na niezwykłość tego zwrotu. Wyraz ἀ-παστία, którego struktura jest przejrzysta i ewidentnie odwołuje się do „nie-jedzenia”, a więc do postu, po grecku określanego rzeczownikiem νηστεῖα, nigdzie poza tym miejscem nie pojawia się. Prawdopodobnie zatem jest komicznym neologizmem. Związek frazeologiczny ἀπαστίαν ἄγω („obchodzić nie-jedzenie”) może sugerować, że chodzi o fikcyjne święto obchodzone przez bogów.</p>
+                <p>622: ἢ τὸν Μέμνον’ ἢ Σαρπηδόνα – „po Memnonie czy Sarpedonie”; bohaterowie wojny trojańskiej, którzy walczyli po stronie Trojan i zginęli zabici przez Achajów (odpowiednio: Achillesa i Patroklosa). Pierwszy był synem Eos, drugi Zeusa.</p>
+                <p>623:  ̔Υπέρβολος – „Hyperbolos”; demagog aktywny w czasach Arystofanesa, atakowany przez niego (i innych komediopisarzy) w różnych utworach (e.g. Eq. 1304; Pax 681; o komediach w całości napisanych przez innych poetów, m.in. Hermipposa, wyśmiewających Hyperbolosa i jego matkę, Arystofanes wspomina w Chmurach 551–559). Nieco dalej w tekście (1065) jest mowa o tym, że Hyperbolos dorobił się sporego majątku „na lampach” (τῶν λύχνων), tzn. najprawdopodobniej, produkując i sprzedając je. Jakkolwiek brak silnych przesłanek, być może ten aspekt działalności demagoga jest bardziej istotny dla treści utworu niż mogłoby się w pierwszej chwili wydawać. Jest bowiem znamienne, że w prologu, gdy Strepsjades podlicza swoje długi, pojawia się krótki dialog (56–57) między nim a niewolnikiem, dotyczący lampy, która konsumuje zbyt dużo oliwy. Jeśli źródło zamożności Hyperbolosa było w czasach wystawienia Chmur gorącym tematem, owa wzmianka w sposób oczywisty stanowić mogła aluzję do czegoś oczywistego dla publiczności. Cytowany tu passus zaczyna się podkreśleniem przewagi naturalnego światła Księżyca nad sztucznym, a kończy uwagą o jakiegoś rodzaju „lekcji”, którą producent lamp dostał „ucząc się żyć według Księżyca”. Dokładne znaczenie ustępu pozostaje jednak niejasne, ta niejasność zaś przekłada się na wątpliwości dotyczące kwestii kalendarza rytualnego, poruszonej w nim.</p>
+                <p>624: ἱερομνημονεῖν – „na stanowisko hieromnemona”; dane inskrypcyjne (Hepding 1913, uzupełnienie w: Parker 1996: 52) wskazują na to, że urząd o tej nazwie sprawowano w różnych częściach Grecji, a jego znaczenie bywało rozmaite. Na przykład Plutarch (Qu. Conv. 730d) stwierdza, że Hieromnemon to tytuł kapłana Posejdona. Częściej jednak hieromnemon to rodzaj sekretarza zajmującego się w imieniu społeczności sprawami kultu, co pozostaje w wyraźnej zgodzie z tym, co sugeruje struktura złożenia, gdzie człon -mnem- odwołuje się do zachowywania w pamięci przepisów rytualnych lub innych spraw związanych administracją sanktuariów. Niczego pewnego nie wiadomo na temat powołania na to stanowisko Hyperbolosa, niemniej jednak w tym kontekście wzmianka o chaosie w kalendarzu liturgicznym lub o nieprzestrzeganiu kalendarza liturgicznego wydaje się mieć sporo sensu. Widocznie bowiem urzędnik ten w jakimś sensie odpowiadał za układ kalendarza, a w każdym razie zobowiązany był do przestrzegania go. Nie jest niestety jasne, co Arystofanes miał na myśli, mówiąc, że za sprawą bogów demagog utracił wieniec, będący wyraźnie atrybutem pełnionego urzędu. Możliwe, że z jakiegoś powodu Hyperbolos został pozbawiony zaszczytnej funkcji. Z drugiej strony, jak sugeruje Starkie (1966: ad loc. jest to jednak wyłącznie przypuszczenie), Arystofanes nawiązuje do jakiegoś zabawnego wydarzenia, gdy wiatr (w sensie zupełnie dosłownym) porwał wieniec z głowy hieromnemona, w czasie wykonywania przez niego oficjalnych obowiązków.</p>
+            </div>
+            
+            <div type="textpart" n="Nubes_984–985">
+                <head>Nubes 984–985</head>
+                <p>W groteskowej dyskusji pomiędzy personifikowanym Silnym i Słabym Argumentem, ten drugi z lekceważeniem odnosi się do uświęconych tradycją form wychowania, porównując je do innych archaicznych (lub kojarzonych z archaicznymi) zjawisk kulturowych.</p>
+                
+                <quote>
+                    <lb/>ἀρχαῖά γε καὶ Διπολιώδη 
+                    <lb/>καὶ τεττίγων ἀνάμεστα καὶ Κηδείδου καὶ Βουφονίων.
+                </quote>
+                
+                <quote>
+                    <lb/>To stare i pełne cykadowych spinek, Kedejdosa i bufonii!
+                </quote>
+                
+                <p>τεττίγων – „cykadowych spinek”; chodzi o rodzaj ozdób noszonych we włosach w okresie wojen perskich.</p>
+                <p>Κηδείδου – „Kedejdosa”; był to współczesny Arystofanesowi, bardzo zachowawczy poeta dytyrambiczny.</p>
+                <p>Βουφονίων – „bufonii”; bufonia to jeden z obrzędów składających się na program święta ku czci Zeusa Polieusa, diipoleia. W celu przeprowadzenia go, na ateński Akropol wpuszczano grupę wołów, a na ołtarzu umieszczano zboże lub ciastka. Zwierzę, które pierwsze sięgnęło po pokarm, zabijano. Mężczyzna, który wymierzał mu cios toporkiem, porzucał narzędzie i uciekał. Pozostali uczestnicy konsumowali mięso, a kości spalano na ołtarzu. Skórę wołu wypychano, jak gdyby przywracając go do życia. Wszystkich, którzy wzięli udział w wydarzeniu i w jakiś sposób przyczynili się do uśmiercenia zwierzęcia (włączając w to dziewczęta, które przyniosły wodę), poddawano symbolicznemu sądowi przed archontem. Kiedy jednak wszyscy zrzucali winę na kogoś innego, karę wymierzano samemu narzędziu: toporowi i/lub nożowi. Według Porfiriusza rytuał ten na polecenie wyroczni odbywano co roku na pamiątkę wydarzenia, które poszczególne jego części miały naśladować i które miało być pierwszym w historii mordem na zwierzęciu, który doprowadził do wynalezienia procedury ofiarniczej. Różniące się co do szczegółów opisy: Scholia: ad loc.; Porph. Abst. 2.28–30; Paus. 1.24. Bufonia stały się szczególnie istotnym rytuałem dla Burkerta (przede wszystkim 1983: 136–143, cf. Durand 1986), który w strukturze obrzędu dopatrywał się szczególnie wyrazistego przypadku „komedii niewinności”, która miała na celu wyeliminowanie poczucia winy uczestników mordu na zwierzęciu, a wiążącego się z wszelkimi aktami przemocy wewnątrzi międzygatunkowej. Jakkolwiek starożytni byli przekonani o bardzo starym rodowodzie obrzędu, brak na ten temat danych. Jedyne, co można powiedzieć, to że w chwili pierwszego poświadczenia nazwy Bouphonia w omawianym tu miejscu wyraźnie odczuwano, że chodzi o archaiczny rytuał. Cf. fr. adesp. 483.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
