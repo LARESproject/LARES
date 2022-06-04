@@ -265,7 +265,7 @@
   </xsl:template>
 
   <xsl:template name="field_support_material">
-    <xsl:apply-templates mode="facet_support_material" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:material[@ref]" />
+    <xsl:apply-templates mode="facet_support_material" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc//tei:support//tei:material[@ref]" />
   </xsl:template>
   
   <xsl:template name="field_origin_date_evidence">
@@ -273,7 +273,7 @@
   </xsl:template>
 
   <xsl:template name="field_support_object_type">
-    <xsl:apply-templates mode="facet_support_object_type" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:objectType[@ref]" />
+    <xsl:apply-templates mode="facet_support_object_type" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support//tei:objectType[@ref]" />
   </xsl:template>
 
   <xsl:template name="field_text">
