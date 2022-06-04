@@ -4,15 +4,9 @@
   <q default="true">*</q>
   <document_type>(tei or epidoc)</document_type>
   <facet>true</facet>
-  <!--<facet.field>found_provenance</facet.field>
-  <facet.field>origin_place</facet.field>
-  <facet.field>source_repository</facet.field>
-  <facet.field>support_material</facet.field>
-  <facet.field>support_object_type</facet.field>-->
   <facet.field>entry_type</facet.field> 
   <facet.field>field</facet.field> 
   <facet.field>realm</facet.field> 
-  <!--<facet.field>origin_date_evidence</facet.field>-->
   <facet.field>places</facet.field>
   <facet.field>literary_and_mythological_characters</facet.field>
   <facet.limit>-1</facet.limit>

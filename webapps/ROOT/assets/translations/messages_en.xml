@@ -22,4 +22,9 @@
   <message key="II. Old Attic Comedy">II. Old Attic Comedy</message>
   <message key="III. Corpus Platonicum. Corpus Hippocraticum">III. Corpus Platonicum. Corpus Hippocraticum</message>
   <message key="IV. Homer">IV. Homer</message>
+  <message key="facet-entry_type">Entry Type</message>
+  <message key="facet-field">Field</message>
+  <message key="facet-realm">Realm</message>
+  <message key="facet-places">Places</message>
+  <message key="facet-literary_and_mythological_characters">Literary and Mythological Characters</message>
 </catalogue>
