@@ -1,0 +1,14 @@
+CONTENUTI
+Tutti i file xml utili sono nella cartella webapps/ROOT/content/xml/epidoc, che contiene sia i file xml del lessico (che iniziano con 'lexicon_') che i capitoli delle 4 monografie polacche della sezione 'Book chapters' (i file che iniziano con 'hom_', 'trag_', 'com_' e 'cpch_').
+La cartella webapps/ROOT/content/templates contiene i template per i capitoli dei volumi, per le schede del lessico e per i testi greci (categoria prevista inizialmente ma mai stata usata).
+NB: tutti i capitoli e le schede del lessico (tranne lexicon_krites_en_hadou, lexicon_mythos, lexicon_religio e lexicon_bareia_cheir) sono state tradotte dal polacco in IT/EN con tecniche AI e necessitano di controllo.
+ 
+MARCATURA
+Le convenzioni interne per la marcatura EpiDoc sono in corso di definizione; lexicon_bareia_cheir.xml è l'esempio più completo di file marcato. Elementi utilizzati finora:
+- Greek and Latin terms (+ automatic links to Logeion): <w lemma=""> (it is enough to specify the Greek/Latin base form inside @lemma to create an automatic link to the lemma entry on Logeion)
+- Ancient sources: <ref type="lit/ins/pap">
+- Religious terms based on their field/realm: <rs key=""> (the field/realm @key values are still to be defined)
+- Literary and mythological characters: <persName type="divine/hero/myth/literary" key="">
+- Historical figures: <persName key="">
+- Places: <placeName key="">
+- Links to TLG, Perseus, LARES entries, bibliography: <ref corresp="">
