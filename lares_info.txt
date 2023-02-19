@@ -1,3 +1,12 @@
+ASPETTI TECNICI
+- GitHub repository: https://github.com/LARESproject/LARES 
+- EFES documentation: https://github.com/EpiDoc/EFES/wiki 
+- Website: https://lares-lexicon.unibo.it/
+
+Per lavorare sui file occorre clonare il repository da GitHub e creare/modificare i file XML sul proprio computer tramite un editor (e.g. Oxygen XML Editor), mantenendo la sincronizzazione con GitHub tramite GitHub Desktop.
+Da GitHub il sito, realizzato con EFES, viene aggiornato automaticamente; alcune parti (come le singole schede) sono aggiornate ogni 5 minuti, altre parti (come gli indici e le liste dei documenti) sono aggiornate una volta al giorno all'1.01 di notte.
+Da https://github.com/LARESproject/LARES/settings/access è possibile aggiungere nuovi collaboratori.
+
 CONTENUTI
 Tutti i file xml utili sono nella cartella webapps/ROOT/content/xml/epidoc, che contiene sia i file xml del lessico (che iniziano con 'lexicon_') che i capitoli delle 4 monografie polacche della sezione 'Book chapters' (i file che iniziano con 'hom_', 'trag_', 'com_' e 'cpch_').
 La cartella webapps/ROOT/content/templates contiene i template per i capitoli dei volumi, per le schede del lessico e per i testi greci (categoria prevista inizialmente ma mai stata usata).
