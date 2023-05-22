@@ -25,7 +25,8 @@ LARES: DOCUMENTAZIONE TECNICA
 - GitHub repository: https://github.com/LARESproject/LARES 
 - EFES documentation: https://github.com/EpiDoc/EFES/wiki 
 - Sito: https://lares-lexicon.unibo.it/ (credenziali: [...])
-- Accesso al server via SSH: [...] (username e password: quelli della propria mail unibo, previa autorizzazione)
+- Accesso al server: ssh xxx@personale.dir.unibo.it@lares-lexicon.unibo.it (credenziali unibo, previa autorizzazione e uso di VPN)
+- FortiClient VPN: Unibo VPN, -, vpn.unibo.it, 443, None, Save login; credenziali unibo
 
 - NB: dopo che si modificano file .xsl occorre spegnere e riavviare EFES sul server
 - NB: se l'aggiornamento automatico non funziona più, ri-associare un account di GitHub (che abbia accesso al repository) con `sudo gh auth login`
