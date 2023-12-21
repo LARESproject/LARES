@@ -5,7 +5,7 @@
   <document_type>(tei or epidoc)</document_type>
   <facet>true</facet>
   <facet.field>entry_type</facet.field> 
-  <facet.field>field</facet.field> 
+  <!--<facet.field>field</facet.field>-->
   <facet.field>realm</facet.field> 
   <facet.field>places</facet.field>
   <facet.field>literary_and_mythological_characters</facet.field>

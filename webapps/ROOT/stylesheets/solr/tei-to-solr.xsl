@@ -56,7 +56,7 @@
     </field>
   </xsl:template>
   
-  <xsl:template match="tei:rs[@key]" mode="facet_field">
+  <!--<xsl:template match="tei:rs[@key]" mode="facet_field">
     <xsl:for-each select="tokenize(@key, ' ')">
       <xsl:variable name="realm" select="."/>
       <xsl:variable name="thesaurus" select="document('../../content/lares_framework/resources/thesaurus.xml')/tei:TEI/tei:teiHeader/tei:encodingDesc/tei:classDecl/tei:taxonomy/tei:category[not(ancestor::tei:category)][descendant::tei:category[@xml:id=$realm]]/tei:gloss[@xml:lang='en']"/>
@@ -64,21 +64,13 @@
         <xsl:value-of select="$thesaurus"/>
       </field>
     </xsl:for-each>
-  </xsl:template>
+  </xsl:template>-->
   
   <xsl:template match="tei:rs[@key]" mode="facet_realm">
     <xsl:for-each select="tokenize(@key, ' ')">
     <xsl:variable name="realm" select="."/>
-    <xsl:variable name="thesaurus" select="document('../../content/lares_framework/resources/thesaurus.xml')/tei:TEI/tei:teiHeader/tei:encodingDesc/tei:classDecl/tei:taxonomy"/>
     <field name="realm">
-      <xsl:choose>
-        <xsl:when test="$thesaurus//tei:category[@xml:id=$realm]">
-          <xsl:value-of select="concat($thesaurus//tei:category[@xml:id=$realm]/@n, ': ', $thesaurus//tei:category[@xml:id=$realm]/tei:gloss[@xml:lang='en'])"/>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:value-of select="$realm" />
-        </xsl:otherwise>
-      </xsl:choose>
+      <xsl:value-of select="$realm" />
     </field>
     </xsl:for-each>
   </xsl:template>
@@ -92,7 +84,7 @@
     <xsl:call-template name="field_literary_and_mythological_characters"/>
     <xsl:call-template name="field_person_name"/>
     <xsl:call-template name="field_complete_edition"/>
-    <xsl:call-template name="field_field"/>
+    <!--<xsl:call-template name="field_field"/>-->
     <xsl:call-template name="field_realm"/>
   </xsl:template>
   
@@ -112,9 +104,9 @@
     <xsl:apply-templates mode="facet_complete_edition" select="/tei:TEI" />
   </xsl:template>
   
-  <xsl:template name="field_field">
+  <!--<xsl:template name="field_field">
     <xsl:apply-templates mode="facet_field" select="//tei:text/tei:body/tei:div[@type='edition']" />
-  </xsl:template>
+  </xsl:template>-->
   
   <xsl:template name="field_realm">
     <xsl:apply-templates mode="facet_realm" select="//tei:text/tei:body/tei:div[@type='edition']" />

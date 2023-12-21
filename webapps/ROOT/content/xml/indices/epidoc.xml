@@ -28,10 +28,10 @@
       
       
       <div xml:id="realms">
-        <head>Fields and realms</head>
+        <head>Realms</head>
         <div type="headings">
           <list>
-            <item>Field and realm</item>
+            <item>Realm</item>
             <item>Specific term</item>
             <item>Documents</item>
           </list>
