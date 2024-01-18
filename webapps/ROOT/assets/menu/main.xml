@@ -147,7 +147,7 @@
   <menu label="Bibliography" match="local-tei-display-html" params="bibliography"/>
   <menu label="Indices">
     <item label="Ancient sources" match="local-index-display-html" params="epidoc sources"/>
-    <item label="Fields and realms" match="local-index-display-html" params="epidoc realms"/>
+    <item label="Realms" match="local-index-display-html" params="epidoc realms"/>
     <item label="Greek and Latin terms" match="local-index-display-html" params="epidoc word"/>
     <item label="Literary and mythological characters" match="local-index-display-html" params="epidoc myth"/>
     <item label="Historical figures" match="local-index-display-html" params="epidoc persons"/>

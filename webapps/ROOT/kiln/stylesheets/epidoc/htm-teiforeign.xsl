@@ -7,13 +7,16 @@
     <xsl:template match="t:foreign" mode="#default inslib-dimensions inslib-placename sample-dimensions creta">
         <xsl:param name="parm-edn-structure" tunnel="yes" required="no"/>
         <xsl:choose>
-            <xsl:when test="$parm-edn-structure='inslib' or $parm-edn-structure='sample' or $parm-edn-structure='creta'">
+            <xsl:when test="$parm-edn-structure=('inslib', 'sample', 'creta', 'lares')">
                 <span class="lang">
                     <!-- Found in htm-tpl-lang.xsl -->
                     <xsl:call-template name="attr-lang"/>
                     <xsl:choose>
                         <xsl:when test="@xml:lang='grc'">
                             <xsl:apply-templates/>
+                        </xsl:when>
+                        <xsl:when test="@xml:lang=('he', 'ar')">
+                            <span class="rtl"><xsl:apply-templates/></span>
                         </xsl:when>
                         <xsl:otherwise>
                             <i><xsl:apply-templates/></i>

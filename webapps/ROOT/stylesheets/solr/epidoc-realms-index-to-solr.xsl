@@ -24,9 +24,7 @@
     <xsl:variable name="keys" select="distinct-values(tokenize(normalize-space($key-values), '\s+'))" />
     <add>
       <xsl:for-each select="$keys">
-        <xsl:variable name="realm" select="." />
-        <xsl:variable name="thesaurus" select="document('../../content/lares_framework/resources/thesaurus.xml')/tei:TEI/tei:teiHeader/tei:encodingDesc/tei:classDecl/tei:taxonomy"/>
-        <xsl:variable name="key" select="document('../../content/lares_framework/resources/thesaurus.xml')/tei:TEI/tei:teiHeader/tei:encodingDesc/tei:classDecl/tei:taxonomy//tei:category[@xml:id=$realm]"/>
+        <xsl:variable name="realm" select="." /> 
         <xsl:variable name="item" select="$root//tei:rs[contains(concat(' ', @key, ' '), concat(' ', $realm, ' '))]" />
         <xsl:for-each-group select="$item" group-by="concat(., '-', $realm)">
           <xsl:variable name="specific-item" select="."/>
@@ -40,14 +38,7 @@
           </field>
           <xsl:call-template name="field_file_path" />
           <field name="index_item_name">
-            <xsl:choose>
-              <xsl:when test="$thesaurus//tei:category[@xml:id=$realm]">
-                <xsl:value-of select="concat($thesaurus//tei:category[@xml:id=$realm]/@n, ': ', $thesaurus/tei:category[not(ancestor::tei:category)][descendant::tei:category[@xml:id=$realm]]/tei:gloss[@xml:lang='en'], '. ', $thesaurus//tei:category[@xml:id=$realm]/tei:gloss[@xml:lang='en'])"/>
-              </xsl:when>
-              <xsl:otherwise>
-                <xsl:value-of select="$realm" />
-              </xsl:otherwise>
-            </xsl:choose>
+            <xsl:value-of select="$realm" />
           </field>
           <field name="index_attested_form">
             <xsl:value-of select="$specific-item" />
@@ -57,38 +48,6 @@
           </xsl:for-each>
         </xsl:for-each-group>
       </xsl:for-each>
-      
-      
-      <!--<xsl:for-each-group select="//tei:rs[@key]" group-by="concat(@key,'-',@corresp,'-',.)"> <!-\- tokenize @key -\->
-        <xsl:variable name="thesaurus" select="document('../../content/lares_framework/resources/thesaurus.xml')/tei:TEI/tei:teiHeader/tei:encodingDesc/tei:classDecl/tei:taxonomy"/>
-        <xsl:variable name="realm" select="@key"/>
-        <doc>
-          <field name="document_type">
-            <xsl:value-of select="$subdirectory" />
-            <xsl:text>_</xsl:text>
-            <xsl:value-of select="$index_type" />
-            <xsl:text>_index</xsl:text>
-          </field>
-          <xsl:call-template name="field_file_path" />
-          <field name="index_field">
-            <xsl:value-of select="$thesaurus/tei:category[not(ancestor::tei:category)][descendant::tei:category[@xml:id=$realm]]/tei:gloss[@xml:lang='en']" />
-          </field>
-          <field name="index_item_name">
-            <xsl:choose>
-              <xsl:when test="$thesaurus//tei:category[@xml:id=$realm]">
-                <xsl:value-of select="concat($thesaurus//tei:category[@xml:id=$realm]/@n, ': ', $thesaurus//tei:category[@xml:id=$realm]/tei:gloss[@xml:lang='en'])"/>
-              </xsl:when>
-              <xsl:otherwise>
-                <xsl:value-of select="@key" />
-              </xsl:otherwise>
-            </xsl:choose>
-          </field>
-          <field name="index_attested_form">
-            <xsl:value-of select="." />
-          </field>
-          <xsl:apply-templates select="current-group()" />
-        </doc>
-      </xsl:for-each-group>-->
     </add>
   </xsl:template>
 
