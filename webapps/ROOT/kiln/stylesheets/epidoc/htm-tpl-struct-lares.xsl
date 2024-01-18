@@ -26,7 +26,7 @@
         </p>
 
       <p id="toggle_buttons"><b>Show/hide: </b>
-        <button class="links" id="toggle_links">links</button>
+        <button class="links _links" id="toggle_links">links</button>
         <button class="practice" id="toggle_practice">practice</button>
         <button class="belief" id="toggle_belief">belief</button>
         <button class="fiction" id="toggle_fiction">fiction</button>
