@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="grc">ἀγών</title>
+                <title xml:lang="en">agon</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">lexicon_ἀγών</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital document.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-05-23" who="Laura Ramos Martínez, Rafael Rodríguez Pérez">encoded in XML</change>
+                <change when="2023-05-23" who="Rocío Gordillo Hervás, Laura Ramon Martínez, Rafael Rodríguez Pérez">written contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="Etymology">
+                    <head>Etymology</head>
+                   <p>From the verb <foreign>ἄγω</foreign> (“to lead”), itself from Proto-Hellenic <foreign>*ágō</foreign>, from Proto-Indo-European <foreign>*h₂éǵeti</foreign> (“to be driving”), from the root <foreign>*h₂eǵ-</foreign> (“to drive”). Cognate with Latin <foreign>ago</foreign> (“drive, lead”), Avestan <foreign>azaiti</foreign> (“he leads away”), Old Irish <foreign>ad-aig</foreign> (“he drives to”), Armenian <foreign>acem</foreign> (“lead, bring”). In its first sense, thus, an <foreign>ἀγών</foreign> would designate the result of an <foreign>ἄγειν</foreign> (abs.), with the meaning of “reunion, assembly”.</p>
+                    <p>Also commonly associated to the verb <foreign>ἀγείρω</foreign> (“to gather”), itself from From Proto-Hellenic <foreign>*agéřřō</foreign>, from Proto-Indo-European <foreign>*h₂ger-</foreign> (“to assemble, gather together”). Cognate with Latin <foreign>grex</foreign> (“flock, herd”), Sanskrit <foreign>gaṇá</foreign>, (“flock, troop, group”).</p>
+                        <p>Some scholars (Ellsworth 1971; Scanlon 1983) have more recently proposed that <foreign>ἀγών</foreign> and its root <foreign>ἀγ-</foreign> do not derive from the verbal base directly, but from the noun <foreign>ἀγός</foreign> (“leader, chief”) and the suffix <foreign>-ων</foreign> indicating location (cf. <foreign>ἀνδρών</foreign>, <foreign>παρθενών</foreign>). Subsequently, <foreign>ἀγών</foreign> would reference the “place associated with the leader”, further emphasizing the association of the word with both war and athletics.</p>
+                </div>
+            </div>
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="Testimonies">
+                    <head>Testimonies</head>
+                    <p>The word <foreign>ἀγών</foreign> has known different meanings throughout its
+                        attestation on literary and epigraphic sources: (1) gathering/assembly of
+                        people or objects, either (1.1) non-related or (1.2) directly related to
+                        athletic contests. Likewise, the term is strongly connected to (1.3) the
+                        place of the meeting itself. In the following centuries, of course, the term
+                        started appearing in direct reference to the (2) contests themselves, both
+                        in its performative and religious dimension. From the latter definition
+                        derives the general meaning of (3) a struggle or conflict, be it (3.1)
+                        physical or (3.2) mental. Lastly, there is the personification of the term
+                        (4), which designates <persName type="divine" key="Agon">Agon</persName>,
+                        the divinity of contest.</p>
+                    <p><hi rend="italic">1.- Gathering</hi></p>
+                    <p><hi rend="italic">1.1.- Regular gathering</hi></p>
+                    <p>In Homeric texts, the term <foreign>ἀγών</foreign> often refers to an
+                        assembly or reunion. The first literary attestation of the word is within
+                        the phrase <foreign>θεῖον</foreign>
+                        <foreign>ἀγῶνα</foreign> (<ref type="lit">Hom. <title><hi rend="italic"
+                                >Il.</hi></title> 7.298</ref>) —generally translated as “divine
+                        assembly”— in the context of the gathering of women that went to pray for
+                            <persName type="hero" key="Hector">Hector</persName>. Similarly, the
+                        phrase “gathering of ships” (<foreign>ἀγών</foreign>
+                        <foreign>νεῶν</foreign>) is attested five times in the <ref type="lit"
+                            >Iliad</ref> (<ref type="lit">Hom. <title><hi rend="italic">Il.</hi></title>
+                            15.428; 16.239; 16.500; 19.42; 20.33</ref>).</p>
+                    <p>J.D. Ellsworth, followed by T. Scanlon, have proposed in a series of articles
+                        that <foreign>ἀγών</foreign> never occurs in the simple sense of “assembly”,
+                        but is always an “assembly with contests”, literal or metaphorical. In their
+                        view, every gathering designated by the word <foreign>ἀγών</foreign> is
+                        somehow associated with contest, struggle or combat, either because the
+                        reunion involves games or because the gathering elements themselves seem to
+                        be objects of contest. Thus, the <foreign>θεῖοι</foreign>
+                        <foreign>ἀγῶνες</foreign> would have included athletic or musical games, and
+                        the meaning of <foreign>ἀγών</foreign> in <foreign>ἀγών</foreign>
+                        <foreign>νεῶν</foreign> would be closer to “assembly [of ships] as the
+                        object of contest” (Ellsworth 1969, p. 263). </p>
+                    <p><hi rend="italic">1.2.- Gathering met to see contests</hi></p>
+                    <p>Whether or not we agree with Ellsworth’s point of view, it is clear that the
+                        connection between “gathering” and “contest” has always been there, since
+                        Homeric times. In the 23rd book of the <ref type="lit">Iliad</ref>, the term
+                            <foreign>ἀγών</foreign> appears fifteen times, mostly in relation to the
+                        funeral games of <persName type="hero" key="Patroclus">Patroclus</persName>
+                        (e.g., <ref type="lit">Hom. <title><hi rend="italic">Il.</hi></title> 23.531</ref>). In the <ref
+                            type="lit">Odyssey</ref>, the word appears in the context of the
+                        Phaeacian games (book 8), with an ambiguous meaning ranging between
+                        “gathering met to see games” and the games themselves (e.g., <ref type="lit">Hom.
+                                    <title><hi rend="italic">Od.</hi></title> 8.200</ref>).
+                        Between the 8th and the 5th century B.C., this ambiguous meaning
+                        persists.</p>
+                    <p><hi rend="italic">1.3.- Place of gathering/contest</hi></p>
+                    <p>As happens with the English word “assembly”, <foreign>ἀγών</foreign> conveys
+                        both the gathering and the place occupied by it. In the contest of athletic
+                        games, the term sometimes appears referring to the location occupied by all
+                        attendants, but it is often attested in Homeric texts designating the
+                        specific place for all competitors at a contest (e.g., <ref type="lit">Hom.
+                                    <title><hi rend="italic">Il.</hi></title> 23.507</ref>;
+                        <ref type="lit"><title><hi rend="italic">Od.</hi></title> 8.260</ref>)
+                        —a meaning commonly translated in English as “lists”—. Interestingly
+                            <foreign>ἀγών</foreign> rarely designates a place of gathering
+                        unoccupied by its elements: the gathering defines the place (cf. Ellsworth
+                        1974, p. 259, n. 6).</p>
+                    <p>At this stage, the line between the meanings of “gathering/contest”, “place
+                        occupied by gathering/contest” and “ensemble of members or participants of a
+                        gathering/contest” is very thin. As Scanlon puts it: “the ambiguity in epic
+                        diction between the phenomenon of a contest and its physical components may
+                        indicate the beginnings of the shift in meaning from “assembly with
+                        contests” to “contest” proper, which becomes the usual meaning by the fifth
+                        century B.C.” (Scanlon 1983, p. 151).</p>
+                    <p><hi rend="italic">2.- Contest</hi></p>
+                    <p>From its primeval meaning, <foreign>ἀγών</foreign> (frequently in plural:
+                            <foreign>ἀγῶνες</foreign>) started to designate contests in the
+                        Classical period. These contests —usually translated as “games”, as in
+                        “Olympic games” (<foreign>Ὀλυμπιακοὶ</foreign>
+                        <foreign>ἀγῶνες</foreign>)— were usually held in the context of a festival
+                            (<ref corresp="lexicon_eorte">ἑορτή</ref>), which itself was a day or a
+                        sequence of days fixed by a community for the worship of a specific god or
+                        group of gods. It involved the performance of specific ritual actions, which
+                        were connected with its religious, social and cultural function and gave a
+                        festival its distinct profile.</p>
+                    <p><hi rend="italic">3.- Struggle, conflict</hi></p>
+                    <p>Outside the purely agonistic context, the term <foreign>ἀγών</foreign> is
+                        present in the sources referring to any conflict or struggle, be it physical
+                        or mental. From that general sense derives the word
+                            <foreign>ἀγωνία</foreign>, which in turn gave the current word “agony”,
+                        present in many languages.</p>
+                    <p><hi rend="italic">3.1.- Physical struggle</hi></p>
+                    <p>In a military context, <foreign>ἀγών</foreign> is sometimes used to refer to
+                        a battle or skirmish —which, in fact, is still a big gathering in which two
+                        sides contest for victory—. <persName key="Thucydides">Thucydides</persName>
+                        himself  (<ref type="lit">2.89</ref>) uses the term when talking about a naval battle (a “gathering of
+                        ships” or <foreign>ἀγών</foreign>
+                        <foreign>νεῶν</foreign> of sorts, see 1.1.).</p>
+                    <p><hi rend="italic">3.2.- Mental struggle, anxiety</hi></p>
+                    <p>Of course, this meaning transcends the physical sphere and commonly appears
+                        with the meaning of “internal struggle”, “anguish”. As <persName
+                            key="Plutarch">Plutarch</persName> points out in <persName key="Solon"
+                                >Solon</persName>’s biography (<ref type="lit">Plut.<title><hi rend="italic">Sol.</hi></title> 7.4</ref>), when men are not trained by reason to
+                        endure the assaults of fortune, they are filled with continual “pangs,
+                        tremors and struggles” (<foreign>ὠδῖνας</foreign>
+                        <foreign>καὶ</foreign>
+                        <foreign>τρόμους</foreign>
+                        <foreign>καὶ</foreign>
+                        <foreign>ἀγῶνας</foreign>). </p>
+                    <p><hi rend="italic">4.- Agon, divinity of the contest</hi></p>
+                    <p>The meaning of <persName type="divine" key="Agon">Agon</persName> in <persName key="Pausanias">Pausanias</persName> (<ref type="lit">5.20.3; 5.26.3</ref>) is contemplated as the personification of a god.</p>
+                    <p>According to <persName key="Pausanias">Pausanias</persName>, <persName type="divine" key="Agon">Agon</persName>
+                        was recognised in the Greek world as a deity, a statue of which was found at
+                        <placeName>Olympia</placeName>, an agonistic temple par excellence. This sculpture was obviously
+                        presumably in direct connection with the Olympic Games, which functioned as
+                        a religious festival, of course in honour of <persName type="divine" key="Zeus">Zeus</persName> and in connection with
+                        athletic competition. </p>
+                    <p><persName type="divine" key="Agon">Agon</persName> may function more as a
+                        form or in reference to the spirit than to a god in Greek mythology.
+                        Although it had a relationship to both <persName type="divine" key="Zelos"
+                            >Zelos</persName> representing rivalry and <persName type="divine"
+                            key="Nike">Nike</persName> representing victory. Agon broadly referred
+                        to any competitive event that was held in connection with various festivals
+                        re More generally, Agon referred to any competitive event that was held in
+                        connection with religious festivals, including athletics, music or
+                        theatrical performances. </p>
+                    <p>Agon also appears as a concept in the <ref type="lit">New Testament</ref> and is defined in that context by Strong's Concordance as, agon: meeting, contest, struggle; as a (athletic) contest; hence, a struggle (in the soul).</p>
+                </div>
+            </div>
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="Discussion">
+                    <head>Discussion</head>
+                    <p>The first literary references to the term <foreign>ἀγών</foreign> occurs in the <ref type="lit">Iliad</ref>, where it is used generically to refer both to a congregation of people who gather in one place to attend an event, either religious or non-religious, as well as to the space in which the gathering takes place. The term is used in relation to athletic contests in book 23 of the <ref type="lit">Iliad</ref> where the funeral games that were held to honour the death of <persName type="hero"
+                        key="Patroclus">Patroclus</persName> are described. The games included various competitions such as pugilism, javelin throwing, wrestling and running (<ref type="lit">Hom.<title><hi rend="italic">Il.</hi></title> 23.620-623</ref>). Winners were awarded various prizes, which were more or less substantial depending on the individual’s performance and the event in which they had participated (e.g. <ref type="lit">Hom.<title><hi rend="italic">Il.</hi></title> 612-616; 736-751</ref>).</p>
+                    <p>After <persName key="Homer">Homer</persName>, the term <foreign>ἀγών</foreign> becomes associated with the religious competitions that took place in Greek sanctuaries. However, even if <foreign>ἀγῶνες</foreign> always took place in the context of a celebration, it was not always within a festival (e.g., funerary games, private games, etc.). Most contests were athletic events (also called <foreign>ἆθλα</foreign>), but the term <foreign>ἀγών</foreign> is also used to define musical, dance and theatrical performances. Winners in the biggest contests received the title of “sacred victor” (<foreign>ἱερονίκης</foreign>), which often entailed privileges in the host city, and even honorary citizenship. The prizes for the most important contests (which together formed the <foreign>περίοδος</foreign>) were mainly symbolic, as the real reward was the recognition of having achieved victory and becoming a ἱερονίκης. <persName key="Lucian">Lucian of Samosata</persName> jokingly refers to this situation.</p>
+                    <quote>Luc.<title><hi rend="italic">Anach.</hi></title>9. Trans. A. M. Harmon:
+                        <lb/><hi rend="bold">Ἀνάχαρσις</hi>
+                        <lb/>τὰ δὲ ἆθλα τίνα ὑμῖν ταῦτά ἐστιν;
+                        <lb/>
+                        <lb/><hi rend="bold">Σόλων</hi>
+                        <lb/>Ὀλυμπίασι μὲν στέφανος ἐκ κοτίνου, Ἰσθμοῖ δὲ ἐκ πίτυος, ἐν Νεμέᾳ δὲ σελίνων πεπλεγμένος, Πυθοῖ δὲ μῆλα τῶν ἱερῶν τοῦ θεοῦ, παρ᾽ ἡμῖν δὲ τοῖς Παναθηναίοις τὸ ἔλαιον τὸ ἐκ τῆς μορίας. τί ἐγέλασας, ὦ Ἀνάχαρσι; ἢ διότι μικρά σοι εἶναι ταῦτα δοκεῖ;
+                        <lb/>
+                        <lb/><hi rend="bold">Ἀνάχαρσις</hi>
+                        <lb/>οὔκ, ἀλλὰ πάνσεμνα, ὦ Σόλων, κατέλεξας τὰ ἆθλα καὶ ἄξια τοῖς τε διαθεῖσιν αὐτὰ φιλοτιμεῖσθαι ἐπὶ τῇ μεγαλοδωρεᾷ καὶ τοῖς ἀγωνισταῖς αὐτοῖς ὑπερεσπουδακέναι περὶ τὴν ἀναίρεσιν τῶν τηλικούτων, ὥστε μήλων ἕνεκα καὶ σελίνων τοσαῦτα προπονεῖν καὶ κινδυνεύειν ἀγχομένους πρὸς ἀλλήλων καὶ κατακλωμένους, ὡς οὐκ ἐνὸν ἀπραγμόνως εὐπορῆσαι μήλων ὅτῳ ἐπιθυμία ἢ σελίνῳ ἐστεφανῶσθαι ἢ πίτυϊ μήτε πηλῷ καταχριόμενον τὸ πρόσωπον μήτε λακτιζόμενον εἰς τὴν γαστέρα ὑπὸ τῶν ἀνταγωνιστῶν.
+                        <lb/></quote>
+                    <quote>
+                        <lb/><hi rend="bold">Anacharsis</hi>
+                        <lb/>Ah, and what are the prizes, now?
+                        <lb/>
+                        <lb/><hi rend="bold">Solon</hi>
+                        <lb/>At Olympia a wreath of wild olive, at the Isthmus one of pine, at Nemea of parsley, at Pytho some of the God’s sacred apples, and at our Panathenaea oil pressed from the temple olives. What are you laughing at, Anacharsis? Are the prizes too small?
+                        <lb/>
+                        <lb/><hi rend="bold">Anacharsis</hi>
+                        <lb/>Oh dear no; your prize-list is most imposing; the givers may well plume themselves on their munificence, and the competitors be monstrous keen on winning. Who would not go through this amount of preparatory toil, and take his chance of a choking or a dislocation, for apples or parsley? It is obviously impossible for anyone who has a fancy to a supply of apples, or a wreath of parsley or pine, to get them without a mud plaster on his face, or a kick in the stomach from his competitor.
+                        <lb/></quote>
+                    <p>An important <foreign>ἀγών</foreign>, as with any other big festivity, was the perfect occasion for the gathering of all sorts of people (showing the persistence of the connection between the meaning of “games” and that of “gathering”). <persName key="Dio Chrysostom">Dio Chrysostom</persName> perfectly describes the composite attendance at the Isthmian games, in which one could find “crowds of wretched sophists”, “writers reading aloud their stupid works”, “jugglers showing their tricks”, “poets reciting their poems” or “fortune-tellers interpreting fortunes” (<ref type="lit">Dio Chrys.<title><hi rend="italic">Or.</hi></title>8.9</ref>).</p>
+                    <p>During Roman period the term <foreign>ἀγών</foreign> is still used to define the different typologies of competitions. An inscription from <placeName>Ancyra</placeName> (<ref type="ins"><title><hi rend="italic">SEG</hi></title>6.59</ref>) contains a decree of a group of <foreign>τεχνίται</foreign>, who worship <persName type="divine" key="Dionysus">Dionysus</persName> Dionysus and the New Dionysus (<persName key="Hadrian">Hadrian</persName>) as patrons. The decree mentions an <foreign>ἀγών μυστικός</foreign>, supervised by the agonothete <persName key="Ulpius Aelius Pompeianus">Ulpius Aelius Pompeianus</persName>, which indeed seems to have been held in public, in the theatre of <placeName>Ancyra</placeName>. It was a competition to which various <foreign>ἀγονισταί</foreign> were invited and was presumably a religious drama, with the adjective <foreign>μυστικός</foreign> likely referring to the sacred dances performed in this play (Pleket 1965, pp. 336-337).</p>
+                    <p>As Tim Whitmarsh points out, in Roman times the term comes to transcend the religious sphere (Whitmarsh 2001, p. 189). In the <ref type="lit"><title>Lives of the Sophists</title></ref> by <persName key="Philostratus">Philostratus</persName>, the author describes the rhetorical presentations as if they were agonistic competitions:</p>
+                    <quote>Philostr. <title><hi rend="italic">VS</hi></title>601. Trans. W. Cave Wright:
+                        <lb/>While he was on an embassy to the Emperor Severus at Rome, he entered the lists against the sophist Heracleides to compete in declamation (τὸν ὑπὲρ μελέτης αγῶνα), and Heracleides come out of the encounter with the loss of his privileges of exemption, while Apollonius carried off gifts.</quote>
+                    <p>The relationship of the term <foreign>ἀγών</foreign> to competition is confirmed by the very personification of the concept. In the sanctuary of <placeName>Olympia</placeName>, where <placeName>Greece</placeName>'s most important and prestigious games were held, there was a statue of <persName type="divine" key="Agon">Agon</persName>. <persName key="Pausanias">Pausanias</persName>, who visited the sanctuary, describes the figure as wearing halteres, which the athletes used in the long jump: "carrying jumping-weights, the shape of which is as follows. They are half of a circle, not an exact circle but elliptical, and made so that the fingers pass through as they do though the handle of a shield" (<ref type="lit">Paus. 5.6.3.</ref> Trans. W.H.S. Jones and H.A. Ormerod).</p>
+                    <p>In the <ref type="lit">Bible</ref> the word <foreign>ἀγών</foreign> appears in the <ref type="lit">Septuagint</ref> in both the <ref type="lit">Old</ref> and <ref type="lit">New Testaments</ref>. As indicated in the ><hi rend="italic">Historical and Theological Lexicon of the Septuagint Vol. 1</hi> (p. 154), in the <ref type="lit">Old Testament</ref>, the term is used to define "a forced fight" (<ref type="lit">Isa. 7:13</ref>) and, in passages influenced by Hellenistic philosophy, it is related to "fight and suffering for the faith" (<ref type="lit">4 Macc. 15:29</ref>; <ref type="lit">Wis. 4:2</ref>).</p>
+                    <p>In the <ref type="lit">New Testament</ref>, the term appears several times in the letters of <persName key="Paul">Paul</persName> where it has two meanings. Firstly, it is used to refer to the "struggle" that the various communities had to undergo in order to keep the faith and is accompanied by appeals to unity in front of the enemies of Christianity (<ref type="lit">Phil. 1:30</ref>; <ref type="lit">1 Tim. 6:12</ref>; <ref type="lit">Heb. 12:1</ref>) and, secondly, it appears to refer to the inner struggle that <persName key="Paul">Paul</persName> himself has to face (<ref type="lit">Col. 2:1</ref>; <ref type="lit">2 Tim. 4:7</ref>).</p>
+                </div>
+            </div>
+            <div type="bibliography">
+                <div type="textpart" n="Bibliography">
+                <head>Biblioraphy</head>
+                 <bibl>Amandry, Pierre and Spyropoulos, Theodore (1974), Monuments chorégiques d’Orchomène de Béoties, “BCH” 98.1, 171-246.</bibl>
+                 <bibl>Bons, Eberhard (ed.) (2020) Historical and Theologial Lexicon of the Septuagint. Volume I: Alpha-Gamma, Mohr Siebeck.</bibl>
+                 <bibl>Chantraine, Pierre (1968), Dictionnaire Étymologique de la Langue Grecque: Histoire de Mots, s.v. ago, Paris.</bibl>
+                 <bibl>Ellsworth, James (1971), Appendix I, “The Etymology of Agón”, Agón: Studies in the Use of a Word.</bibl>
+                 <bibl>Ellsworth, James (1974), <foreign>ἈΓΩΝ</foreign> <foreign>ΝΕΩΝ</foreign>: An Unrecognized Metaphor in the Iliad, “CPhil.” 69.4, 258-264.</bibl>
+                  <bibl>Golden, Mark (2004), Sport in the Ancient World from A to Z, Routledge, London-New York.</bibl>
+                  <bibl>Meier, Paul Jonas (1894), <foreign>ἀγών</foreign>, “RE”, 836-867.</bibl>
+                  <bibl>Pleket, Henri (1965), An Aspect of the Emperor Cult: Imperial Mysteries, “Harv. Theol. Rev.” 58.4, 331-347.</bibl>
+                  <bibl>Quesada Sanz, Fernando (2022), “Deportes” con armas entre la Grecia arcaica y helenística: algunas observaciones sobre el ἀγών, in: Gordillo Hervás, Rocío et al., Compitiendo para los Dioses: los Rituales Agonísticos en el Mundo Antiguo, Sevilla, 11-59.</bibl>
+                  <bibl>Scanlon, Thomas (1983), The vocabulary of competition: agon and aethlos, Greek terms for contest, “Arete. The journal of sport literature (now Aethlon)” 1.1, 147-162.</bibl>
+                    <bibl>Whitmarsh, Tim (2001), Greek Literature and the Roman Empire: The Politics of Imitation, Oxford.</bibl>
+            </div>
+            </div>
+        </body>
+    </text>
+</TEI>
