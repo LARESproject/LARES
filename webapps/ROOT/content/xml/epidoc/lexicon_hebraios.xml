@@ -78,7 +78,7 @@
                         key="Palestine">Palaestina</placeName>, being used instead.</p>
 
                     <p>
-                Inscriptions</p>
+                <hi rend="italic">Inscriptions</hi></p>
                     <p>In inscriptions the term is used to describe synagogues, seats,
                 people and titles. In the inscription <ref type="ins">IJudO I Ach 47</ref> from <placeName
                         key="Corinth">Corinth</placeName>, late 3rd cent. CE, the whole text reads: <ref
@@ -151,7 +151,7 @@
                     possibility cannot be ignored, the evidence for any meaning remaining
                     scarce, the same applying to the meaning “Hebrew speaker”.</p>
 
-                    <p>Papyri</p>
+                    <p><hi rend="italic">Papyri</hi></p>
                     <p>In
                 Papyri, Ἰουδαῖος is the usual word for a Jew, the adjective Hebrew being only used
                 rarely. In a contract concerning wine (<ref type="pap">CPJ III 512</ref> , <placeName
@@ -175,7 +175,7 @@
                 receiver’s Jewishness and it seems that the “Hebrew fashion” refers to owning money,
                 not religion.</p>
 
-                    <p>Literary sources</p>
+                    <p><hi rend="italic">Literary sources</hi></p>
                     <p><ref type="lit">1st Maccabees</ref> does
                 not use the word Ἑβραῖος at all, whereas in <ref type="lit">2nd Maccabees</ref> (c.
                 1. cent. BCE) it is used a few times. In <ref type="lit">11:13</ref> Lysias
@@ -476,7 +476,7 @@
             <div type="edition" xml:lang="en">
             <div type="textpart" n="catalogue of occurrences">
                 <head>Catalogue of occurrences</head>
-                <p>Inscriptions</p>
+                <p><hi rend="italic">Inscriptions</hi></p>
                 <p>
                     <ref type="ins"> IJudO I Ach 47, Mac 8; 9</ref>
                 </p>
@@ -494,13 +494,13 @@
                 </p>
 
 
-                <p>Papyri</p>
+                <p><hi rend="italic">Papyri</hi></p>
                 <p>
                     <ref type="pap">CPJ III 507; 511; 512 </ref>
                 </p>
 
 
-                <p>Literary sources</p>
+                <p><hi rend="italic">Literary sources</hi></p>
 
                 <p>
                     <ref type="lit">Appian BC 2.71 </ref>
@@ -555,7 +555,6 @@
                     2007, 6). The term was used by both Jews and others.
                 </p>
             </div>
-            <div type="bibliography">
                 
                 <div type="bibliography" subtype="corpora">
                     <p>CPJ III	“Corpus Papyrorum Judaicorum III”, eds. Victor A. Tcherikover, Alexander Fuks, Menahem Stern, David M. Lewis, Magnes Press, Hebrew University by Harvard University Press, 1964.</p>
@@ -573,7 +572,6 @@
                             
                     </div>
                 </div>
-            </div>
         </body>
     </text>
 </TEI>
