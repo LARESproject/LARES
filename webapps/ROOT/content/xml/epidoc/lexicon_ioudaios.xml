@@ -4,8 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="grc">Ἰουδαῖος</title>
-                <title xml:lang="la">Ioudaios</title>
+                <title>Ἰουδαῖος / Ioudaios</title>
             </titleStmt>
             <publicationStmt>
                 <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>

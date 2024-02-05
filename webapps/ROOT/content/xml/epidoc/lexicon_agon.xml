@@ -4,13 +4,12 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="grc">ἀγών</title>
-                <title xml:lang="en">agon</title>
+                <title>ἀγών / agon</title>
             </titleStmt>
             <publicationStmt>
                 <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
                 <date when="2021"/>
-                <idno type="filename">lexicon_ἀγών</idno>
+                <idno type="filename">lexicon_agon</idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
                 </availability>
@@ -168,23 +167,23 @@
                         key="Patroclus">Patroclus</persName> are described. The games included various competitions such as pugilism, javelin throwing, wrestling and running (<ref type="lit">Hom.<title><hi rend="italic">Il.</hi></title> 23.620-623</ref>). Winners were awarded various prizes, which were more or less substantial depending on the individual’s performance and the event in which they had participated (e.g. <ref type="lit">Hom.<title><hi rend="italic">Il.</hi></title> 612-616; 736-751</ref>).</p>
                     <p>After <persName key="Homer">Homer</persName>, the term <foreign>ἀγών</foreign> becomes associated with the religious competitions that took place in Greek sanctuaries. However, even if <foreign>ἀγῶνες</foreign> always took place in the context of a celebration, it was not always within a festival (e.g., funerary games, private games, etc.). Most contests were athletic events (also called <foreign>ἆθλα</foreign>), but the term <foreign>ἀγών</foreign> is also used to define musical, dance and theatrical performances. Winners in the biggest contests received the title of “sacred victor” (<foreign>ἱερονίκης</foreign>), which often entailed privileges in the host city, and even honorary citizenship. The prizes for the most important contests (which together formed the <foreign>περίοδος</foreign>) were mainly symbolic, as the real reward was the recognition of having achieved victory and becoming a ἱερονίκης. <persName key="Lucian">Lucian of Samosata</persName> jokingly refers to this situation.</p>
                     <quote>Luc.<title><hi rend="italic">Anach.</hi></title>9. Trans. A. M. Harmon:
-                        <lb/><hi rend="bold">Ἀνάχαρσις</hi>
+                        <lb/><emph>Ἀνάχαρσις</emph>
                         <lb/>τὰ δὲ ἆθλα τίνα ὑμῖν ταῦτά ἐστιν;
                         <lb/>
-                        <lb/><hi rend="bold">Σόλων</hi>
+                        <lb/><emph>Σόλων</emph>
                         <lb/>Ὀλυμπίασι μὲν στέφανος ἐκ κοτίνου, Ἰσθμοῖ δὲ ἐκ πίτυος, ἐν Νεμέᾳ δὲ σελίνων πεπλεγμένος, Πυθοῖ δὲ μῆλα τῶν ἱερῶν τοῦ θεοῦ, παρ᾽ ἡμῖν δὲ τοῖς Παναθηναίοις τὸ ἔλαιον τὸ ἐκ τῆς μορίας. τί ἐγέλασας, ὦ Ἀνάχαρσι; ἢ διότι μικρά σοι εἶναι ταῦτα δοκεῖ;
                         <lb/>
-                        <lb/><hi rend="bold">Ἀνάχαρσις</hi>
+                        <lb/><emph>Ἀνάχαρσις</emph>
                         <lb/>οὔκ, ἀλλὰ πάνσεμνα, ὦ Σόλων, κατέλεξας τὰ ἆθλα καὶ ἄξια τοῖς τε διαθεῖσιν αὐτὰ φιλοτιμεῖσθαι ἐπὶ τῇ μεγαλοδωρεᾷ καὶ τοῖς ἀγωνισταῖς αὐτοῖς ὑπερεσπουδακέναι περὶ τὴν ἀναίρεσιν τῶν τηλικούτων, ὥστε μήλων ἕνεκα καὶ σελίνων τοσαῦτα προπονεῖν καὶ κινδυνεύειν ἀγχομένους πρὸς ἀλλήλων καὶ κατακλωμένους, ὡς οὐκ ἐνὸν ἀπραγμόνως εὐπορῆσαι μήλων ὅτῳ ἐπιθυμία ἢ σελίνῳ ἐστεφανῶσθαι ἢ πίτυϊ μήτε πηλῷ καταχριόμενον τὸ πρόσωπον μήτε λακτιζόμενον εἰς τὴν γαστέρα ὑπὸ τῶν ἀνταγωνιστῶν.
                         <lb/></quote>
                     <quote>
-                        <lb/><hi rend="bold">Anacharsis</hi>
+                        <lb/><emph>Anacharsis</emph>
                         <lb/>Ah, and what are the prizes, now?
                         <lb/>
-                        <lb/><hi rend="bold">Solon</hi>
+                        <lb/><emph>Solon</emph>
                         <lb/>At Olympia a wreath of wild olive, at the Isthmus one of pine, at Nemea of parsley, at Pytho some of the God’s sacred apples, and at our Panathenaea oil pressed from the temple olives. What are you laughing at, Anacharsis? Are the prizes too small?
                         <lb/>
-                        <lb/><hi rend="bold">Anacharsis</hi>
+                        <lb/><emph>Anacharsis</emph>
                         <lb/>Oh dear no; your prize-list is most imposing; the givers may well plume themselves on their munificence, and the competitors be monstrous keen on winning. Who would not go through this amount of preparatory toil, and take his chance of a choking or a dislocation, for apples or parsley? It is obviously impossible for anyone who has a fancy to a supply of apples, or a wreath of parsley or pine, to get them without a mud plaster on his face, or a kick in the stomach from his competitor.
                         <lb/></quote>
                     <p>An important <foreign>ἀγών</foreign>, as with any other big festivity, was the perfect occasion for the gathering of all sorts of people (showing the persistence of the connection between the meaning of “games” and that of “gathering”). <persName key="Dio Chrysostom">Dio Chrysostom</persName> perfectly describes the composite attendance at the Isthmian games, in which one could find “crowds of wretched sophists”, “writers reading aloud their stupid works”, “jugglers showing their tricks”, “poets reciting their poems” or “fortune-tellers interpreting fortunes” (<ref type="lit">Dio Chrys.<title><hi rend="italic">Or.</hi></title>8.9</ref>).</p>
