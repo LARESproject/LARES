@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+
+                <title xml:lang="grc">τελεστική</title>
+
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES
+                    Project</ref></publisher>
+                <date when="2023"/>
+                <idno type="filename">lexicon_τελεστική</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                        Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital document.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-05-25" who="Caterina_Borgatti">encoded in XML</change>
+                <change when="2023-05-22" who="Caterina_Borgatti">written contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="Etymology">
+                    <head>Etymology</head>
+                    <p/>
+                    <p>Word formed by two elements. The verb <foreign xml:lang="grc"
+                            ><w>τελέω</w></foreign>, 1. to finish, complete, fulfill; 2. To pay; 3.
+                        To celebrate, perform, to initiate in the mysteries, to endow a thing with
+                        potency, consecrate it; and the agjectival suffix <foreign xml:lang="grc"
+                            >-ικός, ική</foreign>.</p>
+                    <p>The verb comes from the substantive <foreign xml:lang="grc"><w lemma="τέλος"
+                                >τέλος</w></foreign>, 1. end, realization; 2. culmination,
+                        perfection; 3. limit, conclusion; 4. Office, function; 5. Tribute, tax; 6.
+                        Offerings, sacrifices, ceremonies, rites, festivals, mysteries; 7. Military
+                        division, detachement. (Montanari 2015: pp. 2099-2100)</p>
+                    <p><foreign xml:lang="grc"><w lemma="τέλος">Τέλος</w></foreign> has, according
+                        to scholars, two possible roots: the ancient root <foreign>*kᵂel-</foreign>
+                        “to turn”, that of <foreign xml:lang="grc"><w>τέλομαι</w></foreign> or the
+                        root <foreign>*tel-</foreign> “to lift, bear”. According to Chantraine
+                            <foreign xml:lang="grc"><w lemma="τέλος">τέλος</w></foreign> could
+                        derive from the extended root <foreign>*tel-ₔ₂-</foreign> “to lift”, that of
+                            <foreign xml:lang="grc"><w>τέλλω</w></foreign>. (Chantraine 1999: p.
+                        1103) According to Waanders instead of <foreign>*tel-ₔ₂-</foreign> “to lift,
+                        to hold up”, <foreign xml:lang="grc"><w lemma="τέλος">τέλος</w></foreign>
+                        derives from <foreign>*tel-ₔ₁-</foreign>, “to carry out, to perform”. with
+                        the metaphorical meaning attached to it at an early date. Thus, although
+                            <foreign xml:lang="grc"><w>τελέω</w></foreign> is generally considered
+                        by the ancients as well as by modern scholars, to have derived from <foreign
+                            xml:lang="grc"><w lemma="τέλος">τέλος</w></foreign>, <foreign
+                            xml:lang="grc"><w>τελέω</w></foreign> could be the primary verb and the
+                        noun <foreign xml:lang="grc"><w lemma="τέλος">τέλος</w></foreign> would
+                        consequently derive from it. The verb would come from
+                            <foreign>*τέλεμι</foreign>, derived from <foreign>*tel-ₔ₁-mi</foreign>
+                        (Waanders 1983, p. 18).</p>
+                    <p>According to Waanders: “the earliest attested meanings are '(full)
+                        performance, completion', 'realization', 'task', to which the other meanings
+                        can be related in a coherent way”. As a corroboration of this etymology,
+                        Waanders proposes to interpret the Mycenaean forms
+                            <foreign>te-re-ta</foreign> as <foreign xml:lang="grc"
+                            >τελε(ς)τᾱ́ς</foreign> “a high-ranking person” (Waanders 1983: p. 20).
+                        In this precise sense the term is attested in an inscription of VI-V century
+                        BCE from <placeName>Olympia</placeName>, where the dialectal form <foreign
+                            xml:lang="grc">τελεστά</foreign> means “magistrate” (<ref type="ins"
+                            >HGIU 29</ref>; Ballériaux 1990, p. 36). </p>
+                </div>
+            </div>
+
+
+
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="Testimonies">
+                    <head>Testimonies</head>
+                    <p/>
+                    <p>1) The term <rs type="Activities" subtype="Invocation/Prayer"><foreign
+                                xml:lang="grc"><w lemma="τελεστική">τελεστική</w></foreign></rs> is
+                        first attested in IV century BCE, used by <persName key="Plato"
+                            >Plato</persName> only two times, both in <ref><title>Phaedrus</title>
+                            (248d; 265b)</ref>. </p>
+                    <p>In the first passage <ref>(448d)</ref>
+                        <persName key="Plato">Plato</persName> is listing the different stages of
+                        human condition and at the middle, in 5th position we can find “the life of
+                        a prophet or someone who conducts mystic rites” (<quote><foreign
+                                xml:lang="grc">πέμπτην μαντικὸν βίον ἤ τινα τελεστικὸν
+                                ἕξουσαν</foreign></quote>). It is the very first time this
+                        expression is used by <persName type="attested" key="Plato">Plato</persName> and the
+                        scholars’ interpretation has not been so straightforward. Omer Ballériaux
+                        (1990, p. 35) states “Les traducteurs du Phèdre se montrent, à cet endroit,
+                        bien hésitants.” Generally, it is interpreted as something regarding mystic
+                        rites and mystery cults.</p>
+                    <p>In the second passage (265b) <persName type="attested" key="Plato">Plato</persName> says that
+                            <rs type="Activities" subtype="Offering">telestic madness</rs> comes
+                        from <rs type="Agents" subtype="Divinities"><persName type="divine"
+                                key="Dionysus">Dionysus</persName></rs>. However there’s still no
+                        explanation of the term. To explain this telestic mania Ballériaux (1990, p.
+                        36) turns to the passage <ref type="lit">244d-e</ref>, where <persName
+                            type="attested"                            key="Plato">Plato</persName> writes about a mania without naming it, and
+                        by exclusion Ballériaux believes that it is the telestic one.</p>
+                    <p>
+                        <quote><foreign xml:lang="grc"> τό τε ὄνομα τοῦ ὀνόματος ἔργον τ’ ἔργου,
+                                τόσῳ κάλλιον μαρτυροῦσιν οἱ παλαιοὶ μανίαν σωφροσύνης τὴν ἐκ θεοῦ
+                                τῆς παρ’ ἀνθρώπων γιγνομένης. ἀλλὰ μὴν νόσων γε καὶ πόνων τῶν
+                                μεγίστων, ἃ δὴ παλαιῶν ἐκ μηνιμάτων ποθὲν ἔν τισι τῶν γενῶν ἡ μανία
+                                ἐγγενομένη καὶ προφητεύσασα, οἷς ἔδει ἀπαλλαγὴν ηὕρετο, καταφυγοῦσα
+                                πρὸς θεῶν εὐχάς τε καὶ λατρείας, ὅθεν δὴ καθαρμῶν τε καὶ τελετῶν
+                                τυχοῦσα ἐξάντη ἐποίησε τὸν [ἑαυτῆς] ἔχοντα πρός τε τὸν παρόντα καὶ
+                                τὸν ἔπειτα χρόνον,</foreign></quote></p>
+                    <p>Moreover, when diseases and the greatest troubles have been visited upon
+                        certain families through some ancient guilt, madness <ref type="lit"
+                            >[244e]</ref> has entered in and by oracular power has found a way of
+                        release for those in need, taking refuge in prayers and the service of the
+                        gods, and so, by purifications and sacred rites, he who has this madness is
+                        made safe for the present and the after time, and for him who is rightly
+                        possessed of madness a release from present ills is found.</p>
+                    <p/>
+                    <p>Ballériaux believes that <rs type="Activities" subtype="Offering">telestic
+                            madness</rs> is the kind of <rs type="Activities" subtype="Offering"
+                            >Dionysiac madness</rs> that hits <ref type="cult_personnel"
+                            >télestes</ref>, in his words “devins-exorcistes” that freed families
+                        hit by divine punishment for a past fault inherited from an ancestor
+                        (Ballériaux 1990, pp. 42-43). According to the French scholar <ref
+                            type="cult_personnel">télestes</ref> were the same <ref
+                            type="cult_personnel"><hi rend="italic">manteis</hi></ref> and <ref
+                            type="cult_personnel">agyrtais</ref> that <persName key="Plato"
+                            >Plato</persName> mentions in <ref><title>Republic</title> (II,
+                            364b)</ref>, diviners that could free from ancient unpunished wrongs
+                        thanks to a god-inspired madness, the <rs type="Activities"
+                            subtype="Offering">telestic madness</rs>.</p>
+                    <p/>
+                    <p><ref type="lit">Pl. Phdr. 248d-e</ref></p>
+                    <p><quote><foreign xml:lang="grc">[…] τότε νόμος ταύτην μὴ φυτεῦσαι εἰς μηδεμίαν
+                                θήρειον φύσιν ἐν τῇ πρώτῃ γενέσει, ἀλλὰ τὴν μὲν πλεῖστα ἰδοῦσαν εἰς
+                                γονὴν ἀνδρὸς γενησομένου φιλοσόφου ἢ φιλοκάλου ἢ μουσικοῦ τινος καὶ
+                                ἐρωτικοῦ, τὴν δὲ δευτέραν εἰς βασιλέως ἐννόμου ἢ πολεμικοῦ καὶ
+                                ἀρχικοῦ, τρίτην εἰς πολιτικοῦ ἤ τινος οἰκονομικοῦ ἢ χρηματιστικοῦ,
+                                τετάρτην εἰς φιλοπόνου &lt;ἢ&gt; γυμναστικοῦ ἢ περὶ σώματος ἴασίν
+                                τινος ἐσομένου, πέμπτην μαντικὸν βίον ἤ τινα τελεστικὸν ἕξουσαν·
+                                ἕκτῃ ποιητικὸς ἢ τῶν περὶ μίμησίν τις ἄλλος ἁρμόσει, ἑβδόμῃ
+                                δημιουργικὸς ἢ γεωργικός, ὀγδόῃ σοφιστικὸς ἢ δημοκοπικός, ἐνάτῃ
+                                τυραννικός. </foreign></quote></p>
+                    <p>[…] then it is the law that this soul shall never pass into any beast at its
+                        first birth, but the soul that has seen the most shall enter into the birth
+                        of a man who is to be a philosopher or a lover of beauty, or one of a
+                        musical or loving nature, and the second soul into that of a lawful king or
+                        a warlike ruler, and the third into that of a politician or a man of
+                        business or a financier, the fourth into that of a hardworking gymnast or
+                        one who will be concerned with the cure of the body, and the fifth will lead
+                        the life of a prophet or someone who conducts mystic rites; to the sixth, a
+                        poet or some other imitative artist will be united, to the seventh, a
+                        craftsman or a husbandman, to the eighth, a sophist or a demagogue, to the
+                        ninth, a tyrant.</p>
+                    <p/>
+                    <p><ref type="lit"> Pl. Phdr. 265b,4</ref></p>
+                    <p><quote><foreign xml:lang="grc">Τῆς δὲ θείας τεττάρων θεῶν τέτταρα μέρη
+                                διελόμενοι, μαντικὴν μὲν ἐπίπνοιαν Ἀπόλλωνος θέντες, Διονύσου δὲ
+                                τελεστικήν, Μουσῶν δ’ αὖ ποιητικήν, τετάρτην δὲ Ἀφροδίτης καὶ
+                                Ἔρωτος, ἐρωτικὴν μανίαν ἐφήσαμέν τε ἀρίστην εἶναι,
+                            </foreign></quote></p>
+                    <p>And we made four divisions of the divine madness, ascribing them to four
+                        gods, saying that prophecy was inspired by Apollo, the <rs type="Activities"
+                            subtype="Offering">mystic madness</rs> by <rs type="Agents"
+                            subtype="Divinities"><persName type="divine" key="Dionysus"
+                                >Dionysus</persName></rs>, the poetic by the Muses, and the madness
+                        of love, inspired by Aphrodite and Eros, we said was the best.</p>
+                    <p/>
+
+
+                    <p>2) After <persName type="attested" key="Plato">Plato</persName> it is used in II and III
+                        centuries CE by <persName type="attested" key="Plutarchus">Plutarchus</persName> and
+                            <persName key="Aelianus">Aelianus</persName> as an adjective with the
+                        meaning of “mystical”. </p>
+                    <p/>
+                    <p><ref type="lit">Plu.Sol. 12,4</ref></p>
+                    <p><quote><foreign xml:lang="grc">ἐδόκει δέ τις εἶναι θεοφιλὴς καὶ σοφὸς περὶ τὰ
+                                θεῖα τὴν ἐνθουσιαστικὴν καὶ τελεστικὴν σοφίαν, διὸ καὶ παῖδα νύμφης
+                                ὄνομα Βάλτης καὶ Κούρητα νέον αὐτὸν οἱ τότε ἄνθρωποι
+                                προσηγόρευον.</foreign></quote></p>
+                    <p>He was reputed to be a man beloved of the gods, and endowed with a mystical
+                        and heaven-sent wisdom in religious matters.</p>
+                    <p/>
+                    <p><ref type="lit"> Ael.NA 2.42</ref></p>
+                    <p><quote><foreign xml:lang="grc">καρδίαν δὲ οὐκ ἂν φάγοι ποτὲ ἱέραξ, τελεστικὸν
+                                δήπου δρῶν καὶ μυστικὸν ἐκεῖνος τοῦτο.</foreign></quote></p>
+                    <p>But a falcon will never eat the heart, thereby presumably fulfilling some
+                        mystic rite.</p>
+                    <p/>
+
+
+                    <p>3) In the second half of the II century CE we find for the first time <rs
+                            type="Activities" subtype="Invocation/Prayer"><foreign xml:lang="grc"><w
+                                    lemma="τελεστική">τελεστική</w></foreign></rs> in the noun form.
+                        It is attested in <persName key="Maximus">Maximus of Tyre</persName>, who in
+                        the 38th discourse speaks about the divine nature of Virtue. To demonstrate
+                        the divine origin of human virtue he takes as examples things that although
+                        inferior than virtue are still inspired by divine nature. One of these
+                        lesser arts is <rs type="Activities" subtype="Invocation/Prayer"><foreign
+                                xml:lang="grc"><w lemma="τελεστική">τελεστική</w></foreign></rs>,
+                        that together with <foreign xml:lang="grc"><w lemma="μαντική">μαντική</w>,
+                                <w lemma="ποιητική">ποιητική</w>, <w lemma="καθάρσεις">καθάρσεις</w>
+                            and <w lemma="χρησμῳδίας">χρησμῳδίας</w></foreign>, compose a list of
+                        things that <persName key="Maximus">Maximus</persName> considers established
+                        as coming from divine inspiration. By stating this hierarchy, the author
+                        wants to demonstrate the divine origin of Virtue, which being better than
+                        those things has to come from divine doing too. “You should be prepared to
+                        find that, if God is able to share out and distribute such things as these,
+                        he is far more able and willing to distribute Virtue.” (Trapp 1997, p. 303).
+                        In the joint citation of <rs type="Activities" subtype="Invocation/Prayer"
+                            >mantic, telestic and poetic arts</rs>, <persName key="Maximus"
+                            >Maximus</persName> may remember the passage from <persName key="Plato"
+                            >Plato</persName>’s <ref><title>Phaedrus</title> 265b</ref>, even if
+                        here he does not mention erotic mania and adds “<ref type="Activities"
+                            >purifications and prophecies</ref>” (Trapp 1997, p. 302).</p>
+                    <p><ref type="lit"> Max. Tyr. 38 5,2</ref></p>
+                    <p><quote><foreign xml:lang="grc"> ‘Ὦ σχέτλιε, τί ταῦτα ἐρεῖς, ὃς ἡγεῖ τὸ
+                                καλλιστεῦον τῶν ἀνθρωπίνων ἀγαθῶν παρὰ μὲν ἀνθρώπου τέχνης τάχιστα
+                                ἥξειν, ἐκ δὲ θείας ἀρετῆς ἀπορώτατα; Καίτοι μαντικήν, καὶ
+                                τελεστικήν, καὶ ποιητικήν, καὶ καθάρ- σεις, καὶ χρησμῳδίας,
+                                ξυλλήβδην ἅπαντα, οὐκ ἂν εἴποις ἀντάξια εἶναι τῆς ἀρετῆς·
+                            </foreign></quote></p>
+                    <p>'You fool, what nonsense is this? Do you really think that the finest of
+                        human goods can instantaneously be derived from human science, but only with
+                        the greatest difficulty from divine Virtue? Yet at the same time you would
+                        not be prepared to say that the arts of the seer and the priest and the
+                        poet, and purifications and prophecies, were equal in worth to Virtue, even
+                        taken all together. </p>
+                    <p/>
+                    <p/>
+                    <p>4) In V CE neoplatonic authors <persName key="Hermias">Hermias</persName> and
+                            <persName key="Proclus">Proclus</persName> speak of <rs
+                            type="Activities" subtype="Invocation/Prayer"><rs type="Activities"
+                                subtype="Invocation/Prayer"><foreign xml:lang="grc"><w
+                                        lemma="τελεστική">τελεστική</w></foreign></rs></rs> as
+                        connected with <ref type="Activities">theurgy</ref>, defined by Dodds as a
+                        branch of <ref type="Activities"><foreign xml:lang="grc"><w
+                                    lemma="τελεστική">τελεστική</w></foreign></ref> “applied to a
+                        religious purpose and resting on a supposed revelation of a religious
+                        character” (Dodds 1951, p. 291) or by <persName key="Proclus"
+                            >Proclus</persName>’ words “all the operation of divine possession”
+                            (<ref type="lit">Theol. Plat. p.63</ref>; Dodds, ib.) Dodds considers
+                            <rs type="Activities" subtype="Invocation/Prayer"><foreign
+                                xml:lang="grc"><w lemma="τελεστική">τελεστική</w></foreign></rs> as
+                        being one of two rituals, the other being the temporary incarnation of a god
+                        in a human being, a medium. <rs type="Activities"
+                            subtype="Invocation/Prayer"><foreign xml:lang="grc"><w lemma="τελεστική"
+                                    >τελεστική</w></foreign></rs> is defined by Dodds as “the
+                        consecrating and animating of <foreign xml:lang="grc"><w lemma="τελεστική"
+                                >τελεστική</w></foreign> statues in order to obtain oracles from
+                        them” (Dodds 1951, p. 292). This ritual that consecrates statues, making
+                        them move under divine possession would have originated in Egypt (Dodds
+                        1951, p. 293). Other authors don’t agree with the scholar and think <rs
+                            type="Activities" subtype="Invocation/Prayer"><foreign xml:lang="grc"><w
+                                    lemma="τελεστική">τελεστική</w></foreign></rs> could come from
+                        traditional Greek religious rituals, as there are a lot of similar examples
+                        of moving statues in Greek literature (Boyancé 1955). The original source is
+                        believed to be either the Chaldean oracles, the orphic cults or the
+                        Eleusinian mysteries, but scholars are not unanimous on this. </p>
+                    <p>
+                        <foreign xml:lang="grc"><w lemma="τελεστική">Tελεστική</w></foreign> is
+                        based on the concept of <foreign xml:lang="grc"><w lemma="συμπάθεια"
+                                >συμπάθεια</w></foreign>, that implies a web of references linking
+                        image with original (i.e. the material world with the divine world). This
+                        way marks (<rs type="Activities" subtype="Objects"><foreign xml:lang="grc"
+                                    ><w lemma="χαρακτήρης">χαρακτήρης</w></foreign></rs>), objects
+                        such as plants or minerals, and even animals become symbols (<foreign
+                            xml:lang="grc"><w lemma="σύμβολα">σύμβολα</w></foreign>) and carry in
+                        themselves a bit of divine essence, each type of plant, animal or mineral
+                        corresponding to a different god. From this perspective <rs
+                            type="Activities" subtype="Invocation/Prayer"><foreign xml:lang="grc"><w
+                                    lemma="τελεστική">τελεστική</w></foreign></rs> could be defined
+                        as a religious ritual that, using material symbols and marks, calls, through
+                        the power of <foreign xml:lang="grc"><w lemma="συμπάθεια"
+                            >συμπάθεια</w></foreign>, the divine essence inside an inanimate
+                        receptacle, <rs type="Activities" subtype="Objects"><foreign xml:lang="grc"
+                                    ><w lemma="ὑποδοχή">ὑποδοχή</w></foreign></rs>, in most cases
+                        these receptacles are statues that come alive and move or give oracles. </p>
+                    <p> However some scholars believe <rs type="Activities"
+                            subtype="Invocation/Prayer"><foreign xml:lang="grc"><w lemma="τελεστική"
+                                    >τελεστική</w></foreign></rs> to have a double meaning: on one
+                        hand the pragmatic ritual, on the other hand it would be an intellectual
+                        concept to be understood on a philosophical level. According to Van
+                        Liefferinge (1999, p. 94) Proclus was the first to coin the term <foreign
+                            xml:lang="grc"><w lemma="τελεστική">τελεστική</w><w lemma="τέχνη"
+                                >τέχνη</w></foreign> and to give it the specific meaning of
+                        consecrating statues, even if we find it also in <persName key="Hermias"
+                            >Hermias</persName> (<ref>p. 99, l. 15</ref>). However in neoplatonic
+                        authors <rs type="Activities" subtype="Invocation/Prayer"><foreign
+                                xml:lang="grc"><w lemma="τελεστική">τελεστική</w></foreign></rs> can
+                        also mean something higher, a way for the soul to rise and return among the
+                        divine world from which it fell. This would mean that <rs type="Activities"
+                            subtype="Invocation/Prayer"><foreign xml:lang="grc"><w lemma="τελεστική"
+                                    >τελεστική</w></foreign></rs> entails in general an action of
+                        divine power and agency, that can provide movement in both directions,
+                        upwards, when the soul rises to the gods, and downwards, when humans summon
+                        divine presence through marks and objects that share <foreign xml:lang="grc"
+                                ><w lemma="συμπάθεια">συμπάθεια</w></foreign> with the original (Van
+                        Liefferinge 1999).</p>
+                    <p> According to Ballériaux (1989, p. 23) in <persName key="Hermias"
+                            >Hermias</persName>’ commentary on the Phaedrus the role of <rs
+                            type="Activities" subtype="Invocation/Prayer"><foreign xml:lang="grc"><w
+                                    lemma="τελεστική">τελεστική</w></foreign></rs> goes beyond the
+                        ritual aspect of consecrating and animating statues. <persName key="Hermias"
+                            >Hermias</persName>’ commentary comes from a lecture of the neoplatonic
+                        philosopher <persName key="Syrianus">Syrianus</persName>, <persName
+                            key="Hermias">Hermias</persName> and <persName key="Proclus"
+                            >Proclus</persName>’ teacher. Ballériaux believes that <rs
+                            type="Activities" subtype="Invocation/Prayer"><foreign xml:lang="grc"><w
+                                    lemma="τελεστική">τελεστική</w></foreign></rs> as consecration
+                        of statues is only one of the possible enthusiasms, i.e. the divine
+                        possession of the soul. These different possessions are described at
+                            <ref>84,21 – 87,4</ref>, after which <persName key="Hermias"
+                            >Hermias</persName> describes the last enthusiasm, the possession of
+                        statues (<ref>87, 4-18</ref>). </p>
+                    <p> According to Shepperd (1982) too, <persName key="Proclus">Proclus</persName>
+                        thinks about different types of <rs type="Activities"
+                            subtype="Invocation/Prayer"><foreign xml:lang="grc"><w lemma="τελεστική"
+                                    >τελεστική</w></foreign></rs>: a pragmatic ritual that enables
+                        men to come in contact with the divine even if only for a fleeting moment,
+                        and, on a higher level a philosophical union of soul and divine essence (see
+                                <ref><persName key="Proclus">Proclus</persName> In Parm. V 990,
+                            27-29</ref>).</p>
+                    <p>The term is still used in IX CE by another neoplatonic philosopher, <persName
+                            key="Psellus">Psellus</persName>.</p>
+                    <p/>
+                    <p><ref type="lit"> Herm. in Phdr. 87, 4-18</ref></p>
+                    <p><quote>
+                            <foreign xml:lang="grc">Πῶς μὲν οὖν ἡ ψυχὴ ἐνθουσιᾷ, εἴρηται. Πῶς δὲ καὶ
+                                ἄγαλμα λέγεται ἐνθουσιᾶν; Ἢ αὐτὸ μὲν οὐκ ἐνεργεῖ περὶ τὸ θεῖον, ὅ γε
+                                ἄψυχόν ἐστιν, ἀλλὰ τὴν ὕλην ἡ τελεστικὴ διακαθήρασα καί τινας
+                                χαρακτῆρας καὶ σύμβολα περιθεῖσα τῷ ἀγάλματι πρῶτον μὲν ἔμψυχον αὐτὸ
+                                διὰ τούτων !! ἐποίησε καὶ &lt;οἷόν τε&gt; ζωήν τινα ἐκ τοῦ κόσμου
+                                καταδέξασθαι, ἔπειτα μετὰ τοῦτο ἐλλαμφθῆναι παρὰ τοῦ θείου αὐτὸ
+                                παρεσκεύασεν· ὅπερ ἄγαλμα ἀεὶ χρηματίζει ἕως δύνανται δέχεσθαι οἱ
+                                ἐπιτήδειοι· τὸ μὲν γὰρ ἄγαλμα ὡς ἂν τελεσθῇ μένει ἐφεξῆς ἕως ἂν
+                                πάντῃ ἀνεπιτήδειον γένηται πρὸς τὴν θεῶν ἔλλαμψιν· ὁ μέντοι δοχεὺς
+                                παρὰ μέρος· νῦν μὲν γὰρ δεξάμενος ἀπο- παύεται, αὖθις δὲ πάλιν
+                                ἐμφορεῖται· τὸ δὲ αἴτιον ὅτι ἡ μὲν ψυχὴ ἐμφορου- μένη αὐτὴ ἐνεργεῖ
+                                περὶ τὸ θεῖον, διὸ ἀποκάμνει ὑπὲρ τὴν ἑαυτῆς δύναμιν ἐνεργοῦσα (ἦ
+                                γὰρ ἂν ἦν θεὸς καὶ ὁμοία ταῖς τῶν ἄστρων ψυχαῖς, εἰ μὴ ἀπέκαμνε), τὸ
+                                δὲ ἄγαλμα ὡς ἂν πάθῃ οὕτω μένει ἐλλαμπόμενον, διὸ καὶ ἡ
+                                ἀνεπιτηδειότης αὐτοῦ εἰς στέρησιν παντελῆ χωρεῖ, ἐὰν μὴ πάλιν ἐκ
+                                νέας ὑπὸ τοῦ τελεστοῦ τελεσθῇ καὶ ἐμψυχωθῇ. </foreign></quote></p>
+                    <p/>
+                    <p><ref type="lit"> Herm. in Phdr. 99, 9-20</ref></p>
+                    <p><quote><foreign xml:lang="grc">Ἐπισημαντέον δὲ τοῦτο καὶ ζητη- τέον πῶς εἰπὼν
+                                ἔνθουν μαντείαν καὶ ἀντεξετάσας αὐτῇ τὴν ἀνθρωπικὴν μαντείαν ἣν
+                                ἐκάλεσεν οἰωνιστικὴν, καὶ πάλιν εἰπὼν ἔνθουν ποιητικὴν καὶ
+                                ἀντιπαραβαλὼν αὐτῇ πάλιν τὴν ἀνθρωπικὴν καὶ τεχνικὴν ποιητικὴν, ἐπὶ
+                                τῆς τελεστικῆς τοῦτο οὐκ ἐποίησεν, ἀλλὰ μόνον τὴν ἔνθουν ἐξέθετο
+                                τελεστικήν. Καίτοι καὶ ἐκεῖ ἔστιν ἡ ὑποδυομένη ταύτην ἀνθρωπικὴ καὶ
+                                τεχνικὴ τελεστικὴ, οἵᾳ χρῶνται καὶ οἱ ἱερεῖς περὶ τὰς θεραπείας τῶν
+                                ἀγαλμάτων νόμῳ πόλεως καὶ κατὰ τὰ οἰκεῖα πάτρια· καὶ αἱ ἐπῳδαὶ δὲ
+                                καὶ αἱ διὰ βοτανῶν ἢ λίθων θεραπεῖαι εἴησαν ἂν τῆς τεχνικῆς
+                                τελεστικῆς. Ἢ οὖν ὡς σαφὲς παρῆκε· πολὺ γὰρ τοῦτο ἐν ταῖς πόλεσιν, ἢ
+                                ὡς μηδὲν μέγα ἀνύουσαν, ἢ εἰ καὶ ἀνύει κατὰ τὸν ἐξ ἀρχῆς
+                                ἐνθουσιασμὸν ἀνύει· εἰκόνας γὰρ φέρουσιν αἱ ὑποδυόμεναι τῶν ἀληθινῶν
+                                αἰτιῶν. </foreign></quote></p>
+                    <p/>
+                    <p><ref type="lit"> Procl. in Prm. 719, 23</ref></p>
+                    <p><quote><foreign xml:lang="grc">Καὶ μὴν καὶ ἡ κατὰ καιρὸν μετάδοσις μίμημα
+                                φέρει τῆς ἐν τῷ κόσμῳ κατά τινος τῶν θείων εὐκαιρίας ἐκφάνσεως, οἷον
+                                εὐγονίας, ἰατρικῆς, θείας μαντείας, τελεστικῆς,
+                        </foreign></quote></p>
+                    <p>And even the opportune imparting (of Zeno's writing) has a likeness to the
+                        appearance on appropriate occasions in the world's history of some divine
+                        gift, such as fertility, or the medical art, or prophecy, or initiation into
+                        the mysteries</p>
+                    <p/>
+                    <p><ref type="lit"> Procl. in Prm. 990, 27</ref></p>
+                    <p><quote><foreign xml:lang="grc">Καὶ γὰρ ἐπὶ θεωρίας καὶ ἐπὶ τελεστικῆς καὶ
+                                τοῦτό ἐστι τὸ ποιοῦν ἀσφαλῆ καὶ ἄπταιστον ἡμῖν τὴν ἄνοδον, ἡ ἐν
+                                τάξει πρόοδος· ὡς γοῦν φησι καὶ τὸ Λόγιον· </foreign></quote></p>
+                    <p>For in the case both of metaphysical speculation and of <ref type="Activities">theurgy</ref> it is this
+                        that makes our ascent safe and unerring, that is, an orderly scheme of
+                        progress.</p>
+                    <p/>
+                    <p><ref type="lit">Psellus Epistula ad Michaelem Cerularium 142</ref></p>
+                    <p><quote><foreign xml:lang="grc">Τὴν μὲν γὰρ ἀπόρρητον καὶ τελεστικὴν σοφίαν
+                                ἴσως ἐπίστασαι, τὴν δὲ διὰ λόγου καὶ τῆς καταλλήλου θεωρίας
+                                ἠγνόηκας. ἔστι κἀμοὶ θρόνος ἐνταῦθα ὑψηλὸς καὶ μετέω- ρος, οὐδὲν
+                                ἥττων τοῦ σοῦ, ἵνα μὴ λέγω ἀπροδεέστερος, καὶ οὔτε θεολογήσεις μὴ τῇ
+                                ἐμῇ γλώσσῃ προσχρώμενος, οὔτε κανό- νας ἐκθήσεις οὔτ’ ἄλλο τι
+                                ποιήσεις τῶν θειοτέρων· ἐμοὶ γὰρ ὡς μέτρῳ καὶ κανόνι ταῦτα
+                                μεμέτρηται. </foreign></quote></p>
+                    <p/>
+                    <p/>
+
+
+
+
+                    <p>5)5) The term is also attested on the Rosetta stone, meaning “treasury of a
+                        priesthood” or “payment for initiation into a priesthood” (Waanders1983, p.
+                        168). In his commentary to the inscription André Bernand writes “télestikon
+                        (ou droit d'accès à la prêtrise)” (Bernand 1992, vol.2, p. 48).</p>
+                    <p/>
+                    <p><ref type="ins"><ref
+                                corresp="https://inscriptions.packhum.org/text/219002?&amp;bookid=371"
+                                > OGIS 90,A</ref></ref></p>
+                    <quote><foreign xml:lang="grc"><lb/>προσέταξεν δὲ καὶ περὶ τῶν ἱερέων ὅπως μηθὲν
+                            πλεῖον διδῶσιν εἰς τὸ τελεστικὸν οὗ ἐτάσσοντο ἕως τοῦ πρώτου ἔτους ἐπὶ
+                            τοῦ πατρὸς αὐτοῦ·</foreign></quote>
+                    <p>Text taken from PHI.</p>
+                    <p/>
+                    <p>16 […] et qu'il a ordonné, en ce qui concerne les prêtres, qu'ils ne paient
+                        rien de plus pour les droits à la consécration que ce à quoi ils étaient
+                        imposés jusqu'à la première année, sous son père; (Translation by Bernand
+                        1992, vol.1, p. 44).</p>
+
+
+
+                    <p>6) The term is also used in some papyri of the Herculaneum collection, one of
+                        them being a passage of <persName key="Epicurus">Epicurus</persName>’
+                            <title>De Natura</title>. </p>
+                    <p/>
+                    <p><ref type="pap"><ref
+                                corresp="https://papyri.info/dclp/59752?rows=2&amp;start=0&amp;fl=id,title&amp;fq=idno_led_path:1148;p.herc;*;dclp&amp;sort=series+asc,volume+asc,item+asc&amp;p=0&amp;t=0"
+                                > P.herc 1148</ref></ref></p>
+                    <quote><foreign xml:lang="grc"><lb/>ἐξέφευ̣[γε] τὴν ὑπὸ τοῦ ἀέ- <lb/>ρος
+                            στο[λ]ήν, λεπτομερὲσ πα[ν-] <lb/>τελῶς αὐτὸ ὂν καὶ οὐ δυ- <lb/>νάμενου
+                            ὑπὸ τοῦ ἀέρος ἐν <lb/>5 ἀθροισμῶι λαμβάνεσθαι <lb/>συναγωγὴν ἐπιδεχομέ-
+                            <lb/>νωι· οὔτε γὰρ ἐμβρείθεια <lb/>—— <lb/> ποσή τις στολὴν ἐπιδέχε-
+                            <lb/>ται οὔτ[ε] λεπτομέρεια, ἀλ- <lb/>10 λὰ συμμετρία τις ποσὴ <lb/>καὶ
+                            τοῦ τοιούτου συντελεσ- <lb/>τικὴ γί[ν]εται· ἀλλὰ γὰρ <lb/>—— <lb/>καὶ
+                            τοῦτ̣ο γελοίως ἐκ τῆς <lb/>φαντασίας ἀναλελόγισται <lb/>15 καὶ οὐκ
+                            ἐπισταμένως τἀ- <lb/>φανὲς δι̣ὰ τοῦ φαινομένου <lb/>συλλογί[ζ]εσθαι· καὶ
+                            ἡ γῆ δὲ <lb/>—— <lb/>π[ά]λιν̣ οὐ[κ] ἐ[κ τοῦ] αὐτ̣[οῦ τ]ρό- <lb/>που
+                            δ̣ύν[αται ̣ ̣ ̣ ̣ ̣] ἐξ οὗ <lb/>20 δ[ ̣ ̣ ̣]νη[- ca.9 -]ειονου <lb/>μ [
+                            ̣ ̣] απο [- ca.9 -]ην[ ̣]α - <lb/>—— <lb/>σ[ ̣ ̣]κι[- ca.9 -]ειδ[ ̣ ̣]
+                            <lb/>[ ̣ ̣ ̣]ω[- ca.10 -]ι̣α[ ̣ ̣ ̣]</foreign></quote>
+                    <p>Text taken from Papyri.info. </p>
+                    <p/>
+                </div>
+            </div>
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="Catalogue of occurrences">
+                    <head>Catalogue of occurrences</head>
+                    <p/>
+                    <p><hi rend="italic">Literary sources</hi></p>
+                    <list rend="bulleted">
+                        <item><ref type="lit"><ref
+                                    corresp="https://stephanus.tlg.uci.edu/Iris/demo/browser.jsp#doc=tlg&amp;aid=0059&amp;wid=012&amp;ct=~x248y%22e%22z1&amp;rt=y&amp;l=20&amp;td=greek&amp;links=tlg"
+                                    >Pl. Phdr. 248d-e</ref></ref></item>
+                        <item><ref type="lit"><ref
+                                    corresp="https://stephanus.tlg.uci.edu/Iris/demo/browser.jsp#doc=tlg&amp;amp;amp;aid=0059&amp;amp;wid=012&amp;ct=~x265y%22b%22z4&amp;l=20&amp;td=greek&amp;links=tlg"
+                                    >Pl. Phdr. 265b,4</ref></ref></item>
+                        <item><ref type="lit"><ref
+                                    corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2008.01.0073%3Achapter%3D12%3Asection%3D4"
+                                    >Plu. Sol. 12,4</ref></ref></item>
+                        <item><ref type="lit"><ref
+                                    corresp="https://stephanus.tlg.uci.edu/Iris/demo/browser.jsp#doc=tlg&amp;aid=0545&amp;wid=001&amp;ct=~x2y42z14&amp;l=20&amp;td=greek&amp;links=tlg"
+                                    >Ael. NA 2.42</ref></ref></item>
+                        <item><ref type="lit"><ref
+                                    corresp="https://stephanus.tlg.uci.edu/Iris/demo/browser.jsp#doc=tlg&amp;aid=0563&amp;wid=001&amp;ct=~w38x%225*%22y%22a%22z2&amp;l=20&amp;td=greek&amp;links=tlg"
+                                    >Max. Tyr. 38 5a, 2</ref></ref></item>
+                        <item><ref type="lit"><ref
+                                    corresp="https://stephanus.tlg.uci.edu/Iris/demo/browser.jsp#doc=tlg&amp;aid=2317&amp;wid=001&amp;ct=~y87z4&amp;l=20&amp;td=greek&amp;links=tlg"
+                                    >Herm. in Phdr. 87, 4-18</ref></ref></item>
+                        <item><ref type="lit"><ref
+                                    corresp="https://stephanus.tlg.uci.edu/Iris/demo/browser.jsp#doc=tlg&amp;aid=2317&amp;wid=001&amp;ct=~y99z9&amp;l=20&amp;td=greek&amp;links=tlg"
+                                    >Herm. in Phdr. 99, 9-20</ref></ref></item>
+                        <item><ref type="lit"><ref corresp="https://stephanus.tlg.uci.edu/Iris/demo/browser.jsp#doc=tlg&amp;aid=4036&amp;wid=008&amp;ct=~y719z23&amp;l=20&amp;td=greek&amp;links=tlg">Procl. in Prm. 719, 23</ref></ref></item>
+                        <item><ref type="lit"><ref corresp="https://stephanus.tlg.uci.edu/Iris/demo/browser.jsp#doc=tlg&amp;aid=4036&amp;wid=008&amp;ct=~y990z27&amp;l=20&amp;td=greek&amp;links=tlg">Procl. in Prm. 990, 27</ref></ref></item>
+                        <item><ref type="lit"><ref corresp="https://stephanus.tlg.uci.edu/Iris/demo/browser.jsp#doc=tlg&amp;aid=2702&amp;wid=025&amp;ct=~z142&amp;l=20&amp;td=greek&amp;links=tlg">Psellus Epist. <hi rend="italic">ad Michaelem
+                            Cerularium</hi> 142</ref></ref></item>
+
+                    </list>
+                    <p/>
+                    <p><hi rend="italic">Inscriptions</hi></p>
+                    <list rend="bulleted">
+                        <item><ref type="ins"><ref
+                                    corresp="https://inscriptions.packhum.org/text/219002?&amp;bookid=371"
+                                    > OGIS 90,A</ref></ref></item>
+                    </list>
+                    <p/>
+                    <p><hi rend="italic">Papyri</hi></p>
+                    <list rend="bulleted">
+                        <item>
+                            <ref type="pap"><ref
+                                    corresp="https://papyri.info/dclp/59752?rows=2&amp;start=0&amp;fl=id,title&amp;fq=idno_led_path:1148;p.herc;*;dclp&amp;sort=series+asc,volume+asc,item+asc&amp;p=0&amp;t=0"
+                                    > P.herc 1148</ref></ref></item>
+                    </list>
+                </div>
+            </div>
+
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="Discussion / interpretation">
+                    <head>Discussion / interpretation</head>
+
+                    <p/>
+                    <p><rs type="Activities" subtype="Invocation/Prayer"><foreign xml:lang="grc"><w
+                                    lemma="τελεστική">τελεστική</w></foreign></rs>, ritual practice
+                        one uses to induce the presence of a certain god inside an inanimate object
+                        used as a receptacle (<rs type="Activities" subtype="Objects"><foreign
+                                xml:lang="grc"><w lemma="ὑποδοχή">ὑποδοχή</w></foreign></rs>), often
+                        a statue of said god. Usually other objects, like plants or minerals, and
+                            marks(<rs type="Activities" subtype="Objects"><foreign xml:lang="grc"><w
+                                    lemma="χαρακτήρης">χαρακτήρης</w></foreign></rs>), engraved or
+                        written, were used to strengthen the bond between god and receptacle. It is
+                        also considered a religious and philosophical concept, first attested in
+                        Plato and later resumed by the Neoplatonic authors. Interpreted by modern
+                        scholars as either linked to <ref type="Activities">theurgy</ref>, if not even one of its synonyms.</p>
+                    <p>First attested in Plato, with the meaning of <rs type="Activities"
+                            subtype="Offering">mystic madness</rs> linked to the god <rs
+                            type="Agents" subtype="Divinities"><persName type="divine"
+                                key="Dionysus">Dionysus</persName></rs>, τελεστική is then used in
+                        the late hellenistic period when the meaning becomes linked with <ref type="Activities">theurgy</ref>. It
+                        would entail the “consecrating and animating of <foreign xml:lang="grc"><w
+                                lemma="τελεστική">τελεστική</w></foreign> statues in order to obtain
+                        oracles from them.” (Dodds 1951). This term is later used by <persName
+                            key="Maximus of Tyre">Maximus of Tyre</persName> in II CE and by
+                        neoplatonic authors, like <persName key="Hermias">Hermias</persName> and
+                            <persName key="Proclus">Proclus</persName> in V CE, and <persName
+                            key="Psellus">Psellus</persName> in XI CE. Dodds considers τελεστική as
+                        one of the rituals that use <ref type="Activities">theurgy</ref> intended as a <rs type="Activities"
+                            subtype="Invocation/Prayer"><foreign xml:lang="grc"><w lemma="τελεστική"
+                                    >τελεστική</w></foreign></rs> power that concerns divine
+                        possessions. Other authors believe <rs type="Activities"
+                            subtype="Invocation/Prayer"><foreign xml:lang="grc"><w lemma="τελεστική"
+                                    >τελεστική</w></foreign></rs> to be an ancient rite engrained in
+                        the traditional Greek religion that only later, in neoplatonic texts, is
+                        associated with <ref type="Activities">theurgy</ref>, and becomes a way to reunite the soul with the
+                        divine (Boyancé 1955; Van Liefferinge 1999). </p>
+                </div>
+            </div>
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="Bibliography">
+                    <head>Bibliography</head>
+                    <p/>
+                    <p>All texts, unless otherwise stated, come from <ref
+                            corresp="https://stephanus.tlg.uci.edu/index.php">TLG</ref>
+                    </p>
+                    <p> All translations, unless otherwise stated, come from <ref
+                            corresp="https://www.perseus.tufts.edu/hopper/">Perseus</ref>
+                    </p>
+                    <p><ref corresp="https://journals.openedition.org/kernos/968">Ballériaux, Omer.
+                                <foreign>Φιλοσόφων τὰ θεουργικὰ ἐξετάζειν</foreign>. Syrianus et la
+                            télestique. In “Kernos”, n. 2, 1989, pp. 13-25.</ref>
+                    </p>
+                    <p>Ballériaux, Omer. Mantique et télestique dans le Phèdre de Platon. In
+                        “Kernos” [online], n. 3, 1990, pp. 35-42. </p>
+                    <p>Bernand, André. La Prose sur pierre dans l'Égypte hellénistique et romaine. 2
+                        vols. Paris 1992</p>
+                    <p>Bernand, Étienne. Inscriptions grecques d'Égypte et de Nubie: Répertoire
+                        bibliographique des OGIS. «Annales littéraires de l'Université de Besançon»,
+                        272. «Centre de Recherche d'Histoire Ancienne», 45, Paris 1982.</p>
+                    <p><ref corresp="https://www.persee.fr/doc/rhr_0035-1423_1955_num_147_2_7223"
+                            >Boyancé, Pierre. Théurgie et télestique néoplatoniciennes. In “Revue de
+                            l'histoire des religions”, n. 147.2, 1955. pp. 189-209.</ref>
+                    </p>
+
+                    <p>Burnet, J. Platonis opera, vol. 2, Oxford: Clarendon Press, 1901 (repr.
+                        1967): St III.227a-279c.</p>
+                    <p>Chantraine, Pierre. Dictionnaire étymologique de la langue grecque: histoire
+                        des mots. Paris: Klincksieck, 1999.</p>
+                    <p>Cousin, V. Procli philosophi Platonici opera inedita, pt. 3, Paris: Durand,
+                        1864 (repr. Hildesheim: Olms, 1961): 617-1244.</p>
+                    <p>Couvreur, P. Hermeias von Alexandrien. In Platonis Phaedrum scholia, Paris:
+                        Bouillon, 1901 (repr. Hildesheim: Olms, 1971): 1-266.</p>
+                    <p>Criscuolo, U. Michele Psello, Epistola a Michele Cerulario [Hellenica et
+                        byzantina neapolitana 15. 1973 (repr. 1990)]: 21-31.</p>
+
+                    <p>Dodds, Eric R. The Greeks and the irrational. Sather Classical Lectures; XXV.
+                        Berkeley (Calif.): University of California Pr., 1951.</p>
+                    <p>Hobein, H. Maximi Tyrii philosophumena, Leipzig: Teubner, 1910: 1-484.</p>
+                    <p>Lewy, Y. Chaldean oracles and theurgy: Mysticism, <rs type="Activities"
+                            subtype="Invocation/Prayer"><foreign xml:lang="grc"><w lemma="τελεστική"
+                                    >τελεστική</w></foreign></rs> and Platonism in the later Roman
+                        Empire. Le Caire, 1956.</p>
+                    <p>Maximus of Tyre; Trapp, Michael B. (trad.). The Philosophical Orations.
+                        Oxford, 1997.</p>
+                    <p>Migne, J.-P. Patrologiae cursus completus (series Graeca) (MPG) 110, Paris:
+                        Migne, 1857-1866: 41-1260.</p>
+                    <p>Montanari, Franco, Goh, Madeleine, Schroeder, Chad, Nagy, Gregory and
+                        Muellner, Leonard. The Brill dictionary of ancient Greek. Leiden ; Boston
+                        (Mass.): Brill, 2015.</p>
+                    <p>Plato; Fowler, Harold N. (trad.). Plato in Twelve Volumes. Vol. 9, Cambridge;
+                        London, 1925. </p>
+                    <p><ref corresp="https://doi.org/10.1515/9780691236612">Proclus,. Proclus'
+                            Commentary on Plato's Parmenides, Princeton: Princeton University Press,
+                            2018. </ref></p>
+                    <p>Sheppard, Anne. “Proclus’ attitude to theurgy”. Classical Quarterly, 32,
+                        1982.</p>
+                    <p><ref corresp="https://books.openedition.org/pulg/701">Van Liefferinge,
+                            Carine. La Théurgie: Des Oracles chaldaïques à Proclus. Liège,
+                            1999.</ref>
+                    </p>
+                    <p><ref
+                            corresp="https://ebookcentral.proquest.com/lib/unibo/detail.action?docID=1009433"
+                            >Waanders, Frits M.J. History of ΤΕΛΟΣ and ΤΕΛΕΩ in Ancient Greek, John
+                            Benjamins Publishing Company, 1983.</ref>
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

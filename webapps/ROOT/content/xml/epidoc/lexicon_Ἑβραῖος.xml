@@ -12,7 +12,7 @@
                         Project</ref>
                 </publisher>
                 <date when="2023" />
-                <idno type="filename">lexicon_hebraios</idno>
+                <idno type="filename">lexicon_Ἑβραῖος</idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative
                         Commons Attribution-ShareAlike 4.0 International</licence>
@@ -78,7 +78,7 @@
                         key="Palestine">Palaestina</placeName>, being used instead.</p>
 
                     <p>
-                <hi rend="italic">Inscriptions</hi></p>
+                Inscriptions</p>
                     <p>In inscriptions the term is used to describe synagogues, seats,
                 people and titles. In the inscription <ref type="ins">IJudO I Ach 47</ref> from <placeName
                         key="Corinth">Corinth</placeName>, late 3rd cent. CE, the whole text reads: <ref
@@ -151,7 +151,7 @@
                     possibility cannot be ignored, the evidence for any meaning remaining
                     scarce, the same applying to the meaning “Hebrew speaker”.</p>
 
-                    <p><hi rend="italic">Papyri</hi></p>
+                    <p>Papyri</p>
                     <p>In
                 Papyri, Ἰουδαῖος is the usual word for a Jew, the adjective Hebrew being only used
                 rarely. In a contract concerning wine (<ref type="pap">CPJ III 512</ref> , <placeName
@@ -175,7 +175,7 @@
                 receiver’s Jewishness and it seems that the “Hebrew fashion” refers to owning money,
                 not religion.</p>
 
-                    <p><hi rend="italic">Literary sources</hi></p>
+                    <p>Literary sources</p>
                     <p><ref type="lit">1st Maccabees</ref> does
                 not use the word Ἑβραῖος at all, whereas in <ref type="lit">2nd Maccabees</ref> (c.
                 1. cent. BCE) it is used a few times. In <ref type="lit">11:13</ref> Lysias
@@ -206,7 +206,7 @@
                 is safe to assume that Ἑβραῖος and Ἰουδαῖος are the same people here as well. As
                 stated, the reason for the choice of vocabulary remains highly unclear.</p>
 
-                    <p><persName key="Philo">Philo</persName> (c. 20 BCE – 1st
+                    <p><persName type="attested" key="Philo">Philo</persName> (c. 20 BCE – 1st
                 cent. CE) uses the term rarely and mostly in reference to the language when he gives
                 the Hebrew words for things. In <ref type="lit">On
                         confusion
@@ -221,7 +221,7 @@
                         προαίρεσιν Ἑβραίαν </ref>(an Egyptian by birth, but a Hebrew by her rule of
                 life) (251) (LCL 289: Philo, On Abraham. On Joseph. On Moses).</p>
 
-                    <p><persName
+                    <p><persName type="attested"
                         key="Statius">Statius</persName> (c. 45 – c. 96 CE) uses the term in his <ref
                         type="lit">Silvae</ref> in a funerary context, applying the adjectival
                 variant without c for things: <ref type="lit">Hebraei liquores</ref>. The
@@ -241,10 +241,10 @@
                         corresp="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a2008.01.0499">
                 Stat. Silv. 5.1.210—214</ref>, epicedion in Priscillam) (LCL 206: Statius, Silvae).</p>
                     
-                    <p><persName
+                    <p><persName type="attested"
                         key="Josephus">Josephus</persName> (1st cent. CE) uses the term both for the
                 people and the language. For him Ἑβραῖος is the umbrella term meaning all the
-                descendants of <persName type="bible" key="Abraham">Abraham</persName>, Ἰουδαῖος
+                descendants of <persName type="attested" key="Abraham">Abraham</persName>, Ἰουδαῖος
                 referring to <placeName key="Judah">Judah</placeName>, and Hebrews always being
                 “good Jews”, even though the two are parts of the same group not strongly
                 differentiated (Noy, Sorek 2007, 6). At the beginning of War, he also calls himself
@@ -330,7 +330,7 @@
                 delivered Caesar’s message in Hebrew) (<ref type="lit">BJ 6.97</ref> ). </p>
 
                     <p>In
-                the <ref type="lit">Gospels</ref>, <persName key="John">John</persName> the adverb
+                the <ref type="lit">Gospels</ref>, <persName type="attested" key="John">John</persName> the adverb
                 Ἑβραϊστί twice, referring to the Hebrew or Aramaic language: <ref
                         type="lit">Ἔστιν δὲ ἐν τοῖς Ἱεροσολύμοις ἐπὶ τῇ προβατικῇ κολυμβήθρα ἡ
                 ἐπιλεγομένη Ἑβραϊστὶ Βηθζαθὰ πέντε στοὰς ἔχουσα</ref>, <ref
@@ -353,7 +353,7 @@
                         19:20</ref>). The other evangelists do not use the Hebrew vocabulary at all. </p>
 
                     <p>
-                In the 5th book of his <ref type="lit">Histories</ref>, <persName key="Tacitus">
+                In the 5th book of his <ref type="lit">Histories</ref>, <persName type="attested" key="Tacitus">
                 Tacitus</persName> (56 – c. 120 CE) talks about the First Jewish War also describing
                 the history and origins of the region and its people (see also <ref
                         corresp="lexicon_Ioudaios">Iudaeus</ref> in Tacitus). He uses hebraeus to
@@ -399,17 +399,17 @@
 
                 </p>
 <p>In his <ref type="lit">Civil Wars</ref>,
-                describing the events in the late Republic, <persName key="Appian">Appian</persName>
+                describing the events in the late Republic, <persName type="attested" key="Appian">Appian</persName>
                 (c. 95 – c. 165 CE) lists people around the Mediterranean. Amongst them, there is<ref
                         type="lit"> τὸ Ἑβραίων γένος </ref>(the nation of Hebrews) (<ref
                         corresp="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.01.0232">BC
                 2.71</ref>) (LCL 5: Appian, Roman History. Civil Wars. <ref
                         corresp="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.01.0231">
                 Perseus</ref>). The meaning is clearly geographical. </p>
-<p> Describing Greece, <persName
+<p> Describing Greece, <persName type="attested"
                         key="Pausanias">Pausanias</persName> (2nd cent. CE) mentions the Hebrews in
                 the geographical sense: <ref type="lit">καὶ ἐς μὲν πόλεμον οὐδένα ἑκούσιος κατέστη,
-                Ἑβραίους δὲ τοὺς ὑπὲρ Σύρων ἐχειρώσατο ἀποστάντας</ref> (He (<persName
+                Ἑβραίους δὲ τοὺς ὑπὲρ Σύρων ἐχειρώσατο ἀποστάντας</ref> (He (<persName type="attested"
                         key="Hadrian">Hadrian</persName>) never voluntarily entered upon a war, but
                 he reduced the Hebrews beyond Syria, who had rebelled (<ref
                         corresp="http://www.perseus.tufts.edu/hopper/text?doc=Paus.+1.5.5&amp;fromdoc=Perseus%3Atext%3A1999.01.0160 ">
@@ -435,7 +435,7 @@
                 </ref>). </p>
 
 <p>
-                    <persName key="Tertullian">Tertullian</persName> (c. 155 AD – c. 220 AD) gives
+                    <persName type="attested" key="Tertullian">Tertullian</persName> (c. 155 AD – c. 220 AD) gives
                 an explanation to the relationship between Iudaeus and Hebraeus in his <ref
                         type="lit">Apologeticum</ref> <ref type="lit">Hebraei retro, qui nunc
                         Iudaei; igitur et litterae Hebraeae et
@@ -452,7 +452,7 @@
                 epigraphic evidence suggests the terms having been used side by side, perhaps in a
                 bit different sense. Tertullian’s comment might indicate that the terminology was
                 unclear even for the natives of the day, at least to outsiders of Judaism. </p>
-<p><persName
+<p><persName type="attested"
                         key="John Chrysostom">John
                         Chrysostom</persName> (c. 347 – 407 CE) discusses Christians, Jews and
                 pagans in his sermon <ref type="lit">
@@ -476,7 +476,7 @@
             <div type="edition" xml:lang="en">
             <div type="textpart" n="catalogue of occurrences">
                 <head>Catalogue of occurrences</head>
-                <p><hi rend="italic">Inscriptions</hi></p>
+                <p>Inscriptions</p>
                 <p>
                     <ref type="ins"> IJudO I Ach 47, Mac 8; 9</ref>
                 </p>
@@ -494,13 +494,13 @@
                 </p>
 
 
-                <p><hi rend="italic">Papyri</hi></p>
+                <p>Papyri</p>
                 <p>
                     <ref type="pap">CPJ III 507; 511; 512 </ref>
                 </p>
 
 
-                <p><hi rend="italic">Literary sources</hi></p>
+                <p>Literary sources</p>
 
                 <p>
                     <ref type="lit">Appian BC 2.71 </ref>
@@ -555,6 +555,7 @@
                     2007, 6). The term was used by both Jews and others.
                 </p>
             </div>
+            <div type="bibliography">
                 
                 <div type="bibliography" subtype="corpora">
                     <p>CPJ III	“Corpus Papyrorum Judaicorum III”, eds. Victor A. Tcherikover, Alexander Fuks, Menahem Stern, David M. Lewis, Magnes Press, Hebrew University by Harvard University Press, 1964.</p>
@@ -572,6 +573,7 @@
                             
                     </div>
                 </div>
+            </div>
         </body>
     </text>
 </TEI>
