@@ -110,7 +110,7 @@
             </div>  <!-- end of english edition -->
             
             <div type="bibliography">
-                    <bibl>Beeks, Robert. <title>Etymological Dictionary of Greek.</title> Leiden, Boston: Brill, 2009.</bibl>
+                    <p><bibl>Beeks, Robert. <title>Etymological Dictionary of Greek.</title> Leiden, Boston: Brill, 2009.</bibl>
                     <bibl>Bloesch, Hansjörg. <title>Agalma. Kleinod, Weihgeschenk, Götterbild.</title> Bern: Verlag B. Ag., 1943.</bibl> 
                     <bibl>Brugmann, Friedrich K. <title>“Über die sogenannte gebrochene Reduplication in den indogermanischen Sprachen”,</title> Curtius Studien 7, (1875), 184-216; 273-368.</bibl>
                     <bibl>Chantraine, Pierre. <title>Dictionnaire étymologique de la langue grecque.</title> Paris: Klincksieck, 1968.</bibl>
@@ -137,7 +137,7 @@
                     <bibl>Szemerenyi, Oswald. <title>Syncope in Greek and Indo-European and the nature of Indo-European accent.</title> Naples: Istituto universitario orientale, 1964.</bibl>
                     <bibl>Walter, Otto. <title>“Review of ‘Agalma’ by H. Bloesch,”</title> Anzeiger für die Altertumswissenschaft, 1950, nr 3, s. 149.</bibl>
                     <bibl>Walde, Alois and John-Baptis Hofmann. <title>Lateinisches etymologisches Wörterbuch,</title> vol. 1, (4th ed.). Heidelberg: C. Winter, 1965.</bibl> 
-                    <bibl>Weber, Hugo. <title>Etymologische Untersuchungen.</title> Halle: Waisenhauses, 1861.</bibl>  
+                    <bibl>Weber, Hugo. <title>Etymologische Untersuchungen.</title> Halle: Waisenhauses, 1861.</bibl></p>
             </div>
         </body>
     </text>
