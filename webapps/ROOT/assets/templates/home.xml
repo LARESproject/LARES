@@ -38,7 +38,7 @@
             <!-- For internal use mainly: to be hidden? -->
             <p>The following EpiDoc XML elements have been used for indexing and interlinking purposes:
               <ul style="text-align:left;margin-left:1em;line-height:2em">
-                <li>Greek and Latin terms (+ automatic links to Logeion): &lt;w lemma=""&gt;</li>
+                <li>Greek and Latin terms (and automatic links to Logeion): &lt;w lemma=""&gt;</li>
                 <li>Ancient sources: &lt;ref type="lit/ins/pap"&gt;</li>
                 <li>Terms based on fields/realms: &lt;rs key=""&gt;</li>
                 <li>Literary and mythological characters: &lt;persName type="divine/hero/myth/literary" key=""&gt;</li>
