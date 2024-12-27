@@ -144,31 +144,30 @@
                           </div>            
             <div type="bibliography" subtype="studies">
                 <head>Bibliography</head>
-                <bibl><author>BOUSTAN, R. S.</author> = <title>Violence, Scripture, and Textual Practice in Early Judaism and Christianity</title>, Leiden, 2010.</bibl>
-                <bibl><author>BRIGGS, C. A.</author>; <author>BROWN, F.</author>; <author>DRIVER, S. R.</author> = <title>Brown Driver Briggs Hebrew Lexicon</title>, re-edited, Oxford, 1994.</bibl> 
-                <bibl><author>COHEN, A.</author> = <title>The Babylonian Talmud</title>, Cambridge, 2013.</bibl>
-                <bibl><author>DE PRENTER, J.</author> = <title>The Contrastive Polysemous Meaning of Cherem in Biblical Hebrew: A Cognitive-Linguistic Approach</title>, master course presentation, University of Tilburg and the Catholic University of Leuven, 2010/2011.</bibl>
-                 <bibl><author>DRAZIN, I.</author> = <title>Maimonides and the Biblical Prophets</title>, Jerusalem, 2009, pp. 64-69.</bibl>
-                 <bibl><author>DRIVER, S. R.</author> = <title>A Critical and Exegetical Commentary on Deuteronomy</title>, Second Edition, Edinburgh, 1896, pp. 98-100.</bibl>
-                 <bibl><author>EWALD, H.</author> = <title>The Antiquities of Israel</title>, London, 1876.</bibl>
-                 <bibl><author>HOFREITER, C.</author> = <title>Genocide in Deuteronomy and Christian interpretation</title>, in FIRTH, D. G., <title>Interpreting Deuteronomy. Issues and approaches</title>, Westmont, 2012.</bibl>
-                 <bibl><author>HURVITZ, M. M.</author>; <author>KARESH, S. E.</author>, in <author>NEUSNER, J.</author> = <title>Encyclopedia of Judaism</title>, 2005, p. 205.</bibl>
-                 <bibl><author>KEIL, C. F.</author> = <title>Manual of Biblical Archeology</title>, in Clark's Foreign Theological Library, new series, vol. xxxii, Edinburgh, 1887.</bibl>
-                 <bibl><author>LILLEY, J. P. U.</author> = <title>Understanding the herem</title> in Tyndale Bulletin, vol. 44, Cambridge, 1993, pp. 171-173.</bibl>
-                 <bibl><author>SAALCHUTZ, J. L.</author> = <title>Archäologie der Hebräer</title>, Königsberg, 1856.</bibl>
-                 <bibl><author>SOGGIN, J. A.</author> = <title>Joshua: a commentary</title>, London, 1972, pp. 97-98.</bibl>
-                 <bibl><author>WIESNER, J.</author> = <title>Der Bann</title>, in <title>Seiner Geschichtlichen Entwicklung auf dem Boden des Judenthums</title>, Leipsic, 1864.</bibl>
-                 <bibl><author>WOOD, L. J.</author> = <title>חרם</title>, in GLEASON L.; ARCHER jr; HARRIS R.;WALTKE B. K., <title>Theological Wordbook of the Old Testament</title>, Chicago, 1980, pp. 324-325.</bibl>
+                <p>BOUSTAN, R. S. = Violence, Scripture, and Textual Practice in Early Judaism and Christianity, Leiden, 2010.</p>
+                <p>BRIGGS, C. A.; BROWN, F.; DRIVER, S. R. = Brown Driver Briggs Hebrew Lexicon, re-edited, Oxford, 1994.</p> 
+                <p>COHEN, A. = The Babylonian Talmud, Cambridge, 2013.</p>
+                <p>DE PRENTER, J. = The Contrastive Polysemous Meaning of Cherem in Biblical Hebrew: A Cognitive-Linguistic Approach, master course presentation, University of Tilburg and the Catholic University of Leuven, 2010/2011.</p>
+                 <p>DRAZIN, I. = Maimonides and the Biblical Prophets, Jerusalem, 2009, pp. 64-69.</p>
+                 <p>DRIVER, S. R. = A Critical and Exegetical Commentary on Deuteronomy, Second Edition, Edinburgh, 1896, pp. 98-100.</p>
+                 <p>EWALD, H. = The Antiquities of Israel, London, 1876.</p>
+                 <p>HOFREITER, C. = Genocide in Deuteronomy and Christian interpretation, in FIRTH, D. G., Interpreting Deuteronomy. Issues and approaches, Westmont, 2012.</p>
+                 <p>HURVITZ, M. M.; KARESH, S. E., in NEUSNER, J. = Encyclopedia of Judaism, 2005, p. 205.</p>
+                 <p>KEIL, C. F. = Manual of Biblical Archeology, in Clark's Foreign Theological Library, new series, vol. xxxii, Edinburgh, 1887.</p>
+                 <p>LILLEY, J. P. U. = Understanding the herem in Tyndale Bulletin, vol. 44, Cambridge, 1993, pp. 171-173.</p>
+                 <p>SAALCHUTZ, J. L. = Archäologie der Hebräer, Königsberg, 1856.</p>
+                 <p>SOGGIN, J. A. = Joshua: a commentary, London, 1972, pp. 97-98.</p>
+                 <p>WIESNER, J. = Der Bann, in Seiner Geschichtlichen Entwicklung auf dem Boden des Judenthums, Leipsic, 1864.</p>
+                 <p>WOOD, L. J. = חרם, in GLEASON L.; ARCHER jr; HARRIS R.;WALTKE B. K., Theological Wordbook of the Old Testament, Chicago, 1980, pp. 324-325.</p>
             </div>
             <div type="bibliography" subtype="sitography">
                 <head>Sitography</head>
-                <bibl><ref corresp="https://www.biblegateway.com">Bible Gateway</ref></bibl>
-                <bibl><ref corresp="https://www.sefaria.org">Sefaria - a Living Library of Torah</ref></bibl>
-                <bibl><ref corresp="https://jewishencyclopedia.com">Jewish Encyclopedia</ref>, regarding “anathema” and “ban”</bibl>
-                <bibl><ref corresp="https://www.blueletterbible.org/lexicon">Blue Letter Bible</ref>, regarding the lexicon</bibl>
-                <bibl><ref corresp="https://www.chabad.org">Chabad</ref></bibl>
-                <bibl><ref corresp="https://enduringword.com">Enduring Word</ref></bibl>
-                
+                <p><ref corresp="https://www.biblegateway.com">Bible Gateway</ref></p>
+                <p><ref corresp="https://www.sefaria.org">Sefaria - a Living Library of Torah</ref></p>
+                <p><ref corresp="https://jewishencyclopedia.com">Jewish Encyclopedia</ref>, regarding “anathema” and “ban”</p>
+                <p><ref corresp="https://www.blueletterbible.org/lexicon">Blue Letter Bible</ref>, regarding the lexicon</p>
+                <p><ref corresp="https://www.chabad.org">Chabad</ref></p>
+                <p><ref corresp="https://enduringword.com">Enduring Word</ref></p>
             </div>
         </body>
     </text>

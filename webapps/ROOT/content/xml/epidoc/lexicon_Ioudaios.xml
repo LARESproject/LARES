@@ -112,7 +112,7 @@
                         range is from the 3rd century BCE to the early 5th century CE and the texts
                         are composed all around the Mediterranean. The objective is to give an
                         overview of the different uses of the words in different contexts.</p>
-                    <p>Inscriptions</p>
+                    <p><emph rend="italics">Inscriptions</emph></p>
                     <p>In the inscription <ref type="ins">IJudO I Ach 45 </ref>(<placeName
                             key="Oropos">Oropus</placeName>, Amphiareion, 300—250 BCE.), which
                         combines a manumission and a dedication in one stele, the dedicator, a
@@ -268,7 +268,7 @@
                             2</ref> (Senia, <placeName key="Dalmatia">Dalmatia</placeName>, 3.–4.
                         cent. CE) the deceased is <ref type="ins">Ἀὺρηλιους Διονυσιους Ἰουδεους
                             Τιβεριηνσις</ref> (Aurelius Dionysios, a Jew from Tiberias). </p>
-                    <p>Notes</p>
+                    <p><emph rend="italics">Notes</emph></p>
                     <p>1) The sacred law is <ref type="ins">I. Oropos 277</ref> and this commandment
                         is on r. 40—41. The law dates c. 386—373 BCE which makes it older than the
                         Moskhos inscription. About the text see Renberg 2016, 275.</p>
@@ -279,7 +279,7 @@
                         Panayotov 2004, 175—176; Cohen 1999, 98; Gibson 1991, 68—69. Gibson says ”of
                         jewish origin”; Schürer 1973, 65; Gruen 2016, 125; Williams 1997, 250 and
                         App.1.</p>
-                    <p>Papyri</p>
+                    <p><emph rend="italics">Papyri</emph></p>
                     <p>Along with the geographical, ethnic and religious meanings, the word has a
                         military aspect, apparent especially in papyri. During Hellenistic times,
                         people described as Ἰουδαῖοι served in armies, which had troops of foreign
@@ -385,7 +385,7 @@
                         usually were key elements of Hellenism? At least it is clear that the
                         decision was political and that in this context οἱ Ἰουδαῖοι were pampered
                         instead of oppressed. </p>
-                    <p>Literary sources</p>
+                    <p><emph rend="italics">Literary sources</emph></p>
                     <p> In the <ref type="lit"><ref
                                 corresp="https://www.septuagint.bible/1-maccabees"> 1st
                                 Maccabees</ref></ref> (c. 1. cent. BCE), we can divide three major
@@ -1044,7 +1044,7 @@
             <div type="edition" xml:lang="en">
                 <div type="textpart" n="catalogue of occurrences">
                     <head>Catalogue of occurrences</head>
-                    <p>Inscriptions</p>
+                    <p><emph rend="italics">Inscriptions</emph></p>
 
                     <p><ref type="ins">CIJ 296</ref></p>
                     <p><ref type="ins">CIL V 4221</ref></p>
@@ -1057,11 +1057,11 @@
                     <p><ref type="ins">JIWE II 18, 233, 567</ref></p>
 
 
-                    <p>Papyri</p>
+                    <p><emph rend="italics">Papyri</emph></p>
                     <p><ref type="pap">CPJ I 8, 9, 18, 19, 38, 417</ref></p>
 
 
-                    <p>Literary sources</p>
+                    <p><emph rend="italics">Literary sources</emph></p>
 
                     <p><ref type="lit">Cassius Dio 37.16.5-17.3</ref></p>
                     <p><ref type="lit">Cicero Pro Flac. 28.67-68</ref></p>
@@ -1175,7 +1175,7 @@
 
             <div type="bibliography">
                 
-                <div type="bibliography" subtype="corpora">
+                <p><hi rend="italic">Corpora:</hi></p>
                     <p>
                         <title>CIL V</title> ”Corpus Inscriptionum Latinarum V: Inscriptiones
                         Galliae Cisalpinae Latinae. Pars I: Inscriptiones regionis Italiae decimae”,
@@ -1201,11 +1201,7 @@
                         University Press, 1993.</p>
                     <p><title>JIWE II</title> ”Jewish Inscriptions of Western Europe II: the city of
                         Rome”, ed. D. Noy, Cambridge University Press, 1995.</p>
-                </div>
-
-
-                <div type="bibliography" subtype="studies">
-                    
+            <p><hi rend="italic">Studies:</hi></p>
                     <p>Bauer 1988<title> “Wörterbuch zum Neuen Testament”,</title> Walter Bauer, de
                         Gruyter, 1988.</p>
                     <p> Cohen 1999 ”<title>The beginnings of jewishness. Boundaries, Varieties,
@@ -1265,7 +1261,6 @@
                     <p>Williams 1997 <title>“The Meaning and Function of Ioudaios in Graeco-Roman
                             Inscriptions”</title>, Margaret H. Williams, Zeitschrift für Papyrologie
                         und Epigraphik, Bd. 116 (1997), published by: Dr. Rudolf Habelt GmbH.</p>
-                </div>
             </div>
         </body>
     </text>

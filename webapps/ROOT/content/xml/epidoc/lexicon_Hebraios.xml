@@ -552,22 +552,21 @@
                     2007, 6). The term was used by both Jews and others.
                 </p>
             </div>
-                
-                <div type="bibliography" subtype="Corpora">
+                <div type="bibliography">
+                    <p><hi rend="italic">Corpora:</hi></p>
                     <p>CPJ III	“Corpus Papyrorum Judaicorum III”, eds. Victor A. Tcherikover, Alexander Fuks, Menahem Stern, David M. Lewis, Magnes Press, Hebrew University by Harvard University Press, 1964.</p>
                         <p>IJudO I	”Inscriptiones Judaicae Orientis I: Eastern Europe”, eds. D. Noy, A. Panayotov, H. Bloedhorn, Texts and Studies in Ancient Judaism 101, Mohr Siebeck, 2004. </p>
                         <p>IJudO II	”Inscriptiones Judaicae Orientis II: Kleinasien”, ed. W. Ameling, Texts and Studies in Ancient Judaism 99, Mohr Siebeck, 2004.</p>
                        <p> JIWE I	”Jewish inscriptions of Western Europe I: Italy (excluding the City of Rome), Spain and Gaul”, ed. D. Noy, Cambridge University Press, 1993.</p>
                        <p> JIWE II	”Jewish Inscriptions of Western Europe II: the city of Rome”, ed. D. Noy, Cambridge University Press, 1995.</p>
                         
-                    </div>
-                    <div type="bibliography" subtype="Studies">
+                    <p><hi rend="italic">Studies:</hi></p>
                         <p>Gesenius 1846	“Hebrew-Chaldee Lexicon to the Old Testament”, Friedrich Wilhelm Gesenius, 1846.</p>
                             <p>Noy, Sorek 2007	”Claudia Aster and Curtia Euodia: Two Jewish Women in Roman Italy”, D. Noy, S. Sorek, Women in Judaism: A Multidisciplinary Journal, vol. 5, no. 1, 2007.</p>
                             <p>Solin 1983	”Juden und Syrer im westlichen Teil der römischen Welt. Eine ethnisch-demographische Studie mit besonderer Berücksichtigung der sprachlichen Zustände”, H. Solin, ANRW II.29.2, 1983.</p>
                             <p>Williams 1997	“The Meaning and Function of Ioudaios in Graeco-Roman Inscriptions”, Margaret H. Williams, Zeitschrift für Papyrologie und Epigraphik, Bd. 116 (1997), published by: Dr. Rudolf Habelt GmbH.</p>
 </div>
-            </div>
+                </div>
         </body>
     </text>
 </TEI>
