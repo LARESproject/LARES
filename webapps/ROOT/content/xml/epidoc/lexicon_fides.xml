@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="lat">Fides</title>
+             </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">lexicon_fides</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital document.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-05-23" who="PaulaSomas">encoded in XML</change>
+                <change when="2023-05-23" who="PedroGiménezDeAragón">written contents</change>
+                <change when="2023-05-23" who="PaulaSomas">written contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="Etymology">
+                    <head>Etymology</head>
+                    <p>fides: /ˈfiːdes/: fides, trust, faith, confidence, reliance, credence, belief.</p>
+                    <p>PIE *bʰeydʰ-: obligar, forzar; confiar. De donde *bʰeydʰ-os: πειθός, fidus: leal, fiel, aliado, fœdus; trato, pacto, alianza. *bʰéydʰeti (raíz temática): de donde fido: confiar, dar crédito a, poner confianza en. Related to: confido, diffido, fidelis, fiduciarius, fidus, foedifragus, perfidiosus, etc.</p>   
+                </div>
+            </div>
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="Catalogue">
+                    <head>Catalogue</head>
+                    <p>The latin term <foreign xml:lang="la">fides</foreign> can be found with plenty of meanings from the III BC. As we can see in the next evidences, displaced in a chronological order, the same author can be using the word with multiple values in the same text. The first atestation we analyse is<persName key="Titus Maccius Plautus">Titus Maccius Plautus</persName>’<ref type="lit">Amphitruo</ref>, where we appreciate a dialogue between Amphitruo and Sosia.</p>
+                   <quote><ref type="lit">Am 555</ref> <foreign xml:lang="la">{Sos.} Eccere, iam tuatim facis tu, ut tuis nulla apud te fides sit.</foreign></quote>
+                   <div type="translation" xml:lang="en"><p>{Sos.} Look at that; you are now acting according to your usual fashion, to be putting no trust in your servants.</p>
+                   </div>
+                </div>
+                    <div type="textpart"><p>On the dispute, Sosia accuses Amphitruo not to rely on his servants by using <foreign xml:lang="la">fides</foreign>. Consequently, we understand it is being used as “trust” in its negative form, therefore, mistrust or no trust. Moving on to <persName key="Plautus">Plautus</persName>’ <ref type="lit">Mercator</ref>, we observe another conversation, this time between Pasicompsa and Lysimachus, where <foreign xml:lang="la">fides</foreign> is translated for “good faith” and “faith” with no religious connotations in any case.</p>
+                        <quote><ref type="lit">Mer 531</ref> <foreign xml:lang="la">{Pas.} Dic igitur quaeso, quoia sum? {Lys.} Tuo ero redempta es rursum; ego te redemi, i/lle mecum oravit. {Pas.} Animus rediit, si mecum servatur fides. {Lys.} Bono animo es, liberabit ille te homo: ita edepol deperit, atque hodie primum vidit. {Pas.} Ecastor iam bienniumst, quom mecum rem coepit.</foreign></quote></div>
+                   <div type="translation" xml:lang="en"><p>{Pas.} My spirits have returned, if good faith is kept with me. {Lys.} Be of good courage; this person will give you your liberty. I’ troth, he did so dote upon you this day as soon as ever he had seen you. {Pas.} I’ faith, it’s now two years since he commenced his connection this me. Now, as I’m sure that you are a friend of his, I’ll disclose it.</p></div> 
+                  <div type="textpart"> <p>As we appreciate, <persName key="Plautus">Plautus</persName>’ use of <foreign xml:lang="la">fides</foreign> may vary depending on the sentence and context of what is being explained. The same happens with <persName key="Marcus Tullius Cicero">Marcus Tullius Cicero</persName>, which represents another important source for the topic going on. As we read in the next lines taken from <persName key="Cicero">Cicero</persName>’s <ref type="lit">Pro Quinctio</ref>, the author applies the term for “good faith” in a civil-political context next to “constancy”.</p> 
+                      <quote>Quinct 5.11 <foreign xml:lang="la">reperire non poterit. Non eo dico, C. Aquili, quo mihi veniat in dubium tua fides et constantia, aut quo non in; his quos tibi advocavisti viris lectissimis civitatis spem summam habere P. Quinctius debeat.</foreign></quote></div>
+                    <div type="translation" xml:lang="en"><p>I do not say this, O Caius Aquillius, because I have any doubt of your own good faith and constancy, or because Publius Quinctius ought not to have the greatest hopes from those whom you have called in as your assessors, being, as they are, among the most imnent men in the state.</p></div>
+                    <div type="textpart">
+                        <p>Also in <persName key="Cicero">Cicero</persName>’s <ref type="lit">Pro S. Roscio Amerino</ref> <foreign xml:lang="la">fides</foreign> gets translated as “confidence” or “reliance”. Taking into account the topic of the converstation, the act of accusing someone, we understand the sense given is that one character trusts another one enough not to denounce him. Again, we see no religious specifications.</p>
+                        <quote><ref type="lit">SRosc 83.1</ref> <foreign xml:lang="la">est negare. Si quid est quod ad testis reservet, ibi quoque nos, ut in ipsa causa, paratiores reperiet quam putabat. Venio nunc eo quo me non cupiditas ducit sed fides. Nam si mihi liberet accusare, accusarem alios potius ex qui- bus possem crescere; quod certum est non facere,</foreign></quote></div>
+                    <div type="translation" xml:lang="en"><p>I come now to that point to which my desire does not lead me, but good faith towards my client. For if I wished to accuse men, I should accuse those men rather by accusing whom I might become more important, which I have determined not to do, as long as the alternatives of accusing and defending are both open to me.</p></div>
+                    <div type="textpart"><p>Moving on to <persName key="Gaius Iulius Caesar">Gaius Iulius Caesar</persName>’s <ref type="lit">De bello civili</ref>, we see a slightly different value for <foreign xml:lang="la">fides</foreign>. In this respect, the author uses the idiom in a warlike environment as “security” in means of certainty about the militar operation.</p>
+ <quote><ref type="lit">Civ 1.10.4.1</ref> <foreign xml:lang="la">rum haec erat summa: Caesar in Galliam reverteretur, Arimino excederet, exercitus dimitteret; quae si fecisset,  Pompeium in Hispanias iturum. interea quoad fides esset data Caesarem facturum, quae polliceretur, non intermissuros consules Pompeiumque dilectus.</foreign></quote></div>
+                    <div type="translation" xml:lang="en"><p>That Caesar should quit Rimini, return to Gaul, and disband his army; which conditions performed, Pompey would go into Spain. In the meantime, till Caesar gave security for the performance of what he had promised, neither Pompey nor the consuls would discontinue the levies.</p></div>
+                    <div type="textpart"><p>The next samples, taken from <ref type="lit">Ad urbe condita</ref> by <persName key="Titus Livius">Titus Livius</persName>, show how interestingly the author implies multiple significances by using fides in one unique composition.</p>
+                    <quote><ref type="lit">AUC 1.32.6.5</ref> <foreign xml:lang="la">'audite, fines' cuiuscumque gentis sunt, nominat; 'audiat fas. ego sum publicus nuntius populi Romani; iuste pieque legatus uenio, uerbisque meis fides sit.’</foreign></quote>
+                    </div>
+                    <div type="translation" xml:lang="en"><p>“Hear, 0 Justice! I am the public herald of the Roman People rightly and duly authorised do I Come; let confidence be placed in my words.”</p></div>
+                        <div type="textpart"><p>While in the lines above fides is translated as “confidence”, in <ref target="lit">Ad urbe conditas</ref> we notice other significances such as “honour”, “promise” and “loyalty”. Indeed, the last one will be present in the examples taken from <persName key="Cornelius Tacitus">Cornelius Tacitus</persName>. Meanwhile, we continue with the paragraph from <persName key="Lucius Annaeus Seneca">Lucius Annaeus Seneca</persName>’s <ref type="lit">Oedipus</ref>.</p></div>
+                    <div type="textpart"><quote><ref type="lit">Oed 861</ref> <foreign xml:lang="la">{Oe.} Quid quaeris ultra? fata iam accedunt prope. quis fuerit infans edoce. {Ph.} Prohibet fides. {Oe.} Huc aliquis ignem! flamma iam excutiet fidem. {Ph.} Per tam cruentas uera quaerentur uias?</foreign></quote>
+                    <div type="translation" xml:lang="en"><p>[Oe] Why seekest further? Now doth fate draw near. Who was the babe? Speak out. [Ph] My loyalty forbids. [Oe] Hither with fire, someone! Now shall flames banish loyalty. [Ph] Is truth to be sought along such cruel ways?</p></div>
+                    <div type="textpart"><p>There we warn one of the most common translation made of <foreign xml:lang="la">fides</foreign>: ”truth”.</p> 
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="pl">
+                <div type="textpart" n="Discussion">
+                    <head>Discussion</head>
+                    <p>The conceptual change did not occur with the translation from Hebrew into Greek in the Bible of the Seventy. The translators of the LXX used in 31 passages the word <foreign xml:lang="grc">πίστις</foreign> or a derivative to translate <foreign xml:lang="he">emunah</foreign>. On fewer occasions they used <foreign xml:lang="grc">aletheia</foreign>, "truth". They also translated on multiple occasions <foreign xml:lang="he">אֱמֶת</foreign>, emet, by <foreign xml:lang="grc">πίστις</foreign>. St. Jerome, when translating his <ref type="lit">Vulgate</ref> from the Hebrew and Greek, always corrected the translators of the LXX in the cases of <foreign xml:lang="he">אֱמֶת</foreign>, emet, by using veritas, while on quite a few occasions when they used aletheia to translate emunah, he corrected them by resorting to <foreign xml:lang="la">fides</foreign>. In short, the translators of the LXX did not distinguish between <foreign xml:lang="he">אֱמוּנָה</foreign>, emunah, which was closer to <foreign xml:lang="grc"><ref corresp="lexicon_pistis">pistis</ref></foreign> or, and <foreign xml:lang="he">אֱמֶת</foreign>, emot, which was closer to aletheia or veritas. This is a first cause of the conceptual shift, since the scribes of the Church of <placeName key="Rome">Rome</placeName> who wrote the <ref type="lit">Letter to the Hebrews</ref> and <persName key="Clement">Clement</persName>'s <ref type="lit">Letter to the Corinthians</ref> were familiar with the wording of the <ref type="lit">Old Testament</ref> in Hebrew and Greek and were influenced by this conceptual confusion.</p> 
+                    <p>Now why did the author of the <ref type="lit">Letter to the Hebrews</ref> give <foreign xml:lang="grc">πίστις</foreign> this meaning instead of resorting to the Greek word for "belief", <foreign xml:lang="grc">δόξα</foreign>?In our opinion, because <foreign xml:lang="lit">δόξα</foreign> has a less dogmatic meaning, more akin to a simple opinion. Ancient religious thought admitted diversity of opinion when it came to questions such as the immortality of the soul (with Sadducees and Epicureans denying it, as opposed to Pharisees and Platonists, among others, affirming it; not that this meant that Sadducees and Epicureans did not believe in the existence of God or gods). Nor was the verb <foreign xml:lang="grc">νομίζω</foreign>, "to believe", useful, because it had reflexive overtones, such as "to consider" or "to think", which did not fit in well with the dogmatic thinking that was being tried to impose. On the other hand, <foreign xml:lang="grc">πίστις</foreign> could be used as the hif'il of the verb <foreign xml:lang="he">אָמַן</foreign>, aman, "to confirm", because it meant "to believe" but firmly, with total certainty, or in other words, not admitting other opinions. This kind of dogmatic thinking was emerging at the same time in the Pharisaic or rabbinical synagogues and in the Christian churches. It is no coincidence that at the same time as the Letter to the Hebrews was being written, the Sanhedrin of <placeName key="Yamnia">Yamnia</placeName> promulgated the Birkat Ha Minim, or Benediction Against Heretics, ordered by <persName key="Gamaliel II">Gamaliel II</persName> and formulated by <persName key="Rabbi Samuel the Lesser">Rabbi Samuel the Lesser</persName>, by which Sadducees, Nazarenes and, in general, all heretics were excluded from the rabbinical synagogues. The Christian concept of heresy emerged at the beginning of the 2nd century in the <ref type="lit">Letters</ref> of <persName key="Ignatius of Antioch">Ignatius of Antioch</persName> and was developed in the second half of that century by <persName key="Irenaeus of Lyons">Irenaeus of Lyons</persName>. The faith thus became a dogmatic way of thinking which did not admit diversity of opinion and which condemned the heretic or heterodox, at first, to excommunication (the herem of the rabbis, but not the biblical herem) and, later, acted violently against them.</p>
+                </div>
+            </div>
+            <div type="textpart" subtype="bibliography">
+                <head>Bibliography</head>
+                <p>Chantraine, P. (1968-1980).<title>Dictionnaire étymologique de la langue grecque: histoire des mots</title>Paris: Klincksieck.</p>
+                <p>De Benedetti, P. (1976).  “La fede nel giudaismo”<title>La Rassegna Mensile di Israel</title>42/1-2, pp. 61-72.</p>
+                <p>Detienne, M. (1983).<title>Los maestros de la verdad en la Grecia arcaica</title>Madrid: Taurus.</p>
+                <p>Faraguna, M. (2012)."Pistis and apisiía: aspects of the Development of Social and Economic"<title>Mediterraneo Antico</title>15, pp. 355-374.</p>  
+                <p>Handelman, S. (1992).“Emunah: the Craft of Faith”<title>CrossCurrents</title>42/3, pp. 293-313.</p>
+                <p>Jepsen, A. (1988).<foreign xml:lang="he">"ٰ’āman, ’ĕmûnâ, ’āmēn, ’ĕmet"</foreign>in Botterweck G.J. and Ringgren, H. (eds.)<title>Grande lessico dell'Antico Testamento</title>Brescia: Paideia editrice, pp. 625-695.</p>
+                <p>Kellner, M. (1987).“Heresy and Nature of Faith in Medieval Jewish Philosophy”<title>The Jewish Quarterly Review</title>77/4, pp. 299-318.</p>
+                <p>Lemosse, M. (1990)"L’aspect primitive de la fides"<title>Etudes romanistiques</title>26, pp. 61-72.</p>
+                <p>Levy, C. (2014). "Colloque  Pistis et fides.Le De Officiis Cicéronien: Une Refondtion Philosophique de la Fides?"<title>Istituto Lombardo (Rend. Lettere)</title>148, pp. 59-76.</p>
+                <p>Liddell, H. G., R. Scott y H. S. Jones (1968).<title>A Greek-English Lexicon</title> Oxford: Clarendon Press.</p>
+                <p>Momigliano, A. (1987). "Religion in Athens, Rome and Jerusalem in the First Century B.C.<title>Annali della scuolla normale superiore di Pisa</title>14(3), pp. 873-892.</p>
+                <p>Mok Lee, S. (2019)."Christ’s Πίστις vs. Caesar’s Fides: Πίστις Χριστοῦ in Galatians and the Roman Imperial Cult"<title>The Expository Times</title>130, pp. 243-245.</p>
+                <p>Morgan, T. (2015).<title>Roman Faith and Christian Faith. Pistis and Fides in the Early Roman Empire and Early Churches</title>Oxford University Press.</p>
+                <p>Ramírez Vidal, G. (2018)."La pistis-fides como el objeto propio de la retórica."<title>Quadripartita Ratio: Revista de Retórica y Argumentación,</title>3(5), pp. 37-48.</p></div>
+   </div>                                         
+</body>  
+    </text>
+</TEI>

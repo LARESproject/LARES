@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="grc">Πίστις</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">lexicon_πίστις</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital document.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-05-23" who="AlexandreMorón">encoded in XML</change>
+                <change when="2021-05-23" who="PedroGiménezdeAragón">written contents</change>
+                <change when="2021-05-23" who="AlexandreMorón">written contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="en">
+                    <div type="textpart" subtype="introduction">
+                        <p>This is a minimal entry that will serve as a guide for a comprehensive understanding of the term. For in-depth studies, readers are referred to the bibliography at the bottom of the page.</p> 
+                    <p><foreign xml:lang="grc">πίστις</foreign> (/ˈpistis/), gen. <foreign xml:lang="grc">πίστεως</foreign>, subst. f. (ἡ): trust, trustworthiness; proof, assurance, pledge; faith.</p></div>  
+                <div type="textpart" n="etymology">
+                    <head>Etymology</head>
+                    <p>From PIE *bʰeydʰ-: to compel, to force; to trust. (*bʰeydʰ-ti-s > <foreign xml:lang="grc">πίστις</foreign>).</p>
+                    <p>Hence *bʰeydʰ-os: <foreign xml:lang="grc">πειθός</foreign>, <foreign xml:lang="lat">fidus, fœdus</foreign>; *bʰéydʰeti (tematic root): whence <foreign xml:lang="lat">fido</foreign> (><ref corresp="lexicon_fides">fides</ref>): trust; <foreign xml:lang="grc">πείθω</foreign>: persuade and <foreign xml:lang="grc">πείθομαι</foreign>: be persuaded, obey, trust. Related to <foreign xml:lang="grc">πίστευσις, πεῖσις, ἀπιστέω, πιστός/ἄπιστος, πιθανός</foreign> and specially to <foreign xml:lang="grc">πιστεύω</foreign>: trust, put faith in, rely on; believe, feel confident.</p>
+                </div>  
+              
+                <div type="textpart" n="Uses">
+                    <head>Uses</head>
+                    <p>The word <foreign xml:lang="grc"><hi rend="bold">πίστις</hi></foreign> appears for the first time in <persName type="attested" key="Hesiod">Hesiod</persName>’s <ref type="lit">Works and Days</ref>: <foreign xml:lang="grc">πίστεις γάρ τοι ὁμῶς καὶ ἀπιστίαι ὤλεσαν ἄνδρας</foreign>, “for in fact, trust and distrust destroy men equally” (<ref type="lit">Hes. WD 372</ref>). The word is also attested in <persName type="attested">Theognis</persName>: <ref type="lit"><foreign xml:lang="grc">πίστει χρήματ’ὄλεσσα, ἀπιστίηι δ’ἐσάωσα· γνώμη δ’ἀργαλέη γίνεται ἀμφοτέρων</foreign></ref>, “through trust I lost my possessions, through distrust I rescued them; awareness of both brings bitterness.” (<ref type="lit">Thgn. 381</ref>). These are just two cases in Archaic Greece in which we can see the direct relationship of the term with the concepts of trust and credit between people.</p>
+                    <p>Although these are the first written testimonies of our lemma, we already had back in <persName>Homer</persName> some previews of <foreign xml:lang="grc">πίστις</foreign> through forms that share the root (<foreign xml:lang="grc">πιστός, πείθω, πιστόω</foreign>…). In <ref>the fourth book of the Iliad</ref>, usually known as the Violation of the Oaths, the assembled gods debate the fate of <placeName>Troy</placeName>: <persName type="divine">Zeus</persName> thinks of ending the fight, but <persName>Hera</persName> does not want her work (having gathered the Achaean armies) to be in vain, and she prefers to see <persName type="attested">Priam</persName> and his sons fall. <persName type="divine">Zeus</persName> sends <persName type="divine">Athena</persName> to make the Teucrians break their oaths; she appears to <persName type="attested">Pandarus</persName> and persuades him to shoot an arrow at <persName type="attested">Menelaus</persName>. She deflects the arrow so that <persName type="attested">Menelaus</persName> is hit and wounded. Then, his brother <persName>Agamemnon</persName>, cursing the Trojans, worries about him and sends for a doctor, although he never forgets his pride.</p>
+                    <quote>
+                        <ref type="lit">
+                            <persName key="Homer">Hom.</persName> <title key="Iliad">Il.</title> 4.155-159
+                        </ref>
+                     <l n="1">φίλε κασίγνητε θάνατόν νύ τοι ὅρκιʼἔταμνον</l>
+                     <l n="2">οἶον προστήσας πρὸ Ἀχαιῶν Τρωσὶ μάχεσθαι,</l>
+                     <l n="3">ὥς σʼἔβαλον Τρῶες, κατὰ δʼὅρκια <hi rend="bold">πιστὰ</hi> πάτησαν.</l>
+                     <l n="4">οὐ μέν πως ἅλιον πέλει ὅρκιον αἷμά τε ἀρνῶν</l>
+                     <l n="5">σπονδαί τʼἄκρητοι καὶ δεξιαὶ ᾗς ἐπέπιθμεν.</l>
+                    </quote>
+
+                    <p>
+                    <l>Dear brother, it was for thy death, meseems, that I swore this oath with sacrifice</l>,
+                    <l>setting thee forth alone before the face of the Achaeans to do battle with the Trojans,</l>
+                    <l>seeing the Trojans have thus smitten thee, and trodden under foot the oaths of <hi rend="bold">faith</hi> <note>Which would be more appropriately translated as oaths of loyalty.</note></l>.
+                    <l>Yet in no wise is an oath of none effect and the blood of lambs</l>
+                    <l>and drink-offerings of unmixed wine and the hand-clasps, wherein we put our trust.</l>
+                    </p>                    
+                 
+                  <p>
+                  <l>¡Hermano querido! Para tu muerte celebré el jurado convenio</l> 
+                  <l>cuando te puse delante de todos a fin de que lucharas por los aqueos, tú solo, con los troyanos.</l> 
+                  <l>Así te han herido: pisoteando los juramentos de <hi rend="bold">fidelidad</hi>.</l> 
+                  <l>Pero no serán inútiles el pacto, la sangre de los corderos,</l> 
+                  <l>las libaciones de vino puro y el apretón de manos en que confiábamos.</l>
+                  </p>
+                </div>
+                  
+                 <div type="textpart" subtype="commentary">
+                     <p>Through this example we can almost certainly assure that the first attestations of <foreign xml:lang="grc"><hi rend="bold">πίστις</hi></foreign> reveal its main meaning: trust/trustworthiness.</p> 
+                     <p>In the <date>5th century B.C.</date> it still had this fundamental sense as appreciated in <persName key="Gorgias">Gorgias</persName>, "life is not life to him who is deprived of credit" (<ref type="lit"><persName key="Gorgias">Gorg</persName>., <title key="Defense of Palamedes">Palam</title>., 21)</ref>. The same sense of <foreign xml:lang="grc">πίστις</foreign> as a pact of mutual fidelity between nobles that was appreciated in <persName key="Homer">Homer</persName> is still given in the <date>fifth century B.C.</date>, as we see in <persName key="Andocis">Andocis</persName> (1.43 and 1.67). The nobles made pacts with each other by means of a handshake or a test which they called <foreign xml:lang="grc">πίστις</foreign>. <persName key="Demosthenes">Demosthenes</persName> defined <foreign xml:lang="grc">πίστις</foreign> or "credit" as "the best capital for doing business" (<ref type="lit"><persName key="Demosthenes">Dem</persName>., 36.44</ref>). As opposed to <foreign xml:lang="grc">πειθός</foreign> and <foreign xml:lang="grc">πειστικός</foreign>, adjectives derived from the verb <foreign xml:lang="grc">πείθω</foreign> which both mean "persuasive," <foreign xml:lang="grc">πιστός</foreign> and <foreign xml:lang="grc">πιστικός</foreign>, adjectives derived from <foreign xml:lang="grc">πίστις</foreign>, both mean both "faithful" or "trusted" and "reliable" or "trustworthy," i.e., they qualify both subjects and objects that give assurance or confidence and those they trust. Only from the <date>first century A.D.</date> will the Christian expression <foreign xml:lang="grc">ὁ πιστός</foreign> mean the "believer."</p>
+                     <p>This duality between <foreign xml:lang="grc">πίστις</foreign> and <foreign xml:lang="grc">πειθός</foreign> is also seen in the divinities: Pistis was the goddess of credibility and Peithô of seduction. The goddess Pistis "was rigorously parallel to the goddess Fides, of the Romans" (<ref><persName>Detienne</persName> <date>1983</date>, 68-75</ref>), goddess of oaths, negotiations and diplomacy to whom Numa, according to <persName key="Titus Livy">Titus Livy</persName>, had consecrated a temple near that of <persName type="divine" key="Jupiter Capitolinus">Jupiter Capitolinus</persName> (<ref type="lit"><persName key="Titus Livy">Liv</persName>., 1.21.3</ref>). The feast of Fides was celebrated on <date>October 1</date> by her priests, the fetials. The image of Fides appears on coins of <date>Republican and Imperial times</date> (<ref><persName>Momigliano</persName> <date>1987</date>, 281</ref>).</p>
+                 <p>In the legal field, the meaning of proof, i.e. an evidence that deserves trust, is frequent and easily found within Greek ancient literature. This meaning can be traced, for example, in some texts of <persName key="Lysias">Lysias</persName> (458-380 BCE)</p>
+                
+                 <quote>
+                       <p><ref type="lit">
+                            <persName key="Lysias">Lys.</persName> – <title key="On a Wound by Premeditation">On a Wound by Premeditation</title> 18</ref></p>
+                     <p><foreign xml:lang="grc">καὶ μὴ ζητεῖτε τούτων ἔτι μείζους <hi rend="bold">πίστεις</hi>· οὐ γὰρ ἂν ἔχοιμι εἰπεῖν ἀλλʼ ἢ ταύτας, ὡς οὐδὲν εἰς τοῦτον προὐνοήθην
+                        </foreign></p>
+                    </quote>
+                     <p>Do not look for still stronger <hi rend="bold">pledges</hi> than these: I could not instance others to show that I did not premeditate anything against this man.</p>  
+                     <p>No busque <hi rend="bold">pruebas</hi> más sólidas que éstas: no podría instar a otros a demostrar que no premedité nada contra este hombre.</p>
+
+                        <p>But this meaning is not only traceable in classical times. In authors such as <persName key="Dionysius of Halicarnassus">Dionysius of Halicarnassus</persName> (ca. 60 - 7 BCE) or <persName key="Philo">Philo</persName> himself (20 BCE - 45 CE) we find the word <foreign xml:lang="grc">πίστις</foreign> completely devoid of the meaning 'system of religious beliefs'.</p>
+                   <quote>
+                      <p><ref type="lit">
+                          <persName key="Dionysius of Halicarnassus">Dionysius of Halicarnassus</persName></ref> – <title key="Antiquitates Romanae">Antiquitates Romanae</title> 5.48.3</p> 
+                       <p><foreign xml:lang="grc"><hi rend="bold">πίστις</hi> δ'ἀκριβὴς καὶ ἀναμφίλεκτος τῆς αὐταρκείας τοῦ ἀνδρός, ἣν ἀπεδείξατο παρὰ πάντα τὸν τοῦ βίου χρόνον, ἡ μετὰ τὸν θάνατον αὐτοῦ φανεῖσα ἀπορία.</foreign></p>
+                   </quote>
+                    <p>A sure and incontestable <hi rend="bold">proof</hi> of the frugality he had shown during his whole lifetime was the poverty that  was revealed after his death.</p>
+                    <p>Una <hi rend="bold">prueba</hi> segura e incontestable de la frugalidad que había demostrado durante toda su vida fue la pobreza que se puso de manifiesto tras su muerte.</p>
+                
+                 <quote>
+                                <ref><persName key="Philo">Philo</persName> – <title
+                                        key="De opificio mundi">De opificio mundi</title> 84</ref>
+                                <p><foreign xml:lang="grc">ὅσα γὰρ θνητὰ ἐν τοῖς τρισὶ στοιχείοις γῇ
+                                        ὕδατι ἀέρι πάντα ὑπέταττεν αὐτῷ, τὰ κατ’οὐρανὸν ὑπεξελόμενος
+                                        ἅτε θειοτέρας μοίρας ἐπιλαχόντα. πίστις δὲ τῆς ἀρχῆς
+                                        ἐναργεστάτη τὰ φαινόμενα·</foreign></p></quote>
+                <p>For every mortal thing which lives in the three elements, land, water or air, did he put in subjection to him, excepting only the beings that are in heaven, as creatures who have a more divine portion. And what is apparent to our eyes is the most evident proof of this.</p>
+                    
+                <p>Pues a toda cosa mortal que vive en los tres elementos, tierra, agua o aire, la puso en sujeción a él, exceptuando sólo a los seres que están en el cielo, como criaturas que tienen una porción más divina. Y lo que es aparente a nuestros ojos es la prueba más evidente de esto.</p>
+                     
+                   <p>If this serves as a cursory review of the Greek sources in general, we are obliged to analyze also the use of the word by the translators of the LXX. In this context, the word <foreign xml:lang="grc">πίστις</foreign> appears frequently with meanings such as truth, steadfastness, loyalty.</p>
+                   <p>In these two fragments we see the absolute absence of theological semantics in Greek Judaism, a fact that increases the probability that the semantic change has been taking place towards the Christian era. </p>
+
+                  <quote>
+                  <p><ref type="lit"><title key="Proverbs">Proverbs</title> 12:17</ref></p>
+                  <p><title>HEB</title><foreign xml:lang="he">: יָפִיחַ אֱמוּנָה יַגִּיד צֶדֶק וְעֵד שְׁקָרִים מִרְמָה׃</foreign></p>
+                  <p><title key="Septuaginta">LXX</title>: <foreign xml:lang="grc">ἐπιδεικνυμένην πίστιν ἀπαγγέλλει δίκαιος ὁ δὲ μάρτυς τῶν ἀδίκων δόλιος</foreign></p>
+                  <p><title key="King James Version">KJV</title>: He that speaketh truth sheweth forth righteousness: but a false witness deceit.</p>
+                  <p><title key="Reina Valera">RVR 2015</title>: <foreign xml:lang="es">El que habla verdad declara justicia; mas el testigo mentiroso, engaño.</foreign></p>
+                  </quote>
+                   
+                  <quote>
+                  <p><ref type="lit"><title key="Deuteronomy">Deuteronomy</title> 32:20</ref></p>
+                  <p>HEB:​​  וַיֹּאמֶר אַסְתִּירָה פָנַי מֵהֶם אֶרְאֶה מָה אַחֲרִיתָם כִּי דוֹר תַּהְפֻּכֹת הֵמָּה בָּנִים לֹא־אֵמֻן בָּֽם׃</p>
+                  <p>LXX: καὶ εἶπεν ἀποστρέψω τὸ πρόσωπόν μου ἀπ᾽αὐτῶν καὶ δείξω τί ἔσται αὐτοῖς ἐπ᾽ἐσχάτων ὅτι γενεὰ ἐξεστραμμένη ἐστίν υἱοί οἷς οὐκ ἔστιν πίστις ἐν αὐτοῖς.</p>
+                  <p>KJV: ​​And he said, I will hide my face from them, I will see what their end shall be: for they are a very froward generation, children in whom is no faith <note> We prefer: ‘in whom is no loyalty’</note></p>
+                  <p>RVR 2015: Entonces dijo: ‘Esconderé de ellos mi rostro y veré cuál será su final; porque son una generación perversa, hijos en quienes no hay fidelidad.</p>          
+                  </quote>   
+ 
+               <p>These is just a small extract from the vast corpus of examples in which we can find the word <foreign xml:lang="grc">πίστις</foreign>.</p>
+                </div>
+
+                <div type="textpart" n="discussion">
+                    <head>Discussion</head>
+                    <p><persName>Eduard Fraenkel</persName> (<date>1916</date>) argued that the fundamental meaning of <foreign xml:lang="grc">πίστις</foreign> was not trust. He proposed that the commercial meanings of guarantee, security, and credit, as well as 'loyalty' in relationships, would have dominated the literature of the republic, whereas trust would not have been a weighty meaning until the early 1st century BCE. <persName>Gérard Freyburger</persName>, dispelling any doubts, re-established <hi rend="italic">trust</hi> as the main value of <foreign xml:lang="grc">πίστις</foreign>/<foreign xml:lang="lat">fides</foreign>. The author stresses that trust implies two meanings: the trust one gives and the trust one receives (trust and trustworthiness).</p>
+                    <p>Lately, the study of <foreign xml:lang="grc">πίστις</foreign> in the <title key="Septuaginta">LXX</title> and Hellenistic Judaism has flourished, motivated largely by interest in the roots of Christian faith. While recognizing that “faith”/“faithfulness” is not in Judaism the key concept that it is in Christianity, scholars have explored whether the Hebrew (<ref corresp="lexicon_emunah">emunah</ref>) word translated by <foreign xml:lang="grc">πίστις</foreign> in the <title key="Septuaginta">LXX</title> (or with “faith” and “faithfulness” in modern languages) has similar meanings to those of <foreign xml:lang="grc">πίστις</foreign> in the <title key="New Testament">NT</title>, or whether it is different.</p> 
+                    <p>The starting point for all these discussions is the recognition that <ref corresp="lexicon_emunah"><foreign xml:lang="he">he'emin</foreign></ref> (the causative form of the Hebrew verb <ref corresp="lexicon_emunah"><foreign xml:lang="he">aman</foreign></ref>, which is sometimes translated as 'have faith' or 'believe'), and its related noun <ref corresp="lexicon_emunah"><foreign xml:lang="he">emunah</foreign></ref> (often translated as 'faithfulness' or 'trustworthiness') are far from a perfect fit for <foreign xml:lang="grc">πίστις</foreign>. The root of this word in Hebrew also appears in words meaning 'wrap', 'carry', 'nurture', 'trust','firm', 'sure', 'reliable', 'dependable', 'steadfast', 'true', and scholars disagree about whether some of all these concepts carry over into the <title key="Septuaginta">LXX</title> and other Jewish uses of <foreign xml:lang="grc">πίστις</foreign>. In the <title key="Septuaginta">LXX</title>, <foreign xml:lang="grc">πίστις</foreign> is only used to translate this Hebrew word. Both <foreign xml:lang="grc">ἀλήθεια</foreign> and <foreign xml:lang="grc">ἐλπίς</foreign> are used to translate <ref corresp="lexicon_emunah"><foreign xml:lang="he">emunah</foreign></ref>, while <foreign xml:lang="grc">ἐλπίς</foreign> is often closely associated with <foreign xml:lang="grc">πίστις</foreign> elsewhere in the Greek, <foreign xml:lang="grc">πίστις</foreign> and ἀλήθεια are less frequently found together. This suggests that in some passages the meanings of <ref corresp="lexicon_emunah"><foreign xml:lang="he">emunah</foreign></ref> may be quite divergent from those of <foreign xml:lang="grc">πίστις</foreign>. Thus, even when <foreign xml:lang="grc">πίστις</foreign> is used to translate <ref corresp="lexicon_emunah"><foreign xml:lang="he">emunah</foreign></ref>, we cannot assume that it expresses the same concepts, relationships, or institutions as in non-Christian texts (<persName>Morgan</persName> <date>2015</date>).</p>
+                    <p>There is a great difference between the <foreign xml:lang="grc">πίστις</foreign> of the Greeks and the <foreign xml:lang="lat">fides</foreign> of the Romans. The Greek <foreign xml:lang="grc">πίστις</foreign> was between equals, for example, between nobles or between citizens, while the Roman <foreign xml:lang="lat">fides</foreign> was rather between unequals: victor and vanquished, <placeName>Rome</placeName> and the provinces, magistrate and citizen, patron and client, creditor and debtor (<ref><persName key="Momigliano">Momigliano</persName> <date>1987</date>, 283</ref>).</p>
+                    <p>Moreover, as <persName>Chantraine</persName> has explained, <foreign xml:lang="lat"><hi rend="italic">fides</hi></foreign> does not have the double value of <foreign xml:lang="grc">πιστός</foreign>, which can mean both "trusted" and "reliable," since the subjective or subject value predominates. Thus, <foreign xml:lang="lat"><hi rend="italic">fides est mihi</hi></foreign> does not mean "I am confident," but "one has confidence in me"; <foreign xml:lang="lat"><hi rend="italic">fidem habere alicui</hi></foreign> does not mean "to have confidence in someone," but "to attribute to someone the confidence that belongs to him" (<persName>Chantraine</persName> <date>1983</date>, 74-76).</p>
+                   <p>The conceptual change could not occur with the translation from Hebrew to Greek in the <ref>LXX</ref>. The translators of the <ref>LXX</ref> used in 31 passages the word <foreign xml:lang="grc">πίστις</foreign> to translate <ref corresp="lexicon_emunah"><foreign xml:lang="he">emunah</foreign></ref>. On fewer occasions they used <foreign>ἀλήθεια</foreign>, "truth". They also translated on multiple occasions <foreign xml:lang="he">אֱמֶת, emet</foreign>, by <foreign xml:lang="grc">πίστις</foreign>. <persName>Jerome</persName>, when translating the <title>Vulgate</title> from the Hebrew and Greek, always corrected the translators of the <title>LXX</title> in the cases of<ref corresp="lexicon_emunah"> אֱמֶת, emet, </ref>by using <foreign xml:lang="lat">veritas</foreign>, while on quite a few occasions when they used <foreign xml:lang="grc">ἀλήθεια</foreign> to translate <ref corresp="lexicon_emunah"><foreign xml:lang="he">emunah</foreign></ref>, he corrected them by resorting to <foreign xml:lang="lat">fides</foreign>. In short, the translators of the <title>LXX</title> did not distinguish between אֱמוּנָה, <ref corresp="lexicon_emunah"><foreign xml:lang="he">emunah</foreign></ref>, which had more closeness to <foreign xml:lang="grc">πίστις</foreign>/<foreign xml:lang="lat">fides</foreign>, and <ref corresp="lexicon_emunah">אֱמֶת, emot,</ref> which was closer to  <foreign xml:lang="grc">ἀλήθεια/</foreign><foreign xml:lang="lat">veritas</foreign>.This is a first cause of the conceptual change, since the scribes of the Church of Rome who wrote the <title>Epistle to the Hebrews</title> and the <title key="First Epistle to the Corinthians">First Epistle of Clement to the Corinthians</title> knew the wording of the <title key="Old Testament">Old Testament</title> in Hebrew and Greek and were influenced by this conceptual confusion.</p>
+                    <p>Now, why did the author of the <title key="Epistle to the Hebrews">Epistle to the Hebrews</title> give <foreign xml:lang="grc">πίστις</foreign> this meaning instead of resorting to the Greek word for "belief," <foreign xml:lang="grc">δόξα</foreign>? Perhaps because <foreign xml:lang="grc">δόξα</foreign> has a less dogmatic sense, more akin to a simple opinion. Ancient religious thought admitted diversity of opinion when it came to such matters as the immortality of the soul (with Sadducees and Epicureans denying it, as opposed to Pharisees and Platonists, among others, affirming it; not that this meant that Sadducees and Epicureans did not believe in the existence of God or gods). Nor was the verb <foreign xml:lang="grc">νομίζω</foreign>, "to believe," useful, because it had nuances of reflexive character, such as "to consider" or "to think," which accommodated little to the dogmatic thinking that was trying to be imposed. Instead, <foreign xml:lang="grc">πίστις</foreign> could be used as the hif'il of the verb <foreign xml:lang="he">אָמַן, aman, </foreign>"to confirm," because it meant "to believe" but firmly, with total certainty, or what is the same, not admitting other opinions. This kind of dogmatic thinking was emerging at the same time in the Pharisaic or rabbinic synagogues and in the Christian churches. It is no coincidence that at the same time that the <title>Epistle to the Hebrews</title> was written, the Sanhedrin of Yamnia promulgated the <title>Birkat Ha Minim</title> or Benediction against heretics, ordered by <persName key="Gamaliel II">Gamaliel II</persName> and formulated by <persName key="Rabbi Samuel">Rabbi Samuel</persName>, by which the Sadducees, the Nazarenes and, in general, all heretics were excluded from the rabbinical synagogues. The Christian concept of heresy emerged at the beginning of the second century in the <ref>Letters of <persName key="Ignatius of Antioch">Ignatius of Antioch</persName></ref> and was developed in the second half of that century by <persName key="Irenaeus of Lyon">Irenaeus of Lyon</persName>. The faith thus became a dogmatic thought that did not admit diversity of opinions and that condemned the heretic or heterodox, at first, to excommunication (the herem of the rabbis, but not the biblical herem) and, later, would act violently against them.</p>
+                    <p>Analyzing the origins and evolution of <ref corresp="lexicon_fides"><foreign xml:lang="lat"><hi rend="italic">fides</hi></foreign></ref> and <foreign xml:lang="grc">πίστις</foreign>, it is observed that the meaning of the term "faith", understood as "system of religious beliefs", did not exist in classical times and did not spread until the <title>Epistle to the Hebrews</title> redefined <ref xml:lang="grc">πίστις</ref> in a theological sense. Its influence will be such that it will change the meaning of <ref corresp="lexicon_fides"><foreign xml:lang="lat"><hi rend="italic">fides</hi></foreign></ref> and <ref corresp="lexicon_emunah"><foreign xml:lang="he"><hi rend="italic">emunah</hi></foreign></ref> in their respective languages, creating a new conceptual category that will affect not only Christianity, in which it arises, but also Judaism and Islam. In the same way that the word <ref corresp="lexicon_religio"><hi rend="italic"><foreign xml:lang="lat">religio</foreign></hi></ref> did not allude in classical antiquity to any system of beliefs, but only to ritual or cultic practices, like the Greek word <ref corresp="lexicon_threskeia"><foreign xml:lang="grc">θρησκεία</foreign></ref> and the Hebrew word huqqat, the case of emunah/<foreign xml:lang="grc">πίστις</foreign>/<ref corresp="lexicon_fides"><foreign xml:lang="lat">fides</foreign></ref> must be considered in the perspective of the change of mentality that took place between ancient religious systems in which there were no dogmas and the practice of a certain cult allowed for different types of beliefs (such as those of the Sadducees, Pharisees and Essenes of pre-Christian Judaism) and the dogmatic religious systems that arose between the second and seventh centuries A.D., which were the result of the change of mentality that took place between the first and second centuries A.D. with religions such as Talmudic Judaism, Christianity and Islam.</p>
+                </div>
+                <div type="textpart" n="Main sources">
+                    <head>Main sources</head>
+            <p><persName key="Homer">Homer</persName> - “<title>Iliad</title>” (8th century BCE)</p>
+            <p><persName key="Hesiod">Hesiod</persName> - “<title>Works and Days</title>” (7th century BCE)</p>
+            <p><persName key="Aeschylus">Aeschylus</persName> - "<title>The Persians</title>" (525 - 455 BCE)</p>
+            <p><persName key="Sophocles">Sophocles</persName> - "<title>Oedipus at Colonus</title>" (497 - 406 BCE)</p>
+            <p><persName key="Herodotus">Herodotus</persName> - "<title>Histories</title>" (485 - 425 BCE)</p>
+            <p><persName key="Thucydides">Thucydides</persName> - "<title>History of the Peloponnesian War</title>" (460 - 400 BCE)</p>
+            <p><persName key="Lysias">Lysias</persName> - "<title>On a Wound by Premeditation</title>" (458 - 380 BCE)</p>
+            <p><persName key="Plato">Plato</persName> - "<title>Phaedrus</title>" (428 - 348 BCE)</p>
+            <p><persName key="Aristotle">Aristotle</persName> - "<title>Poetics</title>" (384 BCE - 322 BCE)</p>
+            <p><persName key="Chrysippus">Chrysippus</persName> - "<title>Fragmenta Logica e Physica</title>" (280 - 206 BCE)</p>
+            <p><persName key="Polybius">Polybius</persName> - "<title>Histories</title>" (200 - 118 BCE)</p>
+            <p><persName key="Strabo">Strabo</persName> - "<title>Geography</title>" (64 BCE - 23 CE)</p>
+            <p><persName key="Dionysius of Halicarnassus">Dionysius of Halicarnassus</persName> - "<title>Roman Antiquities</title>" (60 - 7 BCE)</p>
+            <p><persName key="Philo">Philo</persName> - "<title>On the Creation</title>" (20 BCE - 45 CE)</p>
+            <p><persName key="Flavius Josephus">Flavius Josephus</persName> - "<title>The Jewish War</title>" (c. 20 BCE - c. 50 CE)</p>
+            <p><persName key="Clement of Rome">Clement of Rome</persName> - "<title>First Epistle to the Corinthians</title>" (1st century)</p>
+            <p><persName key="Pausanias">Pausanias</persName> - "<title>Description of Greece</title>" (110 - 180 CE)</p>
+            <p><persName key="Chariton of Aphordesius">Chariton of Aphrodesius</persName> - "<title>Chaereas and Callirhoe</title>" (1st-2nd century CE)</p>
+            <p><persName key="Galen">Galen</persName> - "<title>Institutio Logica</title>" (130 - 200 CE)</p>  
+                </div>
+
+                <div type="textpart" n="bibliography">
+                    <head>Bibliography</head>
+                    <bibl><author>Chantraine, P.</author>
+                                (<date>1968-1980</date>).<title>Dictionnaire étymologique de la
+                                langue grecque: histoire des mots</title><pubPlace>Paris</pubPlace>:
+                            Klincksieck.</bibl>
+                    <bibl><author>De Benedetti, P.</author> (<date>1976</date>). “La fede nel
+                                giudaismo”<title>La Rassegna Mensile di Israel</title>42/1-2, pp.
+                            61-72.</bibl>
+                    <bibl><author>Detienne, M.</author> (<date>1983</date>).<title>Los maestros de
+                                la verdad en la Grecia arcaica</title><pubPlace>Madrid</pubPlace>:
+                            Taurus.</bibl>
+                    <bibl><author>Faraguna, M.</author> (<date>2012</date>)."Pistis and apisiía:
+                            aspects of the Development of Social and Economic"<title>Mediterraneo
+                                Antico</title>15, pp. 355-374.</bibl>  
+                    <bibl><author>Handelman, S.</author> (<date>1992</date>).“Emunah: the Craft of
+                                Faith”<title>CrossCurrents</title>42/3, pp. 293-313.</bibl>
+                    <bibl><author>Jepsen, A.</author> (<date>1988</date>).<foreign xml:lang="he"
+                                >"ٰ’āman, ’ĕmûnâ, ’āmēn, ’ĕmet"</foreign>in Botterweck G.J. and
+                            Ringgren, H. (eds.)<title>Grande lessico dell'Antico
+                                Testamento</title><pubPlace>Brescia</pubPlace>: Paideia editrice,
+                            pp. 625-695.</bibl>
+                    <bibl><author>Kellner, M.</author> (<date>1987</date>).“Heresy and Nature of
+                            Faith in Medieval Jewish Philosophy”<title>The Jewish Quarterly
+                                Review</title>77/4, pp. 299-318.</bibl>
+                    <bibl><author>Lemosse, M.</author> (<date>1990</date>)"L’aspect primitive de la
+                                fides"<title>Etudes romanistiques</title>26, pp. 61-72.</bibl>
+                    <bibl><author>Levy, C.</author> (<date>2014</date>). "Colloque Pistis et
+                            fides.Le De Officiis Cicéronien: Une Refondtion Philosophique de la
+                                Fides?"<title>Istituto Lombardo (Rend. Lettere)</title>148, pp.
+                            59-76.</bibl>
+                    <bibl><author>Liddell, H. G.</author>, <persName>R. Scott</persName> and
+                                <persName>H. S. Jones</persName> (1968).<title>A Greek-English
+                                Lexicon</title>
+                            <pubPlace>Oxford</pubPlace>: Clarendon Press.</bibl>
+                    <bibl><author>Momigliano, A.</author> (<date>1987</date>). "Religion in Athens,
+                            Rome and Jerusalem in the First Century B.C.<title>Annali della scuolla
+                                normale superiore di Pisa</title>14(3), pp. 873-892.</bibl>
+                    <bibl><author>Mok Lee, S.</author> (<date>2019</date>)."Christ’s Πίστις vs.
+                            Caesar’s Fides: Πίστις Χριστοῦ in Galatians and the Roman Imperial
+                                Cult"<title>The Expository Times</title>130, pp. 243-245.</bibl>
+                    <bibl><author>Morgan, T.</author> (<date>2015</date>).<title>Roman Faith and
+                                Christian Faith. Pistis and Fides in the Early Roman Empire and
+                                Early Churches</title>Oxford University Press.</bibl>
+                    <bibl><author>Ramírez Vidal, G.</author> (<date>2018</date>)."La pistis-fides
+                            como el objeto propio de la retórica."<title>Quadripartita Ratio:
+                                Revista de Retórica y Argumentación,</title>3(5), pp. 37-48.</bibl>
+            </div>
+            </div>
+        </body>
+    </text>
+</TEI>

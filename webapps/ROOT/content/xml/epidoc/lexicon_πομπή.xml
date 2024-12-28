@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="grc">πομπή</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">lexicon_πομπή</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital document.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-05-23" who="Elena Muñiz Grijalvo">written contents</change>
+                <change when="2023-05-23" who="Esperanza Macarena Ródenas Perea">written contents</change>
+                <change when="2023-05-23" who="Cristina de las Llagas Rodríguez">written contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="Etymology">
+                    <head>Morphology</head>
+                    <p><foreign>πομπή, ῆς (ἡ)<ref corresp="https://logeion.uchicago.edu/%CF%80%CE%BF%CE%BC%CF%80%CE%AE"></ref></foreign>, (pompé), subst. f., sending/conduct/escort/procession, <foreign>pompa, ae</foreign>.</p>                    
+                </div>
+            </div>
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="Etymology">
+                    <head>Etymology</head>
+                    <p>The word <foreign>πομπή</foreign> is an action noun that derives from the verb <foreign>πέμπω<ref corresp="https://logeion.uchicago.edu/%CF%80%CE%AD%CE%BC%CF%80%CF%89"></ref></foreign> (‘to send’). The origin of the verb <foreign>πέμπω</foreign> is unknown. <foreign>Πομπή</foreign> appears next to other derived words such as the nouns <foreign>πομπός</foreign><ref corresp="https://logeion.uchicago.edu/%CF%80%CE%BF%CE%BC%CF%80%CF%8C%CF%82"></ref> and <foreign>πομπέυς</foreign><ref corresp="https://logeion.uchicago.edu/%CF%80%CE%BF%CE%BC%CF%80%CE%B5%CF%8D%CF%82"></ref> early in <persName key="Homer">Homer</persName>. The Homeric meaning that can be distinguished for <foreign>πομπή</foreign>/<foreign>πομπός</foreign>/<foreign>πομπέυς</foreign> is related to the idea of ‘sending’, ‘conducting’, ‘guiding’ or in its nominal form, of an ‘escort’, a ‘conductor’ or a ‘guide’. The later Classical meaning would refer to the ceremony known as ‘procession’ or  ‘pageant’, but other different meanings can also be attested (RE 1894-1980: 1879-1883).</p>                    
+                </div>
+            </div>
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="Testimonies">
+                    <head>Testimonies</head>
+                    <p><hi rend="bold">1 and 2. In literary texts - The Homeric idea of an ‘escort’ and ‘sending (forward)’</hi></p>                    
+                    <p>As for <foreign>πομπή</foreign>in the Homeric sense as an ‘escort’, it
+                        alludes to the idea of an escort provided by both humans and gods who are in
+                        a position of power towards the object of escorting, but not in the opposite
+                        way. Gods can be escorts, but escorts cannot be given to gods. Humans can
+                        also be escorts, as it can be seen in the passage of the escorts given by
+                        the Phaecians to the lost <persName type="hero" key="Odysseus">Odysseus</persName> (Hom. <title>Od. </title>VI, 290).
+                            <foreign>Πομπός</foreign> and <foreign>πομπέυς</foreign> also allude to
+                        the idea of an ‘escort’, and this may include gods, such as <persName
+                            type="divine" key="Hypnos">Hypnos</persName> and <persName type="divine"
+                            key="Thanatos">Thanatos</persName>(Hom. <title>Il.</title> XVI 671,681),
+                            <persName type="divine" key="Athena">Athena</persName> (Hom. <title>Od.
+                        </title>IV, 826) and later <persName type="divine" key="Charon"
+                            >Charon</persName> or <persName type="divine" key="Hermes"
+                            >Hermes</persName> as <foreign>ψυχοπομπός</foreign> (Eur.
+                            <title>Alc.</title> 361 - Diod. Sic. I, 96). According to the RE,
+                            <foreign>πομπός</foreign> appears occasionally in the <ref type="lit"
+                            >Iliad</ref> but <foreign>πομπέυς</foreign> only seems to appear in the
+                            <ref type="lit">Odyssey</ref>. Despite its later meaning as
+                        ‘procession’, the Homeric word does not entail a religious or cultic sense
+                        (RE 1894-1980: 1879-1883).</p> 
+                   <p> As for the typological classification that has been established for LARES, the testimonies have been divided into different categories. Perseus’ vocabulary tool registers differences in meaning for the following words: <foreign>πομπή</foreign> and <foreign>πoμπóς</foreign> (nouns) are translated as ‘conduct/escort’, <foreign>πομπέυς</foreign>(noun) as ‘one who attends’ and <foreign>πομπαῖος</foreign>, <foreign>πóμπιμος</foreign> and <foreign>προπομπός</foreign> (adj.) as the gerund ‘escorting/conducting’. Naturally, these are general translations and each author embellishes their adaptation differently, but these words have been grouped together according to two aspects: 1) the grammatical category of “nominal forms”, as distinguished from “verbal forms” (1, 1.2); 2) their translations related to the semantic field of ‘escort/guide/messenger’ and other derived words.</p>
+                    <p>Another Homeric category according to the translation of 'sending (forward)' has been added. Although <foreign>πομπή</foreign> already figures in the 1) entry as ‘conduct/escort’ (noun), there are quite a few number of testimonies which have been translated as ‘sending” in the strict sense of ‘sending forth/forward’, which may not necessarily refer to ‘escort’ solely and which might be a closer derivation of the verb <foreign>πέμπω</foreign>. </p>
+                    <p><hi rend="bold">3. The Herodotian sense</hi></p>
+                    <p><persName key="Herodotus">Herodotus</persName> uses widely a particular construction (<foreign>θείῃ πομπῇ</foreign>) in his works whose derivation is also used by <persName key="Plutarch">Plutarch</persName> (<foreign>πομπῇ δὲ θείᾳ</foreign>) which tends to be translated as ‘divine providence’, perhaps by referring to the idea that fate is decided (‘guided’) by the will of the gods. Closer to this nuance, <persName key="Plato">Plato</persName> also uses <foreign>πομπῇ</foreign> for the sending of dreams/divine signs by gods to mortals.</p>
+                    <p><hi rend="bold">4. The Classical meaning</hi></p>
+                    <p>Later in the Classical period, <foreign>πομπή</foreign> would come to design
+                        a ‘procession’, both in the profane and the religious sense according to the
+                        RE (as problematic as this division can be), and it would end up replacing
+                        the Homeric word, although the latter would not completely disappear. Some
+                        authors such as <persName key="Pindar">Pindar</persName> may use both
+                        meanings interchangeably (Pind. <title>Nem.</title> III 25 - Pind.
+                            <title>Nem.</title> VII 46) (RE 1894-1980: 1879-1883). On the one hand,
+                            <foreign>πομπή</foreign> in the “profane” sense may refer to a
+                        ceremonial company or escort (hence alluding to the Homeric sense), funeral
+                        processions (<foreign>ἐκφορά</foreign>) and wedding processions (RE
+                        1894-1980: 1883-1886). On the other, “religious” processions are understood
+                        as those which main purpose or focus is religious, that is, those who are
+                        celebrated within the context of religious festivals organized by the
+                        community in which the offering or the image of the deity is
+                        conducted/escorted towards a place or a god (RE 1894-1980: 1886; ThesCRAI
+                        2004: 1-2).</p>
+                    <p>In religious festivals, the procession was generally the first part of a total of four phases: the procession of the image/offering/sacrifice, the arrival of the procession at the place where the sacrifice or rites would take place, the sharing of the offering/sacrificial meat and the celebration of music, theatrical, poetic and agonistic contests. As the ThesCRAI accurately explains, the topographical element was essential for the development of the procession, and so it was its directionality (ThesCRAI 2004: 1-2; Graf 1996: 57-65).</p>
+                    <p><hi rend="bold">5 and 6. Derogatory sense and other meanings</hi></p>
+                    <p>In the Roman period, authors such as <persName key="Flavius Josephus">Flavius Josephus</persName>,  <persName key="Lucian">Lucian</persName> or <persName key="Marcus Aurelius">Marcus Aurelius</persName> add a very interesting, derogatory sense to <foreign>πομπή</foreign>. <foreign>Πομπή</foreign> may also include other metonymic senses, such as the general idea of a ‘festival/spectacle’, ‘military campaign', 'triumph' or even ‘expedition’.</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="Catalogue of appearances">
+                    <head>Catalogue of appearances</head>
+                    <p><hi rend="bold">1) Homeric sense, ‘convoy/guide/escort/conduct(or)/messenger’ (<foreign>πομπός</foreign>/<foreign>πομπή</foreign>/<foreign>πομπέυς</foreign>/<foreign>πομπαῖος</foreign>/<foreign>πóμπιμος</foreign>/<foreign>προπομπός</foreign> - nominal forms)</hi></p>  
+                    <list>
+                        <item><quote>Hom. <title>Il.</title> VI 172</quote></item>
+                        <item><quote>Hom. <title>Il.</title> XIII, 416</quote></item>
+                        <item><quote>Hom. <title>Il.</title> XVI 671</quote></item>
+                        <item><quote>Hom. <title>Il.</title> XXIV 153</quote></item>
+                        <item><quote>Hom. <title>Il.</title> XXIV 182</quote></item>
+                        <item><quote>Hom. <title>Il.</title> XXIV 437</quote></item>
+                       <item><quote>Hom. <title>Od.</title> III 325</quote></item> 
+                        <item><quote>Hom. <title>Od.</title> III 376</quote></item>
+                        <item><quote>Hom. <title>Od.</title> IV 162</quote></item>
+                        <item><quote>Hom. <title>Od.</title> IV 826</quote></item>
+                        <item><quote>Hom. <title>Od.</title> V 33</quote></item>
+                        <item><quote>Hom. <title>Od.</title> VI 171</quote></item>
+                        <item><quote>Hom. <title>Od.</title> VI 290</quote></item>
+                        <item><quote>Hom. <title>Od.</title> VIII 56</quote></item>
+                        <item><quote>Hom. <title>Od.</title> XIII 41</quote></item>
+                        <item><quote>Hom. <title>Od.</title> XIII 71</quote></item>
+                        <item><quote>Hom. <title>Od.</title> XIII 150</quote></item>
+                        <item><quote>Hom. <title>Od.</title> XIII 176</quote></item>
+                        <item><quote>Hom. <title>Od.</title> XIII 180</quote></item>
+                        <item><quote>Hom. <title>Od.</title> XIX 313</quote></item>
+                        <item><quote>Hom. <title>Od.</title> XX 364</quote></item>
+                        <item><quote>Aesch. <title>Eum.</title> 91</quote></item>
+                        <item><quote>Aesch. <title>Eum.</title> 206</quote></item>
+                        <item><quote>Aesch. <title>Eum.</title> 1005</quote></item>
+                        <item><quote>Aesch. <title>Eum.</title> 1032</quote></item>
+                        <item><quote>Aesch. <title>Ag.</title> 299</quote></item>
+                        <item><quote>Aesch. <title>Ag.</title> 747</quote></item>
+                        <item><quote>Aesch. <title>Pers.</title> 1036</quote></item>
+                        <item><quote>Aesch. <title>Cho.</title> 22</quote></item>
+                        <item><quote>Aesch. <title>Cho.</title> 86</quote></item>
+                        <item><quote>Aesch. <title>Cho.</title> 147</quote></item>
+                        <item><quote>Aesch. <title>Sept.</title> 371</quote></item>
+                        <item><quote>Aesch. <title>Sept.</title> 855</quote></item>
+                        <item><quote>Pind. <title>Nem.</title> VII 29</quote></item>
+                        <item><quote>Soph. <title>OT</title>, 289</quote></item>
+                        <item><quote>Soph. <title>OC</title> 70</quote></item>
+                        <item><quote>Soph. <title>OC</title> 723</quote></item>
+                        <item><quote>Soph. <title>OC</title> 1548</quote></item>
+                        <item><quote>Soph. <title>Trach.</title> 560</quote></item>
+                        <item><quote>Soph. <title>Trach.</title> 617</quote></item>
+                        <item><quote>Soph. <title>Trach.</title> 872</quote></item>
+                        <item><quote><title>Soph.</title> Ai. 832</quote></item>
+                        <item><quote>Eur. <title>Rhes.</title> 229</quote></item>
+                        <item><quote>Eur. <title>Hel.</title>1121</quote></item>
+                        <item><quote>Eur. <title>Phoenissa</title> 984</quote></item>
+                        <item><quote>Eur. <title>Med.</title> 848</quote></item>
+                        <item><quote>Eur. <title>Hipp.</title> 578</quote></item>
+                        <item><quote>Xen. <title>Cyr.</title> III 1, 2</quote></item>
+                        <item><quote>Xen. <title>Cyr.</title> IV 5 17</quote></item>
+                        <item><quote>Xen. <title>Ages.</title> II 27</quote></item>
+                        <item><quote>Erinna fr. 2</quote></item>
+                        <item><quote>Apollon. II 422</quote></item>
+                        <item><quote>Polyb. XX 11 8</quote></item>
+                        <item><quote>Joseph. <title>AJ</title> I 210</quote></item>
+                        <item><quote>Plut. <title>Vit. Cic.</title> 22 4</quote></item>
+                        <item><quote>Plut. <title>Vit. Dem.</title> 30 3</quote></item>
+                        <item><quote>Chariton IV 7, 4</quote></item>
+                        <item><quote>Hymn. Orph. 57, 6</quote></item>
+                        <item><quote>Lucian. <title>Tox.</title> 58</quote></item>
+                        <item><quote>Diog. Laer. VIII 31</quote></item> </list>
+                    <p><hi rend="bold">1.2.) 'to guide/escort'</hi> </p>
+                   <list>
+                    <item><quote>Hom. <title>Od.</title> XIII 422</quote></item> 
+                    <item><quote>Soph. <title>Trach.</title> 620</quote></item> </list>
+                    <p><hi rend="bold">2) Homeric sense, ‘sending (forth)’ <foreign>(πομπή)</foreign></hi></p>
+                    <list>
+                        <item><quote>Hom. <title>Od.</title> IV 362</quote></item>
+                        <item><quote>Hom. <title>Od.</title> V 173</quote></item>
+                        <item><quote>Hom. <title>Od.</title> V 233</quote></item>
+                        <item><quote>Hom. <title>Od.</title> VII 151</quote></item>
+                        <item><quote>Hom. <title>Od.</title> VII 317</quote></item>
+                        <item><quote>Hom. <title>Od.</title> X 18</quote></item>
+                        <item><quote>Hom. <title>Od.</title> X 79</quote></item>
+                        <item><quote>Hom. <title>Od.</title> XI 332</quote></item>
+                        <item><quote>Hom. <title>Od.</title> XI 352</quote></item>
+                        <item><quote>Pind. <title>Pyth.</title> IV 164</quote></item>
+                        <item><quote>Thuc. IV 108 1</quote></item>
+                        <item><quote>Apollod. <title>Epit.</title> E.7 11</quote></item>
+                        <item><quote>Apollod. <title>Epit.</title> E.7, 25</quote></item>
+                    </list>
+                        <p><hi rend="bold">3) Herodotian sense, ‘providence/divine guidance’ <foreign>(θείῃ πομπῇ)</foreign></hi></p>
+                        <list>
+                        <item><quote>Hdt. I 62 4</quote></item>
+                         <item><quote>Hdt. III 77, 1</quote></item>
+                         <item> <quote>Hdt. IV 152,  2</quote></item>
+                          <item><quote>Hdt. VIII 94, 2</quote></item>
+                            <item><quote>Plut. Vit. Rom. 9, 7</quote></item>
+                        </list>
+                    <p><hi rend="bold">3.1) Sendings of divine signs/dreams</hi></p>
+                    <list>
+                        <item><quote>Pl. <title>Resp.</title> II 382e</quote></item>
+                          <item><quote>Pl. <title>Resp.</title> II 383a</quote></item>
+                    </list>
+                    <p><hi rend="bold">4) Classical meaning, 'procession'</hi></p>
+                        <list>
+                            <item><quote>Aesch. <title>Pers.</title> 58</quote></item>
+                            <item><quote>Aesch. <title>Sept.</title> 613</quote></item>
+                            <item><quote>Aesch. <title>Sept.</title> 1069</quote></item>
+                            <item><quote>Pind. <title>Nem.</title> VII 46</quote></item>
+                            <item><quote>Pind. <title>Pyth.</title> V 91</quote></item>
+                            <item><quote>Pind. <title>Ol.</title> VII 80</quote></item>
+                            <item><quote>Hdt. II. 45</quote></item>
+                            <item><quote>Hdt. II, 49, 1</quote></item>
+                            <item><quote>Hdt. II 58</quote></item>
+                            <item><quote>Hdt. V 56, 2</quote></item>
+                            <item><quote>Thuc. II 13, 4</quote></item>
+                            <item><quote>Thuc. VI 58, 1</quote></item>
+                            <item><quote>Lys. XII 82</quote></item>
+                            <item><quote>Ar. <title>Av.</title> 849</quote></item>
+                            <item><quote>Isoc. VII 53</quote></item>
+                            <item><quote>Pl. <title>Rep.</title> I 327a</quote></item>
+                            <item><quote>Pl. <title>Alc.</title> II 148e</quote></item>
+                            <item><quote>Xen. <title>Hipp.</title> 2, 1</quote></item>
+                            <item><quote>Xen. <title>Hipp.</title> 3, 2</quote></item>
+                            <item><quote>Xen. <title>Eq.</title> 11, 1</quote></item>
+                            <item><quote>Aeschin. I 43</quote></item>
+                            <item><quote>Aeschin. II 151</quote></item>
+                            <item><quote>Dem. <title>Meid.</title> XXI 8</quote></item>
+                            <item><quote>Dem. XXII 68</quote></item>
+                            <item><quote>Dem. XIX 287</quote></item>
+                            <item><quote>Arist. <title>IA</title> 712a, 34</quote></item>
+                            <item><quote>Arist. <title>Ath. Pol.</title> XVIII 3</quote></item>
+                            <item><quote>Theophr. <title>Char.</title> 21, 8</quote></item>
+                            <item><quote>Theocr. <title>Id.</title> II 70</quote></item>
+                            <item><quote>Theocr. <title>Id.</title> II 82</quote></item>
+                            <item><quote>Polyb. XII 13, 11</quote></item>
+                            <item><quote>Philo. <title>spec. leg.</title> I 21</quote></item>
+                            <item><quote>Dion. Hal. <title>Dem. </title>32 p. 201, 2</quote></item>
+                            <item><quote>Dion. Hal. <title>Is.</title> 19 S. 121</quote></item>
+                            <item><quote>Joseph. <title>BJ</title> VII 122</quote></item>
+                            <item><quote>Plut. <title>Vit. Aem.</title> 33, 1</quote></item>
+                            <item><quote>Plut. <title>Vit. Ages.</title> 19, 3</quote></item>
+                            <item><quote>Plut. <title>Vit. Ages.</title> 19, 5</quote></item>
+                            <item><quote>Plut. <title>Vit. Ant.</title> 9, 5</quote></item>
+                            <item>    Plut. <title>Vit. Arist.</title> 21, 2</item>
+                            <item><quote>Plut. <title>Vit. Brut.</title> 39, 2</quote></item>
+                            <item><quote>Plut. <title>Sull. Pers.</title> 36, 2</quote></item>
+                            <item><quote>Plut. <title>De cupiditate divitarum</title>Mor. 527D</quote></item>
+                            <item><quote>Plut. <title>Lyc.</title> 30,6</quote></item>
+                            <item><quote>Plut. <title>Thes.</title> 36, 2</quote></item>
+                            <item><quote>App. <title>Hisp.</title> IV, 23</quote></item>
+                            <item><quote>App. <title>Pun.</title> IX 66</quote></item>
+                            <item><quote>App. <title>B. Civ.</title> I, 12, 105</quote></item>
+                            <item><quote>App. <title>B. Civ.</title> I, 12, 106</quote></item>
+                            <item><quote>Paus. I, 2, 4.</quote></item>
+                            <item><quote>Luc. <title>Iupp. trag.</title> 22</quote></item>
+                            <item><quote>Luc. Nav. 24</quote></item>
+                            <item><quote>Ath. V. 194-195</quote></item>
+                            <item><quote>Poll. <title>Onom.</title> I 211</quote></item>
+                            <item><quote>Diog. Laer. VI 1, 5</quote></item>
+                            <item><quote>Corpus Hermeticum IV 7</quote></item>
+                    </list>
+                    <p><hi rend="bold">5) Derogatory meaning</hi></p>
+                    <list>
+                    <item><quote>Joseph. <title>AJ</title> XIII 305</quote></item>
+                    <item><quote>Joseph. <title>BJ</title> I 74</quote></item>
+                     <item><quote>Lucian. <title>Merc. Cond.</title> 10</quote></item>
+                    <item><quote>M. Aur. <title>Med.</title> VII 3, 1</quote></item>
+                    </list>
+                    <p><hi rend="bold">6) Other meanings</hi></p>
+                    <list>
+                        <item><quote>Hymn. Hom. Herakl. 5. </quote>(at the bidding of)</item>
+                        <item><quote>Aesch. <title>Ag.</title> 124</quote>(in the sense of a military campaign)</item>
+                        <item><quote>Theophr. <title>Char.</title> 26</quote> (in the sense of festival)</item>
+                        <item><quote>Polyb. VI, 39 9</quote>(in the sense of a triumph)</item>
+                        <item><quote><title>St.</title> I, 2</quote> (in the sense of expedition)</item>
+                        <item><quote>Epictetus, <title>Disc.</title> IV 1,104-105</quote> (in the sense of a spectacle)</item>
+                    </list>     
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="Discussion/Interpretation">
+                    <head>Discussion/Interpretation</head>
+                    <p>It is worth analyzing diachronically the semantic classification that has been discussed above. For both Homeric senses, in the case of the first type (<foreign>πομπός</foreign>/<foreign>πομπή</foreign>/<foreign>πομπέυς</foreign>/<foreign>πομπαῖος</foreign>/<foreign>πóμπιμος</foreign>/<foreign>προπομπός</foreign>) there seems to be a continuity in meaning, although attestations of some words do suffer alterations within time. For example, within <persName key="Homer">Homer</persName> some words may be documented for some works but not for others: <foreign>πομπή</foreign> and <foreign>πομπός</foreign> are attested in the <ref type="lit">Illiad</ref> and in the <ref type="lit">Odyssey</ref>, but <foreign>πομπέυς</foreign> and <foreign>πομπέυω</foreign> are only registered in the <ref type="lit">Odyssey</ref>. Later on, some new forms such as <foreign>ψυχοπομπός</foreign> and <foreign>προπομπός </foreign> do appear and are used profusely (RE 1894-1980: 1880). There also seems to be a continuity for the second type related to meaning of ‘sending’.</p>  
+                    <p>Some debate has aroused for the Herodotian meaning of <foreign>θείῃ
+                            πομπῇ</foreign>. According to Rahner (1931: 242), various testimonies
+                        found in Homer do allude to the idea of ‘divine providence’, by which
+                        mortals behave and act towards their fate instinctively following divine
+                        will. Rahner clearly sees in some Homeric texts (Hom. <title>Il.</title> VI,
+                        171; Hom. <title>Od.</title> VII, 193; XIII, 422) that some gods guide
+                        humans towards their destiny, and are not acting merely as escorts, although
+                        the fixed <foreign>θείῃ πομπῇ</foreign> construction does not appear in
+                        Homer. The RE clearly disagrees with this view and insists that the Homeric
+                        idea doesn’t allude metaphorically to ‘destiny’, but quite literally to
+                        ‘escorting’ (RE 1894-1980: 1879-1880). </p>
+                    <p>Although the Latin voice remains to be analysed, it is worth noting that in
+                        the Roman period, authors such as <persName key="Flavius Josephus">Flavius
+                            Josephus</persName>, <persName key="Lucian">Lucian</persName> and
+                            <persName key="Marcus Aurelius">Marcus Aurelius</persName> use
+                            <foreign>πομπή</foreign> in a derogatory sense. In the case of <persName
+                            key="Flavius Josephus">Flavius Josephus</persName>, it is used to
+                        describe an individual as pompously arrogant as opposed to ‘splendid’
+                            (<foreign>λαμπρός</foreign>, Joseph. <title>BJ</title> I 74): </p>
+                   <p>κἀν τούτῳ προσιόντες οἱ πονηροὶ τῷ βασιλεῖ τήν τε πομπὴντῶν ὁπλιτῶν ἐδήλουν
+                        καὶ τὸ παράστημα τοῦ Ἀντιγόνου μεῖζον ἢ κατ᾽ ἰδιώτην, ὅτι τε παρείη μετὰ
+                        μεγίστου συντάγματος ἀναιρήσων αὐτόν: οὐ γὰρ ἀνέχεσθαι τιμὴν μόνον ἐκ
+                        βασιλείας ἔχων, παρὸν αὐτὴν κατασχεῖν. <ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0147"></ref></p>
+                    <p>Now at this very time it was that these ill men came to the king, and told
+                        him in what a pompous manner the armed men came, and with what insolence
+                        Antigonus marched, and that such his insolence was too great for a private
+                        person, and that accordingly he was come with a great band of men to kill
+                        him; for that he could not endure this bare enjoyment of royal honor, when
+                        it was in his power to take the kingdom himself (Joseph. <title>BJ</title> I
+                        74, trans. Whitson).<ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0148"></ref></p>
+                    <p>Likewise, <persName key="Marcus Aurelius">Marcus Aurelius</persName> warns about the frivolities of a series of celebrations, and he begins such enumeration with <foreign>πομπή</foreign>:
+                    </p>
+                    <p>Πομπῆς κενοσπουδία, ἐπὶ σκηνῆς δράματα, ποίμνια, ἀγέλαι, διαδορατισμοί, κυνιδίοις ὀστάριον ἐρριμμένον, ψωμίον εἰς τὰς τῶν ἰχθύων δεξαμενάς, μυρμήκων ταλαιπωρίαι καὶ ἀχθοφορίαι, μυιδίων ἐπτοημένων διαδρομαί, σιγιλλάρια νευροσπαστούμενα. χρὴ οὖν ἐν τούτοις εὐμενῶς μὲν καὶ μὴ καταφρυαττόμενον ἑστάναι, παρακολουθεῖν μέντοι, ὅτι τοσούτου ἄξιος ἕκαστός ἐστιν, ὅσου ἄξιά ἐστι ταῦτα περὶ ἃ ἐσπούδακεν.<ref corresp= "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0641"></ref></p>
+                    <p>The vain solicitude about shows, scenical representations, flocks and herds,
+                        [161] skirmishing, little bones cast in for contention among little dogs,
+                        baits cast into a fish-pond, the toiling of Ants, and their carrying of
+                        burdens, the fluttering of affrighted flies, the involuntary agitationsof
+                        puppets by wires! We ought to persist amidst such things with good-nature,
+                        without storming at them; and be persuaded that such is the worth of each
+                        person, as is the value of the things he pursues (M. Aur.
+                            <title>Med.</title> VII 3, 1, trans. Hutcherson and Moor). </p>
+                    <p>So does <persName key="Lucian">Lucian</persName> when he advises philosophers
+                        to please their patrons in <ref type="lit">De mercede</ref> by helping them
+                        during their pageants, which some authors have translated as ‘triumphs’
+                        (Luc. Merc. Cond. 10, trans. Fowler, H W and F G.).</p>
+                    <p>Finally, <foreign>πομπή</foreign> may also be used as a neutral metonymy for
+                        festival/spectacle (Theophr. <title>Char.</title> 26; Epictetus,
+                            <title>Disc</title>. IV 1,104-105), a triumph (Polyb. VI, 39 9) or be
+                        related to the military field (Aesch. <title>Ag.</title> 124; St. I, 2).
+                        Although this entry focuses on <foreign>πομπή</foreign>, other words may be
+                        used for ‘procession’, like <foreign>ἒξοδος</foreign>, which appears in some
+                        inscriptions and papyri (such as the Canopus Decree or <ref type="ins">OGIS
+                            56</ref>) and allude to processional rites, according to Bellantuono,
+                        related to women (Bellantuono 2019: 64-66), although it may also be a direct
+                        translation of the Egyptian term for procession <hi rend="italic">prt/prw
+                        </hi>, 'coming forth'. (Stadler 2008: 3) . </p>
+                </div>
+            </div>
+            
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <bibl>Bellantuono, A. (2019): <foreign>Ἒξοδος</foreign> nei papiri e nelle iscrizione”, in Bons, E. Mambelli, A. and Scialabba, D. (eds.), Exodos: storia di un vocabolo, pp. 53-66.</bibl>
+                <bibl>Bömer, G. and H. Gärtner (1894-1980): “Pompa”, in  Pauly, A., G. Wissowa, W. Kroll, K. Witte, K. Mittelhaus and K. Ziegler (eds.), Realencyclopädie der classischen Altertumswissenschaft, Stuttgart, J. B. Metzler, pp. 1879-1994. </bibl>
+                <bibl>Bruit Zaidman, L. and P. Schmitt Pantel (2002): La religion grecque dans les cités à l'époque classique, Armand Colin.</bibl>
+                <bibl>Chaniotis, A. (2013): “Processions in Hellenistic cities. Contemporary discourses and ritual dynamics”, in Alston-O. Van Nijf-Ch. G. Williamson (eds.), Cults, creeds and identities in the Greek city after the classical age, Leuven, Peeters, pp. 21-47.</bibl>
+                <bibl>Estienne, S. (2015): “Aurea pompa venit: Présences divines dans les processions romaines”, in Huet, V., Lisarrague F. and Prost F. (eds.), Figures de dieux. Construire le divin en images, Rennes, Presses Universitaires de Rennes, pp. 337-349.</bibl>
+                <bibl>Graf, F. (1996): “Pompai in Greece” en The Role of religion in the Early Greek Polis. Proceedings of the Third International Seminar of Ancient Greek Cult, organized by the Swedish Institute of Athens, Stockholm, Robin Hägg.</bibl>
+                <bibl>Kavoulaki, A. (2011): “Observations on the meaning and practice of the Greek pompé”, In Haysom M. and Wallensten J. (eds.), Current approaches to religion in ancient Greece, Stockholm, Swedish Institute at Athens and Rome, pp. 135-150.</bibl>
+                <bibl>Rahner, H. (1931): “Pompa diaboli: Ein Beitrag zur Bedeutungsgeschichte des Wortes <foreign>πομπή</foreign> — pompa in der urchristlichen Taufliturgie”, Zeitschrift für katholische Theologie, (55) 2, pp. 239-273. </bibl>
+                <bibl>Stadler, M. (2008): "Procession", <hi rend="italic">UCLA, </hi>pp. 1-12.
+                    Available at: <ptr
+                        target="https://escholarship.org/content/qt679146w5/qt679146w5.pdf?t=rzuec2"
+                    /></bibl>
+                <bibl>True, M., J. Daehner, J. Burnett Grossman, K. D. S. Lapatin and E. M. Nam. (2004): “Greek Processions”, en Thesaurus Cultus et rituum antiquorum, The Paul Getty Museum, Los Angeles, 1, pp. 1-20.</bibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">miraculum</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2023"/>
+                <idno type="filename">lexicon_miraculum</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>LARES born digital document.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-05-24" who="Francesca De Lorenzi">encoded in XML</change>
+                <change when="2023-05-24" who="Francesca De Lorenz">written contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart" n="morfologia">
+                    <head>Morfologia</head>
+                    <p> <foreign>Miraculum</foreign>sost., (gen. <foreign>Miraculi</foreign>), nome neutro della seconda declinazione. Nome derivato dall’aggettivo <foreign xml:lang="la">mirus,a,um.</foreign> Il sostantivo si può presentare anche nella forma sincopata <foreign xml:lang="la">miraclum</foreign> </p>
+                </div>
+                <div type="edition">
+                    <div type="textpart" n="etimologia">
+                        <head>Etimologia</head>
+                        <p>Derivato dalla radice PIE <foreign>*smei-ro</foreign>  “sorridente”, cfr. skr.<foreign>Smayate</foreign>  “lui sorride”, <foreign>a-smera-</foreign> “senza sorridere”, OE<foreign> smœr(e)</foreign> “labbra”, ingl. <foreign>Smile</foreign> “sorridere”, Gr. <foreign>μειδάω</foreign> “io sorrido”. Secondo Vine, la forma originaria doveva essere <foreign xml:lang="la">mirum</foreign>, da cui sarebbe derivato <foreign xml:lang="la">mirus</foreign>. Potrebbe trattarsi di un originario nome collettivo IE <foreign> *smei-ro </foreign>  “risata, sorriso” </p>
+                    </div>
+                <div type="textpart" n="Età arcaica">
+                    <head>Età arcaica</head>
+                    <p>La prima attestazione del termine si trova in <persName key="M. Porcius Cato">M.Porcio Catone</persName></p> 
+               <p><ref type="lit"> <title>Dierum dictarum de consolatu suo</title> liber II</ref>: </p>
+                    <p> In questa orazione, pronunciata nel 190 a.C.,<persName key="Catone">Catone</persName> si difende dalle accuse rivoltegli dai nemici <persName key="Scipioni">Scipioni</persName> riguardo alla sua campagna nella penisola iberica, ricordando i propri meriti vero lo stato. <persName key="Catone">Catone</persName> sostiene che, nonostante le imprese  incredibili che hanno compiuto i suoi avversari, lui continua a diffidare di loro. Secondo il <title>TLL</title>, il valore qui espresso dalla parola <foreign>miracula</foreign> è quello di cosa che muove stupore ed ammirazione. Interessante è però qui  l’associazione del termine con l’aggettivo <foreign xml:lang="la">novus</foreign> che poteva avere un'accezione negativa nella lingua latina. Sembra quindi che <persName key="Catone">Catone</persName> in questo passo si serva della parola <foreign xml:lang="la">miracula</foreign> per descrivere negativamente le imprese compiute dai suoi avversari, probabilmente con una punta di ironia e con tono polemico.</p>
+                       
+                  <quote><foreign>Quamquam multa nova miracula fecere inimici mei, tamen nequeo desinere mirari eorum audaciam</foreign> 
+                          
+                        <p>“E benchè i miei avversari abbiano commesso molte stranezze, tuttavia non riesco a smettere di meravigliarmi della loro audacia e presunzione”traduzione di Paolo Cogusi e Maria Teresa Sblendorio Cogusi</p>
+                      <p> Secondo il <title>TLL</title>, la seconda attestazione per l’età arcaica si trova in un passo frammentario delle <ref type="lit">Satire</ref> di <persName key="Lucilio">Lucilio</persName>,citato da <ref type= "lit"><persName key="Nonio">Nonio</persName>(fr. 14 Marx)</ref>.Gli studiosi sono concordi nel mettere in relazione questa attestazione con il primo libro delle <ref type="lit">Satire</ref>, che si apre con la descrizione del concilio degli dèi sul modello omerico e dove si denuncia la progressiva corruzione dei costumi romani. Pontani ritiene che il contesto storico di riferimento possa essere l’anno 169 a.C., quando furono introdotti a Roma animali esotici per scopi ludici. Questo fatto fu sentito come indice di decadenza dei costumi romani, e venne ricordato in questi termini anche da <ref type="lit">Livio (44,18,8)<ref/>.Il passo viene riportato dal grammatico romano <persName key= "Nonio">Nonio</persName></ref>, originario della <placeName key="Numidia">Numidia</placeName> e vissuto nel quarto secolo d.C.</p>
+                      <ref>Lucilio, Satire, fr. 14 Marx</ref>
+                      <quote>
+                          <lb n="1"/>Miracula ciet elefantas</quote>
+                            <p> Pontani interpreta qui <foreign xml:lang="la">miracula</foreign> come apposizione predicativa riferito al  <foreign xml:lang="la">elefantas</foreign>. In questo caso <foreign xml:lang="la">miracula</foreign> è usato per descrivere l’elefante come animale portentoso e che doveva destare meraviglia. Tuttavia dietro questo attributo relativo agli elefanti poteva anche celarsi una diffidenza verso il mondo africano o asiatico, comunque non romano, sentito come portatore di corruzione. La parola è inoltre collocata in incipit, in modo tale da conferirle maggiore enfasi</p></quote></div>
+            </div>
+            
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <p>CUGUSI P.-CUGUSI MARIA TERESA SBLENDORIO (2001).<title>Opere di Marco Porcio Catone</title>,Torino 2001.Vol I.</p>
+                 <p>DE VAAN,M. (2008).<title> Etymological Dictionary of Latin and the other Italic Languages </title>, Leiden-Boston 2008.</p>
+                <p>ERNOUT A.-MEILLET A. (2001).<title>Dictionnaire étimologique de la langue latine,  Hostoire de mots</title>,Parigi 2001.</p>
+                <p> JORDAN H. (1860).<title> Orationum fragmenta (in aliis scriptis seruata)</title>,Lipsia 1860. pp.33.74 </p>
+                <p>MARX F.(1905).<title>C. Lucilii Carminum Reliquiae</title>, Lipsia 1905. Vol 1-2</p>
+                <p>PONTANI F.(2001).<title>Materiali e discussioni per l'analisi dei testi classici</title>, No. 47, Pisa (2001), pp. 165-170.</p>
+            </div>
+<div type="bibliography" subtype="sitography">
+                <head>Sitography</head>
+      <p><ref corresp="https://thesaurus.badw.de/tll-digital/tll-open-access.html">Thesaurus Linguae Latinae</ref></p>
+      <p><ref corresp="http://clt.brepolis.net/llta/pages/Toc.aspx">Library of Latin Texts</ref></p>
+</div>
+    </div>    </body>
+    </text>
+</TEI>

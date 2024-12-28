@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en">δαιμόνιον</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">lexicon_δαιμόνιον</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital document.</p>
+                <p>daimonion, <w>δαιμόνιον, -ου, τό</w> (sg.), <w>δαιμόνια, -ων, τὰ</w> (pl.) – (1) divine power, divinity, (2) evil spirit</p>
+            </sourceDesc>
+           
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-05-25" who="Alicja Trubas">Alicja Trubas</change>
+                <change when="2023-05-25" who="Alicja Trubas">Alicja Trubas</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+           
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="definition">
+                    <p>The presented below definition of the term <hi rend="italic">daimonion</hi> (<w lemma= "δαιμόνιον">δαιμόνιον</w>) is structured as follows: first point majors on the etymology, then I decided to grouped texts’ corpuses in which <hi rend="italic">daimonion</hi> appears (point II) in the specified sections, all labeled as the “Greek writings”. Thus, point II.I focuses on the understanding of the term <hi rend="italic">daimonion</hi> in the Antiquity, then point II.II focuses on its occurrences in the Septuagint. At this moment the most developed section is the one dedicated to the New Testament, especially Gospels.</p>
+                    <p>As the definition in its present form still is a draft and every section should be developed and richen in more and more references, as well as it needs some more sections to be added (such as Jewish writings in Greek or post New Testamentary Greek literature).</p></div>
+                <div type="textpart" n="etymology">
+                    <head>I. Etymology</head>
+                    <p><hi rend="italic">Daimonion</hi>, (<w lemma= "δαιμόνιον">δαιμόνιον</w>) the diminutive form of the word <hi rend="italic">daimon</hi> (<w lemma= "δαίμων">δαίμων</w>), etymologically comes from the root <hi rend="italic">daio</hi> meaning “to divide”, whereas earlier <persName key="Plato">Plato</persName> derives it from the word <hi rend="italic">dao</hi> meaning “knowing” (Overstreet 1999, 1). The Latinized version of the term is <hi rend="italic">daemon</hi>; its modified versions are also present in modern European languages (e. g. der Dämon in German, demon in English or Polish). The verbs descending from the term are <hi rend="italic">daimonizomai</hi> (<w lemma= "δαιμονίζομαι">δαιμονίζομαι</w>) and <hi rend="italic">daimonao</hi> (<w lemma= "δαιμονάω">δαιμονάω</w>) meaning “under the power of god or <hi rend="italic">daimon</hi>”. Originally this meaning has a neutral tone as it was dependent on the gods’ will. Later Jewish and Christian scriptures gave it a rather negative sense, and understood it as “under the power of a demon [evil spirit]” (van der Toorn, Becking, van der Horst 1999, 235-236).</p></div>                    
+                <div type="textpart" n="greek_writings">
+                    <head>II. Greek writings</head>
+                    <p><emph rend="italics">II. I. Antiquity</emph></p>
+                    <p>In Antiquity, the expression was commonly associated with the individuals’ lot and understood as the kind of divine being existing as a mediator between gods (<hi rend="italic">theoi</hi>, <w lemma= "θεός">θεός</w>) and humans (Gasparro 2016, 416-422). However, the term had evolved through the ages significantly. In the Homeric era terms <hi rend="italic">daimon</hi> and <hi rend="italic">theos</hi> were used as they might be synonyms (<ref corresp= "lit">Hom. Il. 1.222</ref>), however, later authors started to make distinctions between them. As an example, <persName type= "attested" key= "Hesiod">Hesiod</persName> described <hi rend="italic">daimones</hi> as the souls of those who lived during the Golden Age (<ref corresp= "lit">Erga 122-124</ref>), aka the greatest one of the five periods, in his myth of five races. According to the myth, those souls become watchers from above, looking after the others living on the earth at a given time.</p>
+                    <p>One of the most famous occurrences of <hi rend="italic">daimonion</hi> in Greek literature is the description of <hi rend="italic">daimonion</hi> of <persName type="attested" key= "Socrates">Socrates</persName> given by <persName type="attested" key= "Plato">Plato</persName> (<ref corresp= "lit">Pl. Smp. 202d-203a</ref>). Here <hi rend="italic">daimonion</hi> is described as a kind of messenger whose role is to bring prayers and sacrifices from humans to gods, and answers and commandments from gods to humans. <hi rend="italic">Daimonia</hi> also had to be responsible for bringing visions and dreams from above to people (Brisson 2018, 86-88). Thus, they seem to be a class of being located between the worlds of humans and gods and their function was to enable a connection between both worlds. Besides <persName type="attested" key= "Plato">Plato</persName>, also <persName type="attested" key= "Xenophon">Xenophon</persName> mentioned the otherworldly being that had to guide <persName type="attested" key= "Socrates">Socrates</persName> during his life (<ref corresp= "lit">Xen. Mem. 1.1.2</ref>). From this point <hi rend="italic">daimonion</hi> seems to appear as a divine being which is lower in the hierarchy than the Olympian gods (<hi rend="italic">theoi</hi>) and being on their commands (Burkert 1985, 180).</p>
+                    <p>For a long time, <hi rend="italic">daimonia</hi> were described simply as the mediators or guidance voices of the individuals, but during and after the Hellenistic period we see the beginning of classifying them as <hi rend="italic">eudaimonia</hi> (<w lemma= "εὐδαιμονία">εὐδαιμονία</w>), identified as happiness and good fortune, and <hi rend="italic">kakadaimonia</hi> (<w lemma= "κακαδαιμονία">κακαδαιμονία</w>), identified as bad luck and misfortune. This other differentiation appears to have started as the idea of the conception of Christian dualism had risen (van der Toorn, Becking, van der Horst 1999, 235).</p></div>
+                <div type="textpart" n="septuagint">
+                    <head>II. II. Septuagint</head>
+                    <p>In the Hebrew Bible, one can find many various terms for entities related to idolatry and cultic practices. Interestingly enough, it seems like it becomes a common strategy for the authors of the Greek translation of the Hebrew Bible to apply <hi rend="italic">daimonion</hi> as an equivalent of various Hebrew and Aramaic words used in the context mentioning pagan traditions and gods. As an example, <ref type= "lit">Psalm 96,5</ref> uses the term <hi rend="italic">daimonia</hi> for Hebrew <hi rend="italic">elilim</hi> (sg. <hi rend="italic">elil</hi>) which is translated as the “pagan gods” or simply “idols”. <ref type= "lit">Isaiah 13,21</ref> uses <hi rend="italic">daimonia</hi> in place in which figures Hebrew <hi rend="italic">sairim</hi> (sg. <hi rend="italic">sair</hi>) meaning the entities appearing as a he-goat demons. <ref type= "lit">Deuteronomy 32,17</ref> also mentions <hi rend="italic">daimonia</hi> in the context of giving sacrifices to “false gods” or “demons”. The word figuring in the place of <hi rend="italic">daimonia</hi> in the Hebrew Bible is <hi rend="italic">shedim</hi> (sg. <hi rend="italic">shed</hi>) being identified with evil spirits or demons as well.</p>
+                    <p>In fact, the usage of <hi rend="italic">daimonion</hi> as the equivalent of such a diverse group of Hebrew-Aramaic terms might be compelling but nowadays researchers suggest that these changes were attempts to make foreign texts more clear for those to whom the translation was dedicated. All the more its meaning against the Septuagint appears as the negative one, while earlier Greek writings seem to portray <hi rend="italic">daimonion</hi> as the class of beings rather good or just neutral (Martin 2010, 658-666).</p></div>
+                <div type="textpart" n="new_testament">
+                    <head>II. III. New Testament</head>
+                    <p>Against the New Testament, the term <hi rend="italic">daimonion</hi> is also used only in the negative sense and, interestingly enough, to describe an active and personified evil force disturbing individuals primarily in the Gospels during the times <persName type="divine" key= "Jesus">Jesus</persName> is among people. The most common situations in which <hi rend="italic">daimonion</hi> was mentioned in the corpus were the evangelists’ accounts of <persName type="divine" key= "Jesus">Jesus</persName>’ exorcisms. The exorcisms cases are described only in the synoptic Gospels while the Gospel of John mentions three situations in which <persName type="divine" key= "Jesus">Jesus</persName> is accused by the Pharisees of having a demon (<ref type= "lit">John 7,20; 8,52; 10,20</ref>).</p>
+                    <p><ref type= "lit">Matthew 17,18</ref>(All citations from the New Testament are taken from the <ref corresp= "https://ebible.org/study/">Word English Bible</ref> online version)</p>
+                    <p>Jesus rebuked <hi rend="italic">the demon</hi>, and it went out of him, and the boy was cured from that hour.</p>
+                    <p><quote><lb n="1"/>καὶ ἐπετίμησεν αὐτῷ ὁ Ἰησοῦς καὶ ἐξῆλθεν ἀπ᾽ αὐτοῦ <hi rend="italic">τὸ δαιμόνιον</hi> καὶ ἐθεραπεύθη ὁ παῖς ἀπὸ τῆς ὥρας ἐκείνης.</quote></p>
+                    <p>In this context rebuking a demon seems to be identified with curing. Similarly:</p>
+                    <p><ref type= "lit">Luke 9,1</ref></p>
+                    <p>He called the twelve together and gave them <hi rend="italic">power and authority over all demons</hi>, and to cure diseases</p>
+                    <p><quote><lb n="1"/>Συγκαλεσάμενος δὲ τοὺς δώδεκα ἔδωκεν αὐτοῖς <hi rend="italic">δύναμιν καὶ ἐξουσίαν ἐπὶ πάντα τὰ δαιμόνια</hi> καὶ νόσους θεραπεύειν.</quote></p>
+                    <p>Here in the Gospel of Luke having power over demons might be understood as a special ability to heal from diseases. </p>
+                    <p>However, the language of exorcisms in the New Testament is a more complex problem as <hi rend="italic">daimonia</hi> are not the only entities or forces that are banished by <persName type="attested" key= "Jesus">Jesus</persName>. They often appear in accompany of <w lemma= "pneuma">pneuma</w>, there used in a negative sense as well, and may be confusing if the authors of the Gospels differentiate <w lemma= "pneuma">pneuma</w> and <hi rend="italic">daimonion</hi> in the exorcisms’ narrations. </p>
+                    <p><ref type= "lit">Luke 9,42</ref></p>
+                    <p>While he was still coming, <hi rend="italic">the demon</hi> threw him down and convulsed him violently. But Jesus rebuked <hi rend="italic">the unclean spirit</hi>, healed the boy, and gave him back to his father.</p>
+                    <p><quote><lb n="1"/>ἔτι δὲ προσερχομένου αὐτοῦ ἔρρηξεν αὐτὸν <hi rend="italic">τὸ δαιμόνιον</hi> καὶ συνεσπάραξεν· ἐπετίμησεν δὲ ὁ Ἰησοῦς <hi rend="italic">τῷ πνεύματι τῷ ἀκαθάρτῳ</hi> καὶ ἰάσατο τὸν παῖδα καὶ ἀπέδωκεν αὐτὸν τῷ πατρὶ αὐτοῦ.</quote></p>
+                    <p>As the fragment above shows, it is <hi rend="italic">daimonion</hi> that throws a child but in the further part of the same verse, it is <w lemma= "pneuma"><hi rend="italic">pneuma akathartos</hi></w> that is being rebuked by <persName type="divine" key= "Jesus">Jesus</persName>.</p>
+                    <p>Interestingly enough, there are only several mentions of daimonion in the New Testament besides the Gospels (<ref type= "lit">1 Cor 10,20-21</ref>; <ref type= "lit">1 Timothy 4,1</ref>; <ref type= "lit">James 2,19</ref>; <ref type= "lit">Revelation 9,20</ref>, <ref type= "lit">Revelation 16,14</ref> and <ref type= "lit">Revelation 18,2</ref>). Amongst them there are similar tendencies as these present in the Septuagint, identifying <hi rend="italic">daimonion</hi> with idols or false gods (e. g. 1 Cor 10,20). What is more, there are paragraphs putting an emphasis on <hi rend="italic">daimonia</hi> awareness of the God of the New Testament:</p>
+                    <p><ref type= "lit">James 2,19</ref></p>
+                    <p>You believe that there is one God. Good! Even <hi rend="italic">the demons believe that</hi> - and shudder.</p>
+                    <p><quote><lb/>σὺ πιστεύεις ὅτι εἷς ἐστιν ὁ θεός, καλῶς ποιεῖς· καὶ <hi rend="italic">τὰ δαιμόνια πιστεύουσιν</hi> καὶ φρίσσουσιν.</quote></p>
+                    <p>Thus, the New Testamentary authors seemed to use the term <hi rend="italic">daimonion</hi> deliberately as it appears each time in the broad sense of maleficent forces. However, it still might be compelling why the word that previously had a meaning and function closer to New Testamentary <w lemma= "angelos"><hi rend="italic">angelos</hi></w>, “angel”, became nothing but an evil spirit. Yet in fact, linguists examining the language of the New Testament assume that this move might be a kind of manifestation of the new rising religion, which was Christianity. By showing that the foreign deities became just demons, the authors may have tried to show that these beliefs are not valid anymore (Frieden 1990, 45-49). The adaptation of the term <hi rend="italic">daimonia</hi> in the understanding of foreign, pagan gods is also visible in the Latin medieval writings (<ref corresp= "lit">De Civitas Dei 2.22</ref>)</p>
+                </div>
+            </div>
+            
+            <div type="textpart" subtype="bibliography">
+                <p>L. Brisson, What is a Daimon for Porphyry?, in: Neoplatonic Demons and Angels, eds. L. Brisson, S. O’Neill, A. Timotin, Leiden/Boston 2018.</p>
+                <p>W. Burkert, Greek Religion, trans. J. Raffan, New Jersey/Harvard 1985.</p>
+                <p>G. S. Gasparro, Daimonic Power, in: The Oxford handbook of ancient Greek religion, Oxford 2016.</p>
+                <p>W. Kosior, Elyonim veTachtonim. The Supernatural Entities and Their Relationships with Humans according to the Babylonian Talmud from Quantitative and Qualitative Perspectives [unpublished book manuscript]</p>
+                <p>D. B. Martin, When Did Angels Become Demons?, “Journal of Biblical Literature, WINTER 2010, Vol. 129, No. 4.</p>
+                <p>L. Overstreet, The Greek Concept Of "Demon" And Its Biblical Significance, A Paper Presented to The Evangelical Theological Society, Portland 1999.</p>
+                <p>K. van der Toorn, B. Becking, P. W. van der Horst, Dictionary of Deities and Demons in the Bible, Grand Rapids/Cambridge 1999.</p>
+                <p>A. Trubas, »And the prayer of faith will heal him who is sick« (James 5,15) Language’s disease in the Synoptic Gospels’ exorcisms from the perspective of the Elyonim veTachtonim Project [unpublished paper manuscript]</p>
+            </div>
+        </body>
+    </text>
+</TEI>
