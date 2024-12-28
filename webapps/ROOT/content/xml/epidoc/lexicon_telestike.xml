@@ -86,9 +86,9 @@
                     <p>1) The term <rs type="Activities" subtype="Invocation/Prayer"><foreign
                                 xml:lang="grc"><w lemma="τελεστική">τελεστική</w></foreign></rs> is
                         first attested in IV century BCE, used by <persName key="Plato"
-                            >Plato</persName> only two times, both in <ref><title>Phaedrus</title>
+                            >Plato</persName> only two times, both in <ref type="lit"><title>Phaedrus</title>
                             (248d; 265b)</ref>. </p>
-                    <p>In the first passage <ref>(448d)</ref>
+                    <p>In the first passage <ref type="lit">(448d)</ref>
                         <persName key="Plato">Plato</persName> is listing the different stages of
                         human condition and at the middle, in 5th position we can find “the life of
                         a prophet or someone who conducts mystic rites” (<foreign
@@ -130,7 +130,7 @@
                         hit by divine punishment for a past fault inherited from an ancestor
                         (Ballériaux 1990, pp. 42-43). According to the French scholar <rs type="Human_Agents" subtype="Cult_Personnel"><hi rend="italic">télestes</hi></rs> were the same <rs
                             type="Human_Agents" subtype="Cult_Personnel"><hi rend="italic">manteis</hi></rs> and <rs type="Human_Agents" subtype="Cult_Personnel">agyrtais</rs> that <persName key="Plato"
-                            >Plato</persName> mentions in <ref><title>Republic</title> (II,
+                            >Plato</persName> mentions in <ref type="lit"><title>Republic</title> (II,
                             364b)</ref>, diviners that could free from ancient unpunished wrongs
                         thanks to a god-inspired madness, the <rs type="Activities"
                             subtype="Offering">telestic madness</rs>.</p>
@@ -212,7 +212,7 @@
                         In the joint citation of <rs type="Activities" subtype="Invocation/Prayer"
                             >mantic, telestic and poetic arts</rs>, <persName key="Maximus"
                             >Maximus</persName> may remember the passage from <persName key="Plato"
-                            >Plato</persName>’s <ref><title>Phaedrus</title> 265b</ref>, even if
+                            >Plato</persName>’s <ref type="lit"><title>Phaedrus</title> 265b</ref>, even if
                         here he does not mention erotic <rs type="Activities" subtype="Ritual_practice">mania</rs> and adds “<rs type="Activities"
                             >purifications and prophecies</rs>” (Trapp 1997, p. 302).</p>
                     <p><ref type="lit"> Max. Tyr. 38 5,2</ref></p>
@@ -311,16 +311,16 @@
                                     lemma="τελεστική">τελεστική</w></foreign></rs> as consecration
                         of statues is only one of the possible enthusiasms, i.e. the divine
                         possession of the soul. These different possessions are described at
-                            <ref>84,21 – 87,4</ref>, after which <persName key="Hermias"
+                            <ref type="lit">84,21 – 87,4</ref>, after which <persName key="Hermias"
                             >Hermias</persName> describes the last enthusiasm, the possession of
-                        statues (<ref>87, 4-18</ref>). </p>
+                        statues (<ref type="lit">87, 4-18</ref>). </p>
                     <p> According to Shepperd (1982) too, <persName key="Proclus">Proclus</persName>
                         thinks about different types of <rs type="Activities"
                             subtype="Invocation/Prayer"><foreign xml:lang="grc"><w lemma="τελεστική"
                                     >τελεστική</w></foreign></rs>: a pragmatic ritual that enables
                         men to come in contact with the divine even if only for a fleeting moment,
                         and, on a higher level a philosophical union of soul and divine essence (see
-                                <ref><persName key="Proclus">Proclus</persName> In Parm. V 990,
+                                <ref type="lit"><persName key="Proclus">Proclus</persName> In Parm. V 990,
                             27-29</ref>).</p>
                     <p>The term is still used in IX CE by another neoplatonic philosopher, <persName
                             key="Psellus">Psellus</persName>.</p>
@@ -377,7 +377,7 @@
                         that makes our ascent safe and unerring, that is, an orderly scheme of
                         progress.</p>
                     <p/>
-                    <p><ref type="lit">Psellus Epistula ad Michaelem Cerularium 142</ref></p>
+                    <p><ref type="lit"><persName key="Psellus">Psellus</persName> <title>Epistula ad Michaelem Cerularium</title> 142</ref></p>
                     <p><quote><foreign xml:lang="grc">Τὴν μὲν γὰρ ἀπόρρητον καὶ τελεστικὴν σοφίαν
                                 ἴσως ἐπίστασαι, τὴν δὲ διὰ λόγου καὶ τῆς καταλλήλου θεωρίας
                                 ἠγνόηκας. ἔστι κἀμοὶ θρόνος ἐνταῦθα ὑψηλὸς καὶ μετέω- ρος, οὐδὲν
