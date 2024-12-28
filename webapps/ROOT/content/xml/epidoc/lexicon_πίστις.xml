@@ -160,8 +160,9 @@
             <p><persName key="Chariton of Aphordesius">Chariton of Aphrodesius</persName> - "<title>Chaereas and Callirhoe</title>" (1st-2nd century CE)</p>
             <p><persName key="Galen">Galen</persName> - "<title>Institutio Logica</title>" (130 - 200 CE)</p>  
                 </div>
-
-                <div type="textpart" n="bibliography">
+            </div>
+            
+                <div type="bibliography">
                     <head>Bibliography</head>
                     <bibl><author>Chantraine, P.</author>
                                 (<date>1968-1980</date>).<title>Dictionnaire étymologique de la
@@ -208,8 +209,7 @@
                     <bibl><author>Ramírez Vidal, G.</author> (<date>2018</date>)."La pistis-fides
                             como el objeto propio de la retórica."<title>Quadripartita Ratio:
                                 Revista de Retórica y Argumentación,</title>3(5), pp. 37-48.</bibl>
-            </div>
-            </div>
+                        </div>
         </body>
     </text>
 </TEI>
