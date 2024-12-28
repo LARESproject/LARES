@@ -4,9 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="it">μανία</title>
-                <title xml:lang="en">μανία</title>
-                <title xml:lang="pl">μανία</title>
+                <title xml:lang="grc">μανία</title>
             </titleStmt>
             <publicationStmt>
                 <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>

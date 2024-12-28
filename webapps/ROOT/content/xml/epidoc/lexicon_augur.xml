@@ -4,7 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en">augur</title>
+                <title xml:lang="la">augur</title>
             </titleStmt>
             <publicationStmt>
                 <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>

@@ -4,7 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en">Emunah</title>
+                <title xml:lang="he">Emunah</title>
             </titleStmt>
             <publicationStmt>
                 <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
