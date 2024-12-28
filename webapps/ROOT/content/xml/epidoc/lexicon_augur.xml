@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="la">augur</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2023"/>
+                <idno type="filename">lexicon_augur</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital document.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-05-24" who="Daniela Miccoli">encoded in XML</change>
+                <change when="2023-05-24" who="Daniela Miccoli">written contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="it">
+                <div type="textpart" n="Etimologia e Morfologia">
+                    <head>Etimologia e Morfologia</head>
+                    <p><w lemma="augur">augur</w>, sost., m. (genitivo <foreign>auguris</foreign>). Derivano da questo il sostantivo <w lemma="augurium">augurium</w> e l’aggettivo <foreign>auguralis</foreign>. </p> 
+                    <p>Di etimologia incerta. Una testimonianza della primitiva forma * <foreign>auger</foreign> è contenuta in  <ref type="lit">Prisciano, GLK II 27, 17</ref>: </p>
+                    <quote><foreign>antiqui auger et augeratus pro augur et auguratus dicebant</foreign>.</quote>
+                    <p>La tradizionale derivazione da <foreign>avis</foreign> (<foreign>auis</foreign>), ossia “uccello, volatile”, e <foreign>gero</foreign>, “produco, rivelo”, sarebbe infatti riconducibile alla forma * <foreign>auger</foreign> piuttosto che ad <foreign>augur</foreign>. </p>
+                    <p>Si ipotizza anche l’esistenza di un tema neutro * <foreign>augos, -es-</foreign> per cui: <foreign>augur</foreign> &lt; * <foreign>augos</foreign>“rafforzamento, conferma”. La forma * <foreign>auger</foreign> attestata in <persName key="Prisciano">Prisciano</persName> potrebbe allora preservare l’apofonia <foreign>-es-</foreign> dei casi obliqui. </p>
+                    <p>Un’ulteriore ipotesi, avanzata dai grammatici antichi e accolta dai lessici etimologici moderni, riconduce <foreign>augur</foreign> alla radice di <foreign>augeo</foreign> “accresco” e, a sua volta, alla radice indoeuropea * <foreign>aug-</foreign>. </p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="Osservazioni preliminari">
+                    <head>Osservazioni preliminari</head>
+                    <p>Il termine <foreign>augur</foreign>contiene in sé l’idea della vitalità e della forza. Il ruolo dell’augure non era solo quello di garantire il successo di un’impresa ma anche di conferire e assegnare il <rs key="belief"></rs>potere divino: gli dei concedevano questa “<rs key="belief">forza mistica</rs>”, che si poteva percepire nella fondazione di una città o nelle cerimonie di inaugurazione. Nella rappresentazione di <persName key="Cicerone">Cicerone</persName> gli àuguri <foreign>urbemque et agros et templa liberata et effata habento</foreign>(<ref type="lit">De Legibus, II, 21</ref>) e questo era anche il loro “compito” all’interno dello stato romano: potevano procedere alla <foreign>inauguratio</foreign> di un <foreign>templum</foreign> e alla <foreign>liberatio</foreign>ed <foreign>effatio</foreign>della <foreign>urbs</foreign>, se incaricati da un magistrato competente.</p>
+                    <p>Con il passare del tempo questa forma di “potere” era venuta meno; si occupavano invece di osservare e interpretare i <foreign>signa</foreign>mandati dagli dei, spesso anche attraverso l’<rs key="practice">osservazione del volo degli uccelli</rs> (<foreign>auspicium</foreign>). </p>
+                    <p>Gli <foreign>augures</foreign> erano organizzati in un <foreign>collegium</foreign>, che sotto <persName key="Cesare">Cesare</persName>arrivò a contare sedici membri. La fondazione di questo <foreign>collegium</foreign> risaliva al <foreign>rex augur</foreign> <persName key="Romolo">Romolo</persName>, come dichiara <persName key="Cicerone">Cicerone</persName> nel <ref type="lit">De Divinatione, I, 107</ref>: </p>
+                    <quote><foreign>Atque ille Romuli auguratus pastoralis, non urbanus fuit, nec fictus ad opiniones imperitorum, sed a certis acceptus et posteris traditus.</foreign></quote>
+                    <quote>“E quell'augurio ottenuto da Romolo fu un augurio da pastore, non da esperto cittadino, non inventato per dar soddisfazione alle credenze degli ignoranti, ma ricevuto da persone fededegne e tramandato ai posteri” (Trad. it. S. Timpanaro).</quote>
+                    <p>In seguito a quell’<foreign>auspicium</foreign> “gli era assicurato il seggio regale e il territorio”. Dopo <persName key="Romolo">Romolo</persName> l’<foreign>augur</foreign> è invece separato, nel suo ruolo pubblico, dall’autorità e subordinato ad essa: solo <persName key="Romolo">Romolo</persName> era stato indicato come <foreign>rex augur</foreign>.</p>
+                    <p>La dottrina degli <foreign>augures</foreign> era strettamente connessa alla sfera istituzionale sin dalle sue origini, come si legge nel <ref type="lit">De Republica, II, 9, 15-16 </ref> di <persName key="Cicerone">Cicerone</persName>:</p>
+                    <quote><foreign>Tum, id quo retinemus hodie magna cum salute rei publicae, auspiciis plurimum obsecutus est Romulus. Nam et ipse, quod principium rei publicae fuit, urbem condidit auspicato et omnibus publicis rebus instituendis, qui sibi essent in auspiciis, ex singulis tribubus singulos cooptavit augures […].</foreign></quote>
+                    <quote>“Allora<persName key="Romolo"> Romolo</persName> seguì con molto scrupolo gli auspici, costume che manteniamo ancora oggi con grande vantaggio per la salvezza dello Stato. E infatti egli stesso - e questa fu l'origine della nostra Repubblica - fondò la città dopo aver preso gli auspici, e nel dare inizio a tutti eli atti politici si scelse, perché lo «assistessero» mentre interpretava i presagi, un augure da ciascuna tribù […]” (Trad. it. F. Nenci).</quote>
+                    <p>Al re <persName key="Numa Pompilio">Numa Pompilio</persName> è poi da attribuirsi l’organizzazione sacrale vera e propria, come si legge nella testimonianza di <ref type="lit">Tito Livio, Ab Urbe condita, IV, 4, 2</ref>:</p>
+                    <quote><foreign>[…] pontifices, augures Romulo regnante nulli erant; ab Numa Pompilio creati sunt.</foreign></quote>
+                    <quote>“[…] sotto il regno di <persName key="Romolo">Romolo</persName> non c’erano pontefici né auguri; furono creati da <persName key="Numa Pompilio">Numa Pompilio</persName>” (Trad. it. L. Perelli).</quote>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="pl">
+                <div type="textpart" n="Epoca Repubblicana">
+                    <head>Epoca Repubblicana</head>
+                    <p><persName key="Cicerone">Cicerone</persName> è un punto di riferimento essenziale nello studio dell’<rs key="practice">augurato</rs> romano e definisce il ruolo degli àuguri nel <ref  type="lit">De Legibus, II, 20</ref>: <foreign>interpretes… Iovis optimi maximi, publici augures</foreign> (“interpreti…di Giove Ottimo Massimo, i pubblici àuguri”). Con questa definizione essenziale opera una distinzione tra gli <foreign>augures privati</foreign>e gli <foreign>augures publici</foreign>. Erano questi ultimi, noti anche come <foreign>augures populi Romani </foreign>(<ref type="lit">Cic. Phil., I, 31</ref>), a essere organizzati all’interno di un <foreign>collegium</foreign>. I membri venivano selezionati per cooptazione, come descritto da <persName key="Cicerone">Cicerone</persName> nelle <ref type="lit">Philippicae, XIV, 12</ref>:<foreign> …mea nominatione coptabo</foreign> (“lo designerò in sede di votazione”). <persName key="Cicerone">Cicerone</persName>, in quanto augure nel 53 a.C. e membro dell'organo collegiale, si occupava in prima persona di designare e nominare gli <foreign>augures</foreign>. Inizialmente erano in numero di tre, poi di sei, fino a raggiungere i nove membri con la <foreign>lex Ogulnia</foreign> del 300 a.C.; il <foreign>collegium</foreign> si apriva ai plebei, come testimoniato da <persName type="lit" key="Tito Livio">Tito Livio</persName> in <ref type="lit">Ab Urbe condita, X, 6, 6</ref>: <foreign>quinque augures, de plebe omnes, adlegerentur</foreign> (“cinque àuguri, tutti eletti all’interno della plebe, erano aggiunti”). Il <foreign>collegium</foreign> degli àuguri arriva poi a contare quindici membri sotto <persName key="Silla">Silla</persName>, e persino sedici con <persName key="Cesare">Cesare</persName>.</p> 
+                    <p>Sul ruolo degli <foreign>augures</foreign> è opportuno leggere:</p>
+                    <p><ref type="lit">Cicerone, De Legibus, II, 20</ref>:</p>
+                    <quote>Interpretes autem Iovis optimi maximi, publici augures, signis et auspiciis operam danto […].</quote>
+                    <quote>“Inoltre gli interpreti di Giove Ottimo Massimo, i pubblici àuguri, prevedano dai presagi e dagli auspici” (Trad. it. L. Ferrero, N. Zorzetti).</quote>
+                    <p><ref type="lit">Cicerone, Philippicae, XIII, 12</ref>: </p>
+                    <quote><foreign>[…]  augurem Iuppiter Optimus Maximus, cuius interpretes internuntiique constituti sumus […]</foreign></quote>
+                    <quote>“[…] Giove Ottimo Massimo, del cui volere noi auguri siamo interpreti e messaggeri […]” (Trad. it. B. Mosca).</quote>
+                    <p><foreign>Interpretes internuntiique</foreign>: gli àuguri, membri del consiglio sacerdotale incaricato di supervisionare e amministrare il sistema dell’augurato, erano descritti da <persName key="Cicerone">Cicerone</persName> come “intermediari” (<foreign>interpretes</foreign>) e “messaggeri” (<foreign>internuntii</foreign>) di <persName type="divine" key="Giove">Giove</persName>, qualifiche che continueranno a essere associate a queste figure, svolgendo un ruolo chiave anche negli studi successivi.</p>
+                    <p><ref type="lit">Cicerone, Philippicae, II, 81</ref>:</p>
+                    <quote><foreign>Nos enim nuntiationem solum habemus, consules et reliqui magistratus etiam spectionem.</foreign></quote>
+                    <quote>“Noi àuguri abbiamo solo il diritto dell’«annunzio» degli auspici, i consoli invece e gli altri magistrati hanno anche quello della <rs key="practice">«osservazione» degli auspici</rs> stessi” (Trad. it. B. Mosca).</quote>
+                    <p>Agli àuguri spettava l’interpretazione degli <foreign>auguria</foreign>, ossia dei “presagi” che gli dei inviavano per mezzo di alcuni <foreign> signa</foreign>, e l’annuncio del loro significato (<foreign>nuntiatio</foreign>), ma non potevano prendere parte alle decisioni in merito a ulteriori possibilità di azione. Questa era infatti competenza dei magistrati, che erano in possesso di <foreign>auspicium imperiumque</foreign>. La legge augurale costituiva allora il fondamento del potere dei magistrati, che veniva confermato direttamente da <persName type="divine" key="Giove">Giove</persName>. </p>
+                    <p>Il ruolo politico degli auguri è descritto in maniera efficace da <persName key="Cicerone">Cicerone</persName> nel <ref type="lit">De Legibus, II, 31</ref>:</p>
+                    <quote><foreign>Maximum autem et praestantissimum in re publica ius est augurum cum auctoritate coniunctum […] Quid gravius quam rem susceptam dirimi, si unus augur ‘alio &lt; die&gt; ’ dixerit? […].</foreign></quote>
+                    <quote>“Grandissimi ed importantissimi sono infatti nello stato il diritto e l’autorità degli auguri […] Che cosa di più grave dell’interrompere un affare incominciato se un augure dice «ad altro giorno»? […]” (Trad. it. L. Ferrero, N. Zorzetti).</quote>
+                    <p>L’interpretazione di <foreign>auguria</foreign> e <foreign>auspicia</foreign> impattava infatti su molti aspetti della vita pubblica a <placeName key="Roma">Roma</placeName>, dall’elezione dei magistrati alla convocazione di un’assemblea, dall’attraversamento del <foreign>pomerium</foreign> alla possibile decisione di combattere con il nemico. Alberto Dalla Rosa, che ha indagato i fondamenti religiosi del potere magistratuale, rimarca che “la legge augurale era il fondamento costituzionale del potere dei magistrati, che veniva direttamente confermato da <persName type="divine" key="Giove">Giove</persName>”. Il magistrato, nel giorno della sua entrata in carica, doveva procedere all’auspicazione sul Campidoglio; si sanciva in questo modo l’inizio della magistratura. La procedura era possibile solo se si era in possesso dell’<foreign>auspicium</foreign>, ossia la “capacità di indagare gli dei in nome dell’intera comunità” e quindi “in definitiva era il dio a creare il magistrato”. Fino a questo punto la sfera politica e quella religiosa erano profondamente intrecciate: ogni atto di rilevanza pubblica si apriva con la presa degli auspici.</p>
+                </div>
+            </div>
+            
+            <div type="edition" xml:lang="it">
+                <div type="textpart" n="Epoca Imperiale">
+                    <head>Epoca Imperiale</head>
+                    <p>La <foreign>disciplina auguralis</foreign> aveva maggiori pretese di legittimità politica, un fenomeno ben documentato nel periodo imperiale.</p>
+                    <p><ref type="lit">Seneca, Naturales quaestiones, II, 32, 6</ref>:</p>
+                    <quote><foreign>Auspicium observantis est; ad eum itaque pertinet qui in ea direxit animum.</foreign></quote>
+                    <quote>“L’auspicio concerne l’osservatore: dipende pertanto da colui che vi ha prestato attenzione; d’altra parte hanno una loro efficacia anche quelli che non vengono colti” (Trad. it. D. Vottero).</quote>
+                    <p>La nozione di <foreign>auspicium observantis est</foreign> è rilevante per <persName key="Seneca">Seneca</persName> in questa circostanza: alcuni eventi naturali sono accettati come <foreign>signa</foreign>, a scapito di altri, in conformità con la capacità dell’individuo di comprenderne il valore.</p>
+                    <p>Una dichiarazione simile è stata ritrovata anche in:</p>
+                    <p><ref type="lit">Agostino, De Doctrina Christiana, II, 24, 37</ref>:</p>
+                    <quote><foreign>[…] illa signa, quibus perniciosa daemonum societas comparatur, pro cuiusque observationibus valent. Quod manifestissime ostendit ritus augurum, qui et antequam observent et posteaquam observata signa tenuerint, id agunt ne videant volatus aut audiant voces avium, quia nulla ista signa sunt, nisi consensus observantis accedat.</foreign></quote>
+                    <quote>“Così è di quei <rs key="sign">segni</rs> con cui ci si procura la sciagurata connivenza con i demoni: essi valgono secondo le attribuzioni date da ciascuno. Questo appare nella maniera più lampante nel rito degli àuguri, i quali, e prima di osservare i segni e quando posseggono i segni osservati, si danno da fare per non vedere il volo degli uccelli e non udire la loro voce. In effetti, questi segni sono nulli, se non vi si aggiunge il giudizio consenziente di chi li ha osservati” (Trad. it. V. Tarulli).</quote>
+                    <p>Il testo di <persName key="Agostino">Agostino</persName> viene estrapolato invece dal secondo libro del <title>De Doctrina Christiana</title> dedicato alla trattazione dei <foreign>signa</foreign> e della loro convenzionalità. Risulta interessante notare la specifica di <persName key="Agostino">Agostino</persName> di un “prima e dopo” in relazione all’atto di ricevere segni; questo indicherebbe che bisognasse definire le occasioni in cui si stava formalmente “<rs key="practice">osservando</rs>”. Gli àuguri romani avevano quindi riconosciuto l’<rs key="practice">osservazione </rs>come una pratica cognitiva speciale, determinante nel definire cosa contasse o meno come <foreign>signum</foreign>. Inoltre la lettura di <persName key="Agostino">Agostino</persName>, in cui si menziona la necessità in alcune circostanze di evitare o prevenire la percezione dei <rs key="signum">segni</rs>, suggerisce che gli individui si sentissero obbligati ad agire in relazione ai <foreign>signa</foreign> ricevuti.</p>
+                    <p>Le varie forme di <rs key="practice">divinazione</rs> pubblica a <placeName key="Roma">Roma</placeName> erano in stretta connessione con l’autorità magistratuale, senatoriale o imperiale ed erano state utilizzate a supporto di pretese di legittimità politica, soprattutto nel periodo imperiale. Queste dichiarazioni erano infatti incentrate sulla possibilità di manipolazione del <rs key="practice">rito</rs> degli <foreign>augures</foreign> e si è individuata in queste una maggiore attenzione all’elemento umano, con il conseguente spostamento del fulcro sui possibili scopi politici. Anche in questa fase tuttavia i signa<foreign></foreign> avevano ancora, presso i magistrati, grande rilevanza. L’augurato e gli <foreign>augures</foreign> continuavano a dominare la sfera religiosa e istituzionale, seppure la circolazione dei prodigi potesse apparire più controllata dal <foreign>princeps</foreign>; i risultati divinatori erano sottoposti alla sua supervisione ma richiedevano in ogni caso il coinvolgimento del Senato e il contributo dei collegi sacerdotali. Gli <foreign>augures</foreign> e la <foreign>disiplina auguralis</foreign> hanno quindi animato la vita pubblica a <placeName key="Roma">Roma</placeName> sin dagli inizi e hanno continuato a farlo, seppure in maniera diversa, anche nell’epoca imperiale. </p>      
+                 </div>
+            </div>
+<div type="bibliography">
+    <head>Bibliografia</head>
+                <p>Dalla Rosa, <title>DUCTU AUSPICIOQUE: Per una riflessione sui fondamenti religiosi del potere magistratuale fino all'epoca augustea</title>, «Studi Classici e Orientali», 49 (2003).</p>
+                <p>De Vaan, <title>Etymological Dictionary of Latin and the other Italic Languages</title>, Leiden-Boston, 2008.</p>
+                <p>Driediger-Murphy – Eidinow, <title>Introduction, «Ancient Divination and Experience»</title>, a cura di L.G. Driediger-Murphy ed E. Eidinow, Oxford 2019.</p>
+                <p>Ernout-Meillet, <title>Dictionnaire étimologique de la langue latine, histoire des mots</title>, Parigi 2001.</p>
+                <p>Lenzi-Stökl, I<title>ntroduction, «Divination, Politics &amp; Near Eastern Empires»</title>, a cura di A. Lenzi e J. Stökl, Atlanta 2014.</p>
+                <p>Linderski, <title>Cicero and Roman Divination</title>, «La Parola del Passato», 202 (1982).</p>
+                <p>Linderski, <title>The Libri Reconditi, «Harvard Studies in Classical Philology»</title>, 89 (1985).</p>
+                <p>Linderski, <title>The Augural Law, «Aufstieg und Niedergang der römischen Welt»</title>, II, 16, 3, Berlin 1986. </p>
+                <p>Lindesrki, <title>Roman Questions: Selected Paper</title>, Stuttgart 1995.</p>
+                <p>Linderski, <title>Roman Questions II: Selected Papers</title>, Stuttgart 2007. </p>
+                <p>North, <title>Religion and Politics, from Republic to Principate</title>, «The Journal of Roman Studies», 76 (1986).</p>
+                <p>Rüpke, <title>Pantheon: una nuova stagione della religione romana</title>, Torino 2018. (ed. orig. J. Rüpke, <title>Pantheon</title>, München 2016). </p>
+                <p>Santangelo, <title>Divination, Predication and the End of the Roman Republic</title>, Cambridge 2013.</p> 
+                <p>Santangelo, <title>Priestly auctoritas in the Roman Republic</title>, «The Classical Quarterly», 63 (2013). </p> 
+                <p>Santangelo, <title>Prodigies in the Early Principate?, «Ancient Divination and Experience»</title>, a cura di L.G. Driediger-Murphy ed E. Eidinow, Oxford 2019. </p>
+                <p>Scheid, <title>An introduction to Roman religion</title>, Indiana 1985. Traduzione italiana <title>Rito e religione dei Romani</title>, a cura di G. Arrigoni, Sessante 2009. </p>   
+              
+            </div>
+        </body>
+    </text>
+</TEI>

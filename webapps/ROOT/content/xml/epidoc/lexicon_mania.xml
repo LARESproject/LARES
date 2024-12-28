@@ -4,9 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="it">μανία</title>
-                <title xml:lang="en">μανία</title>
-                <title xml:lang="pl">μανία</title>
+                <title xml:lang="grc">μανία</title>
             </titleStmt>
             <publicationStmt>
                 <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
@@ -51,7 +49,7 @@
                         
                        <quote> <persName type="attested" key="Plato">Pl</persName>. <title>Phdr</title>. 265b 
                         Τῆς δὲ θείας τεττάρων θεῶν τέτταρα μέρη διελόμενοι, μαντικὴν μὲν ἐπίπνοιαν <persName type="divine" key="Apollo">Ἀπόλλωνος</persName> θέντες, <persName type="divine" key="Dionysus">Διονύσου</persName> δὲ τελεστικήν, <persName type="divine" key="Muse">Μουσῶν</persName> δ’ αὖ ποιητικήν, τετάρτην δὲ <persName type="divine" key="Aphrodite">Ἀφροδίτης</persName> καὶ <persName type="divine" key="Eros">Ἔρωτος</persName>, ἐρωτικὴν μανίαν ἐφήσαμέν τε ἀρίστην εἶναι.</quote>
-                        <quote>And we made four divisions of the divine madness, ascribing them to four gods, saying that prophecy was inspired by <persName  type="divine" key="Apollo">Apollo</persName>, the mystic madness by <persName  type="divine" key="Dionysus">Dionysus</persName>, the poetic by the <persName type="divine" key="Muse">Muses</persName>, and the madness of love, inspired by <persName  type="divine" key="Aphrodite">Aphrodite</persName> and <persName type="divine" key="Eros">Eros</persName>, we said was the best. (transl. H. N. Fowler)</quote>.</p>  
+                        <quote>And we made four divisions of the divine madness, ascribing them to four gods, saying that prophecy was inspired by <persName  type="divine" key="Apollo">Apollo</persName>, the mystic madness by <persName  type="divine" key="Dionysus">Dionysus</persName>, the poetic by the <persName type="divine" key="Muse">Muses</persName>, and the madness of love, inspired by <persName  type="divine" key="Aphrodite">Aphrodite</persName> and <persName type="divine" key="Eros">Eros</persName>, we said was the best. (transl. H. N. Fowler).</quote></p>  
                         
                     <p>Throughout these meanings, we find associated significances in religious contexts, especially in <ref corresp="lexikon_telestike.xml">telestic</ref> <foreign>μανία</foreign>. The following sections will focus on <ref corresp="lexikon_telestike.xml">telestic</ref>, erotic, and prophetic <foreign>μανία</foreign>.</p>
                     

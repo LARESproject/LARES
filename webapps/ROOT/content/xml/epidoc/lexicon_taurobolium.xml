@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">  
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title >Taurobolium</title>
+                <title xml:lang="la">Taurobolium</title>
             </titleStmt>
             <publicationStmt>
                 <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
@@ -41,13 +41,13 @@
                 <div type="textpart" n="Testimonies">
                     <head>Testimonies</head>
                     <div type="textpart" n="origin in hellenistic asia_minor">
-                    <head>Origin in Hellenistic Asia Minor</head>
+                    <p><emph rend="italics">Origin in Hellenistic Asia Minor</emph></p>
                     <p>The first phase of taurobolium development history dates from ca. 135 B.C. to 159 A.D. Taurobolium certainly originated in <placeName key="Asia Minor">Asia Minor</placeName>. The early taurobolium is testified in eight inscriptions and one literary source (RUTTER 1968, 227). There are three  inscriptions in this phase valuable for the analysis of the original performance of taurobolium.</p>
                     <p>The first inscription comes from <placeName key="Ilion">Ilion</placeName> of the first century B.C. It documented a man called <persName type="attested" key="Agathes">Agathes</persName> who paid twice for the ταυροβόλιον involving more than forty bulls – once for the sake of the excellence of the festival Panathenaea and once for good service towards the goddess, who is presumed <persName type="divine" key="Athena">Athena</persName>. The second inscription comprises three fragments from <placeName key="Pergamon">Pergamon</placeName> and is dated in 105 A.D. Although it is hard to recognize what was documented in these fragments, from the different names of people and expenses in it, it can be assumed that this is a list of contributors to taurobolium. In addition, Pergamon's inscription records the killing of bulls by stoning (<ref type="ins">IGRR IV 494</ref> <foreign>ταυροβόλιον λιθαστέντων</foreign>). The last inscription from <placeName key="Pednelissos">Pednelissos</placeName> describes various structures for the performance of the ταυροβόλιον and the most convincing interpretation is that the ταυροβόλιον was some sort of bull chase.</p>
                     <p>As can see from the first phase of development, the ταυροβόλιον was not associated with any specific cult in Hellenistic times and early Imperial period and did not take the form of blood baptism. According to the available sources, ταυροβόλιον as bull chase was performed in a public context.</p>
                 </div>
                 <div type="textpart" n="development in the western part of the imperium romanum">
-                    <head>Development in the western part of the Imperium Romanum</head>
+                    <p><emph rend="italics">Development in the western part of the Imperium Romanum</emph></p>
                     <p> In the 2nd century A.D., with migration, some cultural, social and religious activities from <placeName key="Asia Minor">Asia Minor</placeName> gradually flowed into <placeName key="Italy">Italy</placeName>, which in turn spread in the western part of the <placeName key="Roman Empire">Roman Empire</placeName>, in areas such as <placeName key="Gallic">Gallic</placeName>, <placeName key="Spain">Spain</placeName> and <placeName key="Germany">Germany</placeName>. Taurobolium entered the Roman Empire as one of the rituals, and this was the second phase of its development (middle of the 2nd cent. A.D. - end of the 3rd cent. A.D.). As Rutter says (RUTTER 1968, 231), the taurobolium underwent some fundamental changes at this phase. But these changes did not happen suddenly either.</p>
                     <p>As evidence of the transition between the two phases, it is clear from a very short inscription in Latin found at <placeName key="Puteoli">Puteoli </placeName>, a city in the Italian region of <placeName key="Campania">Campania</placeName>, that the taurobolium which first entered the Roman world, was still in much the same form as it was in the <placeName key="Asia Minor">Asia Minor</placeName> period.</p>
                     <quote><ref type="ins"><ref corresp="https://kb.osu.edu/handle/1811/100947">CIL 10.1596</ref></ref> Inscription from Puteoli, 134 A.D.
@@ -68,7 +68,7 @@
                     <p>However, due to the influence of the Christian-pagan tensions at the end of the 4th. century., this may have been intended as a counterstatement to the fact that Christian authors such as <persName type="literary" key="Prudentius">Prudentius</persName> had a taurobolium's vilification, which will be discussed in the next part.</p>
                 </div>
                 <div type="textpart" n="taurobolium in late antiquity">
-                    <head>Taurobolium in Late Antiquity</head>
+                    <p><emph rend="italics">Taurobolium in Late Antiquity</emph></p>
                     <p>In the third stage of tauroboliums’ development in the late Antiquity, the taurobolium was hampered by the competition between Christianity and the <persName type="myth" key="Cybele">Cybele</persName> cult. It ceased to be a public ritual and became a completely private celebration. The following short inscription from <placeName key="Subura">Subura</placeName> (a vast and neighborhood in Rome) recorded the intention of the private taurobolium.</p>
                    <quote> <ref type="ins">CIL 6.510</ref> Inscription from Rome, Subura, 376 A.D.
                    <foreign>…taurobolio criobolioq(ue) in aeternum renatus aram sacravit…</foreign></quote>
@@ -128,13 +128,13 @@
                     <p>The taurobolium eventually disappeared as a result of the failure of the pagan revival in the West at the end of the 4th. century.</p>
               </div>
                 <div type="textpart" n="Catalogue of occurrences">
-                    <p>Inscriptions</p>
+                    <p><emph rend="italics">Inscriptions</emph></p>
                     <p>CIL 6.1778</p>
                     <p>CIL 6.510</p>
                     <p>CIL 10.1596</p>
                     <p>CIL 13.1751</p>
                     <p>Fragmenta Vaticana 148</p>
-                    <p>Literary source</p>
+                    <p><emph rend="italics">Literary source</emph></p>
                     <p>Prud. perist. 10,1011–1050</p>
                 </div>
               </div>

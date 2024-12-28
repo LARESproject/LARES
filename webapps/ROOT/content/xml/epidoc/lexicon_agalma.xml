@@ -4,9 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="it">ἄγαλμα</title>
-                <title xml:lang="en">ἄγαλμα</title>
-                <title xml:lang="pl">ἄγαλμα</title>
+                <title xml:lang="grc">ἄγαλμα</title>
             </titleStmt>
             <publicationStmt>
                 <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
@@ -29,87 +27,116 @@
     </teiHeader>
     <text>
         <body>
-            <div type="edition" xml:lang="en">
-                <div type="textpart" n="etymology">
+            <div type="edition" xml:lang="eng">
+                <div type="textpart" n="Etymology">
                     <head>Etymology</head>
                     <p><w lemma="ἄγαλμα">ἄγαλμα</w>, derivative from the <foreign>agallomai</foreign> ('to be proud of', 'to rejoice'). Etymology unclear, Cohen (1976, 100-1) lists 8 theories: (1) from <foreign>*mgalio</foreign>, a reconstructed variant of <foreign>megalo-</foreign> (‘big’, ‘great’), (Ahrens 1868, 256; Prellwitz 1892, 1); (2) From <foreign>agamai</foreign> ('I wonder', 'I admire', 'envy'), (Curtius 1879, 172; Szemerenyi 1964, 155-6; Boisacq 1916, 5); (3) from the intensifying prefix -aga ('very'), (Hofmann 1950, 1; Frisk 1960, 6; Chantraine 1968, 7); (4) from the unattested form <foreign>*agalos</foreign>, (Schwyzer (1939, 725; Chantraine 1968, 7; Beeks 2010, 7-8); (5) from the root gl- ('to shine'), related to Latin glōria ('glory', 'splendour'), gr. <foreign>aglaos</foreign> ('shining', 'glittering'), (Weber 1861, 49-50; Persson 1891, 146; Danielsson 1888: 35; Szemerenyi 1964, 155-56; cf. Chantraine 1968, 12; Brugmann 1875, 214-311); (6) from the prefix a- ('to', Latin 'ad') and gall- ('to call', Latin gallus ['rooster'], English 'call') as 'to call to', (Pisani 1928, 396; cf. Walde-Hofmann 1965, I, 843); (7) from <foreign>*gagallō</foreign>, as a reduplicated form of  PIE *gal- ('shine'), (Brugmann 1875, 214, 311); (8) from <foreign>aganos</foreign> ('mild', 'gentle') by an alteration of l-n, (Frisk 1960, 1). Cohen (1976) suggests an additional (9): from Hebrew <foreign>‛âgôl</foreign> ('roundness'), from Heb. <foreign>'agil</foreign> ('earring').</p>
                 </div>
-                <div type="textpart" n="testimonies">
+       
+                <div type="textpart" n="Testimonies">
                     <head>Testymonies</head>
                     <p>The noun ἄγαλμα, occurs in six different meanings: (1) glory, honour, associated with the possession of agalma; (2) ornament, ornament; (3) votive gift; (4) statue; (5) image; and pejoratively (6) mere ornament. Agalma referents include: (I) jewellery; (II) ceramics; (III) sculpture; (IV) architectural elements; (V) elements of armour; (V) elements of dress; (VI) metaphorically people and animals.  In religious contexts, it usually appears as an object of ritual activity <ref corresp="lexicon_anatithemi.html"><rs key="practice"><w lemma="ἀνατίθημι">ἀνατίθημι</w></rs></ref>, attested especially in dedicatory inscriptions and associated artefacts, mainly statues.</p>
-                <p>1. Praise, honour, glory</p>
+                
+                    <p><hi rend="italic">1. Praise, honour, glory</hi></p>
+                
                 <p>In the <title>Iliad</title> (4.144 <ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0133%3Abook%3D4%3Acard%3D127"></ref>), agalma means glory (<ref corresp="lexicon_kudos.html"><rs key="belief"><w lemma="κύδος">κύδος</w></rs></ref>) for the rider (implicitly the king) and adornment (<ref corresp="lexicon_kosmos.html"><rs key="sign"><w lemma="κόσμος">κόσμος</w></rs></ref>) for his horse. A similar meaning of glory, honour or praise also appears in Greek tragedy: in <ref type="lit">Agamemnon</ref> (208 <ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0003%3Acard%3D205"></ref>) by <ref type="author">Aeschylus</ref>, Iphigenia is the praise of her father's house; also in <ref type="author">Euripides</ref> <ref type="lit">The Suppliants</ref>, the chorus compares one of the chieftains fallen at Thebes, to an agalma for his mother; in <ref type="lit">Antigone</ref> (704 <ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0185%3Acard%3D681"></ref>) by <ref type="author">Sophocles</ref>, Haymon asks his father rhetorically, is there a greater glory for the child, than the good reputation of the father, and for the father the good reputation of the child? Glory or praise in the form of an agalma can also be a hymn of the muses for the country (Pind. N. 3.13 <ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0161%3Abook%3DN.%3Apoem%3D3"></ref>); but also mindless muses for the multitude (Eur. Ele., 338 <ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0095%3Acard%3D300"></ref>). </p>
-                <p>2. Ornament, decoration</p>
+                
+                    <p><hi rend="italic">2. Ornament, decoration</hi></p>
+                
                     <p>In the <title>Iliad</title> (4.144 <ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0133%3Abook%3D4%3Acard%3D127"></ref>), agalma, is the cheek strap of a horse bridle, as an ornament (<ref corresp="lexicon_kosmos.html"><rs key="sign"><w lemma="κόσμος">κόσμος</w></rs></ref>) for the horse. The meaning of ornament, is also connoted by some examples from the <ref type="lit">Odyssey</ref>, where agalma denotes objects such as a necklace (Hom. Od. 18.300 <ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135%3Abook%3D18%3Acard%3D290"></ref>) or a buckle (Hom. Od. 19.257 <ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135%3Abook%3D19%3Acard%3D241"></ref>). These examples indicate the external qualities of objects their value, their craftsmanship. Ornaments can also be various pieces of clothing, especially those intended for the head: in <ref type="author">Alcman's</ref> <ref type="lit">Partheneion</ref> (35), the agalma is a Lydian <foreign>mitre</foreign> in which dark-eyed girls look great; likewise in <ref type="author">Pindar's</ref> <ref type="lit">Nemean Ode VIII</ref> (16 <ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0161%3Abook%3DN.%3Apoem%3D8"></ref>), the Lydian <foreign>mitre</foreign> is an agalma for Deinias as a reward for running two stadia; having slain <persName type="myth" key="Aegisthus">Αἴγισθος</persName>, the victor is also <persName type="myth" key="Orestes">Ὀρέστης</persName> in <ref type="author">Euripides'</ref> <ref type="lit">Electra</ref> (871, 873 <ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0095%3Acard%3D866"></ref>), whose head <persName type="myth" key="Electra">Ἠλέκτρα</persName> wishes to adorn with her agalmata; while in <ref type="author">Alcaeus of Mytilene</ref> (PLF 357. 8) it is the hoplite helmet, with the kite swinging at its tip, that is the ornament for men's heads.</p>
-                <p>3. Votive gift</p>
+ 
+                    <p><hi rend="italic">3. Votive gift</hi></p>
+                
                     <p>The meaning of agalma as a votive gift can be found as early as in the <title>Odyssey</title>, in the speech of <ref type="lit">Aigist</ref> , who, in order to propitiate the gods, 'πολλὰ δὲ μηρί᾽ ἔκηε θεῶν ἱεροῖς ἐπὶ βωμοῖς, πολλὰ δ᾽ ἀγάλματ᾽ ἀνῆψεν,' (Hom. Od. 3.273-274 <ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=urn:cts:greekLit:tlg0012.tlg002.perseus-grc1:3.273-3.274"></ref>); as well as in the speech of the garrison of <ref type="lit">Odysseus</ref> , who, in return for stealing the cows of <persName type="myth" key="Helios">Ἥλιος</persName>, promise to build a temple to the god and to deposit agalmata in it (Hom. Od. 12.343-347 <ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=urn:cts:greekLit:tlg0012.tlg002.perseus-grc1:12.343-347"></ref>). However, we do not find this meaning at all in lyric and tragedy; except for a few gifts of the funerary type (Aesch. Lib. 200 <ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=urn:cts:greekLit:tlg0085.tlg006.perseus-grc1:200"></ref>; Eur. Alc. 613 <ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=urn:cts:greekLit:tlg0006.tlg002.perseus-grc1:613"></ref>; Eur. Orest. 1434 <ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=urn:cts:greekLit:tlg0006.tlg016.perseus-grc1:1434"></ref>). In <ref type="author">Herodotus</ref>, the importance of statuary predominates but he also mentions, by way of exception, the agalmata in the form of tripods from the <rs key="buildings">Temple of Apollo Ismene in Beotian Thebes</rs> (Hd. 5.60-61 <ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=urn:cts:greekLit:tlg0016.tlg001.perseus-grc1:5.60"></ref>). Several agalmata representing votive gifts have survived to our time, and among these the best-preserved is a bronze ariballos from <rs key="place">Sparta</rs> dated to c. 600 BC (Musée du Louvre, BR 2918 <ref corresp="https://collections.louvre.fr/en/ark:/53355/cl010257962"></ref>), as well as bronze weights from Susa (Musée du Louvre; SB 2719 <ref corresp="https://collections.louvre.fr/en/ark:/53355/cl010176755"></ref>). Certain statues, such as the <ref corresp="lexicon_kore.html"><w lemma="κόρη">κόρη</w></ref> of Anatenor from the <rs key="place">Acropolis</rs> (Acropolis Museum, Inv. Ακρ. 681 <ref corresp="https://www.theacropolismuseum.gr/en/statue-kore-its-base-antenor-kore#:~:text=She%20is%20the%20largest%20Kore,Pit%22%20northwest%20of%20the%20Erechtheion."></ref>), may have served as votive gifts of statuary.</p>
-                <p>4. Statue</p>
+                
+                    <p><hi rend="italic">4. Statue</hi></p>
+                    
                     <p>The meaning of agalma as a statue, is not the earliest meaning of agalma, but it is the most common in both literary sources and epigraphy, and as such, stabilised around the fifth century BC, has survived to the present day in New Greek. The meaning is already evident in the Hymn to Dionysus I (HH 1.9 <ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=urn:cts:greekLit:tlg0013.tlg001.perseus-grc1:1"></ref>), and also in <ref type="author">Alcaeus</ref> of <rs key="place">Mytilene</rs>, where the agalma is the palladion at which <persName type="myth" key="Cassandra">Κασσάνδρα</persName> seeks refuge from the pursuing <persName type="myth" key="Ajax the lesser">Αἴας</persName> (ALC. S262). The importance of agalma as a statue is frequent in the Tragedy, both in <ref type="author">Aeschylus</ref> (Aesch. Seven 258 <ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=urn:cts:greekLit:tlg0085.tlg004.perseus-grc1:258"></ref>; Aesch. Supp. 176 <ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=urn:cts:greekLit:tlg0085.tlg001.perseus-grc1:176"></ref>; Aesch. Eum. 34 <ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=urn:cts:greekLit:tlg0085.tlg007.perseus-grc1:34"></ref>); <ref type="author">Sophocles</ref> (Soph. OT 1379 <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0011.tlg004.perseus-grc1:1379"></ref>); and <ref type="author">Euripides</ref> (Eur. Hipp. 116 <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0006.tlg005.perseus-grc1:116"></ref>; Eur. Andr. 115 <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0006.tlg006.perseus-grc1:115"></ref>; Eur. Rh. 502 <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0006.tlg019.perseus-grc1:502"></ref>). In Euripides, in whom the word occurs most frequently, it occurs in Iphigenia in Taurida as the central motif of the play (Eur. IT 87 <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0006.tlg013.perseus-grc1:87"></ref>; Eur. IT 1014 <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0011.tlg004.perseus-grc1:1379"></ref>; Eur. IT 1480 <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0006.tlg013.perseus-grc1:1480"></ref>). Most of the numerous examples from <ref type="author">Herodotus</ref> also refer to this meaning (Hdt. 1.69.15 <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0016.tlg001.perseus-grc1:1.69.4"></ref>; Hdt. 1.183.1 <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0016.tlg001.perseus-grc1:1.183.1"></ref>; Hdt. 3.37.3 <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0016.tlg001.perseus-grc1:3.37.3"></ref>); with sometimes the statues explicitly indicating the function of so-called cult images, as in the example from the agalm of <persName type="myth" key="Hera">Ἥρα</persName> of <rs key="place">Argos</rs>, before which the mother of <persName type="myth" key="Kleobis">Κλέοβις</persName> and <persName type="myth" key="Biton">Βίτων</persName> prayed to the Goddess (Hdt. 1.31.4 <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0016.tlg001.perseus-grc1:1.31.4"></ref>). Several agalmata in the form of statues have survived to our time, and among them the most famous are (mentioned above) the agalmata of Cheramyes of <rs key="place">Samos</rs> (Louvre MA 686 <ref corresp="https://collections.louvre.fr/en/ark:/53355/cl010279000"></ref>; Altes Museum SK 1750 <ref corresp="http://www.perseus.tufts.edu/hopper/artifact?name=Berlin%201750&amp;object=Sculpture"></ref>; Vathy Museum Κ/ΚΑ ΕΠΚΑ/84/50 <ref corresp="http://collections.culture.gr/ItemPage.aspx?ObjectID=3595&amp;LocationID=24&amp;MainKindID=3&amp;periodstring=40"></ref>) or the agalmata of Chares of <rs key="place">Didyma</rs> (British Museum 1859,1226. 5 <ref corresp="https://www.britishmuseum.org/collection/object/G_1859-1226-5"></ref>).</p>
-                    <p>5. Image</p>
+                
+                    <p><hi rend="italic">5. Image</hi></p>
+                    
                     <p>The abstract meaning of agalma as an image first appears in <ref type="author">Herodotus</ref>, where it states: <quote>"γράφουσί τε δὴ καὶ γλύφουσι οἱ ζωγράφοι καὶ οἱ ἀγαλματοποιοὶ τοῦ Πανὸς τὤγαλμα "</quote> (Hdt. 2.46.2 <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0016.tlg001.perseus-grc1:2.46.2"></ref>); while this is an exception to the end of V BC. LSJ gives the example of Eur. Hel. 705 <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0006.tlg014.perseus-grc1:705"></ref>, nevertheless this example means a phantom, a ghost (like <ref corresp="lexicon_eidolon.html"><w lemma="εἴδωλον">εἴδωλον</w></ref>) - agalma from the clouds, not an image itself. In IV BC agalma appears in the sense of a metaphysical image in <title>Timaeus</title>: <quote>"ὡς δὲ κινηθὲν αὐτὸ καὶ ζῶν ἐνόησεν τῶν ἀιδίων θεῶν γεγονὸς ἄγαλμα ὁ γεννήσας πατήρ, ἠγάσθη"</quote> (Pl. Tim. 37C <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0059.tlg031.perseus-grc1:37c"></ref>); we also find a similar meaning in Epinomis 983e. <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0059.tlg035.perseus-grc1:983e"></ref></p>
-                    <p>6. Pejorative meaning</p>
+                    
+                    <p><hi rend="italic">6. Pejorative meaning</hi></p>
+                    
                     <p>Among the exceptions is the pejorative meaning of agalma. Such is found only in <ref type="author">Euripides</ref>, where it refers to a 'worthless agalma' as an 'unattractive woman' (Eur. Hipp. 631 <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0006.tlg005.perseus-grc1:631"></ref>); and also in <persName type="myth" key="Electra">Ἠλέκτρα</persName>, where agalma is compared to 'empty bodies' as 'ornaments for the crowds' (Eur. El. 388 <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0006.tlg012.perseus-grc1:388"></ref>). It also appears in this sense in <ref type="author">Aristophanes</ref>, where it ironically means an 'empty sack' or metaphorically a 'pregnant belly' (Aristoph. Wasps 314 <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0019.tlg004.perseus-grc1:314"></ref>).
                     </p>
-  </div> 
-                <div type="textpart" n="catalogue_of_occurrences">
-                    <p> 1. Verb + ἀγάλμα   </p>
-                                    <p> τίθημι + ἀγάλμα = ‘to put, place, set’; Od. 12.257 <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0012.tlg002.perseus-grc1:12.257"></ref>; Eur. IT 1385 <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0006.tlg013.perseus-grc1:1364-1389"></ref></p>
+               
+  </div>
+                
+                <div type="textpart" n="Catalogue of occurrences">
+                
+                    <p><hi rend="italic">1. Verb + ἀγάλμα</hi></p>
+                
+                    <p> τίθημι + ἀγάλμα = ‘to put, place, set’; Od. 12.257 <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0012.tlg002.perseus-grc1:12.257"></ref>; Eur. IT 1385 <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0006.tlg013.perseus-grc1:1364-1389"></ref></p>
                     <p>ἐπιτίθημι + ἀγάλμα = ‘to lay, put or place upon’: Od. 19.257 <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0012.tlg002.perseus-grc1:19.257"></ref></p>
                         <p>τίθημι + ἀγάλμα = ‘put on’, ‘dedicate’: Hdt. 2.182.1 <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0016.tlg001.perseus-grc1:2.182.1"></ref>; DAA6 <ref corresp="https://inscriptions.packhum.org/text/234659"></ref></p> 
                     <p>ἀνάπτω + ἀγάλμα = ‘hang’; Od. 3.274 <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0012.tlg002.perseus-grc1:3.274"> </ref></p>
-                    <p> 2. Adj. + ἀγάλμα  </p>
+                       
+                    <p><hi rend="italic">2. Adj. + ἀγάλμα</hi></p>
+                
                     <p> πολύς — ‘many’: Od. 3.274; <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0012.tlg002.perseus-grc1:3.274"> </ref> Od. 12.347 <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0012.tlg002.perseus-grc1:12.347"></ref></p>
                     <p> περικαλλής — ‘very beauty’: Od. 18:300; <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0012.tlg002.perseus-grc1:18.290-18.300"> </ref> Hdt. 5.60-61; <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0016.tlg001.perseus-grc1:5.60"></ref> IG XII,6 2:558C; <ref corresp="https://inscriptions.packhum.org/text/344326"></ref></p>
                     <p> καλὸν — ‘beauty’: SEG 23:38 <ref corresp="https://inscriptions.packhum.org/text/291964"></ref>; IvO 252 <ref corresp="https://inscriptions.packhum.org/text/214057"></ref></p>
                     <p>χρυσός — ‘gold’: Od. 3.438 <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0012.tlg002.perseus-grc1:3.438"> </ref>; Hdt. 1.183.1 <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0016.tlg001.perseus-grc1:1.183.1"></ref></p>
-                    <p> 3. SubsGen + ἀγάλμα </p>
+                
+                    <p><hi rend="italic">3. SubsGen + ἀγάλμα</hi></p>
+                
                     <p> θεῶν: Od. 8.509 <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0012.tlg002.perseus-grc1:8.509"> </ref></p>
                     <p> ἀπόλλωνος: Hdt. 1.69.4 <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0016.tlg001.perseus-grc1:1.69.4"> </ref></p>
                     <p>Διὸς: Hdt. 1.183.1 <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0016.tlg001.perseus-grc1:1.183.1"> </ref>; 2.42.6 <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0016.tlg001.perseus-grc1:2.42.6"> </ref></p>
                     <p>ἑρμέω: Hdt. 2.51.1 <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0016.tlg001.perseus-grc1:2.51.1"> </ref></p>
-                    <p>4. SubsDat + ἀγάλμα   </p>
+                
+                    <p><hi rend="italic">4. SubsDat + ἀγάλμα</hi></p>
+                
                     <p> Ἠελίῳ: Od. 12.347; <ref corresp="http://data.perseus.org/citations/urn:cts:greekLit:tlg0012.tlg002.perseus-grc1:8.509"> </ref></p>
                     <p> Ἑρμῆι: DAA 295 <ref corresp="https://inscriptions.packhum.org/text/234950"> </ref> </p>
                     <p>Ἀθαναίαι: CEG 205 <ref corresp="https://inscriptions.packhum.org/text/234945"> </ref> ; DAA 64 <ref corresp="https://inscriptions.packhum.org/text/234717"> </ref>; IG I³ 552  <ref corresp="https://inscriptions.packhum.org/text/582"> </ref> </p>
                     <p> τἤρηι: IG XII,6 2:558B <ref corresp="https://inscriptions.packhum.org/text/344325"> </ref> ; </p>
+                
+                
                 </div>
-                <div type="textpart" n="discussion_interpretation">
+                
+                <div type="textpart" n="Discussion/Interpretation">
                     <head>Interpretation</head>
                     <p>The term agalma is characterised by polysemy and polyreference, around which various interpretations have developed, especially concerning the problem of describing the polysemy of the term in diachronic order. The description of the polysemy of agalma in the synchronic order has been detailed in numerous lexicographical studies (LSJ, CGL, Montanari). Etymological studies agree to derive agalma from the infinitive ‘agallomai’, nevertheless the etymology of the latter is unclear (Cohen 1976; Beeks 2010). H. Bloesch (1943) described the development of the meaning of agalma in a diachronic perspective, distinguishing 4 stages: 1) Early Archaism, covering the Homeric epics and the lyric, where agalma means jewellery; 2) The Middle Archaic stage, where agalma means votive gifts in various forms, such as statues, ceramics, reliefs, architectural elements; 3) The Late Archaic and Early Classical stage, where agalma means cultic images; 4) The Late Classical times and Early Hellenism, where agalma means statues in general. This interpretation has been criticised (Raubitschek 1948; Walter 1950; Philipp 1979, 103-108); in particular, the existence of agalma polysemy already in Homer has been emphasised (Lazzarini 1976, 96); and Bloesch's narrative has been problematised by citing examples that do not fit into its structure.</p>
                     <p> On the other hand, various synchronic interpretations of the term have been given: 1) Gernet (1948) defines agalma as a pre-monetary idea of value, having its roots in mythology; 2) Kereny (1962, 170) calls agalma the eternal source of an event involving deity and human; 3) Lacan (1991, 175) and Lanérès (2012, 162) call agalma a ‘trap for the gods’; 4) Day (2010, 88, 103) defines agalma as a general category of gift mediating the relationship between the dedicator and the god, signifying no specific things but their qualities; emphasising the connotative properties of the term; 5) Patera (2021, 71-72) in agreeing with Day's definition and the etymological one, defines agalma as a term that gives a quality to things regardless of their nature, arousing pleasure or honour. She rejects, Lacan's and Lanérès’ definition of agalma as a ‘piège à dieux’ and Lanérès’ (2012, 163) definition of agalma as a site of exchange between humans and gods.
                       </p>
                 </div>
-            
-            <div type="textpart" n="bibliography">
-                    <p><bibl>Beeks, Robert. <title>Etymological Dictionary of Greek.</title> Leiden, Boston: Brill, 2009.</bibl>
-                    <bibl>Bloesch, Hansjörg. <title>Agalma. Kleinod, Weihgeschenk, Götterbild.</title> Bern: Verlag B. Ag., 1943.</bibl> 
-                    <bibl>Brugmann, Friedrich K. <title>“Über die sogenannte gebrochene Reduplication in den indogermanischen Sprachen”,</title> Curtius Studien 7, (1875), 184-216; 273-368.</bibl>
-                    <bibl>Chantraine, Pierre. <title>Dictionnaire étymologique de la langue grecque.</title> Paris: Klincksieck, 1968.</bibl>
-                    <bibl>Cohen, Leonard. <title>“Etymology of Greek agalma, agallō, agallomai,”</title> in Henry Thompson and Kenneth Whistler (eds.), Proceedings of the 2nd Annual Meeting of the Berkeley Linguistics Society. Berkeley: University of California, 1976: 100-104.</bibl> 
-                    <bibl>Curtius, Georg. <title>Grundzüge der griechischen Etymologie.</title> Leipzig: Teubner, 1879.</bibl>
-                    <bibl>Day, Joseph. <title>Archaic Greek epigram and dedication : representation and reperformance.</title> Cambridge: CUP, 2010.</bibl>
-                    <bibl>Frisk, von Hjalmar. <title>Griechisches etymologisches Wörterbuch,</title> vol. 1. Heidelberg: Universitätsverlag Carl Winter, 1960.</bibl>
-                    <bibl>Gernet, Louis. <title>“La notion mythique de la valeur en Grèce”</title>, Journal de Psychologie, 41 (1948), 415-462 (reprint in: <title>Anthropologie de la Grèce antique</title>, 1968, 121- 179).</bibl> 
-                    <bibl>Hofmann, John-Baptist. <title>Etymologisches Wörterbuch der Griechischen Sprache.</title> Munich: Verlag Von R. Oldenbourg, 1949.</bibl> 
-                    <bibl>Karuzos, Chrēstos. <title>Perikalles agalma.</title> Athens: Ikaros Ekdotiki Etairia, 1946.</bibl>
-                    <bibl>Kerényi, Károly. <title>“Agalma, Eikon, Eidolon”</title> in Ο. M. Nobile (trans.), Archivio di Filosofia, 1-2, (1962), 161-171 (reprint in <title>Griechische grundbegriffe</title>, Zürich, 1965, 29-62).</bibl>
-                    <bibl>Lazzarini, Marie. <title>Le formule delle dediche votive.</title> Rome: Accademia nazionale dei Lincei, 1976.</bibl>
-                    <bibl>Lacan, Jacques. <title>“Le transfert, 1960-1961”</title>, in Jacques-Alain Miller (ed.), <title>Le séminaire de Jacques Lacan, Livre VIII</title>. Paris: Éditions du Seuil, 1991, (2001), s. 167-183.</bibl> 
-                    <bibl>Lanérès, Nicole. <title>“La notion d’agalma dans les inscriptions grecques,”</title> Mètis, 10 (2012): 137-173.</bibl> 
-                    <bibl>Montanari, Franco. <title>The Brill Dictionary.</title> Leiden, Boston: Brill, 2015</bibl> 
-                    <bibl>Persson, Peer. <title>Studien zur Lehre: von der Wurzelerweiterung und Wurzelvariation.</title> Uppsala: Akademiska boktryckeriet Edv. Berling, 1891.</bibl>
-                    <bibl>Patera, Ioanna. <title>“Ἀγαλμα: le terme et le concept,”</title> in Stéphan Dugast, Dominique Jaillard and Ivonne Manfrinis (eds.), <title>Ágalma. Approches comparées de la notion de figuration.</title> Grenoble: Jérôme Millon, 2021, 57-76.</bibl>  
-                    <bibl>Pisani, Vittore. <title>Miscellanea etymologica,</title> serie VI, vol. 4. Rendiconti della Reale Accademia Nazionale dei Lincei: 1928, 345-371.</bibl>
-                    <bibl>Philipp, Hanna. Tektonon Daidala. Der bildende Künstler und sein Werk im vorplatonischen Schrifttum. Berlin: Verlag Bruno Hessling, 1968.</bibl>
-                    <bibl>Prellwitz, Walther. <title>Etymologisches Wörterbuch der griechischen Sprache.</title> Göttingen: Vandenhoeck, 1905.</bibl>
-                    <bibl>Raubitschek, Anthony. <title>“Review of ‘Agalma’ by H. Bloesch,”</title> American Journal of Archaeolog, 1960, 50/1, 196-197.</bibl>
-                    <bibl>Scheer, S. Tanja. <title>Die Gottheit und ihr Bild.</title> Munich: Verlag C. H. Beck, 2000.</bibl>
-                    <bibl>Schwyzer, Eduard. <title>Griechische Grammatik,</title> vol. 1. München: Beck: 1939.</bibl>
-                    <bibl>Szemerenyi, Oswald. <title>Syncope in Greek and Indo-European and the nature of Indo-European accent.</title> Naples: Istituto universitario orientale, 1964.</bibl>
-                    <bibl>Walter, Otto. <title>“Review of ‘Agalma’ by H. Bloesch,”</title> Anzeiger für die Altertumswissenschaft, 1950, nr 3, s. 149.</bibl>
-                    <bibl>Walde, Alois and John-Baptis Hofmann. <title>Lateinisches etymologisches Wörterbuch,</title> vol. 1, (4th ed.). Heidelberg: C. Winter, 1965.</bibl> 
-                    <bibl>Weber, Hugo. <title>Etymologische Untersuchungen.</title> Halle: Waisenhauses, 1861.</bibl>  </p>
+                
+                
             </div>
+            
+            <div type="textpart" n="Bibliography">
+                <head>Bibliography</head>
+                    <p>Beeks, Robert. Etymological Dictionary of Greek. Leiden, Boston: Brill, 2009.</p>
+                    <p>Bloesch, Hansjörg. Agalma. Kleinod, Weihgeschenk, Götterbild. Bern: Verlag B. Ag., 1943.</p> 
+                    <p>Brugmann, Friedrich K. “Über die sogenannte gebrochene Reduplication in den indogermanischen Sprachen”, Curtius Studien 7, (1875), 184-216; 273-368.</p>
+                    <p>Chantraine, Pierre. Dictionnaire étymologique de la langue grecque. Paris: Klincksieck, 1968.</p>
+                    <p>Cohen, Leonard.“Etymology of Greek agalma, agallō, agallomai,” in Henry Thompson and Kenneth Whistler (eds.), Proceedings of the 2nd Annual Meeting of the Berkeley Linguistics Society. Berkeley: University of California, 1976: 100-104.</p> 
+                    <p>Curtius, Georg. Grundzüge der griechischen Etymologie. Leipzig: Teubner, 1879.</p>
+                    <p>Day, Joseph. Archaic Greek epigram and dedication : representation and reperformance. Cambridge: CUP, 2010.</p>
+                    <p>Frisk, von Hjalmar. Griechisches etymologisches Wörterbuch, vol. 1. Heidelberg: Universitätsverlag Carl Winter, 1960.</p>
+                    <p>Gernet, Louis. “La notion mythique de la valeur en Grèce”, Journal de Psychologie, 41 (1948), 415-462 (reprint in: Anthropologie de la Grèce antique, 1968, 121- 179).</p> 
+                    <p>Hofmann, John-Baptist. Etymologisches Wörterbuch der Griechischen Sprache. Munich: Verlag Von R. Oldenbourg, 1949.</p> 
+                    <p>Karuzos, Chrēstos. Perikalles agalma. Athens: Ikaros Ekdotiki Etairia, 1946.</p>
+                    <p>Kerényi, Károly. “Agalma, Eikon, Eidolon” in Ο. M. Nobile (trans.), Archivio di Filosofia, 1-2, (1962), 161-171 (reprint in <title>Griechische grundbegriffe</title>, Zürich, 1965, 29-62).</p>
+                    <p>Lazzarini, Marie. Le formule delle dediche votive. Rome: Accademia nazionale dei Lincei, 1976.</p>
+                    <p>Lacan, Jacques. “Le transfert, 1960-1961”, in Jacques-Alain Miller (ed.), Le séminaire de Jacques Lacan, Livre VIII. Paris: Éditions du Seuil, 1991, (2001), s. 167-183.</p> 
+                    <p>Lanérès, Nicole. “La notion d’agalma dans les inscriptions grecques,” Mètis, 10 (2012): 137-173.</p> 
+                    <p>Montanari, Franco. The Brill Dictionary. Leiden, Boston: Brill, 2015</p> 
+                    <p>Persson, Peer. Studien zur Lehre: von der Wurzelerweiterung und Wurzelvariation. Uppsala: Akademiska boktryckeriet Edv. Berling, 1891.</p>
+                    <p>Patera, Ioanna. “Ἀγαλμα: le terme et le concept,” in Stéphan Dugast, Dominique Jaillard and Ivonne Manfrinis (eds.), Ágalma. Approches comparées de la notion de figuration. Grenoble: Jérôme Millon, 2021, 57-76.</p>  
+                    <p>Pisani, Vittore. Miscellanea etymologica, serie VI, vol. 4. Rendiconti della Reale Accademia Nazionale dei Lincei: 1928, 345-371.</p>
+                    <p>Philipp, Hanna. Tektonon Daidala. Der bildende Künstler und sein Werk im vorplatonischen Schrifttum. Berlin: Verlag Bruno Hessling, 1968.</p>
+                    <p>Prellwitz, Walther. Etymologisches Wörterbuch der griechischen Sprache. Göttingen: Vandenhoeck, 1905.</p>
+                    <p>Raubitschek, Anthony. “Review of ‘Agalma’ by H. Bloesch,” American Journal of Archaeolog, 1960, 50/1, 196-197.</p>
+                    <p>Scheer, S. Tanja. Die Gottheit und ihr Bild. Munich: Verlag C. H. Beck, 2000.</p>
+                    <p>Schwyzer, Eduard. Griechische Grammatik, vol. 1. München: Beck: 1939.</p>
+                    <p>Szemerenyi, Oswald. Syncope in Greek and Indo-European and the nature of Indo-European accent. Naples: Istituto universitario orientale, 1964.</p>
+                    <p>Walter, Otto. “Review of ‘Agalma’ by H. Bloesch,” Anzeiger für die Altertumswissenschaft, 1950, nr 3, s. 149.</p>
+                    <p>Walde, Alois and John-Baptis Hofmann. Lateinisches etymologisches Wörterbuch, vol. 1, (4th ed.). Heidelberg: C. Winter, 1965.</p> 
+                    <p>Weber, Hugo. Etymologische Untersuchungen. Halle: Waisenhauses, 1861.</p>  
             </div>
         </body>
     </text>

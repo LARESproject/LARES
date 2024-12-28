@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">    
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="he">Emunah</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">lexicon_emunah</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital document.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-05-24" who="Sara Escudero Bados">encoded in XML</change>
+                <change when="2023-05-24" who="Silvia Ghedini">encoded in XML</change>
+                <change when="2023-05-24" who="Pedro Giménez de Aragón Sierra">written contents</change>
+                <change when="2023-05-24" who="Sara Escudero Bados">written contents</change>
+                <change when="2023-05-24" who="Silvia Ghedini">written contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="etymology">
+                    <head>Etymology</head>
+                    <p><foreign xml:lang="he">אֱמוּנָ֖ה</foreign>emunah: from Heb.<foreign xml:lang="he">אָמַן</foreign>
+                        aman and this from the root<foreign xml:lang="he">א-מ-ן</foreign>: to confirm, to bear. 
+                        Whence also<foreign xml:lang="he">אֱמוּנִים</foreign> emunim (trustworthy), <foreign xml:lang="he">אָמֵֽן</foreign> 
+                        amen (so be it) and <foreign xml:lang="he">אֱמֶ֔ת</foreign> emet (steadfastness, faithfulness, truth). 
+                        Cognates: Ancient Greek:<foreign xml:lang="grc">ἀμήν(amḗn)</foreign>, Latin: <foreign xml:lang="la">āmēn</foreign></p></div>                    
+                </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="testimonies">
+                    <head>Testimonies</head>
+                    <p>Alonso Schonkel's Hebrew dictionary distinguishes the following senses for the Hebrew word <foreign xml:lang="he">אֱמוּנָ֖ה</foreign>, emunah:</p>
+                    <p>As a human quality:</p>
+                    <p>"Faithfulness", loyalty to a person or charge. Marital in Hos 2.22, social in 2Chr 19.9, to God in Eccl 45.4.</p>
+                    <p>"Truthfulness", when referring to words, i.e. "speaking faithfully" (Jer 5.1; 7.28; 9.2; Ps 119.86; Pro 12.22).</p>
+                    <p>"Act well," when referring to conduct, i.e., "act faithfully" (Ps 37.3 and 119.30), sometimes referring to acting well in an economic sense (2Ki 12.16; 22.7; Pro 28.20).</p>
+                    <p>As God's predicate: "faithful", "loyal", "just", "righteous" (Deut 32.4; Is 25.1; Ps 89.2.3.25.34.50; Ps 96.13 and 40.11).</p>
+                    <p>In the physical sense: "steadfastness", i.e. "faithfulness in the hands", in the only case where it is found that they were to be held up until sunset (Ex 17.12).</p>
+                    <p>With preposition BE-Beemunah <foreign xml:lang="he">בֶּאֱמוּנָ֕ה</foreign></p>
+                    <p>As an adverbial form: "faithfully", "loyally", "sincerely" (2Ki 12.16; 22.7; Is 59.4; Ps 33.4).</p>
+                    <p>As adjective: "truthful" man (Pro 12.17), "faithful" friend (Eccl 6.1).</p>
+                    <p>As a causative phrase: "for trusting" God (Hab 2.4).</p></div>
+                </div>
+            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="catalogue">
+                    <head>CATALOGUE ON EMUNAH IN THE OLD TESTAMENT</head>
+                    <p>HEB: Hebrew text of the Leningrad Code of 1008-1009 A.D.</p>
+                    <p><ref corresp="https://www.obohu.cz/bible/index.php?styl=LXXA&amp;k=Z&amp;kap=37">LXX: Greek translation of the Seventy</ref></p>
+                    <p>LAT: Latin translation of the Vulgate, a work of St. Jerome circa 400 A.D., revised by Clement VIII in 1592.</p>
+                    <p>INT: literal English translation of Biblos Interlinear Bible slightly modifying the King James Bible of 1611 by a more literal translation of the Hebrew text.</p>
+                    <p>SEV:Spanish translation by Bibliaparalela.com slightly modifying the 1569 Bear Bible by Casiodoro de Reina..
+                <ref type="lit"><hi rend="italic">Exodus 17:12 </hi></ref></p>
+                <quote>HEB: וַַויְִ֥הייָָ֛דיו ֱאמוָּ֖נה ַעד־֥בֹּא ַה ָֽשּׁ ֶמשׁ</quote>
+                <p><foreign xml:lang="grc">LXX: καὶ ἐγένοντο αἱ χεῖρες Mωυσῆ ἐστηριγμένα ἕως δυσμῶν ἡλίου.</foreign></p>
+                <p><foreign xml:lang="la">LAT:Et factum est ut manus illius non lassarentur usque ad occasum solis</foreign></p>
+                    <p><foreign xml:lang="en">INT: And were his hands steady until the going down of the sun</foreign></p>
+                    <p><foreign xml:lang="es">SEV: Así (Moisés) hubo en sus manos firmeza hasta que se puso el sol</foreign></p>
+                <p><ref type="lit"><hi rend="italic">Deuteronomy 32:4 </hi></ref></p>
+                <quote>HEB: וְִִמְשָׁ֑פּטֵ֤אל ֱאמוּנָ֙הְוֵ֣איןָ֔עֶול</quote>
+                    <p><foreign xml:lang="grc">LXX: θεὸς πιστός, καὶ οὐκ ἔστιν ἀδικία.</foreign></p> 
+                    <p><foreign xml:lang="la">LAT: Deus fidelis, et absque ulla iniquitate</foreign></p> 
+                    <p><foreign xml:lang="en">INT: God of faithfulnes and without injustice</foreign></p> 
+                    <p><foreign xml:lang="es">SEV: Dios de la verdad, y sin ninguna iniquidad en él</foreign></p>
+                <p><ref type="lit"><hi rend="italic">Psalm 37:3</hi></ref></p>
+                <quote>HEB: ֶ֝֗אֶרץוְּרֵ֥עה ֱאמוָּנֽה׃</quote>
+                    <p><foreign xml:lang="grc">LXX: καὶ κατασκήνου τὴν γῆν, καὶ ποιμανθήσῃ ἐπὶ τῷ πλούτῳ αὐτῆς</foreign></p> 
+                    <p><foreign xml:lang="la">LAT: et inhabita terram, et pasceris in divitiis ejus</foreign></p> 
+                    <p><foreign xml:lang="en">INT: the land and cultivate faithfulnes</foreign></p> 
+                    <p><foreign xml:lang="es">SEV: vive en la tierra, y manten la verdad</foreign></p>
+                <p><ref type="lit"><hi rend="italic">Psalm 119:30</hi></ref></p> 
+                <quote>HEB: ֶדֶּֽרךְ־ֱאמוָּ֥נה ָבָ֑חְרִתּי ִמְשָׁפֶּ֥טיךָ ִשִׁוּֽיִתי׃</quote>
+                    <p><foreign xml:lang="grc">LXX: ὁδὸν ἀληθείας ᾑρετισάμην, τὰ κρίματά σου οὐκ ἐπελαθόμην</foreign></p> 
+                    <p><foreign xml:lang="la">LAT: Viam veritatis elegi; judicia tua non sum oblitus</foreign></p> 
+                    <p><foreign xml:lang="en">INT: way the faithful have chosen your ordinances</foreign></p> 
+                    <p><foreign xml:lang="es">SEV: Escogí el camino de la verdad; He puesto tus juicios delante de mí</foreign></p>
+                <p><ref type="lit"><hi rend="italic">Psalm 119:86</hi></ref></p> 
+                <quote>HEB: ָכּל־ ִמְצוֶֹ֥תיךָ ֱאמוָּ֑נה ֶ֖שֶׁקרְרָד֣פוּנִי</quote>
+                    <p><foreign xml:lang="grc">LXX: πᾶσαι αἱ ἐντολαί σου ἀλήθεια· ἀδίκως κατεδίωξάν με, βοήθησόν μοι </foreign></p>
+                    <p><foreign xml:lang="la">LAT: Omnia mandata tua veritas, inique persecuti sunt me, adjuva me</foreign></p> 
+                    <p><foreign xml:lang="en">INT: All your commandments are faithful. A lie have persecuted</foreign></p> 
+                    <p><foreign xml:lang="es">SEV: Todos tus mandamientos son [la misma] verdad; sin causa me persiguen; ayúdame</foreign></p>                
+                    <p><ref type="lit"><hi rend="italic">Proverbs 12:17</hi></ref></p>
+                <quote>HEB: יָ ִ֣פי ַח ֭ ֱאמוּנָה יַ ִ֣גּיד ֶ֑צ ֶדק </quote>
+                    <p><foreign xml:lang="grc">LXX: ἐπιδεικνυμένην πίστιν ἀπαγγέλλει δίκαιος</foreign></p> 
+                    <p><foreign xml:lang="la">LAT: Qui quod novit loquitur, index justitiæ est</foreign></p> 
+                    <p><foreign xml:lang="en">INT: (He that) speaks truth, shows forth righteousness</foreign></p> 
+                    <p><foreign xml:lang="es">SEV: El que habla verdad declara justicia</foreign></p>
+                <p><ref type="lit"><hi rend="italic">Proverbs 12:22</hi></ref></p> 
+                <quote>HEB: רְתּ ֹו ֲע ַ֣בת ֭יְה ָוה ִשׂ ְפ ֵתי־ ָ֑שׁ ֶקר ְוע ֹ ֵ֖שׂי ֱאמוּ ָ֣נה ְרצוֹנֽוֹ׃</quote>
+                    <p><foreign xml:lang="grc">LXX: βδέλυγμα κυρίῳ (יהוה) χείλη ψευδῆ, ὁ δὲ ποιῶν πίστεις δεκτὸς παρ᾽ αὐτῷ </foreign></p>
+                    <p><foreign xml:lang="la">LAT: Abominatio est Domino labia mendacia; qui autem fideliter agunt placent ei</foreign></p> 
+                    <p><foreign xml:lang="en">INT: Abomination to the Lord lips lying, but they who deal faithfully are his delight</foreign></p> 
+                    <p><foreign xml:lang="es">SEV: Los labios mentirosos son abominación al Señor, mas los obradores de la verdad su contentamiento</foreign></p>
+                <p><ref type="lit"><hi rend="italic">Isaiah 25:1</hi></ref></p> 
+                <quote>HEB: ִ֥כּי ָעִ֖שׂיָת ֶ֑פֶּלא ֵע֥צֹות ֵמָֽר֖חוֹק ֱא֥מוּנָה ֽאֶֹמן׃</quote>
+                    <p><foreign xml:lang="grc">LXX: ὅτι ἐποίησας θαυμαστὰ πράγματα, βουλὴν ἀρχαίαν ἀληθινήν γένοιτο</foreign></p> 
+                    <p><foreign xml:lang="la">LAT: quoniam fecisti mirabilia, cogitationes antiquas fideles. Amen</foreign></p> 
+                    <p><foreign xml:lang="en">INT: for thou hast done wonderful things, even counsels of old, in faithfulnes perfect</foreign></p> 
+                    <p><foreign xml:lang="es">SEV: porque has hecho maravillas, los consejos antiguos, la verdad firme</foreign></p>
+                <p><ref type="lit"><hi rend="italic">Jeremiah 5:1</hi></ref></p> 
+                <quote>HEB: וַּבְק֣שׁוּ ִבְרחֹובֹוֶ֔תיָה ִאם־ִתְּמְצ֣אוִּ֔אישׁ ִאם־ֵי֛שׁעֶֹ֥שׂה ִמְשָׁ֖פּט ְמַבֵ֣קּשׁ ֱאמוָּ֑נהְוֶאְסַ֖לחָלֽהּ׃</quote>
+                    <p><foreign xml:lang="grc">LXX: καὶ ζητήσατε ἐν ταῖς πλατείαις αὐτῆς, ἐὰν εὕρητε ἄνδρα, εἰ ἔστιν ποιῶν κρίμα καὶ ζητῶν πίστιν, καὶ ἵλεως ἔσομαι αὐτοῖς, λέγει κύριος</foreign></p> 
+                    <p><foreign xml:lang="la">LAT: et quærite in plateis ejus an inveniatis virum facientem judicium, et quærentem fidem: et propitius ero ei</foreign></p> 
+                    <p><foreign xml:lang="en"> INT: and seek in her open if you can find a man if there be any that executes judgment that seeks the truth, and I will pardon her</foreign></p> 
+                    <p><foreign xml:lang="es">SEV: y buscad en sus plazas, si halláis hombre, si hay alguno que haga juicio, que busque verdad; y yo perdonaré a la ciudad</foreign></p> 
+                            </div>
+
+            <div type="textpart" n="discussion">
+                <head>Discussion</head>
+                <p>The conceptual change did not occur with the translation from Hebrew into Greek in the <ref type="lit">Bible of the Seventy</ref>. 
+                    The translators of the LXX used in 31 passages the word <foreign xml:lang="grc">πίστις</foreign> or a derivative to translate emunah. 
+                    On fewer occasions they used aletheia,"truth". 
+                    They also translated on multiple occasions <foreign xml:lang="he">אֱמֶת</foreign>, emet, by <foreign xml:lang="grc">πίστις</foreign>. St. Jerome, when translating his <ref type="lit">Vulgate</ref> from the Hebrew and Greek, always corrected the translators of the LXX in the cases of  <foreign xml:lang="he">אֱמֶת</foreign>, emet, by using veritas, while on quite a few occasions when they used aletheia to translate emunah, he corrected them by resorting to <foreign xml:lang="la"><ref corresp="lexicon_fides">fides</ref></foreign>. 
+                    In short, the translators of the LXX did not distinguish between  <foreign xml:lang="he">אֱמוּנָה</foreign>, emunah, which was closer to <ref corresp="lexicon_pistis">pistis</ref> or <foreign xml:lang="la">fides</foreign>, and  <foreign xml:lang="he">אֱמֶת</foreign>, emot, which was closer to aletheia or veritas. This is a first cause of the conceptual shift, since the scribes of the Church of <placeName key="rome">Rome</placeName> who wrote the <ref type="lit">Letter to the Hebrews</ref> and <ref type="lit">Clement's Letter to the Corinthians</ref> were familiar with the wording of the <ref type="lit">Old Testament</ref> in Hebrew and Greek and were influenced by this conceptual confusion.</p>
+                <p>Now why did the author of the <ref type="lit">Letter to the Hebrews</ref> give <foreign xml:lang="grc">πίστις</foreign> this meaning instead of resorting to the Greek word for "belief", <foreign xml:lang="grc">δόξα</foreign>? In our opinion, because <foreign xml:lang="grc">δόξα</foreign> has a less dogmatic meaning, more akin to a simple opinion. Ancient religious thought admitted diversity of opinion when it came to questions such as the immortality of the soul (with Sadducees and Epicureans denying it, as opposed to Pharisees and Platonists, among others, affirming it; not that this meant that Sadducees and Epicureans did not believe in the existence of God or gods). Nor was the verb <foreign xml:lang="grc">νομίζω</foreign>, "to believe", useful, because it had reflexive overtones, such as "to consider" or "to think", which did not fit in well with the dogmatic thinking that was being tried to impose. On the other hand, <foreign xml:lang="grc">πίστις</foreign> could be used as the hif'il of the verb <foreign xml:lang="he">אָמַן</foreign>, aman, "to confirm", because it meant "to believe" but firmly, with total certainty, or in other words, not admitting other opinions. T
+                    his kind of dogmatic thinking was emerging at the same time in the Pharisaic or rabbinical synagogues and in the Christian churches. It is no coincidence that at the same time as the <ref type="lit">Letter to the Hebrews</ref> was being written, the Sanhedrin of <placeName key="Yamnia">Yamnia</placeName> promulgated the Birkat Ha Minim, or Benediction Against Heretics, ordered by <persName key="gamaliel">Gamaliel II</persName> and formulated by <persName key="Rabbi Samuel">Rabbi Samuel</persName>, by which Sadducees, Nazarenes and, in general, all heretics were excluded from the rabbinical synagogues. 
+                    The Christian concept of heresy emerged at the beginning of the 2nd century in the <ref type="lit">Letters</ref> of <persName key="Ignatius of Antioch">Ignatius of Antioch</persName> and was developed in the second half of that century by <persName key="Irenaeus of Lyon">Irenaeus of Lyon</persName>. The faith thus became a dogmatic way of thinking which did not admit diversity of opinion and which condemned the heretic or heterodox, at first, to excommunication (the herem of the rabbis, but not the biblical herem) and, later, acted violently against them.</p></div>    
+              
+ 
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <bibl>Chantraine, P. (1968-1980).<title>Dictionnaire étymologique de la langue grecque: histoire des mots</title>Paris: Klincksieck.</bibl>
+                <bibl>De Benedetti, P. (1976).  “La fede nel giudaismo”<title>La Rassegna Mensile di Israel</title>42/1-2, pp. 61-72.</bibl>
+                <bibl>Detienne, M. (1983).<title>Los maestros de la verdad en la Grecia arcaica</title>Madrid: Taurus.</bibl>
+                <bibl>Faraguna, M. (2012)."Pistis and apisiía: aspects of the Development of Social and Economic"<title>Mediterraneo Antico</title>15, pp. 355-374.</bibl>   
+                <bibl>Handelman, S. (1992).“Emunah: the Craft of Faith”<title>CrossCurrents</title>42/3, pp. 293-313.</bibl>
+                <bibl>Jepsen, A. (1988).<foreign xml:lang="he">"ٰ’āman, ’ĕmûnâ, ’āmēn, ’ĕmet"</foreign>in Botterweck G.J. and Ringgren, H. (eds.)<title>Grande lessico dell'Antico Testamento</title>Brescia: Paideia editrice, pp. 625-695.</bibl>
+                <bibl>Kellner, M. (1987).“Heresy and Nature of Faith in Medieval Jewish Philosophy”<title>The Jewish Quarterly Review</title>77/4, pp. 299-318.</bibl>
+                <bibl>Lemosse, M. (1990)"L’aspect primitive de la fides"<title>Etudes romanistiques</title>26, pp. 61-72.</bibl>
+                <bibl>Levy, C. (2014). "Colloque  Pistis et fides.Le De Officiis Cicéronien: Une Refondtion Philosophique de la Fides?"<title>Istituto Lombardo (Rend. Lettere)</title>148, pp. 59-76.</bibl>
+                <bibl>Liddell, H. G., R. Scott y H. S. Jones (1968).<title>A Greek-English Lexicon</title> Oxford: Clarendon Press.</bibl>
+                <bibl>Momigliano, A. (1987). "Religion in Athens, Rome and Jerusalem in the First Century B.C.<title>Annali della scuolla normale superiore di Pisa</title>14(3), pp. 873-892.</bibl>
+                <bibl>Mok Lee, S. (2019)."Christ’s Πίστις vs. Caesar’s Fides: Πίστις Χριστοῦ in Galatians and the Roman Imperial Cult"<title>The Expository Times</title>130, pp. 243-245.</bibl>
+                <bibl>Morgan, T. (2015).<title>Roman Faith and Christian Faith. Pistis and Fides in the Early Roman Empire and Early Churches</title>Oxford University Press.</bibl>
+                <bibl>Ramírez Vidal, G. (2018)."La pistis-fides como el objeto propio de la retórica."<title>Quadripartita Ratio: Revista de Retórica y Argumentación,</title>3(5), pp. 37-48.</bibl></div>
+            </div>
+        
+        </body>
+    </text>
+</TEI>
+

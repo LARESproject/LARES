@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="la">Furor</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES
+                    Project</ref></publisher>
+                <date when="2024"/>
+                <idno type="filename">lexicon_furor</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                        Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital document.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2024-09-10" who="Caterina_Borgatti">encoded in XML</change>
+                <change when="2024-06-16" who="Nicola_Iannucci">written contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="Morphology">
+                    <head>Morphology</head>
+                    <p/>
+                    <p><ref corresp="https://logeion.uchicago.edu/furor">Furor, -oris</ref> 1. Madness 2. Rage 3. Inspired frenzy</p>
+                       <p> Abstract male noun derived from fŭro + the Latin suffix -or.</p>
+                    <p/>
+                </div>
+                
+                <div type="textpart" n="Etymology">
+                    <head>Etymology</head>
+                    <p/>
+                    <p><foreign xml:lang="la">Furo</foreign>:  intransitive verb meaning to be mad, to rage.</p>
+                    <p>There are two possible reconstructive hypotheses.</p> 
+                   <p> 1)	A first hypothesis would derive the term from the Proto-Indo-European root <foreign>*bheur-</foreign>, indicating rapid movement. The same root gives rise to <foreign>bhuráti</foreign> (to move quickly) in Sanskrit and to <foreign xml:lang="grc">φύρω</foreign> (to mix, to mingle) in Ancient Greek. </p> 
+                    <p>2)	A second derivational hypothesis is that the original root is <foreign>*dhus-</foreign>. This root gives rise to <foreign xml:lang="grc">θυιάς</foreign> (one of the names that maenads can have) and <foreign xml:lang="grc">θυμός</foreign> (life force, but with a polyform meaning) in Greek.</p>
+                    <p>However, De Vaan has pointed out that the historical-phonetic law whereby <foreign>*i,*u</foreign> > e,o in front of <foreign>*-rV-</foreign> would prevent the root from ending in <foreign>*-us-</foreign> or <foreign>*-ur-</foreign>, ruling out both of the above-mentioned options. The etymology of the term therefore remains uncertain.</p> 
+                    
+                    <p/>
+                </div>
+                
+                <div type="textpart" n="Testimonies">
+                    <head>Testimonies</head>
+                    <p/>
+                    <p>The term <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> has a vast semantic scope. Speaking of meaning, the term is associated with the Greek word <rs type="Activities" subtype="Ritual_Practice"><ref corresp="lexicon_mania.xml"><foreign xml:lang="grc"><w lemma="μανία">μανία</w></foreign></ref></rs> and certain related terms, such as <foreign xml:lang="grc"><w lemma="μένος">μένος</w></foreign>. Analysing the religious pertinence of <foreign xml:lang="la"><w lemma="furor">furor</w></foreign>, it is useful to proceed by taking into account the Greek antecedent and their semantic correspondences.</p>
+                    <p> As in the Homeric epics, the term <foreign xml:lang="grc"><w lemma="μένος">μένος</w></foreign> repeatedly appears to indicate warlike fury, <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> in Latin is presented foremost as a sort of superhuman energy that seizes the warrior at the moment of combat. The <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> of the warrior, just as in archaic <placeName key="Greece">Greece</placeName>, is linked to the intervention of a deity. An emblematic case in this respect is what happens to <persName key="Turnus">Turnus</persName> in the <ref><title>Aeneid</title></ref>: 
+                    </p>
+                    <p><ref type="lit"><ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0055%3Abook%3D12%3Acard%3D650">Verg. Aen. 12. 676-680</ref></ref></p>
+                    <quote><foreign xml:lang="la"><lb/>iam iam fata, soror, superant, absiste morari;
+                        <lb/>quo deus et quo dura vocat Fortuna sequamur.
+                        <lb/>stat conferre manum Aeneae, stat, quidquid acerbi est,
+                        <lb/>morte pati, neque me indecorem, germana, videbis
+                        <lb/>amplius. hunc, oro, sine me furere ante furorem.
+                    </foreign></quote>
+                    <p/>
+                    <p>(Now, my sister, now Fate triumphs: cease to hinder; where God and cruel Fortune call, let us follow! I am resolved to meet Aeneas, resolved to bear in death all its bitterness; no longer, sister, will you behold me shamed. Let me first, I beg, give vent to this madness)(transl. H.R. Fairclough) </p>
+                    <p/>
+                    <p/>
+                    <p>In this case, <persName key="Turnus">Turnus</persName> asks to be allowed to give vent to his <foreign xml:lang="la"><w lemma="furor">furor</w></foreign>, which had previously been placed in his soul by a <rs type="Super-human_Agents" subtype="Divinities">Fury</rs>. It is interesting to see a second passage to note the similarities between Greek and Latin literature in the physical effects that <foreign xml:lang="la"><w lemma="furor">furor</w></foreign>/<foreign xml:lang="grc"><w lemma="μένος">μένος</w></foreign> produces in heroes:</p> 
+                    <p/>
+                    <p><ref type="lit"><ref corresp="https://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus%3Atext%3A1999.02.0055%3Abook%3D7%3Acard%3D445">Verg. Aen. 7. 456-462</ref>></ref></p>
+                        <quote><foreign xml:lang="la"><lb/>Sic effata facem iuveni coniecit et atro
+                            <lb/>lumine fumantis fixit sub pectore taedas.
+                            <lb/>olli somnum ingens rumpit pavor, ossaque et artus
+                            <lb/>perfundit toto proruptus corpore sudor.
+                            <lb/>arma amens fremit, arma toro tectisque requirit;
+                            <lb/>saevit amor ferri et scelerata insania belli,
+                            <lb/>ira super
+                        </foreign></quote>  
+                    <p/>
+                    <p>(So saying, she hurled at the youth a torch, and fixed in his breast the brand, smoking with lurid light. A monstrous terror broke his sleep, and the sweat, bursting from all his frame, drenched bone and limb. For arms he madly shrieks; arms he seeks in couch and chamber; lust of the sword rages in him, the accursed frenzy of war, and resentment crowning all)(transl. H.R. Fairclough)</p>
+                    <p/>
+                    <p/>
+
+                    <p>It is interesting to note that the symptomatology of <persName key="Turnus">Turnus</persName>' fury closely resembles examples from Homeric poetry (see e.g. <ref type="lit">Hom. Il. 15. 607-608</ref>) and Greek tragedy (see e.g. <ref type="lit">Eur. HF. 931-934</ref>). Moreover, it is relevant to highlight that <persName key="Turnus">Turnus</persName> became furious due to the intervention of <rs type="Super-human_Agents" subtype="Divinities"><persName type="divine" key="Allecto">Allecto</persName></rs>, the goddess who can etymologically and culturally be linked to the Greek <foreign xml:lang="grc"><w lemma="Λύσσα">Λύσσα</w></foreign>. The term <foreign xml:lang="grc"><w lemma="Λύσσα">Λύσσα</w></foreign> appeared firstly in <persName key="Homer">Homer</persName> as a synonym for <foreign xml:lang="grc"><w lemma="μένος">μένος</w></foreign> (see e.g. <ref type="lit">Hom. Il. 9. 237-239</ref>), and then it is personified into an actual deity in <persName key="Euripides">Euripides</persName>' <ref><title>Heracles</title></ref>, where she is responsible for <rs type="Super-human_Agents" subtype="Demi-divine_Figures"><persName type="divine" key="Heracles">Heracles</persName></rs>' homicidal madness (see <ref type="lit">Eur. HF. 833-837</ref>). In this sense, a close correlation is also demonstrated between the Latin terminological pair <foreign xml:lang="la"><rs type="Super-human_Agents" subtype="Divinities"><persName type="divine" key="Allecto">Allecto</persName></rs> - <w lemma="furor">furor</w></foreign> and the Greek terminological pair <rs type="Activities" subtype="Ritual_Practice"><foreign xml:lang="grc"><w lemma="Λύσσα">Λύσσα</w> - <ref corresp="lexicon_mania.xml"><w lemma="μανία">μανία</w></ref>/<w lemma="μένος">μένος</w></foreign></rs>. The main difference between <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> and <foreign xml:lang="grc"><w lemma="μένος">μένος</w></foreign>, however, lies in the different moral meanings in the two cultures: whereas in the Homeric context <foreign xml:lang="grc"><w lemma="μένος">μένος</w></foreign> was an enhancement of the hero's strength without any ethical connotation, in the Latin texts it always leads to disaster.  In this regard, the term <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> often appears in correlation with the terms wrath (<foreign xml:lang="la"><w lemma="ira">ira</w></foreign>) and violence (<foreign xml:lang="la"><w lemma="violentia">violentia</w></foreign>), giving it a profoundly negative connotation. In this sense, it is no coincidence that <persName key="Horace">Horace</persName> poses as alternative <foreign xml:lang="la"><w lemma="pax">pax</w></foreign> and <foreign xml:lang="la"><w lemma="furor">furor</w></foreign>, praising <persName key="Augustus">Augustus</persName> for having made the former triumph: </p>
+
+                    <p><ref type="lit"><ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0024%3Abook%3D4%3Apoem%3D15">Hor. Carm. 4. 15. 17-20</ref></ref></p>
+                    <quote><foreign xml:lang="la"><lb/>custode rerum Caesare non furor
+                        <lb/>civilis aut vis exiget otium,
+                        <lb/>non ira, quae procudit ensis
+                        <lb/>et miseras inimicat urbis.
+                    </foreign></quote>
+                    <p/>
+                    <p>(With Caesar in charge of affairs, peace will not be driven out by civic madness or violence, or by the anger that beats out swords and makes cities wretched by turning them against one another)(transl. N. Rudd)</p>
+                    <p/>
+                    <p/>
+                    
+                    <p>Moreover, <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> linked to violence and murder could also be perceived as explicitly impious, as demonstrated by the case leading to the murder of <persName key="Tiberius Gracchus">Ti. Gracchus</persName>, a <foreign xml:lang="la"><w lemma="sacrosanctus">sacrosanctus</w></foreign> tribune of the plebs. 
+                        In the narration of the episode, <persName key="Plutarch">Plutarch</persName> (<ref type="lit">Ti. Gracch. 21.3.</ref>) shows how the act was not simply a political matter but also a religious one: the murdered tribune is referred to as “inviolable and holy” (<foreign xml:lang="grc"><w lemma="ἄσυλος">ἄσυλος</w> καὶ <w lemma="ἱερός">ἱερός</w></foreign>), while the murderer is referred to as “accursed” (<foreign xml:lang="grc"><w lemma="ἐναγής">ἐναγής</w></foreign>). In the late republic then, when killing inconvenient political enemies became the norm, <persName key="Cicero">Cicero</persName> adopted a double ideological strategy. 
+                        On the one hand, <persName key="Cicero">Cicero</persName> tried to untie the idea of political murder from the religious sphere. However, on the other hand, he tied his political enemies to the idea of impious <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> to put them in a bad light. This is particularly clear about <persName key="Catiline">Catiline</persName>: even if <persName key="Cicero">Cicero</persName> is the one who sets out to kill the tribune <persName key="Catiline">Catiline</persName>, it is <persName key="Catiline">Catiline</persName> who is repeatedly associated with the idea of <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> in the Catilinarians. This is particularly clear from the very incipit of the work: 
+                    </p>
+                    
+                    <p><ref type="lit"><ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0010:text=Catil.">Cic. Cat. 1. 1</ref></ref></p>
+                    <quote><foreign xml:lang="la">Quo usque tandem abutere, Catilina, patientia nostra? Quam diu etiam furor iste tuus nos eludet? Quem ad finem sese effrenata iactabit audacia? </foreign></quote>
+                    <p/>
+                    <p>(In heaven’s name, Catiline, how long will you take advantage of our forebearance? How much longer yet will that madness of yours make playthings of us? When will your unbridled effrontery stop vaunting itself?) (transl. C. MacDonald) </p>
+                    <p/>
+                    <p/>
+                    
+                    <p><persName key="Cicero">Cicero</persName> in this context takes the idea of <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> as an anti-religious – and anti-Roman – sentiment and uses it rhetorically against his political opponent. 
+                        The idea of <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> can thus be shifted as required, but it always identifies someone or something that must be negatively connoted on different levels. 
+                        Moving on in the analysis, a further meaning that the term <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> can have in the religious field is that of prophetic <rs type="Activities" subtype="Ritual_practice">possession</rs>. Exactly like the Greek word <rs type="Activities" subtype="Ritual_Practice"><ref corresp="lexicon_mania.xml"><foreign xml:lang="grc"><w lemma="μανία">μανία</w></foreign></ref></rs>, <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> identifies the state of <rs type="Activities" subtype="Ritual_practice">possession</rs> in which a <rs type="Human_Agents" subtype="cult_personnel">prophetess</rs> falls while foretelling. In this regard, <persName key="Cicero">Cicero</persName> gives an accurate description of how <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> worked in the prophetic sphere: 
+                    </p>
+                    
+                    <p><ref type="lit"><ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2007.01.0034%3Abook%3D1%3Asection%3D4">Cic. Div. 1. 4</ref></ref></p>
+                    <quote><foreign xml:lang="la">Et cum duobus modis animi sine ratione et scientia motu ipsi suo soluto et libero incitarentur, uno furente, altero somniante, furoris divinationem Sibyllinis maxime versibus contineri arbitrati eorum decem interpretes delectos e civitate esse voluerunt. Ex quo genere saepe hariolorum etiam et vatum furibundas praedictiones, ut Octaviano bello Cornelii Culleoli, audiendas putaverunt. </foreign></quote>
+                    <p/>
+                    <p>(And since they thought that the human mind, when in an irrational and unconscious state, and moving by its own free and untrammelled impulse, was inspired in two ways, the one by frenzy and the other by dreams, and since they believed that the divination of frenzy was contained chiefly in the Sibylline verses, they decreed that ten three men should be chosen from the State to interpret those verses. In this same category also were the frenzied prophecies of soothsayers and seers, which our ancestors frequently thought worthy of belief—like the prophecies of Cornelius Culleolus, during the Octavian War) (transl. W.A. Falconer)</p>
+                    <p/>
+                    <p/>
+                    
+                    <p>In this passage, <persName key="Cicero">Cicero</persName> explains clearly how <rs type="Activities" subtype="Ritual_Practice">prophecies</rs> can only be generated in an unconscious individual. Therefore, this person must be in a state either of sleep or in the grip of <foreign xml:lang="la"><w lemma="furor">furor</w></foreign>.
+                        <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> is thus that condition in which the <rs type="Human_Agents" subtype="cult_personnel">prophetess</rs> finds herself when she is <rs type="Activities" subtype="Ritual_Practice">possessed</rs> by a deity. The deity in question uses the <rs type= "Human_Agents" subtype="cult_personnel">prophetess</rs> as an empty <rs type="Activities" subtype="Objects">vessel</rs> to speak through her.
+                        A more vivid description of this state can be found in poetry. A good example can be found in the description of <rs type="Super-human_Agents" subtype="Divinities"><persName type="divine" key="Apollo">Apollo</persName></rs>'s <rs type="Activities" subtype="Ritual_Practice">possession</rs> of the <rs type="Human_Agents" subtype="Cult_Personnel">Sibyl</rs>, in the <ref><title>Aeneid</title></ref>:
+                    </p>
+                    
+                    <p><ref type="lit"><ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=urn:cts:latinLit:phi0690.phi003.perseus-lat1:6.98">Verg. Aen. 6. 98-103</ref></ref></p>
+         <quote><foreign xml:lang="la"><lb/>Talibus ex adyto dictis Cymaea Sibylla
+                        <lb/>horrendas canit ambages antroque remugit,
+                        <lb/>obscuris vera involvens: ea frena furenti
+                        <lb/>concutit et stimulos sub pectore vertit Apollo.
+                        <lb/>Ut primum cessit furor et rabida ora quierunt,
+                        <lb/>incipit Aeneas heros.
+                        
+                    </foreign></quote>
+                    <p/>
+                    <p>(In these words the Cumaean Sibyl chants from the shrine her dread enigmas and booms from the cavern, wrapping truth in darkness—so does Apollo shake the reins as she rages, and ply the goad beneath her breast. As soon as the frenzy ceased and the raving lips were hushed, Aeneas the hero begins) (transl. H.R. Fairclough)</p>
+                    <p/>
+                    <p/>
+                    
+                    <p>In this passage, the <rs type="Human_Agents" subtype="cult_personnel">Sybil of Cumae</rs> is in a state of <rs type="Activities" subtype="Ritual_Practice">possession</rs> that is called <foreign xml:lang="la"><w lemma="furor">furor</w></foreign>. Even the reins are characterised by the adjective <foreign xml:lang="la"><w lemma="furor">furens</w></foreign>. Moreover, it is interesting to note that the lexicon related to <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> is often found in correlation with the lexical family of <foreign xml:lang="la"><w lemma="rabies">rabies</w></foreign>.
+                        This term has essentially the same meanings as <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> and the semantic fields of the two words overlap. It is no coincidence that they are often used as synonyms, sometimes appearing together to give greater force to the enunciative situation. In this respect, two examples in <persName key="Lucan">Lucan</persName> are of note. About the <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> linked to the violence of war, a sentence is particularly emblematic:
+                    </p>
+                    
+                    <p><ref type="lit"><ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0133%3Abook%3D7%3Acard%3D460">Luc., 7. 551</ref></ref></p>
+                    <quote>Hic furor, hic rabies, hic sunt tua crimina, Caesar.</quote>
+                    <p/>
+                    <p>(This place comprised the rage and madness and wickedness of Caesar)(transl. J.D. Duff)</p>
+                    <p/>
+                    <p/>
+                    
+                    <p>In this sentence, the poet <persName key="Lucan">Lucan</persName> expresses all his contempt for <persName key="Caesar">Julius Caesar</persName>, connoting him with two terms that emphasise his unbridled violence. From this example, it is possible to conclude that the ethical negativity inherent in the term <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> can be applied to the term <foreign xml:lang="la"><w lemma="rabies">rabies</w></foreign> too. 
+                        On the other hand, a second passage shows how the term <foreign xml:lang="la"><w lemma="rabies">rabies</w></foreign> can also be substituted for the <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> to indicate <rs type="Activities" subtype="Ritual_Practice">prophetic possession</rs>. In this specific case, it is <persName key="Appius">Appius</persName> who questions the <rs type="Human_Agents" subtype="cult_personnel">prophetess</rs>:
+                    </p>
+                    
+                    <p><ref type="lit"><ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0133%3Abook%3D5%3Acard%3D71">Luc. 5. 208-213</ref></ref></p>
+                    <quote><foreign xml:lang=""><lb/>Tum pectore vatis
+                        <lb/>inpactae cessere fores, expulsaque templis
+                        <lb/>prosiluit; perstat rabies, nec cuncta locutae
+                        <lb/>quem non emisit superest deus. Illa feroces
+                        <lb/>torquet adhuc oculos totoque vagantia caelo
+                        <lb/>lumina, nunc voltu pavido, nunc torva minaci.
+                        
+                    </foreign></quote>
+                    <p/>
+                    <p>(Now the doors gave way when the priestess dashed her breast against them, and forth she rushed, driven from the temple. The frenzy abides; and the god, whom she has not shaken off, still controls her, since she has not told all her tale. She still rolls wild eyes, and eyeballs that roam over all the sky; her features are never quiet, now showing fear, and now grim with menacing aspect)(transl. J.D. Duff)</p>
+                    <p/>
+                    <p/>
+                    
+                    <p>In addition to the semantic overlapping between <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> and <foreign xml:lang="la"><w lemma="rabies">rabies</w></foreign>, this passage makes it possible to note how all descriptions of persons seized by <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> are similar. This is not an innovation of Roman literature: descriptions of the symptoms of Greek <rs type="Activities" subtype="Ritual_Practice"><ref corresp="lexicon_mania.xml"><foreign xml:lang="grc"><w lemma="μανία">μανία</w></foreign></ref></rs> (drooling at the mouth, rolling eyes, heat in the body, etc.) are also repeated similar to each other as far back as <persName key="Homer">Homer</persName>. 
+                        Nevertheless, a difference can be found in the way <rs type="Activities" subtype="Ritual_Practice">possession</rs> occurs. In <placeName key="Greece">Greece</placeName>, divine <rs type="Activities" subtype="Ritual_Practice">possession</rs> occurs through <rs type="Activities" subtype="Ritual_Practice">enthusiasm</rs> (<rs type="Activities" subtype="Ritual_Practice"><foreign xml:lang="grc"><w lemma="ἐνθουσιασμός">ἐνθουσιασμός</w></foreign></rs>): <rs type="Activities" subtype="Ritual_Practice"><ref corresp="lexicon_mania.xml"><foreign xml:lang="grc"><w lemma="μανία">μανία</w></foreign></ref></rs> is thus caused by the god entering the person's body. 
+                        The term <rs type="Activities" subtype="Ritual_Practice"><foreign xml:lang="la"><w lemma="entheus">entheus</w></foreign></rs> exists in Latin, but it is mainly used to indicate <rs type="Activities" subtype="Ritual_Practice">possession</rs> of an initiatory-ritual type (see e.g. Mart. 11. 84. 3-4). Concerning the <rs type="Human_Agents" subtype="Cult_Personnel">Sibyl</rs>, <persName key="Virgil">Virgil</persName> (<ref type="lit">Aen. 6. 50</ref>) prefers the use of the verb <foreign xml:lang="la"><w lemma="adflo">adflo</w></foreign> as if the god inhaled a divine breath inside the possessed person rather than entering it himself. 
+                        Moreover, an <rs type="Activities" subtype="Ritual_Practice"><foreign xml:lang="grc"><w lemma="ἐνθουσιασμός">ἐνθουσιασμός</w></foreign></rs> did not take place about <persName key="Turnus">Turnus</persName> either: to make him mad, <rs type="Super-human_Agents" subtype="Divinities"><persName type="divine" key="Allecto">Allecto</persName></rs> plunges an ember into his chest (<ref type="lit">Verg. Aen., 7. 445-457</ref>). In this sense, while the effects of <rs type="Activities" subtype="Ritual_Practice"><ref corresp="lexicon_mania.xml"><foreign xml:lang="grc"><w lemma="μανία">μανία</w></foreign></ref></rs> and <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> are almost identical, how they are induced in humans may differ between the two cultures. 
+                        Proceeding with the analysis of meanings, it is important to note how the term <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> can also identify the passion that seizes individuals who are possessed during collective or initiatory <rs type="Activities" subtype="Ritual_Practice">deliriums</rs>. Again, there is an overlap with the meanings of the Greek word <rs type="Activities" subtype="Ritual_Practice"><ref corresp="lexicon_mania.xml"><foreign xml:lang="grc"><w lemma="μανία">μανία</w></foreign></ref></rs>. In the field of poetry, three examples are given by <persName key="Statius">Statius</persName> in the <ref><title>Thebaid</title></ref>:   
+                    </p>
+                    
+                    <p>1)<ref type="lit"><ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2008.01.0498">Stat. Theb. 1. 328-329</ref></ref></p>
+                    <quote><foreign xml:lang="la"><lb/>Ogygiis ululata furoribus antra
+                        <lb/>deserit et pingues Baccheo sanguine colles.
+                        
+                    </foreign></quote>
+                    <p/>
+                    <p>(He leaves the glades where Ogygian madness howls and hills fat with Bacchic gore) </p>
+                    <p/>
+                    
+                    
+                    
+                    <p>2)<ref type="lit"><ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2008.01.0498%3Abook%3D3">Stat. Theb. 3. 188-190</ref></ref></p>
+                 <quote><foreign xml:lang="la"><lb/>hic gemitus Thebis, nec tempore clarius illo
+                        <lb/>Phoenissae sonuere domus, cum lassa furorem
+                        <lb/>vicit et ad comitum lacrimas expavit Agave. 
+                    </foreign></quote>
+                    <p/>
+                    <p>(Neither did Phoenician homes echo more loudly when weary Agave overcame her madness and took fright at her companions’ tears)</p>
+                    <p/>
+                                                           
+                    <p>3)<ref type="lit"><ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2008.01.0498%3Abook%3D7">Stat. Theb. 7. 649-651</ref></ref></p>
+                <quote><foreign xml:lang="la"><lb/>Quis tibi Baccheos, Eunaee, relinquere cultus,
+                    <lb/>quis lucos, vetitus quibus emansisse sacerdos,
+                    <lb/>suasit et assuetum Bromio mutare furorem?
+                    </foreign></quote>
+                    <p/>
+                    <p>(Who persuaded you, Eunaeus, to leave Bacchus’ worship and the groves away from which his priest must not pass a night and to change a madness used to Bromius?) (transl. D.R. Shackleton Bailey)</p>
+                    <p/>
+                    <p/>
+                    
+                    <p>In the first passage the subject is <persName key="Polynices">Polynices</persName>. In this case, furor is used to indicate the places where the <rs type="Activities" subtype="Ritual_Practice"><foreign xml:lang="grc"><w lemma="σπαραγμός">σπαραγμός</w></foreign></rs> (the <rs type="Activities" subtype="Ritual_Practice">Bacchic ritual</rs> of the dismemberment of a sacrificial victim) took place. 
+                        In the second passage, the elder <persName key="Aletes">Aletes</persName> lists all the sufferings of the city of <placeName key="Thebes">Thebes</placeName>, among which he mentions the murder of King <persName key="Pentheus">Pentheus</persName> by his mother <persName key="Agave">Agave</persName>.
+                        <persName key="Agave">Agave</persName> had been made insane by <rs type="Super-human_Agents" subtype="Divinities"><persName type="divine" key="Dionysus">Dionysus</persName></rs> and was in the grip of a <rs type="Activities" subtype="Ritual_Practice">Bacchic delirium</rs> when she killed her son. <persName key="Agave">Agave</persName>’s <rs type="Activities" subtype="Ritual_Practice">delirium</rs> is rendered by the poet with the term <rs type="Activities" subtype="Ritual_Practice"><foreign xml:lang="la"><w lemma="furor">furor</w></foreign></rs>. 
+                        In these verses, <persName key="Agave">Agave</persName> regains consciousness from her <rs type="Activities" subtype="Ritual_Practice"><foreign xml:lang="la"><w lemma="furor">furor</w></foreign></rs> and bursts into tears realising what she had committed. Finally, in the third passage, the narrator addresses <persName key="Eunaeus">Eunaeus</persName>, wondering who convinced him to abandon the <rs type="Activities" subtype="Ritual_Practice">cult</rs> of <rs type="Super-human_Agents" subtype="Divinities"><persName type="divine" key="Bacchus">Bacchus</persName></rs>. 
+                        Once again, the <rs type="Activities" subtype="Ritual_Practice">Bacchic cult</rs> is identified by the word <rs type="Activities" subtype="Ritual_Practice"><foreign xml:lang="la"><w lemma="furor">furor</w></foreign></rs>. From all these examples, it emerges how the word <rs type="Activities" subtype="Ritual_Practice"><foreign xml:lang="la"><w lemma="furor">furor</w></foreign></rs> can be associated with the <rs type="Activities" subtype="Ritual_Practice">possession</rs> of <rs type="Super-human_Agents" subtype="Divinities"><persName type="divine" key="Dionysus">Dionysus</persName></rs> and the <rs type="Activities" subtype="Ritual_Practice">ecstatic rites</rs> that ensued. 
+                        It is relevant to point out that the term can also be found in prose authors who describe it as a historically attestable phenomenon. However, unlike in <placeName key="Greece">Greece</placeName>, this kind of manifestation was explicitly forbidden (or strictly regulated) in <placeName key="Rome">Rome</placeName> by the <hi rend="italic"><foreign xml:lang="la">Senatus consultum de Bacchanalibus</foreign></hi> of 186 B.C. 
+                        What happened in that period is narrated by <persName key="Livy">Livy</persName>. Thanks to his description, it is possible to get an idea of what perception the Romans had of <rs type="Activities" subtype="Ritual_Practice">bacchic <foreign xml:lang="la"><w lemma="furor">furor</w></foreign></rs>. <persName key="Livy">Livy</persName> (<ref type="lit">39. 16. 5.</ref>) defines, through the <rs type="Institutions">consul</rs>'s words, the state of the participants in those rites as <rs type="Activities" subtype="Ritual_Practice"><foreign xml:lang="la"><w lemma="furor">furor</w></foreign></rs> or <rs type="Activities" subtype="Ritual_Practice"><foreign xml:lang="la"><w lemma="libido">libido</w></foreign></rs>. 
+                        Moreover, according to the historian's description, the participants in the <rs type="Activities" subtype="Ritual_Practice"><foreign xml:lang="la"><w lemma="Bacchanalia">Bacchanalia</w></foreign></rs> seized by these two sentiments were organising an unholy conspiracy (<foreign xml:lang="la"><w lemma="impius">impia</w> <w lemma="coniuratio">coniuratio</w></foreign>) against the state (<ref type="lit">39. 16. 3</ref>.). 
+                        Although we cannot know how much of what <persName key="Livy">Livy</persName> says was real and how much was propaganda, it is clear how <rs type="Activities" subtype="Ritual_Practice">bacchic <foreign xml:lang="la"><w lemma="furor">furor</w></foreign></rs>, associated with the idea of <rs type="Activities" subtype="Ritual_Practice"><foreign xml:lang="la"><w lemma="libido">libido</w></foreign></rs> and <rs type="Activities" subtype="Ritual_Practice">impiety</rs> and the danger brought to the state, was not at all well regarded in <placeName key="Rome">Rome</placeName>. In this sense, it is interesting to quote <persName key="Livy">Livy</persName>'s description of what took place at these gatherings: 
+                    </p>
+                    
+                    <p><ref type="lit"><ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0209%3Abook%3D39%3Achapter%3D8">Liv. 39. 8. 6-8</ref></ref></p>
+                    <quote><foreign xml:lang="la">cum vinum animos mosset, et nox et mixti feminis mares, aetatis tenerae maioribus, discrimen omne pudoris exstinxissent, corruptelae primum omnis generis fieri coeptae, cum ad id quisque quo natura pronioris libidinis esset paratam voluptatem haberet. nec unum genus noxae, stupra promiscua ingenuorum feminarumque erant, sed falsi testes falsa signa testamentaque et indicia ex eadem officina exibant; 8venena indidem intestinaeque caedes, ita ut ne corpora quidem interdum ad sepulturam exstarent. multa dolo pleraque per vim audebantur. occulebat vim quod prae ululatibus tympanorumque et cymbalorum strepitu nulla vox quiritantium inter stupra et caedes exaudiri poterat.</foreign> </quote>
+                    <p/>
+                    <p>(When drink had aroused passions, and darkness and the intermingling of males and females, older and younger, had eliminated all moral judgment, depravity of every kind first began to emerge, since they had laid on for them the gratification of that sexual desire to which they were by nature more inclined. Nor was promiscuous sex between freeborn men and women the only form of immorality. There was also perjured testimony in court, forged seals and wills, and manufactured evidence, all emanating from the same workshop; and from there, too, came cases of poisoning and murders within families, sometimes with the bodies not even coming to light to make burial possible. Many offenses involved swindles and most of them violence. The violence was hidden, however, because amid the fornication and bloodshed no outcry could be heard over the shouting and the beating of drums and cymbals)(transl. J.C. Yardley)</p>
+                    <p/>
+                    <p/>
+                    
+                    <p>It is clear from this description that the <rs type="Activities" subtype="Ritual_Practice"><foreign xml:lang="la"><w lemma="Bacchanalia">Bacchanalia</w></foreign></rs> were foreign to the ideology of the Roman <foreign xml:lang="la"><w lemma="mos">mos</w> <w lemma="maior">maiorum</w></foreign>. 
+                        Therefore, while in <placeName key="Greece">Greece</placeName> this kind of ritual were practised until at least <persName key="Plutarch">Plutarch</persName>'s time, in <placeName key="Rome">Rome</placeName> they were always opposed and seen as a religious deviance.
+                        Moreover, the connotation of <rs type="Activities" subtype="Ritual_Practice">bacchic <foreign xml:lang="la"><w lemma="furor">furor</w></foreign></rs> as dangerous for women's modesty is further confirmed by the fact that the term can be used to indicate uncontrolled amorous passion too. The most emblematic example of this is <persName key="Dido">Dido</persName>'s uncontrollable love for <persName key="Aeneas">Aeneas</persName>: </p>
+                    
+                    <p><ref type="lit"><ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0055%3Abook%3D4%3Acard%3D54">Verg. Aen. 4. 66-69</ref></ref></p>
+                    <quote><foreign><lb/>est mollis flamma medullas
+                        <lb/>interea et tacitum vivit sub pectore vulnus.
+                        <lb/>uritur infelix Dido totaque vagatur
+                        <lb/>urbe furens, qualis coniecta cerva sagitta.
+                        
+                        </foreign></quote>
+                    <p/>
+                    <p>(All the while the flame devours her tender heartstrings, and deep in her breast lives the silent wound. Unhappy Dido burns, and through the city wanders in frenzy—even as a hind, smitten by an arrow)(transl. H.R. Fairclough)</p>
+                    <p/>
+                    <p/>
+                    
+                    <p>As can be seen, <persName key="Dido">Dido</persName>'s status reminds of the descriptions of <rs type="Human_Agents" subtype="Groups">deliriously possessed women</rs>, whether <rs type="Human_Agents" subtype="cult_personnel">prophetesses</rs> or <rs type="Human_Agents" subtype="Groups">maenads</rs>. 
+                        In this regard, this furious love is not socially and religiously accepted: it is not regulated through marriage, and it threatens the women's <foreign xml:lang="la"><w lemma="pudicitia">pudicitia</w></foreign>. For this reason, the amorous furor is also a type of <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> that must be avoided. 
+                        In this sense, it may be noted that, on a religious level, the <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> is always identified as something extremely negative: <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> linked to violence leads to the killing of religiously protected individuals, amorous <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> leads to the loss of modesty, and <rs type="Activities" subtype="Ritual_Practice">bacchic <foreign xml:lang="la"><w lemma="furor">furor</w></foreign></rs> even risks leading to the subversion of state order. 
+                        As far as the prophetic one is concerned, it should be noted that <rs type="Activities" subtype="Ritual_Practice">inductive inspired mantic</rs> in <placeName key="Rome">Rome</placeName> was much less used than <rs type="Activities" subtype="Ritual_Practice">deductive rituals</rs> (such as the <rs type="Activities" subtype="Ritual_Practice">reading of animal entrails</rs>). Therefore, religion seems not to lean towards the uncontrolled states dictated by furious <rs type="Activities" subtype="Ritual_Practice">possession</rs> even in the prophetic field. 
+                        In this respect, McDermott's definition whereby <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> can be identified as “failed <foreign xml:lang="la"><w lemma="pietas">pietas</w></foreign>”, the Roman religious sentiment par excellence, perfectly sums up the Romans' approach to this term.
+                    </p>
+                    
+                    <p>In conclusion, it is interesting to note the evolution of the term <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> with the spread of Christianity as the main religion of the <placeName key="Roman Empire">Roman Empire</placeName>. 
+                        Since the word <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> was already negatively connoted in the pagan religion, the Christian religion simply took over the term and adapted it to its own polemical goals. 
+                        In this sense, <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> began to indicate both <rs type="Activities" subtype="Ritual_Practice">pagan cults</rs> and <rs type="Activities" subtype="Ritual_Practice">heresies</rs> in Christianity. An example of the former can be found in the work of <persName key="St Augustine">St Augustine</persName>: </p>
+                    
+                    <p><ref type="lit"><ref corresp="https://www.loebclassics.com/view/augustine-city_god_pagans/1957/pb_LCL415.411.xml?readMode=reader">August. De civ. D. 18. 13</ref></ref></p>
+                    <quote><foreign xml:lang="la">Tunc et Liber pater bellavit in India, qui multas habuit in exercitu feminas quae Bacchae appellatae sunt, non tam virtute nobiles quam furore. […] Eius velut dei nomine per inmundos daemones Bacchanalia sacra vel potius sacrilegia sunt instituta, de quorum rabiosa turpitudine post tam multos annos sic senatus erubuit ut in urbe Roma esse prohiberet. </foreign></quote>
+                    <p/>
+                    <p>(At that time also father Liber waged wars in India, and had many women in his army who were called Bacchae, less distinguished for valour than for madness. […] And yet in his name, as in that of a god, Bacchanalian religious rites, or rather sacrileges, were instituted by foul demons, and even after many years the senate was so ashamed of their mad indecency that they prohibited their celebration in the city of Rome) (transl. G.E. McCracken)</p>
+                    <p/>
+                    <p/>
+                    
+                    <p>This passage condenses what has been said so far: the women practising the <rs type="Activities" subtype="Ritual_Practice">rites</rs> are not dignified, the <rs type="Activities" subtype="Ritual_Practice">rites</rs> are not sacred but sacrilegious, and <foreign xml:lang="la"><w lemma="rabies">rabies</w></foreign> was problematic even for the non-Christian Roman Republicans. 
+                        It is then clear how <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> in <persName key="St Augustine">Augustine</persName> retains its negative values and even increases them. A passage in which <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> is instead linked to the madness of a heretic is found in <persName key="Tertullian">Tertullian</persName>: </p>
+                    
+                    <p><ref type="lit"><ref corresp="https://www.tertullian.org/latin/de_anima.htm">Tert. Anim. 50</ref></ref></p>
+                    <quote><foreign xml:lang="la">Publica totius generis humani sententia mortem naturae debitum pronuntiamus. Hoc stipulata est dei uox, hoc spopondit omne quod nascitur, ut iam hinc non Epicuri stupor suffundatur negantis debitum istud ad nos pertinere, sed haeretici magi Menandri Samaritani furor conspuatur dicentis mortem ad suos non modo non pertinere, uerum nec peruenire.</foreign></quote>
+                    <p/>
+                    <p>(According to the general sentiment of the human race, we declare death to be "the debt of nature." So much has been settled by the voice of God; such is the contract with everything which is born: so that even from this the frigid conceit of Epicurus is refuted, who says that no such debt is due from us; and not only so, but the insane opinion of the Samaritan heretic Menander is also rejected, who will have it that death has not only nothing to do with his disciples, but in fact never reaches them) (transl. P. Holmes)</p>
+                    <p/>
+                    <p/>
+                    
+                    <p>In this passage, <persName key="Tertullian">Tertullian</persName> compares the views on the death of a pre-Christian thinker like <persName key="Epicurus">Epicurus</persName> and a heretic one like <persName key="Menander the Samaritan">Menander the Samaritan</persName>. In this context, it is noteworthy that <persName key="Menander the Samaritan">Menander</persName>'s heretical opinion is categorised precisely as <foreign xml:lang="la"><w lemma="furor">furor</w></foreign>. 
+                        In conclusion, even in Christianity the use of the term <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> remains confined to cases of heterodoxy, retaining the negative connotation it already had in pre-Christian culture.</p>
+                    
+                </div>
+                
+                <div type="textpart" n="Catalogue of occurences">
+                    <head>Catalogue of occurences</head>
+                    <p/>
+                    <p><hi rend="italic">Literary sources</hi></p>
+                    <list rend="bulleted">
+                        
+                        <item><ref type="lit"><ref corresp="https://www.loebclassics.com/view/augustine-city_god_pagans/1957/pb_LCL415.411.xml?readMode=reader">August. De civ. D. 18. 13</ref></ref></item>
+                        <item><ref type="lit"><ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0010:text=Catil.">Cic. Cat. 1. 1</ref></ref></item>
+                        <item><ref type="lit"><ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2007.01.0034%3Abook%3D1%3Asection%3D4">Cic. Div. 1. 4</ref></ref></item>
+                        <item><ref type="lit"><ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0024%3Abook%3D4%3Apoem%3D15">Hor. Carm. 4. 15. 17-20</ref></ref></item>
+                        <item><ref type="lit"><ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0209%3Abook%3D39%3Achapter%3D8">Liv. 39. 8. 6-8</ref></ref></item>
+                        <item><ref type="lit"><ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0133%3Abook%3D5%3Acard%3D71">Luc. 5. 208-213</ref></ref></item>
+                        <item><ref type="lit"><ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0133%3Abook%3D7%3Acard%3D460">Luc., 7. 551</ref></ref></item>
+                        <item><ref type="lit"><ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2008.01.0498">Stat. Theb. 1. 328-329</ref></ref></item>
+                        <item><ref type="lit"><ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2008.01.0498%3Abook%3D3">Stat. Theb. 3. 188-190</ref></ref></item>
+                        <item><ref type="lit"><ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2008.01.0498%3Abook%3D7">Stat. Theb. 7. 649-651</ref></ref></item>
+                        <item><ref type="lit"><ref corresp="https://www.tertullian.org/latin/de_anima.htm">Tert. Anim. 50</ref></ref></item>
+                        
+                        <item><ref type="lit"><ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0055%3Abook%3D4%3Acard%3D54">Verg. Aen. 4. 66-69</ref></ref></item>
+                        <item><ref type="lit"><ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=urn:cts:latinLit:phi0690.phi003.perseus-lat1:6.98">Verg. Aen. 6. 98-103</ref></ref></item>
+                        <item><ref type="lit"><ref corresp="https://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus%3Atext%3A1999.02.0055%3Abook%3D7%3Acard%3D445">Verg. Aen. 7. 456-462</ref></ref></item>
+                        <item><ref type="lit"><ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0055%3Abook%3D12%3Acard%3D650">Verg. Aen. 12. 676-680</ref></ref></item>
+                        </list>                           
+                    <p/>
+                </div>
+                
+                <div type="textpart" n="Discussion/interpretation">
+                    <head>Discussion/interpretation</head>
+                    <p/>
+                    <p>It is evident that the term <foreign xml:lang="la"><w lemma="furor">furor</w></foreign>, from a semantic point of view, is closely related to the term <rs type="Activities" subtype="Ritual_Practice"><ref corresp="lexicon_mania.xml"><foreign xml:lang="grc"><w lemma="μανία">μανία</w></foreign></ref></rs>. Nevertheless, while the Greek term has accumulated all the reported meanings on itself over a long process of time, it is more likely that the term <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> has inherited them from the Greek term (at least from a literary point of view). </p>
+                    
+                    <p>Even more relevant is the fact that the term <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> is strongly connoted by a negative value from an ethical point of view. In all the situations taken into consideration, <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> connotes a madness resulting from extreme violence, possessions leading to disaster and <rs type="Activities" subtype="Ritual_Practice">cults</rs> deviating from the traditional religion. </p>
+                   
+                    <p>The only more neutral case is the <rs type="Activities" subtype="Ritual_Practice">possession</rs> of the <rs type="Human_Agents" subtype="Cult_Personnel">Sibyl</rs>, but it must be remembered that the Romans were rather sceptical of the <rs type="Activities" subtype="Ritual_Practice"><foreign xml:lang="la"><w lemma="divinatio">divinatio</w> naturalis</foreign></rs> typical of possessed <rs type="Human_Agents" subtype="Cult_Personnel">prophetesses</rs>, preferring by far the <rs type="Activities" subtype="Ritual_Practice"><foreign xml:lang="la"><w lemma="divinatio">divinatio</w> artificiosa</foreign></rs> applied for instance to <rs type="Activities" subtype="Ritual_Practice">the flight of birds</rs> or the <rs type="Activities" subtype="Ritual_Practice">analysis of animal entrails</rs>.</p>
+                  
+                    <p>Moreover, it must be noted that in <placeName key="Greece">Greece</placeName> the practice of <rs type="Activities" subtype="Ritual_Practice">delusional cults</rs> is described in literature, but it has also a historical attested declination. In contrast, <rs type="Activities" subtype="Ritual_Practice">cults in which participants were possessed</rs> were always frowned upon or even banned in <placeName key="Rome">Rome</placeName>, as in the case of <rs type="Activities" subtype="Ritual_Practice"><foreign xml:lang="la"><w lemma="Bacchanalia">Bacchanalia</w></foreign></rs>.</p>
+                  
+                    <p>In conclusion, one can see how the term <foreign xml:lang="la"><w lemma="furor">furor</w></foreign> indicates a wide range of different types of madness, but in each case gives its referent an ethically negative connotation.</p>
+                    <p/>
+                </div>
+                
+                <div type="textpart" n="Bibliography">
+                    <head>Bibliography</head>
+                    <p/>
+                    <p>Albrecht, J. (2022): "Sanguine non modo se non contaminarunt, sed etiam honestarunt: The Religious Deviance of Furor and the Death of the Gracchi in Cicero’s Works". In L. Gilhaus, A. Dorn, I. Herrad and M. Meurer (eds.), <hi rend="italic">Transgression and Deviance in the Ancient World</hi> (85-109), Stuttgart: JB Metzler.</p>
+                    <p>Belayche N., Rüpke J. (2007): “Divination et révélation dans les mondes grec et romain: Présentation”, <hi rend="italic">Revue De L'histoire Des Religions</hi>, 224. 2, 139-147.</p>
+                    <p>Camps, W. A. (1969) <hi rend="italic">An introduction to Virgil's Aeneid</hi>. Oxford: Oxford University Press.</p>
+                    <p>Cova, P. V. (1974): “Livio e la repressione dei Baccanali”, <hi rend="italic">Athenaeum</hi>, 52, 82-109.</p>
+                    <p>De Vaan, M. (2008) <hi rend="italic">Etymological Dictionary of Latin and the other Italic Languages</hi>. Boston: Brill.</p>
+                    <p>Gruen, E. S. (1990) <hi rend="italic">Studies in Greek culture and Roman policy</hi>. Leida: Brill.</p>
+                    <p>Mac Góráin F. (ed) (2019) <hi rend="italic">Dionysus and Rome: Religion and Literature</hi>. Vol. 93. Berlin and Boston: Walter de Gruyter GmbH &amp; Co KG.</p>
+                    <p>McDermott, E. A. (2015): “'Furor' as Failed 'Pietas': Roman Poetic Constructions of Madness through the Time of Virgil”. In Perdicoyanni-Paléologou H. (ed), <hi rend="italic">The Concept of Madness from Homer to Byzantium: Manifestations and Aspects of Mental Illness and Disorder</hi> (191-244), Amsterdam: Hakkert.</p>
+                    <p>Monaca, M. (2008) <hi rend="italic">Oracoli Sibillini (Vol. 199)</hi>. Rome: Città Nuova.</p>
+                    <p><hi rend="italic">Perseus Digital Library</hi>. Ed Gregory R. Crane. Tufts University. <ref corresp="http://www.perseus.tufts.edu">http://www.perseus.tufts.edu</ref> (accessed June 16, 2024).</p>
+                    <p>Tucker, T. G. (1976) <hi rend="italic">Etymological Dictionary of Latin</hi>. Chicago: Ares Publishers.</p>
+                    <p/>
+                </div>
+            </div>            
+        </body>
+    </text>
+</TEI>

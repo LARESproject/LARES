@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="grc">Χάος</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">lexicon_χάος</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital document.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-05-22" who="Mateusz_Kula">encoded in XML</change>
+                <change when="2023-05-22" who="Mateusz_Kula">written contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="introduction">
+                    <head>Χάος</head>
+                    <p><w>Χάος</w>, -εος -ους [n.] ‘Χάος’, first used by <ref type="author">Hesiod</ref> in <ref type="lit"><ref type="lit">Theogony</ref></ref> (<ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0129%3Acard%3D116">116</ref>) as ‘what comes first’, 'what was first'. Later as ‘empty and/or unlimited space’, ‘room’, ‘place’ (<ref type="author">Aristotle</ref> and Peripatetics) in contrast to Stoic account that takes it as material entity related to liquidity and formlessness like ‘mist’, ‘fog’, ‘water’. Later Peripatetic account resulted in taking Χάος as ‘abyss’ or ‘chasm’.</p>         
+                    <p>The safest meaning derived from the context of <ref type="author">Hesiodic</ref>  text seems to suggest to take it as a cosmological element and interpret it inside the genealogical structure of <ref type="lit">Theogony</ref>. In latest studies, some scholars (Mondi 1989, Strauss Clay 2003) suggests to take it as an opposite side of being and thus as anticipation of philosophical concepts and ontological aporias of being/non-being, everything/nothing, one/many, finite/infinite.</p>
+                    <div type="textpart" n="morfology">
+                    <head>Etymology and Morphology</head>
+                        <p>Etymology is obscure and follows exegetical pathways set by <ref type="author">Aristotle</ref> and Stoics. In the first case (as empty space) Χάος derives from  <w>χώρα</w> [n.] 'place', in the case of Stoics suggested etymology relates to  <w>χέεσθαι</w> [v.] 'pour' and <w>χύσις</w>, [n.] 'pouring out'. </p>
+                    <p>χάος &lt; *χάϝος beside χαῦνος, like ἔρεβος to ἐρεμνός &lt;  *ἐρεβνός. Beeks’ suggestion deriving Χάος from χαῦνος with the basic meaning related to lack (‘holes’, ‘loose’) seems to fit  intrepretations of Strauss Clay (2003) and Mondi (1989). <w>Χαῦνος</w> is possible for χάος as an opposite side of existence. If  χάος and <w>χαῦνος</w> are related then Χάος is also related to <w>χάσκω</w> , <w>χάσμα</w>, χανεῖν, χήμη , etc. </p>
+                    <p>Beeks also suggests formal similarity to some Germanic and Baltic words meaning 'palate': OHG guomo, ON gómr [m.], etc. &lt; IE * gheh2-mn- beside OHG goumo [m.] &lt; 
+                        PGm. * gauma(n)-, Lith. gomurỹs, etc.</p>
+                    </div>
+                    <div type="textpart" n="Testimonies_and_Interpretation">
+                <head>Testimonies and Interpretation</head>
+                        <p>Χάος is hardly to be found elsewhere in archaic hexameter than in <ref type="author">Hesiod</ref>’s <ref type="lit">Theogony</ref> (<ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=Hes.+Th.+116&amp;fromdoc=Perseus%3Atext%3A1999.01.0129">116</ref>). It is also very few in later occurrences and contribute little to original, <ref type="author">Hesiod</ref>ic meaning of the term. What could be taken safely is its temporal primacy (Hölscher, 1953:399). </p>
+                        <p>After proem <ref type="lit">Theogony</ref> tells the story of the beginning of all things and it starts with χάος. It is the neuter noun which has no epithets and no characteristics at line <ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=Hes.+Th.+116&amp;fromdoc=Perseus%3Atext%3A1999.01.0129">116</ref> when it is introduced. Jenny Strauss Clay takes it as a „featureless void” . The only epithet by which it is described in the entire work is <w>ζοφερός</w>, ‘dark’, ‘gloomy’, ‘murky’. Interestingly ζοφερός appears in different works to describe formless entities like water (<ref type="author">Aristotle</ref> Mirabilia, 843a 25) and air (<ref type="author">Chrysippus</ref>, 2.140.36; <ref type="author">Plutarchus</ref> <ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2008.01.0388">1053f</ref>; <ref type="author">Sextus Empiricus</ref>, Adv. Math. 7.183.8). <ref type="author">Hesiod</ref> in no place elaborates any further details about the character of the term.</p>
+                    <p><ref type="author">Aristotle</ref> and Peripatetic tradition interpret Χάος as an 'empty space', 'room' and connects its etymology with <w>χώρα</w>.</p>
+               <p><quote>Ἡσίοδος ὀρθῶς λέγειν ποιήσας πρῶτον τὸ χάος. λέγει γοῦν “πάντων μὲν πρώτιστα χάος γένετ', αὐτὰρ ἔπειτα γαῖ' εὐρύστερνος,” ὡς δέον πρῶτον ὑπάρξαι <w>χώρα</w>ν τοῖς οὖσι, διὰ τὸ νομίζειν, ὥσπερ οἱ πολλοί, πάντα εἶναί που καὶ ἐν τόπῳ. (Phys. 208b30)</quote></p>
+                    <p>This line is taken also by <ref type="author">Sextus Empiricus</ref> in Pyrrh. Hyp. 3.121 and Adv. Math. 10.11–12.
+                        In <ref type="author">Zeno</ref>, (frag. 103, Schol. Apoll. Rhod. I 498) and <ref type="author">Cornutus</ref>, De nat.deor. we find suggestion to interpret Χάος as fire. 
+                    </p>
+                <p><quote>καὶ Ζήνων δὲ τὸ παρ' Ἡσιόδῳ χάος ὕδωρ εἶναί φησιν, οὗ συνιζάνοντος ἰλὺν γίνεσθαι, ἧς πηγνυμένης ἡ γῆ στερεμνιοῦται. τρίτον δὲ Ἔρωτα γεγονέναι καθ' Ἡσίοδον, ἵνα τὸ πῦρ παραστήσῃ· πυρωδέστερον γὰρ πάθος Ἔρως. (<ref type="author">Zeno</ref>, fr.103, Schol. Apoll. Rhod. I 498).</quote></p>
+                    <p>This exegesis continues up to modern day. Some scholars interpret Χάος as empty space, yawnin gap (Cornford), chasm (Most, West) between <persName type="myth" key="Earth">Earth</persName> and <persName type="myth" key="Heaven">Heaven</persName> and/or between <persName type="myth" key="Earth">Earth</persName> and <persName type="myth" key="Tartarus">Tartarus</persName> (Mazon, 1928:36; Cornford, 1912:66; West, 1966:192; Kirk and Raven, 1983:38). </p>
+                    <p>Others are keen to materialize it into formless entities like mist, wind, or fog (Schoemann, 1868:84;  Schwenn, 1934:107; Karl, 1967:17; Stokes, 1963:23)  </p>
+                    <p>Closer look at the <ref type="lit">Theogony</ref> seems to unfold it as an infernal region: pit or abyss. Word <w>χάσμα</w> used in <ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0129%3Acard%3D740">Th. 740–743</ref>) seems to confirm it:</p>
+                 <p> <quote>
+<l n="1"><w>χάσμα</w> μέγ', οὐδέ κε πάντα τελεσφόρον εἰς ἐνιαυτὸν</l>
+<l n="2">οὖδας ἵκοιτ', εἰ πρῶτα πυλέων ἔντοσθε γένοιτο,</l>
+<l n="3">ἀλλά κεν ἔνθα καὶ ἔνθα φέροι πρὸ θύελλα θυέλλης</l>
+<l n="4">ἀργαλέη· δεινὸν δὲ καὶ ἀθανάτοισι θεοῖσι.</l>
+                    </quote></p>
+                    <quote>It is a great gulf, and if once a man were within the gates, he would not reach the floor until a whole year had reached its end, but cruel blast upon blast would carry him this way and that. And this marvel is awful even to the deathless gods.</quote>
+                    <p>Lines that proceed this fragment (<ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0129%3Acard%3D736">736–739</ref>) repeats verbatim in <ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0129%3Acard%3D807">807–810</ref> and are followed in <ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0129%3Acard%3D814">814</ref> which has been taken by many scholars (West, Solmsen, Hölscher) as possible identification of <w>χάσμα</w> and χάος. However, as Mondi (Mondi 1989:9) points, out these words cannot be fully taken as such because of different level of generality: while χάος is one and only, <w>χάσμα</w>τα are many. </p>
+                    <p><ref type="author">Hesiod</ref>’s Χάος is foremost a cosmological element and thus plays a significant role in the structure of the universe. It seems that the safest interpretation is to take it as referring to the nether world and powers residing there. <ref type="author">Hesiod</ref> presents Χάος as superior to both, mortals and immortals. It seems to be confirmed by the whole genealogical line of Χάος, that includes entities like <persName type="myth" key="Night">Night</persName> who bores obstacles such us <persName type="myth" key="Strife">Strife</persName>, Sleep (subordinates both mortals and immortals) and <ref type="myth">Old Age</ref> and Death (subordinates only mortals) who all resides in <persName type="myth" key="Erebos">Erebos</persName>. It is in the lineage of Χάος <foreign>via</foreign> <persName type="myth" key="Night">Night</persName> who introduces <persName type="myth" key="Death">Death</persName> and <persName type="myth" key="OldAge">Old Age</persName> that the differentiation between divinities and mortals are introduced. Thus the conflict (<persName type="myth" key="Strife">Strife</persName>) is made possible unlocking the hierarchy and possibility of worship, ritual and religiosity as such. </p>
+                    <p><quote>Νυκτὸς δ᾽ ἐρεβεννῆς οἰκία δεινὰ</quote> 
+                      <quote><persName type="myth" key="Erebos">Erebos</persName> where (…) houses of <persName type="myth" key="Night">Night</persName> stand (<ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0129%3Acard%3D744">Th. 744</ref>)</quote>
+                    <quote>ἔνθα δὲ Νυκτὸς παῖδες ἐρεμνῆς οἰκί᾽ ἔχουσιν</quote> 
+                    <quote>(…) where the children of dark <persName type="myth" key="Night">Night</persName> have their houses (<ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0129%3Acard%3D758">Th.758</ref>)</quote></p>
+                    <p>After Χάος, <persName type="myth" key="Night">Night</persName> inherits the ability to self–reproduce, thus what comes from <persName type="myth" key="Night">Night</persName> could be understood as extension of the power of Χάος.</p>
+                    <p><quote>οὔ τινι κοιμηθεῖσα θεὰ τέκε <ref corresp="lemma_nyx.html">Νὺξ</ref> ἐρεβεννή</quote></p>
+                    <p><quote>the goddess murky <persName type="myth" key="Night">Night</persName>, though she lay with none (<ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0129%3Acard%3D214">Th. 214</ref>)</quote></p>
+                    <p>In <ref type="author">Homer</ref>, in the scene Deception of <ref type="myth">Zeus</ref>  (<ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0133%3Abook%3D14%3Acard%3D225-355">Il.14.225-355</ref>) we find <ref type="myth">Zeus</ref>  obeyable and respectful towards the daughter of Χάος, <persName type="myth" key="Night">Night</persName>, despite his anger directed at her son – Sleep.</p>
+                    <p><persName type="myth" key="Night">Night</persName> is beyond mortal/immortal and holds the power to ‘subdue both gods and man’</p>
+                    <p><quote>εἰ μὴ <ref corresp="lemma_nyx.html">Νὺξ</ref> δμήτειρα θεῶν ἐσάωσε καὶ ἀνδρῶν (<ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0133%3Abook%3D14%3Acard%3D259">Il. 14.259</ref>).</quote></p>
+                    <p>The transcending character of the lineage of Χάος and nether realm is mostly evident in <ref type="author">Hesiod</ref>ic Titanomachy where all forces allied with <ref type="myth">Zeus</ref> are related to the underworld. By freeing Cronus’ brothers from <persName type="myth" key="Tartarus">Tartarus</persName>, <ref type="myth">Zeus</ref>  comes into possession of thunderbolt by which, he rules over mortals and immortals. Thunderbolt is described as coming from inside the <persName type="myth" key="Earth">Earth</persName> (Th. 500–506).</p>
+                  <p><quote>δῶκαν δὲ βροντὴν ἠδ᾽ αἰθαλόεντα κεραυνὸν καὶ στεροπήν: τὸ πρὶν δὲ πελώρη Γαῖα κεκεύθει: τοῖς πίσυνος θνητοῖσι καὶ ἀθανάτοισιν ἀνάσσει.</quote></p>
+                        <p> <quote>  [Cronus’ brothers] gave him thunder and the glowing thunderbolt and lightning: for before that, huge <persName type="myth" key="Earth">Earth</persName> had hidden these. In them he trusts and rules over mortals and immortals.</quote></p>      
+                    <p><ref corresp="lexicon_bronton.xml">Thunderbolt</ref> has a special feature: it is used remotely, and it provides <ref type="myth">Zeus</ref>  with the power to overcome and preserve the obstacle at the same time. It is in <ref type="myth">Zeus</ref> ’ aristeia where this special feature of thunderbolt is manifested, as Solmsen observes: 
+                        <quote>No foes are slain in this battle, but the whole universe is shaken and feels the impact of <ref type="myth">Zeus</ref> ' tremendous exertions. (Solmsen, 1949:17)</quote></p>
+                        <p><persName type="myth" key="Tartarus">Tartarus</persName>, location where <persName type="myth" key="Titans">Titans</persName> are imprisoned, is located along the vertical axis that traverses the whole universe of <ref type="lit">Theogony</ref>. It is said that it is far beneath the surface of <persName type="myth" key="Earth">Earth</persName>, on the side of <w>χάεος</w> <w>ζοφεροῖο</w> (<ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0129%3Acard%3D720">Th. 720–725</ref>). The epithet ζοφεροῖο is <foreign>hapax legomenon</foreign> and is used by <ref type="author">Hesiod</ref> exclusively for nether darkness (Th. <ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0129%3Acard%3D653">653</ref>, <ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0129%3Acard%3D658">658</ref>, <ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0129%3Acard%3D729">729</ref>). As said before it is the only context, and description, of Χάος present in <ref type="author">Hesiod</ref>. 
+                    </p>
+                    <p>In lines <ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0129%3Acard%3D695">695–705</ref> we are presented with the power of thunderbolt that disturbs the whole shape of the universe and thus reshapes the four realms of it: of <persName type="myth" key="Earth">Earth</persName>, sky, sea and underworld itself. </p>
+                    <p><quote>
+<l n="1">ἔζεε δὲ χθὼν πᾶσα καὶ Ὠκεανοῖο ῥέεθρα</l> 
+<l n="2">πόντος τ᾽ ἀτρύγετος: τοὺς δ᾽ ἄμφεπε θερμὸς ἀυτμὴ</l> 
+<l n="3">Τιτῆνας χθονίους, φλὸξ δ᾽ αἰθέρα δῖαν ἵκανεν</l> 
+<l n="4">ἄσπετος, ὄσσε δ᾽ ἄμερδε καὶ ἰφθίμων περ ἐόντων</l>
+<l n="5">αὐγὴ μαρμαίρουσα κεραυνοῦ τε στεροπῆς τε.</l> 
+<l n="6">καῦμα δὲ θεσπέσιον κάτεχεν Χάος: εἴσατο δ᾽ ἄντα</l> 
+<l n="7">ὀφθαλμοῖσιν ἰδεῖν ἠδ᾽ οὔασι ὄσσαν ἀκοῦσαι</l> 
+<l n="8">αὔτως, ὡς εἰ Γαῖα καὶ Οὐρανὸς εὐρὺς ὕπερθε</l> 
+<l n="9">πίλνατο: τοῖος γάρ κε μέγας ὑπὸ δοῦπος ὀρώρει</l> 
+<l n="10">τῆς μὲν ἐρειπομένης, τοῦ δ᾽ ὑψόθεν ἐξεριπόντος:</l> 
+<l n="11">τόσσος δοῦπος ἔγεντο θεῶν ἔριδι ξυνιόντων.</l>
+ </quote></p>
+<p> <quote> All the land seethed, and Ocean's streams and the unfruitful sea. The hot vapor lapped round the <persName type="myth" key="Earth">Earth</persName>born <persName type="myth" key="Titans">Titans</persName>: flame unspeakable rose to the bright upper air: the flashing glare of the thunderstone and lightning blinded their eyes for all that they were strong. [700] Astounding heat seized Χάος: and to see with eyes and to hear the sound with ears it seemed even as if <persName type="myth" key="Earth">Earth</persName> and wide <persName type="myth" key="Heaven">Heaven</persName> above came together; for such a mighty crash would have arisen if <persName type="myth" key="Earth">Earth</persName> were being hurled to ruin, and <persName type="myth" key="Heaven">Heaven</persName> from on high were hurling her down; [705] so great a crash was there while the gods were meeting together in <persName type="myth" key="Strife">Strife</persName>. </quote></p>
+                    <p>What is mostly important is the fact that the bare conflict which culminates in reshaping the universe and establishing <ref type="myth">Zeus</ref> ’ reign is made possible by Χάος’ granddaughter <persName type="myth" key="Strife">Strife</persName>, born by <persName type="myth" key="Night">Night</persName>. In Works and Days <persName type="myth" key="Strife">Strife</persName> from <ref type="lit">Theogony</ref> duplicates itself and becomes good and bad <persName type="myth" key="Strife">Strife</persName> that has ability to fuel human progress and excellency.  </p>
+                    <p>As <ref type="author">Sextus Epiricus</ref> (Adv. Math. 10.18–19)  and <ref type="author">Diogenes Laertius</ref> (<ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0257%3Abook%3D10%3Achapter%3D1">10.1</ref>) recalls, the fourteen years old Epicurus whom after being told about Χάος by his teacher, asked about its nature. If everything – as <ref type="author">Hesiod</ref> claims – comes from Χάος, then where Χάος itself comes from? Unfortunately Epicurus’ techear couldn’t satisfy curiosity of his pupil and replied that such knowledge belongs to the realm of the philosophers. By asking this very question, as we are told, Epicurus became initiated to philosophy and became a member of those who “know the thruth about things”.</p>
+                       <p><quote>καὶ τοῦτό φασιν ἔνιοι αἴτιον γεγονέναι Ἐπικούρῳ τῆς ἐπὶ τὸ φιλοσοφεῖν ὁρμῆς. κομιδῇ γὰρ μειρακίσκος ὢν ἤρετο τὸν ἐπαναγινώσκοντα αὐτῷ γραμματιστήν· “ἤτοι μὲν πρώτιστα χάος γένετ'”, ἐκ τίνος τὸ χάος ἐγένετο, εἴπερ πρῶτον ἐγένετο. Τούτου δὲ εἰπόντος μὴ ἑαυτοῦ ἔργον εἶναι τὰ τοιαῦτα διδάσκειν, ἀλλὰ τῶν καλουμένων φιλοσόφων, τοίνυν, ἔφησεν ὁ Ἐπίκουρος, ἐπ' ἐκείνους μοι βαδιστέον ἐστίν, εἴπερ αὐτοὶ τὴν τῶν ὄντων ἀλήθειαν ἴσασιν.</quote></p>
+<p>Until today, anyone who steps on the slippery ground of interpreting χάος inevitably finds herself inside the aporias of human thinking: between philosophy, myth and theology.</p>
+            </div>
+ <div type="textpart" subtype="bibliography">
+	<head>Bibliography</head>
+               <p>Cornford, F. M. 1912. From Religion to Philosophy. London.</p>     
+	<p>Hesiod. 1966. Theogony (ed.) Martin L. West. Calderon.</p>                
+	<p>Hesiod. 1983. Works and Days. (ed.) Martin L. West. Oxford.</p>                    
+	<p>Hesiod. 2006.Theogony  (ed. and trans.) Glenn W. Most. Cambridge–London.</p>
+	<p>Hesiod. 2006. Works and. Days.  (ed. and trans.) Glenn W. Most. Cambridge–London.</p>
+	<p>Hölscher, U. 1953. ”Anaximander und die Anfänge der Philosophie (II)" in: Hermes 81 (1953). 399.</p>
+	<p>Karl, W. 1967.Chaos und Tartaros in Hesiod's Theogonie.Nürnberg.</p>
+	<p>Kirk, G.S., Raven, J.E. 1984. Presocratic Philosophy. Cambridge.</p>                
+	<p>Mazon, P. 1928. Hésiode. Paris.</p>                
+	<p>Mondi. R. 1989. „Chaos and the Hesiodic Cosmogony” in: Harvard Studies in Classical Philology, Vol. 92 (1989). 1-41.</p>                
+	<p>Schoemann, G. F. 1868. Hesiodische Theogonie. Berlin.</p>                
+	<p>Schwenn, F. 1934. Die Theogonie des Hesiodos.Heidelberg. </p>
+	<p>Solmsen, F. 1949. Hesiod and Aeschylus. Ithaca–New York.</p>
+	<p>Stokes. M. 1963. "Hesiodic and Milesian Cosmogonies II”, in: Phronesis 8 (1963). 2.3</p>  
+	<p>Strauss Clay, J. 1993. "The Generation of Monsters in Hesiod" in: Classical Philology, No. 88- 2 (1993). 105–116.</p>                
+	<p>Strauss Clay, J.S. 2003. Hesiod’s Cosmos. Cambridge.</p>                
+	<p>Thalmann, F. 1984. Conventions of Form and Thought in Early Greek Epic Poetry. Baltimore–London.</p>                
+	<p>Vergados, A. 2020.Hesiod’s Verbal Craft. Oxford.</p>   
+            </div>
+            </div>
+                </div>
+        </body>
+    </text>
+</TEI>

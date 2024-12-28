@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+  <title xml:lang="grc">Ὀρφικíδαι</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES
+                    Project</ref></publisher>
+                <date when="2023"/>
+                <idno type="filename">lexicon_ὀρφικίδαι</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                        Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital document.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2024-02-20" who="Caterina_Borgatti">encoded in XML</change>
+                <change when="2024-02-19" who="Alessio_Ciarini">written contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="Morphology">
+                    <head>Morphology</head>
+                    <p/>
+                    <p><rs type="Human_agents" subtype="Groups"><foreign xml:lang="grc"><w lemma="Ὀρφικiδαι">Ὀρφικiδαι</w></foreign></rs>, noun m. pl (sing., <foreign xml:lang="grc">Ὀρφικiδας</foreign>, genitive, <foreign
+                            xml:lang="grc">Ὀρφικιδάων</foreign> > -ᾶν), enigmatic group which
+                        dedicated a votive plaque to <persName type="divine"><rs type="Super-human_agents" subtype="Divinities">Poseidon</rs> <rs type="Super-human_agents" subtype="Epithets"><hi rend="italic">Geraistos</hi></rs></persName>. The plaque was found in
+                        the ancient city of <placeName key="Kos">Kos</placeName> (once the capital of the homonymus island), inside
+                        the temple of the god <rs type="Super-human_agents" subtype="Divinities"><persName type="divine">Asclepius</persName></rs>. The
+                        inscription is the only evidence of this group and it is dated to the III
+                        century BCE, reading as follows: <quote><foreign xml:lang="grc"
+                                >[Π]οσειδ[ᾶνος] | Γεραστίί̣[ου] | Ὀρφικιδᾶν</foreign></quote> [ <ref
+                            type="ins">IG XII 4,2.</ref> 1224 (SHERWINWHITE 1978, p. 167, n. 8 and
+                        JEREZ SÁNCHEZ 2019, p. 54, p. 166, p. 413.)].</p>
+
+                </div>
+            </div>
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="Etymology">
+                    <head>Etymology</head>
+                    <p/>
+                    <p>From an etymological point of view, the lemma <foreign xml:lang="grc"><w
+                                lemma="Ὀρφικiδαι">Ὀρφικiδαι</w></foreign> is composed by the root
+                        ՚ορφικ- and patronymic suffix -iδαι (sing., -iδας/-ιδης) showing descent
+                        from a common ancestor: so, the <foreign xml:lang="grc"
+                            >Ἀλκμαιωνίδαi</foreign> are “the progeny of <persName key="Alcmaeon"
+                            >Alcmaeon</persName>”, the <foreign xml:lang="grc">Νέστoριδαι</foreign>
+                        are “the progeny of <persName key="Nestor">Nestor</persName>”, and so on.
+                        Given that, the aforementioned root would seems to be connected with the
+                        name of the mythical musician <rs type="Human_agents" subtype="Individuals"><persName key="Orpheus">Orpheus</persName></rs>
+                        but, as underlined by Susan Sherwin-White (1978, p. 167, n. 8), this
+                        reconstruction is not quite tenable:</p>
+                    <p><quote>It is difficult to connect the name <rs type="Human_agents" subtype="Gropus"><hi rend="italic">Orphikidai</hi></rs> with the
+                            personal name <rs type="Human_agents" subtype="Individuals"><persName key="Orpheus">Orpheus</persName></rs> in view of its
+                            composite nature; the collective name combines both the adjectival
+                            termination -ikos and the patronymic ending -idai. If it does denote a
+                            group of followers of <rs type="Human_agents" subtype="Individuals"><persName key="Orpheus">Orpheus</persName></rs>, i.e.
+                            initiates, the name is unlikely to be of great antiquity. We can compare
+                            the Thasian <hi rend="italic">patra Neophantidai</hi>, attested in the fifth centwy and derived
+                            by Rolley, BCH 89, 1965, p. 461, from neophantes (the newly initiated)
+                            of the <rs type="Institutions" subtype="Religious_Knowledge_Depository">Orphic hymns</rs>. But the oddity of the combination of an adjectival
+                            epithet with a patronymic termination argues against the derivation of
+                        <rs type="Human_agents" subtype="Gropus"><hi rend="italic">Orphikidai</hi></rs> from <hi rend="italic">Orphikos</hi>. The name may have been based
+                            on some unknown word, or compounded from orphos, as for example the name
+                                <persName key="Orphondas">Orphondas</persName> was, cf. Bechtel,
+                            loc. cit., p. 508.</quote></p>
+                    <p>the word <hi rend="italic">orphos</hi>, quoted by the author, is obviously
+                        not the noun <foreign xml:lang="grc">ορφος/ὀρφως</foreign> “redfish”, but
+                        the reconstructed original form of <foreign xml:lang="grc"
+                            >ὀρφανος</foreign> (“orphan”): <foreign xml:lang="grc"
+                            >*ὀρφος</foreign>, derived from words like <foreign xml:lang="grc"
+                            >ὀρφοβοται</foreign> and <foreign xml:lang="grc">ωρφωσεν·
+                            ὠρφανιζεν</foreign>, and corresponding to the Armenian orb, -oy and the
+                        Latin <foreign xml:lang="lat">orbus</foreign> (CHANTRAINE 1999 (1968), pp.
+                        829-830 and BEEKES 2010, pp. 1113-1115).</p>
+                    <p/>
+                </div>
+            </div>
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="Testimonies">
+                    <head>Testimonies</head>
+                    <p/>
+                    <p>The group of votive plaques found in the <rs type="Spaces"
+                            subtype="Buildings">Asclepeion</rs> of <placeName key="Kos"
+                            >Kos</placeName> comprises findings, ranging from the IV century BCE to
+                        the late Hellenistic age, that show the city's social subdivisions. Many of
+                        these associations, all having the gentilitial suffix -ιδαι, or -αδαι, seem
+                        to be of great antiquity, displaying patronymic references to both local and
+                        Panhellenic mythology. In fact, although none of the plaques is older than
+                        366 BCE, date of the city's foundation, the groups quoted on the
+                        inscriptions may have existed before the synoecism that lead to the
+                        capital's creation (SHERWIN-WHITE 1978, pp. 153-169). The same presence of
+                        gentilitial suffixes suggests the archaism of these organizations, linking
+                        them with that social groups that were based on kinship ties, such as the
+                            <rs type="Institutions" subtype="Administration"><foreign xml:lang="grc"
+                                    ><w lemma="φυλή">φυλή</w></foreign> (“tribe”)</rs>, the <rs
+                            type="Institutions" subtype="Administration"><foreign xml:lang="grc"><w lemma="γένος">γένος</w></foreign> (“clan”, o “patrilineal
+                                        family”)</rs> or the <rs type="Institutions" subtype="Administration"><foreign xml:lang="grc">φρατρία</foreign></rs> (“brotherhood”). Their origin is quite uncertain but they appear to have
+                        had, at least originally, a military function (BRYANT 1996, p. 16 e LACEY
+                        1968, pp. 25-26), as is shown in the <ref type="lit">Iliad Hom., Il. II,
+                            360-364</ref> :
+                    </p>
+                    <p><quote><foreign xml:lang="grc">ἀλλὰ ἄναξ αὐτός τ᾽ εὖ μήδεο πείθεό τ᾽ ἄλλῳ: οὔ τοι ἀπόβλητον ἔπος ἔσσεται ὅττί κεν εἴπω: κρῖν᾽ ἄνδρας κατὰ φῦλα κατὰ φρήτρας Ἀγάμεμνον, ὡς φρήτρη φρήτρηφιν ἀρήγῃ, φῦλα δὲ φύλοις. εἰ δέ κεν ὣς ἕρξῃς καί τοι πείθωνται Ἀχαιοί</foreign> </quote></p>
+                    <p><quote>But do thou, O king, thyself take good counsel, and hearken to
+                            another; the word whatsoever I speak, shalt thou not lightly cast aside.
+                            Separate thy men by tribes (κατὰ φυλα), by clans (κατὰ φρητρας),
+                            Agamemnon, that clan. may bear aid to clan and tribe to
+                            tribe. (MURRAY 1946, p. 77) </quote></p>
+                    <p/>
+                    <p>This passage, combined with the importance held by nobility of blood during the Archaic age, shows the antiquity of these institutions. From this angle, the <rs type="Human_agents" subtype="Groups"><foreign xml:lang="grc"><w lemma="Ὀρφικiδαι">Ὀρφικiδαι</w></foreign></rs> must have been, originally, a <rs
+                        type="Institutions" subtype="Administration"><foreign xml:lang="grc"><w lemma="γένος">γένος</w></foreign></rs> or <rs type="Institutions" subtype="Administration"><foreign xml:lang="grc">φρατρία</foreign></rs>, since these were large groups of <foreign xml:lang="grc">οἶκοι</foreign>, “families”, that claimed descent from a common ancestor. What is surprising about these institutions is that, despite the etymology of their name, as well as the name of their own festival, the <rs type="Activities" subtype="Feasting"><hi rend="italic">Apaturia</hi></rs> (from <foreign xml:lang="grc">Ομοπατόρια</foreign>, “the festival of the ones with the same father”), their members were not actually blood-related; for example, the members of the  <rs type="Human_agents" subtype="Groups"><foreign xml:lang="grc">Ὁμηρίδαι</foreign></rs> clan, were not the real progeny of <persName key="Homer">Homer</persName>, but the followers of his art (LAMBERT 1993, p. 9). That was known even in ancient times, considering that the Greeks used the term <foreign xml:lang="grc">αδελφός</foreign> to describe a biological brother  and not the word <foreign xml:lang="grc">φράτηρ</foreign>, from which φρατρία is derived (LACEY 1968,  26, BRYANT 1996,  16 e LAMBERT 1993, 8).  Anyway, whatever position these groups covered in the Archaic age, in later times, they played mostly religious functions, but they also had a key role in the assignment of citizenship (LACEY 1968,  25-26). That is true also in <placeName key="Kos">Kos</placeName>' case, where, following the social and political reorganization caused by the synoecism, the old gentilitial groups became subdivisions of the civic body, organized on a numerical basis, and not following kinship ties (SHERWIN-WHITE 1978, 153-174). </p>
+                    <p>As it can be seen from the inscription, the <rs type="Human_agents" subtype="Groups"><foreign xml:lang="grc"><w lemma="Ὀρφικiδαι">Ὀρφικiδαι</w></foreign></rs> dedicated their plaque to <persName type="divine"><rs type="Super-human_agents" subtype="Divinities">Poseidon</rs> <rs type="Super-human_agents" subtype="Epithets"><hi rend="italic">Geraistos</hi></rs></persName>. This particular epiclesis came from the Euboian city of the same name, located in the vicinity of <placeName key="Carystus">Carystus</placeName>, in the southernmost point of the island [<ref type="lit">Strab. X. 1. 7</ref>] </p>
+                    <p>The local sanctuary of the god seems to be linked with two other <rs type="Super-human_agents" subtype="Divinities"><persName key="Poseidon">Poseidon</persName></rs>'s cult places, as noted by many scholars such as  Rob W. M. Schumacher: the one on <placeName key="Cape Tainaron">Cape Tainaron</placeName> and the one on the island of <placeName key="Kalauria">Kalauria</placeName> (SCHUMACHER 1993, 52). This hypothesis is strengthened by several evidences: the presence of a month named <hi rend="italic">Geraistos</hi> and of <rs type="Activities" subtype="Feasting"><hi rend="italic">Geraistia</hi></rs> festivals in all the three cities, and the fact that all were asylum sanctuaries, considered places of refuge (SCHUMACHER 1993, 52 and  63-64). In this regard, it must be noted that the month of <hi rend="italic">Geraistos</hi> was also present in <placeName key="Kos">Kos</placeName>. Also, this particular cult of <rs type="Super-human_agents" subtype="Divinities"><persName key="Poseidon">Poseidon</persName></rs> was linked, in the <placeName key="Peloponnese">Peloponnese</placeName>, with patrician clans, similar to the <rs type="Human_agents" subtype="Groups"><foreign xml:lang="grc"><w lemma="Ὀρφικiδαι">Ὀρφικiδαι</w></foreign></rs>: the <hi rend="italic">Geraistiastai</hi> in <placeName key="Troezen">Troezen</placeName> (the city which controlled <placeName key="Kalauria">Kalauria</placeName>) and the <rs type="Human_agents" subtype="Groups"><hi rend="italic">Tainarioi/Tainaristai</hi></rs> in <placeName key="Cape Tainaron">Cape Tainaron</placeName> (SCHUMACHER 1993,  54 and 67, n. 17).  Lastly, there is a very interesting passage from the <ref type="lit">Ethnika</ref> of <persName key="Stephanus">Stephanus of Byzantium</persName>, that speaks about these interconnected sanctuaries [St. Byz., s.v. Tainaros e <hi rend="italic">Geraistos</hi> (SCHUMACHER 1993, p. 52)]: </p>
+                    <p/>
+                    <p><quote><placeName key="Tainaros"><hi rend="italic">Tainaros</hi></placeName>: ‘polis, [named] after <persName key="Tainaros">Tainaros</persName>, the brother of <persName key="Geraistos">Geraistos</persName> and child of <rs type="Super-human_agents" subtype="Divinities"><persName key="Zeus">Zeus</persName></rs>; who sailed with his brother <persName key="Kalauros">Kalauros</persName> and, having seized a place on the <placeName key="Peloponnese">Peloponnese</placeName>, set up a sanctuary of <rs type="Super-human_agents" subtype="Divinities"><persName key="Poseidon">Poseidon</persName></rs>, which is called <rs type="Super-human_agents" subtype="Epithets">Tainaron</rs>...’. In the same work is written under <placeName key="Geraistos"><hi rend="italic">Geraistos</hi></placeName>: Village on <placeName key="Euboea">Euboea</placeName>, in which is a sanctuary of <rs type="Super-human_agents" subtype="Divinities"><persName key="Poseidon">Poseidon</persName></rs>, [named] after <persName key="Geraistos">Geraistos</persName>, the son of <rs type="Super-human_agents" subtype="Divinities"><persName key="Zeus">Zeus</persName></rs></quote></p>
+                    <p/>
+                    <p>This seems to be a common foundation myth, in which the three brothers appear as the founders of three eponymous sanctuaries of <rs type="Super-human_agents" subtype="Divinities"><persName key="Poseidon">Poseidon</persName></rs>: <rs type="Institutions">Geraistos</rs> for the Euboian town, <rs type="Institutions">Tainaros</rs> for <placeName>Cape Tainaron</placeName> and <rs type="Institutions">Kalauros</rs> (even though is not explicitly stated) for the Peloponnesian city of <placeName key="Kalauria">Kalauria</placeName>, seat of an ancient and powerful <rs type="Institutions" subtype="Politics">amphictiony</rs> [Strab. VIII. 6. 14]: </p>
+                    <p/>
+                    <p><quote>Here there was an asylum sacred to Poseidon... There was also a kind of Amphiktyony at this sanctuary for the seven cities that share in the sacrifices. These were Hermion, Epidauros, Aigina, Athens, the Prasians, the Nauplians, and Minyan Orchomenos.</quote></p>
+                    <p/>
+                    <p>Since the aforementioned tale speak of  a sailing voyage made by <rs type="Super-human_agents" subtype="Divinities"><persName>Tainaros</persName></rs> and <rs type="Super-human_agents" subtype="Divinities"><persName>Kalauros</persName></rs>,  would seem that the cult of <rs type="Super-human_agents" subtype="Divinities"><persName key="Poseidon">Poseidon</persName></rs> was exported from the <rs type="Institutions">Geraistos</rs>' sanctuary, in <placeName key="Euboea">Euboea</placeName> (SCHUMACHER 1993, 52).  In the light of that, many scholars have hypothesized that the diffusion of the cult of <rs type="Super-human_agents" subtype="Divinities"><persName key="Geraistos">Geraistos</persName></rs> was linked to a “wondering tribe” of <rs type="Human_agents" subtype="Groups">Minyans</rs> or <rs type="Human_agents" subtype="Groups">Dryopians</rs>.  In fact, <persName>Euphemos</persName>, hero and Argonaut of Minyan descent, was said to have been son of <rs type="Super-human_agents" subtype="Divinities"><persName key="Poseidon">Poseidon</persName></rs> and to have lived around <placeName key="Tainaron">Tainaron</placeName> [Pind., Pyth. IV. 43–5] and, interestingly, <persName key="Herodotus">Herodotus</persName> speaks of <rs type="Human_agents" subtype="Groups">Minyans</rs> on <placeName key="Lemnos">Lemnos</placeName>, “descendants of <persName key="Euphemos">Euphemos</persName> and the other Argonauts, who were expelled from their island by the <rs type="Human_agents" subtype="Groups">Pelasgians</rs>, sailed to southern <placeName key="Lakonia">Lakonia</placeName>, sat down on the <placeName key="Taygetos">Taygetos</placeName> mountain range and were eventually admitted to Lakonian society” [Hdt., IV. 145]These <rs type="Human_agents" subtype="Groups">Minyans</rs> of <placeName key="Lemnos">Lemnos</placeName> could be linked with other groups of <rs type="Human_agents" subtype="Groups">Lemnians</rs>, <rs type="Human_agents" subtype="Groups">Imbrians</rs> and <rs type="Human_agents" subtype="Groups">Pelasgians</rs> that, according to the testimony of <persName key="Conon">Conon</persName> and <persName key="Nicholaus of Damascus">Nicholaus of Damascus</persName>, were admitted in <placeName key="Laconia">Laconia</placeName> after the Dorian invasion [<ref type="lit">Conon, Fr. XXXVI/Phot. Bibl. 186 and Nic. Dam. Exc. De Virt. I/ Fr. XXXVI</ref>]. The <rs type="Human_agents" subtype="Groups">Dryopians</rs> were, on the other hand, a tribe native of <placeName key="Thessaly">Thessaly</placeName>, which was scattered by the <rs type="Human_agents" subtype="Groups">Dorians</rs> in the southern tip of <placeName key="Euboea">Euboea</placeName>, some other <placeName key="Aegean islands">Aegean islands</placeName>, and in the <placeName key="Argolid">Argolid</placeName>; the people in the area around <placeName key="Hermione">Hermione</placeName> (just to the south-west of <placeName key="Troizen">Troizen</placeName> and <placeName key="Kalaureia">Kalaureia</placeName>) were said to be <rs type="Human_agents" subtype="Groups">Dryopians</rs> from <placeName key="Euboea">Euboea</placeName> (SCHUMACHER 1993, p. 53).</p>
+                    <p/>
+                    <p/>
+                    <p/>
+                </div>
+            </div>
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="Catalogue of occurences">
+                    <head>Catalogue of occurences</head>
+                    <p/>
+                    <p><hi rend="italic">Literary sources</hi></p>
+                    <p><list rend="bulleted">
+                        <item><ref type="lit"><ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=Hom.+Il.+2.360&amp;fromdoc=Perseus%3Atext%3A1999.01.0133">Hom., Il. II, 360-364</ref> 
+                        </ref></item>
+                        <item><ref type="lit">St. Byz., s.v. Tainaros
+                        </ref></item>
+                        <item><ref type="lit">St. Byz., s.v. Geraistos
+                        </ref></item>
+                        
+                        <item><ref type="lit"><ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=Strab.+10.1.7&amp;fromdoc=Perseus%3Atext%3A1999.01.0198">Strab. X. 1. 7 </ref>
+                        </ref></item>
+                        <item><ref type="lit"><ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=Strab.+8.6.14&amp;fromdoc=Perseus%3Atext%3A1999.01.0198">Strab. VIII. 6. 14</ref>
+                        </ref></item>
+                        <item><ref type="lit">
+                            <ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=Pind.+P.+4&amp;fromdoc=Perseus%3Atext%3A1999.01.0162">Pind., Pyth. IV. 43–5</ref>                        
+                        </ref></item>
+                        <item><ref type="lit"><ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0126%3Abook%3D4%3Achapter%3D145">Hdt., IV. 145  </ref>
+                        </ref></item>
+                        <item><ref type="lit"><ref corresp="https://stephanus.tlg.uci.edu/Iris/inst/browser.jsp#doc=tlg&amp;aid=4040&amp;wid=001&amp;st=702526&amp;et=702537&amp;hl=%7B%22hl%22%3A%5B%7B%22start%22%3A702526%2C%22end%22%3A702537%2C%22color%22%3A%22HI1%22%2C%22backToStartSnippet%22%3Afalse%2C%22forwardToEndSnippet%22%3Afalse%2C%22outOfSnippet%22%3Afalse%7D%5D%7D&amp;type=browser">Conon, Fr. XXXVI/Phot. Bibl. 186</ref>
+                        </ref></item>
+                        <item><ref type="lit"><ref corresp="https://stephanus.tlg.uci.edu/Iris/inst/browser.jsp#doc=tlg&amp;aid=0577&amp;wid=003&amp;ct=~y36z9&amp;rt=y&amp;l=20&amp;td=greek&amp;links=tlg">Nic. Dam. Exc. De Virt. I/ Fr. XXXVI</ref>
+                        </ref></item></list></p>
+                        <p><hi rend="italic">Inscriptions</hi></p>
+                        <p><list rend="bulleted">
+                            <item><ref type="ins"><ref corresp="https://epigraphy.packhum.org/text/350801?hs=42-48">IG XII 4,2. 1224</ref>
+                        </ref></item>
+                    </list></p>
+                    
+                </div>
+            </div>
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="Discussion/interpretation">
+                    <head>Discussion/interpretation</head>
+                    <p/>
+                    <p>In summary, the <rs type="Human_agents" subtype="Groups"><foreign xml:lang="grc"><w lemma="Ὀρφικiδαι">Ὀρφικiδαι</w></foreign></rs> were probably a religious association, which spread an ancient cult of  <rs type="Super-human_agents" subtype="Divinities"><persName key="Poseidon">Poseidon</persName></rs>  from the town of <placeName key="Geraistos">Geraistos</placeName>, in <placeName key="Euboea">Euboea</placeName>, to the island of <placeName key="Kos">Kos</placeName>, similarly to what was done by other groups, like the <rs type="Human_agents" subtype="Groups">Geraistiastai</rs> in the island of <placeName key="Kalauria">Kalauria</placeName> and the <rs type="Human_agents" subtype="Groups">Tainarioi</rs> at <placeName key="Cape Tainaron">Cape Tainaron</placeName>. The alleged antiquity of this group, combined with its apparent Euboian connections, would seems to suggest a very archaic origin, probably during the Iron Age. In fact, during that period the <rs type="Human_agents" subtype="Groups">Euboians</rs> formed a <hi rend="italic">koine</hi> within the <rs type="Human_agents" subtype="Groups">Aegean</rs>, from the 11th to the middle of the 9th century BCE, which encompassed both <placeName key="Boeotia">Boeotia</placeName> and <placeName key="Thessaly">Thessaly</placeName> (LEMOS 1998); that would explained the link between the cult of <persName type="divine"><rs type="Super-human_agents" subtype="Divinities">Poseidon</rs> <rs type="Super-human_agents" subtype="Epithets"><hi rend="italic">Geraistos</hi></rs></persName> and Aeolic (or, at least, not Ionians) populations such as the <rs type="Human_agents" subtype="Groups">Minyans</rs> and the <rs type="Human_agents" subtype="Groups">Dryopians</rs>. This hypothesis is strengthened by the particular position of <placeName key="Kos">Kos</placeName>, that was the connection point in the commercial route that, moving from <placeName key="Anatolia">Anatolia</placeName>, reached <placeName key="Attica">Attica</placeName>, the island of <placeName key="Kalauria">Kalauria</placeName>, <placeName key="Cape Tainaron">Cape Tainaron</placeName> and <placeName key="Crete">Crete</placeName> (MELE 1982, p. 21 e p. 29). This connection is also enlightened by some cultural traits shared with the <placeName key="Euboea">Euboea</placeName>, like the character of <persName key="Chalcodon">Chalcodon</persName> and the common links with Aeolic world (MELE 1982, p. 21 e p. 29).</p>
+                </div>
+            </div>
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="Bibliography">
+                    <head>Bibliography</head>
+                    <p/>
+                    <p>BEEKES 2010 = R. Beekes, <hi rend="italic">Etymological Dictionary of Greek</hi>, Leiden and New York, 2010.</p>
+                    <p>BRYANT 1996 = J. M. Bryant, <hi rend="italic">Moral codes and social structure in Ancient Greece</hi>, New York, 1996.</p>
+                    <p>CHANTRAINE 1999 (1968) = P. Chantraine, <hi rend="italic">Dictionnaire Etymologique de la Langue Grecque: Histoire des mots</hi>, Paris, 1999.</p>
+                    <p>JACOBY 1986 = F. Jacoby, <hi rend="italic">Die Fragmente der Griechischen Historiker. Zweiter Teil, Zeitgeschichte A</hi>, Brill, Leide, 1986 (1926).</p>
+                    <p>JACOBY 1995 = F. Jacoby, <hi rend="italic">Die Fragmente der Griechischen Historiker. Erster Teil, Genealogie und Mytholographie</hi>, Brill, Leide, 1995 (1957).</p>
+                    <p>JEREZ SÁNCHEZ 2019 = G. Jerez Sánchez, <hi rend="italic">Gramática de las inscripciones de Cos: fonética y morfología</hi>, Madrid, 2019.</p>
+                    <p>LACEY 1968 = W. K. Lacey, <hi rend="italic">The family in classical Greece</hi>, London, 1968.</p>
+                    <p>LEMOS 1998 = I. S. Lemos, <hi rend="italic">Euboea and its Aegean koine</hi>, in B. D'Agostino and M. Bats (editors) <hi rend="italic">EUBOICA. L'Eubea e la presenza euboica in Calcidica e in Occidente</hi>, Napoi, 1998.</p>
+                    <p>MELE 1982 = A. Mele, <hi rend="italic">I Ciclopi, Calcodonte e la metallurgia caldicese</hi>, in <hi rend="italic">Nouvelle contribution à l’étude
+                        de la société et de la colonisation eubéennes</hi>, Napoli, 1982.
+                    </p>
+                    <p>MURRAY 1946 = M. T. Murray (editor), Homer, <hi rend="italic">The Iliad</hi>,  Harvard, 1946.</p>
+                    <p>ROLLER 2014= D.W. Roller (editors), Strabone, <hi rend="italic">Geografia</hi>, Cambridge, 2014.</p>
+                    <p>SCHUMACHER 1993, R. W. M. Schumacher, <hi rend="italic">Three related sanctuaries of Poseidon: Geraistos, Kalaureia and
+                        Tainaron</hi>, in R. Hagg e N. Marinatos, <hi rend="italic">Greek Sanctuaries: New Approaches</hi>, New York, 2005 (1993).
+                    </p>
+                    <p>SHERWIN-WHITE 1978 = S.M. Sherwin-White, Ancient Cos. <hi rend="italic">An historical study from the Dorian
+                        settlement to the Imperial period</hi>, Göttingen, 1978.
+                    </p>
+                </div>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

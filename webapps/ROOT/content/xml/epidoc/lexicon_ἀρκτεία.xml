@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="grc">arkteia</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://site.unibo.it/lares/">LARES Project</ref></publisher>
+                <date when="2021"/>
+                <idno type="filename">lexicon_ἀρκτεία</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital document.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-05-23" who="GABRIELA_SZCZEPANIK">encoded in XML</change>
+                <change when="2023-05-23" who="GABRIELA_SZCZEPANIK">written contents</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>            
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="...">
+                <p> Arkteia_(ἀρκτεία)</p>
+             <p>   Definition</p>
+                 <p>An Attic ritual of young girls playing the bear.</p></div> 
+                <div type="textpart" n="Etymology">
+                    <head>Etymology</head>
+                    <p>Hapax legomenon attested in Hesychius Lexicon. The name of the ritual derives from the noun ἄρκτος, ‘bear’; literally ‘(the ritual) of the bear’. In ancient sources most common is the technical verb ἀρκτεύω, ‘to be a bear’ or ‘to play or serve as a bear’.</p></div>   
+                <div type="textpart" n="Testimonies">
+                    <head>Testimonies</head>
+                    <p>The unique occurrence of word ἀρκτεία is in <persName type="attested" key="Hesychius">Hesychius</persName> Lexicon (s.v. arkteia):</p>
+                    <p> <quote>ἀρκτεία· ἡ τῶν ἀρκτευομένων παρθένων τελετή. Ἀρκτεύειν δὲ τὸ καθιεροῦν </quote> (arkteia: The ritual (<hi rend="italic">telete</hi>) of the parthenoi who ‘play the bear’ (<hi rend="italic">arkteumenai</hi>). ‘To play the bear’ (<hi rend="italic">arkteuein</hi>) means ``to dedicate'' (<hi rend="italic">kathieroun</hi>).</p>
+                  <p>There is no reason to doubt that <persName type="attested" key="Hesychius">Hesychius</persName> found the word in a source from the classical period.</p></div>
+                <div type="textpart" n="Discussion/Interpretation">
+                    <head>Discussion/Interpretation</head>
+                    <p>Interpretation of this term can go in three directions: as a <rs key="practice_substitute ritual">substitute ritual</rs>, as an <rs key="practice_inititation_rite">initiation rite</rs> and as a <rs key="practice_private_rite">private rite</rs>. Lexical sources show us that this term was used in all of these ways, so the key to interpretation here is to catch the nuances between them. The only problem here is that not all scholars agree whether it was an <rs key="practice_inititation_rite">initiation rite</rs> that included a group of girls, or was it also a form of private practice, performed by a young woman who was about to get married. Christine <persName key="Sourvinou-Inwood">Sourvinou-Inwood</persName> deeply analyzed iconography related to <w lemma="ἀρκτεία">ἀρκτεία</w>, pictured on <foreign>=κρατηρίσκος</foreign> from <persName type="divine" key="Artemis">Artemis</persName>  sanctuaries in <placeName key="Brauron">Brauron</placeName> and <placeName key="Mounichia">Mounichia</placeName>, and what she stresses is:</p>
+                    <p><quote>The Mounichia krateriskos is one of a series of scenes belonging to the Attic cult of Artemis connected with the arkteia in which the "altar + palm-tree" denotes a sanctuary and cult of Artemis, since it is represented in scenes depicting and taking place in her sanctuaries at Brauron and Mounichia. This series shows that "altar of Artemis", and in particular "altar of Artemis Brauronia and Mounichia,  <persName type="divine" key="Artemis">Artemis</persName>  connected with the arkteia " was one established meaning of "altar + palm-tree" in the fifth century Attic iconography. I shall argue here that there is a wider association between the sign "altar + palm-tree" and a very important aspect of Attic Artemis' persona which comprises her involvement with the arkteia: Artemis as protector of parthenoi and of their preparation for marriage and transition to womanhood.</quote></p>
+                    <p><persName key="Sourvinou-Inwood">Sourvinou-Inwood</persName> connects <w lemma="ἀρκτεία">ἀρκτεία</w> mostly with <rs key="practice_inititation_rite">initiation rite</rs>, based on her analyse of the iconography. In case of <w lemma="ἀρκτεία">ἀρκτεία</w>, iconography is as important as textual sources – she also stresses that in case of <foreign>κρατηρίσκος</foreign> images “it is methodologically incorrect to be considering activities rather than images, and in fact the images on the krateriskoi are cult context specific". She focuses on the pre-marietal aspect of the ritual and according to her, girls aged from five to ten years old were actually in the proper age to be getting ready for married life, which would make <w lemma="ἀρκτεία">ἀρκτεία</w> just iniation ritual without any substitute sacrifice meaning. In contrary, Richard Hamilton writes that it is impossible to connect all of the representations on <foreign>κρατερισκοι</foreign> to one particular rite – he showed all of the differences – surroundings, the presence or absence of spectators, clothes and their type or lack of them, hairstyle, type of movement. The biggest difference lies in the case is if all the girls had to participate, or were they chosen, and if they were, then how. That difference is the most important, as pre-marietal and nuptic sphere rituals are usually for all girls, but in case of <rs key="practice_substitute sacrifice">substitute sacrifice</rs> it doesn’t have to be that way. <persName key="Sourvinou-Inwood">Sourvinou-Inwood</persName> wrote another article where she answered Hamilton with details why she sees <w lemma="ἀρκτεία">ἀρκτεία</w> and its aspects in particular way. It doesn’t change the fact that there is a lot of doubts and uncertainness about it and both iconography and textual sources leave us with questions. Scholar with different approach is Christopher A. Faraone, who thinks that it could be all three ways – substitute sacrifice, rite de passage or a part of private religious practice. What Faraone adds to the discussion is that he goes through all the hypothesis about the nature of <w lemma="ἀρκτεία">ἀρκτεία</w> and addresses the “initiation paradigm”, which might be, as he says, a problem in this case, as well as he takes to account that although  <foreign>κρατηρίσκος</foreign> are great source of information if it comes to  <w lemma="ἀρκτεία">ἀρκτεία</w>, they might be showing – which corresponds with the way this word (in various forms) is used in the textual sources – different rituals or performances, with misleading similarity because of their direct connections with <persName type="divine" key="Artemis">Artemis</persName> and <placeName key="Brauronian_sanctuary">Brauronian sanctuary</placeName>. </p>
+                     <p><quote>(…) all who argue that ``playing the bear'' for Artemis was an initiation rite in one way or another combine this ceramic material with the literary testimony to describe a single rite. They also depend very heavily on some kind of comparison to other rituals about which we have more information, and it is my next goal to show how many of the explicit and implicit comparisons made on behalf of the Brauronian initiations are faulty.</quote></p>
+                        <p>Most importantly, he shows that this term is much more complex and not as unified as some scholars are trying to prove. His paper is unifying and marshaling possible meanings of this term and rituals associated with it.</p>
+                       <p>Michael_B._Walbank in his article published in The Classical Quarterly, also focuses on different sources and aspects of the Brauronian bears, but what he tried to do is to clear up all the doubts about which god the ritual was for, and he states that it was  <persName type="divine" key="Artemis">Artemis</persName> . His state was based on a lot of sources and previous work of other scholars, including <persName key="Sourvinou-Inwood">Sourvinou-Inwood</persName>’s analyses of <foreign>κρατερισκοι</foreign>. To sum up, the term <w lemma="ἀρκτεία">ἀρκτεία</w> is for sure related with <persName type="divine" key="Artemis">Artemis</persName> and her sanctuaries in <placeName key="Brauron">Brauron</placeName> and <placeName key="Mounichia">Mounichia</placeName>. What is more, it is a ritual suitable only for girls – most common age range is five to ten years old, but they could be older as well (iconography shows participants clearly both before and after puberty). Ritual connected with serving <persName type="divine" key="Artemis">Artemis</persName> as a bear could happen when a danger was in sight and <rs key="practice_substitution_sacrifice">substitution sacrifice</rs> was needed, but also when a girl was about to enter womanhood and to become a wife. There is a disagreement if it was private, individually held, or a common, group rite de passage. It could also be a way of private religious practice of married woman in specific situations.</p></div>            
+            <div type="bibliography">
+                <head>Bibliography</head>
+             <bibl>1.Faraone, Ch. 2003 Playing the bear and fawn for Arthemis – female initation or substitute sacrifice?, Rhodes</bibl>
+              <bibl>2.Sourvinou ,Ch. 1971. Aristophanes, Lysistrata, 641-647, The Classical Quarterly , Nov., 1971, Vol. 21, No. 2 (Nov., 1971), pp. 339-342, Cambridge University Press on behalf of The Classical Association</bibl>
+               <bibl>3.Sourvinou – Inwood, Ch. 1985. ALTARS WITH PALM-TREES, PALM-TREES AND "PARTHENOI”, Bulletin of the Institute of Classical Studies , 1985, No. 32 (1985), pp. 125-146, Oxford University Press</bibl>
+                <bibl>4.Sourvinou-Inwood, Ch. 1990. ANCIENT RITES AND MODERN CONSTRUCTS:ON THE BRAURONIAN BEARS AGAIN, Bulletin of the Institute of Classical Studies , 1990, No. 37 (1990), pp. 1-14, Oxford University Press</bibl>
+               <bibl>5.Hamilton, R. 1989. Alkman and the Athenian Arkteia, Hesperia: The Journal of the American School of Classical Studies at Athens , Oct. - Dec., 1989, Vol. 58, No. 4 (Oct. - Dec., 1989), pp. 449-472, The American School of Classical Studies at Athens</bibl>
+                <bibl>6.Sale, W. 1975. The Temple Legends of the Arkteia, Rheinisches Museum für Philologie , 1975, Neue Folge, 118. Bd., H. 3/4 (1975), pp. 265-284, J.D. Sauerländers Verlag</bibl>
+                <bibl>7.Bevan, E.1987. The Goddess Artemis, and the Dedication of Bears in Sanctuaries, The Annual of the British School at Athens, Vol. 82 (1987), pp. 17-21, British School at Athens</bibl>
+               <bibl>8.Perlmain, P. 1989. ACTING THE SHE-BEAR FOR ARTEMIS, Arethusa , Fall 1989, Vol. 22, No. 2 (Fall 1989), pp. 111-133, The Johns Hopkins University Press</bibl>
+               <bibl>9.Papadimitrou, J. 1963. The Sanctuary of Artemis at Brauron, Scientific American , Vol. 208, No. 6 (June 1963), pp. 110-123, Scientific American, a division of Nature America, Inc.</bibl>
+                <bibl>10.Cole, S.G. 1984. The Social Function of Rituals of Maturation: The Koureion and the Arkteia, Zeitschrift für Papyrologie und Epigraphik , 1984, Bd. 55 (1984), pp. 233-244, Dr. Rudolf Habelt GmbH</bibl>
+               <bibl>11.Osborne, R. 1989. Girls' Transitions in Attic Ritual and Art, The Classical Review , 1989, New Series, Vol. 39, No. 2 (1989), pp. 272-274, Cambridge University Press on behalf of The Classical Association</bibl>
+                <bibl>12.Walbank, M.B. 1981. Artemis Bear-Leader, The Classical Quarterly , 1981, Vol. 31, No. 2 (1981), pp. 276-281, Cambridge University Press on behalf of The Classical Association</bibl>
+            </div>
+                </div>
+        </body>
+    </text>
+</TEI>
