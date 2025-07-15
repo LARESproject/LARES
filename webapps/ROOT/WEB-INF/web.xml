@@ -120,7 +120,7 @@
     -->
     <init-param>
       <param-name>log-level</param-name>
-      <param-value>WARN</param-value>
+      <param-value>ERROR</param-value>
     </init-param>
 
     <!--

@@ -142,7 +142,7 @@
         | This is the main category. The empty name attribute indicates that
         | this rule will match all log events from all categories.
         +-->
-    <category log-level="INFO" name="">
+    <category log-level="ERROR" name="">
       <log-target id-ref="main"/>
     </category>
 
@@ -151,7 +151,7 @@
         | the log will contain messages about deprecated stuff used by
         | your application.
         +-->
-    <category log-level="WARN" name="deprecation">
+    <category log-level="ERROR" name="deprecation">
       <log-target id-ref="deprecation"/>
     </category>
 
