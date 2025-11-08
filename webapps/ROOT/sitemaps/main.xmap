@@ -51,7 +51,14 @@
                   type="image" />
       </map:match>
     </map:pipeline>
-
+    
+    <!-- Robots.txt and other static files pipeline. -->
+    <map:pipeline>
+      <map:match id="local-robots-txt" pattern="robots.txt">
+        <map:read mime-type="text/plain" src="../robots.txt" />
+      </map:match>
+    </map:pipeline>
+    
     <!-- Main display pipeline. -->
     <map:pipeline type="noncaching">
       <!-- Home page (at /). -->

@@ -33,7 +33,7 @@
     </appender>
 
     <root>
-      <priority value ="debug" />
+      <priority value ="error" />
       <appender-ref ref="COCOON_DEFAULT" />
     </root>
 </log4j:configuration>
