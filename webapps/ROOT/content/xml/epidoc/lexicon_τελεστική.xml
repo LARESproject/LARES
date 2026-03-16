@@ -407,19 +407,20 @@
                         (ou droit d'accès à la prêtrise)” (Bernand 1992, vol.2, p. 48).</p>
                     <p/>
                     <p><ref type="ins"><ref corresp="https://inscriptions.packhum.org/text/219002?&amp;bookid=371"> The Rosetta Stone, OGIS 90, A</ref></ref></p>
-                    <msDesc><msIdentifier><repository>British Museum</repository><idno>EA24</idno></msIdentifier><physDesc><objectDesc>
+                   <p/><msDesc><msIdentifier><repository>British Museum, </repository><idno> inv. n. EA24</idno></msIdentifier>
+                        <physDesc><objectDesc>
                         <supportDesc>
-                            <support>stele<material>granodiorite (basalt)</material>;
+                       <support>stele, <material>granodiorite</material>; 
                                 <objectType>trilingual decree</objectType>; 
-                                <dimensions unit="cm"><height>112.30</height><depth>28.40</depth><width>75.70</width></dimensions>
+                                <dimensions unit="cm"><height>h. 112.30, </height><depth>d. 28.40, </depth><width>w. 75.70, </width></dimensions>;
                             </support></supportDesc></objectDesc></physDesc>
                        <history>
                             <origin>
-                                <origPlace><ref corresp="https://pleiades.stoa.org/places/727217">Sais</ref></origPlace>
-                                <origDate when-custom="-0196" evidence="internal">196 BCE</origDate>
+                               <p/> <origPlace><ref corresp="https://pleiades.stoa.org/places/727217">Sais</ref></origPlace>; 
+                                <p/><origDate when-custom="-0196" evidence="internal">196 BCE</origDate>; 
                             </origin>
-                            <provenance type="found">Found re-used at Fort St Julien, el-Rashid (Rosetta).</provenance>
-                            <provenance type="observed">London</provenance>
+                           <provenance type="found"><p>Found re-used at Fort St Julien, el-Rashid (Rosetta).</p></provenance>
+                           <provenance type="observed"><p>Now in London</p></provenance>
                         </history></msDesc>
                     <quote><foreign xml:lang="grc"><lb n="16"/>προσέταξεν δὲ καὶ περὶ τῶν ἱερέων ὅπως μηθὲν
                             πλεῖον διδῶσιν εἰς τὸ τελεστικὸν οὗ ἐτάσσοντο ἕως τοῦ πρώτου ἔτους ἐπὶ
