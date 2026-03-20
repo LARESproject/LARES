@@ -412,15 +412,16 @@
                         <supportDesc>
                        <support>stele, <material>granodiorite</material>; 
                                 <objectType>trilingual decree</objectType>; 
-                                <dimensions unit="cm"><height>h. 112.30, </height><depth>d. 28.40, </depth><width>w. 75.70, </width></dimensions>;
+                                <dimensions unit="cm"><height>h. 112.30, </height><depth>d. 28.40, </depth><width>w. 75.70</width></dimensions>;
                             </support></supportDesc></objectDesc></physDesc>
                        <history>
                             <origin>
-                               <p/> <origPlace><ref corresp="https://pleiades.stoa.org/places/727217">Sais</ref></origPlace>; 
-                                <p/><origDate when-custom="-0196" evidence="internal">196 BCE</origDate>; 
+                               <p><origPlace><ref corresp="https://pleiades.stoa.org/places/727217">from  Sais</ref></origPlace>; 
+                                <origDate when-custom="-0196" evidence="internal">196 BCE</origDate>; </p>
                             </origin>
+                          
                            <provenance type="found"><p>Found re-used at Fort St Julien, el-Rashid (Rosetta).</p></provenance>
-                           <provenance type="observed"><p>Now in London</p></provenance>
+                           <provenance type="observed">Now in London</provenance>
                         </history></msDesc>
                     <quote><foreign xml:lang="grc"><lb n="16"/>προσέταξεν δὲ καὶ περὶ τῶν ἱερέων ὅπως μηθὲν
                             πλεῖον διδῶσιν εἰς τὸ τελεστικὸν οὗ ἐτάσσοντο ἕως τοῦ πρώτου ἔτους ἐπὶ
