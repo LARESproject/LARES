@@ -40,7 +40,7 @@
               
                 <div type="textpart" n="Uses">
                     <head>Uses</head>
-                    <p>The word <foreign xml:lang="grc"><hi rend="bold">πίστις</hi></foreign> appears for the first time in <persName type="attested" key="Hesiod">Hesiod</persName>’s <ref type="lit">Works and Days</ref>: <foreign xml:lang="grc">πίστεις γάρ τοι ὁμῶς καὶ ἀπιστίαι ὤλεσαν ἄνδρας</foreign>, “for in fact, trust and distrust destroy men equally” (<ref type="lit">Hes. WD 372</ref>). The word is also attested in <persName type="attested">Theognis</persName>: <ref type="lit"><foreign xml:lang="grc">πίστει χρήματ’ὄλεσσα, ἀπιστίηι δ’ἐσάωσα· γνώμη δ’ἀργαλέη γίνεται ἀμφοτέρων</foreign></ref>, “through trust I lost my possessions, through distrust I rescued them; awareness of both brings bitterness.” (<ref type="lit">Thgn. 381</ref>). These are just two cases in Archaic Greece in which we can see the direct relationship of the term with the concepts of trust and credit between people.</p>
+                    <p>The word <foreign xml:lang="grc"><emph>πίστις</emph></foreign> appears for the first time in <persName type="attested" key="Hesiod">Hesiod</persName>’s <ref type="lit">Works and Days</ref>: <foreign xml:lang="grc">πίστεις γάρ τοι ὁμῶς καὶ ἀπιστίαι ὤλεσαν ἄνδρας</foreign>, “for in fact, trust and distrust destroy men equally” (<ref type="lit">Hes. WD 372</ref>). The word is also attested in <persName type="attested">Theognis</persName>: <ref type="lit"><foreign xml:lang="grc">πίστει χρήματ’ὄλεσσα, ἀπιστίηι δ’ἐσάωσα· γνώμη δ’ἀργαλέη γίνεται ἀμφοτέρων</foreign></ref>, “through trust I lost my possessions, through distrust I rescued them; awareness of both brings bitterness.” (<ref type="lit">Thgn. 381</ref>). These are just two cases in Archaic Greece in which we can see the direct relationship of the term with the concepts of trust and credit between people.</p>
                     <p>Although these are the first written testimonies of our lemma, we already had back in <persName>Homer</persName> some previews of <foreign xml:lang="grc">πίστις</foreign> through forms that share the root (<foreign xml:lang="grc">πιστός, πείθω, πιστόω</foreign>…). In <ref>the fourth book of the Iliad</ref>, usually known as the Violation of the Oaths, the assembled gods debate the fate of <placeName>Troy</placeName>: <persName type="divine">Zeus</persName> thinks of ending the fight, but <persName>Hera</persName> does not want her work (having gathered the Achaean armies) to be in vain, and she prefers to see <persName type="attested">Priam</persName> and his sons fall. <persName type="divine">Zeus</persName> sends <persName type="divine">Athena</persName> to make the Teucrians break their oaths; she appears to <persName type="attested">Pandarus</persName> and persuades him to shoot an arrow at <persName type="attested">Menelaus</persName>. She deflects the arrow so that <persName type="attested">Menelaus</persName> is hit and wounded. Then, his brother <persName>Agamemnon</persName>, cursing the Trojans, worries about him and sends for a doctor, although he never forgets his pride.</p>
                     <quote>
                         <ref type="lit">
@@ -48,7 +48,7 @@
                         </ref>
                      <l n="1">φίλε κασίγνητε θάνατόν νύ τοι ὅρκιʼἔταμνον</l>
                      <l n="2">οἶον προστήσας πρὸ Ἀχαιῶν Τρωσὶ μάχεσθαι,</l>
-                     <l n="3">ὥς σʼἔβαλον Τρῶες, κατὰ δʼὅρκια <hi rend="bold">πιστὰ</hi> πάτησαν.</l>
+                     <l n="3">ὥς σʼἔβαλον Τρῶες, κατὰ δʼὅρκια <emph>πιστὰ</emph> πάτησαν.</l>
                      <l n="4">οὐ μέν πως ἅλιον πέλει ὅρκιον αἷμά τε ἀρνῶν</l>
                      <l n="5">σπονδαί τʼἄκρητοι καὶ δεξιαὶ ᾗς ἐπέπιθμεν.</l>
                     </quote>
@@ -56,7 +56,7 @@
                     <p>
                     <l>Dear brother, it was for thy death, meseems, that I swore this oath with sacrifice</l>,
                     <l>setting thee forth alone before the face of the Achaeans to do battle with the Trojans,</l>
-                    <l>seeing the Trojans have thus smitten thee, and trodden under foot the oaths of <hi rend="bold">faith</hi> <note>Which would be more appropriately translated as oaths of loyalty.</note></l>.
+                    <l>seeing the Trojans have thus smitten thee, and trodden under foot the oaths of <emph>faith</emph> <note>Which would be more appropriately translated as oaths of loyalty.</note></l>.
                     <l>Yet in no wise is an oath of none effect and the blood of lambs</l>
                     <l>and drink-offerings of unmixed wine and the hand-clasps, wherein we put our trust.</l>
                     </p>                    
@@ -64,14 +64,14 @@
                   <p>
                   <l>¡Hermano querido! Para tu muerte celebré el jurado convenio</l> 
                   <l>cuando te puse delante de todos a fin de que lucharas por los aqueos, tú solo, con los troyanos.</l> 
-                  <l>Así te han herido: pisoteando los juramentos de <hi rend="bold">fidelidad</hi>.</l> 
+                  <l>Así te han herido: pisoteando los juramentos de <emph>fidelidad</emph>.</l> 
                   <l>Pero no serán inútiles el pacto, la sangre de los corderos,</l> 
                   <l>las libaciones de vino puro y el apretón de manos en que confiábamos.</l>
                   </p>
                 </div>
                   
                  <div type="textpart" subtype="commentary">
-                     <p>Through this example we can almost certainly assure that the first attestations of <foreign xml:lang="grc"><hi rend="bold">πίστις</hi></foreign> reveal its main meaning: trust/trustworthiness.</p> 
+                     <p>Through this example we can almost certainly assure that the first attestations of <foreign xml:lang="grc"><emph>πίστις</emph></foreign> reveal its main meaning: trust/trustworthiness.</p> 
                      <p>In the <date>5th century B.C.</date> it still had this fundamental sense as appreciated in <persName key="Gorgias">Gorgias</persName>, "life is not life to him who is deprived of credit" (<ref type="lit"><persName key="Gorgias">Gorg</persName>., <title key="Defense of Palamedes">Palam</title>., 21)</ref>. The same sense of <foreign xml:lang="grc">πίστις</foreign> as a pact of mutual fidelity between nobles that was appreciated in <persName key="Homer">Homer</persName> is still given in the <date>fifth century B.C.</date>, as we see in <persName key="Andocis">Andocis</persName> (1.43 and 1.67). The nobles made pacts with each other by means of a handshake or a test which they called <foreign xml:lang="grc">πίστις</foreign>. <persName key="Demosthenes">Demosthenes</persName> defined <foreign xml:lang="grc">πίστις</foreign> or "credit" as "the best capital for doing business" (<ref type="lit"><persName key="Demosthenes">Dem</persName>., 36.44</ref>). As opposed to <foreign xml:lang="grc">πειθός</foreign> and <foreign xml:lang="grc">πειστικός</foreign>, adjectives derived from the verb <foreign xml:lang="grc">πείθω</foreign> which both mean "persuasive," <foreign xml:lang="grc">πιστός</foreign> and <foreign xml:lang="grc">πιστικός</foreign>, adjectives derived from <foreign xml:lang="grc">πίστις</foreign>, both mean both "faithful" or "trusted" and "reliable" or "trustworthy," i.e., they qualify both subjects and objects that give assurance or confidence and those they trust. Only from the <date>first century A.D.</date> will the Christian expression <foreign xml:lang="grc">ὁ πιστός</foreign> mean the "believer."</p>
                      <p>This duality between <foreign xml:lang="grc">πίστις</foreign> and <foreign xml:lang="grc">πειθός</foreign> is also seen in the divinities: Pistis was the goddess of credibility and Peithô of seduction. The goddess Pistis "was rigorously parallel to the goddess Fides, of the Romans" (<ref><persName>Detienne</persName> <date>1983</date>, 68-75</ref>), goddess of oaths, negotiations and diplomacy to whom Numa, according to <persName key="Titus Livy">Titus Livy</persName>, had consecrated a temple near that of <persName type="divine" key="Jupiter Capitolinus">Jupiter Capitolinus</persName> (<ref type="lit"><persName key="Titus Livy">Liv</persName>., 1.21.3</ref>). The feast of Fides was celebrated on <date>October 1</date> by her priests, the fetials. The image of Fides appears on coins of <date>Republican and Imperial times</date> (<ref><persName>Momigliano</persName> <date>1987</date>, 281</ref>).</p>
                  <p>In the legal field, the meaning of proof, i.e. an evidence that deserves trust, is frequent and easily found within Greek ancient literature. This meaning can be traced, for example, in some texts of <persName key="Lysias">Lysias</persName> (458-380 BCE)</p>
@@ -79,20 +79,20 @@
                  <quote>
                        <p><ref type="lit">
                             <persName key="Lysias">Lys.</persName> – <title key="On a Wound by Premeditation">On a Wound by Premeditation</title> 18</ref></p>
-                     <p><foreign xml:lang="grc">καὶ μὴ ζητεῖτε τούτων ἔτι μείζους <hi rend="bold">πίστεις</hi>· οὐ γὰρ ἂν ἔχοιμι εἰπεῖν ἀλλʼ ἢ ταύτας, ὡς οὐδὲν εἰς τοῦτον προὐνοήθην
+                     <p><foreign xml:lang="grc">καὶ μὴ ζητεῖτε τούτων ἔτι μείζους <emph>πίστεις</emph>· οὐ γὰρ ἂν ἔχοιμι εἰπεῖν ἀλλʼ ἢ ταύτας, ὡς οὐδὲν εἰς τοῦτον προὐνοήθην
                         </foreign></p>
                     </quote>
-                     <p>Do not look for still stronger <hi rend="bold">pledges</hi> than these: I could not instance others to show that I did not premeditate anything against this man.</p>  
-                     <p>No busque <hi rend="bold">pruebas</hi> más sólidas que éstas: no podría instar a otros a demostrar que no premedité nada contra este hombre.</p>
+                     <p>Do not look for still stronger <emph>pledges</emph> than these: I could not instance others to show that I did not premeditate anything against this man.</p>  
+                     <p>No busque <emph>pruebas</emph> más sólidas que éstas: no podría instar a otros a demostrar que no premedité nada contra este hombre.</p>
 
                         <p>But this meaning is not only traceable in classical times. In authors such as <persName key="Dionysius of Halicarnassus">Dionysius of Halicarnassus</persName> (ca. 60 - 7 BCE) or <persName key="Philo">Philo</persName> himself (20 BCE - 45 CE) we find the word <foreign xml:lang="grc">πίστις</foreign> completely devoid of the meaning 'system of religious beliefs'.</p>
                    <quote>
                       <p><ref type="lit">
                           <persName key="Dionysius of Halicarnassus">Dionysius of Halicarnassus</persName></ref> – <title key="Antiquitates Romanae">Antiquitates Romanae</title> 5.48.3</p> 
-                       <p><foreign xml:lang="grc"><hi rend="bold">πίστις</hi> δ'ἀκριβὴς καὶ ἀναμφίλεκτος τῆς αὐταρκείας τοῦ ἀνδρός, ἣν ἀπεδείξατο παρὰ πάντα τὸν τοῦ βίου χρόνον, ἡ μετὰ τὸν θάνατον αὐτοῦ φανεῖσα ἀπορία.</foreign></p>
+                       <p><foreign xml:lang="grc"><emph>πίστις</emph> δ'ἀκριβὴς καὶ ἀναμφίλεκτος τῆς αὐταρκείας τοῦ ἀνδρός, ἣν ἀπεδείξατο παρὰ πάντα τὸν τοῦ βίου χρόνον, ἡ μετὰ τὸν θάνατον αὐτοῦ φανεῖσα ἀπορία.</foreign></p>
                    </quote>
-                    <p>A sure and incontestable <hi rend="bold">proof</hi> of the frugality he had shown during his whole lifetime was the poverty that  was revealed after his death.</p>
-                    <p>Una <hi rend="bold">prueba</hi> segura e incontestable de la frugalidad que había demostrado durante toda su vida fue la pobreza que se puso de manifiesto tras su muerte.</p>
+                    <p>A sure and incontestable <emph>proof</emph> of the frugality he had shown during his whole lifetime was the poverty that  was revealed after his death.</p>
+                    <p>Una <emph>prueba</emph> segura e incontestable de la frugalidad que había demostrado durante toda su vida fue la pobreza que se puso de manifiesto tras su muerte.</p>
                 
                  <quote>
                                 <ref><persName key="Philo">Philo</persName> – <title
