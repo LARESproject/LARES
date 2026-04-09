@@ -27,7 +27,7 @@
     </teiHeader>
     <text>
         <body>
-            <div type="edition" xml:lang="eng">
+            <div type="edition" xml:lang="en">
                 <div type="textpart" n="Etymology">
                     <head>Etymology</head>
                     <p><w lemma="ἄγαλμα">ἄγαλμα</w>, derivative from the <foreign>agallomai</foreign> ('to be proud of', 'to rejoice'). Etymology unclear, Cohen (1976, 100-1) lists 8 theories: (1) from <foreign>*mgalio</foreign>, a reconstructed variant of <foreign>megalo-</foreign> (‘big’, ‘great’), (Ahrens 1868, 256; Prellwitz 1892, 1); (2) From <foreign>agamai</foreign> ('I wonder', 'I admire', 'envy'), (Curtius 1879, 172; Szemerenyi 1964, 155-6; Boisacq 1916, 5); (3) from the intensifying prefix -aga ('very'), (Hofmann 1950, 1; Frisk 1960, 6; Chantraine 1968, 7); (4) from the unattested form <foreign>*agalos</foreign>, (Schwyzer (1939, 725; Chantraine 1968, 7; Beeks 2010, 7-8); (5) from the root gl- ('to shine'), related to Latin glōria ('glory', 'splendour'), gr. <foreign>aglaos</foreign> ('shining', 'glittering'), (Weber 1861, 49-50; Persson 1891, 146; Danielsson 1888: 35; Szemerenyi 1964, 155-56; cf. Chantraine 1968, 12; Brugmann 1875, 214-311); (6) from the prefix a- ('to', Latin 'ad') and gall- ('to call', Latin gallus ['rooster'], English 'call') as 'to call to', (Pisani 1928, 396; cf. Walde-Hofmann 1965, I, 843); (7) from <foreign>*gagallō</foreign>, as a reduplicated form of  PIE *gal- ('shine'), (Brugmann 1875, 214, 311); (8) from <foreign>aganos</foreign> ('mild', 'gentle') by an alteration of l-n, (Frisk 1960, 1). Cohen (1976) suggests an additional (9): from Hebrew <foreign>‛âgôl</foreign> ('roundness'), from Heb. <foreign>'agil</foreign> ('earring').</p>

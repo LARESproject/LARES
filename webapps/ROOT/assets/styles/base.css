@@ -467,9 +467,8 @@ a:link.button, a:visited.button, a:focus.button, a:hover.button, a:active.button
     display: inline;
 }
 
-.popup_box:hover .popup {
-    display: block;
-    z-index: 9;
+.popup_box .footnote {
+    cursor: pointer;
 }
 
 .popup {
@@ -485,6 +484,11 @@ a:link.button, a:visited.button, a:focus.button, a:hover.button, a:active.button
     color: white;
     background-color: #546979;
     width: 200px;
+}
+
+.popup.active {
+    display: block;
+    z-index: 9;
 }
 
 /* wider popup for footnotes */

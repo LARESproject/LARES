@@ -39,6 +39,27 @@
       </p>
       
       <script>
+         // Toggle popup visibility on click
+         function togglePopup(event) {
+           var element = event.target || event;
+           var popupBox = element.closest('.popup_box');
+           if (!popupBox) return;
+           var popup = popupBox.querySelector('.popup');
+           if (popup) {
+             popup.classList.toggle('active');
+           }
+           event.stopPropagation();
+         }
+         
+         // Close all popups when clicking outside
+         document.addEventListener('click', function(e) {
+           if (!e.target.closest('.popup_box')) {
+             document.querySelectorAll('.popup.active').forEach(function(popup) {
+               popup.classList.remove('active');
+             });
+           }
+         });
+         
          $(document).ready(function(){
          $("#toggle_practice").click(function(){
          $(".practice").toggleClass("_practice");
@@ -257,7 +278,7 @@
   
   <xsl:template priority="10" match="t:note">
     <span class="popup_box">
-      <sup class="footnote">
+      <sup class="footnote" onclick="togglePopup(event)">
         <xsl:text>[</xsl:text>
         <xsl:choose>
           <xsl:when test="@n">
