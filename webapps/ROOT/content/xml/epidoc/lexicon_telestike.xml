@@ -12,7 +12,7 @@
                 <publisher><ref target="https://site.unibo.it/lares/">LARES
                     Project</ref></publisher>
                 <date when="2023"/>
-                <idno type="filename">lexicon_τελεστική</idno>
+                <idno type="filename">lexicon_telestike</idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative
                         Commons Attribution-ShareAlike 4.0 International</licence>
@@ -110,7 +110,7 @@
                             <rs type="Activities" subtype="Ritual_practice">telestic madness</rs> comes
                         from <rs type="Super-human_Agents" subtype="Divinities"><persName type="divine"
                                 key="Dionysus">Dionysus</persName></rs>. However there’s still no
-                        explanation of the term. To explain this <rs type="Activities" subtype="Ritual_practice">telestic mania</rs> (<ref corresp="lexicon_mania.xml"><foreign xml:lang="grc"><w lemma="μανία">μανία</w></foreign></ref>) Ballériaux (1990, p.
+                        explanation of the term. To explain this <rs type="Activities" subtype="Ritual_practice">telestic mania</rs> (<ref corresp="lexicon_mania.html"><foreign xml:lang="grc"><w lemma="μανία">μανία</w></foreign></ref>) Ballériaux (1990, p.
                         36) turns to the passage <ref type="lit">244d-e</ref>, where <persName
                             key="Plato">Plato</persName> writes about a <rs type="Activities" subtype="Ritual_practice">mania</rs> without naming it, and
                         by exclusion Ballériaux believes that it is the telestic one:</p>
