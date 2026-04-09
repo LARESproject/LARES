@@ -44,8 +44,8 @@
       <xsl:apply-templates select="str[@name='index_numeral_value']"/>
       <xsl:apply-templates select="arr[@name='language_code']"/>
       <xsl:apply-templates select="str[@name='index_type']" />
-      <xsl:apply-templates select="str[@name='index_attested_form']" />
       <xsl:apply-templates select="str[@name='index_item_type']" />
+      <xsl:apply-templates select="str[@name='index_attested_form']" />
       <xsl:apply-templates select="str[@name='index_item_role']" />
       <xsl:apply-templates select="arr[@name='index_instance_location']" />
     </tr>

@@ -67,13 +67,24 @@
   </xsl:template>-->
   
   <xsl:template match="tei:rs[@key]" mode="facet_realm">
-    <xsl:for-each select="tokenize(@key, ' ')">
+    <xsl:for-each select="tokenize(normalize-space(@key), '\s+')">
     <xsl:variable name="realm" select="."/>
-    <field name="realm">
-      <xsl:value-of select="$realm" />
-    </field>
+        <field name="realm">
+            <xsl:value-of select="upper-case(substring($realm,1,1))" />
+            <xsl:value-of select="substring($realm, 2)" />
+        </field>
     </xsl:for-each>
   </xsl:template>
+    
+    <xsl:template match="tei:rs[@type]" mode="facet_realm">
+        <xsl:for-each select="tokenize(normalize-space(@type), '\s+')">
+            <xsl:variable name="realm" select="."/>
+            <field name="realm">
+                <xsl:value-of select="upper-case(substring($realm,1,1))" />
+                <xsl:value-of select="substring($realm, 2)" />
+            </field>
+        </xsl:for-each>
+    </xsl:template>
   
   <!-- This template is called by the Kiln tei-to-solr.xsl as part of
        the main doc for the indexed file. Put any code to generate

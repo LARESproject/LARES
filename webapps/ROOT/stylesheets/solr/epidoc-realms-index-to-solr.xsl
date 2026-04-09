@@ -16,7 +16,7 @@
   <xsl:template match="/">
     <xsl:variable name="root" select="." />
     <xsl:variable name="key-values">
-      <xsl:for-each select="//tei:rs[@key]/@key">
+        <xsl:for-each select="//tei:rs[@key]/@key|//tei:rs[@type]/@type">
         <xsl:value-of select="normalize-space(.)" />
         <xsl:text> </xsl:text>
       </xsl:for-each>
@@ -25,9 +25,10 @@
     <add>
       <xsl:for-each select="$keys">
         <xsl:variable name="realm" select="." /> 
-        <xsl:variable name="item" select="$root//tei:rs[contains(concat(' ', @key, ' '), concat(' ', $realm, ' '))]" />
+        <xsl:variable name="item" select="$root//tei:rs[contains(concat(' ', @key, ' '), concat(' ', $realm, ' ')) or contains(concat(' ', @type, ' '), concat(' ', $realm, ' '))]" />
         <xsl:for-each-group select="$item" group-by="concat(., '-', $realm)">
           <xsl:variable name="specific-item" select="."/>
+          <xsl:variable name="subtype" select="@subtype"/>
           <xsl:for-each select="$realm">
         <doc>
           <field name="document_type">
@@ -38,7 +39,10 @@
           </field>
           <xsl:call-template name="field_file_path" />
           <field name="index_item_name">
-            <xsl:value-of select="$realm" />
+            <xsl:value-of select="replace($realm, '_', ' ')" />
+          </field>
+          <field name="index_item_type">
+            <xsl:value-of select="replace($subtype, '_', ' ')" />
           </field>
           <field name="index_attested_form">
             <xsl:value-of select="$specific-item" />
