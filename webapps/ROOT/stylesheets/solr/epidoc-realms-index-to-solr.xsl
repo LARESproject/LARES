@@ -28,7 +28,7 @@
         <xsl:variable name="item" select="$root//tei:rs[contains(concat(' ', @key, ' '), concat(' ', $realm, ' ')) or contains(concat(' ', @type, ' '), concat(' ', $realm, ' '))]" />
         <xsl:for-each-group select="$item" group-by="concat(., '-', $realm)">
           <xsl:variable name="specific-item" select="."/>
-          <xsl:variable name="subtype" select="@subtype"/>
+          <xsl:variable name="subtype" select="replace(replace(normalize-space(@subtype), ' ', ', '), '_', ' ')"/>
           <xsl:for-each select="$realm">
         <doc>
           <field name="document_type">
@@ -42,7 +42,7 @@
             <xsl:value-of select="replace($realm, '_', ' ')" />
           </field>
           <field name="index_item_type">
-            <xsl:value-of select="replace($subtype, '_', ' ')" />
+            <xsl:value-of select="$subtype" />
           </field>
           <field name="index_attested_form">
             <xsl:value-of select="$specific-item" />
