@@ -65,19 +65,16 @@
       </field>
     </xsl:for-each>
   </xsl:template>-->
-  
-  <xsl:template match="tei:rs[@key]" mode="facet_realm">
-    <xsl:for-each select="tokenize(normalize-space(@key), '\s+')">
-    <xsl:variable name="realm" select="."/>
-        <field name="realm">
-            <xsl:value-of select="upper-case(substring($realm,1,1))" />
-            <xsl:value-of select="substring($realm, 2)" />
-        </field>
-    </xsl:for-each>
-  </xsl:template>
     
-    <xsl:template match="tei:rs[@type]" mode="facet_realm">
-        <xsl:for-each select="tokenize(normalize-space(@type), '\s+')">
+    <xsl:template match="tei:rs[@type or @key]" mode="facet_realm">
+        <!-- @type should be used; @key is kept for backward compatibility -->
+         <xsl:variable name="type">
+            <xsl:choose>
+                <xsl:when test="@type"><xsl:value-of select="@type"/></xsl:when>
+                <xsl:when test="@key"><xsl:value-of select="@key"/></xsl:when>
+            </xsl:choose>
+          </xsl:variable>
+        <xsl:for-each select="tokenize(normalize-space($type), '[\s-]+')">
             <xsl:variable name="realm" select="."/>
             <field name="realm">
                 <xsl:value-of select="upper-case(substring($realm,1,1))" />

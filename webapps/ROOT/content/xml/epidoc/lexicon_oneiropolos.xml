@@ -50,7 +50,7 @@
                    <lb/>ἀλλ’ ἄγε δή τινα μάντιν ἐρείομεν ἢ ἱερῆα
                    <lb/>ἢ καὶ ὀνειροπόλον, καὶ γάρ τ’ ὄναρ ἐκ Διός ἐστιν,
                    <lb/>ὅς κ’ εἴποι ὅ τι τόσσον ἐχώσατο Φοῖβος Ἀπόλλων,
-                   <lb/>εἴ ταρ ὅ γ’ <rs key="practice">εὐχωλῆς</rs> ἐπιμέμφεται ἠδ’ <rs key="practice">ἑκατόμβης</rs>,
+                   <lb/>εἴ ταρ ὅ γ’ <rs type="practice">εὐχωλῆς</rs> ἐπιμέμφεται ἠδ’ <rs type="practice">ἑκατόμβης</rs>,
                    <lb/>αἴ κέν πως ἀρνῶν κνίσης αἰγῶν τε τελείων
                    <lb/>βούλεται ἀντιάσας ἡμῖν ἀπὸ λοιγὸν ἀμῦναι.</quote>
                  
@@ -118,7 +118,7 @@
                   <p>Finally, the Neoplatonic philosopher <persName key="Porphyry">Porphyry</persName> (ca. 234–ca. 305 AD) appears to have held similar views as <persName key="Hippocrates">Hippocrates</persName>, in that he considered μάντις, ἱερεύς, and ὀνειροπόλος to be separate occupations. Unlike <persName key="Aristonicus_of_Alexandria">Aristonicus</persName> and <persName key="Apollonius_Sophista">Apollonius</persName>, he seems to have maintained that the Homeric ὀνειροπόλοι interpreted dreams experienced by others rather than divining for others from their own dreams. He comments on Il. 24.221 (ἢ οἳ μάντιές εἰσι θυοσκόοι ἢ ἱερῆες):</p>
                   
                   <quote><ref type="lit">Porph. Quaest. Hom. ad Il. 24.221</ref>:
-                    <lb/>(…) ἠγνόησάν τινες καὶ τὸν θυοσκόον, ἀποδιδόντες τὸν αὐτὸν μάντιν. δοκεῖ δ’ ἐμοὶ ἱερέα αὐτὸν ἀποδιδόναι, ἀπὸ τοῦ καίειν τὰ <rs key="practice">θύη</rs>. (…) ὅταν οὖν εἴπῃ ἢ οἳ μάντιές εἰσι θυοσκόοι ἢ ἱερῆες, οὐ δεῖ συνάπτειν τῷ θυοσκόοι, ἢ ἱερῆες, ἀλλὰ θυοσκόοι ἢ ἱερῆες, ἵν’ ᾖ ἐπίθετον τῶν ἱερέων τὸ θυοσκόοι, τὰ <rs key="practice">τεθυμένα</rs> καίοντες· ὁ γὰρ διαζευκτικὸς ἄλλους καὶ ἄλλους δηλοῖ, ὡς τὸ ἀλλ’ ἄγε δή τινα μάντιν ἐρείομεν ἢ ἱερῆα ἢ καὶ ὀνειροπόλον. περὶ τριῶν γὰρ ἔφη· περὶ μάντεως, ὃς ἐκ <rs key="sign">σημείων</rs> ἢ <rs key="sign">τεράτων</rs> ἢ οἰωνῶν ἢ ἔκ τινων <rs key="sign">συμβόλων</rs> ἢ ἀποβάντων λέγει καὶ μαντεύεται, (...) ὁ δὲ ἱερεὺς ἀρᾶται καὶ εὔχεται τῷ θεῷ, (…). ὁ δ’ ὀνειροπόλος ἔμπειρός ἐστιν ἀποκρίνασθαι ὀνείρατα, ὥσπερ Πηνελόπη τὸν Ὀδυσσέα καὶ τοὺς χῆνας ὁραθέντας ἐπερωτᾷ ἐνύπνια διελέσθαι καὶ σαφηνίσαι. καί τινα Εὐρυδάμαντα ὀνειροπόλον γέροντά φησι μὴ κρίνασθαι τοῖς ἑαυτοῦ παισὶν ὀνείρους, ὁπότε ἤρχοντο ἐπὶ τὸν πόλεμον, οὐ μὰ Δία θεασάμενος αὐτός· οὐδὲ μὴν ἐκείνους ἰδεῖν ἔφη, ἐξ ὧν καὶ ἔμελλεν ὁ πατὴρ κρίνειν αὐτοῖς τὸ μέλλον.</quote>
+                    <lb/>(…) ἠγνόησάν τινες καὶ τὸν θυοσκόον, ἀποδιδόντες τὸν αὐτὸν μάντιν. δοκεῖ δ’ ἐμοὶ ἱερέα αὐτὸν ἀποδιδόναι, ἀπὸ τοῦ καίειν τὰ <rs type="practice">θύη</rs>. (…) ὅταν οὖν εἴπῃ ἢ οἳ μάντιές εἰσι θυοσκόοι ἢ ἱερῆες, οὐ δεῖ συνάπτειν τῷ θυοσκόοι, ἢ ἱερῆες, ἀλλὰ θυοσκόοι ἢ ἱερῆες, ἵν’ ᾖ ἐπίθετον τῶν ἱερέων τὸ θυοσκόοι, τὰ <rs type="practice">τεθυμένα</rs> καίοντες· ὁ γὰρ διαζευκτικὸς ἄλλους καὶ ἄλλους δηλοῖ, ὡς τὸ ἀλλ’ ἄγε δή τινα μάντιν ἐρείομεν ἢ ἱερῆα ἢ καὶ ὀνειροπόλον. περὶ τριῶν γὰρ ἔφη· περὶ μάντεως, ὃς ἐκ <rs type="sign">σημείων</rs> ἢ <rs type="sign">τεράτων</rs> ἢ οἰωνῶν ἢ ἔκ τινων <rs type="sign">συμβόλων</rs> ἢ ἀποβάντων λέγει καὶ μαντεύεται, (...) ὁ δὲ ἱερεὺς ἀρᾶται καὶ εὔχεται τῷ θεῷ, (…). ὁ δ’ ὀνειροπόλος ἔμπειρός ἐστιν ἀποκρίνασθαι ὀνείρατα, ὥσπερ Πηνελόπη τὸν Ὀδυσσέα καὶ τοὺς χῆνας ὁραθέντας ἐπερωτᾷ ἐνύπνια διελέσθαι καὶ σαφηνίσαι. καί τινα Εὐρυδάμαντα ὀνειροπόλον γέροντά φησι μὴ κρίνασθαι τοῖς ἑαυτοῦ παισὶν ὀνείρους, ὁπότε ἤρχοντο ἐπὶ τὸν πόλεμον, οὐ μὰ Δία θεασάμενος αὐτός· οὐδὲ μὴν ἐκείνους ἰδεῖν ἔφη, ἐξ ὧν καὶ ἔμελλεν ὁ πατὴρ κρίνειν αὐτοῖς τὸ μέλλον.</quote>
                   
                   <quote>“Some misunderstand ‘sacrificing’ (thyoskoon) (Il. 24.221), explaining it as seer, but it seems to me that he explains it as a priest, from burning the sacrificial offerings. (…) So when he says ‘or you who are sacrificing seers or priests’ (Il. 24.221), one must not join ‘or the priests’ with sacrificing, but rather ‘or sacrificing priests,’ so that sacrificing is an epithet of the priests who burn the flesh of the victim. For the disjunctive conjunction indicates different kinds, like ‘but come let us ask some seer, a priest, or a dream interpreter’ (Il. 1.62). For he spoke about three [types]: about a seer, who speaks from signs, either portents or omens, or from certain symbols or events, and prophesies, (…) but the priest prays and vows to the god whose priesthood he holds, (…). But the dream interpreter is experienced in replying to dreams just as <persName type="myth" key="Penelope">Penelope</persName> asks <persName type="myth" key="Odysseus">Odysseus</persName> to interpret and elucidate the geese seen in her sleep (Od. 19.535–53). And he says that a certain <persName type="myth" key="Eurydamas">Eurydamas</persName>, an old dream interpreter, did not reply to the dreams of his sons when they were lead to the war, not, by <persName type="divine" key="Zeus">Zeus</persName>, having seen [(dreams)] himself, [but doubtless he meant that the sons had not seen (dreams),] from which the father was going to judge the future for them (…) (Il. 5.150).” (Transl. MacPhail 2011: 269–271, with additions in square brackets)</quote>
                   
@@ -136,7 +136,7 @@
                   <p>In a Greek context, the tyrant <persName type="attested" key="Hipparchus_of_Athens">Hipparchus of Athens</persName> consulted ὀνειροπόλοι shortly before his death in 513 BC:</p>
                   
                   <quote><ref type="lit">Hdt. 5.56.2</ref>:
-                    <lb/>ταῦτα δέ, ὡς ἡμέρη ἐγένετο τάχιστα, φανερὸς ἦν ὑπερτιθέμενος ὀνειροπόλοισι· μετὰ δὲ ἀπειπάμενος τὴν ὄψιν ἔπεμπε τὴν <rs key="practice">πομπήν</rs>, ἐν τῇ δὴ τελευτᾷ.</quote>
+                    <lb/>ταῦτα δέ, ὡς ἡμέρη ἐγένετο τάχιστα, φανερὸς ἦν ὑπερτιθέμενος ὀνειροπόλοισι· μετὰ δὲ ἀπειπάμενος τὴν ὄψιν ἔπεμπε τὴν <rs type="practice">πομπήν</rs>, ἐν τῇ δὴ τελευτᾷ.</quote>
                   
                   <quote>“When morning came, he was witnessed communicating this (dream) to interpreters of dreams. After that, he put the vision out of his mind and led the procession in which he perished.”</quote>
                   
@@ -165,7 +165,7 @@
                   <p>Yet, as we have seen, the word occasionally appears in prose. In the earliest version (recensio α) of the largely fictional <title>Alexander Romance</title> attached to an author known as <persName type="attested" key="Pseudo-Callisthenes">Pseudo-Callisthenes</persName> and probably written the 3rd century AD (Nawotka 2017: 4–5), <persName type="ruler" key="Philip_II">Philip II</persName> experiences a peculiar dream while travelling and summons an ὀνειροπόλος to explain its meaning:</p>
                   
                   <quote><ref type="lit">Historia Alexandri Magni, Recensio α 1.8</ref>:
-                    <lb/>Ταῦτα ἰδὼν ἀνίσταται καὶ μεταπεμψάμενος ὀνειροπόλον διηγεῖται τὸν <rs key="belief">χρησμόν</rs>.</quote>
+                    <lb/>Ταῦτα ἰδὼν ἀνίσταται καὶ μεταπεμψάμενος ὀνειροπόλον διηγεῖται τὸν <rs type="belief">χρησμόν</rs>.</quote>
                   
                   <quote>“Having seen this (dream), he rose up, sent for a dream-interpreter, and told him the oracle.”</quote>
                   
@@ -191,7 +191,7 @@
                   <quote><ref type="lit">Orph. Arg. 601–604</ref>:
                    <lb/>Καὶ τότε δὴ βασιλῆες ὀνειροπόλον διὰ πύστιν,
                    <lb/>κνημὸν ἐπὶ ζάθεον καὶ Δίνδυμον ἀκρώρειαν,
-                   <lb/>ὄφρα κε μειλίξαιντ’ εὐοινίστοις ἐπὶ <rs key="practice">λοιβαῖς</rs>
+                   <lb/>ὄφρα κε μειλίξαιντ’ εὐοινίστοις ἐπὶ <rs type="practice">λοιβαῖς</rs>
                    <lb/>Ῥείην πρεσβυγενῆ, θυμὸν δ’ ἀλέαιντο ἀνάσσης.</quote>
                   
                   <quote>“And then the lords, because of tidings received in a dream, (went to) the sacred spur of the mountain and the ridge of <placeName key="Mount_Didymon">Mount Dindymon</placeName> in order to propitiate the ancient <persName type="divine" key="Rhea">Rhea</persName> with libations of excellent wine and to avert the anger of the goddess.”</quote>
@@ -202,7 +202,7 @@
                   
                   <quote><ref type="lit">Pseudo-Manetho, Apotelesmatica 2.204–209</ref>:
                     <lb/>τεύχει δ’ οὐ μοῦνον βίβλων ἐπιίστορας ἱρῶν,
-                    <lb/><rs key="practice">παννυχίδων</rs> <rs key="practice">τελετῶν</rs> θ’ ἡγήτορας, ἀλλὰ καὶ ἐσθλοὺς
+                    <lb/><rs type="practice">παννυχίδων</rs> <rs type="practice">τελετῶν</rs> θ’ ἡγήτορας, ἀλλὰ καὶ ἐσθλοὺς
                     <lb/>μάντιας, ἀστρονόμους καὶ ὀνειροπόλους, προπάροιθεν
                     <lb/>ἑζομένους θυσιῶν, μακάρων ἄπο θέσφατα θνητοῖς
                     <lb/>φαίνοντας, πτηνῶν τε ποτῆς ἄπο θεσπίζοντας,

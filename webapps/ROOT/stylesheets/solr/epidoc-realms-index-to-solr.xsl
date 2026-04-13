@@ -15,20 +15,21 @@
 
   <xsl:template match="/">
     <xsl:variable name="root" select="." />
-    <xsl:variable name="key-values">
-        <xsl:for-each select="//tei:rs[@key]/@key|//tei:rs[@type]/@type">
+    <xsl:variable name="type-values">
+      <!-- @type should be used; @key is kept for backward compatibility -->
+        <xsl:for-each select="//tei:rs[@type]/@type|//tei:rs[@key]/@key">
         <xsl:value-of select="normalize-space(.)" />
         <xsl:text> </xsl:text>
       </xsl:for-each>
     </xsl:variable>
-    <xsl:variable name="keys" select="distinct-values(tokenize(normalize-space($key-values), '\s+'))" />
+    <xsl:variable name="types" select="distinct-values(tokenize(normalize-space($type-values), '[\s-]+'))" />
     <add>
-      <xsl:for-each select="$keys">
+      <xsl:for-each select="$types">
         <xsl:variable name="realm" select="." /> 
-        <xsl:variable name="item" select="$root//tei:rs[contains(concat(' ', @key, ' '), concat(' ', $realm, ' ')) or contains(concat(' ', @type, ' '), concat(' ', $realm, ' '))]" />
+        <xsl:variable name="item" select="$root//tei:rs[contains(concat(' ', @type, ' '), concat(' ', $realm, ' ')) or contains(concat(' ', @key, ' '), concat(' ', $realm, ' '))]" />
         <xsl:for-each-group select="$item" group-by="concat(., '-', $realm)">
           <xsl:variable name="specific-item" select="."/>
-          <xsl:variable name="subtype" select="replace(replace(normalize-space(@subtype), ' ', ', '), '_', ' ')"/>
+          <xsl:variable name="subtype" select="replace(replace(replace(normalize-space(@subtype), '-', ' '), ' ', ', '), '_', ' ')"/>
           <xsl:for-each select="$realm">
         <doc>
           <field name="document_type">
