@@ -1,31 +1,43 @@
-INFORMAZIONI GENERALI
+## INFORMAZIONI GENERALI
+
 Per lavorare sui file occorre clonare il repository da GitHub (https://github.com/LARESproject/LARES) e creare/modificare i file XML sul proprio computer tramite un editor (e.g. Oxygen XML Editor), mantenendo la sincronizzazione con GitHub tramite GitHub Desktop.
+
 Da GitHub il sito (https://lares-lexicon.unibo.it/), realizzato con EFES (https://github.com/EpiDoc/EFES/wiki), viene aggiornato automaticamente.
+
 Alcune parti (come le singole schede) sono aggiornate ogni 5 minuti, altre parti (come gli indici e le liste dei documenti) sono aggiornate una volta al giorno all'1.01 di notte.
+
 Da https://github.com/LARESproject/LARES/settings/access è possibile aggiungere nuovi collaboratori.
 
-CONTENUTI
+## CONTENUTI
+
 Tutti i file xml utili sono nella cartella webapps/ROOT/content/xml/epidoc, che contiene sia i file xml del lessico (che iniziano con 'lexicon_') che i capitoli delle 4 monografie polacche della sezione 'Book chapters' (i file che iniziano con 'hom_', 'trag_', 'com_' e 'cpch_').
+
 La cartella webapps/ROOT/content/templates contiene i template per i capitoli dei volumi, per le schede del lessico e per i testi greci (categoria prevista inizialmente ma mai stata usata).
+
 NB: tutti i capitoli e le schede del lessico (tranne lexicon_krites_en_hadou, lexicon_mythos, lexicon_religio e lexicon_bareia_cheir) sono state tradotte dal polacco in IT/EN con tecniche AI e necessitano di controllo.
  
-MARCATURA
-Le convenzioni interne per la marcatura EpiDoc sono in corso di definizione; lexicon_bareia_cheir.xml è l'esempio più completo di file marcato. Elementi utilizzati finora:
-- Greek and Latin terms (+ automatic links to Logeion): <w lemma=""> (it is enough to specify the Greek/Latin base form inside @lemma to create an automatic link to the lemma entry on Logeion)
-- Ancient sources: <ref type="lit/ins/pap">
-- Religious terms based on their field/realm: <rs key=""> (the field/realm @key values are still to be defined)
-- Literary and mythological characters: <persName type="divine/hero/myth/literary" key="">
-- Historical figures: <persName key="">
-- Places: <placeName key="">
-- Links to TLG, Perseus, LARES entries, bibliography: <ref corresp="">
+## MARCATURA
 
-********************************************************************************
-LARES: DOCUMENTAZIONE TECNICA
-********************************************************************************
+Le convenzioni interne per la marcatura EpiDoc sono in corso di definizione; lexicon_bareia_cheir.xml è l'esempio più completo di file marcato. I nomi dei file e `<idno type="filename">` vanno sempre traslitterati in caratteri latini.
+
+Elementi utilizzati finora:
+
+- Greek and Latin terms (+ automatic links to Logeion): `<w lemma="">` (it is enough to specify the Greek/Latin base form inside @lemma to create an automatic link to the lemma entry on Logeion)
+- Ancient sources: `<ref type="lit/ins/pap">`
+- Religious terms based on their field/realm: `<rs type="" subtype="">`; both `@type` and `@subtype ` support multiple values, separated by ‘-’ (because space is not allowed; `@type` values are then tokenized); if a value is made of more than one word, these are separated by ‘_’
+- Literary and mythological characters: `<persName type="divine/hero/myth/literary" key="">`
+- Historical figures: `<persName key="">`
+- Places: `<placeName key="">`
+- Links to TLG, Perseus, LARES entries, bibliography: `<ref corresp="">`
+- Emphatized terms (bold): `<emph>` (not `<hi rend="bold">`!)
+
+
+## DOCUMENTAZIONE TECNICA
+
 - GitHub repository: https://github.com/LARESproject/LARES 
 - EFES documentation: https://github.com/EpiDoc/EFES/wiki 
 - Sito: https://lares-lexicon.unibo.it/ (credenziali: [...])
-- Accesso al server: ssh xxx@personale.dir.unibo.it@lares-lexicon.unibo.it (credenziali unibo, previa autorizzazione e uso di VPN)
+- Accesso al server: `ssh xxx@personale.dir.unibo.it@lares-lexicon.unibo.it` (credenziali unibo, previa autorizzazione e uso di VPN)
 - FortiClient VPN: Unibo VPN, -, vpn.unibo.it, 443, None, Save login; credenziali unibo
 
 - NB: dopo che si modificano file .xsl occorre spegnere e riavviare EFES sul server
@@ -33,27 +45,40 @@ LARES: DOCUMENTAZIONE TECNICA
 - Apache config file: /etc/apache2/sites-available/000-default.conf
 
 (RI)AVVIARE IL SITO SUL SERVER
+
 Per avviare EFES (o riavviare dopo il riavvio della macchina virtuale):
+
 [per non interrompere alla chiusura del terminale il processo che esegue EFES viene usato screen; se è attiva una sessione screen a cui si ha accesso, accedervi con `screen -r`, altrimenti chiudere tutte le sessioni attive con `killall screen` e riaprirne una nuova con `screen`; per uscire senza chiudere la sessione screen, digitare ctrl+A ctrl+D]
+
+```
 cd /var/www/html/LARES
 sudo sh build.sh
+```
 
 Per spegnere EFES [sull'uso di screen vedi sopra]:
+```
 cd /var/www/html/LARES
 ctrl+C
+```
 
 AGGIORNAMENTO AUTOMATICO DEL SITO DA GITHUB
+
 1) è stata installata la CLI di GitHub:
+
+````
 sudo apt install curl
 curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
 sudo snap install gh
 sudo gh auth login	(selezionare GitHub.com, poi HTTPS, poi Y)
 Paste an authentication token: (inserire un token associato ad un account di GitHub che abbia accesso al repository; i token sono generabili da qui https://github.com/settings/tokens)
+````
 
-2) l'intera cartella 'LARES' è stata clonata da GitHub: gh repo clone LARESproject/LARES
+1) l'intera cartella 'LARES' è stata clonata da GitHub: `gh repo clone LARESproject/LARES`
 
-3) È stato modificato `sudo visudo` aggiungendo $USER ALL=(ALL) NOPASSWD: ALL alla fine per poter eseguire `sudo` senza password
+2) È stato modificato `sudo visudo` aggiungendo `$USER ALL=(ALL) NOPASSWD: ALL` alla fine per poter eseguire `sudo` senza password
 
-4) È stato configurato crontab per sincronizzare le modifiche da GitHub in automatico ogni 5 minuti con `sudo git pull` e per fare 'harvest all' e 'index all' su EFES una volta al giorno all'1.01 di notte (con `sudo crontab -e`):
+3) È stato configurato crontab per sincronizzare le modifiche da GitHub in automatico ogni 5 minuti con `sudo git pull` e per fare 'harvest all' e 'index all' su EFES una volta al giorno all'1.01 di notte (con `sudo crontab -e`):
+```
 */5 * * * * cd /var/www/html/LARES && sudo git pull (ogni 5’)
 1 1 * * * curl https://admin:PASSWORD@lares-lexicon.unibo.it/admin/solr/index/all.html (all’1:01)
+```
