@@ -29,7 +29,7 @@ Elementi utilizzati finora:
 - Historical figures: `<persName key="">`
 - Places: `<placeName key="">`
 - Links to TLG, Perseus, LARES entries, bibliography: `<ref corresp="">`
-- Emphatized terms (bold): `<emph>` (not `<hi rend="bold">`!)
+- Emphasized terms (bold): `<emph>` (not `<hi rend="bold">`!)
 
 
 ## DOCUMENTAZIONE TECNICA
