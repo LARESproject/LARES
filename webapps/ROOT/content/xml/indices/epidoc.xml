@@ -21,7 +21,7 @@
           <list>
             <item>Source</item>
             <item>Type</item>
-            <item>Documents</item>
+            <item>References</item>
           </list>
         </div>
       </div>
@@ -34,7 +34,7 @@
             <item>Realm</item>
             <item>Subtype</item>
             <item>Specific term</item>
-            <item>Documents</item>
+            <item>References</item>
           </list>
         </div>
         <!--<div type="notes">
@@ -47,7 +47,7 @@
         <div type="headings">
           <list>
             <item>Term</item>
-            <item>Documents</item>
+            <item>References</item>
           </list>
         </div>
       </div>
@@ -58,7 +58,7 @@
           <list>
             <item>Name</item>
             <item>Type</item>
-            <item>Documents</item>
+            <item>References</item>
           </list>
         </div>
       </div>
@@ -69,7 +69,7 @@
           <list>
             <item>Name</item>
             <!--<item>Type</item>-->
-            <item>Documents</item>
+            <item>References</item>
           </list>
         </div>
       </div>
@@ -80,7 +80,7 @@
           <list>
             <item>Place</item>
             <!--<item>Type</item>-->
-            <item>Documents</item>
+            <item>References</item>
           </list>
         </div>
         <!--<div type="notes">
