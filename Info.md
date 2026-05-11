@@ -24,7 +24,7 @@ Elementi utilizzati finora:
 
 - Greek and Latin terms (+ automatic links to Logeion): `<w lemma="">` (it is enough to specify the Greek/Latin base form inside @lemma to create an automatic link to the lemma entry on Logeion)
 - Ancient sources: `<ref type="lit/ins/pap">`
-- Religious terms based on their field/realm: `<rs type="" subtype="">`; both `@type` and `@subtype ` support multiple values, separated by ‘-’ (because space is not allowed; `@type` values are then tokenized); if a value is made of more than one word, these are separated by ‘_’
+- Religious terms based on their field/realm: `<rs type="" subtype="">`; both `@type` and `@subtype ` support multiple values, separated by ‘;’ (because space is not allowed); if a value is made of more than one word, these are separated by ‘_’
 - Literary and mythological characters: `<persName type="divine/hero/myth/literary" key="">`
 - Historical figures: `<persName key="">`
 - Places: `<placeName key="">`
