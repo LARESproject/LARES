@@ -210,6 +210,14 @@ ul.expanded {
   list-style: circle inside none;
 }
 
+li.no-bullet {
+  list-style: none;
+}
+
+.larger-column {
+    min-width: 200px;
+}
+
 .linked_elements ul li {
     padding-bottom: 0.5em;
 }

@@ -24,7 +24,8 @@
   <message key="IV. Homer">IV. Homer</message>
   <message key="facet-entry_type">Entry Type</message>
   <message key="facet-field">Field</message>
-  <message key="facet-realm">Realm</message>
+  <message key="facet-realm">Realm Type</message>
+  <message key="facet-realm_subtype">Realm Subtype</message>
   <message key="facet-places">Places</message>
   <message key="facet-literary_and_mythological_characters">Literary and Mythological Characters</message>
 </catalogue>
