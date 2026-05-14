@@ -15,37 +15,48 @@
 
   <xsl:template match="/">
     <xsl:variable name="root" select="." />
-    <xsl:variable name="key-values">
-      <xsl:for-each select="//tei:rs[@key]/@key">
+    <xsl:variable name="type-values">
+        <xsl:for-each select="//tei:rs[@type]/@type">
         <xsl:value-of select="normalize-space(.)" />
         <xsl:text> </xsl:text>
       </xsl:for-each>
     </xsl:variable>
-    <xsl:variable name="keys" select="distinct-values(tokenize(normalize-space($key-values), '\s+'))" />
+    <xsl:variable name="types" select="distinct-values(tokenize(normalize-space($type-values), '[\s;]+'))" />
     <add>
-      <xsl:for-each select="$keys">
+      <xsl:for-each select="$types">
         <xsl:variable name="realm" select="." /> 
-        <xsl:variable name="item" select="$root//tei:rs[contains(concat(' ', @key, ' '), concat(' ', $realm, ' '))]" />
-        <xsl:for-each-group select="$item" group-by="concat(., '-', $realm)">
+        <xsl:variable name="item" select="$root//tei:rs[contains(concat(';', @type, ';'), concat(';', $realm, ';'))]" />
+        <xsl:for-each-group select="$item" group-by="concat(., '-', $realm, '-', @subtype)">
           <xsl:variable name="specific-item" select="."/>
-          <xsl:for-each select="$realm">
-        <doc>
-          <field name="document_type">
-            <xsl:value-of select="$subdirectory" />
-            <xsl:text>_</xsl:text>
-            <xsl:value-of select="$index_type" />
-            <xsl:text>_index</xsl:text>
-          </field>
-          <xsl:call-template name="field_file_path" />
-          <field name="index_item_name">
-            <xsl:value-of select="$realm" />
-          </field>
-          <field name="index_attested_form">
-            <xsl:value-of select="$specific-item" />
-          </field>
-          <xsl:apply-templates select="current-group()" />
-        </doc>
-          </xsl:for-each>
+          <xsl:variable name="subtype" select="@subtype"/>
+            <xsl:for-each select="$realm">
+          <doc>
+            <field name="document_type">
+              <xsl:value-of select="$subdirectory" />
+              <xsl:text>_</xsl:text>
+              <xsl:value-of select="$index_type" />
+              <xsl:text>_index</xsl:text>
+            </field>
+            <xsl:call-template name="field_file_path" />
+            <field name="index_item_name">
+              <xsl:value-of select="replace($realm, '_', ' ')" />
+            </field>
+              <xsl:for-each select="tokenize(normalize-space($subtype), '[\s;]+')">
+                  <field name="index_item_type">
+                      <xsl:value-of select="replace(., '_', ' ')" />
+                  </field>
+              </xsl:for-each>
+              <xsl:if test="not($subtype)">
+                  <field name="index_item_type">
+                      <xsl:value-of select="''" />
+                  </field>
+              </xsl:if>
+            <field name="index_attested_form">
+              <xsl:value-of select="$specific-item" />
+            </field>
+            <xsl:apply-templates select="current-group()" />
+          </doc>
+            </xsl:for-each>
         </xsl:for-each-group>
       </xsl:for-each>
     </add>

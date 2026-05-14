@@ -8,7 +8,7 @@
 
   <xsl:param name="language"/>
 
-  <xsl:template match="*[@xml:lang!=$language]"/>
+    <xsl:template match="*[@xml:lang!=$language and not(@xml:lang=('la', 'grc', 'he')) and not(self::tei:TEI or self::tei:teiHeader)]"/>
 
   <xsl:template match="tei:foreign" priority="10">
     <xsl:copy>

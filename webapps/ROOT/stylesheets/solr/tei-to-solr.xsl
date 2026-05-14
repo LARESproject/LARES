@@ -65,15 +65,24 @@
       </field>
     </xsl:for-each>
   </xsl:template>-->
-  
-  <xsl:template match="tei:rs[@key]" mode="facet_realm">
-    <xsl:for-each select="tokenize(@key, ' ')">
-    <xsl:variable name="realm" select="."/>
-    <field name="realm">
-      <xsl:value-of select="$realm" />
-    </field>
-    </xsl:for-each>
-  </xsl:template>
+    
+    <xsl:template match="tei:rs[@type]" mode="facet_realm">
+        <xsl:for-each select="tokenize(normalize-space(@type), '[\s;]+')">
+            <field name="realm">
+                <xsl:value-of select="upper-case(substring(.,1,1))" />
+                <xsl:value-of select="replace(substring(., 2), '_', ' ')" />
+            </field>
+        </xsl:for-each>
+    </xsl:template>
+    
+    <xsl:template match="tei:rs[@subtype]" mode="facet_realm_subtype">
+        <xsl:for-each select="tokenize(normalize-space(@subtype), '[\s;]+')">
+            <field name="realm_subtype">
+                <xsl:value-of select="upper-case(substring(.,1,1))" />
+                <xsl:value-of select="replace(substring(., 2), '_', ' ')" />
+            </field>
+        </xsl:for-each>
+    </xsl:template>
   
   <!-- This template is called by the Kiln tei-to-solr.xsl as part of
        the main doc for the indexed file. Put any code to generate
@@ -84,8 +93,8 @@
     <xsl:call-template name="field_literary_and_mythological_characters"/>
     <xsl:call-template name="field_person_name"/>
     <xsl:call-template name="field_complete_edition"/>
-    <!--<xsl:call-template name="field_field"/>-->
     <xsl:call-template name="field_realm"/>
+    <xsl:call-template name="field_realm_subtype"/>
   </xsl:template>
   
   <xsl:template name="field_entry_type">
@@ -111,5 +120,9 @@
   <xsl:template name="field_realm">
     <xsl:apply-templates mode="facet_realm" select="//tei:text/tei:body/tei:div[@type='edition']" />
   </xsl:template>
+    
+    <xsl:template name="field_realm_subtype">
+        <xsl:apply-templates mode="facet_realm_subtype" select="//tei:text/tei:body/tei:div[@type='edition']" />
+    </xsl:template>
 
 </xsl:stylesheet>

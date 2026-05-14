@@ -44,8 +44,8 @@
       <xsl:apply-templates select="str[@name='index_numeral_value']"/>
       <xsl:apply-templates select="arr[@name='language_code']"/>
       <xsl:apply-templates select="str[@name='index_type']" />
+      <xsl:apply-templates select="arr[@name='index_item_type']" />
       <xsl:apply-templates select="str[@name='index_attested_form']" />
-      <xsl:apply-templates select="str[@name='index_item_type']" />
       <xsl:apply-templates select="str[@name='index_item_role']" />
       <xsl:apply-templates select="arr[@name='index_instance_location']" />
     </tr>
@@ -67,7 +67,7 @@
   </xsl:template>
 
   <xsl:template match="str[@name='index_item_name']">
-    <th scope="row" style="text-align:left">
+      <th scope="row" style="text-align:left" class="larger-column">
       <!-- Look up the value in the RDF names, in case it's there. -->
       <xsl:variable name="rdf-name" select="/aggregation/index_names/rdf:RDF/rdf:Description[@rdf:about=current()][1]/*[@xml:lang=$language][1]" />
       <xsl:choose>
@@ -107,9 +107,13 @@
     </td>
   </xsl:template>
   
-  <xsl:template match="str[@name='index_item_type']">
-    <td>
-      <xsl:value-of select="."/>
+  <xsl:template match="arr[@name='index_item_type']">
+    <td class="larger-column">
+        <ul>
+            <xsl:for-each select="str">
+                <li class="no-bullet"><xsl:value-of select="."/></li>
+            </xsl:for-each>
+        </ul>
     </td>
   </xsl:template>
   
