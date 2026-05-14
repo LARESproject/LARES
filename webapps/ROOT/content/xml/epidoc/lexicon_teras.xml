@@ -26,7 +26,8 @@
         </revisionDesc>
     </teiHeader>
     <text>
-        <body>         
+        <body> 
+            <div type="edition" xml:lang="it">
                 <div type="textpart" n="MorfologiaEtimologia">
                     <head>Morfologia e Etimologia</head>
                     <p><foreign>τέρας</foreign>, sost. neutro (genitivo<foreign>τέρᾰτος</foreign>), di etimologia incerta; dal proto-indoeuropeo *<foreign>kʷér-ōr</foreign>, che sta per elemento o creatura mostruosamente grande, affine a <foreign> πέλωρ</foreign> a sua volta derivato dal proto-indoeuropeo *<foreign>kʷer-</foreign>, il quale sta per "fare, rendere, creare"; dal proto-slavico *<foreign>čarъ</foreign>, per indicare qualcosa di magico o stregonesco, a sua volta derivato dal proto-balto-slavico *<foreign>ker-</foreign>, *<foreign>kēr-</foreign> e dunque dal proto-indo-europeo *<foreign>kʷer-</foreign>.  Affine al sanscrito <foreign>करोति (karóti)</foreign> e al lituano <foreign> kùrti</foreign>.</p>
@@ -111,7 +112,7 @@
                     <p>In questo passo <persName type="attested" key="Eusebio di Cesarea">Eusebio di Cesarea</persName> sta analizzando il <ref type="lit"><title>Salmo</title> 70</ref>. Qui il <foreign>τέρας</foreign> è il prodigio, lo straordinario, il soverchiamento delle leggi della natura. Allo stesso tempo è anche il mostruoso. L'autore recupera quel significato antico del lemma, ipotesi sostenuta dal fatto che scelga di usarlo senza il suo corrispettivo<foreign>σημαία</foreign> . È per questo che propone una doppia lettura in cui al potere di operare prodigi, si insinua anche il dubbio o il rischio che questa dinamica e queste nuove forme di meraviglioso possano riattivare antichi valori pagani, dunque vecchie categorie culturali. L'autore è dunque conscio del pericolo della diffusione degli "uomini divini" ed è intenzionato a suggerire un atteggiamento prudente nei loro confronti.</p>
                     <p>Il valore semantico del nostro lemma procede nel tempo in questa ultima designazione, rimanendo relegato a quegli atti prodigiosi che ricordano vivamente il suo significato più antico. Ma la percezione di quel che esso sta a significare avrà una fortuna rivestita da una luce non prettamente positiva, di cui si evidenziano aspetti controversi e pericoli per le formulazioni e le conclusioni cristiane.</p>
                 </div>
-            
+            </div>
             <div type="textpart" n="bibliography">
                 <head>Bibliografia</head>
                 <p>Allen, J. <date>2010</date>,<title>Greek philosophy and signs</title>, Pittsburgh.</p>
