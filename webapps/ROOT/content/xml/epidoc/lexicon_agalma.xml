@@ -106,7 +106,7 @@
                 
                 
             </div>
-            
+            <div type="edition" xml:lang="en">
             <div type="textpart" n="Bibliography">
                 <head>Bibliography</head>
                     <p>Beeks, Robert. Etymological Dictionary of Greek. Leiden, Boston: Brill, 2009.</p>
@@ -137,6 +137,7 @@
                     <p>Walter, Otto. “Review of ‘Agalma’ by H. Bloesch,” Anzeiger für die Altertumswissenschaft, 1950, nr 3, s. 149.</p>
                     <p>Walde, Alois and John-Baptis Hofmann. Lateinisches etymologisches Wörterbuch, vol. 1, (4th ed.). Heidelberg: C. Winter, 1965.</p> 
                     <p>Weber, Hugo. Etymologische Untersuchungen. Halle: Waisenhauses, 1861.</p>  
+            </div>
             </div>
         </body>
     </text>

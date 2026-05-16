@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?> 
 <?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
-<teiHeader>
+    <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title xml:lang="grc">Teras</title>
@@ -32,6 +32,8 @@
                     <head>Morfologia e Etimologia</head>
                     <p><foreign>τέρας</foreign>, sost. neutro (genitivo<foreign>τέρᾰτος</foreign>), di etimologia incerta; dal proto-indoeuropeo *<foreign>kʷér-ōr</foreign>, che sta per elemento o creatura mostruosamente grande, affine a <foreign> πέλωρ</foreign> a sua volta derivato dal proto-indoeuropeo *<foreign>kʷer-</foreign>, il quale sta per "fare, rendere, creare"; dal proto-slavico *<foreign>čarъ</foreign>, per indicare qualcosa di magico o stregonesco, a sua volta derivato dal proto-balto-slavico *<foreign>ker-</foreign>, *<foreign>kēr-</foreign> e dunque dal proto-indo-europeo *<foreign>kʷer-</foreign>.  Affine al sanscrito <foreign>करोति (karóti)</foreign> e al lituano <foreign> kùrti</foreign>.</p>
                 </div>
+            </div>
+            <div type="edition" xml:lang="en">
                 <div type="textpart" n="Credenziali">
                     <head>Credenziali</head>
                     <p>Con il lemma <foreign>τέρας</foreign> ci si riferisce ad un fenomeno o un oggetto prodigioso, un segno divino portatore di significato, un portento o un <foreign>omen</foreign>. Più genericamente può assumere il significato di "meraviglia, prodigio, miracolo" per indicare un fenomeno o un soggetto che determinano stupore e ammirazione, al contempo timore riverenziale. Allargando il significato ad un campo più generico, esso può assumere il valore di mostro, associato ad un individuo o ad una creatura dal carattere straordinario. I significati più comuni con cui si è soliti riferirsi al <foreign>τέρας</foreign> riguardano il verificarsi di fenomeni terrestri come terremoti, eruttazioni vulcaniche, esondazioni, e fenomeni celesti come bagliori improvvisi, stelle cadenti, eclissi lunari e solari, arcobaleni. </p>
@@ -113,7 +115,8 @@
                     <p>Il valore semantico del nostro lemma procede nel tempo in questa ultima designazione, rimanendo relegato a quegli atti prodigiosi che ricordano vivamente il suo significato più antico. Ma la percezione di quel che esso sta a significare avrà una fortuna rivestita da una luce non prettamente positiva, di cui si evidenziano aspetti controversi e pericoli per le formulazioni e le conclusioni cristiane.</p>
                 </div>
             </div>
-            <div type="textpart" n="bibliography">
+            <div type="edition" xml:lang="en">
+                <div type="textpart" n="bibliography">
                 <head>Bibliografia</head>
                 <bibl>Allen, J. <date>2010</date>,<title>Greek philosophy and signs</title>, Pittsburgh.</bibl>
                 <bibl>Beerden, K.<date>2013</date>, <title>Words full of signs: Ancient Greek divination in context</title>, Leiden.</bibl>
@@ -127,7 +130,7 @@
                 <bibl>Nissinen M., <date>2019</date>,<title>Prophecy and omen divination: two sides of the same coin</title>,«<title>Prophetic divination</title>», Berlino.</bibl>
                 <bibl>Remus, H., <date>1982</date>, <title>Does Terminology Distinguish Early Christian from Pagan Miracles?</title>,«<title>The Journal of Biblical Literature</title>», 101(4), pp. 531-551.</bibl>
                 <bibl>Reitzenstein, R., <date>1906</date>, <title>Hellenistiche Wundererzahlungen</title>, Leipzing.</bibl>
-               </div>
+               </div></div>
         </body>
     </text>
 </TEI>
