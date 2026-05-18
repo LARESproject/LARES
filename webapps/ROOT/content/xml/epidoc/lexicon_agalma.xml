@@ -110,6 +110,7 @@
             </div>  <!-- end of english edition -->
             
             <div type="bibliography">
+                  <listBibl>
                     <bibl>Beeks, Robert. <title>Etymological Dictionary of Greek.</title> Leiden, Boston: Brill, 2009.</bibl>
                     <bibl>Bloesch, Hansjörg. <title>Agalma. Kleinod, Weihgeschenk, Götterbild.</title> Bern: Verlag B. Ag., 1943.</bibl> 
                     <bibl>Brugmann, Friedrich K. <title>“Über die sogenannte gebrochene Reduplication in den indogermanischen Sprachen”,</title> Curtius Studien 7, (1875), 184-216; 273-368.</bibl>
@@ -121,15 +122,15 @@
                     <bibl>Gernet, Louis. <title>“La notion mythique de la valeur en Grèce”</title>, Journal de Psychologie, 41 (1948), 415-462 (reprint in: <title>Anthropologie de la Grèce antique</title>, 1968, 121- 179).</bibl> 
                     <bibl>Hofmann, John-Baptist. <title>Etymologisches Wörterbuch der Griechischen Sprache.</title> Munich: Verlag Von R. Oldenbourg, 1949.</bibl> 
                     <bibl>Karuzos, Chrēstos. <title>Perikalles agalma.</title> Athens: Ikaros Ekdotiki Etairia, 1946.</bibl>
-                    <bibl>Kerényi, Károly. <title>“Agalma, Eikon, Eidolon”</title> in Ο. M. Nobile (trans.), Archivio di Filosofia, 1-2, (1962), 161-171 (reprint in <title>Griechische grundbegriffe</title>, Zürich, 1965, 29-62).</bibl>
+                    <bibl>Kerényi, Károly. <title>Agalma, Eikon, Eidolon</title> in Ο. M. Nobile (trans.), Archivio di Filosofia, 1-2, (1962), 161-171 (reprint in <title>Griechische grundbegriffe</title>, Zürich, 1965, 29-62).</bibl>
                     <bibl>Lazzarini, Marie. <title>Le formule delle dediche votive.</title> Rome: Accademia nazionale dei Lincei, 1976.</bibl>
                     <bibl>Lacan, Jacques. <title>“Le transfert, 1960-1961”</title>, in Jacques-Alain Miller (ed.), <title>Le séminaire de Jacques Lacan, Livre VIII</title>. Paris: Éditions du Seuil, 1991, (2001), s. 167-183.</bibl> 
                     <bibl>Lanérès, Nicole. <title>“La notion d’agalma dans les inscriptions grecques,”</title> Mètis, 10 (2012): 137-173.</bibl> 
-                    <bibl>Montanari, Franco. <title>The Brill Dictionary.</title> Leiden, Boston: Brill, 2015</bibl> 
+                    <bibl>Montanari, Franco. <title>The Brill Dictionary of Ancient Greek.</title> Leiden, Boston: Brill, 2015</bibl> 
                     <bibl>Persson, Peer. <title>Studien zur Lehre: von der Wurzelerweiterung und Wurzelvariation.</title> Uppsala: Akademiska boktryckeriet Edv. Berling, 1891.</bibl>
                     <bibl>Patera, Ioanna. <title>“Ἀγαλμα: le terme et le concept,”</title> in Stéphan Dugast, Dominique Jaillard and Ivonne Manfrinis (eds.), <title>Ágalma. Approches comparées de la notion de figuration.</title> Grenoble: Jérôme Millon, 2021, 57-76.</bibl>  
                     <bibl>Pisani, Vittore. <title>Miscellanea etymologica,</title> serie VI, vol. 4. Rendiconti della Reale Accademia Nazionale dei Lincei: 1928, 345-371.</bibl>
-                    <bibl>Philipp, Hanna. Tektonon Daidala. Der bildende Künstler und sein Werk im vorplatonischen Schrifttum. Berlin: Verlag Bruno Hessling, 1968.</bibl>
+                    <bibl>Philipp, Hanna. <title>Tektonon Daidala. Der bildende Künstler und sein Werk im vorplatonischen Schrifttum.</title> Berlin: Verlag Bruno Hessling, 1968.</bibl>
                     <bibl>Prellwitz, Walther. <title>Etymologisches Wörterbuch der griechischen Sprache.</title> Göttingen: Vandenhoeck, 1905.</bibl>
                     <bibl>Raubitschek, Anthony. <title>“Review of ‘Agalma’ by H. Bloesch,”</title> American Journal of Archaeolog, 1960, 50/1, 196-197.</bibl>
                     <bibl>Scheer, S. Tanja. <title>Die Gottheit und ihr Bild.</title> Munich: Verlag C. H. Beck, 2000.</bibl>
@@ -138,6 +139,7 @@
                     <bibl>Walter, Otto. <title>“Review of ‘Agalma’ by H. Bloesch,”</title> Anzeiger für die Altertumswissenschaft, 1950, nr 3, s. 149.</bibl>
                     <bibl>Walde, Alois and John-Baptis Hofmann. <title>Lateinisches etymologisches Wörterbuch,</title> vol. 1, (4th ed.). Heidelberg: C. Winter, 1965.</bibl> 
                     <bibl>Weber, Hugo. <title>Etymologische Untersuchungen.</title> Halle: Waisenhauses, 1861.</bibl>  
+                </listBibl>
             </div>
         </body>
     </text>

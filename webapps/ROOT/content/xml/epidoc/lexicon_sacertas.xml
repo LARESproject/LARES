@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Sacertas</title>
+                <title xml:lang="en">Sacertas</title>
+                <title xml:lang="pl">Sacertas</title>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://site.unibo.it/lares/">LARES Project</ref>
+                </publisher>
+                <date when="2026"/>
+                <idno type="filename">lexicon_sacertas</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                        Creative Commons Attribution-ShareAlike 4.0 International
+                    </licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <p>Born digital document.</p>
+            </sourceDesc>
+        </fileDesc>
+
+        <revisionDesc>
+            <listChange>
+                <change when="2026-05-17" who="S.B.">encoded in XML</change>
+                <change when="2026-05-17" who="S.B.">initial draft</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+
+        <body>
+
+            <div type="edition" xml:lang="en">
+
+                <div type="textpart" n="1">
+                    <head>Morphology</head>
+          <p>
+            <foreign xml:lang="la">Sacertas</foreign>, -tis n.f. The Latin term was coined by modern scholars. Latin legislative texts mentioned this penalty only through the ritual formula <foreign xml:lang="la">sacer esto</foreign> or <foreign xml:lang="la">similia</foreign>.
+          </p>
+                </div>
+
+                <div type="textpart" n="2">
+                    <head>Etymology</head>
+          <p>
+            The word is composed of the lemma <foreign xml:lang="la">sacer</foreign> linked to the Indo-European root *sak-, whose original meaning is not possible to reconstruct. The Hittite language attests the term <foreign xml:lang="hit">šaklai</foreign>, meaning “use, rite, law”.
+          </p>
+                </div>
+
+                <div type="textpart" n="3">
+                    <head>Testimonies</head>
+
+        <div type="inscriptions">
+            <head>Inscriptions</head>
+            <p>
+              The earliest witness of the expression <foreign xml:lang="la">sacer esto</foreign> is the inscription CIL I²,1. It was inscribed on a stone block (lapis niger), discovered in 1899 by Giacomo Boni and dated to the Augustan Age. The deity of the sacellum is unknown. The boustrophedon inscription prescribed <foreign xml:lang="la">sacertas</foreign> for anyone attempting to desecrate the place.
+            </p>
+          </div>
+
+          <div type="literary_sources">
+            <head>Literary sources</head>
+
+            <p><ref type="author">Servius</ref> and <ref type="author">Dionysius of Halicarnassus</ref> report that <foreign xml:lang="la">sacertas</foreign> was imposed on <foreign xml:lang="la">clientes</foreign> or <foreign xml:lang="la">patroni</foreign> violating mutual alliance.</p>
+              
+            <p>In his <title>De verborum significatu</title>, <ref type="author">Festus</ref> reported two laws imposing <foreign xml:lang="la">sacertas</foreign>:</p>
+                
+                   <p>Romulus stated <foreign xml:lang="la">sacertas</foreign> for those guilty of <foreign xml:lang="la">ploratio parentum </foreign>, that is knocking their own parents;</p>
+              
+                   <p>Numa Pompilius declared <foreign xml:lang="la">sacri</foreign> those who moved border stones (<ref type="author">Dionysius of Halicarnassus</ref> in <title>Roman Antiquities</title>, II, 74, 3 confirmed the witness of <ref type="author">Festus</ref>).</p>
+                
+            <p>The lexicographer also gave a clear description of the <foreign xml:lang="la">homo sacer</foreign> under the entry <foreign xml:lang="la">sacer mons</foreign>.</p>
+           
+            <p><ref type="author">Livius</ref> and <ref type="author">Plutarch</ref> mentioned a law, enacted by the consul Publicola, who made <foreign xml:lang="la">sacri</foreign> those accused of plotting to restore the monarchy.</p>
+                
+            <p><ref type="author">Livius</ref> and <ref type="author">Dionysius of Halicarnassus</ref> talked about <foreign xml:lang="la">sacrosanctitas</foreign> assigned to <foreign xml:lang="la">tribuni plebis</foreign>: those who tried to carry out an attack on their life were subject to <foreign xml:lang="la">sacertas</foreign>.</p>
+            
+            <p>Only <ref type="author">Livius</ref> reports <foreign xml:lang="la">sacertas</foreign> for those who would have liked to create a magistrature free from <foreign xml:lang="la">provocatio ad populum</foreign>.</p>
+              
+          </div>
+
+                </div>
+
+                <div type="textpart" n="4">
+                    <head>Catalogue of occurrences</head>
+
+                    <div type="inscriptions">
+            <head>Inscriptions</head>
+            <p>CIL I²,1</p>
+                    </div>
+
+          <div type="literary_sources">
+            <head>Literary sources</head>
+            <p>D.H. II.10.3 <ref corresp="https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0081.tlg001.perseus-grc2:2.10.3"></ref></p>
+            <p>D.H. VI.89.2–4<ref corresp="https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0081.tlg001.perseus-grc2:6.89.2-6.89.4"></ref></p>
+            <p>D.H. II.74.3<ref corresp="https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0081.tlg001.perseus-grc2:2.74.3"></ref></p>
+            <p>Fest., verb. sign. (plorare)</p>
+            <p>Fest., verb. sign. (Termino)</p>
+            <p>Fest., verb. sign. (sacer Mons)</p>
+            <p>Liv. II.8.2<ref corresp="https://scaife.perseus.org/reader/urn:cts:latinLit:phi0914.phi001.perseus-lat2:2.8.2"></ref></p>
+            <p>Liv. II.33.1–3<ref corresp="https://scaife.perseus.org/reader/urn:cts:latinLit:phi0914.phi001.perseus-lat2:2.33.1-2.33.3"></ref></p>
+            <p>Liv. III.55.4–5<ref corresp="https://scaife.perseus.org/reader/urn:cts:latinLit:phi0914.phi001.perseus-lat2:3.55.4-3.55.5"></ref></p>
+            <p>Liv. III.55.6–7<ref corresp="https://scaife.perseus.org/reader/urn:cts:latinLit:phi0914.phi001.perseus-lat2:3.55.6-3.55.7"></ref></p>
+            <p>Plu., Publ. XII.1<ref corresp="https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg008.perseus-grc2:12.1"></ref></p>
+            <p>Serv., ad Aen. VI, 609 <ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Serv.+A.+6.609&fromdoc=Perseus%3Atext%3A1999.02.0053"></ref></p>
+          </div>
+
+                </div>
+
+                <div type="textpart" n="5">
+                    <head>Discussion / Interpretation</head>
+       <p>
+            <foreign xml:lang="la">Sacertas</foreign> was a penalty firstly codified in <foreign xml:lang="la">Ius Quiritium</foreign> the roman private law used in nomadic age. Those subject to <foreign xml:lang="la">sacertas</foreign> were consecrated to underworld deities and could be freely killed by anyone without any consequence for their killer. There is a debate whether the murder of <foreign xml:lang="la">homines sacri</foreign> was mandatory or not and if the <foreign xml:lang="la">homines sacri</foreign> had to undergo a legal process. Since the <foreign xml:lang="la">homo sacer</foreign> became an outcast from the roman society and lost every civil right, the negative answer is highly probable for both questions. 
+       </p>
+                </div>
+
+            </div>
+
+            <div type="bibliography">
+                <p>Bernardo Albanese, ‘Sacer esto’ in «Bullettino dell’istituto di diritto romano “Vittorio Scialoja”» 91 (1988), pp. 145–177.</p>
+                <p>Roberto Fiori, La condizione di homo sacer e la struttura sociale di Roma arcaica in Thibaud Lanfranchi (a cura di), Autor de la notion de sacer, Roma, École française de Rome, 2018, pp. 171–227.</p>
+                <p>Luigi Garofalo, Sulla condizione di ‘homo sacer’ in età arcaica in «Studia et Documenta Historiae et Iuris» 56 (1990), pp. 223–255.</p>
+                <p>Luigi Garofalo, Homo liber e homo sacer: due archetipi dell’appartenenza in Carmela Russo Ruggieri (a cura di), Studi in onore di Antonino Metro (III), Milano, Giuffrè Editore, 2010, pp. 17–42.</p>
+                <p>Luigi Garofalo, Opinioni recenti in tema di sacertà in «Storia e teoria del processo. Collana di studi giuridici», Napoli, Jovene editore, 2013, pp. 1–55.</p>
+                <p>Carlo Pelloso, Sacertà e garanzie processuali in età regia e proto-repubblicana in «Storia e teoria del processo. Collana di studi giuridici», Napoli, Jovene editore, 2013, pp. 57–144.</p>
+                <p>Giampaolo Sabbatini, Appunti di preistoria del diritto romano, Torino, Giappichelli Editore, 2014.</p>
+                <p>Dario Sabbatucci, Sacer in «Studi e materiali di storia delle religioni» 23 (1952), pp. 91–101.</p>
+                <p>Leon ter Beek, Divine Law and the Penalty of 'Sacer Esto' in Early Rome in Olga Tellegen-Couperus (a cura di), Law and Religion in the Roman Republic, Leiden, Brill, 2012, pp. 11–29.</p>
+            </div>
+
+        </body>
+
+    </text>
+</TEI>
