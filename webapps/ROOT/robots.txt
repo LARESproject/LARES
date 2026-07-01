@@ -1,2 +1,4 @@
 User-agent: *
+Allow: /en/$
+Allow: /en/documents/*
 Disallow: /

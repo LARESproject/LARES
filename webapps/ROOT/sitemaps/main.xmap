@@ -52,10 +52,16 @@
       </map:match>
     </map:pipeline>
     
-    <!-- Robots.txt and other static files pipeline. -->
+    <!-- robots.txt, sitemap.xml and other static files pipeline. -->
     <map:pipeline>
       <map:match id="local-robots-txt" pattern="robots.txt">
         <map:read mime-type="text/plain" src="../robots.txt" />
+      </map:match>
+    </map:pipeline>
+    
+    <map:pipeline>
+      <map:match id="local-sitemap-xml" pattern="sitemap.xml">
+        <map:read mime-type="text/xml" src="../sitemap.xml" />
       </map:match>
     </map:pipeline>
     
