@@ -2,3 +2,4 @@ User-agent: *
 Allow: /en/$
 Allow: /en/documents/*
 Disallow: /
+Sitemap: https://lares-lexicon.unibo.it/sitemap.xml
