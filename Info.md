@@ -83,8 +83,8 @@ Paste an authentication token: (inserire un token associato ad un account di Git
 */5 * * * * cd /var/www/html/LARES && sudo git pull (ogni 5’)
 1 1 * * * /usr/bin/curl -fsS http://127.0.0.1:9999/admin/solr/index/all.html (all’1:01)
 ```
-4) In 'sw/jetty/logs' e 'webapps/openrdf-sesame/app_dir/openrdf-sesame/logs' vengono conservati solo gli ultimi 7 log, eliminando gli altri una volta al giorno tramite crontab:
+4) È stato configurato crontab per conservare solo gli ultimi 7 log in 'sw/jetty/logs' e 'webapps/openrdf-sesame/app_dir/openrdf-sesame/logs' e per impedire che 'webapps/ROOT/WEB-INF/logs/cocoon.log' superi i 100MB:
 ```
-30 23 * * * cd /var/www/html/LARES/sw/jetty/logs/ && ls -tp *.log *.log.* 2>/dev/null | grep -v '/$' | tail -n +8 | xargs -r rm --
-30 23 * * * cd /var/www/html/LARES/webapps/openrdf-sesame/app_dir/openrdf-sesame/logs/ && ls -tp *.log *.log.* 2>/dev/null | grep -v '/$' | tail -n +8 | xargs -r rm --
-```
+30 23 * * * cd /var/www/html/LARES/sw/jetty/logs && find . -maxdepth 1 -type f \( -name '*.log' -o -name '*.log.*' \) -printf '%T@ %p\n' | sort -nr | tail -n +8 | cut -d' ' -f2- | xargs -r rm -f --
+30 23 * * * cd /var/www/html/LARES/webapps/openrdf-sesame/app_dir/openrdf-sesame/logs && find . -maxdepth 1 -type f \( -name '*.log' -o -name '*.log.*' \) -printf '%T@ %p\n' | sort -nr | tail -n +8 | cut -d' ' -f2- | xargs -r rm -f --
+30 23 * * * [ $(stat -c%s /var/www/html/LARES/webapps/ROOT/WEB-INF/logs/cocoon.log 2>/dev/null || echo 0) -gt 104857600 ] && : > /var/www/html/LARES/webapps/ROOT/WEB-INF/logs/cocoon.log
