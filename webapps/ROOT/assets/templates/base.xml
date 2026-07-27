@@ -18,6 +18,8 @@
           <meta charset="utf-8" />
           <meta content="width=device-width" name="viewport" />
           <meta content="IE=edge,chrome=IE8" http-equiv="X-UA-Compatible" />
+          <meta name="description" content="LARES - Language and Religion. Lexical Change and Variation in Religious Enculturation / Acculturation phenomena of the Ancient World"/>
+          <link rel="canonical" href="https://lares-lexicon.unibo.it/en/"/>
           <title>
             <kiln:block name="title">LARES </kiln:block>
           </title>
