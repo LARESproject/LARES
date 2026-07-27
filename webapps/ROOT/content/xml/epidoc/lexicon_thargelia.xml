@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Thargelia</title>
+                <title xml:lang="en">Thargelia</title>
+                <title xml:lang="pl">Thargelia</title>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://site.unibo.it/lares/">LARES Project</ref>
+                </publisher>
+                <date when="2026"/>
+                <idno type="filename">lexicon_thargelia</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                        Creative Commons Attribution-ShareAlike 4.0 International
+                    </licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <p>Born digital document.</p>
+            </sourceDesc>
+        </fileDesc>
+
+        <revisionDesc>
+            <listChange>
+                <change when="2024-09-25" who="Francesco_Pio_Cancellieri ">No information</change>
+                <change when="2026-05-17" who="Slawomir_Bobola">Encoded in XML</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text>
+
+        <body>
+
+            <div type="edition" xml:lang="en">
+
+                <div type="textpart" n="1">
+                    <head>Morphology</head>
+                        <p>
+                        <foreign xml:lang="grc">Θαργήλια</foreign>, -ων n. Greek
+                        </p>
+                </div>
+                
+                 <div type="textpart" n="2">
+                    <head>Etymology</head>
+                     
+                     <p>Its name is derived from a stew of first fruits—cooked in a pot called <foreign xml:lang="grc">θάργηλια</foreign>—offered to Apollo during the festival (<rs key="action">offering</rs>).</p>
+                     
+                </div>
+                
+                <div type="text">
+
+                <div type="textpart" n="3">
+                    <head>Testimonies</head>
+                
+                    <p> In Athens, during the sixth and seventh days of the month <foreign xml:lang="grc">Thargelion</foreign>, corresponding roughly to the months of May/June, a celebration known as <foreign xml:lang="grc">Θαργήλια</foreign> took place. <ref type="author">Harpocration</ref> confirms this information under his entry <foreign xml:lang="grc">Θαργήλια</foreign>:
+                    
+                    <quote>ἑορτή ἐστι τὰ Θαργήλια, ἄγεται δὲ Θαργηλιῶνι μηνὶ, ὅς ἐστιν ἱερὸς Ἀπόλλωνος</quote>(<ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2013.01.0002%3Aletter%3Dq%3Aentry%3Dthargelia"></ref>).</p>
+
+                    <p>According to <ref type="author">Diogenes Laertius</ref> the festival was placed on the days when tradition collocated the respective births of Artemis and Apollo, to whom the festival was dedicated (<ref corresp="http://www.perseus.tufts.edu/hopper/text?doc=urn:cts:greekLit:tlg0004.tlg001.perseus-grc1:2"></ref> <rs key="deity">divinities</rs>).</p>
+
+                    <p>On the first day of this festival, a purificatory rite took place. It involved the ritual expulsion of two <foreign xml:lang="grc">φαρμακοί</foreign> who were previously maintained at public expense (<rs key="practice">religious practice</rs>).</p>
+
+                    <p>The connection between the <foreign xml:lang="grc">φαρμακός</foreign> and the Athenian festival of <foreign xml:lang="grc">Θαργήλια</foreign> is firstly attested in fragment 104 W2 of <ref type="author">Hipponax</ref>, in which a fight and perhaps some sexual practices were mentioned, but unfortunately the precise content of the iamb is largely uncertain as its main witness is the fragmentary P.Oxy. XVIII 2175 (<ref corresp="https://papyri.info/dclp/6020"></ref>).</p>
+
+                    <p> The most interesting verses for the present study are 47–49:
+                    
+                        <quote>ὁ δ' ἐξολισθὼν ἱκέτευε τὴν κράμβην τὴν ἑπτάφυλλον, ἧι θύεσκε Πανδώρα Θαργηλίοισιν ἔγκυθρον πρὸ φαρμακοῦ</quote>.
+      
+                    Despite the obscurity of this passage, the text clearly establishes a connection between <foreign xml:lang="grc">Θαργήλια</foreign> and the cathartic expulsion of the <foreign xml:lang="grc">φαρμακός</foreign></p>
+
+                    <p>This ritual is also mentioned in the lexicographical work <title>Περὶ τῶν Λέξεων τῶν Δέκα Ῥητόρων</title> by the second century AD grammarian <ref type="author">Valerius Harpocration</ref>. He transcribed the testimony from a student of <ref type="author">Callimachus</ref>, <ref type="author">Istros</ref>:
+                        
+                        <quote>‘Φαρμακός’: Λυσίας ἐν τῷ κατ ̓ Ἀνδοκίδου ἀσεβείας, εἰ γνήσιος. δύο ἄνδρας Ἀθήνησιν ἐξῆγον καθάρσια ἐσομένους τῆς πόλεως ἐν τοῖς Θαργηλίοις, ἕνα μὲν ὑπὲρ τῶν ἀνδρῶν, ἕνα δὲ ὑπὲρ τῶν γυναικῶν. ὅτι δὲ ὄνομα κύριόν ἐστιν ὁ Φαρμακός, ἱερὰς δὲ φιάλας τοῦ Ἀπόλλωνος κλέψας, ἁλοὺς ὑπὸ τῶν περὶ τὸν Ἀχιλλέα κατελεύσθη, καὶ τὰ τοῖς Θαργηλίοις ἀγόμενα τούτων ἀπομιμήματά ἐστιν, Ἴστρος ἐν ά τῶν Ἀπόλλωνος ἐπιφανειῶν εἴρηκεν.</quote>(<ref corresp="https://books.google.it/books?id=0o1fAAAAMAAJ&pg=PA298&lpg=PA298"></ref>).
+                    </p>
+
+                    <p><ref type="author">Harpocration</ref> immediately refers to the <title>sixth oration</title> of <ref type="author">Lysias</ref> in which the defendant is described as a criminal whose presence in the city cannot be tolerated. Indeed, Andocides, guilty of impiety, must be expelled like a scapegoat in order to prevent the spread of his contamination within the community. The lemma then continues noticing that during <foreign xml:lang="grc">Θαργήλια</foreign> two men, symbolizing the whole Athenian citizenry, were expelled and one of them was probably dressed as a woman (<rs key="clothing">clothing</rs>).</p>
+
+                    <p>It is important to notice that the female costume attested in <ref type="author">Harpocration</ref> contrasts with the note of the lexicographer <ref type="author">Hesychius</ref>, who probably lived during the fifth century AD in Alexandria. Indeed, in his <foreign xml:lang="grc">Λεξικόν</foreign> he does not admit the presence of two men but of a man and a woman: <quote>Φαρμακοί: καθαρτήριοι. περικαθαίροντες τὰς πόλεις, ἀνὴρ καὶ γυνή</quote>(<ref corresp="https://el.wikisource.org/wiki/Γλώσσαι/Φ"></ref>). Harpocration also tried to reconstruct the etymology of the word <foreign xml:lang="grc">φαρμακός</foreign>: there was a mythological character whose name was <foreign xml:lang="grc">Φαρμακός</foreign>, who, guilty of robbing some objects consecrated to Apollo, was stoned to death. According to this interpretation, the practice of lynching the <foreign xml:lang="grc">φαρμακός</foreign> merely retraced this mythical event.</p>
+
+                    <p>In any case, this etiology is in contrast with what is read in <ref type="author">Helladius</ref>, preserved by <ref type="author">Photius</ref> in <title>Βιβλιοθήκη</title> (VII, 534a). In this version, the ritual is linked instead to a plague following the death of Androgeus of Crete. Thus different traditions explain the origin of the same practice.</p>
+                     
+                     
+                    <p>In any case, this etiology is in contrast with what is read in <ref type="author">Helladius</ref>, a grammarian of the fourth century AD from Antinopolis. His work <title>Chrestomathy</title> was a collection of literary texts in iambic trimeters witnessed by the Byzantine patriarch of the ninth century AD, <ref type="author">Photius</ref>. In his <title>Βιβλιοθήκη</title> (VII, 534a), a sort of encyclopedia in which the lexicographer had recorded all his readings, the author stated:</p>
+
+                        <quote>ἔθος ἦν ἐν Ἀθήναις φαρμάκους ἄγειν δύο, τὸν μὲν ὑπὲρ ἀνδρῶν, τὸν δὲ ὑπὲρ γυναικῶν, πρὸς τὸν καθαρμὸν ἀγομένους. καὶ ὁ μὲν τῶν ἀνδρῶν μελαίνας ἰσχάδας περὶ τὸν τράχηλον εἶχε, λευκὰς δ’ ἅτερος. συβάκχοι δέ φησιν ὠνομάζοντο. τὸ δὲ καθάρσιον τοῦτο λοιμικῶν νόσων ἀποτροπιασμὸς ἦν, λαβὸν τὴν ἀρχὴν ἀπὸ Ἀνδρόγεω τοῦ Κρητός, οὗ τεθνηκότος ἐν ταῖς Ἀθήναις παρανόμως τὴν λοιμικὴν ενόσησαν οἱ Ἀθηναῖοι νόσον, καὶ ἐκράτει τὸ ἔθος ἀεὶ καθαίρειν τὴν πόλιν τοῖς φαρμακοῖς.</quote>
+
+                    <p>In this source, as well in the previous one, two <foreign xml:lang="grc">φαρμακοί</foreign> were mentioned, representing the male and female citizens. They were adorned differently, with a necklace of black figs for the male <foreign xml:lang="grc">φαρμακός</foreign> and a necklace of white figs for the female one. <rs key="adornments">(Adornments)</rs> It is also necessary to highlight the different etiological cause for the development of <foreign xml:lang="grc">Θαργήλια</foreign> established by <ref type="author">Photius</ref>/<ref type="author">Helladius</ref> in contrast with what is said by <ref type="author">Hesychius</ref>/<ref type="author">Harpocration</ref>.</p>
+                    
+                    <p><ref type="author">Photius</ref> stated that this festival originated not from the theft by <foreign xml:lang="grc">Φαρμακός</foreign> but from the killing of Minos' son, Androgeus of Crete. However, as it has been observed, almost all sources testify the presence of two <foreign xml:lang="grc">φαρμακοί</foreign> for the Athenian rite of <foreign xml:lang="grc">Θαργήλια</foreign>. It would therefore seem somewhat illogical to suppose the presence of two people to recall the theft made by a single one. Instead, it would be more appropriate to connect this latter explanation to the Ionian context for which sources suggest the presence of a single <foreign xml:lang="grc">φαρμακός</foreign>. For the Athenian rite the most appropriate myth would seem to be that of Androgeus of Crete, whose death was caused by the entire community of Athens. For this reason, the entire citizenry, both male and female, had to be represented in this ritual.</p>
+
+                    <p>Furthermore, <ref type="author">Hesychius</ref>, under the entry for <foreign xml:lang="grc">Θαργήλια</foreign>, wrote:</p>
+
+                    <quote>Ἀπόλλωνος ἑορτή. καὶ ὅλος ὁ μὴν ἱερὸς τοῦ θεοῦ. ἐν δὲ τοῖς Θαργηλίοις τὰς ἀπαρχὰς τῶν φυομένων ποιοῦνται καὶ περικομίζουσι· ταῦτα δὲ θαργήλιά φασι· καὶ μὴν <foreign xml:lang="grc">θαργηλιών</foreign>. καὶ τὴν εὐετηρίαν ἐκάλουν <foreign xml:lang="grc">θάργηλον</foreign>. καὶ Ἀρχίλοχός φησιν· †ὡς φαίε† νῦν ἄγει Ταργήλια καὶ ὁ <foreign xml:lang="grc">θάργηλος</foreign> χύτρα ἐστὶν ἀνάπλεως σπερμάτων (<ref corresp="https://el.wikisource.org/wiki/Γλώσσαι/Θ"></ref>).</quote>
+
+                    <p>Even in the byzantine <title>Suda</title> (<ref corresp="http://www.cs.uky.edu/~raphael/sol/sol-cgi-bin/search.cgi"></ref>) it is stated:</p>
+
+                    <quote>ἑορτὴ ̓Αρτέμιδος καὶ ̓Απόλλωνος. καὶ μὴν Θαργηλιών. καὶ ὁ τῶν σπερμάτων μεστὸς χύτρος ἱεροῦ ἑψέματος. ἥψουν δ' ἐν αὐτῆ ἀπαρχὰς τῶ θεῶ τῶν πεφηνότων καρπῶν, ὀνομαζόμενον ἀπὸ τοῦ θέρειν τὴν γῆν [...]. ἵσταντο δὲ ἐν αὐτῆ καὶ χοροί. καὶ ἀγαθῶν Θαργήλια.</quote>
+
+                    <p>The sources agree in attributing this festival to those celebrated in honor of Apollo (<title>Suda</title> suggests the possibility that it was dedicated also to his sister Artemis). Both lexicons place this celebration in the month of <foreign xml:lang="grc">θαργηλιών</foreign> and they mention a pot in which a stew of first fruits from the first harvest was cooked as offering to the god <rs key="offering">(Offering)</rs>. <title>Suda</title> also reports a greeting pronounced during <foreign xml:lang="grc">Θαργήλια</foreign> <rs key="speech_acts">(Speech Acts)</rs> and informs us that during that occasion there was also a choral contest, also mentioned by <ref type="author">Photius</ref><rs key="ritual_practices">(Ritual Pratices)</rs>.</p>
+
+                    <p>After the purification rite - necessary to celebrate properly a festival connected to agriculture - on the second day of the <foreign xml:lang="grc">Θαργήλια</foreign> a procession <rs key="religious_practices">(Religious practices)</rs> was held to the naos of Apollo Pythion, likely located near the valley of Ilissus <rs key="buildings">(Buildings)</rs>. During this celebration, also a branch of laurel, called <foreign xml:lang="grc">εἰρεσιώνη</foreign>, was carried, symbolizing seasonal renewal after the harsh winter period <rs key="objects">(Objects)</rs>.</p>
+
+                    <p>This πομπή is clearly described by neoplatonic philosopher <ref type="author">Porphyry</ref> in <title>Περὶ ἀποχῆς ἐμψύχων</title> (II, 7). Speaking of offerings brought to the divinities, he lists those paid during Θαργήλια:</p>
+
+                    <quote>Οἷς μαρτυρεῖν ἔοικεν καὶ ἡ Ἀθήνησιν ἔτι καὶ νῦν δρωμένη πομπὴ Ἡλίου τε καὶ Ὡρῶν. Πομπεύει γὰρ εἰλυσπόα ἄγρωστις ἐπὶ πυρηνίων ἡγηρίας, ὄσπρια, δρῦς, μιμαίκυλα, κριθαί, πυροί, παλάθη ἡγητηρία, ἀλεύρων πυρίνων καὶ κριθίνων φθοῖς, ὀρθοστάτης, χύτρος (<ref corresp="http://www.poesialatina.it/_ns/Greek/testi/Porphyrius/De_abstinentia02.html"></ref>).</quote>
+
+                    <p>Instead, referring the words of the rhetorician <ref type="author">Pausanias</ref>, <ref type="author">Eustathius</ref> in his commentary on <title>Iliad</title>title> (XXII, 496) informs us about the <foreign xml:lang="grc">εἰρεσιώνη</foreign> with regard to another festival, the <foreign xml:lang="grc">Πυανέψια</foreign>:</p>
+
+                    <quote>ἐν δὲ τοῖς Παυσανίου κεῖται ταῦτα· εἰρεσιώνη θαλλὸς ἐλαίας, ἐστεμμένος ἐρίῳ, προσκρεμαμένους ἔχων διαφόρους ἐκ γῆς καρπούς· τοῦτον ἐκφέρει παῖς ἀμφιθαλὴς καὶ τίθησι πρὸ τῆς θύρας τοῦ Ἀπόλλωνος ἱεροῦ ἐν τοῖς Πυανεψίοις. λέγεται γάρ, φησί, Θησέα, ὅτε εἰς Κρήτην ἔπλει, προσσχόντα ∆ήλῳ τῇ νήσῳ διὰ χειμῶνα εὔξασθαι Ἀπόλλωνι καταστέψασθαι κλάδοις ἐλαίας, εἰ τὸν Μινώταυρον κτείνας σωθῇ, καὶ θυσιάσειν. καὶ γοῦν τὴν ἱκετηρίαν ταύτην καταστέψας ἑψῆσαι λέγεται χύτρας ἀθάρας καὶ ἔτνους καὶ βωμὸν ἱδρύσασθαι. [...] ἦγον δὲ ἔσθ' ὅτε ταῦτα καὶ ἐπὶ ἀποτροπῇ λιμοῦ. ᾖδον δὲ παῖδες οὕτω «Εἰρεσιώνη σῦκα φέρει καὶ πίονας ἄρτους, καὶ μέλιτος κοτύλην, καὶ ἔλαιον ἐπικρήσασθαι, καὶ κύλικ' εὔζωρον, ἵνα μεθύουσα καθεύδῃ». μετὰ δὲ τὴν ἑορτὴν ἔξω ἀγρῶν τιθέασι παρὰ τὰς θύρας. Κράτης δέ φησιν ἀφορίας ποτὲ κατασχούσης Ἀθήνας, θαλλοὺς καταστέψαντας, ἐρίοις ἱκετηρίαν ἀναθεῖναι Ἀπόλλωνι. Ἀλλαχοῦ δὲ λέγεται καὶ ὅτι στέμμα λευκὸν καὶ φοινικοῦν ἀπήρτητο τοῦ θαλλοῦ, καὶ ὅτι προὐτίθετο ἱκεσία τῷ Ἀπόλλωνι, καθ' ἣν ἡμέραν οἱ περὶ Θησέα σωθῆναι δοκοῦσι, καὶ ὅτι καταχύσματα καὶ κύλικα οἴνου κεκραμένην καταχέοντες αὐτῆς ἐπέλεγον τὴν ῥηθεῖσαν ᾠδήν. (<ref corresp="https://books.google.it/books?id=xEgVAAAAQAAJ&pg=RA1-PA260&lpg=RA1-PA260"></ref>).</quote>
+
+                    <p>A scholiast of <ref type="author">Aristophanes</ref>, commenting on the verse 729 of <title>The Knights</title>, connects the εἰρεσιώνη to the Θαργήλια:</p>
+
+                    <quote>Πυανεψίοις καὶ Θαργηλίοις Ἡλίῳ καὶ “Ὥραις ἑορτάζουσιν ̓Αθηναῖοι. φέρουσι δὲ οἱ παῖδες τούς τε θαλλοὺς ἐρίοις περιειλημμένους, ὅθεν εἰρεσιῶναι λέγονται. καὶ τούτους πρὸ τῶν θυρῶν κρεμῶσιν.</quote>
+
+                    <p>This branch is also mentioned in a scholium to the verse 1045 of <ref type="author">Aristophanes'</ref> <title>Pluto</title>:</p>
+                    
+                    <quote>εἰρεσιώνη. στέμματα πρὸ τῶν πυλῶν περιειλημένα πλακουντικοῖς τισὶ κολλύραις καὶ ἄλλοις τισὶ τοιουτοτρόποις, τοῖς τε ὡραίοις καρποῖς, καὶ ἐλαίῳ ἀποκεκραμένα (<ref corresp="https://books.google.it/books?id=oUMTAAAAYAAJ&pg=RA1-PA65&lpg=RA1-PA65"></ref>).</quote>
+
+                    <p>Also the byzantine lexicon <title>Suda</title>, under the entry <foreign xml:lang="grc">εἰρεσιώνη</foreign>, stated:</p>
+
+                    <quote>Εἰρεσιώνη. θαλλὸς ἐλαίας, ἐστεμμένος ἐρίοις καὶ προσκρεμαμένους ἔχων παντοδαποὺς τῶν ἐκ γῆς καρπῶν. τοῦτον δὲ ἐκφέρει παῖς ἀμφιθαλὴς καὶ τίθησι πρὸ τῆς θύρας τοῦ Ἀπόλλωνος ἱεροῦ τοῖς Πυανεψίοις. [...] Εἰρεσιώνη, κλάδος ἦν ἐλαίας ἐρίοις πεπλεγμένος· ἐξήρτητο δὲ αὐτοῦ τὰ ὡραῖα πάντα. ἵστασαν δὲ αὐτὴν πρὸ τῶν θυρῶν κατὰ παλαιὸν χρησμόν. οἱ μὲν γάρ φασιν, ὡς λοιμοῦ πᾶσαν τὴν γῆν κατασχόντος ὁ θεὸς εἶπε προηρόσια τῇ Δηοῖ ὑπὲρ πάντων θῦσαι θυσίαν Ἀθηναίους· οὗ ἕνεκεν χαριστήρια πανταχόθεν ἐκπέμπουσιν Ἀθήναζε τῶν καρπῶν τὰς ἀπαρχάς. ἄλλως. Πυανεψίοις καὶ Θαργηλίοις Ἡλίῳ καὶ Ὥραις θύουσιν Ἀθηναῖοι: φέρουσι δὲ οἱ παῖδες τὰ προκατειλεγμένα ἀκρόδρυα καὶ ταῦτα πρὸ τῶν θυρῶν κρεμῶσι. κατά τι δὲ χρηστήριον πρὸς ἀποτροπὴν λοιμοῦ ταύτην ἐποίουν τὴν ἀνάρτησιν. Εἰρεσιώνη δὲ λέγεται διὰ τὰ ἔρια.</quote>
+
+                    <p>In <ref type="author">Plutarch</ref>’s <title>Lives of Theseus</title> (XXII, 4–7) it is narrated:</p>
+
+                    <quote>Θάψας δὲ τὸν πατέρα, τῷ Ἀπόλλωνι τὴν εὐχὴν ἀπεδίδου τῇ ἑβδόμῃ τοῦ Πυανεψιῶνος μηνὸς ἱσταμένου· ταύτῃ γὰρ ἀνέβησαν εἰς ἄστυ σωθέντες. [...] τὴν δὲ εἰρεσιώνην ἐκφέρουσι, κλάδον ἐλαίας ἐρίῳ μὲν ἀνεστεμμένον, ὥσπερ τότε τὴν ἱκετηρίαν, παντοδαπῶν δὲ ἀνάπλεων καταργμάτων διὰ τὸ λῆξαι τὴν ἀφορίαν, ἐπᾴδοντες·
+                        <l n="1">Εἰρεσιώνη σῦκα φέρει καὶ πίονας ἄρτους</l> 
+                        <l n="2">καὶ μέλι ἐν κοτύλῃ καὶ ἔλαιον ἀποψήσασθαι</l> 
+                        <l n="3">καὶ κύλικ ̓ εὔζωρον, ὡς ἂν μεθύουσα καθεύδῃ.</l> </quote>
+
+                    <p>In <title>Etymologicum Magnum</title>, a byzantine lexicon dating from the early 12th century AD, we can read similar material on <foreign xml:lang="grc">εἰρεσιώνη</foreign>, including ritual descriptions and the same hymn tradition.</p>
+                    
+                    <quote>Εἰρεσιώνη. εὐμεγέθης κλάδος ἐξ ἐρίων ἔχουσα στέμματα, κλῶνας καὶ ἰσχάδας καὶ τῶν χαθαρῶν ἄκροδρύων ὁρμαθούς. ἢ θάλλος ἐστὶν ἐλαίας πάντας τοὺς καρποὺς ἔχον ἀπηρτισμένους, καὶ στέμμα λευκὸν καὶ φοινικοῦν. προετίθετο δὲ ἱκεσία τῷ Ἀπόλλωνι ἐχείνῃ τῇ ἡμέρᾳ, ᾗ οἱ περὶ Θησέα σωθῆναι δοχοῦσι. καταχύσματα δὲ καὶ κύλικα οἴνου κεκραμένην καταχέοντες αὐτῆς ἐπιλέγουσιν·
+                        <l n="1">Εἰρεσιώνη σῦχα φέρει χαὶ πίονας ἄρτοις,</l> 
+                        <l n="2">καὶ μέλιτος χοτύλην χαὶ ἔλαιον ἀποψήσασθαι</l> 
+                        <l n="3">καὶ χυλιχ ̓ εὐζώροιο οἴνου ἵνα μεθύουσα καθεὕδῃ.</l> </quote>
+
+                    
+                    <p>After having mentioned the main sources on <foreign xml:lang="grc">εἰρεσιώνη</foreign>, it would be useful to summarize what has emerged: the <foreign xml:lang="grc">εἰρεσιώνη</foreign> consisted of branches of olive or laurel carried in a procession for Apollo by a <foreign xml:lang="grc">παῖς ἀμφιθαλὴς</foreign> <rs key="individuals">(Individuals)</rs> a boy with both parents still alive. These branches were probably arranged as garlands to which figs, dried fruits, well-cooked bread, amphoras of oil, honey or wine, as well as fruits of all kinds were attached with ribbons of white and red (or only white) wool (<rs key="offering">Offering</rs>). During this procession, a chant was sung, (<rs key="speach_acts">Speach acts</rs>) praising the abundance that the <foreign xml:lang="grc">εἰρεσιώνη</foreign> was supposed to bring. Subsequently, these branches were sprinkled with wine, attached to the doors of houses for a year and then replaced every year with new flourishing <foreign xml:lang="grc">εἰρεσιώναι</foreign>. The cathartic value linked to the plant is evident: following the advice of a non-specified oracle, whenever there was a famine or a pestilence, the Athenians used to offer an <foreign xml:lang="grc">εἰρεσιώνη</foreign> to Apollo (<rs key="offering">Offering</rs>). This usage is fully in line with the figure of the scapegoat. The apotropaic function linked to <foreign xml:lang="grc">Θαργήλια</foreign>, therefore, was also realized also through the procession with the <foreign xml:lang="grc">εἰρεσιώνη</foreign>. This plant had the function of purifying the land, ensuring proper soil regeneration and promoting the abundance for the future harvest. Just as the <foreign xml:lang="grc">φαρμακός</foreign> guaranteed the purity of the social group of citizens, so the <foreign xml:lang="grc">εἰρεσιώνη</foreign> ensured the fertility and purity of the land of Athens. Such a value confirms the words of <ref type="author">Aelian</ref>, who in <title>Varia Historia</title> asserts that the sixth day of the month of <foreign xml:lang="grc">Thargelion</foreign> brings benefits not only to the Athenians but also to many others (<ref corresp="https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0591:book=2:chapter=25"></ref>).</p>
+            
+  </div>
+                       
+                    
+                  <div type="textpart" n="4">
+    <head>Catalogue of occurrences</head>
+
+    <p>Ael. VH (2, 25) <ref corresp="https://penelope.uchicago.edu/aelian/varhist2.html#chap25"></ref></p>
+    <p>D.L. (2.5.44) <ref corresp="https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0004.tlg001.perseus-grc2:2.5.44"></ref></p>
+    <p>D.L. (3.1.2) <ref corresp="https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0004.tlg001.perseus-grc2:3.1.2"></ref></p>
+    <p>EM (v. εἰρεσιώνη) <ref corresp=""></ref></p>
+    <p>Eust., ad Il. XXII, 496 <ref corresp=""></ref></p>
+    <p>Harp. (see Θαργήλια) <ref corresp=""></ref></p>
+    <p>Harp. (see φαρμακός) <ref corresp=""></ref></p>
+    <p>Hsch. (see Θαργήλια) <ref corresp=""></ref></p>
+    <p>Hsch. (see φαρμακός) <ref corresp=""></ref></p>
+    <p>Hippon. (fr. 104 W2.) <ref corresp="http://www.poesialatina.it/_ns/greek/testi/Hipponax/Fragmenta.html"></ref></p>
+    <p>Phot., Bibl. (7, 534a) <ref corresp=""></ref></p>
+    <p>Plu., Thes. (XXII, 4-7) <ref corresp=""></ref></p>
+    <p>P.Oxy. XVIII 2175 <ref corresp="https://papyri.info/dclp/60201"></ref></p>
+    <p>Porphyr. Abstin. (2, 7) <ref corresp=""></ref></p>
+    <p>Schol. ad Eq. 729 <ref corresp=""></ref></p>
+    <p>Schol. ad Pl. 1054 <ref corresp=""></ref></p>
+    <p>Suid. (see Θαργήλια) <ref corresp=""></ref></p>
+    <p>Suid. (see εἰρεσιώνη) <ref corresp=""></ref></p>
+</div>
+                 
+                    <div type="textpart" n="5">
+                    <head>Discussion / Interpretation</head>
+      
+                    <p><foreign xml:lang="grc">Θαργήλια</foreign> was a <rs key="festival">purification festival</rs>, an overall social and physical regeneration of <rs key="place">Athens</rs> – primarily of the soil and then of the society as a whole – which involved forms of <rs key="practice">ritual expulsion</rs> useful for eliminating the danger of plagues or famines. It occurred during the month <foreign xml:lang="grc">Thargelion</foreign>, which is entirely dedicated to purification, primarily of the city through the rite of the <rs key="practice">φαρμακός</rs> and subsequently also of its poliadic deity through the rites of the <rs key="practice">Καλλυντήρια</rs> and <rs key="festival">Πλυντήρια</rs>, in which the temple and the statue of Athena Polias were cleaned. This time of the year, in fact, precedes the harvest season and therefore requires the utmost attention regarding <rs key="practice">apotropaic rites</rs> and <rs key="practice">auspicious purification</rs> in order to ensure the success of an abundant harvest.</p>
+                </div> 
+                    
+                    
+           <div type="bibliography">
+                    <head>Bibliography</head>
+                        <p>Jan Bremmer, Scapegoat Rituals in Ancient Greece in «Harvard Studies in Classical Philology» 87, Harvard, 1983, pp. 299–320.</p>
+                        <p>Jan Bremmer, Greek Religion and Culture, the Bible and the Ancient Near East, Leiden, Brill, 2008.</p>
+                        <p>Walter Burkert, Griechische Religion der archaischen und klassichen Epoche, Stuttgart, Verlag W. Kohlhammer, 1977.</p>
+                        <p>Walter Burkert, Structure and History in Greek Mythology and Ritual, Berkeley, University of California Press, 1979.</p>
+                        <p>Romina Carboni, “...come uno che ha gettato via gli oggetti delle purificazioni, senza volgere gli occhi”. Liminarità e impurità nel mondo greco in «OTIVM. Archeologia e Cultura del Mondo Antico» 2, Cagliari, 2017, pp. 1–28.</p>
+                        <p>Todd M. Compton, Victim of the Muses: Poet as Scapegoat, Warrior and Hero in Greco-Roman and Indo-European Myth and History, Washington (DC), Center for Hellenic Studies, 2006.</p>
+                        <p>Mika Kajava, Purificare l'impuro nel mondo greco: come, quando, perché in «Otium. Archeologia e Cultura del Mondo Antico» 2, 2017, pp. 1–13.</p>
+                        <p>Alessandra Manieri, Le Targelie ateniesi nei lessicografi antichi in «Rivista di Filologia e di Istruzione Classica» 143, Torino, 2015, pp. 61–75.</p>
+                        <p>Miriam Padovan, Il φαρμακός: considerazioni su un istituto panellenico in Carlo Pelloso (ed.), Atene e oltre. Saggi sul diritto dei greci, Napoli, Jovene editore, 2016, pp. 643–703.</p>
+                        <p>Robert Parker, Miasma. Pollution and Purification in Early Greek Religion, Oxford, Oxford University Press, 1983.</p>
+                        <p>Uberto Pestalozza, Le Tharghelie ateniesi in «Studi e Materiali di Storia delle Religioni» 6, Roma, 1930–1931.</p>
+                        <p>Leonardo Sacco, Il pharmakos nelle fonti antiche e nella Storia delle religioni. Alcune valutazioni critiche in «Mythos [online]» 12, 2018, <ref corresp="http://journals.openedition.org/mythos/325"></ref>, consulted on 30 December 2023.</p>
+                        <p>Erika Simon, Festivals of Attica. An Archaeological Commentary, Madison (WI), The University of Wisconsin Press, 1983.</p>
+                    </div>      
+                </div>    
+            </div>    
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Yom Kippur</title>
+                <title xml:lang="en">Yom Kippur</title>
+                <title xml:lang="pl">Yom Kippur</title>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://site.unibo.it/lares/">LARES Project</ref>
+                </publisher>
+                <date when="2026"/>
+                <idno type="filename">lexicon_yom_kippur</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                        Creative Commons Attribution-ShareAlike 4.0 International
+                    </licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <p>Born digital document.</p>
+            </sourceDesc>
+        </fileDesc>
+
+        <revisionDesc>
+            <listChange>
+                <change when="2024-09-25" who="Francesco_Pio_Cancellieri ">Wtote an entry</change>
+                <change when="2026-05-17" who="Slawomir_Bobola">Encoded in XML</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+
+        <body>
+
+            <div type="edition" xml:lang="en">
+
+                <div type="textpart" n="1">
+                    <head>Morphology</head>
+                        <p>
+                        <foreign xml:lang="he">הכיפורים</foreign> (<foreign xml:lang="he-Latn">Yom Ha-Kippurim</foreign>), n. Hebrew
+                        <foreign xml:lang="he">כִּפּוּר</foreign> (<foreign xml:lang="he-Latn">Yom Kippur</foreign>), n. Hebrew.
+                        </p>
+                </div>
+                
+                <div type="textpart" n="2">
+                    <head>Etymology</head>
+                
+                <p>The most common name <foreign xml:lang="he">כִּפּוּר</foreign> (Day of Atonement) appears only in the Middle Ages. Instead, the Hebrew Bible and the Tannaitic and Amoraic documents refer to it as <foreign xml:lang="he">יום הכיפורים</foreign> (Day of Atonements). Both definitions describe the solemnity in relation to its purpose, namely the repentance from sins. Following this line, also the Septuagint (<bibl>Lv. 23, 27</bibl> and <bibl>25, 9</bibl>) translates the term with the expression <foreign xml:lang="grc">ἡ ἡμέρα τοῦ ἐξιλασμοῦ</foreign> (Day of Atonement), also used by many other ancient Christian authors.</p>
+
+                <p>However, other names are attested. In some Qumranic and rabbinic sources (<bibl>1QPesher Habakkuk XI, 7–8</bibl>; <bibl>yBer 4,1, 7b–7c</bibl>; <bibl>yPe’ah 7,4, 20b–21b and 8,9</bibl>; <bibl>yTer 8,5, 45c</bibl>; <bibl>bTem 29a</bibl>) the term <foreign xml:lang="he">צ֣וֹם</foreign> (fasting) is frequently present, emphasizing the practice through which forgiveness was granted. For this reason, also <persName>Josephus</persName> (<bibl>AJ 17, 165–166 and 18,94</bibl>) and <persName>Philo</persName> in some of his works made use of the lemma <foreign xml:lang="grc">νηστεία</foreign>.</p>
+
+                <p>Instead, the importance given by the Jewish religious community to this day is stressed by <bibl>Lv. 16,31</bibl> using the expression <foreign xml:lang="he">שַׁבָּת֥וֹן שַׁבַּ֨ת</foreign>, translated accurately by the Septuagint as <foreign xml:lang="grc">σάββατα σαββάτων</foreign>. Also <persName>Philo</persName> in <title>De specialibus legibus</title> (<bibl>2, 193–194</bibl>) insisted on this point, calling Yom Kippur <foreign xml:lang="grc">ἐορτῶν τὴν μεγίστην</foreign> (the holiest holiday). Significantly, the fifth tractate of <title>Seder Moed</title> in the <title>Mishnah</title> — centered on Yom Kippur — is called <foreign xml:lang="he">יומא</foreign> (the day), as this celebration was considered “the day” par excellence.</p>
+
+                <p>All things considered, as stated by <persName>Ben Ezra</persName> (2003), p. 17: <quote>«three principal names are used for Yom Kippur, expressing its purpose (atonement, propitiation, expiation, forgiveness), its general practice (fast, affliction), or its solemnity».</quote></p>
+                    
+                </div>
+                
+                <div type="textpart" n="3">
+                    <head>Testimonies</head>
+                
+                    <p>The most detailed account of this celebration is given by <title>Mishnah Yoma</title>title>, a treatise generally attributed to <ref type="author">Shim’on Mitzoeh</ref> or <ref type="author">Zechariah ben Qabutar</ref> and composed around 220 CE. Despite the fact that it was written more than a century after the destruction of the Second Temple, some of the practices described might preserve the memory of past traditions, as the oral mishnahic tradition was elaborated in a period when the Second Temple was still standing. The challenge that this text presents, therefore, lies in identifying which elements of the ritual were already present in the Second Temple tradition and which were post-Temple developments.</p>
+
+                    <p>The precise description of this ritual is also found in the Bible, in Leviticus 16 <ref corresp="https://www.sefaria.org/Leviticus.16?lang=bi&aliyot=0"></ref>, but it is also mentioned in Lev 23, 27–32 <ref corresp="https://www.sefaria.org/Leviticus.23.27?lang=bi&aliyot=0"></ref> and 25, 9–10 <ref corresp="https://www.sefaria.org/Leviticus.25.9?lang=bi&aliyot=0"></ref>; Ex 30, 10 <ref corresp="https://www.sefaria.org/Exodus.30.10?lang=bi&aliyot=0"></ref>; Num 29, 7–11 <ref corresp="https://www.sefaria.org/Numbers.29.7?lang=bi&aliyot=0"></ref>.</p>  
+                </div>
+    
+                <div type="textpart" n="4">
+                    <head>Catalogue of occurrences</head>
+                    
+                <p>Mishnah Yoma <ref corresp="https://www.sefaria.org/Mishnah_Yoma.1?lang=bi"></ref></p>
+                <p>Mishnah Ta’anit <ref corresp="https://www.sefaria.org/Mishnah_Ta'anit.1?lang=bi"></ref></p>
+                <p>Lev 16 1-34 <ref corresp="https://www.sefaria.org/Leviticus.16?lang=bi&aliyot=0"></ref></p>
+                <p>Lev 23, 27-32 <ref corresp="https://www.sefaria.org/Leviticus.23.27?lang=bi&aliyot=0"></ref></p>
+                <p>Lev 25, 9-10 <ref corresp="https://www.sefaria.org/Leviticus.25.9?lang=bi&aliyot=0"></ref></p>
+                <p>Ex 30,10 <ref corresp="https://www.sefaria.org/Exodus.30.10?lang=bi&aliyot=0"></ref></p>
+                <p>Num 29, 7-11 <ref corresp="https://www.sefaria.org/Numbers.29.7?lang=bi&aliyot=0"></ref></p>
+                <p>Tert. De ieiunio adversus Psychicos 16, 6 <ref corresp="https://www.tertullian.org/latin/de_ieiunio.htm"></ref></p>
+                <p>Plutarch, Quaest. conv. IV, 6, 2 <ref corresp="https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0007.tlg112.perseus-grc2:4.6.2/"></ref></p>
+                <p><ref type="author">Theodoret of Cyrrhus</ref>, <title>Quaestiones in Octateuchum</title>, XXXII </p>
+                
+                </div>    
+                  
+                 <div type="textpart" n="5">
+                    <head>Discussion / Interpretation</head>
+               
+                <p><rs key="practice">Yom Kippur</rs> is a <rs key="practice">religious Jewish holiday</rs> with <rs key="action_benevolent">expiatory purposes</rs>. It has the function of purifying the <rs key="place">Temple of Jerusalem</rs> from the contamination (<rs key="practice">purity/impurity</rs>) caused by the sins (<rs key="practice">purity/impurity</rs>) of the Jewish people (<rs key="group">ethnic group</rs>).</p>
+
+                <p>As there are no mentions of this rite in any documents before the Babylonian captivity, it is very likely that it originated in the post-exilic period. It is also possible that the rite evolved over time and gradually gained importance: this could easily explain the absence of mentions of this celebration in sources prior to 586 BC.</p>
+
+                <p>The articulation of the ritual is very complex. The <foreign xml:lang="he">Mishnah Yoma</foreign> 1,1–2 states that the High Priest (<rs key="agent">high priest</rs>), who officiates the rite, must withdraw from society seven days before the beginning of the celebration (<rs key="practice">ritual preparation</rs>). He stays in a room in the Temple called <foreign xml:lang="he">Lishkat Parhedrin</foreign> (<rs key="building">Temple chamber</rs>) in order to avoid contamination. During this week, according to rabbinic tradition, he would also dedicate himself to reading biblical passages, including excerpts from Job (<rs key="practice">study practice</rs>).</p>
+
+                <p>On the designated day, at sunrise, the Tamid, namely the daily sacrifice, takes place (<rs key="action_benevolent">cultic sacrifice</rs>). Then, the purification and vesting ceremonies for the officiant begin (<rs key="action_benevolent">ritual purification</rs>). In Leviticus 16:4 it is also written: 
+                
+                    <quote>“He is to put on the sacred linen tunic, with linen undergarments next to his body; he is to tie the linen sash around him and put on the linen turban. These are sacred garments; so he must bathe himself with water before he puts them on.”</quote>
+                    
+                Evidently, the text insists on the obligation to use linen (<rs key="object">clothing</rs>). This specific material has a very important sacral function as it is also worn by angels (<rs key="deity">semi-divine beings</rs>) who have the possibility to move close to the throne (<rs key="object">divine throne</rs>) of YHWH (<rs key="deity">YHWH</rs>) (Ez 9,2–3; 10,2; Dn 10,5). Thus, it comes as no surprise that linen is also present in a celebration in which the High Priest must enter the <foreign xml:lang="he">קֹדֶשׁ הַקֳּדָשִׁים</foreign> (Qodesh ha-Qodashim), namely the Sancta Sanctorum, the inner part of the Temple (<rs key="place">inner sanctuary</rs>) where the Ark of the Covenant (<rs key="object">Ark of the Covenant</rs>) is placed. In fact, the entrance into the adyton of the Temple was always forbidden to everyone, except during the observance of Yom Kippur (<rs key="practice">legal exception</rs>): in that place YHWH displays his <foreign xml:lang="he">kavod</foreign>, that is his overwhelming divine power (<rs key="agency">divine manifestation</rs>). For this reason, it was necessary that every part of the sacramental garment used in the ritual is made of linen so that the High Priest could not transfer any harmful influence into the holiest place.</p>
+
+                <p>After these rituals, he offers “a young bull for a sin offering and a ram for a burnt offering” (<rs key="action_benevolent">sacrificial offering</rs>) (Lev 16:3). Then he kills the bull as a sacrificial victim for his own sins and those of his family (<rs key="action_benevolent">expiatory sacrifice</rs>). Subsequently, the Jewish community offers “two male goats for a sin offering and a ram for a burnt offering” (Lev 16:5) (<rs key="action_benevolent">community sacrifice</rs>). <foreign xml:lang="he">Mishnah Yoma</foreign> 6,1 specifies that “they will both be identical in appearance, i.e., color, and in height, and in monetary value, and their acquisition must be as one, i.e., they must be purchased together”. At this point, the High Priest is required to select which goat will be designated for Azazel and which one for YHWH (<rs key="practice">selection ritual</rs>).</p>
+
+                <p>Azazel (Heb. <foreign xml:lang="he">עזאזל</foreign>) (<rs key="deity">demonic figure</rs>) is a mysterious figure on whose identity biblical exegesis has not yet reached a consensus. His name appears only four times in the Old Testament and only in Leviticus 16 (8, 26 and twice in 10). The main hypothesis is that Azazel is a demonic creature opposed to YHWH. This idea would be confirmed by later Enochic literature. In 1 Enoch the name of Azazel appears nine times (8,1; 9,6; 10,4 and 10,8; 13,1–2; 54,5; 55,4; 69,2): he was one of the fallen angels who tried to corrupt mankind by teaching men how to build weapons and by instructing women in the use of cosmetics (<rs key="action_malevolent">corruptive teaching</rs>). In 1 Enoch 10:4 it is written that YHWH commanded the angel Raphael to exile Azazel in a desolate place called Dudael (<rs key="place">desert place</rs>), covering him with sharp rocks. He will remain in darkness for a long time, awaiting to be burned in the fire on the Day of Judgment (<rs key="action_malevolent">eschatological punishment</rs>). Thus, the desert to which the goat is sent could be a reference to the place where this demon of Jewish tradition was imprisoned. Anyways, in Leviticus 16 Azazel is nothing but a simple name, incapable of any actions other than passively receiving the goat dedicated to him.</p>
+
+                <p>After the devotio to Azazel and to YHWH, the High Priest enters the Qodesh. He must therefore burn incense (<rs key="action_benevolent">incense ritual</rs>) in order to create a cloud used as a screen (<rs key="object">ritual barrier</rs>) between the Ark of the Covenant and the High Priest. Indeed, as mentioned before, it is in the adyton that divine power manifests. For this reason, direct contact with the divine <foreign xml:lang="he">kavod</foreign> would have caused the certain death of the High Priest.</p>
+
+                <p>Shielded by the cloud of incense, the High Priest purifies the <foreign xml:lang="he">כפרת</foreign> (kapporet), namely the golden slab that covers the Ark of the Covenant (<rs key="object">kapporet</rs>). As Leviticus 16:14–15 states:
+                    
+                <quote>“He is to take some of the bull’s blood and with his finger sprinkle it on the front of the atonement cover; then he shall sprinkle some of it with his finger seven times before the atonement cover. He shall then slaughter the goat for the sin offering for the people and take its blood behind the curtain and do with it as he did with the bull’s blood: He shall sprinkle it on the atonement cover and in front of it.”</quote>
+                    
+                Then the High Priest must purify the entire Sancta Sanctorum and the external altar (<rs key="action_benevolent">ritual purification</rs>).</p>
+
+                <p>After the purification rites, the High Priest places both hands on the head of the goat devoted to Azazel and confesses all the sins of the Jewish people. Then the goat is sent into the desert (<rs key="action_malevolent">scapegoat expulsion</rs>). Anyways, the dedication of the goat to Azazel does not resemble a sacrifice since none of sacrificial actions are performed, neither a sacrificial killing nor a special use of the victim's blood. Instead, this rite has a clear function of catharsis: the expulsion of the goat for Azazel into the desert signifies the removal of sins committed by the Jewish community by transferring them onto the head of the goat (<rs key="action_benevolent">cathartic transfer</rs>). As stated in Leviticus 16:21:
+     
+                    <quote>
+                    “He is to lay both hands on the head of the live goat and confess over it all the wickedness and rebellion of the Israelites — all their sins — and put them on the goat’s head. He shall send the goat away into the wilderness in the care of someone appointed for the task.”</quote>
+      
+                <ref type="author">Hartley</ref> (1992, p. 238) in this regard effectively summarizes: 
+                    
+                    <quote>“If Azazel was a demon, this rite means that the sins carried by the goat were returned to this demon for the purpose of removing them from the community and leaving them at their source in order that their power or effect in the community might be completely broken.”</quote>
+                    
+                However, the expulsion into the desert or impervious areas of animals loaded with social evil was a form of catharsis commonly widespread in the context of the ancient Mediterranean. Such rituals were also attested in the Babylonian, Hittite, and North Syrian contexts.</p>
+
+                <p>Subsequent to the expulsion of the goat for Azazel, the High Priest ends the ritual. He takes off his linen garments, performs another ablution and — dressed in his ordinary clothes — offers the two burnt offerings. Therefore he orders that the remains of the sacrificial animals must be burned (<rs key="action_benevolent">closing ritual</rs></p>
+
+                <p>Another relevant question is how the Jewish people participated in this celebration. Leviticus 16:31 states that:
+                    
+                    <quote>“It is a day of sabbath rest, and you must deny yourselves; it is a lasting ordinance.”</quote>
+                    
+                It prescribes abstention from work and practices of general affliction (<rs key="practice">ascetic practices</rs>). These practices are more specifically detailed in <foreign xml:lang="he">Mishnah Yoma</foreign> 8,1 but also in <foreign xml:lang="he">Mishnah Ta’anit</foreign> 4,8 as well as by Tertullian (<ref type="author">Tertullian</ref>, De ieiunio adversus Psychicos 16,6), Plutarch (<ref type="author">Plutarch</ref>, Questiones conviviales IV,6,2) and Theodoret of Cyrus (<ref type="author">Theodoret of Cyrus</ref>, Quaestiones in Octateuchum XXXII). These sources reveal that forms of asceticism were often accompanied by prayers (<rs key="practice">prayer practice</rs>) and moments of exultation and convivial joy (<rs key="practice">ritual joy</rs>), in “an ambivalent mix of afflictions and joy” as stated by <ref type="author">Stökl Ben Ezra</ref> (2003, p. 36).</p>
+
+                <p>The destruction of the Second Temple in 70 CE by Titus, following the First Jewish–Roman War, provoked a reconfiguration of the Yom Kippur ritual, as the Sancta Sanctorum and the kapporet — objects of worship — were destroyed. For this reason, the main focus was placed on prayers and practices of affliction. Moreover, the ritual of expulsion of the goat for Azazel was replaced by the kapparót (<rs key="practice">post-temple ritual</rs>).</p>
+
+                <p>The origins of this atonement ritual are still unknown: its first attestation can be found in a letter from ca. 650 CE by Rev. Sheshna, a rabbi from the Geonic period (589–1038). From his words, however, it is clear that even in his time the kapparót was already widely known. This practice must therefore date back to an earlier period. It involves the use of a rooster (it can also be substituted with a bag of coins or beans), whose head is waved over the head of the believer for whom absolution is sought. Later, the animal is donated to charity (<rs key="action_benevolent">charitable act</rs>). During the ritual, prayers that underline the substitute value of the victim are recited (<rs key="practice">prayer practice</rs>).</p>
+
+  </div>
+</div>
+                
+                <div type="bibliography">
+                <p>Douglas (1999) = Mary Douglas, Leviticus as Literature, Oxford, Oxford University Press, 1999.</p>
+                <p>Hamilton (2005) = Victor P. Hamilton, Handbook on the Pentateuch: Genesis, Exodus, Leviticus, Numbers, Deuteronomy [1982], Grand Rapids (MI), Baker Academic.</p>
+                <p>Hartley (1992) = John E. Hartley, Word Biblical Commentary. Leviticus (Volume 4), Grand Rapids (MI), Zondervan, 1992.</p>
+                <p>Milgrom (1991) = Jacob Milgrom, Leviticus 1–16. A New Translation with Introduction and Commentary (The Anchor Bible v. 3), New York, Doubleday, 1991.</p>
+                <p>Stökl Ben Ezra (2003) = Daniel Stökl Ben Ezra, The Impact of Yom Kippur on Early Christianity. The Day of Atonement from Second Temple Judaism to the Fifth Century, Tübingen, Mohr Siebeck.</p>
+                <p>Vogels (2021) = Walter Vogels, Levitico. Celebrazione e santità (ed. or. Célébration et sainteté. Le Lévitique, Paris, Les Éditions du Cerf, 2015), Brescia, Editrice Queriniana, 2021.</p>
+                <p>Watts (2023) = James W. Watts, Leviticus 11–20. Historical commentary on the Old Testament, Leuven, Peeters, 2023</p>
+                </div>
+            
+        </body>
+    </text>
+</TEI>
