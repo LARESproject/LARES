@@ -31,6 +31,10 @@ Elementi utilizzati finora:
 - Links to TLG, Perseus, LARES entries, bibliography: `<ref corresp="">`
 - Emphasized terms (bold): `<emph>` (not `<hi rend="bold">`!)
 
+Indicazioni importanti:
+- I nomi dei file possono contenere solamente caratteri latini, numeri o `_` (quindi no spazi, altra punteggiatura o caratteri greci o in altri alfabeti)
+- Il simbolo `&` va sempre sostituito con `&amp;`, anche all'interno dei link
+
 
 ## DOCUMENTAZIONE TECNICA
 
