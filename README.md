@@ -1,19 +1,10 @@
 LARES Lexicon
 ====
 
-**LARES Lexicon** has been built with EpiDoc Front-End Services (EFES). **EFES** is a free, easy to use, highly customisable platform for the online publication of ancient texts in EpiDoc XML. EFES allows the creation of multiple indices, search and browse interface, geographical visualisation, and integration with linked open data. EFES is a fork of **Kiln**, an open source multi-platform framework for building and deploying complex websites whose source content is primarily in XML.
+LARES Language and Religion: Lexical Change and Variation in Religious Enculturation / Acculturation phenomena of the Ancient World.
+The website includes the TEI EpiDoc lemmata of the lexicon and the TEI chapters of the 4-volumes series “Blood sacrifice in Ancient Greece in the light of philological data”.
 
-
-EFES and Kiln code and documentation
-====
-
-* https://github.com/EpiDoc/EFES
-
-* https://github.com/EpiDoc/EFES/wiki/
-
-* https://github.com/kcl-ddh/kiln/
-
-* http://kiln.readthedocs.org/en/latest/
+The Lexicon was built with EpiDoc Front-End Services ([EFES](https://github.com/EpiDoc/EFES)).
 
 -----
 
