@@ -2,6 +2,19 @@ ul.index-instances {
    margin-bottom: 0;
 }
 
+.index-table-wrapper {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.search-results ul {
+    margin-left: 1em;
+}
+
+.row {
+    width: 85%;
+}
+
 .index-instance-file {
     font-weight: bolder;
 }

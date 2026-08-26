@@ -182,8 +182,8 @@
               </ul>
             </div>
             
-            <h4>Date <span id="date-slider-label"></span></h4>
-            <div id="date-slider-widget" data-range-min="-500" data-range-max="1600" data-value-min="-200" data-value-max="1400" data-step="25" data-label-prefix="" data-label-suffix="A.D." data-field-name="origin_date" />
+            <!--<h4>Date <span id="date-slider-label"></span></h4>
+            <div id="date-slider-widget" data-range-min="-500" data-range-max="1600" data-value-min="-200" data-value-max="1400" data-step="25" data-label-prefix="" data-label-suffix="A.D." data-field-name="origin_date" />-->
           </form>
           <!-- List of currently applied facets. -->
           <xsl:apply-templates mode="search-results" select="/aggregation/response/lst[@name='responseHeader']/lst[@name='params']/*[@name='fq']" />
@@ -191,7 +191,7 @@
           <xsl:apply-templates select="/aggregation/response/lst[@name='facet_counts']/lst[@name='facet_fields']"
                                mode="search-results" />
         </div>
-        <div class="large-8 columns">
+        <div class="large-8 columns search-results">
           <xsl:apply-templates select="/aggregation/response/result"
                                mode="search-results" />
         </div>
